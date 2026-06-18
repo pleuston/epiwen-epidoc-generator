@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · EpiDoc generator for Chinese inscriptions / 中文碑刻 EpiDoc 生成器</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="lang-both">
+    <header class="topbar">
+      <div class="brand">
+        <strong>Epiwen</strong> · EpiDoc generator for Chinese stone inscriptions
+        <span class="zh">中文碑刻 EpiDoc 生成器</span>
+      </div>
+      <div class="controls">
+        <div class="langtoggle" role="group" aria-label="interface language">
+          <button data-lang="en" type="button">EN</button>
+          <button data-lang="zh" type="button">中</button>
+          <button data-lang="both" type="button" class="active">EN+中</button>
+        </div>
+        <button id="btn-example" type="button" class="btn">Load example / 範例</button>
+        <button id="btn-reset" type="button" class="btn">Reset / 清空</button>
+        <button id="btn-copy" type="button" class="btn primary">Copy XML</button>
+        <button id="btn-download" type="button" class="btn primary">Download .xml</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section id="form" class="pane form" aria-label="metadata form"></section>
+      <section class="pane preview" aria-label="EpiDoc output">
+        <div class="preview-head">
+          <span>EpiDoc / TEI XML</span>
+          <span id="validity" class="validity"></span>
+        </div>
+        <pre><code id="out"></code></pre>
+      </section>
+    </main>
+
+    <footer class="foot">
+      Client-side only — nothing is uploaded; the XML is built live in your
+      browser. Vocabularies mirror the Stone Sutras thesaurus and are editable in
+      <code>vocab.js</code>. Modelled on the
+      <a href="https://tools.fdm.uni-hamburg.de/mdg/generator_metadata_epidoc.html"
+        >Hamburg Metadata Generator for EpiDoc</a
+      >.
+    </footer>
+
+    <script src="vocab.js"></script>
+    <script src="generator.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

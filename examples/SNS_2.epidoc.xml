@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Mañjuśrī Prajñā passage, Mount Shuiniu (stele recto)</title>
+        <title xml:lang="zh-Hant">水牛山《文殊師利所説摩訶般若波羅蜜經》碑陽正法節文</title>
+        <editor role="editor">Epiwen contributor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">SNS_2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>China 中國</country>
+            <settlement>Wenshang 汶上</settlement>
+            <repository>in situ 原處</repository>
+            <idno type="inventory">SNS_2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Northern Qi cliff/stele excerpt of the Mañjuśrī Prajñā-pāramitā sūtra.</summary>
+            <msItem>
+              <title ref="cbeta:T08n0232" xml:lang="zh-Hant">文殊師利所説摩訶般若波羅蜜經</title>
+              <title xml:lang="en" type="translated">Sūtra of Perfection of Wisdom Spoken by Mañjuśrī</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="aat:300011286">limestone 石灰岩</material>
+                  <objectType ref="sst:stele">stele 碑</objectType>
+                  <dimensions unit="cm">
+                    <height>210</height>
+                    <width>92</width>
+                    <depth>24</depth>
+                  </dimensions>
+                </support>
+                <condition>weathered; lower register effaced 風化，下段漫漶</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="12"/>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script="sst:regular-script">regular script 楷書</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="#chinese" datingMethod="#reign-era" when="0575" notBefore="0575" notAfter="0575">北齊武平六年</origDate>
+              <origPlace ref="geonames:0000000">Mount Shuiniu 水牛山</origPlace>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="zh">Literary Chinese 漢文</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#stonesutras">
+          <term ref="sst:perfection-of-wisdom">Perfection of Wisdom 般若</term>
+          <term ref="sst:cliff-carved-sutra">cliff-carved sutra 摩崖刻經</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-06-18" who="#epiwen">Initial EpiDoc encoding via the Epiwen generator.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="images/SNS_2.jpg"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="edition" xml:lang="zh-Hant" xml:space="preserve">
+        <ab>
+          <lb n="1"/>
+          文殊師利白佛言
+          <lb n="2"/>
+          世尊云何名般若波羅蜜
+          <lb n="3"/>
+          佛言般若波羅蜜無邊無際
+        </ab>
+      </div>
+      <div type="translation" xml:lang="en">
+        <p>Mañjuśrī addressed the Buddha: 'World-Honoured One, what is called the Perfection of Wisdom?'</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl>Wenzel, Claudia. Buddhist Stone Sutras in Shandong, vol. 1.</bibl>
+          <bibl>Ledderose, Ledderose et al., catalogue no. SNS_2.</bibl>
+        </listBibl>
+      </div>
+    </body>
+  </text>
+</TEI>
