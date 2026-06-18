@@ -1,20 +1,22 @@
 /* app.js — DOM wiring for the Epiwen EpiDoc generator.
- * Schema-driven bilingual form + a repeatable "texts on this object" block
- * (several texts sharing one support → multiple <div type="textpart">).
- * Keeps a flat `state` object and re-serializes via EpiDocGen.buildEpiDoc()
- * on every edit. No framework. */
+ * Schema-driven bilingual form + repeatable "texts on this object" block.
+ * Right pane: toggle between live XML view and a readable HTML preview card.
+ * SessionStorage "epiwen_preload" allows catalog.html to load a record into
+ * the form ("Edit" button). */
 (function () {
   "use strict";
-  var V = window.VOCAB;
+  var V     = window.VOCAB;
   var build = window.EpiDocGen.buildEpiDoc;
 
-  // ---- state -------------------------------------------------------------
+  // ---- state ---------------------------------------------------------------
   var state = {
     authority: "Epiwen / Altergraphy",
     langIdent: "zh",
     langLabel: "Literary Chinese 漢文",
     texts: [{ lang: "zh-Hant" }]
   };
+  var _viewMode = "xml"; // "xml" | "preview"
+
   var pad4 = function (n) { return String(n).padStart(4, "0"); };
   var setVal = function (key, v) {
     var el = document.getElementById("f-" + key);
@@ -22,12 +24,12 @@
   };
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
 
-  // ---- vocab pick handlers (object level) -------------------------------
-  function pickMaterial(o) { state.material = o.zh + " " + o.en; state.materialRef = o.ref; }
-  function pickObjectType(o) { state.objectType = o.zh + " " + o.en; state.objectTypeRef = o.ref; }
-  function pickScript(o) { state.script = o.zh + " " + o.en; state.scriptRef = o.ref; }
-  function pickLanguage(o) { state.langIdent = o.ident; state.langLabel = o.en; }
-  function pickLicence(o) { state.licence = o.label; state.licenceTarget = o.target; setVal("licenceTarget", o.target); }
+  // ---- vocab pick handlers -------------------------------------------------
+  function pickMaterial(o)   { state.material = o.zh + " " + o.en; state.materialRef = o.ref; }
+  function pickObjectType(o) { state.objectType = o.zh + " · " + o.en; state.objectTypeRef = o.ref; }
+  function pickScript(o)     { state.script = o.zh + " " + o.en; state.scriptRef = o.ref; }
+  function pickLanguage(o)   { state.langIdent = o.ident; state.langLabel = o.en; }
+  function pickLicence(o)    { state.licence = o.label; state.licenceTarget = o.target; setVal("licenceTarget", o.target); }
   function pickEra(o) {
     state._era = o;
     state.notBefore = pad4(o.start); state.notAfter = pad4(o.end);
@@ -50,7 +52,7 @@
       .map(function (l) { var p = l.split("|"); return { label: (p[0] || "").trim(), ref: (p[1] || "").trim() }; });
   }
 
-  // ---- schema (object-level fields) -------------------------------------
+  // ---- schema (object-level fields) ----------------------------------------
   var SECTIONS = [
     { en: "Identity", zh: "著錄", fields: [
       { key: "filename", en: "File name", zh: "檔名", ph: "SNS_2.xml" },
@@ -128,7 +130,7 @@
     ]}
   ];
 
-  // ---- repeatable texts (several texts on one object) --------------------
+  // ---- repeatable texts (several texts on one object) ----------------------
   var textsBox = null;
   function renderTextsSection() {
     var wrap = document.createElement("div");
@@ -163,13 +165,19 @@
     var sel = document.createElement("select");
     sel.innerHTML = '<option value="">—</option>' +
       V.SUTRAS.map(function (o, j) { return '<option value="' + j + '">' + esc(o.zh + " · " + o.en + " (" + o.cbeta + ")") + "</option>"; }).join("");
+    // Pre-select if cbeta matches (used when loading from sessionStorage)
+    if (tx.cbeta) {
+      for (var j = 0; j < V.SUTRAS.length; j++) {
+        if (V.SUTRAS[j].cbeta === tx.cbeta) { sel.value = String(j); break; }
+      }
+    }
     sel.addEventListener("change", function () {
       var j = parseInt(sel.value, 10);
       if (isNaN(j)) return;
       var o = V.SUTRAS[j];
       tx.sutraTitleZh = o.zh; tx.sutraTitleEn = o.en; tx.cbeta = o.cbeta; tx.taisho = o.taisho;
-      var z = document.getElementById("f-text-" + i + "-sutraTitleZh"); if (z) z.value = o.zh;
-      var cb = document.getElementById("f-text-" + i + "-cbeta"); if (cb) cb.value = o.cbeta;
+      var z  = document.getElementById("f-text-" + i + "-sutraTitleZh"); if (z)  z.value  = o.zh;
+      var cb = document.getElementById("f-text-" + i + "-cbeta");        if (cb) cb.value = o.cbeta;
       update();
     });
     w.appendChild(sel); return w;
@@ -187,19 +195,19 @@
     }
     box.appendChild(head);
     var row = document.createElement("div"); row.className = "field row";
-    row.appendChild(tField(tx, i, "label", "Face / locus", "面／位置", "碑陽 recto"));
-    row.appendChild(tField(tx, i, "subtype", "subtype", "類別", "recto"));
-    row.appendChild(tField(tx, i, "lang", "Lang code", "語言碼", "zh-Hant"));
+    row.appendChild(tField(tx, i, "label",   "Face / locus", "面／位置", "碑陽 recto"));
+    row.appendChild(tField(tx, i, "subtype", "subtype",       "類別",     "recto"));
+    row.appendChild(tField(tx, i, "lang",    "Lang code",     "語言碼",   "zh-Hant"));
     box.appendChild(row);
     box.appendChild(tSutra(tx, i));
-    box.appendChild(tField(tx, i, "sutraTitleZh", "Sutra title (zh)", "經題（中）"));
-    box.appendChild(tField(tx, i, "cbeta", "CBETA id", "CBETA 編號", "T08n0235"));
-    box.appendChild(tField(tx, i, "editionText", "Transcription (one line per source line)", "錄文（每行對應原石一行）", "", true, true));
-    box.appendChild(tField(tx, i, "translationText", "Translation", "翻譯", "", true, false));
+    box.appendChild(tField(tx, i, "sutraTitleZh",    "Sutra title (zh)", "經題（中）"));
+    box.appendChild(tField(tx, i, "cbeta",           "CBETA id",         "CBETA 編號", "T08n0235"));
+    box.appendChild(tField(tx, i, "editionText",     "Transcription (one line per source line)", "錄文（每行對應原石一行）", "", true, true));
+    box.appendChild(tField(tx, i, "translationText", "Translation",       "翻譯", "", true, false));
     return box;
   }
 
-  // ---- render object-level fields ---------------------------------------
+  // ---- render object-level fields ------------------------------------------
   function labelSpan(f) {
     return '<span class="label"><span class="en">' + esc(f.en) + "</span>" +
       (f.zh ? '<span class="zh">' + esc(f.zh) + "</span>" : "") + "</span>";
@@ -268,7 +276,101 @@
     setVal("authority", state.authority);
   }
 
-  // ---- preview -----------------------------------------------------------
+  // ---- HTML preview card ---------------------------------------------------
+  function buildHtmlPreviewFromState(s) {
+    function row(label, val) {
+      if (!val && val !== 0) return "";
+      return "<dt>" + esc(label) + "</dt><dd>" + esc(String(val)) + "</dd>";
+    }
+    function sec(title, rows) {
+      var r = rows.filter(Boolean).join("");
+      if (!r) return "";
+      return '<section class="hp-section"><h4 class="hp-st">' + esc(title) +
+             '</h4><dl class="hp-dl">' + r + '</dl></section>';
+    }
+    var dims = [s.heightCm, s.widthCm, s.depthCm].filter(Boolean).join(" × ");
+    var html = '<div class="hp-preview">';
+    html += sec("Identity", [
+      row("File",       s.filename),
+      row("Title (EN)", s.titleEn),
+      row("Title (ZH)", s.titleZh),
+      row("Editor",     s.editor),
+      row("Summary",    s.summary),
+    ]);
+    html += sec("Holding", [
+      row("Country",    s.country),
+      row("Region",     s.currentRegion),
+      row("Settlement", s.currentSettlement),
+      row("Repository", s.repository),
+      row("Inventory",  s.inventoryNo),
+    ]);
+    html += sec("Physical", [
+      row("Material",  s.material),
+      row("Type",      s.objectType),
+      dims ? row("H × W × D", dims + " cm") : "",
+      row("Condition", s.condition),
+      (s.layoutColumns || s.layoutLines)
+        ? row("Columns / lines", [s.layoutColumns, s.layoutLines].filter(Boolean).join(" / "))
+        : "",
+      row("Script", s.script),
+    ]);
+    html += sec("Date & place", [
+      row("Date (written)", s.origDateText),
+      s.whenISO ? row("When", s.whenISO + " CE") : "",
+      row("Place", s.origPlace),
+    ]);
+    if (s.langLabel) {
+      html += sec("Language", [row(s.langIdent || "lang", s.langLabel)]);
+    }
+    var texts = s.texts || [];
+    if (texts.length) {
+      html += '<section class="hp-section"><h4 class="hp-st">Texts on this object</h4>';
+      texts.forEach(function (tx, i) {
+        var label = tx.label || tx.subtype || ("Text " + (i + 1));
+        html += '<div class="hp-textpart"><div class="hp-textpart-head">' +
+                (i + 1) + ". " + esc(label) + "</div>";
+        html += '<dl class="hp-dl">';
+        if (tx.sutraTitleZh) html += row("Text",     tx.sutraTitleZh);
+        if (tx.cbeta)        html += row("CBETA",    tx.cbeta);
+        if (tx.lang)         html += row("Language", tx.lang);
+        if (tx.editionText) {
+          var lines = tx.editionText.split("\n");
+          var preview = lines.slice(0, 4).join("\n");
+          html += "<dt>Transcription</dt><dd><pre class=\"hp-text\">" +
+                  esc(preview) + (lines.length > 4 ? "\n…" : "") + "</pre></dd>";
+        }
+        if (tx.translationText) {
+          var tp = tx.translationText.length > 120
+            ? tx.translationText.slice(0, 120) + "…"
+            : tx.translationText;
+          html += row("Translation", tp);
+        }
+        html += "</dl></div>";
+      });
+      html += '</section>';
+    }
+    html += '</div>';
+    return html;
+  }
+
+  // ---- view toggle (editor right pane) -------------------------------------
+  function setEditorView(mode) {
+    _viewMode = mode;
+    var htmlPane = document.getElementById("preview-html");
+    var xmlPane  = document.getElementById("preview-xml");
+    var btnPrev  = document.getElementById("btn-view-preview");
+    var btnXml   = document.getElementById("btn-view-xml");
+    if (htmlPane) htmlPane.style.display = mode === "preview" ? "block" : "none";
+    if (xmlPane)  xmlPane.style.display  = mode === "xml"     ? "block" : "none";
+    if (btnPrev)  btnPrev.classList.toggle("active", mode === "preview");
+    if (btnXml)   btnXml.classList.toggle("active",  mode === "xml");
+    if (mode === "preview") {
+      var el = document.getElementById("preview-html");
+      if (el) el.innerHTML = buildHtmlPreviewFromState(cleanState());
+    }
+  }
+
+  // ---- output --------------------------------------------------------------
   function cleanState() {
     var d = {};
     Object.keys(state).forEach(function (k) { if (k[0] !== "_" && k !== "keywords_raw") d[k] = state[k]; });
@@ -277,6 +379,10 @@
   function update() {
     var xml = build(cleanState());
     document.getElementById("out").textContent = xml;
+    if (_viewMode === "preview") {
+      var el = document.getElementById("preview-html");
+      if (el) el.innerHTML = buildHtmlPreviewFromState(cleanState());
+    }
     var v = document.getElementById("validity");
     try {
       var doc = new DOMParser().parseFromString(xml, "application/xml");
@@ -285,7 +391,57 @@
     } catch (e) { v.textContent = ""; }
   }
 
-  // ---- buttons -----------------------------------------------------------
+  // ---- sessionStorage preload (catalog "Edit" → editor) -------------------
+  function tryMatchVocab(selectId, arr, labelFn, val, pickFn) {
+    if (!val) return;
+    var sel = document.getElementById("f-" + selectId);
+    if (!sel) return;
+    var low = String(val).toLowerCase().trim();
+    for (var i = 0; i < arr.length; i++) {
+      var o = arr[i];
+      var lbl = labelFn(o).toLowerCase();
+      if (lbl === low || lbl.indexOf(low) !== -1 || (o.zh && low.indexOf(o.zh.toLowerCase()) !== -1)) {
+        sel.value = String(i);
+        pickFn(o);
+        return;
+      }
+    }
+  }
+
+  function preloadFromSession() {
+    var raw = sessionStorage.getItem("epiwen_preload");
+    if (!raw) return;
+    sessionStorage.removeItem("epiwen_preload");
+    try {
+      var loaded = JSON.parse(raw);
+      Object.keys(loaded).forEach(function (k) { state[k] = loaded[k]; });
+      if (!state.texts || !state.texts.length) state.texts = [{ lang: "zh-Hant" }];
+
+      // Set all simple (non-vocab, non-array) fields
+      Object.keys(state).forEach(function (k) {
+        if (k[0] === "_" || k === "texts" || k === "keywords" || k === "keywords_raw") return;
+        setVal(k, state[k]);
+      });
+      // Keywords textarea
+      if (loaded.keywords && loaded.keywords.length) {
+        state.keywords_raw = loaded.keywords.map(function (kw) {
+          return kw.label + (kw.ref ? " | " + kw.ref : "");
+        }).join("\n");
+        setVal("keywords", state.keywords_raw);
+      }
+      // Match and pre-select vocab dropdowns
+      tryMatchVocab("_material",   V.MATERIALS,    function (o) { return o.zh + " " + o.en; },   loaded.material,   pickMaterial);
+      tryMatchVocab("_objectType", V.OBJECT_TYPES, function (o) { return o.zh + " · " + o.en; }, loaded.objectType, pickObjectType);
+      tryMatchVocab("_script",     V.SCRIPTS,      function (o) { return o.zh + " " + o.en; },   loaded.script,     pickScript);
+      tryMatchVocab("_language",   V.LANGS,        function (o) { return o.en; },                loaded.langLabel,  pickLanguage);
+      tryMatchVocab("_licence",    V.LICENCES,     function (o) { return o.label; },             loaded.licence,    pickLicence);
+
+      renderTexts();
+      update();
+    } catch (e) { console.warn("epiwen_preload parse error", e); }
+  }
+
+  // ---- buttons -------------------------------------------------------------
   function lang(which) {
     document.body.className = "lang-" + which;
     Array.prototype.forEach.call(document.querySelectorAll(".langtoggle button"), function (b) {
@@ -310,10 +466,10 @@
     _toastTimer = setTimeout(function () { el.classList.remove("show"); }, 3000);
   }
   function propose() {
-    var xml = build(cleanState());
+    var xml   = build(cleanState());
     var fname = (state.filename || "epidoc-record.xml").replace(/\.xml$/i, "") + ".xml";
-    var url = "https://github.com/pleuston/epiwen-epidoc-generator/new/main" +
-              "?filename=" + encodeURIComponent("records/" + fname);
+    var url   = "https://github.com/pleuston/epiwen-epidoc-generator/new/main" +
+                "?filename=" + encodeURIComponent("records/" + fname);
     if (navigator.clipboard) {
       navigator.clipboard.writeText(xml).then(function () {
         window.open(url, "_blank", "noopener");
@@ -366,17 +522,31 @@
     update();
   }
 
-  // ---- init --------------------------------------------------------------
+  // ---- init ----------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", function () {
     render();
+
+    // Language toggle
     Array.prototype.forEach.call(document.querySelectorAll(".langtoggle button"), function (b) {
       b.addEventListener("click", function () { lang(b.dataset.lang); });
     });
+
+    // Right-pane view toggle
+    var btnPrev = document.getElementById("btn-view-preview");
+    var btnXml  = document.getElementById("btn-view-xml");
+    if (btnPrev) btnPrev.addEventListener("click", function () { setEditorView("preview"); });
+    if (btnXml)  btnXml.addEventListener("click",  function () { setEditorView("xml"); });
+
+    // Top bar buttons
     document.getElementById("btn-copy").addEventListener("click", copy);
     document.getElementById("btn-propose").addEventListener("click", propose);
     document.getElementById("btn-download").addEventListener("click", download);
     document.getElementById("btn-reset").addEventListener("click", function () { location.reload(); });
     document.getElementById("btn-example").addEventListener("click", loadExample);
+
+    // Preload from catalog "Edit" button (via sessionStorage)
+    preloadFromSession();
+
     update();
   });
 })();

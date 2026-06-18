@@ -34,12 +34,19 @@
         </section>
       </div>
 
-      <div class="catalog-preview">
+      <div class="catalog-preview" id="cat-preview-panel">
         <div class="preview-head">
           <span id="preview-title">Select a record to preview</span>
-          <button id="preview-copy" class="btn small" style="display:none">Copy XML</button>
+          <div class="preview-head-right">
+            <div class="view-toggle" id="cat-view-toggle" style="display:none">
+              <button class="view-btn cat-view-btn active" data-view="html">Preview</button>
+              <button class="view-btn cat-view-btn"        data-view="xml">XML</button>
+            </div>
+            <button id="preview-copy" class="btn small" style="display:none">Copy XML</button>
+          </div>
         </div>
-        <pre><code id="preview-out" class="catalog-xml"></code></pre>
+        <div id="cat-html-view" class="hp-pane" style="display:none"></div>
+        <pre id="cat-xml-view" style="display:none"><code id="preview-out" class="catalog-xml"></code></pre>
       </div>
 
     </div>

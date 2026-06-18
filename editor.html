@@ -47,10 +47,14 @@
       <section id="form" class="pane form" aria-label="metadata form"></section>
       <section class="pane preview" aria-label="EpiDoc output">
         <div class="preview-head">
-          <span>EpiDoc / TEI XML</span>
+          <div class="view-toggle">
+            <button class="view-btn" id="btn-view-preview">Preview</button>
+            <button class="view-btn active" id="btn-view-xml">XML</button>
+          </div>
           <span id="validity" class="validity"></span>
         </div>
-        <pre><code id="out"></code></pre>
+        <div id="preview-html" class="hp-pane" style="display:none"></div>
+        <pre id="preview-xml"><code id="out"></code></pre>
       </section>
     </main>
 
