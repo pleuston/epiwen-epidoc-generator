@@ -301,6 +301,29 @@
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1500);
   }
   function copy() { if (navigator.clipboard) navigator.clipboard.writeText(build(cleanState())); }
+  var _toastTimer = null;
+  function showToast(msg) {
+    var el = document.getElementById("toast");
+    if (!el) return;
+    el.textContent = msg; el.classList.add("show");
+    clearTimeout(_toastTimer);
+    _toastTimer = setTimeout(function () { el.classList.remove("show"); }, 3000);
+  }
+  function propose() {
+    var xml = build(cleanState());
+    var fname = (state.filename || "epidoc-record.xml").replace(/\.xml$/i, "") + ".xml";
+    var url = "https://github.com/pleuston/epiwen-epidoc-generator/new/main" +
+              "?filename=" + encodeURIComponent("records/" + fname);
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(xml).then(function () {
+        window.open(url, "_blank", "noopener");
+        showToast("XML copied — paste it into the editor on GitHub");
+      });
+    } else {
+      window.open(url, "_blank", "noopener");
+      showToast("Open the GitHub editor — copy XML from the right panel and paste");
+    }
+  }
 
   var EXAMPLE = {
     filename: "SNS_2.xml", editor: "Epiwen contributor",
@@ -350,6 +373,7 @@
       b.addEventListener("click", function () { lang(b.dataset.lang); });
     });
     document.getElementById("btn-copy").addEventListener("click", copy);
+    document.getElementById("btn-propose").addEventListener("click", propose);
     document.getElementById("btn-download").addEventListener("click", download);
     document.getElementById("btn-reset").addEventListener("click", function () { location.reload(); });
     document.getElementById("btn-example").addEventListener("click", loadExample);

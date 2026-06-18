@@ -94,6 +94,14 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .btn.small { padding: 0.15rem 0.45rem; font-size: 0.75rem; }
 #btn-add-text { margin-top: 0.2rem; }
 
+#toast {
+  position: fixed; bottom: 1.6rem; left: 50%; transform: translateX(-50%);
+  background: #1a1a1a; color: #fff; padding: 0.45rem 1.1rem;
+  border-radius: 8px; font-size: 0.82rem; pointer-events: none;
+  opacity: 0; transition: opacity 0.2s; z-index: 999; white-space: nowrap;
+}
+#toast.show { opacity: 1; }
+
 .foot { padding: 0.5rem 1rem; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--line); }
 .foot a { color: var(--accent); }
 
