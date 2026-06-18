@@ -101,6 +101,31 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
   opacity: 0; transition: opacity 0.2s; z-index: 999; white-space: nowrap;
 }
 #toast.show { opacity: 1; }
+#toast.toast-error { background: var(--bad); }
+
+/* ---- small icon button (gear, etc.) ---- */
+.btn-icon {
+  padding: 0.27rem 0.5rem; font-size: 0.9rem; line-height: 1;
+  min-width: 0; border-radius: 5px;
+}
+
+/* ---- GitHub settings modal form ---- */
+.modal-desc { font-size: 0.83rem; color: var(--muted); margin: 0 0 1rem; line-height: 1.5; }
+.modal-desc a { color: var(--accent); }
+.modal-desc code { font-size: 0.8rem; background: var(--field-bg); border: 1px solid var(--line); border-radius: 3px; padding: 0 0.25rem; }
+.gh-form { display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 1.1rem; }
+.gh-label { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.8rem; color: var(--muted); font-weight: 500; }
+.gh-input {
+  width: 100%; padding: 0.38rem 0.6rem; border: 1px solid var(--line); border-radius: 5px;
+  font-size: 0.85rem; font-family: inherit; background: var(--field-bg); color: var(--ink);
+}
+.gh-input:focus { outline: none; border-color: var(--accent); }
+.gh-actions { display: flex; gap: 0.5rem; }
+
+/* ---- hint bar "or" divider ---- */
+.hint-or {
+  color: var(--muted); font-style: italic; font-size: 0.78rem; padding: 0 0.1rem;
+}
 
 .foot { padding: 0.5rem 1rem; font-size: 0.72rem; color: var(--muted); border-top: 1px solid var(--line); }
 .foot a { color: var(--accent); }

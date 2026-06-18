@@ -26,9 +26,10 @@
         </div>
         <button id="btn-example"  type="button" class="btn">Load example / 範例</button>
         <button id="btn-reset"    type="button" class="btn">Reset / 清空</button>
-        <button id="btn-copy"     type="button" class="btn primary">① Copy XML</button>
-        <button id="btn-propose"  type="button" class="btn primary">② Propose to GitHub</button>
-        <button id="btn-download" type="button" class="btn">Download .xml</button>
+        <button id="btn-copy"        type="button" class="btn primary">① Copy XML</button>
+        <button id="btn-save-github" type="button" class="btn primary">② Save to GitHub</button>
+        <button id="btn-gh-settings" type="button" class="btn btn-icon" title="GitHub settings" aria-label="GitHub settings">⚙</button>
+        <button id="btn-download"    type="button" class="btn">Download .xml</button>
         <button data-workflow-modal type="button" class="btn">? How to</button>
       </div>
     </header>
@@ -36,11 +37,9 @@
     <div class="editor-hint">
       <span class="step">① Fill the form</span>
       <span class="arrow">→</span>
-      <span class="step">② <strong>Copy XML</strong> to clipboard</span>
-      <span class="arrow">→</span>
-      <span class="step">③ <strong>Propose to GitHub</strong> — opens web editor</span>
-      <span class="arrow">→</span>
-      <span class="step">④ Paste &amp; submit PR</span>
+      <span class="step">② <strong>Save to GitHub</strong> — commits directly</span>
+      <span class="arrow hint-or">or</span>
+      <span class="step">② <strong>Copy XML</strong> → paste in GitHub web editor</span>
     </div>
 
     <main class="layout">
@@ -70,6 +69,7 @@
     <script src="vocab.js"></script>
     <script src="generator.js"></script>
     <script src="app.js"></script>
+    <script src="github.js"></script>
     <script src="modal.js"></script>
   </body>
 </html>
