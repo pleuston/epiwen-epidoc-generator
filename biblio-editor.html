@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Bibliography Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <style>
+      .contrib-row {
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: .5rem .6rem .4rem;
+        margin-bottom: .4rem;
+        background: var(--bg-subtle, #fafafa);
+      }
+      .contrib-row .contrib-main {
+        display: flex;
+        gap: .4rem;
+        align-items: flex-end;
+        flex-wrap: wrap;
+      }
+      .contrib-row .contrib-main label { flex: 1; min-width: 6rem; }
+      .contrib-row .contrib-main label.contrib-role-label { flex: 0 0 7rem; }
+      .contrib-row .contrib-aux {
+        display: flex;
+        gap: .6rem;
+        margin-top: .3rem;
+        align-items: flex-end;
+        flex-wrap: wrap;
+      }
+      .contrib-row .contrib-aux label { flex: 1; min-width: 5rem; font-size: .82em; }
+      .contrib-row .contrib-aux label.contrib-href-label { flex: 0 0 11rem; }
+      .section-head {
+        font-weight: 600;
+        color: var(--text-muted);
+        font-size: .82em;
+        margin: .7rem 0 .35rem;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+      }
+      .biblio-type-section { display: none; }
+      .biblio-type-section.active { display: block; }
+      .form-row-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+        margin-bottom: .5rem;
+      }
+      .form-row-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
+        margin-bottom: .5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="catalog.html" class="brand-home">Epiwen</a>
+      </div>
+      <nav class="sitenav">
+        <a href="catalog.html"                 class="sitenav-link">Objects</a>
+        <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"    class="sitenav-link">Rubbings</a>
+        <a href="sites.html"                   class="sitenav-link">Sites</a>
+        <a href="authorities.html"             class="sitenav-link">Authorities</a>
+        <a href="bibliography.html"            class="sitenav-link active">Bibliography</a>
+        <a href="docs.html"                    class="sitenav-link">Docs</a>
+      </nav>
+      <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
+    </header>
+
+    <div class="about-layout">
+
+      <!-- ── Form pane ── -->
+      <div class="about-pane" style="overflow-y:auto">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2 id="editor-heading">Bibliography record</h2>
+            <div class="catalog-head-actions">
+              <a href="bibliography.html" class="btn small">← Back</a>
+            </div>
+          </div>
+
+          <div id="biblio-form" style="padding:.5rem 0">
+
+            <!-- ── Key + type ── -->
+            <div style="display:flex;gap:.7rem;align-items:flex-end;margin-bottom:.6rem">
+              <label class="form-label" style="flex:2">
+                Citation key (MODS ID)
+                <input type="text" id="f-key" class="form-input"
+                       placeholder="Ledderose2000" autocomplete="off" />
+              </label>
+              <label class="form-label" style="flex:1.2">
+                Reference label
+                <input type="text" id="f-reference" class="form-input"
+                       placeholder="Ledderose 2000" />
+              </label>
+              <label class="form-label" style="flex:1">
+                Type
+                <select id="f-pub-type" class="form-input">
+                  <option value="monograph">Monograph</option>
+                  <option value="article">Journal article</option>
+                  <option value="chapter">Book chapter</option>
+                  <option value="thesis">Thesis</option>
+                  <option value="website">Website</option>
+                </select>
+              </label>
+            </div>
+
+            <!-- ── Titles ── -->
+            <p class="section-head">Titles</p>
+
+            <div style="display:flex;gap:.6rem;align-items:flex-end;margin-bottom:.4rem">
+              <label class="form-label" style="flex:3">
+                Primary title
+                <input type="text" id="f-title-primary" class="form-input"
+                       placeholder="Ten Thousand Things: Module and Mass Production in Chinese Art" />
+              </label>
+              <label class="form-label" style="flex:0 0 5.5rem">
+                Lang
+                <select id="f-title-lang" class="form-input">
+                  <option value="en">en</option>
+                  <option value="zh">zh</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-row-2">
+              <label class="form-label">
+                Title (Chinese / Japanese)
+                <input type="text" id="f-title-zh" class="form-input"
+                       placeholder="萬物：中國藝術中的模件化與規模生產" />
+              </label>
+              <label class="form-label">
+                Pinyin title <span class="catalog-date">(when ZH is primary)</span>
+                <input type="text" id="f-title-pinyin" class="form-input"
+                       placeholder="Wan wu: Zhongguo yishu zhong de mojian hua…" />
+              </label>
+            </div>
+
+            <label class="form-label" style="display:block;margin-bottom:.6rem">
+              EN translation <span class="catalog-date">(when primary is ZH)</span>
+              <input type="text" id="f-title-en-trans" class="form-input"
+                     placeholder="Ten Thousand Things: Module and Mass Production…" />
+            </label>
+
+            <!-- ── Contributors ── -->
+            <p class="section-head">Contributors</p>
+            <div id="contrib-list"></div>
+            <div style="display:flex;gap:.4rem;margin-bottom:.6rem;flex-wrap:wrap">
+              <button type="button" class="btn small" id="btn-add-author">+ Author</button>
+              <button type="button" class="btn small" id="btn-add-editor">+ Editor</button>
+              <button type="button" class="btn small" id="btn-add-translator">+ Translator</button>
+              <button type="button" class="btn small" id="btn-add-etal">+ et al.</button>
+            </div>
+
+            <!-- ── Monograph section ── -->
+            <div id="section-monograph" class="biblio-type-section">
+              <p class="section-head">Publication details</p>
+              <div class="form-row-3">
+                <label class="form-label">Year
+                  <input type="text" id="f-year" class="form-input" placeholder="2000" />
+                </label>
+                <label class="form-label">Place (EN)
+                  <input type="text" id="f-place-en" class="form-input" placeholder="Princeton" />
+                </label>
+                <label class="form-label">Place (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-place-zh" class="form-input" placeholder="北京" />
+                </label>
+              </div>
+              <div class="form-row-2" style="margin-bottom:.5rem">
+                <label class="form-label">Publisher (EN)
+                  <input type="text" id="f-pub-en" class="form-input" placeholder="Princeton University Press" />
+                </label>
+                <label class="form-label">Publisher (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-pub-zh" class="form-input" placeholder="文物出版社" />
+                </label>
+              </div>
+              <div class="form-row-2" style="margin-bottom:.5rem">
+                <label class="form-label">Series <span class="catalog-date">optional</span>
+                  <input type="text" id="f-series" class="form-input"
+                         placeholder="Bollingen Series XXXV" />
+                </label>
+                <label class="form-label">Volumes <span class="catalog-date">optional, e.g. 3 vols.</span>
+                  <input type="text" id="f-volumes" class="form-input" placeholder="3 vols." />
+                </label>
+              </div>
+            </div>
+
+            <!-- ── Article section ── -->
+            <div id="section-article" class="biblio-type-section">
+              <p class="section-head">Journal</p>
+              <div class="form-row-2" style="margin-bottom:.4rem">
+                <label class="form-label">Journal title (EN)
+                  <input type="text" id="f-journal" class="form-input"
+                         placeholder="Journal of the International Association of Buddhist Studies" />
+                </label>
+                <label class="form-label">Journal title (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-journal-zh" class="form-input" placeholder="佛學研究" />
+                </label>
+              </div>
+              <label class="form-label" style="display:block;margin-bottom:.5rem">
+                Journal authority key <span class="catalog-date">(href without #, e.g. JIABS)</span>
+                <input type="text" id="f-journal-href" class="form-input"
+                       style="max-width:14rem" placeholder="JIABS" />
+              </label>
+              <div class="form-row-3" style="margin-bottom:.5rem">
+                <label class="form-label">Volume
+                  <input type="text" id="f-volume" class="form-input" placeholder="34" />
+                </label>
+                <label class="form-label">Issue / No.
+                  <input type="text" id="f-issue" class="form-input" placeholder="1–2" />
+                </label>
+                <label class="form-label">Year
+                  <input type="text" id="f-art-year" class="form-input" placeholder="2012" />
+                </label>
+              </div>
+              <div class="form-row-2" style="margin-bottom:.5rem">
+                <label class="form-label">Page start
+                  <input type="text" id="f-page-start" class="form-input" placeholder="227" />
+                </label>
+                <label class="form-label">Page end
+                  <input type="text" id="f-page-end" class="form-input" placeholder="290" />
+                </label>
+              </div>
+            </div>
+
+            <!-- ── Chapter section ── -->
+            <div id="section-chapter" class="biblio-type-section">
+              <p class="section-head">Host volume</p>
+              <div class="form-row-2" style="margin-bottom:.4rem">
+                <label class="form-label">Host title (EN)
+                  <input type="text" id="f-host-title" class="form-input"
+                         placeholder="A Distant Mirror" />
+                </label>
+                <label class="form-label">Host title (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-host-title-zh" class="form-input" placeholder="遠鏡" />
+                </label>
+              </div>
+              <label class="form-label" style="display:block;margin-bottom:.5rem">
+                Host citation key <span class="catalog-date">(href without #, if host is a MODS record)</span>
+                <input type="text" id="f-host-href" class="form-input"
+                       style="max-width:14rem" placeholder="Lin_Radich2014" />
+              </label>
+              <p class="section-head">Host editors</p>
+              <div id="host-editor-list"></div>
+              <div style="margin-bottom:.6rem">
+                <button type="button" class="btn small" id="btn-add-host-editor">+ Add host editor</button>
+              </div>
+              <div class="form-row-2" style="margin-bottom:.4rem">
+                <label class="form-label">Host place (EN)
+                  <input type="text" id="f-host-place-en" class="form-input" placeholder="Hamburg" />
+                </label>
+                <label class="form-label">Host place (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-host-place-zh" class="form-input" placeholder="漢堡" />
+                </label>
+              </div>
+              <div class="form-row-2" style="margin-bottom:.5rem">
+                <label class="form-label">Host publisher (EN)
+                  <input type="text" id="f-host-pub-en" class="form-input"
+                         placeholder="Hamburg University Press" />
+                </label>
+                <label class="form-label">Host publisher (ZH) <span class="catalog-date">optional</span>
+                  <input type="text" id="f-host-pub-zh" class="form-input" placeholder="文物出版社" />
+                </label>
+              </div>
+              <div class="form-row-3" style="margin-bottom:.5rem">
+                <label class="form-label">Year
+                  <input type="text" id="f-chap-year" class="form-input" placeholder="2014" />
+                </label>
+                <label class="form-label">Page start
+                  <input type="text" id="f-chap-page-start" class="form-input" placeholder="471" />
+                </label>
+                <label class="form-label">Page end
+                  <input type="text" id="f-chap-page-end" class="form-input" placeholder="512" />
+                </label>
+              </div>
+            </div>
+
+            <!-- ── Thesis section ── -->
+            <div id="section-thesis" class="biblio-type-section">
+              <p class="section-head">Thesis</p>
+              <div class="form-row-3" style="margin-bottom:.5rem">
+                <label class="form-label" style="grid-column:1/3">Degree note
+                  <input type="text" id="f-thesis-note" class="form-input"
+                         placeholder="Ph.D. diss." />
+                </label>
+                <label class="form-label">Year
+                  <input type="text" id="f-thesis-year" class="form-input" placeholder="2007" />
+                </label>
+              </div>
+              <label class="form-label" style="display:block;margin-bottom:.5rem">
+                Institution
+                <input type="text" id="f-thesis-inst" class="form-input"
+                       placeholder="Harvard University" />
+              </label>
+            </div>
+
+            <!-- ── Website section ── -->
+            <div id="section-website" class="biblio-type-section">
+              <p class="section-head">Website</p>
+              <label class="form-label" style="display:block;margin-bottom:.4rem">URL
+                <input type="url" id="f-url" class="form-input"
+                       placeholder="https://example.org/page" />
+              </label>
+              <div class="form-row-3" style="margin-bottom:.5rem">
+                <label class="form-label" style="grid-column:1/3">Site / host title <span class="catalog-date">optional</span>
+                  <input type="text" id="f-website-title" class="form-input"
+                         placeholder="CBETA Online" />
+                </label>
+                <label class="form-label">Year accessed
+                  <input type="text" id="f-web-year" class="form-input" placeholder="2024" />
+                </label>
+              </div>
+              <label class="form-label" style="display:block;margin-bottom:.5rem">
+                Date captured (ISO) <span class="catalog-date">optional</span>
+                <input type="text" id="f-date-captured" class="form-input"
+                       style="max-width:11rem" placeholder="2024-06-01" />
+              </label>
+            </div>
+
+            <!-- ── Identifiers ── -->
+            <p class="section-head">Identifiers</p>
+            <div class="form-row-2" style="margin-bottom:.6rem">
+              <label class="form-label">DOI
+                <input type="text" id="f-doi" class="form-input"
+                       placeholder="10.1234/example" />
+              </label>
+              <label class="form-label">ISBN / ISSN
+                <input type="text" id="f-isbn" class="form-input"
+                       placeholder="978-0-691-00741-3" />
+              </label>
+            </div>
+
+            <!-- ── Notes ── -->
+            <label class="form-label">Notes <span class="catalog-date">optional, free text</span>
+              <textarea id="f-notes" class="form-input" rows="3"
+                        style="resize:vertical;margin-bottom:0"
+                        placeholder="Preserved in MODS &lt;note&gt;"></textarea>
+            </label>
+
+            <!-- ── Actions ── -->
+            <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem;padding-bottom:1rem">
+              <button class="btn primary" id="btn-save-github">② Save to GitHub</button>
+              <button class="btn small" id="btn-gh-settings" type="button">⚙ GitHub settings</button>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- ── Preview pane ── -->
+      <div class="catalog-preview" id="biblio-preview-panel">
+        <div class="preview-head">
+          <span id="preview-title">XML preview</span>
+          <div class="preview-head-right">
+            <button id="biblio-preview-copy" class="btn small">Copy XML</button>
+          </div>
+        </div>
+        <pre class="hp-pane" style="margin:0;padding:.8rem;overflow:auto;font-size:.78rem"><code id="biblio-xml-out"></code></pre>
+      </div>
+
+    </div>
+
+    <footer class="foot">
+      Source:
+      <a href="https://github.com/pleuston/epiwen-epidoc-generator"
+         target="_blank" rel="noopener">github.com/pleuston/epiwen-epidoc-generator</a>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="github.js"></script>
+    <script src="biblio-app.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
