@@ -811,6 +811,20 @@
     if (_btnCfg) _btnCfg.addEventListener("click", function () {
       if (window.EpiGitHub) EpiGitHub.showSettings();
     });
+
+    // Preload from catalog "Edit" button (via sessionStorage)
+    var _preloadRaw = sessionStorage.getItem("epiwen_preload_rubbing");
+    if (_preloadRaw) {
+      sessionStorage.removeItem("epiwen_preload_rubbing");
+      try {
+        var _preload = JSON.parse(_preloadRaw);
+        Object.keys(_preload).forEach(function (k) { state[k] = _preload[k]; });
+        var _formEl = document.getElementById("form");
+        if (_formEl) _formEl.innerHTML = "";
+        _agBox = null; _paBox = null;
+        renderForm(); refreshSubtypes(); update();
+      } catch (e) { console.warn("epiwen_preload_rubbing parse error", e); }
+    }
   });
 
 })();

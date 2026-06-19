@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Sites</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="catalog.html" class="brand-home">Epiwen</a>
+      </div>
+      <nav class="sitenav">
+        <a href="catalog.html"                  class="sitenav-link" data-tab="objects">Objects</a>
+        <a href="catalog.html?tab=inscriptions"  class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"     class="sitenav-link" data-tab="rubbings">Rubbings</a>
+        <a href="sites.html"                    class="sitenav-link active">Sites</a>
+        <a href="authorities.html"              class="sitenav-link">Authorities</a>
+        <a href="bibliography.html"             class="sitenav-link">Bibliography</a>
+        <a href="docs.html"                     class="sitenav-link">Docs</a>
+      </nav>
+      <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
+    </header>
+
+    <main class="docs-pane">
+
+      <section class="about-hero">
+        <h1>Sites</h1>
+        <p>
+          Site records for the monument complexes that bear the inscriptions —
+          cliff-carved sutra sites, sutra stele sites, cave-temple complexes,
+          and mountain sites across North China. Each site groups the objects
+          and inscriptions physically located there.
+        </p>
+        <p class="coming-soon">
+          Site browser coming soon.
+        </p>
+      </section>
+
+    </main>
+
+    <footer class="foot">
+      Source:
+      <a href="https://github.com/pleuston/epiwen-epidoc-generator"
+         target="_blank" rel="noopener">github.com/pleuston/epiwen-epidoc-generator</a>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="modal.js"></script>
+  </body>
+</html>

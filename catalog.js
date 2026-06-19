@@ -79,9 +79,12 @@
     var surrogateEl = relItemEls.find(function (el) {
       return el.getAttribute("type") === "surrogateOf";
     });
-    var surrogateOf = surrogateEl
-      ? (surrogateEl.getAttribute("target") || txt(surrogateEl))
-      : "";
+    var surrogateOf = "";
+    if (surrogateEl) {
+      var ptrEl = surrogateEl.getElementsByTagNameNS(NS, "ptr")[0];
+      surrogateOf = ptrEl ? (ptrEl.getAttribute("target") || txt(ptrEl))
+                          : txt(surrogateEl);
+    }
 
     // Identity
     var stmtTitles = qns(doc, "title").filter(function (t) {
@@ -392,6 +395,32 @@
     window.location.href = "editor.html";
   }
 
+  function recToRubbingState(rec) {
+    return {
+      filename:        rec.name || "",
+      titleEn:         rec.titleEn || "",
+      titleZh:         rec.titleZh || "",
+      editor:          rec.editor || "",
+      inscriptionFile: rec.surrogateOf || "",
+      country:         rec.country || "",
+      region:          rec.region || "",
+      settlement:      rec.settlement || "",
+      repository:      rec.repository || "",
+      inventoryNo:     rec.inventoryNo || "",
+      authority:       rec.authority || "Epiwen / Altergraphy",
+      licence:         rec.licence || "",
+      licenceTarget:   rec.licenceTarget || "",
+      changeWhen:      rec.changeWhen || "",
+      changeWho:       rec.changeWho || "",
+      changeNote:      rec.changeNote || ""
+    };
+  }
+
+  function openInRubbingEditor(rec) {
+    sessionStorage.setItem("epiwen_preload_rubbing", JSON.stringify(recToRubbingState(rec)));
+    window.location.href = "rubbing.html";
+  }
+
   // ---- preview pane --------------------------------------------------------
   function clearPreview() {
     if (selectedItem) selectedItem.classList.remove("selected");
@@ -539,9 +568,18 @@
     info.innerHTML =
       titleHtml +
       '<span class="catalog-date">' + esc(label) +
-      ' · inscribed on <code class="catalog-filename">' + esc(rec.name) + '</code>' +
+      ' · inscribed on <a href="catalog.html?tab=objects&amp;file=' + encodeURIComponent(rec.name) +
+      '" class="catalog-obj-link"><code class="catalog-filename">' + esc(rec.name) + '</code></a>' +
       (rec.dateText ? ' · ' + esc(rec.dateText) : '') +
       '</span>';
+    var objLink = info.querySelector(".catalog-obj-link");
+    if (objLink) {
+      objLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        history.pushState({ tab: "objects", file: rec.name }, "", objLink.href);
+        renderByTab("objects", rec.name);
+      });
+    }
 
     var actions = document.createElement("div");
     actions.className = "catalog-actions";
@@ -602,8 +640,14 @@
     copyBtn.textContent = "Copy XML";
     copyBtn.addEventListener("click", function () { flashCopy(rec.rawXml, copyBtn); });
 
+    var editBtn = document.createElement("button");
+    editBtn.type = "button"; editBtn.className = "btn small primary";
+    editBtn.textContent = "Edit";
+    editBtn.addEventListener("click", function () { openInRubbingEditor(rec); });
+
     actions.appendChild(previewBtn);
     actions.appendChild(copyBtn);
+    actions.appendChild(editBtn);
     row.appendChild(info);
     row.appendChild(actions);
     item.appendChild(row);
@@ -611,7 +655,7 @@
   }
 
   // ---- render by tab -------------------------------------------------------
-  function renderByTab(tab) {
+  function renderByTab(tab, file) {
     currentTab = tab;
 
     // Update nav active state
@@ -622,7 +666,7 @@
     // Update "+ New" add button
     var addBtn = document.getElementById("btn-add-new");
     if (addBtn) {
-      if (tab === "objects")   { addBtn.href = "editor.html";  addBtn.style.display = ""; }
+      if (tab === "objects")       { addBtn.href = "editor.html";  addBtn.style.display = ""; }
       else if (tab === "rubbings") { addBtn.href = "rubbing.html"; addBtn.style.display = ""; }
       else                         { addBtn.style.display = "none"; }
     }
@@ -633,7 +677,7 @@
     clearPreview();
 
     if (tab === "objects") {
-      renderObjectsCatalog(allRecords.filter(function (r) { return r.recordType !== "rubbing"; }));
+      renderObjectsCatalog(allRecords.filter(function (r) { return r.recordType !== "rubbing"; }), file || "");
     } else if (tab === "inscriptions") {
       renderInscriptionsCatalog();
     } else if (tab === "rubbings") {
@@ -641,7 +685,7 @@
     }
   }
 
-  function renderObjectsCatalog(records) {
+  function renderObjectsCatalog(records, file) {
     var list = document.getElementById("catalog-list");
     if (!records.length) {
       list.innerHTML = '<div class="catalog-empty">' +
@@ -649,7 +693,16 @@
       return;
     }
     list.innerHTML = "";
-    records.forEach(function (rec) { list.appendChild(buildItem(rec)); });
+    records.forEach(function (rec) {
+      var item = buildItem(rec);
+      list.appendChild(item);
+      if (file && rec.name === file) {
+        setTimeout(function () {
+          item.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          showPreview(rec, item);
+        }, 0);
+      }
+    });
   }
 
   function renderInscriptionsCatalog() {
@@ -716,36 +769,38 @@
 
     // Browser back/forward
     window.addEventListener("popstate", function (e) {
-      var tab = (e.state && e.state.tab)
-        || new URLSearchParams(window.location.search).get("tab")
-        || "objects";
-      renderByTab(tab);
+      var sp   = new URLSearchParams(window.location.search);
+      var tab  = (e.state && e.state.tab)  || sp.get("tab")  || "objects";
+      var file = (e.state && e.state.file) || sp.get("file") || "";
+      renderByTab(tab, file);
     });
 
     document.getElementById("catalog-search").addEventListener("input", function () {
       filterCatalog(this.value);
     });
 
-    // Initial tab from URL param
-    var tabParam = new URLSearchParams(window.location.search).get("tab") || "objects";
+    // Initial tab + file from URL params
+    var _sp       = new URLSearchParams(window.location.search);
+    var tabParam  = _sp.get("tab")  || "objects";
+    var fileParam = _sp.get("file") || "";
     currentTab = tabParam;
 
     // Load records from GitHub
     ghFetch(API)
       .then(function (files) {
-        if (!files) { renderByTab(currentTab); return; }
+        if (!files) { renderByTab(currentTab, fileParam); return; }
 
         var xmlFiles = files
           .filter(function (f) { return /\.xml$/i.test(f.name); })
           .sort(function (a, b) { return a.name.localeCompare(b.name); });
 
-        if (!xmlFiles.length) { renderByTab(currentTab); return; }
+        if (!xmlFiles.length) { renderByTab(currentTab, fileParam); return; }
 
         var records = [], remaining = xmlFiles.length;
         function done() {
           records.sort(function (a, b) { return a.name.localeCompare(b.name); });
           allRecords = records;
-          renderByTab(currentTab);
+          renderByTab(currentTab, fileParam);
         }
         xmlFiles.forEach(function (f) {
           // Use locally-cached fresh XML if the user just saved this file from the editor;
