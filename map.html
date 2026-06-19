@@ -83,6 +83,24 @@
         flex: 0 0 auto; accent-color: var(--accent, #6680cc);
       }
       .lp-label { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      /* dynasty tree */
+      .lp-dynhead {
+        display: flex; align-items: baseline; gap: .35rem; cursor: pointer;
+        padding: .16rem .15rem; border-radius: 5px;
+      }
+      .lp-dynhead:hover { background: var(--bg-subtle, #f2f5fb); }
+      .lp-dynhead::before {
+        content: "▸"; font-size: .58rem; color: var(--text-muted, #aaa); transition: transform .12s; flex: 0 0 auto;
+      }
+      .lp-dyn.open .lp-dynhead::before { transform: rotate(90deg); }
+      .lp-dyn-zh { font-weight: 600; }
+      .lp-dyn-en { font-size: .72em; color: var(--text-muted, #999); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .lp-dyn-n {
+        margin-left: auto; flex: 0 0 auto; font-size: .68rem; color: var(--text-muted, #888);
+        background: var(--bg-subtle, #eef); border-radius: 8px; padding: 0 .35rem;
+      }
+      .lp-dynitems { display: none; margin-left: .85rem; padding-left: .3rem; border-left: 1px solid var(--border-subtle, #eee); }
+      .lp-dyn.open .lp-dynitems { display: block; }
     </style>
   </head>
   <body>

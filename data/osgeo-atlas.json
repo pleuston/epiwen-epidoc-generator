@@ -1,0 +1,1664 @@
+[
+{
+"ch": "ch01_primitive-society",
+"zh": "原始社會",
+"en": "Prehistory",
+"sections": [
+{
+"uid": "mp0302",
+"label": "原始社会遗址",
+"key": "sec01_primitive-society"
+},
+{
+"uid": "mp0303",
+"label": "原始社会早期遗址（旧石器时代",
+"key": "sec02_paleolith"
+},
+{
+"uid": "mp0304",
+"label": "黄河流域原始社会晚期遗址（新石器时代",
+"key": "sec03_neolith"
+}
+]
+},
+{
+"ch": "ch02_xia",
+"zh": "夏",
+"en": "Xia",
+"sections": [
+{
+"uid": "mp0305",
+"label": "时期",
+"key": "sec01_xia"
+}
+]
+},
+{
+"ch": "ch03_shang",
+"zh": "商",
+"en": "Shang",
+"sections": [
+{
+"uid": "mp0306",
+"label": "时期",
+"key": "sec01_shang"
+},
+{
+"uid": "mp0307",
+"label": "中心区域",
+"key": "sec02_center"
+}
+]
+},
+{
+"ch": "ch04_xizhou",
+"zh": "西周",
+"en": "Western Zhou",
+"sections": [
+{
+"uid": "mp0308",
+"label": "时期",
+"key": "sec01_xizhou"
+},
+{
+"uid": "mp030a",
+"label": "宗周、成周附近",
+"key": "sec02_zongzhou"
+},
+{
+"uid": "mp0309",
+"label": "中心区域",
+"key": "sec03_center"
+}
+]
+},
+{
+"ch": "ch05_chunqiu",
+"zh": "春秋",
+"en": "Spring & Autumn",
+"sections": [
+{
+"uid": "mp030b",
+"label": "时期",
+"key": "sec01_chunqiu"
+},
+{
+"uid": "mp0310",
+"label": "楚国、吴国、越国地图",
+"key": "sec02_chu-wu-yue"
+},
+{
+"uid": "mp030e",
+"label": "齐国、鲁国",
+"key": "sec03_qi-lu"
+},
+{
+"uid": "mp030c",
+"label": "晋国、秦国",
+"key": "sec04_jin-qin"
+},
+{
+"uid": "mp030d",
+"label": "郑国、宋国、卫国",
+"key": "sec05_zheng-song-wei"
+},
+{
+"uid": "mp030f",
+"label": "北燕国",
+"key": "sec06_beiyan"
+}
+]
+},
+{
+"ch": "ch06_zhanguo",
+"zh": "戰國",
+"en": "Warring States",
+"sections": [
+{
+"uid": "mp0311",
+"label": "时期",
+"key": "sec01_zhanguo"
+},
+{
+"uid": "mp0312",
+"label": "诸侯称雄形势（公元前350年",
+"key": "sec02_zhuhou"
+},
+{
+"uid": "mp0314",
+"label": "赵国、中山国",
+"key": "sec03_zhao-zhongshan"
+},
+{
+"uid": "mp0315",
+"label": "齐国、鲁国、宋国",
+"key": "sec04_qi-lu-song"
+},
+{
+"uid": "mp0313",
+"label": "韩国、魏国",
+"key": "sec05_han-wei"
+},
+{
+"uid": "mp0318",
+"label": "楚国、越国",
+"key": "sec06_chu-yue"
+},
+{
+"uid": "mp0317",
+"label": "秦国、蜀国",
+"key": "sec07_qin-shu"
+},
+{
+"uid": "mp0316",
+"label": "燕国",
+"key": "sec08_yan"
+}
+]
+},
+{
+"ch": "ch07_qinchao",
+"zh": "秦",
+"en": "Qin",
+"sections": [
+{
+"uid": "mp031f",
+"label": "时期",
+"key": "sec01_qin"
+},
+{
+"uid": "mp0321",
+"label": "山东南部诸郡",
+"key": "sec02_shandong-south"
+},
+{
+"uid": "mp0322",
+"label": "山东北部诸郡",
+"key": "sec03_shandong-north"
+},
+{
+"uid": "mp0323",
+"label": "淮汉以南诸郡",
+"key": "sec04_huaihan"
+},
+{
+"uid": "mp0320",
+"label": "关中诸郡",
+"key": "sec05_guanzhong"
+}
+]
+},
+{
+"ch": "ch08_xihan",
+"zh": "西漢",
+"en": "Western Han",
+"sections": [
+{
+"uid": "mp0324",
+"label": "时期",
+"key": "sec01_xihan"
+},
+{
+"uid": "mp0325",
+"label": "司隶部",
+"key": "sec02_sili"
+},
+{
+"uid": "mp0327",
+"label": "兖州、豫州、青州、徐州刺史部",
+"key": "sec03_yan-yu-qing-xu"
+},
+{
+"uid": "mp032d",
+"label": "益州刺史部北部",
+"key": "sec04_yizhou-north"
+},
+{
+"uid": "mp032e",
+"label": "益州刺史部南部（哀牢",
+"key": "sec05_yizhou-south"
+},
+{
+"uid": "mp032a",
+"label": "扬州刺史部",
+"key": "sec06_yangzhou"
+},
+{
+"uid": "mp032c",
+"label": "幽州刺史部",
+"key": "sec07_youzhou"
+},
+{
+"uid": "mp0326",
+"label": "并州、朔方刺史部",
+"key": "sec08_bingzhou"
+},
+{
+"uid": "mp0328",
+"label": "东郡北海间诸郡",
+"key": "sec09_beihai"
+},
+{
+"uid": "mp032b",
+"label": "冀州刺史部",
+"key": "sec10_jizhou"
+},
+{
+"uid": "mp0330",
+"label": "交阯刺史部",
+"key": "sec11_jiaozhi"
+},
+{
+"uid": "mp0329",
+"label": "荆州刺史部",
+"key": "sec12_jingzhou"
+},
+{
+"uid": "mp032f",
+"label": "凉州刺史部",
+"key": "sec13_liangzhou"
+},
+{
+"uid": "mp0332",
+"label": "西域都护府",
+"key": "sec14_xiyu"
+},
+{
+"uid": "mp0333",
+"label": "匈奴等部",
+"key": "sec15_xiongnu"
+}
+]
+},
+{
+"ch": "ch09_donghan",
+"zh": "東漢",
+"en": "Eastern Han",
+"sections": [
+{
+"uid": "mp0334",
+"label": "时期",
+"key": "sec01_donghan"
+},
+{
+"uid": "mp0335",
+"label": "司隶校尉部",
+"key": "sec02_sili"
+},
+{
+"uid": "mp033e",
+"label": "并州刺史部",
+"key": "sec03_bingzhou"
+},
+{
+"uid": "mp0339",
+"label": "荆州刺史部",
+"key": "sec04_jingzhou"
+},
+{
+"uid": "mp033d",
+"label": "凉州刺史部",
+"key": "sec05_liangzhou"
+},
+{
+"uid": "mp0336",
+"label": "豫州、兖州、徐州、青州刺史部",
+"key": "sec06_yu-yan-xu-qing"
+},
+{
+"uid": "mp033b",
+"label": "益州刺史部北部",
+"key": "sec07_yizhou-north"
+},
+{
+"uid": "mp033c",
+"label": "益州刺史部南部",
+"key": "sec08_yizhou-south"
+},
+{
+"uid": "mp033f",
+"label": "幽州刺史部",
+"key": "sec09_youzhou"
+},
+{
+"uid": "mp0341",
+"label": "西域都护府",
+"key": "sec10_xiyu"
+},
+{
+"uid": "mp0342",
+"label": "鲜卑等部",
+"key": "sec11_xianbei"
+},
+{
+"uid": "mp0340",
+"label": "交州刺史部",
+"key": "sec12_jiaozhou"
+},
+{
+"uid": "mp033a",
+"label": "扬州刺史部",
+"key": "sec13_yangzhou"
+},
+{
+"uid": "mp0338",
+"label": "冀州刺史部",
+"key": "sec14_jizhou"
+},
+{
+"uid": "mp0337",
+"label": "东郡齐国间诸郡",
+"key": "sec15_zhujun"
+}
+]
+},
+{
+"ch": "ch10_sanguo",
+"zh": "三國",
+"en": "Three Kingdoms",
+"sections": [
+{
+"uid": "mp0346",
+"label": "时期",
+"key": "sec01_sanguo"
+},
+{
+"uid": "mp0356",
+"label": "鲜卑等部",
+"key": "sec02_xianbei"
+},
+{
+"uid": "mp0355",
+"label": "吴国交州",
+"key": "sec03_jiaozhou"
+},
+{
+"uid": "mp0354",
+"label": "吴国荆州",
+"key": "sec04_jingzhou-wu"
+},
+{
+"uid": "mp0353",
+"label": "吴国扬州",
+"key": "sec05_yangzhou"
+},
+{
+"uid": "mp0351",
+"label": "蜀汉益州北部",
+"key": "sec06_yizhou-north"
+},
+{
+"uid": "mp034f",
+"label": "魏国荆州",
+"key": "sec07_jingzhou-wei"
+},
+{
+"uid": "mp034e",
+"label": "魏国凉州",
+"key": "sec08_liangzhou"
+},
+{
+"uid": "mp034c",
+"label": "魏国雍州",
+"key": "sec09_yongzhou"
+},
+{
+"uid": "mp034b",
+"label": "魏国幽州",
+"key": "sec10_youzhou"
+},
+{
+"uid": "mp034a",
+"label": "魏国冀州、并州",
+"key": "sec11_ji-bing"
+},
+{
+"uid": "mp0349",
+"label": "魏国青州徐州",
+"key": "sec12_qing-xu"
+},
+{
+"uid": "mp0348",
+"label": "魏国兖州、豫州、扬州",
+"key": "sec13_yan-yu-yang"
+},
+{
+"uid": "mp0347",
+"label": "魏国司州",
+"key": "sec14_sizhou"
+},
+{
+"uid": "mp0352",
+"label": "蜀汉益州南部（庲降都督",
+"key": "sec15_yizhou-south"
+},
+{
+"uid": "mp0350",
+"label": "西域长史府乌孙",
+"key": "sec16_xiyu"
+}
+]
+},
+{
+"ch": "ch11_xijin",
+"zh": "西晉",
+"en": "Western Jin",
+"sections": [
+{
+"uid": "mp035a",
+"label": "时期",
+"key": "sec01_xijin"
+},
+{
+"uid": "mp0365",
+"label": "扬州",
+"key": "sec02_yangzhou"
+},
+{
+"uid": "mp0364",
+"label": "荆州",
+"key": "sec03_jingzhou"
+},
+{
+"uid": "mp0363",
+"label": "青州、徐州",
+"key": "sec04_qing-xu"
+},
+{
+"uid": "mp0362",
+"label": "宁州",
+"key": "sec05_ningzhou"
+},
+{
+"uid": "mp0361",
+"label": "梁州、益州",
+"key": "sec06_liang-yi"
+},
+{
+"uid": "mp0360",
+"label": "凉州",
+"key": "sec07_liangzhou"
+},
+{
+"uid": "mp035f",
+"label": "雍州秦州",
+"key": "sec08_yong-qin"
+},
+{
+"uid": "mp035e",
+"label": "幽州、平州",
+"key": "sec09_you-ping"
+},
+{
+"uid": "mp035d",
+"label": "冀州、并州",
+"key": "sec10_ji-bing"
+},
+{
+"uid": "mp035c",
+"label": "兖州、豫州",
+"key": "sec11_yan-yu"
+},
+{
+"uid": "mp035b",
+"label": "司州",
+"key": "sec12_sizhou"
+},
+{
+"uid": "mp0369",
+"label": "鲜卑等部",
+"key": "sec13_xianbei"
+},
+{
+"uid": "mp0367",
+"label": "西域长史府乌孙",
+"key": "sec14_xiyu"
+},
+{
+"uid": "mp0366",
+"label": "交州、广州",
+"key": "sec15_jiao-guang"
+}
+]
+},
+{
+"ch": "ch12_dongjin-shiliuguo",
+"zh": "東晉十六國",
+"en": "E. Jin & 16 Kingdoms",
+"sections": [
+{
+"uid": "mp0373",
+"label": "历史地图全图",
+"key": "sec01_dongjin-shiliuguo"
+},
+{
+"uid": "mp0374",
+"label": "时期",
+"key": "sec02_dongjin"
+},
+{
+"uid": "mp0387",
+"label": "后秦、魏、南凉、北凉、西凉、南燕、夏、西秦、北燕",
+"key": "sec03_houqin-wei-nanliang-beiliang"
+},
+{
+"uid": "mp0381",
+"label": "后秦、后燕、西秦、后凉、魏",
+"key": "sec04_houqin-houyan-xiqin"
+},
+{
+"uid": "mp037f",
+"label": "前秦",
+"key": "sec05_qianqin"
+},
+{
+"uid": "mp0375",
+"label": "成、前赵、前凉、后赵",
+"key": "sec06_cheng-qianzhao"
+}
+]
+},
+{
+"ch": "ch13_nan-bei",
+"zh": "南北朝",
+"en": "Northern & Southern Dyn.",
+"sections": [
+{
+"uid": "mp0391",
+"label": "南朝宋、北朝魏",
+"key": "sec01_song-wei"
+},
+{
+"uid": "mp0392",
+"label": "南朝齐、北朝魏",
+"key": "sec02_qi-wei"
+},
+{
+"uid": "mp0393",
+"label": "梁、东魏、西魏",
+"key": "sec03_liang-wei"
+},
+{
+"uid": "mp0394",
+"label": "南朝陈、北朝齐、北朝周",
+"key": "sec04_chen-qi-zhou"
+},
+{
+"uid": "mp0395",
+"label": "南朝宋",
+"key": "sec05_song"
+},
+{
+"uid": "mp0396",
+"label": "南朝齐扬州、徐州、豫州、南兖州、北徐州、青州、冀州等",
+"key": "sec06_qi-yangzhou"
+},
+{
+"uid": "mp03a0",
+"label": "南朝齐江州",
+"key": "sec07_qi-jiangzhou"
+},
+{
+"uid": "mp03a1",
+"label": "南朝齐广州、越州",
+"key": "sec08_qi-guangzhou"
+},
+{
+"uid": "mp03a3",
+"label": "南朝齐交州",
+"key": "sec09_qi-jiao"
+},
+{
+"uid": "mp03a5",
+"label": "南朝齐荆州、郢州、湘州",
+"key": "sec10_qi-jing-ying"
+},
+{
+"uid": "mp03a8",
+"label": "南朝齐司州、雍州、宁蛮府",
+"key": "sec11_qi-si-yong"
+},
+{
+"uid": "mp03ab",
+"label": "南朝齐梁州、秦州",
+"key": "sec12_qi-liang-qin"
+},
+{
+"uid": "mp03ad",
+"label": "南朝齐益州",
+"key": "sec13_qi-yizhou"
+},
+{
+"uid": "mp03af",
+"label": "南朝齐宁州",
+"key": "sec14_qi-ningzhou"
+},
+{
+"uid": "mp03b0",
+"label": "南朝梁",
+"key": "sec15_nan-liang"
+},
+{
+"uid": "mp03b1",
+"label": "南陈",
+"key": "sec16_nan-chen"
+},
+{
+"uid": "mp03b2",
+"label": "北朝魏司州、豫州、荆州、洛州",
+"key": "sec17_bei-wei-si"
+},
+{
+"uid": "mp03b4",
+"label": "北朝魏兖州、青州、齐州、徐州等",
+"key": "sec18_bei-wei-yan"
+},
+{
+"uid": "mp03b6",
+"label": "北朝魏相州、冀州、幽州、平州",
+"key": "sec19_bei-wei-xiang"
+},
+{
+"uid": "mp03b7",
+"label": "北朝魏并州、肆州、恒州、朔州等州",
+"key": "sec20_bei-wei-bing"
+},
+{
+"uid": "mp03b8",
+"label": "北朝魏武川、御夷等镇",
+"key": "sec21_bei-wei-wu"
+},
+{
+"uid": "mp03b9",
+"label": "北朝魏雍州、秦州、夏州、伏野镇、博骨镇",
+"key": "sec22_bei-wei-yong"
+},
+{
+"uid": "mp03bc",
+"label": "北朝魏河州、凉州、敦煌镇",
+"key": "sec23_bei-wei-he"
+},
+{
+"uid": "mp03c5",
+"label": "北朝东魏",
+"key": "sec24_bei-dongwei"
+},
+{
+"uid": "mp03c6",
+"label": "北朝西魏",
+"key": "sec25_bei-xiwei"
+},
+{
+"uid": "mp03c7",
+"label": "北朝齐",
+"key": "sec26_bei-qi"
+},
+{
+"uid": "mp03c8",
+"label": "北周",
+"key": "sec27_bei-zhou"
+},
+{
+"uid": "mp03c1",
+"label": "魏西戎校尉府、焉耆镇、北凉、龟兹、于阗、疏勒、乌孙、悦般等国",
+"key": "sec28_xirong-yanqi"
+},
+{
+"uid": "mp03c4",
+"label": "柔然等部",
+"key": "sec29_rouran"
+}
+]
+},
+{
+"ch": "ch14_sui",
+"zh": "隋",
+"en": "Sui",
+"sections": [
+{
+"uid": "mp03c9",
+"label": "时期",
+"key": "sec01_sui"
+},
+{
+"uid": "mp03d6",
+"label": "岭南诸郡",
+"key": "sec02_lingnan"
+},
+{
+"uid": "mp03cc",
+"label": "关陇诸郡",
+"key": "sec03_guanlong"
+},
+{
+"uid": "mp03d5",
+"label": "淮南江表诸郡北部",
+"key": "sec04_huainan-bei"
+},
+{
+"uid": "mp03ca",
+"label": "河南诸郡",
+"key": "sec05_henan"
+},
+{
+"uid": "mp03d2",
+"label": "辽西诸郡、室韦靺鞨等部",
+"key": "sec06_liaoxi"
+},
+{
+"uid": "mp03d4",
+"label": "淮南江表诸郡",
+"key": "sec07_huainan"
+},
+{
+"uid": "mp03d0",
+"label": "河北诸郡",
+"key": "sec08_hebei"
+},
+{
+"uid": "mp03ce",
+"label": "巴汉诸郡",
+"key": "sec09_bahan"
+},
+{
+"uid": "mp03d8",
+"label": "南宁地区",
+"key": "sec10_nanning"
+},
+{
+"uid": "mp03d1",
+"label": "河东诸郡",
+"key": "sec11_hedong"
+},
+{
+"uid": "mp03d7",
+"label": "江汉沅湘诸郡的",
+"key": "sec12_jianghan"
+},
+{
+"uid": "mp03cd",
+"label": "河西诸郡",
+"key": "sec13_hexi"
+},
+{
+"uid": "mp03cf",
+"label": "岷蜀诸郡",
+"key": "sec14_minshu"
+},
+{
+"uid": "mp03d9",
+"label": "东突厥",
+"key": "sec15_dongtujue"
+},
+{
+"uid": "mp03da",
+"label": "西突厥",
+"key": "sec16_xitujue"
+}
+]
+},
+{
+"ch": "ch15_tang",
+"zh": "唐",
+"en": "Tang",
+"sections": [
+{
+"uid": "mp03db",
+"label": "669年",
+"key": "sec01_tang669"
+},
+{
+"uid": "mp03dc",
+"label": "741年",
+"key": "sec02_tang741"
+},
+{
+"uid": "mp03dd",
+"label": "820年",
+"key": "sec03_tang820"
+},
+{
+"uid": "mp03de",
+"label": "元和年间方镇分布",
+"key": "sec04_fangzhen"
+},
+{
+"uid": "mp03df",
+"label": "京畿道、关内道",
+"key": "sec05_jingjidao"
+},
+{
+"uid": "mp03e2",
+"label": "关内道北部",
+"key": "sec06_guanneidao-bei"
+},
+{
+"uid": "mp03e3",
+"label": "都畿道、河南道",
+"key": "sec07_duji-henan"
+},
+{
+"uid": "mp03e6",
+"label": "河东道",
+"key": "sec08_hedong"
+},
+{
+"uid": "mp03e8",
+"label": "河北道北部",
+"key": "sec09_hebei-bei"
+},
+{
+"uid": "mp03e7",
+"label": "河北道南部",
+"key": "sec10_hebei-nan"
+},
+{
+"uid": "mp03e9",
+"label": "山南东道历史地图（开元29年，公元741年",
+"key": "sec11_shannan-dong"
+},
+{
+"uid": "mp03ea",
+"label": "淮南道",
+"key": "sec12_huainan"
+},
+{
+"uid": "mp03eb",
+"label": "江南东道",
+"key": "sec13_jiangnan-dong"
+},
+{
+"uid": "mp03ec",
+"label": "江南西道",
+"key": "sec14_jiangnan-xi"
+},
+{
+"uid": "mp03ed",
+"label": "黔中道",
+"key": "sec15_qianzhong"
+},
+{
+"uid": "mp03ee",
+"label": "陇右道东部",
+"key": "sec16_longyou-dong"
+},
+{
+"uid": "mp03ef",
+"label": "陇右道西部",
+"key": "sec17_longyou-xi"
+},
+{
+"uid": "mp03f2",
+"label": "剑南道南部",
+"key": "sec18_jiannan-nan"
+},
+{
+"uid": "mp03f4",
+"label": "岭南道东部",
+"key": "sec19_lingnan-dong"
+},
+{
+"uid": "mp03f6",
+"label": "岭南道西部",
+"key": "sec20_lingnan-xi"
+},
+{
+"uid": "mp03f7",
+"label": "突厥",
+"key": "sec21_tujue"
+},
+{
+"uid": "mp03f8",
+"label": "回鹘",
+"key": "sec22_huihu"
+},
+{
+"uid": "mp03f0",
+"label": "剑南道北部（成都附近",
+"key": "sec23_jiannan-bei"
+},
+{
+"uid": "mp03f5",
+"label": "岭南道东部贵州容州附近",
+"key": "sec24_jiannan-dong-guizhou"
+},
+{
+"uid": "mp03f9",
+"label": "吐蕃逻些城",
+"key": "sec25_tubo"
+},
+{
+"uid": "mp03fb",
+"label": "渤海",
+"key": "sec26_bohai"
+},
+{
+"uid": "mp03fc",
+"label": "南诏",
+"key": "sec27_nanzhao"
+}
+]
+},
+{
+"ch": "ch16_wu-dai",
+"zh": "五代十國",
+"en": "Five Dynasties",
+"sections": [
+{
+"uid": "mp0500",
+"label": "十国时期",
+"key": "sec01_wu-dai"
+},
+{
+"uid": "mp0501",
+"label": "梁、晋、岐等镇",
+"key": "sec02_liang-jin-qi"
+},
+{
+"uid": "mp0505",
+"label": "周、北汉",
+"key": "sec03_zhou-beihan"
+},
+{
+"uid": "mp0512",
+"label": "西州回鹘、于阗、九姓乌护、葛逻禄等部",
+"key": "sec04_xizhouhuihu"
+},
+{
+"uid": "mp0503",
+"label": "晋、汉",
+"key": "sec05_jin-han"
+},
+{
+"uid": "mp0510",
+"label": "南平",
+"key": "sec06_nanping"
+},
+{
+"uid": "mp0507",
+"label": "闽",
+"key": "sec07_min"
+},
+{
+"uid": "mp050f",
+"label": "楚",
+"key": "sec08_chu"
+},
+{
+"uid": "mp050a",
+"label": "南唐",
+"key": "sec09_nantang"
+},
+{
+"uid": "mp0504",
+"label": "后汉",
+"key": "sec10_houhan"
+},
+{
+"uid": "mp050e",
+"label": "南汉",
+"key": "sec11_nanhan"
+},
+{
+"uid": "mp050d",
+"label": "后蜀",
+"key": "sec12_houshu"
+},
+{
+"uid": "mp050c",
+"label": "前蜀",
+"key": "sec13_qianshu"
+}
+]
+},
+{
+"ch": "ch17_bei-song",
+"zh": "北宋",
+"en": "Northern Song",
+"sections": [
+{
+"uid": "mp0513",
+"label": "辽时期",
+"key": "sec01_bei-song"
+},
+{
+"uid": "mp051d",
+"label": "北宋京畿路、京西南路、京西北路",
+"key": "sec02_jingji"
+},
+{
+"uid": "mp052c",
+"label": "北宋江南西路",
+"key": "sec03_jiangnan-xi"
+},
+{
+"uid": "mp0520",
+"label": "北宋京东东路、京东西路",
+"key": "sec04_jingdong-dong"
+},
+{
+"uid": "mp0522",
+"label": "北宋河北东路",
+"key": "sec05_hebei-dong"
+},
+{
+"uid": "mp0525",
+"label": "北宋永兴军路",
+"key": "sec06_yongxingjun"
+},
+{
+"uid": "mp0526",
+"label": "北宋秦凤路",
+"key": "sec07_qinfeng"
+},
+{
+"uid": "mp0527",
+"label": "北宋淮南东路",
+"key": "sec08_huainan-dong"
+},
+{
+"uid": "mp0529",
+"label": "北宋两浙路",
+"key": "sec09_liangzhe"
+},
+{
+"uid": "mp052d",
+"label": "北宋荆湖南路、荆湖北路",
+"key": "sec10_jinghu-nan"
+},
+{
+"uid": "mp052f",
+"label": "北宋成都府路",
+"key": "sec11_chengdufu"
+},
+{
+"uid": "mp0534",
+"label": "北宋福建路",
+"key": "sec12_fujian"
+},
+{
+"uid": "mp0535",
+"label": "北宋广南东路",
+"key": "sec13_guangnan-dong"
+},
+{
+"uid": "mp0518",
+"label": "辽临潢府附近",
+"key": "sec14_linhuangfu-liao"
+},
+{
+"uid": "mp0516",
+"label": "辽中京道",
+"key": "sec15_zhongjingdao-liao"
+},
+{
+"uid": "mp0517",
+"label": "辽上京道",
+"key": "sec16_shangjingdao-liao"
+},
+{
+"uid": "mp0519",
+"label": "辽东京道",
+"key": "sec17_dongjingdao-liao"
+},
+{
+"uid": "mp051b",
+"label": "辽南京道",
+"key": "sec18_nanjingdao-liao"
+},
+{
+"uid": "mp053a",
+"label": "西州回鹘、于阗、黑汗（喀喇汗",
+"key": "sec19_heihan"
+},
+{
+"uid": "mp0538",
+"label": "西夏",
+"key": "sec20_xixia"
+},
+{
+"uid": "mp0514",
+"label": "吐蕃诸部",
+"key": "sec21_tubo"
+}
+]
+},
+{
+"ch": "ch18_nan-song",
+"zh": "南宋",
+"en": "Southern Song",
+"sections": [
+{
+"uid": "mp053d",
+"label": "1142年",
+"key": "sec01_nansong-jin-1142"
+},
+{
+"uid": "mp053e",
+"label": "公元1208年",
+"key": "sec02_nansong-jin-1208"
+},
+{
+"uid": "mp053f",
+"label": "金朝大名府路",
+"key": "sec03_damingfu"
+},
+{
+"uid": "mp0543",
+"label": "金朝东京路",
+"key": "sec04_dongjing"
+},
+{
+"uid": "mp0547",
+"label": "金朝北京路",
+"key": "sec05_beijing"
+},
+{
+"uid": "mp0549",
+"label": "金朝西京路",
+"key": "sec06_xijing"
+},
+{
+"uid": "mp054f",
+"label": "金朝凤翔路",
+"key": "sec07_fengxiang"
+},
+{
+"uid": "mp054b",
+"label": "金朝山东东路",
+"key": "sec08_shandong-dong"
+},
+{
+"uid": "mp054a",
+"label": "金朝南京路",
+"key": "sec09_nanjinglu"
+},
+{
+"uid": "mp0554",
+"label": "两浙西路、两浙东路、江南东路",
+"key": "sec10_jiangnan-dong"
+},
+{
+"uid": "mp0557",
+"label": "江南西路",
+"key": "sec11_jiangnan-xi"
+},
+{
+"uid": "mp0558",
+"label": "淮南东路",
+"key": "sec12_huainan-dong"
+},
+{
+"uid": "mp055b",
+"label": "荆湖南路",
+"key": "sec13_jinghu-nan"
+},
+{
+"uid": "mp055e",
+"label": "广南东路",
+"key": "sec14_guangnan-dong"
+},
+{
+"uid": "mp0561",
+"label": "福建路",
+"key": "sec15_fujian"
+},
+{
+"uid": "mp0562",
+"label": "成都府路",
+"key": "sec16_chengdufu"
+},
+{
+"uid": "mp0567",
+"label": "成都府附近",
+"key": "sec17_chengdufu-fujin"
+},
+{
+"uid": "mp0569",
+"label": "西辽",
+"key": "sec18_xiliao"
+},
+{
+"uid": "mp056a",
+"label": "大理",
+"key": "sec19_dali"
+},
+{
+"uid": "mp056b",
+"label": "大理中部",
+"key": "sec20_dali-zhong"
+},
+{
+"uid": "mp0568",
+"label": "蒙古、克烈等部",
+"key": "sec21_menggu"
+}
+]
+},
+{
+"ch": "ch19_yuan",
+"zh": "元",
+"en": "Yuan",
+"sections": [
+{
+"uid": "mp056c",
+"label": "历史全图（至元17年公元1280年",
+"key": "sec01_lishiditu1280"
+},
+{
+"uid": "mp056d",
+"label": "历史全图（至顺元年公元1330年",
+"key": "sec02_lishiditu1330"
+},
+{
+"uid": "mp056e",
+"label": "中书省",
+"key": "sec03_zhongshusheng"
+},
+{
+"uid": "mp0570",
+"label": "中书省南部的",
+"key": "sec04_zhongshu-nan"
+},
+{
+"uid": "mp0571",
+"label": "岭北行省的",
+"key": "sec05_lingbeixingsheng"
+},
+{
+"uid": "mp0575",
+"label": "辽阳行省的",
+"key": "sec06_liaoyangxingsheng"
+},
+{
+"uid": "mp0577",
+"label": "河南江北行省的",
+"key": "sec07_henanjiangbeixingsheng"
+},
+{
+"uid": "mp0578",
+"label": "陕西行省",
+"key": "sec08_shanxixingsheng"
+},
+{
+"uid": "mp0579",
+"label": "四川行省",
+"key": "sec09_sichuanxingsheng"
+},
+{
+"uid": "mp057a",
+"label": "甘肃行省",
+"key": "sec10_gansuxingsheng"
+},
+{
+"uid": "mp057b",
+"label": "哈密力、北庭、哈剌火州",
+"key": "sec11_beiting"
+},
+{
+"uid": "mp057e",
+"label": "云南行省",
+"key": "sec12_yunnanxingsheng"
+},
+{
+"uid": "mp057f",
+"label": "云南行省中部",
+"key": "sec13_yunnanxing-zhong"
+},
+{
+"uid": "mp0580",
+"label": "江浙行省",
+"key": "sec14_jiangzhexingsheng"
+},
+{
+"uid": "mp0581",
+"label": "江浙行省北部",
+"key": "sec15_jiangzhexingsheng-bei"
+},
+{
+"uid": "mp0582",
+"label": "江西行省",
+"key": "sec16_jiangxixingsheng"
+},
+{
+"uid": "mp0583",
+"label": "湖广行省",
+"key": "sec17_huguangxingsheng"
+},
+{
+"uid": "mp0584",
+"label": "湖广行省中部",
+"key": "sec18_huguangxingsheng-zhong"
+},
+{
+"uid": "mp0585",
+"label": "宣政院辖地",
+"key": "sec19_xuanzhengyuan"
+},
+{
+"uid": "mp0588",
+"label": "察合台汗国",
+"key": "sec20_chahetai"
+}
+]
+},
+{
+"ch": "ch20_ming",
+"zh": "明",
+"en": "Ming",
+"sections": [
+{
+"uid": "mp0589",
+"label": "1433年",
+"key": "sec01_ming1433"
+},
+{
+"uid": "mp058a",
+"label": "1582年",
+"key": "sec02_ming1582"
+},
+{
+"uid": "mp058b",
+"label": "京师（北直隶",
+"key": "sec03_jingshi-beizhili"
+},
+{
+"uid": "mp058d",
+"label": "京师顺天府附近",
+"key": "sec04_shuntianfu"
+},
+{
+"uid": "mp058e",
+"label": "南京（南直隶",
+"key": "sec05_nanjing-nanzhili"
+},
+{
+"uid": "mp058f",
+"label": "南京应天府附近",
+"key": "sec06_yingtianfu"
+},
+{
+"uid": "mp0590",
+"label": "山东",
+"key": "sec07_shandong"
+},
+{
+"uid": "mp0591",
+"label": "山东辽东都司",
+"key": "sec08_shandong-liaodong"
+},
+{
+"uid": "mp0592",
+"label": "山西",
+"key": "sec09_shanxi"
+},
+{
+"uid": "mp0593",
+"label": "山西行都司",
+"key": "sec10_shanxixingdu"
+},
+{
+"uid": "mp0594",
+"label": "河南",
+"key": "sec11_henan"
+},
+{
+"uid": "mp0595",
+"label": "陕西",
+"key": "sec12_shanxi"
+},
+{
+"uid": "mp0596",
+"label": "陕西行都司",
+"key": "sec13_shanxixingdu"
+},
+{
+"uid": "mp0597",
+"label": "四川",
+"key": "sec14_sichuan"
+},
+{
+"uid": "mp0599",
+"label": "江西",
+"key": "sec15_jiangxi"
+},
+{
+"uid": "mp059a",
+"label": "湖广",
+"key": "sec16_huguang"
+},
+{
+"uid": "mp059b",
+"label": "浙江",
+"key": "sec17_zhejiang"
+},
+{
+"uid": "mp059c",
+"label": "福建",
+"key": "sec18_fujian"
+},
+{
+"uid": "mp059e",
+"label": "广东",
+"key": "sec19_guangdong"
+},
+{
+"uid": "mp05a0",
+"label": "广西",
+"key": "sec20_guangxi"
+},
+{
+"uid": "mp05a1",
+"label": "云南",
+"key": "sec21_yunnan"
+},
+{
+"uid": "mp05a2",
+"label": "云南中部",
+"key": "sec22_yuannan-zhong"
+},
+{
+"uid": "mp05a3",
+"label": "贵州",
+"key": "sec23_guizhou"
+},
+{
+"uid": "mp05a4",
+"label": "奴儿干都司",
+"key": "sec24_nuergandusi"
+},
+{
+"uid": "mp05a5",
+"label": "哈密等卫",
+"key": "sec25_hamidengwei"
+},
+{
+"uid": "mp05a6",
+"label": "乌斯藏都司、朵甘都司",
+"key": "sec26_duogandusi"
+},
+{
+"uid": "mp05a9",
+"label": "鞑靼、瓦剌",
+"key": "sec27_dada"
+},
+{
+"uid": "mp05ab",
+"label": "亦力把里",
+"key": "sec28_yilibali"
+}
+]
+},
+{
+"ch": "ch21_qing",
+"zh": "清",
+"en": "Qing",
+"sections": [
+{
+"uid": "mp05c1",
+"label": "历史全图（嘉庆二十五年公元1820年",
+"key": "sec01_quantu1"
+},
+{
+"uid": "mp05d1",
+"label": "历史全图（光绪三十四年1908年",
+"key": "sec02_quantu2"
+},
+{
+"uid": "mp05ac",
+"label": "直隶",
+"key": "sec03_zhili"
+},
+{
+"uid": "mp05ae",
+"label": "直隶中部",
+"key": "sec04_zhilizhong"
+},
+{
+"uid": "mp05af",
+"label": "盛京（奉天",
+"key": "sec05_shengjing"
+},
+{
+"uid": "mp05b0",
+"label": "吉林",
+"key": "sec06_jilin"
+},
+{
+"uid": "mp05b1",
+"label": "黑龙江",
+"key": "sec07_heilongjiang"
+},
+{
+"uid": "mp05b2",
+"label": "江苏",
+"key": "sec08_jiangsu"
+},
+{
+"uid": "mp05b3",
+"label": "安徽",
+"key": "sec09_anhui"
+},
+{
+"uid": "mp05b4",
+"label": "山西",
+"key": "sec10_shanxi"
+},
+{
+"uid": "mp05b5",
+"label": "山东",
+"key": "sec11_shandong"
+},
+{
+"uid": "mp05b6",
+"label": "河南省",
+"key": "sec12_henan"
+},
+{
+"uid": "mp05b7",
+"label": "陕西",
+"key": "sec13_shanxi"
+},
+{
+"uid": "mp05b8",
+"label": "甘肃",
+"key": "sec14_gansu"
+},
+{
+"uid": "mp05ba",
+"label": "甘肃兰州府、平凉府附近",
+"key": "sec15_lanzhou-pingliang"
+},
+{
+"uid": "mp05bc",
+"label": "浙江",
+"key": "sec16_zhejiang"
+},
+{
+"uid": "mp05bd",
+"label": "江西",
+"key": "sec17_jiangxi"
+},
+{
+"uid": "mp05be",
+"label": "湖北",
+"key": "sec18_hubei"
+},
+{
+"uid": "mp05bf",
+"label": "湖南",
+"key": "sec19_hunan"
+},
+{
+"uid": "mp05c0",
+"label": "四川",
+"key": "sec20_sichuan"
+},
+{
+"uid": "mp05c2",
+"label": "四川成都府附近",
+"key": "sec21_chengdufu-fujin"
+},
+{
+"uid": "mp05c3",
+"label": "福建",
+"key": "sec22_fujian"
+},
+{
+"uid": "mp05c6",
+"label": "广东",
+"key": "sec23_guangdong"
+},
+{
+"uid": "mp05c8",
+"label": "广西",
+"key": "sec24_guangxi"
+},
+{
+"uid": "mp05c9",
+"label": "云南",
+"key": "sec25_yunnan"
+},
+{
+"uid": "mp05ca",
+"label": "贵州",
+"key": "sec26_guizhou"
+},
+{
+"uid": "mp05cb",
+"label": "新疆",
+"key": "sec27_xinjiang"
+},
+{
+"uid": "mp05cc",
+"label": "新疆伊犁地区",
+"key": "sec28_yili"
+},
+{
+"uid": "mp05cd",
+"label": "乌里雅苏台",
+"key": "sec29_wulisuyatai"
+},
+{
+"uid": "mp05ce",
+"label": "内蒙古六盟、套西二旗、察哈尔",
+"key": "sec30_neimeng-taoxi-chahaer"
+},
+{
+"uid": "mp05d0",
+"label": "青海",
+"key": "sec31_qinghai"
+},
+{
+"uid": "mp05d2",
+"label": "西藏",
+"key": "sec32_xizang"
+},
+{
+"uid": "mp05d4",
+"label": "西藏喇萨、日喀则地区",
+"key": "sec33_rikaze"
+}
+]
+}
+]
