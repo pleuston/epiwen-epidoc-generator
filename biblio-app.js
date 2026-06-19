@@ -531,6 +531,25 @@
       update();
     });
 
+    if (!isEtal && window.EpiAuthorityLookup) {
+      EpiAuthorityLookup.attach(div.querySelector(".contrib-py-family"), function (rec) {
+        // Western-primary: display_name has a comma before any CJK ("Ledderose, Lothar 雷德侯")
+        //   → use display_name; parsePinyin strips the CJK suffix
+        // CJK-primary: display_name Latin part has no comma ("Gao Xizhe 高熙喆")
+        //   → use name_pinyin which has comma ("Gao, Xizhe")
+        var commaIdx  = rec.display_name.indexOf(",");
+        var firstCjk  = rec.display_name.search(/[　-鿿豈-﫿]/);
+        var cjkPrimary = !!rec.name_zh &&
+              (commaIdx < 0 || (firstCjk >= 0 && firstCjk < commaIdx));
+        var pyStr = cjkPrimary ? (rec.name_pinyin || rec.display_name) : rec.display_name;
+        var py = EpiAuthorityLookup.parsePinyin(pyStr);
+        div.querySelector(".contrib-py-family").value = py.family;
+        div.querySelector(".contrib-py-given").value  = py.given;
+        div.querySelector(".contrib-href").value       = rec.id;
+        update();
+      });
+    }
+
     return div;
   }
 

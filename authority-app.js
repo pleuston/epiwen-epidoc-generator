@@ -308,6 +308,26 @@
       if (window.EpiGitHub) EpiGitHub.showSettings();
     });
 
+    // Authority typeahead: duplicate check / quick-load on name fields
+    if (window.EpiAuthorityLookup) {
+      function loadExisting(rec) {
+        fetch("authority/" + rec.id + ".xml")
+          .then(function (r) { return r.ok ? r.text() : null; })
+          .then(function (xml) {
+            if (!xml) { toast("Could not load " + rec.id, true); return; }
+            Object.assign(state, parseMads(xml));
+            writeForm(state);
+            update();
+            var h = document.getElementById("editor-heading");
+            if (h) h.textContent = "Edit: " + state.id;
+            toast("Loaded: " + rec.display_name);
+          })
+          .catch(function () { toast("Could not load " + rec.id, true); });
+      }
+      EpiAuthorityLookup.attach(document.getElementById("f-py-family"), loadExisting);
+      EpiAuthorityLookup.attach(document.getElementById("f-en-family"), loadExisting);
+    }
+
     // Save
     document.getElementById("btn-save-github").addEventListener("click", function () {
       readForm();
