@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="sichuan_volume2" xml:lang="en">Sichuan Volume 2</title>
+        <title n="sichuan_volume2" xml:lang="zh">四川省第二卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="13"/>
+    </seriesStmt> <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Bb_Cave42">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">42</hi>號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>該窟位於南坡<foreign xml:lang="en">B</foreign>區。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：340°。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <list>
+                            <item>疑為方形窟。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟底高於現在的小徑約2米，低於相鄰的<hi rend="bold">41</hi>號窟窟底約80釐米。</item>
+                            <item>窟口前部寬度為221釐米。</item>
+                            <item>進深：147釐米。</item>
+                            <item>高度：167釐米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>石窟未完工，但除了窟後部留有一個石臺、東邊角落尚有一塊巨石外，從窟底至窟頂皆已鑿空。</p>
+                        <figure rend="page" n="figure" xml:id="caves_42_41_40_DSC_0111.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">42</hi>號窟、<hi rend="bold">41</hi>號窟及<hi rend="bold">40</hi>號窟（由左至右）；2010年拍攝</head>
+                            <head>Cave <hi rend="bold">42</hi>, next to caves <hi rend="bold">41</hi>, and <hi rend="bold">40</hi>; 
+                            photograph taken in 2010</head>
+                            <graphic url="caves_42_41_40_DSC_0111.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">42</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, section B </item>
+                            <item>Direction: wall f 340˚</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <list>
+                            <item>intended box shape</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Height above present walkway: ca. 2 m, ca. 80 cm lower than the floor of neighboring cave <hi rend="bold">41</hi>.</item>
+                            <item>Width of opening at front 221 cm</item>
+                            <item>Depth: 147 cm</item>
+                            <item>Height: 167 cm</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Unfinished cave, but hollowed out from the floor to the ceiling, with the exception of
+                        a rock bench at the
+                        rear and a block of stone in the eastern corner. </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="sichuan_volume2" xml:lang="en">Sichuan Volume 2</title>
+        <title n="sichuan_volume2" xml:lang="zh">四川省第二卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="10"/>
+    </seriesStmt>
+    <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Bb_Cave39">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">39</hi>號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>該窟位於南坡<foreign xml:lang="en">B</foreign>區。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：360°。</item>
+                        </list>
+                        <p>
+                            <hi rend="bold">39</hi>號窟<foreign xml:lang="en">d</foreign>壁和<hi rend="bold">42</hi>號窟<foreign xml:lang="en">f</foreign>壁相距約13米。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <list>
+                            <item>敞口方形窟，雙層窟口，窟室平面為方形，平頂。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟底高於現在的小徑約2.5米。</item>
+                            <item>內窟口前部寬度為232釐米；外窟口寬度為280釐米，內外窟口間進深48釐米。</item>
+                            <item>石窟進深：227釐米。</item>
+                            <item>高度：內部高270釐米，外部高305釐米（門楣區已脫落）。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>該窟已完全鑿空，但壁面尚未打磨，也沒有刊刻任何文字。</p>
+                        <figure rend="page" n="figure" xml:id="cave_39_DSC_0100.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">39</hi>號窟所在位置高於小徑約2.5米；2010年拍攝</head>
+                            <head>Location of cave <hi rend="bold">39</hi>, ca. 2.5 m above the walkway; 
+                                photograph taken in 2010</head>
+                            <graphic url="cave_39_DSC_0100.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">39</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, section B </item>
+                            <item>Direction: wall f 360˚</item>
+                        </list>
+                        <p>The distance from wall d of cave <hi rend="bold">39</hi>, to wall f of cave <hi rend="bold">42</hi> is ca. 13 meters.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <list>
+                            <item>Box shape, open at front; double entrance, square ground plan, flat ceiling.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Height above present walkway: ca. 2.5 meters</item>
+                            <item>Width of opening at front 232 cm; outer opening: 280 cm, depth 48 cm</item>
+                            <item>Depth: 227 cm</item>
+                            <item>Height: inside 270 cm; outside 305 cm (lintel area fallen off)</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>The cave is completely hollowed out, but the walls remain unpolished, and no inscriptions were carved. </p>
+                        <figure rend="page" n="figure" xml:id="cave_39_DSC_1464.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">39</hi>號窟，其內壁未及打磨和刊刻文字；2010年拍攝</head>
+                            <head>Cave <hi rend="bold">39</hi>, with walls ready for polishing and carving; 
+                                photograph taken in 2010</head>
+                            <graphic url="cave_39_DSC_1464.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

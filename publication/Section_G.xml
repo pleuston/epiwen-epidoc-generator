@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="sichuan_volume1" xml:lang="en">Sichuan Volume 1</title>
+        <title n="sichuan_volume1" xml:lang="zh">四川省第一卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="3"/>
+    </seriesStmt> <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_G">
+        <body>
+            <div xml:lang="zh">
+                <head>G區概覽</head>
+                <p>該區位於北岩大臥佛的東西兩側，包括四座洞窟和一座浮雕墓塔。 <ptr target="Recl_Buddha_1_2_Map.jpg"/>, 為<foreign xml:lang="en">G</foreign>區西段的平面及立面圖，包含<hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟。由立面圖可見，臥佛位於石窟的東邊。西部的<hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟為一組雙窟，左右毗鄰，自西向東編號。
+                    此二窟與涅槃像被崖面上的一塊凸起岩塊分隔開來。<hi rend="bold">2</hi>號窟東壁距佛足約9米。四座洞窟之中只有<hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟刻有經文。</p>
+                <p>只開鑿了一半的<hi rend="bold">123</hi>號窟和無任何內容的<hi rend="bold">125</hi>號窟（自東向西編號），分別位於臥佛以東228米和150米處的崖面上。
+                <hi rend="bold">123</hi>號窟西側10米遠的地方，是編號為<hi rend="bold">124</hi>號的浮雕墓塔。 2008年，作為洞窟保護工程的一部份，
+                    有關部門在臥佛上方的崖頂檯面上開出一條排水溝。但有一些批評意見指出，這一舉措產生了負面效果， 實際上加重了<hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟的滲水現象。</p>
+                <ab>
+                    <abbr>雷德侯</abbr>
+                </ab>
+                <figure n="figure" xml:id="Recl_Buddha_1_2_Map.jpg" rend="center">
+                    <head xml:lang="zh">
+                        <foreign xml:lang="en">G</foreign>區西段的平面及立面圖</head>
+                    <head>Ground plan and elevation of the western part of section G</head>
+                    <graphic url="Recl_Buddha_1_2_Map.jpg"/>
+                </figure>
+            </div>
+            <div xml:lang="en">
+                <head>Section G</head>
+                <p>In the northern cliff, to the west and east of the giant statue of the reclining
+                    Buddha, section G comprises four caves and one tomb pagoda in relief. Figure <ptr target="Recl_Buddha_1_2_Map.jpg"/> shows the ground plan and the elevation of the western part of section G with caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>. In the elevation, the figure of the Reclining Buddha is seen to the east of the two caves. The two
+                    western caves, <hi rend="bold">1</hi> and <hi rend="bold">2</hi>, are twin caves which are arranged side by side and have
+                    been numbered from west to east. They are separated from the reclining figure by
+                    a bulging part of the cliff. The eastern wall of cave <hi rend="bold">2</hi> is 9 meters away from
+                    the feet of the statue.  Of the four caves, only these two (<hi rend="bold">1</hi> and <hi rend="bold">2</hi>) are carved
+                    with sutras.</p>
+                <p>The half finished cave <hi rend="bold">123</hi> and the empty cave <hi rend="bold">125</hi> (numbered from east to west),
+                    are situated 228 and 150 meters, respectively, to the east of the Bud­dha figure.
+                    Ten meters to the west of <hi rend="bold">123</hi> is the tomb pagoda <hi rend="bold">124</hi>. In 2008 a ditch was dug in
+                    the horizontal area on top of the cliff, above the reclining Buddha figure, to
+                    drain away water. Some critics maintain that this measure has had the opposite
+                    effect and has actually increased the amount of water in caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>.</p>
+                <ab>
+                    <abbr>LL</abbr>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

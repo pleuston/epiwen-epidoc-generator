@@ -1,0 +1,1648 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="sichuan_volume1" xml:lang="en">Sichuan Volume 1</title>
+                <title n="sichuan_volume1" xml:lang="zh">四川省第一卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="4"/>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Ga_Cave1">
+        <body>
+            <div xml:lang="zh" type="cave">
+                <head>1號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>1、2號刻經窟概覽</head>
+                        <p>
+                            <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟是本處遺址三組刻經雙窟中的一組。另兩組是<hi rend="bold">83</hi>、<hi rend="bold">85</hi>號窟和<hi rend="bold">109</hi>、<hi rend="bold">110</hi>號窟。
+                            構成雙窟的二窟左右相鄰，中間共用一道隔牆。窟室的形狀、大小基本一致，雙窟底部平齊。 這三組經窟恰好都位於崖面的較高位置。在<hi rend="bold">83</hi>至<hi rend="bold">85</hi>號雙窟中，<hi rend="bold">83</hi>號窟刊刻了部份《大般涅槃經》，<hi rend="bold">85</hi>號窟內則為完整的《維摩詰所說經》。 <hi rend="bold">109</hi>號窟和<hi rend="bold">110</hi>號窟刻《大方便佛報恩經》，但僅刻出七卷經文前五卷，六面窟壁也只使用了五面。 <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟是幾近完工的一組雙窟，其內刊刻一部完整的佛經<hi rend="dash">──</hi>《妙法蓮華經》，且所有窟內壁面均佈滿刻經文字。</p>
+                        <figure rend="center" n="figure" xml:id="Fig_24_DSC_0535.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟；2010年拍攝</head>
+                            <head>Caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>;
+                                photograph taken in 2010</head>
+                            <graphic url="Fig_24_DSC_0535.jpg" height="130mm"/>
+                        </figure>
+                        <p>刻經工作的主持者決定選用當時最為流行的《妙法蓮華經》版本，即鳩摩羅什（334-413）七卷二十八品的譯本。
+                            經文總計約71,000字，數量幾乎是臥佛院現存刻經的五分之一。</p>
+                        <p>標準大小的方形窟<hi rend="dash">──</hi>每壁可刊刻大約10,000字<hi rend="dash">──</hi>無法為整部經文提供足夠的壁面空間。因此開窟者在標準窟的基礎上將窟室進一步加高。
+                                正如在導論中討論到的，這些經過改造的窟室，平面與標準洞窟的相差不大。<hi rend="bold">1</hi>號窟的窟口寬211釐米，<hi rend="bold">2</hi>號窟為206釐米。
+                            而三壁也僅比通常的2米略寬一些。差別主要體現在高度上。加高洞窟使得窟壁面積也隨之擴大，
+                            幫助建造者更有效地達到他們在營建過程中的兩大工作目標：在減少鑿石量的同時盡可能地擴大壁面空間， 即以最小的工程量獲得最大的收益。<hi rend="bold">1</hi>號窟<foreign xml:lang="en">d</foreign>壁在窟口處高275釐米，<foreign xml:lang="en">f</foreign>壁在窟口處則高282釐米。 <hi rend="bold">2</hi>號窟中相應位置的測量值略小一些，分別是265釐米和260釐米。也許當開窟工程進行到<hi rend="bold">2</hi>號窟時， 工匠們已經計算出無須鑿出<hi rend="bold">1</hi>號窟那樣的高度便可以刻完整部經。</p>
+                        <p>書丹者自<hi rend="bold">1</hi>號窟的<foreign xml:lang="en">d</foreign>壁開始工作，在壁面上規劃出一塊布局嚴謹、規整的文字區<hi rend="dash">──</hi>不僅有邊框，還有垂直線和水平線構成的界格，
+                                於是文字便被安排在邊長約為2.1×2.1釐米、完全等大的方格中，橫成排，縱成行。與此同時，他們還盡可能地充分利用可用空間。文字區於<foreign xml:lang="en">d</foreign>壁窟口處只比打磨面窄1釐米左右。待書至<foreign xml:lang="en">e</foreign>壁時，書丹者一開始仍以相同的方式繼續，但自75行之後，
+                            他們放棄使用橫排，所書經文不再左右對齊。這種不規則便於他們在一行之内放入更多的字。
+                            在最後的17行，他們還縮小了行距，經文布局更加緊湊。書丹者可能擔心如果按照前面的節奏繼續，壁面空間會不夠用。
+                                出於同樣的考慮，他們也壓縮了<foreign xml:lang="en">f</foreign>壁第48行之後的行距。就這樣，
+                                書丹者設法在<hi rend="bold">1</hi>號窟完成了《妙法蓮華經》卷四第十一品，《見寶塔品》之前的全部經文。</p>
+                        <figure rend="center" n="figure" xml:id="WFY_1_uebersicht.jpg">
+                            <head xml:lang="zh">1號窟刻文區概覽，自右往左依次為<foreign xml:lang="en">d</foreign>壁、<foreign xml:lang="en">e</foreign>壁和<foreign xml:lang="en">f</foreign>壁</head>
+                            <head>Overview of the fields of script in cave 1, on walls d, e, and f,
+                                from right to left</head>
+                            <graphic url="WFY_1_uebersicht.jpg"/>
+                        </figure>
+                        <p>在與之毗鄰的<hi rend="bold">2</hi>號窟，書丹者從第十二品開始繼續經文的書寫工作。這時他們拋棄了界格與標示文字區域的矩形邊框。
+                                自<foreign xml:lang="en">d</foreign>壁第55行起，經文之起頭呈階梯狀高出6釐米左右，這樣一行便可容納更多的刻字。
+                            如何更好地節省空間，這是書丹者一直在考慮的問題， 以至於他們將第十七品開頭的經品名刻到了<foreign xml:lang="en">d</foreign>壁最後一行底端這個不甚理想的位置，然後直接在<foreign xml:lang="en">e</foreign>壁開始該品經的正文部份。 書丹者在<foreign xml:lang="en">e</foreign>壁享有了更多的空間，這是因為該壁略微內凹，加之洞窟平面前窄後寬。測量數據顯示，窟口寬206釐米，<foreign xml:lang="en">e</foreign>壁寬221釐米。
+                                由於此前在對可用空間的利用上過分“吝嗇”，書丹者一定意識到，到了最後的<foreign xml:lang="en">f</foreign>壁，他們可以適當地“慷慨”一些了。
+                            於是間距為2.0至2.1釐米的垂直界格線被再次啟用，不過水平線仍未畫出。書丹者在最後一壁只用71行便完成了整部經典，
+                                這時經文距離窟口尚有42釐米。而打磨面卻一直延伸至窟口處。倘若他們願意的話，還有足夠的壁面來寫刻《後序》，<note>《大正藏》T#263,
+                                9: 62b-c。</note> 像<hi rend="bold">66</hi>號窟那樣， 刻一行題記。</p>
+                        <figure rend="" n="figure" xml:id="Grundriss_caves_1_2_130515_CH.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟二窟平面圖；雷魯卡繪製</head>
+                            <head>Ground plans of caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>; drawing Lukas Ledderose</head>
+                            <graphic url="Grundriss_caves_1_2_130515_CH.svg" height="100mm"/>
+                        </figure>
+                        <p>
+                            <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟六壁刻經布局的不斷變化表明，書丹者事先沒有或不能很好地計算出最終需要多大的壁面空間。
+                            其所作改動反映出隨著工作的開展，他們對剩餘工作量的估算。由此不難想像，當時其他的窟龕開鑿者和書丹者也是如此。</p>
+                        <p>書丹者使用了一套文本標記，有條不紊地標識各卷、各品經文的開頭與結束。他們用代表卷數的小數字來標明各卷開頭。
+                                現在僅“四”、“五”、“六”三字尚清晰可見。其他數字可依<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行表示第四卷開頭的小字“四”補出。</p>
+                        <p>每卷的結束用經名加卷次的形式標出，例如“妙法蓮華經卷第三”。目前此類標記僅見於卷三、四、六、七。 其餘三卷的卷尾標記依<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行第三卷的標記補出。</p>
+                        <p>在一品的開頭，書丹者常重複書寫經名，接著為品名、品次，例如“妙法蓮華經隨喜功德品第十八”。
+                                第一、五、九、十、十一、十二、十四、二十一和二十三各品的開頭標記現已不存，可依<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行第十八品的開頭補出。</p>
+                        <p>不同於卷的情況，品的結束沒有標記。</p>
+                    </div>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>該窟位於<foreign xml:lang="en">G</foreign>區，是北岩最西端的洞窟。窟底距現今路面約7米（<ptr target="Fig_24_DSC_0535.jpg"/> ； <ptr target="Fig_22_DSC_0008.tif"/>）。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：148°。</item>
+                        </list>
+                        <p>
+                            <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟所居崖面位置在遺址中已屬最高，但在唐代可能還要高出幾米。此處鄰近巨型臥佛造像， 顯然是開鑿龕窟的理想位置。<hi rend="bold">2</hi>號窟的<foreign xml:lang="en">d</foreign>壁東距臥佛足部9米，
+                                兩窟底部與佛足部位力士像的頭頂平齊（<ptr target="Fig_24_DSC_0535.jpg"/>；<ptr target="Fig_22_DSC_0008.tif"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>
+                            <hi rend="bold">1</hi>號窟是敞口方形窟，雙層窟口（<ptr target="Grundriss_caves_1_2_130515_CH.svg"/>）。同另外兩組雙窟一樣，<hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟共用一長方形外窟口（<ptr target="Fig_24_DSC_0535.jpg"/>）。此外窟口僅稍作修整，不及內窟口規整，
+                                臥佛院所有的洞窟基本如此。兩窟共有的外窟口頂並不寬大，超出<hi rend="bold">1</hi>號窟內窟口約40釐米。
+                            在窟外低於現水泥地面約45釐米的地方，外窟口底部形成了一個連通兩窟的狹窄走道，現僅餘少許殘跡。</p>
+                        <p>外窟口東壁，即與<foreign xml:lang="en">d</foreign>壁平行的壁面，有一大小為15×11釐米的長方形孔洞，
+                            開鑿於窟頂下方16釐米、內窟口以外38釐米處。孔洞的保存情況良好，僅邊緣略有風化。
+                            西壁在距窟頂13釐米、內窟口33釐米的位置上，開鑿有一個與其對應的、邊長為15釐米的方孔。這個方孔殘損嚴重，現存深度僅2至4釐米。
+                                過去可能有一條橫木安插於兩孔之中，或為門框的上部橫樑，或用於懸掛帳幕。<hi rend="bold">2</hi>號窟外窟口側壁上，則不見此類成對孔洞之痕跡。</p>
+                        <p>窟室平面近方形，前窄後寬；窟頂由窟口處向後部略微下傾，大體仍為平頂。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>
+                                <foreign xml:lang="en">d</foreign>壁：寬205釐米，前部高275釐米，後部高262釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">e</foreign>壁：寬254釐米，中部高268釐米。 </item>
+                            <item>壁：寬224釐米，前部高282釐米，後部高266釐米。</item>
+                            <item>雙層窟口：內窟口寬211釐米；外窟口東、西兩側分別較內窟口寬35、22釐米，兩側殘深分別為80、70釐米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>1982年，曾對刻經壁面進行保護性化學封護處理。<note>李良與鄧之金<ref target="Li_Deng1997" type="biblio">第38頁b欄</ref>。 </note>
+                            <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟之間的外立面下部崩塌不存，現用水泥修補抹平。
+                            殘損窟口已用水泥從三面（左右兩側及頂部）加固。窟內原地面早期即遭破壞，僅在窟室西北角與東北角留存少許，
+                            高出現今水泥地面10釐米左右。窟頂前部風化較嚴重，大體呈黃色，後部岩石呈片狀剝落。窟室後部有泥土堆積， 其上現長有低矮植物。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <foreign xml:lang="en">d</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面的面積約為240×183釐米，基本覆蓋整個壁面，
+                                僅在窟口處和底部留有寬度分別為23釐米與10釐米（距離現今水泥地面，而非原地平）的未打磨帶。</item>
+                            <item>刻文字區面積約為205×168釐米，距窟口約24釐米、<foreign xml:lang="en">e</foreign>壁13至16釐米，其上緣距窟頂20釐米，下緣距現今地面25釐米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row>
+                                            <cell>邊框</cell>
+                                            <cell>有</cell>
+                                        </row>
+                                        <row>
+                                            <cell>界格</cell>
+                                            <cell>有</cell>
+                                        </row>
+                                        <row>
+                                            <cell>橫排</cell>
+                                            <cell>有</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell>行數</cell>
+                                            <cell>76</cell>
+                                        </row>
+                                        <row n="1">
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">21.2釐米（第1至10行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>0.5-1.0釐米</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">界格寬度</cell>
+                                            <cell n="3">2.1釐米</cell>
+                                        </row>
+                                        <row n="4">
+                                            <cell n="4">界格高度</cell>
+                                            <cell n="4">2.1釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row n="7">
+                                            <cell n="7">每行字數</cell>
+                                            <cell n="7">不等；103 （第75行） </cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">21.2釐米（第5行）</cell>
+                                        </row>
+                                        <row n="6">
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">貼近，無距離</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row n="1">
+                                            <cell n="1">例</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">問</cell>
+                                            <cell n="2">11/19</cell>
+                                            <cell n="2">2.5</cell>
+                                            <cell n="2">1.5</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">囙</cell>
+                                            <cell n="3">13/18</cell>
+                                            <cell n="3">1.7</cell>
+                                            <cell n="3">0.9</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>不良。有一大塊褐色壁面，自窟口距地面208釐米的地方開始向窟內延伸106釐米，表層有2至3釐米厚的壁面脫落。
+                            其下方壁面亦有多處小塊剝落。窟頂以下約65釐米處的一塊水平區域和壁面後部、自窟口內162釐米高處開始的一條垂直， 是<foreign xml:lang="en">d</foreign>壁保存最為完好的兩塊區域。</p>
+                    </div>
+                    <div>
+                        <head>經文標記</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>［妙法蓮華經序品第一］；現已不可見<note>“序品”二字在80年代製作的拓片上仍清楚可見。見<ptr target="c1_d_1_A_r_no"/>。</note>，根據<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行類推補出。 由<hi rend="bold">1</hi>號窟<foreign xml:lang="en">e</foreign>壁第13行以及<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行的經品名寫刻情況推測，其後還有一較小的“一”字，
+                                    亦風化不得見。 表示《妙法蓮華經》第一品《序品》，同時也是該經首卷，自此開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>［……］我聞一時佛……；《法華經》卷一第一品《序品》可辨識出的開頭文字。</cell>
+                            </row>
+                            <row>
+                                <cell>第41行</cell>
+                                <cell>……說《法華經》今相如本瑞是諸［……］盡無有餘；《法華經》卷一第一品目前可看到的最後幾字。</cell>
+                            </row>
+                            <row>
+                                <cell>第41行</cell>
+                                <cell>妙［法蓮華經方便品第二 爾時］世尊從三昧……；《法華經》卷一第二品《方便品》的開頭部份。 泯滅字跡依<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行類推補出。</cell>
+                            </row>
+                            <row>
+                                <cell>第76行</cell>
+                                <cell>……爪甲,而畫作佛像［如是］諸人［等，漸］漸［積］功［德，具足大］； <foreign xml:lang="en">d</foreign>壁刻經結束，至此仍屬《法華經》卷一第二品《方便品》。此行爲<foreign xml:lang="en">d</foreign>壁末行。</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <?pb?>
+                <div>
+                    <head>
+                        <foreign xml:lang="en">e</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面覆蓋整個壁面，面積約為254×258釐米，其底端距現今水泥地面約10釐米。</item>
+                            <item>刻文區自窟頂下方21釐米處始，距<foreign xml:lang="en">d</foreign>壁約13釐米、<foreign xml:lang="en">f</foreign>壁約12釐米。下緣已風化，無法辨識。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row n="1">
+                                            <cell n="1">邊框</cell>
+                                            <cell n="1">不可見</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">界格</cell>
+                                            <cell n="2">有部份垂直線</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">橫排</cell>
+                                            <cell n="3">僅第一部份；75行之後經文漸趨不規整，不再左右對齊</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row n="4">
+                                            <cell n="4">行數</cell>
+                                            <cell n="4">115</cell>
+                                        </row>
+                                        <row n="1">
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">21釐米（第1至10行）</cell>
+                                        </row>
+                                        <row n="5">
+                                            <cell n="5">行距</cell>
+                                            <cell n="5">約為0.5至1.0釐米，最後17行縮小為0.3至0.7釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row n="7">
+                                            <cell n="7">每行字數</cell>
+                                            <cell n="7">不等；117（第23行），133（第115行） </cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">21釐米（第6行）</cell>
+                                        </row>
+                                        <row n="6">
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">約為0.5至1.2釐米，最後17行縮小為0.3至0.7釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <?cb?>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row n="1">
+                                            <cell n="1">例</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">聞</cell>
+                                            <cell n="2">12/21</cell>
+                                            <cell n="2">1.7</cell>
+                                            <cell n="2">1.5</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">法</cell>
+                                            <cell n="3">18/21</cell>
+                                            <cell n="3">1.4</cell>
+                                            <cell n="3">1.4</cell>
+                                        </row>
+                                        <row n="4">
+                                            <cell n="4">法</cell>
+                                            <cell n="4">99/21</cell>
+                                            <cell n="4">1.3</cell>
+                                            <cell n="4">1.3</cell>
+                                        </row>
+                                        <row n="5">
+                                            <cell n="5">到</cell>
+                                            <cell n="5">99/24</cell>
+                                            <cell n="5">1.3</cell>
+                                            <cell n="5">1.3</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>保存不良。距窟底約86釐米的壁面殘失，目前該部位由於滲水的原因異常潮濕，有些地方甚至被苔蘚覆蓋。
+                                壁面中段有為數不多的幾塊刻經倖存下來。窟頂下方近70釐米高的一條水平區域，可以說是<foreign xml:lang="en">e</foreign>壁保存最好的一段壁面。</p>
+                    </div>
+                    <div>
+                        <head>經文標記</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>［……（缺20字）］塔廟寶像……；繼續<foreign xml:lang="en">d</foreign>壁的《法華經》卷一第二品《方便品》。</cell>
+                            </row>
+                            <row>
+                                <cell>第13行</cell>
+                                <cell>［妙法蓮華經卷第一］；現已不可見，依<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行補出。
+                                    表示卷一結束，亦即《法華經》卷一第二品《方便品》結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第13行</cell>
+                                <cell>［妙法蓮華］經譬喻品［第三］；其後有一較小的“二”字，表示為《法華經》卷二第三品《譬喻品》之開始，
+                                    同時也是第二卷的開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第70行</cell>
+                                <cell>妙法蓮華經［信解品第四］；表示《法華經》卷二第四品《信解品》的開始。缺失的字依<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行補出。</cell>
+                            </row>
+                            <row>
+                                <cell>第98行</cell>
+                                <cell>一［乘］道隨宜；《法華經》卷二第四品《信解品》結尾部份最後可見的文字。</cell>
+                            </row>
+                            <row>
+                                <cell>第98行</cell>
+                                <cell>［妙法蓮華經卷第二］；現已不可見，據<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行補出。
+                                    表示經文第二卷至此結束，同時也是《法華經》卷二第四品《信解品》的結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第98行</cell>
+                                <cell>［妙法蓮華經藥草喻品第五］；現已不可見，依<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行補出。 由<hi rend="bold">1</hi>號窟<foreign xml:lang="en">f</foreign>壁第48行的經品名寫刻情況推測，其後應有一較小的“三”字，表示第三卷的開始，
+                                    同時也是《法華經》卷三第五品《藥草喻品》的開始。 </cell>
+                            </row>
+                            <row>
+                                <cell>第109行</cell>
+                                <cell>［妙法蓮華經］授記品［第六］；表示《法華經》卷三第六品《授記品》之開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第115行</cell>
+                                <cell>住二十小劫其［佛］常處虛空為衆；《法華經》卷三第六品《授記品》可辨識出的最後幾個刻字，位置靠近該行頂端。</cell>
+                            </row>
+                            <row>
+                                <cell>第115行</cell>
+                                <cell>［無不愛樂］；現已不可見，據<foreign xml:lang="en">f</foreign>壁開頭經文推測得出，<foreign xml:lang="en">e</foreign>壁刻經至此結束，仍為《法華經》卷三第六品《授記品》中的內容。</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <?pb?>
+                </div>
+                <div>
+                    <head>
+                        <foreign xml:lang="en">f</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面覆蓋整個窟壁，底端距現今水泥地面約10釐米。在靠近窟口的地方，壁面並非呈直角與窟頂相交，而是逐漸併入後者，
+                                二者不存在一個明顯的分界線。</item>
+                            <item>現存文字區的形狀大致是一個上緣不規則的矩形，面積約為222至232×184.5釐米。
+                                    該區自窟頂下方13至19釐米處始，止於現今地面上方31釐米處；距<foreign xml:lang="en">e</foreign>壁12釐米，距窟口44釐米（上部）、17.5釐米（下部）。
+                                第83行是有連續刻文的最後一行。其後第84到96行的字似乎起初被書丹，但後來只零星刻出一些。
+                                第87行靠近頂端的地方有兩個單獨的“人”字，二字相隔12釐米，之間可填入七字，
+                                可能為《妙法蓮華經》卷四第十品《法師品》中的“……知此人等，近於佛智慧。
+                                若人說此……”。此外，第88行還有第三個“人”字。在文字區下部，距窟口17.5釐米、地面上方104釐米的地方，
+                                有一塊大小約為20×15釐米的縱矩形區域，其內有較多的刻字，不過多風化難辨。
+                                位於第96行的“問”字是此窟最後一個可辨識的刻字。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row>
+                                            <cell n="1">邊框</cell>
+                                            <cell n="1">無</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">界格</cell>
+                                            <cell n="2">有部份垂直線</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">橫排</cell>
+                                            <cell n="3">無</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell n="4">行數</cell>
+                                            <cell n="4">約 105，最後16行未完成刊刻 </cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">21.5釐米（第1至10行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="7">行距</cell>
+                                            <cell n="7">0.5至1.0釐米，大約在42行後行距縮小</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row>
+                                            <cell n="5">每行字數</cell>
+                                            <cell n="5">不等：第69行：133；第82行：138 </cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">15.5釐米（第5行）；17.5釐米（第17行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">0.3至0.8釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row>
+                                            <cell n="1">例</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">慈</cell>
+                                            <cell n="2">19/71</cell>
+                                            <cell n="2">2.1</cell>
+                                            <cell n="2">1.9</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">坐</cell>
+                                            <cell n="3">11/89</cell>
+                                            <cell n="3">1.0</cell>
+                                            <cell n="3">1.2</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>保存不良。牆基表層遭侵蝕，高度達37釐米。<foreign xml:lang="en">e</foreign>壁下部70至90釐米寬的剝蝕帶延伸至<foreign xml:lang="en">f</foreign>壁。與對面的<foreign xml:lang="en">d</foreign>壁一樣，<foreign xml:lang="en">f</foreign>壁也有一塊三角形區域的壁面表層幾乎全部剝落。該區域自窟口始，範圍為地面上方140至210釐米之間，
+                                後逐漸變窄，向窟內延伸130釐米後停止。小塊的剝落接著向後壁<foreign xml:lang="en">e</foreign>方向繼續剝落。 地面上方約195至230釐米之間，是一條風化剝蝕較嚴重的水平帶。 </p>
+                        <p>刻字區下部朝向窟口方向的延伸部份，僅於地面之上110至125釐米之間可見。</p>
+                        <p>壁面後部，窟頂下方有一道細裂縫，它在刻經前就已經存在了。在第1、7、13、14行，刻經者考慮到了這條裂縫，經文跳過它繼續。
+                            該裂隙之後又繼續擴大，破壞了第2至6行頂部的部份刻字。但它並沒有影響到第8至16行（第12行除外）經文。 到第17行時，裂縫不再經過文字區。
+                        </p>
+                    </div>
+                    <div>
+                        <head>經文標記</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>佛於其中度無量眾其佛法中……；<foreign xml:lang="en">e</foreign>壁《法華經》卷三第六品《授記品》之繼續。</cell>
+                            </row>
+                            <row>
+                                <cell>第8行</cell>
+                                <cell>汝等善聽；《法華經》卷三第六品《授記品》最後幾字。</cell>
+                            </row>
+                            <row>
+                                <cell>第8行</cell>
+                                <cell>妙法蓮［華經化］城喻品第七；表示《法華經》卷三第七品《化城喻品》自此開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第48行</cell>
+                                <cell>妙法蓮［華］經卷第三；表示卷三結束，同時亦是《法華經》第七品《化城喻品》之結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第48行</cell>
+                                <cell>［妙法蓮華］經五百弟子受記品第八；其後有一小字“四”； 表示《法華經》第八品《五百弟子受記品》之開始，
+                                    同時也是第四卷經文的開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第64行</cell>
+                                <cell>槃分，自足不求餘。今佛覺悟我，言非實滅……；《法華經》卷四第八品《五百弟子受記品》結尾部份的最後可見經文。</cell>
+                            </row>
+                            <row>
+                                <cell>第64行</cell>
+                                <cell> ［妙法蓮華經授學無學人記品第九 爾時］阿難，羅睺羅而作是念……；缺失文字據<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行補出。表示《法華經》卷四第九品《授學無學人記品》之開始。 </cell>
+                            </row>
+                            <row>
+                                <cell>第73行</cell>
+                                <cell>聞普周遍，漸入於涅槃。爾時［學、無學二千人，聞佛授記，歡喜踊躍］，而說偈言［世尊慧燈明，我聞授記音，心歡喜充滿，
+                                    如甘露見灌］；為《法華經》卷四第九品《授學無學人記品》的結束部份。</cell>
+                            </row>
+                            <row>
+                                <cell>第73行</cell>
+                                <cell>［妙法蓮華經法師品第十］；現已不可見；泯滅字跡據<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行補出。表示《法華經》卷四第十品《法師品》由此開始。
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>第73行</cell>
+                                <cell>諸天、龍王、夜叉、乾闥婆……；《法華經》卷四第十品《法師品》開頭可辨識出的刻字。</cell>
+                            </row>
+                            <row>
+                                <cell>第83行</cell>
+                                <cell>［信解］受持者當知是人得近阿耨多……；<foreign xml:lang="en">f</foreign>壁最後一行完整行的開頭，屬《法華經》卷四第十品《法師品》。
+                                    前一行與之高度大致相同的刻字為：……者何此中已有如來全身……。 </cell>
+                            </row>
+                            <row>
+                                <cell>第89行</cell>
+                                <cell>［妙法蓮華經見寶塔品第十一］；打磨面上並未刻字，依<hi rend="bold">2</hi>號窟<foreign xml:lang="en">e</foreign>壁第20行補出。《法華經》卷四第十一品《見寶塔品》應自此始。</cell>
+                            </row>
+                            <row>
+                                <cell>第89行</cell>
+                                <cell>［……］上四面皆出［……］；該行可辨識出的五字，屬《法華經》卷四第十一品《見寶塔品》。</cell>
+                            </row>
+                            <row>
+                                <cell>第90行</cell>
+                                <cell>［……］哉釋迦［……］；該行可辨識出的三字，屬《法華經》卷四第十一品《見寶塔品》。</cell>
+                            </row>
+                            <row>
+                                <cell>第91行</cell>
+                                <cell>［……］緣有此［……］；該行可辨識出的三字，屬《法華經》卷四第十一品《見寶塔品》。</cell>
+                            </row>
+                            <row>
+                                <cell>第94行</cell>
+                                <cell>［……］諸佛［……］；該行可辨識出的二字，屬《法華經》卷四第十一品《見寶塔品》。</cell>
+                            </row>
+                            <row>
+                                <cell>第96行</cell>
+                                <cell>［……］問［……］；該行可辨識出的一字，仍屬《法華經》卷四第十一品《見寶塔品》。其後尚有足夠的壁面空間完成第十一品。</cell>
+                            </row>
+                        </table>
+                        <ab>
+                            <abbr>雷德侯、任婧、蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en" type="cave">
+                <head>Cave 1</head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Overview: Caves 1 and 2</head>
+                        <p>The two caves, <hi rend="bold">1</hi> and <hi rend="bold">2</hi>, form
+                            one of the three pairs of twin caves in the precinct. The other two
+                            pairs are caves <hi rend="bold">83</hi> with <hi rend="bold">85</hi>,
+                            and caves <hi rend="bold">109</hi> with <hi rend="bold">110</hi>. Twin
+                            caves are positioned side by side and separated by a common wall. They
+                            have the same shape and size, and their floors are on the same level.
+                            All three pairs happen to be high up on their respective cliffs. </p>
+                        <p>The twin caves <hi rend="bold">83</hi> and <hi rend="bold">85</hi>
+                            contain a part of the <title>
+                                <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> (<hi rend="italic">Foshuo da boniepan jing </hi>
+                                <foreign xml:lang="zh">佛說大般涅槃經</foreign>)</title> in <hi rend="bold">83</hi>, and the
+                            entire <title>
+                                <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi> (<hi rend="italic">Weimojie suoshuo jing </hi>
+                                <foreign xml:lang="zh">維摩詰所說經</foreign>)</title> in <hi rend="bold">85</hi>. Caves <hi rend="bold">109</hi> and <hi rend="bold">110</hi> contain a single
+                            text, the <title>
+                                <hi rend="italic">Great Skillful Means Sutra on the
+                                    Buddha’s Repayment of Kindness</hi> (<hi rend="italic">Dafangbian fo baoen jing </hi>
+                                <foreign xml:lang="zh">大方便佛報恩經</foreign>)</title>. However, only five of the seven
+                            scrolls of the sutra have been carved, and only five of the six walls in
+                            these twin caves have been used. The twin caves, <hi rend="bold">1</hi>
+                            and <hi rend="bold">2</hi>, are the most accomplished pair: they contain
+                            a single text in its entirety, and all of their six walls are filled
+                            with it. This text is the <title>
+                                <hi rend="italic">Lotus Sutra of the
+                                    Wonderful Law</hi> (<hi rend="italic">Miaofa lianhua
+                                    jing </hi>
+                                <foreign xml:lang="zh">妙法蓮華經</foreign>)</title>.</p>
+                        <p>The makers decided to carve the most popular version of the <hi rend="italic">Sutra</hi>, the one translated by <foreign xml:lang="sa">Kumārajīva</foreign> (334–413), with 28 chapters in
+                            seven scrolls. This text has around 71,000 characters, that is, almost
+                            one fifth of the entire volume of text still extant in the Grove of the
+                            Reclining Buddha.</p>
+                        <p>Standard sized caves, whose walls could accommodate ca. ten thousand
+                            characters, would not have provided enough wall space for the complete
+                            sutra. The makers opted, therefore, for a standard size cave with
+                            extended height. As discussed in the introduction, the ground plan of
+                            such caves is the same as that of standard size caves. In cave <hi rend="bold">1</hi> the entrance opening has a width of 211 cm, and
+                            in <hi rend="bold">2</hi> of 206 cm. The three walls, too, are not much
+                            wider than the usual two meters. What is different, however, is the
+                            height. Increasing the height added space on the three interior walls,
+                            and helped the builders optimally to reconcile their two goals:
+                            maximizing the wall surface and minimizing the volume of cut out rock.
+                            Wall d in cave <hi rend="bold">1</hi> is 275 cm high at the entrance,
+                            and wall f 282 cm. The respective measurements in cave <hi rend="bold">2</hi> are only slightly smaller, 265 cm and 260 cm. When carving
+                            this second cave, the makers may have worked out by then that they did
+                            not need the full height allowed in cave <hi rend="bold">1</hi> to
+                            complete the sutra.</p>
+                        <p>As the calligraphers began work on wall d in cave <hi rend="bold">1</hi>,
+                            they laid out a perfect field of script, with a frame and a grid of
+                            vertical and horizontal lines, giving them columns and rows of squares
+                            of absolutely equal size, each measuring 2.1 cm × 2.1 cm. They also made
+                            the best use of the available space. At the entrance, their field of
+                            script is only 1 cm less wide than the polished area. On wall e, the
+                            calligraphers first continued in the same way, but after column 75, they
+                            abandoned the horizontal rows. With this irregularity, they could fit
+                            more characters into a column. In the last 17 columns, they also
+                            tightened the width between them. The calligraphers may have been afraid
+                            that the available wall space would not be sufficient, if they had
+                            continued in the same rhythm as before. Similarly, they tightened the
+                            width between their columns after column 48 on wall f. Thus, in cave <hi rend="bold">1</hi>, they managed to complete the sutra with the full
+                            chapter 11, entitled <hi rend="italic">Jian baota pin</hi>
+                            <foreign xml:lang="zh">見寶塔品</foreign>, in scroll 4.</p>
+                        <p>In the neighboring cave <hi rend="bold">2</hi>, the calligraphers
+                            continued with chapter 12 of the <hi rend="italic">Sutra</hi>. Here they
+                            did away with grid lines and a rectangular frame for the field of
+                            script. Beginning from column 55 on wall d, the columns become higher by
+                            steps adding up to ca. 6 cm, which created more space for characters.
+                            The carvers were so concerned to save space that they carved the title
+                            of the new chapter 17 into the lowest part of the last column on this
+                            wall d; then, on wall e, they immediately began with the text. On this
+                            wall, the calligraphers gained further surface space, because the wall
+                            is slightly concave, and because the ground plan of the cave also widens
+                            slightly toward the rear. While the entrance opening is 206 cm wide,
+                            wall e has a width of 221 cm. Having been so parsimonious with the
+                            available space, the calligraphers must have realized that, on the last
+                            wall f, they could be more generous. They introduced vertical grid lines
+                            again, with a distance of 2.0-2.1 cm between them, but they did not
+                            create horizontal rows. The calligraphers only required 71 columns on
+                            this last wall to complete the entire sutra, at a comfortable distance
+                            of 42 cm before the entrance opening. The polished area continues to the
+                            end. Had the calligraphers so wished, the wall would have provided
+                            enough space for the postface (<hi rend="italic">houxu</hi>
+                            <foreign xml:lang="zh">後序</foreign>) of the <hi rend="italic">Sutra</hi>,<note>T#263, 9: 62b-c.</note> and even for a colophon,
+                            as in cave <hi rend="bold">66</hi>.</p>
+                        <p>The constant changes in the layout of the columns on the six walls of
+                            caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi> suggest that the
+                            calligraphers could not, or did not, compute perfectly how much wall
+                            space they would ultimately need. Their modifications reflect their
+                            estimates of the remaining work as they went along. It is also
+                            conceivable that, at those points, other designers and calligraphers
+                            took over.</p>
+                        <p>The calligraphers were methodical in their use of text markers to
+                            indicate the beginnings and ends of the 7 scrolls and 28 chapters of the
+                                <hi rend="italic">Sutra</hi>. They marked the beginning of each
+                            scroll with its respective number in a small character. The small
+                            characters 2, 4, 5, and 6 are still visible. The others have been
+                            supplied here by analogy with the small number 4, which marks the
+                            beginning of scroll 4 in cave <hi rend="bold">1</hi>, wall f, column 48,
+                            and the small number 6, which marks the beginning of scroll 6 in cave
+                                <hi rend="bold">2</hi>, wall e, column 20.</p>
+                        <figure rend="" n="figure" xml:id="Grundriss_caves_1_2_130515.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">1</hi>、<hi rend="bold">2</hi>號窟二窟平面圖；雷魯卡繪製</head>
+                            <head>Ground plans of caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>; drawing Lukas Ledderose</head>
+                            <graphic url="Grundriss_caves_1_2_130515.svg" height="128mm"/>
+                        </figure>
+                        <p>The end of a scroll, the calligraphers marked by the sutra title,
+                            together with the scroll number, as in: “Scroll number 3 in the <hi rend="italic">Lotus Sutra</hi>
+                            <foreign xml:lang="zh">妙法蓮華經卷第三</foreign>.” Only in the case of scrolls 3, 4, 6, and 7,
+                            are these markers still visible. This information has been supplied for
+                            the other three scrolls by analogy with the full text marking the end of
+                            scroll 3 in cave <hi rend="bold">1</hi>, wall f, column 48. At the
+                            beginning of a chapter, the calligraphers repeated the title of the
+                            sutra, followed by the title of the chapter (ending with <hi rend="italic">pin</hi>
+                            <foreign xml:lang="zh">品</foreign>), followed
+                            by the number of the chapter, as in: “<hi rend="italic">Lotus
+                            Sutra</hi>, chapter entitled <hi rend="italic">Suixi gongde pin</hi>,
+                            number 18 <foreign xml:lang="zh">妙法蓮華經隨喜功德品第十八</foreign>.” These markers
+                            are no longer visible for chapters 1, 5, 9, 10, 11, 12, 14, 21, and 23.
+                            They have been supplied here by analogy with the beginning of chapter 18
+                            in cave <hi rend="bold">2</hi>, wall e, column 20. Unlike the scrolls,
+                            the end of a chapter is never indicated.</p>
+                    </div>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>The westernmost cave in the northern cliff, section G; floor level
+                                ca. 7 m above the present walkway at the foot of the cliff (fig.
+                                    <ptr target="Fig_22_DSC_0008.tif"/> and fig. <ptr target="Fig_24_DSC_0535.jpg"/>).</item>
+                            <item>Direction of wall f: 148˚.</item>
+                        </list>
+                        <p>The positions of caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>
+                            are among the highest in the precinct, but in the Tang dynasty, they
+                            would have been yet higher by a few meters. The width of the facade
+                            between the openings of the twin caves is 135 cm.</p>
+                        <p>Evidently, a site close to the colossal sculpture of the reclining Buddha
+                            was the most desirable position for the caves. Their floors are at the
+                            same height as the top of the head of the guardian figure standing at
+                            the Buddha’s feet about 9 m away to the east from wall d of cave <hi rend="bold">2</hi>. </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front and double entrance frame (fig. <ptr target="Grundriss_caves_1_2_130515.svg"/>). Like the other two pairs
+                            of twin caves, caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi>
+                            share the outer entrance frame (fig. <ptr target="Fig_24_DSC_0535.jpg"/>). As in all caves in the precinct, the outer frame is less accurately
+                            cut than the inner entrance frame. It includes a short common roof,
+                            which in cave <hi rend="bold">1</hi> protrudes ca. 40 cm beyond the
+                            inner frame. At the entrance opening, about 45 cm below the present
+                            concrete floor, the outer frame formed a narrow walkway between the two
+                            caves; only traces remain.</p>
+                        <p>In the face of the eastern reveal, which runs parallel to wall d, a
+                            rectangular hole, 15 × 11 cm, has been cut 16 cm below the lintel and 38
+                            cm from the inner frame. Its state of preservation is good; only the
+                            contours are weathered. A corresponding hole, 15 × 15 cm, remains in the
+                            reveal of wall f, 13 cm below the lintel and 33 cm from the inner frame.
+                            It is heavily worn and is now only 2-4 cm deep. These two holes may have
+                            held a horizontal bar serving as the upper frame of a door, or holding a
+                            curtain that was hung from it. No traces of such corresponding holes are
+                            visible in the reveal of cave <hi rend="bold">2</hi>. </p>
+                        <p>The cave has an approximately square ground plan, widening toward the
+                            rear; the ceiling descends slightly toward the rear.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Wall d: height at front 275 cm, at rear 262 cm, width 205 cm. </item>
+                            <item>Wall e: height at midpoint 268 cm, width 254 cm. </item>
+                            <item>Wall f: height at front 282 cm, at rear 266 cm, width 224
+                                cm.</item>
+                            <item>Double entrance frame: outer frame: width of reveal 35 cm (east),
+                                22 cm (west); depth of reveal ca. 80 cm (east), ca. 70 cm (west);
+                                inner frame: width of entrance opening: 211 cm.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>In 1982 a protective chemical coating <foreign xml:lang="zh">化學封護處理保護</foreign> was applied to the surfaces.<note>
+                                <ref target="Li_Deng1997" type="biblio">38b</ref>.</note> A section
+                            of the wall between caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi> has fallen out and has been replaced by concrete. The
+                            dilapidated door frame has been stabilized by concrete on its three
+                            sides, including the lintel. The original floor was ca. 10 cm higher
+                            than the present one, which is now covered in concrete. The front part
+                            of the ceiling is worn and displays a yellow color. Flat slabs of the
+                            rock have fallen from the rear part. Also at the rear, earth has
+                            accumulated on which there is now vegetation.</p>
+                    </div>
+                </div>
+                <?pb?>
+                <div>
+                    <head>Wall d</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>A polished area, ca. 240 × 183 cm, begins ca. 23 cm from the
+                                entrance and immediately below the ceiling; it covers the entire
+                                wall d, going all the way to wall e and ends ca. 10 cm above the
+                                present floor.</item>
+                            <item>The field of script, ca. 205 × 168 cm, begins ca. 24 cm from the
+                                entrance and 20 cm below the ceiling. It ends ca. 25 cm above the
+                                present floor and 13-16 cm from wall e. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">yes</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">yes</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">yes</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">76</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">21.2 cm (cols. 1-10)</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>0.5-1.0 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Width of grid</cell>
+                                            <cell n="3">2.1 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="4">Length of grid</cell>
+                                            <cell n="4">2.1 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell>Characters per column</cell>
+                                            <cell>uneven, 103 (col. 75)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">21.2 cm (col. 5)</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between characters</cell>
+                                            <cell>adjacent</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row>
+                                            <cell n="1">Sample</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">問</foreign>wen</cell>
+                                            <cell n="2">11/19</cell>
+                                            <cell n="2">2.5</cell>
+                                            <cell n="2">1.5</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">囙</foreign>yin</cell>
+                                            <cell n="3">13/18</cell>
+                                            <cell n="3">1.7</cell>
+                                            <cell n="3">0.9</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor. The surface has flaked away to a depth of 2-3 cm over a large
+                            angular brownish colored area, beginning at a height of 208 cm at the
+                            entrance, and extending to a point at 106 cm into the cave. More areas
+                            have flaked below this section. A horizontal zone of the wall, which
+                            reaches ca. 65 cm down from the ceiling, and a vertical zone in the
+                            rear, which begins 162 cm from the entrance, are most fully
+                            preserved.</p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經序品第一］</foreign>, no longer
+                                        visible;<note>The two characters “<foreign xml:lang="zh">序品</foreign>” are still visible on the rubbing made in
+                                        the 1980s. See <ptr target="c1_d_1_A_r_no"/>.</note> missing
+                                    characters supplied by analogy with cave <hi rend="bold">2</hi>,
+                                    wall e, column 20. Assumed to have been followed by a small
+                                    character 1, <hi rend="italic">yi </hi>
+                                    <foreign xml:lang="zh">一</foreign>, by analogy with cave <hi rend="bold">1</hi>,
+                                    wall e, column 13, and cave <hi rend="bold">1</hi>, wall f,
+                                    column 48; no longer visible. Refers to the beginning of chapter
+                                    1, entitled <hi rend="italic">Xu pin</hi>
+                                    <foreign xml:lang="zh">序品</foreign> (preface), coinciding with the beginning of
+                                    scroll 1 of the <title>
+                                        <hi rend="italic">Lotus
+                                        Sutra</hi>
+                                    </title>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell> .../[...]<foreign xml:lang="zh">我聞一時佛</foreign>...; the first
+                                    visible characters in chapter 1, entitled <hi rend="italic">Xu
+                                        pin</hi>
+                                    <foreign xml:lang="zh">序品</foreign> (preface), in
+                                    scroll 1 of the <hi rend="italic">Lotus Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 41</cell>
+                                <cell>...<foreign xml:lang="zh">說《法華經》今相如本瑞是諸</foreign>[...]
+                                        <foreign xml:lang="zh">盡無有餘</foreign>; the last visible
+                                    characters in chapter 1, in scroll 1 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 41</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">妙［法蓮華經方便品第二 爾時］世尊從三昧</foreign>...;
+                                    missing characters supplied by analogy with cave <hi rend="bold">2</hi>, wall e, column 20. Refers to the beginning of
+                                    chapter 2, entitled <hi rend="italic">Fangbian pin</hi>
+                                    <foreign xml:lang="zh">方便品</foreign>, in scroll 1 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 76 (last column)</cell>
+                                <cell>...<foreign xml:lang="zh">爪甲,而畫作佛像［如是］諸人［等，漸］漸［積］功［德，具足大］</foreign>; the last
+                                    characters on wall d, in chapter 2, entitled <hi rend="italic">Fangbian pin</hi>
+                                    <foreign xml:lang="zh">方便品</foreign>, in
+                                    scroll 1 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <?pb?>
+                <div>
+                    <head>Wall e</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>A polished area, ca. 254 × 258 cm, covers the entire wall, ending
+                                ca. 10 cm above the present floor.</item>
+                            <item>The field of script begins 13 cm from wall d and ca. 21 cm below
+                                the ceiling. It ends ca. 12 cm from wall f. The lower edge is no
+                                longer visible.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">not visible</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">some vertical lines</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">only in the first part; they become
+                                                irregular after column 75</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">115</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">21 cm (cols. 1-10)</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>0.5 to 1.0 cm, tighter in the last 17 columns: 0.3
+                                                to 0.7 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell n="5">Characters per column</cell>
+                                            <cell n="5">uneven, 117 (col. 23); 133 (col. 115)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">21 cm (col. 6)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6">Space between characters</cell>
+                                            <cell n="6">ca. 0.5 to 1.2 cm, tighter in the last 17
+                                                columns: 0.1 to 0.3 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row>
+                                            <cell n="1">Sample</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">問</foreign>wen</cell>
+                                            <cell n="2">12/21</cell>
+                                            <cell n="2">1.7</cell>
+                                            <cell n="2">1.2</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">法</foreign>fa</cell>
+                                            <cell n="3">18/21</cell>
+                                            <cell n="3">1.4</cell>
+                                            <cell n="3">1.4</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="4">
+                                                <foreign xml:lang="zh">法</foreign>fa</cell>
+                                            <cell n="4">99/21</cell>
+                                            <cell n="4">1.3</cell>
+                                            <cell n="4">1.3</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="5">
+                                                <foreign xml:lang="zh">到</foreign>dao</cell>
+                                            <cell n="5">99/24</cell>
+                                            <cell n="5">1.3</cell>
+                                            <cell n="5">1.3</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor. The entire lower part has disappeared, up to a height of ca. 86 cm,
+                            where a moist zone, partly covered with moss, runs across the entire
+                            width of the wall. A zone, approximately 70 cm high, below the ceiling
+                            is the best preserved section. Several patches of characters still
+                            survive in the central zone.</p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell>[...20 characters] <foreign xml:lang="zh">塔廟寶像</foreign>; is
+                                    the continuation from wall d, of chapter 2, entitled <hi rend="italic">Fangbian pin</hi>
+                                    <foreign xml:lang="zh">方便品</foreign>, in scroll 1 of the <hi rend="italic">Lotus
+                                        Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 13</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經卷第一］</foreign>; no longer
+                                    visible; missing characters supplied by analogy with cave <hi rend="bold">1</hi>, wall f, column 48. Refers to the end of
+                                    scroll 1, coinciding with the end of chapter 2, entitled <hi rend="italic">Fangbian pin</hi>
+                                    <foreign xml:lang="zh">方便品</foreign>, in scroll 1 of the <hi rend="italic">Lotus
+                                        Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 13</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華］經譬喻品［第三］</foreign>; followed by a
+                                    small character 2, <hi rend="italic">er </hi>
+                                    <foreign xml:lang="zh">二</foreign>; refers to the beginning of
+                                    chapter 3, entitled <hi rend="italic">Piyu pin</hi>
+                                    <foreign xml:lang="zh">譬喻品</foreign>, in scroll 2 of the <hi rend="italic">Lotus Sutra</hi>; coinciding with the
+                                    beginning of scroll 2 of the <hi rend="italic">Lotus
+                                    Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 70</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">妙法蓮華經［信解品第四］</foreign>; refers to the
+                                    beginning of chapter 4, entitled <hi rend="italic">Xinjie
+                                        pin</hi>
+                                    <foreign xml:lang="zh">信解品</foreign>, in scroll 2 of
+                                    the <hi rend="italic">Lotus Sutra</hi>. Missing characters
+                                    supplied by analogy with cave <hi rend="bold">2</hi>, wall e,
+                                    column 20.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 98</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">一［乘］道隨宜</foreign>; the last visible
+                                    characters at the end of chapter 4, entitled <hi rend="italic">Xinjie pin</hi>
+                                    <foreign xml:lang="zh">信解品</foreign>, in
+                                    scroll 2 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 98</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經卷第二］</foreign>; no longer
+                                    visible; missing characters supplied by analogy with cave <hi rend="bold">1</hi>, wall f, column 48. Refers to the end of
+                                    scroll 2, coinciding with the end of chapter 4, entitled <hi rend="italic">Xinjie pin</hi>
+                                    <foreign xml:lang="zh">信解品</foreign>, in scroll 2 of the <hi rend="italic">Lotus
+                                        sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 98</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經藥草喻品第五］</foreign> no longer
+                                    visible; missing characters supplied by analogy with cave <hi rend="bold">2</hi>, wall e, column 20. Assumed to have been
+                                    followed by a small character 3, <hi rend="italic">san
+                                        </hi>
+                                    <foreign xml:lang="zh">三</foreign>, by analogy with
+                                    cave <hi rend="bold">1</hi>, wall f, column 48. Refers to the
+                                    beginning of scroll 3, coinciding with the beginning of chapter
+                                    5, entitled <hi rend="italic">Yaocaoyu pin</hi>
+                                    <foreign xml:lang="zh">藥草喻品</foreign>, in scroll 3 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 109</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經］授記品［第六］</foreign>; refers to the
+                                    beginning of chapter 6, entitled <hi rend="italic">Shouji
+                                        pin</hi>
+                                    <foreign xml:lang="zh">授記品</foreign>, in scroll 3 of
+                                    the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 115</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">住二十小劫其［佛］常處虛空為衆</foreign>; last visible
+                                    characters near the top of the column, in chapter 6, entitled
+                                        <hi rend="italic">Shouji pin</hi>
+                                    <foreign xml:lang="zh">授記品</foreign>, in scroll 3 of the <hi rend="italic">Lotus
+                                        Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 115</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［無不愛樂］</foreign>; no longer visible;
+                                    according to the beginning text of wall f, it should be
+                                    reconstructed as: last characters on wall e, in chapter 6,
+                                    entitled <hi rend="italic">Shouji pin</hi>
+                                    <foreign xml:lang="zh">授記品</foreign>, in scroll 3 of the <hi rend="italic">Lotus
+                                        Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <head>Wall f</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>A polished area extends over the entire wall down to about ca. 10
+                                cm above the present floor. Near the entrance, the upper edge of the
+                                wall does not meet the ceiling at a right angle, but gradually
+                                merges into it.</item>
+                            <item>The present field of script, a rectangle, irregular at the top,
+                                ca. 222-232 × 184.5 cm, begins 12 cm from wall e and 13-19 cm below
+                                the ceiling, and it ends ca. 31 cm above the present floor. The
+                                distance to the entrance in its upper part is 44 cm, in its lower
+                                part 17.5 cm. Column 83 is the last column with a continuous string
+                                of characters. From columns 84-96, characters were apparently
+                                originally written by the brush, but only carved sporadically. Two
+                                single characters <hi rend="italic">ren</hi>
+                                <foreign xml:lang="zh">人</foreign> in column 87 are separated by 12 cm, which may have
+                                been filled by 7 characters. Those may have been part of the passage
+                                    “...<foreign xml:lang="zh">知此人等, 近於佛智慧. 若人說此</foreign>...” in
+                                chapter 10, entitled <hi rend="italic">Fashi pin</hi>
+                                <foreign xml:lang="zh">法師品</foreign>, in scroll 4 of the <hi rend="italic">Lotus Sutra</hi>. A third character <hi rend="italic">ren</hi>
+                                <foreign xml:lang="zh">人</foreign> is seen
+                                in column 88. In the lower part of the field of script, 17.5 cm from
+                                the entrance and 104 cm above the floor, a vertical rectangle, 20 ×
+                                15 cm, contains traces of more characters. One character, <hi rend="italic">wen</hi>
+                                <foreign xml:lang="zh">問</foreign>, in
+                                column 96 is the last recognizable character in this cave.</item>
+                        </list>
+                    </div>
+                    <?cb?>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">none</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">some vertical lines</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">none</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">approximately 105, the last 16
+                                                unfinished</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">21.5 cm (cols. 1-10)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="7">Space between columns</cell>
+                                            <cell n="7">0.5-1.0 cm; tighter after ca. col. 42</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell n="5">Characters per column</cell>
+                                            <cell n="5">uneven, 133 (col. 69); 138 (col. 82)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">15.5 cm (col. 5); 17.5 cm (col. 17)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6">Space between characters</cell>
+                                            <cell n="6">0.3-0.8 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6"/>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <row>
+                                            <cell n="1">Sample</cell>
+                                            <cell n="1">Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">慈</foreign>ci</cell>
+                                            <cell n="2">19/71</cell>
+                                            <cell n="2">2.1</cell>
+                                            <cell n="2">1.9</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">坐</foreign>zuo</cell>
+                                            <cell n="3">11/89</cell>
+                                            <cell n="3">1.0</cell>
+                                            <cell n="3">1.2</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <?pb?>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor. The surface of the base of the wall is eroded up to a height of 37
+                            cm. The eroded zone of a width between 70-90 cm on wall e extends into
+                            wall f. As on the opposite wall d, the surface has almost completely
+                            disappeared across a triangular field, beginning at the entrance at a
+                            height from 140-210 cm and leading to a point ca. 130 cm into the cave.
+                            Flaked patches continue toward the rear wall e. More flaked areas occur
+                            in a horizontal zone at a height between 195 and 230 cm. </p>
+                        <p>The lower extension of the field of script toward the entrance is only
+                            visible between 110 and 125 cm above the floor.</p>
+                        <p>Before engraving began, a thin horizontal crack was already present
+                            beneath the ceiling in the rear part of wall f. In columns 1, 7, 13, and
+                            14, the carver took this crack into account by skipping over it. The
+                            crack later widened and damaged characters in columns 2-6. It did not
+                            affect characters from columns 8-16, except for column 12. In column 17,
+                            the crack leaves the field of script. </p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛於其中度無量眾其佛法中</foreign>...; is the
+                                    continuation from wall e of chapter 6, entitled <hi rend="italic">Shouji pin</hi>
+                                    <foreign xml:lang="zh">授記品</foreign>, in scroll 3 of the <hi rend="italic">Lotus
+                                        Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 8</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">汝等善聽</foreign>; the last characters in
+                                    chapter 6, entitled <hi rend="italic">Shouji pin</hi>
+                                    <foreign xml:lang="zh">授記品</foreign>, in scroll 3 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 8</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">妙法蓮［華經化］城喻品第七</foreign>; refers to the
+                                    beginning of chapter 7, entitled <hi rend="italic">Huachengyu
+                                        pin</hi>
+                                    <foreign xml:lang="zh">化城喻品</foreign>, in scroll 3
+                                    of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 48</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">妙法蓮［華］經卷第三</foreign>; refers to the end
+                                    of scroll 3, coinciding with the end of chapter 7, entitled <hi rend="italic">Huachengyu pin</hi>
+                                    <foreign xml:lang="zh">化城喻品</foreign>, in the <hi rend="italic">Lotus
+                                    Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 48</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華］經五百弟子受記品第八</foreign>; followed by
+                                    a small character 4, <hi rend="italic">si </hi>
+                                    <foreign xml:lang="zh">四</foreign>; refers to the beginning of
+                                    chapter 8, entitled <hi rend="italic">Wubai dizi shouji
+                                        pin</hi>
+                                    <foreign xml:lang="zh">五百弟子受記品</foreign>, coinciding
+                                    with the beginning of scroll 4 of the <hi rend="italic">Lotus
+                                        Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 64</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">槃分，自足不求餘。今佛覺悟我，言非實滅</foreign>...; the
+                                    last visible characters at the end of chapter 8, entitled <hi rend="italic">Wubai dizi shouji pin</hi>
+                                    <foreign xml:lang="zh">五百弟子受記品</foreign>, in scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 64</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經授學無學人記品第九。爾時］阿難，羅睺羅而作是念</foreign>...; missing characters
+                                    supplied by analogy with cave <hi rend="bold">2</hi>, wall e,
+                                    column 20. Refers to the beginning of chapter 9, entitled <hi rend="italic">Shouxue wuxue ren ji pin</hi>
+                                    <foreign xml:lang="zh">授學無學人記品</foreign>, in scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 73</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">聞普周遍，漸入於涅槃。爾時［學、無學二千人，聞佛授記，歡喜踊躍，］而說偈言［世尊慧燈明，我聞授記音，
+                                        心歡喜充滿，如甘露見灌］</foreign>; the end of chapter 9, entitled <hi rend="italic">Shouxue wuxue ren ji pin</hi>
+                                    <foreign xml:lang="zh">授學無學人記品</foreign>, in scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 73</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經法師品第十］</foreign>; no longer
+                                    visible; missing characters supplied by analogy with cave <hi rend="bold">2</hi>, wall e, column 20. Refers to the
+                                    beginning of chapter 10, entitled <hi rend="italic">Fashi
+                                        pin</hi>
+                                    <foreign xml:lang="zh">法師品</foreign>, in scroll 4 of
+                                    the <hi rend="italic">Lotus Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 73</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">諸天、龍王、夜叉、乾闥婆</foreign>...; the first
+                                    visible characters in chapter 10, entitled <hi rend="italic">Fashi pin</hi>
+                                    <foreign xml:lang="zh">法師品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 83</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［信解］受持者當知是人得近阿耨多</foreign>...; the
+                                    beginning of the last complete column on wall f; characters in
+                                    chapter 10, entitled <hi rend="italic">Fashi pin</hi>
+                                    <foreign xml:lang="zh">法師品</foreign>, in scroll 4 of the <hi rend="italic">Lotus Sutra</hi>. Characters at the same
+                                    height in the preceding column: ...<foreign xml:lang="zh">者何此中已有如來全身</foreign>... </cell>
+                            </row>
+                            <row>
+                                <cell>Column 89</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［妙法蓮華經見寶塔品第十一］</foreign>; the polished
+                                    area was never engraved; missing characters supplied by analogy
+                                    with cave <hi rend="bold">2</hi>, wall e, column 20. Refers to
+                                    the beginning of chapter 11, entitled <hi rend="italic">Jian
+                                        baota pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 89</cell>
+                                <cell> [...]<foreign xml:lang="zh">上四面皆出</foreign>[...]; discernible
+                                    characters from chapter 11, entitled <hi rend="italic">Jian
+                                        baota pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 90</cell>
+                                <cell> [...]<foreign xml:lang="zh">哉釋迦</foreign>[...]; discernible
+                                    characters from chapter 11, entitled <hi rend="italic">Jian
+                                        baota pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 91</cell>
+                                <cell> [...]<foreign xml:lang="zh">緣有此</foreign>[...]; discernible
+                                    characters from chapter 11, entitled <hi rend="italic">Jian
+                                        baota pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 94</cell>
+                                <cell> [...]<foreign xml:lang="zh">諸佛</foreign>[...]; discernible
+                                    characters from chapter 11, entitled <hi rend="italic">Jian
+                                        baota pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in
+                                    scroll 4 of the <hi rend="italic">Lotus Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 96</cell>
+                                <cell> [...]<foreign xml:lang="zh">問</foreign>[...]; discernible
+                                    character from chapter 11, entitled <hi rend="italic">Jian baota
+                                        pin</hi>
+                                    <foreign xml:lang="zh">見寶塔品</foreign>, in scroll 4
+                                    of the <hi rend="italic">Lotus Sutra</hi>. Enough space was left
+                                    on wall f to complete chapter 11. </cell>
+                            </row>
+                        </table>
+                        <ab>
+                            <abbr>LL, RJ, TSL</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Discussion of caves 1 and 2</head>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1986">20, 25</ref>
+                        <note>
+                            <p>Hu and Li are the first to identify the text in the two caves as the <hi rend="italic">Lotus Sutra</hi>
+                    in <foreign xml:lang="sa">Kumārajīva’s</foreign> translation, and give the titles of  five chapters (15, 18,
+                    23, 24, and 25).</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Pengjiasheng1988">6</ref>
+                        <note>
+                            <p>Peng gives measurements of the three dimensions of the caves and
+                        computes their volume as 13.29 m³ (cave 1) and 12.836 m³ (cave
+                        2). He identifies the <hi rend="italic">Lotus Sutra</hi> as the
+                        only text carved in the two caves and the titles of five (one of
+                        them twice) chapters, locating them on the walls. He describes
+                        the state of preservation on all six walls as “rather good
+                        <foreign xml:lang="zh">較好</foreign>”.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Caodan1990">51</ref>
+                        <note>
+                            <p>Cao gives the location of some chapters on the walls.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1992">8</ref>
+                        <note>
+                            <p>Hu gives measurements of the three dimensions of both caves (on the
+                            same lines as <ref type="biblio" target="Pengjiasheng1988">6</ref>), but does not compute their volume. He identifies chapter 8, <foreign xml:lang="zh">五百弟子受記品</foreign>, on wall f, cave <hi rend="bold">1</hi>, locates chapter 15 on
+                            wall d, cave <hi rend="bold">2</hi>, chapter 18 on wall e, and chapters 23, 24, 25 on
+                            wall f. He identifies the version of the <hi rend="italic">Lotus Sutra</hi> as the translation by <foreign xml:lang="sa">Kumārajīva</foreign>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Li_Deng1997">38</ref>
+                        <note>
+                            <p>Li and Deng believe that the two caves were carved in the Tang dynasty. They give location, shape, and measurements of the caves. They
+                                also set out the measurements of the fields of script, and state
+                                the total number of characters in cave <hi rend="bold">1</hi> as 9,170 (wall d),
+                                12,407 (wall e), 9,317 (wall f), and the total number of
+                                characters in cave <hi rend="bold">2</hi> as 7,797 (wall d), 9,709 (wall e), 9,072
+                                (wall f). They report that the characters have a diameter of 1.5-2.0 cm.</p>
+                            <p>They describe the state of preservation of the sutra in both
+                                    caves as “rather good <foreign xml:lang="zh">較好</foreign>”, and
+                                    mention that in 1982 a protective chemical coating <foreign xml:lang="zh">化學封護處理保護</foreign> was applied to the surfaces
+                                    of walls.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ChengduKaoguFaxian2008">354, 403-404</ref>
+                        <note>
+                            <p>This report gives a detailed description of the location and shape of the two
+                                        caves. It is suggested that the twin sutra caves were part of an
+                                        overall unified plan.</p>
+                            <p>Cave <hi rend="bold">1</hi> was inaccessible at the time of the field work, because a
+                                            storehouse had been built below it. Thus this report provides
+                                            measurements only for cave <hi rend="bold">2</hi> and its fields of script, and makes
+                                            observations on the state of preservation: Wall d, lower part
+                                            already decayed; middle part slightly damaged; upper part well
+                                            preserved. Wall e, lower part completely eroded; sutras only
+                                            preserved on the upper part. Wall f: middle part near the
+                                            entrance severely eroded; upper part rather well preserved.
+                                            Also mentioned are two holes in wall d, which were added later.
+                                            The floor is ca. 10 cm lower than the original level.</p>
+                            <p>The report identifies the <hi rend="italic">Lotus Sutra</hi> as the only
+                                                text in two caves and states that it was carved in its entirety. It locates
+                                                scrolls and chapters in cave <hi rend="bold">1</hi> based on rubbings in the Anyue
+                                                Cultural Relics Bureau and on the walls of cave <hi rend="bold">2</hi> based on on-site inspection.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="LeeSonyaS2009">66-68</ref>
+                        <note>
+                            <p>Lee publishes her photo of caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi> (p. 67, fig. 24) and a
+                                                    drawing (p. 48, fig. 14) with a hypothetical reconstruction of
+                                                    the wooden building for the statue of the reclining Buddha and
+                                                    its relation to the two caves. She believes that the two caves
+                                                    were carved in the first half of the eighth century.</p>
+                            <p>In her view, the <hi rend="italic">Lotus Sutra</hi> in <foreign xml:lang="sa">Kumārajīva’s</foreign> translation, which is
+                                                        presented in full and situated beside the colossal image,
+                                                        provides an authoritative case for the use of material
+                                                        objects in the devotional practice and worship of the
+                                                        Buddha.</p>
+                            <p>She claims that the <hi rend="italic">Lotus Sutra</hi> can be
+                                                            regarded “as the generative source of Wofoyuan, not unlike the
+                                                            role of the reclining Buddha in defining the parameters of a
+                                                            ‘situation’ to which a ‘response’ was made.” The colossal figure
+                                                            and the sutra bracket the time frame after the Buddha’s entering
+                                                            nirvana, and rely on the nirvana theme to call attention to the
+                                                            survival of Buddhism in an age without the Buddha’s presence.
+                                                            The other Buddhist stone sutras on the opposite side of the
+                                                            valley offer a response that seeks to rationalize and uphold the
+                                                            permanence of the Buddhist faith.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Cao_Yu2009">10-11, 16, 18, 28-31</ref>
+                        <note>
+                            <p>Cao and Yu publish rubbings (nos. 0009-0011, 0046-0048) of parts of the <hi rend="italic">Lotus Sutra</hi> engraved in two caves.</p>
+                            <p>They give measurements of the fields of script and the number of
+                                                                the characters still extant on each wall in caves <hi rend="bold">1</hi> and <hi rend="bold">2</hi> as
+                                                                follows: Cave <hi rend="bold">1</hi>: wall d 1,315 characters extant; wall e 751 characters extant; 
+                                                                wall f 3,001 characters extant.</p>
+                            <p>Cave <hi rend="bold">2</hi>: wall d 7,308 characters extant; wall e 3,906 characters extant; wall f
+                                                                    3,529 characters extant.</p>
+                            <p>The authors give a brief introduction to the <hi rend="italic">Lotus
+                                                                        Sutra</hi> and its translator <foreign xml:lang="sa">Kumārajīva</foreign>. They also list titles of scrolls and
+                                                                        chapters of the sutra. They believe
+                                                                        that the <hi rend="italic">Lotus Sutra</hi> at Wofoyuan was not
+                                                                        engraved in its entirety, and that the faithful, who donated
+                                                                        money, determined which scrolls or chapters were engraved.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="LeiYH_WangJP_FuCJ2009">98</ref>
+                        <note>
+                            <p>The two caves are situated to the west of the feet of the
+                                                                            reclining Buddha. As this is a site in the cliff
+                                                                            face that is less desirable, they must have been carved after the colossal statue.</p>
+                        </note>
+                    </bibl>
+                    <ab>
+                        <abbr>RJ</abbr>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

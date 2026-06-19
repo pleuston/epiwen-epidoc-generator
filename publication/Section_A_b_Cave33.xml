@@ -1,0 +1,1396 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="sichuan_volume2" xml:lang="en">Sichuan Volume 2</title>
+                <title n="sichuan_volume2" xml:lang="zh">四川省第二卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="9"/>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Ab_Cave33">
+        <body>
+            <div xml:lang="zh" type="cave">
+                <head>
+                    <hi rend="bold">33</hi>號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>概覽</head>
+                        <p>
+                            <hi rend="bold">29</hi>號窟僅刊刻了一部佛經的四卷，<hi rend="bold">33</hi>號窟則將六種不同佛經或其片段合在一起。 刻工先從<foreign xml:lang="en">d</foreign>壁開始刊刻《灌頂經》最後一卷，即卷十二《佛說灌頂拔除過罪生死得度經》。完成之後，
+                            接著從第四十八行起刻該經卷十一《佛說灌頂隨願往生十方淨土經》。每卷五千餘字，是此窟最長的三部佛經之二。開始刊刻卷十一時，每一行開頭都增加一個字，
+                                並且縮短行距。儘管如此，仍未能在狹小的壁面上刻完卷十一，不得不在距後牆<foreign xml:lang="en">e</foreign>壁11釐米處停止， 然後到<foreign xml:lang="en">e</foreign>壁繼續刻了六行。在最後一行，即第六行處，緊接著刻了篇幅短小的《佛說六門陀羅尼經》，
+                            該經到第九行處結束。第十至三十二行接續的是完整而相對較短的《佛臨般涅槃略說遺教經》。此壁刻經所佔寬度僅70釐米，其後再無經文。 <foreign xml:lang="en">e</foreign>壁剩餘的約170釐米寬的壁面可能並不適於刊刻。今天這部分壁面毀損嚴重。</p>
+                        <p>
+                            <foreign xml:lang="en">f</foreign>壁預備刻字的打磨區域照例 始於距<foreign xml:lang="en">e</foreign>壁交界線4至6釐米處，但刻經面在36至48釐米之後才開始，
+                            寬僅137釐米。前六行最長，內容為《佛說出家功德經》。最後，布局變得更加穩定。
+                            後續的第七至六十五行是《金剛般若波羅蜜經》全文，又是另一篇5076字的長文。刻經面結束於距入口31至33釐米處，間距合理。</p>
+                    </div>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>該窟位於南崖<foreign xml:lang="en">A</foreign>區，高於現今路面約51釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：326°。</item>
+                        </list>
+                        <p>一段寬17釐米的立面將其與西側的<hi rend="bold">32</hi>號龕隔開，龕中有一鋪倚坐佛像；東側是<hi rend="bold">34</hi>號龕， <hi rend="bold">33</hi>號窟和<hi rend="bold">34</hi>號龕之間是一段立面，即<hi rend="bold">33–1</hi>號龕，
+                                龕中刻有四排千佛雕像，寬度為103釐米（<ptr target="WFY_29-33_DSC0631.jpg"/>）。</p>
+                        <ab/>
+                        <figure rend="left" n="Zeichnungen_33_ohne_Buddahs_ZH.ai">
+                            <head xml:lang="zh">
+                                <hi rend="bold">33</hi>號窟平面圖；雷魯卡繪製</head>
+                            <head>Ground plan of cave <hi rend="bold">33</hi>; drawing Lukas
+                                Ledderose</head>
+                            <graphic url="Zeichnungen_33_ohne_Buddahs_ZH.svg" height="100mm"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形窟，雙層窟口；門檻下沉；高約5釐米，寬約40釐米。平面呈長方形，寬度大於進深，向內漸寬。窟內地面前部較平，後部較前部低約6釐米。窟頂平坦，由窟口向內略微擡升。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>
+                                <foreign xml:lang="en">d</foreign>壁：前部高221釐米，後部高233釐米，寬190釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">e</foreign>壁：西端高233釐米，中央高245釐米，東端高235釐米，寬252釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁：前部高222釐米，後部高235釐米，寬205釐米。</item>
+                            <item>窟口寬：209釐米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>改造</head>
+                        <list>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁入口一側及崖壁被鑿掉一部分，以便為鑿刻相鄰的<hi rend="bold">33–1</hi>號千佛龕。入口安裝了鐵柵門。2011年修建的長屋簷也覆蓋了該窟窟口。</item>
+                        </list>
+                        <figure xml:id="WFY_33_uebersicht.jpg" rend="center" n="figure">
+                            <head xml:lang="zh">
+                                <hi rend="bold">33</hi>號窟刻經區概覽，自右往左依次為<foreign xml:lang="en">d</foreign>壁、<foreign xml:lang="en">e</foreign>壁和<foreign xml:lang="en">f</foreign>壁 </head>
+                            <head>Overview of the fields of script in cave <hi rend="bold">33</hi>,
+                                on walls d, e, and f, from right to left </head>
+                            <graphic url="WFY_33_uebersicht.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_d_zh">
+                    <head>
+                        <foreign xml:lang="en">d</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面前距入口約6釐米，上緣距窟頂約3釐米，下緣始於距地面約20釐米處，後距<foreign xml:lang="en">e</foreign>壁約4釐米。</item>
+                            <item>刻經面原為高185釐米、寬162釐米的縱長方形。前距入口約12釐米，上緣距窟頂後部約12至20釐米不等，下緣距窟地面25釐米，後距後牆約11釐米。從第四十八行開始，每行行首加刻一字。</item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row>
+                                            <cell>邊框</cell>
+                                            <cell>有上邊框</cell>
+                                        </row>
+                                        <row>
+                                            <cell>界格</cell>
+                                            <cell>無</cell>
+                                        </row>
+                                        <row>
+                                            <cell>橫排</cell>
+                                            <cell>無</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行格</head>
+                                        <row>
+                                            <cell>總行數</cell>
+                                            <cell>79行</cell>
+                                        </row>
+                                        <row>
+                                            <cell>滿行字數</cell>
+                                            <cell>不等。120字（第5行）；123字（第13行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十行寬度</cell>
+                                            <cell>20.5釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十字高度</cell>
+                                            <cell>15.5釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行間距</cell>
+                                            <cell>約0.6至1.0釐米；第48行以後變小，約0.6釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字間距</cell>
+                                            <cell>約0.5釐米；第48行以後變小，約0.2釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                        <!--row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell>行數</cell>
+                                            <cell>79</cell>
+                                        </row>
+                                        <row n="1">
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">25釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>約0.6－1.0釐米，第48行以後行距變小，約0.6釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row n="7">
+                                            <cell n="7">每行字數</cell>
+                                            <cell n="7">120（第5行）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">20釐米</cell>
+                                        </row>
+                                        <row n="6">
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">約0.5釐米，第48行以後字距變小，約0.2釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row-->
+                        <table rend="box">
+                            <?column-break?>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>字例</head>
+                                        <row n="1">
+                                            <cell n="1">用字</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">如</cell>
+                                            <cell n="2">20/20</cell>
+                                            <cell n="2">1.0</cell>
+                                            <cell n="2">1.6</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">來</cell>
+                                            <cell n="3">20/21</cell>
+                                            <cell n="3">1.9</cell>
+                                            <cell n="3">1.5</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>不良。門檻上方約139釐米處，有一個呈三角形的凹陷區域，切入刻經面約6釐米，直到刻經第三行的位置。
+                            距地面約118釐米處，數道平行的水平裂縫橫穿整個壁面。下方壁面有幾處大塊區域內的文字已無法辨識。
+                            地面上方約155釐米處，有一塊較大的水平區域壁面剝落，高13至23釐米，從入口向內延伸約92釐米。</p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>
+                                    <anchor xml:id="SectionATextMarker_ZH"/>第1行</cell>
+                                <cell>［佛說灌頂拔除過罪生］死得［度］經；標識《佛說灌頂拔除過罪生死得度經》的開端，該經為《灌頂經》第十二卷；根據第48行推斷，未刻卷次。經名僅“死”、“得”和“經”三字尚可辨識。</cell>
+                            </row>
+                            <row>
+                                <cell>第47行</cell>
+                                <cell>［佛說灌頂拔除過罪生死得度經］；不可見，根據臥佛院所存刻經結尾復原而成；標識《佛說灌頂拔除過罪生死得度經》的結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第48行</cell>
+                                <cell>佛說灌頂隨願往生十方淨土經；標識《佛說灌頂隨願往生十方淨土經》的開端，該經為《灌頂經》第十一卷。未刻卷次。</cell>
+                            </row>
+                        </table>
+                        <figure xml:id="Cave_33_aussen_IMGP5701.jpg" rend="center" n="figure" height="110mm">
+                            <head xml:lang="zh">
+                                <foreign xml:lang="en">A</foreign> 區<hi rend="bold">33</hi>號窟；2009年拍攝 </head>
+                            <head>Cave <hi rend="bold">33</hi> in section A; photograph taken in
+                                2009</head>
+                            <graphic url="Cave_33_aussen_IMGP5701.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_e_zh">
+                    <head>
+                        <foreign xml:lang="en">e</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面距離<foreign xml:lang="en">d</foreign>壁約5釐米，上緣距窟頂約12至13釐米，下緣距地面約29釐米，後部距離<foreign xml:lang="en">f</foreign>壁約87釐米。</item>
+                            <item>刻經面為高200釐米、寬70釐米的縱長方形。距離<foreign xml:lang="en">d</foreign>壁約11釐米，距<foreign xml:lang="en">f</foreign>壁170釐米，上緣距窟頂約14至16釐米，下緣距窟地面約30釐米。壁面的東部未打磨，如今毀損嚴重。</item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row>
+                                            <cell>邊框</cell>
+                                            <cell>有上邊框</cell>
+                                        </row>
+                                        <row>
+                                            <cell>界格</cell>
+                                            <cell>無</cell>
+                                        </row>
+                                        <row>
+                                            <cell>橫排</cell>
+                                            <cell>無</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行格</head>
+                                        <row>
+                                            <cell>總行數</cell>
+                                            <cell>32行</cell>
+                                        </row>
+                                        <row>
+                                            <cell>滿行字數</cell>
+                                            <cell>137字（第7行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十行寬度</cell>
+                                            <cell>約20釐米；第10行以後22釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十字高度</cell>
+                                            <cell>15釐米；第10行以後16.5至17釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行間距</cell>
+                                            <cell>約0.5釐米；第10行以後0.5至0.7釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字間距</cell>
+                                            <cell>約0.1釐米；第10行以後0.2至0.4釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <!--row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell>行數</cell>
+                                            <cell>32</cell>
+                                        </row>
+                                        <row n="1">
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">18釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>約0.5釐米，第10行以後：0.5－0.7釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row n="7">
+                                            <cell n="7">每行字數</cell>
+                                            <cell n="7">137（第7行）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">15釐米</cell>
+                                        </row>
+                                        <row n="6">
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">約0.1釐米，第10行以後：0.2－0.4釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row-->
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>字例</head>
+                                        <row n="1">
+                                            <cell n="1">用字</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">訶</cell>
+                                            <cell n="2">1/20</cell>
+                                            <cell n="2">1.3</cell>
+                                            <cell n="2">1.6</cell>
+                                        </row>
+                                        <row n="3">
+                                            <cell n="3">度</cell>
+                                            <cell n="3">10/20</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">2.1</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>不良。地面至上方124釐米處，字跡難以辨識。地面上方約151釐米處，一塊高約14至28釐米的水平區域橫貫刻經面，這一區域很潮濕。該窟開鑿者可能在開窟過程中遇到滲水區後，決定不再往崖壁更深處開鑿。</p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>波利［富樓］那 遮利三曼阤……；接<foreign xml:lang="en">d</foreign>壁第79行的經文。</cell>
+                            </row>
+                            <row>
+                                <cell>第6行</cell>
+                                <cell>佛說灌頂［隨願］往［生十方］淨［土］經，七字可辨識；標識《佛說灌頂隨願往生十方淨土經》的結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第6行</cell>
+                                <cell>六門阤［羅尼經］；三字可見，無“佛說”二字；標識《佛說六門陀羅尼經》的開端。</cell>
+                            </row>
+                            <row>
+                                <cell>第9行</cell>
+                                <cell>佛說六門阤羅尼經；有“佛說”二字；標識《佛說六門陀羅尼經》的結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第10行</cell>
+                                <cell>佛臨般涅槃略說遺教經；標識《佛臨般涅槃略說遺教經》的開端。</cell>
+                            </row>
+                            <row>
+                                <cell>第32行</cell>
+                                <cell>［佛臨般涅槃略說遺教經］；不可見，根據臥佛院所存刻經結尾復原而成；標識《佛臨般涅槃略說遺教經》的結束。</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_f_zh">
+                    <head>
+                        <foreign xml:lang="en">f</foreign>壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面前部距<foreign xml:lang="en">e</foreign>壁約4至6釐米，上緣距窟頂約4至11釐米，下緣距地面約11至17釐米，距入口約20釐米。</item>
+                            <item>刻經面始於距<foreign xml:lang="en">e</foreign>壁僅36至48釐米處，寬度為137釐米。上緣距窟頂約11至15釐米，與入口相距31至33釐米。前六行高187釐米，第七至六十五行行首較前低三個字，高181釐米。距地面15至23釐米。</item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>經文</head>
+                                        <row>
+                                            <cell>邊框</cell>
+                                            <cell>有邊框</cell>
+                                        </row>
+                                        <row>
+                                            <cell>界格</cell>
+                                            <cell>無</cell>
+                                        </row>
+                                        <row>
+                                            <cell>橫排</cell>
+                                            <cell>前6行無，從第7行起有</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行格</head>
+                                        <row>
+                                            <cell>總行數</cell>
+                                            <cell>65行</cell>
+                                        </row>
+                                        <row>
+                                            <cell>滿行字數</cell>
+                                            <cell>108至125字（第1至6行）；86字（第7至65行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十行寬度</cell>
+                                            <cell>18 釐米（第1至6行）；20 釐米（第7至65行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>十字高度</cell>
+                                            <cell>15釐米（第1至6行）；20.5釐米（第7至65行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行間距</cell>
+                                            <cell>約0.5釐米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字間距</cell>
+                                            <cell>0.1至0.5釐米（第1至6行）；0.4至1.0釐米（第7至65行）</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <!--row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell>行數</cell>
+                                            <cell>65</cell>
+                                        </row>
+                                        <row n="1">
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">18 釐米（第1－6行），20 釐米（第7－65行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>約0.5釐米</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row n="7">
+                                            <cell n="7">每行字數</cell>
+                                            <cell n="7">108－125（第1－6行）；86（第7－65行）</cell>
+                                        </row>
+                                        <row n="2">
+                                            <cell n="2">十字高度</cell>
+                                            <cell n="2">15釐米（第1－6行）；20.5釐米（第7－65行）</cell>
+                                        </row>
+                                        <row n="6">
+                                            <cell n="6">字距</cell>
+                                            <cell n="6">0.1－0.5釐米（第1－6行）；0.4－1.0釐米（第7－65行）</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row-->
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>字例</head>
+                                        <row n="1">
+                                            <cell n="1">用字</cell>
+                                            <cell n="1">行/字</cell>
+                                            <cell n="1">高 （釐米）</cell>
+                                            <cell n="1">寬 （釐米）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">出</cell>
+                                            <cell n="2">2/56</cell>
+                                            <cell n="2">1.1</cell>
+                                            <cell n="2">1.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">家</cell>
+                                            <cell n="3">2/57</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">1.2</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="4">度</cell>
+                                            <cell n="4">10/42</cell>
+                                            <cell n="4">2.0</cell>
+                                            <cell n="4">1.6</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="5">所</cell>
+                                            <cell n="5">18/43</cell>
+                                            <cell n="5">1.1</cell>
+                                            <cell n="5">1.5</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>狀況不一。石窟後半部分：窟頂下方的區域保存狀況最佳，中部毀損，其下保存狀況尚可，再往下的部分文字已不可見。石窟前半部分：窟頂以下至地面上方約140釐米的區域保存狀況最佳，下方四分之一的壁面已完全漫漶。</p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>佛說［出家］功德經；標識《佛說出家功德經》的開端。</cell>
+                            </row>
+                            <row>
+                                <cell>第6行</cell>
+                                <cell>視世善惡恣；此部經最後幾個可辨識的字。該行接下去應刻至“歡喜奉行，作礼而去”（已磨滅）。依照臥佛院其他刻經的形式慣例，《佛說出家功德經》經名可能在結尾處又重複刊刻一次。</cell>
+                            </row>
+                            <row>
+                                <cell>第7行</cell>
+                                <cell>金剛般［若波羅蜜經］；標識《金剛般若波羅蜜經》的開端。</cell>
+                            </row>
+                            <row>
+                                <cell>第65行</cell>
+                                <cell>如夢、幻、泡、影，［如］露；此部經最後幾個可辨識的字。</cell>
+                            </row>
+                            <row>
+                                <cell>第65行</cell>
+                                <cell>［金剛般若波羅蜜經］；不可見，根據臥佛院所存刻經結尾復原而成；標識《金剛般若波羅蜜經》的結束。</cell>
+                            </row>
+                        </table>
+                        <ab>
+                            <abbr>雷德侯 任婧 蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_discussion_zh">
+                    <head> 討論 </head>
+                    <bibl> 胡文和、李官智<ref type="biblio" target="Hu_Li1986">第20頁</ref>
+                        <note>
+                            <p>胡文和和李官智僅列出該窟《灌頂經》卷十一和卷十二，《般若波羅蜜多心經》的刊刻位置描述有誤。</p>
+                        </note>
+                    </bibl>
+                    <bibl> 彭家勝<ref type="biblio" target="Pengjiasheng1988">第6頁</ref>
+                        <note>
+                            <p>彭家勝列出該窟的高、寬、深三維數據，進而計算出石窟體積為8.987立方米。除《灌頂經》卷十一外，他未能正確辨識該窟其他刻經。他指出<foreign xml:lang="en">d</foreign>壁的保存狀況“較好”，而<foreign xml:lang="en">e</foreign>壁和<foreign xml:lang="en">f</foreign>壁“風化嚴重”。</p>
+                        </note>
+                    </bibl>
+                    <bibl> 胡文和<ref type="biblio" target="Huwenhe1992">第8頁</ref>
+                        <note>
+                            <p>胡文和重複了他與李官智1986年論文中的信息（<ref type="biblio" target="Hu_Li1986">第20頁</ref>）。他列出該窟的三維數據（同彭家勝<ref type="biblio" target="Pengjiasheng1988">第6頁</ref>），但並未計算其體積。</p>
+                        </note>
+                    </bibl>
+                    <bibl> 李良、鄧之金 <ref type="biblio" target="Li_Deng1997">第40頁</ref>
+                        <note>
+                            <p>李良和鄧之金認為，該窟開鑿於唐代。他們描述了該窟形制，並測量了尺寸，還測量了刻經區的尺寸並對所刻經文做了如下判斷：</p>
+                            <list>
+                                <item>
+                                    <foreign xml:lang="en">d</foreign>壁：高180釐米、寬166釐米，刻有《灌頂經》卷十一“隨願［往生］十方淨土”，計79行，每行115字，共9085字，部分風化。</item>
+                                <item>
+                                    <foreign xml:lang="en">e</foreign>壁：高200釐米、寬67釐米，所刻經文計35行，每行115字，共4025字。因風化嚴重，難以確定經題。</item>
+                                <item>
+                                    <foreign xml:lang="en">f</foreign>壁：高200釐米、寬140釐米，刻有一部經，計65行，每行80字，共5200字。該經誤判作《般若波羅蜜多心經》，大部分風化。</item>
+                            </list>
+                            <p>他們將該窟的整體保存狀況描述為“風化嚴重”。</p>
+                        </note>
+                    </bibl>
+                    <bibl> 成都考古發現<ref type="biblio" target="ChengduKaoguFaxian2008">第364－365、405頁</ref>
+                        <note>
+                            <p>報告說明了洞窟的位置、形制和尺寸。其中提到了一些自然裂縫和後來出現在正立面的人為添加物。</p>
+                            <p>該報告確定了各壁刻經的經題和版本。關於保存狀況，報告指出<foreign xml:lang="en">d</foreign>壁的上半部分靠近入口處風蝕嚴重， <foreign xml:lang="en">e</foreign>壁僅右上角一處方形區域內的刻字尚且清晰。<foreign xml:lang="en">f</foreign>壁下半部分和與<foreign xml:lang="en">e</foreign>壁相鄰的區域風化嚴重。</p>
+                        </note>
+                    </bibl>
+                    <bibl>曹丹、于春 <ref type="biblio" target="Cao_Yu2009">11</ref>
+                        <note>
+                            <p>曹丹和于春提供石壁的尺寸和表面積，並根據拓片數出所存刻經的字數：<foreign xml:lang="en">d</foreign>壁2596字，<foreign xml:lang="en">e</foreign>壁475字，<foreign xml:lang="en">f</foreign>壁682字。兩位學者辨識出《灌頂經》卷十一與卷十二以及《金剛經》。</p>
+                        </note>
+                    </bibl>
+                    <ab>
+                        <abbr>雷德侯 任婧</abbr>
+                    </ab>
+                </div>
+            </div>
+            <div xml:lang="en" type="cave">
+                <head>Cave <hi rend="bold">33</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Overview</head>
+                        <p>Whereas four scrolls of only one sutra fill cave <hi rend="bold">29</hi>,
+                            six different texts, or parts thereof, have been strung together in cave
+                                <hi rend="bold">33</hi>. The engravers started in the first column
+                            of wall d with the last scroll of the <title>
+                                <hi rend="italic">Consecration Sutra</hi>
+                            </title>, scroll 12, the <title>
+                                <hi rend="italic">Consecration Sutra Spoken by the Buddha that
+                                    Rescues from Sin and Enables Salvation from Birth and Death</hi>
+                                    (<hi rend="italic">Fo shuo guanding bachu guozui shengsi dedu
+                                    jing</hi>
+                                <foreign xml:lang="zh">佛說灌頂拔除過罪生死得度經</foreign>
+                            </title>). Having completed this scroll, the
+                            engravers continued in column 48 with scroll 11, the <title>
+                                <hi rend="italic">Consecration Sutra Spoken by the Buddha Concerning
+                                    Rebirth in the Pure Lands of the Ten Directions According to
+                                    One’s Wish</hi> (<hi rend="italic">Fo shuo guanding suiyuan
+                                    wangsheng shifang jingtu jing</hi>
+                                <foreign xml:lang="zh">佛說灌頂隨願往生十方淨土經</foreign>
+                            </title>). With more than five thousand
+                            characters each, these scrolls are two of the three longest texts in the
+                            cave. When the carvers began with scroll 11, they increased the number
+                            of characters in all columns by one additional character at the top, and
+                            they also shrunk the distance between the vertical columns. Despite
+                            these efforts, they could not fit the entire scroll 11 on the short
+                            wall, but had to stop 11 cm before the corner with the rear wall e, and
+                            then they had to continue around the corner for another six columns. In
+                            the last of these, column 6, they then immediately began with the short
+                                    <title>
+                                <hi rend="italic">
+                                    <foreign xml:lang="sa">Dhāraṇī</foreign> Sutra of the Six Gates Spoken by the
+                                    Buddha</hi>
+                            </title>, which comes to an quick end in column 9. In
+                            columns 10 to 32 follows the entire, relatively short, <title>
+                                <hi rend="italic">Deathbed Injunction Sutra</hi>
+                            </title>. On wall e,
+                            this sutra completes the field of script, which is only 70 cm wide. The
+                            ca. 170 cm remaining on the wall may not have been suitable for further
+                            carving. Today this part is heavily damaged.</p>
+                        <figure rend="left" n="Zeichnungen_33_ohne_Buddahs.ai">
+                            <head xml:lang="zh">
+                                <hi rend="bold">33</hi>號窟平面圖；雷魯卡繪製</head>
+                            <head>Ground plan of cave <hi rend="bold">33</hi>; drawing Lukas
+                                Ledderose</head>
+                            <graphic url="Zeichnungen_33_ohne_Buddahs.svg" height="82mm"/>
+                        </figure>
+                        <p>On wall f, the prepared polished area begins as usual ca. 4 to 6 cm from
+                            the corner with wall e, but the field of script starts only after 36 to
+                            48 cm, and it is only 137 cm wide. The first six columns, which are
+                            longer than the rest, contain the <title>
+                                <hi rend="italic">Sutra Spoken
+                                    by the Buddha on the Merit and Virtue in Renouncing the
+                                    Householder’s Life</hi>
+                            </title>. Finally, the layout becomes
+                            more stable. In columns 7 to 65 follows the complete text of the
+                                    <title>
+                                <hi rend="italic">Diamond Perfection of Insight
+                                    Sutra</hi>
+                            </title>, with 5,076 characters, another long text.
+                            The field of script ends at a reasonable distance of 31 to 33 cm from
+                            the entrance.</p>
+                    </div>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, area A, ca. 51 cm above present walkway.</item>
+                            <item>Direction: wall f 326˚.</item>
+                        </list>
+                        <ab>Separated to the west from shrine <hi rend="bold">32</hi>, which has a
+                            seated Buddha with pendant legs, by a section of the facade,17 cm in
+                            width; to the east follows shrine <hi rend="bold">34</hi>; between cave
+                                <hi rend="bold">33</hi> and shrine <hi rend="bold">34</hi> is a
+                            section of the facade, shrine <hi rend="bold">33-1</hi>, with four rows
+                            of Thousand Buddhas, at a width of 103 cm (fig. <ptr target="WFY_29-33_DSC0631.jpg"/>).</ab>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box shape, a reveal on three sides of the opening; sunken threshold;
+                            height ca. 5 cm, width ca. 40 cm. The ground plan is a rectangle,
+                            broader than deep, widening toward the rear; the front part of the floor
+                            is flat; the rear part is ca. 6 cm lower. The flat ceiling rises
+                            slightly towards the rear. </p>
+                        <figure xml:id="w33-1_aussen.jpg" rend="center" n="figure">
+                            <head xml:lang="zh">
+                                <foreign xml:lang="en">A</foreign> 區<hi rend="bold">33</hi>號窟；2007年拍攝 </head>
+                            <head>Cave <hi rend="bold">33</hi> in section A; photograph taken in
+                                2007</head>
+                            <graphic url="w33-1_aussen.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Wall d: height at the front 221 cm, at the rear 233 cm, width 190
+                                cm.</item>
+                            <item>Wall e: height at western corner 233 cm, at midpoint 245 cm, at
+                                eastern corner 235 cm, width 252 cm. </item>
+                            <item>Wall f: height at the front 222 cm, at the rear 235 cm, width 205
+                                cm.</item>
+                            <item>width of opening: 209 cm.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Later changes</head>
+                        <list>
+                            <item>Part of the cliff face and of wall f at the entrance were cut back
+                                to make room for the adjacent Thousand Buddhas shrine <hi rend="bold">33-1</hi>. A steel grill is fixed in the western
+                                half of the entrance opening. The long roof built in 2011 extends
+                                also above this cave. </item>
+                        </list>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_d_en">
+                    <head>Wall d</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>The polished area begins ca. 6 cm from the entrance, and ca. 3 cm
+                                below the ceiling; it ends ca. 20 cm above the floor and ca. 4 cm
+                                from the rear wall e.</item>
+                            <item>The original field of script was a vertical rectangle, 185 x 162
+                                cm. The distance from the entrance is ca. 12 cm, the distance from
+                                the ceiling varies from 12 cm to 20 cm at the rear; the distance of
+                                the lowest row from the floor is 25 cm; the distance to the rear
+                                wall is ca. 11 cm. After column 47, the columns begin at the top
+                                with one extra character each.</item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">along the upper edge</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">none</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">none</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">79</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">20.5 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>ca. 0.6–1.0 cm; tighter after column 48, ca. 0.6
+                                                cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell>Characters per column</cell>
+                                            <cell>uneven. 120 (column 5); 123 (column 13)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">15.5 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between characters</cell>
+                                            <cell>ca. 0.5 cm; tighter after column 48, ca. 0.2
+                                                cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell n="1"/>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">如</foreign>ru</cell>
+                                            <cell n="2">20/20</cell>
+                                            <cell n="2">1.0</cell>
+                                            <cell n="2">1.6</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">來</foreign>lai</cell>
+                                            <cell n="3">20/21</cell>
+                                            <cell n="3">1.9</cell>
+                                            <cell n="3">1.5</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor. At a height of ca. 139 cm above the threshold, a triangular
+                            indentation of the wall cuts ca. 6 cm into the field of script as far as
+                            the third column. Several parallel horizontal cracks run through the
+                            entire wall at a height of ca. 118 cm above the floor. In the wall
+                            portion below, large areas are illegible. Ca. 155 cm above the floor, a
+                            larger horizontal flaked zone, 13–23 cm in height, extends ca. 92 cm
+                            from the entrance. </p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>
+                                    <anchor xml:id="SectionATextMarker"/>Column 1</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［佛說灌頂拔除過罪生］死得［度］經</foreign>; refers to
+                                    the beginning of the <title>
+                                        <hi rend="italic">Consecration Sutra
+                                            Spoken by the Buddha that rescues from Sin and Enables
+                                            Salvation from Birth and Death</hi>
+                                    </title> (<hi rend="italic">Fo shuo guanding bachu guozui shengsi de du
+                                        </hi>
+                                    <foreign xml:lang="zh">佛說灌頂拔除過罪生死得度</foreign>), which
+                                    is scroll 12 of the <hi rend="italic">Consecration Sutra</hi>
+                                        (<hi rend="italic">Guanding jing </hi>
+                                    <foreign xml:lang="zh">灌頂經</foreign>); by analogy with column 48, it is assumed
+                                    that no scroll number was indicated. Only the three characters
+                                        <hi rend="italic">si </hi>
+                                    <foreign xml:lang="zh">死</foreign>, <hi rend="italic">de </hi>
+                                    <foreign xml:lang="zh">得</foreign> and <hi rend="italic">jing </hi>
+                                    <foreign xml:lang="zh">經</foreign> are recognizable.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 47</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［佛說灌頂拔除過罪生死得度經］</foreign>; not visible,
+                                    reconstruction by analogy with the extant endings of other
+                                    carved sutras; refers to the end of the <title>
+                                        <hi rend="italic">Consecration Sutra Spoken by the Buddha that rescues
+                                            from Sin and Enables Salvation from Birth and
+                                        Death</hi>
+                                    </title>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 48</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛說灌頂隨願往生十方淨土經</foreign>; refers to the
+                                    beginning of the <title>
+                                        <hi rend="italic">Consecration Sutra
+                                            Spoken by the Buddha Concerning Rebirth in the Pure Land
+                                            of the Ten Directions According to One’s
+                                        Wish</hi>
+                                    </title> (<hi rend="italic">Fo shuo guanding
+                                        suiyuan wangsheng shifang jingtu jing </hi>
+                                    <foreign xml:lang="zh">佛說灌頂隨願往生十方淨土經</foreign>), which is scroll 11
+                                    of the <hi rend="italic">Consecration Sutra</hi> (<hi rend="italic">Guanding jing </hi>
+                                    <foreign xml:lang="zh">灌頂經</foreign>); no scroll number is indicated. </cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_e_en">
+                    <head>Wall e</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>The polished area begins ca. 5 cm from wall d and ca. 12 to 13 cm
+                                below the ceiling; it ends ca. 29 cm above the floor and ca. 87 cm
+                                from wall f.</item>
+                            <item>The field of script is a vertical rectangle, 200 x 70 cm. The
+                                distance from wall d is ca. 11 cm and from wall f ca. 170 cm; the
+                                distance from the ceiling measures 14–16 cm and the distance of the
+                                lowest row from the floor ca. 30 cm. The eastern part of the wall is
+                                not polished. Today it is heavily damaged.</item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">along the upper edge</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">none</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">none</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">32</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">20 cm; after column 10: 22 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>ca. 0.5 cm; after column 10: 0.5–0.7 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell n="5">Characters per column</cell>
+                                            <cell n="5">137 (column 7)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">15 cm; after column 10: 16.5–17 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6">Space between characters</cell>
+                                            <cell n="6">ca. 0.1 cm; after column 10: 0.2–0.4 cm
+                                            </cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">訶</foreign>he</cell>
+                                            <cell n="2">1/20</cell>
+                                            <cell n="2">1.3</cell>
+                                            <cell n="2">1.6</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">度</foreign>du</cell>
+                                            <cell n="3">10/20</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">2.1</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <?cb?>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor. Up to a height of 124 cm above the floor, the characters are hardly
+                            readable. At a height of ca. 151 cm above the floor, a horizontal zone,
+                            14–28 cm high, which is now moist, runs through the field of script. The
+                            masons may have encountered the damp area and may then have decided not
+                            to cut any deeper into the cliff.</p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">波利［富樓］那 遮利三曼阤……</foreign>; continuation
+                                    from wall d, column 79.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 6</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛說灌頂［隨願］往［生十方］淨［土］經</foreign>, seven
+                                    characters visible; refers to the end of the <title>
+                                        <hi rend="italic">Consecration Sutra Spoken by the Buddha
+                                            Concerning Rebirth in the Pure Land of the Ten
+                                            Directions According to One’s Wish</hi>
+                                    </title>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 6</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">六門阤［羅尼經］</foreign>; three characters
+                                    visible, without the two characters “佛說”;
+                                    <!-- not visible; reconstruction by analogy with the extant beginnings of other carved sutras;  -->refers
+                                    to the beginning of the <title>
+                                        <hi rend="italic">
+                                            <foreign xml:lang="sa">Dhāraṇī</foreign> Sutra of the Six
+                                            Gates Spoken by the Buddha</hi>
+                                    </title> (<hi rend="italic">Fo shuo liumen tuoluoni jing </hi>
+                                    <foreign xml:lang="zh">佛說六門陀羅尼經</foreign>)</cell>
+                            </row>
+                            <row>
+                                <cell>Column 9</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛說六門阤羅尼經</foreign>; with the two
+                                    characters “佛說”; refers to the end of the <title>
+                                        <hi rend="italic">
+                                            <foreign xml:lang="sa">Dhāraṇī</foreign>
+                                            Sutra of the Six Gates Spoken by the
+                                    Buddha</hi>
+                                    </title>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 10</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛臨般涅槃略說遺教經</foreign>; refers to the
+                                    beginning of the <title>
+                                        <hi rend="italic">Sutra of the Deathbed
+                                            Injunction Briefly Spoken by the Buddha on the Point of
+                                                <foreign xml:lang="sa">Parinirvāṇa</foreign>
+                                        </hi>
+                                    </title> (<hi rend="italic">Fo
+                                        lin boniepan lueshuo yijiao jing </hi>
+                                    <foreign xml:lang="zh">佛臨般涅槃略說遺教經</foreign>). </cell>
+                            </row>
+                            <row>
+                                <cell>Column 32</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［佛臨般涅槃略說遺教經］</foreign>; not visible;
+                                    reconstruction by analogy with the extant endings of other
+                                    carved sutras; refers to the end of the <title>
+                                        <hi rend="italic">Sutra of Deathbed Injunction Briefly Spoken by the
+                                            Buddha on the Point of <foreign xml:lang="sa">Parinirvāṇa</foreign>
+                                        </hi>
+                                    </title> (<hi rend="italic">Fo lin boniepan lueshuo yijiao jing
+                                        </hi>
+                                    <foreign xml:lang="zh">佛臨般涅槃略說遺教經</foreign>).</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_f_en">
+                    <head>Wall f</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>The polished area begins ca. 4–6 cm from wall e and ca. 4–11 cm
+                                below the ceiling. It ends ca. 11–17 cm above the floor and ca. 20
+                                cm from the entrance.</item>
+                            <item>The field of script begins only 36–48 cm from wall e; its width is
+                                137 cm. The distance from the ceiling is 11–15 cm and the distance
+                                above the floor is 15–23 cm. The distance to the entrance is 31–33
+                                cm. The first six columns have a height of 187 cm. Columns 7 to 65
+                                begin three rows lower; their height is 181 cm. </item>
+                        </list>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">along the upper edge</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid</cell>
+                                            <cell n="2">none</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">beginning from column 7, none in columns
+                                                1–6</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">65</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">18 cm (columns 1–6); 20 cm (columns
+                                                7–65)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="7">Space between columns</cell>
+                                            <cell n="7">ca. 0.5 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell n="5">Characters per column</cell>
+                                            <cell n="5">108–125 (columns 1–6); 86 (columns
+                                                7–65)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">15 cm (columns 1–6); 20.5 cm (columns
+                                                7–65)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6">Space between characters</cell>
+                                            <cell n="6">0.1–0.5 cm (columns 1–6); 0.4–1.0 cm
+                                                (columns 7–65)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="6"/>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell n="1">Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">出</foreign>chu</cell>
+                                            <cell n="2">2/56</cell>
+                                            <cell n="2">1.1</cell>
+                                            <cell n="2">1.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">家</foreign>jia</cell>
+                                            <cell n="3">2/57</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">1.2</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="4">
+                                                <foreign xml:lang="zh">度</foreign>du</cell>
+                                            <cell n="4">10/42</cell>
+                                            <cell n="4">2.0</cell>
+                                            <cell n="4">1.6</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="5">
+                                                <foreign xml:lang="zh">所</foreign>suo</cell>
+                                            <cell n="5">18/43</cell>
+                                            <cell n="5">1.1</cell>
+                                            <cell n="5">1.5</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Uneven. Rear half: best in the area under the ceiling, worn zone in the
+                            center, fair zone below; lower area not visible; front half: best in the
+                            area from the ceiling down to a height of ca. 140 cm above the floor;
+                            surface completely worn off in lower front quadrant.</p>
+                    </div>
+                    <div>
+                        <head>Text markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛說［出家］功德經</foreign>; refers to the
+                                    beginning of the <title>
+                                        <hi rend="italic">Sutra Spoken by the
+                                            Buddha on the Merit and Virtue in Renouncing the
+                                            Householder’s Life</hi>
+                                    </title> (<hi rend="italic">Fo
+                                        shuo chujia gongde jing</hi>
+                                    <foreign xml:lang="zh">佛說出家功德經</foreign>). </cell>
+                            </row>
+                            <row>
+                                <cell>Column 6</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">視世善惡恣</foreign> are the last visible
+                                    characters. The text in that column may continue to the last
+                                    sentence of the sutra: <foreign xml:lang="zh">歡喜奉行，作礼而去</foreign> (not visible). By analogy with other
+                                    sutra carvings, the title <foreign xml:lang="zh">佛說出家功德經</foreign>, <title>
+                                        <hi rend="italic">Sutra on the
+                                            Merit and Virtue in Renouncing the House­holder’s Life
+                                            Spoken by the Buddha</hi>
+                                    </title>, may have been
+                                    repeated at the end of the engraving.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 7</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">金剛般［若波羅蜜經］</foreign>; refers to the
+                                    beginning of the <title>
+                                        <hi rend="italic">Diamond Perfection of
+                                            Insight Sutra</hi>
+                                    </title> (<hi rend="italic">Jin’gang
+                                        bore boluomi jing </hi>
+                                    <foreign xml:lang="zh">金剛般若波羅蜜經</foreign>).</cell>
+                            </row>
+                            <row>
+                                <cell>Column 65</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">如夢、幻、泡、影，［如］露</foreign> are the last
+                                    visible characters. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 65</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">［金剛般若波羅蜜經］</foreign>; not visible;
+                                    reconstruction by analogy with the extant endings of other
+                                    carved sutras; refers to the end of the <hi rend="italic">Diamond Perfection of Insight Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                        <ab>
+                            <abbr>LL, RJ, TSL</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Aa_Cave33_discussion_en">
+                    <head>Discussion </head>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1986">20</ref>
+                        <note>
+                            <p>For this cave, Hu and Li list only scrolls 11 and 12 of the
+                                        <title>
+                                    <hi rend="italic">Consecration
+                                    Sutra</hi>
+                                </title>
+                                <foreign xml:lang="zh">灌頂經</foreign> and
+                                mention incorrectly a second carving of the <hi rend="italic">Heart
+                                    Sutra </hi>
+                                <title/> (<hi rend="italic">Bore boluomiduo xin jing
+                                    </hi>
+                                <foreign xml:lang="zh">般若波羅蜜多心經</foreign>) in this
+                                cave.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Pengjiasheng1988">6</ref>
+                        <note>
+                            <p>Peng gives measurements of the three dimensions of the cave and
+                                computes its volume as 8,987 cubic meters. He misidentifies the
+                                sutra texts, with the exception of scroll 11 of the <title>
+                                    <hi rend="italic">Consecration Sutra </hi>
+                                </title>
+                                <foreign xml:lang="zh">灌頂經</foreign>. He notes that the state of
+                                preservation of wall d is “rather good, <foreign xml:lang="zh">較好</foreign>,” and says that walls e and f are “severely
+                                weathered, <foreign xml:lang="zh">風化嚴重</foreign>. ”</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1992">8</ref>
+                        <note>
+                            <p>Hu repeats the information from <ref type="biblio" target="Hu_Li1986">20</ref>. He gives measurements of the three dimensions of the
+                                cave (the same as those in <ref type="biblio" target="Pengjiasheng1988">6</ref>), but he does not compute its
+                                volume. </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Li_Deng1997">40</ref>
+                        <note>
+                            <p>Li and Deng believe that this cave was carved in the Tang dynasty.
+                                They describe the shape of the cave and give its measurements. They
+                                also give measurements of the fields of script and identify some
+                                sutras as follows:</p>
+                            <list>
+                                <item>wall d: 180 x 166 cm, carved with the <title>
+                                        <hi rend="italic">Consecration Sutra </hi>
+                                    </title>
+                                    <foreign xml:lang="zh">灌頂經</foreign>, scroll 11, <foreign xml:lang="zh">隨願［往生］十方淨土</foreign>, in 79 columns, with 115 characters in
+                                    each column, 9,085 in total; partly weathered.</item>
+                                <item>wall e: 200 x 67 cm; sutras carved in 35 columns, with 115
+                                    characters in each column, 4,025 in total. The title of sutras
+                                    cannot be identified, because they are severely
+                                    weathered.</item>
+                                <item>wall f: 200 x 140 cm; a sutra in 65 columns, with 80
+                                    characters in each column, 5,200 in total; incorrectly
+                                    identified as the <title>
+                                        <hi rend="italic">Heart Sutra
+                                        </hi>
+                                    </title>
+                                    <foreign xml:lang="zh">般若波羅蜜多心經</foreign>;
+                                    largely weathered.</item>
+                            </list>
+                            <p>They describe the overall state of preservation of this cave as
+                                “severely weathered, <foreign xml:lang="zh">風化嚴重</foreign>.”</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ChengduKaoguFaxian2008">364–365, 405</ref>
+                        <note>
+                            <p>The authors present the location, shape and measurements of the cave
+                                and mention some natural cracks and later changes to the facade.</p>
+                            <p>The titles and versions of sutras on each wall are identified. On the
+                                state of preservation, they note that the upper part of wall d, near
+                                the entrance, is severely eroded; on wall e only the characters in a
+                                square area in the upper right corner are still clear; on wall f,
+                                the lower part and the area adjacent with wall e are severely
+                                weathered.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Cao_Yu2009">11</ref>
+                        <note>
+                            <p>Cao and Yu give measurements of the walls, their surface areas, and
+                                based on rubbings the number of extant characters, wall d: 2,596;
+                                wall e: 475; wall f: 682. They identify scrolls 11 and 12 of the
+                                        <title>
+                                    <hi rend="italic">Consecration Sutra</hi>
+                                </title> and
+                                the <title>
+                                    <hi rend="italic">Diamond Sutra</hi>
+                                </title>.</p>
+                        </note>
+                    </bibl>
+                    <ab>
+                        <abbr>LL, RJ</abbr>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

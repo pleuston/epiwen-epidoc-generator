@@ -1,0 +1,574 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="sichuan_volume3" xml:lang="en">Sichuan Volume 3</title>
+        <title n="sichuan_volume3" xml:lang="zh">四川省第三卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="11"/>
+    </seriesStmt>
+    <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Cc_Cave58">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">58</hi>號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>南麓，<foreign xml:lang="en">C</foreign>區三連式窟<hi rend="bold">46</hi>號、<hi rend="bold">51</hi>號和<hi rend="bold">58</hi>號窟中最東的一窟，高於現今步道約4米。</item>
+                            <item>
+                                <hi rend="bold">51</hi>號窟和<hi rend="bold">58</hi>號窟入口間的隔牆寬：117釐米。</item>
+                            <item>方向：<foreign xml:lang="en">d</foreign>壁305°；<foreign xml:lang="en">f</foreign>壁前半段274°，<foreign xml:lang="en">f</foreign>壁後半段314°。（<ptr target="cave58_map_ZH.svg"/>）</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>敞口方形窟；平面近正方形。<foreign xml:lang="en">f</foreign>壁後部略內折，僧人因此得以避免切入相鄰的<hi rend="bold">59</hi>號窟。由此可知，<hi rend="bold">59</hi>號窟先於此窟開鑿完成。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>
+                                <foreign xml:lang="en">d</foreign>壁：前部高345釐米，後部高358釐米，寬310釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">e</foreign>壁：寬370釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁：前部高344釐米，後部高363釐米，寬280釐米（連同前廊的寬度：461釐米）。</item>
+                            <item>入口寬356釐米。</item>
+                        </list>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cc_Cave58_d_zh">
+                        <head>
+                            <foreign xml:lang="en">d</foreign>壁</head>
+                        <p>所有壁面均粗略鑿成。一塊矩形區域部分打磨。其左下角距<foreign xml:lang="en">e</foreign>壁74釐米、距地面190釐米。無銘刻。</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cc_Cave58_e_zh">
+                        <head>
+                            <foreign xml:lang="en">e</foreign>壁</head>
+                        <p>一塊115×118釐米的區域打磨平整且四周有邊框；其右緣距<foreign xml:lang="en">d</foreign>壁53釐米，下緣距地面172釐米。無銘刻。</p>
+                        <figure rend="left" n="figure" xml:id="cave58_map_ZH.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">58</hi>號窟平面圖；雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">58</hi>; drawing Lukas Ledderose after field map by MB and MS</head>
+                            <graphic url="cave58_map_ZH.svg" height="88mm"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>改造</head>
+                        <p>
+                            <foreign xml:lang="en">f</foreign>壁上，距與<foreign xml:lang="en">e</foreign>壁相接的轉角130釐米處，有一道通向鄰窟<hi rend="bold">59</hi>號窟的門（<ptr target="cave58_wall_f_DSC_2337.jpg"/>），門高176釐米，上部寬52釐米，下部寬58釐米。本窟地面比<hi rend="bold">59</hi>號窟地面高32釐米。</p>
+                        <p>地面上方約99－110釐米處原計劃雕出一排羅漢高浮雕，高約30－35釐米。<foreign xml:lang="en">d</foreign>壁：完成15尊，1尊僅雕出初坯；
+                            <foreign xml:lang="en">e</foreign>壁：2尊僅雕出初坯；<foreign xml:lang="en">f</foreign>壁：完成20尊，3尊在開鑿通向鄰窟的門時毀損。</p>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">58</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, the eastern cave of the tripartite group of caves <hi rend="bold">46</hi>, <hi rend="bold">51</hi>, and <hi rend="bold">58</hi> in section C, ca. 400 cm above present walkway.</item>
+                            <item>Width of the wall between the openings at the front of caves <hi rend="bold">51</hi> and <hi rend="bold">58</hi>: 117 cm.</item>
+                            <item>Direction: wall d 305°, wall f 274° (front), 314° (rear).</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box shaped, with open front; approximately square ground plan. Wall f bends inwards toward the rear. Thereby the monks avoided cutting into the adjacent cave <hi rend="bold">59</hi>, which appears, therefore, to have been hollowed out first.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Wall d: height at the front 345 cm, at the rear 358 cm, width 310 cm.</item>
+                            <item>Wall e: width 370 cm.</item>
+                            <item>Wall f: height at the front 344 cm, at the rear 363 cm, width 280 cm (including the width of the passageway: 461 cm).</item>
+                            <item>Width of opening 356 cm.</item>
+                        </list>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cc_Cave58_d_en">
+                        <head>Wall d</head>
+                        <p>All walls are roughly hewn. Part of a rectangular field is polished. Its lower left corner is 74 cm away from wall e, and 190 cm above the floor. No engraving.</p>
+                        <figure rend="left" n="figure" xml:id="cave58_map.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">58</hi>號窟平面圖；雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">58</hi>; drawing Lukas Ledderose after field map by MB and MS</head>
+                            <graphic url="cave58_map.svg" height="110mm"/>
+                        </figure>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cc_Cave58_e_en">
+                        <head>Wall e</head>
+                        <p>An area of 115 x 118 cm has been framed and polished; its right edge is 53 cm away from wall d, and its lower edge is 172 cm above the floor. No engraving.</p>
+                    </div>
+                    <div>
+                        <head>Changes</head>
+                        <p>A door, 176 x 52 cm at the top and widening to 58 cm at the floor, 130 cm away from the corner with wall e, is broken through into the adjacent cave <hi rend="bold">59</hi> (fig. <ptr target="cave58_wall_f_DSC_2337.jpg"/>). The floor of cave <hi rend="bold">59</hi> is 32 cm lower than that of cave <hi rend="bold">58</hi>. <!--</p>
+                        <p>-->A row of originally forty-one Luohan is carved in high relief, ca. 30–35 cm in height, and ca. 99–110 cm above the floor. Wall d: 15 Luohan complete, 1 begun; wall e: 2 Luohan begun; wall f: 20 Luohan complete, 3 destroyed by the door <hi rend="nh">opening</hi>. </p>
+                        <figure rend="center" n="figure" xml:id="cave58_DSC8012.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">58</hi>號窟<foreign xml:lang="en">d</foreign>壁及羅漢像；2015年拍攝</head>
+                            <head xml:lang="en">Wall d of cave <hi rend="bold">58</hi> with a row of 15 Luohan figures; photograph taken in 2015</head>
+                            <graphic url="cave58_DSC8012.jpg"/>
+                        </figure>
+                    </div>
+                </div><?pb?>
+                <div xml:id="Site_WFY_Section_Cc_Cave58_discussion_zh" xml:lang="zh">
+                    <head>
+                        <hi rend="bold">46</hi>號、<hi rend="bold">51</hi>號和<hi rend="bold">58</hi>號窟討論</head>
+                    <bibl>
+                        <ref type="biblio" target="Wang_Shi1982">第28頁</ref>
+                        <note>
+                            <p>在其安岳臥佛院的報告中，汪毅和石湍提到10部不同的經文被刊刻於16個刻經洞，其中包括整部400，000多字的《大般涅槃經》，經文多以楷書字體刊刻。他們亦簡要提及兩個紀年，一為開元十五年（727），另一為開元二十二年（734）。“臥佛”以及“貞元”四字被發現於巨型造像的附近，汪與石因此推斷臥佛的成像不晚於785－805年。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Liuxuewen1983">第41－42頁</ref>
+                        <note>
+                            <p>劉學文記錄早年對臥佛院的重新發現。他認為除了成像於唐代開元年間的臥佛，臥佛院據稱有16個刻經洞和36個佛龕。洞刻尚有29個未利用的刻經洞。劉學文認為未完成刊刻的原因可能與唐武宗（841－846）滅佛有關。此外，他指出所刊刻經文包括《大般涅槃經》、《報恩經》、《般若波羅蜜多心經》、《金剛經》以及《阿彌陀經》，窟內亦有不同類型的造像。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1984">第37頁</ref>
+                        <note>
+                            <p>胡文和與李官智嘗試根據臥佛院所發現的題記給涅槃佛像斷代。他們記錄了四條題記：<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上733年的題記；<hi rend="bold">51</hi>號窟<foreign xml:lang="en">a</foreign>壁上有關<hi rend="bold">50</hi>號窟數排小型佛像的723年題記，<hi rend="bold">50</hi>號龕紀年為723年的題記；<hi rend="bold">59</hi>號窟中735年的題記和<hi rend="bold">46</hi>號窟紀年為727年的題記。綜上所述，胡文和與李官智認為，涅槃佛像完成於724年之前。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Yuananzhi1986">第47－48頁</ref>
+                        <note>
+                            <p>員安志判斷涅槃佛像的時代為唐代，他指出733年題記（<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁）和735年題記（<hi rend="bold">59</hi>號窟）可能提供了更確切的年代。他將刻經窟的數量精確到15座，并指出另有30座窟完成程度不及刻經窟或已風化。他記錄了超過刊刻的20多部不同的佛經，其中《涅槃經》和《阿彌陀經》最為“完善”。他特別提到了<hi rend="bold">46</hi>號窟（他記錄作第20窟）的《眾經目錄》最為珍貴，并援引了其前言。他錯將該目錄當作整個臥佛院刻經項目的藍圖，并得出位結論稱，於臥佛院的寺院名為“敬愛寺”。他還記錄了玄應開元22年的題記（734年，<hi rend="bold">51</hi>號窟<foreign xml:lang="en">d</foreign>壁），但沒有指出其位置。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Liu_1986">第66－67頁</ref>
+                        <note>
+                            <p>劉長久與胡文和將安岳縣幾處佛教遺址的佛像和大足石窟的佛像作了比較。他們的討論中提到了臥佛院中斷代為盛唐時期的涅槃佛像，以及大足大佛灣11號龕斷代為南宋時期的臥佛像。此外，還比較了位於<foreign xml:lang="en">C</foreign>區走廊西端牆壁上<hi rend="bold">45</hi>號龕中、推測為唐代中晚期的千手千眼觀世音與大足的同題材雕像。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1986">第20－22頁</ref>
+                        <note>
+                            <p>胡文和與李官智簡短地描述了15個刻經窟。他們僅記錄了<hi rend="bold">46</hi>號窟<foreign xml:lang="en">d</foreign>壁上刻的靜泰《眾經目錄》5卷中的前2卷。接著，他們還列出<foreign xml:lang="en">d</foreign>壁上的《大般涅槃經》“高貴德王菩薩品”的第二部分、<foreign xml:lang="en">e</foreign>壁上的《佛性海藏智慧解脫破心相經》、《金剛般若波羅蜜經》、《佛頂尊勝陀羅尼經》以及<foreign xml:lang="en">f</foreign>壁上《佛說阿彌陀經》；不過漏掉了《佛說脩多羅般若波羅蜜經》。他們提到的<foreign xml:lang="en">h</foreign>壁上所刻佛護的《佛頂尊勝陀羅尼咒》節文，但為辨識出其內容。他們并抄錄了1、9、12和16行咒文下面的刻字，其中包括玄應的署名和紀年，不過他們認為這是後代的添加。針對《佛性海藏智慧解脫破心相經》，他們引用《開元釋教錄》將其定為偽經，并更進一步認爲臥佛院的版本可以作為收錄在《大正藏》中的敦煌寫本的補充。</p>
+                            <p>關於<hi rend="bold">51</hi>號窟中的刻經，他們提到了<foreign xml:lang="en">f</foreign>壁上《大般涅槃經·聖行品》的第四部分。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="DingMingyi1988b">第47－48、56頁</ref>
+                        <note>
+                            <p>論及臥佛院四條開元時期的題記，丁明夷認為臥佛院的刻經活動始於此時。他指出臥佛院的15座刻經窟延續了中原北朝起的刻經傳統，如河北省響堂山、河南省寶山或房山雲居寺。他將中國北方的這些刻經址與末法思想聯繫在一起，并認為臥佛院所刻《大般涅槃經》和《眾經目錄》反映了一種類似的對佛入涅槃後佛法衰落的憂慮。丁明夷進一步考慮，臥佛院刻經的版本如同《眾經目錄》由“大唐東京大敬愛寺釋静泰撰”，亦直接來自東都洛陽。
+                            </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Pengjiasheng1988">第3－12頁</ref>
+                        <note>
+                            <p>彭家勝簡單描述了<hi rend="bold">45</hi>號龕千手千眼觀世音和<hi rend="bold">50</hi>號龕的千佛像，并給出它們的測量數值。他記錄了一條開元11年（723年）的晚期還願題記，并指出王彦昭961年的題記位於<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁經幢之側。</p>
+                            <p>在簡短介紹臥佛院15座刻經窟之後，彭家勝較詳細的描述了<hi rend="bold">46</hi>號窟靜泰所刻《眾經目錄》的內容。顯然，該目錄與臥佛院的刻經具有一定的歷史連繫，彭引用目錄前言説明，663年唐高宗敕令為洛陽的大敬愛寺編撰佛經目錄。彭家勝還列出刊刻在15座刻經窟壁上的所有佛經清單。在記錄<hi rend="bold">46</hi>號窟内的刻經時，他注意到了署名為玄應的開元21年（733）題記。</p>
+                            <p>彭家勝測量了<hi rend="bold">46</hi>號窟三壁的尺寸并計算出其35.5立方米的容積。在<foreign xml:lang="en">d</foreign>壁上，他辨識出《一切經論目序》。他還確定了<foreign xml:lang="en">d</foreign>壁上《大般涅槃經》第23卷的位置，但誤錄其品名。他還補充記錄了該壁上《般若波羅蜜多經》的位置，但未意識到，這裡僅刊刻了“般若波羅蜜”。他誤將<foreign xml:lang="en">e</foreign>壁上《佛性海藏智慧解脫破心相經》認作《大般涅槃經》的第15卷。他對<foreign xml:lang="en">f</foreign>壁上的四部刻經的判斷準確無誤。而關於<foreign xml:lang="en">h</foreign>壁，他僅提到《佛頂尊勝陀羅尼咒》，將其歸為玄應刻經，而未提及《佛說阿彌陀咒》。他記錄各壁的保存“完好”。</p>
+                            <p>彭家勝也測量了<hi rend="bold">51</hi>號窟三壁的尺寸，并計算出其容積為27.846立方米。他列出<foreign xml:lang="en">f</foreign>壁的《大般涅槃經》卷4的第4品，仿佛這裡刊刻了此經的兩段不同節文。</p>
+                            <p>在他關於臥佛院題記的章節，他完整抄錄了<hi rend="bold">50</hi>號龕附近紀年為723年的題記。彭還提及了<hi rend="bold">51</hi>號窟中王彦昭的兩條題記。論及臥佛院最早的題記<hi rend="dash">──</hi>
+                                <hi rend="bold">51</hi>號窟<foreign xml:lang="en">a</foreign>壁上，緊鄰<hi rend="bold">50</hi>號龕下方的723年題記，他認為該窟北邊崖壁上的與大涅槃像開鑿時間均早於此。</p>
+                            <p>在論及臥佛院的供養人時，彭家勝認為在此刊刻還願文的玄應并非編撰了《一切經音義》的名僧玄應。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Wangjiayou1989">第46－49頁</ref>
+                        <note>
+                            <p>王家祐認為玄應是安岳縣修造佛像的關鍵人物。他記錄了四條提到玄應名字的願文銘刻，其中包括了刻在臥佛院<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁的開元21年（733）題記。此外，他認同安岳縣願文中的玄應就是編撰了25卷《一切經音義》（T#2128，54: 311a-933b）的玄應，這部佛教字典由慧琳（737－820）於807年擴展至100卷。《一切經音義》作者玄應的具體生卒年代不詳。</p>
+                            <p>王家祐接著比較了臥佛院與大足小寳頂的刻經名單。通過援引刻在<hi rend="bold">46</hi>號窟靜泰《眾經目錄》的前言，他總結臥佛院的刻經直接受中原，即長安的目錄傳統的影響。他進一步指出安岳的造像為大足的石刻提供了多種模型；特別是大臥佛像和<hi rend="bold">45</hi>號龕的千手千眼觀世音像。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Caodan1990">第51－52頁</ref>
+                        <note>
+                            <p>曹丹確定<hi rend="bold">46</hi>號窟<foreign xml:lang="en">d</foreign>壁的《大唐東京敬愛寺一切經論目序》共有9834個刻字。他寫道大敬愛寺建於唐高宗統治時期的657年，靜泰於663年為其撰寫了前言。來年，他呈獻給皇帝這部5卷本著作。曹丹還提到同一壁上還刊刻了《大般涅槃經》第13卷，該經更多的内容刊刻在<hi rend="bold">51</hi>號窟、<hi rend="bold">59</hi>號窟和<hi rend="bold">66</hi>號窟中。</p>
+                            <p>曹丹在臥佛院現存題記清單中抄錄了位於<hi rend="bold">50</hi>號龕下方、紀年為723年的題記；<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上733年題記和兩條王彦昭分別於959年和961年刊刻的題記。他辨識<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上的紀年為“唐開元二十一年”，署名是玄應。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1991">第84、89－90、92頁</ref>
+                        <note>
+                            <p>在對四川境内所有摩崖造像所作的編目和年表中，胡文和概述了臥佛院的情況。他提到了該刻經址最早的題記<hi rend="dash">──</hi>開元21年（723），并將佛涅槃像歸為初、盛唐時期的代表作。他將<hi rend="bold">45</hi>號龕的千手千眼觀世音像的時代定在唐代中、晚期。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Fuchengjin1991a">第48－50頁</ref>
+                        <note>
+                            <p>傅成金討論了安岳石窟寺中所有常見的玄應署名。他提供了千佛寨石窟和圓覺洞中帶有該名字的題記的錄文，并提及<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上733年的題記。在圓覺洞<hi rend="bold">96</hi>號龕題記的基礎上，傅成金總結出玄應是來自安岳縣普州，栖岩寺位於千佛寨内；不過，他認為此“玄應”與著名的《一切經音義》的作者玄應不是同一人。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1992">第3、5－6、8－9頁</ref>
+                        <note>
+                            <p>胡文和提出因為<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上部的四個刻字“夏侯禪龕”，該窟也可能作為禪窟。在關於臥佛院著名的圖像學主題的討論中，他還簡短的描述了千手千眼觀世音（<hi rend="bold">45</hi>號窟）。胡文和接著重復了<ref type="biblio" target="Hu_Li1986">第22頁</ref>中關於《佛性海藏智慧解脫破心相經》的信息。</p>
+                            <p>胡文和還提供了一份15個刻經窟的詳細表格，包括石窟的測量數據、所刻經名、譯者以及特點。其中，<hi rend="bold">46</hi>號窟各壁刻經名單是完整的；但是，他還列出<foreign xml:lang="en">d</foreign>壁刻有《摩訶般若波羅蜜經》，而沒有注意到，其實那裡僅刻有“摩訶般若波羅蜜”幾字。在<hi rend="bold">51</hi>號窟，他分別列出了《大般涅槃經》第四卷和《大般涅槃經·聖行品》第四部分，讓人產生刊刻了兩段刻經的錯覺，實際上那裡延續刊刻《大般涅槃經》第四卷中“聖行品”的第四部分。
+                                </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Li_Deng1997">第40－42頁</ref>
+                        <note>
+                            <p>李良和鄧之金認為<foreign xml:lang="en">C</foreign>區所有的龕窟，除<hi rend="bold">52</hi>號龕陀羅尼經幢外，均開鑿於唐代。<hi rend="bold">52</hi>號龕的題記表明該龕造於五代時期。他們給出<hi rend="bold">46</hi>號窟和<hi rend="bold">51</hi>號窟的位置、形制及測量數值；并列出窟壁上刻經區的尺寸和刻經字數：<hi rend="bold">46</hi>號窟中，<foreign xml:lang="en">d</foreign>壁刻17784字、<foreign xml:lang="en">e</foreign>壁8855字、<foreign xml:lang="en">f</foreign>壁11446字、<foreign xml:lang="en">h</foreign>壁94字；<hi rend="bold">51</hi>號窟中<foreign xml:lang="en">f</foreign>壁8134字。</p>
+                            <p>在<hi rend="bold">46</hi>號窟<foreign xml:lang="en">d</foreign>壁的刻經名單中，他們錯將《般若波羅蜜多經》列入其中，但實際上這裡僅刊刻了“般若波羅蜜”這5個字。關於<foreign xml:lang="en">e</foreign>壁上的刻經，李良和鄧之金誤將《大般涅槃經》第13卷認作為第15卷；并漏記了<foreign xml:lang="en">h</foreign>壁上的《阿彌陀佛說咒》。他們記錄<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁刻《大般涅槃經》卷4第4品，仿佛這裡刊刻了此經的兩段不同節文。</p>
+                            <p>李良和鄧之金全文抄錄下723年、733年、959年和961年題記。他們辨識出<hi rend="bold">46</hi>號窟中<foreign xml:lang="en">h</foreign>壁的題記紀年為：“大唐開元二十一 年 十一月二十日”，并認為署名為玄應。</p>
+                            <p>關於<hi rend="bold">45</hi>號龕、<hi rend="bold">50</hi>號龕、<hi rend="bold">52</hi>號龕、<hi rend="bold">53</hi>號龕和<hi rend="bold">54</hi>號龕，他們測量并描述了其中的造像。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ZengDeren2001">第53、55、57頁</ref>
+                        <note>
+                            <p>曾德仁抄錄了<hi rend="bold">50</hi>號龕下方的723年題記和<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁的733年題記。他還簡短描述并測量了位於<foreign xml:lang="en">C</foreign>區走廊西端牆第<hi rend="bold">45</hi>龕的千手千眼觀世音像。他對<hi rend="bold">51</hi>號窟的陀羅尼經幢浮雕（<hi rend="bold">52</hi>號窟）作出描述，并記錄下其附近的961年題記。</p>
+                        </note>
+                    </bibl><!-- <bibl>
+                            <ref type="biblio" target="LeeS2007">540–547</ref>
+                            <note>
+                                <p>Sonya Lee discusses the giant Sichuan Buddhas, the one at Mount Le and the one at Wofoyuan, as a type different from the giant Buddha in Gansu province.</p>
+                            </note>
+                        </bibl>-->
+                    <bibl>
+                        <ref type="biblio" target="KangHeejung2007">第601－608頁</ref>
+                        <note>
+                            <p>姜熺靜將臥佛院<hi rend="bold">45</hi>號龕的千手千眼觀世音像作為四川地區多臂觀音像的早期代表進行了討論。她將此造型與四川以及東印度的同題材造像做了比較，并將其與盛唐時期密宗的盛行聯繫在一起。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ChengduKaoguFaxian2008">第368－375, 405－406頁</ref>
+                        <note>
+                            <p>此報告提供一份<foreign xml:lang="en">C</foreign>區三座石窟建築詳細的供養描述，包括所有的刻經壁的測量數值，并分析其年代順序。該區内的各龕和雕塑詳細的描述，題記也都作了完整的抄錄。報告作者們附錄了一份各個刻經窟的詳細表格，給出了測量數值，根據《大正藏》列舉出刻經名及品名，以及關於刻經是否完整及其在窟壁上的確切位置和行數的備註。早期表格（發表於彭家勝<ref type="biblio" target="Pengjiasheng1988">第6－8頁</ref>和<ref type="biblio" target="Huwenhe1992">第8－10頁</ref>）中的錯誤得到了糾正：<hi rend="bold">46</hi>號窟<foreign xml:lang="en">d</foreign>壁上刻的是“般若波羅蜜”，可認作為名詞，而非經名。<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁《大般涅槃經·聖行品》第四部分也作為一部單獨的刻經列舉出來。
+                                </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="LeeSonyaS2009">第41－45、50－55、63－65頁</ref>
+                        <note>
+                            <p>
+                                李琛研第一次把臥佛院作為一個整體來分析。她討論了亦在千佛寨石窟和圓覺洞石窟留名的僧人玄應，總結出臥佛院和千佛寨由同一個捐資團體供養。她還提到王彦昭的兩條題記，959年那條與修復相關，961年的則關於<hi rend="bold">51</hi>號窟新造陀羅尼經幢浮雕（<hi rend="bold">52</hi>號窟）。</p>
+                            <p>至於她劃分的臥佛院第III組群，即<foreign xml:lang="en">C</foreign>區和<hi rend="bold">59</hi>號窟，李琛研記錄了<hi rend="bold">46</hi>號窟内的刻經。不過，她漏記了<foreign xml:lang="en">f</foreign>壁上的《佛說脩多羅般若波羅蜜經》，并將位於<foreign xml:lang="en">d</foreign>壁的《大般涅槃經》誤歸在<foreign xml:lang="en">e</foreign>壁上。她將此處的《大般涅槃經》誤判為卷15，認為這裡是接著<hi rend="bold">59</hi>號窟<foreign xml:lang="en">f</foreign>壁的卷14繼續刊刻，而卷13在壁上無跡可尋。她認為頭兩卷洛陽靜泰的《眾經目錄》的刊刻，證明了一個時代潮流，即緊隨國都的模式，使用最新的佛經版本。考慮到臥佛院《大般涅槃經》的空間分佈，李琛研認為<hi rend="bold">46</hi>號窟和<hi rend="bold">51</hi>號窟内的刻經時代略晚。</p>
+                            <p>
+                                <foreign xml:lang="en">Sonya Lee</foreign>進一步將臥佛院的刻經項目歸於天台宗和三階教運動的影響，《金剛經》和《大般涅槃經》的核心章品顯示出與天台宗佛教的聯係。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Lei_Fu2009">第4－7頁</ref>
+                        <note>
+                            <p>雷玉華和傅成金首先對<foreign xml:lang="en">C</foreign>區作了整體描述，他們注意到臥佛院最大的三聯窟：<hi rend="bold">46</hi>號窟、<hi rend="bold">51</hi>號窟和<hi rend="bold">58</hi>號窟曾共用一個木質窟前屋簷。他們討論了<hi rend="bold">46</hi>號窟獨特的建築形式，對人形窟頂和前室作出描述，認為該窟可能為<foreign xml:lang="en">C</foreign>區最早的石窟，甚至早於<hi rend="bold">50</hi>號龕723年與數排佛像相關的還願題刻。</p>
+                            <p>作者注意到了<hi rend="bold">46</hi>號窟中刻文的書法風格不盡相同，刻字有時寫在界格内，有時則刻在縱界格線上。他們總結認為應同時有數人在此窟工作。他們也進一步質疑<foreign xml:lang="en">h</foreign>壁上兩個題記的真實性，認為其可能為後人所添。</p>
+                            <p>雷玉華和傅成金繼續描述了走廊西端牆上的造像龕和<hi rend="bold">51</hi>號窟與<hi rend="bold">46</hi>號窟入口間的隔牆。他們記錄了<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁後半部上刻經的位置，并描述該壁前部所刻的浮雕陀羅尼經幢。他們寫道<foreign xml:lang="en">d</foreign>壁已經為刻經而打磨，但未完成。接著他們描寫了<hi rend="bold">51</hi>號窟和<hi rend="bold">58</hi>號窟隔牆上的一龕。作者認為<hi rend="bold">53</hi>號龕和<hi rend="bold">54</hi>號龕屬於同一建築形式；并總結頂部的矩形深龕是用來貯存物品，很可能是可移動的小型雕像。</p>
+                            <p>最後，雷玉華和傅成金描述了未完成的<hi rend="bold">58</hi>號窟。在<foreign xml:lang="en">e</foreign>壁上已準備好一塊矩形的刻經區，但并未刻字。取而代之的是宋代時沿<foreign xml:lang="en">d</foreign>壁和<foreign xml:lang="en">f</foreign>壁刊刻的一排羅漢像。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Zhang_Li2011">第51－55頁</ref>
+                        <note>
+                            <p>張雪芬和李艷舒調查了所有與僧人慈海相關的材料。慈海是臥佛院北麓<hi rend="bold">4</hi>號龕的關鍵人物，在<hi rend="bold">51</hi>號窟前出土的佛像殘塊背後也提及他的名字，保存在<hi rend="bold">81</hi>號窟中的1103年石碑提供了關於他生平的更多相關信息。作者抄錄了<hi rend="bold">51</hi>號窟前出土的佛像殘塊上的題記全文，并認為其紀年是宣和四年（1122）。她們還抄錄了一條有“戊子”紀年的題記全文，該題記橫切於<hi rend="bold">46</hi>號窟入口旁的幡帙（<hi rend="bold">47</hi>號窟），破壞了該幡的整體性。作者認為“戊子”指的是1168年。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="TsaiSueyling2013a">第82－84頁</ref>
+                        <note>
+                            <p>蔡穗玲提供了<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁上王彥昭的兩條題記的錄文和翻譯。該供養人為五音地理師，表示出堪輿學在臥佛院曾經扮演重要角色。蔡穗玲指出，根據當地村民對臥佛院周邊地形的風水解讀，涅槃佛像位於“九節龍”的腹部。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="DengXingliang2013"/>
+                        <note>
+                            <p>鄧星亮移錄<hi rend="bold">46</hi>號窟<foreign xml:lang="en">f</foreign>壁上的《佛說脩多羅般若波羅蜜經》全文。他列出此經從其他佛經摘取的内容段落，討論了作為偽經的佛經名稱和結構體例，并指出此經的歷史價值。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="TsaiSueyling2014">第171－173、177－179頁</ref>
+                        <note>
+                            <p>蔡穗玲提供了<hi rend="bold">51</hi>號窟<foreign xml:lang="en">a</foreign>壁上723年題記和<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁題記的錄文和德文翻譯。關於後者題記，她則認為可疑。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Qin_Zhang_Lei2015">第63－75、115、122、259－311頁</ref>
+                        <note>
+                            <p>秦臻、張雪芬和雷玉華詳細描述了<foreign xml:lang="en">C</foreign>區三窟的位置和建築以及龕和造像。她們抄錄了該區内所有的題記，并給出所有窟壁的測量數值。她們繪製了所有刻經壁的立面圖，明確指出各刻經節文的位置。在對臥佛院的初步分析中，她們得出<hi rend="bold">46</hi>號窟為全址最早的結論。</p>
+                            <p>作者提供了<hi rend="bold">46</hi>號窟<foreign xml:lang="en">d</foreign>壁、<foreign xml:lang="en">e</foreign>壁和<foreign xml:lang="en">f</foreign>壁，以及<hi rend="bold">51</hi>號窟<foreign xml:lang="en">f</foreign>壁的未註標點的刻經錄文。<hi rend="bold">46</hi>號窟<foreign xml:lang="en">h</foreign>壁上刻的兩部陀羅尼咒沒有錄文。再者，作者未提供<foreign xml:lang="en">f</foreign>壁上的《佛說阿彌陀經》17個添加刻字中損毀的5個字。
+                            </p>
+                        </note>
+                    </bibl>
+                </div>
+                <div xml:id="Site_WFY_Section_Cc_Cave58_discussion_en" xml:lang="en">
+                    <head>Discussion of caves 46, 51 and 58</head>
+                    <bibl>
+                        <ref type="biblio" target="Wang_Shi1982">28</ref>
+                        <note>
+                            <p>In their report on the Reclining Buddha in Anyue, Wang Yi <foreign xml:lang="zh">汪毅</foreign> and Shi Tuan <foreign xml:lang="zh">石湍</foreign> mention that ten different sutras were carved in 16 text caves, among them the <hi rend="italic">Nirvana Sutra</hi>, with a total of more than 400,000 characters, mainly written in regular script (<hi rend="italic">kaishu </hi>
+                                <foreign xml:lang="zh">楷書</foreign>). They also refer briefly to two dates, the fifteenth (727) and the twenty-second year (734) of the <hi rend="italic">kaiyuan</hi> era. As four characters reading “Reclining Buddha” and “<hi rend="italic">zhen­yuan </hi>
+                                <foreign xml:lang="zh">貞元</foreign> [era]” were found in the neighborhood of the giant statue, they assume that the Reclining Buddha cannot have been later than 785–805.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Liuxuewen1983">41–42</ref>
+                        <note>
+                            <p>Liu Xuewen records the rediscovery of the Grove of the Reclining Buddha in the previous year. Apart from the Reclining Buddha, which he says was carved during the <hi rend="italic">kaiyuan</hi> era of the Tang dynasty, the Grove is said to have 16 sutra caves and 36 niches with Buddhist statues. Out of a total of 45 caves, 29 are only half-finished. Liu Xuewen assumes that the failure to complete these caves may have been related to the persecution of Buddhism under the Tang Emperor Wuzong <foreign xml:lang="zh">武宗</foreign> (841–846). In addition, he points out that the engraved sutras include the <hi rend="italic">Nirvana Sutra</hi> (<hi rend="italic">Da banniepan jing  </hi>
+                                <foreign xml:lang="zh">大般涅槃經</foreign>), the <hi rend="italic">Sutra on Repaying the Kindness [of Parents] </hi> (<hi rend="italic">Bao’en jing </hi>
+                                <foreign xml:lang="zh">報恩經</foreign>), the <hi rend="italic">Heart Sutra</hi> (<hi rend="italic">Bore boluomiduo xin jing </hi>
+                                <foreign xml:lang="zh">般若波羅蜜多心經</foreign>), the <hi rend="italic">Diamond Sutra</hi> (<hi rend="italic">Jingang jing </hi>
+                                <foreign xml:lang="zh">金剛經</foreign>), and the <hi rend="italic">
+                                    <foreign xml:lang="sa">Amitābha</foreign> Sutra</hi> (<hi rend="italic">Amituo jing </hi>
+                                <foreign xml:lang="zh">阿彌陀經</foreign>). Various Buddhist images were sculptured in the caves. </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1984">37</ref>
+                        <note>
+                            <p>Hu Wenhe and Li Guanzhi attempt to date the statue of the Reclining Buddha based on the colophons found at the site. They give transcriptions of four colophons: The colophon of 733 on wall h of cave <hi rend="bold">46</hi>, the colophon of 723 on wall a of cave <hi rend="bold">51</hi>, which refers to the rows of small Buddha figures <hi rend="bold">50</hi>, the colophon of 735 in cave <hi rend="bold">59</hi>, and the colophon of 727 in cave <hi rend="bold">73</hi>. In conclusion, the authors suggest that the giant Reclining Buddha must have been completed before 724.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Yuananzhi1986">47–48</ref>
+                        <note>
+                            <p>Yuan Anzhi dates the statue of the Reclining Buddha to the Tang dynasty, suggesting that the colophons of 733 (on wall h of cave <hi rend="bold">46</hi>) and 735 (in cave <hi rend="bold">59</hi>) may provide exact dates. He also mentions the number of 15 text caves and says that 30 other caves intended for texts have not been completed. He counts more than 20 sutras that have been carved and says that among them the <hi rend="italic">Diamond</hi> and the <hi rend="italic">
+                                    <foreign xml:lang="sa">Amitābha</foreign> Sutra</hi> are the most complete (<hi rend="italic">wanshan </hi>
+                                <foreign xml:lang="zh">完善</foreign>). In particular, he mentions the <hi rend="italic">Catalog of All Canonical Scriptures</hi> in cave <hi rend="bold">46</hi> (which he numbers as cave 20) as very valuable and quotes from its preface. He suggests that this <hi rend="italic">Catalog</hi> served as a blueprint for the entire carving project at the Grove of the Reclining Buddha and concludes that the monastery at Wofoyuan was formerly named Jing’ai Monastery <foreign xml:lang="zh">敬愛寺</foreign>. He also mentions the colophon by Xuan­ying <foreign xml:lang="zh">玄應</foreign> of the twenty-second year of the <hi rend="italic">kaiyuan</hi> era (734; on wall d of cave <hi rend="bold">51</hi>), but without saying where it is located. </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Liu_1986">66–67</ref>
+                        <note>
+                            <p>Liu Changjiu and Hu Wenhe offer a comparison of Buddhist sculptures carved at several sites in Anyue county and at the Dazu cave temples. Among others, they discuss the Reclining Buddha at Wofoyuan, which they date to the High Tang dynasty, and the Reclining Buddha in niche 11 at Dafowan in Dazu, which dates to the Southern Song dynasty. Moreover, the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds (niche <hi rend="bold">45</hi> at the western end wall of the passageway in section C), they date to the middle or late Tang dynasty, and compare it with sculptures at Dazu.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Hu_Li1986">20–22</ref>
+                        <note>
+                            <p>Hu Wenhe and Li Guanzhi give short descriptions of the 15 text caves. They note that only the first two out of the five scrolls
+                                    of the <hi rend="italic">Catalog of All Canonical Scriptures</hi> by Jingtai were carved on wall d in cave <hi rend="bold">46</hi>. They further list the 
+                                    <hi rend="italic">Great
+                                        <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi>, “Second Part of the Chapter on Bodhisattva High and Noble Virtuous King”
+                                    on wall d, the <hi rend="italic">Sutra on the Wisdom Stored in the Ocean of Buddha-nature</hi> on wall e,
+                                    the <hi rend="italic">Diamond Perfection of Wisdom Sutra</hi>, the <hi rend="italic">Sutra of the Glorious Buddha Crown</hi> and the <hi rend="italic">
+                                    <foreign xml:lang="sa">Amitābha</foreign> Sutra</hi> on wall f, but omit the <hi rend="italic">Perfection of Wisdom in the Sutras</hi>. On wall h, they mention the carved passage, named the <hi rend="italic">Spell</hi>, taken from the <hi rend="italic">Sutra of the Glorious Buddha Crown <foreign xml:lang="sa">Dhāraṇī</foreign>
+                                </hi> by <foreign xml:lang="sa">Buddhapālita</foreign>, but without identifying it. They also transcribe the characters below columns 1, 9, 12 and 16, including the date and the signature by Xuanying, but consider these to be later additions. For the <hi rend="italic">Sutra on the Wisdom Stored in the Ocean of Buddha-nature</hi>,
+                                    they quote the <hi rend="italic">Kaiyuan Era Catalog of <foreign xml:lang="sa">Śākyamuni</foreign>’s Teachings</hi>, which classifies it as an apocryphal 
+                                    Chinese compilation, and they moreover note that the Wofoyuan version may supplement the edition of the surviving Dunhuang manuscripts contained
+                                    in the <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> canon.</p>
+                            <p>For cave <hi rend="bold">51</hi>, they mention the fourth part of the “Chapter on Sacred Practice” of the <hi rend="italic">Great
+                                    <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> on wall f.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="DingMingyi1988b">47–48, 56</ref>
+                        <note>
+                            <p>Referring to four colophons from the <hi rend="italic">kaiyuan</hi> era at Wofoyuan, Ding Mingyi says that the site was begun in this time. He considers the 15 text caves at Wofoyuan to be a continuation of the tradition of sutra carvings that had started under the Northern dynasties in the Central Plain, at sites like Mount Xiangtang in Hebei, Mount Bao in Henan, or Yunju Si in Fangshan. He relates these sites in North China to the <hi rend="italic">mofa</hi>-thought, and suggests the carving of the <hi rend="italic">Nirvana Sutra</hi> and the <hi rend="italic">Catalog of All Canonical Scriptures</hi> at Wofoyuan reflect a similar anxiety about the crisis of Buddhist teachings after the death of the Buddha. Ding Mingyi further thinks that the versions of the Wofoyuan sutras came directly from Luoyang, the Eastern Capital, as the <hi rend="italic">Catalog of All Canonical Scriptures</hi> was “compiled by Jingtai from Great Jing’ai Monastery in the Eastern Capital (<foreign xml:lang="zh">大唐東京大敬愛寺釋静泰撰</foreign>)”.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Pengjiasheng1988">3–12</ref>
+                        <note>
+                            <p>Peng Jiasheng gives a short description and measurements of the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds in niche <hi rend="bold">45</hi>, as well as of the Thousand Buddha motif in niche <hi rend="bold">50</hi>. He also quotes the accompanying votive inscription dated to the eleventh year of the <hi rend="italic">kaiyuan</hi> era (723), and further mentions the colophon of 961 by Wang Yanzhao <foreign xml:lang="zh">王彦昭</foreign> next to the pillar on wall f of cave <hi rend="bold">51</hi>.</p>
+                            <p>After a summary introduction to the 15 text caves at the site, Peng Jiasheng gives a rather detailed description of the contents of the <hi rend="italic">Catalog of All Canonical Scriptures</hi> by Jingtai carved in cave <hi rend="bold">46</hi>. Obviously assuming a historical connection with the sutra carvings at Wofoyuan, he quotes from the preface of this catalog, which describes how, in 663, the Tang Emperor Gaozong <foreign xml:lang="zh">唐高宗</foreign> ordered the compilation of a sutra catalog for Great Jing’ai Monastery <foreign xml:lang="zh">大敬愛寺</foreign> in Luoyang. Peng Jiasheng also provides a list of the titles of all sutras carved on the walls of the 15 text caves. With regard to the texts carved in cave <hi rend="bold">46</hi>, he notes the colophon dated to the twenty-first year of the <hi rend="italic">kaiyuan</hi> era (733) and the signature of Xuanying.</p>
+                            <p>Peng gives measurements of the dimensions of the three walls of cave <hi rend="bold">46</hi> and computes its volume as 35.5 cubic meters. He identifies on wall d the <title>
+                                    <hi rend="italic">Preface to the List of All Scriptures and Treatises</hi>
+                                </title> (<hi rend="italic">Yiqie jing lun xu </hi>
+                                <foreign xml:lang="zh">一切經論目序</foreign>). He also locates scroll 23 of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> on wall d, but he reproduces the chapter title incorrectly. In addition, he locates a <hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā-sūtra</foreign>
+                                </hi> on this wall, not realizing that only the name, “Great Perfection of Wisdom” (<hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā</foreign>
+                                </hi>), was carved there. On wall e, he erroneously identifies the <hi rend="italic">Sutra of Liberation and Breaking the Attributes of the Mind through the Wisdom Stored in the Ocean of Buddha-nature</hi> as scroll 15 of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi>. The titles of the four sutras placed on wall f he identifies correctly. On wall h, he only mentions the <hi rend="italic">Spell of the Buddha Crown</hi>, ascribing it to Xuanying, but he does not note the <hi rend="italic">Spell of Buddha <foreign xml:lang="sa">Amitābha</foreign>
+                                </hi>. Peng describes the preservation of all walls as “very good <foreign xml:lang="zh">完好</foreign>”.</p>
+                            <p>For cave <hi rend="bold">51</hi>, Peng gives again measurements of the dimensions of its three walls, and computes the volume as 27.846 cubic meters. For wall f, he lists the fourth scroll of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> and the fourth part of the “Chapter on Sacred Practice” of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> separately, giving the impression that two separate parts of this sutra had been carved, while the text passage simply contains the fourth part of the “Chapter on Sacred Practice” in scroll 4.</p>
+                            <p>In his section on colophons found at Wofoyuan, Peng transcribes the colophon of 723 beneath niche <hi rend="bold">50</hi> in full. He also mentions both colophons by Wang Yanzhao in cave <hi rend="bold">51</hi>. With reference to the location of the earliest colophon at the site, that of 723, which is located on wall a of cave <hi rend="bold">51</hi>, Peng argues that this cave, as well as the giant Reclining Buddha on the northern cliff, must have been completed before this date. </p>
+                            <p>When discussing the question of donors of Wofoyuan, Peng argues against an identification of Xuan­ying, known from local votive inscriptions, as the famous compiler of the phonetic dictionary <hi rend="italic">Sounds and Meanings in the Canon</hi>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Wangjiayou1989">46–49</ref>
+                        <note>
+                            <p>Wang Jiayou says that Xuanying <foreign xml:lang="zh">玄應</foreign> was a key figure in the production of the Buddhist sculptures in An­yue County. He gives the transcriptions of four votive inscriptions mentioning his name, among them the colophon dated to the twenty-first year of the <hi rend="italic">kaiyuan</hi> era (733) on wall h of cave <hi rend="bold">46</hi>. He favors an identification of the Xuanying known from Anyue votive inscriptions with the famous compiler of the original edition in 25 scrolls of the <hi rend="italic">Sounds and Meanings in the Canon</hi> (<hi rend="italic">Yiqie jing yiyi </hi>
+                                <foreign xml:lang="zh">一切經意義</foreign>; T#2128, 54: 311a–933b), the first Buddhist dictionary, later extended into a 100 scrolls version and completed in 807 by Huilin <foreign xml:lang="zh">慧琳</foreign> (737–820). The exact dates of Xuanying, the compiler of the <hi rend="italic">Sounds and Meanings</hi>, are unknown. Wang Jiayou further compares the lists of sutras carved at Wofoyuan and at Dazu, Xiao Baoding <foreign xml:lang="zh">小寳頂</foreign>. Quoting from the preface of the <hi rend="italic">Catalog of All Canonical Scriptures</hi> by Jingtai, carved in cave <hi rend="bold">46</hi>, he concludes that the sutra carvings at Wofoyuan were directly influenced by the catalog tradition of the Central Plain, or Chang’an. He further argues that the Anyue sculptures provided various models for the production of the Dazu sculptures; these are, in particular, the giant Reclining Buddha, and the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds (<hi rend="bold">45</hi>). </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Caodan1990">51–52</ref>
+                        <note>
+                            <p>Cao establishes that on wall d of cave <hi rend="bold">46</hi>
+                                    the <title>
+                                    <hi rend="italic">Preface to the List of all Sutras and Treatises of the Great Jing’ai Monastery in the Eastern Capital of the Great Tang Dynasty</hi>
+                                </title>
+                                <foreign xml:lang="zh">大唐東京敬愛寺一切經論目序</foreign> was carved in 9,834 characters.
+                                    He says that the Great Jing’ai Monastery was founded in 657 under the reign of the Tang Emperor Gaozong, and that Jingtai wrote this preface to the catalog in 663. In the following year, this monk presented his work in five scrolls to the court. 
+                                Cao also mentions that scroll 13 of the <hi rend="italic">Great
+                                        <foreign xml:lang="sa">Parinirvāṇa-sūtra</foreign>
+                                </hi> was carved on the same wall, while more scrolls from the sutra were carved in caves <hi rend="bold">51</hi>, <hi rend="bold">59</hi> and <hi rend="bold">66</hi>.</p>
+                            <p>In his list of colophons found at Wofoyuan, Cao gives transcriptions of the colophon of 723 (<hi rend="bold">49</hi>), the colophon of 733 on wall h of cave <hi rend="bold">46</hi>, and the two colophons by Wang Yanzhao <foreign xml:lang="zh">王彦昭</foreign> of 959 and 961. He reads the date on wall h of cave <hi rend="bold">46</hi> as “<hi rend="italic">kaiyuan ershiyi nian </hi>
+                                <foreign xml:lang="zh">唐開元二十一年</foreign>,” with Xuanying as signatory.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1991">84, 89–90, 92</ref>
+                        <note>
+                            <p>In his inventory and chronology of all sites with cliff sculptures in Sichuan, Hu Wenhe gives a brief description of the Grove of the Reclining Buddha. He mentions the earliest colophon of the eleventh year of the <hi rend="italic">kaiyuan</hi> era (723), and classifies the Reclining Buddha as an exemplary work of the early or high Tang period. He further ascribes the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds <hi rend="bold">45</hi> to the middle or late Tang dynasty.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Fuchengjin1991a">48–50</ref>
+                        <note>
+                            <p>Fu Chengjin discusses all occurrences of the name Xuanying in cave temples in Anyue. He gives transcriptions of the colophons with this name at the cave temple complexes at Qianfozhai <foreign xml:lang="zh">千佛寨</foreign> and at Yuanjuedong <foreign xml:lang="zh">圓覺洞</foreign>. He also mentions the colophon of 733 on wall h of cave <hi rend="bold">46</hi>, but doubts its authenticity, and assumes it is a later addition. On the basis of the colophon in niche 96 at Yuanjuedong, Fu Chengjin concludes that Xuanying came from Puzhou <foreign xml:lang="zh">普州</foreign> in Anyue and founded Qiyan Monastery <foreign xml:lang="zh">栖岩寺</foreign> at the site of Qianfozhai; however, he thinks that this monk was not the compiler, with the same name, of the famous <hi rend="italic">Sounds and Meanings in the Canon</hi>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1992">3, 5–6, 8–9</ref>
+                        <note>
+                            <p>Hu Wenhe suggests that cave <hi rend="bold">46</hi> may also have served as a meditation cave, as four characters, reading
+                                    “meditation shrine of Duke Xia” <foreign xml:lang="zh">夏侯禪龕</foreign>, were carved on the upper part of wall h. In his discussion of prominent iconographic themes
+                                    at the Grove, Hu also briefly describes the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds (<hi rend="bold">45</hi>). 
+                                    Hu further repeats the information on the <hi rend="italic">Sutra on the Wisdom Stored in the Ocean of Buddha-nature</hi> given in <ref type="biblio" target="Hu_Li1986">22</ref>.</p>
+                            <p>Hu also provides a table with specifications on each of the 15 text caves, including measurements of the caves, the titles of the carved sutras, the translators of these sutras, and additional remarks. His list of sutras carved on the walls in cave <hi rend="bold">46</hi> is complete; however, he also lists a <hi rend="italic">Great Perfection of Wisdom Sutra</hi> (<foreign xml:lang="zh">摩訶般若波羅蜜經</foreign>) for wall d, being unaware that only the name, “Great Perfection of Wisdom” (<hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā </foreign>
+                                </hi>
+                                <foreign xml:lang="zh">摩訶般若波羅蜜</foreign>), is carved there. For cave <hi rend="bold">51</hi>, he lists the fourth scroll of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> and the fourth part of the “Chapter on Sacred Practice” of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> separately, giving the impression that two separate parts of this sutra had been carved, while the text passage simply contains the fourth part of the “Chapter on Sacred Practice” in scroll 4.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Li_Deng1997">40–42</ref>
+                        <note>
+                            <p>Li and Deng believe that all caves and niches in section C were created in the Tang dynasty, with the exception of the <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi> pillar <hi rend="bold">52</hi>, which is dated by colophons to the Five Dynasties period. They give location, shape, and measurements of cave <hi rend="bold">46</hi> and cave <hi rend="bold">51</hi>. They
+                                    also set out the measurements of the fields of script, and state
+                                    the total number of characters in cave <hi rend="bold">46</hi> as 17,784 (wall d),
+                                    8,855 (wall e), 11,446 (wall f), 94 (wall h), and the total number of
+                                    characters in cave <hi rend="bold">51</hi> as 8,134 (wall f).</p>
+                            <p>When listing the sutras carved on wall d in cave <hi rend="bold">46</hi>, they note a <hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā-sūtra</foreign>
+                                </hi> on this wall, while in fact only the name, “Great Perfection of Wisdom” (<hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā</foreign>
+                                </hi>; <foreign xml:lang="zh">般若波羅蜜</foreign>), was carved. On wall e, they incorrectly identify scroll 15, rather than as numbered as scroll 13, of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> (<hi rend="italic">Da banniepan jing </hi>
+                                <foreign xml:lang="zh">大般涅槃經</foreign>), and on wall h, they omit the <hi rend="italic">Spell Spoken by Buddha <foreign xml:lang="sa">Amitābha</foreign>
+                                </hi> (<hi rend="italic">Amituo fo shuo zhou </hi>
+                                <foreign xml:lang="zh">阿彌陀佛說咒</foreign>).
+                                    For wall f in cave <hi rend="bold">51</hi>, they list the fourth part of the “Chapter on Sacred Practice” in scroll 4 of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra
+                                    </hi> as if two separate parts of this sutra had been carved.</p>
+                            <p>Li and Deng give full transcriptions of the colophons of 723, 733, 959 and 961. They read the date on wall h in cave <hi rend="bold">46</hi> as “twentiest day of the eleventh month of the twenty-first year of the <hi rend="italic">kaiyuan</hi> era of the Great Tang” <foreign xml:lang="zh">大唐開元二十一年十一月二十日</foreign> and consider Xuanying as the signatory.</p>
+                            <p>For the sculptures <hi rend="bold">45</hi>, <hi rend="bold">50</hi>, <hi rend="bold">52</hi>, <hi rend="bold">53</hi> and <hi rend="bold">54</hi>, they give measurements and a description. </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ZengDeren2001">53, 55, 57</ref>
+                        <note>
+                            <p>Zeng Deren gives a transcription of the colophon of 723 beneath rows from the Thousand Buddhas (<hi rend="bold">50</hi>) and of the colophon of 733 on wall h in cave <hi rend="bold">46</hi>. He also briefly describes the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds (<hi rend="bold">45</hi>) at the western end wall of the passageway in section C and gives measurements. For cave <hi rend="bold">51</hi>, he provides a description of the <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi> pillar (<hi rend="bold">52</hi>) in relief, and a transcription of the adjacent colophon of 961.</p>
+                        </note>
+                    </bibl><!-- <bibl>
+                            <ref type="biblio" target="LeeS2007">540–547</ref>
+                            <note>
+                                <p>Sonya Lee discusses the giant Sichuan Buddhas, the one at Mount Le and the one at Wofoyuan, as a type different from the giant Buddha in Gansu province.</p>
+                            </note>
+                        </bibl>-->
+                    <bibl>
+                        <ref type="biblio" target="KangHeejung2007">601–608</ref>
+                        <note>
+                            <p>Kang Hee-jung discusses the Thousand Armed Thousand Eyed Perceiver of the World’s Sounds (<hi rend="bold">45</hi>) at Wofoyuan as the earliest example of multi-armed Guanshiyin sculptures in Sichuan. The author compares it to other sculptures of the same type in Sichuan and East India, and relates it to the flourishing of Esoteric Buddhism during the high Tang.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ChengduKaoguFaxian2008">368–375, 405–406</ref>
+                        <note>
+                            <p>The editors of the Chengdu Municipal Institute of Cultural Relics and Archaeology provide detailed descriptions of the architecture of the three caves in section C, including measurements of all cave walls, and an analysis of their chronology. The niches and sculptures in this section are accurately described; transcriptions of the accompanying colophons are given as well.
+                                    The editors attach a table with specifications on each of the text caves, giving measurements, the chapter and sutra titles of the carved texts, references to the texts in the <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> edition, and additional remarks on the completeness of the carved texts and their exact location on the cave walls, indicating column numbers. Flaws in earlier versions of this table (published in <ref type="biblio" target="Pengjiasheng1988">6–8</ref> and <ref type="biblio" target="Huwenhe1992">8–10</ref>) have been corrected: The “Great Perfection of Wisdom” (<hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitā</foreign>
+                                </hi>; <foreign xml:lang="zh">般若波羅蜜</foreign>) on wall d in cave <hi rend="bold">46</hi> is recognized as a name, not a sutra title, and the fourth part of the “Chapter on Sacred Practice” in scroll 4 of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> on wall f in cave <hi rend="bold">51</hi> is listed as a single text.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="LeeSonyaS2009">41–45, 50–55, 63–65</ref>
+                        <note>
+                            <p>When first analysing the site at Wofoyuan in its entirety, Sonya Lee discusses Monk Xuanying, who is also known from the cave temple complexes at Qianfozhai <foreign xml:lang="zh">千佛寨</foreign> and Yuanjuedong <foreign xml:lang="zh">圓覺洞</foreign>, and concludes that Wofoyuan and Qianfozhai came under the same patronage. She mentions both colophons by Wang Yan­zhao, the one of 959 relating to a restauration, and the one of 961 on the making of the new <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi> pillar (<hi rend="bold">52</hi>) in cave <hi rend="bold">51</hi>.</p>
+                            <p>Turning to her cluster III, which corresponds to section C, but also includes cave <hi rend="bold">59</hi>, Lee records the sutras carved in cave <hi rend="bold">46</hi>. However, she omits the <hi rend="italic">Sutra Spoken by the Buddha on the Perfection of Wisdom in the Sutras</hi> on wall f.<!--, and ascribes the chapter from the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi>, which is on wall d, to wall e. She identifies it as scroll 15, assuming that it continues scroll 14 carved on wall f in cave <hi rend="bold">59</hi>, rather than noting the number 13 carved on the wall.--> In her opinion, the carving of the first two scrolls of the <hi rend="italic">Catalog of All Canonical Scriptures</hi>, compiled by Monk Jingtai in Luoyang, provides evidence for a general tendency to adhere to the latest sutra editions of the time, following the standards set at the capital. When examining the spatial distribution of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> at the site, Lee concludes that the excerpts in caves <hi rend="bold">46</hi> and <hi rend="bold">51</hi> were carved at a slightly later date than the other sections of the sutra.</p>
+                            <p>Lee further characterizes the scriptural program at Wofoyuan as influenced by the Tiantai school and the Three Levels movement; the <hi rend="italic">Diamond Sutra</hi> and key chapters from the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> are accordingly seen as related to Tiantai Buddhism.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Lei_Fu2009">4–7</ref>
+                        <note>
+                            <p>Lei Yuhua and Fu Chengjin first give an overall description of section C, noting that caves <hi rend="bold">46</hi>, <hi rend="bold">51</hi> and <hi rend="bold">58</hi>, which constitute the largest group of caves at the Grove, once shared the same wooden construction at the front. They discuss the unique architecture of cave <hi rend="bold">46</hi>, describing in detail the pitched roof and the antechamber, and state that this cave is probably the earliest in section C, even earlier than the votive inscription of 723 referring to rows of Buddha figures (<hi rend="bold">50</hi>).</p>
+                            <p>The authors note the different calligraphic styles of writing in cave <hi rend="bold">46</hi>, and that the characters are sometimes set in grid lines, and sometimes are only arranged in vertical columns. They conclude that several people must have worked in the cave at the same time. They further doubt the authenticity of both colophons on wall h and consider them to be later additions. </p>
+                            <p>Lei and Fu continue to describe the sculpture at the western end of the passageway and on the walls between the entrances to cave <hi rend="bold">46</hi> and cave <hi rend="bold">51</hi>. For cave <hi rend="bold">51</hi>, they give the location of the sutra text on the rear part of wall f, and describe the <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi> pillar carved in relief at the front. They state that wall d had been polished and prepared for text carving, but was never finished. Then follows a description of the sculptures carved on the wall separating caves <hi rend="bold">51</hi> and <hi rend="bold">58</hi>. The authors say that the sculptures <hi rend="bold">53</hi> and <hi rend="bold">54</hi> belong to the same architectural structure; they assume that the deep rectangular niche at the top was used for storage, probably for moveable sculptures.</p>
+                            <p>Finally, Lei and Fu describe the unfinished state of cave <hi rend="bold">58</hi>. On wall e, a rectangular field of script has been prepared, which was never completed. Instead, rows of Luohan figures were carved along walls d and f during the Song dynasty.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Zhang_Li2011">51–55</ref>
+                        <note>
+                            <p>Zhang Xuefen and Li Yanshu examine all evidence related to Monk Cihai <foreign xml:lang="zh">慈海</foreign>. He is presented as the central figure in the sculpture group <hi rend="bold">4</hi> on the northern slope at Wofoyuan. The colophon on the rear of the fragmentary Buddha statue in cave <hi rend="bold">51</hi> also names him, and the text of the stele of 1103 preserved in cave <hi rend="bold">81</hi> has more details on his life. The authors give a full transcription of the colophon on the statue in cave <hi rend="bold">51</hi>, and choose to read the date of this inscription as 1122, fourth year of the <hi rend="italic">xuanhe</hi> era <foreign xml:lang="zh">宣和四年</foreign>. They also give a full transcription of the colophon with a <hi rend="italic">wuzi</hi> date that cuts across the banner (<hi rend="bold">47</hi>), next to the entrance to cave <hi rend="bold">46</hi>. The authors take the <hi rend="italic">wuzi</hi> year to be 1168.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="TsaiSueyling2013a">82–84</ref>
+                        <note>
+                            <p>Tsai Sueyling gives transcriptions and translations of both colophons by Wang Yanzhao in cave <hi rend="bold">51</hi> on wall f. The activities of this donor, who was trained in the Geomancy of the Five Tunes <foreign xml:lang="zh">五音地理</foreign>, imply that <hi rend="italic">fengshui</hi> theories may have been taken into consideration at the Grove. Tsai explains that, according to a <hi rend="italic">fengshui</hi> reading of the topography surrounding the Grove by the villagers, the sculpture of the Reclining Buddha is embedded in the womb of what is conceived as a Dragon in Nine Segments <foreign xml:lang="zh">九節龍</foreign>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="DengXingliang2013"/>
+                        <note>
+                            <p>Deng Xingliang gives a full transcription of the <hi rend="italic">Sutra on the Perfection of Wisdom [as Taught in the] Sutras</hi> carved on wall f in cave <hi rend="bold">46</hi>. He lists text passages that this sutra took from other sutras, and discusses its title and composition indicating  that, though an apocryphal scripture, it has important historical value.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="TsaiSueyling2014">171–173, 177–179</ref>
+                        <note>
+                            <p>Tsai Sueyling gives transcriptions and German translations of the colophons of 723 on wall a of cave <hi rend="bold">51</hi>, and of the colophon on wall h in cave <hi rend="bold">46</hi>. For the second one, she considers it doubtful.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Qin_Zhang_Lei2015">63–75; 115; 122; 259–311</ref>
+                        <note>
+                            <p>Qin Zhen, Zhang Xuefen and Lei Yuhua give detailed descriptions of the location and architecture of the three caves in section C, as well as
+                                of the niches and sculptures in this section. The colophons in this section are all transcribed. The authors further give measurements for all cave walls,
+                                and they publish elevations of all walls with text, indicating the position of each sutra text. In their preliminary analysis of the caves at the Grove,
+                                the authors come to the conclusion that cave <hi rend="bold">46</hi> is the earliest in the entire complex.</p>
+                            <p>Transcriptions of the sutra texts carved in cave <hi rend="bold">46</hi> on walls d, e, and f, and in cave
+                                <hi rend="bold">51</hi> on wall f are provided, albeit without punctuation. The two <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi> spells carved
+                                    on wall h in cave <hi rend="bold">46</hi> are not transcribed. Further, the authors did not supply the five damaged characters
+                                    of the passage in 17 additional characters of the
+                                    <hi rend="italic">
+                                    <foreign xml:lang="sa">Amitābha</foreign> Sutra</hi> on wall f. 
+                                </p>
+                        </note>
+                    </bibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

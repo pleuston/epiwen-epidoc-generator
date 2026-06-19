@@ -1,0 +1,2368 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Hb_CavesOther">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>未刻經洞窟</head>
+                <div>
+                    <head>
+                        <hi rend="bold">95-1</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">95-1</hi>號窟位於H區最西邊，方位爲204°，距崖脚5.2米左右，與東側<hi rend="bold">95-2</hi>號窟相距0.8米左右，窟底比<hi rend="bold">95-2</hi>號窟窟底高0.7米左右（<ptr target="w95-1-2_20240104_094022.jpg"/>）。該窟於2012年首次編號。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>小型敞口横長方形窟，製作較粗糙。可能用作瘞窟（<ptr target="WFY_95-1_IMGP1462.jpg"/>）。 </p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：100厘米×180厘米左右。</item>
+                            <item>上方進深：60厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟底堆滿泥土，并長出植物。</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <head>
+                        <hi rend="bold">95-2</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">95-2</hi>號窟位於H區，方位爲204°。與崖脚相距4.5米左右，在一突起崖壁處的西邊；距西側<hi rend="bold">95-1</hi>號窟0.8米左右，窟底低於<hi rend="bold">95-1</hi>號窟窟底0.7米左右，距東側<hi rend="bold">95-3</hi>號窟27米左右（<ptr target="w95-1-2_20240104_094022.jpg"/>）。該窟於2012年首次編號。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，製作較粗糙，窟頂向東傾斜（<ptr target="WFY_95-2_IMGP1464.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：180厘米×180厘米左右。</item>
+                            <item>進深：180厘米左右。</item>
+                        </list>
+
+
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                        <figure rend="center" n="figure" xml:id="w95-1-2_20240104_094022.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95-1</hi>號窟（左）和<hi rend="bold">95-2</hi>號窟（右）的位置。2024年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">95-1</hi> (left) and <hi rend="bold">95-2</hi> (right); photograph taken in 2024</head>
+                            <graphic url="w95-1-2_20240104_094022.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">95-3</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">95-3</hi>號窟位於H區，方位原本與<hi rend="bold">95-2</hi>號窟大致相同。與西側<hi rend="bold">95-2</hi>號窟相距27米左右。該窟於2012年首次編號。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形窟，未完工。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：112厘米×120厘米左右。</item>
+                            <item>進深：115厘米左右（<ptr target="WFY_95-3_IMGP1475_gedreht.jpg"/>）。</item>
+                        </list>
+                        
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>此窟隨所附岩石從崖壁脱落，倒置於谷底，窟口面向山體（<ptr target="WFY_95-3_IMGP1479.jpg"/>）。當地年長者亦不知此窟於何時坍塌。</p>
+                        <figure rend="center" n="figure" xml:id="WFY_95-3_IMGP1479.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95-3</hi>號窟坍塌滚落後窟底朝上的情况。2012年拍攝</head>
+                            <head>Cave <hi rend="bold">95-3</hi> lying upside down after the collapse and
+                                roll; photograph taken in 2012</head>
+                            <graphic url="WFY_95-3_IMGP1479.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">95</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">95</hi>號窟位於H區，面向西南偏南。原位於水平綫上7米左右、<hi rend="bold">95-3</hi>號窟東側25.5米左右處。窟底高出相鄰<hi rend="bold">96</hi>號窟窟底1米左右（<ptr target="WFY_95_97_DSC07179.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。窟口有兩塊垂直平板，用於遮掩和擋風（<ptr target="WFY_95_DSC08365.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：200厘米×200厘米左右。</item>
+                            <item>進深：200厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>2019年6月9日凌晨三點，本窟與<hi rend="bold">96</hi>號窟和<hi rend="bold">97</hi>號窟一同坍塌（<ptr target="w95-96_20240104_103823.jpg"/>），僅剩兩壁和窟頂傾倒於地面（<ptr target="w95_20240104_103045.jpg"/>）。</p>
+                        <figure rend="center" n="figure" xml:id="WFY_95_97_DSC07179.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95</hi>－<hi rend="bold">97</hi>號窟的位置。2007年拍攝</head>
+                            <head>Spatial relation of Caves <hi rend="bold">95</hi>−<hi rend="bold">97</hi>;
+                                photograph taken in 2007</head>
+                            <graphic url="WFY_95_97_DSC07179.JPG"/>
+                        </figure>
+
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">96</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">96</hi>號窟位於H區，面向西南偏南。原本位於崖脚水平綫上6米左右，與東側<hi rend="bold">97</hi>號窟相距3.9米左右。窟底低於<hi rend="bold">95</hi>號窟窟底1米左右。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_96_DSC07183.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：200厘米×220厘米左右。</item>
+                            <item>進深：200厘米左右。</item>
+                        </list>
+                        
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>2019年6月9日凌晨三點，該窟與<hi rend="bold">95</hi>號窟、<hi rend="bold">97</hi>號窟一同坍塌（<ptr target="w95-96_20240104_103823.jpg"/>）。</p>
+                        <figure rend="page" n="figure" xml:id="w95-96_20240104_103823.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95</hi>號窟（左）和<hi rend="bold">96</hi>號窟（右）2019年坍塌之後的現狀。2024年拍攝</head>
+                            <head>Caves <hi rend="bold">95</hi> (left) and <hi rend="bold">96</hi> (right) after the collapse
+                                in 2019; photograph taken in 2024</head>
+                            <graphic url="w95-96_20240104_103823.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold"><!--96-1-->97</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">97</hi>號窟位於H區，面向西南偏南。原本位於<hi rend="bold">96</hi>號窟東側3.9米左右處、自<hi rend="bold">98</hi>號窟開始的8個排成一列的洞窟西側。因難以抵達窟口，而無法詳細測量。此窟或許因其高度難以施工而放弃（<ptr target="WFY_96-1_97_DSC08373.JPG"/><!--和<ptr target="WFY_96-1_DSC08374.JPG"/>-->）。<!--2019年6月9日凌晨三點與<hi rend="bold"
+                                >95</hi>號窟和<hi rend="bold">96</hi>號窟一同崩落。-->
+                        </p>
+                        
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>以窟口輪廓判斷，原本計劃開鑿方形敞口窟，并采用標準尺寸（<!--<ptr target="WFY_96-1_DSC08374.JPG"/>-->
+                            <ptr target="WFY_96-1_97_DSC08373.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <p>窟口距地面過高，難以企及，未做測量。</p>
+
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>2019年6月9日凌晨三點，本窟與<hi rend="bold">95</hi>號窟、<hi rend="bold">96</hi>號窟一同坍塌（<ptr target="w95-96_20240104_103823.jpg"/>）。</p>
+                        <figure rend="page" n="figure" xml:id="WFY_96-1_97_DSC08373.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">97</hi>號窟（左）和<hi rend="bold">98</hi>號窟（右）的位置。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">97</hi> (left) and <hi rend="bold">98</hi> (right); photograph taken in 2010</head>
+                            <graphic url="WFY_96-1_97_DSC08373.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">98</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">98</hi>號窟位於H區，面向西南偏南，方位爲150°。與西南側的<hi rend="bold">97</hi>號窟相距2米左右；與東北側的<hi rend="bold">99</hi>號窟相距1.7米左右。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_97_DSC08379.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：198厘米×190厘米左右。</item>
+                            <item>進深：187厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟口部分和<hi rend="bold">95</hi>－<hi rend="bold">97</hi>號窟於2019年6月9日凌晨三點一同坍塌（<ptr target="w98_20240103_154021.jpg"/>）。</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="w98_20240103_154021.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">98</hi>號窟坍塌之後的窟口現狀。2024年拍攝</head>
+                        <head>Cave <hi rend="bold">98</hi> after the collapse of the entrance; photograph
+                            taken in 2024</head>
+                        <graphic url="w98_20240103_154021.jpg"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">99</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">99</hi>號窟位於H區，方位爲135°。距西南側的<hi rend="bold">98</hi>號窟1.7米左右，窟底高出<hi rend="bold">98</hi>號窟窟底0.14米；距東北側的<hi rend="bold">100</hi>號窟1.27米左右，窟底低於<hi rend="bold">100</hi>號窟窟底0.65米（<ptr target="YLP_98_99_DSC_2975.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_98_DSC08389.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：198厘米×205厘米左右。</item>
+                            <item>進深：204厘米左右。</item>
+                        </list>
+                        
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_98_99_DSC_2975.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">99</hi>號窟（左）和<hi rend="bold">100</hi>號窟（右）的位置。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">99</hi> (left) and <hi rend="bold">100</hi> (right); photograph taken in 2010</head>
+                            <graphic url="YLP_98_99_DSC_2975.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">100</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">100</hi>號窟位於H區，方位爲130°。與西南側的<hi rend="bold">99</hi>號窟相距1.27米左右；與東北側的<hi rend="bold">101</hi>號窟相距5米左右，窟底低於<hi rend="bold">101</hi>號窟窟底1.5米左右。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_99_DSC_2985.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：185厘米×190厘米左右。</item>
+                            <item>進深：230厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">101</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">101</hi>號窟位於H區，方位爲124°。與西南側的<hi rend="bold">100</hi>號窟相距5米左右，窟底高出<hi rend="bold">100</hi>號窟窟底1.5米左右；與東北側的<hi rend="bold">102</hi>號窟相距2.2米左右，窟底低於<hi rend="bold">102</hi>號窟窟底1.5米左右（<ptr target="w101-102_20240103_160744.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：218厘米×196厘米左右。</item>
+                            <item>進深：200厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                        <figure rend="center" n="figure" xml:id="w101-102_20240103_160744.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">101</hi>號窟（左）和<hi rend="bold">102</hi>號窟（右）的位置。2024年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">101</hi> (left) and <hi rend="bold">102</hi> (right); photograph taken in 2024</head>
+                            <graphic url="w101-102_20240103_160744.jpg"/>
+                        </figure>
+                        <figure rend="center" n="figure" xml:id="YLP_101_DSC_2993.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">102</hi>號窟全景。2010年拍攝</head>
+                            <head>Overview of Cave <hi rend="bold">102</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_101_DSC_2993.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">102</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">102</hi>號窟位於H區，方位爲114°。與西南側的<hi rend="bold">101</hi>號窟相距2.2米左右，窟底高出<hi rend="bold">101</hi>號窟窟底1.5米左右（<ptr target="w101-102_20240103_160744.jpg"/>）；與東北側的<hi rend="bold">103</hi>號窟相距9.2米左右，窟底低於<hi rend="bold">103</hi>號窟窟底1米左右。</p>
+
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<!-- <ptr target="WFY_101_DSC08421.JPG"/>和 -->
+                            <ptr target="YLP_101_DSC_2993.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：198厘米×223厘米左右。</item>
+                            <item>進深：226厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">103</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">103</hi>號窟位於H區，方位爲112°。與西南側的<hi rend="bold">102</hi>號窟相距9.2米左右，窟底高出<hi rend="bold">102</hi>號窟窟底1米左右；與東北側的<hi rend="bold">104</hi>號窟相距2.1米左右，兩窟窟底高度齊平。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_102_DSC08433.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：198厘米×185厘米左右。</item>
+                            <item>進深：184厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">104</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">104</hi>號窟位於H區，方位爲115°。距西南側的<hi rend="bold">103</hi>號窟2.1米左右，距東北側的<hi rend="bold">104-1</hi>號窟2米左右，窟底與<hi rend="bold">103</hi>號窟、<hi rend="bold">104-1</hi>號窟窟底高度齊平（<ptr target="w103-104_20240103_155319.jpg"/>）。 </p>
+
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="YLP_103_DSC_3015.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：190厘米×186厘米左右。</item>
+                            <item>進深：192厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟口上方破損。</p>
+
+                        <figure rend="center" n="figure" xml:id="w103-104_20240103_155319.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">103</hi>號窟、<hi rend="bold">104</hi>號窟和<hi rend="bold">104-1</hi>號窟（自左往右）的位置。2024年拍攝</head>
+                            <head>Spatial relation of Caves <hi rend="bold">103</hi>, <hi rend="bold">104</hi>, and <hi rend="bold">104-1</hi> (from left to right); photograph
+                                taken in 2024</head>
+                            <graphic url="w103-104_20240103_155319.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">104-1</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">104-1</hi>號窟位於H區，方位爲122°。與西南側的<hi rend="bold">104</hi>號窟相距2米，窟底與<hi rend="bold">104</hi>號窟窟底高度齊平。與東北側的<hi rend="bold">104-2</hi>號窟相距45.8米左右，爲平滑陡峭的岩石所間隔（<ptr target="w103-104_20240103_155319.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，窟口坍塌（<ptr target="YLP_104-1_DSC_3029.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：殘，225厘米×187厘米左右。</item>
+                            <item>殘深：176厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟口上方坍塌。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_104-1_DSC_3029.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">104-1</hi>號窟全景。2010年拍攝</head>
+                            <head>Overview of Cave <hi rend="bold">104-1</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_104-1_DSC_3029.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">104-2</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">104-2</hi>號窟位於H區，方位爲122°。與西南側的<hi rend="bold">104-1</hi>號窟相距45.8米左右，中間間隔平滑陡峭的岩石，無法直達（<ptr target="w103-104_20240103_155319.jpg"/>）；與東北側的<hi rend="bold">104-3</hi>號窟爲雙窟，相距0.7米左右，窟底與<hi rend="bold">104-3</hi>號窟窟底高度齊平。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，坍塌一半左右（<ptr target="w104-2_20240103_152221.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：殘，180厘米×190厘米左右。</item>
+                            <item>殘深：110厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>前半部分坍塌。</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="w104-2_20240103_152221.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">104-2</hi>號窟全景。2024年拍攝</head>
+                        <head>Overview of Cave <hi rend="bold">104-2</hi>; photograph taken in 2024</head>
+                        <graphic url="w104-2_20240103_152221.jpg"/>
+                    </figure>
+                </div>
+
+                <div>
+                    <head>
+                        <hi rend="bold">104-3</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">104-3</hi>號窟位於H區，方位爲122°。與西南側的<hi rend="bold">104-2</hi>號窟爲雙窟，相距0.7米左右，窟底與<hi rend="bold">104-2</hi>號窟窟底高度齊平；與東北側的<hi rend="bold">105</hi>號窟相距2.85米左右，窟底高出<hi rend="bold">105</hi>號窟窟底0.46米左右。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，坍塌過半（<ptr target="w104-3_20240103_151913.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：殘，186厘米×180厘米左右。</item>
+                            <item>f壁寬：2米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>前半部分坍塌。</p>
+                        <figure rend="center" n="figure" xml:id="w104-3_20240103_151913.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">104-3</hi>號窟全景。2024年拍攝</head>
+                            <head>Overview of Cave <hi rend="bold">104-3</hi>; photograph taken in 2024</head>
+                            <graphic url="w104-3_20240103_151913.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">105</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">105</hi>號窟位於H區，方位爲128°。與西南側的<hi rend="bold">104-3</hi>號窟相距2.85米左右，窟底低於<hi rend="bold">104-3</hi>號窟窟底0.46米左右；與東北側的<hi rend="bold">106</hi>號窟相距47.5米左右，窟底低於<hi rend="bold">106</hi>號窟窟底2米左右，兩窟爲巨石所隔開，無法直達。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>原本計劃開鑿方形敞口平頂窟，但開鑿底部之後即放弃（<ptr target="w105_20240103_151008.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：46×245厘米左右。</item>
+                            <item>殘深：28至37厘米。</item>
+                        </list>
+
+                    </div>
+
+                    <div>
+                        <head>保存狀况</head>
+                        <p>未完工。</p>
+                        <figure rend="center" n="figure" xml:id="w105_20240103_151008.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">105</hi>號窟已開鑿部分。2024年拍攝</head>
+                            <head>The part already hewn in Cave <hi rend="bold">105</hi>; photograph taken in
+                                2024</head>
+                            <graphic url="w105_20240103_151008.jpg"/>
+                        </figure>
+                        <figure rend="center" n="figure" xml:id="w105-106_20240103_152412.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">105</hi>號窟（左）和<hi rend="bold">106</hi>號窟（右）之間的巨石。2024年拍攝</head>
+                            <head>Rocks between Caves <hi rend="bold">105</hi> (left) and <hi rend="bold">106</hi> (right); photograph taken in 2024</head>
+                            <graphic url="w105-106_20240103_152412.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">106</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">106</hi>號窟位於H區，與其他洞窟相對隔離。與西南側的<hi rend="bold">105</hi>號窟相距5米左右，窟底高出<hi rend="bold">105</hi>號窟窟底2米左右，兩窟之間有巨石相隔；可通過距交界處5米遠的一條小路繞過岩石到達（<ptr target="w105-106_20240103_152412.jpg"/>）。此岩石與東北側的<hi rend="bold">106-1</hi>號窟相距2米左右，兩窟高度齊平。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>小型方形敞口窟（<ptr target="w106_20240103_145327.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：165厘米×143厘米左右。</item>
+                            <item>進深：100厘米左右。</item>
+                            <item>正壁：上寬150厘米，下寬180厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟口些許損毁。</p>
+                        <figure rend="center" n="figure" xml:id="w106_20240103_145327.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">106</hi>號窟。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">106</hi>; photograph taken in 2024</head>
+                            <graphic url="w106_20240103_145327.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">106-1</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">106-1</hi>號窟位於H區。與西南側的<hi rend="bold">106</hi>號窟相距2米左右，兩窟高度齊平；與東北側的<hi rend="bold">107</hi>號窟相距39.2米。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>本窟窟形呈不規則狀。最初開鑿時可能因岩石品質不佳而停工（<ptr target="w106_20240103_145657.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：殘，87厘米×164厘米左右。</item>
+                            <item>殘深：38厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>未完工。</p>
+                        <figure rend="center" n="figure" xml:id="w106_20240103_145657.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">106</hi>號窟（左）和<hi rend="bold">106-1</hi>號窟（右）。2024年拍攝</head>
+                            <head>Caves <hi rend="bold">106</hi> (left) and <hi rend="bold">106-1</hi>
+                                (right); photograph taken in 2024</head>
+                            <graphic url="w106_20240103_145657.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">107</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">107</hi>號窟位於H區“丁家岩”段，方位爲145°。與西南側<hi rend="bold">106-1</hi>號窟相距39.2米，與東北側<hi rend="bold">108</hi>號窟相距1.65米，窟底高出<hi rend="bold">108</hi>號窟窟底0.5米左右。距崖脚5.7米左右，距水平綫13米左右（<ptr target="YLP_107_109_DSC_0430.JPG"/><!--、<ptr target="YLP_107-110_DSC_0425.JPG"/>-->和<ptr target="YLP_107_110_DSC06278.JPG"/>），距泊船處270米左右（<ptr target="DSC_1418.JPG"/>）。</p>
+
+                        <!--<figure rend="center" n="figure" xml:id="YLP_107-110_DSC_0425.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">107－110</hi>號窟位置關係。2010年拍攝</head>
+                            <head>Spatial relation of Caves <hi rend="bold">107–110</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_107-110_DSC_0425.JPG"/>
+                        </figure>-->
+
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。墻壁有刮鑿痕迹，但未精細打磨。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：200厘米×206厘米。</item>
+                            <item>d壁：寬190厘米。</item>
+                            <item>e壁：192×203厘米。</item>
+                            <item>f壁：寬170厘米（前端斷裂）。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟口毁損。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">108</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">108</hi>號窟位於H區“丁家岩”段，方位爲145°。與西南側的<hi rend="bold">107</hi>號窟相距1.65米左右，與東北側的<hi rend="bold">109</hi>號刻經窟相距0.68米左右。高出崖脚3.20－5米左右，高出水平綫13米左右（<ptr target="YLP_108_109_DSC_0366.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。墻壁有刮鑿痕迹，但未精細打磨（<ptr target="YLP_108_DSC_0365.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：196厘米×185厘米。</item>
+                            <item>d壁：寬139厘米（前端斷裂）。</item>
+                            <item>e壁：188厘米×190厘米。</item>
+                            <item>f壁：寬146厘米（前端斷裂）。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>d壁和f壁上裂痕頗深，造成窟底前端呈新月形斷痕。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">111</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">111</hi>號窟位於H區“丁家岩”段，方位爲145°。與西南側的<hi rend="bold">110</hi>號刻經窟相距7.25米左右（<ptr target="YLP_111_DSC_0232.JPG"/>），與東北側的<hi rend="bold">112</hi>號窟相距1.5米左右，窟底低於<hi rend="bold">112</hi>號窟窟底1.7米左右。<hi rend="bold">111</hi>號窟因與<hi rend="bold">112</hi>號窟和<hi rend="bold">113</hi>號窟距離較近，形成了一組三聯窟（<ptr target="YLP_111-113_20240103_122659.jpg"/>）。高出崖脚1.5米左右，高出水平面13米左右。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。f壁可見雙層窟口（<!--<ptr target="WFY_111_DSC06335.JPG"/>和-->
+                            <ptr target="YLP_111_DSC_0232.JPG"/>）。壁面的鑿痕相當規整（<ptr target="w111_20240103_101515.jpg"/>），但未精細打磨。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：190厘米×200厘米左右。</item>
+                            <item>進深：190－210厘米。</item>
+                        </list>
+                    </div>
+
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                        <figure rend="center" n="figure" xml:id="w111_20240103_101515.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">111</hi>號窟d壁上規整的鑿痕。2024年拍攝</head>
+                            <head>Systematical striations on wall d, Cave <hi rend="bold">111</hi>;
+                                photograph taken in 2024</head>
+                            <graphic url="w111_20240103_101515.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">112</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">112</hi>號窟位於H區“丁家岩”段，方位爲145°。與西南側的<hi rend="bold">111</hi>號窟相距1.5米左右，是<hi rend="bold">111－113</hi>號三聯窟組合的中窟（<ptr target="YLP_111-113_20240103_122659.jpg"/>）。窟底高出<hi rend="bold">111</hi>號窟窟底1.7米左右，高出崖脚2米左右，高出水平綫14米左右。 </p>
+                        <!--<figure rend="center" n="figure" xml:id="WFY_112_113_DSC06333.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">112－113</hi>號窟位置關係。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">112</hi> and <hi rend="bold">113</hi>; photograph taken in 2010</head>
+                            <graphic url="WFY_112_113_DSC06333.JPG"/>
+                        </figure>-->
+
+                        <figure rend="center" n="figure" xml:id="YLP_111-113_20240103_122659.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">111</hi>－<hi rend="bold">113</hi>號窟三聯窟組合的位置。2024年拍攝</head>
+                            <head>Spatial relation of the triple Caves <hi rend="bold">111</hi>−<hi rend="bold">113</hi>; photograph taken in 2024</head>
+                            <graphic url="YLP_111-113_20240103_122659.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，雙層窟口。墻壁上有2厘米左右寬的刮痕，未經精細打磨<!--（<ptr target="WFY_112_DSC06341.JPG"/>）-->。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+
+                        <list>
+                            <item>窟口：148厘米×180厘米。</item>
+                            <item>進深：245厘米。</item>
+                            <item>e壁：215厘米×160厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">113</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">113</hi>號窟位於H區“丁家岩”段，方位爲145°。與西南側的<hi rend="bold">112</hi>號窟相距2米左右，是<hi rend="bold">111</hi>－<hi rend="bold">113</hi>號窟三聯窟組合的最北窟（<ptr target="YLP_111-113_20240103_122659.jpg"/>）。窟底低於<hi rend="bold">112</hi>號窟窟底1.4米左右，高出崖脚1.3米左右，高出水平綫12米左右。與東北側的<hi rend="bold">114</hi>號窟相距34.7米左右。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_113_DSC_0240.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">113</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">113</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_113_DSC_0240.JPG"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，雙層窟口。墻壁有2厘米左右寬的粗糙刮痕，未經精細打磨（<ptr target="WFY_113_DSC_0243.jpg"/>和<ptr target="YLP_113_DSC_0240.JPG"/>）。</p>
+
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：200厘米×214厘米。</item>
+                            <item>d壁：寬208厘米。</item>
+                            <item>e壁：180厘米×234厘米。</item>
+                            <item>f壁：寬208厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>尚佳。</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="YLP_114_20240103_113921.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">114</hi>號窟地貌。2024年拍攝</head>
+                        <head>The environment of Cave <hi rend="bold">114</hi>; photograph taken in
+                            2024</head>
+                        <graphic url="YLP_114_20240103_113921.jpg"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">114</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">114</hi>號窟位於H區“丁家岩”段（<ptr target="YLP_114_20240103_113921.jpg"/>），方位爲145°。與其他窟龕相距較遠，與西南側的<hi rend="bold">113</hi>號窟相距34.7米左右，與東北方向的<hi rend="bold">115</hi>號窟相距42.8米左右。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>雙層窟口，外層呈長方形，内層上方呈圓拱形。（<ptr target="YLP_114_20240103_113624.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>外層窟口：126厘米×223厘米。</item>
+                            <item>進深：20厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>龕内僅存兩尊未完工雕像的坯形（<ptr target="YLP_114_20240103_113624.jpg"/>）。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_114_20240103_113624.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">114</hi>號窟近景。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">114</hi>, close-up view; photograph taken in
+                                2024</head>
+                            <graphic url="YLP_114_20240103_113624.jpg"/>
+                        </figure>
+
+
+                        <!--<figure rend="center" n="figure" xml:id="YLP_114_DSCN6242.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">114</hi>號窟。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">114</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_114_DSCN6242.JPG"/>
+                        </figure>-->
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">115</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">115</hi>號窟位於H區，方位爲145°。與西南側的<hi rend="bold">114</hi>號窟相距約42.8米，與東北側的<hi rend="bold">115-1</hi>號窟相距約22米，窟底低於<hi rend="bold">115-1</hi>號窟窟底約5米。位處較隱密處，不易抵達（<ptr target="WFY_115_DSC07136.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>窟底呈梯形；窟頂前高後低，有瓦棱結構（<ptr target="YLP_115_DSC_1415.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：下寬188厘米。</item>
+                            <item>d壁：寬182厘米。</item>
+                            <item>e壁：120厘米×290厘米。</item>
+                            <item>f壁：寬210厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>窟頂前端坍塌。e壁全部和d壁、f壁的後部有粗糙的刮痕。d壁和f壁前端刮痕較精細，但未打磨。窟外西側有一塊可能用於刊刻題記的打磨區，尺寸爲55厘米×47厘米（<ptr target="YLP_115_DSC_1415.JPG"/>）。 </p>
+                        <figure rend="center" n="figure" xml:id="YLP_115_DSC_1415.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">115</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">115</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_115_DSC_1415.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">115-1</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">115-1</hi>號窟位於H區，方位爲160°。與西南側的<hi rend="bold">115</hi>號窟相距22米左右，窟底高出<hi rend="bold">115</hi>號窟窟底5米左右；與東北側的<hi rend="bold">116</hi>號窟相距29.3米左右，高出<hi rend="bold">116</hi>號窟窟底8米左右。洞窟西壁外崖面上有一打磨區，可能用於刊刻題記（<ptr target="w115-1_20240102_162720.jpg"/>）。2024年該窟首次編號。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="w115-1_20240102_162720.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：190厘米×172厘米左右。</item>
+                            <item>進深：179厘米左右。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>此窟d壁與靠此壁的窟頂因爲采石而毁（<ptr target="w115-1_20240102_162720.jpg"/>）。 </p>
+                        <figure rend="center" n="figure" xml:id="w115-1_20240102_162720.jpg">
+                            <head xml:lang="zh">部分因采石而毁的 <hi rend="bold">115-1</hi>號窟。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">115-1</hi>, partly destroyed by quarrying; photograph
+                                taken in 2024</head>
+                            <graphic url="w115-1_20240102_162720.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">116</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">116</hi>號窟位於H區“菩薩岩”段，方位爲167°。與西南側的<hi rend="bold">115-1</hi>號窟相距29.3米左右，窟底低於<hi rend="bold">115-1</hi>號窟窟底8米左右；與東北側的<hi rend="bold">117</hi>號窟相距0.8米左右，窟底低於<hi rend="bold">117</hi>號窟窟底1.2米左右。與<hi rend="bold">117</hi>－<hi rend="bold">118</hi>號窟相距較近，從而形成三聯窟組合（<ptr target="YLP_116-119_20240103_141807.jpg"/>）。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。雙層窟門<!--，窟頂自窟口向後隆升-->（<ptr target="w116_DSC_1400.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：163厘米×208厘米。</item>
+                            <item>進深：212厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>可能原本作刻經窟，但三面墻壁皆無經文，後來改爲造像窟。e壁雕三身佛，f壁爲浮雕佛塔（<hi rend="bold">116-3</hi>號，<ptr target="WFY_116_w116-01.jpg"/>），d壁爲圓拱龕，并有一則南宋紹興二年<!--（1132）-->題記（<hi rend="bold">116-2</hi>號，<ptr target="Cave116_colophon116-2_stitch.jpg"/>）。題記録文見本卷<ptr type="infra" target="colophon116.2_zh"/>。</p>
+                        <figure rend="center" n="figure" xml:id="WFY_116_w116-01.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">116</hi>號窟正壁三身佛造像與f壁七級佛塔。2007年拍攝</head>
+                            <head> Cave <hi rend="bold">116</hi>, three Buddha statues on wall e and a
+                                seven-storied pagoda on wall f; photograph taken in 2007</head>
+                            <graphic url="WFY_116_w116-01.jpg"/>
+                        </figure>
+                        <figure rend="center" n="figure" xml:id="YLP_116_117_DSC_1395.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">116</hi>號窟（左）和<hi rend="bold">117</hi>號窟（右）的位置。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">116</hi> (left) and <hi rend="bold">117</hi> (right); photograph taken in 2010</head>
+                            <graphic url="YLP_116_117_DSC_1395.JPG"/>
+                        </figure>
+
+
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">117</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">117</hi>號窟位於H區“菩薩岩”段，方位爲175°。與西南側的<hi rend="bold">116</hi>號窟相距0.8米左右，窟底高出<hi rend="bold">116</hi>號窟窟底1.2米左右；與東北側的<hi rend="bold">118</hi>號窟相距0.54米左右，窟底高出<hi rend="bold">118</hi>號窟窟底1.2米左右。本窟是<hi rend="bold">116</hi>－<hi rend="bold">118</hi>號三聯窟組合的中窟（<ptr target="YLP_116-119_20240103_141807.jpg"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟，采用的尺寸僅爲標準尺寸的一半。雙層窟門。</p>
+                        <p>窟底呈方形。窟頂平坦，後部略低（<ptr target="YLP_117_DSC_1390.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：115厘米×190厘米。</item>
+                            <item>d壁：寬220厘米。</item>
+                            <item>e壁：75厘米×190厘米。</item>
+                            <item>f壁：寬195厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>墻壁均有粗糙的刮痕和苔蘚。</p>
+                        <!--<figure rend="center" n="figure" xml:id="YLP_117_118_DSC_1360.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">117</hi>號窟和<hi rend="bold">118</hi>號窟位置關係。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">117</hi> and <hi rend="bold">118</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_117_118_DSC_1360.JPG"/>
+                        </figure>-->
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">118</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">118</hi>號窟位於H區“菩薩岩”段，方位爲167°。與西南側的<hi rend="bold">117</hi>號窟相距0.54米左右，窟底低於<hi rend="bold">117</hi>號窟窟底1.2米左右；與東北側的<hi rend="bold">119</hi>號窟相距4米左右，窟底低於<hi rend="bold">119</hi>號窟窟底1.3米左右。本窟是<hi rend="bold">116</hi>－<hi rend="bold">118</hi>號三聯窟組合的北窟（<ptr target="YLP_116-119_20240103_141807.jpg"/>）。高出水平綫3米左右。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。西側有雙層窟門痕迹，窟頂平坦（<ptr target="WFY_118_DSC06605.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：186厘米×190厘米。</item>
+                            <item>d壁：寬182厘米。</item>
+                            <item>e壁：上寬230厘米，下寬256厘米，高168－175厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>e壁爲後刻雙菩薩像，今殘（<ptr target="YLP_118_20240102_144554.jpg"/>）。打磨區用於刊刻題記，今已無法辨識。</p>
+                        <figure rend="center" n="figure" xml:id="WFY_118_DSC06605.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">118</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">118</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_118_DSC06605.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">119</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">119</hi>號窟位於H區“菩薩岩”段，方位爲175°。與西南側的<hi rend="bold">118</hi>號窟相距4米左右，窟底高出<hi rend="bold">118</hi>號窟窟底1.3米左右（<ptr target="YLP_116-119_20240103_141851.jpg"/>）；與東北側的<hi rend="bold">120</hi>號窟相距2米左右，窟底高出<hi rend="bold">120</hi>號窟窟底1.5米左右。高出水平綫4.3米左右（<ptr target="YLP_119_120_DSC_1318.JPG"/>）。 </p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。東側有雙層窟門。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：200－220厘米×196厘米。</item>
+                            <item>進深：189厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>前端坍塌。e壁有像龕，三級臺座上鎸雕佛教（西側）和道教（東側）造像（<ptr target="WFY_119_DSC07048.JPG"/>）。d壁上有灰身龕、燈龕與一則題記（<ptr target="YLP_119_w119-03.jpg"/>和<ptr target="YLP_119_DSC_1350.jpg"/>）。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_116-119_20240103_141851.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">116</hi>－<hi rend="bold">119</hi>號窟（從左自右）的位置。2024年拍攝</head>
+                            <head>Spatial relation of Caves <hi rend="bold">116</hi>–<hi rend="bold">119</hi>
+                                (from left to right); photograph taken in 2024</head>
+                            <graphic url="YLP_116-119_20240103_141851.jpg"/>
+                        </figure>
+                        <figure rend="center" n="figure" xml:id="YLP_119_120_DSC_1318.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">119</hi>號窟（左）和<hi rend="bold">120</hi>號窟（右）的位置。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">119</hi> (left) and <hi rend="bold">120</hi> (right); photograph taken in 2010</head>
+                            <graphic url="YLP_119_120_DSC_1318.JPG"/>
+                        </figure>
+                    </div>
+
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">120</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">120</hi>號窟位於H區“菩薩岩”段，d壁方位192°。距西南側<hi rend="bold">119</hi>號窟2米左右，窟底低於<hi rend="bold">119</hi>號窟窟底1.5米左右；距東北側的<hi rend="bold">121</hi>號窟0.8米左右，窟底低於<hi rend="bold">121</hi>號窟窟底0.3米左右（<ptr target="YLP_120_121_DSC07152.jpg"/>）。高出水平綫3米左右。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟。雙層窟口今已無法辨識<!--（<ptr target="WFY_120_DSC07146.JPG"/>）-->。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>進深：110厘米。</item>
+                            <item>e壁：200厘米×195厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>d壁損毁，f壁前端斷裂，e壁相對保存完好，并帶有規則的刮痕。</p>
+                        <figure rend="center" n="figure" xml:id="YLP_120_121_DSC07152.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">120</hi>號窟（左）和<hi rend="bold">121</hi>號窟（右）的位置。2010年拍攝</head>
+                            <head>Spatial relation between Caves <hi rend="bold">120</hi> (left) and <hi rend="bold">121</hi> (right); photograph taken in 2010</head>
+                            <graphic url="YLP_120_121_DSC07152.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">121</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">121</hi>號窟位於H區“菩薩岩”段，方位爲195°。與西南側的<hi rend="bold">120</hi>號窟相距0.8米左右，窟底高出<hi rend="bold">120</hi>號窟窟底0.3米左右；與東北側的<hi rend="bold">122</hi>號窟相距0.9米左右，窟底低於<hi rend="bold">122</hi>號窟窟底0.4米左右（<ptr target="YLP_121_DSC_1305.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>方形敞口平頂窟（<ptr target="WFY_121_DSC07154.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <p>窟口：195厘米×212厘米。</p>
+                        <div>
+                            <head>保存狀况</head>
+                            <p>未完工。</p>
+                        </div>
+                        <figure rend="center" n="figure" xml:id="YLP_121_DSC_1305.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">121</hi>號窟。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">121</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_121_DSC_1305.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>
+                        <hi rend="bold">122</hi>號窟</head>
+                    <div>
+                        <head>位置</head>
+                        <p>
+                            <hi rend="bold">122</hi>號窟位於H區“菩薩岩”段。方位爲195°。與西南側的<hi rend="bold">121</hi>號窟相距0.9米左右，窟底高出<hi rend="bold">121</hi>號窟窟底0.4米左右。<hi rend="bold">122</hi>號窟是卧佛院最後一個洞窟。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>小型方形敞口平頂窟。雙層窟門，窟頂後傾（<ptr target="YLP_122_DSC_1303.JPG"/>）。</p>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟口：105厘米×145厘米。</item>
+                            <item>進深：70厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>未完工。窟底大部坍裂，三面窟壁上均有粗糙刮痕。</p>
+                        <figure rend="left" n="figure" xml:id="YLP_122_DSC_1303.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">122</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">122</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_122_DSC_1303.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+
+            <div type="cave" xml:lang="en">
+                <head>Caves Without Sutras</head>
+                <div>
+                    <head>Cave <hi rend="bold">95-1</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Westernmost cave in section H, direction 204°, ca. 5.2 m above the foot of the
+                            cliff; 0.8 m to the west of cave <hi rend="bold">95-2</hi>. The floor is about
+                            0.7 m higher than that of Cave <hi rend="bold">95-2</hi><!--, 高差約70厘米--> (fig.
+                                <ptr target="w95-1-2_20240104_094022.jpg"/>). The number of this cave is first
+                            given <!-- recorded -->in 2012.</p>
+                        <figure rend="center" n="figure" xml:id="WFY_95-1_IMGP1462.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95-1</hi>號窟近景。2012年拍攝</head>
+                            <head>Cave <hi rend="bold">95-1</hi>, close-up view; photograph taken in
+                                2012</head>
+                            <graphic url="WFY_95-1_IMGP1462.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Horizontal rectangular box with open front, small size; roughly executed, probably
+                            used as burial cave (fig. <ptr target="WFY_95-1_IMGP1462.jpg"/>).</p>
+                    </div>
+
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 100 × 180 cm.</item>
+                            <item>Depth at top: ca. 60 cm. </item>
+                        </list>
+                    </div>
+
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Full of earth and plants.</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <head>Cave <hi rend="bold">95-2</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 204°, ca. 4.5 m above the foot of the cliff; to the west of a
+                            bulge in the cliff, 0.8 m east to the Cave <hi rend="bold">95-1</hi>. The floor
+                            is about 0.7 m lower than that of the latter
+                            <!--Cave <hi rend="bold">95-1</hi>--> (fig. <ptr target="w95-1-2_20240104_094022.jpg"/>), 27 m to the west of Cave <hi rend="bold">95-3</hi>; The number of this cave is first given
+                            <!-- recorded -->in 2012.<!--recorded in 2012.-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, roughly executed, ceiling slanting towards the east
+                            (fig. <ptr target="WFY_95-2_IMGP1464.jpg"/>).</p>
+
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 180 × 180 cm.</item>
+                            <item>Depth: ca. 180 cm. </item>
+                        </list>
+
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">95-3</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, original direction similar with <hi rend="bold">95-2</hi>; ca. 27 m to
+                            the east of Cave <hi rend="bold">95-2</hi>. The number of this cave is first given
+                            <!-- recorded -->in 2012.<!--recorded in 2012.-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box, unfinished.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 112 × 120 cm.</item>
+                            <item>Depth: ca. 115 cm (fig. <ptr target="WFY_95-3_IMGP1475_gedreht.jpg"/>). </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>The rock with the cave in it fell down from the cliff and is now lying upside down
+                            in the valley; the opening of the cave faces towards the mountain (fig. <ptr target="WFY_95-3_IMGP1479.jpg"/>); even the oldest local people do not know
+                            when this took place.</p>
+                        <figure rend="center" n="figure" xml:id="WFY_95-2_IMGP1464.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95-2</hi>號窟近景。2012年拍攝</head>
+                            <head>Cave <hi rend="bold">95-2</hi>, close-up view; photograph taken in
+                                2012</head>
+                            <graphic url="WFY_95-2_IMGP1464.jpg"/>
+                        </figure>
+
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">95</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, facing south-southwest<!--SSW-->, originally ca. 7 m above the water
+                            level at the foot of the cliff, ca. 25.5 m to the east of Cave <hi rend="bold">95-3</hi>; the floor lies ca. 1 m higher than the floor of the neighboring
+                            Cave <hi rend="bold">96</hi> (fig. <ptr target="WFY_95_97_DSC07179.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, two vertical slabs providing privacy and wind
+                            protection at the front side (fig. <ptr target="WFY_95_DSC08365.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 200 × 200 cm.</item>
+                            <item>Depth: ca. 200 cm. </item>
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Crashed, together with Caves <hi rend="bold">96</hi> and <hi rend="bold">97</hi>,
+                            on June 9, 2019, at 3 am (fig. <ptr target="w95-96_20240104_103823.jpg"/>). Only two
+                            walls and the ceiling lay on the ground after the collapse <!--崩落後僅剩兩壁傾斜倒於地面-->(fig. <ptr target="w95_20240104_103045.jpg"/>).</p>
+                        <figure rend="center" n="figure" xml:id="WFY_95_DSC08365.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">95</hi>, close-up view; photograph taken in 2010</head>
+                            <graphic url="WFY_95_DSC08365.JPG"/>
+                        </figure>
+                        <figure rend="center" n="figure" xml:id="w95_20240104_103045.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">95</hi>號窟坍塌之後的現狀,局部。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">95</hi> after the collapse, detail; photograph taken in
+                                2024</head>
+                            <graphic url="w95_20240104_103045.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">96</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, facing south-southwest<!--SSW-->, originally ca. 6 m above the water
+                            level at the foot of the cliff, ca. 3.9 m west of Cave <hi rend="bold">97</hi>; the
+                            floor lies ca. 1 m lower than the floor of the neighboring Cave <hi rend="bold">95</hi>.</p>
+
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size (fig. <ptr target="WFY_96_DSC07183.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 200 × 220 cm.</item>
+                            <item>Depth: ca. 200 cm. </item>
+                        </list>
+
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Crashed, together with Caves <hi rend="bold">95</hi> and <hi rend="bold">97</hi>,
+                            on June 9, 2019, at 3 am (fig. <ptr target="w95-96_20240104_103823.jpg"/>). </p>
+                        <figure rend="center" n="figure" xml:id="WFY_96_DSC07183.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">96</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">96</hi>, close-up view; photograph taken in 2010</head>
+                            <graphic url="WFY_96_DSC07183.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold"><!--96-1-->97</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, facing south-southwest; ca. 3.9 m to the east of Cave <hi rend="bold">96</hi>; to the west of the 8 caves in a row, beginning with Cave <hi rend="bold">98</hi>; not examined in detail, as the entrance is difficult to
+                            access. <!--原來可能亦因窟高難以施工而放弃.--> The cave has been abandoned probably due to
+                            construction issue that caused by its heigt (fig. <ptr target="WFY_96-1_97_DSC08373.JPG"/><!-- and fig. <ptr target="WFY_96-1_DSC08374.JPG"/>-->).</p>
+
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Judged by the outline of the entrance, a cave in the shape of square box with open front
+                            in standard size is originally planned (fig.
+                                <!--<ptr target="WFY_96-1_DSC08374.JPG"/>-->
+                            <ptr target="WFY_96-1_97_DSC08373.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <p>Not examined in detail, as the entrance is too high to access.</p>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Together with Caves <hi rend="bold">95</hi> and <hi rend="bold">96</hi>, Cave <hi rend="bold">97</hi> crashed on June 9, 2019, at 3 am (fig. <ptr target="w95-96_20240104_103823.jpg"/>). </p>
+                        <!--<figure rend="page" n="figure" xml:id="WFY_96-1_DSC08374.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">97</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">97</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_96-1_DSC08374.JPG"/>
+                        </figure>-->
+                        <figure rend="center" n="figure" xml:id="WFY_97_DSC08379.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">98</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">98</hi>, close-up view; photograph taken in 2010</head>
+                            <graphic url="WFY_97_DSC08379.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">98</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, facing south-southwest, direction 150˚; ca. 2 m to the north-east of
+                            Cave <hi rend="bold">97</hi>, ca. 1.7 m to the south-west of Cave <hi rend="bold">99</hi>. <!--east of Cave <hi rend="bold">97</hi>; south of Cave
+                                <hi rend="bold">99</hi>與東側的<hi rend="bold">97</hi>號窟距離約2米，與北側的<hi rend="bold">99</hi>號窟距離約179厘米。 窟口部分和<hi rend="bold">97</hi>號窟於2019年一同崩落. -->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size (fig. <ptr target="WFY_97_DSC08379.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 198 × 190 cm.</item>
+                            <item>Depth: ca. 187 cm. </item>
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Together with Caves <hi rend="bold">95</hi>–<hi rend="bold">97</hi>, the entrance
+                            crashed on June 9, 2019, at 3 am (fig. <ptr target="w98_20240103_154021.jpg"/>). </p>
+
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">99</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 135˚; ca. 1.7 m to the north-east of Cave <hi rend="bold">98</hi>, floor about 0.14 m higher than that of Cave <hi rend="bold">98</hi>;
+                            ca. 1.27 m to the south-west of Cave <hi rend="bold">100</hi>, floor about 0.65 m
+                            lower than that of Cave <hi rend="bold">100</hi> (fig. <ptr target="YLP_98_99_DSC_2975.JPG"/>).<!--north of Cave <hi rend="bold">97</hi>; south of Cave <hi rend="bold">99</hi> 與南側的<hi rend="bold">98</hi>號窟距離約179厘米，與北側的<hi rend="bold">100</hi>號窟距離約120厘米。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size (fig. <ptr target="WFY_98_DSC08389.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 198 × 205 cm.</item>
+                            <item>Depth: ca. 204 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                    <figure rend="left" n="figure" xml:id="WFY_98_DSC08389.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">99</hi>號窟近景。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">99</hi>, close-up view; photograph taken in 2010</head>
+                        <graphic url="WFY_98_DSC08389.JPG"/>
+                    </figure>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">100</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 130˚; ca. 1.27 m to the north-east of Cave <hi rend="bold">99</hi>, ca. 5 m to the south-west of Cave <hi rend="bold">101</hi>, floor
+                            ca. 1.5 m lower than that of Cave <hi rend="bold">101</hi>.<!--與南側的<hi rend="bold">99</hi>號窟距離約120厘米，與北側的<hi rend="bold">101</hi>號窟距離約5米，高差 1.5米。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size (fig. <ptr target="WFY_99_DSC_2985.JPG"/>). </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 185 × 190 cm.</item>
+                            <item>Depth: ca. 230 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">101</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 124˚; ca. 5 m to the north-east<!--southwest--> of Cave <hi rend="bold">100</hi>, floor ca. 1.5 m higher than that of Cave <hi rend="bold">100</hi>; ca. 2.2 m to the south-west<!--northeast--> of Cave <hi rend="bold">102</hi>, floor ca. 1.5 m lower than that of Cave <hi rend="bold">102</hi> (fig. <ptr target="w101-102_20240103_160744.jpg"/>).<!--LQ: 右壁方向南偏东56度,與南側的<hi rend="bold">100</hi>號窟距離約約5米，高差 1.5米；與北側的<hi rend="bold">102</hi>號窟距離約2.2米，高差 1.5米。 (fig. <ptr target="WFY_100_102_DSC08417.jpg"/>)-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 218 × 196 cm.</item>
+                            <item>Depth: ca. 200 cm.</item>
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">102</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 114˚; ca. 2.2 m to the north-east<!--southwest--> of Cave <hi rend="bold">101</hi>, floor ca. 1.5 m higher than that of Cave <hi rend="bold">101</hi> (fig. <ptr target="w101-102_20240103_160744.jpg"/>); ca.
+                            9.2 m to the south-west<!--northeast--> of Cave <hi rend="bold">103</hi>, floor
+                            ca. 1 m lower than that of Cave <hi rend="bold">103</hi>.<!--north of Cave <hi rend="bold">100</hi>; south of Cave
+                                <hi rend="bold">102</hi>與南側的<hi rend="bold">101</hi>號窟距離約約2.2米，高差 1.5米；與北側的<hi rend="bold">103</hi>號窟距離約9.2米，高差 1米.-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size
+                            (<!--fig. <ptr target="WFY_101_DSC08421.JPG"
+                            /> and -->fig. <ptr target="YLP_101_DSC_2993.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 198 × 223 cm.</item>
+                            <item>Depth: ca. 226 cm. </item>
+                        </list>
+
+                        <!--<figure rend="page" n="figure" xml:id="WFY_101_DSC08421.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">102</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">102</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_101_DSC08421.JPG"/>
+                        </figure>-->
+                        <!--<figure rend="left" n="figure" xml:id="YLP_101_DSC_2993.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">102</hi>號窟。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">102</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_101_DSC_2993.JPG"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                        <figure rend="full" n="figure" xml:id="WFY_99_DSC_2985.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">100</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">100</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_99_DSC_2985.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">103</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 112˚; ca. 9.2 m to the north-east<!--southwest--> of Cave <hi rend="bold">102</hi>, floor ca. 1 m higher than that of Cave <hi rend="bold">102</hi>; ca. 2.1 m to the south-west<!--northeast--> of Cave <hi rend="bold">104</hi>, at the same level with Cave <hi rend="bold">104</hi>.<!--north of Cave <hi rend="bold">101</hi>; south of Cave
+                                <hi rend="bold">103</hi>與南側的<hi rend="bold">102</hi>號窟距離約約9.2米，高差 1米；與北側的<hi rend="bold">104</hi>號窟距離約2.1米，高差水平.-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front (fig. <ptr target="WFY_102_DSC08433.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 198 × 185 cm.</item>
+                            <item>Depth: ca. 184 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                        <figure rend="center" n="figure" xml:id="WFY_102_DSC08433.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">103</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">103</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_102_DSC08433.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">104</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 115˚; ca. 2.1 m to the north-east<!--southwest--> of Cave <hi rend="bold">103</hi>, ca. 2 m to the south-west<!--northeast--> of Cave <hi rend="bold">104-1</hi>, at the same level with both Caves <hi rend="bold">103</hi> and <hi rend="bold">104-1</hi> (fig. <ptr target="w103-104_20240103_155319.jpg"/>).<!--north of Cave <hi rend="bold">102</hi>; south of Cave
+                            <hi rend="bold">104</hi>與南側的<hi rend="bold">103</hi>號窟距離約約2.1米，高差水平；與北側的<hi rend="bold">104-1</hi>號窟距離約2米，高差水平(fig. <ptr target="w103-104_20240103_155319"/>).-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front<!--, small size--> (fig. <ptr target="YLP_103_DSC_3015.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 190 × 186 cm.</item>
+                            <item>Depth: ca. 192 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Upper part of the entrance <!--slightly -->damaged.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">104-1</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 122˚; ca. 2 m to the north-east<!--southwest--> of Cave <hi rend="bold">104</hi>, at the same level with Cave <hi rend="bold">104</hi>;
+                            ca. 45.8 m to the south-west of Cave <hi rend="bold">104-2</hi>, separated by a
+                            steep rocky slope (fig. <ptr target="w103-104_20240103_155319.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, collapsed entrance <!--窟口崩塌 -->(fig. <ptr target="YLP_104-1_DSC_3029.JPG"/>).</p>
+
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Rest of the entrance opening: ca. 225 × 187 cm.</item>
+                            <item>Extant depth: ca. 176 cm. </item>
+                        </list>
+
+                        <!--<figure rend="center" n="figure" xml:id="YLP_104_DSC_3026.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">104-1</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">104-1</hi>; photograph taken in 2010</head>
+                            <graphic url="YLP_104_DSC_3026.JPG"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Upper part of the cave collapsed.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>Cave <hi rend="bold">104-2</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 122˚; ca. 45.8 m to the north-east of Cave <hi rend="bold">104-1</hi>, separated by a steep rocky slope, without direct access (fig.
+                                <ptr target="w103-104_20240103_155319.jpg"/>); at the same level with Cave <hi rend="bold">104-3</hi> ca. 0.7 m to the north-east, with which a double-cave
+                            is formed. </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, half of which is collapsed (fig. <ptr target="w104-2_20240103_152221.jpg"/>). <!--標準方形敞口窟，崩塌大約一半-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Rest of the entrance opening: ca. 180 × 190 cm.</item>
+                            <item>Extant depth: ca. 110 cm. </item>
+                        </list>
+
+                        <!--<figure rend="center" n="figure" xml:id="w104-2_20240103_152221.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">104-2</hi>號窟近景。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">104-2</hi>; photograph taken in 2024</head>
+                            <graphic url="w104-2_20240103_152221.jpg"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Front half of cave collapsed.</p>
+                    </div>
+                    <figure rend="full" n="figure" xml:id="YLP_103_DSC_3015.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">104</hi>號窟近景。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">104</hi>, close-up view; photograph taken in 2010</head>
+                        <graphic url="YLP_103_DSC_3015.JPG"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>Cave <hi rend="bold">104-3</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 122˚; at the same level with Cave <hi rend="bold">104-2</hi>
+                            ca. 0.7 m to the south-west, with which a double-cave is formed; ca. 2.85 m to
+                            the south-west<!--northeast--> of Cave <hi rend="bold">105</hi>, floor ca. 0.46 m
+                            higher than that of Cave <hi rend="bold">105</hi>.<!--位於H區。方位爲122°。與南側的<hi rend="bold">104-2</hi>號窟距離約70厘米，高差水平，形成雙窟；與北側的<hi rend="bold">105</hi>號窟距離約2.85米，高差約46厘米。 -->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, half of which is collapsed (fig. <ptr target="w104-3_20240103_151913.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Rest of the entrance opening: ca. 186 × 180 cm.</item>
+                            <item>Wall f: width ca. 200 cm. </item>
+                        </list>
+
+                        <!--<figure rend="center" n="figure" xml:id="w104-3_20240103_151913.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">104-3</hi>號窟近景。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">104-3</hi>; photograph taken in 2024</head>
+                            <graphic url="w104-3_20240103_151913.jpg"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Front half of cave collapsed.</p>
+                    </div>
+                </div>
+                <div>
+                    <head>Cave <hi rend="bold">105</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 128˚; ca. 2.85 m to the south-west Cave <hi rend="bold">104-3</hi>, floor ca. 0.46 m lower than that of Cave <hi rend="bold">104-3</hi>; ca. 47.5 m to the north-east Cave <hi rend="bold">106</hi>,
+                            floor ca. 2 m lower than that of Cave <hi rend="bold">106</hi>; separated by a
+                            huge rock without direct access.
+                            <!--位於H區。方位爲112°。與南側的<hi rend="bold">104-3</hi>號窟距離約2.85米，高差約46厘米；與東北側的<hi rend="bold">106</hi>號窟距離約50米，高差約2米，間有大岩石，無法直通。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>A cave in shape of square box with open front, standard size is originally planned;
+                            abandoned after the bottom is finished (fig. <ptr target="w105_20240103_151008.jpg"/>).<!--原來似計畫開鑿標準方形敞口窟，僅鑿底部即放弃。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 46 × 245 cm.</item>
+                            <item>Depth: 28–37 cm. </item>
+                        </list>
+
+                        <!--<figure rend="center" n="figure" xml:id="w105_20240103_151008.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">105</hi>號窟近景。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">105</hi>; photograph taken in 2024</head>
+                            <graphic url="w105_20240103_151008.jpg"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Unfinished.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">106</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, isolated; ca. 50 m to the south-west Cave <hi rend="bold">105</hi>,
+                            floor ca. 2 m higher than that of Cave <hi rend="bold">105</hi>; separated by a
+                            huge rock; accessible through a path 5 m away from the juncture that bypasses the
+                            rock (fig. <ptr target="w105-106_20240103_152412.jpg"/>) at the same level with
+                            Cave <hi rend="bold">106-1</hi> ca. 2 m to the
+                            north-east.<!--與西南側的<hi rend="bold">105</hi>號窟距離約50米，高差約2米，間有大岩石，繞過一塊大岩石後（<ptr target="w105-106_20240103_152412"/>）由隙縫往上爬再折回約5米；與北側的<hi rend="bold">106-1</hi>號窟距離約2米，高差水平.-->
+                        </p>
+
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, small size (fig. <ptr target="w106_20240103_145327.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 165 × 143 cm.</item>
+                            <item>Depth: ca. 100 cm. </item>
+                            <item>Width of the rear wall: 150 cm at top, 180 cm at bottom.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Entrance slightly damaged.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">106-1</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H; ca. 2 m north-east of Cave <hi rend="bold">106</hi>. The floor is at the
+                            same level with that of Cave <hi rend="bold">106</hi>; 39.2 m to the south-west
+                            of Cave <hi rend="bold">107</hi>.<!--indicated on the map in the
+                            archaeological report of 2008; this cave has not been examined-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Irregular shape; carved for the first time, abandoned probably due to the poor
+                            quality of the rock (fig. <ptr target="w106_20240103_145657.jpg"/>).<!--不規則狀。初鑿，或因岩石品質不好而停工-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Rest of the entrance opening: ca. 87 × 164 cm.</item>
+                            <item>Extant depth: ca. 38 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Unfinished.</p>
+                        <figure rend="left" n="figure" xml:id="w106_20240103_145349.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">106</hi>號窟爲小型窟。2024年拍攝</head>
+                            <head>Cave <hi rend="bold">106</hi>, small size; photograph taken in 2024</head>
+                            <graphic url="w106_20240103_145349.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">107</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Dingjiayan <foreign xml:lang="zh">丁家岩</foreign>;
+                            direction 145˚; 39.2 m to the north-east of Cave <hi rend="bold">106-1</hi>; 1.65
+                            m to the south-west of Cave <hi rend="bold">108</hi>; floor ca. 0.5 m higher than
+                            that of Cave <hi rend="bold">108</hi>. Ca. 5.7 m above the foot of the cliff, and ca.
+                            13 m above the water level (fig. <ptr target="YLP_107_109_DSC_0430.JPG"/>
+                            <!--fig. <ptr target="YLP_107-110_DSC_0425.JPG"/>--> and fig. <ptr target="YLP_107_110_DSC06278.JPG"/>); ca. 270 m away from landing place of
+                            boat (fig. <ptr target="DSC_1418.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, standard size; rough striations, but no
+                            polishing<!-- (fig. <ptr target="WFY_107_DSC06059.JPG"/>)-->.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 200 × 206 cm.</item>
+                            <item>Wall d: width 190 cm.</item>
+                            <item>Wall e: 192 × 203 cm.</item>
+                            <item>Wall f: width 170 cm (front part broken off).</item>
+                        </list>
+                        <!--<figure rend="center" n="figure" xml:id="WFY_107_DSC06059.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">107</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">107</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_107_DSC06059.JPG"/>
+                        </figure>-->
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Entrance damaged.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">108</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called
+                            Dingjiayan<!-- <foreign xml:lang="zh">丁家岩</foreign>-->; direction 145˚; ca. 1.65 m
+                            north-east of Cave <hi rend="bold">107</hi>; ca. 0.68 m south-west of sutra Cave <hi rend="bold">109</hi>;
+                            <!--the floor is 60 cm lower than that of Cave <hi rend="bold">109</hi>;--> ca.
+                            3.20–5 m above the foot of the cliff, and ca. 13 m above the water level (fig.
+                                <ptr target="YLP_108_109_DSC_0366.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front; rough striations, but not polished (fig. <ptr target="YLP_108_DSC_0365.JPG"/>). </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 196 × 185 cm.</item>
+                            <item>Wall d: width 139 cm (front part broken off).</item>
+                            <item>Wall e: 188 × 190 cm.</item>
+                            <item>Wall f: width 146 cm (front part broken off).</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Deep cracks in walls d and f have caused a crescent-shaped piece of the front part
+                            of the floor to break off.</p>
+                        <figure rend="left" n="figure" xml:id="YLP_108_DSC_0365.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">108</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">108</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_108_DSC_0365.JPG"/>
+                        </figure>
+
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">111</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called
+                            Dingjiayan<!-- <foreign xml:lang="zh">丁家岩</foreign>-->. Direction 145˚. Ca. 7.25 m
+                            north-east of sutra Cave <hi rend="bold">110</hi> (fig. <ptr target="YLP_111_DSC_0232.JPG"/>); ca. 1.5 m south-west of Cave <hi rend="bold">112</hi>, the floor is about 1.7 m lower than that of Cave <hi rend="bold">112</hi>. Closely located to two further caves, Caves <hi rend="bold">112</hi> and <hi rend="bold">113</hi>, these three caves build
+                            together a set of triple caves (fig. <ptr target="YLP_111-113_20240103_122659.jpg"/>). Ca. 1.5 m above the foot of the cliff, and ca. 13 m above the water
+                            level.</p>
+
+                        <div>
+                            <head>Shape</head>
+                            <p> Square box with open front; double reveal visible on wall f (fig.
+                                    <!--<ptr target="WFY_111_DSC06335.JPG"/> and -->
+                                <ptr target="YLP_111_DSC_0232.JPG"/>); striations fairly systematical (fig.
+                                    <ptr target="w111_20240103_101515.jpg"/>), but not polished. </p>
+                        </div>
+                        <div>
+                            <head>Measurements</head>
+                            <list>
+                                <item>Entrance opening: ca. 190 × 200 cm.</item>
+                                <item>Depth: 190–210 cm. </item>
+
+                            </list>
+                        </div>
+                        <!--<figure rend="left" n="figure" xml:id="WFY_111_DSC06335.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">111</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">111</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_111_DSC06335.JPG"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">112</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called
+                            Dingjiayan<!-- <foreign xml:lang="zh">丁家岩</foreign>-->. Direction 145˚. Ca. 1.5 m
+                            north-east of Cave <hi rend="bold">111</hi>, the middle one of the triple Caves
+                            <hi rend="bold">111</hi>−<hi rend="bold">113</hi> (fig. <ptr target="YLP_111-113_20240103_122659.jpg"/>). The floor is about 1.7 m higher
+                            than that of Cave <hi rend="bold">111</hi>. Floor ca. 2 m above the foot of the
+                            cliff and ca. 14 m above water level.</p>
+                        <!--<figure rend="left" n="figure" xml:id="WFY_112_DSC06341.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">112</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">112</hi>; photograph taken in 2010</head>
+                            <graphic url="WFY_112_DSC06341.JPG"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front; Double reveal. Walls with ca. 2 cm wide striations, but
+                            not polished<!--
+                            (fig. <ptr target="WFY_112_DSC06341.JPG"/>)-->. </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 148 × 180 cm.</item>
+                            <item>Depth: 245 cm.</item>
+                            <item>Wall e: 215 × 160 cm.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="WFY_113_DSC_0243.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">113</hi>號窟近景。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">113</hi>, close-up view; photograph taken in 2010</head>
+                        <graphic url="WFY_113_DSC_0243.jpg"/>
+                    </figure>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">113</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called
+                            Dingjiayan<!-- <foreign xml:lang="zh">丁家岩</foreign>-->; direction
+                            145˚;<!-- last in the row of caves from Cave
+                                <hi rend="bold">107</hi> to Cave <hi rend="bold">113</hi>,-->
+                            ca. 2 m north-east of Cave <hi rend="bold">112</hi>, the northmost one of the triple
+                            Caves <hi rend="bold">111</hi>−<hi rend="bold">113</hi> (fig. <ptr target="YLP_111-113_20240103_122659.jpg"/>); floor ca. 1.4 m below Cave <hi rend="bold">112</hi>; ca. 1.3 m above the foot of the cliff, and ca. 12 m
+                            above the water level; ca. 34.7 m south-west of Cave <hi rend="bold">114</hi>.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Square box with open front, traces of double entrance frame, standard size. Walls
+                            with ca. 2 cm wide striations, but not polished (fig. <ptr target="WFY_113_DSC_0243.jpg"/> and fig. <ptr target="YLP_113_DSC_0240.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 200 × 214 cm.<!-- cf: LQ 2010--></item>
+                            <item>Wall d: width 208 cm.</item>
+                            <item>Wall e: 180 × 234 cm.</item>
+                            <item>Wall f: width 208 cm.</item>
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Fairly good.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">114</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Dingjiayan (fig. <ptr target="YLP_114_20240103_113921.jpg"/>), direction: 145°; Far away from other
+                            caves, ca. 34.7 m of Cave <hi rend="bold">113</hi> to the south-west and ca. 42.80
+                            m to Cave <hi rend="bold">115</hi> to the north-east. </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Double entrance frame; outer frame rectangular, inner frame above half circle (fig.
+                                <ptr target="YLP_114_20240103_113624.jpg"/>).</p>
+                    </div>
+
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Outer entrance frame: 126 × 223 cm.</item>
+                            <item>Depth: 20 cm. </item>
+
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Niche with the roughcasts of two unfinished sculptures (fig. <ptr target="YLP_114_20240103_113624.jpg"/>).</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">115</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 145˚; ca. 42.8 m north-east of Cave <hi rend="bold">114</hi>;
+                            ca. 22 m south-west of Cave <hi rend="bold">115-1</hi> (fig. <ptr target="WFY_115_DSC07136.JPG"/>). The floor is about 5 m lower than that of
+                            Cave <hi rend="bold">115-1</hi>. Being secluded, it is difficult to access (fig. <ptr target="WFY_115_DSC07136.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Trapezoid ground plan; ceiling lower in the rear, the corrugated structure imitating roof tiles visible (fig. <ptr target="YLP_115_DSC_1415.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Width of entrance opening (bottom): 188 cm.</item>
+                            <item>Wall d: width 182 cm. </item>
+                            <item>Wall e: 120 × 290 cm.</item>
+                            <item>Wall f: width 210 cm. </item>
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Front of the ceiling broken off; rough striations on wall e and the rear parts of
+                            walls d and f; finer scraping on the front parts of walls d and f, but not
+                            polished. A polished field of script 55 × 47 cm, on the western wall outside the
+                            cave, prepared for inscription (fig. <ptr target="YLP_115_DSC_1415.JPG"/>).</p>
+                        <!--<figure rend="left" n="figure" xml:id="YLP_115_DSC_1414.JPG">
+                            <head xml:lang="zh"><hi rend="bold">115</hi>號窟近景。2010年拍攝 </head>
+                            <head>Cave <hi rend="bold">115</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_115_DSC_1414.JPG"/>
+                        </figure>-->
+                        <figure rend="center" n="figure" xml:id="WFY_115_DSC07136.JPG">
+                            <head xml:lang="zh">遠望<hi rend="bold">115</hi>號窟。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">115</hi> from afar; photograph taken in 2010</head>
+                            <graphic url="WFY_115_DSC07136.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>Cave <hi rend="bold">115-1</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, direction 160°; ca. 22 m to the north-east of Cave <hi rend="bold">115</hi>, the floor is about 5 m higher than that of Cave <hi rend="bold">115</hi>; ca. 29.3 m to the south-west of Cave <hi rend="bold">116</hi>, the
+                            floor is about 8 m higher than that of Cave <hi rend="bold">116</hi>; a polished
+                            field outside the cave on the west, probably for an inscription (fig. <ptr target="w115-1_20240102_162720.jpg"/>). The number of this cave is first
+                            given in 2024.
+                            <!--位於H區。方位爲160°。2024年首次編號。與西南側的<hi rend="bold">115</hi>號窟距離約22米，高差約5米；與北側的<hi rend="bold">116</hi>號窟距離約26米，高差約8米。洞窟右壁外崖面上有一磨平面，疑原爲題記位置（<ptr target="w115-1_20240102_162720.jpg"/>）。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front (fig. <ptr target="w115-1_20240102_162720.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: ca. 190 × 172 cm.</item>
+                            <item>Depth: ca. 179 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Wall d and its celling are destroyed by quarrying (fig. <ptr target="w115-1_20240102_162720.jpg"/>). <!--此窟d壁與靠此壁的窟頂爲現代采石破壞。-->
+                        </p>
+                    </div>
+
+                </div>
+                <div>
+                    <head>Cave <hi rend="bold">116</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan <foreign xml:lang="zh">菩薩岩</foreign>,
+                            direction 167˚; ca. 29.3 m to the north-east of Cave <hi rend="bold">115-1</hi>,
+                            the floor is about 8 m lower than that of Cave <hi rend="bold">115-1</hi>; ca. 0.80
+                            m to the south-west of Cave <hi rend="bold">117</hi>, the floor is about 1.2 m
+                            lower than that of Cave <hi rend="bold">117</hi>. Closely located to two further
+                            caves, Caves <hi rend="bold">117</hi> and <hi rend="bold">118</hi>, these three
+                            caves build together a set of triple caves (fig. <ptr target="YLP_116-119_20240103_141807.jpg"/>). </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front, standard size, double entrance frame (fig. <ptr target="w116_DSC_1400.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 163 × 208 cm.</item>
+                            <item>Depth: 212 cm. </item>
+
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Probably intended for sutras, but no trace of sutra is to find on all three walls,
+                            instead sculptures were later carved. On wall e are three Buddhas, on wall f is a
+                            pagoda in relief, <hi rend="bold">116-3</hi> (fig. <ptr target="WFY_116_w116-01.jpg"/>), and on wall d are a niche with a round arch
+                            as well as a colophon of 1132 (<hi rend="bold">116-2</hi>, fig. <ptr target="Cave116_colophon116-2_stitch.jpg"/>); transcription and translation see
+                            above, p. <ptr type="infra" target="colophon116.2_en"/>.</p>
+                        <!--<p>Inscription on wall d, north of the shrine in the wall: Puzhou Anyue xian guangde
+                            . . . guangtongli . . . xingping 37 year, bingzi zhengyue, xx ri. <foreign xml:lang="zh">
+                                <quote>
+                                    <hi rend="color-headings">/1/</hi>
+                                    <g>粵</g>有普州安岳縣廣德鄉光<supplied>通</supplied>里黄貴旁内<hi rend="color-headings">/2/</hi>个佛積善弟子劉才順□□□□意爲自身 <hi rend="color-headings">/3/</hi>行□，三十七歲丙子正月□□日見生，乃於□（往？）<hi rend="color-headings">/4/</hi>□八月□□□<!-\-<supplied>初一染</supplied>-\->風疾在身□□遂聞明□□ <hi rend="color-headings">/5/</hi>道行<supplied>地</supplied>□□□□□才順發心重<supplied>裝</supplied>三身
+                                        <hi rend="color-headings">/6/</hi>諸佛□□□□□<g>尊像</g>共計三龕。今以聞 <hi rend="color-headings">/7/</hi>見佛□□□□□（像？）以家設奉□□□□□ <hi rend="color-headings">/8/</hi>
+                                    <supplied>佛</supplied>□□□□□□歲次紹興二年六月<supplied>庚寅</supplied>五 <hi rend="color-headings">/9/</hi>日□□□□<supplied>劉才</supplied>順夫婦恭記 <hi rend="color-headings">/10/</hi>□□□□□□□以重粧祈□□□□□□（保？） <hi rend="color-headings">/11/</hi>□□□□□□□□服如初□□□（中？）□□□ <hi rend="color-headings">/12/</hi>□□□□□□寶鑒知……</quote>
+                            </foreign>
+                        </p>-->
+                        <figure rend="center" n="figure" xml:id="w116_DSC_1400.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">116</hi>號窟近景。2010年拍攝 </head>
+                            <head>Cave <hi rend="bold">116</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="w116_DSC_1400.jpg"/>
+                        </figure>
+                        <!--SL: the same as "WFY_116_Pagode_DSC_1367.JPG"
+                        <figure rend="left" n="figure" xml:id="YLP_116_DSC_1367.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">116</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">116</hi>, close-up view; photograph taken in 2010</head>
+                            <graphic url="YLP_116_DSC_1367.JPG"/>
+                        </figure>-->
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">117</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction 175˚; ca. 0.8 m to the north-east
+                            of Cave <hi rend="bold">116</hi>, the floor is ca. 1.2 m higher than that of
+                            Cave <hi rend="bold">116</hi>; ca. 0.54 m to the south-west of Cave <hi rend="bold">118</hi>, the floor is ca. 1.2 m higher than that of Cave <hi rend="bold">118</hi>; the middle one of the triple Caves <hi rend="bold">116</hi>−<hi rend="bold">118</hi> (fig. <ptr target="YLP_116-119_20240103_141807.jpg"/>).</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front, half standard size, double entrance frame.</p>
+                        <p>Square ground plan; flat ceiling lower in the rear (fig. <ptr target="YLP_117_DSC_1390.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 115 × 190 cm.</item>
+                            <item>Wall d: width 220 cm.</item>
+                            <item>Wall e: 75 × 190 cm.</item>
+                            <item>Wall f: width 195 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Rough striations and moss on all walls.</p>
+
+                        <figure rend="center" n="figure" xml:id="YLP_117_DSC_1390.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">117</hi>號窟近景。2010年拍攝 </head>
+                            <head>Cave <hi rend="bold">117</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="YLP_117_DSC_1390.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">118</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction 167˚; 0.54 m north-east of Cave
+                                <hi rend="bold">117</hi>, the floor is ca. 1.2 m lower than Cave <hi rend="bold">117</hi>; 4 m south-west of Cave <hi rend="bold">119</hi>, the
+                            floor is ca. 1.3 m lower than Cave <hi rend="bold">119</hi>; the northmost one of
+                            the triple Caves <hi rend="bold">116</hi>－<hi rend="bold">118</hi> (fig. <ptr target="YLP_116-119_20240103_141807.jpg"/>); ca. 3 m above water level.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped, open at the front, standard size, traces of double entrance frame in
+                            the west, flat ceiling (fig. <ptr target="WFY_118_DSC06605.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 186 cm × 190 cm.</item>
+                            <item>Wall d: width 182 cm.</item>
+                            <item>Wall e: width at top 230 cm, at bottom 256 cm, hight 168–175 cm.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Wall e later sculptures of twin bodhisattvas, fragmented (fig. <ptr target="YLP_118_20240102_144554.jpg"/>); polished field of script for
+                            dedicatory inscriptions, but nothing discernible today.</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="YLP_116-119_20240103_141807.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">116</hi>－<hi rend="bold">118</hi>號窟的位置關係。2024年拍攝</head>
+                        <head>Spatial relation of Caves <hi rend="bold">116</hi>–<hi rend="bold">118</hi>;
+                            photograph taken in 2024</head>
+                        <graphic url="YLP_116-119_20240103_141807.jpg"/>
+                    </figure>
+                    <figure rend="full" n="figure" xml:id="YLP_118_20240102_144554.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">118</hi>號窟的雙菩薩立像殘迹。2024年拍攝</head>
+                        <head>Cave <hi rend="bold">118</hi>, twin standing bodhisattvas, fragmented;
+                            photograph taken in 2024</head>
+                        <graphic url="YLP_118_20240102_144554.jpg"/>
+                    </figure>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">119</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction 175˚; ca. 4 m north-east of Cave
+                                <hi rend="bold">118</hi>, the floor is ca. 1.3 m higher than Cave <hi rend="bold">118</hi> (fig. <ptr target="YLP_116-119_20240103_141851.jpg"/>);
+                            ca. 2 m south-west of Cave <hi rend="bold">120</hi>, the floor is ca. 1.5 m
+                            higher than Cave <hi rend="bold">120</hi>; 4.3 m above water level (fig. <ptr target="YLP_119_120_DSC_1318.JPG"/>). </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped, open at the front, standard size, double entrance frame on the
+                            east.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: (200–220) × 196 cm.</item>
+                            <item>Depth: 189 cm. </item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Front broken off; shrine in wall e; three tier altar with a group of Buddhist
+                            (west) and Daoist (east) sculptures (fig. <ptr target="WFY_119_DSC07048.JPG"/>); a
+                            burial niche, a lamp niche and a colophon in wall d (fig. <ptr target="YLP_119_w119-03.jpg"/> and fig. <ptr target="YLP_119_DSC_1350.jpg"/>).</p>
+                        <figure rend="center" n="figure" xml:id="WFY_119_DSC07048.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">119</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">119</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_119_DSC07048.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">120</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction of wall d 192˚; ca. 2 m to the
+                            north-east of Cave <hi rend="bold">119</hi>, the floor is ca. 1.5 m lower than
+                            Cave <hi rend="bold">119</hi>; ca. 0.8 m to the south-west of Cave <hi rend="bold">121</hi>, the
+                            floor is ca. 0.3 m lower than Cave <hi rend="bold">121</hi> (fig. <ptr target="YLP_120_121_DSC07152.jpg"/>); 3 m above water
+                            level.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped, open at the front, double entrance frame no longer
+                            visible<!-- (fig. <ptr target="WFY_120_DSC07146.JPG"/>)-->.</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Depth: 110 cm.</item>
+                            <item>Wall e: 200 × 195 cm. </item>
+
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Wall d damaged, front part of wall f broken off; wall e rather well preserved with
+                            regular striations.</p>
+                        <!--<figure rend="left" n="figure" xml:id="WFY_120_DSC07146.JPG">
+                            <head xml:lang="zh">
+                                <hi rend="bold">120</hi>號窟近景。2010年拍攝</head>
+                            <head>Cave <hi rend="bold">120</hi>, close-up view; photograph taken in
+                                2010</head>
+                            <graphic url="WFY_120_DSC07146.JPG"/>
+                        </figure>-->
+
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">121</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction 195˚; ca. 0.8 m to the north-east
+                            of Cave <hi rend="bold">120</hi>, the floor is ca. 0.3 m higher than Cave <hi rend="bold">120</hi>; ca. 0.9 m to the south-west of Cave <hi rend="bold">122</hi>, the floor is ca. 0.4 m lower than Cave <hi rend="bold">122</hi>
+                            (fig. <ptr target="YLP_121_DSC_1305.JPG"/>). </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box shape with open front, standard size (fig. <ptr target="WFY_121_DSC07154.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+
+                            <item>Entrance opening: 195 × 212 cm. </item>
+
+                        </list>
+
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Unfinished.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <head>Cave <hi rend="bold">122</hi>
+                    </head>
+                    <div>
+                        <head>Location</head>
+                        <p>Section H, in the area called Pusayan, direction 195˚; ca. 0.9 m to the north-east
+                            of Cave <hi rend="bold">121</hi>, the floor is ca. 0.4 m higher than Cave <hi rend="bold">121</hi>; the last cave of the Grove. </p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front, small size; double entrance frame, ceiling descending
+                            towards the rear (fig. <ptr target="YLP_122_DSC_1303.JPG"/>).</p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Entrance opening: 105 × 145 cm.</item>
+                            <item>Depth: 70 cm. </item>
+
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of Preservation</head>
+                        <p>Not finished; floor largely broken off; rough striations on three walls.</p>
+                    </div>
+                    <figure rend="center" n="figure" xml:id="WFY_121_DSC07154.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">121</hi>號窟近景。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">121</hi>, close-up view; photograph taken in 2010</head>
+                        <graphic url="WFY_121_DSC07154.JPG"/>
+                    </figure>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

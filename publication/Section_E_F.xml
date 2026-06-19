@@ -1,0 +1,1740 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="sichuan_volume5" xml:lang="en">Sichuan Volume 5</title>
+                <title n="sichuan_volume5" xml:lang="zh">四川省第五卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="1"/>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_E_F">
+        <body>
+            <div xml:lang="zh">
+                <head type="subtitle">卧佛院南崖E區和F區</head>
+                <head type="author">雷德侯</head>
+                <div>
+                    <head> E區之窟</head>
+                    <p>E、F區位於卧佛院南崖最東端<!--（<ptr target="Section_F_Panorama_DSC1082_stitch.jpg"/>）-->。此二區所含石窟數分别爲7窟及9窟，多於A區至D區中任何一區，但各僅刻有四壁經文。<!--這也説明主事者於此刻經實力不如他區。-->
+                    </p>
+                    <p>E區全長19米（<ptr target="section_E.svg"/>）。E區一如C、D區營建於崖壁凸起處，但此處崖壁更爲凸出。崖面之上的狹窄裂隙將E區與D區分隔。距離裂隙最近的是<hi rend="bold">70</hi>號窟（<ptr target="w71-72.jpg"/>）。窟内造一佛、二弟子、二菩薩、二力士，主佛結跏趺坐於仰蓮臺。2006年及2015年的考古報告將此窟歸入D區，這也許是其底部與西側<hi rend="bold">65</hi>號窟持平的緣故。<note>《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第384－385頁</ref>。秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第92－93頁</ref>。</note>本卷從此分法，并討論該窟。<note> 《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第3頁圖1、第596－597頁</ref>。</note>
+                    </p>
+                    <p>
+                        <hi rend="bold">71</hi>號窟毗鄰<hi rend="bold">70</hi>號窟，其底部高出<hi rend="bold">70</hi>號窟底部105厘米（<ptr target="w71-02.jpg"/>）。<hi rend="bold">71</hi>號窟與<hi rend="bold">72</hi>、<hi rend="bold">73</hi>、<hi rend="bold">74</hi>及<hi rend="bold">77</hi>號窟構成一組五窟，由西至東排列，底部高度一致，高出步道3米左右，均位於山谷南崖（<ptr target="section_E.svg"/>）。開鑿之初，此五窟皆計劃營建方形、標準尺寸的刻經窟，高、寬、深皆爲2.2米。<note>有關卧佛院刻經窟的類型與規模，以及刻經區域，見雷德侯<ref type="biblio" target="Ledderose2014">第8－11頁</ref>。</note>然而，僅有前三窟（<hi rend="bold">71</hi>－<hi rend="bold">73</hi>號窟）深入開鑿可供刻經，目前僅有<hi rend="bold">71</hi>號窟及<hi rend="bold">73</hi>號窟刻有經文。</p>
+                    <p>此處首次嘗試了雙層開窟。<hi rend="bold">75</hi>號窟位於<hi rend="bold">73</hi>號窟之上，<hi rend="bold">76</hi>號窟則横跨<hi rend="bold">74</hi>號窟及<hi rend="bold">77</hi>號窟<!--上排開窟的嘗試首見於<hi rend="bold">75</hi>號窟，該窟與<hi rend="bold">76</hi>號窟開鑿於同一層面，位於<hi rend="bold">73</hi>號窟諸窟上方-->（<ptr target="section_e_stitch1.jpg"/>）。上層另開窟龕的嘗試已見諸D區，但開鑿的不是窟而是龕，如位於<hi rend="bold">65</hi>號窟上方的<hi rend="bold">67</hi>、<hi rend="bold">68</hi>、<hi rend="bold">69</hi>號龕。
+                            <note>D區立面圖見<!--See the plan with the elevation of section D -->
+                                《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第3頁圖1
+                            </ref>。</note>
+                    </p>
+                    <figure rend="center" n="figure" xml:id="Sections_A-F_map.tif">
+                        <head xml:lang="zh">卧佛院南崖A區至F區<!--俯視輪廓-->洞窟平面圖。激光掃描繪圖，2009至2010年製</head>
+                        <head>Ground plan with caves in sections A–F; drawing based on laser survey,
+                            2009–2010</head>
+                        <graphic url="Sections_A-F_map.tif"/>
+                    </figure>
+                    <p>銘刻於此五窟排頭的<hi rend="bold">71</hi>號窟右側d壁<note>本叢書將窟壁標爲a壁至i壁，儘管其他大部分洞窟在設計上都没那麽複雜。關於多壁面刻經窟平面示意圖的標示，參考C區第<hi rend="bold">46</hi>號窟（《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第185頁圖43</ref>）。</note>的經文爲《金剛般若波羅蜜經》（下稱《金剛經》）以及《般若波羅蜜多心經》（下稱《心經》），此兩篇經文凡64行。第65行刻有楊思慎造經題記，未署年款，應刊刻於公元8世紀。另有一則兩行的陀羅尼咒，字形頗大。<note>見註<ptr type="footnote" target="YangSishen_zh"/>。</note>
+                    </p>
+                    <p>正壁（e壁）未刻經，但鑿刻有一尊佛像，倚坐於方形臺座上，雙手捧缽，置於膝上（<ptr target="w71-12.jpg"/>）。造像鑿於壁内顯然有别於通常所見雕刻凸出於窟壁的處理方式。該窟另開鑿四個小龕，分布於主尊兩側，皆刻有造像，<hi rend="bold">71-1</hi>及<hi rend="bold">71-2</hi>處位於左側，<note>本卷以觀者的角度描述左右側。</note>
+                        <hi rend="bold">71-3</hi>及<hi rend="bold">71-4</hi>位於右側。龕上方表面僅粗糙地鑿刮。所有的造像有可能都是後期添加的，這些鑿於壁内的造像標志着從刻經窟到造像窟的轉變。<!--這種處理似與原計劃有所出入。-->可想象的是，此窟的營造起初是用於銘刻經文，但後來的供養人更傾向於造像而非刻經。此種營造中途出現的變更亦見於西側D區方型的<hi rend="bold">65</hi>號窟（見《中國佛教石經·四川省·第四卷》<ref type="biblio" target="Sichuan_4">第3頁，圖1</ref>）。此窟窟壁處理得光滑平整，顯然爲刻經而備，但未見刻經。</p>
+                    <p>位於<hi rend="bold">71</hi>號窟左側的f壁爲空白，此壁相當於<hi rend="bold">72</hi>號窟右側d壁的壁面，如今大部分已不存。</p>
+                    <p>
+                        <hi rend="bold">72</hi>號窟如同<hi rend="bold">71</hi>號窟，亦爲標準尺寸的石窟，窟内正壁造佛像一尊，倚坐於方座，雙手於胸前結印（<ptr target="w72-02.jpg"/>）。窟内無刻經。 而毗鄰的<hi rend="bold">73</hi>號窟亦是標準尺寸，d壁（<ptr target="WFY_73_IMGP6682.JPG"/>）、e壁刻有《合部〈金光明經〉》六品。</p>
+                    <p>石刻經本有兩處有别於《大正藏》本。《大正藏》本第一卷與第二卷的分卷位於第三、四品之間，卧佛院石刻本的第一、第二分卷則位於第四、五品之間，而第六、七品的順序有所顛倒。因此，刻經於<hi rend="bold">73</hi>號窟的六品經文有《大正藏》本第七品，無第六品。<note>關於不同版本的經文的比勘，詳見本卷何書群（<foreign xml:lang="en">Michael
+                            Radich</foreign>）《卧佛院本〈金光明經〉》一文<!--（<ptr type="infra" target="Radich_start_zh Radich_end_zh"/>）-->。</note><!--Thus the six chapters, which the carvers completed in cave <hi rend="bold">73</hi>, include the chapter counted in the <hi rend="italic">
+                    <foreign xml:lang="ja">Taishō</foreign>
+                </hi> as no. 7, but not <hi rend="italic">
+                    <foreign xml:lang="ja">Taishō</foreign>
+                </hi> chapter no. 6. -->
+                    </p>
+                    <figure rend="center" n="figure" xml:id="section_E.svg">
+                        <head xml:lang="zh"> E區<hi rend="bold">71</hi>號、<hi rend="bold">73</hi>號與<hi rend="bold">76</hi>號刻經窟立面圖。雷魯卡根據任婧<ref type="biblio" target="RenJing2014"/>繪製</head>
+                        <head>Elevation of section E with sutra caves <hi rend="bold">71</hi>, <hi rend="bold">73</hi>, and <hi rend="bold">76</hi>; drawing by Lukas
+                            Ledderose based on <ref type="biblio" target="RenJing2014"/>
+                        </head>
+                        <graphic url="section_E.svg"/>
+                    </figure>
+                    <p>
+                        <hi rend="bold">73</hi>號窟表明，營建者在開鑿過程中放緩了進程。刻經規劃之初，d壁刻字分布於縱横方格綫内。縱綫使之成行，10字高20.5厘米，通常每行88字，10行寬21厘米。<!--<foreign xml:lang="en">d</foreign>壁刻銘之初，經文水平排布，十行刻經間距統一爲標準的21厘米，每行88字，十个字的刻銘長度爲20.5厘米。-->然而，自d壁末端第106行開始，第二卷字數不再均匀以逐字逐行水平對齊，并縮小了字的間距，第119行多達120字。這種放棄行格齊整的處理方式使刻工無需太過拘泥，也使其得以在同樣空間内刻入更多經文。</p>
+                    <p>正壁e壁的刻經布局更爲隨意。此處每行字數不一，每十個字的高自14.5厘米至20.0厘米不等，但行距與字距未如d壁末端那般緊密。e壁寬度爲233厘米，但刻經區域的寬度衹有137厘米。</p>
+                    <p>
+                        <hi rend="bold">73</hi>號窟f壁亦未銘刻經文，衹有之後的<hi rend="bold">76</hi>號窟銘刻有另一品經文。取而代之的是滿壁千佛造像。一竪綫垂直中分壁面，各有23和21排水平格綫分布壁面左右，每排有19至26尊佛像。整壁佛像總數因而近乎一千尊，今存987尊。分隔綫之上刻有一尊稍大佛像。此造像主題可能爲釋迦牟尼正宣説《金光明經》，“千佛”即“現在賢劫千佛”。<!--而<hi rend="bold">29</hi>號窟所見千佛來自另一系統，與此處千佛不同。-->
+                        <note>另一系統的3800尊佛名號刻於<hi rend="bold">29</hi>號窟，見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第二卷》<ref type="biblio" target="Sichuan_2">第80－295頁</ref>。</note><!--This most probably is <foreign xml:lang="sa">Śākyamuni</foreign> preaching the <hi rend="italic">Golden Light Sutra</hi>, and the thousand Buddhas then are those of the present eon. The names of a thousand Buddhas, not those of an eon, but from another system, are engraved in cave <hi rend="bold">29</hi>.-->
+                    </p>
+                    <p>
+                        <hi rend="bold">73</hi>號窟d壁有一則727年的題記，e壁有一則733年的題記。</p>
+
+
+                    <p>此排剩餘二窟爲<hi rend="bold">74</hi>號窟和<hi rend="bold">77</hi>號窟，但均未經深鑿成爲標準尺寸的刻經窟。<hi rend="bold">74</hi>號窟正壁刻有一尊菩薩立像（<ptr target="cave74_w74-01.jpg"/>），<hi rend="bold">77</hi>號窟亦有一造像，但僅完成初坯（<ptr target="cave77_DSC_0018.JPG"/>；參見《中國佛教石經·四川省·第一卷》<ref type="biblio" target="Sichuan_1">第28頁，圖21</ref>）。</p>
+                    <p>上排的<hi rend="bold">75</hi>號窟及<hi rend="bold">76</hi>號窟亦爲方形窟（<ptr target="section_e_stitch1.jpg"/>），但規模小於標準尺寸，長、寬、高僅有2.0米，而非標準的2.2米。登入兩窟需借助梯子或脚手架，因其距離地面超過6米，且位於A區至F區前方山谷南端。<hi rend="bold">75</hi>號窟爲由西面到達此處的訪客能見到的位置最高的石窟（<ptr target="cave75_DSC_1175.JPG"/>）。此窟位於<hi rend="bold">73</hi>號窟的正上方，不似<hi rend="bold">73</hi>號窟刻有六品《合部〈金光明經〉》，此窟并無刻經。而該窟左側的<hi rend="bold">76</hi>號窟則延續了自<hi rend="bold">73</hi>號窟開始的刻經計劃，鎸刻了第七品（即《大正藏》第六品）《陀羅尼最净地品》，推測原計劃刊刻總計8卷24品的經文。</p>
+                    <figure rend="center" n="figure" xml:id="section_F_a.svg">
+                        <head xml:lang="zh"> Fa區<hi rend="bold">83</hi>號與<hi rend="bold">85</hi>號刻經窟聯合立面圖。雷魯卡根據任婧<ref type="biblio" target="RenJing2014"/>繪製</head>
+                        <head>Elevation of section Fa with sutra caves <hi rend="bold">83</hi> and
+                                <hi rend="bold">85</hi>; drawing by Lukas Ledderose based on <ref type="biblio" target="RenJing2014"/>
+                        </head>
+                        <graphic url="section_F_a.svg"/>
+                    </figure>
+                    <!--<figure rend="center" n="figure" xml:id="w71-72.jpg">
+                        <head xml:lang="zh">
+                            E區<hi rend="bold">70</hi>至<hi rend="bold">75</hi>號窟全景。2007年拍攝</head>
+                        <head>Caves <hi rend="bold">70</hi>–<hi rend="bold">75</hi> in section E; photograph taken in 2007
+                        </head>
+                        <graphic url="w71-72.jpg"/>
+                    </figure>-->
+                    <p>如同<hi rend="bold">73</hi>號窟，刻經者在<hi rend="bold">76</hi>號窟亦使用了細縱欄綫，但并未刻出相應的水平欄綫分隔經字，這是因爲壁面出現的小縫隙妨礙了網格狀欄綫這一工序。按照慣例，刻經開始於右側d壁入口，但此後不久，刻銘活動就面臨困境。距離地面上方約38厘米的位置有一道狹窄的水平縫隙打斷了垂直雕刻的經文1D－7D（窟壁經文分區圖見<ptr target="WFY76d_images_segments" type="infra"/>圖版）。<!--因此，經文衹能銘刻在此縫隙下方。但是，更多問題隨之而來，-->自14行之後，壁面出現一片空白區域，從距離地面約148厘米處延伸至刻經面最上沿。此舉使我們可一窺刻經規劃進程。刻工并未按照書丹者以墨水書寫於壁上的經文依次刊刻，而是先在距離地面一米半左右平行刊刻，此處刊刻衹需站立地面即可完成。而後刻工會登梯子或爬凳子刊刻上方的1A至7A區域，然而最後并未完成。<note>相關討論亦見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第一卷》<ref type="biblio" target="Sichuan_1">第13頁、第32頁圖25</ref>。</note>刻經在41行戛然而止。此後，竪直欄綫又刻劃在一片寬17厘米的區域，共八行經文。可以推知，經文的剩餘部分已用墨筆寫就，但刻工最終并未完整刊刻《合部〈金光明經〉》。 </p>
+                    <p>e壁及f壁無刻經，雖然部分壁面已經打磨，但和其他窟情况一樣，或許因石窟的地質條件被迫放棄刻銘工作。<!--該窟墻面曾在20世紀80年代利用化學手段予以加固，此舉雖出於善意，但却帶來了不良後果，使一片厚約2至4毫米的銘刻區域自<foreign xml:lang="en">e</foreign>壁剥落。對比2012年所拍攝的照片，經文在20世紀80年代尚清晰可見。--></p>
+                    <p>一條距地面高約38厘米的水平裂縫横穿經面1D到7D部分，它在刻經之時就已經存在。這條裂縫在經文開頭處看上去還十分狹窄，但從第37行到第41行（7D）開始拓寬，刻工刻經時對其進行了考量，刻意避開。但時至今日，這條裂縫向經文開頭區域的拓寬最終導致部分經文缺失。</p>
+                    <p>20世紀80年代出於保護墻體對其實施錯誤的化學方法，導致保存情况惡化。刻經面6B與6C可以明顯看出其剥落約2－4毫米厚。20世紀80年代捶拓的經文，在2012年拍攝者對同段經文進行拍攝時已不再可見，比如刻經面5A、5B、6B及6C。部分刻經在我們2010年9月踏訪之後就已脱落，2012年10月重訪此址，我們找到這些脱落在地的殘片，拍照後嵌入本卷圖版，并以紅色邊綫標出。</p>
+                    <p> 在<hi rend="bold">77</hi>號窟東面約5.40米處，E區斷崖的凸起逐漸消减，直至E區結束。
+                            總而言之，E區包括七個石窟，其中三窟刻有佛經，分别是<hi rend="bold">71</hi>號窟（d壁）、<hi rend="bold">73</hi>號窟（d壁和e壁）和<hi rend="bold">76</hi>號窟（d壁），<hi rend="bold">72</hi>號窟、<hi rend="bold">74</hi>號窟、<hi rend="bold">75</hi>號窟和<hi rend="bold">77</hi>號窟并無刻經。</p>
+                    <figure rend="center" n="figure" xml:id="section_F_b.svg">
+                        <head xml:lang="zh"> Fb區立面圖。雷魯卡根據任婧<ref type="biblio" target="RenJing2014"/>繪製</head>
+                        <head>Elevation of section Fb; drawing by Lukas Ledderose based on <ref type="biblio" target="RenJing2014"/>
+                        </head>
+                        <graphic url="section_F_b.svg"/>
+                    </figure>
+                    <!--<figure rend="center" n="figure" xml:id="section_e_stitch1.jpg">
+                        <head xml:lang="zh">
+                            E區<hi rend="bold">71</hi>號－<hi rend="bold">77</hi>號窟。2015年拍攝</head>
+                        <head>Caves <hi rend="bold">71</hi>–<hi rend="bold">77</hi> in section E; photograph taken in 2015</head>
+                        <graphic url="section_e_stitch1.jpg"/>
+                    </figure>-->
+                </div>
+                <div>
+                    <head>F區之窟</head>
+                    <p>F區約40米長，是卧佛院南崖最長的分區（<ptr target="Section_F_Panorama_DSC1085_stitch.jpg"/>），然而却僅在四面窟壁上刊刻兩部經文。</p>
+                    <p>F區開端的<hi rend="bold">81</hi>號窟d壁與E區盡頭<hi rend="bold">77</hi>號窟f壁相距約7.3米，二者之間是一條頗深的崖壁裂隙。</p>
+                    <p>F區可分爲Fa和Fb兩部分（<ptr target="Sections_A-F_map.tif"/>），僅有Fa的兩座洞窟有刻經。這兩座刻經窟和其下兩座洞窟一起構成一組寬10.4米的四座窟。這裏窟前石壁外緣凸起，并漸趨内彎，以致窟門大致朝北<!--（<ptr target="Sections_A-F_map.tif"/>）-->。四座洞窟上下兩層，排列齊整，下層爲<hi rend="bold">81</hi>、<hi rend="bold">84</hi>號窟，窟距離地面約3米（<ptr target="section_F_a.svg"/>）。上層<hi rend="bold">83</hi>、<hi rend="bold">85</hi>號窟爲刻經窟，和E區<hi rend="bold">76</hi>號窟一樣，距離地面接近7米，是卧佛院南崖位置最高的刻經窟。正如大卧佛像之前考古挖掘所顯示的那樣，此地原初地面要低於現今水平地面，由此而知，上方刻經窟原本更爲高峻。</p>
+                    <p>
+                        <hi rend="bold">82</hi>號龕在<hi rend="bold">81</hi>、<hi rend="bold">84</hi>號窟中間，窟前曾有人字形頂棚遮護（<ptr target="section_f_stitch2.jpg"/>）。岩石面現有固定頂棚的傾斜對角綫凹槽。<hi rend="bold">82</hi>號龕内有雕造精良的一鋪五尊像。主尊釋迦牟尼佛結跏趺坐於座上，基座刻有兩隻以後腿站立的小型獅子。釋迦牟尼兩側有脅侍二弟子：左側爲年輕的阿難，手臂肌肉明顯，左手持經書（<ptr target="WFY_cave82_82-04.jpg"/>）；右側爲年長的迦葉。兩外側稍低位置各雕一尊脚踏餓鬼的天王像。<hi rend="bold">82</hi>號龕下石面刊刻一則10世紀題記。</p>
+                    <figure rend="center" n="figure" xml:id="w71-72.jpg">
+                        <head xml:lang="zh"> E區<hi rend="bold">70</hi>至<hi rend="bold">75</hi>號窟全景。2007年拍攝</head>
+                        <head>Caves <hi rend="bold">70</hi>–<hi rend="bold">75</hi> in section E;
+                            photograph taken in 2007 </head>
+                        <graphic url="w71-72.jpg"/>
+                    </figure>
+                    <!--<figure rend="center" n="figure" xml:id="section_F_a.svg">
+                        <head xml:lang="zh">
+                            Fa區<hi rend="bold">83</hi>號與<hi rend="bold">85</hi>號刻經窟聯合立面圖。雷魯卡根據任婧<ref type="biblio" target="RenJing2014"/>繪製</head>
+                        <head>Elevation of section Fa with sutra caves <hi rend="bold">83</hi> and <hi rend="bold">85</hi>; drawing by Lukas Ledderose based on <ref type="biblio" target="RenJing2014"/>
+                        </head>
+                        <graphic url="section_F_a.svg"/>
+                    </figure>
+-->
+                    <p>
+                        <hi rend="bold">82</hi>號龕右側爲<hi rend="bold">81</hi>號窟，窟内未見刻經。<note>
+                            <hi rend="bold">81</hi>號窟平面呈梯形。d壁近窟門處，高252厘米，f壁近窟門處，高220厘米，但窟門寬僅185厘米。正壁中央高232厘米，而該窟進深僅175厘米。</note>正壁，即e壁刊刻紀年爲1103年的刻銘，呈淺浮雕碑狀（<ptr target="WFY_81e_DSC7918_stitch.jpg"/>）。相連的<hi rend="bold">84</hi>號窟高度雖符合刻經窟標準，但如同<hi rend="bold">81</hi>號窟寬度較小，進深較淺，不適合刻經，而淪爲空窟。<note>
+                            <hi rend="bold">84</hi>號窟窟門高225厘米，寬僅160厘米。該窟進深比<hi rend="bold">81</hi>號窟淺，中央進深165厘米，d壁、f壁進深分别僅有153厘米、140厘米。正壁e壁微向前傾，寬250厘米、中央高218厘米。</note>
+                    </p>
+                    <p>上層<hi rend="bold">83</hi>、<hi rend="bold">85</hi>號雙窟窟門形狀、尺寸與標準刻經窟相符，但兩窟進深較深，不同尋常，下文將解釋個中原因。</p>
+                    <p>如前所述，此雙窟爲F區僅有的兩座刻經窟。<hi rend="bold">83</hi>號窟d壁試圖延續D區<hi rend="bold">66</hi>號窟未完成的《大般涅槃經》。<hi rend="bold">83</hi>號窟進深較大，足以提供更多刻經空間，但d壁刻經在19行之後戛然而止，e壁和f壁空無一字。</p>
+                    <p>
+                        <hi rend="bold">85</hi>號窟内刻有全本《維摩詰所説經》，未刊刻其他經文，卧佛院衹有此窟滿刻一部完整的佛經。其他刻經篇幅均與各窟空間大小不完全匹配，僅<hi rend="bold">29</hi>號窟中刊刻的《佛説佛名經》是特例，刊刻所節選的本子恰好布滿窟内空間。<note>關於此經的討論見陳世崇<ref type="biblio" target="ChenShihChung2014a"/>。</note>當洞窟設計者决定在一座窟内刊滿單部《維摩詰所説經》時，勢必對經文布局會詳加斟酌。<hi rend="bold">85</hi>號窟書法傾心而爲，行格齊整，爲研究者提供了一個追尋刻經者的設計過程和設計意圖的珍貴案例。</p>
+                    <figure rend="center" n="figure" xml:id="section_e_stitch1.jpg">
+                        <head xml:lang="zh"> E區<hi rend="bold">71</hi>號－<hi rend="bold">77</hi>號窟。2015年拍攝</head>
+                        <head>Caves <hi rend="bold">71</hi>–<hi rend="bold">77</hi> in section E;
+                            photograph taken in 2015</head>
+                        <graphic url="section_e_stitch1.jpg"/>
+                    </figure>
+                    <!--<figure rend="center" n="figure" xml:id="section_F_b.svg">
+                        <head xml:lang="zh">
+                            Fb區立面圖。雷魯卡根據任婧<ref type="biblio" target="RenJing2014"/>繪製</head>
+                        <head>Elevation of section Fb; drawing by Lukas Ledderose based on <ref type="biblio" target="RenJing2014"/>
+                        </head>
+                        <graphic url="section_F_b.svg"/>
+                    </figure>-->
+                    <p>《維摩詰所説經》凡三卷。卷上4品（第一至四品），共9748字；卷中5品（第五至九品），共9624字；卷下5品（第十至十四品），共7592字。</p>
+                    <p>卷上及卷中各近一萬字，適於標準尺寸的刻經窟，即高、寬、深均在2.2米上下。前述<hi rend="bold">29</hi>號窟即屬於此例，其三面窟壁各刊刻約一萬字經文，一萬字是一卷經文的平均篇幅。但《維摩詰所説經》第三卷篇幅較短，僅爲平均篇幅的四分之三，其刊刻無須一面標準尺寸的窟壁。</p>
+                    <p>如果建造者試圖將經文完美地刻滿<hi rend="bold">85</hi>號窟<hi rend="dash">──</hi>這想必是其目標<hi rend="dash">──</hi>則需調整字體大小或刻經窟空間。若要刻滿一整座標準尺寸的刻經窟，刻工或可以選擇更大的字體。但那樣會迫使書者及刻工改變習慣，這無疑非其所願。的確，卧佛院刻經保持大體一致的尺寸，一行十字，長21厘米，十行經文寬爲21厘米左右。</p>
+                    <p>
+                        <anchor xml:id="reshuffle_start_zh"/>
+                        <hi rend="bold">85</hi>號窟的設計者選擇改變洞窟的空間大小來適應刻經篇幅，形制小於標準尺寸的洞窟費工少而收效良好。壓縮洞窟體積有一種簡單易行的作法，即保持洞窟前部標準尺寸，縮减洞窟進深。然而他們并未采取此法：考慮到這裏的地形情况，窟頂已接近崖面頂端，降低洞窟高度是可行之舉。但是非標準尺寸的方形洞窟是否爲最佳選擇？附近的方形<hi rend="bold">76</hi>號窟即爲一例，其窟門尺寸約爲200×196厘米。<hi rend="bold">85</hi>號窟，即《維摩詰所説經》刻經窟，窟門縮减爲相近的尺寸，約爲212×188厘米。如若洞窟保持標準方形，即窟内三堵壁面與窟門保持相同尺寸，壁面空間將不足以刻完《維摩詰所説經》。因此，建造者决定放棄方形平面的計劃，加深<hi rend="bold">85</hi>號窟進深：d壁和f壁均爲320厘米寬，幾乎比標準尺寸方形洞窟長一半，成爲E區和F區進深最深的洞窟。建造者采用這種作法營建了適合刊刻《維摩詰所説經》的壁面空間。</p>
+                    <figure rend="left" n="figure" xml:id="w72-02.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">72</hi>號窟内後人刊鑿之佛龕。2007年拍攝</head>
+                        <head>Niche with Buddha figure, carved at a later date in cave <hi rend="bold">72</hi>; photograph taken in 2007 </head>
+                        <graphic url="w72-02.jpg"/>
+                    </figure>
+                    <p>設計者又根據壁面空間調整了刻經順序，將篇幅較長的卷上、卷下刊刻在相對的d壁與f壁，將篇幅較短的卷下刊刻在正壁e壁上。如此調整刻經次序的做法未見於他窟。設計者如此調整，除了考慮對稱，應該另有原因。在造像窟中，主尊佛所在的正壁是最重要的壁面，而在<hi rend="bold">85</hi>號窟中，《維摩詰所説經》卷下占據這一重要位置。</p>
+                    <p>卷下包含第十至十四品的釋迦牟尼佛親自宣講妙法，是這部佛經的高潮。第十品講述維摩詰以香飯令會衆飽食的著名故事；第十一品講述維摩詰以神力持諸大衆往詣佛所，聽釋迦牟尼説法；第十二品講述釋迦牟尼與維摩詰對談，講解如何觀想如來；第十三與第十四品講述釋迦牟尼與帝釋天、彌勒菩薩對談。若窟中有一尊釋迦牟尼造像，會安置於正壁中央以便信衆禮拜，而在此刻經窟中，正面朝向信衆的恰是刊刻於正壁的釋迦佛法。<note>感謝温狄婭（<foreign xml:lang="en">Claudia
+                                Wenzel</foreign>）曾提出類似觀點。她指出山東葛山刊刻《維摩詰所説經》第十二品節文是全經高潮。見《中國佛教石經<hi rend="smaller"> • </hi>山東省<hi rend="smaller"> • </hi>第二卷》<ref type="biblio" target="Shandong_2">第193頁</ref>。</note>
+                    </p>
+
+
+                    <p>但此精心構思的設計并未全然落實。刻經者將卷上的第一至第四品刊刻在d壁，將卷中第五至第九品刊刻在對面的f壁。按原先計劃卷下應全部刊刻在正壁e壁，但d壁末尾仍有多餘空間，因此刻工未按設計邏輯，仍繼續在d壁刊刻卷下第十品前10行。刻工在e壁上完成了第十品的刊刻，繼而刊刻第十一至第十四品。然而，在d壁開始卷下經文的刊刻實爲多此一舉，因爲e壁完全有足够空間完成卷下全三品：完成後的刻經面僅143厘米寬，經文後方仍留有37厘米寬的空白。因此，在空間較小的e壁刻滿卷下，即最後一卷經文的預期效果最終并未達成。<anchor xml:id="reshuffle_end_zh"/>
+                    </p>
+
+                    <p>雙窟之一的<hi rend="bold">83</hi>號窟進深同樣較大，其d壁和f壁寬3米左右，這一尺寸不及<hi rend="bold">85</hi>號窟，却也寬於一般洞窟。如果窟内《大般涅槃經》得以繼續刊刻，定能如數完成該品，但如我們所見，窟内刻經隨後中止。</p>
+                    <p>緊接由四窟組成的Fa區的是一通位於<hi rend="bold">86</hi>號龕内未完工的石碑及一處石縫。從這裏到F區域結束還有5個龕窟，但均未刻經。Fa區同樣還有未完工的雙窟<hi rend="bold">88</hi>號窟和<hi rend="bold">89</hi>號窟（<ptr target="WFY_8_89_90_DSC_0513.JPG"/>）。前者僅開鑿下半部分，與B區<hi rend="bold">41</hi>號窟類似。研究者可藉此了解開窟工序。<note>
+                            <ref type="biblio" target="ChengduKaoguFaxian2008">第368頁</ref>。雷玉華<ref type="biblio" target="LeiYH_WangJP_FuCJ2009">第100－101頁</ref>，對此有詳盡的描述。《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第二卷》<ref type="biblio" target="Sichuan_2">第7頁、第437－438頁</ref>。</note>隨之， <hi rend="bold">89</hi>號窟東側爲<hi rend="bold">90</hi>號五層塔龕，再往東爲後來發現的<hi rend="bold">126</hi>號小型墓塔龕（<ptr target="section_F_a.svg"/>），至此爲Fa區終結。Fb區域首先映入眼簾的是或爲一造像龕的<hi rend="bold">90-1</hi>號窟，以及<hi rend="bold">91</hi>號龕，其内有菩薩浮雕造像一尊及另一不完整造像（<ptr target="section_F_b.svg"/>）。兩窟距離道路平面皆約5米高。</p>
+                    <p>一道明顯裂縫之後，凸起的山崖上另有連成一組的三窟，即<hi rend="bold">92</hi>、<hi rend="bold">93</hi>、<hi rend="bold">94</hi>號窟，皆距離地面5米高以上（<ptr target="WFY_92_93_94_DSC_0450.JPG"/>）。這是繼C區之後第二組三窟連排的實例，但此三窟未刊刻經文。於此南崖終結，其崖面以東未曾發現窟龕。</p>
+                    <p>概而言之，F區包括九個石窟，其中兩窟刻有佛經，即<hi rend="bold">83</hi>號窟（d壁）和<hi rend="bold">85</hi>號窟（d、e、f壁），<hi rend="bold">81</hi>、<hi rend="bold">84</hi>、<hi rend="bold">88</hi>、<hi rend="bold">89</hi>、<hi rend="bold">92</hi>、<hi rend="bold">93</hi>、<hi rend="bold">94</hi>號窟未刻經，其中<hi rend="bold">81</hi>號窟刊刻1103年碑記。</p>
+
+                </div>
+                <div>
+                    <head>刻經文本</head>
+                    <p>兩個區域共刊刻五部經文。E區刊刻《心經》《金剛經》全本及《合部〈金光明經〉》的開頭部分，F區刊刻少部分《大般涅槃經》及全本《維摩詰所説經》。前述卧佛院亦刊刻有《心經》《金剛經》，其中7行《心經》刊刻在<hi rend="bold">29</hi>號窟外i壁（見《中國佛教石經·四川省·第二卷》<ref type="biblio" target="Sichuan_2"/>）；《金剛經》刊刻於<hi rend="bold">33</hi>號窟f壁（見《中國佛教石經·四川省·第二卷》<ref type="biblio" target="Sichuan_2"/>），59行；另一《金剛經》刊刻於<hi rend="bold">46</hi>號窟f壁（見《中國佛教石經·四川省·第三卷》<ref type="biblio" target="Sichuan_3"/>），51行。兩經均爲大乘佛教核心經典。那體慧（<foreign xml:lang="en">Jan
+                                Nattier</foreign>）評《心經》：“《心經》必然是整個東亞地區最受歡迎的佛教經典之一。它是大乘佛教教義精髓的總結，是具有超能力的陀羅尼，因而廣爲世俗民衆和高僧大德等各階層人士傳誦供養。佛教各宗派均重視《心經》，瑜伽、中觀、禪宗等各宗派有關《心經》的大量注疏即是明證。”<note>那體慧<ref type="biblio" target="Nattier1992">第153頁</ref>。</note>
+                    </p>
+                    <p>《金剛經》亦廣爲人知，是四川、陝西、山東省等地常見的刻經。這部佛經<!--以能爲衆生提供護佑、福澤而著稱，同時-->强調抄誦經文，未提及偶像崇拜，因而在家信衆尤爲喜愛此經，其承諾任何人，哪怕持誦一句此經經文，便可得無量功德。<note>何秋輝<ref type="biblio" target="HoChiewhui2019">第190頁</ref>。</note><!--且經中多處提及末法時代，這或許是將其刊刻於洞窟之中的一大原因。-->《金剛經》於8世紀早期刻於卧佛院，由此經文可以看出圍繞《金剛經》而臻於成熟的一種新型經外文獻（<foreign xml:lang="en">parasutraic</foreign>，它對經文内容編寫贊詞及序文，并闡述其靈驗性）。此類文獻的代表是孟獻忠完成於718年的《金剛般若經集驗記》，此人曾在卧佛院東北140公里處的梓州（今綿陽）任職。<note>英譯本見何秋輝<ref type="biblio" target="HoChiewhui2019">第297－393頁</ref>。</note>另外《金剛經》和《心經》篇幅均較短，受到供養人偏愛。《金剛經》5036字，《心經》僅268字。在卧佛院<hi rend="bold">71</hi>號窟中，此兩部佛經由同一位供養人出資刊刻於同一壁面。</p>
+                    <p>儘管如此，在E區一組四窟一龕的第一個洞窟<hi rend="bold">71</hi>號窟看到這兩部佛經刻文仍然令人驚喜。如果推測無誤，E區這一組四窟一龕本應設計爲標準尺寸的刻經窟，我們本以爲能够在此發現始刻於<hi rend="bold">59</hi>、<hi rend="bold">66</hi>號窟的《大般涅槃經》後續經文。這部《大般涅槃經》與大型卧佛雕像呼應，雖未刻完，仍爲卧佛院篇幅最長的刻經。僧人所選的此40卷本刻經約有334000字（加上序言則有353000字）。</p>
+                    <figure rend="left" n="figure" xml:id="cave74_w74-01.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">74</hi>號窟内後人刊鑿之菩薩龕。2007年拍攝</head>
+                        <head>Niche with Bodhisattva figure, carved at a later date in cave <hi rend="bold">74</hi>; photograph taken in 2007 </head>
+                        <graphic url="cave74_w74-01.jpg"/>
+                    </figure>
+                    <p>我們已在《中國佛教石經·四川省·第四卷》中討論了此一宏大刻經工程是如何在D區開展的。<hi rend="bold">59</hi>號窟内刊刻了33000字經文（第一品至第四品第一節，缺第三品）。接下來的65000字刊刻於<hi rend="bold">66</hi>號窟（第四品第二節至第七品第一節），這是卧佛院刻經字數最多的洞窟。<note>卧佛院刊刻《大般涅槃經》節文的概况，見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第4－5頁</ref>。《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第15－18頁</ref>。</note>
+                            據735年長江縣供養人李涉題記可知，僧人一度中斷<hi rend="bold">59</hi>號窟的刻經，而代之以兩部早期禪法指南。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第5－6頁</ref>。</note>
+                    </p>
+                    <p>令人感到好奇的是，除了D區<hi rend="bold">59</hi>、<hi rend="bold">66</hi>號窟，E區未見其他《大般涅槃經》刻文。後續經文刊刻在F區，但未刊刻於較低位置的<hi rend="bold">81</hi>、<hi rend="bold">84</hi>號雙窟，却選址在上方較小的<hi rend="bold">83</hi>號窟。該窟内刊刻接續<hi rend="bold">66</hi>號窟末尾卷十一第七品之一之後的卷十二第七品之二的内容，共約1600字。若刻完第七品，刻經者需要再刊刻8800字，但他們在刻完19行經文後便中止刻經。此後續刻的《大般涅槃經》篇幅短小。<hi rend="bold">46</hi>號窟内刊刻了標爲卷十三（《大正藏》本卷二十二）第十品之二的内容，約7200字，<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第16頁</ref>，及貝萬合<ref type="biblio" target="Blum2018">第45頁</ref>。</note>於<hi rend="bold">51</hi>號窟刊刻卷十四第七品之四的内容，約7800字。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第18頁</ref>，及貝萬合<ref type="biblio" target="Blum2018">第44－45頁</ref>。</note>因此，卧佛院刻《大般涅槃經》總計約114600字，僅占該經全本篇幅的三分之一，但已堪稱壯舉。</p>
+                    <p>
+                            F區刊刻其他兩部經文，即《維摩詰所説經》和《合部〈金光明經〉》。這兩部經文得以選刻必然有特定意圖。《維摩詰所説經》的主角是維摩詰居士，恰與在家信徒身份相符，因此爲清信供養人所推崇。在卧佛院應爲同樣情况，即由居士資助刊刻此經。如何書群（<foreign xml:lang="en">Michael
+                            Radich</foreign>）所説，《維摩詰所説經》適用於卧佛院，因爲此經探討了其他刻經也會涉及的一些問題，諸如“身即是病”“懺悔”“儀式”“法身常住”以及“般涅槃示現説”。<note>見本卷何書群<!--（<foreign xml:lang="en">Michael Radich</foreign>）-->《卧佛院本〈金光明經〉》一文。</note>
+                    </p>
+                    <p>
+                        <hi rend="bold">73</hi>號窟《合部〈金光明經〉》刻經爲中國石窟刻經之孤例，而這部經文亦符合卧佛院刻經所圍繞的“佛身”主題。<note>同上。</note>
+                    </p>
+
+                </div>
+                <div>
+                    <head>題記</head>
+                    <p>卧佛院題記可分三個時段刊刻，爲揭示石刻工期提供了綫索。第一階段爲唐代8世紀，是石刻工程的肇始時期。第二階段爲10世紀，後蜀（934－965）及北宋（960－1127）初期是遞修和增補階段。第三階段處於宋代12、13世紀。E區、F區三個時段的題記均有刊刻。</p>
+                    <!--figure rend="left" n="figure" xml:id="WFY71d_colophone_DSC2561_stitch.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">71</hi>號窟d壁《佛心心真言》拓本。20世紀80年代拓製
+                        </head>
+                        <head>Rubbing of the <hi rend="italic">dhāraṇī</hi> spell, cave <hi rend="bold">71</hi>, wall d; taken in the 1980s</head>
+                        <graphic url="WFY71d_colophone_DSC2561_stitch.jpg"/>
+                    </figure>
+                       <figure rend="left" n="figure" xml:id="h_78_mosaic_proc_bearb.tif">
+                        <head xml:lang="zh">
+                            <hi rend="bold">78</hi>號摩崖綫刻結跏趺坐佛像。<!-/-北京天遠三維科技有限公司-/->掃描於2010年
+                        </head>
+                        <head>Line drawing <hi rend="bold">78</hi> of a seated Buddha; scan taken in 2010<!-/- by Beijing Tianyuan 3D Technology co., LTD.-/->
+                        </head>
+                        <graphic url="h_78_mosaic_proc_bearb.tif"/>
+                    </figure-->
+                    <p><!--?cb?-->E區與F區最早的題記位於<hi rend="bold">73</hi>號窟d壁，<hi rend="bold">73</hi>號窟是一組成排的五個窟龕中的第三個。《合部〈金光明經〉》的前44行經文始刻於窟頂下方13－18厘米處，爲題記空出了上方的空間。相對於下方經文，題記刻於第31－43行經文上方2.5厘米處，技藝也相對粗糙，整體行文呈略不規範的平行，刻面不够平整，筆畫稍粗，有失嫻熟。從第45行經文開始，行文位置高於前44行經文五個字符，也就是説經文前44行上方區域在刻經之初就刻意留出空白，證明早在刻經之前就已經有了在此處鎸刻題記的計劃。題記作<!--横向刊刻於《合部〈金光明經〉》開頭上方-->：<quote>檀三藏經開元十五年（727）二月鎸了。<note>圖版見本卷<hi rend="bold">73</hi>號窟，d壁，4A、5A和6A。德譯本和相關討論見蔡穗玲<ref type="biblio" target="TsaiSueyling2014">第173頁</ref>。其文章概述卧佛院所有題記，并詳盡討論唐代題記。</note>
+                        </quote>
+                    </p>
+
+                    <p>六年後，王先在該窟e壁刊刻了第二則題記，e壁當時尚在刻經（<ptr target="cave_073_e_002_DxO_colophon_733.jpg"/>）。題記殘文爲：“……元……廿……；……□一人得丁……若有□生□元月□□……開元廿一年五月廿九日（733年7月15日）記鎸王先書。”
+                                <note>德譯本和相關討論見蔡穗玲<ref type="biblio" target="TsaiSueyling2014">第174頁</ref>。</note>
+                    </p>
+                    <p>兩則題記皆與《合部〈金光明經〉》相關，六年的時間間隔説明刻經工程費工費時。同時説明卧佛院有不同的刻經工程同時開展：開元十五年（727）題記僅較最早的C區<hi rend="bold">51</hi>號窟題記晚四年。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第10頁、第35頁圖20</ref>。</note>
+                    </p>
+                    <p>
+                        <hi rend="bold">71</hi>號窟於《金剛經》《心經》之後刊刻楊思慎無紀年題記：“遂州長江縣楊思慎爲亡父楊敬宗亡母袁張寳敬造供養。”<note xml:id="YangSishen_zh"> 圖版見本卷<hi rend="bold">71</hi>號窟，d壁，11C－11D。德譯見蔡穗玲<ref type="biblio" target="TsaiSueyling2014">第180頁</ref>。
+                            </note>考慮到兩部經文之間并無間斷，且具有統一的字體與行格，所以兩部經文或許均由楊思慎出資刊刻於8世紀，原因之一是供養人楊思慎與李涉都來自長江縣，而後者曾於735年在<hi rend="bold">59</hi>號窟出資刻經。<note>《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第5－6頁</ref>。</note>
+                    </p>
+                    <p>F區<hi rend="bold">82</hi>號龕刊刻一則10世紀題記（<ptr target="WFY_cave82_DSC_0022.JPG"/>），記録了供養人蒙彦進及其妻子重新裝修此龕，自左往右作：<quote>
+                            <hi rend="color-headings">/1/</hi>敬<g>報修粧</g>釋迦牟尼佛部衆共<hi rend="color-headings">/2/</hi>壹龕。<hi rend="color-headings">/3/</hi>右弟子蒙彦進并羅<g>氏</g>同發心<g>修</g>
+                            <hi rend="color-headings">/4/</hi>
+                            <g>粧</g>前件功德。意<g>希願</g>合家大小<hi rend="color-headings">/5/</hi>各保<g>安寧</g>。<g>凡所經求</g>運爲稱遂。<hi rend="color-headings">/6/</hi>時<g>以廣政</g>__年__月__日<hi rend="color-headings">/7/</hi>設<g>齋</g>表讃<g>訖</g>，<g>永</g>爲供養。<note>録文見《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第392頁</ref>，以及秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第106頁</ref>。</note>
+                        </quote>
+                    </p>
+                    <p>題記載有年號廣政（938－965），但年、月、日空缺。應該是本來打算在設齋表贊之後再補填日期，但是因爲某種原因而未能施行。這則願文的措辭類似<hi rend="bold">68</hi>號龕一則959年（也屬廣政年間）題記<!--<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第6頁</ref>。</note>-->以及<hi rend="bold">70</hi>號窟一則975年題記。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第6頁</ref>。</note>
+                    </p>
+                    <!--<figure rend="left" n="figure" xml:id="WFY71d_colophone_DSC2561_stitch.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">71</hi>號窟d壁《佛心心真言》拓本。20世紀80年代拓製
+                        </head>
+                        <head>Rubbing of the <hi rend="italic">dhāraṇī</hi> spell, cave <hi rend="bold">71</hi>, wall d; taken in the 1980s</head>
+                        <graphic url="WFY71d_colophone_DSC2561_stitch.jpg"/>
+                    </figure>-->
+
+                    <p>
+                        <hi rend="bold">74</hi>號窟窟門西側刊刻另一則廣政紀年題記：</p>
+                    <quote>廣政廿四年八月一日（961年9月13日）。</quote>
+                    <p>其後殘存：“十一月一日”（<ptr target="cave74_DSC_0166.JPG"/>）。 <note>録文亦見《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第389頁</ref>，以及秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第100頁</ref>。</note>在<hi rend="bold">83</hi>號窟f壁一小塊形狀不規則的光滑平面上，刊刻一則題記：“王寶龕”（<ptr target="WFY-83-f_WangBao_kan.jpg"/>）。</p>
+                    <figure rend="center" n="figure" xml:id="cave75_DSC_1175.JPG">
+                        <head xml:lang="zh">位於<hi rend="bold">73</hi>號窟之上的<hi rend="bold">75</hi>號窟。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">75</hi>, located above cave <hi rend="bold">73</hi>; photograph taken in 2010 </head>
+                        <graphic url="cave75_DSC_1175.JPG"/>
+                    </figure>
+                </div>
+
+                <div>
+                    <head>北宋崇寧二年（1103）碑刻</head>
+                    <p> E區和F區乃至整個卧佛院篇幅最長、信息量最豐富的刻銘刊刻於北宋崇寧二年（1103），我們在此單獨討論其重要性。此刻銘呈碑狀，位於<hi rend="bold">81</hi>號窟後e壁（<ptr target="WFY_81e_DSC7918_stitch.jpg"/>）。碑額呈梯形，碑座爲二維平面正向的龜形，龜首呈球形。基座尺寸爲22×86厘米，碑身爲165×94厘米。碑身、基座與龕沿之間鑿有凹槽，底部凹槽寬36厘米，頂部凹槽寬10厘米。碑刻偏離壁面中心，距d壁39厘米、f壁115厘米。</p>
+                    <p>凹槽區域自底部裝飾有對角條紋，凸顯出碑身結構，并稍向頂部延伸合攏，底部寬130厘米，上部寬124厘米。基座右側條紋寬26厘米，左側條紋寬16厘米。碑首右側條紋寬13厘米，左側條紋寬14厘米，在壁面上凹槽外圍還有陰刻細綫。</p>
+
+
+                    <p>碑額刻有天宇圖像。中間刻“佛”字，兩側刻雲朵承托的圓形，内刻“日”“月”二字（<ptr target="cave81_head_DSC7931_cut.jpg"/>）。長方形刻字區域有26行文字，整行46字（<ptr target="WFY_81_stele_rubbing.tif"/>）。</p>
+                    <p>崇寧二年碑刻旨在宣揚和傳達佛法，以此祈禱避免未來可能發生在寺院中的灾禍。</p>
+                    <p>如碑文開頭所言，廣聖院院叟童白及法忍撰文并上石。廣聖院曾經應當是卧佛院的一部分，這表明卧佛院或許一度規模龐大，包含多間分院。由碑文可知，卧佛院主僧法宗是立碑人之一。</p>
+                    <p>碑文的開篇十分規範，如大多數同類碑文一樣對佛陀作長篇贊揚，并叙述佛陀對世人的教誨。第二部分將卧佛院置於此宏大的佛教背景，具體説明其行政地理位置，同時也是“卧佛院”這一名稱在所有銘文中首次出現。<!--但卧佛院在此處更像是對一具體寺院的代稱，而并非指代整個區域。-->接下來的碑文寫到繼承卧佛院前任院主僧惠文衣缽的法宗。前任院主僧惠文的筆墨也出現在卧佛院的石刻上，他於1067年所撰寫的題記刻在<hi rend="bold">71</hi>號窟的三幅神像畫旁。惠文題記的部分内容如下：<quote>講經論沙門惠文發心畫廣齊、靈濟護法、土地三身同一堂，永爲供養。意乞閤院僧童進道修行。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第四卷》<ref type="biblio" target="Sichuan_4">第7頁</ref>。</note>
+                        </quote>
+                    </p>
+                    <p>第三部分提到了卧佛院地處風水寶地，依山傍水，受四方靈神的庇佑，同時也有來自俗世鬼賊的威脅。此段碑文還詳盡描述了法宗在修建寺院所做出的貢獻。他於北宋建中靖國元年（1101）與行者慈海一起開始修建工作，後者在同年出家爲僧。從卧佛院另兩則分别位於<hi rend="bold">51</hi>號窟殘存佛像背後（1114）和北崖巨大卧佛像底部的題記得知，慈海在這段時間（1104－1114）逐漸成爲寺院領導者。<note>見《中國佛教石經<hi rend="smaller"> • </hi>四川省<hi rend="smaller"> • </hi>第三卷》<ref type="biblio" target="Sichuan_3">第9頁、第12頁、第15頁</ref>。</note>由此我們依據碑文可以總結出當時卧佛院共有三代領導者：法宗的前任住持惠文、法宗及其繼任者慈海。在碑文的最末端提到，慈海已經得到了“小師”這一頭銜。</p>
+                    <p>碑文第四部分從一場當時降臨到卧佛院的灾難講起。宋紹聖四年十二月二十日（1098年1月25日），一夥名字列於碑文的强盗闖入卧佛院庭院并盗走許多財物。雖然他們被及時逮捕、審判、流放，但是禍事仍接踵而來，財物被盗無還，寺内得傳染病而死的人屍身被移動他處。</p>
+                    <p>第五部分篇幅較長，講述了爲徹底改善當時的境况，設立了這塊石碑以傳達警示，羅列會出現的惡果。内容警告僧人們應當停止内部的争論，不能忘記自己的職責，同時也要求强盗必須歸還所有“借走”的財物，并禁止偷竊爆竹和蠟燭。接下來的内容交代了這些罪犯的下場，并且規定所有因瘟疫而死的人必須在寺廟附近的空地火化。遵守這些規定的人能够進入净域，而違反的人將在地獄中受到折磨。值得注意的是，法宗全盤接受了因其往世的過錯和債務而帶給寺院諸多灾禍的所有譴責。<!--有關這些不幸事件、他本人的不當行爲對寺廟帶來的不良影響及個人奢靡生活所欠下債務的所有譴責。--></p>
+                    <p>令閲讀者感到驚异的是，石碑文中傳統的佛教内容竟夾雜了世俗的、非佛教的内容。這些行文含有徵引經部典籍，比如儒家經典《中庸》《禮記》《易經》，這些都不是佛經。死亡被簡單地稱爲“歸大夜”，阿彌陀佛的西方極樂世界被稱爲“净域”而并非净土<!--，在這些内容裏甚至都根本没有提到佛陀-->。碑文强調皇帝的教權地位，法宗“頹皇恩而落彩”“国家遍許收買天文”。碑文亦强調“慈尊帝王，語義相扶”“孔聖之言傳諸後古”。所有這些表明，在11世紀佛教得到重視的同時，儒教的地位也在上升，甚至在寺院内部也出現了儒家的思想。</p>
+                    <figure rend="full" n="figure" xml:id="WFY_81e_DSC7918_stitch.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">81</hi>號窟宋崇寧二年碑。2015年拍攝</head>
+                        <head>The stele of 1103 in cave <hi rend="bold">81</hi>; photograph taken in
+                            2015</head>
+                        <graphic url="WFY_81e_DSC7918_stitch.jpg"/>
+                    </figure>
+                    <p>碑文内容如下：<note>蔡穗玲於本卷重新整理了81號窟中碑文之隸定録文。此碑録文亦參見《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第390－391頁</ref>；張雪芬和陳文静《安岳卧佛院81號窟宋碑釋讀》<ref type="biblio" target="Zhang_Chen2011"/>；秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第104－105頁</ref>。</note>
+                    </p>
+
+                    <div>
+                        <quote>
+                            <hi rend="color-headings">/1/</hi>
+                            <g>誡</g>誓<g>賊</g>盗火<g>燭</g>祛除邪<g>祟</g>神<g>碑</g>
+                            <space extent="21"/>
+                            <space n="1"/>
+                            <byline>廣聖<g>院叟</g>童<g>白</g>，<g>法</g>忍<g>刻</g>字撰文。</byline>
+                            <hi rend="color-headings">/2/</hi>
+                            <g>法</g>有<g>淺深</g>，<g>道無</g>先<g>後</g>。<g>慈</g>
+                            <g>尊帝</g>王，語義相扶。<g>祖</g>得金人，<g>師</g>資<g>互</g>［□］<note>此句應爲四六對仗，“互”字下當脱一字。</note>；顯<g>真</g>身而<g>化物</g>，立<g>權</g>資<g>以</g>世名。<g>魏</g>
+                            <g>魏</g>乎！<g>隻</g>出三界。<g>蕩</g>
+                            <g>蕩</g>乎！獨<hi rend="color-headings">/3/</hi>
+                            <g>越四</g>生。<g>慜群</g>品而<g>受殃</g>，<g>傷</g>六<g>道</g>而汩<g>没</g>。遂向王宫<g>誕跡</g>，<g>雪嶺修</g>行；<supplied>摧</supplied>伏<g>衆魔</g>，證真<g>解脫</g>；開大教<g>綱</g>，<g>豎</g>大<g>法幢</g>；<g>作師</g>子吼，<g>演</g>
+                            <hi rend="color-headings">/4/</hi>大<g>法</g>義。大破天<g>魔</g>之<g>後</g>，<g>降</g>伏外<g>道已来</g>，<g>說</g>法三百<g>餘塲</g>，教<g>滿龍宫海藏</g>。<g>空</g>教有教，<g>頓</g>門漸門；中<g>道</g>金言，不<g>空</g>不有；中小<g>並</g>
+                            <hi rend="color-headings">/5/</hi>
+                            <g>済</g>，<g>遮</g>
+                            <g>表雙</g>全。<g>歷</g>千<g>載</g>之長新，積<g>万</g>劫而不<g>古</g>。<g>我佛</g>大<g>破</g>天<g>魔</g>之教，亦<g>係</g>南<g>閻</g>浮提<g>薩</g>訶世界支<g>那</g>境大宋<g>國釰南</g>道<g>梓州</g>
+                            <hi rend="color-headings">/6/</hi>
+                            <g>路</g>普<g>州安</g>岳縣<g>廣德鄉</g>光<g>通</g>里龔端<g>旁</g>
+                            <g>卧佛院</g>主<g>僧</g>法<g>宗</g>，<!--
+                            <space extent="1"/>-->
+                            <g>每</g>
+                            <g>叹</g>
+                            <note>此處石刻作“叨”字形，但由於其義不通，本卷結合碑文文義和語氣將其隸定爲“叹”字。</note>
+                            <g>像廕</g>季世<g>蒙</g>
+                            <g>恶</g>，<g>辝</g>親始<g>脫扵</g>凡<g>籠</g>，<g>割</g>愛<g>投</g>誠扵梵<g>刹</g>，<g>古</g>
+                            <hi rend="color-headings">/7/</hi>
+                            <g>跡卧</g>
+                            <g>佛慕</g>
+                            <g>道</g>，<g>国家遍</g>許<g>收</g>買天文。<g>感</g>眷<g>澤以</g>
+                            <g>披䊷</g>，<g>頹</g>
+                            <note type="ref">恭順、安詳。禮記．檀弓上：「敗而後稽顙，頹乎其順也。」鄭玄．注：「頹，順也。」北史．卷八十三．文苑傳．庾信傳：「身長八尺，腰帶十圍，容止頹然，有過人者。」http://dict.variants.moe.edu.tw/variants/rbt/word_attribute.rbt?quote_code=QTA0NTU2LTAwMQ
+                                HYDZD: [11]
+                                恭順貌。《禮記‧檀弓上》：「孔子曰：‘拜而后稽顙，穨乎其順也。’」鄭玄注：「穨，順也。先拜賓，順於事也。」唐韓愈《南山詩》：「或覆若曝鱉，或穨若寢獸。」[16]
+                                通{堆}。聚集；堆集。晉陸雲《征西大將軍京陵王公會射堂皇太子見命》詩：「芒芒太極，玄化煙熅。穨形成器，凌象垂文。」
+                                《新唐書‧南蠻傳中‧南詔下》：「蠻復圍成都，夜穿西北隅，犁旦乃覺，即穨茭火于壖，蠻皆死穴中。」</note>皇<g>恩而落</g>彩。<g>懃</g>心午<g>夜</g>，<g>志</g>□興<g>修</g>。<g>恪懃惟</g>在<g>志</g>誠，<g>專懃務嚴扵</g>梵<g>刹</g>。<hi rend="color-headings">/8/</hi>
+                            <g>此</g>者<g>卧佛</g>前<g>院</g>主<g>僧惠</g>文，<g>偶</g>因<g>寢</g>疾，<g>藥</g>餌不<g>應</g>，俄<g>歸</g>大夜。但法宗得<space extent="1"/>官□委身<g>接</g>縉住<g>持</g>，即天地神<g>明</g>，□中了當。<hi rend="color-headings">/9/</hi>
+                            <g>竊以</g>
+                            <g>斯院</g>山<g>罡</g>西<space extent="1"/>
+                            <g>轉</g>，水枕東<g>流</g>，<g>四</g>神<note>“四神”或“四靈”指青龍、白虎、朱雀、玄武，是分别守護東、西、南、北四個方位的神獸。在理想的堪輿體系中，山谷應當面朝南方，位於青龍（東）與白虎（西）方位的兩處山脊之間。然而，卧佛院面朝東方。因此，碑文撰者認爲這是一處不祥之地。有關卧佛院堪輿的更多内容見蔡穗玲<ref type="biblio" target="TsaiSueyling2013a"/>。</note>有<g>似</g>威嚴，土地<g>每</g>招<g>鬼賊</g>。《<g>礼</g>》云：“<g>鬼</g>神之德也，其<g>感</g>矣乎。”<note>《禮記<hi rend="smaller"> • </hi>中庸》作：“鬼神之爲德，其盛矣乎！”《十三經注疏》<ref type="biblio" target="ShisanjingZhushu2003">第2册，第1628a頁</ref>。英譯見浦安迪<ref type="biblio" target="Plaks2003">第33頁</ref>。</note>《<g>易</g>》云：“<g>陰陽莫測</g>之位，神也。”<note>《易經<hi rend="smaller"> • </hi>繫辭上》作：“陰陽不測之謂神。”《十三經注疏》<ref type="biblio" target="ShisanjingZhushu2003">第1册，第78c頁</ref>。英譯見衛禮賢<ref type="biblio" target="Wilhelm_Baynes1989">第301頁</ref>。</note>
+                            <hi rend="color-headings">/10/</hi>但法宗住<g>持後</g>来<g>改</g>故<g>修</g>新，自<g>捨囊缽</g>，<g>起</g>
+                            <g>立</g>廳堂、僧房、廚<g>霤</g>，<g>悉皆</g>周<g>俻</g>。實□<g>薨</g>瓦如飛，徘徊迨<g>迎</g>；棟<g>樑椽</g>柱，<g>皆悉焕然</g>。<g>扵</g>
+                            <hi rend="color-headings">/11/</hi>辛巳<g>歲与</g>手下行者慈<g>海</g>。當<g>年</g>
+                            <g>收</g>買天文出<g>家落</g>彩，進道<g>修</g>行同共焚<supplied>献</supplied>。偶□紹聖<g>四</g>
+                            <g>年</g>十二月二十日<g>夜</g>，<g>被賊</g>人陳<hi rend="color-headings">/12/</hi>
+                            <g>彦卿</g>、<g>陳彦寧</g>、文<g>漢周</g>、李二慶<g>䒭</g>劫<g>掠錢</g>
+                            <g>物</g>，命運遭<g>済</g>，致其撓<g>害</g>。當<g>年</g>衙中依法<g>决断</g>，<g>刺配</g>他<g>州</g>。今者乃見灾痾<g>頻</g>撓，累<hi rend="color-headings">/13/</hi>
+                            <g>遭輱</g>軻，<g>多被起</g>
+                            <g>惡</g>心<g>無徒</g>之<g>輩</g>，借取<g>錢物歸家</g>破使，<g>頻度</g>理<g>嗦</g>，<g>推挻</g>不還。今者遂發誠心，<g>願</g>豎立<g>神</g>
+                            <g>碑</g>一<g>碣</g>，將用迴<g>施解</g>。<hi rend="color-headings">/14/</hi>
+                            <g>釋院</g>内亡<g>歿</g>行者王法<g>顯</g>賈慈<g>顯</g>，<g>俱患勞疾</g>死亡，不得傳<g>屍</g>譴<g>迎</g>。<g>所</g>有誡誓<g>具</g>在下項<g>開</g>列：<hi rend="color-headings">/15/</hi>一件：<g>辝</g>親入道，<g>削</g>
+                            <g>髮披䊷</g>，寅□<g>夜</g>怠慢焚<g>献</g>，動<g>止墮慵</g>，少<g>懃持</g>誦。惟<g>願</g>龍神加<g>俻</g>，星<g>曜扶持</g>，灾撓不<g>侵</g>，<g>邪</g>
+                            <g>祟遠併</g>。<hi rend="color-headings">/16/</hi>一<g>誡</g>約：祖<g>師已</g>来，<g>僧</g>俗二門宗<g>肢</g>忽有<hi rend="smaller">生（？）</hi>
+                            <g>䰤呪</g>
+                            <g>西</g>，誓不得<g>譴靠</g>連累<g>後</g>代、内<g>外</g>法眷。惟<g>冀</g>承<g>此</g>善<g>緣</g>，得<g>生</g>净域。<hi rend="color-headings">/17/</hi>一件<g>誡</g>約：<g>起惡</g>心<g>愚徒</g>之<g>輩</g>，借<g>取錢物歸</g>家使用，<g>頻度</g>理<g>嗦</g>，謾誺不<g>還</g>。<g>恐</g>法宗前世<g>冤債</g>，<g>此世仇</g>讎暗<g>裏</g>但行<g>扵</g>唆<g>賺</g>，心<hi rend="color-headings">/18/</hi>
+                            <space extent="1"/>中<g>却起</g>
+                            <g>扵</g>
+                            <g>無</g>良。自立<g>碑後</g>，<g>所</g>有分明交<g>還</g>者，<g>願</g>佛神加俻，自是<g>院</g>中<g>財物</g>不在誡誓之内。<g>所</g>有不<g>還</g>者，<g>願</g>
+                            <g>佛</g>神<g>照察</g>。<hi rend="color-headings">/19/</hi>一誡誓：<g>更</g>
+                            <g>夜</g>火燭<g>賊</g>盗，<g>兼</g>往年劫<g>掠院家財物</g>，<g>陳彦卿</g>、<g>陳彦寧</g>、文<g>漢周</g>、<g>李</g>二<g>慶䒭</g>，朝作<g>慕</g>
+                            <note>此處石刻作“慕”，但其義應爲“暮”字。</note>
+                            <g>敗</g>，<g>早犯條</g>章，<g>邊</g>配他<g>州</g>，令人<g>眼見</g>。<hi rend="color-headings">/20/</hi>一誡誓：<g>多有無徒</g>之<g>輩</g>，<g>搆</g>合□途起<g>動</g>；<g>將虚作實</g>，<g>以偽為真</g>；<g>乞取錢物</g>，方便年<supplied>節</supplied>；<g>扵</g>理<g>無道</g>，向人有<g>私</g>；<g>將僧</g>門懼添之詞，<hi rend="color-headings">/21/</hi>
+                            <space extent="1"/>恣俗<g>諦</g>
+                            <g>為非</g>之<g>說</g>；<g>潜</g>
+                            <g>来顯</g>到，<g>擗</g>地<g>探</g>人；斯人益其言、添其<g>事</g>、<g>廣</g>其<g>訟</g>、執其行，何<g>应</g>乎？如信之<g>財</g>，何<g>損</g>哉？伏<g>乞賢聖鑒照</g>。<hi rend="color-headings">/22/</hi>一誡誓：院内亡<g>歿</g>行者王法<g>顯</g>賈慈<g>顯</g>，<g>俱患勞</g>疾死亡，不得傳<g>屍</g>譴<g>迎</g>，殃以後毘。承<g>此碑</g>力，<g>西</g>
+                            <g>方之路</g>自在，受<g>此弥</g>
+                            <g>陁佛</g>
+                            <hi rend="color-headings">/23/</hi>前<g>親聞受記</g>。不<g>受</g>我<g>誡</g>約者，<g>願</g>刀山<g>載淬</g>，<g>釰樹</g>重<g>磨</g>，<g>炉</g>炭<g>鑊湯</g>，終無<g>脫免</g>。<space extent="17"/>
+                            <hi rend="color-headings">/24/</hi>右具如前<g>所</g>有<g>數</g>件誡誓之<g>事</g>
+                            <g>節</g>，<g>希</g>各各<g>寢寐</g>，件件<g>停懲</g>，共發忻<g>懵</g>，同<g>此喜躍</g>，<g>所乞</g>法壽清<g>吉</g>，<g>沌</g>危<g>蕩</g>散；進<g>趣修</g>行，<g>染髮</g>童行；<hi rend="color-headings">/25/</hi>進<g>趣</g>業<g>緣</g>，燈燈相<g>接</g>。但法<g>宗刳</g>心告<g>佛</g>，<g>剔膽投</g>神，專發信誠，<g>輒</g>伸懇誡。是故《<g>礼</g>》云：“約信曰誓，<g>莅</g>牲曰盟。”<note>《禮記<hi rend="smaller"> • </hi>曲禮下》：“約信曰誓，蒞牲曰盟。”《十三經注疏》<ref type="biblio" target="ShisanjingZhushu2003">第1册，第1266a頁</ref>。英譯見理雅各<ref type="biblio" target="Legge1967">第1册，第112頁</ref>。</note>
+                            <space extent="1"/>孔聖之言傳諸後<g>古</g>。<hi rend="color-headings">/26/</hi>唯<g>冀</g>
+                            <space extent="1"/>天<g>曹</g>地府洞<g>鑒</g>是<g>非</g>，<g>畧</g>叙<g>碑</g>詞，<g>敢將塵黷</g>。<g>旹已</g>太<g>歲</g>
+                            <g>癸</g>未崇<g>寧</g>二年九月十四日院主<g>僧</g>法宗小<g>師</g>慈<g>海</g>
+                            <g>仝</g>建立。</quote>
+                    </div>
+                </div>
+                <div>
+                    <head>陀羅尼咒</head>
+                    <p> E區、F區現存兩則大字陀羅尼咒。第一則刊刻在<hi rend="bold">71</hi>號窟d壁《金剛經》《心經》之後第66、67行空白區域内（<ptr target="WFY71d_colophone_DSC2561_stitch.jpg"/>）。左行爲其咒題，曰：“佛心心真言。”右行曰：“唵，摩尼達哩，吽泮吒。”此咒出自《佛心經》，唐菩提流志（卒於727年）譯本卷下。<note>《佛心經》CBETA，T#920，19：13c4－6。此咒又名《隨心咒》，如《佛頂尊勝陀羅尼等靈异神咒二十道》卷一：“《隨心咒》：‘唵，摩尼達哩，吽泮吒。若誦一萬徧，所有爲障閡鬼神皆來敬禮爲使。乃至誦十萬徧，得盡見過去諸佛，所求無閡。’”CBETA，D10，#8814，11a1－4。此咒的早期版本，見《牟梨曼陀羅咒經》T#1007，19：659b3－4，在此經中亦名《隨心咒》。咒曰：“烏唵<hi rend="smaller">（二合，一）</hi>，摩尼達哩<hi rend="smaller">（二合，二）</hi>，虎<g rend="specialfont">𤙖</g>
+                            <hi rend="smaller">（二合，三）</hi>，泮吒<hi rend="smaller">（半聲，四）</hi>。”關於此咒的篇幅較多的版本，見希達斯<ref type="biblio" target="Hidas2012">第152頁</ref>。衷心感謝陳瑞翾慷慨分享其相關研究心得。</note>
+                    </p>
+                    <p>第二則陀羅尼刊刻於<hi rend="bold">73</hi>號窟d壁《合部〈金光明經〉》第一部分之後（第111行）：“佛頂尊勝陀〔羅尼〕。”<note>
+                                全本《佛頂尊勝陀羅尼咒》的兩個本子刊刻於<hi rend="bold">46</hi>號窟。見王平國和蔡穗玲<ref type="biblio" target="Sassmann_Tsai2016"/>。</note>根據刻字書法風格和布局推測，此二則陀羅尼最初不在刊刻計劃之内，而是後來添刻而成，時間或爲10世紀。</p>
+                    <p>卧佛院刊刻《合部〈金光明經〉》亦重視陀羅尼咒語，經咒中兩個梵文詞以雙行小字夾註標識了其讀音。<note>“怚荼<hi rend="smaller">（陀也反）</hi>”和“他富樓抳<hi rend="smaller">（諾履反）</hi>”，<hi rend="bold">76</hi>號窟，e壁，第36行。</note><!--<note>《佛心經》CBETA，T19，#920，13c4－6。此咒又名“隨心咒”，如《佛頂尊勝陀羅尼等靈异神咒二十道》卷1：“隨心咒：唵 〔摩尼達哩〕 吽泮吒。若誦一萬徧，所有爲障閡鬼神皆來敬禮爲使。乃至誦十萬徧，得盡見過去諸佛，所求無閡。”CBETA，D10，#8814，11a1－4。此咒的較早版本，見《牟梨曼陀羅咒經》T#1007, 19: 659b3－4，在此經中其亦名“隨心咒”。咒曰：“烏唵<hi rend="smaller">（二合，一）</hi>摩尼達哩<hi rend="smaller">（二合，二）</hi>虎䙖<hi rend="smaller">（二合，三）</hi>泮吒<hi rend="smaller">（半聲四）</hi>。” 關於此咒的稍長版本，見希達斯<ref type="biblio" target="Hidas2012">第152頁</ref>。衷心感謝陳瑞翾慷慨指教。</note>-->
+                    </p>
+                </div>
+
+                <div>
+                    <head>摩崖綫刻</head>
+                    <p> 尚屬E區的<hi rend="bold">78</hi>號、<hi rend="bold">79</hi>號和F區的<hi rend="bold">80</hi>號爲三處巨型摩崖綫刻。<!--位列<foreign xml:lang="en">Fa</foreign>組四個窟前的是<hi rend="bold">78</hi>，<hi rend="bold">79</hi>和<hi rend="bold">80</hi>號綫雕，而位於四個窟後的是<hi rend="bold">86</hi>號窟裏座未完成的石碑和另一道裂縫。-->
+                        <hi rend="bold">78</hi>號摩崖綫刻高188厘米，描繪一尊結跏趺坐於蓮座上的佛陀（<ptr target="h_78_mosaic_proc_bearb.tif"/>）；<hi rend="bold">79</hi>號摩崖綫刻高150厘米，表現一尊結跏趺坐於更大蓮型座上的佛陀（<ptr target="h_79_mosaic_proc_bearb.tif"/>）；<!--<note>相關描述見《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第390頁</ref>，以及秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第103頁</ref>。</note>-->
+                        <hi rend="bold">80</hi>號摩崖綫刻高257厘米，描繪一尊表情凶悍的護法像（<ptr target="h_80_mosaic_proc_bearb.tif"/>）。<note>相關描述見《成都考古發現》<ref type="biblio" target="ChengduKaoguFaxian2008">第390頁</ref>，以及秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第103－104頁</ref>。</note>三幅摩崖綫刻均殘損嚴重，未見紀年。風格比較顯示，它們近似9世紀末和10世紀的敦煌佛幡絹畫（<ptr target="Dunhuang_banner_VandA_Ch_0086_.jpg"/>，以及<ptr target="Vajrapani_Mogao_85mm-breit.jpg"/>）。</p>
+                </div>
+                <div>
+                    <head>塗刻</head>
+                    <p>
+                        <anchor xml:id="graffiti_start_zh"/>
+                            E區和F區的塗刻可分爲三種類型，本文衹提及少量有研究價值的部分。第一種類型的銘文内容主要是當地人之間的各類契約内容。<hi rend="bold">85</hi>號窟中有三例，依次排布在經文的第一行之前。</p>
+                    <p>最上方的是兩位村民之間的債務契約，日期上述的刻字大小是其左側的經文大小的三倍之大。其簡短文字如下：</p>
+                    <quote>安佳雙 借 龍公。 一九九六八廟鄉。</quote>
+
+                    <p>其下爲一對伴侣的姻緣祝願，這部分文字刻痕較淺，他們二人的名字并排相依： <quote>祝卜鳳群、楊春勇。 </quote>
+                    </p>
+                    <p>再往下的内容與其説是刻文，不如説是塗劃：<quote>一九九五年，楊波與舒曉菊結拜爲姐弟。</quote>
+                    </p>
+                    <p>第二類塗刻粗製濫造，隨意刻劃，<hi rend="bold">83</hi>號窟d壁的兩個“果”字刻劃粗陋。第三類塗刻衹不過是岩石上的擦痕，其書法同樣俗不可耐。後兩類塗刻一般没有特殊意義。<anchor xml:id="graffiti_end_zh"/>
+                    </p>
+                    <!--
+                        <p>衆多塗刻之中僅有個别值得留意。可將他們分爲三組。第一組僅是在石面上劃刻，字迹潦草；第二組是刊刻進岩石面的塗刻，大多數字迹潦草。例如83號窟d壁兩個醜陋的“果”字。這兩組塗刻基本上未傳達具體文本信息。然而第三組則不然，他們深刻入岩石面，是當地人的生活檔案。如<hi rend="bold">85</hi>號窟d壁第1行之前（見d壁，1B），記載了兩位村民之間的債務關係：安佳[?]雙借龍公，一九九六八廟鄉。1_c中間，祝賀<foreign xml:lang="en">Bu</foreign>和<foreign xml:lang="en">yang</foreign>的婚配。1_c和1_d下面，記載了一對姐弟關係，<foreign xml:lang="en">yang</foreign>和<foreign xml:lang="en">shu</foreign>在1995年結義爲姐弟。</p>-->
+
+
+                </div>
+                <div>
+                    <figure rend="left" n="figure" xml:id="WFY71d_colophone_DSC2561_stitch.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">71</hi>號窟d壁《佛心心真言》拓本。20世紀80年代拓製 </head>
+                        <head>Rubbing of the <hi rend="italic">dhāraṇī</hi> spell, cave <hi rend="bold">71</hi>, wall d; taken in the 1980s</head>
+                        <graphic url="WFY71d_colophone_DSC2561_stitch.jpg"/>
+                    </figure>
+                    <figure rend="left" n="figure" xml:id="h_78_mosaic_proc_bearb.tif">
+                        <head xml:lang="zh">
+                            <hi rend="bold">78</hi>號摩崖綫刻結跏趺坐佛像。<!--北京天遠三維科技有限公司-->掃描於2010年 </head>
+                        <head>Line drawing <hi rend="bold">78</hi> of a seated Buddha; scan taken in
+                            2010<!-- by Beijing Tianyuan 3D Technology co., LTD.-->
+                        </head>
+                        <graphic url="h_78_mosaic_proc_bearb.tif"/>
+                    </figure>
+                </div>
+
+
+            </div>
+            <div xml:lang="en">
+                <head type="subtitle">Sections E and F in the Southern Escarpment</head>
+                <head type="author">Lothar Ledderose</head>
+                <div>
+                    <head>Caves in Section E</head>
+                    <p>E and F are the easternmost sections on the southern side of the Grove of the
+                        Reclining
+                        Buddha<!-- (fig. <ptr target="Section_F_Panorama_DSC1082_stitch.jpg"/>)-->.
+                        These two sections have more caves—seven and nine respectively—than any of
+                        the preceding sections, A to D, but in each section of E and F one finds
+                        only four walls engraved with sutra texts.</p>
+                    <p>Section E has an overall length of some 19 m (fig. <ptr target="section_E.svg"/>). As in the preceding sections C and D, its
+                        caves are set into a bulge in the rock escarpment, which here protrudes even
+                        further. Near the end of section D is a narrow cleft in the cliff face; the
+                        first architectural item beyond the cleft is shrine <hi rend="bold">70</hi>
+                        (fig. <ptr target="w71-72.jpg"/>). It is filled with the usual group of
+                        seven figures, centering on a Buddha on a lotus throne. The archaeological
+                        reports of 2006 and 2015 count this shrine as still belonging to section D,
+                        probably because its floor is on the same level as that of cave <hi rend="bold">65</hi> to its west.<note>
+                            <ref type="biblio" target="ChengduKaoguFaxian2008">384–385</ref>; <ref type="biblio" target="Qin_Zhang_Lei2015">92–93</ref>. </note> We
+                        have followed this division and discussed shrine <hi rend="bold">70</hi> in
+                            <ref type="biblio" target="Sichuan_4"/>.<note>
+                            <ref type="biblio" target="Sichuan_4">3, fig.1, and
+                            598–599</ref>.</note>
+                    </p>
+                    <p>Adjacent to shrine <hi rend="bold">70</hi>, but with its floor 105 cm higher,
+                        is cave <hi rend="bold">71</hi> (fig. <ptr target="w71-02.jpg"/>). It is the
+                        first in a horizontal row of five caves—<hi rend="bold">71</hi>, <hi rend="bold">72</hi>, <hi rend="bold">73</hi>, <hi rend="bold">74</hi>,
+                        and <hi rend="bold">77</hi>—that extend roughly from west to east, all about
+                        3 m above the paved walkway, on the southern side of the valley (fig. <ptr target="section_E.svg"/>). Originally, the five caves may all have been
+                        planned as standard-sized box-shaped sutra caves, in which height, width,
+                        and depth all measure about 2.2 m.<note>For the various types and sizes of
+                            the caves and the fields of script in the Grove see <ref type="biblio" target="Ledderose2014">25–30</ref>.</note> Yet only the first three
+                        caves in the row were cut deeply enough to accommodate sutras, and today
+                        only caves <hi rend="bold">71</hi> and <hi rend="bold">73</hi> contain sutra
+                        texts.</p>
+                    <p>Here, for the first time in the escarpment, there are caves forming a second
+                        tier, cave <hi rend="bold">75</hi> on top of <hi rend="bold">73</hi>, and
+                        cave <hi rend="bold">76</hi> straddling the space between <hi rend="bold">74</hi> and <hi rend="bold">77</hi> (fig. <ptr target="section_e_stitch1.jpg"/>). (A second tier was attempted in
+                        section D, albeit not with caves, but with shrines <hi rend="bold">67</hi>,
+                            <hi rend="bold">68</hi>, and <hi rend="bold">69</hi> above cave <hi rend="bold">65</hi>.)<note>For a plan with the elevation of section D
+                            see <ref type="biblio" target="Sichuan_4">3, fig.1</ref>.</note>
+                    </p>
+                    <p>Engraved on the right-hand wall (wall d)<note>The walls in a cave are
+                            lettered from a to i, though most caves are less complicated in design.
+                            For the ground plan of a cave with the maximum number of walls,
+                            demonstrating how they are lettered, see cave <hi rend="bold">46</hi> in
+                            Section C (<ref type="biblio" target="Sichuan_3">185, fig.
+                            43</ref>).</note> of cave <hi rend="bold">71</hi>, the first in the row
+                        of five caves, are the <hi rend="italic">Diamond Perfection of Wisdom
+                            Sutra</hi> (<hi rend="italic">
+                            <foreign xml:lang="sa">Vajracchedikā-prajñā­pāramitā-sūtra</foreign>
+                        </hi>; <hi rend="italic">Jingang banre boluomi jing </hi>
+                        <foreign xml:lang="zh">金剛般若波羅蜜經</foreign>; hereafter: <hi rend="italic">Diamond Sutra</hi>) and the <hi rend="italic">Heart of the Perfection
+                            of Wisdom Sutra</hi> (*<hi rend="italic">
+                            <foreign xml:lang="sa">Mahā­prajñā­pāramitā­hṛdaya-sūtra</foreign>
+                        </hi>; <hi rend="italic">Banre boluomiduo xin­jing </hi>
+                        <foreign xml:lang="zh">般若波羅蜜多心經</foreign>; hereafter: <hi rend="italic">Heart Sutra</hi>), the two texts filling 64 columns. The sutras are
+                        followed in column 65 by an undated but probably eighth century colophon by
+                        a certain Yang Sishen <foreign xml:lang="zh">楊思慎</foreign>. Thereafter comes
+                        a <hi rend="italic">
+                            <foreign xml:lang="sa">dhāraṇī</foreign>
+                        </hi> spell, in large characters, in two separate columns.<note>See below,
+                            note <ptr type="footnote" target="YangSishen"/>.</note>
+                    </p>
+                    <!--<figure rend="center" n="figure" xml:id="Section_F_Panorama_DSC1082_stitch.jpg">
+                        <head xml:lang="zh">E區與F區起始處全景。2012年拍攝</head>
+                        <head>Panorama of section E and the beginning of section F; photographs taken in 2012
+                        </head>
+                        <graphic url="Section_F_Panorama_DSC1082_stitch.jpg"/>
+                    </figure>-->
+                    <p>There are no sutra engravings on the rear wall (wall e). The icon of a seated
+                        Buddha with legs pendant, his hands holding an alms bowl, has been carved
+                        into the wall instead (fig. <ptr target="w71-12.jpg"/>). This is unusual:
+                        normally such figures protrude from the wall. Also set into the wall,
+                        flanking the main icon, are four small shrines, two on either side, arranged
+                        vertically and filled with figures: <hi rend="bold">71-1</hi> and <hi rend="bold">71-2</hi> on the left, and <hi rend="bold">71-3</hi> and <hi rend="bold">71-4</hi> on the right. Above the shrines the surface is
+                        only roughly hewn. Possibly all the figures are later additions: their being
+                        set into the wall seems to indicate a change of plan from a sutra cave to a
+                        cave with sculptures. Conceivably the entire cave was originally intended to
+                        be filled with sutras, but a later donor preferred images to texts. That the
+                        plans for these caves sometimes changed midstream can be seen as well
+                        several meters to the west, in the box-shaped cave <hi rend="bold">65</hi>
+                        in section D (see <ref type="biblio" target="Sichuan_4">3, fig. 1</ref>).
+                        There, all the walls were smoothed in preparation for engravings that were
+                        never executed.</p>
+                    <p>The left-hand wall of cave <hi rend="bold">71</hi>, wall f, is undecorated.
+                        The wall functions also as the right-hand wall, wall d, of cave <hi rend="bold">72</hi>, but a large portion of it has disappeared.</p>
+                    <p>The standard-sized cave <hi rend="bold">72</hi> houses, like cave <hi rend="bold">71</hi>, a seated Buddha with legs pendant carved into the
+                        rear wall, here with hands crossed before his chest (fig. <ptr target="w72-02.jpg"/>). There are no texts engraved in this cave.</p>
+                    <figure rend="center" n="figure" xml:id="cave77_DSC_0018.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">77</hi>號窟以及毗鄰的<hi rend="bold">74</hi>號窟。2010年拍攝</head>
+                        <head>Cave <hi rend="bold">77</hi> and neighboring cave <hi rend="bold">74</hi>; photograph taken in 2010 </head>
+                        <graphic url="cave77_DSC_0018.JPG"/>
+                    </figure>
+                    <p>On walls d and e in neighboring cave <hi rend="bold">73</hi> (fig. <ptr target="WFY_73_IMGP6682.JPG"/>), however, which is also standard-sized,
+                        are engraved six chapters of the <hi rend="italic">Synoptic Golden Light
+                            Sutra</hi> (<hi rend="italic">Hebu Jinguangming jing </hi>
+                        <foreign xml:lang="zh">合部金光明經</foreign>; hereafter: <hi rend="italic">Golden
+                            Light Sutra</hi>).</p>
+                    <p>The engraved version differs from that in the <hi rend="italic">
+                            <foreign xml:lang="ja">Taishō</foreign>
+                        </hi> in two respects. In the <hi rend="italic">
+                            <foreign xml:lang="ja">Taishō</foreign>
+                        </hi> version the division between scrolls 1 and 2 falls between chapters 3
+                        and 4; but in the Grove it falls between chapters 4 and 5; and, in addition,
+                        the sequence of chapters 6 and 7 is reversed. Thus the six chapters that the
+                        carvers completed in cave <hi rend="bold">73</hi> include <hi rend="italic">
+                            <foreign xml:lang="ja">Taishō</foreign>
+                        </hi> chapter 7, but lack <hi rend="italic">
+                            <foreign xml:lang="ja">Taishō</foreign>
+                        </hi> chapter 6.<note>For the intricate story of the various redactions of
+                            the sutra, see the article <hi rend="italic">The *<foreign xml:lang="sa">Suvarṇabhāsottama-sūtra</foreign><!-- at Wofoyuan Caves <hi rend="bold">73</hi> and <hi rend="bold">76</hi>-->
+                            </hi>
+                            in the present
+                            volume.<!--(pp. <ptr type="infra" target="Radich_start Radich_end"/>)-->
+                        </note>
+                    </p>
+                    <p>In cave <hi rend="bold">73</hi> one can observe a slackening of craftsmanship
+                        as the work progressed. At the outset of the engraving, on the right-hand
+                        wall (wall d), the characters are arranged in a grid of both vertical
+                        columns and horizontal rows. Thin vertical lines mark the columns, with ten
+                        characters having a standard length of 20.5 cm; a typical column has 88
+                        characters; and ten columns measure 21 cm in width, which is standard at the
+                        Grove. Yet when the second scroll begins in column 106 at the end of wall d,
+                        the grid pattern deteriorates: horizontal rows are given up, and the
+                        vertical sequence of the characters becomes tighter, with as many as 120
+                        characters in column 119. By forfeiting horizontal rows, less attention was
+                        needed on the part of the carvers, and they also could crowd more characters
+                        into the available space. </p>
+                    <p>The more casual layout continues on wall e at the rear of the cave. The
+                        number of characters per column remains uneven, and the length of ten
+                        characters varies from 14.5 to 20 cm, although columns and characters are
+                        not so tightly engraved as they are at the end of wall d. Wall e has a width
+                        of 223 cm, but the field of script is only 137 cm wide. </p>
+                    <p>Nor is the sutra continued on the left-hand side of the cave (wall f). Only
+                        later was another chapter of the sutra carved in cave <hi rend="bold">76</hi>. Instead, wall f is completely covered by a grid with small
+                        Buddhas carved in relief, in the Thousand Buddha (<hi rend="italic">qian
+                            fo</hi>
+                        <foreign xml:lang="zh">千佛</foreign>) pattern. A central line divides the
+                        grid vertically into two halves, with 21 horizontal rows on the right and 23
+                        rows on the left, each row with 19–26 figures. Thus almost certainly one
+                        thousand Buddha figures were carved on the wall, of which 987 are still
+                        preserved. A larger Buddha figure presides above the central line dividing
+                        the two halves. Probably this is <foreign xml:lang="sa">Śākyamuni</foreign>
+                        preaching the <hi rend="italic">Golden Light Sutra</hi>, and the thousand
+                        Buddhas, then, are those of the present eon.<note>The names of 3,800
+                            Buddhas, for instance, are engraved in cave <hi rend="bold">29</hi>. See
+                                <ref type="biblio" target="Sichuan_2">80–295</ref>.</note>
+                    </p>
+                    <p>Wall d in cave <hi rend="bold">73</hi> has a colophon dated 727 and wall e a
+                        colophon dated 733.</p>
+                    <p>The last two in the row of five caves, <hi rend="bold">74</hi> and <hi rend="bold">77</hi>, were never hollowed out deeply enough to serve as
+                        standard-sized sutra caves. At the rear wall of cave <hi rend="bold">74</hi>
+                        is the figure of a standing Bodhisattva (fig. <ptr target="cave74_w74-01.jpg"/>), and at the rear of cave <hi rend="bold">77</hi> is a sculpture that the carvers began but never finished (fig.
+                            <ptr target="cave77_DSC_0018.JPG"/>; see also <ref type="biblio" target="Sichuan_1">28, fig. 21</ref>).</p>
+                    <p>The two caves <hi rend="bold">75</hi> and <hi rend="bold">76</hi> in the
+                        upper row (fig. <ptr target="section_e_stitch1.jpg"/>) are also box-shaped,
+                        but here, height, width and depth measure only about 2 m and not about 2.2 m
+                        as in standard-sized caves. The two caves can only be reached by a ladder or
+                        scaffolding, since they are more than 6 m above the walkway that runs on the
+                        southern side of the valley in front of sections A to F. Cave <hi rend="bold">75</hi> is the highest cave that a visitor arriving from the
+                        west would so far have encountered (fig. <ptr target="cave75_DSC_1175.JPG"/>). It sits directly above cave <hi rend="bold">73</hi> with its six
+                        chapters of the <hi rend="italic">Golden Light Sutra</hi>, but is completely
+                        empty. Yet in cave <hi rend="bold">76</hi> to the left of <hi rend="bold">75</hi>, the makers continued with the sutra that they had begun in
+                        cave <hi rend="bold">73</hi>. They started to engrave chapter 7 (<hi rend="italic">
+                            <foreign xml:lang="ja">Taishō</foreign>
+                        </hi> chapter 6), the <hi rend="italic">
+                            <foreign xml:lang="sa">Dhāraṇī</foreign>
+                        </hi> chapter, presumably working towards the eventual completion of the
+                        entire sutra with its 24 chapters in eight scrolls. </p>
+                    <p>In cave <hi rend="bold">76</hi>, as in cave <hi rend="bold">73</hi>, thin
+                        vertical lines define the columns, but there is no full-fledged grid with
+                        horizontal lines. A grid would in any case have been unsatisfactory, because
+                        small cracks in the wall already hampered the work. As usual, the carvers
+                        began on the right of wall d next to the entrance. Soon, however, they ran
+                        into difficulties. They had to take into account a narrow horizontal crack,
+                        about 38 cm above the floor, which interrupts the vertical columns in
+                        segments 1D to 7D (for the location of the segments see p. <ptr target="WFY76d_images_segments" type="infra"/>). From column 14 onwards,
+                        they left a whole area blank, extending from about 148 cm above the floor to
+                        the upper edge of the field of script. This allows us a glimpse into how the
+                        work actually progressed. The carvers did not follow the sequence of the
+                        text as the calligrapher had written it on the wall in ink, but instead
+                        started off by engraving a group of parallel columns only up to a height of
+                        about one and a half meters, which they could do standing on the floor of
+                        the cave. Then, they would have had to climb on a ladder or stool to
+                        complete the upper portions of the columns in sections A1 to A7. Yet they
+                        never did.<note>Also discussed in <ref type="biblio" target="Sichuan_1">32–33, fig. 25</ref>. </note> They ended their engraving work
+                        altogether with column 41, although vertical grid lines continue for another
+                        eight columns, measuring 17 cm in width. We can assume that the remainder of
+                        the scroll was written in those columns in ink, waiting for the engravers to
+                        carve it. But the <hi rend="italic">Golden Light Sutra</hi> remained
+                        unfinished.</p>
+                    <p>Nor were any engravings attempted on walls e and f, though preparations had
+                        begun with some abrasion of their surfaces. As in other caves, the decision
+                        to abandon work may have been hastened by the cave’s geology.</p>
+                    <p>A horizontal crack, running through segments 1D to 7D, ca. 38 cm above the
+                        floor, was already present when the sutra was carved. Initially, the crack
+                        seems to have been narrow towards the beginning of the text, but widened
+                        from columns 37 to 41 (segment 7D), and the text took it into account by
+                        skipping over it. Nowadays, however, the crack is very much wider towards
+                        the entrance with a consequent loss in text.</p>
+                    <p>The situation was aggravated in the 1980s by well-meaning but misguided
+                        attempts to strengthen the surface of the walls with chemical treatment. The
+                        results have been detrimental. The engraved layer, 2 to 4 millimeters thick,
+                        continues to flake off as is all too evident in segments 6B and 6C. Rubbings
+                        made in the 1980s show characters that had disappeared by 2012, when the
+                        photographs for this volume were taken, for example, in segments 5A, 5B, 6B,
+                        and 6C. Part of the engraved layer that fell off after our first visit, in
+                        September 2010, was found lying on the ground when we revisited the site on
+                        October 6, 2012. Our preliminary early photographs from 2010 that show
+                        fragments now lost have been inserted into the plates in this volume, where
+                        they are outlined in red.</p>
+                    <p>About 5.40 m to the east of cave <hi rend="bold">77</hi>, the bulge in the
+                        escarpment begins to recede, bringing section E to an end. In sum, section E
+                        has seven caves, of which three contain sutras, <hi rend="bold">71</hi>
+                        (wall d), <hi rend="bold">73</hi> (walls d and e), and <hi rend="bold">76</hi> (wall d), while caves <hi rend="bold">72</hi>, <hi rend="bold">74</hi>, <hi rend="bold">75</hi>, and <hi rend="bold">77</hi> are
+                        without.</p>
+                </div>
+                <div>
+                    <head>Caves in Section F</head>
+                    <p>Section F extends for about 40 m; it is the longest of all the sections on
+                        the southern side of the Grove (fig. <ptr target="Section_F_Panorama_DSC1085_stitch.jpg"/>), but it contains only
+                        two sutra caves with a total of four engraved walls.</p>
+                    <p>The distance between wall f of cave <hi rend="bold">77</hi>, the last cave in
+                        section E, and wall d of cave <hi rend="bold">81</hi>, the first cave in
+                        section F, measures about 7.3 m. Between them is a deep crevice in the
+                        cliff.</p>
+                    <p>Section F can be divided into two parts, Fa and Fb (see fig. <ptr target="Sections_A-F_map.tif"/>). Only Fa contains caves with sutras.
+                        The two caves belong to a group of four in a rock face 10.4 m wide, where
+                        the bulge recedes so much that the caves face more or less
+                        north<!-- (fig. <ptr target="Sections_A-F_map.tif"/>)-->. The four caves
+                        form a neatly designed ensemble arranged in two tiers, with the twin caves
+                            <hi rend="bold">81</hi> and <hi rend="bold">84</hi> below, about 3 m
+                        above the walkway, and the twin caves <hi rend="bold">83</hi> and <hi rend="bold">85</hi> above (fig. <ptr target="section_F_a.svg"/>). The
+                        latter are those with sutras, and, together with cave <hi rend="bold">76</hi> in section E, they are the highest sutra caves in the Grove’s
+                        southern escarpment, here almost 7 m above the walkway. When they were
+                        built, they were even higher, because the ground of the valley was lower at
+                        the time, as excavations in front of the statue of the Reclining Buddha have
+                        shown.</p>
+                    <p>Between caves <hi rend="bold">81</hi> and <hi rend="bold">84</hi> sits niche
+                            <hi rend="bold">82</hi>, once covered by a gable roof (fig. <ptr target="section_f_stitch2.jpg"/>). Still visible are the diagonal slits
+                        in the rock face, into which the two roof surfaces were fitted. The niche
+                        houses a group of five well-sculpted figures. A <foreign xml:lang="sa">Śākyamuni</foreign> Buddha is seated on his throne, below which are two
+                        tiny lions standing on their hind legs. <foreign xml:lang="sa">Śākyamuni</foreign> is flanked on either side by his two principal
+                        disciples: on his left, the younger <foreign xml:lang="sa">Ānanda</foreign>,
+                        with one muscular arm bared and the other holding a sutra (fig. <ptr target="WFY_cave82_82-04.jpg"/>); and on his right, the older <foreign xml:lang="sa">Kāśyapa</foreign>. A step down on either side stand two
+                        Heavenly Kings (<hi rend="italic">
+                            <foreign xml:lang="sa">lokapāla</foreign>
+                        </hi>; Tianwang <foreign xml:lang="zh">天王</foreign>) on subjugated demons,
+                        both kings clad in armor. On the exterior wall beneath niche <hi rend="bold">82</hi> is engraved a colophon dating to the tenth century.</p>
+                    <figure rend="center" n="figure" xml:id="Section_F_Panorama_DSC1085_stitch.jpg">
+                        <head xml:lang="zh">F區全景。2012年拍攝</head>
+                        <head>Panorama of section F; photographs taken in 2012 </head>
+                        <graphic url="Section_F_Panorama_DSC1085_stitch.jpg"/>
+                    </figure>
+                    <p>Cave <hi rend="bold">81</hi>, to the right of the niche, has no sutra
+                            text.<note>The ground plan of cave <hi rend="bold">81</hi> is
+                            trapezoidal. At the entrance, wall d is 252 cm high and wall f 220 cm,
+                            but the entrance is only 185 cm wide. The rear wall e is 232 cm high at
+                            its center, but the cave is only 175 cm deep.</note> Set into its rear
+                        wall, however, is a field of script shaped like a stele in relief, with a
+                        long inscription dated 1103 (fig. <ptr target="WFY_81e_DSC7918_stitch.jpg"/>). The height of the twin cave <hi rend="bold">84</hi> is that of a
+                        standard-sized sutra cave, but, like cave <hi rend="bold">81</hi>, its
+                        narrow width and shallow depth make it less suitable to be one, and in fact,
+                        it is completely empty.<note>The entrance to cave <hi rend="bold">84</hi> is
+                            225 cm high, but only 160 cm wide. The cave is not as deep as cave <hi rend="bold">81</hi>; its depth at the center is 165 cm, and its
+                            walls d and f are only 153 and 140 cm wide respectively. The rear wall e
+                            leans slightly forward; it has a width of 250 cm and at its center is
+                            218 cm high.</note>
+                    </p>
+                    <p>The twin upper caves have the standard opening of a box-shaped cave, but they
+                        are deeper than usual, for a reason that will presently be explained.</p>
+                    <p>As mentioned above, the two caves are the only caves in section F with sutra
+                        texts. In cave <hi rend="bold">83</hi> an attempt was made to progress with
+                        the engraving of the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi> (<hi rend="italic">
+                            <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                        </hi>, <hi rend="italic">Da banniepan jing </hi>
+                        <foreign xml:lang="zh">大般涅槃經</foreign>, hereafter: <hi rend="italic">Nirvana
+                            Sutra</hi>), work on which had halted in cave <hi rend="bold">66</hi> of
+                        section D. The oversized depth of cave <hi rend="bold">83</hi> would have
+                        lent itself to a large portion of this text, but, unfortunately, after only
+                        19 columns on wall d, carving ground to a halt. Walls e and f are empty.</p>
+                    <p>Cave <hi rend="bold">85</hi> contains the entire <hi rend="italic">Sutra
+                            Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                        </hi> (<hi rend="italic">Weimojie suo shuo jing </hi>
+                        <foreign xml:lang="zh">維摩詰所説經</foreign>; hereafter: <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>) and nothing
+                        else. It is the only cave at the Grove that is completely filled by a single
+                        sutra. All other sutras are either too long or too short to fit the walls of
+                        a cave precisely, the only exception being the <hi rend="italic">Sutra
+                            Spoken by the Buddha on the Names of the Buddhas </hi> (<hi rend="italic">Fo shuo Fo­ming jing </hi>
+                        <foreign xml:lang="zh">佛説佛名經</foreign> in cave <hi rend="bold">29</hi>, where a version of the
+                        text was chosen that just filled the space.<note>For this sutra, see <ref type="biblio" target="ChenShihChung2014a"/>.</note> When the
+                        designers decided to fit the entire <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> into one cave,
+                        they obviously had to give its arrangement much thought. The calligraphy is
+                        carefully executed, and the columns and rows are neatly arranged. Cave <hi rend="bold">85</hi> thus offers us a rare chance to trace the design
+                        process and to envision the choices that the makers faced.</p>
+                    <p>The sutra has three scrolls. The first scroll has 9,748 characters in four
+                        chapters (chapters 1–4); the second scroll has 9,624 characters in five
+                        chapters (chapters 5–9); and the third scroll has 7,592 characters, also in
+                        five chapters (chapters 10–14).</p>
+                    <p>The first and second scrolls, each about ten thousand characters, fit the
+                        walls of a standard box-<hi rend="nh">shaped</hi> cave very well, where the
+                        cave’s height, width, and depth all measure about 2.2 m. An example is the
+                        aforementioned cave <hi rend="bold">29</hi>, which has roughly ten thousand
+                        characters on each of its three walls; ten thousand being the average number
+                        of characters in a sutra scroll. But in the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>, the third
+                        scroll is considerably shorter: it has only three quarters of the usual
+                        number of characters. The builders did not need a wall of standard size to
+                        engrave it.</p>
+                    <p>
+                        <anchor xml:id="reshuffle_start"/>If the makers wanted to fit the sutra into
+                        cave <hi rend="bold">85</hi> in an aesthetically pleasing fashion—which
+                        presumably was their aim—they could adapt the calligraphy or adapt the
+                        architecture. To fill the entire surface of a standard-sized cave, the
+                        carvers could have chosen to carve larger characters. But that would have
+                        forced both calligraphers and carvers to change their habits, which no doubt
+                        they were loath to do. Indeed, everywhere in the grove, the characters are
+                        of similar size: within a column, ten characters usually measure about 21 cm
+                        in length, and the width of ten columns is about 21 cm as well.</p>
+                    <p>The designers of cave <hi rend="bold">85</hi> thus chose instead to adapt the
+                        architecture to the sutra and to make the cave smaller than a standard-sized
+                        cave, which had the welcome result of lessening the labor needed to cut the
+                        cave into the rock. One simple way to reduce the cave’s volume would have
+                        been to maintain the standard size of the cave at the front, but to bore
+                        less deeply into the cliff. This, however, was a solution they rejected: the
+                        topography here made it advisable to lower the cave in height, since its
+                        ceiling comes close to the upper edge of the cliff above. But would a
+                        box-shaped cave of substandard dimensions have been an option? An example is
+                        the nearby box-shaped cave <hi rend="bold">76</hi>, where the entrance
+                        measures ca. 200 × 196 cm. In cave <hi rend="bold">85</hi>, the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign>
+                        </hi> cave, the entrance is reduced to a similar size: it measures ca. 212 ×
+                        ca. 188 cm. Yet if the cave had then been given the normal box shape, in
+                        which the side walls are of the same size as the opening at the entrance,
+                        the combined area of the three walls inside would have been insufficient to
+                        accommodate the entire <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. Thus the
+                        builders decided to abandoned the square ground plan design. They bored cave
+                            <hi rend="bold">85</hi> deeper into the mountain than was usual: its
+                        side walls d and f are both 320 cm wide, almost half again as wide as in a
+                        standard box-shaped cave. It is the deepest cave in sections E and F. In
+                        this way the builders customized the wall space for the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</p>
+                    <p>The designers then adapted the sequence of the three scrolls to the
+                        architecture. They placed the two long scrolls 1 and 2 on the opposite walls
+                        d and f, and the short scroll 3 on the rear wall e. Such a reshuffling of a
+                        text is not seen in any other cave. Apart from considerations of symmetry,
+                        the designers may still have had another reason for this particular sequence
+                        of the scrolls. In caves with sculptures, the rear wall is the most
+                        prestigious wall, against which is placed the icon of the Buddha. In cave
+                            <hi rend="bold">85</hi>, the third scroll of the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> takes this
+                        place.</p>
+                    <p>The third scroll, with chapters 10 to 14, is the climax of the sutra: here
+                        Buddha <foreign xml:lang="sa">Śākyamuni</foreign> speaks himself. Chapter 10
+                        has the famous scene of <foreign xml:lang="sa">Vimalakīrti</foreign>
+                        providing fragrant food to his entourage; in chapter 11, <foreign xml:lang="sa">Vimalakīrti</foreign> leaves his house, accompanied by his
+                        retinue, to enter into discourse with <foreign xml:lang="sa">Śākyamuni</foreign>; in chapter 12, <foreign xml:lang="sa">Śākyamuni</foreign> speaks to <foreign xml:lang="sa">Vimalakīrti</foreign> and explains how to visualize him; and in
+                        chapters 13 and 14 <foreign xml:lang="sa">Śākyamuni</foreign> speaks to the
+                        god Indra and the bodhisattva Maitreya. Had there been a sculpture of
+                            <foreign xml:lang="sa">Śākyamuni</foreign> in the cave, the visitor
+                        would have faced him on the central axis; here, the visitor faces <foreign xml:lang="sa">Śākyamuni</foreign>’s words instead.<note>I thank Claudia
+                            Wenzel for pointing this out. In an earlier volume she identified the
+                            passage from chapter 12 of the <hi rend="italic">
+                                <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> engraved on
+                            Mount Ge in Shandong as the sutra’s climax. See <ref type="biblio" target="Shandong_2">198</ref>.</note>
+                    </p>
+                    <p>But this well-conceived design was not carried out in its entirety. The
+                        carvers placed chapters 1 to 4 of scroll 1 on wall d, and chapters 5 to 9 of
+                        scroll 2 on the opposite wall f. Yet at the end of wall d, they still had
+                        some free space, and it was there that—from a schematic point of view, quite
+                        illogically—they carved the first ten columns from chapter 10 of scroll 3,
+                        though clearly the intention had been to begin scroll 3 only on the rear
+                        wall e. On wall e, they then finished chapter 10 and continued with chapters
+                        11 through 14. Yet it was unnecessary to begin scroll 3 on the side wall d
+                        because there was space enough for it on wall e: wall e’s field of script is
+                        only 143 cm wide, leaving an empty area to the left of some 37 cm. Hence,
+                        what must have been the original design—a narrower rear wall entirely
+                        covered with the third and last scroll of the text—was not fully realized.
+                            <anchor xml:id="reshuffle_end"/>
+                    </p>
+                    <figure rend="center" n="figure" xml:id="section_f_stitch2.jpg">
+                        <head xml:lang="zh">F區第一以及第二窟組。2012年拍攝</head>
+                        <head>First and second cluster of caves in section F; photograph taken in
+                            2012 </head>
+                        <graphic url="section_f_stitch2.jpg"/>
+                    </figure>
+                    <p>The twin cave <hi rend="bold">83</hi> is also very deep, with walls d and f
+                        about 3 m wide, not quite as wide as those of cave <hi rend="bold">85</hi>,
+                        but considerably longer than usual. Had the engraving of the <hi rend="italic">Nirvana Sutra</hi> in the cave continued, much could have
+                        been accomplished, but, as we saw above, the carving was abandoned.</p>
+                    <p>The group of four caves in section Fa is followed by an unfinished stele in
+                        niche <hi rend="bold">86</hi> and another cleft. From here on till the very
+                        end of section F are five more caves, but all of them without sutras. Still
+                        in section Fa are the unfinished twin caves <hi rend="bold">88</hi> and <hi rend="bold">89</hi> (fig. <ptr target="WFY_8_89_90_DSC_0513.JPG"/>). In
+                        cave <hi rend="bold">88</hi> only the lower half has been cut into the rock,
+                        as was the case with cave <hi rend="bold">41</hi> in section B, thus
+                        confirming that this was the way the caves were made.<note>This process is
+                            observed and described in <ref type="biblio" target="ChengduKaoguFaxian2008">368</ref>; and in <ref type="biblio" target="LeiYH_WangJP_FuCJ2009">100–101</ref>. See also <ref type="biblio" target="Sichuan_2">14, 438–439.</ref>
+                        </note> Immediately to the left of cave <hi rend="bold">89</hi> is a
+                        five-storied pagoda, <hi rend="bold">90</hi>, engraved in relief, and almost
+                        above it to the left a small tomb pagoda, <hi rend="bold">126</hi> (fig.
+                            <ptr target="section_F_a.svg"/>), also in relief, which was discovered
+                        only later. Here ends section Fa. First to appear in section Fb are <hi rend="bold">90-1</hi>, perhaps the beginning of a niche, and niche <hi rend="bold">91</hi> with a bodhisattva figure in relief and a
+                        fragmentary figure beside it (fig. <ptr target="section_F_b.svg"/>). Both
+                            <hi rend="bold">90-1</hi> and <hi rend="bold">91</hi> are at a height of
+                        some 5 m above the walkway.</p>
+                    <p>After a further substantial cleft, there is another large bulge in the cliff
+                        face with a group of three caves, <hi rend="bold">92</hi>, <hi rend="bold">93</hi>, and <hi rend="bold">94</hi>, all more than 5 m above the
+                        walkway (fig. <ptr target="WFY_92_93_94_DSC_0450.JPG"/>). This is the second
+                        group of three caves in the precinct, after the large group in section C,
+                        but in this case all three caves are empty. Here the bulge in the cliff
+                        comes to an end, and no more caves are found further east in the southern
+                        escarpment. </p>
+                    <p>In sum, section F has nine caves, of which two contain sutras, <hi rend="bold">83</hi> (wall d) and <hi rend="bold">85</hi> (walls d, e,
+                        and f), while caves <hi rend="bold">81</hi>, <hi rend="bold">84</hi>, <hi rend="bold">88</hi>, <hi rend="bold">89</hi>, <hi rend="bold">92</hi>,
+                            <hi rend="bold">93</hi>, <hi rend="bold">94</hi> are without. Cave <hi rend="bold">81</hi>, however, contains the stele inscription of
+                        1103.</p>
+                    <figure rend="center" n="figure" xml:id="WFY_8_89_90_DSC_0513.JPG">
+                        <head xml:lang="zh">未完成的<hi rend="bold">88</hi>、<hi rend="bold">89</hi>號雙窟以及<hi rend="bold">90</hi>號五層塔龕。2010年拍攝</head>
+                        <head>Unfinished twin caves <hi rend="bold">88</hi> and <hi rend="bold">89</hi> and relief pagoda <hi rend="bold">90</hi>; photograph taken
+                            in 2010</head>
+                        <graphic url="WFY_8_89_90_DSC_0513.JPG"/>
+                    </figure>
+                    <!--<figure rend="center" n="figure" xml:id="WFY_92_93_94_DSC_0450.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">92</hi>、<hi rend="bold">93</hi>、<hi rend="bold">94</hi>號窟。2012年拍攝</head>
+                        <head>Caves <hi rend="bold">92</hi>, <hi rend="bold">93</hi>, and <hi rend="bold">94</hi>; photograph taken in 2012</head>
+                        <graphic url="WFY_92_93_94_DSC_0450.JPG"/>
+                    </figure>-->
+                </div>
+                <div>
+                    <head>Sutra Texts</head>
+                    <p>Five sutra texts are engraved in the two sections: in section E, the <hi rend="italic">Heart Sutra</hi> and the <hi rend="italic">Diamond
+                            Sutra</hi> in their entirety, and the beginning chapters of the <hi rend="italic">Golden Light Sutra</hi>; in section F, a small part of the
+                            <hi rend="italic">Nirvana Sutra</hi>, plus the entire <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. The <hi rend="italic">Heart Sutra</hi> and the <hi rend="italic">Diamond
+                            Sutra</hi> are found elsewhere in the Grove of the Reclining Buddha, the
+                        former in seven columns on wall i, outside cave <hi rend="bold">29</hi> (see
+                            <ref type="biblio" target="Sichuan_2"/>); and the latter, once in 59
+                        columns on wall f in cave <hi rend="bold">33</hi> (see <ref type="biblio" target="Sichuan_2"/>), and once in 51 columns on wall f in cave <hi rend="bold">46</hi> (see <ref type="biblio" target="Sichuan_3"/>). Both
+                        sutras belong to the core group of Mahayana texts. About the former, Jan
+                        Nattier writes: “The <hi rend="italic">Heart <foreign xml:lang="sa">Sūtra</foreign>
+                        </hi> is surely one of the best loved Buddhist
+                        scriptures in all of East Asia. Esteemed both as a concise summary of some
+                        of the key doctrines of <foreign xml:lang="sa">Mahāyāna</foreign> Buddhism
+                        and as a <hi rend="italic">
+                            <foreign xml:lang="sa">dhāraṇī</foreign>
+                        </hi> of immense supernatural power, it has been revered by lay people and
+                        clerics alike as one of the pinnacles of Buddhist teaching. It has been
+                        valued by monastic scholars of a variety of sectarian persuasions, as
+                        attested by the wealth of commentaries on the text from such diverse
+                        perspectives as <foreign xml:lang="sa">Yogācāra</foreign>, <hi rend="nh">
+                            <foreign xml:lang="sa">Mādhyamika</foreign>
+                        </hi>, and Ch’an.”<note>
+                            <ref type="biblio" target="Nattier1992">153</ref>.</note>
+                    </p>
+                    <figure rend="center" n="figure" xml:id="WFY_92_93_94_DSC_0450.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">92</hi>、<hi rend="bold">93</hi>、<hi rend="bold">94</hi>號窟。2012年拍攝</head>
+                        <head>Caves <hi rend="bold">92</hi>, <hi rend="bold">93</hi>, and <hi rend="bold">94</hi>; photograph taken in 2012</head>
+                        <graphic url="WFY_92_93_94_DSC_0450.JPG"/>
+                    </figure>
+                    <p>The <hi rend="italic">Diamond Sutra</hi> was almost as popular. It is the
+                        sutra most often engraved in Sichuan, Shaanxi, and Shandong. It emphasizes
+                        the copying and reciting of the sutra, without ever mentioning icons, and
+                        lay believers particularly liked it because it held out the promise of
+                        obtaining immeasurable merit to anyone who recited even a single verse from
+                                it.<note>
+                            <ref type="biblio" target="HoChiewhui2019">190</ref>.</note> The early eighth century, when it was engraved in the
+                        Grove, saw the first blossoming of the parasutraic literature on this text.
+                        The <hi rend="italic">Record of Collected Proofs</hi> [<hi rend="italic">of
+                            the Efficacy</hi>] <hi rend="italic">of the Diamond Sutra</hi> (<hi rend="italic">Jingang banre jing jiyan ji </hi>
+                        <foreign xml:lang="zh">金剛般若經集驗記</foreign>) was completed in 718 by Meng
+                        Xianzhong <foreign xml:lang="zh">孟獻忠</foreign>, who was an official in
+                        Zizhou <foreign xml:lang="zh">梓州</foreign> (modern Mianyang <foreign xml:lang="zh">綿陽</foreign>), about 140 km northeast of the
+                            Grove.<note>Translated in <ref type="biblio" target="HoChiewhui2019">297–393</ref>.</note> Donors also liked the <hi rend="italic">Diamond</hi> and <hi rend="italic">Heart</hi> sutras because they were
+                        short: the <hi rend="italic">Diamond Sutra</hi> has 5,036 characters and the
+                            <hi rend="italic">Heart Sutra</hi> a mere 268. In cave <hi rend="bold">71</hi>, one lay donor carved both texts on the same wall.</p>
+                    <p>Nevertheless, to find these two sutras in cave <hi rend="bold">71</hi>—the
+                        first cave in the row of five in section E—comes as a surprise. If our
+                        assumption is correct, that all five caves were designed as standard-sized
+                        sutra caves, one might expect to find here the continuation of the <hi rend="italic">Nirvana Sutra</hi> that was so enthusiastically begun in
+                        the preceding caves <hi rend="bold">59</hi> and <hi rend="bold">66</hi>.
+                        That sutra, of course, corresponds to the colossal statue of the Reclining
+                        Buddha entering nirvana, and even incomplete, it is by far the longest text
+                        engraved at the Grove. The version in 40 scrolls that the monks chose has
+                        some 334,000 characters (353,000 with the <hi rend="italic">Preface </hi>,
+                            <hi rend="italic">xu</hi>
+                        <foreign xml:lang="zh">序</foreign>). We have described in <ref type="biblio" target="Sichuan_4"/> how the heroic project of carving the entire sutra
+                        began in section D. In cave <hi rend="bold">59</hi>, the monks carved some
+                        33,000 characters (chapter 1 through chapter 4, part 1, skipping chapter 3).
+                        In cave <hi rend="bold">66</hi> they followed with 65,000 characters
+                        (chapter 4, part 2, through chapter 7, part 1), the largest number of
+                        characters in any cave in the Grove.<note>For an overview of the parts of
+                            the <hi rend="italic">Nirvana Sutra</hi> that were carved in the Grove
+                            see <ref type="biblio" target="Sichuan_4">12–14</ref>, and <ref type="biblio" target="Sichuan_3">46–50</ref>.</note>
+                    </p>
+                    <p>Already in cave <hi rend="bold">59</hi>, the monks had interrupted their
+                        engraving of the sutra in favor of two texts important to the incipient Chan
+                        movement. The donor, Li She <foreign xml:lang="zh">李涉</foreign>, was from
+                        Changjiang County <foreign xml:lang="zh">長江縣</foreign>, as he says in his
+                        colophon of 735.<note>Approximately 20 kilometers northeast of the Grove,
+                            see <ref type="biblio" target="Sichuan_4">14–15</ref>.</note>
+                    </p>
+                    <p>Curiously, no work on the <hi rend="italic">Nirvana Sutra</hi> was attempted
+                        in section E; instead, work was carried on in section F, although not in the
+                        prominently located twin caves in the lower row, <hi rend="bold">81</hi> and
+                            <hi rend="bold">84</hi>, but in the smaller cave <hi rend="bold">83</hi>
+                        above. In cave <hi rend="bold">66</hi> the carvers had ended with part 1 of
+                        chapter 7 in scroll 11; now part 2 of that chapter in scroll 12 was
+                        continued in cave <hi rend="bold">83</hi>, where ca. 1,600 characters were
+                        carved. For the completion of the entire chapter 7, carvers would have had
+                        to engrave another 8,800 characters, but work stopped after 19 columns.
+                        Later on, the sutra was taken up again, but only briefly. The second part of
+                        another chapter, about 7,200 characters, is seen in cave <hi rend="bold">46</hi>,<note>See <ref type="biblio" target="Sichuan_3">47–48</ref>,
+                            and <ref type="biblio" target="Blum2018">61–62</ref>.</note> and part 4
+                        of chapter 7, in scroll 14, with about 7,800 characters, in cave <hi rend="bold">51</hi>.<note>See <ref type="biblio" target="Sichuan_3">50</ref>, and <ref type="biblio" target="Blum2018">61</ref>.</note>
+                        Thus, altogether, some 114,600 characters of the <hi rend="italic">Nirvana
+                            Sutra</hi> were engraved at the Grove, amounting to barely more than a
+                        third, though even this was an awe-inspiring achievement.</p>
+                    <p>The two remaining sutras, the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> and the <hi rend="italic">Golden Light Sutra</hi> in section F, must each have been
+                        chosen for specific reasons. The <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>, whose hero is
+                        the layman <foreign xml:lang="sa">Vimalakīrti</foreign>, resonated with lay
+                        believers, and was thus a favorite with lay donors; in the Grove, a layman
+                        may well have been responsible for its choice. As Michael Radich points out,
+                        the <hi rend="italic">
+                            <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> fits well in the
+                        Grove, since it dwells on several themes that play a role in other texts at
+                        the site, like bodily illness, confession, liturgy, the <hi rend="italic">
+                            <foreign xml:lang="sa">dharmakāya</foreign>
+                        </hi> doctrine, and the notion of docetic <hi rend="italic">
+                            <foreign xml:lang="sa">parinirvāṇa</foreign>
+                        </hi>.<note>See the article <hi rend="italic">The *<foreign xml:lang="sa">Suvarṇabhāsottama-sūtra</foreign><!-- at Wofoyuan Caves <hi rend="bold">73</hi> and <hi rend="bold">76</hi>-->
+                            </hi>
+                            in the present
+                            volume<!--pp. <ptr type="infra" target="Radich_start Radich_end"/>-->.</note>
+                    </p>
+                    <p>The <hi rend="italic">Golden Light Sutra</hi> is unique in sutra caves in
+                        China. But this text, too, is thematically connected with other texts at the
+                        Grove that center on the bodies of the Buddha.<note>ibid.</note>
+                    </p>
+                </div>
+                <div>
+                    <head>Colophons</head>
+                    <p>Colophons were written in the Grove of the Reclining Buddha during three
+                        periods, and thus give us clues to its times of activity. The first period
+                        was in the eighth century, during the Tang dy­nasty, when the carving
+                        project began. The second period was in the tenth century, when repairs and
+                        additions were undertaken during the Latter Shu <foreign xml:lang="zh">後蜀</foreign> dy­nasty (934–965) and the beginning of the Northern Song
+                            <foreign xml:lang="zh">北宋</foreign> (960–1127). The third period was in
+                        the twelfth and thirteenth centuries of the Song dy­nasty. In sections E and
+                        F one finds colophons from all three periods.</p>
+                    <figure rend="center" n="figure" xml:id="ID73_D_colophone.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">73</hi>號窟d壁題記。2012年拍攝</head>
+                        <head>Colophon on wall d of cave <hi rend="bold">73</hi>; photograph taken
+                            in 2012 </head>
+                        <graphic url="73_D_colophone.jpg" width="175mm"/>
+                    </figure>
+                    <p>The earliest colophon in sections E and F, dated 727, is engraved on wall d
+                        in cave <hi rend="bold">73</hi>, the third in the row of five horizontal
+                        caves in section E. The first 44 columns of the <hi rend="italic">Golden
+                            Light Sutra</hi> on that wall begin 13–18 cm below the ceiling, leaving
+                        space above for the colophon, which has strokes somewhat thicker and less
+                        deft than those of the sutra below, and is engraved in a slightly uneven
+                        horizontal row, 2.5 cm above the sutra text, from columns 31 through 43
+                        (fig. <ptr target="ID73_D_colophone.jpg"/>).</p>
+                    <p>From column 45 onwards, the columns of the sutra text begin five characters
+                        higher up; thus it is virtually certain that a colophon was planned before
+                        the carving of the sutra commenced. The colophon reads:</p>
+
+                    <quote>In the second month of the fifteenth year of the <hi rend="italic">kaiyuan</hi> era [727], this donated sutra from the <hi rend="italic">
+                            <foreign xml:lang="sa">tripiṭaka</foreign>
+                        </hi> was engraved.
+                            <foreign xml:lang="zh">檀三藏經開元十五年二月鎸了。</foreign>
+                        <note>Illustration in the
+                            present volume, <!--<foreign xml:lang="zh">窟</foreign>-->cave <hi rend="bold">73</hi>, <!--<foreign xml:lang="zh">壁</foreign> -->wall
+                            d, 4A, 5A, and 6A. Translation and discussion in <ref type="biblio" target="TsaiSueyling2014">173</ref>. Her article gives an overview
+                            of all colophons, and treats in detail those dating from the Tang
+                            dy­nasty.</note>
+                    </quote>
+
+
+                    <p>Six years later a certain Wang Xian <foreign xml:lang="zh">王先</foreign>engraved a second colophon on wall e of the cave, where the
+                        sutra text is continued (fig. <ptr target="cave_073_e_002_DxO_colophon_733.jpg"/>). The damaged colophon
+                        reads: “<foreign xml:lang="zh">……元……廿……；……□一人得丁……若有□生□元月□□……開元廿一年五月廿九日記鎸王先書</foreign>.” The end can be
+                        translated as: “recorded and engraved on the twenty-ninth day of the fifth
+                        month of the twenty-first year of the <hi rend="italic">kaiyuan</hi> era
+                        [July 15, 733], written by Wang Xian.”<note>Translation and discussion in
+                                <ref type="biblio" target="TsaiSueyling2014">174</ref>.</note>
+                    </p>
+                    <p>Both colophons refer to the <hi rend="italic">Golden Light Sutra</hi>, the
+                        six year hiatus between them showing how laborious the engraving must have
+                        been. The two colophons also demonstrate that work in the Grove began at
+                        much the same time in different locations: the colophon of 727 in section E
+                        is only four years later than the earliest colophon in cave <hi rend="bold">51</hi> of section C.<note>See <ref type="biblio" target="Sichuan_3">36
+                                and 35, fig. 20</ref>.</note>
+                    </p>
+
+                    <p>An undated colophon by donor Yang Sishen<foreign xml:lang="zh">楊思慎</foreign>
+                        in cave <hi rend="bold">71</hi>, after the <hi rend="italic">Diamond</hi>
+                        and the <hi rend="italic">Heart</hi> sutras, reads: “Yang Sishen of
+                        Changjiang County in Sui Prefecture respectfully made this offering for his
+                        deceased father Yang Jingzong and his deceased mother Yuan Zhangbao.
+                            <foreign xml:lang="zh">遂州長江縣楊思慎爲亡父楊敬宗亡母袁張寳敬造供飬。</foreign>”<note xml:id="YangSishen">Illustration in the present volume,
+                            <!--<foreign xml:lang="zh">窟</foreign> -->cave <hi rend="bold">71</hi>,
+                            <!--<foreign xml:lang="zh">壁</foreign> -->wall d, 11C–11D. Translation
+                            in <ref type="biblio" target="TsaiSueyling2014">180</ref>.</note>
+                        Because the two sutras follow each other without interruption, and because
+                        they show the same calligraphic style and layout, Yang Sishen probably
+                        donated both texts, possibly in the eighth century, since Yang Sishen came
+                        from the same county as donor Li She, who in 735 gave the texts in cave <hi rend="bold">59</hi>.<note>
+                            <ref type="biblio" target="Sichuan_4">14–15</ref>.</note>
+                    </p>
+
+                    <p>A tenth century colophon, reading from left to right, is engraved below niche
+                            <hi rend="bold">82</hi> in section F (fig. <ptr target="WFY_cave82_DSC_0022.JPG"/>), in which the donor Meng Yanjin and
+                        his wife record their restoration of the niche:</p>
+                    <quote>
+                        <p>Respectfully we report the refurbishment and embellishment of one niche
+                            of Buddha <foreign xml:lang="sa">Śākya­muni</foreign> and his
+                            retinue.</p>
+                        <p>The [Buddha’s] disciple Meng Yanjin <foreign xml:lang="zh">蒙彦進</foreign>
+                            together with [his wife] née Luo resolved to repair and embellish this
+                            former meritorious work. We hope and pray that the young and old of the
+                            entire family may all continue in peace and tranquility. May everything
+                            we have wished come fortunately to pass.</p>
+                        <p>On the __ day of the __ month of the __ year of the <hi rend="italic">guangzheng</hi> era [938–965], we arranged a maigre feast in praise
+                            [of the work], so that, after completion, it will forever serve as an
+                            offering.<?cb?>
+                        </p>
+                        <p>
+                            <hi rend="color-headings">/1/</hi>
+                            <foreign xml:lang="zh">敬<g>報修粧</g>釋迦牟尼佛部衆共</foreign>
+                            <hi rend="color-headings">/2/</hi>
+                            <foreign xml:lang="zh">壹龕。</foreign>
+                            <hi rend="color-headings">/3/</hi>
+                            <foreign xml:lang="zh">右弟子蒙彦進并羅<g>氏</g>同發心<g>修</g>
+                            </foreign>
+                            <hi rend="color-headings">/4/</hi>
+                            <foreign xml:lang="zh">
+                                <g>粧</g>前件功德。意<g>希願</g>合家大小</foreign>
+                            <hi rend="color-headings">/5/</hi>
+                            <foreign xml:lang="zh">各保<g>安寧</g>。<g>凡所經求</g>運爲稱遂。</foreign>
+                            <hi rend="color-headings">/6/</hi>
+                            <foreign xml:lang="zh">時<g>以廣政</g>__年__月__日</foreign>
+                            <hi rend="color-headings">/7/</hi>
+                            <foreign xml:lang="zh">設<g>齋</g>表讃<g>訖</g>，<g>永</g>爲供養。</foreign>
+                            <note>See also the transcription in <ref type="biblio" target="ChengduKaoguFaxian2008">392</ref>, and <ref type="biblio" target="Qin_Zhang_Lei2015">106</ref>.</note>
+                        </p>
+                    </quote>
+                    <figure rend="embed" n="figure" xml:id="cave_073_e_002_DxO_colophon_733.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">73</hi>號窟<foreign xml:lang="en">e</foreign>壁733年題記。2012年拍攝 </head>
+                        <head>Colophon of 733 on wall e of cave <hi rend="bold">73</hi>; photograph
+                            taken in 2012</head>
+                        <graphic height="170mm" url="cave_073_e_002_DxO_colophon_733.jpg"/>
+                    </figure>
+                    <!--quote rend="continued">
+                                                
+
+                        
+                    </quote-->
+
+
+                    <figure rend="center" n="figure" xml:id="WFY_cave82_DSC_0022.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">82</hi>號龕下外墻蒙彦進及其妻裝修題記，10世紀。2010年拍攝 </head>
+                        <head>Colophon by Meng Yanjin and his wife dating to the tenth century on
+                            the exterior wall beneath niche <hi rend="bold">82</hi>; photograph
+                            taken in 2010</head>
+                        <graphic url="WFY_cave82_DSC_0022.JPG"/>
+                    </figure>
+                    <p>The <hi rend="italic">guangzheng </hi>
+                        <foreign xml:lang="zh">廣政</foreign> era
+                        (938–965) is cited in the date, but empty spaces were left for the year,
+                        month, and day. These were to be filled in after the date of the celebration
+                        had been decided, but, for whatever reason, they were left blank. The
+                        wording of this votive inscription is similar to one of 959 (also of the <hi rend="italic">guangzheng</hi> era) in niche <hi rend="bold">68</hi>,<!--<note>See <ref type="biblio" target="Sichuan_4">16</ref>.</note>-->
+                        and one of 975 in cave <hi rend="bold">70</hi>.<note>See <ref type="biblio" target="Sichuan_4">16–17</ref>.</note>
+                    </p>
+                    <p>Another date from the same era is engraved west of the entrance of cave <hi rend="bold">74</hi>: “the first day of the eighth month of the
+                        twenty-fourth year of the <hi rend="italic">guangzheng</hi> era [September
+                        13, 961] <foreign xml:lang="zh">廣政廿四年八月一日</foreign>.” It is followed by a
+                        truncated date: “the first day of the eleventh month <foreign xml:lang="zh">十一月一日</foreign>” (fig. <ptr target="cave74_DSC_0166.JPG"/>).<note>Transcription in <ref type="biblio" target="ChengduKaoguFaxian2008">389</ref>, and <ref type="biblio" target="Qin_Zhang_Lei2015">100</ref>.</note>
+                    </p>
+                    <p>An inscription of only three characters, reading “shrine of Wang Bao” (Wang
+                        Bao kan <foreign xml:lang="zh">王寶龕</foreign>; fig. <ptr target="WFY-83-f_WangBao_kan.jpg"/>), is found on a small polished area
+                        of irregular shape on wall f of cave <hi rend="bold">83</hi>.</p>
+                    <!--<p>The longest and most informative colophon in sections E and F, and, indeed, in the entire Grove, is dated 1103, and is of such importance that it is treated below in a separate section. </p>-->
+
+                    <p/>
+                </div>
+                <div>
+                    <head>The Stele of 1103</head>
+                    <p>The longest and most informative inscription in sections E and F, and,
+                        indeed, in the entire Grove, is dated 1103, and is of such importance that
+                        it is treated here in a separate section. The field of script takes the form
+                        of a stele, which has been carved into the rear wall e of cave <hi rend="bold">81</hi> (fig. <ptr target="WFY_81e_DSC7918_stitch.jpg"/>).
+                        The stele has a trapezoidal head, and sits on a two-dimensional base,
+                        measuring 22 × 86 cm, in the shape of a turtle seen from the front, with its
+                        head shaped like a ball. The stele’s body measures 165 × 94 cm. Base and
+                        body are set into a sunken field that begins about 36 cm above the floor and
+                        extends to 10 cm below the ceiling. Its position in the wall is off-center,
+                        being 39 cm from wall d and 115 cm from wall f.</p>
+                    <figure rend="left" n="figure" xml:id="WFY_cave82_82-04.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">82</hi>號龕釋迦牟尼佛左側的阿難和天王造像。2010年拍攝 </head>
+                        <head>
+                            <foreign xml:lang="sa">Ānanda</foreign> and Heavenly King to the left of
+                            Buddha <foreign xml:lang="sa">Śākyamuni</foreign> in niche <hi rend="bold">82</hi>; photograph taken in 2010</head>
+                        <graphic url="WFY_cave82_82-04.jpg"/>
+                    </figure>
+                    <p>The sunken field is decorated towards the bottom with diagonal striations,
+                        and forms a frame for the stele that converges slightly towards the top,
+                        mea­suring 130 cm in width below and 124 cm above. At the base, the width of
+                        the frame measures 26 cm on the right and 16 cm on the left; above, next to
+                        the stele head, it measures 13 cm on the right and 14 cm on the left. On the
+                        wall itself, a thin line has been incised to frame the sunken field.</p>
+                    <p>The head of the stele shows a cosmic design. At its center stands the single
+                        character <foreign xml:lang="zh">佛</foreign> (<hi rend="italic">fo</hi>,
+                        Buddha), flanked by two circles with the engraved characters <foreign xml:lang="zh">日</foreign> (<hi rend="italic">ri</hi>, sun) and <foreign xml:lang="zh">月</foreign> (<hi rend="italic">yue</hi>, moon) sitting
+                        atop cloud-like ornaments (fig. <ptr target="cave81_head_DSC7931_cut.jpg"/>). The rectangular field of script has 26 columns, those that are complete
+                        having 46 characters (fig. <ptr target="WFY_81_stele_rubbing.tif"/>).</p>
+
+                    <p>The purpose of the stele was to establish and promulgate rules that were
+                        aimed at warding off further calamities of the kind that had recently
+                        befallen the monastery.</p>
+
+
+                    <p>Immediately following the title, the elders Tongbai <foreign xml:lang="zh">童白</foreign> and Faren <foreign xml:lang="zh">法忍</foreign> of the
+                        Guangsheng Cloister <foreign xml:lang="zh">廣聖院</foreign> are identified as
+                        having carved the characters and composed the text. Guangsheng Cloister may
+                        have been a part of a large establishment comprising several cloisters,
+                        another one being the Cloister of the Reclining Buddha (Wofoyuan <foreign xml:lang="zh">卧佛院</foreign>). That name seems to have been used at some
+                        later point for the entire site, which in our series we have chosen to call
+                        the Grove of the Reclining Buddha—but the sources are not sufficiently clear
+                        on this point. At the end of the inscription we are informed that Abbot
+                        Fazong <foreign xml:lang="zh"><!--院主僧-->法宗</foreign> instigated the erection
+                        of the stele. </p>
+
+
+                    <p>As one finds so often in such stele texts, it begins with a lengthy paean to
+                        the Buddha and his teachings. A second section begins by anchoring the
+                        monastery within this context, identifying its exact location; here, there
+                        appears for the first time in the extant inscriptions at the Grove, the name
+                        Cloister of the Reclining Buddha. The text then turns to the abbot, Monk
+                        Fazong, who succeeded the late abbot, Monk Huiwen <foreign xml:lang="zh">僧惠文</foreign>, already known from an inscription that he wrote in 1067
+                        in cave <hi rend="bold">71</hi> next to a painting of three figures.
+                        Huiwen’s text reads in part: </p>
+
+                    <quote>The Expounder on Sutras and Treatises, Renunciant Huiwen, resolved to
+                        paint three figures—the Protectors of the Law Vast Succor and Numinous
+                        Succor, and the Earth God—together in one hall, as an offering for eternity,
+                        to implore that the monks and novices of the entire cloister advance in the
+                        Way and cultivate practice. <foreign xml:lang="zh">講經論沙門惠文發心畫廣齊、靈濟護法、土地三身同一堂，永爲供養。意乞閤院僧童進道修行。</foreign>
+                        <note>See <ref type="biblio" target="Sichuan_4">17</ref>.</note>
+                    </quote>
+
+                    <figure rend="left" n="figure" xml:id="cave74_DSC_0166.JPG">
+                        <head xml:lang="zh">
+                            <hi rend="bold">74</hi>號窟西側題記。2016年拍攝 </head>
+                        <head>Colophon west of cave <hi rend="bold">74</hi>; photograph taken in
+                            2016 </head>
+                        <graphic url="cave74_DSC_0166.JPG"/>
+                    </figure>
+                    <p>A third section, dwelling on the monastery, begins by evoking its auspicious
+                        position between rivers and mountains. It is protected by the mighty spirits
+                        of the four directions, but also threatened by earth spirits, demons, and
+                        thieves. Fazong’s <hi rend="nh">achievements</hi> in refurbishing its
+                        buildings are here described in some detail. In 1101, he began working
+                        together with a certain Practitioner Cihai <foreign xml:lang="zh">行者慈海</foreign>, who had that year become a monk. As we know from two
+                        other inscriptions at the Grove—one of 1114 on the back of a fragmented
+                        Buddha figure in cave <hi rend="bold">51</hi>, and one below the colossal
+                        statue of the reclining Buddha on the northern side of the valley—Cihai
+                        would become the dominant figure in the monastery during this
+                            period.<note>See <ref type="biblio" target="Sichuan_3">35, 40–41,
+                                45–46</ref>.</note>
+                    </p>
+                    <figure rend="left" n="figure" xml:id="WFY-83-f_WangBao_kan.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">83</hi>號窟<foreign xml:lang="en">f</foreign>壁題記。2012年拍攝 </head>
+                        <head>Colophon on wall f of cave <hi rend="bold">83</hi>; photograph taken
+                            in 2012</head>
+                        <graphic url="WFY-83-f_WangBao_kan.jpg"/>
+                    </figure>
+                    <p>Thus, by reason of the stele inscription, we can identify three generations
+                        in the lineage of the monastery’s abbots: Fazong’s predecessor, Abbot
+                        Huiwen; Fazong himself; and his successor Cihai, who at the very end of the
+                        stele text, is already mentioned by the title Minor Master (<hi rend="italic">xiaoshi </hi>
+                        <foreign xml:lang="zh">小師</foreign>). </p>
+
+                    <p>In a fourth section the text then looks back at the recent disasters that had
+                        befallen the monastery. On January 25, 1098, bandits, whose names are
+                        listed, had entered the grounds and stolen valuables. Although they were
+                        duly brought to court, tried, and exiled, misfortunes continued, with
+                        valu­ables being taken and not returned, and those dying of a contagious
+                        disease within the monastery grounds being wrongly transferred
+                        elsewhere.</p>
+                    <figure rend="left" n="figure" xml:id="h_80_mosaic_proc_bearb.tif">
+                        <head xml:lang="zh">
+                            <hi rend="bold">80</hi>號摩崖綫刻金剛力士護法像。<!--北京天遠三維科技有限公司-->掃描於2010年 </head>
+                        <head>Line drawing <hi rend="bold">80</hi> of
+                                <!--a guardian figure-->
+                            <foreign xml:lang="sa">Dharmapāla
+                                Vajrapāṇi</foreign>; scan taken in
+                            2010<!-- by Beijing Tianyuan 3D Technology co., LTD.-->
+                        </head>
+                        <graphic url="h_80_mosaic_proc_bearb.tif"/>
+                    </figure>
+                    <figure rend="right" n="figure" xml:id="Vajrapani_Mogao_85mm-breit.jpg">
+                        <head xml:lang="zh">金剛力士像幡，敦煌，唐代，9世紀末，絹本設色，79.5×25.5厘米。大英博物館藏（Ch.XXIV.002） </head>
+                        <head>Silk banner with <foreign xml:lang="sa">Dharmapāla Vajrapāṇi</foreign>
+                            from Dunhuang, late 9th century, 79.5 × 25.5 cm. Courtesy of the British
+                            Museum, London (Ch.XXIV.002) </head>
+                        <graphic width="83.4mm" url="Vajrapani_Mogao_85mm-breit.jpg"/>
+                    </figure>
+                    <p>To rectify the situation once and for all, the stele then lists itemized
+                        warnings and consequences, in a long fifth section. Monks are warned that
+                        they must cease being lethargic in their duties and stop quarrelling among
+                        themselves; and bandits that they must return all “borrowed” valuables and
+                        refrain from stealing fireworks and candles. The stele further spells out
+                        (twice!) how the culprits will be dealt with, and stipulates that all
+                        persons dying of a contagious disease must be cremated within the monastery
+                        precincts. Those who obey these warnings will enter the pure region, but
+                        those who do not will suffer the tortures of hell. Remarkably, Fazong
+                        himself accepts the blame for all the recent misfortunes, brought down upon
+                        the monastery because of his wrongdoings and debts in former lives.</p>
+                    <figure rend="full" n="figure" xml:id="cave81_head_DSC7931_cut.jpg">
+                        <head xml:lang="zh">
+                            <hi rend="bold">81</hi>號窟1103年宋碑碑首。2015年拍攝</head>
+                        <head>Detail of the head of the stele of 1103 in cave <hi rend="bold">81</hi>; photograph taken in 2015</head>
+                        <graphic url="cave81_head_DSC7931_cut.jpg"/>
+                    </figure>
+                    <p>What strikes the reader of this stele are the secular elements that intrude
+                        into a traditional Buddhist format. Dispersed throughout are imprecise
+                        quotations from classical literature—from such prime Confucian texts as the
+                            <hi rend="italic">Book of Rites</hi> (<hi rend="italic">Liji </hi>
+                        <foreign xml:lang="zh">禮記</foreign>), the <hi rend="italic">Practice of the
+                            Mean</hi> (<hi rend="italic">Zhongyong </hi>
+                        <foreign xml:lang="zh">中庸</foreign>), and the <hi rend="italic">Book of
+                            Changes</hi> (<hi rend="italic">Yijing </hi>
+                        <foreign xml:lang="zh">易經</foreign>)—rather than quotations from Buddhist sutras. Dying is
+                        simply called “passing into the great night” (<hi rend="italic">gui daye </hi>
+                        <foreign xml:lang="zh">歸大夜</foreign>); and <foreign xml:lang="sa">Amitābha</foreign>’s Western paradise is not called the Pure Land (<hi rend="italic">jingtu </hi>
+                        <foreign xml:lang="zh">净土</foreign>) but merely pure region (<hi rend="italic">jingyu </hi>
+                        <foreign xml:lang="zh">净域</foreign>). The regulatory role of the state is
+                        emphasized when it is said about Abbot Fazong that “in recognition of the
+                        Emperor’s grace, he left behind the colors of secular life”; and in the
+                        buying of “heavenly compositions,” that is to say, monks’ certificates
+                        ostensibly composed by the emperor. The stele at one point claims that the
+                        words of the Buddha and of the emperor complement one another, and
+                        emphasizes that the “words of the Sage Confucius have been transmitted
+                        through the ages.” All this is an indication of the rise of Confucian as
+                        opposed to Buddhist values in the eleventh century, even within Buddhist
+                        monasteries.</p>
+                    <!--<p>At the very end, the assistant Cihai is mentioned once again, this time with the higher title Minor Master (<hi rend="italic">xiaoshi </hi>
+                            <foreign xml:lang="zh">小師</foreign>). </p>-->
+                    <p>The text reads (with section headings added in turquoise):<note>Tsai
+                            Suey-Ling <foreign xml:lang="zh">蔡穗玲</foreign> established the
+                            transcription of the text in the cave. She, Claudia Wenzel, and Sophie
+                            Florence provided the translation. Celia Carrington Riely helped with
+                            the English terminology. See also the transcriptions of the text in <ref type="biblio" target="ChengduKaoguFaxian2008">390–391</ref>; <ref type="biblio" target="Zhang_Chen2011"/>; <ref type="biblio" target="Qin_Zhang_Lei2015">104–105</ref>.</note><!--?pb?-->
+                    </p>
+                    <!--p> </p>
+                  <p> </p>
+                  <p> </p-->
+                    <figure rend="full" n="figure" xml:id="WFY_81_stele_rubbing.tif">
+                        <head xml:lang="zh">
+                            <hi rend="bold">81</hi>號窟1103年宋碑拓片。圖片采自張雪芬和李艷舒<ref type="biblio" target="Zhang_Li2011">圖版 1</ref>
+                        </head>
+                        <head>Rubbing of the stele of 1103 in cave <hi rend="bold">81</hi>; after
+                                <ref type="biblio" target="Zhang_Li2011"/>, pl. 1 </head>
+                        <graphic url="WFY_81_stele_rubbing.tif"/>
+                    </figure>
+
+                    <div>
+                        <head>Sacred Stele to Ward off Evil <head type="nonrepeat">with Warnings and
+                                Consequences for Thieves and Robbers of Fireworks and Candles
+                                    <foreign xml:lang="zh">
+                                    <g>誡</g>誓<g>賊</g>盗火<g>燭</g>祛除邪<g>祟</g>神<g>碑</g>
+                                </foreign>
+                            </head>
+                        </head>
+                        <p>The elders Tongbai and Faren of Guangsheng Cloister carved the characters
+                            and composed the text. <foreign xml:lang="zh"> 廣聖院叟童白、法忍刻字撰文。</foreign>
+                        </p>
+                        <p>
+                            <hi rend="color-chapters">General Introduction on Buddhism</hi>
+                        </p>
+                        <p>The Dharma knows shallowness and profundity, and the Way is without
+                            distinction. The words of the Honored Merciful One [i.e., the Buddha]
+                            and the emperor complement one another. When the ancestor obtained the
+                            golden image [of the Buddha], masters and followers<note type="ref">In
+                                the <hi rend="italic">Daode jing </hi>
+                                <foreign xml:lang="zh">道德經</foreign>, <hi rend="italic">shizi </hi>
+                                <foreign xml:lang="zh">師資</foreign> refers to “masters and
+                                disciples.” Here it probably refers to ordained and unordained
+                                followers of the Buddha.$$$SL denkt nicht so.</note> mutually
+                                [ ];<note>The phrase <hi rend="italic">shizi hu</hi>
+                                <foreign xml:lang="zh">師資互</foreign> should have four characters; the
+                                last character was probably unintentionally omitted.</note> [the
+                            Buddha] revealed his true body in order to convert beings; He applied
+                            expedient means (<hi rend="italic">
+                                <foreign xml:lang="sa">upāya</foreign>
+                            </hi>) to aid [their conversion] through his
+                            physical form. How exalted! [The Buddha] alone escaped the Three Worlds!
+                            How vast! Only He overcame the four kinds of birth. <foreign xml:lang="zh">法有淺深，道無先後。慈尊帝王，語義相扶。祖得金人，師資互［□］；顯真身而化物，立權資以世名。魏魏乎！隻出三界。蕩蕩乎！獨越四生。</foreign>
+                        </p>
+                        <p>He took pity on all types of beings that met with calamity, and He
+                            lamented their drowning in the six paths [of rebirth]. Thereupon, He was
+                            born in the king’s palace and practiced austerities in the snowy
+                            mountains. He subdued a multitude of <hi rend="italic">
+                                <foreign xml:lang="sa">māras</foreign>
+                            </hi>, proving His true liberation. He revealed the principles of the
+                            great teaching, and erected the great Dharma pillar, He sounded the
+                            Lion’s roar, and expounded the doctrines of the great Dharma. <foreign xml:lang="zh">慜群品而受殃，傷六道而汩没。遂向王宫誕迹，雪嶺修行；<supplied>摧</supplied>伏众魔，證真解脱；開大教綱，豎大法幢；作師子吼，演大法義。</foreign>
+                        </p>
+                        <p>After He had heroically subdued <foreign xml:lang="sa">Deva-māra</foreign>, and afterwards subjugated the heretics, He
+                            preached the Dharma in more than three hundred different places, with
+                            teachings that filled the ocean storehouse in the Dragon’s Palace: the
+                            teaching of emptiness, the teaching of existence, the gates of sudden
+                            and of gradual awakening. [According to] the golden words of the Middle
+                            Way [Madhyamaka], there is no “emptiness” and there is no “existence”;
+                            the Middle [Way] and the Small [Vehicle] equally aid [all beings], and
+                            via negation and affirmation, the two complete one another. Thus, [the
+                            Buddha’s teachings] remain new, even though they have existed for [more
+                            than] a thousand years, and they will never become old, even in ten
+                            thousand eons. <foreign xml:lang="zh">大破天魔之後，降伏外道已来，説法三百餘場，教滿龍宫海藏。空教有教，頓門漸門；中道金言，不空不有；中小并濟，遮表雙全。歷千載之長新，積万劫而不古。</foreign>
+                        </p>
+                        <p/>
+                        <p>
+                            <hi rend="color-chapters">Abbot Fazong</hi>
+                        </p>
+                        <p><!--The teaching of our Buddha’s heroical subjugation of Deva-<foreign xml:lang="sa">māra</foreign> -->Our
+                            Buddha’s teaching, which has heroically subdued Deva-<foreign xml:lang="sa">māra</foreign>, was also binding for Fazong, the abbot
+                            of the Cloister of the Reclining Buddha next to Gongduan in Guangtong
+                            Village, Guangde Township, Anyue County, in Pu Prefecture, Zizhou
+                            Circuit, Jiannan Military Circuit, in the land of the Great Song, in the
+                            territory of <hi rend="nh">China</hi>, on the Southern [Continent]
+                                <foreign xml:lang="sa">Jambudvīpa</foreign> in the <foreign xml:lang="sa">Sāhā</foreign> world. <foreign xml:lang="zh">我佛大破天魔之教，亦係南閻浮提薩訶世界支那境大宋國釰南道梓州路普州安岳縣廣德鄉光通里龔端旁卧佛院主僧法宗。</foreign>
+                        </p>
+                        <p>He constantly sighed over the ignorance and evil in this declining world
+                            in the shadow of the Semblance [Dharma];<note>When Fazong says that the
+                                world is still in the period of the Semblance Dharma (<hi rend="italic">xiangfa </hi>
+                                <foreign xml:lang="zh">像法</foreign>) he is at odds with Buddhists of
+                                the contemporary Liao dy­nasty (907–1125), who believed that the
+                                period of the Semblance Dharma had already come to an end and that
+                                the period of the Decline of the Dharma (<hi rend="italic">mofa </hi>
+                                <foreign xml:lang="zh">末法</foreign>) had begun in the year 1053.
+                                This conviction was shared in contemporary Japan, and produced the
+                                spectacular Phoenix Hall (<foreign xml:lang="ja">Hōōdō</foreign>
+                                <foreign xml:lang="zh">鳳凰堂</foreign>) in the <foreign xml:lang="ja">Byōdōin</foreign> Monastery <foreign xml:lang="zh">平等院</foreign> in Uji <foreign xml:lang="zh">宇治</foreign>
+                                southeast of <foreign xml:lang="ja">Kyōto</foreign>, see <ref type="biblio" target="Yiengpruksawan2017">especially
+                                    421–426</ref>. </note> only when he bid farewell to his parents
+                            did he break free from the cage of ordinary life. Parting with what he
+                            held dear, he devoted himself to the ancient vestiges of the monastery<note>
+                                <hi rend="italic">Caitya</hi>, literally: a place of purity.</note>
+                            of the Reclining Buddha, where he joyfully submitted to the Way. The
+                            state universally grants the purchase of heavenly compositions.<note>
+                                <ref type="biblio" target="LiRongxi1995">206, 278, 284</ref>,
+                                translates <hi rend="italic">tianwen </hi>
+                                <foreign xml:lang="zh">天文</foreign> as “heavenly composition,”
+                                documents written by the emperor. Here this refers to monks’
+                                certificates. </note> Grateful to his family
+                            <!--<foreign xml:lang="zh">眷澤</foreign> -->for their favor, he draped
+                            the black robe [of an ordained monk] over his shoulders; in receipt of
+                            the Emperor’s grace, he left behind the colors [of secular life]. With a
+                            diligent heart, he strove to practice day and night. Tenacious, with
+                            sincere intentions only, he dedicated his efforts to the adornment of
+                            the monastery. <foreign xml:lang="zh">每叹像蔭季世蒙恶，辭親始脱扵凡籠，割愛投誠扵梵刹古迹卧佛慕道，國家遍許收買天文。感眷澤以披䊷，頹皇恩而落彩。懃心午夜，志□興修。恪勤惟在志誠，專懃務嚴扵梵刹。</foreign>
+                        </p>
+                        <p>It was then that Monk Huiwen, the former abbot of the Grove of the
+                            Reclining Buddha was unexpectedly confined to his bed by an illness that
+                            did not respond to medicine, and thus abruptly passed into the great
+                            night. Only Fazong was able to receive the . . . position, and accepted
+                            the red silk [robe] of the abbot, to which the divinities of heaven and
+                            earth . . . assented. <foreign xml:lang="zh">
+                                此者卧佛前院主僧惠文，偶因寢疾藥餌不應，俄歸大夜。但法宗得官□委身接縉主持，即天地神明，□中了當。</foreign>
+                        </p>
+                        <p/>
+                        <p>
+                            <hi rend="color-chapters">The Monastery</hi>
+                        </p>
+                        <p>As I humbly view this monastery with mountain ridges curving to the west
+                            and the water in its bed flowing to the east, the four spirits appear as
+                            if they possess majestic splendor,<note>The four spirits, <hi rend="italic">si shen</hi>
+                                <foreign xml:lang="zh">四神</foreign> or <hi rend="italic">si
+                                    ling</hi>
+                                <foreign xml:lang="zh">四靈</foreign>, are the divine animals that
+                                protect the four cardinal directions: the Azure Dragon (<hi rend="italic">qinglong</hi>
+                                <foreign xml:lang="zh">青龍</foreign>) in the East, the White Tiger
+                                    (<hi rend="italic">baihu</hi>
+                                <foreign xml:lang="zh">白虎</foreign>) in the West, the Vermilion Bird
+                                    (<hi rend="italic">zhuque</hi>
+                                <foreign xml:lang="zh">朱雀</foreign> in the South, and the Dark
+                                Warrior (<hi rend="italic">xuanwu</hi>
+                                <foreign xml:lang="zh">玄武</foreign> in the North. In an ideal
+                                geomantic situation, a valley should open to the south between the
+                                two ridges of the Azure Dragon and the White Tiger. The Grove of the
+                                Reclining Buddha, however, opens towards the east. Therefore, the
+                                author regards it to be an inauspicious piece of land. For more
+                                observations on the geomancy of the site see <ref type="biblio" target="TsaiSueyling2013a"/>.</note> the earth [spirit]
+                            constantly attracts demons and thieves. As it says in the <hi rend="italic">Book of Rites</hi> (<hi rend="italic">Liji</hi>):
+                            “Sympathetic, indeed, is the moral force exerted by ghosts and
+                                spirits.”<note>Incorrect quotation from the <hi rend="italic">Practice of the Mean</hi> (<hi rend="italic">Zhongyong </hi>
+                                <foreign xml:lang="zh">中庸</foreign>): <foreign xml:lang="zh">子曰：鬼神之爲德，其盛矣乎！</foreign>
+                                <ref type="biblio" target="ShisanjingZhushu2003">2: 1628a</ref>. The
+                                Master has stated: “Bounteous, indeed, is the moral force exerted by
+                                ghosts and spirits.” Translation in <ref type="biblio" target="Plaks2003">33</ref>.</note> As it says in the <hi rend="italic">Book of Changes</hi> (<hi rend="italic">Yijing</hi>
+                            <foreign xml:lang="zh">易經</foreign>): “That aspect of it which cannot be
+                            fathomed in terms of the light and the dark is called
+                                spirit.”<note>Incorrect quotation from the <hi rend="italic">Book of
+                                    Changes</hi> (<hi rend="italic">Yijing</hi>, <hi rend="italic">Xici shang </hi>
+                                <foreign xml:lang="zh">易經<hi rend="smaller"> • </hi>繫辭上</foreign>):
+                                    “<foreign xml:lang="zh">陰陽不測之謂神。</foreign>” <ref type="biblio" target="ShisanjingZhushu2003">1: 78c</ref>. Translation in <ref type="biblio" target="Wilhelm_Baynes1989">301</ref>.</note>
+                            <foreign xml:lang="zh">竊以斯院山罡西轉，水枕東流，四神有似威嚴，土地每招鬼賊。《禮》云：“鬼神之德也，其感矣乎。”《易》云：“陰陽莫測之位神也。”</foreign>
+                        </p>
+                        <p>After Fazong was made abbot, he renovated the old [buildings] and
+                            constructed new. He abandoned his bag and begging bowl, and erected a
+                            lecture hall, quarters for the monks, and a kitchen with cistern, all of
+                            which he completed. Indeed, . . . a multitude of tiles soar skywards,
+                            [buildings] waiting to welcome [visitors]—ridge-poles, beams, rafters,
+                            and pillars, all shining. In the year <hi rend="italic">xinsi</hi>
+                            [1101], [Fazong] was joined by his subordinate, the Practitioner Cihai,
+                            who in that year purchased a heavenly composition, left his family and
+                            the colors [of secular life], and entered the Way and practiced; and
+                            together they burned [incense] and made offerings. <foreign xml:lang="zh">但法宗住持後来改故修新，自捨囊缽，起立廳堂、僧房、廚霤，悉皆周俻。實□薨瓦如飛，徘徊迨迎；棟樑椽柱，皆悉焕然。扵辛巳歲与手下行者慈海。當年收買天文出家落彩，進道修行同共焚<supplied>献</supplied>。</foreign>
+                        </p>
+                        <p/>
+                        <p>
+                            <hi rend="color-chapters">The Disasters of 1098</hi>
+                        </p>
+                        <p>[The monastery] met with disaster and suffered great loss when,
+                            unexpectedly, on the night of the twentieth day of the twelfth month of
+                            the fourth year of the <hi rend="italic">shaosheng</hi> era [January 25,
+                            1098], the thieves Chen Yanqing, Chen Yanning, Wen Han­zhou, Li Erqing
+                            and others stole valuables by force. <foreign xml:lang="zh">偶□紹聖四年十二月二十日夜，被賊人陳彦卿、陳彦寧、文漢周、李二慶等劫掠錢物，命運遭濟，致其撓害。</foreign>
+                        </p>
+                        <p>In the same year, the robbers were convicted by the government office
+                            [Yamen] in accordance with the law, and were tattooed and exiled to
+                            another prefecture. From then on [the monastery] was often overcome by
+                            disaster and disease, and repeatedly encountered obstacles. Valuables
+                            were often “borrowed” and removed by evil-minded villains; once taken
+                            home they were damaged, and [although the monastery] frequently asked
+                            for them back, [the men] always dallied, and the valuables were never
+                            returned. Consequently, we wished to express our sincerity, and we vowed
+                            to erect a sacred stele, in the hope that [by its merit] we may be
+                            granted a solution. <foreign xml:lang="zh">當年衙中依法决断，刺配他州。今者乃見灾痾頻撓，累遭輱軻，多被起惡心無徒之輩借取錢物歸家破使，頻度理嗦推挻不還。今者遂發誠心，願豎立神碑一碣，將用迴施解。</foreign>
+                        </p>
+                        <p>As for those dying inside the monastery, whether they be practitioners,
+                            or those [executing] the ruler’s law, or rich merchants, or [donors] who
+                            manifest mercy, [because] they have all died of a contagious disease,
+                            their bodies are not to remain unburied or to be transferred [to their relatives].<!--Those who died inside the Buddha’s monastery, whether they be practitioners, or those who [execute] the ruler’s law, or rich merchants, or those who manifest mercy [such as donors or patrons], [because] they have all died of a contagious disease, their bodies are not to be transferred or received elsewhere.-->
+                            <foreign xml:lang="zh">釋院内亡歿行者王法顯賈慈顯，俱患勞疾死亡，不得傳屍譴迎。</foreign>
+                        </p>
+                        <p> </p>
+                        <p> </p>
+                        <p>
+                            <hi rend="color-chapters">Warnings and Consequences</hi>
+                        </p>
+                        <p>All warnings and consequences are listed below: <foreign xml:lang="zh">所有誡誓具在下項開列：</foreign>
+                        </p>
+                        <p>One item: Those who have parted from their parents and have entered the
+                            Way, who have shaved their heads and dressed in black robes, who neglect
+                            [day and] night to burn incense and make offerings, and are slow and
+                            lethargic, and make little effort to recite [the sutras]—for those, we
+                            sincerely wish that with the aid of <hi rend="italic">nagas</hi> and
+                            deities and the support of the stars, [they will reform] and thus
+                            disaster and disturbances will no longer approach, and evil will be kept
+                            at bay. <foreign xml:lang="zh">一件：辭親入道，削髮披䊷，寅□夜怠慢焚献，動止墮慵，少勤持誦。惟願龍神加俻，星曜扶持，灾撓不侵，邪祟遠併。</foreign>
+                        </p>
+                        <p>Warnings and Agreements, one [item]: Since the time of the
+                            Patriarch<!-- [Fazong?]-->, among the masters and disciples of the two
+                            groups, monks and laypeople, suddenly demons of the east arose to curse
+                            the west. We vow neither to condemn nor to keep company with them, nor
+                            to involve later generations or those from inside and outside the Dharma
+                            (i.e., monks and laypersons). We sincerely hope that due to this good
+                            karma, we may achieve rebirth in a pure region. <foreign xml:lang="zh">一誡約：祖師已来，僧俗二門宗肢忽有<hi rend="smaller">生（？）</hi>䰤呪西，誓不得譴靠連累後代、内外法眷。惟冀承此善緣，得生净域。</foreign>
+                        </p>
+                        <p>Warnings and Agreements, one item: Valuables were often “borrowed” and
+                            removed by evil-minded villains; once taken home they were used, and
+                            [although the monastery] frequently asked for them back, [the men]
+                            always dallied, and the valuables were never returned. We fear that
+                            because of Fazong’s wrongdoings and debts in former lives, his opponents
+                            in this life furtively do nothing but create mischief and practice
+                            deceit, and in their minds is only unscrupulous intent. We pray that,
+                            when this stele is erected, those who forthrightly give back all
+                            [valuables<!-- that have been taken away-->] will receive assistance
+                            from the Buddha and the spirits, and once these valuables are inside the
+                            monastery, they will be exempt from these warnings and consequences. May
+                            those who have not returned [the valuables] be scrutinized and examined
+                            by the Buddha and spirits. <foreign xml:lang="zh">一件誡約：起惡心愚徒之輩，借取錢物歸家使用，頻度理嗦，謾誺不還。恐法宗前世冤債，此世仇讎暗裏但行扵唆賺，心中却起扵無良。自立碑後，所有分明交還者，願佛神加俻，自是院中財物不在誡誓之内。所有不還者，願佛神照察。</foreign>
+                        </p>
+                        <p>Warnings and consequences, one item: We will bring to public attention
+                            [i.e., we will prosecute] all theft of candles and fireworks during the
+                            night and all previous looting of the monastery’s valuables during
+                            former years, [just as in the case of] Chen Yanqing, Chen Yanning, Wen
+                            Hanzhou, Li Erqing, and others, who lost in the evening what they had
+                            gained in the morning, and from their erstwhile violation of statutes
+                            and regulations, were sent into exile to the border regions. <foreign xml:lang="zh">一誡誓：更夜火燭賊盗，兼往年劫掠院家財物，陳彦卿、陳彦寧、文漢周、李二慶等，朝作慕（暮）敗，早犯條章，邊配他州，令人眼見。</foreign>
+                        </p>
+                        <p>Warnings and consequences, one item: Countless villains gang up . . . to
+                            cause trouble, twist wrong into right and false into true, beg and take
+                            valuables to facilitate their yearly . . .,<note>May refer to yearly
+                                festivities.</note> lack principles and see only their own profit,
+                            regard [the teachings] of monks as fearful and dispensable words, and
+                            slander the lay precepts as false teachings. Whether in secret or
+                            openly, they probe the ground and search people [for valuables]. As for
+                            these men, we [first] reasoned with them; [next] we increased their
+                            community service; [then] we made known their criminal records; and
+                            [finally] we meted out punishment. And what was their response! So much
+                            damage has been done to the wealth of the believers! We beseech worthies
+                            and saints to examine and investigate [this matter]. <foreign xml:lang="zh">一誡誓：多有無徒之輩，搆合□途起動；將虚作實，以僞爲真；乞取錢物，方便年<supplied>節</supplied>；扵理無道，向人有私；將僧門懼添之詞，恣俗諦爲非之説；潛来顯到，擗地探人；斯人益其言、添其事、廣其訟、執其行，何应乎？如信之財，何損哉？伏乞賢聖鑒照。</foreign>
+                        </p>
+                        <p>Warnings and consequences, one item: Those dying inside the monastery,
+                            whether they be practitioners, or those [executing] the ruler’s law, or
+                            rich merchants, or [donors] who manifest mercy, [because] they have all
+                            died of a contagious disease, their bodies are not to remain unburied or
+                            to be transferred [to their relatives], but after their unfortunate
+                            death, they are to be cremated. As a result of the power of this stele,
+                            the road to the Western Quarters is unobstructed, and those who obey
+                            these [instructions] will receive in person the prophecy [of their
+                            future Buddhahood] in front of the Buddha <foreign xml:lang="sa">Amitābha</foreign>. May those who do not obey our warning and
+                            agreement, however, be cut to pieces on the mountain of swords,
+                            repeatedly minced by the tree of daggers, and boiled in a cauldron on
+                            hot charcoal, forever without escape.<note>Such tortures are depicted in
+                                contemporary paintings of the Ten Kings of Hell.</note>
+                            <foreign xml:lang="zh">一誡誓：院内亡歿行者王法顯賈慈顯，俱患勞疾死亡，不得傳屍譴迎，殃以後毘。承此碑力，西方之路自在，受此弥陀佛前親聞受記。不受我誡約者，願刀山載淬，釰樹重磨，炉炭鑊湯，終無脱免。</foreign>
+                        </p>
+                        <p>Regarding the various warnings and consequences itemized above, we hope
+                            that all will be able to sleep in peace, and that each item will make
+                            punishment obsolete. May they inspire both the clever and the
+                            dull-witted to share in such delight. We also wish that the lives of
+                            Dharma [practitioners] will be pure and peaceful, and that chaos and
+                            danger will be eradicated; that monks will go forth delighting in the
+                            practice of perfection, and both the elderly and young will practice;
+                            and that they will vigorously advance karmic causes and the light of the
+                            Dharma lamp will be transmitted. <foreign xml:lang="zh">右具如前所有數件誡誓之事節，希各各寢寐，件件停懲，共發忻懵，同此喜躍，所乞法壽清吉，沌危蕩散；進趣修行，染髮童行；進趣業緣，燈燈相接。</foreign>
+                        </p>
+                        <p>Cutting into his heart, Fazong addressed the Buddha, and scraping his
+                            gall bladder [to prove his loyalty], he besought the spirits; he was
+                            deeply moved by faith and sincerity, and presented this list of warnings
+                            [and consequences]. As the <hi rend="italic">Book of Rites</hi> says:
+                            “When there is a binding to mutual faith, it is called ‘a solemn
+                            declaration.’ When they use a victim, it is called ‘a covenant.’”<note>
+                                <hi rend="italic">Liji</hi>, <hi rend="italic">Quli xia
+                                    </hi>
+                                <foreign xml:lang="zh">禮記<hi rend="smaller"> • </hi>曲禮下</foreign>. <ref type="biblio" target="ShisanjingZhushu2003">1: 1266a</ref>. Translation in
+                                    <ref type="biblio" target="Legge1967">1: 112</ref>.</note>
+                            <foreign xml:lang="zh">但法宗刳心告佛，剔膽投神，專發信誠，輒伸懇誡。是故《禮》云：“約信曰誓，莅牲曰盟。”</foreign>
+                        </p>
+                        <p>These words of the Sage Confucius have been transmitted through the ages.
+                            We sincerely hope that the heavenly and earthly courts will investigate
+                            the rights and wrongs that we have briefly de­scribed in the text of
+                            this stele, and we dare [erect it] even though it will become blackened
+                            by dust. <foreign xml:lang="zh">孔聖之言傳諸後古。唯冀天曹地府洞鑒是非，略叙碑詞，敢將塵黷。</foreign>
+                        </p>
+                        <p>Erected during the counter-orbital star Jupiter <hi rend="italic">guiwei </hi>
+                            <foreign xml:lang="zh">癸未</foreign> year, on the fourteenth day of the
+                            ninth month of the second year of the <hi rend="italic">chongning</hi>
+                            era [October 16, 1103], by the abbot of the monastery, Monk Fazong,
+                            together with Minor Master Cihai. <foreign xml:lang="zh">旹已太歲癸未崇寧二年九月十四日院主僧法宗小師慈海仝建立</foreign>。</p>
+
+
+                    </div>
+                </div>
+                <div>
+
+                    <head>Spells</head>
+                    <p>Sections E and F, moreover, contain two <hi rend="italic">
+                            <foreign xml:lang="sa">dhāraṇī</foreign>
+                        </hi> spells in large characters. The first spell occupies columns 66 and 67
+                        in the empty area on wall d of cave <hi rend="bold">71</hi>, following the
+                            <hi rend="italic">Diamond</hi> and <hi rend="italic">Heart</hi> sutras
+                        (fig. <ptr target="WFY71d_colophone_DSC2561_stitch.jpg"/>). The left line
+                        gives the title of the spell: <hi rend="italic">Heart Mantra of the Buddha
+                            Heart</hi> (<hi rend="italic">Foxin xin zhenyan </hi>
+                        <foreign xml:lang="zh">佛心心真言</foreign>). The right line reads: “<hi rend="italic">
+                            <foreign xml:lang="sa">Oṃ maṇidhari hūṃ
+                            phaṭ.</foreign>
+                        </hi>
+                        <foreign xml:lang="zh">唵，摩尼達哩，吽泮吒。</foreign>”<!--An monidali hongpanzha-->
+                        The spell can be located in scroll 2, entitled <hi rend="italic">Chapter on
+                            the Heart Seal in the Buddha Heart </hi>
+                        <foreign xml:lang="zh">佛心中心印品 </foreign> of the <hi rend="italic">Buddha
+                            Heart Sutra </hi>
+                        <foreign xml:lang="zh">佛心經</foreign> translated by Bodhiruci (d. 727) of the
+                        Tang dy­nasty.<note>CBETA, T19, #920, 13c4–6. This <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi> is also known under
+                            the title <hi rend="italic">Following the Heart Spell </hi>
+                            <foreign xml:lang="zh">隨心咒</foreign>, for instance in <hi rend="italic">Twenty Numinous Divine Spells Including the Glorious Buddha Crown
+                                    <foreign xml:lang="sa">Dhāraṇī</foreign>
+                            </hi>
+                            <foreign xml:lang="zh">佛頂尊勝陀羅尼等靈异神咒二十道：“隨心咒：唵，摩尼達哩，吽泮吒。若誦一萬徧，所有爲障閡鬼神皆來敬禮爲使。乃至誦十萬徧，得盡見過去諸佛，所求無閡。</foreign>”
+                            CBETA, D10, #8814, 11a1–4. An earlier version of this spell occurs in
+                            the *<hi rend="italic">
+                                <foreign xml:lang="sa">Maulimaṇḍala-dhāraṇī
+                                </foreign>
+                            </hi>
+                            <foreign xml:lang="zh">牟梨曼陀羅咒經</foreign>; cf. T#1007,
+                            19: 659b3–4, where it is also called <hi rend="italic">Following the
+                                Heart Spell</hi>: “<foreign xml:lang="zh"><!--又隨心咒。-->咒曰：‘烏唵<hi rend="smaller">（二合，一）</hi>摩尼達哩<hi rend="smaller">（二合，二）</hi>虎<g rend="specialfont">𤙖</g>
+                                <hi rend="smaller">（二合，三）</hi>泮吒<hi rend="smaller">（半聲，四）。</hi>’</foreign>” For a longer version of
+                            the spell, see <ref type="biblio" target="Hidas2012">152</ref>. We thank
+                            Chen Rui­xuan for generously sharing his knowledge on this
+                            subject.</note>
+                    </p>
+                    <p>The second <hi rend="italic">
+                            <foreign xml:lang="sa">dhāraṇī</foreign>
+                        </hi>
+                        spell is engraved after the first part of the <hi rend="italic">Golden Light
+                            Sutra</hi> on wall d of cave <hi rend="bold">73</hi> (column 111): <hi rend="italic">Glorious Buddha Crown <foreign xml:lang="sa">Dhā</foreign>
+                        </hi>[<hi rend="italic">
+                            <foreign xml:lang="sa">raṇī</foreign>
+                        </hi>] (Foding zunsheng tuo [luoni] <foreign xml:lang="zh">佛頂尊勝陀〔羅尼〕</foreign>).<note>Two different versions of the
+                            complete text of the <hi rend="italic">Spell of the Glorious Buddha
+                                Crown <foreign xml:lang="sa">Dhāraṇī</foreign>
+                            </hi> (<hi rend="italic">
+                                <foreign xml:lang="sa">Uṣṇīṣavijayā-dhāraṇī</foreign>
+                            </hi>; <hi rend="italic">Foding
+                                zunsheng tuoluoni zhou </hi>
+                            <foreign xml:lang="zh">佛頂尊勝陀羅尼咒</foreign>) are engraved in cave <hi rend="bold">46</hi>.
+                            See <ref type="biblio" target="Sassmann_Tsai2016"/>.</note> Judging from
+                        their calligraphic style and layout, the two spells were not part of the
+                        original plan, the purpose of which was to engrave sutras, but were added
+                        later, possibly in the tenth century. </p>
+                    <p>The <hi rend="italic">Golden Light Sutra</hi> itself also dwells on spells,
+                        and at one point in its engraved text, the pronunciations of two Sanskrit
+                        terms are indicated in small characters.<note>
+                            <foreign xml:lang="zh">怚荼<hi rend="smaller">（陀也反）</hi>
+                            </foreign> and <foreign xml:lang="zh">他富樓抳<hi rend="smaller">（諾履反）</hi>
+                            </foreign> in cave <hi rend="bold">76</hi>, wall e, column 36.</note>
+                    </p>
+                    <figure rend="center" n="figure" xml:id="h_79_mosaic_proc_bearb.tif">
+                        <head xml:lang="zh">
+                            <hi rend="bold">79</hi>號摩崖綫刻結跏趺坐佛像。<!--北京天遠三維科技有限公司-->掃描於2010年 </head>
+                        <head>Line drawing <hi rend="bold">79</hi> of a seated Buddha; scan taken in
+                            2010<!-- by Beijing Tianyuan 3D Technology co., LTD.-->
+                        </head>
+                        <graphic url="h_79_mosaic_proc_bearb.tif"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>Line Engravings</head>
+                    <p>There are three large-scale line engravings on the cliffs in the Grove, <hi rend="bold">78</hi> and <hi rend="bold">79</hi>, in section E, and <hi rend="bold">80</hi>, in section Fa. Engraving <hi rend="bold">78</hi>,
+                        which is 188 cm in height, shows a seated Buddha on a lotus throne, of which
+                        only the left half survives (fig. <ptr target="h_78_mosaic_proc_bearb.tif"/>); engraving <hi rend="bold">79</hi>, 150 cm in height, shows another
+                        seated Buddha on a broader lotus throne (fig. <ptr target="h_79_mosaic_proc_bearb.tif"/>);<!--<note>Description in <ref type="biblio" target="ChengduKaoguFaxian2008">390</ref> and <ref type="biblio" target="Qin_Zhang_Lei2015">103</ref>. 
+                            </note>--> and engraving <hi rend="bold">80</hi>, 257 cm in height, shows a fierce-looking giant guardian figure
+                        (fig. <ptr target="h_80_mosaic_proc_bearb.tif"/>).<note>Description in <ref type="biblio" target="ChengduKaoguFaxian2008">390</ref>, and <ref type="biblio" target="Qin_Zhang_Lei2015">103–104</ref>.</note> All
+                        three engravings, which are undated, are heavily eroded. Stylistically they
+                        are comparable to the paintings on silk banners from Dunhuang of the late
+                        ninth and the tenth century shown in figs. <ptr target="Dunhuang_banner_VandA_Ch_0086_.jpg"/> and <ptr target="Vajrapani_Mogao_85mm-breit.jpg"/>.</p>
+                    <figure rend="center" n="figure" xml:id="Dunhuang_banner_VandA_Ch_0086_.jpg">
+                        <head xml:lang="zh">幡首，敦煌，10世紀，絹本設色，42.5×86.5厘米。維多利亞和阿爾伯特博物館藏（Ch.0086） </head>
+                        <head>Top section of a silk banner from Dunhuang, 10th century, 42.5 × 86.5
+                            cm. Courtesy of the Victoria and Albert Museum, London (Ch.0086) </head>
+                        <graphic width="180mm" url="Dunhuang_banner_VandA_Ch_0086_.jpg"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>Graffiti</head>
+                    <p>
+                        <anchor xml:id="graffiti_start"/>The many graffiti in sections E and F can be
+                        divided into three types; only a few are worth noting here. The first type
+                        consists of engraved documents, where on occasion local people recorded
+                        their obligations to one another. Three examples are seen on wall d in cave
+                            <hi rend="bold">85</hi>, in front of column 1, written one below the
+                        other.</p>
+                    <p>The uppermost is a debt obligation between two villagers. The characters
+                        above the date are about three times as large as the sutra characters in the
+                        column to the left. The short text reads:</p>
+                    <quote>An Jiashuang lent to Mr. Long, Bamiao Village, 1996. <foreign xml:lang="zh">安佳雙借龍公，一九九六八廟鄉。</foreign>
+                    </quote>
+                    <p>Below it is a graffiti congratulating a couple on their betrothal. The
+                        characters are less deeply engraved and the two names are placed side by
+                        side:</p>
+                    <quote>Congratulation to Bu Fengqun and Yang Chun­yong. <foreign xml:lang="zh">祝卜鳳群、楊春勇。</foreign>
+                    </quote>
+                    <p>Below this is a graffiti more scratched than engraved:</p>
+                    <quote>In 1995, [Mr.] Yang Bo and [Miss] Shu Xiaoju became sworn elder sister
+                        and younger brother.<foreign xml:lang="zh"> 一九九五年，楊波與舒曉菊結拜爲姐弟。</foreign>
+                    </quote>
+                    <p>Graffiti of the second type are randomly engraved and of poor quality. The
+                        two ugly characters <hi rend="italic">guo </hi>
+                        <foreign xml:lang="zh">果</foreign> on wall d of cave <hi rend="bold">83</hi>
+                        are examples. Graffiti of the third type are mere scratchings on the rock,
+                        their calligraphy also poor. Graffiti of the last two groups generally do
+                        not make sense.<anchor xml:id="graffiti_end"/>
+                    </p>
+                </div>
+                <!--/div-->
+            </div>
+        </body>
+    </text>
+</TEI>

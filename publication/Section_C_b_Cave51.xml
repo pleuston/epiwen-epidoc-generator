@@ -1,0 +1,481 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="sichuan_volume3" xml:lang="en">Sichuan Volume 3</title>
+                <title n="sichuan_volume3" xml:lang="zh">四川省第三卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="10"/>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Cb_Cave51">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">51</hi>號窟</head>
+                <div>
+                    <head>描述</head>
+                    <div>
+                        <head>概述</head>
+                        <p>在這個<foreign xml:lang="en">C</foreign>區的中心窟中，僅<foreign xml:lang="en">f</foreign>壁上刻有部分《大般涅槃經·聖行品》。<foreign xml:lang="en">a</foreign>壁上有一條供養人楊義的題記，紀年723年； <foreign xml:lang="en">f</foreign>壁上有兩條王彥昭留下的題記，紀年分別為959年和961年。</p>
+                    </div>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>南麓，為<foreign xml:lang="en">C</foreign>區三聯窟<hi rend="bold">46</hi>號、<hi rend="bold">51</hi>號和<hi rend="bold">58</hi>號窟的中心窟，高於現今步道約4米。</item>
+                            <item>
+                                <hi rend="bold">46</hi>號窟和<hi rend="bold">51</hi>號窟入口間的隔牆寬：172釐米。</item>
+                            <item>
+                                <hi rend="bold">51</hi>號窟和<hi rend="bold">58</hi>號窟入口間的隔牆寬：117釐米。</item>
+                            <item>方向：<foreign xml:lang="en">d</foreign>壁318°，<foreign xml:lang="en">f</foreign>壁308°。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <list>
+                            <item>敞口方形窟，平面近正方形，向後略微增寬；平頂，自入口向窟內略微上傾。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>
+                                <foreign xml:lang="en">a</foreign>壁：高273釐米，寬60釐米（自入口至<hi rend="bold">49</hi>號立佛像）。</item>
+                            <item>
+                                <foreign xml:lang="en">d</foreign>壁：前部高338釐米，後部高360釐米，寬320釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">e</foreign>壁：西端高360釐米，東端高358釐米，寬371釐米。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁：前部高340釐米，後部高358釐米，寬354釐米。</item>
+                            <item>入口寬255釐米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>改造</head>
+                        <p>緊靠入口的壁面及窟頂有數條10釐米寬的凹槽。<foreign xml:lang="en">d</foreign>壁凹槽距窟後壁280釐米，<foreign xml:lang="en">f</foreign>壁凹槽距窟後壁267釐米。這些凹槽可能在20世紀60年代此窟被佔用時用來固定木質或石質門檻。</p>
+                        <figure n="figure" rend="center" xml:id="WFY_51_uebersicht_bl.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">51</hi>號窟刻文區概覽，自右往左依次為<foreign xml:lang="en">d</foreign>壁、<foreign xml:lang="en">e</foreign>壁、和<foreign xml:lang="en">f</foreign>壁，僅<foreign xml:lang="en">f</foreign>壁含刻經</head>
+                            <head xml:lang="en">Overview of walls d, e, and f in cave <hi rend="bold">51</hi> (from right to left), with field of script
+                                on wall f</head>
+                            <graphic url="WFY_51_uebersicht_bl.jpg" height="180pt"/>
+                        </figure>
+                        <figure rend="right" n="figure" xml:id="cave51_map_ZH.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">51</hi>號窟平面圖；雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">51</hi>; drawing Lukas
+                                Ledderose after field map by MB and MS</head>
+                            <graphic url="cave51_map_ZH.svg" height="80mm"/>
+                        </figure>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_d_zh">
+                        <head>
+                            <foreign xml:lang="en">d</foreign>壁</head>
+                        <p>打磨區形狀不規則，距地面約90－225釐米，始於窟口，最寬處達57釐米。其內有十幾條潦草題刻，包括一條沙門玄應的題記。另一塊打磨158×160釐米，始於距入口146釐米、窟頂45－58釐米處；結束於地面上方152釐米、距後壁（<foreign xml:lang="en">e</foreign>壁）10釐米處。 無刻經，有幾條後代或刻或墨書的塗鴉。</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_e_zh">
+                        <head>
+                            <foreign xml:lang="en">e</foreign>壁</head>
+                        <p>未打磨，無刻經。</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_f_zh">
+                        <head>
+                            <foreign xml:lang="en">f</foreign>壁</head>
+                        <div>
+                            <head>布局</head>
+                            <list>
+                                <item>打磨區301×338釐米，始於窟頂以下22釐米、距<foreign xml:lang="en">e</foreign>壁1－20釐米處；結束於地面上方29－34釐米、距入口17釐米處。</item>
+                                <item>刻經區與<foreign xml:lang="en">d</foreign>壁後部的刻經區相同，亦為縱長方形，大小為290.5×130.5釐米。始於窟頂下方約25釐米、距<foreign xml:lang="en">e</foreign>壁55－60釐米處；結束於地面上方32釐米、距入口195釐米處；下緣幾近水平。</item>
+                            </list>
+                        </div>
+                        <div>
+                            <table rend="box">
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>經文</head>
+                                            <row>
+                                                <cell n="1">邊框</cell>
+                                                <cell n="1">無</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">界格</cell>
+                                                <cell n="2">無</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="3">橫排</cell>
+                                                <cell n="3">無</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>行</head>
+                                            <row>
+                                                <cell n="4">行數</cell>
+                                                <cell n="4">49</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="1">十行寬度</cell>
+                                                <cell n="1">21釐米</cell>
+                                            </row>
+                                            <row>
+                                                <cell>行距</cell>
+                                                <cell>約0.3－0.7釐米</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>文字</head>
+                                            <row>
+                                                <cell><!--<graphic/>-->每行字數</cell>
+                                                <cell>不等：165（第6行），173（第20行），165（第43行）</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">十字高度</cell>
+                                                <cell n="2">16.0－19.5釐米</cell>
+                                            </row>
+                                            <row>
+                                                <cell>字距</cell>
+                                                <cell>約0.0－0.4釐米</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerbox">
+                                            <head>舉例</head>
+                                            <row n="1">
+                                                <cell n="1">刻字</cell>
+                                                <cell>行/字</cell>
+                                                <cell n="1">高（釐米）</cell>
+                                                <cell n="1">寬（釐米）</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="4">狀</cell>
+                                                <cell n="4">7/105</cell>
+                                                <cell n="4">1.5</cell>
+                                                <cell n="4">1.1</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">藥</cell>
+                                                <cell n="2">39/95</cell>
+                                                <cell n="2">2.3</cell>
+                                                <cell n="2">1.8</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="3">讇</cell>
+                                                <cell n="3">42/108</cell>
+                                                <cell n="3">1.8</cell>
+                                                <cell n="3">2.1</cell>
+                                            </row>
+                                            <!--<row>
+                                                <cell n="5">出</cell>
+                                                <cell n="5">17/104</cell>
+                                                <cell n="5">1.1</cell>
+                                                <cell n="5">1.3</cell>
+                                            </row>-->
+                                        </table>
+                                    </cell>
+                                </row>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>良好。壁面不平整；地面上方約103釐米處有一道橫向裂縫，為岩體中的黏土層所造成。這種黏土層在<foreign xml:lang="en">C</foreign>區三窟及全院其他地方均可見。此處，黏土分别在經文第3至第13行和第45至第49行間造成裂縫；
+                            在地面上方125釐米、第6至第7行經文間以及地面上方183釐米、第18至第19行經文間，各有一個直徑3－4釐米的圓形鑿孔。一塊黑色污斑覆蓋了刻經區上部並延伸至入口處。貫穿整壁的苔蘚帶掩蓋了倒數第2至第3橫排的刻字。</p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <p>經文的書寫方向為從左至右，行數因此也依此方向標定。</p>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>大般涅槃經聖行品之四 十四；標識《大般涅槃經》第十四卷（小字標出）第七品《聖行品》第四部分的開始。</cell>
+                            </row>
+                            <row>
+                                <cell>第49行</cell>
+                                <cell>大般涅槃經卷第四（刊刻錯誤：應是第十四）；標識第十四卷和第七品《聖行品》第四部分的結束，同時也是《大般涅槃經》的結束。</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <figure n="figure" rend="page" xml:id="cave51_raum_DSC8006_smaller.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">51</hi>號窟及刻有1114年題記的佛像殘塊；2015年拍攝</head>
+                            <head xml:lang="en">Cave <hi rend="bold">51</hi> with fragment of Buddha
+                                figure with colophon of 1114; photograph taken in 2015</head>
+                            <graphic url="cave51_raum_DSC8006_smaller.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">51</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Overview</head>
+                        <p>In this central cave of section C only one part of the “Chapter on Sacred
+                            Practice” from the <hi rend="italic">Nirvana Sutra</hi> is engraved on
+                            wall f. On wall a is the colophon of 723 by donor Yang Yi, and on wall f
+                            are the two colophons by donor Wang Yuanzhao, dated 959 and 961.</p>
+                    </div>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, the central cave of the tripartite group of caves
+                                    <hi rend="bold">46</hi>, <hi rend="bold">51</hi>, and <hi rend="bold">58</hi> in section C, ca. 400 cm above present
+                                walkway. </item>
+                            <item>Width of the wall between the openings at the front of caves <hi rend="bold">46</hi> and <hi rend="bold">51</hi>: 172 cm.</item>
+                            <item>Width of the wall between the openings at the front of caves <hi rend="bold">51</hi> and <hi rend="bold">58</hi>: 117 cm.</item>
+                            <item>Direction: wall d 318°, wall f 308°.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <list>
+                            <item>Box-shaped with open front; an approximately square ground plan
+                                widens towards the rear; the horizontal ceiling rises towards the
+                                rear.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Wall a: height 273 cm, width 60 cm (from entrance opening to the
+                                standing Buddha figure <hi rend="bold">49</hi>).</item>
+                            <item>Wall d: height at the front 338 cm, at the rear 360 cm, width 320
+                                cm.</item>
+                            <item>Wall e: height at western corner 360 cm, height at eastern corner
+                                358 cm, width 371 cm.</item>
+                            <item>Wall f: height at the front 340 cm, at the rear 358, width 354
+                                cm.</item>
+                            <item>Width of opening 255 cm.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Changes</head>
+                        <p>On the walls, just inside the entrance, and in the ceiling above, are 10
+                            cm wide incisions. Their distance to the rear of the cave is 280 cm on
+                            wall d, and 267 cm on wall f. These incisions probably secured wooden or
+                            stone thresholds when the cave was occupied during the 1960s.</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_d_en">
+                        <head>Wall d</head>
+                        <p>A polished area of irregular shape, ca. 90–225 cm above the ground,
+                            extends from the entrance corner to a maximum width of 57 cm. It
+                            contains about a dozen graffiti, among them the one by Renunciant
+                            Xuanying. A second polished area, 158 x 160 cm, begins 146 cm from the
+                            entrance, and 45–58 cm from the ceiling; it ends 152 cm above the floor,
+                            and 10 cm from the rear wall e. No engraving. Some later graffiti,
+                            engraved and also written in ink.</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_e_en">
+                        <head>Wall e</head>
+                        <p>No polished area, no engraving.</p>
+                    </div>
+                    <div xml:id="Site_WFY_Section_Cb_Cave51_f_en">
+                        <head>Wall f</head>
+                        <div>
+                            <head>Layout</head>
+                            <list>
+                                <item>A polished area, 301 x 338 cm, begins ca. 1– 20 cm from wall e
+                                    and 22 cm below the ceiling; it ends 29–34 cm, and near the
+                                    entrance 17 cm, above the floor.</item>
+                                <item>The field of script, like that in the rear of wall d, is a
+                                    vertical rectangle, 290.5 x 130.5 cm. It begins 55 to 60 cm from
+                                    wall e and ca. 25 cm below the ceiling; it ends 32 cm above the
+                                    floor and 195 cm from the entrance; the lower edge is
+                                    approximately horizontal.</item>
+                            </list>
+                        </div>
+                        <div>
+                            <table rend="box">
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>Field of Script</head>
+                                            <row>
+                                                <cell n="1">Frame</cell>
+                                                <cell n="1">none</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">Grid</cell>
+                                                <cell n="2">none</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="3">Horizontal rows</cell>
+                                                <cell n="3">none</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>Columns</head>
+                                            <row>
+                                                <cell n="4">No. of columns</cell>
+                                                <cell n="4">49</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="1">Width of ten columns</cell>
+                                                <cell n="1">21 cm</cell>
+                                            </row>
+                                            <row>
+                                                <cell>Space between columns</cell>
+                                                <cell>ca. 0.3–0.7 cm</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerboxSecond">
+                                            <head>Characters</head>
+                                            <row>
+                                                <cell><!--<graphic/>-->Characters per column</cell>
+                                                <cell>uneven: 165 (column 6), 173 (column 20), 165
+                                                  (column 43)</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">Length of ten characters</cell>
+                                                <cell n="2">16.0–19.5 cm</cell>
+                                            </row>
+                                            <row>
+                                                <cell>Space between characters</cell>
+                                                <cell>ca. 0.0–0.4 cm</cell>
+                                            </row>
+                                        </table>
+                                    </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <table rend="innerbox">
+                                            <head>Sample</head>
+                                            <row n="1">
+                                                <cell n="1">Characters</cell>
+                                                <cell>Column/No.</cell>
+                                                <cell n="1">Height (cm)</cell>
+                                                <cell n="1">Width (cm)</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="2">
+                                                    <foreign xml:lang="zh">藥</foreign>yao</cell>
+                                                <cell n="2">39/95</cell>
+                                                <cell n="2">2.3</cell>
+                                                <cell n="2">1.8</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="3">
+                                                    <foreign xml:lang="zh">讇</foreign>jian</cell>
+                                                <cell n="3">42/108</cell>
+                                                <cell n="3">1.8</cell>
+                                                <cell n="3">2.1</cell>
+                                            </row>
+                                            <row>
+                                                <cell n="4">
+                                                    <foreign xml:lang="zh">狀</foreign>zhuang</cell>
+                                                <cell n="4">7/105</cell>
+                                                <cell n="4">1.5</cell>
+                                                <cell n="4">1.1</cell>
+                                            </row>
+                                            <!--<row>
+                                                <cell n="5">
+                                                    <foreign xml:lang="zh">出</foreign>chu</cell>
+                                                <cell n="5">17/104</cell>
+                                                <cell n="5">1.1</cell>
+                                                <cell n="5">1.3</cell>
+                                            </row>-->
+                                        </table>
+                                    </cell>
+                                </row>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Generally good. The surface is not even; a horizontal crack extends ca.
+                            103 cm above the floor. It results from geological layers with clay
+                            galls that are seen in all three caves of section C and elsewhere in the
+                            Grove. Here these galls create gaps from columns 3–13 and 45–49; two
+                            round man-made holes, with a diameter of 3–4 cm, were hewn 125 cm above
+                            the floor, in columns 6–7, and, 183 cm above the floor, in columns
+                            18–19. A black stain covers the upper part toward the entrance. The 2–3
+                            lowest rows are covered by a band of black lichen that runs over the
+                            width of the entire wall.</p>
+                        <figure rend="left" n="figure" xml:id="cave51_map.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">51</hi>號窟平面圖；雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">51</hi>; drawing Lukas
+                                Ledderose after field map by MB and MS</head>
+                            <graphic url="cave51_map.svg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Text Markers</head>
+                        <p>This text is written from left to right, columns are here also counted in
+                            this direction.</p>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">大般涅槃經聖行品之四 十四</foreign>; refers to the
+                                    beginning of part 4 of chapter 7 entitled “Shengxing pin”
+                                        <foreign xml:lang="zh">聖行品</foreign>, in scroll 14 (small
+                                    numbers) of the <hi rend="italic">Great <foreign xml:lang="sa">Pari­nirvāṇa</foreign> Sutra</hi> (<hi rend="italic">Da
+                                        banniepan jing </hi>
+                                    <foreign xml:lang="zh">大般涅槃經</foreign>).</cell>
+                            </row>
+                            <row>
+                                <cell>Column 49:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">大般涅槃經卷第四</foreign> (engraver’s error:
+                                    should be <foreign xml:lang="zh">第十四</foreign>, 14); refers to
+                                    the end of scroll 14 and the end of part 4 of chapter 7,
+                                    entitled “Shengxing pin” <foreign xml:lang="zh">聖行品</foreign>,
+                                    coinciding with the end of chapter 7 of the <hi rend="italic">Nirvana Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                        <!-- figure rend="page" n="figure" xml:id="WFY_52_stitch.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">51</hi>51號窟f壁上的陀羅尼經幢；2015年拍攝</head>
+                            <head xml:lang="en"><hi rend="italic"><foreign xml:lang="sa">Dhāraṇī</foreign></hi> pillar on wall f in cave 51; photograph taken in 2015</head>
+                            <graphic url="WFY_52_stitch.jpg"/>
+                        </figure -->
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

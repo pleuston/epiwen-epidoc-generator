@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+                            <seriesStmt>
+                                                        <!-- Titel und Kürzel des Bandes in @n -->
+                                                        <title n="sichuan_volume1" xml:lang="en">Sichuan Volume 1</title>
+                                                        <title n="sichuan_volume1" xml:lang="zh">四川省第一卷</title>
+                                                        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                                                        <biblScope unit="chapter" n="7"/>
+                            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Gb_Cave125">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>125號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>北岩，<foreign xml:lang="en">G</foreign>區（<ptr target="Fig_23_DSC_5193_stitch.jpg"/>）。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：148°。</item>
+                        </list>
+                        <p>位於臥佛以東150米處，一條自北面過來，通向臥佛溝的舊路從窟前經過。窟底距現今路面約6至7米。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <list>
+                            <item>中型敞口方形窟，雙層窟口(<ptr target="Fig_26_DSC07202.jpg"/>)。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>外窟口頂部較內窟窟頂高出20釐米。</item>
+                            <item>外窟口東壁進深40釐米。</item>
+                            <item>內窟口高約205、寬約208釐米，窟室進深東壁196、西壁236釐米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>窟室壁面僅初步鑿平，滿布鑿痕，未經打磨，亦未刊刻經文。2012年，該窟被用於堆放柴草。</p>
+                        <ab>
+                            <abbr>雷德侯</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Fig_26_DSC07202.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">125</hi>號窟；2010年拍攝</head>
+                            <head>Cave <hi rend="bold">125</hi>; photograph taken in 2010</head>
+                            <graphic url="Fig_26_DSC07202.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head>Cave 125</head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Northern slope, section G (fig. <ptr target="Fig_23_DSC_5193_stitch.jpg"/>).</item>
+                            <item>Direction of wall f: 148˚.</item>
+                        </list>
+                        <p>Located 150 m to the east of the figure of the reclining Buddha. West of the
+                            old path leading down into the valley from the north. Floor ca. 6-7 m above the present walkway.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <list>
+                            <item>Box-shaped, standard size, with open front and double frame (fig. <ptr target="Fig_26_DSC07202.jpg"/>).</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Height of upper reveal: 20 cm.</item>
+                            <item>Depth of eastern reveal: 40 cm.</item>
+                            <item>Entrance opening circa 205 × 200 cm, depth 190 cm at eastern wall and 236 cm at western wall.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Walls scraped, but not polished; no engraved texts; in 2012 used for
+                            storing wood.</p>
+                        <ab>
+                            <abbr>LL</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

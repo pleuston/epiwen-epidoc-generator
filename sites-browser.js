@@ -90,14 +90,6 @@
     return c;
   }
 
-  function siglaEl(rec) {
-    if (!rec.inscriptions || !rec.inscriptions.length) return null;
-    var s = document.createElement("span");
-    s.className = "tree-sigla";
-    s.textContent = "[" + rec.inscriptions.join(", ") + "]";
-    return s;
-  }
-
   // a clickable row that opens the detail pane
   function detailRow(rec, extraClass) {
     var row = document.createElement("div");
@@ -116,8 +108,7 @@
 
     var kids = (byParent[site.id] || []);
     var hasKids = kids.length > 0;
-    var hasSigla = site.inscriptions && site.inscriptions.length;
-    var expandable = hasKids || hasSigla;
+    var expandable = hasKids;
 
     var row = detailRow(site);
     var car = expandable ? caret(autoOpen) : leafCaret();
@@ -143,9 +134,6 @@
           .forEach(function (k) { children.appendChild(renderObject(k)); });
       }
     }
-    // site's own inscription links (flat sites; or site-level links on WFY)
-    var ownSigla = siglaEl(site);
-    if (ownSigla) children.appendChild(ownSigla);
 
     wrap.appendChild(children);
 
@@ -182,14 +170,10 @@
       row.insertBefore(car, row.firstChild || null);
       var lab = document.createElement("span");
       lab.innerHTML = "Section " + esc(sec) +
-        (secRec && secRec.title_en ? " · " + label(secRec) : "");
+        (secRec ? '<span class="tree-id">' + esc(volLabel(secRec.volume)) + "</span>" : "") +
+        (secRec && secRec.has_description ? '<span class="badge-desc">desc</span>' : "");
       row.appendChild(lab);
       secWrap.appendChild(row);
-
-      if (secRec) {
-        var ss = siglaEl(secRec);
-        // sigla shown under caves below; for section-level object show its own
-      }
 
       if (hasCaveKids) {
         var box = document.createElement("div");
@@ -216,8 +200,6 @@
       (obj.has_description ? '<span class="badge-desc">desc</span>' : "");
     row.appendChild(lab);
     wrap.appendChild(row);
-    var s = siglaEl(obj);
-    if (s) wrap.appendChild(s);
     return wrap;
   }
 
@@ -235,8 +217,9 @@
       (rec.title_zh ? " " + esc(rec.title_zh) : "") +
       ' <span class="catalog-date">(' + esc(rec.id) + ")</span>";
 
+    // Only catalog-backed records (genuine sites) are editable
     var editLink = el("site-edit-link");
-    editLink.style.display = "";
+    editLink.style.display = rec.catalog_file ? "" : "none";
     editLink.onclick = function () {
       var c = cache[id] || {};
       sessionStorage.setItem("epiwen_preload_site", JSON.stringify({ id: id, xml: c.siteXml || "" }));
@@ -247,7 +230,9 @@
 
     if (cache[id]) { renderDetail(rec); return; }
 
-    var jobs = [fetch("catalog/" + id + "_site.xml").then(okText).catch(function () { return ""; })];
+    var jobs = [rec.catalog_file
+      ? fetch(rec.catalog_file).then(okText).catch(function () { return ""; })
+      : Promise.resolve("")];
     jobs.push(rec.prose_file
       ? fetch(rec.prose_file).then(okText).catch(function () { return ""; })
       : Promise.resolve(""));
@@ -255,6 +240,27 @@
       cache[id] = { siteXml: res[0], proseXml: res[1] };
       if (selectedId === id) renderDetail(rec);
     });
+  }
+
+  function volLabel(v) {
+    if (!v) return "forthcoming";
+    var m = /volume(\d+)/.exec(v);
+    return m ? "Sichuan vol " + m[1] : v;
+  }
+
+  function childSummary(rec) {
+    if (rec.kind === "section") {
+      var c = allRecords.filter(function (r) {
+        return r.parent === rec.parent && r.section === rec.section && r.kind === "cave";
+      }).length;
+      return c ? c + (c === 1 ? " cave" : " caves") : "";
+    }
+    var kids = byParent[rec.id] || [];
+    if (!kids.length) return "";
+    var secs = kids.filter(function (k) { return k.kind === "section"; }).length;
+    var caves = kids.filter(function (k) { return k.kind === "cave"; }).length;
+    if (secs) return secs + " sections · " + caves + " caves";
+    return kids.length + " subsites";
   }
 
   function okText(r) { return r.ok ? r.text() : ""; }
@@ -270,20 +276,20 @@
   function renderHtml(rec, c) {
     var h = '<dl class="detail-dl">';
     function row(k, v) { if (v) h += "<dt>" + k + "</dt><dd>" + esc(v) + "</dd>"; }
-    row("Type", rec.subtype);
+    row("Type", rec.kind === "section" ? "section" : (rec.subtype || rec.kind));
     if (rec.parent) {
       var p = byId[rec.parent];
       h += '<dt>Parent</dt><dd><a href="#" data-goto="' + esc(rec.parent) + '">' +
            esc(p ? (p.title_en || rec.parent) : rec.parent) + "</a></dd>";
     }
+    if (rec.volume || rec.kind === "section")
+      row("Volume", volLabel(rec.volume));
     row("Province", [rec.province_en, rec.province_zh].filter(Boolean).join(" · "));
     row("Coordinates", rec.coordinates);
-    if (rec.inscriptions && rec.inscriptions.length)
-      row("Inscriptions", rec.inscriptions.length + ": " + rec.inscriptions.join(", "));
     h += "</dl>";
 
-    var kids = byParent[rec.id] || [];
-    if (kids.length) h += '<div class="detail-section-head">' + kids.length + " subsites</div>";
+    var summary = childSummary(rec);
+    if (summary) h += '<div class="detail-section-head">' + summary + "</div>";
 
     if (c.proseXml) {
       h += '<div class="detail-section-head">Description</div>';
@@ -299,13 +305,16 @@
   }
 
   function renderXml(c) {
-    var h = '<div class="detail-section-head">Catalog (structured)</div>';
-    h += '<pre class="site-xml">' + esc(c.siteXml || "(none)") + "</pre>";
+    var h = "";
+    if (c.siteXml) {
+      h += '<div class="detail-section-head">Catalog (structured)</div>';
+      h += '<pre class="site-xml">' + esc(c.siteXml) + "</pre>";
+    }
     if (c.proseXml) {
       h += '<div class="detail-section-head">Description (TEI prose)</div>';
       h += '<pre class="prose-xml">' + esc(c.proseXml) + "</pre>";
     }
-    return h;
+    return h || '<div class="prose-body" style="color:var(--text-muted)"><em>No XML.</em></div>';
   }
 
   function bindGoto() {

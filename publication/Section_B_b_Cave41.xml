@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="sichuan_volume2" xml:lang="en">Sichuan Volume 2</title>
+        <title n="sichuan_volume2" xml:lang="zh">四川省第二卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="12"/>
+    </seriesStmt>
+    <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Bb_Cave41">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">41</hi>號窟</head>
+                <div>
+                    <head>概述</head>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>該窟位於南坡<foreign xml:lang="en">B</foreign>區。</item>
+                            <item>
+                                <foreign xml:lang="en">f</foreign>壁方向：340°。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <list>
+                            <item>疑為方形窟。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>窟底高於現在的小徑約2.5米。</item>
+                            <item>窟口前部寬度為230釐米。</item>
+                            <item>窟底進深：160釐米。</item>
+                            <item>高度：168釐米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀況</head>
+                        <p>石窟未完工。石窟的開鑿可能由窟底開始，然後從邊上向內鑿。窟頂尚未鑿出，因而尚留有石塊。</p>
+                        <figure rend="page" n="figure" xml:id="Cave_41_DSC_0121.JPG">
+                            <head xml:lang="zh">未完成的<hi rend="bold">41</hi>號窟；2010年拍攝</head>
+                            <head>Unfinished cave <hi rend="bold">41</hi>; 
+                            photograph taken in 2010</head>
+                            <graphic url="Cave_41_DSC_0121.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">41</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, section B </item>
+                            <item>Direction: wall f 340˚</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <list>
+                            <item>Intended box shape</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Height above present walkway: ca. 2.5 meters</item>
+                            <item>Width of opening at front 230 cm</item>
+                            <item>Depth of floor: 160 cm</item>
+                            <item>Height: 168 cm</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Unfinished cave. The carving probably started from the floor and continued inwards from the sides.
+                        The ceiling was not hollowed out; therefore, a block of stone is left at the centre.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

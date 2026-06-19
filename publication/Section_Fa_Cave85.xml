@@ -1,0 +1,1236 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="sichuan_volume5" xml:lang="en">Sichuan Volume 5</title>
+                <title n="sichuan_volume5" xml:lang="zh">四川省第五卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="7"/>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <name/>
+                </respStmt>
+                <item/>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY_Section_Fa_Cave85">
+        <body>
+            <div type="cave" xml:lang="zh">
+                <head>
+                    <hi rend="bold">85</hi>號窟</head>
+                <div>
+                    <head>描述</head>
+                    <div>
+                        <head>概述</head>
+                        <p>
+                            <hi rend="bold">85</hi>號窟是卧佛院南崖位於最東面的最後一處刻經窟（<ptr target="cave_85_Ansicht_DSC1070.jpg"/>）。該窟與<hi rend="bold">83</hi>號窟爲雙窟，位於F區上層，爲該區僅有的兩個刻經窟。<hi rend="bold">85</hi>號窟刊刻《維摩詰所説經》全文。刊刻順序不同尋常。d壁刊刻經文的第一至四品，後接第十品的起始部分。f壁刊刻經文的第五至九品，後接第十品其餘内容。e壁刊刻經文的第十一至十四品。有關此刻經順序之由來的討論，見本卷導論，<ptr type="infra" target="reshuffle_start_zh reshuffle_end_zh"/>。</p>
+                        <p>刻經書法頗爲精妙，每欄狹長，排字齊整。損毁嚴重，e壁尤甚。窟口有爲安裝窟門所留下的寬大凹槽，或許鑿於20世紀。一扇窗户打破窟壁，與<hi rend="bold">83</hi>號窟相連，導致大量刻經損毁。開鑿門窗導致刻經損毁的情况，同樣見於C區<hi rend="bold">58</hi>號窟及<hi rend="bold">59</hi>號窟。<note>《中國佛教石經·四川省·第四卷》<ref type="biblio" target="Sichuan_4">第124頁</ref>。</note>
+                        </p><!--<p>繼<hi rend="bold">76</hi>號窟後的最高窟。（？）</p>
+                        <p>標準大小，d壁：共132行，每行約82字。</p>
+                        <p>壁面有開鑿窗口。</p>
+                        <p>《維摩詰所説經》，於d壁上刻有卷四，其後接有卷十。卷十一至卷十四刻於e壁，卷五至卷九刻於f壁。</p>
+                        <p>後壁風化尤其嚴重。</p>-->
+                    </div>
+                    <div>
+                        <head>位置</head>
+                        <list>
+                            <item>位於南崖F區。高出地面4.70米左右，高於現今步行7.20米左右。</item>
+                            <item>
+                                方位：d壁6˚（前）、10˚（後）；f壁1˚（前）、9˚（後）。</item>
+                        </list><!--
+                        <p>雙連窟<hi rend="bold">85</hi>號窟及<hi rend="bold">83</hi>號窟位於F區四個刻經窟的上排。</p>-->
+                        <p>雙窟開口之間寬80厘米左右。後部兩窟之間窗户的墻體厚度爲40厘米。</p>
+                    </div>
+                    <div>
+                        <head>形制</head>
+                        <p>敞口，方形窟，略小於標準尺寸。東側窟口保存良好，寬15厘米，進深<!--雙層-->25厘米。<!--西面：無。--></p>
+                        <p> 長方形窟底平面略呈梯形，進深大於窟寬（<ptr target="map_cave_85_ZH.svg"/>）。窟頂前端輕微向後擡升并水平延伸至後壁。後壁e壁左側輕微凹陷，底部輕微凸起。
+                            <!--地面基本爲矩形，略呈梯形，進深長於窟寬。窟頂前端較高，至後壁漸趨水平。後壁e壁東部輕微凹陷，底部輕微凸起。-->
+                        </p>
+                        <figure rend="left" n="figure" xml:id="map_cave_85_ZH.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">85</hi>號窟平面圖。雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">85</hi>; drawing by Lukas Ledderose after field map by MB and MS
+                            </head>
+                            <graphic url="map_cave_85_ZH.svg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>尺寸</head>
+                        <list>
+                            <item>
+                                d壁：前端高210厘米、後端高230厘米，寬320厘米。</item>
+                            <item>
+                                e壁：中部高232厘米，寬192至196厘米。</item>
+                            <item>
+                                f壁：前端高214厘米、後端高245厘米，寬320厘米。</item>
+                            <item>窟口：寬186（上）至190（下）厘米。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>改造</head>
+                        <p>窟口處地面有兩個長方形淺凹槽，乃近期刻鑿，大小皆爲34×15厘米，深3厘米。</p>
+                        <p>近窟口處距d壁45厘米的窟頂有一裂痕，斜向延伸至e壁與f壁連接處的角落，隨後延伸至窟底。窟頂裂痕起始處，有一處三角形剥落區域。</p>
+                        <p>如同<hi rend="bold">83</hi>號窟，本窟d壁與f壁開鑿凹槽左右以安置門框。d壁近窟口25厘米處有寬約8厘米的凹槽，由窟底延伸至窟頂，導致第3行至第5行的全部刻及第2行、第6行部分刻經損毁。
+                        </p>
+                        <p>
+                            f壁有相應寬度的凹槽，下方距窟口10厘米，上方距窟口29厘米。凹槽亦由窟底延伸至窟頂，導致刻經末端第116行至第118行損毁。窟頂正下方，此凹槽直角轉向窟内延伸。此横向凹槽大小爲12×33厘米，損毁刻經第104行至115行最上方兩排文字。
+                             </p>
+                        <p>
+                            在d壁底部，刻經下方接近打磨面，有三處長方形淺凹槽，寬爲12至15厘米，深3厘米，前端邊緣至窟口的距離分别爲50、175及290厘米。壁面後方有一條高100厘米、寬3至4厘米的窄長凹槽，延伸至窗口，但未破壞刻經。</p>
+                        <p>
+                            在f壁底部，d壁的相應區域，有三處長方形淺顯凹槽，寬爲12至15厘米，深3厘米，前端邊緣至窟口的距離分别爲55、170及285厘米。壁面後方距e壁0至5厘米處，有一條寬3至4厘米的凹槽，起始距窟底11厘米處，上方結束於距窟頂130厘米處。</p>
+                        <p>在近期的人爲改造中，d壁後部打通<hi rend="bold">83</hi>號窟的窗口造成最爲嚴重的損毁。</p>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_d_zh">
+                    <head>d壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面尺幅縱横爲185至193×300厘米，距窟口19厘米，距窟頂8至13厘米，距窟底17厘米，一直延伸至e壁。打磨面下方有粗糙的垂直鑿痕。窟頂與打磨面間隔位置有類似的鑿痕，但呈較精細的斜綫狀，窗口上方則呈横向刻痕。</item>
+                            <item>刻經面尺幅縱横爲173×278厘米，距窟頂11至22厘米，距窟口23厘米，距窟底28厘米，距e壁19厘米。上下邊緣皆呈水平綫。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>壁面平整，刻經大部分保存完好，但有數處明顯殘損。2D及部分3D區域的刻經被刮落，導致第5至11行部分刻經損毁。</p>
+                        <p>在墻體後方，<hi rend="bold">83</hi>號窟及<hi rend="bold">85</hi>號窟之間的窗口破壞了刻經第102至132行的上部。窗口大小爲108×83厘米，距e壁0至4厘米，距窟底101厘米，距窟頂15厘米。17A、17B及17C區域的第100及101行的部分經文在窗口開鑿時遭到破壞，窗口右方的刻經遭到不同程度的風化。</p>
+                        <p>窗口右下角的17C區域有一曲形腐蝕區，上有平行突起綫條，呈斜綫向下延伸至10D區域，大致在刻經面下沿中間部分終止。其上刻經均已剥落。窗口下方的壁面左下角一處三角形區域内仍可見刻經文字。</p><!--<p>壁面平整，大部保存完好，但仍有許多殘損。一處深約1毫米的不規則區域，高出門沿70厘米，由垂直切口内緣向外延伸12厘米，損毁了第5至11行部分刻經（圖版2D及部分3D内容）。與打磨面相接的未打磨面有三處長方形鑿孔，約12厘米至15厘米寬，3厘米深，其前端邊緣分别距窟口50、175以及290厘米。
+                            離窟口約25厘米處，約8厘米寬的切口從墻體延伸至窟頂，爲安置門框所用。該切口抹去了第3至第5行的全部及第2行與第6行的部分刻文。一處約1毫米深的不規則區域，於門沿70厘米以上，（？），破壞了第5行至第11行的部分刻經。在墻體後方，開窗處切入了83窟及85窟之間并破壞了刻經部分102至132行的上方區域。開窗位置面積約爲108×83 厘米，距離e壁0至4厘米，高於地面101厘米，低於窟頂15厘米。100及101行的部分經文（見於圖版17A7B及17C）也在開鑿該窗口時被破壞，窗口右方的經版也遭受了不同程度的腐蝕。窗口北部（見圖版17C）有大概23至34厘米寬的垂直區域風化。標有粗糙平行綫的不規則區域，從窗口下部兩轉角，呈對角綫向下延伸至刻經面底邊中心（圖版10D）。其上刻經均已剥產落。墻體下方左側有一三角形區域仍可見刻字。墻體南端（後部）有一切口，約3至4厘米寬，100厘米高，延伸至窗沿。</p>-->
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>刻經面</head>
+                                        <row>
+                                            <cell n="1">邊框</cell>
+                                            <cell n="1">上方邊尚殘存</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">界格</cell>
+                                            <cell n="2">垂直刻痕可見</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">横欄</cell>
+                                            <cell n="3">存</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell n="4">行數</cell>
+                                            <cell n="4">132</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">21厘米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>0.3至1.2厘米左右</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row>
+                                            <cell>
+                                                <!--<graphic/>-->每行字數</cell>
+                                            <cell>82</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">十字長度</cell>
+                                            <cell n="2">21厘米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字距</cell>
+                                            <cell>0.5至1.5厘米左右 </cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>舉例</head>
+                                        <row n="1">
+                                            <cell n="1">刻字</cell>
+                                            <cell>行/字</cell>
+                                            <cell n="1">高（厘米）</cell>
+                                            <cell n="1">寬（厘米）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">嚴</cell>
+                                            <cell n="2">33/30</cell>
+                                            <cell n="2">2.0</cell>
+                                            <cell n="2">2.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">云</cell>
+                                            <cell n="3">29/31</cell>
+                                            <cell n="3">1.0</cell>
+                                            <cell n="3">1.1</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div><?pb?>
+                    <div>
+                        <head>佛經標識</head>                        
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行前側</cell>
+                                <cell>三處塗刻（見本卷“導論”，<ptr type="infra" target="graffiti_start_zh"/><!-- graffiti_end_zh-->）。</cell>
+                            </row>
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>《維摩詰所説經》一名《不可思議解脱佛國品第一》：標識《維摩詰所説經》（或名《不可思議解脱》）第一卷的起始，亦是第一品《佛國品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第34行</cell>
+                                <cell>《方便品第二》：標識《維摩詰所説經》第一卷第二品《方便品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第46行</cell>
+                                <cell>《弟子品第三》：標識《維摩詰所説經》第一卷第三品《弟子品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第87行</cell>
+                                <cell>《菩薩品第四》：標識《維摩詰所説經》第一卷第四品《菩薩品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第119行</cell>
+                                <cell>《維摩詰所説經》卷上：標識《維摩詰所説經》第一卷的結束，亦是第四品《菩薩品》的結束。</cell>
+                            </row>
+                            <row>
+                                <cell>第120行</cell>
+                                <cell>［《香積佛品第十》］：原刻於現開窗部分，今已磨滅，標識《維摩詰所説經》卷三的起始，亦是第十品《香積佛品》的起始。<!--（卷五至卷九於f壁）--></cell>
+                            </row>
+                            <row>
+                                <cell>第132行</cell>
+                                <cell><!--爲刻經最後一行：-->……菩薩曰勿以聲聞［小］德小智［稱］：爲壁上最後刻字。</cell>
+                            </row><!--                           <p>有兩處塗刻“果”字。大小分别爲10×8.5厘米以及8.5×7厘米，刻痕很深，分别距窟面123厘米和125厘米。距離最後一行刻經距離分别爲13厘米和38厘米。</p>-->
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_e_zh">
+                    <head>e壁</head>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>刻經面</head>
+                                        <row>
+                                            <cell n="1">邊框</cell>
+                                            <cell n="1">不存</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">界格</cell>
+                                            <cell n="2">不存</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">横欄</cell>
+                                            <cell n="3">存</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell n="4">行數</cell>
+                                            <cell n="4">72</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">20至22厘米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>0.5至1.0厘米左右</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row>
+                                            <cell>
+                                                <!--<graphic/>-->每行字數</cell>
+                                            <cell>不等：第2行92字，第3行96字，第4行92字，第29行96字</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">十字長度</cell>
+                                            <cell n="2">21厘米左右</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字距</cell>
+                                            <cell>0.4至0.8厘米左右</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>舉例</head>
+                                        <row n="1">
+                                            <cell n="1">刻字</cell>
+                                            <cell>行/字</cell>
+                                            <cell n="1">高（厘米）</cell>
+                                            <cell n="1">寬（厘米）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">國</foreign>guo
+                                                </cell>
+                                            <cell n="2">2/22</cell>
+                                            <cell n="2">1.6</cell>
+                                            <cell n="2">1.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">得</foreign>de
+                                                </cell>
+                                            <cell n="3">71/2</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">1.7</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table><!-- <figure rend="left" n="figure" xml:id="map_cave_85_ZH.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">85</hi>號窟平面圖。雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">85</hi>; drawing by Lukas Ledderose after field map by MB and MS
+                            </head>
+                            <graphic url="map_cave_85_ZH.svg" height="100mm"/>
+                        </figure>-->
+                    </div>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>
+                                d壁窗口上方的横向鑿痕，延續整面e壁至f壁。鑿痕下方打磨面大小約192×189厘米，距窟頂10至15厘米，距窟底15厘米。</item>
+                            <item>刻經面積151×143厘米左右，距d壁14厘米，距窟頂13至18厘米，距f壁37厘米左右。下沿損毁，無法辨識。</item>
+                        </list>
+                    </div>
+                    <div>
+                        <figure rend="left" n="figure" xml:id="cave_85_Ansicht_DSC1070.jpg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">85</hi>號窟。2012年拍攝</head>
+                            <head>Cave <hi rend="bold">85</hi>; photograph taken in 2012</head>
+                            <graphic url="cave_85_Ansicht_DSC1070.jpg" height="110mm"/>
+                        </figure>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_f_zh">
+                    <head>f壁</head>
+                    <div>
+                        <head>布局</head>
+                        <list>
+                            <item>打磨面大小爲182×305厘米，距窟頂4至14厘米處，延伸至e壁。距窟底26厘米，距窟口約15厘米左右。打磨面下方有粗略的斜向鑿痕，窟頂與打磨面之間的横向區域再以横向、相對精細的鑿痕抹平。</item>
+                            <item>刻經面大小爲175×251厘米（從窟口縱向凹槽的外側開始測量），距e壁39厘米，距窟頂12至28厘米，距窟底28厘米左右。靠近窟口處邊緣被縱向凹槽打破，凹槽爲安置門框之用。刻經上沿平整，第104至118行的最上方兩排刻經因門框凹槽而損毁，下沿基本平整。</item>
+                        </list><!--<p>有兩處塗刻“果”字。大小分别爲10×8.5厘米以及8.5×7厘米，刻痕很深，分别距窟面123厘米和125厘米。距離最後一行刻經距離分别爲13厘米和38厘米。</p>-->
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>很差，刻經大多漫漶，無法辨識各品名。壁面最上方三分之一處刻經最爲清晰。</p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <!--<p/>-->
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>［量］如来［無量福慧四海有竭此飯無盡］使一切人……：大部分今已磨滅。接續刻自d壁第十品刻經處。</cell>
+                            </row>
+                            <row>
+                                <cell>第10行</cell>
+                                <cell>
+                                    ［《菩薩行品第十一》］：今已磨滅。標識《維摩詰所説經》卷三第十一品《菩薩行品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第33行</cell>
+                                <cell>
+                                    ［《見阿閦佛品》第十二］：今已不存。標識《維摩詰所説經》卷三第十二品《見阿閦佛品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第48行</cell>
+                                <cell>
+                                    ［《法供養品第十三》］：今已不存。標識《維摩詰所説經》卷三第十三品《法供養品》的起始。</cell>
+                            </row>
+                            <row>
+                                <cell>第64行</cell>
+                                <cell>
+                                    ［《囑累品第十四》］：今已不存。標識《維摩詰所説經》卷三第十四品《囑累品》的起始。
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>第72行</cell>
+                                <cell>
+                                    ［《維摩詰經卷下》］：今已不存。標識《維摩詰所説經》卷三的結束，亦是第十四品《囑累品》的結束。
+                                </cell>
+                            </row>
+                        </table>
+                        <p/>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>刻經面</head>
+                                        <row>
+                                            <cell n="1">邊框</cell>
+                                            <cell n="1">上沿見，下沿不存</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">界格</cell>
+                                            <cell n="2">不存</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">横欄</cell>
+                                            <cell n="3">存</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>行</head>
+                                        <row>
+                                            <cell n="4">行數</cell>
+                                            <cell n="4">118（現存115行）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">十行寬度</cell>
+                                            <cell n="1">21厘米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>行距</cell>
+                                            <cell>0.3至1.0厘米左右</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>文字</head>
+                                        <row>
+                                            <cell>
+                                                <!--<graphic/>-->每行字數</cell>
+                                            <cell>第113至115行80字，第111行81字，第105至110行、第112行83字。</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">十字長度</cell>
+                                            <cell n="2">21厘米</cell>
+                                        </row>
+                                        <row>
+                                            <cell>字距</cell>
+                                            <cell>0.3至1.0厘米左右</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>舉例</head>
+                                        <row n="1">
+                                            <cell n="1">刻字</cell>
+                                            <cell>行/字</cell>
+                                            <cell n="1">高（厘米）</cell>
+                                            <cell n="1">寬（厘米）</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">窮</foreign>
+                                            </cell>
+                                            <cell n="2">97/17</cell>
+                                            <cell n="2">2.0</cell>
+                                            <cell n="2">1.5</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">由</foreign>
+                                            </cell>
+                                            <cell n="3">89/34</cell>
+                                            <cell n="3">1.4</cell>
+                                            <cell n="3">1.0</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>保存狀况</head>
+                        <p>很差，表層基本平整，損毁嚴重。f壁1C至19D區域風化，導致這些區域刻經全部或大多損毁。其他區域亦部分風化。一淺刻縱向長方形凹槽，大小爲54×10.5厘米，深1至3毫米左右，位於縱向門框切口内側，破壞了18D及19D區域第111至115行下部刻經。</p>
+                        <p><!--墻體底座未打磨，與d壁一樣，有三個長方形孔洞，12至15厘米寬，約3厘米深，前端距窟口距離分别爲55、170及285厘米。--></p>
+                        <p>與d壁不同的是，後部下方對角綫區域并未見刻字。<!--f壁南（後）端，距e壁0至5厘米、窟面以上11厘米處有一切口，止於窟面以上130厘米處，約3至4厘米寬。-->
+                        </p>
+                    </div>
+                    <div>
+                        <head>佛經標識</head>
+                        <!--<p/>-->
+                        <table rend="textmarker">
+                            <row>
+                                <cell>第1行</cell>
+                                <cell>《文殊師利問疾品第五》：標識《維摩詰所説經》卷二之第五品《文殊師利問疾品》的起始。
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>第29行</cell>
+                                <cell>
+                                    ［《不思議品第六》］：今已不存，標識《維摩詰所説經》卷二之第六品《不思議品》的起始。
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>第50行</cell>
+                                <cell>
+                                    ［《觀眾生品第七》］：今已不存，標識《維摩詰所説經》卷二之第七品《觀眾生品》的起始。
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>第78行</cell>
+                                <cell>《佛道品第八》：標識《維摩詰所説經》卷二之第八品《佛道品》的起始。
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>第99行</cell>
+                                <cell>《入不二法門品第九》：標識《維摩詰所説經》卷二之第九品《入不二法門品》的起始。
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>第115行</cell>
+                                <cell>
+                                    實不實爲二實：刻經《維摩詰所説經》卷二之第九品《入不二法門品》最末現存文字。
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>第116行</cell>
+                                <cell>
+                                    ［五千菩薩皆入不二法門得無生法忍］：今已磨滅，標識f壁刻經的結束，亦是《維摩詰所説經》卷二第九品《入不二法門品》的結束。
+                                </cell>
+                            </row>
+                        </table>
+                        <p/>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_discussion_zh">
+                    <head>討論</head>
+                    <bibl>
+                        彭家勝<ref type="biblio" target="Pengjiasheng1988">第8頁</ref>
+                        <note>
+                            <p>彭家勝提供了該窟測量數據，體積爲12.499立方米。作者辨識d壁刻經爲《維摩詰所説經》第一品，f壁爲該經第八品，e壁内容不詳。他的以上信息由胡文和提供。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        胡文和<ref type="biblio" target="Huwenhe1992">第10頁</ref>
+                        <note>
+                            <p>胡文和給出的該窟尺寸的測量數據同彭家勝（<ref type="biblio" target="Pengjiasheng1988"/>），并重申彭家勝文中f壁所刻爲《維摩詰所説經》第八品的觀點，但認爲d壁刻經爲第一至三品。e壁刻經因風化嚴重，未能辨識。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        胡文和<ref type="biblio" target="HuWenhe1994">第68頁</ref>
+                        <note>
+                            <p>胡文和申其舊説（<ref type="biblio" target="Huwenhe1992"/>）。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        李良和鄧之金<ref type="biblio" target="Li_Deng1997">第44－45頁</ref>
+                        <note>
+                            <p>李良和鄧之金提供該窟尺寸數據及各壁刻經面大小，并統計了刻經字數。作者認爲d壁經刻爲《維摩詰所説經》第一品。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        成都文物考古研究所<ref type="biblio" target="ChengduKaoguFaxian2008">第393頁、第408頁</ref>
+                        <note>
+                            <p>該文提供了該窟的測量數據并詳細描述此窟。作者製表列出d壁及f壁《維摩詰所説經》各品行數，并與《大正藏》本比對。該文忽略了第五品及e壁刻經。
+                               <!--with reference to the <hi rend="italic">
+                                <foreign xml:lang="ja">Taishō
+                            </hi> edition.-->
+                            </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        李琛妍<ref type="biblio" target="LeeSonyaS2009">第41頁、第50頁、第74頁註28</ref>
+                        <note>
+                            <p>李琛妍將<hi rend="bold">85</hi>號窟列入她所分的第VI組（本卷F區）予以討論。作者認爲該窟刊刻《維摩詰所説經》前九品，毗鄰的<hi rend="bold">83</hi>號窟刊刻第十至十四品。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        曹丹和于春<ref type="biblio" target="Cao_Yu2009">第14頁</ref>
+                        <note>
+                            <p>曹丹和于春提供窟墻及其表層測量數據，根據拓片統計現存刻銘字數：d壁現存8118字，f壁現存7553字。作者辨識出d壁刻經爲《維摩詰所説經》第一品，f壁爲第八品。</p><!-- Cao and Yu give measurements of the walls, their surface areas, and, based on rubbings, the number of extant characters: wall d 8,118; wall f 7,553.-->
+                        </note>
+                    </bibl>
+                    <bibl>
+                      秦臻、張雪芬和雷玉華<ref type="biblio" target="Qin_Zhang_Lei2015">第107頁、第125頁、第439－454頁</ref>
+                        <note>
+                            <p>該文再次使用成都文物考古研究所的研究結果（<ref type="biblio" target="ChengduKaoguFaxian2008"/>）。此外，作者提供d壁及f壁立面圖，移録刻經，并用其方法系統標示經文。作者未移録e壁刻經，且未辨識其出處。</p><!--from the <hi rend="italic">
+                                <foreign xml:lang="ja">Taishō
+                            </hi> edition. -->
+                        </note>
+                    </bibl>
+                    <bibl>
+                        肥田路美<ref type="biblio" target="HidaRomi_2015">第110－111頁</ref>
+                        <note>
+                            <p>肥田路美根據<hi rend="bold">85</hi>號窟d壁與f壁拓片，辨識d壁刻經爲《維摩詰所説經》第一至三及十品，f壁爲該經第八至九品。作者認爲該窟空間足够刊刻整部經文，但未留意e壁刻經。</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        鄧星亮<ref type="biblio" target="Dengxingliang2016">第80頁、第93頁</ref>
+                        <note>
+                            <p>鄧星亮提供該窟了測量數據，并總體描述。作者指出該窟三處壁面均有刻經。d壁刊刻《維摩詰所説經》第一至四品及第十品部分内容。因爲侵蝕嚴重，無法辨識e壁刻經，作者推測爲《維摩詰經》第十至十三品。作者辨識f壁刻經爲該經第五至九品，移録了起始與結尾部分。</p>
+                        </note>
+                    </bibl>
+                </div>
+            </div>
+            <div type="cave" xml:lang="en">
+                <head type="cave">Cave <hi rend="bold">85</hi>
+                </head>
+                <div>
+                    <head>Description</head>
+                    <div>
+                        <head>Overview</head>
+                        <p>Cave <hi rend="bold">85</hi> is the final, easternmost sutra cave in the southern escarpment of the Grove (fig. <ptr target="cave_85_Ansicht_DSC1070.jpg"/>). 
+                            
+                            It is the twin to cave <hi rend="bold">83</hi>, these two caves in the upper tier being the only sutra caves in section F. They share a short protruding roof. Cave <hi rend="bold">85</hi> contains the entire <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                            </hi> (<hi rend="italic">Weimojie suo shuo jing </hi>
+                            <foreign xml:lang="zh">維摩詰所説經</foreign>; hereafter: <hi rend="italic">
+                                <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>). The sequence of the text on the walls is unusual. Engraved on wall d are chapters 1 to 4, followed by the beginning of chapter 10; chapters 5–9 are found on the opposite wall f; and the second part of chapter 10, as well as chapters, 11–14, are placed on wall e. (The reason for this arrangement is explained above, pp. <ptr type="infra" target="reshuffle_start reshuffle_end"/>).
+                           </p>
+                        <p>The calligraphy is quite accomplished: the characters form neat vertical columns and horizontal rows. Yet the damage is considerable, and the rear wall e is particularly worn. Probably in the twentieth century, broad incisions were cut for a door frame, and when a window was broken through to cave <hi rend="bold">83</hi>, a sizable piece of text was lost. The damage is comparable to that caused by the breaking through of a door between caves <hi rend="bold">58</hi> and <hi rend="bold">59</hi> in section C.<note>See <ref type="biblio" target="Sichuan_4">134</ref>.</note>
+                        </p>
+                    </div>
+                    <div>
+                        <head>Location</head>
+                        <list>
+                            <item>Southern slope, section F, 4.7 m above the ground and 7.2 m above the walkway.</item>
+                            <item>Direction of wall d: 6˚ (front), 10˚ (rear); wall f: 1˚ (front), 9˚ (rear).</item>
+                        </list>
+                        <figure rend="left" n="figure" xml:id="map_cave_85_EN.svg">
+                            <head xml:lang="zh">
+                                <hi rend="bold">85</hi>號窟平面圖。雷魯卡根據馬本漢和王平國田野繪圖製作</head>
+                            <head>Ground plan of cave <hi rend="bold">85</hi>; drawing by Lukas Ledderose after field map by MB and MS
+                            </head>
+                            <graphic url="map_cave_85_EN.svg"/>
+                        </figure>
+<p>The facade between the entrances of the twin caves is 80 cm wide. At the rear, the wall between the caves, in which the window joining them has been cut, is 40 cm thick.</p>
+                    </div>
+                    <div>
+                        <head>Shape</head>
+                        <p>Box-shaped with open front, slightly substandard in size. Well-preserved reveal on the left (east): width 15 cm, depth 25 cm.</p>
+                        <p>The rectangular, slightly trapezoidal ground plan is considerably deeper than it is wide (fig. <ptr target="map_cave_85_EN.svg"/>). At the front of the cave, the ceiling slants slightly upwards and then continues horizontally towards the rear. The left side of the rear wall e is slightly concave and bulges forward below. </p>
+                    </div>
+                    <div>
+                        <head>Measurements</head>
+                        <list>
+                            <item>Wall d: height at the front 210 cm, at the rear 230 cm; width 320 cm.</item>
+                            <item>Wall e: height at midpoint 232 cm; width 192–196 cm.</item>
+                            <item>Wall f: height at the front 214 cm, at the rear 245 cm; width 320 cm.</item>
+                            <item>Width of entrance: 186 cm (above), 190 cm (below).</item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Changes</head>
+                        <p>Near the entrance of the cave are two shallow rectangular troughs, recently cut into the floor, each measuring 34 × 15 cm, and 3 cm deep.</p>
+                        <p>A crack in the ceiling, beginning near the entrance, 45 cm from wall d, runs diagonally to the corner between walls e and f, and there descends to the floor. Where the crack begins, a triangular part of the ceiling has fallen down. </p>
+                        <p>As in cave  <hi rend="bold">83</hi>, large slits were cut into walls d and f to hold a door frame. In wall d, about 25 cm from the entrance, a slit of ca. 8 cm in width runs from the floor to the ceiling, completely obliterating columns 3–5 and parts of columns 2 and 6.</p>
+                        <p>In wall f, there is a corresponding slit of the same width; below, it is ca. 10 cm from the entrance and above it is ca. 29 cm. It also runs from the floor to the ceiling, obliterating the final columns 116–118. Directly below the ceiling, the slit makes a right-angle turn towards the interior of the cave. This extension, measuring 12 × 33 cm, obliterates the upper two rows of characters in columns 104–115. </p>
+                        <p>At the base of wall d, reaching into the polished area but below the text, are three rectangular incisions, 12–15 cm wide and ca. 3 cm deep, their front edges at a distance of 50, 175, and 290 cm from the entrance. At the rear of the wall, a slit, 3–4 cm wide and 100 cm high, reaches up to the windowsill, without, however, damaging the text. </p>
+                        <p>At the base of wall f, three rectangular incisions correspond to those in wall d, 12–15 cm wide, and ca. 3 cm deep, their front edges at a distance of 55, 170, and 285 cm from the entrance. At the rear of the wall, at a distance of 0–5 cm from wall e, a slit, 3–4 cm wide, begins 11 cm above the floor and ends at a height of 130 cm.</p>
+                        <p>Among the recent man-made changes, the window to neighboring cave <hi rend="bold">83</hi> in the rear of wall d is the most detrimental. </p>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_d_en">
+                    <head>Wall d</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>A polished area, 185–193 × 300 cm, begins 19 cm from the entrance and 8–13 cm below the ceiling; it ends ca. 17 cm above the floor and extends all the way to the rear wall e. The base below the polished area is cut with rough vertical striations; the zone below the ceiling and above the polished area is similarly roughened, but with smaller and finer diagonal striations, which are horizontal above the window. </item>
+                            <item>The field of script, 173 × 278 cm, begins 11–22 cm below the ceiling, and 23 cm from the entrance; it ends 28 cm above the floor and 19 cm from wall e; the upper and lower edges are horizontal.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">parts visible above</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid lines</cell>
+                                            <cell n="2">traces of some vertical lines</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">yes</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">132</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">21 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>ca. 0.3–1.2 cm </cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell>
+                                                <!--<graphic/>-->Characters per column</cell>
+                                            <cell>82</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">21 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between characters</cell>
+                                            <cell>ca. 0.5–1.5 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample characters</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">嚴</foreign>yan
+                                                </cell>
+                                            <cell n="2">33/30</cell>
+                                            <cell n="2">2.0</cell>
+                                            <cell n="2">2.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">云</foreign>yun
+                                                </cell>
+                                            <cell n="3">29/31</cell>
+                                            <cell n="3">1.0</cell>
+                                            <cell n="3">1.1</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>The surface is even, with large parts well preserved, but there are considerable areas of damage. Characters have been scraped off in segments 2D and part of 3D, damaging the lower parts of columns 5 to 11. </p>
+                        <p>At the rear of the wall, the window that was cut between caves <hi rend="bold">83</hi> and <hi rend="bold">85</hi> has destroyed the upper parts of columns 102–132. The window, which measures 108 × 83 cm, is situated 0–4 cm from wall e, 101 cm above the floor, and 15 cm below the ceiling. Parts of columns 100 and 101 in segments 17A, 17B, and 17C were also destroyed when the window was made, and segments to the right of the window have suffered varying degrees of erosion. </p>
+                        <p>From the lower right-hand corner of the window in segment 17C, a curved area of erosion marked with parallel lines in relief extends diagonally downward to segment 10D, roughly the midpoint of the lower edge of the field of script. In this area most characters have flaked off. Characters are still evident, however, in a triangular area in the lower left-hand corner of the wall, beneath the window. </p>
+                    </div>
+                    <div>
+                        <head>Text Markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Before column 1:</cell>
+                                <cell>Three graffiti (for their texts, see the section Graffiti in the Introduction, pp. <ptr type="infra" target="graffiti_start graffiti_end"/>). </cell>
+                            </row>
+                            <row>
+                                <cell>Column 1:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">維摩詰所説經一名不可思議解脱佛國品第一</foreign>: the beginning of chapter 1 (<hi rend="italic">Foguo pin</hi>
+                                    <foreign xml:lang="zh">佛國品</foreign>), coinciding with the beginning of scroll 1 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>, also entitled <hi rend="italic">Buke siyi jietuo </hi>
+                                    <foreign xml:lang="zh">不可思議解脱</foreign>).</cell>
+                            </row>
+                            <row>
+                                <cell>Column 34:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">方便品第二</foreign>: the beginning of chapter 2 (<hi rend="italic">Fangbian pin </hi>
+                                    <foreign xml:lang="zh">方便品</foreign>), in scroll 1 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 46:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">弟子品第三</foreign>: the beginning of chapter 3 (<hi rend="italic">Dizi pin </hi>
+                                    <foreign xml:lang="zh">弟子品</foreign>), in scroll 1 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 87:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">菩薩品第四</foreign>: the beginning of chapter 4 (<hi rend="italic">Pusa pin </hi>
+                                    <foreign xml:lang="zh">菩薩品</foreign>), in scroll 1 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 119:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">維摩詰經卷上</foreign>: the end of chapter 4 (<hi rend="italic">Pusa pin </hi>
+                                    <foreign xml:lang="zh">菩薩品</foreign>), coinciding with the end of scroll 1 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 120:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[香積佛品第十]</foreign> destroyed by the window; the beginning of chapter 10 (<hi rend="italic">Xiangjifo pin </hi>
+                                    <foreign xml:lang="zh">香積佛品</foreign>), coinciding with the beginning of scroll 3 of the  <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 132:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">……菩薩曰勿以聲闻［小］德小智［稱］</foreign>: the final characters on this wall.
+                                    </cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_e_en">
+                    <head>Wall e</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>The horizontal striations above the window in wall d continue on wall e, all the way to wall f. The polished area below, ca. 192 × 189 cm, begins 10–15 cm from the ceiling, and ends 15 cm above the floor.</item>
+                            <item>The field of script, ca. 151 × 143 cm, begins 14 cm from wall d and 13–18 cm from the ceiling; it ends ca. 37 cm from wall f. Owing to damage the lower edge has disappeared.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">not visible</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid lines</cell>
+                                            <cell n="2">not visible</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">yes</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">72</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">20–22 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>ca. 0.5–1.0 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell>Characters per column</cell>
+                                            <cell>uneven; 92 (col. 2), 96 (col. 3), 92 (col. 4), 96 (col. 29)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">ca. 21 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between characters</cell>
+                                            <cell>ca. 0.4–0.8 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample characters</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">國</foreign>guo </cell>
+                                            <cell n="2">2/22</cell>
+                                            <cell n="2">1.6</cell>
+                                            <cell n="2">1.0</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">得</foreign>de</cell>
+                                            <cell n="3">71/2</cell>
+                                            <cell n="3">2.0</cell>
+                                            <cell n="3">1.7</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor, with characters largely effaced; the chapter titles are illegible. The characters are clearest in the uppermost third of the wall.</p>
+                    </div>
+                    <div>
+                        <head>Text Markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[量]如来[無量福慧四海有竭此飯無盡]使一切人</foreign>; continuation of chapter 10 from wall d.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 10:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[菩薩行品第十一]</foreign>: no longer visible; the beginning of chapter 11 (<hi rend="italic">Pusaxing pin </hi>
+                                    <foreign xml:lang="zh">菩薩行品</foreign>), in scroll 3 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 33:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[見阿閦佛品第十二]</foreign>: no longer visible; the beginning of chapter 12 (<hi rend="italic">Jian Achufo</hi> (<hi rend="italic">
+                                        <foreign xml:lang="sa">Akṣobhya</foreign>
+                                    </hi>) <hi rend="italic">pin</hi>
+                                    <foreign xml:lang="zh">見阿閦佛品</foreign>), in scroll 3 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 48</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[法供養品第十三]</foreign>: no longer visible; the beginning of chapter 13 (<hi rend="italic">Fa gongyang pin </hi>
+                                    <foreign xml:lang="zh">法供養品</foreign>), in scroll 3 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 64:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[囑累品第十四]:</foreign>no longer visible; the beginning of chapter 14 (<hi rend="italic">Zhulei pin </hi>
+                                    <foreign xml:lang="zh">囑累品</foreign>), in scroll 3 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 72:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[維摩詰經卷下]</foreign>: no longer visible; the end of chapter 14 (<hi rend="italic">Zhulei pin </hi>
+                                    <foreign xml:lang="zh">囑累品</foreign>), coinciding with the end of scroll 3 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_f_en">
+                    <head>Wall f</head>
+                    <div>
+                        <head>Layout</head>
+                        <list>
+                            <item>A polished area, 182 × 305 cm, begins 4 to 14 cm below the ceiling, and extends to wall e; it ends ca. 26 cm above the floor, and ca. 15 cm from the entrance. The base below is cut with rough diagonal striations; the horizontal band below the ceiling and above the polished area is roughened up with smaller and finer horizontal striations.</item>
+                            <item>The field of script, 175 × ca. 251 cm (measured from the left side of the vertical slit near the entrance), begins 39 cm from wall e, 12 to 28 cm from the ceiling, and ends ca. 28 cm above the floor. Near the entrance its edge has been destroyed by the vertical slit for the door frame. The upper edge is horizontal, except for columns 104–118, the top two rows of which were lost when the horizontal extension of the door frame was made. The lower edge is more or less horizontal.</item>
+                        </list>
+                    </div>
+                    <div>
+                        <table rend="box">
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Field of Script</head>
+                                        <row>
+                                            <cell n="1">Frame</cell>
+                                            <cell n="1">traces at the upper, but not at the lower, edge</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Grid lines</cell>
+                                            <cell n="2">not visible</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">Horizontal rows</cell>
+                                            <cell n="3">yes</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Columns</head>
+                                        <row>
+                                            <cell n="4">No. of columns</cell>
+                                            <cell n="4">118 (115 extant)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="1">Width of ten columns</cell>
+                                            <cell n="1">21 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between columns</cell>
+                                            <cell>ca. 0.3–1.0 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerboxSecond">
+                                        <head>Characters</head>
+                                        <row>
+                                            <cell>
+                                                <!--<graphic/>-->Characters per column</cell>
+                                            <cell>80 (cols. 113, 114, 115), 81 (col. 111), 83 (cols. 105-110, 112). 
+         
+        </cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">Length of ten characters</cell>
+                                            <cell n="2">21 cm</cell>
+                                        </row>
+                                        <row>
+                                            <cell>Space between characters</cell>
+                                            <cell>ca. 0.3–1.0 cm</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <table rend="innerbox">
+                                        <head>Sample characters</head>
+                                        <row n="1">
+                                            <cell n="1">Characters</cell>
+                                            <cell>Column/No.</cell>
+                                            <cell n="1">Height (cm)</cell>
+                                            <cell n="1">Width (cm)</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="2">
+                                                <foreign xml:lang="zh">窮</foreign>qiong</cell>
+                                            <cell n="2">97/17</cell>
+                                            <cell n="2">2.0</cell>
+                                            <cell n="2">1.5</cell>
+                                        </row>
+                                        <row>
+                                            <cell n="3">
+                                                <foreign xml:lang="zh">由</foreign>you</cell>
+                                            <cell n="3">89/34</cell>
+                                            <cell n="3">1.4</cell>
+                                            <cell n="3">1.0</cell>
+                                        </row>
+                                    </table>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>State of preservation</head>
+                        <p>Poor; the surface is fairly even, but very worn. A large portion of wall f, running roughly from segments 1C through 19D, has been eroded, with all or many of the characters missing, and there is partial erosion of other segments as well. A shallow vertical rectangle, measuring 54 × 10.5 cm and ca. 1–3 mm deep, has been cut into the wall bordering the inner edge of the vertical slit, hence damaging parts of segments 18D and 19D (the lower parts of columns 111–115).</p>
+                    </div>
+                    <div>
+                        <head>Text Markers</head>
+                        <table rend="textmarker">
+                            <row>
+                                <cell>Column 1:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">文殊師利問疾品第五</foreign>: the beginning of chapter 5 (<hi rend="italic">Wenshu shili wenji pin </hi>
+                                    <foreign xml:lang="zh">文殊師利問疾品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. </cell>
+                            </row>
+                            <row>
+                                <cell>Column 29:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[不思議品第六]</foreign>: no longer visible; the beginning of chapter 6 (<hi rend="italic">Busiyi pin </hi>
+                                    <foreign xml:lang="zh">不思議品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                            <row>
+                                <cell>Column 50:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[觀眾生品第七]</foreign>: no longer visible; the beginning of chapter 7 (<hi rend="italic">Guanzhongsheng pin </hi>
+                                    <foreign xml:lang="zh">觀眾生品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. 
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>Column 78:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">佛道品第八</foreign>: the beginning of chapter 8 (<hi rend="italic">Fodao pin </hi>
+                                    <foreign xml:lang="zh">佛道品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>. 
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>Column 99:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">入不二法門品第九</foreign>: the beginning of chapter 9 (<hi rend="italic">Rubu’er famen pin </hi>
+                                    <foreign xml:lang="zh">入不二法門品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>Column 115:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">實不實爲二實</foreign>: the last visible characters on wall f, from chapter 9 (<hi rend="italic">Rubu’er famen pin </hi>
+                                    <foreign xml:lang="zh">入不二法門品</foreign>), in scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.
+                                    </cell>
+                            </row>
+                            <row>
+                                <cell>Column 116:</cell>
+                                <cell>
+                                    <foreign xml:lang="zh">[五千菩薩皆入不二法門得無生法忍]</foreign>: no longer visible; formerly, the last characters on wall f; the end of chapter 9 (<hi rend="italic">Rubuer famen pin </hi>
+                                    <foreign xml:lang="zh">入不二法門品</foreign>), coinciding with the end of scroll 2 of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>.</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div xml:id="Site_WFY_Section_Fa_Cave85_discussion_en">
+                    <head>Discussion</head>
+                    <bibl>
+                        <ref type="biblio" target="Pengjiasheng1988">8</ref>
+                        <note>
+                            <p>Peng gives measurements of the cave and calculates its volume at 12.499 cubic meters. He identifies the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> and says that wall d includes chapter 1, and wall f chapter 8. He writes that it is unclear which text was carved on wall e. He was given this information by Hu Wenhe.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Huwenhe1992">10</ref>
+                        <note>
+                            <p>Hu Wenhe gives the same dimensions of the cave as published in <ref type="biblio" target="Pengjiasheng1988"/>. He repeats the identification of chapter 8 of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> on wall f, but in addition identifies wall d as having chapters 1 to 3. He does not identify the text carved on wall e because of its erosion.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="HuWenhe1994">68</ref>
+                        <note>
+                            <p>Hu Wenhe repeats the information in his earlier publication, <ref type="biblio" target="Huwenhe1992"/>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Li_Deng1997">44–45</ref>
+                        <note>
+                            <p>The authors give measurements for the cave and for the fields of script on each wall, also calculating the total number of carved characters. They note that the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>’s first chapter is carved on wall d.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="ChengduKaoguFaxian2008">393, 408</ref>
+                        <note>
+                            <p>The editors of the Chengdu Municipal Institute of Cultural Relics and Archaeology give measurements and a detailed description of the cave. They tabulate the column numbers for each chapter of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> carved on walls d and f, with reference to the <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> edition. They overlook chapter 5, as well as the text carved on wall e.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="LeeSonyaS2009">41, 50, and 74, note 28</ref>
+                        <note>
+                            <p>Lee includes cave <hi rend="bold">85</hi> in her cluster VI, which corresponds to section F. She writes that the first nine chapters of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> were carved in this cave, and chapters 10–14 were carved in neighboring cave <hi rend="bold">83</hi>.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Cao_Yu2009">14</ref>
+                        <note>
+                            <p>Cao and Yu give measurements of the walls, their surface areas, and, based on rubbings, the number of extant characters: wall d, 8,118; wall f, 7,553. They identify the first chapter of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> on wall d, and the eighth chapter on wall f. </p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Qin_Zhang_Lei2015">107, 125, 439–454</ref>
+                        <note>
+                            <p>The authors repeat the information in <ref type="biblio" target="ChengduKaoguFaxian2008"/>. In addition, they provide diagrams of walls d and f and transcribe the engraved text, which they analyze according to their own detailed scheme. They do not transcribe the text on wall e, however, which they were unable to decipher.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="HidaRomi_2015">110–111</ref>
+                        <note>
+                            <p>Based on rubbings taken from walls d and f in cave <hi rend="bold">85</hi>, Hida identifies chapters 1, 2, and 3, as well as chapter 10 of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> on wall d, and chapter 8 and 9 of the same sutra on wall f. She notes that the cave would have offered enough space to carve the entire sutra, but she is not aware that more text was carved on wall e.</p>
+                        </note>
+                    </bibl>
+                    <bibl>
+                        <ref type="biblio" target="Dengxingliang2016">80, 93</ref>
+                        <note>
+                            <p>Deng Xingliang gives measurements and a general description of the cave. He notes that sutra texts were carved on all three walls. He records that wall d is engraved with chapters 1 to 4 of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi>, and with part of chapter 10. Due to erosion, he cannot decipher the text carved on wall e, but he assumes that chapters 10 to 13 of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> Sutra</hi> must have been carved there. On wall f, he identifies chapters 5 to 9 of the same sutra, and transcribes the beginning and the end of the text.</p>
+                        </note>
+                    </bibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
