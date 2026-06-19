@@ -31,6 +31,9 @@
   // ── Citation helpers ──────────────────────────────────────────────────────
 
   function nameWithCjk(western, cjk) {
+    // CJK-only names (no romanisation) fall back to the CJK form in both
+    // fields — show it once, not "中文 中文".
+    if (western && cjk && western === cjk) return "<span lang=\"zh\">" + esc(cjk) + "</span>";
     if (western && cjk)  return esc(western) + " <span lang=\"zh\">" + esc(cjk) + "</span>";
     if (western)         return esc(western);
     return cjk ? "<span lang=\"zh\">" + esc(cjk) + "</span>" : "";
