@@ -5,53 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epiwen · Map</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Leaflet (vendored locally — no CDN, no build step) -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="leaflet/MarkerCluster.css" />
+    <link rel="stylesheet" href="leaflet/MarkerCluster.Default.css" />
     <script src="auth.js"></script>
     <style>
-      #map {
-        position: relative; width: 100%; overflow: hidden;
-        background: #aadaff; cursor: grab; user-select: none; touch-action: none;
-      }
-      #map.dragging { cursor: grabbing; }
-      #map-tiles, #map-markers { position: absolute; inset: 0; }
-      #map-markers { pointer-events: none; }
-      .tile { position: absolute; width: 256px; height: 256px; }
+      #map { width: 100%; background: #aadaff; }
+      /* custom teardrop-free circular markers via divIcon */
+      .site-divicon { background: transparent; border: none; }
       .map-marker {
-        position: absolute; width: 13px; height: 13px; margin: -7px 0 0 -7px;
-        border-radius: 50%; background: var(--accent, #c0392b);
-        border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.45);
-        cursor: pointer; pointer-events: auto; transition: transform .08s;
+        width: 13px; height: 13px; border-radius: 50%;
+        background: var(--accent, #c0392b); border: 2px solid #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.45); box-sizing: border-box;
       }
-      .map-marker:hover { transform: scale(1.35); z-index: 5; }
-      .map-marker.is-parent { background: var(--accent-strong, #7a1f12); width: 16px; height: 16px; margin: -9px 0 0 -9px; }
-      .map-zoom {
-        position: absolute; top: 10px; left: 10px; z-index: 20;
-        display: flex; flex-direction: column; gap: 2px;
-      }
-      .map-zoom button {
-        width: 30px; height: 30px; font-size: 1.1rem; line-height: 1;
-        border: 1px solid var(--border, #bbb); background: #fff; cursor: pointer;
-        border-radius: 4px;
-      }
-      .map-zoom button:hover { background: var(--bg-subtle, #eef); }
-      .map-popup {
-        position: absolute; z-index: 30; background: var(--bg, #fff);
-        border: 1px solid var(--border, #ccc); border-radius: 6px;
-        box-shadow: 0 3px 14px rgba(0,0,0,.2); padding: .5rem .7rem;
-        font-size: .85rem; min-width: 150px; max-width: 240px;
-        transform: translate(-50%, calc(-100% - 12px));
-      }
-      .map-popup h4 { margin: 0 0 .15rem; font-size: .92rem; }
-      .map-popup .pp-sub { color: var(--text-muted, #888); font-size: .82em; }
-      .map-popup a { display: inline-block; margin-top: .4rem; }
-      .map-attr {
-        position: absolute; bottom: 0; right: 0; z-index: 20;
-        background: rgba(255,255,255,.72); font-size: .7rem; padding: 1px 6px;
-        border-top-left-radius: 4px;
-      }
-      .map-attr a { color: inherit; }
+      .map-marker.is-parent { background: var(--accent-strong, #7a1f12); width: 15px; height: 15px; }
+      .leaflet-popup-content h4 { margin: 0 0 .15rem; font-size: .95rem; }
+      .leaflet-popup-content .pp-sub { color: var(--text-muted, #888); font-size: .82em; }
+      .leaflet-popup-content a { display: inline-block; margin-top: .45rem; }
       .map-legend {
-        position: absolute; bottom: 8px; left: 10px; z-index: 20;
-        background: rgba(255,255,255,.85); border: 1px solid var(--border, #ccc);
+        position: absolute; bottom: 8px; left: 10px; z-index: 600;
+        background: rgba(255,255,255,.88); border: 1px solid var(--border, #ccc);
         border-radius: 5px; padding: .35rem .55rem; font-size: .78rem; color: var(--text, #333);
       }
     </style>
@@ -72,18 +46,14 @@
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
-    <div id="map">
-      <div id="map-tiles"></div>
-      <div id="map-markers"></div>
-      <div class="map-zoom">
-        <button id="map-zoom-in" title="Zoom in" aria-label="zoom in">+</button>
-        <button id="map-zoom-out" title="Zoom out" aria-label="zoom out">−</button>
-      </div>
-      <div class="map-legend"><span id="map-count"></span> sites · drag to pan, scroll to zoom</div>
-      <div class="map-attr">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors</div>
+    <div style="position:relative">
+      <div id="map"></div>
+      <div class="map-legend"><span id="map-count"></span> sites · click a marker to open it</div>
     </div>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="leaflet/leaflet.js"></script>
+    <script src="leaflet/leaflet.markercluster.js"></script>
     <script src="map.js"></script>
   </body>
 </html>
