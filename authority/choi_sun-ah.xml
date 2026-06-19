@@ -1,0 +1,33 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="choi_sun-ah">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">Choi</namePart>
+            <namePart type="given">Sun-ah</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Cui</namePart>
+            <namePart type="given">Shan’e</namePart>
+        </name>
+    </variant>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart type="family">崔</namePart>
+            <namePart type="given">善娥</namePart>
+        </name>
+    </variant>
+    <variant transliteration="mccunereischauer">
+        <name type="personal">
+            <namePart type="family">Choe</namePart>
+            <namePart type="given">Seona</namePart>
+        </name>
+    </variant>
+    <variant lang="ko">
+        <name type="personal">
+            <namePart type="family">최</namePart>
+            <namePart type="given">선아</namePart>
+        </name>
+    </variant>
+    <note>Hangul taken from: https://www.mju.ac.kr/mjukr/559/subview.do#close ; Hancha taken from: https://www.imapkyudai.net/crossing-borders and https://static1.squarespace.com/static/5bfbe86ae17ba3b146041174/t/604dd90b333fa30505dec8e9/1615714577904/symposium+gl+t2+v7.pdf ; Revised Romanization: Choe, Seona ; McCune-Reischauer: Ch’oe Sŏna</note>
+</mads>

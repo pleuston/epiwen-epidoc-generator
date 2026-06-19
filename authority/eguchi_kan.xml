@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="eguchi_kan">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">江口</namePart>
+            <namePart type="given">渙</namePart>
+            <namePart type="date">1887–1975</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Eguchi</namePart>
+            <namePart type="given">Kan</namePart>
+        </name>
+    </variant>
+    <note>The reading of 渙 was innitially Kiyoshi, but Eguchi seemingly changed the reading to Kan after WW2.</note>
+</mads>

@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="risshodaigaku_daigaku_daigakuin" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>立正大學大學院 → 立正大學大學院文學研究科</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Risshō daigaku daigakuin → Risshō daigaku daigakuin bungaku kenkyūka</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="corporate">
+            <namePart>Rissho University Graduate School → Graduate School of Letters, Rissho University → Graduate School of Literary Research Department, Rissho University</namePart>
+        </name>
+    </variant>
+</mads>

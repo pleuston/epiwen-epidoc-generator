@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="lingshanfoxueyanjiuhui" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="corporate">
+            <namePart>靈山佛學研究會</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Ling Shan foxue yanjiuhui</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Ling Shan Association for Buddhist Studies</namePart>
+        </name>
+    </variant>
+</mads>

@@ -1,0 +1,22 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="taanxueyuanxuebao_bjb">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh">
+        <name type="corporate">
+            <namePart>泰山學院學報編輯部</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Tai Shan xueyuan xuebao bianjibu</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart/>
+        </name>
+    </variant>
+    <variant lang="ja" transliteration="romaji">
+        <name type="corporate">
+            <namePart/>
+        </name>
+    </variant>
+</mads>

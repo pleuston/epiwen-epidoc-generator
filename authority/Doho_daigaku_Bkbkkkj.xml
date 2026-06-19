@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="Doho_daigaku_Bkbkkkj">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>同朋大学佛教文化研究所</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Dōhō daigaku Bukkyō bunka kenkyūjo</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Dōhō University Buddhist Culture Institute</namePart>
+        </name>
+    </variant>
+</mads>

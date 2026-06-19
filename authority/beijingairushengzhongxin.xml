@@ -1,0 +1,13 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="airusheng" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="corporate">
+            <namePart>北京愛如生數字化技術研究中心</namePart>
+            <description/>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Beijing Airusheng shuzihua jishu yanjiu zhongxin</namePart>
+        </name>
+    </variant>
+</mads>

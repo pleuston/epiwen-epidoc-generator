@@ -1,0 +1,8 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="moretti" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">Moretti</namePart>
+            <namePart type="given">Costantino</namePart>
+        </name><!--牟和諦-->
+    </authority>
+</mads>

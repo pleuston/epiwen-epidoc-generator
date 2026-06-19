@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="honda">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">本田</namePart>
+            <namePart type="given">春玲</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Honda</namePart>
+            <namePart type="given">Shunrei</namePart>
+            <namePart type="date">1921–2019</namePart>
+        </name>
+    </variant>
+    <note>Real Name: Honda Ai <foreign xml:lang="ja">本田アイ</foreign>. Regarding the Date of Death (2019-03-10), see <ref target="Teppeki" type="biblio">277: 25</ref>.</note>
+</mads>

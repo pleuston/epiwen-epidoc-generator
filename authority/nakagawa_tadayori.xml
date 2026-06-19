@@ -1,0 +1,16 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="nakagawa_tadayori">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">中川</namePart>
+            <namePart type="given">忠順</namePart>
+            <namePart type="date">1873–1928</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Nakagawa</namePart>
+            <namePart type="given">Tadayori</namePart>
+        </name>
+    </variant>
+    <note>Art Historian. For information on Nakagawa, see: https://www.tobunken.go.jp/joho/japanese/project/catalog003.html</note>
+</mads>

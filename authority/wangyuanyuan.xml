@@ -1,0 +1,14 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="wangyuanyuan" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">王</namePart>
+            <namePart type="given">媛媛</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Wang</namePart>
+            <namePart type="given">Yuanyuan</namePart>
+        </name>
+    </variant>
+</mads>

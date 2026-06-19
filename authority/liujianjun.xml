@@ -1,0 +1,15 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="liujianjun" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="zh" oXygen1:type="simple">
+        <name type="personal">
+            <namePart type="family">劉</namePart>
+            <namePart type="given">建軍</namePart>
+            <namePart type="date"/>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Liu</namePart>
+            <namePart type="given">Jianjun</namePart>
+        </name>
+    </variant>
+</mads>

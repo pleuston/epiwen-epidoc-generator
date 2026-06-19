@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bjs_wenwuguanlichu" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="zh" oXygen1:type="simple">
+        <name type="corporate">
+            <namePart>北京市文物管理處</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Beijingshi wenwu guanlichu</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Beijing Municipality Administrative Board of Cultural Relics</namePart>
+        </name>
+    </variant>
+</mads>

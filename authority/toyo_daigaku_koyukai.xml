@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="toyo_daigaku_koyukai">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>東洋大学校友会</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Tōyō daigaku kōyūkai</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Toyo University Alumni Association</namePart>
+        </name>
+    </variant>
+</mads>

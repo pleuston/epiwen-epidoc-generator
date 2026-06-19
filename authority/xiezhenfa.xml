@@ -1,0 +1,14 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="xiezhenfa">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">謝</namePart>
+            <namePart type="given">振發</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Xie</namePart>
+            <namePart type="given">Zhenfa</namePart>
+        </name>
+    </variant>曾布川宽
+</mads>

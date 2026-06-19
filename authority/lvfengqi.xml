@@ -1,0 +1,15 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="lvfengqi" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="zh" oXygen1:type="simple">
+        <name type="personal">
+            <namePart lang="zh" type="family">吕</namePart>
+            <!--<namePart lang="zh" type="family">呂</namePart>-->
+            <namePart type="given">封齊</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Lü</namePart>
+            <namePart type="given">Fengqi</namePart>
+        </name>
+    </variant>
+</mads>

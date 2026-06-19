@@ -24,22 +24,37 @@
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
-    <main class="docs-pane">
+    <div class="about-layout">
 
-      <section class="about-hero">
-        <h1>Authorities</h1>
-        <p>
-          Authority records for persons, places, and institutions referenced across
-          the inscription and rubbing catalog — calligraphers, donors, patrons,
-          monasteries, and administrative toponyms. Aligned to DILA, Wikidata, VIAF,
-          and GND where available.
-        </p>
-        <p class="coming-soon">
-          Authority browser coming soon.
-        </p>
-      </section>
+      <!-- ── List pane ── -->
+      <div class="about-pane">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2>Authorities <span id="auth-count" class="catalog-date" style="font-weight:normal;font-size:.85em"></span></h2>
+            <div class="catalog-head-actions">
+              <button id="auth-new-btn" class="btn small primary">+ New</button>
+              <input type="search" id="auth-search" class="catalog-searchbox"
+                     placeholder="Filter…" aria-label="filter authorities" />
+            </div>
+          </div>
+          <div class="view-toggle" style="margin-bottom:.5rem">
+            <button class="view-btn auth-tab-btn active" data-filter="all">All</button>
+            <button class="view-btn auth-tab-btn" data-filter="personal">Persons</button>
+            <button class="view-btn auth-tab-btn" data-filter="corporate">Collections</button>
+          </div>
+          <div id="auth-list" class="catalog-list"></div>
+        </section>
+      </div>
 
-    </main>
+      <!-- ── Detail pane ── -->
+      <div class="catalog-preview" id="auth-detail-panel">
+        <div class="preview-head">
+          <span id="preview-title">Select an authority record</span>
+        </div>
+        <div id="auth-detail-content" class="hp-pane"></div>
+      </div>
+
+    </div>
 
     <footer class="foot">
       Source:
@@ -48,6 +63,7 @@
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="authority-browser.js"></script>
     <script src="modal.js"></script>
   </body>
 </html>

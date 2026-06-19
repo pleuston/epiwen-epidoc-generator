@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="kodaira_soji">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">小平</namePart>
+            <namePart type="given">総治</namePart>
+            <namePart type="date">1876–1935</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Kodaira</namePart>
+            <namePart type="given">Sōji</namePart>
+        </name>
+    </variant>
+    <note>Kyūjitai: 小平總治. For his rubbing-collection, see sources: <ref type="biblio" target="Dairentoshokan1925"/>, <ref type="biblio" target="Ueno1942"/>, <ref type="biblio" target="Okamura1990"/>, <ref type="biblio" target="Azuma2018"/></note>
+    <note>TM1 and TM2 are mentioned on <ref type="biblio" target="Dairentoshokan1925">26-27, 48</ref> but not in <ref type="biblio" target="Ueno1942"/>, so these two rubbings were not preserved in the Kodaira bunko 小平文庫, but went somewhere else?</note>
+    <note>Furthermore, Kodaira seems to have written at least one book about Chinese Calligraphy. A Exemplar is preserved at the Torii bunko 鳥居文庫, Hakuunzan Torii kannon 白雲山鳥居観音 in Naguri, Hannō-shi, Saitama Prefecture 埼玉県飯能市上名栗.
+            See: http://www.toriikannon.org/meisyo/toriibunko.html and <ref type="biblio" target="Fujiya_etal2020">111</ref>: 支那書道略説，小平総治，発行所不明，出版年不明.
+        Kodaira Sōji 小平総治. “Shina shodō ryakusetsu 支那書道略説 [Brief Summary of Chinese Callgraphy]”. Place of Publication unknown, date of publication unknown</note>
+</mads>

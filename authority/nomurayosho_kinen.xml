@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="nomurayosho_kinen">
+                <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="ja">
+                                <name type="corporate">
+                                                <namePart>野村耀昌博士古稀記念論集刊行委員会</namePart>
+                                </name>
+                </authority>
+                <variant transliteration="romaji">
+                                <name type="corporate">
+                                                <namePart>Nomura Yōshō hakushi koki kinen ronshū kankō iinkai</namePart>
+                                </name>
+                </variant>
+                <variant lang="en" type="translation">
+                                <name type="corporate">
+                                                <namePart>Committee for essays publishing for Doctor Nomura <foreign xml:lang="ja">Yōshō</foreign>’s 70th birthday</namePart>
+                                </name>
+                </variant>
+</mads>

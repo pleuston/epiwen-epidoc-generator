@@ -1,0 +1,16 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="abe_ryuichi">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">阿部</namePart>
+            <namePart type="given">龍一</namePart>
+            <namePart type="date">1954-</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Abé</namePart>
+            <namePart type="given">Ryūichi</namePart>
+        </name>
+    </variant>
+        
+</mads>

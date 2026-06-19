@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="matsumaru_michio" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="ja">
+        <name type="personal">
+            <namePart type="family">松丸</namePart>
+            <namePart type="given">道雄</namePart>
+            <namePart type="date">1934–</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Matsumaru</namePart>
+            <namePart type="given">Michio</namePart>
+        </name>
+    </variant>
+</mads>

@@ -1,0 +1,22 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="herisheng">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">何</namePart>
+            <namePart type="given">日生</namePart>
+            <!--<namePart type="given">日升</namePart>-->
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Her</namePart>
+            <namePart type="given">Rey–Sheng</namePart>
+        </name>
+    </variant>
+    <!--<variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">He</namePart>
+            <namePart type="given">Risheng</namePart>
+        </name>
+    </variant>-->
+    <note>See p. 388 in: https://frogbear.org/wp-content/uploads/2022/02/4.1_good-economy_contributors.pdf</note>
+</mads>

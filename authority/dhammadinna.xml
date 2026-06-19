@@ -1,0 +1,21 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="dhammadinna">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="en">
+        <name type="personal">
+            <namePart type="family">Dhammadinnā</namePart>
+            <namePart type="given">Venerable</namePart>
+        </name>
+    </authority>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart type="family"/>
+            <namePart type="given"/>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family"/>
+            <namePart type="given"/>
+        </name>
+    </variant>
+    <note>Today, Dhammadinnā has the title Bhikkhunī, see: https://dila.academia.edu/Dhammadinna. During the publication of <ref type="biblio" target="Palumbo2013"/>, she was still a Sāmaṇerī. To prevent confusion, the form "Venerable" is used for <ref type="biblio" target="Palumbo2013"/>, as Palumbo himself calls her in the acknowledgement.</note>
+</mads>

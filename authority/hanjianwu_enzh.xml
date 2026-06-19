@@ -1,0 +1,20 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="hanjianwu_enzh">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">韓</namePart>
+            <namePart type="given">建武</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Han</namePart>
+            <namePart type="given">Jianwu</namePart>
+        </name>
+    </variant>
+   <!-- <variant lang="zh" type="expansion">
+        <name type="personal">
+            <namePart type="family">韓</namePart>
+            <namePart type="given">建武</namePart>
+        </name>
+    </variant>-->
+</mads>

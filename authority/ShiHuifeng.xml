@@ -1,0 +1,15 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="ShiHuifeng">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="pinyin">
+        <name type="personal">
+            <namePart type="family">Shi</namePart>
+            <namePart type="given">Huifeng</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart transliteration="pinyin" type="family">Shi</namePart>
+            <namePart transliteration="pinyin" type="given">Huifeng</namePart>
+        </name>
+    </variant>
+    
+</mads>

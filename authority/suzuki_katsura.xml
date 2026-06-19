@@ -1,0 +1,15 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="suzuki_katsura">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">鈴木</namePart>
+            <namePart type="given">桂</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Suzuki</namePart>
+            <namePart type="given">Katsura</namePart>
+        </name>
+    </variant>
+    <remarks>The reading of Katsura 桂 was taken over from p. 6 in: https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-17202018/17202018seika.pdf</remarks>
+</mads>

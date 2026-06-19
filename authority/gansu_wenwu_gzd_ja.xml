@@ -1,0 +1,21 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="gansu_wenwu_gzd_ja">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>甘肅省文物工作隊</namePart>
+        </name>
+    </authority>
+    
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Kanshuku Shō bunbutsu kōsakutai</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Archaelogical Team of Gansu Province</namePart>
+        </name>
+    </variant>
+    
+    
+    
+</mads>

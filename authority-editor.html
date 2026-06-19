@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Authority Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="catalog.html" class="brand-home">Epiwen</a>
+      </div>
+      <nav class="sitenav">
+        <a href="catalog.html"                 class="sitenav-link" data-tab="objects">Objects</a>
+        <a href="catalog.html?tab=inscriptions" class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"    class="sitenav-link" data-tab="rubbings">Rubbings</a>
+        <a href="sites.html"                   class="sitenav-link">Sites</a>
+        <a href="authorities.html"             class="sitenav-link active">Authorities</a>
+        <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
+        <a href="docs.html"                    class="sitenav-link">Docs</a>
+      </nav>
+      <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
+    </header>
+
+    <div class="about-layout">
+
+      <!-- ── Form pane ── -->
+      <div class="about-pane" style="overflow-y:auto">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2 id="editor-heading">Authority record</h2>
+            <div class="catalog-head-actions">
+              <a href="authorities.html" class="btn small">← Back</a>
+            </div>
+          </div>
+
+          <div id="auth-form" style="padding:.5rem 0">
+
+            <!-- ID + type -->
+            <div class="form-row" style="display:flex;gap:.8rem;align-items:flex-end;margin-bottom:.8rem">
+              <label class="form-label" style="flex:2">
+                ID (filename without .xml)
+                <input type="text" id="f-id" class="form-input" placeholder="gaoxizhe" autocomplete="off" />
+              </label>
+              <label class="form-label" style="flex:1">
+                Type
+                <select id="f-type" class="form-input">
+                  <option value="personal">personal</option>
+                  <option value="corporate">corporate</option>
+                </select>
+              </label>
+            </div>
+
+            <!-- Personal fields -->
+            <div id="section-personal">
+              <p class="catalog-date" style="margin:.2rem 0 .4rem;font-weight:600">Chinese / CJK form (authority)</p>
+              <div class="form-row" style="display:flex;gap:.6rem;margin-bottom:.6rem">
+                <label class="form-label" style="flex:1">
+                  Family <span class="catalog-date">(姓)</span>
+                  <input type="text" id="f-zh-family" class="form-input" placeholder="高" />
+                </label>
+                <label class="form-label" style="flex:1">
+                  Given <span class="catalog-date">(名)</span>
+                  <input type="text" id="f-zh-given" class="form-input" placeholder="熙喆" />
+                </label>
+                <label class="form-label" style="flex:2">
+                  Whole name <span class="catalog-date">(if indivisible)</span>
+                  <input type="text" id="f-zh-whole" class="form-input" placeholder="鳩摩羅什" />
+                </label>
+              </div>
+
+              <p class="catalog-date" style="margin:.2rem 0 .4rem;font-weight:600">Pinyin / romanised form (variant)</p>
+              <div class="form-row" style="display:flex;gap:.6rem;margin-bottom:.6rem">
+                <label class="form-label" style="flex:1">
+                  Family
+                  <input type="text" id="f-py-family" class="form-input" placeholder="Gao" />
+                </label>
+                <label class="form-label" style="flex:1">
+                  Given
+                  <input type="text" id="f-py-given" class="form-input" placeholder="Xizhe" />
+                </label>
+              </div>
+
+              <p class="catalog-date" style="margin:.2rem 0 .4rem;font-weight:600">Western form (variant, for CJK-primary names)</p>
+              <div class="form-row" style="display:flex;gap:.6rem;margin-bottom:.6rem">
+                <label class="form-label" style="flex:1">
+                  Family
+                  <input type="text" id="f-en-family" class="form-input" placeholder="Ledderose" />
+                </label>
+                <label class="form-label" style="flex:1">
+                  Given
+                  <input type="text" id="f-en-given" class="form-input" placeholder="Lothar" />
+                </label>
+              </div>
+            </div>
+
+            <!-- Corporate fields -->
+            <div id="section-corporate" style="display:none">
+              <p class="catalog-date" style="margin:.2rem 0 .4rem;font-weight:600">Corporate / institution name</p>
+              <div class="form-row" style="display:flex;gap:.6rem;margin-bottom:.6rem">
+                <label class="form-label" style="flex:3">
+                  Name
+                  <input type="text" id="f-corp-name" class="form-input" placeholder="Association for Asian Studies" />
+                </label>
+                <label class="form-label" style="flex:1">
+                  Language
+                  <select id="f-corp-lang" class="form-input">
+                    <option value="en">en</option>
+                    <option value="zh">zh</option>
+                    <option value="de">de</option>
+                    <option value="fr">fr</option>
+                    <option value="ja">ja</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <!-- External identifiers -->
+            <p class="catalog-date" style="margin:.6rem 0 .4rem;font-weight:600">External identifiers</p>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:.8rem">
+              <label class="form-label">Wikidata
+                <input type="text" id="f-wikidata" class="form-input" placeholder="Q12345" />
+              </label>
+              <label class="form-label">VIAF
+                <input type="text" id="f-viaf" class="form-input" placeholder="12345678" />
+              </label>
+              <label class="form-label">GND
+                <input type="text" id="f-gnd" class="form-input" placeholder="123456789" />
+              </label>
+              <label class="form-label">DILA
+                <input type="text" id="f-dila" class="form-input" placeholder="person/A000405" />
+              </label>
+              <label class="form-label">CBDB
+                <input type="text" id="f-cbdb" class="form-input" placeholder="12345" />
+              </label>
+            </div>
+
+            <!-- Notes -->
+            <label class="form-label">Notes
+              <textarea id="f-notes" class="form-input" rows="3" style="resize:vertical" placeholder="Free-text note preserved in MADS &lt;note&gt;"></textarea>
+            </label>
+
+            <!-- Save actions -->
+            <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem;padding-bottom:1rem">
+              <button class="btn primary" id="btn-save-github">② Save to GitHub</button>
+              <button class="btn small" id="btn-gh-settings" type="button">⚙ GitHub settings</button>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- ── Preview pane ── -->
+      <div class="catalog-preview" id="auth-preview-panel">
+        <div class="preview-head">
+          <span id="preview-title">XML preview</span>
+          <div class="preview-head-right">
+            <button id="auth-preview-copy" class="btn small">Copy XML</button>
+          </div>
+        </div>
+        <pre class="hp-pane" style="margin:0;padding:.8rem;overflow:auto;font-size:.78rem"><code id="auth-xml-out"></code></pre>
+      </div>
+
+    </div>
+
+    <footer class="foot">
+      Source:
+      <a href="https://github.com/pleuston/epiwen-epidoc-generator"
+         target="_blank" rel="noopener">github.com/pleuston/epiwen-epidoc-generator</a>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="github.js"></script>
+    <script src="authority-app.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

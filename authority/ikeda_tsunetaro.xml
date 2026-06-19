@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="ikeda_tsunetaro">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">池田</namePart>
+            <namePart type="given">常太郎</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Ikeda</namePart>
+            <namePart type="given">Tsunetarō</namePart>
+        </name>
+    </variant>
+</mads>

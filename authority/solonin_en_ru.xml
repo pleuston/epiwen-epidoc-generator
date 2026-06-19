@@ -1,0 +1,21 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="solonin_en_ru" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="en" oXygen1:type="simple">
+        <name type="personal">
+            <namePart type="family">Solonin, Kirill J. Солонин</namePart>
+            <namePart type="given">Кирилл Ю.</namePart>
+            
+        </name>
+    </authority>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart type="family"/>
+            <namePart type="given"/>
+        </name>
+    </variant>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Solonin</namePart>
+            <namePart type="given">Kirill J.</namePart>
+        </name>
+    </variant>
+</mads>

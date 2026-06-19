@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="kagai_kyoiku_sosho_kankokai_henshubu">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>科外敎育叢書刊行會編輯部</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Kagai kyōiku sōsho kankōkai henshūbu</namePart>
+        </name>
+    </variant>
+</mads>

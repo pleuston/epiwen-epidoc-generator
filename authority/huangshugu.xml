@@ -1,0 +1,16 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="huangshugu">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">黄</namePart>
+            <namePart type="given">樹穀</namePart>
+            <namePart type="date">middle of the eigtheenth century</namePart>
+            <!--this is the father of Huang Yi 1744–1802-->
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Huang</namePart>
+            <namePart type="given">Shugu</namePart>
+        </name>
+    </variant>
+</mads>

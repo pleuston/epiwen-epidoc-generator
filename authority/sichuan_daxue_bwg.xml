@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="sichuan_daxue_bwg">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh">
+        <name type="corporate">
+            <namePart>四川大學博物館</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Sichuan daxue bowuguan</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Sichuan University Museum</namePart>
+        </name>
+    </variant>
+</mads>

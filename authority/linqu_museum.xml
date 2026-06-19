@@ -1,0 +1,14 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="linqu_museum">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">臨朐</namePart>
+            <namePart type="given">縣博物館</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Linqu</namePart>
+            <namePart type="given">xian baowuguan</namePart>
+        </name>
+    </variant>
+</mads>

@@ -1,0 +1,20 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="maspero_ja" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">アンリ·マスペロ</namePart>
+            <namePart type="given"/>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family"/>
+            <namePart type="given"/>
+        </name>
+    </variant>
+    <variant lang="fr" type="expansion">
+        <name type="personal">
+            <namePart type="family">Maspero</namePart>
+            <namePart type="given">Henri</namePart>
+        </name>
+    </variant>
+</mads>

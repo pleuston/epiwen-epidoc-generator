@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="GotoBijutsukanGakugeibu">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>五島美術館学芸部</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Gotō bijutsukan gakugeibu</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="corporate">
+            <namePart>Arts and Culture Department of the Gotoh Museum</namePart>
+        </name>
+    </variant>
+    <note>Editing-team: NAGOYA Akira 名児耶明 (1949–), ISAZAWA Yūko 砂澤祐子 (1958–), SATŌ Rumi 佐藤留実 (1961–), FUKUSHIMA Osamu 福島修 (1976–)（, TOGAWA Naoki 渡川直樹）.</note>
+</mads>

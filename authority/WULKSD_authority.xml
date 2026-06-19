@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="WULKSD_authority">
+  <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="ja">
+    <name type="corporate">
+      <namePart>早稲田大学図書館：古典籍総合データベース</namePart>
+    </name>
+  </authority>
+  <variant transliteration="romaji">
+    <name type="corporate">
+      <namePart>Waseda daigaku toshokan: Kotenseki sōgō dētabēsu</namePart>
+    </name>
+  </variant>
+  <variant lang="en" type="translation">
+    <name type="corporate">
+      <namePart>Waseda University Library: Kotenseki Sogo Database: Japanese and Chinese Classics</namePart>
+    </name>
+  </variant>
+</mads>

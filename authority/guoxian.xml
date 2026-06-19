@@ -1,0 +1,21 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="guoxian" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">釋</namePart>
+            <namePart type="given">果賢</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Shi</namePart>
+            <namePart type="given">Guoxian</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="personal">
+            <namePart type="family">Venerable</namePart>
+            <namePart type="given">Guoxian</namePart>
+        </name>
+    </variant>
+    <note>The reading "Guoxian" was taken from: https://www.dharmadrum.org/wcbe/portal_b2_page.php?cnt_id=781. Pinyin: "Shi, Guoxian".</note>
+</mads>

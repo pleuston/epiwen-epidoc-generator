@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ningxia_sky" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="corporate">
+            <namePart>寧夏社會科學院</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Ningxia shehui kexue Yuan</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart/>
+        </name>
+    </variant>
+</mads>

@@ -147,16 +147,16 @@
     setTimeout(function () { el.className = ""; }, isErr ? 6000 : 3000);
   }
 
-  function save(xml, filename, onDone) {
-    if (!filename) { toast("Set a filename before saving", true); return; }
-    if (!xml)      { toast("Nothing to save — fill the form first", true); return; }
+  function saveAt(xml, relPath, onDone) {
+    if (!relPath) { toast("Set a file path before saving", true); return; }
+    if (!xml)     { toast("Nothing to save — fill the form first", true); return; }
 
     var s = getSettings();
     if (!s.token) { showSettings(); return; }
 
-    filename = filename.replace(/\.xml$/i, "") + ".xml";
-    var filePath = s.path.replace(/\/+$/, "") + "/" + filename;
-    var apiUrl   = "https://api.github.com/repos/" + s.owner + "/" + s.repo + "/contents/" + filePath;
+    relPath = relPath.replace(/^\/+/, "");
+    var filename = relPath.split("/").pop();
+    var apiUrl   = "https://api.github.com/repos/" + s.owner + "/" + s.repo + "/contents/" + relPath;
     var headers  = {
       "Authorization":        "Bearer " + s.token,
       "Accept":               "application/vnd.github+json",
@@ -166,7 +166,6 @@
     setBtnState(true);
     var isNew = true;
 
-    // GET first to retrieve SHA (needed to update an existing file)
     fetch(apiUrl, { headers: headers })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (existing) {
@@ -193,7 +192,6 @@
       })
       .then(function () {
         toast((isNew ? "Added" : "Updated") + ": " + filename);
-        // Cache fresh XML so the catalog bypasses stale CDN content on next load
         try { sessionStorage.setItem("epiwen_fresh:" + filename, xml); } catch (e) {}
         setBtnState(false);
         if (onDone) onDone();
@@ -204,6 +202,16 @@
       });
   }
 
+  function save(xml, filename, onDone) {
+    if (!filename) { toast("Set a filename before saving", true); return; }
+    if (!xml)      { toast("Nothing to save — fill the form first", true); return; }
+    var s = getSettings();
+    if (!s.token) { showSettings(); return; }
+    filename = filename.replace(/\.xml$/i, "") + ".xml";
+    var filePath = s.path.replace(/\/+$/, "") + "/" + filename;
+    saveAt(xml, filePath, onDone);
+  }
+
   // Close settings modal on Escape
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") hideSettings();
@@ -211,6 +219,7 @@
 
   window.EpiGitHub = {
     save:         save,
+    saveAt:       saveAt,
     showSettings: showSettings,
     hideSettings: hideSettings,
     hasToken:     hasToken

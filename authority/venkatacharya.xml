@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="venkatacharya">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="en">
+        <name type="personal">
+            <namePart type="family">Venkatacharya</namePart>
+            <namePart type="given">T.</namePart>
+            <namePart type="date">1924–2015</namePart>
+        </name>
+    </authority>
+    <note>Full name: Venkatacharya, Tuppil</note>
+</mads>

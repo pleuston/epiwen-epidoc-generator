@@ -1,0 +1,11 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="shengkai_corporate">
+    
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple">
+        <name type="corporate">
+        <namePart>Shengkai 聖凱</namePart>
+        </name>
+    </authority>
+    
+    
+    
+    </mads>

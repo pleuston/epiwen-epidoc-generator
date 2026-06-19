@@ -1,0 +1,34 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="kimsunkyung">
+    
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="en">
+        <name type="personal">
+            <namePart type="family">Kim</namePart>
+            <namePart type="given">Sunkyung</namePart>
+        </name>
+    </authority>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart type="family">金</namePart>
+            <namePart type="given">善卿</namePart>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Jin</namePart>
+            <namePart type="given">Shanqing</namePart>
+        </name>
+    </variant>
+    <variant lang="ko">
+        <name type="personal">
+            <namePart type="family">김</namePart>
+            <namePart type="given">선경</namePart>
+        </name>
+    </variant>
+    <variant transliteration="mccunereischauer">
+        <name type="personal">
+            <namePart type="family">Gim</namePart>
+            <namePart type="given">Seongyeong</namePart>
+        </name>
+    </variant>
+    <note>Revised Romanization: Gim Seongyeong ; McCune-Reischauer Romanization: Kim Sŏnkyŏng</note>
+</mads>

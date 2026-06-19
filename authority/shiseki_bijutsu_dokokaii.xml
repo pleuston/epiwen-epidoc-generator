@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="shiseki_bijutsu_dokokaki" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>史迹美術同考会</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Shiseki bijutsu dōkōkai</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>The Association of Monuments and Fine Arts</namePart>
+        </name>
+    </variant>
+</mads>

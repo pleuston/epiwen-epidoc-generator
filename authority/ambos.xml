@@ -1,0 +1,9 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="ambos">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="de">
+        <name type="personal">
+            <namePart type="family">Ambos</namePart>
+            <namePart type="given">Claus</namePart>
+        </name>
+    </authority>
+    
+</mads>

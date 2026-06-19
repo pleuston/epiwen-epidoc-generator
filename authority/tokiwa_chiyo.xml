@@ -1,0 +1,51 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="tokiwa_chiyo">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">常盤</namePart>
+            <namePart type="given">千代</namePart>
+            <namePart type="date">1879–</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Tokiwa</namePart>
+            <namePart type="given">Chiyo</namePart>
+        </name>
+    </variant>
+    <abstract>The spelling of the Hiragana to 千代 wasn’t always Chiyo ちよ.
+        The <ref type="biblio" target="Jinjikoshinroku"/> mentions Tokiwa Daijō 常盤大定 in the vols. 8-14. Tokiwa is first mentioned in vol. 8 from 1928. Daijō was not mentioned in the vol. 15 from 1948 anymore, since he died in 1945. As of now, we don’t know until when Chiyo was alive.
+            
+            In the volumes 8-10 (1928-1934), the name of his wife was written as Chiyoe ちよゑ:
+            
+            vol. 8 (1928):
+            p. to ト 32
+            1087/1794
+            
+            vol. 9 (1931):
+            p. to ト 29
+            1071/1755
+            
+            vol. 10 (1934):
+            p. to ト 33
+            189/902
+            
+            
+            
+            In the volumes 11-14 (1939-1943) however, the spelling was changed (corrected?) to Chiyo ちよ, which would be the usual Japanese reading for 千代.
+            
+            vol. 11 (1939):
+            p. to ト 42-43
+            308/1288
+            
+            vol. 12 (1940):
+            p. to ト 34
+            347/1112
+            
+            vol. 13 (1941):
+            p. to ト 31
+            238/1000
+            
+            vol. 14 (1943):
+            p. to ト 29
+            233/1019</abstract>
+</mads>

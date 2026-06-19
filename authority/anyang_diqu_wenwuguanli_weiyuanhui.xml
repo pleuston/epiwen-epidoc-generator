@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="anyang_diqu_wenwuguanli_weiyuanhui">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh">
+        <name type="corporate">
+            <namePart>安陽地區文物管理委員會</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Anyang diqu wenwu guanli weiyuanhui</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">Board of Management for Cultural Relics in the Region of
+            Anyang<namePart/>
+        </name>
+    </variant>
+</mads>

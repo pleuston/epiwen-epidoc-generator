@@ -1,0 +1,16 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="funayama">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">船山</namePart>
+            <namePart type="given">徹</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Funayama</namePart>
+            <namePart type="given">Tōru</namePart>
+        </name>
+    </variant>
+
+  <identifier type="gnd">1047688778</identifier>
+</mads>

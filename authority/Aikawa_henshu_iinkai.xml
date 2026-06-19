@@ -1,0 +1,16 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="Aikawa_henshu_iinkai">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>相川鐡崖古稀記念書學論文集編集委員会</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Aikawa Tetsugai koki kinen shogaku ronbunshū henshū iinkai</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">Editorial Committee for a Collection of Essays Commemorating the 70th Birthday of Aikawa Masayuki<namePart/>
+        </name>
+    </variant>
+</mads>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="Shirukurodogaku_kenkyu_senta">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>シルクロード学研究センター</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Shirukurōdogaku kenkyū sentā</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Research Center for Silk Roadology</namePart>
+        </name>
+    </variant>
+    <note>The Reseach Center existed between 1993–2008 in Nara, as part of the Nara, Shirukurōdo haku kinen kokusai kōryū zaidan なら・シルクロード博記念国際交流財団 [The Nara International Foundation Commemorating the Silk Road Exposition]. Regarding the Closure of the Research Center (2008-03-31), see the Blogpost シルクロード学研究センター廃止 (2008-06-19)at http://dmatsui.cocolog-nifty.com/abitaqur/2008/06/post_fa8f.html (accessed May 10, 2022). The parent organization stopped operations on 2012-03-31, see p. 2 on the following report: https://www.pref.nara.jp/secure/84018/240618kankou.pdf (accessed May 10, 2022).</note>
+</mads>

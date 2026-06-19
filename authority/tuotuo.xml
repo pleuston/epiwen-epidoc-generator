@@ -1,0 +1,15 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="tuotuo">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">蔑里乞</namePart>
+            <namePart type="given">脫脫</namePart>
+            <namePart type="date">1313-1355</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Mieliqi</namePart>
+            <namePart type="given">Tuotuo</namePart>
+        </name>
+    </variant>
+</mads>

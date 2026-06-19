@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="im_jeonhye">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh">
+        <name type="personal">
+            <namePart type="family">任</namePart>
+            <namePart type="given">展慧</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Im</namePart>
+            <namePart type="given">Jeonhye</namePart>
+        </name>
+    </variant>
+    <variant lang="ko">
+        <name type="personal">
+            <namePart type="family">임</namePart>
+            <namePart type="given">전혜</namePart>
+        </name>
+    </variant>
+</mads>

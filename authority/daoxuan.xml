@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="daoxuan"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh"><name type="personal"><namePart>道宣</namePart><namePart type="date">596-667</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart>Daoxuan</namePart></name></variant>
+  <identifier type="wikidata">Q2697411</identifier>
+  <identifier type="viaf">100225999</identifier>
+</mads>

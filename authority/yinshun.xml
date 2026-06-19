@@ -1,0 +1,22 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="yinshun" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">釋</namePart>
+            <namePart type="given">印順</namePart>
+          
+            <namePart type="date">1906–2005</namePart>
+            <description/>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Shih</namePart>
+            <namePart type="given">Yinshun</namePart>
+        </name>
+    </variant>
+    <variant lang="sa">
+        <name type="personal">
+            <namePart/>
+        </name>
+    </variant>
+</mads>

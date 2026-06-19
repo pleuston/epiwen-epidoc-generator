@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NNM" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>奈良国立博物館</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Nara Kokuritsu Hakubutsukan</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="corporate">
+            <namePart>Nara National Museum</namePart>
+        </name>
+    </variant>
+</mads>

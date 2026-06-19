@@ -1,0 +1,13 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BCX_kze_qfd_wwbgs" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="corporate">
+            <namePart>拜城縣克孜爾千佛洞文物保管所</namePart>
+            <description/>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Baicheng Xian Kezi’er Qianfo Dong wenwu baoguansuo</namePart>
+        </name>
+    </variant>
+</mads>

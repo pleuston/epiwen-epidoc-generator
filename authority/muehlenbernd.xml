@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="muehlenbernd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="de">
+        <name type="personal">
+            <namePart type="family">Mühlenbernd</namePart>
+            <namePart type="given">Jan</namePart>
+        </name>
+    </authority>
+    <variant lang="zh"> type="expansion"
+        <name type="personal">
+            <namePart type="family">中山</namePart>
+            <namePart type="given">耶</namePart>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Zhongshan</namePart>
+            <namePart type="given">Ye</namePart>
+        </name>
+    </variant>
+</mads>

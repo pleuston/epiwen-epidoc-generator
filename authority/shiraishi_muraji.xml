@@ -1,0 +1,20 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="shiraishi_muraji">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="personal">
+            <namePart type="family">白石</namePart>
+            <namePart type="given">村治</namePart>
+            <namePart type="date">1865–1929</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Shiraishi</namePart>
+            <namePart type="given">Muraji</namePart>
+        </name>
+    </variant>
+    <note>Anglican Christian Missionary and Art Historian. 
+        Shiraishi was born in January of 1865, in Gunma Prefecture (Twelfth month of the ganji/genji era 元治元年一二月群馬生), see p. 38 in the 1933-edition of the Nihon bijutsu nenkan 日本美術年鑑. Regarding the Date of Death (1929-11-28), see p. 4, morning edition of the Tōkyō Asahi Shinbun 東京朝日新聞.
+    
+    The articles about and by him are located on the following server-path:
+    \Texte\allgemein Articles\T\Tokyo Bijutsu Gakko</note>
+</mads>

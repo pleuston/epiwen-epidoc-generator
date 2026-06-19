@@ -1,0 +1,14 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="baiwen" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="zh" oXygen1:type="simple">
+        <name type="personal">
+            <namePart type="family">白</namePart>
+            <namePart type="given">文</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Bai</namePart>
+            <namePart type="given">Wen</namePart>
+        </name>
+    </variant>
+</mads>

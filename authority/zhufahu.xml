@@ -1,0 +1,34 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="zhufahu" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="personal">
+            <namePart>竺法護</namePart>
+            <namePart type="date">230?–316 or fl. ca. 265–308</namePart>
+        </name>
+    </authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart>Zhufahu</namePart>
+        </name>
+    </variant>
+    <variant lang="sa">
+        <name type="personal">
+            <namePart>Dharmarakṣa</namePart>
+        </name>
+    </variant>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart>曇摩羅擦</namePart>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart>Tanmoluoca</namePart>
+        </name>
+    </variant>
+    <variant lang="zh" type="acronym">
+        <name type="personal">敦煌三藏</name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">Dunhuang Sanzang</name>
+    </variant>
+</mads>

@@ -1,0 +1,26 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="kitajima" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="personal">
+            <namePart type="family">北島</namePart>
+            <namePart type="given">信一</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="personal">
+            <namePart type="family">Kitajima</namePart>
+            <namePart type="given">Shin’ichi</namePart>
+        </name>
+    </variant>
+    <variant lang="zh">
+        <name type="personal">
+            <namePart type="family">北岛</namePart>
+            <namePart type="given">信一</namePart>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Beidao</namePart>
+            <namePart type="given">Xinyi</namePart>
+        </name>
+    </variant>
+</mads>

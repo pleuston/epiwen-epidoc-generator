@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="LiemTina"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh">
+    <name type="personal">
+        <namePart type="family">林</namePart>
+        <namePart type="given">海燕</namePart></name>
+</authority>
+    <variant transliteration="pinyin">
+        <name type="personal">
+            <namePart type="family">Lin</namePart>
+            <namePart type="given">Haiyan</namePart>
+        </name>
+    </variant>
+    <variant lang="en">
+        <name type="personal">
+            <namePart type="family">Liem</namePart>
+            <namePart type="given">Tina</namePart>
+        </name>
+    </variant>
+</mads>

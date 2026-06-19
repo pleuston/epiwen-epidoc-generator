@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="tokyo_junshin_joshi_daigaku_kbks" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>東京純心女子大学キリスト教文化研究センター</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Tōkyō junshin joshi daigaku Kirisutokyō bunka kenkyū sentā</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="corporate">
+            <namePart>Tokyo Junshin University, Center for the Study of Christian Culture</namePart>
+        </name>
+    </variant>
+</mads>

@@ -1,0 +1,18 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="geijutsu_kenkyu_shinko_zaidan">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>芸術研究振興財団</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Geijutsu kenkyū shinkō zaidan</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>The Art Research Foundation</namePart>
+        </name>
+    </variant>
+    <note>1983-2004; see: http://webcatplus.nii.ac.jp/webcatplus/details/creator/1095721.html</note>
+</mads>

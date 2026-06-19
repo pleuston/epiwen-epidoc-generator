@@ -1,0 +1,18 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SKWSSJKBZWYH" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple">
+        <name type="corporate">
+            <namePart>四庫未收書輯刊編纂委員會</namePart>
+        </name>
+    </authority>
+    <variant lang="en">
+        <name type="corporate">
+            <namePart>Editorial Committee for the Collection of Books Not Included in the <hi rend="italic">Complete Library in Four Branches of Literature</hi>
+            </namePart>
+        </name>
+    </variant>
+    <variant transliteration="pinyin">
+        <name type="corporate">
+            <namePart>Siku weishou shu jikan bianzuan weiyuanhui</namePart>
+        </name>
+    </variant>
+</mads>

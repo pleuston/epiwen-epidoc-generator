@@ -1,0 +1,17 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="AjiaAfurikaggbkkkj">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="ja">
+        <name type="corporate">
+            <namePart>東京外国語大学アジア·アフリカ言語文化研究所</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Tōkyō gaigokugo daigaku Ajia, Afurika gengo bunka kenkyūjo</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translation">
+        <name type="corporate">
+            <namePart>Research Institute for Languages and Cultures of Asia and Africa (ILCAA), Tokyo University of Foreign Studies</namePart>
+        </name>
+    </variant>
+</mads>

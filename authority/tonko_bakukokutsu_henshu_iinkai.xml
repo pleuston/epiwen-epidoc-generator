@@ -1,0 +1,18 @@
+<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="tonko_bakukokutsu_henshu_iinkai" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd">
+    <authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="ja" ns1:type="simple">
+        <name type="corporate">
+            <namePart>中国石窟·敦煌莫高窟編集委員会</namePart>
+        </name>
+    </authority>
+    <variant transliteration="romaji">
+        <name type="corporate">
+            <namePart>Tonkō Bakukōkutsu henshū iinkai</namePart>
+        </name>
+    </variant>
+    <variant lang="en" type="translated">
+        <name type="corporate">
+            <namePart>Editorial Committee of <hi rend="italic">The Grotto Art of China: Dunhuang and Mogao Grottoes</hi>
+            </namePart>
+        </name>
+    </variant>
+</mads>
