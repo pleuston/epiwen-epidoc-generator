@@ -1,0 +1,662 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the site of Mount Ge</title>
+                <author>Claudia</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="shandong_volume2" xml:lang="en">Shandong Volume 2</title>
+                <title n="shandong_volume2" xml:lang="zh">山東省第二卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="5"/>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>30.03.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Fußnoten überarbeitet</item>
+            </change>
+            <change>
+                <date>01.04.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Ordering carving techniques </item>
+            </change>
+            <change>
+                <date>03.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Location überarbeitet gemäß Markette</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_Ge">
+        <body>
+            <div xml:lang="zh">
+                <head>葛山</head>
+                <figure n="figure" xml:id="Ge_sc_G7SB8759.jpg" rend="full">
+                    <head xml:lang="zh">由西南方遠眺葛山山峯；2008年拍攝</head>
+                    <head>Peak of Mount Ge seen from the southwest; photograph taken in 2008</head>
+                    <graphic url="Ge_sc_G7SB8759.jpg"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>葛山由一組南北方向延伸0.4公里的小山丘組成，最北側有一獨特的山峰（<ptr target="Ge_sc_G7SB8759.jpg"/>）。而其東西方向延伸為0.7公里，山頂海拔高230米，山腳海拔高170米。葛山位於鄒城以東14公里、匡莊村東北4公里處。</p>
+                        <p>葛山位於東經117.1084度，北緯35.4294度。相當於UTM坐標系統第50S帶，東行509840，北行3920670。西麓是葛山最大的一片連貫岩面（<ptr target="Ge_Panorama1.jpg"/>），其坡度基本保持在30至35%度之間。</p>
+                        <p>銘文刊刻在西麓的最低處，面向西南偏西。文字隨著石坡的高低起伏而刻。1972年圍繞部分刻經面築起了保護石牆，附近還建造了一個現代小石屋（<ptr target="Ge_sc_G7SB8600.JPG"/>）。在刻經表面上方，山體至山脊的頂端提升約100米。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成
+                        </head>
+                        <p>緊鄰的山峰有在其西南13公里處的嶧山、西北偏西8.2公里處的尖山。在葛山的西麓可以眺望這兩座山的山頂，不過無法看見這兩座山上的刻經。</p><?cb?>
+                        <p>由於葛山刻經位於一片獨立的坡岩上，因此可以像在鐵山和泰山經石峪那樣，踏上這片刻經面。不過鐵山刻經的整體結構為一方岩面上的巨型石碑，而葛山的刻經除了呈長方形外，並沒有碑額或底座的任何痕跡。</p>
+                        <p>葛山銘刻的佛經節文來自鳩摩羅什所翻譯的《維摩詰所說經》，<note>《維摩詰所說經》T#475, 14: 554c28－555a24。</note>共十行，每行40字。只有第一行和最後一行可能有41字。但是因為風化，第一行的刻字總數不能確定。經與傳世文本比較，佛經節文的389字當時應已全數刊刻上石。</p>
+                        <p>此外，在佛經節文第三行至第五行的正下方，有一則題記。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>葛山，又名葛婁山或木可婁山。 葛婁山之名或來自葛婁莊，相傳著名道士葛洪（約280年－約340年）曾在此煉丹。金石學家段松苓（1745－1800）因此稱此處為葛家樓村。</p>
+                        <p>吳若灝修於光緒年間（1875－1908）的《鄒縣續志》（光緒十八年［1892］作序）載：“城東二十五里，南葛婁山、北葛婁山二山相連。”<note>《鄒縣續志》
+                                <ref type="biblio" target="Zouxianxuzhi">第521頁</ref>。</note>因知當地人稱此山為北山，並無葛山之謂。
+                        </p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div><?pb?>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>葛山附近文獻可考或有實物出土的寺院有二：一、                        
+                            鄒城的法興寺。
+                            二、今平陽寺村的前觀音寺，位於鄒城以西20公里處。</p>
+                        <p>清康熙十二年刻本《鄒縣志》載，縣城北門有法興寺，基址二十畝。<note>《鄒縣志》<ref type="biblio" target="Zouxianzhi1673">第194頁</ref>。根據陳夢家<ref type="biblio" target="chenmengjia1966">第38頁</ref>，清代一畝等於614.4平方米。</note>此後，由於縣城擴大，寺院原址今歸入縣城之內。法興寺應是北朝後期，縣城由嶧山之前北遷後的“縣立”寺院，<note>根據婁一均於清康熙五十四年（1715）所修《鄒縣志》所載，縣城遷移時間在南宋元嘉十三年（436）。見《鄒縣志》<ref type="biblio" target="Zouxianzhi1715">第281頁</ref>。而《嘉慶重修一統志》（1842年序）則記載，縣城遷移於北齊天保七年（556）。《嘉慶重修一統志》<ref type="biblio" target="Jiaqing_Daqingyitongzhi">第166卷；第59冊：第3a頁</ref>。</note>元代重修時改名重興寺，寺址存有宋代的磚塔。</p>
+                        <p>《鄒縣志》還給出了觀音寺的位置並涉及其1637年的重建。<note>《鄒縣志》<ref type="biblio" target="Zouxianzhi1673">第195頁</ref>。</note>1975年，四尊北魏、東魏和北齊的雕像在現今的平陽寺村出土，可能是俗家弟子供奉給寺院的。</p>
+                        <p>上述兩座寺院從北朝起就香火不斷，卻未發現任何與葛山刻經的直接關聯。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>由於葛山唯一僅存的題記（葛山2號）風化嚴重，也並無他處記有刻經人事蹟，因此與刻經直接相關的人物今已不可考。</p>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>刻經的最後一行，空格之後有一條13字的紀年，“大像兩秊歳玄枵律俠鐘廿六日”，對應的西曆時間為580年3月27日。</p>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>最早記錄葛山刻經的學者是黃易（號小松，1744－1802），隨後是阮元（1764－1849）和段松苓。他們已知刻經的年款，只不過僅依據拓本片斷，所以沒有考慮到銘文及其內容的整體布局。金石學家孫星衍（1753－1818）、尹彭壽（1835－1904－）和法偉堂（1843－1907）都沿用了阮元“摩崖兩種”的錯誤分類。直到吳式芬（1796－1856）在《金石彙目分編》中才意識到刻經節文由十行組成。</p>
+                        <p>直至李佐賢（1807－1876）親自考察葛山，才最終糾正了阮元對刻經的錯誤釋讀。他在《石泉書屋金石題跋》中，還記錄了位於刻經第五行之下的題記（葛山2號）。</p>
+                        <p>孫葆田（1840－1911）將每行刻經都謄錄在其《山東金石志》中。但因所依據拓本尚缺部分經文，所以他的錄文仍不完整。他也惋惜銘文惡劣的保存狀態。</p>
+                        <p>1990年，王鈞和阿濤發表了首張葛山刻經的經文布局復原圖，並辨識了刻經節文。在20世紀90年代及21世紀初，山東省石刻藝術博物館出版的重要刊物和書籍也討論了葛山刻經。其中，在1991年出版的《北朝摩崖刻經研究》中，胡新立作了一份葛山刻經的綜述報告，包括尺寸和字數，並將該處的刻經與鐵山刻經作了比較。他還提到經文下的題記，並引用了李佐賢的紀錄。另外，清原実門除了辨識出經文之外，同時也評估了清代的金石學紀錄。他推測僧安道壹（活動於562－579年）可能為葛山刻經的供養人，雖然其名並未出現在風化嚴重的題記之中。桐谷征一則提出了山東省境內所有佛教摩崖刻經均與清原実門所提的安道壹，即僧安道壹有關，並將葛山的刻經與鐵山及崗山刻經一起歸為僧安道壹的最晚期作品。</p>
+                        <p>1997年，安廷山出版了一部作品涉及山東省內所有的摩崖銘刻遺址。該書倚重於討論各遺址的書法，其中包括了一份葛山銘刻書法風格的分析。</p>
+                        <p>2000年，賴非又提供了一份當時最完善的錄文和單個刻字保存狀態的紀錄。</p>
+                        <ab>
+                            <abbr>溫狄婭
+                            </abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Ge_Panorama1.jpg">
+                            <head xml:lang="zh">葛山西麓及刻經；2008年拍攝</head>
+                            <head>Western slope of Mount Ge with sutra carving; photograph taken in 2008</head>
+                            <graphic url="Ge_Panorama1.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>刻銘</head>
+                    <div>
+                        <head>銘文總數</head>
+                        <p>葛山共刊刻一篇佛經節文（葛山1號）和一則歷史題記（葛山2號）。</p>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <div>
+                            <head>葛山1號</head>
+                            <div>
+                                <p>葛山所刻經文節選自鳩摩羅什（344－413）翻譯的《維摩詰所說經》<note>《維摩詰所說經》T#475, 14: 554c28－555a24。</note>第十二品“見阿閦佛品”。該節文與山東數處刻經一樣，都是與“觀佛”有關。葛山選刻的部分可視為整部佛經的高潮，因為其內容敘述了維摩詰和釋迦牟尼佛唯一一<?cbraw?>次面對面的相遇。在第十一品中，維摩詰終於決定離開他與文殊菩薩展開辯論的居家，到佛陀說法的菴羅樹園去。</p>
+                                <p>接下來這段釋迦摩尼佛和維摩詰之間的討論，呈現了這部佛經的主要教義之一，即正確的觀想如來。維摩詰認為自身或任何修行者身體的實相，都與如來身的實相無異（<ptr target="Ge_r_detail_G7S91886_part.jpg"/>）。他並給出了一個充滿了悖論、極富技巧的描述，引起了很多中國經註者的爭論。</p>
+                            </div>
+                            <div>
+                                <p>最早給鳩摩羅什所譯的《維摩詰所說經》作註的是其學生僧肇（374－414?），在他的《注維摩詰經》十卷<note>《注維摩詰經》T#1775, 38: 327a10－419c7。</note>中，還收錄了鳩摩羅什自己以及另一位學生道生（355－434）的經注。針對葛山選刻的佛經節文，僧肇解釋說：</p>
+                                <quote>實相之相，即如來相。故經曰：“見實相法為見佛也。” 淨名自觀身實相，以為觀如來相。義存於是。<note>《注維摩詰經》T#1775, 38: 410a12－14。</note>
+                                </quote>
+                                <p>另外，自身實相等同於佛性。與葛山刻經同時期的註疏支持了這一觀點。三論師吉藏（549－623）的《淨名玄論》寫道：</p>
+                                <quote>觀身實相，觀佛亦然。故心、佛及眾生，是三無差別。道遠乎哉。</quote>
+                                <ab>以及</ab>
+                                <quote>觀身實相，觀佛亦然。法身既即是身中實相。故知實相，佛性也。<note>《淨名玄論》T#1780, 38: 903b4－10。</note>
+                                </quote>
+                                <p>據傳為吉藏所著的註疏《勝鬘寶窟》也表達了相同的看法：</p>
+                                <quote>維摩云：“觀身實相，觀佛亦然。” 是故眾生身即法身。<note>《勝鬘寶窟》T#1744, 37: 67c15－16。</note>
+                                </quote>
+                                <p>關於葛山刻經節文還有更多的註疏，譬如智顗（538－597）關於《妙法蓮華經》的註疏《觀音玄義》，其門人灌頂（561－632）記載如下：</p>
+                                <quote>淨名云：“觀身實相，觀佛亦然。” 觀身相既等於佛觀心相，亦等於佛。<note>《觀音玄義》T#1726, 34: 887b20－21。</note>
+                                </quote>
+                                <p>相較於《大正藏》本及其他現存的石刻版本，如原立於泗水縣天明寺的“大齊鄉老舉孝義雋修羅之碑”本和房山雲居寺刻經本，葛山刻經上的版本有一處異文。在其他版本中，世尊問維摩詰：“汝欲見如來，為以何等觀如來乎?” 只有葛山的版本在佛陀的問題中添了一個字，而讀作：“汝欲見如來，為以何等相觀如來乎?”</p>
+                                <p>添加的這個字“相”將佛陀的問題更加清晰地指向整篇經文的中心議題，即如來實相與自身實相無異。隨後維摩詰的回答繼續圍繞“相”字：“如自觀身實相，觀佛亦然。”</p>
+                                <p>事實上，這個答案是令人驚訝的。鳩摩羅什翻譯的《維摩詰所說經》是現存唯一一個包括自身和如來實相這一說法的譯本。傳世譯本中最早的支謙（活動於220－252年）本<note>《佛說維摩詰經》T#474, 14: 534b17－c9。</note>沒有任何相關闡述，且不包括維摩詰答案中這第一句話。其後以忠於梵文原文而聞名的玄奘（約602－664）譯本使用了與鳩摩羅什完全不同的翻譯方式。在這篇經文中，維摩詰說：“我觀如來，都無所見。如是而觀。”<note>《說無垢稱經》T#476, 14: 584a16－b29。</note>
+                                </p>
+                                <p>本篇節文並沒有涉及專注於自身和相的觀想。玄奘的表述則強調觀如來不同於其他所有的視覺體驗，因為“都無所見”。視覺的空是這裡理解的核心。玄奘的翻譯因此與鳩摩羅什譯本中的“實相”相對。</p>
+                                <p>目前所知，只有一個12世紀的梵文版《維摩詰所說經》傳世。<note>大正大學綜合佛教研究所的高橋尚夫在1999年於拉薩布達拉宮發現該貝葉梵文寫本，見大正大學綜合佛教研究所<ref target="Taisho_University2004" type="biblio">第434－435頁</ref>。</note>如今《大正藏》所集的三個漢譯本，只有玄奘譯本接近梵文本。不過，兩者之間仍有不同。玄奘翻譯為：“我觀如來都無所見……”，而此句的梵文應該理解為：“我以不見［如來］而觀如來……”。</p>
+                                <p>明顯地，鳩摩羅什表述“觀”的內容與後來玄奘的翻譯以及梵文本都不同。維摩詰回答的第一句話甚至也可能是被添加到佛經原文之中的。相同的表述，“如自觀身實相，觀佛亦然”，也見於曼陀羅仙（於503年至中國）翻譯的《文殊師利所說摩訶般若波羅蜜經》。<note>《文殊師利所說摩訶般若波羅蜜經》T#232, 8: 728a26－29。</note>
+                                </p>
+                                <p>這段佛經節文也刊刻在山東其他的刻經山上，即洪頂山（洪頂山1號）和水牛山（水牛山1號）。山東摩崖的經主和刻經者們可能對觀自身和觀佛實相的命題有著特殊的興趣。</p>
+                                <ab>
+                                    <abbr>溫狄婭</abbr>
+                                </ab>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>葛山2號</head>
+                            <p>在刻經第三行至第五行之下的岩面，有小字題記的痕跡。由於岩面風化，僅個別刻字尚存。不過，可以確定此處曾經刊刻了經主的名字。依照常例，在經主名字前很可能刻有供養人籍貫和供養的內容。在這裡，至少三位供養人冠以“□心主”，<?cb?>原文很可能為“發心主”。若是如此，數名供養人則在此“發［菩提］心”願。山東其他刻經址常將供養人稱做“經主”或“像主”。很可能地，這篇《維摩詰所說經》節文被視為最佳“發心”文選。</p>
+                            <ab>
+                                <abbr>溫狄婭</abbr>
+                            </ab><?cb?>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>從筆道橫斷面分析葛山刻經技法，可為两類：</p>
+                        <list type="ordered">
+                            <item>“V”字形刻法。即從筆畫兩邊線斜入鏨，雙邊線相交，自然形成，方便快捷。適用於0.7至4釐米寬的筆畫鐫刻。葛山99%的刻經採用此技法。</item>
+                            <item>“雙鈎”刻法。即將筆畫雙邊線單鏨刻出，留出筆畫內痕。適用於4釐米以上寬的筆畫。葛山極少數的字採用此刻法。</item>
+                        </list>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Ge_sc_G7SB8600.JPG">
+                            <head xml:lang="zh">環繞葛山刻經面的石牆；2008年拍攝</head>
+                            <head>Stone wall around the carved rock surface; photograph taken in 2008</head>
+                            <graphic url="Ge_sc_G7SB8600.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Ge</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>Mount Ge <foreign xml:lang="zh">葛山</foreign> has a pronounced peak at the northern end of a low ridge running north-south for 0.4 km (fig. <ptr target="Ge_sc_G7SB8759.jpg"/>).
+                            It has an east-west extension of 0.7 km. The peak is at an altitude of 230 m, and
+                            the foot is at 170 m above sea level. Mount Ge lies 14 km east of the city of
+                            Zoucheng <foreign xml:lang="zh">鄒城</foreign> and 4 km northeast of Kuang­zhuang Village <foreign xml:lang="zh">匡莊</foreign>.</p>
+                        <p>Geographically, Mount Ge is situated 117.1084° east and 35.4294° north,
+                            WGS84. This equals 509840 E (easting) and 3920670 N (northing),  UTM zone 50S. The western slope, the largest coherent rocky surface on Mount Ge (fig. <ptr target="Ge_Panorama1.jpg"/>), has
+                            a constant incline of 30–35%.</p>
+                        <p>The inscriptions were chiseled into the lowest part of the western slope,
+                            facing west-southwest. Their characters follow the bumps and hollows
+                            of the rock incline. A protective stone wall was built around part of the inscribed surface in 1972, and a modern stone shelter
+                            has been constructed nearby (fig. <ptr target="Ge_sc_G7SB8600.JPG"/>). Above the inscribed surface, the hill rises ca. 100 m to
+                        the top of the ridge.</p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>The closest mountains are Mount Yi,
+                            13 km to the southwest, and Mount Jian, 8.2 km to the
+                            west-northwest. While the peaks of both mountains can be seen from the
+                            western slope of Mount Ge, their inscriptions are not within the line of
+                            sight.<?cb?>
+                        </p>
+                        <p>Since the inscriptions at Mount Ge have been placed on a single
+                            sloping rock, the site can be walked over, as at Mount Tie and at the Sutra Stone Valley on Mount
+                            Tai. While at Mount Tie, the sutra inscription is laid out as a colossal stele
+                            on the rock face, at Mount Ge, despite the inscription’s rectangular shape, a stele head and base
+                            are not indicated.</p>
+                        <p>The main part of the inscription is a passage taken from the <title>
+                                <hi rend="italic">Sutra spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Vimala­kīrti­nirdeśa-sūtra</foreign>
+                                </hi>,
+                            <hi rend="italic">Weimojie suo shuo jing </hi>
+                                <foreign xml:lang="zh">維摩詰所說經</foreign>
+                            </title>) in <foreign xml:lang="sa">Kumārajīva’s</foreign>
+                            translation (T#475, 14: 554c28–555a24). It has ten vertical columns with
+                            40 characters each. Only the first and last columns, probably, had
+                            41 characters. However, because of erosion, the total number of characters in the first column
+                            cannot be determined. Looking at the received text it seems likely that, originally, 389
+                            characters of the sutra  were carved.</p>
+                        <p>A colophon is placed directly below columns 3 to 5 of the sutra text. </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name </head>
+                        <p>Mount Ge is also known as Mount Gelou <foreign xml:lang="zh">葛婁山</foreign>
+                            or Mount Mukelou <foreign xml:lang="zh">木可婁山</foreign>.
+                             The name Mount Gelou may come from Gelou Village <foreign xml:lang="zh">葛婁莊</foreign>:
+                            Tradition has it that the celebrated alchemist, Ge Hong <foreign xml:lang="zh">葛洪</foreign> (ca. 280–ca. 340),
+                            concocted pills of immortality here. The epigrapher Duan Songling <foreign xml:lang="zh">段松苓</foreign> (1745–1800) speaks about
+                            Gejialou Village <foreign xml:lang="zh">葛家樓村</foreign>.</p>
+                        <p>The <hi rend="italic">Sequel to the Gazetteer of Zou
+                            County</hi> (<hi rend="italic">Zou Xian xuzhi </hi>
+                            <foreign xml:lang="zh">鄒縣續志</foreign>) from the
+                            Guangxu era <foreign xml:lang="zh">光緖</foreign> (1875–1908), which was revised by Wu Ruohao <foreign xml:lang="zh">吳若灏</foreign>,
+                            notes that Mount Ge is “located 25 miles east of the city, where
+                            the two mountains of Southern and Northern Gelou are
+                            interconnected.”<note>
+                                <ref type="biblio" target="Zouxianxuzhi">521</ref>.</note> The mountain is locally named Northern Mountain, Bei Shan <foreign xml:lang="zh">北山</foreign>,
+                                and not simply Mount Ge.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>The known monasteries closest to Mount Ge are Faxing Monastery <foreign xml:lang="zh">法興寺</foreign>
+                            of Zoucheng, and the former Guanyin Monastery <foreign xml:lang="zh">觀音寺</foreign>, which was located
+                            in today’s Pingyangsi Village <foreign xml:lang="zh">平陽寺村</foreign>, about 20 km west of
+                            Zoucheng.</p>
+                        <p>The <hi rend="italic">Gazetteer of Zou County</hi> (<hi rend="italic">Zou Xian zhi </hi>
+                            <foreign xml:lang="zh">鄒縣志</foreign>),
+                            printed in 1673, reports that Faxing Monastery was at the Northern Gate of the county town,
+                            covering twenty <hi rend="italic">mu </hi>
+                            <foreign xml:lang="zh">畝</foreign>, 12.288 m².<note>
+                                <ref type="biblio" target="Zouxianzhi1673">194</ref>.
+                                According to <ref type="biblio" target="chenmengjia1966">38</ref>, a <hi rend="italic">mu</hi> in the Qing dynasty equals 614.4 m².</note>
+                            Since that time, the county town has grown,
+                            so that the monastery is today within the area of the
+                            modern city. When, during the late Northern dynasties, the county seat was moved from its
+                            site below Mount Yi to the north,<note>According to the <title>
+                                    <hi rend="italic">Zou County Gazetteer</hi> (<hi rend="italic">Zou Xian zhi </hi>
+                                    <foreign xml:lang="zh">鄒縣志</foreign>
+                                </title>), revised by Lou Yijun <foreign xml:lang="zh">婁一均</foreign>
+                                in the fifty-fourth year of the Kangxi era (1715), the county seat was moved in 436, the thirteenth year of the <hi rend="italic">yuanjia</hi>
+                                <foreign xml:lang="zh">元嘉</foreign> (424–453) era of the Southern Song dynasty.
+                                <ref type="biblio" target="Zouxianzhi1715">281</ref>. The <title>
+                                    <hi rend="italic">Unified Gazetteers [of the Qing Dynasty] Revised during the Jiaqing era</hi>
+                                </title> (<hi rend="italic">Jiaqing chongxiu yitong zhi</hi>
+                                <foreign xml:lang="zh">嘉慶重修一統志</foreign>; preface 1842) states, however, that  the county seat was moved in 556, the seventh year of the <hi rend="italic">tianbao</hi>
+                                <foreign xml:lang="zh">天保</foreign> (550–559) era of the Northern Qi dynasty. <ref type="biblio" target="Jiaqing_Daqingyitongzhi">
+                                    <hi rend="italic">juan </hi>166; 59: 3a</ref>.</note> the Faxing Monastery was designated the County Monastery.
+                            When restoration was undertaken in the Yuan dynasty, the monastery was renamed Chongxing Monastery 
+                            <foreign xml:lang="zh">重興寺</foreign>. On the site of the
+                            ruins, a brick pagoda of the Song dynasty still stands.</p>
+                        <p>The <hi rend="italic">Gazetteer of Zou County</hi> also gives the
+                            location of Guanyin Monastery and mentions a renovation of
+                            1637.<note>
+                                <ref type="biblio" target="Zouxianzhi1673">195</ref>.</note> In 1975, four sculptures of the Northern Wei, Eastern Wei, and Northern Qi
+                            dy­nas­ties were found in today’s Pingyangsi Village. They may have been
+                            donated by lay followers to the monastery.</p>
+                        <p>Although these two monasteries florished without interruption from the time of the Northern dynasties, no direct
+                            link with Mount Ge’s rock cut inscriptions has been established.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons</head>
+                        <p>Since the only extant colophon at Mount Ge is heavily weathered, no
+                            individuals can be directly connected with the site. </p>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>A date in 13 characters in the last column of the inscription is separated by one empty space. It reads: the twenty-sixth day of the second month of the second
+                            year of the <hi rend="italic">daxiang</hi> era, Jupiter in Aquarius <foreign xml:lang="zh">大像兩秊歳玄枵律俠鐘廿六日</foreign>,
+                            corresponding to March 27, 580.</p>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>The first scholar who recorded the sutra inscription at Mount Ge was Huang Yi <foreign xml:lang="zh">黃易</foreign> (Huang Xiaosong
+                            <foreign xml:lang="zh">黃小松</foreign>; 1744–1802). He was followed by
+                            Ruan Yuan <foreign xml:lang="zh">阮元</foreign> (1764–1849) and Duan
+                            Songling <foreign xml:lang="zh">段松苓</foreign>. They knew of
+                            the date, but since they all relied on incomplete rubbings, they
+                            were not aware of the overall layout of the text or of its contents.</p>
+                        <p>The epigraphers, Sun Xingyan <foreign xml:lang="zh">孫星衍</foreign> (1753–1818),
+                            Yin Pengshou <foreign xml:lang="zh">尹彭壽</foreign> (1835–1904–) and
+                            Fa Weitang <foreign xml:lang="zh">法偉堂</foreign> (1843–1907),
+                            all followed Ruan’s erroneous division into “two kinds of
+                            polished cliff inscriptions”. That the text
+                            actually consists of ten columns was recognized by
+                            Wu Shifen <foreign xml:lang="zh">吳式芬</foreign> (1796–1856) in his <title>
+                                <hi rend="italic">Categorized Edition of an Assembled Catalog of Epigraphica</hi>
+                                (<hi rend="italic">Jinshi huimu fenbian </hi>
+                                <foreign xml:lang="zh">金石彙目分編</foreign>)</title>.</p>
+                        <p>As Li Zuoxian <foreign xml:lang="zh">李佐賢</foreign> (1807–1876)
+                            travelled to the site himself, he was able to correct some mistakes in Ruan
+                            Yuan’s readings. In his <title>
+                                <hi rend="italic">Colophons to Epigraphica from the Stone Well
+                                    Studio</hi> (<hi rend="italic">Shiquan shuwu jinshi tiba </hi>
+                                <foreign xml:lang="zh">石泉書屋金石題跋</foreign>),
+                                he also noted the colophon (Ge 2) below column 5 of the sutra inscription.</title>
+                        </p>
+                        <p>Sun Baotian <foreign xml:lang="zh">孫葆田</foreign> (1840–1911) transcribed
+                            all the columns of the sutra inscription in his <title>
+                                <hi rend="italic">Epigraphic Records of Shandong</hi>
+                                (<hi rend="italic">Shandong jinshi zhi </hi>
+                                <foreign xml:lang="zh">山東金石志</foreign>)</title>.
+                            However, his transcripts
+                            remained incomplete, as he had to rely on rubbings that omitted part of
+                            the text. As with many other inscriptions that he saw, he also laments the poor state of this inscription.</p>
+                        <p>In 1990, Wang Jun <foreign xml:lang="zh">王鈞</foreign> and
+                            A Tao <foreign xml:lang="zh">阿濤</foreign> offered a first
+                            reconstruction of the layout of the characters on Mount Ge and identified the carved sutra passage. 
+                            Mount Ge was also included in the major studies published by the Shandong Stone Carving Art Museum
+                            in the 1990s and 2000s. In his publication of 1991,
+                            Hu Xinli <foreign xml:lang="zh">胡新立</foreign> gives a summary
+                            report on the site, with measurements and numbers of characters, and he compares
+                            the inscription on Mount Ge with that of Mount Tie. He also mentions the colophon
+                            below the sutra text and quotes Li Zuoxian’s account. Kiyohara Sanekado
+                            <foreign xml:lang="zh">清原実門</foreign> identifies the sutra and also
+                            evaluates the Qing dynasty epigraphic sources. He proposes that
+                            Seng’an Daoyi <foreign xml:lang="zh">僧安道壹</foreign> (fl. 562–579) may have been a
+                            donor of this inscription, even though his name does not appear in the badly
+                            damaged colophon. Kiriya Seiichi <foreign xml:lang="zh">桐谷征一</foreign>
+                            puts forward the view that all rock inscriptions in Shandong Province were
+                            connected to the monk Seng’an Daoyi, whom he, like Kiyohara before him, calls An Daoyi.
+                            He places the inscription on Mount Ge in the last
+                            phase of the monk’s work, together with the inscriptions on Mount Tie and Mount Gang.</p>
+                        <p>In 1997, An
+                            Tingshan <foreign xml:lang="zh">安廷山</foreign> published all
+                            rock inscription sites in Shandong Province, with particular
+                            emphasis on the calligraphy, including the stylistic analysis of that on Mount Ge.</p>
+                        <p>In 2000, Lai Fei <foreign xml:lang="zh">賴非</foreign> established the best transcription to date and
+                            documented the state of preservation of each single character.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>At Mount Ge, one sutra passage (Ge 1) and one historical inscription (Ge 2) were carved.</p>
+                    </div>
+                    <div>
+                        <head>Sutra Passage</head>
+                        <div>
+                            <head>Ge 1</head>
+                            <p>The sutra passage is drawn from the twelfth chapter,
+                                    entitled “Vision of <foreign xml:lang="sa">Akṣobhya</foreign> Buddha”
+                                (<hi rend="italic">Jian Achu fo pin </hi>
+                                <foreign xml:lang="zh">見阿閦佛品</foreign>), in 
+                                    <foreign xml:lang="sa">Kumārajīva’s</foreign> (<foreign xml:lang="zh">鳩摩羅什</foreign>; 344–413)
+                                    translation of the <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrtinirdeśa-sūtra</foreign>
+                                </hi>, <hi rend="italic">Weimojie suo shuo jing </hi>
+                                <foreign xml:lang="zh">維摩詰所說經</foreign>; T#475, 14: 554c28–555a24).
+                                    Like several
+                                    other Shandong inscriptions, the passage selected for carving deals with Buddha contemplation 
+                                    (<hi rend="italic">guan fo </hi>
+                                <foreign xml:lang="zh">觀佛</foreign>). It
+                                    may be considered the climax of the entire sutra, since it
+                                    represents the only direct face to face encounter between
+                                    <foreign xml:lang="sa">Vimalakīrti</foreign> and Buddha <foreign xml:lang="sa">Śākyamuni</foreign>. In chapter 11,<?cb?>
+                                <foreign xml:lang="sa">Vimalakīrti</foreign> finally decides to move from his house, where the
+                                    debate with <foreign xml:lang="sa">Mañjuśrī</foreign> (Wenshushili <foreign xml:lang="zh">文殊師利</foreign>) has taken place,
+                                    to the garden of <foreign xml:lang="sa">Āmrapāli</foreign> (Anluoshu yuan <foreign xml:lang="zh">菴羅樹園</foreign>),
+                                    where the Buddha is preaching. The ensuing discourse between
+                                    <foreign xml:lang="sa">Śākyamuni</foreign> and <foreign xml:lang="sa">Vimalakīrti</foreign> centers on the question of correct
+                                    contemplation of the body of the Thus Come One (<hi rend="italic">
+                                    <foreign xml:lang="sa">tathāgata</foreign>
+                                </hi>, <hi rend="italic">rulai </hi>
+                                <foreign xml:lang="zh">如來</foreign>), one of the main
+                                    doctrinal issues of the sutra. <foreign xml:lang="sa">Vimalakīrti</foreign> argues that the
+                                    real attributes of his own body, or of any practitioner’s body,
+                                    do not differ from the real attributes of the Thus Come
+                                    One’s body (fig. <ptr target="Ge_r_detail_G7S91886_part.jpg"/>). Here he gives a rather technical description, full of
+                                    paradoxes, which has given rise to much debate among Chinese commentators.</p>
+                            <p>The earliest commentary on the <title>
+                                    <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                    </hi>
+                                </title> is the <title>
+                                    <hi rend="italic">Zhu weimojie jing </hi>
+                                    <foreign xml:lang="zh">注維摩詰經</foreign>
+                                </title> in ten scrolls (T#1775, 38: 327a10–419c7), by <foreign xml:lang="sa">Kumā­ra­jīva’s</foreign> disciple Sengzhao
+                                    <foreign xml:lang="zh">僧肇</foreign> (374–414?), which also
+                                    contains remarks by <foreign xml:lang="sa">Kumārajīva</foreign> himself, as well as those by 
+                                    another disciple, Daosheng <foreign xml:lang="zh">道生</foreign> (355–434). In commenting upon the passage that
+                                    is carved on Mount Ge, Sengzhao expounds: </p>
+                            <quote>The attribute of the real attributes is the attribute of
+                                    the Thus Come One. Therefore the sutra says: “To see the <hi rend="italic">dharmas</hi> of the real attributes is to see
+                                the Buddha.” <foreign xml:lang="sa">Vimalakīrti</foreign> con­tem­plates the real attributes of his
+                                    own body to contemplate the attributes of the Thus Come One. The
+                                    meaning lies here.<note>T#1775, 38: 410a12–14.</note>
+                            </quote>
+                            <figure rend="center" n="figure" xml:id="Geshan-Gelushan.jpg">
+                                <head xml:lang="zh">葛山西北面全景圖，圖示葛山1號、葛山2號位置，來源：谷歌地球™</head>
+                                <head>Mount Ge seen from the northwest, with inscriptions Ge 1 and Ge 2, as provided by Google™Earth</head>
+                                <graphic url="Geshan-Gelushan.jpg"/>
+                            </figure>
+                            <p>Moreover, the real attributes of one’s own body were seen as tantamount to
+                                    Buddha-nature. Commentaries contemporary with the carvings on Mount Ge
+                                    support this view. The <title>
+                                    <hi rend="italic">Profound Treatise on <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                    </hi> (<hi rend="italic">Jingming xuanlun </hi>
+                                    <foreign xml:lang="zh">淨名玄論</foreign>)</title> by Jizang <foreign xml:lang="zh">吉藏</foreign> (549–623),
+                                reads:</p>
+                            <quote>Contemplating the real attributes of the body is just like
+                                    contemplating the Buddha. Therefore, there is no difference between the three: the mind, the Buddha, and
+                                    sentient beings.
+                                    How far-reaching is the Way!</quote>
+                            <p>Further:  </p>
+                            <quote>Contemplating the real attributes of the body is just
+                                    like contemplating the Buddha. Since the Truth Body (<hi rend="italic">
+                                    <foreign xml:lang="sa">dharmakāya</foreign>
+                                </hi>) is the real attribute in this very body, it
+                                    is known that the real attribute is Buddha-nature.<note>T#1780, 38: 903b4–10.</note>
+                            </quote>
+                            <p>In another commentary, attributed to Jizang, the <hi rend="italic">Gem Vault of the <foreign xml:lang="sa">Śrīmālā-sūtra</foreign>
+                                </hi> (<hi rend="italic">Shengman baoku </hi>
+                                <foreign xml:lang="zh">勝鬘寶窟</foreign>), the same idea is found: </p>
+                            <quote>
+                                <foreign xml:lang="sa">Vimalakīrti</foreign> says: 
+                               Contemplating the real attributes of the body
+                                    is just like contemplating the Buddha. For that reason, the body
+                                    of the sentient beings is the Truth Body (<hi rend="italic">
+                                    <foreign xml:lang="sa">dharmakāya</foreign>
+                                </hi>).<note>T#1744, 37: 67c15–16.</note>
+                            </quote>
+                            <p>Others also refer to the passage that was selected for
+                                    Mount Ge. For example, Zhiyi’s (<foreign xml:lang="zh">智顗</foreign>, 538–597) <hi rend="italic">Profound Meaning
+                                        of the Perceiver of the World’s Sounds</hi> (<hi rend="italic">Guanyin xuanyi </hi>
+                                <foreign xml:lang="zh">觀音玄義</foreign>),
+                                which is his commentary on chapter 25 of the <title>
+                                    <hi rend="italic">Lotus Sutra</hi>
+                                </title>, recorded by
+                                    his disciple Guanding <foreign xml:lang="zh">灌頂</foreign> (561–632), says: </p>
+                            <quote>
+                                <foreign xml:lang="sa">Vimalakīrti</foreign> says: Contemplating the real attributes of the body
+                                    is just like contemplating the Buddha. One contemplates that the attributes of one’s own body are equal to the attributes of the Buddha’s
+                                    [body], that the attributes of one’s own mind are equal to those of the Buddha’s [mind].<note>T#1726,
+                                        34: 887b20–21.</note>
+                            </quote>
+                            <p>The text that was carved at Mount Ge differs in one important
+                                character, “attributes” (<hi rend="italic">xiang </hi>
+                                <foreign xml:lang="zh">相</foreign>), not only from the canonical versions in
+                                    the <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> edition,
+                                but also from all
+                                    other surviving versions carved in stone: The <hi rend="italic">Stele of the Great Qi Dynasty about Juan Xiuluo
+                                        Recommended as Filial and Righteous by the Community Elders</hi> (<hi rend="italic">Da Qi xiang­lao ju xiaoyi 
+                                            Juan Xiuluo zhi bei </hi>
+                                <foreign xml:lang="zh">大齊鄉老舉孝義雋修羅之碑</foreign>), which was originally in
+                                   Tianming  Monastery <foreign xml:lang="zh">天明寺</foreign>, in
+                                    Sishui County <foreign xml:lang="zh">泗水縣</foreign>; and
+                                    the carved versions preserved at Cloud Dwelling Monastery <foreign xml:lang="zh">雲居寺</foreign>, in Fangshan <foreign xml:lang="zh">房山</foreign>.
+                                    In all these versions, the World-Honored One
+                                    asks <foreign xml:lang="sa">Vimalakīrti</foreign>: “When you wish to see the Thus Come One, based
+                                    upon what do you contemplate the Thus Come One?” Only the Mount Ge
+                                    version adds the one character to the Buddha’s question, resulting in the reading:
+                                    “When you wish to see the Thus Come One, based upon which
+                                    attributes do you contemplate the Thus Come One?”<note>At
+                                        Mount Ge the following is carved: “<foreign xml:lang="zh">爾時世尊問維摩詰：汝欲見如來，為以何等相觀如來乎？</foreign>”</note>
+                            </p>
+                            <p>This one additional character, “attributes,” relates the Buddha’s question
+                                    more clearly to the central topic of the whole passage, namely
+                                    the real attributes of the Thus Come One, which are no different
+                                    from the body’s real attributes. It takes up the character
+                                        <hi rend="italic">xiang </hi>
+                                <foreign xml:lang="zh">相</foreign>, “attributes,” from the
+                                    following answer given by <foreign xml:lang="sa">Vimalakīrti</foreign>, which reads: “Just as I
+                                    contemplate the real attributes of my own body, so also do I contemplate the Buddha.”</p>
+                            <p>In fact, this answer is surprising. <foreign xml:lang="sa">Kumārajīva’s</foreign> translation
+                                    is the only one that includes this
+                                    statement about the body’s and the Thus Come One’s real
+                                    attributes. The earliest extant
+                                    translation by Zhiqian <foreign xml:lang="zh">支謙</foreign> (fl.
+                                    220–252)<note>T#474, 14: 534b17–c9.</note> shows no traces
+                                    of any related formulation and does not include the entire
+                                    first sentence of <foreign xml:lang="sa">Vimalakīrti’s</foreign> answer. The later
+                                    translation by Xuanzang <foreign xml:lang="zh">玄奘</foreign>
+                                    (ca. 602–664), who is renowned for his faithfulness to the Sanskrit
+                                    originals, also has a formulation quite different from <foreign xml:lang="sa">Kumārajīva’s</foreign>
+                                    rendering. In this passage, <foreign xml:lang="sa">Vimalakīrti</foreign> says: “When I
+                                    contemplate the Thus Come One, there is nothing to see at all. In this
+                                    way do [I] contemplate.”<note>T#476, 14: 584a16–b29.</note>
+                            </p>
+                            <p>No reference to contemplation focused on the body and its
+                                    attributes is found in this passage either. Xuanzang’s
+                                    formulation emphasizes that contemplation of the
+                                    Thus Come One differs from all other visual experience,
+                                    since “there is nothing to see.” The
+                                    absence of the visual is essential to “contemplation”
+                                    as understood here. Xuanzang’s rendering thus
+                                    corresponds to what is meant by “the real attribute” (<hi rend="italic">shixiang </hi>
+                                <foreign xml:lang="zh">實相</foreign>)
+                                    in <foreign xml:lang="sa">Kumārajīva’s</foreign> translation.</p>
+                            <p>Only one Sanskrit manuscript of the <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Vimalakīrti-nirdeśa-sūtra</foreign>
+                                    </hi>
+                                </title> is known; it dates to the twelfth <hi rend="nh">century</hi>.<note>This palm-leaf Sanskrit manuscript was discovered in
+                                        1999 at the Potala Palace at Lhasa by Takahashi Hisao
+                                            <foreign xml:lang="zh">高橋尚夫</foreign> of the Institute
+                                        for Comprehensive Studies of Buddhism at <foreign xml:lang="ja">Taishō</foreign> University,
+                                        see <ref target="Taisho_University2004" type="biblio">434–435</ref>.</note> Among the three extant Chinese
+                                    translations in the <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> Collection, only the translation by Xuanzang comes close
+                                    to the Sanskrit version. Yet, there are some differences.
+                                    While Xuanzang translates: “When I contemplate the Thus Come
+                                    One, there is nothing to see at all…”, the Sanskrit text must be understood
+                                    as “I contemplate the Thus Come One by not seeing [the
+                                    Thus Come One]…”.</p>
+                            <p>It is clear that the concept of contemplation in
+                                    <foreign xml:lang="sa">Kumārajīva’s</foreign> version differs from that 
+                                    in Xuanzang’s later translation and that in the extant Sanskrit text. The first sentence of <foreign xml:lang="sa">Vimalakīrti’s</foreign> answer might
+                                    even have been interpolated into the original passage. Another example of the same, evidently popular
+                                    formulation – “just as I contemplate the real attributes of my own body, so also do I contemplate the Buddha” – is also found in
+                                    a passage of the Chinese translation of the <title>
+                                    <hi rend="italic">Sutra on the Great <hi rend="nh">Perfection</hi> of Wisdom
+                                            Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                    </hi>
+                                </title> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Sapta­śatikā­prajñāpāramitā-sūtra</foreign>
+                                </hi>, <hi rend="italic">Wenshushili suo shuo mohe bore boluomi jing </hi>
+                                <foreign xml:lang="zh">文殊師利所說摩訶般若波羅蜜經</foreign>)
+                                    by *Mandra[sena] (Mantuoluoxian <foreign xml:lang="zh">曼陀羅仙</foreign>), who arrived in China in 503.<note>T#232, 8: 728a26–29.</note>
+                            </p>
+                            <p>The passage was also carved elsewhere in Shandong Province, at Mount
+                                    Hongding (HDS 1) and at Mount Shuiniu (SNS 1). The
+                                    topic of contemplation of the real attributes of the body and of the Thus Come One may have been of particular interest
+                                    for donors and creators of the Shandong polished cliff inscriptions.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab><!--<figure rend="center" n="figure" xml:id="Ge_r_detail_G7S98673.JPG">
+                                <head xml:lang="zh">《維摩詰所說經》刻經節文，局部；2005年拍攝</head>
+                                <head>Detail of the carved passage from the <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                    </hi>; photograph taken in 2005</head>
+                                <graphic url="Ge_r_detail_G7S98673.JPG"/>
+                            </figure>-->
+                            <figure rend="center" n="figure" xml:id="Ge_r_detail_G7S91886_part.jpg">
+                                <head xml:lang="zh">葛山1號局部，第一行第30至32字，“身實相”刻文；2005年拍攝</head>
+                                <head>Ge 1, detail, column 1, characters 30–32, reading “the true attributes of the body”<!--; detail of the carved passage from the <hi rend="italic">Sutra Spoken by Vimalakīrti</hi>-->; photograph taken in 2005</head>
+                                <graphic url="Ge_r_detail_G7S91886_part.jpg" height="160mm"/>
+                            </figure>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscription</head>
+                        <div>
+                            <head>Ge 2</head>
+                            <p>Below columns 3 to 5 of the sutra text, traces of a
+                                colophon in small characters were found on the rock. Due to the
+                                overall weathered condition, only a few characters are still legible,
+                                but it can be safely assumed that originally the names of donors
+                                were given here. As usual they were probably preceded by the name of the place from which they came and an
+                                indication of the nature of the sponsor’s particular donation. In
+                                this case, at least three of the donors were named “[…] mind donor”
+                                    <foreign xml:lang="zh">□心主</foreign>, originally probably “donor
+                                putting forth the [<hi rend="italic">bodhi</hi>] mind” (<hi rend="italic">faxin zhu </hi>
+                                <foreign xml:lang="zh">發心主</foreign>).
+                                In this case, it would appear that several donors
+                                took a vow to “put forth the [<hi rend="italic">bodhi</hi>] mind”. Other inscription sites in Shandong often characterize the
+                                donors as “donor of the sutra” (<hi rend="italic">jingzhu </hi>
+                                <foreign xml:lang="zh">經主</foreign>) or
+                                “donor of the image” (<hi rend="italic">xiangzhu </hi>
+                                <foreign xml:lang="zh">像主</foreign>). It
+                                is likely that the passage from the <title>
+                                    <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                    </hi>
+                                </title> was chosen, because it was thought to be appropriate for
+                                “putting forth the <hi rend="italic">bodhi</hi> mind.”</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Carving techniques</head>
+                        <p>The carving is mainly of the V-shaped kind; some isolated
+                                    characters were done in double outline carving.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Ge_r_detail_DSC1325.JPG">
+                            <head xml:lang="zh">葛山1號局部，第四行第33字，“滅”刻字；2008年拍攝</head>
+                            <head>Ge 1, detail, column 4, character 33, reading “extinct”<!--  ; detail of the carved passage from the <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi>-->; photograph taken in 2008</head>
+                            <graphic url="Ge_r_detail_DSC1325.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

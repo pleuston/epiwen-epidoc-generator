@@ -1,0 +1,11 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="AY" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Anyue</c:title>
+        <c:date/>
+        <c:province lang="en">Sichuan Province</c:province>
+        <c:province lang="zh">四川省</c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="AY_01"/>
+    </c:fileDescription>
+</c:object>

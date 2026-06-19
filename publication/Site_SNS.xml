@@ -1,0 +1,1159 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the Site of Mount Shuiniu</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="shandong_volume3" xml:lang="en">Shandong Volume 3</title>
+                <title n="shandong_volume3" xml:lang="zh">山東省第三卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="8"/>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>30.07.2013</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>File created</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_SNS">
+        <front/>
+        <body>
+            <div xml:lang="zh">
+                <head>水<space n="1"/>牛<space n="1"/>山</head>
+                <figure xml:id="SNS_sc_SNS_part_2495.jpg" rend="full">
+                    <head>General View of Mount Shuiniu from the south; photograph taken in
+                        2007</head>
+                    <head xml:lang="zh">水牛山南面全景。2007年拍攝</head>
+                    <graphic url="SNS_sc_SNS_part_2495.jpg"/>
+                </figure>
+                <p>水牛山存有兩段著名的佛經節文。一段刻於崖面，僅52字，簡明扼要地定義佛性，並教示如何觀佛（水牛山1號）。該段經文節録自《文殊師利所説摩訶般若波羅蜜經》，<note>《文殊師利所説摩訶般若波羅蜜經》T#232，8：726a24－732c9。</note>同一段佛經節文見於山東省東平縣洪頂山。<note>洪頂山1號，《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第63頁和第97－101頁</ref>。</note>
+                </p>
+                <p>另一段佛經節文刊於一座石碑上（水牛山2號），據稱此碑原立於山頂，1973年移至汶上縣博物館。此段同爲定義佛性的節文較長，含《文殊師利所説摩訶般若波羅蜜經》九十八字節文。這九十八字節文是山東省極爲常見的佛經刻銘，刊刻次數達十餘次。<note>見下文註<ptr type="footnote" target="list98characters_zh"/>列表。</note>石碑尚有此經199字。刻經人藉由這段文字引導我們了解，他們在水牛山乃至整個山東摩崖刻經的動機（見下文）。</p>
+                <p>水牛山刻經屬山東省内刊刻最精良的刻經之一，石質上佳，保存可善。摩崖與石碑皆無紀年。下文的“討論”部分認爲這兩處銘刻互有關連且出自同一時期。</p>
+                <ab>
+                    <abbr>雷德侯</abbr>
+                </ab>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>水牛山是黄河沖積平原緩緩升起的獨立山岩體，隸屬汶上縣，位於縣城東北偏東17公里、曲阜市西北36公里及泰安市西南60公里處（見封二地圖）。其地理位置是東經116.6635度，北緯35.7704度，相當於UTM坐標系統第50S帶，東行469580，北行3958540。</p>
+                        <p>水牛山由東北向西南方向延伸約0.3公里，由西北向東南方向延伸約0.2公里。山頂海拔高度106米，面向西南偏南的銘刻海拔高度99米。整個刻經址因開山採石而損壞嚴重。附近地區没有其他摩崖石刻。</p>
+                        <p>最近一處刻經曾經位於25公里外的嵫陽山。距離相仿的是鳳凰山刻經，位於水牛山東北偏東28公里處。從水牛山可望鳳凰山山體，但無法看見刻經。海檀寺遺址則位於水牛山西北方43.6公里處，爲鄰近東平湖的刻經址中最靠近水牛山者。<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第459－489頁</ref>。</note>鄒城六山距水牛山最近的爲其東南方47.3公里處的崗山。<note>《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第225－461頁</ref>。</note>
+                        </p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>水牛山弧狀山脊綫下，一道高度2至8米不等的垂直石壁自西向東延伸，與整座山等寬。一條小徑自西而上，沿石壁壁脚而行。銘文刊刻於石壁下半部的中央，恰於山脊最高點之下（<ptr target="SNS_sc_SNS_part_G7SB6702_cut.jpg"/>）。刻銘西側約85釐米處是一洞窟的入口，該窟開鑿時間不明。<note>最早提及此石窟的金石學文獻見於20世紀40年代。道端良秀<ref type="biblio" target="Michihata1972">第37－38頁</ref>。</note>石窟方底圓頂。山頂同樣曾經加工，從刻鑿於岩石的階梯可看出此處原有建築物（<ptr target="SNS_r_SNS-Pav_part_G7SB6864.jpg"/>）。</p>
+                        <p>緊鄰第一行刻銘的石壁已遭開採，約5米深，後切面向東延伸至山脊終端。銘文首行的第一字因採石而毀，第二字殘。刻銘下方南面斜坡也遭到大規模的開採破壞。採石鋼筋至今仍棄置於此。道端良秀（1903－？）20世紀40年代初拍攝的照片顯示，當時水牛山南面已是一座採石場。<note>道端良秀<ref type="biblio" target="Michihata1972">第38頁</ref>。</note>
+                        </p>
+                        <p>今日，此地仍在大量開採石礦。山脊以東已挖掘出幾個大坑（<ptr target="SNS_google-earth.jpg"/>）。水牛山南方通往銘刻的入口處有政府所立告示牌，上示此刻經址自1992年6月12日起爲山東省重點文物保護單位（<ptr target="SNS_sc_SNS_part_2495.jpg"/>）。</p>
+                        <ab>
+                            <abbr>雷德侯</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地名</head>
+                        <p>因山形如同臥踞的水牛，故名“水牛山”。早在清道光二十七年（1847），黄恩彤（1801－1883）便稱此山爲“臥牛山”，<note>《寧陽金石誌》<ref type="biblio" target="Ningyangjinshizhi">第129頁</ref>。</note>道端良秀所參考的地圖也這樣稱呼此山。<note>道端良秀<ref type="biblio" target="Michihata1972">第37頁</ref>。</note>
+                        </p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure xml:id="SNS_google-earth.jpg" rend="center">
+                            <head>Aireal view of Mount Shuiniu, as provided by Google™Earth, with
+                                the position of inscription SNS 1</head>
+                            <head xml:lang="zh">谷歌地球™提供的水牛山俯視圖，上標水牛山1號位置</head>
+                            <graphic url="SNS_google-earth.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>石碑左右兩側題記共六行（水牛山3號），提及五座寺院的僧侣參與了石碑的刻經活動，即白石寺、石窟寺、龍華寺、束靈珍寺和中和寺。白石寺在今汶上縣白石鄉白石村，距水牛山刻經處約3公里，其先前的規模與佈局狀况不明。<!--北齊時，此寺有比丘參與水牛山《文殊般若經》碑的鐫刻，見該碑側題記。-->石窟寺和龍華寺在今寧陽、汶上二縣交界處，距水牛山不遠。束靈珍寺和中和寺位置待考，前者是束氏家族爲其薦福所建。<!--北齊時，此寺比丘法嵩等人參與水牛山《文殊般若經》碑的鐫刻，見該碑側題記（水牛山2號）--></p>
+                        <!--<p>龍華寺亦在今寧陽、汶上二縣交界處，具體位置待調查。北齊時，此寺有比丘參與水牛山《文殊般若經》碑的鐫刻，見該碑側題記（水牛山2號）。</p>-->
+                        <ab>
+                            <abbr>賴非<space n="2"/>蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>兩側題記上有若干僧人及俗眾之名，俱爲供養人。可辨識的名字中有五位來自羊氏家族，其中一人名爲“五城上郡太守太山羊鍾”。義州五城郡建立於547年。<note>《魏書》<ref type="biblio" target="Weishu1974">卷七：第2486－2487頁</ref>。引自賴非<ref type="biblio" target="LaiFei1994">第33頁</ref>。</note>羊鍾受封厲威將軍。《北史》多次提及此軍銜。題記提到羊鍾來自泰山（太山），也許他是將軍羊烈的族人。《北齊書》載羊烈是泰山人，自558至561年任陽平太守，而水牛山即隸屬陽平。<note>《北齊書》<ref type="biblio" target="BeiQishu1972">卷四十三，第576頁</ref>。《北史》<ref type="biblio" target="Beishi1974">卷三十九，第1435頁</ref>。題記所及其他人的資料，見下文“題記”水牛山3號部分。</note>羊氏家族曾造一尼寺，家族女性成員可於此出家爲尼。</p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                        <p>兩側題記首先列及督導刻經活動的七位白石寺僧人，此寺的近距離佔地利之便。其中兩位領有經主頭銜，列於石碑左側，名字已嚴重損毀。他們可能負責選取經文、石碑設計、開光典禮等工作。他們的名字位於上述主要經主羊鍾之前，此位清信供養人不但社會地位最高，且應該出資最多。</p>
+                        <p>其他五位白石寺僧人列於石碑右側，位於另一組供養人名之前。首位僧人明建領有沙門都頭銜，顯示他在佛教僧官系統裏的崇高地位。沙門都爲沙門統管轄，其上即是最高僧官，大沙門統。
+                                    <note>有關北朝時期的佛教僧官系統，見謝重光<ref type="biblio" target="XieChongguang2009">第51－86頁</ref>。</note>
+                            如謝重光指出，北魏末至北齊僧官員額擴充。在地方上，亦同時存在多位沙門都和沙門統。 <note>謝重光 <ref type="biblio" target="XieChongguang2009">第74－77頁</ref>。</note>
+                            因此，白石寺沙門都明建的具體管轄範圍，有待進一步的研究。 </p>
+                        <p>其他參與刻經的僧眾，包含石窟寺法嵩、龍華寺曇超以及名字已佚的束靈珍寺和中和寺僧或尼。 束靈珍寺的僧或尼很可能是束氏家族成員
+                            。束氏家族爲此石經碑的第二大供養人家族，前已述及，束靈珍寺爲此姓家族成員爲束靈珍薦福所建。此寺的僧或尼名爲其他束姓仍可辨認的家族成員所包圍。</p>
+                        <ab>
+                            <abbr>蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>山東省其他地區《文殊師利所説摩訶般若波羅蜜經》九十八字節文，刊刻紀年跨度從嶧山的564年（嶧山1號）<note>《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第49－50頁和第75－83頁</ref>。</note>至尖山的575年（尖山6號）。<note>見本卷<ptr type="infra" target="JS_start_zh JS_end_zh"/>。</note>因此，水牛山九十八字節文當刻於6世紀下半葉。本卷推測，水牛山石碑的刊刻時間極有可能在558至561年之間，即羊烈任陽平太守期間。若是如此，則它將與海檀寺560年的石碑（海檀1號）<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第459－489頁</ref>。</note>及巨野石佛寺564年的石碑一樣同屬山東最早的刻經。<note>《中國佛教石經·山東省》第五卷。</note>
+                        </p>
+                        <ab>
+                            <abbr>蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>著名學者阮元（1764－1849）述及黄易（1744－1802）記録了水牛山上的摩崖石刻。<note>《山左金石誌》<ref type="biblio" target="Shanzuojinshizhi">第14484頁</ref>。</note>黄易也許是第一位記録水牛山摩崖石刻的人。時阮元與一批學者在濟南官邸搜集山東金石學資料，黄易爲其提供了水牛山摩崖石刻拓片。然而，黄易作於1797年的《岱麓訪碑圖》，繪有山東省四座刊刻銘文的山，但並未包含水牛山。阮元略帶惋惜地稱黄易“未詳尺寸”。阮元《山左金石誌》關於北齊的章節提到刊於水牛山的兩段佛經節文（水牛山1號和水牛山2號），却犯了一個錯誤，即誤讀“舍利弗”的“弗”作“佛”字。吴式芬（1796－1856）延襲此誤，但他也是第一位明確指出刻經年代爲後齊的金石學家。<note>《金石彙目分編》<ref type="biblio" target="Jinshihuimufenbian">第21151頁</ref>。</note>段松苓（1745－1800）和吴式芬提到，水牛山2號的石碑保存於一山洞中，<note>見下文水牛山2號“討論”部分。</note>可能是水牛山1號西邊的山洞。傳統金石學家中以陸增祥（1833－1889）對此碑的著録最爲詳細，他記録了此碑的行格，並引述前人的説法。清道光二十七年（1847），黄恩彤駁斥了此經碑傳爲唐朝詩人李太白（701－762）所書的荒謬説法。<note>《寧陽金石誌》<ref type="biblio" target="Ningyangjinshizhi">第129頁</ref>。</note>
+                        </p>
+                        <p>包世臣（1775－1855）在其《藝舟雙楫》“歷下筆談”篇也談及水牛山刻經。此書成於1844年，但此篇撰寫時間則早至1819年前後，<note>《歷下筆談》<ref type="biblio" target="Lixiabitan"/>。日譯本《藝舟雙楫》<ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">第261和268頁</ref>。</note>可能是包氏在山東歷下任職期間。他撰寫此篇並未採用一般金石學家的慣用寫法，而是着眼於刻經的書法風格，探討了書法史的問題。</p>
+                        <p>關於水牛山2號刻經碑，<note>“北朝隸書，雖率導源分篆，然皆極意波發，力求跌宕。凡以中郎既往，鍾、梁並起，各矜巧妙，門戶益開。踵事增華，窮情盡致。而《般若碑》渾穆簡静，自在滿足，與《郙閣頌析里橋》同法，用意逼近章草，當是西晋人專精蔡體之書。無一筆闌入山陰，故知爲右軍以前法物，儗其意境，惟有香象渡河已。平原、會稽各學之而得其性之所近。反覆玩味，絶無神奇，但見點畫樸實，八面深穩，更無欠缺處耳。求之彙帖，征西《出師頌》、大令《保母誌》可稱一家眷屬，以其絶去作用處相同故也。”《藝舟雙楫》<ref type="biblio" target="BaoShichen_Yizhoushuangji">第78頁</ref>。日譯見西林昭一<ref type="biblio" target="Nishibayashi1972">第84頁</ref>；日譯本《藝舟雙楫》<ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">第72－73頁</ref>。</note>包世臣認爲其書法風格承襲了始於蔡邕（132－192；官至中郎將）、繼以鍾繇（151－230）和梁鴻（2世紀）的書法傳統，並敏鋭地指出銘刻與171年的《郙閣頌》書風相似。另一方面，他也指出此碑無一筆似王羲之（303－361；此處以王羲之的居地“山陰”相稱）的風格。因此，包世臣認爲此碑的刊刻時間應早於王羲之的作品盛行之時，當出自師法蔡邕的西晋（265－316）書法家之手。他援引佛家“香象渡河”<note>《優婆塞戒經》T#1488，24：1038b8－13。</note>的譬喻形容此碑書法特點，即步步脚踏河底，不似兔、馬往往脚不及地。他也明確指出銘刻筆畫
+                                    “絶無神奇”“點畫樸實”。他認爲這一書風後爲顔真卿（709－785）與“會稽”所承襲。“會稽”可能指賀知章（約659－744）或徐浩（703－783）。<note><!--此處他指的可能是顔真卿（709－785）和賀知章（659－744）。-->見西林昭一<ref type="biblio" target="Nishibayashi1972">第84頁</ref>。日譯本《藝舟雙楫》<ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">第72－73頁</ref>。</note>不過，包氏指出水牛山2號的書法與索靖（239－303）《出師頌》和王獻之（344－388；王羲之之子，此稱大令）《保母誌》同屬一派。</p>
+                        <p>包世臣致力於根據特定作品風格的聯繫來呈現唐以前書法的發展，值得稱道。他的描述充滿詩意，擅用譬喻，使用術語則疏於精準。此處雖然羅列了可資比較的材料，却誤認書風，因他視書法風格的演變爲單綫發展。他正確地辨認水牛山2號書風古樸、具有王羲之以前的書風。但他没有意識到山東所在的北方地區於6世紀時仍然流行復古的書風，所以將經碑誤斷爲西晋時期，即早於王羲之的作品。</p>
+                        <p>包世臣寫作“歷下筆談”篇的時間可能早於清道光三年（1823）阮元刊刻的兩篇開創性區分南、北派書法的文論，即《南北書派論》和《北碑南帖論》。<note>英譯文和相關討論參考雷德侯<ref type="biblio" target="Ledderose1970">第152－211頁</ref>。</note>在阮元的體系中，以王羲之爲代表的南派，疏放妍妙，長於尺牘。北派則風質樸方嚴，長於榜書。阮元認爲漢唐之間，這兩派各自發展，並行不悖。</p>
+                        <p>汪鋆（1816－1884年之後）《十二硯齋金石過眼録》質疑包世臣關於水牛山2號的判斷。其後，楊守敬（1839－1915）對此作出嚴厲的批評。<note>見下文“討論”部分，<ptr type="infra" target="Discussion_of_Bao_start Discussion_of_Bao_end"/>。亦見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第8－9頁</ref>。</note>
+                        </p>
+                        <p>道端良秀考察了山東的幾處刻經址，是第一位記録水牛山1號刻字區各項精確測量數據的研究者。他辨識出刻經節文大體上出自某部般若經典，並且發表了第一張刻經址的照片。<note>道端良秀<ref type="biblio" target="Michihata1972">第37－38頁</ref>。</note>西林昭一於1972年首次確切地斷定此五十二字佛經節文出自《文殊師利所説摩訶般若波羅蜜經》卷一。80年代後期，山東省石刻藝術博物館開始有系統地調查與研究山東的石刻銘文，水牛山亦在其列。1991年，王思禮及賴非描述了此刻經址，這些描述在後來所發表的論文中更見完善。</p>
+                        <p>金石家們一般將經碑（水牛山2號）與摩崖石刻（水牛山1號）一起論述。根據阮元的説法，黄易曾擁有很多該碑的拓本。<note>《山左金石誌》<ref type="biblio" target="Shanzuojinshizhi">第14484頁</ref>。</note>孫星衍（1753－1818）《寰宇訪碑録》辨識出碑上的經文出自《文殊般若經》。<note>《寰宇訪碑録》<ref type="biblio" target="Huanyufangbeilu">第19872頁</ref>。</note>吴式芬將經碑的刊刻時間定爲北齊，<note>《金石彙目分編》<ref type="biblio" target="Jinshihuimufenbian">第21151頁</ref>。</note>與摩崖石刻同時，但是19世紀的金石家對確切的斷代仍持有重大分歧。現代學者解决了這個問題，他們作出更多精確的描述並<!-- 記録其原始位置，且 -->關注水牛山刻經的書法風格與山東省地區其他銘文的書法風格之間的關聯。2009年，蔡穗玲在科隆佛教藝術展的雙語圖録中首次向西方觀衆介紹此碑。<note>
+                                    《菩提心<hi rend="dash">──</hi>科隆東亞藝術博物館一百周年紀念展》<ref type="biblio" target="MuseumKoeln_HAW2009">第52–54頁</ref>。</note>
+                        </p>
+                        <ab>
+                            <abbr>雷德侯</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>刻銘</head>
+                    <div>
+                        <head>總目</head>
+                        <p>水牛山摩崖上刊刻一段佛經節文（水牛山1號）。此處未發現題記，異於尋常。山東省佛教刻經常伴隨帶有紀年和供養人姓名的題記。18世紀晚期金石文獻未提到水牛山1號題記。此處或者從未有題記，或者早已佚失。另一段相關的節文刻於石碑，此碑可能原置於山頂（水牛山2號）。碑上並刊刻一則題記（水牛山3號）。</p>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <div>
+                            <head>水牛山1號</head>
+                            <p>刊刻於崖壁上的五十二字佛經節文出自曼陀羅仙（活動於503年左右）所譯《文殊師利所説摩訶般若波羅蜜經》，<note>《文殊師利所説摩訶般若波羅蜜經》T#232，8：728a26－29。《文殊師利所説摩訶般若波羅蜜經》現存兩個漢譯本：上文所提譯本是曼陀羅仙所譯的二卷本（T#232，8：726a24－732c9），此譯本又見於8世紀初譯本《大寶積經》（T#310，11：652b15－18）。另一譯本是《文殊師利所説般若波羅蜜經》一卷（T#233，8：732c11－739c28），僧伽婆羅（生於460年）譯。只有曼陀羅仙譯本（T#232）包含水牛山所刻的五十二字佛經節文。</note>與刊刻於洪頂山的一段經文一致，但洪頂山1號節文之首另刻有“佛言”二字。<note>關於此銘刻的討論，見《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第63頁</ref>。</note>
+                            </p>
+                            <p>《文殊師利所説摩訶般若波羅蜜經》的主要對話者爲佛陀、文殊師利菩薩和佛陀的弟子舍利弗。佛陀與文殊師利談論如何修行甚深般若波羅蜜的對話後，舍利弗提出了兩個疑問：“云何名佛？云何觀佛？”</p>
+                            <p>首先，文殊師利以一個反問句回答：“云何爲我？”舍利弗正確地指出“我”的概念只是假名，實無指涉到任何實體。接着，文殊師利回答“佛”和“觀佛”這兩個概念。這段簡短的五十二字佛經節文即包含了文殊師利對這兩個問題的回答。<note>《文殊師利所説般若波羅蜜經》此部分的其他英譯，見如露<ref type="biblio" target="Rulu2011">第165－166頁</ref>。</note>
+                            </p>
+                            <p>文殊師利這段關於“佛”的概念的簡短論述，將“佛”描述爲不生不滅，不來不去，非名非相，此與所有的般若經典相符。但另一方面，文殊師利對“觀佛”的定義却是獨一無二的，認爲“觀佛”必須“如自觀身實相，觀佛亦然”。</p>
+                            <p>大智文殊菩薩的這段闡述，引起後來經註者的廣泛關注。<note>經註文獻所見諸例，見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第193－194頁</ref>。</note>不過，他們引用和解釋這段陳述時，並未談到《文殊師利所説摩訶般若波羅蜜經》，而是提及鳩摩羅什（344－413）譯《維摩詰所説經》一段相同的説法。該段文字見《維摩詰所説經》第十二品《見阿閦佛品》開始部分。<note>《維摩詰所説經》T#475，14：554c29－555a1：“如自觀身實相，觀佛亦然”。《維摩詰所説經》第十二品《見阿閦佛品》起始部分曾兩次刊刻於山東，一次是在葛山，見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第190－224頁</ref>，另一次見“大齊鄉老舉孝義雋修羅之碑”，該碑原立於泗水縣天明寺，見《中國佛教石經·山東省》第五卷。</note>
+                            </p>
+                            <p>《維摩詰所説經》的這段文字也許是增補的，因爲只見於鳩摩羅什譯本，現存的梵文寫本則闕如。<note>見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第194頁</ref>。隋或唐代刻經FS
+                                        0002是房山石經中刊刻最早的，已包括此段文字。《房山石經》<ref type="biblio" target="FS_SJ2000">第1册：第84頁</ref>。</note>無論如何，這段關於“觀佛”的文字爲後世普遍接受。</p>
+                            <p><!-- 如同他處亦曾提出過的， -->《維摩詰所説經》在早期的禪宗頗受歡迎。<note>
+                                    <ref type="biblio" target="Sharf2002">第279頁及第344頁，註1</ref>。</note>因此，在兩部與早期或原始禪宗牛頭宗有關的典籍中找到這段關於“觀佛”的文字並不意外。一是牛頭宗的教義基礎《絶觀論》，<note>此論名的英譯出自馬克瑞<foreign xml:lang="en">John McRae</foreign>，見夏復<ref type="biblio" target="Sharf2002">第42頁</ref>。</note>此論引用了“觀身實相，觀佛亦然”的論述，以此爲“道心之士”提倡適合的觀法。一是《寶藏論》，<note>《寶藏論》T#1857，45：143b－150a。</note>傳統上雖然認爲這部論是僧肇（374－414）所作，但幾乎可確定，實由一位不知名的牛頭宗作者所撰。夏復（<foreign xml:lang="en">Robert
+                                    Sharf</foreign>）研究並翻譯了這部論，他將上述兩部論的成書時間定於8世紀的最後25年内。<note> 夏復<ref type="biblio" target="Sharf2002">第43頁</ref>。</note>
+                            </p>
+                            <figure xml:id="SNS_map.tif" rend="center">
+                                <head>Distribution of inscriptions SNS 1 and SNS 2 </head>
+                                <head xml:lang="zh">水牛山1號和2號刻銘分佈示意圖</head>
+                                <graphic url="SNS_map.tif"/>
+                            </figure>
+                            <p>介紹佛陀的净土世界與觀想方法的《見阿閦佛品》，<!-- 似乎很-->强調該品之初的“觀身實相，觀佛亦然”，因此夏復認爲，這是一個“針對當時流行於印度的早期净土法門形式的批判”。<note>
+                                        夏復<ref type="biblio" target="Sharf2002">第46頁</ref>。</note>夏復還評論，這種説法採取了與其他觀佛方式，如念佛，不同的立場。念佛這一類的觀佛方式假設了“修行者之外有佛陀的客觀存在”，<note>
+                                        夏復<ref type="biblio" target="Sharf2002">第46頁</ref>。</note>甚至可以説，假設了外在的佛陀影像的可得性。</p>
+                            <p>夏復對於“觀”的見解有助於理解洪頂山1號的五十四字節文。在山東刻經址的很多佛名刻於崖壁。其中大部分佛名見於流行的大乘經典，而且是各種念佛法門的持念對象。洪頂山的銘刻似乎提倡不同類型的觀佛方式，或者可説，堪爲一些後來觀佛法門的雛形。</p>
+                            <p>這裏最明顯的佛名是“大空王佛”，山東其他刻經址也是如此。<note>見《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第60－61頁</ref>。亦見本卷列表<ptr type="infrafootnote_zh" target="occurence_Dakongwangfo_zh"/>。
+                                </note>不過，這個佛名不見於經藏及後來任何的念佛法門。事實上“大空王佛”所倡導的“大空”不僅是般若經的基礎，也是佛身實相的另一名相術語。</p>
+                            <p>因此，文殊師利對於佛陀實相及觀佛方法的討論，可理解爲勸告行者觀佛時應專注於佛陀實相，即“空性”。佛名“大空王佛”與洪頂山五十四字節文的結合，揭示了僧人的目的在促使“有智者”修行此觀法。然而，水牛山的《文殊師利所説般若波羅蜜經》五十二字節文却是單立的，它見證了6世紀晚期對“佛”的理解和對特殊觀法的賞識。這種觀法聚焦於行者自身，以行者自身爲認識佛的根源。不過這種觀法在禪宗中纔達到高峰。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>水牛山2號</head>
+                            <p>現存於汶上縣博物館的石碑下緣有大型榫舌，此碑原立於矩形凹槽。到目前爲止，尚無法調查石碑的背面，阮元曾記“碑陰題名十五行”。碑額部分不同尋常，其上緣的榫舌顯示頂部原有配件，但現已不存。碑額中央鏤有一座佛龕（<ptr target="SNS2_st_ZM-WSBR_part_G7SB6908.jpg"/>）。正在説法的釋迦摩尼佛坐於方座，方座兩側是昂首蹲踞的獅子。佛的左右各有一組立於蓮苞的菩薩及弟子。佛龕有一拱形的開口，兩側各有一上方飾有如意寶珠的柱子，上爲圓拱尖楣龕。</p>
+                            <p>此類置五尊造像的佛龕多處可見，但緊鄰釋迦摩尼佛者通常是弟子而非菩薩。造成此處這個特例的原因可能是，《文殊師利所説摩訶般若波羅蜜經》中的文殊師利菩薩是釋迦摩尼佛的主要對話者，而石碑上的經文正是此經節文。<note>《文殊師利所説摩訶般若波羅蜜經》T#232，8：731a1－21。</note>觀者因此可以想像釋迦摩尼佛正在舍衛國説法，如下方碑身的經文所示。</p>
+                            <p>碑身經文的四邊刻有細緻的雲狀捲葉紋。<note>見羅森<ref type="biblio" target="Rawson1984">第68頁，圖46</ref>。</note>佛龕兩側是“文殊般若”四大字。相同的四字刻於尖山（尖山3號），佈局與此一致，刻於九十八字節文之上（尖山6號），而此九十八字節文也出現於水牛山石碑。<note>
+                                    <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>。</note>這段經文還見於嶧山五華峰（嶧山1號），但經文前的“文殊般若”四字則呈一行。<note>見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第49頁和第63－68頁</ref>。</note>
+                            </p>
+                            <p>此外，兗州的一通殘碑所刻“文殊般若經”爲經名。<note>見《山東佛教刻經全集》<ref type="biblio" target="SD_Shikeyishu_bwg2015">第73頁</ref>。</note>因此，水牛山2號碑額“文殊般若”四字可能是《文殊師利所説摩訶般若波羅蜜經》的簡稱。佛經目録似乎都使用此經名簡稱。</p>
+                            <p>
+                                <anchor xml:id="SNS_98cha_start_zh"/>石碑經文共297字，只有後面的部分與常見的九十八字節文一致。此處，佛陀以否定和辯證的語言描述般若波羅蜜，即佛性。這九十八字節文是6世紀山東最常刊刻的經文，曾經八次刊刻於山巖，分别位於洪頂山（洪頂山16.2號和洪頂山22號）、嶧山（嶧山1號和嶧山3號）、徂徠山（徂徠山1號）、龍山（龍山1號）、尖山（尖山6號，已損毀）和陽山（陽山1號，已損毀）。另有刻於石碑者，如水牛山保存完整的此例（水牛山2號），以及兗州金口壩殘碑中數量未明的石碑。<note xml:id="list98characters_zh">關於洪頂山九十八字節文，見《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第65頁、第255－261頁、第293－298頁</ref>。關於嶧山，見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第49頁、第63－68頁、第75－83頁</ref>。關於尖山、陽山、徂徠山和龍山，見本卷。山東省以外亦可見此節文，河北省南響堂山2號窟所刻的這段節文與《大集經》關於“四無量心”的段落相連（T#397，13：50b19－21）。賴非的新作列出金口壩殘碑中九通石碑的部分，其中四通石碑刊刻此段節文，見《山東佛教刻經全集》<ref type="biblio" target="SD_Shikeyishu_bwg2015">第72－75頁</ref>。關於金口壩的殘碑，見《中國佛教石經·山東省》第五卷。龍山和金口壩乃近期發現，因此《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第11頁，註104</ref>的列表未列入此二例。</note>
+                            </p>
+                            <p>幸運的是，水牛山石碑包括佛經中九十八字節文之前的一段論述，而這段論述有救贖的意涵。由此可推斷九十八字節文較整體的架構和山東刻經者的動機和目的。</p>
+                            <p>在石碑經文的第一部分，文殊師利菩薩以一連串的單否定，如無爲、無得等，接着再以雙重否定，如非作、非不作，非得、非不得等等來定義“正法”。至此，大智文殊菩薩似乎茫然失措，因而接着問佛陀“不知云何當學般若波羅蜜”。<!--佛陀回答“ 若能如是知諸法相，是名學般若波羅蜜”。--></p>
+                            <p>佛陀的回答指出，質疑般若波羅蜜即修行般若波羅蜜的一部分，並以此鼓勵文殊師利菩薩。而後佛陀推薦名爲“自在三昧”的特定觀法。若能精通此觀法，即可達到三項成就：明一切甚深佛法、知一切諸佛名字，以及悉了達諸佛世界。</p>
+                            <p>這三點是行於大乘道修行者的救贖目的，並可視爲等同於成等正覺。此三點讓我們對於這九十八字節文的意義産生新的了解。第一項“明一切甚深佛法”，即必須完全了解佛陀的教法，而這就是覺悟的目的。第二和第三項對於理解整個山東省石刻别有意義。山東多處刻經址刊刻佛名，而“知一切諸佛名字”必定是有力的動機。“悉了達諸佛世界”的目的則同樣顯現在某些刻經址：洪頂山（洪頂山9.10－9.12號）<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第191－202頁</ref>。</note>和徂徠山（徂徠山9號）<note>見本卷<ptr type="infra" target="Culai_buddhas_zh Culai_buddhas_end_zh"/>。</note>的佛名組合涉及西方净土。宇宙所有佛土的菩薩俱集於崗山，<note>《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第399－402頁</ref>。</note>而刻於葛山的經文則間接討論阿閦佛净土的景象。<note>《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第203－219頁</ref>。</note>
+                            </p>
+                            <p>與現存例證相較，所選取的段落在刊刻以前曾有意縮减。隋或唐代《房山石經》版本、<note>見《房山石經》<ref type="biblio" target="FS_SJ2000">第1册：第125頁</ref>。</note>所有現存的敦煌寫本<note>《大正蔵·敦煌出土仏典対照目録》<ref type="biblio" target="Taisho_Dunhuang_Concordance2015">第44頁</ref>共列有十六本與《文殊師利所説般若波羅蜜經》（T#232）有關聯的寫本，其中九本保留了選刻的節文，而這九本中只有五本有裨研究。寫本<foreign xml:lang="en">S. </foreign>1908、<foreign xml:lang="en">S.
+                                        </foreign>2186和<foreign xml:lang="en">S.
+                                    </foreign>2653號已出版，保存於北京中國國家圖書館的寫本北敦2068號和北敦2859號已數字化，可於國際敦煌項目數據庫綫上使用（見http://idp.bl.uk/，查詢於2017年2月10日）。</note>和今之《大正藏》本皆在佛陀教授三項救贖的目的後多傳譯了19字，即：“……無有障礙，當如文殊師利所説般若波羅蜜中學。”石碑的經主也許認爲如此告誡没有必要，因爲碑上選刻的節文已表明此意。</p>
+                            <p>相較其他可資旁證的經文，會發現更多異文。與石碑經文最接近的是敦煌寫本<foreign xml:lang="en">S.
+                                        </foreign>2186號及北敦2859號。尤其是這兩本確定了“无凡夫法，无聲聞法，无辟支佛法、佛法”的説法。<note>關於<foreign xml:lang="en">S. </foreign>2186號，見《敦煌寶藏》<ref type="biblio" target="Dunhuangbaozang1981_1986">第17册：第108b9－10頁</ref>。</note>敦煌寫本<foreign xml:lang="en">S.
+                                        </foreign>2653號闕“佛法”二字，<note>見《敦煌寶藏》<ref type="biblio" target="Dunhuangbaozang1981_1986">第22册：第5a21－22頁</ref>。抄寫者可能認爲，這是重復前面“无辟支佛法”的“佛法”二字的一個錯誤。</note>而<foreign xml:lang="en">S.
+                                        </foreign>1908號和北敦2086號則改爲“无佛法”，與前面所列舉的項目一致。<note>關於<foreign xml:lang="en">S. </foreign>1908號，見《敦煌寶藏》<ref type="biblio" target="Dunhuangbaozang1981_1986">第14册：第448b3－4頁</ref>。</note>
+                            </p>
+                            <p>由於《房山石經》這部分的經版已損毀，故無法辨認。不過，後面九十八字節文完整地留存石碑，它與水牛山石碑及山東所有刊刻此節文的版本一致，但有一個值得注意的例外：在九十八字節文的最後，《房山石經》本記爲“无念无作作故”而非“无念无作故”。<note>見《房山石經》<ref type="biblio" target="FS_SJ2000">第1册：第125頁</ref>拓本右起第八行。</note>然而，没有其他版本與此相符。因此幾乎可以確定，這是罕見的《房山石經》衍文實例。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>水牛山3號</head>
+                            <p>題記刊刻於碑側。左側一則兩行題記字號較大；右側四行的題記較小。題記因風化而保存不佳，右側的損壞較左側嚴重。</p>
+                            <p>題記所及俗家經主，幾乎都是羊氏與束氏兩家族的成員。羊氏家族成員之名以大字列於石碑左側，而束氏家族成員的名字則以較小的字號刻於右側，但有一個例外值得注意，即郡功曹束市貴的人名及官名以小字書寫於石碑左側，介於大字羊鍾和羊善的人名及官名之間。看起來刻者似乎利用了原本打算作爲區隔兩供養人的四字空間。也許因爲石碑右側的文字已過於密集，再無空間，因此束市貴的名字書寫於左側。</p>
+                            <p>從經主羊氏較大的人名字號來看，羊氏家族的勢力當大於束氏。其中官位最高者當屬厲威將軍羊鍾，是三位主持刊刻石碑的經主之一。其餘四位羊氏家族成員，題記僅直呼爲“邑人”，其中兩位帶有低階官銜的職稱。</p>
+                            <p>束氏家族七位成員的姓氏尚清晰可辨，題記風化部分應刻有更多的人名。大部分束氏成員擔任縣府的低層管理職位，大部分是郡功曹。有一位束氏家族成員可能擔任都維那。這個職務屬於佛教團體的管理階層。<note>參見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第86－87頁</ref>，鐵山刻經的經主。</note>
+                            </p>
+                            <p>題記還記録了十一餘位參與刻經的僧人。石碑兩側所列舉的經主群組似乎分别由不同的僧侣領導。有關細節，見上文“ 相關人物”部分。 </p>
+                            <!--<p>具有權勢的羊氏家族跟隨一位全名已無法辨認的白石寺比丘，該比丘被尊稱爲經主之一。屬於此團體的還有一位來自石窟寺名爲法嵩者，他必定是位僧人，但尚未受具足戒。</p>
+                            <p>白石寺沙門都明建。題記還提到其他受戒比丘的名字，但這些名字已無法辨認。其中一位來自龍華寺。僧眾及束氏家族信眾的名字下至少還有三位監督此刻經計劃的都維那的名字。</p>-->
+                            <ab>
+                                <abbr>蔡穗玲<space n="2"/>温狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>書體呈現隸書漸變楷書的形態。用筆以楷法爲主，没有長槍大戟的筆畫，筆勢收斂，筆意内含。結體取方勢，平正端莊，無側倚感，書風儘管出自隸書，但無隸勢的開闊飛動。</p>
+                        <p>碑額題名“文殊般若”字體有兩個特點。“般”字左邊部分的兩點刻成圓形。呈圓滿圓形的點亦見於巨野縣564年的石碑（石佛寺1號）。<note>見《中國佛教石經·山東省》第五卷。</note>此外，有些筆畫的收筆頗不尋常，“文”“殊”和“般”的最後一捺畫及“殊”字的第二筆畫的收筆處皆分成三叉燕尾形。“若”字有兩筆畫分别呈二叉燕尾形。這樣的形式取法書法家收筆時毛筆重按後分叉的效果。洪頂山佛名“大空王佛”（洪頂山8號）中338釐米寬的巨型“大”字可與之比較。<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第146頁的拓片</ref>。</note>其最後一筆的收筆也呈三叉燕尾形，不過，此三叉燕尾没有明顯地各自分開。</p>
+                        <ab>
+                            <abbr>賴非<space n="2"/>雷德侯</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Shuiniu</head>
+                <p>Two celebrated sutra passages are found on Mount Shuiniu <foreign xml:lang="zh">水牛山</foreign>. Engraved on a cliff is a succinct definition in only 52
+                    characters of the nature of the Buddha and an instruction on how to meditate on
+                    him (SNS 1). This passage is plucked from the <hi rend="italic">Sutra on the
+                        Great Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                    </hi> (<hi rend="italic">
+                        <foreign xml:lang="sa">Saptaśatikāprajñāpāramitā-sūtra</foreign>
+                    </hi>, <hi rend="italic">Wenshushili suo shuo mohe bore boluomi jing </hi>
+                    <foreign xml:lang="zh">文殊師利所説摩訶般若波羅蜜經</foreign>; T#232). The same passage is found elsewhere in
+                    Shandong, namely on Mount Hong­ding.<note>HDS 1, <ref type="biblio" target="Shandong_1">87–88, 97–101</ref>.</note>
+                </p>
+                <p>The second sutra passage on Mount Shuiniu is engraved on a stele, which is said
+                    to have come from the summit of the mountain and was transferred to the museum
+                    in Wenshang <foreign xml:lang="zh">汶上</foreign> in 1973 (SNS 2). This longer
+                    passage of 98 characters, which also defines the nature of the Buddha, is <hi rend="nh">taken</hi> from the same sutra. It is the sutra passage most
+                    frequently seen in Shandong province, perhaps a dozen times.<note>See the list
+                        below, note <ptr type="footnote" target="list98characters"/>. </note> On the
+                    stele, the 98 characters are preceded by the 199 characters that come before
+                    them in the sutra text. By providing this specific context, the engravers enable
+                    us to understand their motive in creating stone inscriptions, not only on Mount
+                    Shuiniu, but also, as described below, in Shandong at large.</p>
+                <p>The engravings on Mount Shuiniu are some of the best executed carvings in the
+                    province, and, due to the exceptional quality of the rock at this site, also
+                    among the best preserved. Neither the cliff inscription nor the stele carries a
+                    date. In the following discussions we take the two engravings to be related and
+                    of the same period.</p>
+                <ab>
+                    <abbr>LL</abbr>
+                </ab>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>Mount Shuiniu, literally Mount Water Buffalo, forms a single outcrop that
+                            rises gently from the Yellow River alluvium. It is located in Wenshang
+                            County <foreign xml:lang="zh">汶上縣</foreign>, 17 km east-northeast of the
+                            county seat, 36 km northwest of Qufu City <foreign xml:lang="zh">曲阜市</foreign>, and 60 km southwest of Tai’an City <foreign xml:lang="zh">泰安市</foreign> (map in front endpaper). The geographic
+                            position is 116.6635° east and 35.7704° north WGS84. This equals 469580
+                            E (easting) and 3958540 N (northing) on the meridian 50S UTM. </p>
+                        <p>Mount Shuiniu has a northeast-southwest extension of about 0.3 km, and a
+                            northwest-southeast extension of about 0.2 km. The peak is located at an
+                            altitude of 106 m above sea level, and the inscription, which faces
+                            south-southwest, sits 99 m above sea level. The entire site has been
+                            quarried for stone and is severely damaged.
+                            <!--From the peak of Mount Shuiniu, the 160 m high Mount Tan <foreign xml:lang="zh">談山</foreign> can be seen at a distance of 6.5 km in a west-northwestern direction;  Mount Xiao <foreign xml:lang="zh">小山</foreign> with a height of 500 m stands on the horizon at a distance of 67 km to the east-southeast. -->
+                            No other cliff inscriptions are in the vicinity. The nearest ones, those
+                            formerly on Mount Ziyang <foreign xml:lang="zh">嵫陽山</foreign>, once lay
+                            25 km to the south. In a comparable distance lies Mount Fenghuang
+                                <foreign xml:lang="zh">鳳凰山</foreign>, 28 km to the east-northeast.
+                            Mount Fenghuang is visible from Mount Shuiniu, but not its inscriptions.
+                            The remains of the former Haitan Monastery <foreign xml:lang="zh">海檀寺</foreign> are located 43.6 km to the northwest. Among the
+                            inscription sites around Lake Dongping <foreign xml:lang="zh">東平湖</foreign>, this monastery is closest to Mount Shuiniu.<note>See
+                                    <ref type="biblio" target="Shandong_1">459–489</ref>.</note> The
+                            nearest of the six <!--inscribed -->mountains around the city of
+                            Zoucheng <foreign xml:lang="zh">鄒城</foreign>, is Mount Gang <foreign xml:lang="zh">崗山</foreign>, 47.3 km to the southeast.<note>See <ref type="biblio" target="Shandong_2">225–461</ref>.</note>
+                        </p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>Below the line of Mount Shuiniu’s curved ridge, a vertical rock wall,
+                            varying in height from two to eight meters, extends over the entire
+                            width of the hill from west to east. A path leads up from the west and
+                            runs along the foot of this wall. The inscription is engraved midway on
+                            the lower part of the wall, beneath the highest point of the ridge (fig.
+                                <ptr target="SNS_sc_SNS_part_G7SB6702_cut.jpg"/>). About 85 cm west
+                            of the inscription, an entrance opens into a cave, which was cut into
+                            the rock at an unknown date.<note>In the epigraphic literature the cave
+                                is first mentioned in the 1940s. <ref type="biblio" target="Michihata1972">37–38</ref>.</note> It has a square
+                            ground plan and a cupola-shaped ceiling. Work was also undertaken on top
+                            of the ridge. Steps cut into the rock indicate that buildings once stood
+                            there (fig. <ptr target="SNS_r_SNS-Pav_part_G7SB6864.jpg"/>).</p>
+                        <p>Immediately adjacent to the first column of the inscription, the entire
+                            rock wall has been quarried to a depth of about five meters, and so, the
+                            cut away cliff wall continues to the eastern end of the ridge. The first
+                            character of the first column was obliterated as a consequence of the
+                            quarrying, and the second character was damaged. The southern slope
+                            below the inscription was also extensively quarried. Iron bars are still
+                            lying there, abandoned. A photograph taken by Michihata <foreign xml:lang="ja">Ryōshū </foreign>
+                            <foreign xml:lang="zh">道端良秀</foreign>
+                            (1903–?) in the early 1940s shows that this side of the hill had by then
+                            already large areas of stone removed. <note>
+                                <ref type="biblio" target="Michihata1972">38</ref>.</note>
+                        </p>
+                        <p>Today, quarrying continues on an extensive scale. Deep holes have been
+                            dug in a large area east of the ridge (fig. <ptr target="SNS_google-earth.jpg"/>). Due care is enjoined by an
+                            official concrete plaque on the southern access route to the
+                            inscription, which declares that on June 12, 1992 the site was given the
+                            status of a protected cultural monument of Shandong Province <foreign xml:lang="zh">山東省重點文物保護單位</foreign> (fig. <ptr target="SNS_sc_SNS_part_2495.jpg"/>). </p>
+                        <ab>
+                            <abbr>LL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name </head>
+                        <p>The name, Mount Buffalo (Shuiniu Shan <foreign xml:lang="zh">水牛山</foreign>) obviously alludes to the shape of the ridge, whose
+                            contours recall a crouching water buffalo. Indeed, in 1847 Huang Entong
+                                <foreign xml:lang="zh">黄恩彤</foreign> (1801–1883) calls it Mount
+                            Crouching Buffalo, Woniu Shan <foreign xml:lang="zh">臥牛山</foreign>,<note>
+                                <ref type="biblio" target="Ningyangjinshizhi">129</ref>.</note> and so it is named
+                            also on Michihata’s map.<note>
+                                <ref type="biblio" target="Michihata1972">37</ref>.</note>
+                        </p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>The colophons in altogether six columns on the two narrow sides of the
+                            stele (SNS 3) mention five monasteries whose monks were involved in the
+                            carvings at Mount Shuiniu, Baishi Monastery <foreign xml:lang="zh">白石寺</foreign>, Shiku Monastery <foreign xml:lang="zh">石窟寺</foreign>, Longhua Monastery <foreign xml:lang="zh">龍華寺</foreign>,
+                            Shu Ling­zhen Monastery <foreign xml:lang="zh">束靈珍寺</foreign>, and
+                            Zhong­he Monastery <foreign xml:lang="zh">中和寺</foreign>. Baishi
+                            Monastery was located in Baishi Village in Baishi Township, Wenshang
+                            County, about 3 km away from Mount Shuiniu; its former layout and scale
+                            are not known. Shiku Monastery and Longhua Monastery lay between today’s
+                            Ning­yang and Wenshang county seats, also not far from Mount Shuiniu.
+                            The locations of Shu Ling­zhen Monastery and Zhonghe Monastery await
+                            further investigation. The former was built for Shu Ling­zhen’s
+                            spiritual merits by his family members.</p>
+                        <ab>
+                            <abbr>LF, TSL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons </head>
+                        <p>The colophons on the stele (SNS 3) name monks and Buddhist lay persons as
+                            donors. Five of the legible names include the family name Yang <foreign xml:lang="zh">羊</foreign>, and one of them is called “Governor of
+                            the Upper Commandery of Wucheng, Yang Zhong from Mount Tai <foreign xml:lang="zh">五城上郡太守太山羊鍾</foreign>.” The Wucheng Commandery at
+                            Yizhou <foreign xml:lang="zh">義州</foreign> was established in
+                                    547.<note>
+                                <ref type="biblio" target="Weishu1974">7:
+                                    2486–2487</ref>, quoted in <ref type="biblio" target="LaiFei1994">33</ref>.</note> Yang Zhong held the title
+                            of General Formidable and Powerful (<hi rend="italic">liwei jiangjun
+                                </hi>
+                            <foreign xml:lang="zh">厲威將軍</foreign>). The title is mentioned
+                            several times in the <hi rend="italic">History of the Northern
+                                Dynasties</hi> (<hi rend="italic">Beishi </hi>
+                            <foreign xml:lang="zh">北史</foreign>). He is said, in the colophon, to have come from Mount
+                            Tai <foreign xml:lang="zh">泰山</foreign>. He may have been a member of
+                            General Yang Lie’s <foreign xml:lang="zh">羊烈</foreign> clan, of whom the
+                                <hi rend="italic">History of the Northern Qi Dynasty</hi> (<hi rend="italic">Beiqishu</hi>
+                            <foreign xml:lang="zh">北齊書</foreign>)
+                            notes that he was from Mount Tai and, from 558 to 561, Governor of
+                            Yangping <foreign xml:lang="zh">陽平</foreign>, where Mount Shuiniu is
+                                located.<note xml:id="YangLie">
+                                <ref type="biblio" target="BeiQishu1972">43: 576</ref>; <ref type="biblio" target="Beishi1974">39: 1435</ref>. For more information on the
+                                individuals mentioned in the colophon see below, Historical
+                                Inscriptions, SNS 3.</note> The family endowed a convent, which
+                            female members could enter as nuns. </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                        <p>The first names mentioned in the colophons are those of seven monks from
+                            Baishi Monastery who supervised the work of the carving project. The
+                            short distance between the monastery and the site made this easy. Two of
+                            them are sutra donors (<hi rend="italic">jingzhu </hi>
+                            <foreign xml:lang="zh">經主</foreign>) on the narrow left-hand side of the
+                            stele; their names are severely damaged. They were probably responsible
+                            for selecting the sutra passage, the design of the stele, its
+                            consecration, etc. Their names preceed that of the main lay sutra donor,
+                            Yang Zhong, who not only had the highest social status among the donors,
+                            but likely also gave the largest financial support. </p>
+                        <p>The other five monks from Baishi Monastery are listed on the narrow
+                            right-hand side of the stele, preceeding another group of donors. The
+                            first monk named Mingjian <foreign xml:lang="zh">明建</foreign> bears the
+                            title Superintendent of Monks (<hi rend="italic">shamen du</hi>
+                            <foreign xml:lang="zh">沙門都</foreign>), indicating his position in the
+                            Buddhist clerical administration. This position was subordinate to the
+                            General Superintendent of Monks (<hi rend="italic">shamen
+                                tong</hi>
+                            <foreign xml:lang="zh">沙門統</foreign>), who, in turn, was
+                            supervised by the Great General Superintendent of Monks (<hi rend="italic">da shamen tong</hi>
+                            <foreign xml:lang="zh">大沙門統</foreign>), the highest administrative position in the
+                                state.<note>On the Buddhist clerical administrative system that was
+                                in use in the Northern Dynasties, see <ref type="biblio" target="XieChongguang2009">51–86</ref>.</note> As Xie Chongguang
+                                <foreign xml:lang="zh">謝重光</foreign> points out, the number of monk
+                            officials multiplied from the end of the Northern Wei through the
+                            Northern Qi dynasty. Even at the local level, several Superintendents of
+                            Monks and several General Superintendents of Monks co-existed.<note>
+                                <ref type="biblio" target="XieChongguang2009">74–77</ref>.</note>
+                            Thus, for the range of Monk Mingjian’s responsibility as local
+                            superintendent, more research is needed. </p>
+                        <p>Monks from other monasteries, who took part in the carving project,
+                            included Fa­song <foreign xml:lang="zh">法嵩</foreign> from Shiku
+                            Monastery, Tan­chao <foreign xml:lang="zh">曇超</foreign> from Long­hua
+                            Monastery, and those with illegible names from Shu Ling­zhen Monastery
+                            and Zhong­he Monastery. The cleric from Shu Ling­zhen Monastery was
+                            probably a member of the Shu <foreign xml:lang="zh">束</foreign> family,
+                            the second large donor family of the stele, who built the monastery for
+                            Shu Ling­zhen, as mentioned above. His or her name is surrounded by five
+                            names, in which the surname Shu is still legible.</p>
+                        <ab>
+                            <abbr>TSL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>The other 98 character passages engraved in Shandong range in date from
+                            564 on Mount Yi <foreign xml:lang="zh">嶧山</foreign> (Yi 1)<note>
+                                <ref type="biblio" target="Shandong_2">60, 75–83</ref>.</note> to 575
+                            on Mount Jian <foreign xml:lang="zh">尖山</foreign> (JS 6).<note>Present
+                                volume, pp. <ptr type="infra" target="JS_start JS_end"/>.</note>
+                            This supports a date in the second half of the sixth century. It is
+                            tempting to assume that the stele was produced in the years 558–561,
+                            when Yang Lie was Governor of Yangping. If so, it would be one of the
+                            earliest engravings of a sutra text in Shandong, together with the stele
+                            of 560 from Haitan Monastery<!-- <foreign xml:lang="zh">海檀寺</foreign>-->
+                            (HT 1)<note>
+                                <ref type="biblio" target="Shandong_1">459–489</ref>.</note>
+                            and the stele of 564 from Shifo Monastery <foreign xml:lang="zh">石佛寺</foreign> at Juye <foreign xml:lang="zh">巨野</foreign>.
+                                <note>Shandong, volume 5.</note>
+                        </p>
+                        <ab>
+                            <abbr>TSL</abbr>
+                        </ab>
+                        <figure xml:id="SNS_sc_SNS_part_G7SB6702_cut.jpg" rend="center">
+                            <head>Inscription bearing cliff at Mount Shuiniu, seen from the
+                                southeast; photograph taken in 2007</head>
+                            <head xml:lang="zh">由水牛山東南角遠望摩崖石刻。2007年拍攝</head>
+                            <graphic url="SNS_sc_SNS_part_G7SB6702_cut.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>The eminent scholar Ruan Yuan <foreign xml:lang="zh">阮元</foreign>
+                            (1764–1849) relates that Huang Yi <foreign xml:lang="zh">黄易</foreign>
+                            (1744–1802) recorded the cliff inscription on Mount Shuiniu.<note>
+                                <ref type="biblio" target="Shanzuojinshizhi">14484</ref>.</note>
+                            Huang Yi probably was the first to do so, and he provided rubbings for
+                            Ruan Yuan, who, with a team of experts, collected the epigraphic
+                            material in Shandong at his official premises in the provincial capital,
+                            Jinan <foreign xml:lang="zh">濟南</foreign>. However, Huang Yi’s album of
+                            1797, <hi rend="italic">Illustrations of Enquiries into Stelae Around
+                                Mount Dai</hi> (<hi rend="italic">Dailu fangbei tu </hi>
+                            <foreign xml:lang="zh">岱麓訪碑圖</foreign>), which includes pictures of four of
+                            the inscribed Shandong Mountains, does not mention Mount Shuiniu. Ruan
+                            Yuan, somewhat ruefully, remarks that Huang Yi did not provide
+                            measurements. He includes both sutra inscriptions (SNS 1, SNS 2) in his
+                            chapter on the Northern Qi, but made an error, when claiming that the
+                            character <hi rend="italic">fu </hi>
+                            <foreign xml:lang="zh">弗</foreign>
+                            in the name <foreign xml:lang="sa">Śāriputra </foreign>
+                            <foreign xml:lang="zh">舍利弗</foreign> should be read <hi rend="italic">fo
+                                </hi>
+                            <foreign xml:lang="zh">佛</foreign>. Wu Shifen <foreign xml:lang="zh">吴式芬</foreign> (1796–1856) repeats Ruan Yuan’s error,
+                            but he is the first to explicitly specify the date as Latter (Northern)
+                            Qi (Houqi <foreign xml:lang="zh">後齊</foreign>) dynasty.<note>
+                                <ref type="biblio" target="Jinshihuimufenbian">21151</ref>.</note>
+                            Duan Song­ling <foreign xml:lang="zh">段松苓</foreign> (1745–1800) and Wu
+                            Shifen mention that the stele SNS 2 was kept in a cave,<note>See below,
+                                SNS 2, Discussion.</note> it may have been the cave to the west of
+                            the inscription SNS 1. Among the traditional epigraphers, Lu
+                            Zeng­xiang’s <foreign xml:lang="zh">陸增祥</foreign> (1833–1889) account is
+                            the most detailed, giving numbers of characters and columns, and quoting
+                            earlier authors. In 1847 Huang Entong <foreign xml:lang="zh">黄恩彤</foreign> refuted a highly unlikely attribution of the stele’s
+                            calligraphy to the Tang poet Li Taibo <foreign xml:lang="zh">李太白</foreign> (701–762).<note>
+                                <ref type="biblio" target="Ningyangjinshizhi">129</ref>.</note>
+                        </p>
+                        <p>An unusual contribution was made by Bao Shichen <foreign xml:lang="zh">包世臣</foreign> (1775–1855) in the section “Brush Jottings from
+                            Lixia” (Lixia bitan <foreign xml:lang="zh">歴下筆談</foreign>) in his famous
+                            book <hi rend="italic">The Pair of Oars for the Boat of Art</hi> (<hi rend="italic">Yizhou shuangji </hi>
+                            <foreign xml:lang="zh">藝舟雙楫</foreign>). The book first appeared in 1844, but “Brush
+                            Jottings from Lixia” had been written earlier, around 1819,<note>
+                                <ref type="biblio" target="Lixiabitan"/>. <ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">261 and
+                                268</ref>.</note> perhaps at a time, when the author in his career
+                            in the civil service was serving in Lixia in present Jinan. In his
+                            “Brush Jottings” he does not follow the usual approach adopted by
+                            epigraphers, but addresses various issues in the history of calligraphy. </p>
+                        <p>When talking about the stele SNS 2,<note>His text reads: <foreign xml:lang="zh">“北朝隸書，雖率導源分篆，然皆極意波發，力求跌宕。凡以中郎既往，鍾、梁並起，各矜巧妙，門戶益開。踵事增華，窮情盡致。而《般若碑》渾穆簡静，自在滿足，與《郙閣頌析里橋》同法，用意逼近章草，當是西晋人專精蔡體之書。無一筆闌入山陰，故知爲右軍以前法物，儗其意境，惟有香象渡河已。平原、會稽各學之而得其性之所近。反覆玩味，絶無神奇，但見點畫樸實，八面深穩，更無欠缺處耳。求之彙帖，征西《出師頌》、大令《保母誌》可稱一家眷屬，以其絶去作用處相同故也。”</foreign>
+                                <ref type="biblio" target="BaoShichen_Yizhoushuangji">78</ref>,
+                                Japanese translations in <ref type="biblio" target="Nishibayashi1972">84</ref>; <ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">72–73</ref>. </note> Bao
+                            Shichen places it in a tradition that, as he sees it, began with Cai
+                            Yong <foreign xml:lang="zh">蔡邕</foreign> (referred to as Leader of Court
+                            Gentlemen, <hi rend="italic">zhonglang </hi>
+                            <foreign xml:lang="zh">中郎</foreign>[<foreign xml:lang="zh">將</foreign>]; 132–192) and was
+                            continued by Zhong You <foreign xml:lang="zh">鍾繇</foreign> (151–230) and
+                            Liang Hong <foreign xml:lang="zh">梁鴻</foreign> (second century).
+                            Perceptively, he recognizes a stylistic similarity with the <hi rend="italic">Hymn from the Fu-Pavilion</hi> (<hi rend="italic">Fuge
+                                song </hi>
+                            <foreign xml:lang="zh">郙閣頌</foreign>), which is dated to
+                            171; on the other hand, he claims that not a single brush stroke carved
+                            on the stele SNS 2 resembles those by Wang Xizhi <foreign xml:lang="zh">王羲之</foreign> (303–361; here referred to by his place of residence,
+                            Shanyin <foreign xml:lang="zh">山陰</foreign>). Therefore, Bao Shichen
+                            concludes, that the stele is earlier in date than works by Wang Xizhi
+                            (the General to the Right; <hi rend="italic">youjun </hi>
+                            <foreign xml:lang="zh">右軍</foreign>), and was written in the Western Jin
+                            period (265–316) by a calligrapher in the tradition of Cai Yong. He
+                            characterizes its quality with a Buddhist metaphor, as that of the
+                            fragrant elephant who, unlike a hare or a horse, treads on solid ground
+                            when crossing a river (<foreign xml:lang="zh">惟有香象渡河</foreign>).<note>
+                                <hi rend="italic">Youposai jiejing
+                                    </hi>
+                                <foreign xml:lang="zh">優婆塞戒經</foreign>, T#1488, 24:
+                                1038b8–13.</note> He observes a complete absence of extravagance,
+                            but a rustic solidity in dots and strokes. He claims, that it was
+                            studied
+                            <!--in the Great Plain (<foreign xml:lang="zh">平原</foreign>), and in Kuaiji (<foreign xml:lang="zh">會稽</foreign>), where Wang Xizhi’s family had settled after the fall of the Western Jin dynasty in 316.-->
+                            by Yan Zhenqing <foreign xml:lang="zh">顔真卿</foreign> (709–785) and
+                            Kuaiji <foreign xml:lang="zh">會稽</foreign>, which may refer to He
+                            Zhizhang <foreign xml:lang="zh">賀知章</foreign> (659–744), or Xu Hao
+                                <foreign xml:lang="zh">徐浩</foreign> (703–783).<note>See <ref type="biblio" target="Nishibayashi1972">84</ref>; <ref type="biblio" target="BaoShichen_Yizhoushuangji_1977">72–73</ref>.</note> Yet, he also says that the calligraphy of
+                            SNS 2 belongs to the same family as two famous pieces: the <hi rend="italic">Hymn on Going to War</hi> (<hi rend="italic">Chushi
+                                Song </hi>
+                            <foreign xml:lang="zh">出師頌</foreign>), which from the Song
+                            dynasty was attributed to Suo Jing <foreign xml:lang="zh">索靖</foreign>
+                            (239–303), and the stele <hi rend="italic">Memoir for a Nursemaid</hi>
+                                (<hi rend="italic">Baomu Zhi </hi>
+                            <foreign xml:lang="zh">保母誌</foreign>) by Wang Xi­zhi’s son, Wang Xianzhi <foreign xml:lang="zh">王獻之</foreign> (referred to as District Magistrate,
+                                <foreign xml:lang="zh">大令</foreign>
+                            <hi rend="italic">daling</hi>;
+                            344–388). </p>
+                        <p>Bao Shichen has to be commended for his efforts to present the
+                            developments in pre-Tang calligraphy by identifying stylistic
+                            connections between specific pieces. His descriptions are poetic, and he
+                            uses creative metaphors, but his terminology is not precise enough to be
+                            unambiguous. In spite of the array of comparative material that he
+                            adduced, in the end, he grossly misread the stylistic evidence, because
+                            he saw it as a unilinear development. Although he correctly recognized
+                            that the stele SNS 2 preserved an archaic, pre-Wang Xizhi calligraphic
+                            style, he did not realize that in the northern regions, such as
+                            Shandong, this style was still current with an archaizing manner in the
+                            sixth century. That is why he placed the stele into the Western Jin
+                            dynasty, that is before Wang Xizhi. </p>
+                        <p>Bao Shichen may have written his “Brush Jottings” before Ruan Yuan
+                            published in 1823 his two seminal treatises that set out a division of a
+                            southern and a northern school in calligraphy, <hi rend="italic">On the
+                                Southern and Northern Schools in Calligraphy</hi> (<hi rend="italic">Nanbei shupai lun </hi>
+                            <foreign xml:lang="zh">南北書派論</foreign>) and
+                                <hi rend="italic">On Northern Stelae and Southern Letters</hi> (<hi rend="italic">Beibei nantie lun </hi>
+                            <foreign xml:lang="zh">北碑南帖論</foreign>).<note>For a translation and discussion see <ref type="biblio" target="Ledderose1970">152–211</ref>.</note> In
+                            his scheme, the southern school, with its leading representative, Wang
+                            Xizhi, emphasized elegant writing on paper and silk, while the
+                            calligraphy of the northern school was rustic and primarily done on
+                            stone. According to Ruan Yuan, between the Han and Tang dynasties, both
+                            schools developed independently and in parallel.</p>
+                        <p>Bao Shichen’s judgment on the stele SNS 2 was already called into
+                            question by Wang Jun <foreign xml:lang="zh">汪鋆</foreign> (1816–1884–) in
+                            his <hi rend="italic">Record of Epigraphica that Passed my Eyes in the
+                                Twelve Ink Stones Studio</hi> (<hi rend="italic">Shi’eryanzhai
+                                jinshi guoyan lu </hi>
+                            <foreign xml:lang="zh">十二硯齋金石過眼録</foreign>),
+                            and, later, severely criticized by Yang Shoujing <foreign xml:lang="zh">楊守敬</foreign> (1839–1915).<note>See Discussion, below, pp. <ptr type="infra" target="Discussion_of_Bao_start Discussion_of_Bao_end"/>. See
+                                also <ref type="biblio" target="Shandong_2">25–26</ref>. </note>
+                        </p>
+                        <p>Michihata <foreign xml:lang="ja">Ryōshū </foreign>
+                            <foreign xml:lang="zh">道端良秀</foreign>, who surveyed several inscription sites in Shandong,
+                            was the first to record exact measurements of the field of script of SNS
+                            1. He identified the text, at least in general terms, as being from a
+                                <hi rend="italic">
+                                <foreign xml:lang="sa">Pāramitā</foreign>
+                                Sutra</hi>. He also reproduced the first photo of the
+                                    site.<note>
+                                <ref type="biblio" target="Michihata1972">37–38</ref>.</note> In 1972, Nishibayashi <foreign xml:lang="ja">Shōichi</foreign>
+                            <foreign xml:lang="zh">西林昭一</foreign> identified
+                            the text precisely for the first time as the passage of 52 characters
+                            from the first scroll of the <hi rend="italic">Sutra on the Great
+                                Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                            </hi>. When in the late 1980s, scholars from
+                            the <hi rend="nh">Shandong</hi> Stone Carving Art Museum (Shandong Sheng
+                            shike yishu bowuguan <foreign xml:lang="zh">山東省石刻藝術博物館</foreign>) in
+                            Jinan began their systematic survey and study of the Shandong
+                            inscriptions, Mount Shuiniu figured among them. In 1991, Wang Sili and
+                            Lai Fei offered a description, which was further refined in later
+                            publications. </p>
+                        <p>Epigraphers have generally treated the stele inscription (SNS 2) together
+                            with the cliff inscription (SNS 1). According to Ruan Yuan, Huang Yi had
+                            many rubbings of the stele inscription.<note>
+                                <ref type="biblio" target="Shanzuojinshizhi">14484</ref>.</note> In his <hi rend="italic">Record of Enquiries into Stelae in the Whole
+                                World</hi> (<hi rend="italic">Huanyu fangbei lu </hi>
+                            <foreign xml:lang="zh">寰宇訪碑録</foreign>), Sun Xingyan <foreign xml:lang="zh">孫星衍</foreign> (1753–1818) identified the inscription as being from
+                            the <hi rend="italic">
+                                <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>
+                                Sutra</hi> (<hi rend="italic">Wenshu bore jing </hi>
+                            <foreign xml:lang="zh">文殊般若經</foreign>).<note>
+                                <ref type="biblio" target="Huanyufangbeilu">19872</ref>.</note> Like the cliff
+                            inscription, Wu Shifen placed the stele in the Northern Qi,<note>
+                                <ref type="biblio" target="Jinshihuimufenbian">21151</ref>. </note>
+                            but there remained considerable disagreement among nineteenth century
+                            epigraphers as to the correct date. Modern scholars have resolved the
+                            issue, given more precise descriptions, and related the calligraphic
+                            style to that of other inscriptions from the area. In 2009 Tsai
+                            Suey-Ling presented the stele for the first time to a western audience
+                            in a bilingual catalog of an exhibition of Buddhist art in
+                                    Cologne.<note>
+                                <ref type="biblio" target="MuseumKoeln_HAW2009">52–54</ref>.</note>
+                        </p>
+                        <ab>
+                            <abbr>LL</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>A sutra passage is carved on a cliff at Mount Shuiniu (SNS 1). No
+                            colophon is found, and this is very unusual. Engraved sutra passages on
+                            the Shandong Mountains are often accompanied by a colophon, which give a
+                            date and the donors’ names. Even the traditional epigraphic literature,
+                            which goes back as far as the late eighteenth century, does not mention
+                            a colophon for SNS 1. There may never have been a colophon, or it may
+                            have been lost at an early date. A related sutra passage is engraved on
+                            a stele that was probably originally placed on the summit of the
+                            mountain (SNS 2). That stele carries colophons (SNS 3) on its narrow
+                            sides.</p>
+                        <figure xml:id="SNS_sc_SNS_total_G7SB6688.jpg" rend="center">
+                            <head>Mount Shuiniu and the stone quarry, seen from the south;
+                                photograph taken in 2007</head>
+                            <head xml:lang="zh">由南邊遠眺水牛山及採石場。2007年拍攝</head>
+                            <graphic url="SNS_sc_SNS_total_G7SB6688.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Sutra Passages</head>
+                        <div>
+                            <head>SNS 1</head>
+                            <p>The sutra passage carved on the cliff comprises 52 characters that
+                                were taken from *Mandra[sena]’s (Mantuoluoxian <foreign xml:lang="zh">曼陀羅仙</foreign>, fl. 503) translation of the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken by
+                                        <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Saptaśatikāprajñāpāramitā-sūtra</foreign>
+                                </hi>; <hi rend="italic">Wenshu­shi­li suo shuo mohe bore boluomi jing
+                                    </hi>
+                                <foreign xml:lang="zh">文殊師利所説摩訶般若波羅蜜經</foreign>; T#232, 8:
+                                    728a26–29).<note>Two Chinese translations of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Saptaśatikāprajñāpāramitā-sūtra</foreign>
+                                    </hi> are
+                                    extant: The above mentioned translation in two scrolls by
+                                    *Mandra[sena] (T#232, 8: 726a24–732c9), which is also contained
+                                    in the early eighth century translation of the <title>
+                                        <hi rend="italic">Great Gem Collection Sutra</hi>
+                                    </title>
+                                            (<title>
+                                        <hi rend="italic">
+                                            <foreign xml:lang="sa">Mahā­ratnakūṭa­sūtra</foreign>
+                                        </hi>, <hi rend="italic">Da baoji jing </hi>
+                                        <foreign xml:lang="zh">大寶積經</foreign>
+                                    </title>; T#310, 11: 652b15–18), and the
+                                    translation in one scroll by *<foreign xml:lang="sa">Saṃghabhara</foreign> (Sengqiepoluo <foreign xml:lang="zh">僧伽婆羅</foreign>. b. 460), which is entitled <hi rend="italic">Sutra on the Perfection of Wisdom Spoken by
+                                            <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                    </hi> (<hi rend="italic">Wenshushili suo shuo bore boluomi jing
+                                        </hi>
+                                    <foreign xml:lang="zh">文殊師利所説般若波羅蜜經</foreign>; T#233,
+                                    8: 732c11–739c28). Only the translation by *Mandra[sena] (T#232)
+                                    contains the passage in 52 characters engraved at Mount
+                                    Shuiniu.</note> An identical passage is carved at Mount
+                                Hong­ding <foreign xml:lang="zh">洪頂山</foreign>, with the exception
+                                of two characters, reading “the Buddha said” (<hi rend="italic">fo
+                                    yan </hi>
+                                <foreign xml:lang="zh">佛言</foreign>), which precede the
+                                carved passage HDS 1 at Mount Hongding <foreign xml:lang="zh">洪頂山</foreign>.<note>For a discussion of this inscription, see
+                                        <ref type="biblio" target="Shandong_1">87–88</ref>.</note>
+                            </p>
+                            <p>The main interlocutors of the <hi rend="italic">Sutra on the Great
+                                    Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi> are the Buddha, the Bodhisattva
+                                    <foreign xml:lang="sa">Mañjuśrī</foreign>, and the Buddha’s
+                                disciple, Monk <foreign xml:lang="sa">Śāriputra</foreign>. After a
+                                long discourse between the Buddha and <foreign xml:lang="sa">Mañjuśrī</foreign> on how to practice the profound Perfection
+                                of Wisdom (<hi rend="italic">shenshen bore boluomi </hi>
+                                <foreign xml:lang="zh">甚深般若波羅蜜</foreign>), <foreign xml:lang="sa">Śāriputra</foreign> brings up two questions: “What is it that
+                                is named the Buddha? And how does one contemplate the Buddha?
+                                    <foreign xml:lang="zh">云何名佛？云何觀佛？</foreign>”</p>
+                            <p>At first, <foreign xml:lang="sa">Mañjuśrī</foreign> answers with a
+                                counter question: “What is it that is named ‘I’? <foreign xml:lang="zh">云何爲我？</foreign>”</p>
+                            <p>After <foreign xml:lang="sa">Śāriputra</foreign> has correctly
+                                pointed out that the concept of “I” or of an ego is a mere
+                                designation and empty of any substance, <foreign xml:lang="sa">Mañjuśrī</foreign> proceeds to respond to the questions on the
+                                concepts of “<hi rend="nh">Buddha</hi>” and “Buddha Contemplation”.
+                                The short passage of 52 characters contains <foreign xml:lang="sa">Mañjuśrī’s</foreign> response to these two topics.<note>For
+                                    another English translation of this section of the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken
+                                        by <foreign xml:lang="sa">Mañjuśrī</foreign>, </hi> see <ref type="biblio" target="Rulu2011">165–166</ref>.</note>
+                            </p>
+                            <p>
+                                <foreign xml:lang="sa">Mañjuśrī’s</foreign> short exposition on the
+                                concept, “Buddha”, is in harmony with the entire <hi rend="italic">Perfection of Wisdom</hi> literature, when he characterizes it
+                                as neither produced nor extinguished, neither come nor gone, without
+                                name and without attributes. On the other hand, his definition of
+                                ‘Buddha Contemplation’ is unique. “Buddha Contemplation”, says
+                                    <foreign xml:lang="sa">Mañjuśrī</foreign>, must be “as one
+                                contemplates the real attributes of one’s body; just so one
+                                contemplates the Buddha 如自觀身實相，觀佛亦然”.</p>
+                            <p>This formulation, offered here as the words of the wise bodhisattva,
+                                has attracted much attention from later commentators in exegetical
+                                    literature.<note>For some examples in the exegetical literature,
+                                    see <ref type="biblio" target="Shandong_2">198–201</ref>.</note>
+                                However, when they quote and explain this formulation, they do not
+                                refer to the <hi rend="italic">Sutra on the Great Perfection of
+                                    Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi>,
+                                but to an identical formulation found in the <hi rend="italic">Sutra
+                                    Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Vimalakīrtinirdeśa-sūtra</foreign>
+                                </hi>, <hi rend="italic">Weimojie suo shuo jing </hi>
+                                <foreign xml:lang="zh">維摩詰所説經</foreign>) as translated by <foreign xml:lang="sa">Kumārajīva</foreign> (<foreign xml:lang="zh">鳩摩羅什</foreign>;
+                                344–413). Here, it occurs at the beginning of the twelfth chapter on
+                                the “Vision of <foreign xml:lang="sa">Akṣobhya</foreign> Buddha”
+                                    (<hi rend="italic">Jian Achu fo pin </hi>
+                                <foreign xml:lang="zh">見阿閦佛品</foreign>).<note>For the formulation see T#475, 14:
+                                    554c29–555a1: <foreign xml:lang="zh">“如自觀身實相，觀佛亦然。”</foreign>
+                                    The beginning of the twelfth chapter of the <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                    </hi> was also carved twice in
+                                    Shandong; once at Mount Ge <foreign xml:lang="zh">葛山</foreign>,
+                                    see <ref type="biblio" target="Shandong_2">190–224</ref>, and a
+                                    second time on the <hi rend="italic">Stele of the Great Qi
+                                        Dynasty about Juan Xiuluo Recommended as Filial and
+                                        Righteous by the Community Elders</hi> (<hi rend="italic">Da
+                                        Qi xiang­lao ju xiaoyi Juan Xiuluo zhi bei </hi>
+                                    <foreign xml:lang="zh">大齊鄉老舉孝義雋修羅之碑</foreign>), originally located in
+                                    Tianming Monastery <foreign xml:lang="zh">天明寺</foreign>, in
+                                    Sishui County <foreign xml:lang="zh">泗水縣</foreign>, see
+                                    Shandong, volume 5.</note><!--</p>
+                            <p>--> It is possible that this
+                                formulation may be an interpolation in the <hi rend="italic">Sutra
+                                    Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi>, as
+                                it is only found in <foreign xml:lang="sa">Kumārajīva’s</foreign>
+                                translation and not in the extant Sanskrit manuscript.<note>See <ref type="biblio" target="Shandong_2">200–201</ref>. The
+                                    earliest Fangshan <foreign xml:lang="zh">房山</foreign> edition of
+                                    this sutra, FS 0002 (Sui or Tang dynasty) already contains the
+                                    formulation, see <ref type="biblio" target="FS_SJ2000">1:
+                                        84</ref>.</note> Be that as it may, these particular words
+                                on contemplation were widely received by later generations.</p>
+                            <p>The <hi rend="italic">Sutra Spoken by <foreign xml:lang="sa">Vimalakīrti</foreign>
+                                </hi> enjoyed some popularity in the
+                                early Chan movement.<note>
+                                    <ref type="biblio" target="Sharf2002">279
+                                        and 344, note 1</ref>.</note> Therefore, it is not
+                                surprising to find this text on Buddha contemplation in two works
+                                associated with the early or proto-Chan, Ox Head School (Niutou zong
+                                    <foreign xml:lang="zh">牛頭宗</foreign>). The first is the <hi rend="italic">Treatise on the Tran­scen­dence of
+                                    Cognition</hi>
+                                <note>English translation of this title by John
+                                    McRae, see <ref type="biblio" target="Sharf2002">42</ref>.</note> (<hi rend="italic">Jueguan lun </hi>
+                                <foreign xml:lang="zh">絶觀論</foreign>), which constitutes the doctrinal
+                                foundation of this school. When promoting a contemplation method
+                                suitable for “a gentleman whose mind is set on the Way <foreign xml:lang="zh">道心之士</foreign>,” this treatise quotes the
+                                formulation on contemplating the real attributes of one’s body and
+                                the Buddha alike. A similar position is recorded in the <hi rend="italic">Treasure Store Treatise</hi> (<hi rend="italic">Baozang lun </hi>
+                                <foreign xml:lang="zh">寶藏論</foreign>)<note>T#1857, 45: 143b–150a.</note>, a work
+                                traditionally ascribed to Sengzhao <foreign xml:lang="zh">僧肇</foreign> (374–414), but almost certainly by an unknown
+                                author of the Ox Head school. This treatise has been studied and
+                                translated by Robert Sharf, who dates both treatises to the last
+                                quarter of the eighth century.<note>
+                                    <ref type="biblio" target="Sharf2002">43</ref>.</note>
+                            </p>
+                            <p>The emphasis on the contemplation of the real attributes of one’s
+                                body and of the Buddha alike at the beginning of the chapter on the
+                                “Vision of <foreign xml:lang="sa">Akṣobhya</foreign> Buddha”, which
+                                introduces this Buddha’s Pure Land and discusses ways to visualize
+                                it, has been taken by Sharf “as a critique of early forms of ‘pure
+                                land’ practice then circulating in India”.<note>
+                                    <ref type="biblio" target="Sharf2002">46</ref>.</note> Sharf further notes that
+                                this formulation takes a stance against other forms of Buddha
+                                contemplation, such as <hi rend="italic">nian fo </hi>
+                                <foreign xml:lang="zh">念佛</foreign> practices, which postulate “the
+                                objective existence of a buddha external to the practitioner” and,
+                                one may add, the attainability of a vision of such an external
+                                Buddha.</p>
+                            <p>Sharf’s views on contemplation throw light on the passage in 54
+                                characters on Mount Hongding (HDS 1). At this Shandong site, many
+                                Buddha names were carved on the rocky slopes. Most are found in
+                                popular Mahayana sutras, and were objects of various <hi rend="italic">nian fo </hi> practices, such as incantations. The
+                                inscriptions carved at Mount Hongding appear to propose different
+                                kinds of Buddha contemplation, or, one might say, carry the seeds of
+                                some later contemplation methods.</p>
+                            <p>The most prominent Buddha name at this, as well as at other Shandong
+                                sites, is the “Buddha King of Great Emptiness” (Da kong wang fo
+                                    <foreign xml:lang="zh">大空王佛</foreign>).<note>See <ref type="biblio" target="Shandong_1">82–84</ref>. See also the
+                                    list in the present volume, <ptr type="infrafootnote" target="occurence_Dakongwangfo"/>.</note> This name is,
+                                however, not found in canonical sutras, and is not known from any
+                                later <hi rend="italic">nian fo </hi> practices. The “Great
+                                Emptiness” it promotes is, indeed, not only fundamental to the group
+                                of <hi rend="italic">Perfection of Wisdom Sutras</hi>, but, in fact,
+                                another term for the real attributes of the Buddha’s body. </p>
+                            <p>
+                                <foreign xml:lang="sa">Mañjuśrī</foreign>’s discussion of the
+                                attributes of the Buddha and the ways to contemplate them can thus
+                                be interpreted as an injunction to focus contemplation on the
+                                attributes of the Buddha, which are equivalent to Emptiness. The
+                                conjunction of the Buddha name “Buddha King of Great Emptiness” and
+                                the passage of 54 characters at Mount Hong­ding reveal the monks’
+                                intention to promote this contemplation by “those with wisdom” (<hi rend="italic">you zhi zhe </hi>
+                                <foreign xml:lang="zh">有智者</foreign>). At Mount Shuiniu, however, the passage of 52
+                                characters<!-- from the <hi rend="italic">Sutra on the Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi>--> stands alone. It is a
+                                solemn witness to the late sixth century understanding of ‘Buddha’
+                                and to the appreciation of a particular contemplation method,
+                                focusing on the practitioner’s body, as a root for understanding
+                                Buddha. The high period for this kind of meditation was yet to come
+                                in Chan Buddhism.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>SNS 2</head>
+                            <p>The stele in the museum at Wenshang has a large tongue; originally it
+                                stood in a rectangular groove. It has not been possible to examine
+                                the rear of the stele, but Ruan Yuan noted that, it carried a
+                                colophon of 15 columns. The stele’s head is unusual. A tongue on its
+                                upper edge shows that part of the top is now missing. Below, at its
+                                center is an image niche (fig. <ptr target="SNS2_st_ZM-WSBR_part_G7SB6908.jpg"/>). The preaching
+                                    <foreign xml:lang="sa">Śākyamuni</foreign> sits on a square
+                                throne, at the foot of which is a pair of crouching lions with
+                                elevated heads. The Buddha is flanked on each side by a figure of a
+                                bodhisattva and a disciple standing on lotus buds. The niche has an
+                                arched opening, framed by two columns with <hi rend="italic">cintamani</hi> jewels on top, above which rises a ogival canopy
+                                with a pointed tip.</p>
+                            <p>Such groups of five figures in niches are ubiquitous, but normally
+                                the disciples and not the bodhisattvas stand closest to <foreign xml:lang="sa">Śākyamuni</foreign>. The reason for the exception
+                                here may be that, the Bodhisattva <foreign xml:lang="sa">Mañjuśrī</foreign> is <foreign xml:lang="sa">Śākyamuni</foreign>’s main interlocutor in the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken by
+                                        <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi>(T#232, 8:
+                                731a1–21), from which the stele text is an
+                                excerpt<!-- (T#232, 8: 731a1–21)-->. A viewer of the stele can thus
+                                imagine <foreign xml:lang="sa">Śākyamuni</foreign> engaged in the
+                                very conversation in <foreign xml:lang="sa">Śrāvastī</foreign> that
+                                is recorded on the stele’s body below.</p>
+                            <p>The text on the body is encased in a rectangular frame filled with
+                                finely carved ornamented tendril leaves, which have turned into
+                                cloud-like forms.<note>See <ref type="biblio" target="Rawson1984">68</ref>, fig. 46.</note>
+                            </p>
+                            <p>The image niche is flanked by the four large characters <hi rend="italic">Wenshu bore</hi>
+                                <foreign xml:lang="zh">文殊般若</foreign>, <hi rend="italic">
+                                    <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>
+                                </hi>. At Mount Jian, the same
+                                four characters with an identical layout (JS 3), were carved above
+                                the sutra passage in 98 characters (JS 6), which is also engraved on
+                                the present stele.<note>See the present volume, fig. <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>.</note> The passage is preceded by the characters <hi rend="italic">Wenshu bore</hi> in one column on the Summit of
+                                the Five Flowers (Wuhua Feng <foreign xml:lang="zh">五華峰</foreign>)
+                                at Mount Yi (Yi 1).<note>See <ref type="biblio" target="Shandong_2">60, 63–68</ref>.</note>
+                            </p>
+                            <p>Furthermore, one stele fragment from Yan­zhou <foreign xml:lang="zh">兗州</foreign> presents <hi rend="italic">
+                                    <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign> Sutra</hi> (<hi rend="italic">Wenshu bore jing </hi>
+                                <foreign xml:lang="zh">文殊般若經</foreign>)
+                                as a title.<note>See <ref type="biblio" target="SD_Shikeyishu_bwg2015">73</ref>.</note> Accordingly,
+                                the four characters on the stele head (SNS 2) may be taken as an
+                                abbreviation of the sutra title <hi rend="italic">Great Perfection
+                                    of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi>. Buddhist catalogs seem to make use of
+                                the abbreviated title. </p>
+                            <!--<figure xml:id="SNS_r_SNS-Pav_part_G7SB6864.jpg" rend="center">
+                                <head>Stone steps and channels on top of the cliff at Mount Shuiniu; photograph taken in 2007</head>
+                                <head xml:lang="zh">水牛山崖頂的石階與渠道。2007年拍攝</head>
+                                <graphic url="SNS_r_SNS-Pav_part_G7SB6864.jpg"/>
+                            </figure>-->
+                            <p>
+                                <anchor xml:id="SNS_98cha_start"/>The text on the stele has a total
+                                of 297 characters. Only its latter part is identical with the
+                                ubiquitous passage of 98 characters. There, in negative and
+                                paradoxical language, the Buddha describes <hi rend="italic">
+                                    <foreign xml:lang="sa">prajñāpāramitā</foreign>
+                                </hi>, the
+                                Perfection of Wisdom, which is his true nature. This 98 character
+                                passage is the text that was carved most often in sixth century
+                                Shandong. Eight times it was placed on mountains: on Mount Hongding,
+                                (HDS 16.2 and HDS 22), Mount Yi (Yi 1 and Yi 3), Mount Culai (CLS
+                                1), Mount Long <foreign xml:lang="zh">龍山</foreign> (LS 1), Mount
+                                Jian <!--<foreign xml:lang="zh">尖山</foreign> -->(JS 6, destroyed),
+                                and Mount Yang <foreign xml:lang="zh">陽山</foreign> (YS 1,
+                                destroyed). Then there are the stelae, including this completely
+                                preserved example on Mount Shuiniu (SNS 2), and a yet unknown number
+                                in the fragments from the dam Jinkouba <foreign xml:lang="zh">金口壩</foreign> in
+                                    Yan­zhou<!-- <foreign xml:lang="zh">兗州</foreign>-->.<note xml:id="list98characters">For the 98 character passage at Mount
+                                    Hongding, see <ref type="biblio" target="Shandong_1">90–91;
+                                        255–261; 293–298</ref>; for Mount Yi, see <ref type="biblio" target="Shandong_2">59–60; 63–68; 75–83</ref>; for Mount
+                                    Jian, Mount Yang, Mount Culai and Mount Long, see the present
+                                    volume. The passage is also found outside of Shandong, in cave 2
+                                    of Southern Mount Xiangtang in Hebei, where it is combined with
+                                    a passage on the Four Immeasurable States of Mind from the <hi rend="italic">Great Collection Sutra</hi> (T#397, 13:
+                                    50b19–21). Among the fragments from the Jinkou dam, Lai Fei
+                                    lists parts of nine stelae in his latest publication, of which
+                                    four carried this passage; see <ref type="biblio" target="SD_Shikeyishu_bwg2015">72–75</ref>. The fragments
+                                    from the Jinkou dam will be treated in Shandong, volume 5. Our
+                                    list in <ref type="biblio" target="Shandong_1">35, note
+                                        278</ref>, did not yet include the examples on Mount Long or
+                                    from the Jinkou dam, which were only discovered
+                                recently.</note>
+                            </p>
+                            <p>It is fortunate that carved on the stele from Mount Shuiniu are the
+                                disquisitions in the sutra that immediately precede the 98 character
+                                passage, providing a soteriological context. Here we find the proper
+                                frame for the 98 characters and the motives and goals of the
+                                Shandong stone carvers.<anchor xml:id="SNS_98cha_end"/>
+                            </p>
+                            <p>In this first part of the stele text, the Bodhisattva <foreign xml:lang="sa">Mañjuśrī</foreign> elaborates on the Correct Law
+                                    (<hi rend="italic">zhengfa </hi>
+                                <foreign xml:lang="zh">正法</foreign>), which he defines in a sequence of simple
+                                negations, as unconditioned, unobtainable, and so on, followed by a
+                                sequence of double negations, as neither conditioned nor
+                                unconditioned, neither obtainable nor unobtainable, and so forth.
+                                Arriving at this point, the wise bodhisattva seems to be at a loss,
+                                for he, then, asks the Buddha, how the Perfection of Wisdom,
+                                tantamount to buddhahood, might be studied at all.</p>
+                            <p>In his response, the Buddha encourages <foreign xml:lang="sa">Mañjuśrī</foreign> by pointing out that questioning the
+                                Perfection of Wisdom is actually part of practicing it. Then the
+                                Buddha recommends a certain kind of contemplation, named the
+                                Absorption of [Enlightenment-] Sovereignty (<hi rend="italic">zizai
+                                    sanmei </hi>
+                                <foreign xml:lang="zh">自在三昧</foreign>). He holds out
+                                three achievements that will follow from mastering it: All the
+                                exceedingly deep Buddha laws will be illuminated (<hi rend="italic">ming yiqie shen shen fofa </hi>
+                                <foreign xml:lang="zh">明一切甚深佛法</foreign>); all Buddha names, without exception, will
+                                be known (<hi rend="italic">zhi yiqie zhufo mingzi </hi>
+                                <foreign xml:lang="zh">知一切諸佛名字</foreign>); all Buddha worlds will be
+                                thoroughly fathomed (<hi rend="italic">xi liaoda zhufo shijie
+                                    </hi>
+                                <foreign xml:lang="zh">悉了逹諸佛世界</foreign>). </p>
+                            <p>These three points are high soteriological goals for practitioners on
+                                the Mahayana path and can be considered equivalent to the
+                                achievement of enlightenment. They throw new light on the
+                                significance of the 98 character passage. The first item, “the
+                                illumination of all Buddha laws”, requires a complete understanding
+                                of the Buddhist teaching, and is the goal of enlightenment. The
+                                second and third items are of particular interest for the Shandong
+                                stone carvings in general. “Knowing, without exception, all Buddha
+                                names,” must have been a powerful motive behind the carving of
+                                Buddha names at many Shandong sites. Likewise, the goal of
+                                “thoroughly fathoming all Buddha worlds” is evident at some sites:
+                                Particular combinations of Buddha names refer to the Pure Land in
+                                the West at Mount Hongding (HDS 9.10–HDS 9.12)<note>
+                                    <ref type="biblio" target="Shandong_1">191–202</ref>.</note> and
+                                at Mount Culai (CLS 9).<note>Present volume, pp. <ptr type="infra" target="Culai_buddhas Culai_buddhas_end"/>.</note>
+                                Bodhisattvas from all Buddha lands of the cosmos assemble on Mount
+                                        Gang,<note>
+                                    <ref type="biblio" target="Shandong_2">399–402</ref>.</note> and the text section carved at Mount
+                                Ge indirectly discusses visions of the Pure Land of <foreign xml:lang="sa">Akṣobhya</foreign> Buddha.<note>
+                                    <ref type="biblio" target="Shandong_2">203–219</ref>.</note>
+                            </p>
+                            <p>A comparison with extant text witnesses shows that the selected
+                                passage was deliberately shortened before carving. The Fangshan text
+                                version of the Sui or Tang dynasty,<note>See <ref type="biblio" target="FS_SJ2000">1: 125</ref>.</note> all available
+                                Dunhuang manuscripts,<note>
+                                    <ref type="biblio" target="Taisho_Dunhuang_Concordance2015">44</ref>, lists a
+                                    total of 16 manuscripts associated with the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                    </hi> (T#232). Nine of
+                                    these preserve the passage selected for carving, but only five
+                                    have been available for the present study. Manuscripts S. 1908,
+                                    S. 2186 and S. 2653 are published in print; manuscripts BD2068
+                                    and BD2859, kept in the National Library of China in Beijing,
+                                    are available online, as digitized items of the database of the
+                                    International Dunhuang Project (see http://idp.bl.uk/,accessed
+                                    February 10, 2017.).</note> and the modern <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi> edition
+                                transmit 19 more characters, following after the three
+                                soteriological goals held out by the Buddha. They read: “... are
+                                without hindrances. You should study as [described] within the <hi rend="italic">Perfection of <hi rend="nh">Wisdom</hi> Spoken by
+                                        <foreign xml:lang="sa">Mañjuśrī. </foreign>
+                                </hi>
+                                <foreign xml:lang="zh">無有障礙，當如文殊師利所説般若波羅蜜中學</foreign>。” The stele’s
+                                patrons may have considered such an admonishment as unnecessary,
+                                because they presented on their stele a selected text passage from
+                                the sutra on the <hi rend="italic">Perfection of Wisdom Spoken by
+                                        <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi> anyway.</p>
+                            <figure xml:id="SNS_r_SNS-Pav_part_G7SB6864.jpg" rend="center">
+                                <head>Stone steps and channels on top of the cliff at Mount Shuiniu;
+                                    photograph taken in 2007</head>
+                                <head xml:lang="zh">水牛山崖頂的石階與渠道。2007年拍攝</head>
+                                <graphic url="SNS_r_SNS-Pav_part_G7SB6864.jpg"/>
+                            </figure>
+                            <p>The comparison with the other text witnesses shows some more
+                                discrepancies. Closest to the stele text are the Dunhuang
+                                manuscripts S. 2186 and BD2859. In particular, these confirm the
+                                formulation “without the law of ordinary people, without the law of
+                                Voice-Hearers, without the law of Pratyeka-Buddhas or the law of
+                                Buddhas. <foreign xml:lang="zh">无凡夫法，无聲聞法，无辟支佛法、佛法</foreign>。”<note>For S. 2186, see <ref type="biblio" target="Dunhuangbaozang1981_1986">17:
+                                        108b9－10</ref>.</note> The manuscript S. 2653 completely
+                                omits the last item in this enumeration, “the law of Buddhas” (<hi rend="italic">fofa </hi>
+                                <foreign xml:lang="zh">佛法</foreign>),<note>See <ref type="biblio" target="Dunhuangbaozang1981_1986">22: 5a21－22</ref>. The
+                                    scribe may have thought it to be an erroneous repetition of the
+                                    preceding two characters from “without the law of
+                                    Pratyeka-Buddhas” (<hi rend="italic">wu bizhi fo fa
+                                        </hi>
+                                    <foreign xml:lang="zh">无辟支佛法</foreign>).</note> while
+                                S. 1908 and BD2086 amend it to read “without the law of Buddhas”
+                                    (<hi rend="italic">wu fofa </hi>
+                                <foreign xml:lang="zh">无佛法</foreign>) in accordance with the formulation of the
+                                preceding items.<note>For S. 1908 see <ref type="biblio" target="Dunhuangbaozang1981_1986">14:
+                                448b3－4</ref>.</note>
+                            </p>
+                            <p>The reading of the Fangshan slab is unclear, because this part is
+                                damaged. Yet the latter part of the text section with the 98
+                                character passage is completely preserved on the slab. It is
+                                identical to the version on the Mount Shuiniu stele, as well as to
+                                all other carvings of this passage in Shandong, apart from one
+                                single, but noteworthy exception: At the very end of the 98
+                                character passage, the Fangshan version reads “because it [the
+                                Perfection of Wisdom] is unthought and unconditioned-conditioned”
+                                    (<hi rend="italic">wu nian wu zuo zuo gu </hi>
+                                <foreign xml:lang="zh">无念无作作故</foreign>) instead of “because it [the
+                                Perfection of Wisdom] is unthought and unconditioned” (<hi rend="italic">wu nian wu zuo gu </hi>
+                                <foreign xml:lang="zh">无念无作故</foreign>).<note>See <ref type="biblio" target="FS_SJ2000">1: 125</ref>, column 8 from the right of
+                                    the rubbing.</note> No other text version accords with this
+                                reading. Therefore, this seems to be one of the rare cases where a
+                                scribal error is evident on the Fangshan slabs.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscription</head>
+                        <div>
+                            <head>SNS 3</head>
+                            <p>Colophons were carved on the narrow sides of the stele. A colophon in
+                                two columns on the left is in large characters; that on the right
+                                side has four columns with smaller characters. The characters are
+                                much weathered and poorly preserved; those on the right are defaced
+                                even more than those on the left.</p>
+                            <p>The lay donors named in the colophons belong almost exclusively to
+                                two families, Yang <foreign xml:lang="zh">羊</foreign> and Shu
+                                    <foreign xml:lang="zh">束</foreign>. The members of the Yang
+                                family are named on the stele’s left; the Shu family members are
+                                named on the right side, with one notable exception: The name and
+                                title of Shu Shigui <foreign xml:lang="zh">束市貴</foreign> of the
+                                Prefectural Personal Evaluation Section is written in small
+                                characters on the stele’s left side, in between the larger names and
+                                titles of Yang Zhong <foreign xml:lang="zh">羊鍾</foreign> and Yang
+                                Shan <foreign xml:lang="zh">羊善</foreign>. It looks as though the
+                                carver took advantage of a gap of four characters that once served
+                                to separate one donor from another. He may have filled in the name
+                                of Shu Shigui because he had run out of space on the densely written
+                                right side of the stele.</p>
+                            <p>As indicated by the larger size of their names, the donors surnamed
+                                Yang were part of a more powerful family than those named Shu. The
+                                highest ranking official among them is Yang Zhong <foreign xml:lang="zh">羊鍾</foreign>.
+                                <!--As the colophon expressively states that Yang Zhong came from Mount Tai,<note>Written Mount Tai <foreign xml:lang="zh">太山</foreign> in the colophon, which is a variant for Mount Tai <foreign xml:lang="zh">泰山</foreign>.</note> he may have been related to General Yang Lie <foreign xml:lang="zh">羊烈</foreign>, who is mentioned in the dynastic histories as having come from there.<note>See above, note <ptr type="footnote" target="YangLie"/>.</note>-->
+                                He is one of three sutra donors (<hi rend="italic">jingzhu
+                                    </hi>
+                                <foreign xml:lang="zh">經主</foreign>) named in the
+                                colophons, and he certainly was one of the leading figures in
+                                carving the stele. The other four Yang family members are simply
+                                called “members of the [Buddhist] association” (<hi rend="italic">yiren </hi>
+                                <foreign xml:lang="zh">邑人</foreign>); two of them
+                                held low administrative posts.</p>
+                            <p>The names of five members of the Shu family are still legible, but
+                                there must have been more named in the weathered parts of the
+                                colophon. They held low-ranking administrative posts on the
+                                prefectural level, mostly in the Personal Evaluation Section of the
+                                Commandery (<hi rend="italic">jun gongcao </hi>
+                                <foreign xml:lang="zh">郡功曹</foreign>). At least one individual from the
+                                Shu family acted as Great Chief Overseer (<hi rend="italic">duweina
+                                    </hi>
+                                <foreign xml:lang="zh">都維那</foreign>). This is a position
+                                with management responsibilities in a Buddhist association.<note>See
+                                    also the donors of the sutra carving at Mount Tie in <ref type="biblio" target="Shandong_2">101–102</ref>.</note>
+                            </p>
+                            <p>More than eleven clerics involved in carving the sutra stele are
+                                recorded in the colophons. It seems as if the group of donors named
+                                on each side of the stele was led by its own cleric. For more
+                                details, see above “Related Persons”.</p>
+                            <!--<p>The powerful Yang family followed an ordained monk (<hi rend="italic">
+                                    <foreign xml:lang="sa">bhikṣu </foreign>
+                                </hi>
+                                <foreign xml:lang="zh">比丘</foreign>) from Baishi Monastery <foreign xml:lang="zh">白石寺</foreign>, whose full name is no longer legible. This monk is honored with being one of the project’s sutra donors. To his group also belonged one, Fasong <foreign xml:lang="zh">法嵩</foreign>, from Shiku Monastery <foreign xml:lang="zh">石窟寺</foreign>, who certainly was a cleric, but had not (yet) received full ordination.</p>
+                            <p>The Shu family was led by Renunciant (<hi rend="italic">
+                                    <foreign xml:lang="sa">śramanā </foreign>
+                                </hi>
+                                <foreign xml:lang="zh">沙門</foreign>) [...]shuo <foreign xml:lang="zh">□朔</foreign> from Baishi Monastery <foreign xml:lang="zh">白石寺</foreign>, who is honored for “having set up (<hi rend="italic">jian </hi>
+                                <foreign xml:lang="zh">建</foreign>) [the stele]”. The colophon mentions other ordained monks, whose names can no longer be deciphered. One of them came from Longhua Monastery <foreign xml:lang="zh">龍華寺</foreign>. The names of clerics and laymen from the Shu family are followed by a sub-group of at least three, but probably more, Chief Overseers, who supervised the carving project.</p>-->
+                            <ab>
+                                <abbr>TSL, CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Carving Techniques</head>
+                        <!-- <p>書體仍爲隸楷書類型範圍。用筆楷法較多，没有長槍大戟的筆畫，筆勢收斂，筆意内含。
+                            結體取方勢，平正端莊，無側倚感，来自隸書，但無隸勢的開闊飛動。</p>-->
+                        <p>The calligraphy shows the continuing change from clerical script (<hi rend="italic">lishu </hi>
+                            <foreign xml:lang="zh">隸書</foreign>) to
+                            regular script (<hi rend="italic">kaishu </hi>
+                            <foreign xml:lang="zh">楷書</foreign>). Features of the regular script are dominant; long
+                            strokes running out in spear or halberd like shapes are missing. The
+                            vigor of the characters is thus more restrained and introverted. The
+                            composition of the characters is straight and uniform; they tend to be
+                            square, and do not slope very much. Although the style of calligraphy
+                            derives from clerical script, it lacks its generosity and flying
+                            movements.</p>
+                        <p>The four large title characters on the stele head have two remarkable
+                            features. The two dots in the left-hand part of the character <hi rend="italic">ban </hi>
+                            <foreign xml:lang="zh">般</foreign> are carved
+                            as complete circles. Perfectly circular dots are also seen on the stele
+                            of 564 in Juye <foreign xml:lang="zh">巨野</foreign> (SFS 1).<note>See
+                                Shandong, volume 5 (forthcoming).</note> Further, the ways, in which
+                            some strokes end, are unusual. The final diagonal strokes in the
+                            characters <hi rend="italic">wen </hi>
+                            <foreign xml:lang="zh">文</foreign>, <hi rend="italic">shu </hi>
+                            <foreign xml:lang="zh">殊</foreign>, and <hi rend="italic">ban </hi>
+                            <foreign xml:lang="zh">般,</foreign> and the second stroke in the character <hi rend="italic">shu </hi>
+                            <foreign xml:lang="zh">殊</foreign> are spread
+                            into three; two strokes in the character <hi rend="italic">re
+                                </hi>
+                            <foreign xml:lang="zh">若</foreign> each divide into two. These
+                            shapes emulate those created by a brush, whose hairs spread under the
+                            pressure that a calligrapher applies at the end of a stroke. The
+                            monumental, 338 cm wide character <hi rend="italic">da </hi>
+                            <foreign xml:lang="zh">大</foreign> in the Buddha name Da kong wang fo
+                                <foreign xml:lang="zh">大空王佛</foreign> at Mount Hongding (HDS 8) is
+                                comparable.<note>Rubbing in <ref type="biblio" target="Shandong_1">146</ref>.</note> Its last stroke, too, ends with a three-fold
+                            division, without, however, separating into three distinct parts.</p>
+                        <ab>
+                            <abbr>LF, LL</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

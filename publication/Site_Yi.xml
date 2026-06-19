@@ -1,0 +1,949 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the site of Mount Yi</title>
+            </titleStmt>
+            <publicationStmt>
+
+                <seriesStmt>
+                    <!-- Titel und Kürzel des Bandes in @n -->
+                    <title n="shandong_volume2" xml:lang="en">Shandong Volume 2</title>
+                    <title n="shandong_volume2" xml:lang="zh">山東省第二卷</title>
+                    <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                    <biblScope unit="chapter" n="3"/>
+                </seriesStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>01.04.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Ordering Carving techniques</item>
+            </change>
+            <change>
+                <date>03.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Location überarbeitet gemäß Markette</item>
+            </change>
+            <change>
+                <date>30.09.09</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Research history added</item>
+            </change>
+            <change>
+                <date>16.10.2012</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Ergänzungen im Abschnitt "Inscriptions"</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_Yi">
+        <body>
+            <div xml:lang="zh">
+                <head>嶧山</head>
+                <figure xml:id="Yi_sc_DSC00006.JPG" rend="full">
+                    <head xml:lang="zh">嶧山上矗立的巨石；2008年拍攝</head>
+                    <head xml:lang="en">Vertically piled up boulders on Mount Yi; photograph taken
+                        in 2008</head>
+                    <graphic url="Yi_sc_DSC00006.JPG"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>嶧山海拔600米，在六座環繞鄒城的刻有佛經的山峰中是最高、最突出的一座。自北望去，它從海拔約100米的山腳莊嚴地升起，錐形輪廓格外引人注目（<ptr target="Yi_sc_131.jpg"/>）。這座被黃河沖積平原環繞的獨立山體曾是魯中山區的一部分。嶧山位於鄒城東南10公里、滕州市西北偏北30公里處（地圖見封二）。它在西南－東北方向延伸2.8公里，在西北－東南方向延伸1.6公里。它的地理坐標為東經117.0263度，北緯35.3275度。相當於UTM坐標系統第50S帶，東行502390，北行3909360。</p>
+                        <p>嶧山是鄒城六山中最重要的歷史遺址。公元前219年，秦始皇（公元前221－210年在位）在此立碑以紀念統一大業。嶧山也成為山東省境內存有秦刻石的四座山峰之一。然而，這部分秦刻石早已佚失，甚至連原始位置也不<!--得而-->知。但嶧山西南麓尚存兩處北齊（550－577）佛教刻經（<ptr target="Yishan_GoogleEarth_map_2.jpg"/>）。其一位於峰頂之下的五華峰上（<ptr target="Yi_4.1_r_total_G7SB7925.JPG"/>）；第二<!--處-->位於第一處下方約150米的“妖精洞”外（<ptr target="Yi_sc_DSC00141.JPG"/>）。</p>
+                        <p>鄰近的陽山刻經址，位於嶧山西北偏北7.5公里處（<ptr target="Zoucheng_2013_02_21e.jpg"/>）。從嶧山可以眺望陽山，不過在嶧山刻經的西南麓卻看不到陽山。尖山位於嶧山以北12.4公里處，也在嶧山的遠眺視線內，而在嶧山西南麓同樣看不到尖山。
+                            葛山在嶧山東北13公里處，刻經位於西麓的低處。從葛山的刻經處可以遠眺嶧山，不過看不到嶧山上的刻經。</p>
+                        <ab>
+                            <abbr>史英<space n="2"/>雷德侯</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>嶧山南麓有纜車通往山頂。山頂有幾座寺廟。還有一條上山的步行道（<ptr target="Yi_sc_DSC00295.JPG"/>），途經若干小型建築物。碩大的天然礫石佈滿陡峭的山坡。臨近峰頂，來訪者必須順著岩石攀爬而上，最後到達五華峰一處狹窄的岩架。來訪者在此可以俯瞰山下，一覽無遺（<ptr target="Yi_sc_DSC00030.JPG"/>）。</p>
+                        <p>一塊天然巨石立於這個岩架之上。巨石南面左下角有塊十分光滑的平面，並且幾乎垂直，刊刻著《文殊師利所說般若波羅蜜經》九十八字節文<note>《文殊師利所說般若波羅蜜經》T#232,
+                                8: 726a－732c。</note>（嶧山1號；<ptr target="Yi_r_WHFs_part_G7S99565.JPG"/>）。 東部拐角處鐫刻著一條包括紀年的題記（嶧山2號；<ptr target="Yi_w_LL_G7S95010.jpg"/>）。巨石右側有一條約兩米深的凹槽，可能壓住了北齊時期更多的刻文。</p>
+                        <p>明代時，在刻經右側刻了“五華峰”三個字（<ptr target="Yi_3.1_r_total_G7S99580.JPG"/>），並冠有“萬曆吉日”的紀年，後面題記嚴重風化，只可釋讀出“□川□□□書”，當為書丹者的姓名和籍貫。然而，相對其上方高達4米多的巨大的描紅行書“光風霽月”而言，這條“五華峰”題刻不禁相形見絀（<ptr target="Yi_4.1_r_total_G7SB7925.JPG"/>）。“光”字倒數兩筆的下端侵入其下的經文，破壞了刻經第一行第一字“文”和第四行第一字“若”。左側有題記“三韓羅景書”（<ptr target="Yi_4.2_r_G7SB7932.jpg"/>），書者可能來自遼東。<note>三韓為遼東的別名。<!--三韓為朝鮮半島的別名，指朝鮮半島的三個古王國：馬韓、辰韓和弁韓。-->《陝西通志》載，1713年有一位叫羅景的滿族官員在現今陝西省境內的延綏鄜道任職。見《陝西通志》<ref target="ShaanxiTongzhi" type="biblio">第27卷；第552冊：第236a頁</ref>。他的籍貫是奉天廣寧（今遼寧省北鎮），見《河南通志》<ref target="HenanTongzhi" type="biblio">第36卷；第536冊：第355a頁</ref>。因此，在五華峰留下書跡的羅景很可能即是來自廣寧的羅景。</note>
+                        </p>
+                        <p>“光風霽月”可以譬喻政治清明，也可以用來形容人品高貴清白，這體現出羅景這樣的文人的期望。和其下的佛教刻經不同，嶧山頂上這些巨大的刻字，在山下即可望見。</p>
+                        <figure rend="center" n="figure" xml:id="Yi_sc_131.jpg">
+                            <head xml:lang="zh">由西邊遠眺嶧山；2008年拍攝</head>
+                            <head>Mount Yi seen from the west; photograph taken in 2008</head>
+                            <graphic url="Yi_sc_131.jpg"/>
+                        </figure>
+                        <p>從五華峰沿步行道下山，在半山腰處，來訪者可取道茂林中的一條小徑，到達另一個刻經處，俗稱“妖精洞”。
+                                這是一個由兩面相鄰的、相互垂直的岩壁形成的岩龕（<ptr target="Yi_sc_DSC00141.JPG"/>）。該遺址因其東壁下方的天然小洞而得名。兩面岩壁構成了所謂的“石室”。山東省東部的天柱山存有類似的構造。
+                            天柱山上的銘刻出自提倡道教的鄭道昭（455?－516），其中有“石室”和“岩室”此類用於道家冥修的專有術語。
+                                    這兩處相似的岩石構造表示，“妖精洞”可能用於禪修。<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第10頁</ref>。</note>
+                        </p>
+                        <p>現在，石洞被一座簡單的現代石牆所遮掩。萬曆年間（1573－1620）在石洞上方鎸鑿了“妖精洞”三字，如今已描紅。
+                            另一面岩壁刻有與五華峰相同的《文殊師利所說般若波羅蜜經》
+                                九十八字佛經節文，其刻面垂直，高3.43米，寬2.32米，其下沿距現今地面約兩米（嶧山3號；<ptr target="Yi_sc_DSC00141.JPG"/>）。</p>
+                        <ab>
+                            <abbr>溫狄婭<space n="2"/>蔡穗玲</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Zoucheng_2013_02_21e.jpg">
+                            <head xml:lang="zh">鄒城六山地圖</head>
+                            <head>Map of the six mountains in and around Zoucheng</head>
+                            <graphic url="Zoucheng_2013_02_21e.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>婁一均於清康熙五十四年（1715）所修《鄒縣志》載：</p>
+                        <quote>嶧山：縣東南，距城二十里。一名鄒嶧山……高秀特出，無土壤。怪石萬叠，絡繹如絲，故名繹焉。山多石孔，俗謂之繹孔。<note>《鄒縣志》<ref type="biblio" target="Zouxianzhi1715">第291頁</ref>。</note>
+                        </quote>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>當地寺院情況不明。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>嶧山刻經主要由世俗之人供養。五華峰的題記（嶧山2號）提及八位，其中五人帶有籍貫。此外，還有一名叫僧万的沙門。這些人不見於任何其他刻經題記。僧万的名字單獨刻出，且位置高於其他人名，因此他可能是這個小邑社的組織者。</p>
+                        <p>供養人籍貫表明供養人來自遠在數百公里以外的地方。東莞是今天的山東沂水，位於嶧山東北155公里處。河間即如今的河北省瀛洲市，在嶧山西北偏北350公里處。陳留或為西南250公里外的河南省開封地區的梁州，或指位於西南200公里處的安徽省亳州市的南兗州。<note>賴非<ref type="biblio" target="LaiFei2003a">第112頁</ref>。</note>
+                        </p>
+                        <p>值得注意的是，另一刻供養人呂九斐來自東平。此處洪頂山刊刻了兩次《文殊師利所說般若波羅蜜經》九十八字節文。五華峰刻經甚至與洪頂山北麓的刻經（洪頂山16.2號）布局一致。嶧山刻經的供養人呂九斐可能知道在他家鄉洪頂山的刻經活動，從而產生在嶧山刊刻這段九十八字核心段落的想法。鄒城地區所有刻經以紀年為564年的五華峰刻經的鐫刻時間最早，那麼洪頂山刻經可能是鄒城刻經的出發點。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                        <p>“妖精洞”旁的題記有一位名叫董珎陁的署名。董自豪地稱自己為“斛律太保家客”。斛律家族屬於北亞民族，可能為鮮卑族，是北齊最顯著且最具權勢的家族之一。斛律金（488－567）是北齊王朝創立者高歡（496－547）的主要將領。斛律金之子斛律光（515－572），同樣是一位卓越的將軍並曾領軍戰勝北周的軍隊。他有兩個女兒嫁給了高氏皇族的王子，其中一位甚至成為了皇后。<note>相關討論以及這兩個家庭之間的聯姻表，見蔡穗玲<ref type="biblio" target="MuseumKoeln_HAW2009">第48－51頁</ref>。</note>山東刻經所涉及的所有人物，以這位斛律家族成員的社會地位最高。</p>
+                        <p>不過，這位成員的情況目前尚未明瞭。斛律光從天統三年到五年（567－569）曾任職太保。<note>《北齊書》<ref type="biblio" target="BeiQishu1972">第8冊：第100頁和第102頁</ref>。</note>他的兒子斛律武都（？－572）後來擔任了稍低一級的太子太保。<note>《北齊書》<ref type="biblio" target="BeiQishu1972">第17冊：第226頁</ref>。</note>太保是一品官員，而太子太保為從一品官，是副一級的頭銜。然而，《元和姓纂》（806－820）稱斛律武都為太保。<note>《文淵閣四庫全書》<ref type="biblio" target="SKQS">第890卷：第734b頁</ref>。</note>
+                        </p>
+                        <p>雖然這可能只是一個版本之誤，不過題記的撰者也可能是出於尊重或奉承而給斛律武都冠以更高一級的稱謂。金石學家陸增祥（1833－1889）根據上述內容在他的《八瓊室金石補正》中，將這條題記提到的太保確定為斛律武都，並將題記時間的下限定為572年。<note>“討論”部分（《八瓊室金石補正》<ref type="biblio" target="Baqiongshijinshibuzheng">第4342－4343頁</ref>），本卷第<ptr type="infra" target="Lu572 Lu572end"/>頁。</note>
+                        </p>
+                        <p>陸增祥和金石學家柯昌泗（1899－1952），即《語石異同評》的作者，均指出，根據《北史》的記載，斛律武都從570年起擔任嶧山所在的兗州太守。<note>“討論”部分（《語石異同評》<ref type="biblio" target="Yushiyitongping">第299－300頁</ref>），本卷第<ptr type="infra" target="KeMagistrate"/>頁。</note>當代學者普遍接受此說。<note>有關這一歷史背景，見王思禮和賴非<ref type="biblio" target="Wang_Lai1991a">第9－10頁</ref>。</note>
+                        </p>
+                        <p>572年，斛律光成為了宮廷鬥爭的犧牲品。之後，他及其整個家族的所有成年成員慘遭處死。這正是北周準備推翻北齊的時期。五年後，即577年，北周終於滅了北齊。根據《北史》和其他的歷史文獻，北周的將軍韋孝寬因畏懼斛律光作為軍事領袖的能力和勇氣，派間諜在北齊散佈斛律光要奪皇位的謠言。北齊朝廷的高官祖珽曾被斛律光羞辱而懷恨在心。因此利用這個謠言編造歌謠，暗示斛律光稱帝的野心。之後，祖珽向皇上報告市井兒童傳唱的童謠，並訴之以謀反罪。<note>將童謠作為批評統治者的手段，見鮑吾剛<ref type="biblio" target="Bauer1973">第15頁</ref>。</note>斛律光隨後被騙入宮，並就地處決。</p>
+                        <p>周武帝聞此大喜，並宣布大赦以示慶賀。攻克了北齊都城鄴後，他說若斛律光還在的話，他絕無滅齊的可能。周武帝敬重這位對手，追賜為上柱國，加封崇國公。<note>《北齊書》<ref type="biblio" target="BeiQishu1972">第1卷： 第226頁</ref>；《北史》<ref type="biblio" target="Beishi1974">第6卷：第1967－1970頁</ref>；《資治通鑑》<ref type="biblio" target="Zizhitongjian1956">第171卷：第5308－5309頁</ref>。</note>當時，顏之推（531－約595）洞察此事，抱以同感，並指出，當斛律光被無辜殺害的時候，北齊王朝的命運也同樣被絞殺了。<note>《顏氏家訓》，見《續修四庫全書》<ref type="biblio" target="XXSKQS">第1121卷：第619a頁</ref>。英譯本見鄧嗣禹<ref type="biblio" target="TengSsuyv1968">第50頁</ref>。</note>
+                        </p>
+                        <p>“妖精洞”刻經刊刻之時，斛律家族可能已經察覺災難會降臨，斛律武都或許因此請他不為人知的家客董珎陁助功德，祛災難。事實上，其祖父斛律金便曾告誡自己的兒子斛律光，與皇室聯姻會引火上身。<note>《北齊書》<ref type="biblio" target="BeiQishu1972">第17卷：第222頁</ref>。</note>
+                        </p>
+                        <p> 斛律光作為軍事領袖備受好評，但其長子斛律武都卻被譏以腐敗和專政。<note>“所在並無政績，唯事聚斂，侵漁百姓。”《北齊書》<ref type="biblio" target="BeiQishu1972">第17卷：第226頁</ref>；參見《北史》<ref type="biblio" target="Beishi1974">第6卷：第1972頁</ref>。
+                                    </note>斛律光另一兒子斛律撤（562－595）的陵墓現已被發掘。<note>
+                                <ref type="biblio" target="Watt_An_Howard2004">第247－248頁</ref>。</note>斛律撤滅門之際得以倖免，因為其時他尚未滿十四歲。</p>
+                        <ab>
+                            <abbr>雷德侯</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Yi_sc_DSC00295.JPG">
+                            <head xml:lang="zh">嶧山山路；2008年拍攝</head>
+                            <head>Footpath on Mount Yi running uphill; photograph taken in
+                                2008</head>
+                            <graphic url="Yi_sc_DSC00295.JPG" height="170mm"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>嶧山刻經有兩處相關紀年。2002年10月，在五華峰刻經面拐角處題記的上方發現了“河清三年”這則紀年（<ptr target="Yi_w_LL_G7S95010.jpg"/>）。而此處的題記則記錄了僧俗供養人名錄（嶧山2號）。此處的紀年應與《文殊師利所說般若波羅蜜經》節文的刊刻和沙門僧万以及八個供養人有關。</p>
+                        <p>嶧山的第二處刻經，即“妖精洞”刻經，第一行為題記。供養人董珎陁自稱斛律太保的家客。據考，“斛律太保”
+                            即斛律武都，他從570年至572年擔任兗州太守，因而，刻經應該刊刻於此時。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>五華峰刻經（嶧山1號）及其題記（嶧山2號）分别在1991年和2003年首次刊佈。所有關於嶧山的早期金石文獻僅記錄了刊刻於“妖精洞”的九十八字佛經節文和題記（嶧山3號）。董純、馬星翼1834年成書的《鄒縣志稿》最早著錄這些內容。此書未曾刊印，但錢枱《鄒縣金石續志》（1892）有徵引。<note>《鄒縣金石續志》
+                                    <ref type="biblio" target="Zouxianjinshixuzhi">第136頁</ref>。</note>《鄒縣志稿》抄錄了刻經節文起始部分，並說明刊刻於嶧山石經洞，還提及嵾山（尖山6號）的同類刻經的布局與此相同。由於題記銘文殘損不全，董、馬無法斷定確切紀年，只能記作“可定為北魏以後人作”。<note>《鄒縣志稿》<ref type="biblio" target="Zouxianzhigao">第469頁</ref>。</note>吳式芬（1796－1856）在《金石彙目分編》中也提到此處刻經，惜未詳錄。<note>《金石彙目分編》<ref type="biblio" target="Jinshihuimufenbian">第21153頁</ref>。</note>
+                        </p>
+                        <p>尖山也有相同的刻經內容，“妖精洞”的刻經位置因此混淆。陸增祥（1833－1889）的《八瓊室金石補正》確認了嶧山3號的經文，但誤以為出自尖山。<note>《八瓊室金石補正》
+                                    <ref type="biblio" target="Baqiongshijinshibuzheng">第4342－4343頁</ref>。</note><!--他還進一步確認了供養人在第一行題記中提的是斛律武都，斛律光的兒子，由此將刻經的刊刻時間定在572年之前，即斛律武都被害之前。陸注意了“太保”這一頭銜，但未考慮它是光的頭銜，抑或是其兒子武都的職位“太子太保”的縮寫。-->
+                        </p>
+                        <p>不過，陸增祥別有嶄獲，不僅確認徂徠山1號映佛巖有相同的佛經節文，還考釋出其後全部題記，並由此認定經主為斛律武都。</p>
+                        <figure rend="center" n="figure" xml:id="Yishan_GoogleEarth_map_2.jpg">
+                            <head xml:lang="zh">嶧山南面全景圖，圖示嶧山1號、嶧山2號、嶧山3號位置，來源：谷歌地球™</head>
+                            <head>Mount Yi seen from the south, with inscriptions Yi 1, Yi 2, and Yi
+                                3, as provided by Google™Earth</head>
+                            <graphic url="Yishan_GoogleEarth_map_2.jpg"/>
+                        </figure>
+                        <p>柯昌泗（1899－1952）增補葉昌熾（1847－1917）的《語石》時，再次援引了吳式芬的著作，又補充了斛律武都的資料。<note>《語石異同評》
+                                    <ref type="biblio" target="Yushiyitongping">第299－300頁</ref>。</note>
+                        </p>
+                        <p>關於嶧山銘文的系統研究始於1990年左右，陸續出版了三集
+                            <!--隨後，在1991年和2003年，出版了兩卷研討會論文集。-->《北朝摩崖刻經研究》。1991年，王思禮、賴非和胡新立討論了“妖精洞”和五華峰兩段內容一致的刻經。此時，對五華峰刻經（嶧山1號）所知甚少，因此，遵從陸增祥關於斛律武都的看法，將其年代暫定為572年。直到2001年發現了另一條題記（嶧山2號），以及2002年發現其564年的紀年，才引起更多的學術討論。相關文章收錄在2003年出版的《北朝摩崖刻經研究》續集。</p>
+                        <p>安廷山的《山東摩崖書刻藝術》（1997）著重討論嶧山石刻書法。賴非2000年編撰出版的《中國書法全集》第十二卷《北朝摩崖刻經》，集中探討了“妖精洞”刻經。賴非2007年出版的專著也著錄了五華峰的刻經和題記。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>刻銘</head>
+                    <div>
+                        <head>銘文總目</head>
+                        <p>嶧山刊刻有兩篇佛經節文（嶧山1號和嶧山3號）以及兩段相關題記（嶧山2號和嶧山3號的一部分）。</p>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <p>五華峰和“妖精洞”均刊刻《文殊師利所說般若波羅蜜經》九十八字節文。其布局卻大相逕庭，五華峰的刻經在一個水平伸展的矩形中，而“妖精洞”的刻經為縱長方形。這兩處刻經的區別還在於“無/无”字的選用。五華峰的刻經使用了“無”字，而在“妖精洞”則書以俗體的“无”。</p>
+                        <p>同一篇《文殊師利所說般若波羅蜜經》九十八字節文還出現在尖山（尖山6號，損毀）、徂徠山（徂徠山1號）、洪頂山（洪頂山16.2號和洪頂山22號）和陽山（損毀），以及兗州兩塊刻經碑殘片（兗州1號和兗州2號）。此外，水牛山刻經碑（水牛山2號）也有此經部分內容。</p>
+                        <p>這篇佛經節文的內容和版本源流，見《中國佛教石經·山東省》第一卷洪頂山16.2號和22號的相關內容。<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第65頁</ref>。</note>
+                        </p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                        <div>
+                            <head>嶧山1號</head>
+                            <div>
+                                <p>五華峰九十八字佛經節文第一行到第九行，每行10字，最後一行8字。
+                                    同樣的橫向布局還見於洪頂山北麓的刻經（洪頂山16.2號），以及兗州一通內容相同的刻經殘碑（兗州2號）。</p>
+                                <p>五華峰刻經還冠有“文殊般若”四字經名。尖山刻經拓片中也有此四字（尖山3號，原石已毀；見《中國佛教石經·山東省》第三卷），當是曾刊刻在其下方的同一篇九十八字佛經節文
+                                    （尖山6號）的標題，但布局與五華峰刻經不盡相同。水牛山的刻經碑（水牛山2號）也以此四字作為碑額（《中國佛教石經·山東省》第三卷）。</p>
+                                <ab>
+                                    <abbr>溫狄婭</abbr>
+                                </ab>
+                            </div>
+                        </div>
+                        <div>
+                            <head>嶧山3號</head>
+                            <div>
+                                <p>“妖精洞”旁九十八字刻經節文共7行，每行14字，形成縱向的長方形刻面。
+                                    相同的布局也出現在已毀的尖山（尖山6號）和今存洪頂山南麓（洪頂山22號），以及刻有同一篇佛經節文的兗州刻經碑（兗州1號）。</p>
+                                <ab>
+                                    <abbr>溫狄婭</abbr>
+                                </ab>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <!--div>
+                            <p>五華峰佛經節文的題記（嶧山2號）和“妖精洞”刻經前的題記（嶧山3號）為我們提供了重要的歷史信息。</p>
+                        </div-->
+                        <div>
+                            <head>嶧山2號</head>
+                            <div>
+                                <p>五華峰東崖壁的題記由供養人名錄、紀年和兩個殘字組成。</p>
+                                <p>2001年10月首次發現供養人名錄。2002年最初製作的拓本（拓本E）其中左數第二行為“東平僧安”。
+                                    由此推定相鄰崖壁上的佛經節文為僧人僧安道壹（活動於562年－579年）書丹。他的署名見諸山東多個刻經址。
+                                    但是，進一步的考察和於2005年製作的兩張新拓本（拓本A和拓本D）證明此說並不成立。根據這兩張更可信的拓本，
+                                    風化嚴重的題記記錄了至少八位俗家供養人和一名沙門僧万。</p>
+                                <p>供養人名的右上方，刻有“河清三年（564）”紀年。供養人名的左上方，刻有“般若”二字。
+                                        再往左一些，有些學者還多辨識出“文殊”二字（<ptr target="Yi_2.3_B.tif"/>）。
+                                    “般若”這兩個字可能代表一部風化殆盡或未曾完工的刻經，但更可能是“般若波羅蜜”的縮寫。
+                                    在陶山（陶山3號）和徂徠山（徂徠山3號）上，這兩個字是“般若波羅蜜”的一部分（見《中國佛教石經·山東省》第三卷）。在嶧山，這兩個字可能也是此類祈神文字的一部分，與刊刻佛名的意義因此相似。</p>
+                                <!--p>供養人名的左上角刻有“般若”二字。這兩個字可能是“般若波羅蜜”的縮寫，也可能是一部風化殆盡或未曾完工的刻經。
+                                    假如這部刻經全文的確存在，就可用以比勘均刻有“般若”二字的陶山3號刻經和徂徠山3號刻經（見《中國佛教石經·山東省》第三卷）。
+                                    這兩個字可能與刊刻佛名的意義相似，意味著一種祈求。</p-->
+                                <p>另外，這兩個字或為“摩訶般若”，往往見於儀軌文寫經的末尾，是一種祈福的表述方式。</p>
+                                <ab>
+                                    <abbr>溫狄婭</abbr>
+                                </ab>
+                            </div>
+                        </div>
+                        <div>
+                            <head>嶧山3號</head>
+                            <div>
+                                <p>嶧山3號題記表明，“妖精洞”刻經的紀年在570年至572年之間。</p>
+                                <ab>
+                                    <abbr>溫狄婭</abbr>
+                                </ab>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>分析筆道橫斷面，嶧山刻經屬於“V”字形刻法，即從筆畫兩邊線斜入鏨，雙邊線相交而成。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Yi_sc_DSC00030.JPG">
+                            <head xml:lang="zh">由嶧山上向南方遠眺；2008年拍攝</head>
+                            <head>A view from Mount Yi toward the south; photograph taken in
+                                2008</head>
+                            <graphic url="Yi_sc_DSC00030.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Yi</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>At a height of 600 meters, Mount Yi <foreign xml:lang="zh">嶧山</foreign>
+                            is the tallest and most conspicuous among the six inscribed mountains
+                            around the city of Zoucheng <foreign xml:lang="zh">鄒城</foreign>. From
+                            the north, it presents a striking, cone-shaped <hi rend="nh">silhouette</hi>, rising majestically from its foot at ca. 100 m
+                            above sea level (fig. <ptr target="Yi_sc_131.jpg"/>). This single
+                            outcrop, surrounded by the Yellow River <foreign xml:lang="zh">黃河</foreign> alluvium, was originally part of the central range in
+                            what is now Shandong Province. The mountain is situated 10 km southeast
+                            of Zoucheng and 30 km north-northwest of Tengzhou City <foreign xml:lang="zh">滕州市</foreign> (map in front endpaper). It has a
+                            southwest-northeast extension of 2.8 km, and a northwest-southeast
+                            extension of 1.6 km. Geographically, Mount Yi is situated 117.0263° east
+                            and 35.3275° north, WGS84. This equals 502390 E (easting) and 3909360 N
+                            (northing), UTM zone 50S.</p>
+                        <p>Mount Yi also stands out among the six mountains around Zoucheng as the
+                            most significant historical site in the region. The First August Emperor
+                            of Qin (Qin Shi Huangdi <foreign xml:lang="zh">秦始皇帝</foreign>; r.
+                            221–210 BCE) erected a stele here in 219 BCE to commemorate his
+                            unification of the empire. These inscriptions extolled his virtues.
+                            Mount Yi is one of four mountains in Shandong that were honoured with
+                            such stelae. The imperial stele was, however, lost long ago, and its
+                            original location is not known.</p>
+                        <p>Yet two Buddhist inscriptions of the Northern Qi dynasty (550–577)
+                            enhance the mountain’s southwestern slope (fig. <ptr target="Yishan_GoogleEarth_map_2.jpg"/>). The first is located
+                            beneath the peak, on the Summit of the Five Flowers (Wu­hua Feng
+                                <foreign xml:lang="zh">五華峰</foreign>; fig. <ptr target="Yi_4.1_r_total_G7SB7925.JPG"/>), and the second ca. 150 m
+                            below the first, outside the Cave of the Bewitching Fairy (Yaojing Dong
+                                <foreign xml:lang="zh">“妖精洞”</foreign>; fig. <ptr target="Yi_sc_DSC00141.JPG"/>).</p>
+                        <p>The neighboring inscription site of Mount Yang <foreign xml:lang="zh">陽山</foreign> is 7.5 km north-northwest of Mount Yi (map, fig. <ptr target="Zoucheng_2013_02_21e.jpg"/>). Mount Yang can be seen from
+                            Mount Yi, but is not visible from its southwestern slope where the
+                            inscriptions are placed. Mount Jian <foreign xml:lang="zh">尖山</foreign>
+                            is 12.4 km north of Mount Yi and is in the line of sight from the latter
+                            mountain, but again cannot be seen from the southwestern slope.</p>
+                        <p>Mount Ge <foreign xml:lang="zh">葛山</foreign> lies 13 km to the northeast,
+                            with its inscriptions cut into the lower part of its western slope.
+                            While Mount Yi can be seen from this inscription site, the inscriptions
+                            on Mount Yi are not visible from this point on Mount Ge.</p>
+                        <ab>
+                            <abbr>TS, LL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>At the southern slope, a cable-car leads up to the main peak of Mount Yi,
+                            the setting for several temples. There is also a footpath running uphill
+                            (fig. <ptr target="Yi_sc_DSC00295.JPG"/>), which passes a few smaller
+                            buildings. The steep mountainside is covered with large natural
+                            boulders. Near the peak, visitors must clamber over and between the
+                            rocks to reach a narrow stone ledge at the Summit of the Five Flowers.
+                            Here, they may enjoy an expansive view of the mountain and the valley
+                            below (fig. <ptr target="Yi_sc_DSC00030.JPG"/>).</p>
+                        <p>A gigantic natural boulder rises from this ledge. On the lower right
+                            corner of its smooth, nearly <hi rend="nh">vertical</hi> southern face,
+                            a passage of 98 characters from the <hi rend="italic">Sutra on the Great
+                                Perfection of Wisdom Spoken by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                            </hi> (<title>
+                                <hi rend="italic">Wenshushili
+                                    suo shuo mohe bore boluomi jing </hi>
+                            </title>
+                            <foreign xml:lang="zh">文殊師利所說摩訶般若波羅蜜經</foreign>; T#232, 8: 726a–732c) has
+                            been engraved in a horizontal field of script (Yi 1; fig. <ptr target="Yi_r_WHFs_part_G7S99565.JPG"/>). Around the corner to the
+                            east, the cliff carries more inscriptions, a colophon with a date and
+                            another text fragment (Yi 2; fig. <ptr target="Yi_w_LL_G7S95010.jpg"/>).
+                            A ditch, about two meters deep, below the left side of the boulder, may
+                            have inhibited further carving in the Northern Qi period.</p>
+                        <figure rend="center" n="figure" xml:id="Yi_4.1_r_total_G7SB7925.JPG">
+                            <head xml:lang="zh">嶧山五華峰；2007年拍攝</head>
+                            <head>Mount Yi’s Summit of the Five Flowers; photograph taken in
+                                2007</head>
+                            <graphic url="Yi_4.1_r_total_G7SB7925.JPG"/>
+                        </figure>
+                        <p>In the Ming period, the three characters “Summit of the Five Flowers”
+                            were carved to the left of the sutra passage (fig. <ptr target="Yi_3.1_r_total_G7S99580.JPG"/>). These are preceded by a
+                            date, “an auspicious day in the Wanli era (<hi rend="italic">Wanli jiri
+                                </hi>
+                            <foreign xml:lang="zh">萬曆吉日</foreign>, 1573–1620)”. A heavily
+                            weathered colophon, reading “Written by [...] [...] [...] from
+                                    [...]chuan”,<note>
+                                <foreign xml:lang="zh">□川□□□書.</foreign>
+                            </note> once gave the calligrapher’s name and
+                            place of origin. However, the inscription, the “Summit of the Five
+                            Flowers”, is outshone by four semi-cursive, giant characters,
+                            highlighted in red, that are more than four meters high, “Lustrous
+                            breeze and clear moon” (<hi rend="italic">guangfeng jiyue </hi>
+                            <foreign xml:lang="zh">光風霽月</foreign>; fig. <ptr target="Yi_4.1_r_total_G7SB7925.JPG"/>). The ends of the last two
+                            strokes of the character <hi rend="italic">guang </hi>
+                            <foreign xml:lang="zh">光</foreign> cut into the sutra passage below,
+                            obliterating the upper half of the first character in its first column,
+                                <hi rend="italic">wen </hi>
+                            <foreign xml:lang="zh">文</foreign>, and
+                            the first character in its fourth column, <hi rend="italic">ruo
+                                </hi>
+                            <foreign xml:lang="zh">若</foreign>. The calligraphy is by a
+                            certain Luo Jing <foreign xml:lang="zh">羅景</foreign> from Sanhan <foreign xml:lang="zh">三韓</foreign>).
+                            He is named in the adjacent colophon to the left (fig. <ptr target="Yi_4.2_r_G7SB7932.jpg"/>), and may have come from
+                            the eastern part of the Liaoning province.<note>Sanhan is a variant name for the eastern part of the Liaoning province.<!--for the Korean
+                                Peninsula, referring to the three ancient Korean kingdoms, Mahan
+                                    <foreign xml:lang="zh">馬韓</foreign>, Chenhan <foreign
+                                    xml:lang="zh">辰韓</foreign>, and Bianhan <foreign xml:lang="zh"
+                                    >弁韓</foreign>.--> The <title>
+                                    <hi rend="italic">Comprehensive
+                                        Gazetteers of Shaanxi Province</hi>
+                                </title> (<hi rend="italic">Shaanxi tong­zhi </hi>
+                                <foreign xml:lang="zh">陝西通志</foreign>) records a Manchu official by the name of Luo
+                                Jing who held, in 1713, a post in the circuit of Yansuifu Dao
+                                    <foreign xml:lang="zh">延綏鄜道</foreign> in today’s Shaanxi
+                                Province, see <ref target="ShaanxiTongzhi" type="biblio">
+                                    <hi rend="italic">juan</hi> 27; 552: 236a.</ref> This person’s place of origin was Guang­ning <foreign xml:lang="zh">廣寧</foreign> (today’s Beizhen <foreign xml:lang="zh">北鎮</foreign> in Liaoning <foreign xml:lang="zh">遼寧</foreign>
+                                Province) in Fengtian <foreign xml:lang="zh">奉天</foreign> (today’s
+                                Shenyang <foreign xml:lang="zh">瀋陽</foreign>). See
+                                    <ref target="HenanTongzhi" type="biblio">
+                                    <hi rend="italic">juan</hi> 36; 536: 355a.</ref> Therefore, it is most likely that Luo Jing from
+                                Guang­ning may have been the same person as the Luo Jing who
+                                left his calligraphy at the Summit of the Five Flowers. </note>
+                        </p>
+                        <figure rend="center" n="figure" xml:id="Yi_4.2_r_G7SB7932.jpg">
+                            <head xml:lang="zh">五華峰“光風霽月”題記；2007年拍攝</head>
+                            <head>Colophon to “Lustrous Breeze and Clear Moon” at the Summit of the
+                                Five Flowers; photograph taken in 2007</head>
+                            <graphic url="Yi_4.2_r_G7SB7932.jpg"/>
+                        </figure>
+                        <p>“Lustrous breeze and clear moon”, a metaphor for politically peaceful
+                            times, can also describe someone’s noble and unsullied character and
+                            thus reflects the aspirations of literati, like Luo Jing. Unlike the
+                            Buddhist sutra engraved beneath, these monumental characters at the peak
+                            of Mount Yi can be seen from afar by someone standing on the plain
+                            below.</p>
+                        <p>Climbing down from the Summit of the Five Flowers, and continuing on the
+                            footpath downhill, the visitor may then take a small side trail, which
+                            branches off and leads through a thickly wooded slope, to the
+                            inscription site known as the Cave of the Bewitching Fairy. There a
+                            niche is formed by two adjacent rock walls standing perpendicular to
+                            each other (fig. <ptr target="Yi_sc_DSC00141.JPG"/>). Beneath the
+                            eastern wall is the small natural cave from which the site gets its
+                            name. The two rock faces define what might be called a stone chamber.
+                            The same kind of rock formation is seen on Heavenly Column Mountain
+                            (Tianzhu Shan <foreign xml:lang="zh">天柱山</foreign>) in eastern Shandong.
+                            Engraved on the walls at Heavenly Column Mountain is an inscription by
+                            the Daoist sympathizer, Zheng Daozhao <foreign xml:lang="zh">鄭道昭</foreign> (455?–516), in which he mentions a “stone chamber”
+                                (<hi rend="italic">shishi </hi>
+                            <foreign xml:lang="zh">石室</foreign>)
+                            and a “rock chamber” (<hi rend="italic">yanshi </hi>
+                            <foreign xml:lang="zh">岩室</foreign>). These are technical terms for a place
+                            for Daoist meditation. The similarity in the two rock formations
+                            suggests that the site of the Cave of the Bewitching Fairy was,
+                            likewise, used for meditation.<note>See <ref type="biblio" target="Shandong_1">34</ref>.</note>
+                        </p>
+                        <p>The actual cave is screened by a modern stone wall. The three characters
+                            “Cave of the Bewitching Fairy” were engraved during the Wanli era
+                            (1573–1620) on the wall above the cave and are today painted red.
+                            Engraved on the other wall, which leans slightly forward toward the
+                            viewer, is the passage, also seen on the summit, of 98 characters from
+                            the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken by
+                                    <foreign xml:lang="sa">Mañjuśrī</foreign>
+                            </hi>. The vertical
+                            field of script, 3.43 x 2.32 m, ends about two meters above the present
+                            ground level (Yi 3; fig. <ptr target="Yi_sc_DSC00141.JPG"/>).</p>
+                        <ab>
+                            <abbr>CW, TSL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name</head>
+                        <p>The <title>
+                                <hi rend="italic">Zou County Gazetteer</hi> (<hi rend="italic">Zou Xian zhi </hi>
+                                <foreign xml:lang="zh">鄒縣志</foreign>
+                            </title>), revised by Lou Yijun <foreign xml:lang="zh">婁一均</foreign> in the fifty-fourth year of the Kangxi era (1715),
+                            states: </p>
+                        <quote>Mount Yi is located 20 miles to the south-east of the county seat. It
+                            is also named Mount Yi of Zou <foreign xml:lang="zh">鄒嶧山</foreign>.
+                            [...] High, excellent, and outstanding, it has no earth, but only
+                            grotesquely shaped rocks piled up, one after the other, in a threadlike,
+                            endless stream (<hi rend="italic">luo­yi</hi>
+                            <foreign xml:lang="zh">絡繹</foreign>; fig. <ptr target="Yi_sc_DSC00006.JPG"/>). Therefore,
+                            the name of the mountain contains the element <hi rend="italic">yi
+                                </hi>
+                            <foreign xml:lang="zh">繹</foreign>, meaning ‘unravelling’.
+                            Since the mountain has numerous cavities, it is also commonly known as
+                            ‘Unravelling Cavities (Yi­kong <foreign xml:lang="zh">繹孔</foreign>)’.<note>
+                                <ref type="biblio" target="Zouxianzhi1715">291</ref>.</note>
+                        </quote>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>The sites of local monasteries are not known.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons </head>
+                        <p>The inscriptions carved at Mount Yi were mainly donated by laymen. The
+                            colophon at the Summit of the Five Flowers (Yi 2) lists eight laypersons
+                            and mentions places of origin for five of them. In addition, a certain
+                                <hi rend="italic">
+                                <foreign xml:lang="sa">śramaṇa</foreign>
+                            </hi>
+                            Sengwan <foreign xml:lang="zh">僧万</foreign> is named. None of these
+                            figures is known from colophons at other inscription sites. Monk Sengwan
+                            may have been the leading figure of this small lay congregation, for his
+                            name stands out above the row of the other names.</p>
+                        <p>The place names indicate that the donors came from areas several hundred
+                            kilometers away. Dongguan <foreign xml:lang="zh">東莞</foreign> is today’s
+                            Yishui <foreign xml:lang="zh">沂水</foreign> in Shandong, ca. 155 km to
+                            the northeast of Mount Yi. The ancient Hejian <foreign xml:lang="zh">河間</foreign> corresponds to Yingzhou <foreign xml:lang="zh">瀛州</foreign> in Hebei Province, which lies 350 km to the
+                            north-northwest of Mount Yi. Chenliu <foreign xml:lang="zh">陳留</foreign>
+                            refers either to Liangzhou <foreign xml:lang="zh">梁州</foreign> in the
+                            Kaifeng <foreign xml:lang="zh">開封</foreign> region in <hi rend="nh">Henan</hi> Province, 250 km to the southwest, or to Nan Yanzhou
+                                <foreign xml:lang="zh">南兗州</foreign> in Bozhou <foreign xml:lang="zh">亳州</foreign>, in Anhui Province, 200 km to the
+                                    southwest.<note>
+                                <ref type="biblio" target="LaiFei2003a">112</ref>. </note>
+                        </p>
+                        <figure rend="center" xml:id="Yi_sc_2955.jpg">
+                            <head xml:lang="zh">嶧山峰頂樹上繋的祈福紅絲帶；2007年拍攝</head>
+                            <head>Auspicious red ribbons on a tree on top of Mount Yi; photograph
+                                taken in 2007</head>
+                            <graphic url="Yi_sc_2955.jpg"/>
+                        </figure>
+                        <p>It is noteworthy, that the donor Lü Jiufei <foreign xml:lang="zh">呂九斐</foreign> is said to have come from Dongping <foreign xml:lang="zh">東平</foreign>, where the carving of the sutra passage
+                            of 98 characters was sponsored twice at Mount Hongding <foreign xml:lang="zh">洪頂山</foreign>. The layout of the inscription at the
+                            Summit of the Five Flowers is identical with that on the northern slope
+                            of Mount Hongding (HDS 16.2). Thus it is all the more likely that donor
+                            Lü knew of the carving project at Mount Hongding in his home district
+                            and that he introduced the idea of carving the key passage in 98
+                            characters on Mount Yi. As the carving at the Summit of the Five
+                            Flowers, with its date of 564, is the earliest of all the Zoucheng
+                            inscriptions, Mount Hongding may have been the starting point for the
+                            carving projects at the mountains around Zoucheng. </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                        <p>The colophon next to the Cave of the Bewitching Fairy was also signed by
+                            a lay person, a certain Dong Zhentuo <foreign xml:lang="zh">董珎陁</foreign>. Dong proudly calls himself “Household Retainer of
+                            the Grand Guardian Hulü <foreign xml:lang="zh">斛律太保家客</foreign>.” The
+                            Hulü family was of a Northern Asian ethnicity, possibly the Xianbei
+                                <foreign xml:lang="zh">鮮卑</foreign>, and was one of the most
+                            illustrious and powerful families in the Northern Qi. Hulü Jin <foreign xml:lang="zh">斛律金</foreign> (488–567) was the principal general of
+                            Gao Huan <foreign xml:lang="zh">高歡</foreign> (496–547), who founded the
+                            dynasty. Hulü Jin’s son, Hulü Guang <foreign xml:lang="zh">斛律光</foreign>
+                            (515–572), equally distinguished himself as a general and repeatedly
+                            defeated armies of the Northern Zhou. Two of his daughters were married
+                            to princes of the imperial Gao family, and one of them even became an
+                                empress.<note>For a discussion and a table of the conjugal relations
+                                between the two families see Tsai Suey-Ling in <ref type="biblio" target="MuseumKoeln_HAW2009">48–51</ref>. </note> Of all the
+                            individuals who are mentioned in the Shandong rock inscriptions, this
+                            member of the Hulü clan occupied the highest social position. </p>
+                        <p>However, it is not absolutely clear to which member of the family the
+                            colophon refers. Hulü Guang held the rank of Grand Guardian (<hi rend="italic">taibao </hi>
+                            <foreign xml:lang="zh">太保</foreign>) from
+                            567 to 569, the third to the fifth year of the <hi rend="italic">tiantong </hi>
+                            <foreign xml:lang="zh">天統</foreign> era.<note>
+                                <ref type="biblio" target="BeiQishu1972">8: 100, 102</ref>. </note>
+                            One of his sons, Hulü Wudu <foreign xml:lang="zh">斛律武都</foreign>
+                            (?–572), later held the slightly lesser rank of Grand Guardian of the
+                            Heir Apparent (<hi rend="italic">taizi taibao </hi>
+                            <foreign xml:lang="zh">太子太保</foreign>).<note>
+                                <ref type="biblio" target="BeiQishu1972">17: 226</ref>. </note> Grand Guardian was
+                            an official position of the first class, whereas Grand Guardian of the
+                            Heir Apparent was only a position of the associated first class.
+                            Nevertheless, in <title>
+                                <hi rend="italic">The Yuanhe Era</hi> [806–820]
+                                    <hi rend="italic">Compilation of Family Names</hi>
+                            </title> (<hi rend="italic">Yuanhe xingzuan </hi>
+                            <foreign xml:lang="zh">元和姓纂</foreign>), Hulü Wudu is called Grand Guardian.<note>
+                                <ref type="biblio" target="SKQS">890: 734b.</ref>
+                            </note> While this
+                            could merely have been an editing error, the colophon writer may well
+                            have intended to refer to Hulü Wudu by the higher title out of respect
+                            or as flattery. Based on this Tang dynasty source, the epigrapher Lu
+                            Zengxiang <foreign xml:lang="zh">陸增祥</foreign> (1833–1889), in his
+                            authoritative <title>
+                                <hi rend="italic">Supplementary Corrigenda to the
+                                    Epigraphica of Eight Gems Studio</hi>
+                            </title> (<hi rend="italic">Baqiong shi jinshi buzheng </hi>
+                            <foreign xml:lang="zh">八瓊室金石補正</foreign>), identified the Grand Guardian mentioned in the
+                            colophon as Hulü Wudu and, therefore, dated the colophon to before
+                                572.<note>See Discussion (<ref type="biblio" target="Baqiongshijinshibuzheng">4342–4343</ref>), p. <ptr type="infra" target="Lu572 Lu572end"/>.</note> Both, Lu
+                            Zengxiang and the epigrapher Ke Changsi <foreign xml:lang="zh">柯昌泗</foreign> (1899–1952), in his <title>
+                                <hi rend="italic">A
+                                    Critical Assessment of the Similarities and Differences with
+                                    ‘Speaking About Stones’</hi>
+                            </title> (<hi rend="italic">‘Yu shi’
+                                yitong ping </hi>
+                            <foreign xml:lang="zh">語石異同評</foreign>), note that,
+                            based on the <title>
+                                <hi rend="italic">History of the Northern Qi
+                                    Dynasty</hi>
+                            </title> (<hi rend="italic">Beiqishu </hi>
+                            <foreign xml:lang="zh">北齊書</foreign>), from 570 Hulü Wudu was Magistrate of
+                            Yan District, the area where Mount Yi is located.<note>See Discussion
+                                    (<ref type="biblio" target="Yushiyitongping">299–300</ref>), p.
+                                    <ptr type="infra" target="KeMagistrate"/>.</note> Modern
+                            scholars have adopted this identification and dating.<note>For the
+                                historical background, see <ref type="biblio" target="Wang_Lai1991a">9–10</ref>. </note>
+                        </p>
+                        <p>In 572, Hulü Guang fell victim to a vicious palace intrigue. He and,
+                            thereafter, all adult members of his entire family were put to death.
+                            Those were the years when the Northern Zhou was preparing to overthrow
+                            the Northern Qi, which they accomplished five years later, in 577.
+                            According to the account in the <title>
+                                <hi rend="italic">History of the
+                                    Northern Qi Dynasty</hi>
+                            </title> and other historical sources,
+                            Wei Xiaokuan <foreign xml:lang="zh">韋孝寬</foreign>, a Northern Zhou
+                            general, who was in awe of Hulü Guang’s competence and courage as a
+                            military leader, ordered his spies in Northern Qi to spread the rumor
+                            that Hulü Guang was conspiring to usurp the throne. The blind Zu Ting
+                                <foreign xml:lang="zh">祖珽</foreign>, a high official at the Northern
+                            Qi court, who had once been humiliated by Guang and had, since then,
+                            harbored a grudge, exploited this rumor and fabricated a children’s
+                            rhyme that, by a play of words, could be interpreted as revealing
+                            Guang’s ambition to make himself emperor. Then, Zu Ting reported to the
+                            Emperor what the children were singing on the street and accused Hulü
+                            Guang of treason.<note>For children’s rhymes as a medium to criticise
+                                the ruler see <ref type="biblio" target="Bauer1973">15</ref>.
+                            </note> A ruse brought Guang to a meeting in the palace, where he was
+                            killed. </p>
+                        <p>Emperor Wu of Zhou was overjoyed at the news and declared a general
+                            amnesty in his realm to celebrate the event. After he had conquered Ye
+                                <foreign xml:lang="zh">鄴</foreign>, the capital city of the Northern
+                            Qi, the Emperor said that, he would never have been able to do so, if
+                            Hulü Guang had still been alive. He respected his adversary so much
+                            that, posthumously, he bestowed on him the title, Supreme Pillar of
+                            State (<hi rend="italic">shang zhuguo </hi>
+                            <foreign xml:lang="zh">上柱國</foreign>), and enfeoffed him as Sire of the Veneration of the
+                            State (<hi rend="italic">chongguo gong </hi>
+                            <foreign xml:lang="zh">崇國公</foreign>).<note>
+                                <ref type="biblio" target="BeiQishu1972">1:
+                                    226</ref>; <ref type="biblio" target="Beishi1974">6:
+                                    1967–1970</ref>; <ref type="biblio" target="Zizhitongjian1956">171: 5308–5309</ref>. </note> An astute contemporary observer,
+                            Yan Zhitui <foreign xml:lang="zh">顏之推</foreign> (531–ca. 595),
+                            concurred, noting that Hulü Guang had been innocent when killed, and
+                            that the fate of the Qi dynasty hinged on his fate.<note>
+                                <hi rend="italic">Family Instructions for the Yan Clan</hi> (<hi rend="italic">Yan shi jiaxun </hi>
+                                <foreign xml:lang="zh">顏氏家訓</foreign>) in <ref type="biblio" target="XXSKQS">1121:
+                                    619a</ref>. For a translation see <ref type="biblio" target="TengSsuyv1968">50</ref>.</note>
+                        </p>
+                        <p>When the inscription was carved in the Cave of the Bewitching Fairy, the
+                            members of the Hulü clan may have already been aware that a calamity
+                            might befall them, and Hulü Wudu may have asked his otherwise unknown
+                            household retainer, Dong Zhentuo, for a pious deed to avert the
+                            catastrophe. Indeed, his grandfather, Hulü Jin, had once warned his son,
+                            Hulü Guang, that marrying into the imperial house would to lead to
+                                    disaster.<note>
+                                <ref type="biblio" target="BeiQishu1972">17:
+                                    222</ref>.</note> Yet while Hulü Guang is unanimously praised as
+                            a military leader, Guang’s eldest son, Hulü Wudu, is criticized as
+                            corrupt and oppressive.<note>“He did not achieve anything in his
+                                political career, for he was preoccupied with amassing wealth and he
+                                robbed the people. <foreign xml:lang="zh">所在並無政績，唯事聚斂，侵漁百姓。</foreign>” <ref type="biblio" target="BeiQishu1972">17: 226</ref>; see also <ref type="biblio" target="Beishi1974">6: 1972</ref>. </note> The tomb of another
+                            son of Hulü Guang, Hulü Che <foreign xml:lang="zh">斛律撤</foreign>
+                            (562–595), has been excavated.<note>
+                                <ref type="biblio" target="Watt_An_Howard2004">247f</ref>.</note> He was spared
+                            execution, because he was under 14 years old at the time his father was
+                            put to death. </p>
+                        <ab>
+                            <abbr>LL</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Yi_3.1_r_total_G7S99580.JPG">
+                            <head xml:lang="zh">“五華峰”題銘（位於“霽月”二字下方）；2007年拍攝</head>
+                            <head>The inscription “Summit of the Five Flowers” (seen at the lower
+                                left of the image); photograph taken in 2007</head>
+                            <graphic url="Yi_3.1_r_total_G7S99580.JPG" height="160mm"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>Two dates are relevant to the inscriptions at Mount Yi. As recently as
+                            October 2002, the date 564, the third year of the <hi rend="italic">heqing</hi> era (<foreign xml:lang="zh">河清三年</foreign>), was
+                            discovered above the colophon around the corner from the main cliff face
+                            with the sutra text, Yi 1 (fig. <ptr target="Yi_w_LL_G7S95010.jpg"/>).
+                            The colophon at the Summit of the Five Flowers names a monk and lay
+                            donors (Yi 2). It has been suggested that the date refers to the
+                            donation of the carved sutra passage by <hi rend="italic">
+                                <foreign xml:lang="sa">śramaṇa</foreign>
+                            </hi> Sengwan and the eight lay
+                            persons.</p>
+                        <p>The second sutra passage carved at Mount Yi, that at the Cave of the
+                            Bewitching Fairy, includes a donor’s colophon within the first column of
+                            the inscription. As the donor Dong Zhentuo states that he had belonged
+                            to the household of Grand <hi rend="nh">Guardian</hi> Hulü, it is
+                            assumed, as described above, that this is a reference to Hulü Wudu, who
+                            served as Magistrate in the Yan District from 570 until he was executed
+                            in the seventh month of 572. Therefore, the inscription of the second
+                            sutra passage is dated to these years.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Yi_sc_DSC00049.jpg">
+                            <head xml:lang="zh">五華峰刻經節文的位置；2008年拍攝</head>
+                            <head>Position of the carved sutra passage at the Summit of the Five
+                                Flowers; photograph taken in 2008</head>
+                            <graphic url="Yi_sc_DSC00049.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>The sutra passage at the Summit of the Five Flowers (Yi 1) was first
+                            documented in 1991, and the accompanying colophon (Yi 2) in 2003. All
+                            earlier epigraphic sources on Mount Yi only record the sutra passage of
+                            98 characters with a colophon located at the Cave of the Bewitching
+                            Fairy (Yi 3). Dong Chun <foreign xml:lang="zh">董純</foreign> and Ma
+                            Xingyi <foreign xml:lang="zh">馬星翼</foreign>, who compiled their <hi rend="italic">Draft Gazetteer of Zou County</hi> (<hi rend="italic">Zou Xian zhi gao </hi>
+                            <foreign xml:lang="zh">鄒縣志稿</foreign>) in
+                            1834, gave the earliest account. This draft was only printed in 1995,
+                            but Qian Tai <foreign xml:lang="zh">錢枱</foreign> quoted from it in his
+                                <hi rend="italic">Sequel to the Gazetteer of Zou County:
+                                Epigraphy</hi> (<hi rend="italic">Zou Xian jinshi xuzhi
+                                </hi>
+                            <foreign xml:lang="zh">鄒縣金石續志</foreign>) of 1892.<note>
+                                <ref type="biblio" target="Zouxianjinshixuzhi">136</ref>.</note> Dong
+                            and Ma give the beginning of the carved text passage and say that it is
+                            engraved at a place named Stone Sutra Cave (Shijing Dong <foreign xml:lang="zh">石經洞</foreign>) on Mount Yi. They mention that the same
+                            text in an identical layout was also carved on Mount Jian <foreign xml:lang="zh">嵾山</foreign> (JS 6). However, as their transcription
+                            of the colophon was incomplete, they could not date it more exactly than
+                            “certainly carved after the Northern Wei dynasty.”<note>
+                                <ref type="biblio" target="Zouxianzhigao">469</ref>.</note> Wu Shifen
+                                <foreign xml:lang="zh">吳式芬</foreign> (1796–1856), who also mentioned
+                            this inscription in his <title>
+                                <hi rend="italic">Categorized Edition of
+                                    an Assembled Catalog of Epigraphica</hi> (<hi rend="italic">Jinshi huimu fenbian </hi>
+                                <foreign xml:lang="zh">金石彙目分編</foreign>
+                            </title>), did not give any more
+                                    information.<note>
+                                <ref type="biblio" target="Jinshihuimufenbian">21153</ref>.</note>
+                        </p>
+                        <p>The fact that the same text passage is also carved on Mount Jian led to
+                            some confusion about the whereabouts of the Mount Yi inscription at the
+                            Cave of the Bewitching Fairy. Lu Zeng­xiang <foreign xml:lang="zh">陸增祥</foreign> (1833–1889), who identified the sutra text of Yi 3 in
+                            his <title>
+                                <hi rend="italic">Supplementary Corrigenda to the Epigraphica
+                                    of Eight Gems Studio</hi> (<hi rend="italic">Baqiong shi jinshi
+                                    buzheng </hi>
+                                <foreign xml:lang="zh">八瓊室金石補正</foreign>)</title>,
+                            erroneously thought it to be located at Mount Jian.<note>
+                                <ref type="biblio" target="Baqiongshijinshibuzheng">4342–4343</ref>.</note> Nonetheless, Lu made valuable contributions
+                            to the investigation of this inscription. He not only recognized that
+                            the same text passage is also found at Radiant Buddha Cliff (Yingfo­yan
+                                <foreign xml:lang="zh">映佛岩</foreign>, CLS 1) on Mount Culai (Culai
+                            Shan <foreign xml:lang="zh">徂徠山</foreign>), but he was also able to read
+                            the preceding colophon in full, thus identifying the donor as Hulü Wudu
+                                <foreign xml:lang="zh">斛律武都</foreign>.
+                            <!--He further identified the donor mentioned in the colophon in the
+                            first column as Hulü Wudu <foreign xml:lang="zh">斛律武都</foreign>, son of Hulü Guang <foreign xml:lang="zh">斛律光</foreign>, and
+                            therefore dated the carving to the years before 572, when Hulü Wudu died.
+                            Lu noted the title Grand Guardian, but he did not reflect upon whether this title was that of Hulü Guang
+                            or an abbreviation of that of his son, Hulü Wudu.-->
+                        </p>
+                        <p>Later on, Ke Changsi <foreign xml:lang="zh">柯昌泗</foreign> (1899–1952), in
+                            his addendum to Ye Changchi’s <foreign xml:lang="zh">葉昌熾</foreign>
+                            (1847–1917) <title>
+                                <hi rend="italic">Speaking About Stones</hi> (<hi rend="italic">Yu shi </hi>
+                                <foreign xml:lang="zh">語石</foreign>
+                            </title>), again relied on the information given by Wu
+                            Shifen, but added a note on the identity of Hulü Wudu.<note>
+                                <ref target="Yushiyitongping" type="biblio">299–300</ref>.</note>
+                        </p>
+                        <p>Systematic research on Mount Yi’s inscriptions only started around 1990.
+                            In 1991, the first volume of the three volumes on <title>
+                                <hi rend="italic">Research on the Sutras Engraved on Polished Cliffs
+                                    of the Northern Dynasties</hi> (<hi rend="italic">Beichao moya
+                                    kejing yanjiu </hi>
+                                <foreign xml:lang="zh">北朝摩崖刻經研究</foreign>)</title> appeared. Wang Sili <foreign xml:lang="zh">王思禮</foreign>, Lai Fei <foreign xml:lang="zh">賴非</foreign>, and Hu Xinli <foreign xml:lang="zh">胡新立</foreign>
+                            distinguished two separate inscriptions of the same sutra passage
+                            located at the Cave of the Bewitching Fairy and at the Summit of the
+                            Five Flowers.</p>
+                        <p>At that time, not much was known about the latter inscription (Yi 1),
+                            which was provisionally dated to about 572, following the identification
+                            of Hulü Wudu by Lu Zengxiang. Only the discovery in 2001 of another
+                            colophon, and in 2002, of its date 564 (Yi 2), encouraged more scholarly
+                            discussion, which is found in the volume of 2003 and in subsequent
+                            literature. </p>
+                        <p>Mount Yi was also treated in An Tingshan’s <foreign xml:lang="zh">安廷山</foreign>
+                            <title>
+                                <hi rend="italic"> The Art of Calligraphic
+                                    Engravings on Polished Cliffs in Shandong</hi> (<hi rend="italic">Shandong moya shuke yishu </hi>
+                                <foreign xml:lang="zh">山東摩崖書刻藝術</foreign>)</title> of 1997, which places
+                            emphasis on the calligraphy. Lai Fei’s volume of 2000, the <title>
+                                <hi rend="italic">Sutras Engraved on Polished Cliffs of the Northern
+                                    Dynasties</hi> (<hi rend="italic">Beichao moya kejing
+                                </hi>
+                            </title>
+                            <foreign xml:lang="zh">北朝摩崖刻經</foreign>), concentrates
+                            on the inscription at the Cave of the Bewitching Fairy. In his
+                            publication of 2007, Lai Fei also documents the sutra passage and the
+                            colophon at the Summit of the Five Flowers. </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>Engraved at Mount Yi are two sutra passages (Yi 1 and Yi 3) with two
+                            relevant historical inscriptions (Yi 2 and part of Yi 3).</p>
+                    </div>
+                    <div>
+                        <head>Sutra Passages</head>
+                        <p>At the Summit of the Five Flowers and at the Cave of the Bewitching
+                            Fairy, the same passage in 98 characters from the <title>
+                                <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken by
+                                        <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi>
+                            </title> was
+                            carved. Their layout differs: The version at the Summit of the Five
+                            Flowers forms a horizontal rectangle, while that at the Cave of the
+                            Bewitching Fairy is organized in a verticle rectangle. The carvings also
+                            vary in their usage of the character <hi rend="italic">wu</hi>, which is
+                            written in the full form <foreign xml:lang="zh">無</foreign> at the
+                            Summit of the Five Flowers, and in the abbreviated form <foreign xml:lang="zh">无</foreign> at the Cave of the Bewitching Fairy.</p>
+                        <p>The same sutra passage of 98 characters is also found at Mount Jian (JS
+                            6, destroyed), Mount Culai (CLS 1), Mount Hongding (HDS 16.2 and HDS
+                            22), Mount Yang (destroyed), and on two stele fragments from Yanzhou (YZ
+                            1 and YZ 2). It is also part of the text on the Correct Law carved on
+                            the stele from Mount Shuiniu (SNS 2).<note>For the contents and text
+                                history of this passage of 98 characters, see the introduction to
+                                HDS 16.2 and HDS 22 in <ref type="biblio" target="Shandong_1">90–91</ref>.</note>
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                        <div>
+                            <head>Yi 1</head>
+                            <p>In the layout of the 98 character passage at the Summit of the Five
+                                Flowers, columns 1 to 9 have ten characters each, while the last
+                                column has only eight. An identical layout in a horizontal rectangle
+                                was not only carved at Mount Hongding’s northern slope (HDS 16.2),
+                                but was also used for a stele with the same text passage found at
+                                Yanzhou, of which only a fragment remains (YZ 2).</p>
+                            <p>The carved passage at the Summit of the Five Flowers further carries
+                                a title in four characters reading <hi rend="italic">
+                                    <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>
+                                </hi> (<hi rend="italic">Wenshu bore </hi>
+                                <foreign xml:lang="zh">文殊般若</foreign>). The same four characters are found on rubbings
+                                of the now destroyed inscription JS 3, from Mount Jian (see
+                                Shandong, volume 3), which is thought to be the title of the same
+                                sutra passage of 98 characters that was once carved below it (JS 6),
+                                but in a different layout. The stele from Mount Shuiniu (SNS 2)
+                                displays the same four character title in its stele head (see
+                                Shandong, volume 3). </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>Yi 3</head>
+                            <p>The 98 characters passage on the cliff next to the Cave of the
+                                Bewitching Fairy has seven vertical columns of 14 characters each,
+                                thus forming a vertical rectangle. An identical layout was
+                                originally also carved at Mount Jian (JS 6) and is still present
+                                today on Mount Hongding’s southern slope (HDS 22). It was also used
+                                for a stele with the same text passage found at Yanzhou (YZ 1).</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscriptions</head>
+                        <!--div>
+                            <p>Important historical information is provided by the colophon to the
+                                sutra passage on the Summit of the Five Flowers (Yi 2), and the
+                                colophon preceeding the sutra passage at the Cave of the Bewitching Fairy
+                                (Yi 3).</p>
+                        </div-->
+                        <div>
+                            <head>Yi 2</head>
+                            <p>The colophon on the Summit of the Five Flowers comprises a list with
+                                donors’ names, a date, and a fragment of two characters.</p>
+                            <p>The names of donors in the colophon were first discovered in October
+                                2001. The rubbing, taken initially in 2002 (rubbing E), reads
+                                “Seng’an from Dongping” (Dongping Seng’an <foreign xml:lang="zh">東平僧安</foreign>) in the second column from the right. On the
+                                basis of this rubbing, the adjacent sutra passage was thought to
+                                have been written by the monk Seng’an Daoyi (fl. 562–579), whose
+                                signature is found at several inscription sites in Shandong.
+                                However, further research and two new rubbings taken in 2005
+                                (rubbings A and D) did not support this reading. According to these
+                                more reliable rubbings, the heavily weathered colophon gives names
+                                of at least eight lay donors, as well as the name of a certain <hi rend="italic">
+                                    <foreign xml:lang="sa">śramaṇa</foreign>
+                                </hi>,
+                                Sengwan <foreign xml:lang="zh">僧万</foreign>.</p>
+                            <p>
+                                <anchor xml:id="abbrTitle"/>Above the left part of the list of
+                                donors’ names, a date, reading “third year of the <hi rend="italic">heqing</hi> era (564)”, was carved.
+                                <!--It is thought to refer to the year of the donation of
+                                    the adjacent sutra passage in 98 characters (Yi 1).-->
+                                In the upper right corner, above the donors’ names, two characters
+                                were placed, reading <hi rend="italic">
+                                    <foreign xml:lang="sa">prajñā</foreign>
+                                </hi> (<hi rend="italic">bore </hi>
+                                <foreign xml:lang="zh">般若</foreign>). Even further to the right, some
+                                researchers have identified two more characters, <hi rend="italic">wenshu </hi>
+                                <foreign xml:lang="zh">文殊</foreign> (fig. <ptr target="Yi_2.3_B.tif"/>). An entire inscription may have
+                                disappeared here or may have been left unfinished. However, it is
+                                more likely that the two characters <hi rend="italic">
+                                    <foreign xml:lang="sa">prajñā</foreign>
+                                </hi> are an abbreviation for
+                                “Perfection of Wisdom” (<hi rend="italic">
+                                    <foreign xml:lang="sa">prajñā­pāramitā</foreign>
+                                </hi>, <hi rend="italic">bore
+                                    boluomi </hi>
+                                <foreign xml:lang="zh">般若波羅蜜</foreign>). At Mount
+                                Tao <foreign xml:lang="zh">陶山</foreign> (TS 3), and at Mount Culai
+                                    <foreign xml:lang="zh">徂徠山</foreign> (CLS 3) the same two
+                                characters appear as part of a five character invocation “<hi rend="italic">bore boluomi</hi>” (see Shandong, volume 3). The
+                                two characters here were perhaps part of such an invocation, and
+                                thus had a similar status as engraved Buddha names. </p>
+                            <p>Alternatively, the two characters may have referred to the expression
+                                    <foreign xml:lang="sa">Mahāprajñā</foreign> (<hi rend="italic">mohe bore </hi>
+                                <foreign xml:lang="zh">摩訶般若</foreign>), which is
+                                often found at the very end of manuscripts of ritual texts as a form
+                                of benediction.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>Yi 3</head>
+                            <p>The colophon of Yi 3 provides evidence for dating the sutra passage
+                                carved at the Cave of the Bewitching Fairy between 570 and 572. </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <?cb?>
+                    </div>
+                    <div>
+                        <head>Carving Techniques</head>
+                        <p>Having examined the carving methods of Mount Yi’s rock through a
+                            transverse section analysis of its strokes, we conclude that the carving
+                            technique mainly employed is that of V-shaped carving. The carver
+                            chisels slanting lines from both sides of a stroke, so that these lines
+                            intersect and the stroke takes shape.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <figure rend="center" n="figure" xml:id="Yi_sc_DSC00141.JPG">
+                            <head xml:lang="zh">“妖精洞”及其刻經，嶧山3號；2008年拍攝</head>
+                            <head>Cave of the Bewitching Fairy and inscription, Yi 3; photograph
+                                taken in 2008</head>
+                            <graphic url="Yi_sc_DSC00141.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

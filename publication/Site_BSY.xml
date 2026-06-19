@@ -1,0 +1,1221 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the site of Beishan Monastery</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>27.11.2017</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>created</item>
+            </change>
+            <change>
+                <date>27.3.2025</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>inserting Chinese translation by Wang Jialu</item>
+            </change>
+        </revisionDesc>
+
+    </teiHeader>
+    <text xml:id="Site_Beishanyuan">
+        <body>
+            <div xml:lang="zh">
+                <head>北<space n="2"/>山<space n="2"/>院</head>
+                <p>
+                    <foreign xml:lang="en">As has been known for some time, Dunhuang manuscripts from the beginning of the
+                    tenth century provide evidence for a liturgical connection between the <hi rend="italic">Diamond Sutra</hi> in 32 sections and the <hi rend="italic">Scripture on the Ten Kings</hi>. The extraordinary salvific powers of the <hi rend="italic">Diamond Sutra</hi> played a significant role in the cult of the Ten Kings of Hell who execute judgement in the netherworld. The cliff carvings at Beishan Cloister belong to an earlier phase in the formation of that liturgy. According to three dated inscriptions, this site’s image niches and stone texts were carved between 877 and 882. That makes both the large niche 10
+                    with narrative scenes of <foreign xml:lang="sa">Kṣitigarbha</foreign> and the
+                    Ten Kings of Hell and the nearby stone text of the liturgical edition of the <hi rend="italic">Diamond Sutra</hi> in 32 sections the earliest examples of
+                    their kinds.</foreign>
+                </p>
+                <div>
+                    <head>刻經址</head>
+                    <p>北山院位於北山，位於綿陽市游仙區魏城鎮東北2公里。<note>見《魏成北山院摩崖造像》 <ref type="biblio" target="Weicheng_BeishanYuan">第90頁，圖1</ref>所示地圖。</note>鳥瞰圖（<ptr target="BSY_DJI_0629.JPG"/>）展示了現今北山院的較小規模。北山院在20世紀70年代之前一直是活躍的宗教場所，但其建築在文化大革命期間遭到摧毀。1996至2001年間，當地居民重建了現今的主殿。<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第90－91頁</ref>。</note>主殿（<ptr target="BSY_IMG_6112.JPG"/>）建於一座山崖前，山崖自西南至東北延展約38米。現代殿則覆蓋了第1至第3龕，這三個壁龕位於區域I，分布在約6米長的範圍内。區域II起始於距離西南端
+                        12米處。在這裏，編號爲第4至第15的龕群分布在山崖上，長約20米（<ptr target="BSY_panorama_2025.tiff"/>和<ptr target="BSY_map_straight.jpg"/>）。再向北50米處，一塊名爲“金櫃子”的巨石容納了另外五個龕。</p>
+                    <p>2007年12月至2008年4月，四川省文物考古研究院機構對北山院的佛像龕和銘文進行了考察。<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第90－114頁</ref>。</note>調查調查報告對前兩個主要區域的十五個龕進行了詳細的描述和繪圖，而對“金櫃子”巨石上的壁龕則是以較爲概括的方式進行處理。<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第112－113頁</ref>，報告中指出“金櫃子”巨石上的龕窟遭到嚴重損壞。在中央佛像組群的左右兩端，第17龕展示了描繪千佛的數排小型佛像。每座佛像旁都有帶其名稱的竪長形榜題，但這些銘文已經變得難以辨認。千佛主題也延續至第17龕的外部。通過追溯一些造像題記可知，這些小型佛像中的一座或幾座是由私人供養人代表他們已故的親人所供獻的。官方調查報告出版以後，張總再次考察了“金櫃子”龕群，并補充了第18－20龕中造像題記的部分字形（<ptr target="beishanyuan_part2_mosaic_proc-huafo.jpg"/>）。他得出的結論是，該銘文中有關家庭關係的術語與晚唐時期的用法一致，見張總<ref type="biblio" target="ZhangZong2023a">第264－265頁</ref>。</note>北山院在20世紀70年代之前一直是活躍的宗教場所，但其建築在文化大革命期間遭到摧毁。1996至2001年間，當地居民重建了現今的主殿。<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第90－91頁</ref>。</note>
+                    </p>
+                    <p>懸崖的西南端起列坐着一排龕窟，最大的一座佛像亦在此。這是一座半身佛像，坐落於主殿祭壇的後方（<ptr target="BSY_DSC08228.JPG"/>）。這尊佛像是用泥土塑成，位於原始龕前，該龕高6米，寬3.6米，深0.5米。<foreign xml:lang="en">This modern image, a substitute for the original image that was destroyed during the Cultural Revolution,<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第90－91頁</ref>。</note> is painted in gaudy colors. </foreign><!--它的表面以鮮艷的顔料繪製，這一現代的呈現可能遮蓋了原始佛像的石質核心。-->由其赤裸的上身和豐滿的肚子我們可以認定這尊佛像爲布袋，他是傳説中10世紀彌勒佛的化身，通常以光頭僧人的形象出現。然而如今這座佛像的頭部特徵包括長耳垂和藍色的鬈髮，以及白毫
+                        和低矮的肉髻 ，這些都是完全覺悟的佛陀的標志。</p>
+                    <p>在這一現代詮釋版的彌勒佛右側刻有銘文，該銘文提供了關於原始佛像身份的證據。造像題記位於第1與第2龕之間的矩形岩面上，龕内則有站立的菩薩像（<ptr target="BSY_DSC0685.JPG"/>及<ptr target="beishanyuan_part1_mosaic_proc-Mile.jpg"/>）。題記可追溯至乾符四年十月二日（877年11月10日），記録了“敬造彌勒大像一身”。<note>抄録于《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第92頁</ref>。</note>因爲這尊佛像的存在，北山院在當地也被稱爲“大佛寺”。<note>劉佳麗<ref type="biblio" target="LiuJiali2000">第44頁</ref>。</note>
+                    </p>
+                    <p>該址的現有稱呼在唐代（618－907）末期已經被使用，這一點可以從另一處銘文中得到證實（<ptr target="BSY_DSC08169.JPG"/>及<ptr target="beishanyuan_part3_mosaic_proc-Beishanyuan.jpg"/>）。這處銘文記載了“建置北山院”，日期爲乾符七年十二月十四日（即881年1月17日）。<note>乾符年實際上在其第六年結束，即880年2月13日；隨後自2月14日起，進入唐僖宗（873－888年在位）廣明元年。</note>銘文位於損壞嚴重的第5龕佛像右上角。圍繞在原本覆有華蓋的三個主像周圍的群像中，目前僅存18身。這個龕可能曾展示過一個極樂世界的場景，因爲這段刻於880年的銘文内容與《阿彌陀經》所描繪的往生净土有關。<note>抄録於《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第96頁</ref>。張總 <ref type="biblio" target="ZhangZong2023a">第263頁</ref>，及羅春曉<ref type="biblio" target="LuoChunxiao2010">第236頁</ref>，都將日期讀作“乾符六年”，而非“七年”，因此對應到879年。</note>
+                    </p>
+                    <p>旁邊的第6龕内有一身三頭八臂的摩利支天像（<foreign xml:lang="sa">Mārīcī</foreign>）。由於上文提及的刻於880年的銘文位於第6龕左上方，它有時會被歸屬於第6龕，而非第5龕。<note>在張總 <ref type="biblio" target="ZhangZong2008">第88頁</ref>，及<ref type="biblio" target="ZhangZong2023a">第263頁</ref>中，他將這段銘文歸於第6龕，但在張總<ref type="biblio" target="ZhangZong2008">第88頁，注釋3</ref>中，他也認可這段銘文可歸於第5龕。</note>
+                    </p>
+
+                    <figure rend="center" n="figure" xml:id="BSY_DJI_0629.JPG">
+                        <head xml:lang="zh">現今北山院鳥瞰圖。2022年拍攝</head>
+                        <head>Aerial view of present-day Beishan Cloister; photograph taken in 2022 </head>
+                        <graphic url="BSY_DJI_0629.JPG"/>
+                    </figure>
+                    <p>第三處有日期的銘文位於第11龕右側，這裏有一個較小的龕窟（第13龕），龕内雕刻一尊坐於高蓮座上的菩薩像（<ptr target="BSY_DSC08105.JPG"/>）。第13龕的左側邊緣刻有銘文（高37厘米，寬12.5厘米），記録了在中和元年最後幾個月中的某一天完成的一組儀式。其對應的時間範圍是881年10月27日到882年1月22日。<note>抄録於《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第111頁</ref>。張總 <ref type="biblio" target="ZhangZong2008">第88頁</ref>，及張總<ref type="biblio" target="ZhangZong2023a">第264頁</ref>，提出了對可見文字的不同解讀，但日期仍然相同。</note>
+                    </p>
+                    <p>由此我們在北山院得到三處含日期的銘文：第一處日期爲877年11月10日，位於第1與第2龕之間；第二處日期爲881年1月17日，位於第5與第6龕上方；第三處日期爲881年末或882年初，位於第11與第13龕之間。<note>另見文齊國<ref type="biblio" target="WenQiguo1991">第52頁</ref>。</note>此外，在清理工作中還發現了一塊石碑殘片，上面刻有日期乾符五年三月十五日（即878年4月21日）。<note>《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第112頁</ref>。保留下來的文字爲：“……與阿鼻地獄”和“……劫永不見佛”。</note>
+                    </p>
+                    <p>這説明北山院的整個佛像群、龕窟和銘文是在877至882年之間刻成的。此外，建造工作從山崖的西南端開始，彌勒佛像爲最先建成。接下來，施工順着岩石的延展進行。最晚至882年1月，齋飯及一系列儀式便在建成後的寺院舉行。因此我們或許可以合理地假設，大型彌勒佛像、獨具風格的雕像龕窟、以及刻于主崖末端第14與15龕内的銘文，是一個經過縝密計劃的項目所呈現出來的成果。這座名爲北山院的寺院，其正式建制旨在爲僧侣提供宗教活動場所，他們可以在崖壁的刻像旁邊或前方舉行儀式。</p>
+                    <p>在現今的主殿前還保存有更多的碑文殘片。它們所記録的日期可對應於981年（太平與國六年）、1108年（大觀二年）和1110年（大觀四年）。<note>帶有對應於1108年和1110年的兩塊殘片在《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第112頁</ref>，有提及。該殘片是在清理崖壁前區域時被發現的，當時被泥土覆蓋。</note>這爲北山院窟龕造像在後來被持續使用提供了證據。</p>
+                    <figure rend="center" n="figure" xml:id="BSY_DSC08228.JPG">
+                        <head xml:lang="zh">經現代修復的北山院大佛。2022年拍攝</head>
+                        <head>Modern restored large Buddha of Beishan Cloister; photograph taken in
+                            2022 </head>
+                        <graphic url="BSY_DSC08228.JPG"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>地藏菩薩與十<!--［冥］-->王</head>
+                    <p>崖壁從位於第1龕的現代布袋像向右延展，總共開鑿了14個龕窟，跨度約38米。這組龕窟中最大的一座是第10龕（<ptr target="BSY_DSC08145.JPG"/>及<ptr target="Beishanyuan_niches.jpg"/>）。<note>注：張總在其文章中詳細研究了這個龕窟的圖像佈局，但稱其爲第9龕（<ref type="biblio" target="ZhangZong2008"/>及<ref type="biblio" target="ZhangZong2023a"/>）。</note>其高160厘米，寬250厘米。龕洞右側深入崖壁63厘米，比左側要深得多（<ptr target="BSY_DSC08137.JPG"/>）。因此，垂懸的崖壁形成了一種傾斜的遮蔽，保護了龕洞右側不受陽光和雨水的侵蝕，而較少受保護的左側則更嚴重地遭到風化。<note>李琛妍
+                        <ref type="biblio" target="LeeSonyaS2021">第204－208頁</ref>，在大足石刻中的一些洞窟中也觀察到了這種特點雕刻技術所産生的類似保護效果。</note>
+                    </p>
+                    <figure rend="left" n="figure" xml:id="beishanyuan_part1_mosaic_proc-Mile.jpg">
+                        <head xml:lang="zh">位於大佛右側第1與第2龕之間的乾符四年十月二日（877年11月10日）銘文；2010年掃描</head>
+                        <head>Inscription dated to November 10, 877 (<foreign xml:lang="zh">乾符四年十月二日</foreign>) in between niches 1 and 2 to the left-hand side
+                            of the large Buddha; scan taken in 2009</head>
+                        <graphic url="beishanyuan_part1_mosaic_proc-Mile.jpg"/>
+                    </figure>
+                    <p>第10龕刻畫了地藏菩薩和十王，他們由岩石雕刻而成。張總對這些叙事場景進行了詳細的研究，他根據上述碑文，將這些造像的年代定爲879/880至881年。<note>張總<ref type="biblio" target="ZhangZong2023a">第264頁</ref>，及張總<ref type="biblio" target="ZhangZong2008">第89頁</ref>，指出第11龕中“三大士”造像爲此題材最早實例，這一主題隨後在北山大足第177龕再次出現。</note>第10龕的兩個顯著特徵使它與現存其他同主題的造像區分開來：其一是將大壁龕分爲六個框，這些框以兩層排列，每層三個框（<ptr target="BSY_Nische-10_Schema.tif"/>）；其二是將閻羅王與地藏菩薩并列，使他們位於平等的地位，二者分别坐在上層中央區域的華蓋之下。<note>關於此龕窟内容的完整文獻記録，包括對保存下來的共計74座造像的編號、描述與繪圖，見《魏成北山院摩崖造像》<ref type="biblio" target="Weicheng_BeishanYuan">第98－109頁</ref>。</note>
+                    </p>
+                    <p>地藏菩薩身著僧衣，倚坐於左側的高蓮座上。他由兩位頭戴桂冠的菩薩隨侍。在左側，閻羅王坐於書案後面。其身側是負責記録善與惡的善惡童子。右邊的童子手持記録善惡事迹的卷軸；左邊的童子則握著一面大鏡。這是一面“業鏡”，可以映射出每一位罪人在過去所犯下的罪行。閻羅王的身後還排列着更多人物。其中兩位手持象徵榮譽的寶傘，也有手持武器的護衛人物。</p>
+                    <p>附近的銘文賦予了這兩個人物明確的身份：分别讀作“五七閻羅王”和“敬造地藏菩薩一座”。<note>張總<ref type="biblio" target="ZhangZong2023a">第115－116頁</ref>，給出了對十王名單的逐一抄録，補全了第七、八和十位王缺失的名稱。</note>
+                    </p>
+                    <p>在壁龕下層的中央框，一位面容威武的將軍全副武裝，端坐于書案後，占據了畫面的中心位置。這應該是第十位“三年五道轉輪王”，不過他的名字未被刻録，或已無法辨認。一名書吏鞠躬於案前，其身後是一大群護衛隨從。此外，畫面中還描繪了兩名囚犯被地獄守護虐待的場景。在這個框的下邊緣曾經刻有更多人物，但如今衹剩下石核部分。張總認爲這些應該是五道（或六道）輪迴的場景。往生的人物排隊向右延申，我們看到囚犯戴着木枷與惡魔交替出現，這是對阿鼻地獄的描繪。然而在這些受罰者之上，是一排重生於人間或天界的靈魂，這一點可以從他們所坐的云朵上看出來。<note>張總<ref type="biblio" target="ZhangZong2023a">第262－263頁</ref>，（另見張總<ref type="biblio" target="ZhangZong2008">第83頁</ref>）承認這些人物行列中并未包括與畜生道重生相符的場景，但他指出，上排中一位男子將物品交給一位戴著木枷的人物這一場景，可以看作是代表餓鬼道，因爲類似的描繪經常出現在目連喂養其重生爲餓鬼的母親的故事背景中。</note>
+                    </p>
+                    <p>在展現地獄的官僚程序中，最具代表性的角色<hi rend="dash">──</hi>閻羅王、地藏菩薩以及最後一位負責五道輪迴之王<hi rend="dash">──</hi>無疑使第10龕的中央框吸引了觀者的目光。在兩側，其餘的八王被安排在四個框之中。每兩位王共用一個框。每位王都坐在自己的書案後，由兩位次要人物輔佐；前方則描繪了報應的場景，展示了因善行而乘雲重生，如供養佛像，或因惡行而遭獄卒折磨。因爲他們刻有名字，我們得以知曉十王在龕中的分布：</p>
+                    <p>十王形象的排列從右上框的右側開始，一七秦廣王坐於此。二七宋帝王位於其正下方，即右下框的右側。在他的旁邊坐着三七初江王。這個序列中的第四位王，即四七五官王，坐在第三王之上，因此和第一王共享同一個框。</p>
+                    <figure rend="center" n="figure" xml:id="BSY_DSC08169.JPG">
+                        <head xml:lang="zh">位於第5龕之上乾符七年十二月十四日（881年1月17日）銘文。2022年拍攝</head>
+                        <head>Inscription dated to January 17, 881,
+                            <!--(<foreign xml:lang="zh">乾符七年十二月十四日</foreign>)--> above niche 5;
+                            photograph taken in 2022 </head>
+                        <graphic url="BSY_DSC08169.JPG"/>
+                    </figure>
+                    <p>第五位王是閻羅王，我們已經在上層中間框看到他與地藏菩薩并列。第六位王，六七變成王，緊隨其後，位於左上框的右側角落。他旁邊坐着七七太山王，不過由於這部分的岩石已經嚴重風化，這位第七王的名字已無法辨認。</p>
+                    <p>接下來排列應該向下層框的左側角落延續，這裏是第八王，百日平等王所在的位置。第九王，一年都市王也在這同一框内；這位王的名字仍然可以辨認。最後一位王，即上文已經提到的五道轉輪王，坐於下層中間框；但他没有可以識别名字的榜題。</p>
+                    <p>張總曾指出，十王在本龕中的獨特分布呈現横躺着的大寫字母“S”形狀。這種構圖的主要目的是將中央的榮譽之位留給閻羅王和地藏菩薩，并將諸王的行列延申至他們的正下方結束，在此轉動輪迴之輪。類似的構圖也在四川的另一處遺址，即安岳縣的聖泉寺發現。不過聖泉寺中刻有地藏菩薩和十王造像的第1龕，其對應的年代爲五代時期（907－979），因此比北山院要晚。<note>見張總
+                        <ref type="biblio" target="ZhangZong2023a">第115－116頁</ref>，其中的兩幅圖稿展示了十王像在北山院第10龕的分布。關於安岳縣聲泉寺的詳細研究，參見張總和廖順勇<ref type="biblio" target="ZhangZong_LiaoShunyong2007"/>。</note>
+                    </p>
+                    <p>張總將北山院第10龕的造像計劃視作是對《閻羅王經》的圖解，該經文是一部衹存有寫本的藏經外文本
+                        。張總在對銅川市耀州區神德寺的佛塔中發現的寫本殘片進行重建時，將其與北京的中國國家圖書館所藏敦煌寫本BD15337和BD08045，以及大英圖書館所藏敦煌寫本S.2468進行對比，并指出，《閻羅王經》中第二及第三位王的順序與北山院所刻的名字順序相符。<note>
+                            <ref type="biblio" target="ZhangZong2023a">第87－94頁；第107－116頁</ref>。</note>
+                                與之相比，在通常被稱作《十王經》較長版本經文中，第二位及第三位王的順序是反過來的。<note>太史文<ref type="biblio" target="Teiser1994">第196－219頁</ref>，基於一個源自六篇10世紀漢文寫本的批判性版本，提供了該經文的英譯。</note>
+                    </p>
+                    <p>值得注意的重要一點是，北山院第10龕的年代爲877－882年，這使其成爲現存最早的以摩崖造像形式呈現的死後審判場景。<note>在佛教研究領域中，對地獄審判藝術表現的研究已有悠久的歷史。概括來講，此類研究可能包括：梅维恒<ref type="biblio" target="Mair1986"/>，對9世紀被他稱之爲“地獄變相”的普遍性進行了概述；太史文<ref type="biblio" target="Teiser1988a"/>，探討了記録地獄圖像用途範疇的各種一手資料；太史文<ref type="biblio" target="Teiser1994">第31－48頁</ref>，總結了十王的藝術表現（包括對常謹（活躍於989年）民間故事集《地藏菩薩像靈驗記》中第二十九個故事的討論）；雷德侯<ref type="biblio" target="Ledderose2000">第162－185頁</ref>，集中研究了寧波陸信忠工作坊中的13世紀十王畫作系列，
+                        這些具有代表性的作品揭示了此類畫作的<!--模組化-->模件圖像學和製作方法；以及牟和諦<ref type="biblio" target="Moretti2019"/>，研究了在莫高窟的各種經變和敦煌寫本中的宇宙圖表中所呈現地獄場景的視覺叙事。</note>
+                        在北山院的雕刻引起研究者的關注以前，地藏菩薩和十王的刻像衹存在於文獻資料中。繆荃孫（1844－1919）在《藝風堂金石文字目》中記録了一段由杜良等人所立的造像題記，其中提到了他們“造十王象”。該銘文“在資州北巖”，日期爲910年12月30日。<note>《藝風堂金石文字目》<ref type="biblio" target="Yifengtangjinshiwenzimu">第19637頁</ref>：“杜良等造十王象題記。正書，左行。武成叁年十一月廿六日。在資州北巖。”</note>這段造像題記位於現今四川資中北部的懸崖上，這一點支持了十王像是從岩石中雕刻而成的説法。<note>《山右石刻叢編》<ref type="biblio" target="Shanyoushike1988">卷9，第44頁</ref>，及太史文<ref type="biblio" target="Teiser1994">第39頁</ref>，亦提到一位名叫李宗大的男子敬贈了幾件作品，太史文（<foreign xml:lang="en">Teiser</foreign>）認爲這些應該是雕像。根據李宗大在鳳臺縣（今安徽）寶林寺留下的造像題記，他於903年8月20日捐贈了一塊《金剛經》石刻和一組四幅圖像。這些圖像包括釋迦牟尼像、西方净土像、維摩居士功德像及十王像（造迦像一鋪，又畫西方净土一鋪，敬畫維摩居士功德一鋪，又畫十王像一鋪）。然而，太史文（<foreign xml:lang="en">Teiser</foreign>）所稱的“金剛經石刻”，在胡聘之（1840－1912）的編目中被認爲是“金剛經幢”，且十王像可能并非雕刻，而是繪畫，因爲李大宗的造像題記中提到了“畫一鋪”。</note>
+                    </p>
+                    <p>
+                        <anchor xml:id="sevenseven_zh"/>正如第10龕中現存的銘文所示，十王中的每一位都被指定在某個特定日期爲逝者進行祭儀服務。在中世紀中國佛教徒的想象中，亡者的靈魂在穿越冥界時必須接受十王的審判，直到最終能够進入六道輪迴中的某一條。這一旅程中，在從人間死亡之後三年的時間範圍内，亡者隨時面臨墮入地獄的危險，在那裏他們將根據生前所犯的罪行受到懲罰。然而，虔誠地捐贈佛像或經文，具有拯救罪人免受嚴厲懲罰的力量。亡者的後代在恰當的時候爲其進行十王祭儀服務則是更爲有效的做法。因此，冥界十王的形象塑造、在地獄可能遭受的懲罰、通過佛教捐贈得到的救贖，以及慈悲的地藏菩薩所提供的幫助，都與對亡故家人來生安危的牽挂密切相關。</p>
+                    <p>北山院的石刻《金剛經》<hi rend="dash">──</hi>曾被恰當地稱爲“來生經文的典範” <note>何秋輝<ref type="biblio" target="HoChiewhui2019">第231頁</ref>。</note>
+                        <hi rend="dash">──</hi>恰恰是爲了滿足這樣的需求。</p>
+
+
+
+                    <figure rend="center" n="figure" xml:id="BSY_DSC08149.JPG">
+                        <head xml:lang="zh">第6龕，其中有三頭摩利支天像。2022年拍攝</head>
+                        <head>Niche 6 with three-headed Mārīcī; photograph taken in 2022 </head>
+                        <graphic url="BSY_DSC08149.JPG"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>經文</head>
+                    <p>刻經位於主懸崖段的東北端（ <ptr target="BSY_niche14_2025.tiff"/>）。2010年的調查報告將每段經文分配到各自獨立的龕中（<ptr target="BSY_map_straight.jpg"/>）。較大的第14龕，高160厘米，寬374厘米，深13厘米，内部刻有《金剛經》三十二分。在其右側的第15龕，高96厘米，寬46厘米，深1厘米，刻有一個版本的《佛頂尊勝陀羅尼經》（<ptr target="BSY_DSC08067_Inschriftfelder.jpg"/>）。</p>
+                    <p><!--2009年，美因兹應用科技大學<foreign xml:lang="en">i3mainz</foreign>空間信息與測量技術學院的團隊對銘文表面進行掃描（<ptr target="BSY_IMG_6102.JPG"/>）。得益於這些掃描，銘文的許多部分變得重新可辨認（<ptr target="BSY_Gesamtuebersicht.tif"/>）。掃描還顯示出，《金剛經》的右側刻有一排縱向的人物圖像（<ptr target="BSY_Ritzzeichnung.jpg"/>）。在這排圖像的中間，顯現出一尊坐於蓮座上的佛像的輪廓。佛像上方仍然保留着幾條勾畫出另一蓮座的綫條。-->
+                        <foreign xml:lang="en">Along the left-hand side rim of niche 14 with the <hi rend="italic">Diamond Sutra</hi> runs a vertical row of figures</foreign>（<ptr target="BSY_Ritzzeichnung.jpg"/>）。在中央佛像下方，我們可以看到一個人物的輪廓，他戴着傳統的帶翼帽巾<hi rend="dash">──</hi>幞。這可能是一位男性供養人，似以跪姿呈現。</p>
+                    <div>
+                        <head>三十二分 《金剛經》</head>
+                        <p>
+                            <anchor xml:id="BSY_Diamond_start_zh"/>刻在較淺的第14龕的銘文是一部所謂三十二分《金剛般若波羅蜜經》。這個版本結合了鳩摩羅什（350？－409/411/413？）所譯的基礎文本，T#235，以及三十二個帶有編號的標題，這些標題在傳統上被認爲是由梁武帝（464－549）的長子昭明太子蕭統（501－531）所創作。除了敦煌寫本之外，傳播這些標題的最早藏内文本之一是宋代的《金剛經解義》兩卷，<!--該解義分爲兩卷，-->
+                            <note>這部解義傳言中的作者是第六代禪宗祖師慧能（638－713）。這顯然是個錯誤的歸屬，見何秋輝
+                                    <ref type="biblio" target="HoChiewhui2019">第242頁</ref>。</note>現收録於《卍續藏經》。<note>R38，661b1－690a18；X459，24：517c14－17。</note>
+                            根據附近帶有日期的造像題記，北山院三十二分《金剛經》的刻經年代可以定爲877到882年。因此，它是目前已知最早的這一特定版本《金剛經》。</p>
+                        <p>
+                            <anchor xml:id="registerheight_zh"/>三十二段《金剛經》被刻印在岩石表面的三個水平區域（<ptr target="BSY_Gesamtuebersicht.tif"/>)。上區域高40.5至42.5厘米，每一區域都是從右向左閲讀。我們對文本的重建（見 <ptr type="infra" target="BSY_tr_start BSY_tr_end"/>）顯示，最上方和中間的區域各有128列文字，但最下方的區域衹有90列文字，剩下31個文字列的空間。儘管這部分的岩石已經嚴重風化，我們的掃描仍捕捉到了一處綫索
+                            ，這裏保留了一些文字的筆畫( <ptr target="BSY_1_anonymus_line-18-27_detail.tif"/>)。這一證據表明在三十二分《金剛經》之後，原本還存在第二處文本。<!--但目前無法確認這段文本是什麽-->。<foreign xml:lang="en">This text may have been a votive inscription 刻經題記, as it is placed in front of the kneeling male donor figure.</foreign>
+                        </p>
+                        <figure rend="center" n="figure" xml:id="BSY_DSC08145.JPG">
+                            <head xml:lang="zh">第10、11龕及遠處的《金剛經》視圖。2022年拍攝</head>
+                            <head>A view of niche 10, niche 11, and the <hi rend="italic">Diamond
+                                    Sutra</hi> at the far end; photograph taken in 2022</head>
+                            <graphic url="BSY_DSC08145.JPG"/>
+                        </figure>
+
+                        <p>經文之後應該還跟有另一段文本這一假説，可以從《金剛經》文本總體的精心安排中得到支持。或許我們有充分的理由假設，所有段落的標題都開始於每列的最上方，正如那些保留完好或部分的標題所示（段落標題4－8，12－17，20，及29－32）。由於標題向内縮進一個空格，整個文本的分段因此以最有效的方式呈現出來。值得注意的還有，除去標題外，每一列文本平均包含17個字。
+                            這與唐朝朝廷所確立的經文寫本標准格式相符。<note>高奕睿<ref type="biblio" target="Galambos2015">第969－970頁</ref>。</note>
+                            因此我們看到銘文的布局與寫本的製作之間有着密切的對應聯係。石刻文本的閲讀方向也與寫本的閲讀習慣相符，後者是從右向左展開的。因此，銘文類似於經文卷軸，從右上角開始到左下角結束，分爲三個横向區域排列在山崖上。</p>
+                        <p>這種與書寫在紙或絲綢上的可携帶文本的類比，爲三十二分《金剛經》後接的未識别文本帶來了另一種可能性：它可能是一種造像題記，形式類似於我們常見於寫本卷軸末尾的注記。<note>高奕睿<ref type="biblio" target="Galambos2015">第971頁</ref>。</note>第三個横向區域末端面向文本的跪姿供養人形象支持了這一假設。在他上方坐於蓮花上的人物形象也似乎讓人聯想到寫本插圖。</p>
+                        <p>如上文所述，北山院這幅年代爲877至882年的銘文，是三十二分《金剛經》版本的最早見證。儘管文本部分排列整齊，但在章節標題與文本段落的對應上仍出現了明顯的錯誤：雖然第24至31段的標題出現在預期的位置，即新段落的開頭，但它們與内容并不相符。與其它三十二分《金剛經》文本相比，<note>X 495；T#2732，敦煌寫本<foreign xml:lang="en">P</foreign>.2876，<foreign xml:lang="en">S</foreign>.5534，和<foreign xml:lang="en">S</foreign>.5544等。</note>
+                            刻寫者似乎忘記把第24個標題插入長幅文本中，所以這部分文本現在被歸爲第23段。<note>第23和24段的標題都未在懸崖上保存下來，且相應的文本段落保存狀况極差。盡管如此，仍可辨認的少數字符顯示，該文本段落是從上到下連貫地排列在文本列中，并未被錯位的章節標題影響。</note>
+                            因此，編號爲24至31的標題總是小了一個數字，即第24個標題對應的是第25段文本，第25個標題對應的是第26段文本，以此類推。刻寫者似乎直到經文的結尾纔意識到他們的錯誤，這時他們衹剩下一段經文（第32段），但却有兩個段落標題（31和32）。爲了解决這個問題，他們將最後一段經文分爲兩個部分，并將第32個標題置於總結佛陀講述《金剛經》的詩句前。</p>
+                        <figure rend="center" n="figure" xml:id="BSY_Nische-10_Schema.tif">
+                            <head xml:lang="zh">第10龕的區域分布及十王排列；</head>
+                            <head>Compartments of niche 10 with sequence of the Ten Kings of Hell; </head>
+                            <graphic url="BSY_Nische-10_Schema.tif"/>
+                        </figure>
+                        <p>雖然我們無法確定，但對於這一錯誤有幾種可能的解釋。其中最有可能的是，錯誤是在工作流程中導致的，即在將經文從書寫在紙或絲綢的可携帶原稿轉寫到岩壁上的過程中。如果原稿是正確的，那麽就是在將其轉寫到岩壁上時出了問題。也有可能，刻寫者手上衹有三十二個段落標題的列表，需要由一位讀過書的人將其與鳩摩羅什譯本的《金剛經》結合起來。實際的刻寫工作由工匠來完成，他們技藝嫻熟，但不一定識字。此外，據瞭解，刻寫者通常按照分工合作的方式組成團隊進行工作。這些因素可能解釋了爲什麽錯誤在刻寫過程的相對後期纔被發現。</p>
+                        <p>或許我們也應該認識到，插入三十二個標題以標示佛經内在結構的做法，是一項相對較新的發展。如前文所述，這部佛經的主題<hi rend="dash">──</hi>佛陀與須菩提之間關於各種主題的對話<hi rend="dash">──</hi>可根據講話者或討論的主題進行某種劃分。因此，《金剛經》的寫本常常將經文分成段落，以視覺表達展現不同的文本部分。<note>何秋輝<ref type="biblio" target="HoChiewhui2019">第248頁</ref>，展示了一個早期的經文段落劃分案例，即敦煌寫本<foreign xml:lang="en">S</foreign>.513，這是由武則天（690－705年在位）贊助的一部抄本。XXX<ref type="biblio" target="Hureau2014">第222－223頁</ref>，指出敦煌寫本<foreign xml:lang="en">P</foreign>.5573，BD1611和<foreign xml:lang="en">S</foreign>.2635是帶有段落劃分的抄本。另一個例子是著名的《金剛經》木刻印本，根據後記其年代爲868年，現存於大英圖書館；關於此版本，見<ptr type="infra" target="Diamond868_start_zh"/>。</note>
+                            這種將經文分段的方法被認爲逐漸發展成了具有標准化段落劃分的經文版本，最初分爲十二個段落，後來分爲三十二個段落。<note>XXX<ref type="biblio" target="Hureau2014">第223－229頁</ref>，更詳細地討論了這一過程，并提到了《金剛經》抄本敦煌寫本<foreign xml:lang="en">P</foreign>.
+                                2094，該本經文由供養人翟奉達（活躍於902－966年）進行了修訂，他在底稿上添加了標題，以及“遺漏分添六十字”（見下文），這些文字以較小的字體寫在原文中。</note>後者爲四川地區特有，因爲所有已知的文本見證<hi rend="dash">──</hi>包括敦煌的寫本，以及本卷中所刊的兩部石刻本<hi rend="dash">──</hi>都源自該地區。</p>
+                        <p>何秋輝近期出版了一本關於《金剛經》及其副文本的專著，并提出將《金剛經》分爲三十二段是由俗世信徒所做的宗教創新。段落標題的摘要性質在誦經過程中起到了助記的作用，這在爲亡者超度的儀式中變得越來越重要。<note>何秋輝
+                            <ref type="biblio" target="HoChiewhui2019">第246－248頁</ref>。</note>
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <head>《金剛經》與十<!--冥-->王</head>
+                        <p>在鳩摩羅什版本的《金剛經》文本歷史的更廣泛背景下，須指出的是，北山院的文本并不包含現代版本中所見的62字段落（如《大正藏》，T#235，8：751c16－19），<note>儘管底部區域的銘文處於嚴重風化的狀態，相關的文本段落也已不復存在，第15列和第13列的剩餘字符衹能進行不包含這62個字的文本重建。</note>
+                            該段落是後來插入的，來源於菩提留支（？－527年）的翻譯（T#236，8：756a16－19）。鑒於其較早的年代877－882年，這并不令人驚訝，因爲包含這些額外62個字的最早文本大約出現於一百年後，即10世紀70至80年代。<note xml:id="PoPagoda_zh">保存下來最早的包含這額外62個字文本例證的是刻於河南開封繁塔内的《金剛經》（年代爲977至982年）。其次是來自安徽宿州的981年印本，和保存在京都清凉寺的985年印本，見何秋輝
+                                <ref type="biblio" target="HoChiewhui2019">第243－244頁</ref>。有關繁塔的《金剛經》，見《開封繁塔石刻》<ref type="biblio" target="Po_Ta2017">第2－7頁和8－15頁</ref>，其中包括了來自六塊石板的拓片以及完整的抄録。拓片也保存在中國國家圖書館（各4334），見《北京圖書館藏中國歷代石刻拓本匯編》
+                                    <ref type="biblio" target="BJTSG1989">第37册：第46－51頁</ref>。</note>
+                        </p>
+                        <p>
+                            <anchor xml:id="monastics_zh"/>何秋輝認爲，菩提留支的段落插入必須克服來自精英僧侣的强烈抵制，這些僧侣不願意對鳩摩羅什的版本進行改動，儘管他們知道與較長的菩提留支譯本相比，這個版本缺少了一些内容。直到10世紀末，當包含“加冥司偈六十字”的寫本越來越流行時，精英僧侣們纔妥協，將菩提留支的補充内容加入到鳩摩羅什的譯本當中。後者在文字上與當時已廣泛流傳的“加冥司偈六十字“相比，僅在幾個字上有所不同。<note>見何秋輝
+                                    <ref type="biblio" target="HoChiewhui2019">第234－244頁</ref>，詳細地討論了這段文本并提供了英文翻譯。</note>
+                        </p>
+                        <p>“加冥司偈六十字”一名源自一系列有關《金剛經》功效的故事，這些故事保存在敦煌寫本<foreign xml:lang="en">P</foreign>.2094中。<note>敦煌寫本<foreign xml:lang="en">P</foreign>.2094包含十一部經文；第一部是名爲《持誦金剛經靈驗功德記》的故事集。關於該寫本的介紹、年代及其供養人翟奉達（活躍於902－966年），見何秋輝<ref type="biblio" target="HoChiewhui2019">第53－57頁</ref>。對於這部故事集的英文翻譯，見何秋輝<ref type="biblio" target="HoChiewhui2019">第416－429頁</ref>。</note>這部故事集中有一個故事講到一位名叫靈幽的和尚，在死後第七天遇見了冥王之一，閻羅王。閻羅王聽和尚背誦整部《金剛經》。當靈幽背誦完，閻羅王告訴他，他的背誦漏掉了一首偈，這首偈被保存在人間位於濠州（今安徽滁州）西邊的一塊石碑上。靈幽被賜予十年壽命，去尋找這首遺失的偈并將其傳播於世。<note>這個故事的翻譯見何秋輝
+                                    <ref type="biblio" target="HoChiewhui2019">第237，及424－425頁</ref>。</note>
+                        </p>
+                        <p>和尚靈幽遇見閻羅王的故事，不僅展示了人們對石刻經文真實性和持久性的堅定信念；<note>在關於襄陽石碑經文的報告中也出現了一個同樣的主題，該文本被認爲已經失傳，但最終得以從唯一幸存的一塊石碑版本中復原。這段文字保留了鳩摩羅什版本的短篇版《無量壽經》（<hi rend="italic">
+                                    <foreign xml:lang="sa">Sukhā­vatī­vyūha-sūtra</foreign>
+                                </hi>），即《佛説阿彌陀經》（T#366，12：347b9－15）中的一個段落，共25字。這一段落對日本净土宗傳統産生了深遠的影響。四川安岳卧佛院第<hi rend="bold">46</hi>窟中刻寫的《阿彌陀經》版本，很可能是開元年間（713－741年）雕刻的，其中也包含了這一關鍵段落，見温狄婭<ref type="biblio" target="Wenzel2016a">第147－148頁</ref>。</note>還顯示了鳩摩羅什譯本《金剛經》對於包含後來遺失部分的原版或“真”版本的信仰，以及當時初露端倪的冥王信仰之間的聯係。</p>
+                        <p>
+                            <anchor xml:id="Teiser_zh"/>隨著太史文（<foreign xml:lang="zh">Stephen
+                            Teiser</foreign>）於1994年發表的開創性研究《〈十王經〉與中國中世紀佛教中煉獄觀念的形成》，三十二分《金剛經》與《十王經》之間的禮儀聯係得以揭示。<note>太史文<ref type="biblio" target="Teiser1994">第95－99頁</ref>。</note>敦煌一些短篇版的《十王經》寫本有以易於誦讀的格式裝訂成册，其中有些版本將此經與三十二分《金剛經》的抄本結合在一起。<note>太史文<ref type="biblio" target="Teiser1994">第239頁</ref>，列出了四部現存的寫本（<foreign xml:lang="en">S</foreign>.5450；<foreign xml:lang="en">S</foreign>.5544 [年代
+                                    911？]；<foreign xml:lang="en">P</foreign>.5580），一部地點不明的寫本（<foreign xml:lang="en">San</foreign> 262），以及兩張包含或曾包含這兩部經文的單頁寫本殘片（<foreign xml:lang="en">Dhk </foreign>143；<foreign xml:lang="en">Dhk
+                                    </foreign>931）。</note>這些小册子中的三十二分《金剛經》抄本擁有一定的特徵（除了有三十二分以外），這些特徵表明，一個具有儀式性用途的特定版本《金剛經》已經成型：這些寫本中都包含“加冥司偈六十字”；經文後面都附有一組三個陀羅尼；它們都聲明其來源爲“西川過家真印本”。</p>
+                        <p>與敦煌這些小册子中的儀文
+                            《金剛經》相比，北山院刻本的三十二分《金剛經》不包含附加的六十字偈，也没有后附完整的三篇陀羅尼經文。然而其與地獄十冥王信仰的聯係是顯而易見的，因爲附近第10龕的圖像工程可以被認定爲是《閻羅王經》的圖示。其與四川這一地區的聯係也很明顯，該地是“西川過家”所在地，這家印刷所於10世紀初期印製了儀式版的三十二分《金剛經》。因此，北山院的山崖呈現了一幅早期儀式形成的縮影，這一儀式將對十王司法職能的信仰與對《金剛經》非凡的救贖力量的信仰聯係在了一起。</p>
+                        <figure rend="center" n="figure" xml:id="BSY_DSC08067_Inschriftfelder.jpg">
+                            <head xml:lang="zh">第14龕文本的位置。2010年拍攝</head>
+                            <head>Location of texts inside niche 14; modified photograph taken in
+                                2010</head>
+                            <graphic url="BSY_DSC08067_Inschriftfelder.jpg"/>
+                        </figure>
+                        <p>爲了更清晰地瞭解這一演變的時間順序，值得一提的是，敦煌現存最早的寫本見證是經摺裝小册子 <foreign xml:lang="en">S</foreign>.5534，其中包含了帶有小標題的三十二分《金剛經》。該寫本的落款日期爲905年4月8日，<note>太史文<ref type="biblio" target="Teiser1994">第244，273頁</ref>。該手稿已在<foreign xml:lang="en">http://idp.bl.uk</foreign>網站上數字化。另見羅慕君<ref type="biblio" target="Luomujun2017">第101頁</ref>，及何秋輝 <ref type="biblio" target="HoChiewhui2019">第234頁及注釋105</ref>。</note>
+                                是一組十一件寫本的一部分，這些寫本均於905至907年間由同一位八十多嵗的老人捐贈，他自稱“八十老人”。這十一部寫本中有八部是三十二分《金剛經》。<note xml:id="octogenarian_zh">關於這組敦煌寫本的全面研究，見羅慕君<ref type="biblio" target="Luomujun2017"/>。太史文<ref type="biblio" target="Teiser1994">第244頁</ref>，列出了這位老人捐贈的十一部手稿。關於這位老人的捐贈動機，見太史文<ref type="biblio" target="Teiser1994">第121－128頁</ref>，及何秋輝<ref type="biblio" target="HoChiewhui2019">第218－219頁</ref>。</note>
+                        </p>
+                        <p>在10世紀期間，我們也看到這個特定版本的三十二分《金剛經》被單獨訂成一部經文，或者與《十王經》以外的幾部（兩到六部）經文組合在一起。這些《金剛經》寫本的時間跨度是從905年到943年，其中許多是基於四川的印刷母板製作的。<note>太史文<ref type="biblio" target="Teiser1994">第98－99頁</ref>。</note>因此，我們知道敦煌的抄經坊繼承了一種源自四川地區的傳統，這一傳統在880年左右已在北山院得到證實。<anchor xml:id="BSY_Diamond_end_zh"/>
+                        </p>
+
+
+                    </div>
+                </div>
+                <div>
+                    <head>《佛頂尊勝陀羅尼》</head>
+                    <p>《金剛經》右側刻寫的第15龕《佛頂尊勝陀羅尼》版本與《加句靈驗佛頂尊勝陀羅尼記》（T#974C，19：387b14－387c18，共53個音節短語）中所記載的第一段陀羅尼非常相近。這部作品爲武徹（8世紀中期）所作，他是武則天的親戚，<note>陳金華<ref type="biblio" target="ChenJinhua2002b">第110頁，注釋199</ref>，解釋了武徹與武則天之間的親屬關係。另見王平國和蔡穗玲<ref type="biblio" target="Sassmann_Tsai2016">第118－119頁</ref>。</note>曾任朝議大夫和侍御史。<note>見T#974C，19：386a5。</note>在他的《加句靈驗佛頂尊勝陀羅尼記》中，武徹提到這部陀羅尼曾由金剛智（671－741）翻譯。</p>
+                    <p>第15龕的陀羅尼文本似乎是對第14龕三十二分《金剛經》的補充。這一佈局與經文文本没有直接關聯，且陀羅尼的文字比經文要大。儘管外觀不一致，《佛頂尊勝陀羅尼》仍可視爲三十二分《金剛經》的一個合理附録，因爲這部陀羅尼被認爲是一種極爲强大的咒語，能够讓那些一生積累了大量惡業但功德微薄的人，仍從地獄與噩道中解脱。這樣的好處在《佛頂尊勝陀羅尼經》（T#967）的叙事框架中有所承諾，該版本歸於佛陀波利（活躍於約676年）。<note>本系列研究已記録了其他《佛頂尊勝陀羅尼》的雕刻：在四川省安岳縣卧佛院有兩處版本，一處刻於733年之前，位於第46窟内側f壁上，另一處刻於733年，位於同一窟的入口h壁上，見《中國佛教石經·四川省第三卷》<ref type="biblio" target="Sichuan_3">第376－380；387－388頁</ref>。此外，它還刻於西安青龍寺一座8世紀的神龕上，見《中國佛教石經·陜西省第三卷》，xxx–xxx，以及同一寺院中一件年代爲831年的石燈臺上，見《中國佛教石經·陜西省第三卷》，xxx–xxx。</note>
+                    </p>
+                    <p>因此，《佛頂尊勝陀羅尼》的雕刻與北山院懸崖的整體規劃緊密契合。</p>
+                </div>
+
+
+            </div>
+
+            <div xml:lang="en">
+                <head>Beishan Cloister (877–882)</head>
+                <p>As has been known for some time, Dunhuang manuscripts from the beginning of the
+                    tenth century provide evidence for a liturgical connection between the <hi rend="italic">Diamond Sutra</hi> in 32 sections and the <hi rend="italic">Scripture on the Ten Kings</hi>. The extraordinary salvific powers of the <hi rend="italic">Diamond Sutra</hi> played a significant role in the cult of the Ten Kings of Hell who execute judgement in the netherworld. The cliff carvings at Beishan Cloister belong to an earlier phase in the formation of that liturgy. According to three dated inscriptions, this site’s image niches and stone texts were carved between 877 and 882. That makes both the large niche 10
+                    with narrative scenes of <foreign xml:lang="sa">Kṣitigarbha</foreign> and the
+                    Ten Kings of Hell and the nearby stone text of the liturgical edition of the <hi rend="italic">Diamond Sutra</hi> in 32 sections the earliest examples of
+                    their kinds.</p>
+
+
+                <div>
+                    <head>Site</head>
+                    <p>Beishan Cloister (Beishan Yuan <foreign xml:lang="zh">北山院</foreign>) is
+                        located on Mount Bei <foreign xml:lang="zh">北山</foreign>, two kilometers
+                        northeast of Weicheng Town (Weicheng Zhen <foreign xml:lang="zh">魏城鎭</foreign>) in Youxian District (Youxian Qu <foreign xml:lang="zh">游仙區</foreign>) of Mianyang Municipality (Mianyang Shi <foreign xml:lang="zh">綿陽市</foreign>).<note>See the map in <ref type="biblio" target="Weicheng_BeishanYuan">90, fig. 1</ref>.</note> The aerial view (fig.
+                            <ptr target="BSY_DJI_0629.JPG"/>) reveals the modest size of present-day
+                        Beishan Cloister. Beishan Cloister has been an active religious site until the 1970s, when the buildings were demolished during the Cultural Revolution. From 1996 to 2001, locals rebuilt the main hall of the cloister.<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">90–91</ref>.</note> This main hall (fig. <ptr target="BSY_IMG_6112.JPG"/>) was
+                        erected in front of a cliff, which stretches for about 38 m from southwest
+                        to northeast. The modern hall shelters the first three niches, distributed
+                        across a length of six meters, of area I. At a distance of 12 m from the
+                        southwestern end, area II starts. Here, a cluster of niches numbered 4–15
+                        are distributed on the cliff across a length of 20 m (figs. <ptr target="BSY_panorama_2025.tiff"/> and <ptr target="BSY_map_straight.jpg"/>). Further north, at a distance of 50 m,
+                        a boulder named “Golden Cabinet” (Jinguizi <foreign xml:lang="zh">金柜子</foreign>) accommodates five more niches. </p>
+                    <p>Between December 2007 and April 2008, the Sichuan Provincial Research Institute of Cultural Relics and Archaeology (Sichuan Sheng wenwu kaogu yanjiuyuan <foreign xml:lang="zh">四川省文物考古研究院</foreign>) and associated institutions surveyed the image
+                        niches and inscriptions at Beishan Cloister.<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">90–114</ref>.</note> This survey report
+                        provides detailed descriptions and drawings of each of the 15 niches of the
+                        first two main areas, while it treats the niches on the “Golden Cabinet”
+                        boulder in a more summary fashion.<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">112–113</ref>, report that the niches of the
+                            “Golden Cabinet” boulder are severely damaged. To the right and left of
+                            a central image group, niche 17 features rows of small Buddha figures
+                            that depict the Thousand Buddhas. Each figure had its name inscribed in
+                            a cartouche nearby, but these inscriptions have rendered illegible. The
+                            Thousand Buddha motif is also continued outside niche 17. A few traces
+                            of votive inscriptions indicate that one or several of these small
+                            Buddha figures were given by private donors on behalf of their deceased
+                            relatives. After the publication of the official survey report, Zhang
+                            Zong surveyed the “Golden Cabinet” niches again and complemented some
+                            characters to the votive inscriptions carved in niches 18–20 (fig. <ptr target="beishanyuan_part2_mosaic_proc-huafo.jpg"/>). He comes to the
+                            conclusion that the inscription’s terminology for family relations is in
+                            line with the usage of the late Tang dynasty, see <ref type="biblio" target="ZhangZong2023a">264–265</ref>. </note> Until the 1970s,
+                        Beishan Cloister was an active religious site, but during the Cultural
+                        Revolution its buildings were destroyed. Between 1996 and 2001, locals took
+                        charge of the re-erection of the present main hall.<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">90–91</ref>.</note>
+                    </p>
+                    <p>The array of niches begins at the southwestern end of the cliff, where we
+                        find the largest statue. It is the half-figure of a Buddha that sits behind
+                        the main hall’s altar (fig. <ptr target="BSY_DSC08228.JPG"/>). The figure
+                        was sculpted in clay in front of the original niche, which measures 6 m in
+                        height, 3.6 m in width, and 0.5 m in depth. 
+                        This modern image, a substitute for the original image that was destroyed during the Cultural Revolution,<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">90–91</ref>.</note> is painted in gaudy colors. The bared upper body with a huge belly identifies the present image as Budai
+                            <foreign xml:lang="zh">布袋</foreign>, the legendary tenth-century
+                        incarnation of Buddha Maitreya, who is usually depicted as a bald-headed
+                        monk. The head of the present day figure, however, features long earlobes
+                        and curls of hair painted in blue, as well as an <hi rend="italic">
+                            <foreign xml:lang="sa">ūrṇā</foreign>
+                        </hi> and a low <hi rend="italic">
+                            <foreign xml:lang="sa">uṣṇīṣa</foreign>
+                        </hi>, all marks of a fully
+                        awakened Buddha.</p>
+                    <figure rend="center" n="figure" xml:id="BSY_IMG_6112.JPG">
+                        <head xml:lang="zh">北山院的主殿，重建於1996–2001年。2009年拍攝</head>
+                        <head>Main hall of Beishan Cloister, rebuilt in 1996–2001; photograph taken
+                            in 2009</head>
+                        <graphic url="BSY_IMG_6112.JPG"/>
+                    </figure>
+                    <p>An inscription carved to the left-hand side of this modern interpretation of
+                        Maitreya provides evidence for the identity of the original statue. This
+                        votive inscription is located on a rectangular rock surface in between niche
+                        1 and niche 2 with standing bodhisattva figures (fig. <ptr target="BSY_DSC0685.JPG"/> and fig. <ptr target="beishanyuan_part1_mosaic_proc-Mile.jpg"/>). Dated to November
+                        10, 877 (<foreign xml:lang="zh">乾符四年十月二日</foreign>), it records the reverent
+                        making of a statue of Buddha Maitreya (<foreign xml:lang="zh">敬造弥勒大像一身</foreign>).<note>Transcription in <ref type="biblio" target="Weicheng_BeishanYuan">92</ref>. <!-- <foreign xml:lang="zh">
+                                    /1/敬造弥勒大像一身……　
+                                    /2/竊聞大像出現与日月之同明生□□……
+                                    /3/普願即堅千身万化<g>靈</g>力無□□□□
+                                    /4/驗獲目前愚迷不辯有若千⋯⋯
+                                    /5/白刃到孟津始<!-\-<g>礙</g>-\->𣝅造舩人□
+                                    /6/ 田三業有報伏種□緣急□  
+                                    /7/ 勒佛前僧人寮劣liaolie□𢛽𦮥[英] □⋯⋯
+                                    /8/ 盡埽泉𭻗標一記永鎮此⋯⋯
+                                    /9/太乾符四年十月二日造佛舍俗⋯⋯馬⋯⋯
+                                    /10/黄顯□□□□□等五⋯⋯　
+                                    /11/梓潼□⋯⋯”。(November 10, 877) </foreign>-->
+                        </note>
+                        Because of this Maitreya statue, Beishan Cloister became known to locals
+                        also as “Great Buddha Monastery” (Dafo Si <foreign xml:lang="zh">大佛寺</foreign>).<note>
+                            <ref type="biblio" target="LiuJiali2000">44</ref>.</note>
+                    </p>
+                    <p>That the present name of the site was already in use at the end of the Tang
+                            <foreign xml:lang="zh">唐</foreign> dynasty (618–907) is attested in
+                        another inscription (fig. <ptr target="BSY_DSC08169.JPG"/> and fig. <ptr target="beishanyuan_part3_mosaic_proc-Beishanyuan.jpg"/>), which reports
+                        “the establishment of Beishan Cloister” (<hi rend="italic">jianzhi Beishan
+                            Yuan </hi>
+                        <foreign xml:lang="zh">建置北山院</foreign>). It is dated to the
+                        fourteenth day of the twelfth month of the seventh year of the <hi rend="italic">qianfu </hi>
+                        <foreign xml:lang="zh">乾符</foreign> era (<foreign xml:lang="zh">乾符七年十二月十四日</foreign>), a date that corresponds to January 17,
+                            881.<note>The <hi rend="italic">qianfu</hi> era actually ended in its
+                            sixth year, on February 13, 880; it was followed on February 14 of the
+                            same year by the first year of the <hi rend="italic">guangming
+                                </hi>
+                            <foreign xml:lang="zh">廣明</foreign> era
+                            <!--and then by the <hi rend="italic">zhonghe </hi> <foreign xml:lang="zh">中和</foreign> eras-->
+                            of the reign of Emperor Xi <foreign xml:lang="zh">僖宗</foreign> (r.
+                            873–888) of the Tang. </note> The inscription is located above the
+                        left-hand corner of the heavily damaged image niche 5. Only 18 figures of
+                        the assembly surrounding an original group of three main images underneath
+                        canopies have remained. The niche may have once shown a paradise scene, as
+                        the text of the inscription dated to 880 relates to rebirth in a pure land
+                        as promised in the <hi rend="italic">
+                            <foreign xml:lang="sa">Amitābha</foreign> Sutra</hi> (<hi rend="italic">Emituo jing
+                        </hi>
+                        <foreign xml:lang="zh">阿彌陀經</foreign>).<note>Transcription in <ref type="biblio" target="Weicheng_BeishanYuan">96</ref>. <ref type="biblio" target="ZhangZong2023a">263</ref>, and <ref type="biblio" target="LuoChunxiao2010">236</ref>, both read “sixth year of the <hi rend="italic">qianfu</hi> era” (<hi rend="italic">qianfu liu nian
+                                </hi>
+                            <foreign xml:lang="zh">乾符六年</foreign>) instead of “seventh
+                            year,” and thus arrive at the date of 879.
+                            <!-- <foreign xml:lang="zh">
+                        /1/捨□□□建置北山院□
+                        /2/報□□古趄[趣]託於何道□
+                        /3/ 阿彌□經鎸<g>鋻</g>一石龕□
+                        /4/心同□力?十念往生僧□
+                        /5/成就□有布施文麻至□
+                        /6/<g>乾</g>符七年十二月十四日 (January 17, 881)
+                        <!-\-⋯⋯大唐乾符六年十二月十四日”。-\-></foreign> (January 29, 880)-->
+                        </note>
+                    </p>
+                    <figure rend="center" n="figure" xml:id="BSY_panorama_2025.tiff">
+                        <head xml:lang="zh">北山院第II區第4－15龕窟視圖。2025年拍攝</head>
+                        <head>General view of area II with niches 4–15 of the main cliff at Beishan Cloister; photograph taken in 2025</head>
+                        <graphic url="BSY_panorama_2025.tiff"/>
+                    </figure>
+                    <p>The neighboring niche 6 accommodates a three-headed <foreign xml:lang="sa">Mārīcī</foreign> (Molizhitian <foreign xml:lang="zh">摩利支天</foreign>)
+                        figure with eight arms (fig. <ptr target="BSY_DSC08149.JPG"/>). Because the
+                        inscription dated to 880 appears at the right-hand side above niche 6, it is
+                        sometimes listed as belonging to this niche, and not to niche 5.<note>In
+                            <ref type="biblio" target="ZhangZong2008">88</ref>, and <ref type="biblio" target="ZhangZong2023a">263</ref>, Zhang Zong connects
+                            this inscription with niche 6, but admits in <ref type="biblio" target="ZhangZong2008">88, note 3</ref>, that it may also refer to
+                            niche 5.</note>
+                    </p>
+                    <p>A third dated inscription is found at the left-hand side of niche 11, where a
+                        much smaller niche (niche 13) contains a single bodhisattva figure seated on
+                        a high lotus seat (fig. <ptr target="BSY_DSC08105.JPG"/>). The right-hand
+                        side edge of niche 13 bears an inscription (measuring 37 cm in height, and
+                        12.5 cm in width) that records the completion of a set of rituals on a
+                        certain day in one of the last months of the first year of the <hi rend="italic">zhonghe </hi>
+                        <foreign xml:lang="zh">中和</foreign> era. This corresponds to the time span
+                        from October 27, 881, to January 22, 882.<note>Transcription in <ref type="biblio" target="Weicheng_BeishanYuan">111</ref>.<!-- …… 鉅設齋表慶彿中和元年十月……-->
+                            <ref type="biblio" target="ZhangZong2008">88</ref>, and <ref type="biblio" target="ZhangZong2023a">264</ref>, suggest a different
+                            reading of the remaining characters, but the date is the
+                            same.<!--“<foreign xml:lang="zh">不倖遇…… ……
+                                成就愿平善達/…… …… 訖齋表慶畢中和元年十…… </foreign>.”-->
+                        </note>
+                    </p>
+                    <p>Thus we have three dated inscriptions at Beishan Cloister: The first, dated
+                        to November 10, 877, is located between niches 1 and 2; the second, dated to
+                        January 17, 881, is located above niches 5 and 6; and the third, dating from
+                        the end of 881 or the beginning of 882, is located between niches 11 and
+                            13.<note>See also <ref type="biblio" target="WenQiguo1991">52</ref>.
+                        </note> In addition, during clearing work, the fragment of a stele was
+                        found, which bears the date of the fifteenth day of the third month of the
+                        fifth year of the <hi rend="italic">qianfu</hi> era (<foreign xml:lang="zh">乾符五年三月十五日</foreign>), a date that corresponds to April 21, 878.<note>
+                            <ref type="biblio" target="Weicheng_BeishanYuan">112</ref>. Among the preserved
+                            characters are the phrases: “. . . and the great <hi rend="italic">
+                                <foreign xml:lang="sa">avīci</foreign>
+                            </hi> hell” (<foreign xml:lang="zh">與阿鼻地獄</foreign>) and “eon . . . forever not see the
+                            Buddha” (<foreign xml:lang="zh">劫永不見佛</foreign>).</note>
+                    </p>
+                    <p>The implication is that the entire complex of sculptures, niches, and texts
+                        at Beishan Cloister was carved 877–882. Moreover, work began at the
+                        southwestern end of the cliff, where a Maitreya statue was first sculpted.
+                        Then work was continued along the stretch of rock. By January 882 at the
+                        latest, a maigre feast (<hi rend="italic">zhai </hi>
+                        <foreign xml:lang="zh">齋</foreign>) completed a set of rituals held at the site, where a
+                        cloister had been established. We may thus safely assume that the large
+                        Maitreya statue, the image niches with their particular iconography, and the
+                        texts that are carved at the end of the main stretch of cliff inside niches
+                        14 and 15 represent a well thought out program. The official foundation <hi rend="italic">jianzhi </hi>
+                        <foreign xml:lang="zh">建置</foreign> of a
+                        cloister named Beishan Cloister supposedly served the purpose of providing
+                        clerical specialists for ritual services that were conducted next to or in
+                        front of the cliff carvings.</p>
+                    <figure rend="center" n="figure" xml:id="BSY_map_straight.jpg">
+                        <head xml:lang="zh">北山院第I、II區造像龕窟分布平、剖面圖；參見《魏成北山院摩崖造像》 <ref type="biblio" target="Weicheng_BeishanYuan">第91頁，圖2</ref>
+                        </head>
+                        <head>Distribution of niches on the main cliff in areas I and II of Beishan
+                            Cloister; after <ref type="biblio" target="Weicheng_BeishanYuan">91, fig.
+                            2</ref>
+                        </head>
+                        <graphic url="BSY_map_straight.jpg"/>
+                    </figure>
+                    <p>Inside the present main hall, more fragments of inscription bearing stone
+                        slabs are preserved. These record dates corresponding to the years 981
+                            (<foreign xml:lang="zh">太平興國六年</foreign>), 1108 and 1110 (<foreign xml:lang="zh">大觀二年、大觀四年</foreign>),<note>The fragment with the two dates
+                                corresponding to 1108 and 1110 is mentioned in <ref type="biblio" target="Weicheng_BeishanYuan">112</ref>. It was found covered by earth during
+                            clearing of the area in front of the cliff.</note> and provide evidence
+                        for the continued use of the cliff carvings of Beishan Cloister.</p>
+                    <figure rend="center" n="figure" xml:id="BSY_DSC0685.JPG">
+                        <head xml:lang="zh">位於大佛左側第1與第2龕之間乾符四年十月二日（877年11月10日）銘文。2010年拍攝</head>
+                        <head>Inscription dated to November 10, 877 (<foreign xml:lang="zh">乾符四年十月二日</foreign>) in between niches 1 and 2 to the left-hand side
+                            of the large Buddha; photograph taken in 2010</head>
+                        <graphic url="BSY_DSC0685.JPG"/>
+                    </figure>
+
+                </div>
+                <div>
+                    <head>Kṣitigarbha and the Ten Kings of Hell </head>
+                    <p>The stretch of cliff to the left-hand side of the modern Budai figure (niche
+                        1) accommodates a total of fourteen more niches, distributed over a length
+                        of about 38 m. The largest niche in this ensemble by far is niche 10 (fig.
+                            <ptr target="BSY_DSC08145.JPG"/> and fig. <ptr target="Beishanyuan_niches.jpg"/>).<note>Note that Zhang Zong, who
+                            studied the pictorial program of this niche in detail, refers to this
+                            niche as niche 9 in his publications (<ref type="biblio" target="ZhangZong2008"/> and <ref type="biblio" target="ZhangZong2023a"/>). </note> It measures 160 cm in height and
+                        250 cm in width. At the left-hand side, it was set up to 63 cm deep into the
+                        cliff, much deeper than on the right-hand side (fig. <ptr target="BSY_DSC08137.JPG"/>). As a result, the overhanging cliff forms a
+                        kind of slanting awning that protects the left-hand part of the niche from
+                        deterioration caused by exposure to rain and sunlight, while the less
+                        protected right-hand side is more severely weathered.<note>
+                            <ref type="biblio" target="LeeSonyaS2021">204–208</ref>, observes similar
+                            effects of protection from the elements by this particular carving
+                            technique at some of the Dazu cave temples.</note>
+                    </p>
+
+                    <p>Niche 10 depicts <foreign xml:lang="sa">Kṣitigarbha</foreign> (Dizang
+                        <foreign xml:lang="zh">地藏</foreign>) and the Ten Kings of Hell (<hi rend="italic">shi </hi>[<hi rend="italic">ming</hi>] <hi rend="italic">wang </hi>
+                        <foreign xml:lang="zh">十［冥］王</foreign>)
+                        sculpted from rock. Zhang Zong, who provided a detailed study of the
+                        narrative scenes, dates the sculptures to 879/880–881 on the ground of the
+                        above-mentioned inscriptions nearby.<note>
+                            <ref type="biblio" target="ZhangZong2023a">264</ref>, and <ref type="biblio" target="ZhangZong2008">89</ref>, who likewise identifies the
+                            depiction of the Three Great Monks in niche 11, Sengqie <foreign xml:lang="zh">僧伽</foreign> (628–710), flanked by Baozhi <foreign xml:lang="zh">寳志</foreign> (–514) and Wanhui <foreign xml:lang="zh">萬迴</foreign> (632–711), 
+                            <!--(泗州大聖 [僧伽和尚] 628–710, 寳志 and 萬迴)--> as the earliest
+                            example of this motif, which reappears at Dazu <foreign xml:lang="zh">大足</foreign> in Bei Shan <foreign xml:lang="zh">北山</foreign> niche
+                            177. See also the study by Clara Ma<!-- (cma89@smith.edu; in Chinese Borderlands in Transition: History, Space, and Culture. Edited by Junmin Liu. Amsterdam: Amsterdam University Press)-->. </note> Two conspicuous features set niche 10 apart from other
+                        surviving depictions of the same theme: The first is the division of the
+                        large niche into six compartments that are arranged in two registers of
+                        three compartments each (fig. <ptr target="BSY_Nische-10_Schema.tif"/>).
+                        The second is the depiction of King Yama (Yanluo wang <foreign xml:lang="zh">閻羅王</foreign>) and Bodhisattva <foreign xml:lang="sa">Kṣitigarbha</foreign> side by side and on equal footing, with each
+                        figure seated underneath a canopy in the central compartment of the upper
+                            tier.<note>For a complete documentation of the content of this niche,
+                            with all remaining 72 figures neatly numbered and described, including
+                            drawings, see <ref type="biblio" target="Weicheng_BeishanYuan">98–109</ref>.</note>
+                    </p>
+
+                    <p>
+                        <foreign xml:lang="sa">Kṣitigarbha</foreign>, dressed in a monk’s garb, sits
+                        with both legs pendant on a high lotus throne at the right-hand side. He is
+                        assisted by two bodhisattva figures that wear crowns. At the left-hand side,
+                        King Yama is seated behind his desk. He is flanked by the Boys [Who Record
+                        All] Good and Evil (<hi rend="italic">shan’e tongzi </hi>
+                        <foreign xml:lang="zh">善惡童子</foreign>). The boy to his right holds a scroll with
+                        the records of good and evil deeds in his hands; the one to his left grasps
+                        a large mirror. This is the “karma mirror,” which is able to confront each
+                        sinner with a reflection of their past sins. More figures are lined up
+                        behind King Yama. Two of these present parasols as insignia of honor, but
+                        there are also guardian figures holding weapons. </p>
+                    <figure rend="float-top" n="figure" xml:id="beishanyuan_part3_mosaic_proc-Beishanyuan.jpg">
+                        <head xml:lang="zh">位於第5龕之上乾符七年十二月十四日（881年1月17日）銘文；2009年掃描</head>
+                        <head>Inscription dated to January 17, 881 (<foreign xml:lang="zh">乾符七年十二月十四日</foreign>) above niche 5; scan taken in 2009</head>
+                        <graphic url="beishanyuan_part3_mosaic_proc-Beishanyuan.jpg"/>
+                    </figure>
+                    <p>In nearby inscriptions, both figures are identified: We read “King Yama of
+                        the Fifth [service to be held five times] Seven [days after death]”(<foreign xml:lang="zh">五七閻羅王</foreign>); and “reverently made one seated image of
+                        Bodhisattva <foreign xml:lang="sa">Kṣitigarbha</foreign>” (<foreign xml:lang="zh">敬造地藏菩薩一座</foreign>).<note>
+                            <ref type="biblio" target="ZhangZong2023a">115–116</ref>, provides a transcription of
+                            the names of the Ten Kings in sequence, in which the missing names of
+                            the seventh, eighth, and tenth king have been supplied.</note>
+                    </p>
+
+                    <p>In the central compartment of the lower tier, a fierce looking general,
+                        seated in full armour behind his desk, takes center stage. This must be the
+                        tenth “King Who Turns the Wheel of Rebirth in the Five Paths [of the service
+                        to be held] Three Years [after death]” (<foreign xml:lang="zh">三年五道轉輪王</foreign>), yet his name was not carved or has already rendered
+                        illegible. In addition to a clerk bowing in front of his desk, and a large
+                        entourage of guardian figures behind his back, the scene also pictures two
+                        captives being maltreated by hell guardians. Below the bottom edge of this
+                        compartment, more figures were once carved, of which only the stone cores
+                        have remained. Zhang Zong has argued that these must have been scenes of
+                        rebirth in the five [or six] paths. The row of reborn figures continues to
+                        the left, where we see sinners wearing the cangue alternating with demons as
+                        a representation of <hi rend="italic">
+                            <foreign xml:lang="sa">avīci</foreign>
+                        </hi> hell. Above those damned, however, is a row of
+                        souls reborn either in the world of humans or in the heavens, as indicated
+                        by the clouds on which they sit.<note>
+                            <ref type="biblio" target="ZhangZong2023a">262–263</ref>, (and also <ref type="biblio" target="ZhangZong2008">83</ref>) admits that these rows of figures
+                            do not include a scene that matches rebirth in the animal realm, but he
+                            identifies the scene in the upper row where a man hands something to a
+                            figure wearing the cangue as a representation that stands in for the
+                            realm of hungry ghosts, because a similar depiction is often found in
+                            the context of <foreign xml:lang="sa">Maudgalyāyana </foreign>
+                            <foreign xml:lang="zh">目連</foreign> feeding his mother who was reborn as
+                            a hungry ghost.</note>
+                    </p>
+                    <p>In representing the most prominent actors in the bureaucratic procedures of
+                        hell—King Yama, <foreign xml:lang="sa">Kṣitigarbha</foreign>, and the last
+                        King in charge of the Wheel of Rebirth (<foreign xml:lang="zh">五道轉輪</foreign>)—the central compartments of niche 10 certainly draw the
+                        attention of onlookers. At both sides, the remaining eight kings have been
+                        arranged in four compartments. Two kings always share one compartment. Each
+                        sits behind his desk, assisted by two minor figures; and in front,
+                        retribution scenes are depicted, which show either rebirth on clouds for
+                        good deeds, such as the donation of Buddha figures, or torture by prison
+                        guards for bad deeds. Thanks to their inscribed names, we know how the Ten
+                        Kings are distributed across the niche:</p>
+                    <figure rend="center" n="figure" xml:id="Beishanyuan_niches.jpg">
+                        <head xml:lang="zh">經文刻石右側的第13（最左）、11（左側）及10（右側）圖像龕視圖。2010年拍攝</head>
+                        <head>View of the image niches numbered 13 (far left), 11 (left), and 10
+                            (right) to the right-hand side of the sutra carving; photograph taken in
+                            2010</head>
+                        <graphic url="Beishanyuan_niches.jpg"/>
+                    </figure>
+                    <p>The sequence of kingly figures starts at the left-hand side of the upper left
+                        compartment, where the “King Guang of Qin of the First [service to be held]
+                        Seven [days after death]” (<foreign xml:lang="zh">一七秦廣王</foreign>) is
+                        seated. The second “King Di of Song of the Second [service to be held two
+                        times] Seven [days after death]” (<foreign xml:lang="zh">二七宋帝王</foreign>) is
+                        found directly below, at the left hand side of the lower left compartment.
+                        Next to him sits the “King of the First River of the Third [service to be
+                        held three times] Seven [days after death]” (<foreign xml:lang="zh">三七初江</foreign>). The fourth king in this sequence, the “King of the
+                        Five Offices of the Fourth [service to be held four times] Seven [days after
+                        death]” (<foreign xml:lang="zh">四七五官王</foreign>), is located above the third
+                        king, and thus shares one compartment with the first king.</p>
+
+                    <p>The fifth King of Hell is Yama, whom we have already seen next to <foreign xml:lang="sa">Kṣitigarbha</foreign> in the upper middle compartment. The
+                        sixth king, the “King of Transformations of the Sixth [service to be held
+                        six times] Seven [days after death]” (<foreign xml:lang="zh">六七變成王</foreign>) follows suit in the left corner of the upper right
+                        compartment. Next to him sits the “King of Mount Tai of the Seventh [service
+                        to be held seven times] Seven [days after death]” (<foreign xml:lang="zh">七七太山王</foreign>), yet the name of this seventh king is no longer
+                        legible, as this part of the rock is severely weathered.</p>
+                    <figure rend="left" n="figure" xml:id="BSY_1_anonymus_line-18-27_detail.tif">
+                        <head xml:lang="zh">帶有文字痕迹的岩石表面；2009年掃描</head>
+                        <head>Patch of rock surface with traces of characters; scan (with
+                            modifications) taken in 2009</head>
+                        <graphic url="BSY_1_anonymus_line-18-27_detail.tif"/>
+                    </figure>
+                    <p>The row must have continued in the right-hand corner of the compartment
+                        below, where the eighth king, the “Impartial King [of the service to be
+                        held] One Hundred [days after death]” (<foreign xml:lang="zh">百日平等王</foreign>) is located. In the same compartment, we also find the
+                        ninth “King of the Capital of [the ninth service to be held] One Year [after
+                        death]” (<foreign xml:lang="zh">一年都市王</foreign>); the name of this king can
+                        still be read. The final king, the “King Who Turns the Wheel of Rebirth in
+                        the Five Paths,” already described above, is seated in the lower middle
+                        compartment; he lacks a cartouche to identify his name. </p>
+
+
+                    <p>The peculiar distribution of the Ten Kings across the niche in the shape of a
+                        lying capital letter “S” was noted before by Zhang Zong. The main purpose of
+                        this composition was to reserve the seats of honor in the center for King
+                        Yama and the Bodhisattva <foreign xml:lang="sa">Kṣitigarbha</foreign>, and
+                        to bring the row of kings to an end directly below them, where the Wheel of
+                        Rebirth is turned. A similar composition is found at another Sichuan site,
+                        Shengquan Monastery (Shengquan Si <foreign xml:lang="zh">聖泉寺</foreign>) in
+                        Anyue County <foreign xml:lang="zh">安岳縣</foreign>. However, niche 1 at
+                        Shengquan Monastery with the depictions of <foreign xml:lang="sa">Kṣitigarbha</foreign> and the Ten Kings dates to the Five Dynasties
+                        (907–979) and is thus later than Beishan Cloister.<note>See <ref type="biblio" target="ZhangZong2023a">115–116</ref>, where we also
+                            find two sketches showing the distribution of the Ten Kings across niche
+                            10 at Beishan Cloister. For a detailed study of Shengquan Monastery in
+                            Anyue, see <ref type="biblio" target="ZhangZong_LiaoShunyong2007"/>.</note>
+                    </p>
+
+                    <p>Zhang Zong classified the pictorial program of niche 10 at Beishan Cloister
+                        as an illustration of the <hi rend="italic">Scripture on King Yama</hi> (<hi rend="italic">Yanluo Wang jing </hi>
+                        <foreign xml:lang="zh">閻羅王經</foreign>), an extra-canonical text preserved in manuscripts only.
+                        In his reconstruction of the text from manuscript fragments found in the
+                        pagoda of Shende Monastery (Shende Si <foreign xml:lang="zh">神德寺</foreign>)
+                        in Yaozhou District (Yao­zhou Qu <foreign xml:lang="zh">耀州區</foreign>) of
+                        Tongchuan Municipality (Tongchuan Shi <foreign xml:lang="zh">銅川市</foreign>),
+                        which is collated with manuscripts BD15337 and BD08045 held in the National
+                        Library of China in Beijing, and manuscript S.2489 held in the British
+                        Library, Zhang noted that the sequence of the second and the third king of
+                        the <hi rend="italic">Scripture on King Yama</hi> matches the sequences of
+                        the names inscribed at Beishan Cloister.<note>
+                            <ref type="biblio" target="ZhangZong2023a">87–94; 107–116</ref>.</note> By contrast, in
+                        the longer recension of what is generically called the <hi rend="italic">Scripture on the Ten Kings</hi> (<hi rend="italic">Shi Wang jing
+                            </hi>
+                        <foreign xml:lang="zh">十王經</foreign>), the second and third king
+                        switched places.<note>
+                            <ref type="biblio" target="Teiser1994">196–219</ref>,
+                            provides an English translation of this text on the basis of a critical
+                            edition derived from six tenth-century Chinese manuscripts.</note>
+                    </p>
+
+                    <p/>
+
+                    <!--<ref type="biblio" target="Mair1986">17–18</ref>, quotes as earliest literary reference the story of the young Jingai 靜藹, who saw illustrations of hell in a temple in his native home of Xingyang 滎陽 (present Zhengzhou, Henan; T#2060, 50: 625c17 ) and thereupon decided to become a monk. Ibid, 24, he refers to a story found in Fayuan zhulin T#2122, 53: 911a21–912a26, where a maid is taken to hell to witness the tortures there. -->
+
+
+
+
+                    <p>It is important to note that with its date of 877–882, niche 10 at Beishan
+                        Cloister constitutes the earliest surviving depictions of after-life
+                        judgement scenes as sculpted rock images.<note>Research on artistic
+                            representations of judgement in hell already has a long standing in the
+                            field of Buddhist studies. A cursory overview on such research may
+                            include: <ref type="biblio" target="Mair1986"/>, who provided an
+                            overview on the ubiquity of what he calls “hell transformation tableaux”
+                                (<hi rend="italic">diyu bianxiang </hi>
+                            <foreign xml:lang="zh">地獄變相</foreign>) in the ninth century; <ref type="biblio" target="Teiser1988a"/>, who explores various primary
+                            materials<!--—Dunhuang
+                        manuscripts, Buddhist and Daoist canonical scriptures, art historical
+                        sources—to--> that document the range of uses to
+                            which pictures of hell were put; <ref type="biblio" target="Teiser1994">31–48</ref>, who summarizes artistic representations of the Ten
+                            Kings (including a discussion of the twenty-ninth story of folktale
+                            collection <hi rend="italic">Record of the Numinous Verifications of
+                                Images of Dizang Bodhisattva</hi> (<hi rend="italic">Dizang pusa
+                                xiang lingyan ji </hi>
+                            <foreign xml:lang="zh">地藏菩薩像靈驗記</foreign>) by
+                            Changjin <foreign xml:lang="zh">常謹</foreign>, fl. 989);<!--(CBETA 2023.Q3, X87, no.
+                        1638, p. 587c3 // Z 2B:22, p. 177b1 // R149, p. 353b1). He translates the story (pp. 44–46), which is an origin story of a numinous image of <foreign xml:lang="sa">Kṣitigarbha</foreign>.-->
+                            <ref type="biblio" target="Ledderose2000">162–185</ref>, who focuses on
+                            a thirteenth-century set of Ten King paintings from the workshop of Lu
+                            Xinzhong in Ningbo that exemplifies the modular iconography and
+                            production of such paintings; and <ref type="biblio" target="Moretti2019"/>, who studied visual narratives with hell
+                            scenes in various sutra illustrations at the Mogao caves and in
+                            cosmological charts in Dunhuang manuscripts.</note> Before the carvings
+                        of Beishan Cloister caught the attention of scholars, sculpted images of
+                            <foreign xml:lang="sa">Kṣitigarbha</foreign> and the Ten Kings were only
+                        known from literary sources. Miao Quansun <foreign xml:lang="zh">繆荃孫</foreign> (1844–1919) recorded in his <hi rend="italic">List of
+                            Epigraphic Characters from the Yifeng Hall</hi> (<hi rend="italic">Yifeng Tang jinshi wenzi mu </hi>
+                        <foreign xml:lang="zh">藝風堂金石文字目</foreign>) a votive inscription by Tu Liang <foreign xml:lang="zh">杜良</foreign> and others, who made “sculptures of the Ten
+                        Kings” (<hi rend="italic">zao shi wang xiang </hi>
+                        <foreign xml:lang="zh">造十王象</foreign>). The inscription was located on the “northern cliff of
+                        Zizhou” (<hi rend="italic">zai Zizhou beiyan </hi>
+                        <foreign xml:lang="zh">在資州北巖</foreign>) and dated to December 30, 910.<note>
+                            <ref type="biblio" target="Yifengtangjinshiwenzimu">19637</ref>: “<foreign xml:lang="zh">杜良等造十王象題記。正書，左行。武成叁年十一月廿六日。在資州北巖。</foreign>” </note>
+                        The location of this votive inscription, on a cliff north of present-day
+                        Zizhong <foreign xml:lang="zh">資中</foreign> in Sichuan, speaks in favor of
+                        statues of the Ten Kings carved from rock.<note>With reference to <ref type="biblio" target="Shanyoushike1988">
+                                <hi rend="italic">juan</hi>
+                                9,
+                            44</ref><!--: 弟子李宗大為累遭雖乱骨宾團圓發願造寶林寺一所。敬畫造迦像一鋪，又畫西方净土一鋪，敬畫維摩居士功德一鋪，又畫十王像一鋪……大唐天復三年嵗次癸亥七月己亥朔二十五日癸亥-->,
+                                <ref type="biblio" target="Teiser1994">39</ref>, also relates the
+                            donation of several pious works by a man named Li Zongda <foreign xml:lang="zh">李宗大</foreign> that Teiser believes have been statues.
+                            According to a votive inscription he left behind at Baolin Monastery
+                                <foreign xml:lang="zh">寶林寺</foreign> in Fengtai County <foreign xml:lang="zh">鳳臺縣</foreign> (present-day Anhui), Li Zongda donated a
+                            stone carving of the <hi rend="italic">Diamond Sutra</hi> and a set of
+                            four images on August 20, 903. The images included one <foreign xml:lang="sa">Śākyamuni</foreign> figure, one image assembly of the
+                            Pure Land in the West, one image assembly of the merit of the layman
+                                <foreign xml:lang="sa">Vimalakīrti</foreign>, and one image assembly
+                            of the Ten Kings (<foreign xml:lang="zh">造迦像一鋪，又畫西方净土一鋪，敬畫維摩居士功德一鋪，又畫十王像一鋪</foreign>). What Teiser calls
+                            “the carving in stone of the <hi rend="italic">Diamond </hi>
+                            <foreign xml:lang="sa">sūtra</foreign>,” however, is identified in the
+                            catalog by Hu Pinzhe <foreign xml:lang="zh">胡聘之</foreign> (1840–1912)
+                            <!--<ref type="biblio" target="Shanyoushike1988"/>--> as a “<hi rend="italic">Diamond </hi> sutra pillar” (<hi rend="italic">Jingang
+                                jing chuang </hi>
+                            <foreign xml:lang="zh">金剛經幢</foreign>), and the
+                            depiction of the Ten Kings was probably not sculpted, but painted, as
+                            the votive inscription by Li speaks of “. . . painted one image
+                            assembly” (<hi rend="italic">hua yipu </hi>
+                            <foreign xml:lang="zh">畫一鋪</foreign>).</note>
+                    </p>
+
+                    <p>
+                        <anchor xml:id="sevenseven"/>As indicated in the surviving inscriptions of
+                        niche 10, each of the Ten Kings is assigned a ritual service to be held at a
+                        particular date after the demise of a person. In the imagination of medieval
+                        Chinese Buddhists, the souls of the dead had to stand examination by each of
+                        the Ten Kings while travelling through the netherworld, until they could
+                        finally enter one of the six paths of possible rebirths. In the course of
+                        their travel, in a timespan corresponding to a total of three years after
+                        their death in the human world, the deceased were constantly in danger of
+                        falling into purgatory, where they would be punished in accordance to the
+                        kind of sins committed during life-time. Pious donations of Buddhist images
+                        or scriptures, however, had the power to save the sinners from harsh
+                        punishment. Even more effective were the services for the Ten Kings held on
+                        behalf of the deceased at the appropriate time by their descendants. The
+                        creation of representations of the Ten Kings of Hell, the punishments to be
+                        expected there, the salvation by means of Buddhist donations, and the help
+                        offered by the benevolent Bodhisattva <foreign xml:lang="sa">Kṣitigarbha</foreign> are thus intimately connected to concerns about
+                        the afterlife well-being of deceased family members.</p>
+                    <p>At Beishan Cloister, the carving of the <hi rend="italic">Diamond
+                        Sutra</hi>—once aptly characterized as “the afterlife sutra par
+                                excellence”<note>
+                            <ref type="biblio" target="HoChiewhui2019">231</ref>.</note>—caters to the same needs. </p>
+                    <figure rend="full" n="figure" xml:id="beishanyuan_part2_mosaic_proc-huafo.jpg">
+                        <head xml:lang="zh">名爲“金櫃子”的巨石上18至20號龕及其造像題記；2009年掃描</head>
+                        <head>Niches 18–20 of the boulder named “Golden Cabinet” with votive
+                            inscriptions; scan taken in 2009 </head>
+                        <graphic url="beishanyuan_part2_mosaic_proc-huafo.jpg"/>
+                    </figure>
+
+                </div>
+
+
+                <div>
+                    <head>Texts</head>
+                    <p>The carved texts are located at the northeastern end of the main stretch of
+                        cliff (fig. <ptr target="BSY_niche14_2025.tiff"/>). The survey report of
+                        2010 assigned to each text a niche of its own (fig. <ptr target="BSY_map_straight.jpg"/>). The large niche 14, which measures 160 cm in height, 374 cm in width, and 13 cm in depth, accommodates the <hi rend="italic">Diamond Sutra</hi> in 32 sections. At its left-hand side, niche 15, which measures 96 cm in height, 46 cm in width, and 1 cm in
+                        depth, bears a version of the <hi rend="italic">Victorious <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                        </hi> (fig. <ptr target="BSY_DSC08067_Inschriftfelder.jpg"/>). </p>
+                    <p><!--In 2009, a team of the i3mainz Institute for Spatial Information and
+                        Surveying Technology, Hochschule Mainz — University of Applied Sciences
+                            (<foreign xml:lang="zh">美因玆應用科技大學</foreign> i3mainz <foreign xml:lang="zh">空間信息與測量技術學院</foreign>) was allowed to scan the inscribed surface (fig. <ptr target="BSY_IMG_6102.JPG"/>). Thanks to these scans,
+                        large parts of the inscriptions became legible again (fig. <ptr target="BSY_Gesamtuebersicht.tif"/>). The scans also revealed that a vertical row of figures was carved at the left-hand side of the <hi rend="italic">Diamond Sutra</hi> (fig. <ptr target="BSY_Ritzzeichnung.jpg"/>). -->
+                        Along the left-hand side rim of niche 14 with the <hi rend="italic">Diamond Sutra</hi> runs a vertical row of figures (fig. <ptr target="BSY_Ritzzeichnung.jpg"/>). 
+                        
+                        In the middle of this row, the outlines of a Buddha on a lotus seat appear. Above him, a few lines
+                        delineating another lotus seat have remained. Below the central Buddha, we
+                        see the outlines of a figure wearing the traditional cloth headdress with
+                        flaps (<hi rend="italic">fu </hi>
+                        <foreign xml:lang="zh">幞</foreign>). This might be a male donor, probably
+                        shown kneeling. </p>
+
+                    <figure rend="center" n="figure" xml:id="BSY_DSC08137.JPG">
+                        <head xml:lang="zh">第10龕，其中有十冥王像。2022年拍攝</head>
+                        <head>Niche 10 with representations of the Ten Kings of Hell; photograph
+                            taken in 2022</head>
+                        <graphic url="BSY_DSC08137.JPG"/>
+                    </figure>
+                    <div>
+                        <head>The <hi rend="italic">Diamond Sutra</hi> in 32 Sections</head>
+
+                        <p>
+                            <anchor xml:id="BSY_Diamond_start"/>The text carved inside the shallow
+                            niche 14 is the so-called <hi rend="italic">Diamond Perfection of Wisdom
+                                Sutra</hi> (<hi rend="italic">
+                                <foreign xml:lang="sa">Vajra­cchedikā­prājñā­pāramitā</foreign>
+                            </hi>; <hi rend="italic">Jingang bore boluomi jing </hi>
+                            <foreign xml:lang="zh">金剛般若波羅蜜經</foreign>) in 32 sections, an edition that combines the
+                            base text of the translation by <foreign xml:lang="sa">Kumārajīva </foreign>
+                            <foreign xml:lang="zh">鳩摩羅什</foreign> (350?–409/411/413?), T#235, with
+                            32 numbered subtitles that are traditionally ascribed to crown-prince
+                            Zhaoming <foreign xml:lang="zh">昭明太子</foreign>, the oldest son of
+                            Emperor Wu of the Liang dynasty <foreign xml:lang="zh">梁武帝</foreign>
+                            (464–549), Xiao Tong <foreign xml:lang="zh">蕭統</foreign> (501–531). One
+                            of the earliest canonical texts to transmit these section titles (leaving aside Dunhuang manuscripts) is the
+                            Song-period commentary <hi rend="italic">Deciphering the Meanings of the
+                                Diamond Sutra</hi> (<hi rend="italic">Jingang jing jieyi
+                                </hi>
+                            <foreign xml:lang="zh">金剛經解義</foreign>) in two
+                                scrolls,<note>The alleged author of this commentary is the sixth
+                                Chan-patriarch Huineng <foreign xml:lang="zh">慧能</foreign>
+                                (638–713). This is an obvious misattribution, see <ref type="biblio" target="HoChiewhui2019">242</ref>. <!--The
+                                text claims that the monk Lingyou <foreign xml:lang="zh">靈幽</foreign> (died 832) added the 62 characters of the “<hi rend="italic"><foreign xml:lang="sa">gāthā</foreign></hi> from the underworld bureau” to <foreign xml:lang="sa">Kumārajīva</foreign>’s translation (X459, 24: 530a3–5). -->
+                            </note>
+                            now contained in the <hi rend="italic">
+                                <foreign xml:lang="ja">Man
+                                    Zokuzōkyō </foreign>
+                            </hi>
+                            <foreign xml:lang="zh">卍續藏經</foreign>.<note>R38, 661b1–690a18; X459, 24: 517c14–17.</note>
+                            According to the dated votive inscriptions nearby, the creation date of
+                                <hi rend="italic">Diamond Sutra</hi> in 32 sections at Beishan
+                            Cloister could be set at 877–882. Therefore, it is the so-far earliest
+                            known exemplar of this particular edition of the <hi rend="italic">Diamond Sutra</hi>. </p>
+
+
+
+                        <p>
+                            <anchor xml:id="registerheight"/>The <hi rend="italic">Diamond Sutra</hi> in 32 sections is arranged in
+                            three horizontal registers of equal height across the rock surface (fig. <ptr target="BSY_Gesamtuebersicht.tif"/>). The topmost register measures 40.5–42.5 cm in height. Each register reads from right to left. Our reconstruction of the text (see pp. <ptr type="infra" target="BSY_tr_start BSY_tr_end"/> in the present volume) counts 128 text columns in the topmost and middle register, but
+                            only 90 columns in the bottommost register, where there is space left
+                            for a maximum of 31 more text columns. Although this part of the rock
+                            surface is severely weathered, our scans captured one spot where strokes
+                            of several characters have remained (fig. <ptr target="BSY_1_anonymus_line-18-27_detail.tif"/>). They evidence the
+                            existence of an original second text that followed after the <hi rend="italic">Diamond Sutra</hi> in 32 sections. This text may have been a votive inscription, as it is placed in front of the kneeling male donor figure.</p>
+
+                        <p>The assumption that another text must have followed after the sutra is
+                            supported by the general care by which the sutra text was arranged. We
+                            may safely assume that all section titles began at the top of a column,
+                            as do those preserved in total or in part (section titles 4–8, 12–17,
+                            20, and 29–32). As the titles are indented by one space, the sectioning
+                            of the entire text was thus visualized in a most effective way. It is
+                            also noteworthy that one text column—with the exception of the section
+                            titles—comprises 17 characters on
+                            average.<!--<note>Only one column in the bottommost register deviate from this number. This is column 86 with the famous verse contains 20 characters. Is this true?</note>-->
+                            This conforms with the standard layout for sutra manuscripts established
+                            by the Tang court.<note>
+                                <ref type="biblio" target="Galambos2015">969–970</ref>.</note> We thus have a strong correspondence
+                            between the layout of the carved text and manuscript production. The
+                            reading direction of the stone text also accords with reading habits for
+                            manuscripts, which are unrolled from right to left. In consequence, the
+                            carved text resembles a sutra scroll that is spread in three registers
+                            from beginning (upper right-hand corner) to end (lower left-hand corner)
+                            across the cliff face. </p>
+                        <figure rend="left" n="figure" xml:id="BSY_DSC08105.JPG">
+                            <head xml:lang="zh">第13龕，其左側邊緣有刻於公元881－882年的銘文。2022年拍攝</head>
+                            <head>Niche 13 with the inscription dated 881–882 on the right-hand side
+                                edge; photograph taken in 2022</head>
+                            <graphic url="BSY_DSC08105.JPG"/>
+                        </figure>
+
+                        <p>This analogy to a portable text written on paper or silk opens up another
+                            possibility for the unidentified text that follows the <hi rend="italic">Diamond Sutra</hi> in 32 sections: It may have been a votive
+                            inscription in the form of a colophon such as those we often find at the
+                            end of manuscript scrolls.<note>
+                                <ref type="biblio" target="Galambos2015">971</ref>.</note> The figure of a kneeling donor who faces the
+                            text at the end of the third register speaks in favor of this
+                            assumption. The figures seated on lotuses above him also seem
+                            reminiscent of manuscript illustrations. </p>
+
+                        <!--<p>The carved text is a rather neat copy of the <foreign xml:lang="sa">Kumārajīva</foreign> version of the <hi rend="italic">Diamond Sutra</hi>. Only once, in column 125 towards the end of the first register, the scribe missed an entire phrase in one of Subhuti’s responses to the Buddha. Yet because this phrase is just a repetition of the respective question posed by the Buddha, this slip does not affect the comprehensibility of the text passage. </p>-->
+                        <p>As mentioned above, with its date of 877–882, the inscription at Beishan
+                            Cloister counts as the earliest witness of the <hi rend="italic">Diamond
+                                Sutra</hi> in 32 sections. Despite the neatly arranged text
+                            sections, an outright error occurred in the matching of section titles
+                            and text passages: Although section titles 24–31 appear in the expected
+                            locations, at the beginning of new paragraphs, they no longer match
+                            their contents.
+                            <!--Starting with section title 24, the content of the title and the following passage no longer match, although section titles 24–31 are in the right place, that is, exactly where a new paragraph starts.-->
+                            In comparison with other text witnesses of the <hi rend="italic">Diamond
+                                Sutra</hi> in 32 sections,<note>X 459; T#2732, manuscripts Pelliot
+                                chinois 2876, S. 5534, and S. 5544, among others.</note> it seems
+                            that the carvers forgot to insert section title 24 into the long text
+                            passage that is now designated as section 23.<note>Section titles 23 and
+                                24 have both not survived on the cliff, and the corresponding text
+                                passage is in a very poor state of preservation. Nevertheless, the
+                                few characters that are still legible imply that the text passage
+                                ran continuously along the text columns from top to bottom, without
+                                being interrupted by another section title.</note> As a result, the
+                            titles numbered 24–31 are always one number late, i.e., section title 24
+                            heads the text passage of section 25, and section title 25 heads the
+                            text passage of section 26, and so forth.</p>
+                        <figure rend="center" n="figure" xml:id="BSY_Gesamtuebersicht.tif">
+                            <head xml:lang="zh">第14、15龕刻經的位置。緑色：三十二分《金剛經》。紅色：《佛頂尊勝陀羅尼經》。藍色：文本不明；2009年掃描</head>
+                            <head>Location of texts in niche 14 and 15. Green: <hi rend="italic">Diamond
+                                    Sutra</hi> in 32 sections (BSY 1). Red: <hi rend="italic">Sutra
+                                    of the Victorious Uṣṇīṣa Dhāraṇī</hi> (BSY 2). Blue: Remains of
+                                an unidentified text; scan (with modifications) taken in 2009 </head>
+                            <graphic url="BSY_Gesamtuebersicht.tif"/>
+                        </figure>
+                        <p>The carvers seem to have only realised their mistake at the end of the
+                            sutra text, when they had only one text passage (section 32) but two
+                            section titles (31 and 32) remaining. To remedy this, they divided the
+                            final text section in two parts, and placed section title 32 in front of
+                            the verse that concludes the Buddha’s preaching of the <hi rend="italic">Diamond Sutra</hi>. </p>
+
+                        <p>Although we cannot be certain, there are several possible explanations
+                            for this error. The most probably source of the error might be the
+                            workflow, in which texts were transferred from a portable <hi rend="italic">Vorlage</hi> written on paper or silk onto the cliff.
+                            If the <hi rend="italic">Vorlage</hi> was correct, something went wrong
+                            when it was transferred on the wall. It is also possible that the
+                            creators of the inscription only had a list of the 32 section titles at
+                            their disposal, which needed to be combined with the <foreign xml:lang="sa">Kumārajīva</foreign> version of the <hi rend="italic">Diamond Sutra</hi> by an educated person. The actual carving was
+                            then executed by artisans, who were skilled in their art, but not
+                            necessarily literate.</p>
+                        <figure rend="left" n="figure" xml:id="BSY_Ritzzeichnung.jpg">
+                            <head xml:lang="zh">第14龕三十二分《金剛經》左邊一排縱向的人物圖像；2009年掃描</head>
+                            <head>Niche 14, vertical row of figures at the left-hand side of the <hi rend="italic">Diamond Sutra</hi> in 32 sections; scan (with
+                                modifications) taken in 2009</head>
+                            <graphic url="BSY_Ritzzeichnung.jpg"/>
+                        </figure>
+                        <p>Moreover, carvers often worked in teams on the principle of the division
+                            of labor. These factors may explain why the error was discovered at a
+                            relatively late stage in the carving process.</p>
+                        <!--<figure rend="page" n="figure" xml:id="">
+                            <head xml:lang="zh"/>
+                            <head></head>
+                            <graphic url=""/>
+                        </figure>
+                        <figure rend="page" n="figure" xml:id="">
+                            <head xml:lang="zh"/>
+                            <head></head>
+                            <graphic url=""/>
+                        </figure>-->
+
+                        <p>We may also keep in mind that the insertion of 32 section titles to mark
+                            the sutra’s inherent structure was then a rather recent development. As
+                            has been noted before, the topic of the sutra—a conversation between the
+                            Buddha and Subhuti on various subjects—lends itself to some sort of
+                            division according to who is speaking or which subject is under
+                            discussion. In consequence, manuscript copies of the <hi rend="italic">Diamond Sutra</hi> often divided the text in paragraphs to give
+                            visual expression to different sections.<note>
+                                <ref type="biblio" target="HoChiewhui2019">248</ref>, illustrates an early example
+                                for a text division into paragraphs, the manuscript S. 513, one of
+                                the copies sponsored by Empress Wu (r. 690–705). <ref type="biblio" target="Hureau2014">222–223</ref>, points at Pelliot chinois
+                                5573, BD1611, and S. 2635 as copies with text paragraphs. Another
+                                example is the famous block printed edition of the <hi rend="italic">Diamond Sutra</hi> that is dated by colophon to 868 and is now
+                                kept in the British Library; for this edition see p. <ptr type="infra" target="Diamond868_start"/> in the present
+                                volume.</note> This method of sectioning the text is believed to
+                            have developed into editions with standardized sets of division, first
+                            into twelve, and then into 32 text sections.<note>
+                                <ref type="biblio" target="Hureau2014">223–229</ref>, discusses this process in
+                                more detail with reference to the <hi rend="italic">Diamond
+                                    Sutra</hi> copy of the manuscript Pelliot chinois 2094, the text
+                                of which was amended by the donor Zhai Fengda <foreign xml:lang="zh">翟奉達 </foreign> (fl. 902–966), who added section titles and the
+                                “additional sixty characters of the missing section” (<hi rend="italic">yilou fen tian liushi zi </hi>
+                                <foreign xml:lang="zh">遺漏分添六十字</foreign>; see below) in smaller
+                                characters to the base text.</note> The latter is a particularity of
+                            the Sichuan region, as all known text witnesses—manuscripts from the
+                            Dunhuang finds, but also the two stone copies published in the present
+                            volume—derive their origin from there. </p>
+
+                        <p>Ho Chiew Hui <foreign xml:lang="zh">何秋輝</foreign>, who recently published
+                            a book-length study of the <hi rend="italic">Diamond Sutra</hi> and its
+                            para­texts, suggests that the division into 32 sections was a religious
+                            innovation of the laity. The summary character of the section titles
+                            served as a mnemonic device in the recitation of the sutra, which became
+                            ever more important in liturgies held for the spiritual welfare of the
+                                    dead.<note>
+                                <ref type="biblio" target="HoChiewhui2019">246–248</ref>. </note>
+                        </p>
+
+
+
+                        <div>
+                            <head>The <hi rend="italic">Diamond Sutra</hi> and the Ten Kings of
+                                Hell</head>
+                            <p>In the wider context of the text history of <foreign xml:lang="sa">Kumārajīva</foreign>’s version of the <hi rend="italic">Diamond
+                                    Sutra</hi>, it must be noted that the Beishan Cloister text does
+                                not contain the 62 characters passage found in modern editions (such
+                                as <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi>;
+                                T#235, 8: 751c16–19)<note>Although the inscription is heavily
+                                    weathered in the bottommost register, and the relevant text
+                                    passage has not survived, the remaining characters in columns 5
+                                    and 13 allow only for a text reconstruction without this 62
+                                    characters passage.</note> that are a later interpolation taken
+                                from Bodhiruci’s (<foreign xml:lang="zh">菩提留支</foreign>; ?–527)
+                                translation (T#236, 8: 756a16–19). With regard to its early date of
+                                877–882, this is hardly surprising, as the earliest texts that
+                                include these additional 62 characters date about one hundred years
+                                later, to the 970s and 980s.<note xml:id="PoPagoda">The earliest
+                                    surviving text witness that includes the additional 62
+                                    characters is the <hi rend="italic">Diamond Sutra</hi> carved
+                                    inside Po Pagoda <foreign xml:lang="zh">繁塔</foreign> at Kaifeng
+                                        <foreign xml:lang="zh">開封</foreign> in Henan (dated
+                                    977–982). Next in date is a printed edition of 981 from Suzhou
+                                        <foreign xml:lang="zh">宿州</foreign> in Anhui, and a printed
+                                    edition of 985 preserved in <foreign xml:lang="ja">Kyōto </foreign>
+                                    <foreign xml:lang="zh">京都</foreign> at <foreign xml:lang="ja">Seiryō-ji</foreign>
+                                    <foreign xml:lang="zh">清凉寺</foreign>,
+                                    see <ref type="biblio" target="HoChiewhui2019">243–244</ref>.
+                                    For the <hi rend="italic">Diamond Sutra</hi> of Po Pagoda, see
+                                        <ref type="biblio" target="Po_Ta2017">2–7 and 8–15</ref>,
+                                    where we find rubbings taken from six slabs as well as a full
+                                    transcription. Rubbings are also preserved in Beijing National
+                                    Library (<foreign xml:lang="zh">各</foreign>4334), see <ref type="biblio" target="BJTSG1989">37: 46–51</ref>
+                                </note>
+                            </p>
+                            <figure rend="center" n="figure" xml:id="BSY_niche14_2025.tiff">
+                                <head xml:lang="zh">第14龕三十二分《金剛經》和第15龕《佛頂尊勝陀羅尼經》。2025年拍攝</head>
+                                <head>Niche 14 with the <hi rend="italic">Diamond
+                                        Sutra</hi> in 32 sections and niche 15 with the <hi rend="italic">Sutra of
+                                        the Victorious Uṣṇīṣa Dhāraṇī</hi>; photograph taken in
+                                    2025</head>
+                                <graphic url="BSY_niche14_2025.tiff"/>
+                            </figure>
+
+                            <p>
+                                <anchor xml:id="monastics"/>Ho Chiew Hui argues that the Bodhiruci
+                                interpolation had to overcome strong resistance by elite monastics,
+                                who were reluctant to make changes to <foreign xml:lang="sa">Kumārajīva</foreign>’s text, although they were aware that this
+                                version was short of a text portion in comparison to the longer
+                                Bodhiruci translation. Only towards the end of the tenth century,
+                                when manuscripts containing the so-called “additional
+                                sixty-character <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi> from the underworld bureau” (<hi rend="italic">jia mingsi ji liu shi zi </hi>
+                                <foreign xml:lang="zh">加冥司偈六十字</foreign>) became ever more popular, the
+                                Buddhist elite gave in and added the Bodhiruci interpolation to
+                                    <foreign xml:lang="sa">Kumārajīva</foreign>’s text. The wording
+                                of the latter differs only in a few characters from the by then
+                                wide-spread “additional sixty-character <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi> from the underworld
+                                    bureau.”<note>See <ref type="biblio" target="HoChiewhui2019">234–244</ref>, who discusses this text passage at length,
+                                    and provides a English translation.</note>
+                            </p>
+
+                            <p>The “additional sixty-character <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi> from the underworld
+                                bureau” derives its name from a collection of tales about the
+                                efficacy of the <hi rend="italic">Diamond Sutra</hi> that has come
+                                down to us in the Dunhuang manuscript Pelliot Chinois 2094.<note xml:id="P2094">The scroll (Pelliot Chinois 2094) comprises
+                                    eleven scriptures; the first is a collection of tales titled <hi rend="italic">A Record of the Proven Efficacy of the <hi rend="normal">Diamond Sutra</hi> and the Merit to be
+                                        Gained from Upholding and Reciting It</hi> (<hi rend="italic">Chisong Jingang jing lingyan gongde ji
+                                        </hi>
+                                    <foreign xml:lang="zh">持誦金剛經靈驗功德記</foreign>). For an
+                                    introduction to this manuscript, its date, and its donor Zhai
+                                    Fengda <foreign xml:lang="zh">翟奉達 </foreign> (fl. 902–966), see
+                                        <ref type="biblio" target="HoChiewhui2019">53–57</ref>. For
+                                    an English translation of this collection of tales, see <ref type="biblio" target="HoChiewhui2019">416–429</ref>.</note>
+                                This collection contains a story about a certain monk Lingyou
+                                    <foreign xml:lang="zh">靈幽</foreign>, who meets one of the Kings
+                                of Hell, King Yama, on the seventh day after his death. King Yama
+                                listens to the monk reciting the text of the <hi rend="italic">Diamond Sutra</hi> in full. When Lingyou has finished, Yama
+                                informs him that his recitation missed one <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi>, which has been
+                                preserved in the world of the living on a stele west of the city of
+                                Haozhou <foreign xml:lang="zh">濠州</foreign> (in modern Chuzhou
+                                    <foreign xml:lang="zh">滁州</foreign>, Anhui). Lingyou is granted
+                                ten more years to live in order to find this missing <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi> and to
+                                circulate it in the world.<note>Translation of this tale in <ref type="biblio" target="HoChiewhui2019">237 and
+                                    424–425</ref>.</note>
+                            </p>
+
+                            <p>The story about Monk Lingyou meeting King Yama not only exemplifies
+                                the firm belief in the truthfulness and persistence of stone-cut
+                                    texts;<note>The same motif of a text that was believed to have
+                                    been lost, but could eventually be retrieved from a single
+                                    surviving stone version, is found in reports about the sutra
+                                    text of the Xiangyang stone stele (<hi rend="italic">Xiang­yang
+                                        shibei </hi>
+                                    <foreign xml:lang="zh">襄陽石碑</foreign>). This
+                                    text preserved a passage in 25 characters of <foreign xml:lang="sa">Kumārajīva</foreign>’s version of the <hi rend="italic">Shorter <foreign xml:lang="sa">Sukhāvatīvyūha-sūtra</foreign>
+                                    </hi>, the <hi rend="italic">
+                                        <foreign xml:lang="sa">Amitābha</foreign>
+                                        Sutra Spoken by the Buddha</hi> (<hi rend="italic">Fo shuo
+                                            Emituo jing </hi>
+                                    <foreign xml:lang="zh">佛説阿彌陀經</foreign>;
+                                    T#366, 12: 347b9–15), a passage that became seminal for the
+                                    Japanese Pure Land tradition. The version of the <hi rend="italic">
+                                        <foreign xml:lang="sa">Amitābha</foreign>
+                                        Sutra</hi> that was carved inside cave <hi rend="bold">46</hi> at the Grove of the Reclining Buddha in Anyue,
+                                    Sichuan, probably during the <hi rend="italic">kaiyuan </hi>
+                                    <foreign xml:lang="zh">開元</foreign> era (713–741), also includes
+                                    this crucial passage, see <ref type="biblio" target="Wenzel2016a">159–161</ref>.</note> it also shows the
+                                intimate relation between the <foreign xml:lang="sa">Kumārajīva</foreign> version of the <hi rend="italic">Diamond
+                                    Sutra</hi>, the belief in its original or “true” version that
+                                contains a text portion that later went missing, and the
+                                then-nascent cult of the Kings of Hell.</p>
+
+
+                            <p>
+                                <anchor xml:id="Teiser"/>With Stephen Teiser’s ground-breaking study
+                                on <hi rend="italic">The Scripture on the Ten Kings and the Making
+                                    of Purgatory in Medieval Chinese Buddhism</hi> of 1994, the
+                                liturgical connection between the <hi rend="italic">Diamond
+                                    Sutra</hi> in 32 sections and the <hi rend="italic">Scripture on
+                                    the Ten Kings</hi> came to light.<note>
+                                    <ref type="biblio" target="Teiser1994">95–99</ref>.</note> Among the Dunhuang
+                                manuscripts of the short recension of the <hi rend="italic">Scripture on the Ten Kings</hi> that are bound as a booklet in
+                                an easily chanted format, there are specimens that combine this
+                                scripture with a copy of the <hi rend="italic">Diamond Sutra</hi> in
+                                32 sections.<note>
+                                    <ref type="biblio" target="Teiser1994">239</ref>,
+                                    lists four extant manuscripts (S.5450; S.5544 [dated 911?];
+                                    S.5585; Pelliot chinois 5580), one manuscript (San 262) with an
+                                    unknown location, and two one-sheet fragments of booklets (Dhk
+                                    143; Dhk 931) that contain or used to contain these two
+                                    texts.</note> The copies of the <hi rend="italic">Diamond
+                                    Sutra</hi> in 32 sections in these booklets share some specific
+                                features (apart from the 32 sections) that indicate that a
+                                particular version of the <hi rend="italic">Diamond</hi> for
+                                liturgical uses had taken shape: They all contain the “additional
+                                sixty-character <hi rend="italic">
+                                    <foreign xml:lang="sa">gāthā</foreign>
+                                </hi> from the underworld bureau”; the sutra
+                                text is followed by a set of three <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi>s; and they claim
+                                provenance from the “true print edition by the Guo [printing]
+                                house of Xichuan” (<hi rend="italic">Xichuan Guojia zhenyin ben
+                                </hi>
+                                <foreign xml:lang="zh">西川過家真印本</foreign>).</p>
+
+                            <p>By contrast to the liturgical edition found in these booklets from
+                                Dunhuang, the <hi rend="italic">Diamond Sutra</hi> in 32 sections
+                                carved at Beishan Cloister does not contain the additional sixty
+                                characters, and it is also not followed by the full set of three <hi rend="italic">
+                                    <foreign xml:lang="sa">dhāraṇī</foreign>
+                                </hi>
+                                text. Yet the connection to the cult of the Ten Kings of Hell is
+                                obvious, as the pictorial program of niche 10 nearby can be
+                                identified as an illustration of the <hi rend="italic">Scripture on
+                                    King Yama</hi>. Likewise obvious is the connection to the
+                                Sichuan region, home to the “Guo [printing] house of Xichuan” that
+                                produced copies of the liturgical edition of the <hi rend="italic">Diamond Sutra</hi> in 32 sections in the early tenth century.
+                                The cliff at Beishan Cloister thus offers a snapshot of an earlier
+                                phase in the formation of a liturgy that connects the belief in the
+                                judicial function of the Ten Kings to the belief in the
+                                extraordinary salvific powers of the <hi rend="italic">Diamond
+                                    Sutra</hi>. </p>
+
+
+                            <p>To get a clearer picture of the chronology of this evolution, it may
+                                be worth mentioning that the earliest surviving manuscript witness
+                                from Dunhuang that features the <hi rend="italic">Diamond Sutra</hi>
+                                in 32 text sections with subtitles is the butterfly booklet S.5534.
+                                It is dated by colophon to April 8, 905,<note>
+                                    <ref type="biblio" target="Teiser1994">244, 273</ref>. The manuscript is
+                                    digitized at
+                                    http://idp.bl.uk<!--/database/oo_scroll_h.a4d?uid=34634975810;recnum=10488;index=1-->.
+                                    See also <ref type="biblio" target="Luomujun2017">101</ref>, and
+                                        <ref type="biblio" target="HoChiewhui2019">234 and note
+                                        105</ref>.</note> and is part of a group of eleven
+                                manuscripts that were all donated between 905–907 by the same
+                                person, an old man in his eighties, who refers to himself as “the
+                                octogenarian” (<hi rend="italic">bashi laoren </hi>
+                                <foreign xml:lang="zh">八十老人</foreign>). Eight of the eleven manuscripts
+                                are <hi rend="italic">Diamond Sutra</hi> in 32 sections.<note xml:id="octogenarian">For a comprehensive study of this group of
+                                    Dunhuang manuscripts, see <ref type="biblio" target="Luomujun2017"/>. <ref type="biblio" target="Teiser1994">244</ref>, has a list of the eleven
+                                    manuscripts donated by the old man. For the motivation of the
+                                    octogenarian, see <ref type="biblio" target="Teiser1994">121–128</ref>, and <ref type="biblio" target="HoChiewhui2019">218–219</ref>.</note>
+                            </p>
+                            <figure rend="left" n="figure" xml:id="BSY_IMG_6102.JPG">
+                                <head xml:lang="zh">掃描經文時的工作狀况。2009年拍攝</head>
+                                <head>Working conditions while scanning the texts; photograph taken
+                                    in 2009</head>
+                                <graphic url="BSY_IMG_6102.JPG"/>
+                            </figure>
+                            <p>Over the course of the tenth century, we also see this particular
+                                recension of the <hi rend="italic">Diamond Sutra</hi> in 32 sections
+                                bound as a single scripture, or combined with several, two to six
+                                scriptures other than the <hi rend="italic">Scripture on the Ten
+                                    Kings</hi>. Many of these <hi rend="italic">Diamond Sutra</hi>
+                                manuscripts, which span in time from 905 to 943, are based on the
+                                printed master edition from Sichuan.<note>
+                                    <ref type="biblio" target="Teiser1994">98–99</ref>.</note> We thus know that a
+                                Dunhuang scriptorium picked up a tradition with roots in the Sichuan
+                                region, where it is already verifiable at Beishan Cloister around
+                                the year 880. </p>
+
+
+                            <p>
+                                <anchor xml:id="BSY_Diamond_end"/>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>The <hi rend="italic">Victorious Uṣṇīṣa Dhāraṇī</hi>
+                        </head>
+                        <p>The version of the <hi rend="italic">Victorious <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                            </hi> (<hi rend="italic">
+                                <foreign xml:lang="sa">Uṣṇīṣavijayā-dhāraṇī</foreign>
+                            </hi>; <hi rend="italic">Fo ding zunsheng tuoluoni </hi>
+                            <foreign xml:lang="zh">佛頂尊勝陀羅尼</foreign>) that is carved in niche 15 at the left-hand side
+                            of the <hi rend="italic">Diamond Sutra</hi> follows rather closely the
+                            first <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi>
+                            contained in the <hi rend="italic">Record of the Miracles Related to the
+                                Extended Victorious <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                            </hi> (<hi rend="italic">Jiaju lingyan Fo ding zunsheng tuoluoni ji </hi>
+                            <foreign xml:lang="zh">加句靈驗佛頂尊勝陀羅尼記</foreign>; T#974C, 19:
+                            387b14–387c18, in 53 syllabic phrases). This work was authored by Wu Che
+                                <foreign xml:lang="zh">武徹</foreign> (mid-eighth century), a kinsman
+                            of Empress Wu Zetian,<note>
+                                <ref type="biblio" target="ChenJinhua2002b">110, note 199</ref>, explains Wu Che’s kinship to the empress.
+                                See also <ref type="biblio" target="Sassmann_Tsai2016">118–119</ref>.</note> who held the titles of Grand Master for Court
+                            Discussion (chaoyi daifu <foreign xml:lang="zh">朝議大夫</foreign>) and
+                            Attendant Censor (shiyu shi <foreign xml:lang="zh">侍御史</foreign>).
+                                <note>See T#974C, 19: 386a5.</note> In his <hi rend="italic">Record
+                                of the Miracles Related to the Extended Victorious <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                            </hi>, Wu Che relates that
+                            this particular <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi> was once translated by Vajrabodhi
+                            (Jingangzhi <foreign xml:lang="zh">金剛智</foreign>; 671–741). </p>
+                        <p>The <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi> text
+                            of niche 15 appears to be an addition to the <hi rend="italic">Diamond
+                                Sutra</hi> in 32 sections of niche 14. The layout has no direct
+                            connection to the sutra text, and the <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi> was carved in characters
+                            larger than those of the sutra. Despite this non-uniform appearance, the
+                                <hi rend="italic">Victorious <foreign xml:lang="sa">Uṣṇīṣa
+                                    Dhāraṇī</foreign>
+                            </hi> constitutes a reasonable appendix to the
+                                <hi rend="italic">Diamond Sutra</hi> in 32 sections, as this <hi rend="italic">
+                                <foreign xml:lang="sa">dhāraṇī</foreign>
+                            </hi> is
+                            considered a most powerful spell that brings release from hell and evil
+                            destinies even to those who accumulated heaps of bad karma but very
+                            little merit during their lifetime. Such benefits are promised in the
+                            narrative frame of the <hi rend="italic">Sutra of the Victorious
+                                    <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                            </hi> (<hi rend="italic">
+                                <foreign xml:lang="sa">Uṣṇīṣavijayā-dhāraṇī</foreign>
+                            </hi>; <hi rend="italic">Fo ding
+                                zunsheng tuoluoni jing </hi>
+                            <foreign xml:lang="zh">佛頂尊勝陀羅尼經</foreign>; T#967) in the version that is ascribed to
+                                *<foreign xml:lang="sa">Buddhapālita </foreign>
+                            <foreign xml:lang="zh">佛陀波利</foreign> (fl. ca. 676).<note>The present
+                                series has already documented other carvings of the <hi rend="italic">Victorious <foreign xml:lang="sa">Uṣṇīṣa
+                                        Dhāraṇī</foreign>
+                                </hi>: Two versions were carved at the
+                                Grove of the Reclining Buddha (Wofo Yuan <foreign xml:lang="zh">卧佛院</foreign>) in An­yue County (An­yue Xian <foreign xml:lang="zh">安岳縣</foreign>) in Sichuan, one before the year 733
+                                on wall f inside cave 46, and one in the year 733
+                                <!--by Monk Ruyi <foreign xml:lang="zh">釋如一</foreign>--> on the
+                                entrance wall h to the same cave, see <ref type="biblio" target="Sichuan_3">376–380; 387–388</ref>. It was also carved on
+                                an eighth-century shrine from Azure Dragon Monastery (Qinglong Si
+                                    <foreign xml:lang="zh">青龍寺</foreign>) in Xi’an, see SHAANXI 3,
+                                xxx–xxx, as well as on a stone lantern stand dated to 831 from the
+                                same monastery, see SHAANXI 3, xxx–xxx. </note>
+                        </p>
+                        <p>The carving of the <hi rend="italic">Victorious <foreign xml:lang="sa">Uṣṇīṣa Dhāraṇī</foreign>
+                            </hi> thus neatly fits in with the
+                            overall program of the cliff at Beishan Cloister.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

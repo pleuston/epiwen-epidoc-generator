@@ -1,0 +1,78 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="JSY" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Mount Tai</c:title>
+        <c:title lang="zh" type="given">泰山</c:title>
+        <c:date/>
+        <c:province lang="en">Shandong Province</c:province>
+        <c:province lang="zh">山東省  </c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_2"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_3"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_4"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_5"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_6"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_7"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_8"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_9"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_10"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_11"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_12"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_13"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_14"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_15"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_16"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_17"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_18"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_19"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_20"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_21"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_22"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_23"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_24"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_25"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_26"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_27"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_28"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_29"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_30"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_31"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_32"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_33"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_34"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_35"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_36"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_37"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_38"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_39"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_40"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_41"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_42"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_43"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_44"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_45"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_46"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_47"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_48"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_49"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_50"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_51"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_52"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_53"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_54"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_55"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_56"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_57"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_58"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_59"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_60"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_61"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_62"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_63"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="JSY_64"/>
+    </c:fileDescription>
+    <c:location>
+        <c:coordinates srsName="EPSG:4326">117.117708, 36.224721</c:coordinates>
+    </c:location>
+</c:object>

@@ -1,0 +1,19 @@
+<object xmlns="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/webdav/db/schema/catalog.xsd" xml:id="WFY" type="site">
+    <header>
+        <title lang="en" type="given">Grove of the Reclining Buddha</title>
+        <title lang="zh">臥佛院</title>
+        <province lang="en">Sichuan Province</province>
+        <province lang="zh">四川省  </province>
+    </header>
+    <fileDescription>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY46_d_3"/>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY46_f_1"/>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY46_e"/>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY46_d_1"/>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY71_d_1"/>
+        <link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="WFY73_e"/>
+    </fileDescription>
+    <location>
+        <coordinates srsName="EPSG:4326">105.316629,30.302314</coordinates>
+    </location>
+</object>

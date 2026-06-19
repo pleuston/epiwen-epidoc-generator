@@ -1,0 +1,19 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="XL" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Xianling Shrine, Sanyuan County (639)</c:title>
+        <c:title lang="zh" type="given">三原縣獻陵石佛殿（639）</c:title>
+        <c:date/>
+        <c:province lang="en">Shaanxi Province</c:province>
+        <c:province lang="zh">陝西省  </c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="XL_1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="XL_2"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="XL_3"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="XL_4"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="XL_5"/>
+    </c:fileDescription>
+    <location>
+        <coordinates srsName="EPSG:4326" height="">109.135043, 34.704177</coordinates>
+    </location>
+</c:object>

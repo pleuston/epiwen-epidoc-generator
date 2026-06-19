@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the site of Wofoyuan</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>15.02.2012</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>file established</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_WFY">
+        <body>
+            <div xml:lang="zh">
+                <head>臥佛院</head>
+                <p/>
+            </div>
+            <div xml:lang="en">
+                <head>Wofoyuan</head>
+                    <figure xml:id="Wfy_001.jpg">
+                        <head/>
+                        <graphic url="Wfy_001.jpg"/>
+                    </figure>
+                    <p>The cave temples at Wofoyuan in Anyue county <foreign xml:lang="zh">安岳</foreign>, the by far largest site of Buddhist cliff carvings in Sichuan province, host sacred Buddhist texts taken from twenty-one sutras, which are 
+                        distributed over the interior walls of fifteen caves that were cut out of the rock for that purpose around the Kaiyuan <foreign xml:lang="zh">開元</foreign> era (713-741) of the 
+                        Tang dynasty. 
+                    </p>
+                    <p>The entire site of Wofoyuan encompasses 125 caves and open niches. While some of the caves are seemingly unfinished or left empty, the niches stretching along the cliffs 
+                        in between the cave entrances display very fine examples of Sichuanese Tang sculptures. Most impressive is the Giant Reclining Buddha situated at the north cliff, 
+                        a twenty-three meter long statue representing <foreign xml:lang="sa">Śākyamuni</foreign> Buddha entering final <foreign xml:lang="sa">nirvāṇa</foreign>, surrounded by his disciples and the eight dragon kings <foreign xml:lang="zh">八龍王</foreign>. 
+                        The Buddha’s final nirvāṇa thus provides the <hi rend="italic">leitmotif</hi> for the entire site, and is also reflected in the selection of carved text passages, in the first 
+                        place in the chapters taken from the <title xml:lang="en" type="translated">
+                            <hi rend="italic">Sutra of the Great Decease</hi>
+                        </title> (<title xml:lang="sa">
+                            <hi rend="italic">
+                                <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                            </hi>
+                        </title>
+                        <title xml:lang="zh">
+                            <foreign xml:lang="zh">佛說大般涅槃經</foreign>
+                        </title>), 
+                        but also in selected passages from other scriptures.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,427 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to Stele of Haitan Monastery in Dongping County</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="shandong_volume1" xml:lang="en">Shandong Volume 1</title>
+                <title n="shandong_volume1" xml:lang="zh">山東省第一卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="11"/>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>04.07.2011</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>file established</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_HT">
+        <body>
+            <div xml:lang="zh">
+                <head>東平縣海檀寺碑</head>
+                <figure rend="full" xml:id="HT_Panorama01_p1.jpg">
+                    <head>Panoramic view of the Haitan Monastery stele among cultivated terraces;
+                        photograph taken in 2006</head>
+                    <head xml:lang="zh">海檀寺碑與農作梯田的全景，2006年照片</head>
+                    <graphic url="HT_Panorama01_p1.jpg"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>海檀寺遺址位於山東省中部山地西端的一個東南偏東走向的山谷中，距東平縣城西北17公里、平陰縣城西南偏南方30公里（見封二地圖）。在此山谷中，農作梯田高達4米（<ptr target="HT_Panorama01_p1.jpg"/>）。谷底海拔約160米。</p>
+                        <p>海檀寺内建築的原始位置和方位已不明，不過直至2006年，在寺院遺址內仍保存有兩塊石碑和一些石質構件殘塊（<ptr target="DSC_0011.jpg"/>）。寺院遺址北側有一塊明代的石碑；南側有一塊面向東南偏南方、紀年為北齊皇建元年（560）的石碑（地圖，<ptr target="Map_7_Haitansi_Level3.jpg"/>）。
+                            其準確的地理位置為東經116.3025°，北緯36.0296°，相當於UTM坐標系統50S帶，東行437160，北行3987460。</p>
+                        <p>洪頂山刻經位於海檀寺西北6.9公里處，但是不在此處的視線範圍之內。雲翠山刻經距此西北偏北3.8公里，雖然雲翠山和海檀寺坐落在同一條南北走向的山脊連線上，但它們並不在彼此的視野內。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>海檀寺的面積相當小，其遺址從東到西只有60米，從北至南26米。在北區靠近山腳處，堆積了從北朝至後代的磗塊，證實了前寺廟建築的存在。<note>賴非
+                                    <ref target="LaiFei2007" type="biblio">191</ref>。</note>在遺址南側耕作梯田的石墻中保存有一個柱礎（<ptr target="DSC_0011.jpg"/>）；距此不遠處立有一塊刻著《觀世音經》的石碑，其紀年為北齊皇建元年（560）（<ptr target="HT_r_1_DSC_0049.JPG"/>）。這塊石碑很可能埋在地下許久，一直到明成化年間（1465-1487）才被發現而重新豎立起來。 <note>楊浩、郝莉 <ref target="Yang_Hao2006b" type="biblio">178</ref>。
+                                </note>這塊碑於2006年9月被遷移，下落不明。<note>根據賴非於東方學會2009年5月15-16日在東京舉辦的東方學國際研討會上提供的信息。</note>
+                                在寺院遺址的中部，有一塊238釐米高、112釐米寬、34釐米厚的成化年間（1465-1487）的石碑（<ptr target="DSC_0080.jpg"/>）。其正面嚴重風化的碑文冠有“書堂寺鼎建正殿造塑像立碑記”的碑名。
+                                碑陰有明代性覺寺、觀音堂、堯帝崇聖寺、延慶寺和報恩寺住持撰寫的題記。在該碑西側的山岩上，有一幅160釐米高的線刻，上有一個坐落在蓮座上的佛塔中的佛字（<ptr target="DSC_0059.jpg"/>）。 <note>楊浩、郝莉 <ref target="Yang_Hao2006b" type="biblio">178</ref>。</note>
+                        </p>
+                        <p>在小望山前，距遺址約0.7公里處，三座明代僧人的靈骨塔被重新豎立了起來。<note>賴非 <ref target="LaiFei2007" type="biblio">191</ref>。</note>其中的兩座可以確定為書堂寺僧人圓珍和覺怒的靈骨塔。塔高均為12米，保存狀況良好。<note>楊浩、郝莉
+                                    <ref target="Yang_Hao2006b" type="biblio">178</ref>。 </note>
+                        </p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>刻有《觀世音經》的石碑保存了該寺院在北朝時的名字<hi rend="dash">──</hi>海檀寺。從明代的石碑可知，在成化年間（1465-1487）這裡被稱作書堂寺。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關人物</head>
+                        <p>《觀世音經》碑背面的願文（<ptr target="HT_r_2_DSC_0053.JPG"/>）記錄了比丘法慧以及其他五十幾名邑社成員的名字，這些人均不見載籍。</p>
+                        <p>此外，碑側還記錄有碑陽像龕內每尊造像的供養人姓名。<note>賴非<ref type="biblio" target="LaiFei2007">162</ref>。</note>楊浩認為，訓堂主、施地主和維那亦列名其上。<note>楊浩、郝莉<ref type="biblio" target="Yang_Hao2006b">176</ref>。</note>
+                        </p>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>《觀世音經》碑背面的願文也明確記載了刊刻的年代，即北齊皇建元年（560）。</p>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>最早由吳式芬（1796-1856）在他的《金石彙目分編》中提及石碑的位置並著錄了正面及背面的碑名。<note>《金石彙目分編》<ref type="biblio" target="SKSLXB">1, 28: 21218</ref>。</note>
+                                    之後，繆荃孫（1844-1919）在編輯其1898年作序的《藝風堂金石文字目》時，參考了吳的記錄。<note>《藝風堂金石文字目》<ref type="biblio" target="SKSLXB">1, 26: 19549</ref>。</note>
+                            至今，該碑在山東省石刻藝術博物館於2003、2006年出版的《北朝摩崖刻經研究》第二、三輯得到了近一步的討論。
+                                此外，顏娟英2008年出版的一冊收藏於中央研究院的拓片，收錄了該碑背面的拓片及錄文。<note>見本卷海檀寺2號。</note>
+                        </p>
+                        <ab>
+                            <abbr>溫狄婭、蔡穗玲</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="DSC_0080.jpg">
+                            <head xml:lang="zh">寺院遺址中部及明代石碑，2006年照片</head>
+                            <head>Middle part of the former monastery grounds with the Ming dynasty
+                                stele; photograph taken in 2006</head>
+                            <graphic url="DSC_0080.jpg" height="120mm"/>
+                        </figure>
+                        <figure rend="center" xml:id="Map_7_Haitansi_Level3.jpg">
+                            <head xml:lang="zh">海檀寺遺址地圖</head>
+                            <head>Map of the ruins of Haitan Monastery</head>
+                            <graphic url="Map_7_Haitansi_Level3.jpg" height="160mm"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>銘刻</head>
+                    <div>
+                        <head>銘文總數</head>
+                        <p>一篇經文(海檀寺1號)、兩篇歷史題記（海檀寺2號和海檀寺3號）。</p>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <div>
+                            <head>海檀寺1號</head>
+                            <p>碑陽上方有三小龕（<ptr target="Haitansi_stele_DSC_0026.jpg"/>）。每龕高約35.5釐米、寬約29釐米。碑上左龕主尊為一坐佛，兩側各有三脅侍。中龕主尊為倚坐觀世音菩薩，其側各有一脅侍。右龕主尊佛結跏趺坐於一高壇之上，其旁有數位脅侍；壇前風化嚴重，獅子、人物及香爐僅依稀可見輪廓；此龕兩旁柱子由夜叉承托。</p>
+                            <p>經文鐫刻於碑正面的三個像龕之下，與《大正藏》收錄的鳩摩羅什所譯《妙法蓮華經》第二十五品<hi rend="dash">──</hi>“觀世音菩薩普門品”一致，只是省略偈頌部分，<note>仲崇霖 <ref type="biblio" target="ZhongChonglin2006">298</ref>。</note>這一點與鳩摩羅什譯本原貌一致。
+                                    <note>于君方 <ref type="biblio" target="YvChvunfang2001">38</ref>，對此解釋，《妙法蓮華經》截取闍那崛多和達摩笈多完成於公元601年的譯本 (T#264, 9:
+                                    134-197) 中的品末偈頌，再添加到較之更早、更流行的鳩摩羅什譯本。</note>
+                                這篇經文也被冠以《觀音經》之名單獨流傳。</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>海檀寺2號</head>
+                            <p>碑陰願文冠以“大齊東平郡須昌縣海檀寺”之名。碑文可分為四部分：第一部分為一長篇的引文，用基本押韻的文字闡述了佛陀最精妙的原則之表現及其教誨。
+                                    第二部分陳說供養人<hi rend="dash">──</hi>僧人法慧建造此鎸有佛像和觀音經的石碑，以祈願所有佛教邑社成員的正覺及在龍華樹下的得道。
+                                下一部分由三段各四行的偈言組成，表讚刻經活動為促進佛教教義的適當手段。最後，願文的末段記錄了年代。</p>
+                            <p>在題記下方和石碑兩側列有捐贈者姓名，但這些名字大都已模糊不清、不易釋讀。<note>楊浩、郝莉 <ref type="biblio" target="Yang_Hao2006b">175</ref>計數出將近一百位供養人。賴非<ref type="biblio" target="LaiFei2007">162</ref>和楊浩、郝莉<ref type="biblio" target="Yang_Hao2006b">176</ref>列舉出的碑側供養人名單完全不同。</note>
+                            </p>
+                        </div>
+                        <div>
+                            <head>海檀寺3號</head>
+                            <p>碑陰載該碑於明成化年間（1465-1487）重立。</p>
+                            <ab>
+                                <abbr>溫狄婭、蔡穗玲</abbr>
+                            </ab>
+                            <figure rend="center" xml:id="DSC_0011.jpg">
+                                <head xml:lang="zh">寺院南區，緊靠《觀世音經》碑的石牆中的柱礎，2006年照片</head>
+                                <head>Pillar base in stone wall close to the stele with the
+                                            <title>
+                                        <hi rend="italic">Guanshiyin Sutra</hi>
+                                    </title>,
+                                    in the southern part of the monastery grounds; photograph taken
+                                    in 2006</head>
+                                <graphic url="DSC_0011.jpg" height="155mm"/>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Haitan Monastery Stele in Dongping County</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>The ruins of the former Haitan Monastery <foreign xml:lang="zh">海檀寺</foreign> are located in a valley running east-southeast at the
+                            western end of Shandong’s central ranges, 17 km to the northwest of the
+                            county seat of Dongping <foreign xml:lang="zh">東平</foreign>, and 30 km
+                            south-southwest of the county seat of Pingyin <foreign xml:lang="zh">平陰</foreign> (map in front endpaper). In this valley, terraces were
+                            built, up to 4 m in height, for cultivation (fig. <ptr target="HT_Panorama01_p1.jpg"/>). The valley’s base is about 160 m
+                            above sea level.</p>
+                        <p>The original position and orientation of Haitan Monastery is unknown, but
+                            in 2006, two stelae and some stone artefacts were still extant in the
+                            former monastery grounds (fig. <ptr target="DSC_0011.jpg"/>). In the
+                            northern part, a stele from the Ming dynasty is located. A stele dated
+                            to the first year of the <hi rend="italic">huangjian</hi> era <foreign xml:lang="zh">皇建</foreign> (560) of the Northern Qi dynasty was
+                            found in the southern part of the former monastery, facing
+                            south-southeast (map, fig. <ptr target="Map_7_Haitansi_Level3.jpg"/>). </p>
+                        <p>Geographically, the southern stele is situated 116.3025° east and
+                            36.0296° north WGS84. This equals 437160 E (easting) and 3987460 N
+                            (northing) on the meridian 50S UTM. </p>
+                        <p>The inscriptions of Mount Hongding <foreign xml:lang="zh">洪頂山</foreign>
+                            lie 6.9 km to the northwest of Haitan Monastery. These inscriptions are
+                            not within the line of sight. The inscriptions of Mount Yuncui <foreign xml:lang="zh">雲翠山 </foreign> are situated 3.8 km to the
+                            north-northwest. Although both locations are connected by a north-south
+                            oriented mountain range, they are not within each other’s line of
+                            sight.</p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>The Haitan Monastery was probably limited in size and its ruins cover an
+                            area measuring only 60 m from east to west, and 26 m from north to
+                            south. In the northern part, near to the foot of the mountain, bricks
+                            from the Northern dynasties and from later times were found, testifying
+                            to former monastery buildings.<note>
+                                <ref target="LaiFei2007" type="biblio">191</ref>.</note> In the southern part of the
+                            ruins, a pillar base remained in the stone wall of a terrace (fig. <ptr target="DSC_0011.jpg"/>); not far away stood a stele carved with the
+                                <title xml:lang="en" type="translated">
+                                <hi rend="italic">Sutra on
+                                    the Perceiver of the World’s Sounds</hi>
+                            </title> (<title>
+                                <hi rend="italic">Guanshiyin jing </hi>
+                            </title>
+                            <foreign xml:lang="zh">觀世音經</foreign>) and dated to the first year of the <hi rend="italic">huangjian</hi> era <foreign xml:lang="zh">皇建</foreign>
+                            (560) of the Northern Qi dynasty (fig. <ptr target="HT_r_1_DSC_0049.JPG"/>). This stele had probably been buried for a long time and was only
+                            recovered and re-erected during the Chenghua era of the Ming dynasty
+                                    (1465–1487).<note>
+                                <ref target="Yang_Hao2006b" type="biblio">178</ref>.</note> Sometime after September 2006, the stele was
+                            moved to an unknown location.<note>Information given by Lai Fei at the
+                                        <title>
+                                    <hi rend="italic">International Conference of Eastern
+                                        Studies</hi>
+                                </title> organized by the <foreign xml:lang="ja">Tōhō Gakkai </foreign>
+                                <foreign xml:lang="zh">東方學會</foreign>
+                                (The Institute of Eastern Culture) in <foreign xml:lang="ja">Tōkyō</foreign>, May 15 to 16, 2009.</note> In the middle part
+                            of the monastery grounds is a stele measuring 238 cm in height, 112 cm
+                            in width and 34 cm in depth from the Chenghua <foreign xml:lang="zh">成化</foreign> era (1465–1487) (fig. <ptr target="DSC_0080.jpg"/>).
+                            Its badly weathered inscription on the front side is entitled <title xml:lang="en" type="translated">
+                                <hi rend="italic">Report on Erecting
+                                    a Stele on the Occasion of Making a Sculpted Image for the Newly
+                                    Built Main Hall of Shutang Monastery</hi>
+                            </title> (<hi rend="italic">Shutangsi dingjian zhengdian zao suxiang libei ji
+                                </hi>
+                            <foreign xml:lang="zh">書堂寺鼎建正殿造塑像立碑記</foreign>). On the rear,
+                            are colophons by Ming abbots of Xingjue Monastery <foreign xml:lang="zh">性覺寺</foreign>, of Guanyin Hall <foreign xml:lang="zh">觀音堂</foreign>, of Yaodi Chongsheng Monastery <foreign xml:lang="zh">堯帝崇聖寺</foreign>, Yanqing Monastery <foreign xml:lang="zh">延慶寺</foreign>, and Bao’en Monastery <foreign xml:lang="zh">報恩寺</foreign>. To the west of the Ming stele, the character <hi rend="italic">fo </hi>
+                            <foreign xml:lang="ch">佛</foreign>, in a stupa
+                            placed on a lotus throne, has been cut in outline into the rock. It is
+                            160 cm in height (fig. <ptr target="DSC_0059.jpg"/>).<note>
+                                <ref target="Yang_Hao2006b" type="biblio">178</ref>.</note>
+                        </p>
+                        <p>Three Ming dynasty tomb pagodas for monks have been erected in front of
+                            Mount Xiao Wang <foreign xml:lang="zh">小望山</foreign>, at a distance of
+                            about 0.7 km from the ruins.<note>
+                                <ref target="LaiFei2007" type="biblio">191</ref>.</note> Two of these are identified as the tombs of
+                            monk Yuanzhen <foreign xml:lang="zh">圓珍</foreign> and monk Juenu
+                                <foreign xml:lang="zh">覺怒</foreign> from Shutang Monastery; they are
+                            12 m high and well preserved.<note>
+                                <ref target="Yang_Hao2006b" type="biblio">178</ref>. </note>
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Haitansi_stele_DSC_0026.jpg">
+                            <head xml:lang="zh">《觀世音經》碑上的像龕，2006年照片</head>
+                            <head>Image niches of the <title> stele with the <hi rend="italic">Sutra
+                                        on the Perceiver of the World’s Sounds</hi>
+                                </title>;
+                                photograph taken in 2006</head>
+                            <graphic url="Haitansi_stele_DSC_0026.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Place Name</head>
+                        <p>The stele with the carved <title>
+                                <hi rend="italic">Sutra on the Perceiver
+                                    of the World’s Sounds</hi>
+                            </title> preserves the name of the
+                            monastery at the time of the Northern dynasties, Haitan Si <foreign xml:lang="zh">海檀寺</foreign>. The Ming stele explains that during the
+                            Chenghua <foreign xml:lang="zh">成化</foreign> era [1465–1487], this was
+                            the site of Shutang Monastery <foreign xml:lang="zh">書堂寺</foreign>.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Persons</head>
+                        <p>The votive inscription on the rear of the stele with the <title>
+                                <hi rend="italic">Sutra on the Perceiver of the World’s
+                                Sounds</hi>
+                            </title> (fig. <ptr target="HT_r_2_DSC_0053.JPG"/>) gives
+                            the name of a monk, <hi rend="italic">
+                                <foreign xml:lang="sa">bhikṣu</foreign>
+                            </hi> Fahui <foreign xml:lang="zh">法慧</foreign>, as well as more than fifty names of members of a lay
+                            society that cannot be traced to any other historical source. Names of
+                            the donors of every single image in the niches on the front side of the
+                            stele are recorded on the lateral side of the stele, too.<note>
+                                <ref type="biblio" target="LaiFei2007">162</ref>.</note> According to
+                            Yang Hao, even the names of Donor of Teaching Hall <foreign xml:lang="zh">訓堂主</foreign>, Donor of Land <foreign xml:lang="zh">施地</foreign>, and a certain Project Coordinator <foreign xml:lang="zh">維那</foreign> were documented.<note>
+                                <ref type="biblio" target="Yang_Hao2006b">176</ref>.</note>
+                        </p>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>The votive inscription on the rear of the stele dates the carving of the
+                                    <title>
+                                <hi rend="italic">Sutra on the Perceiver of the World’s
+                                    Sounds</hi>
+                            </title> to the third day of the ninth month of the
+                            first year of the <hi rend="italic">huangjian </hi>
+                            <foreign xml:lang="zh">皇建</foreign> era of the Northern Qi dynasty (October
+                            7, 560).</p>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p> Wu Shifen <foreign xml:lang="zh">吳式芬</foreign> (1796–1856) first
+                            mentioned the location of the stele and quoted the inscription titles on
+                            the front and rear sides in his <title xml:lang="en" type="translated">
+                                <hi rend="italic">Categorized Edition of an Assembled Catalog
+                                    of Epigraphica</hi>
+                            </title>
+                            <foreign xml:lang="zh">金石彙目分編</foreign>.<note>
+                                <ref type="biblio" target="SKSLXB">1, 28:
+                                    21218</ref>.</note> Miao Quansun <foreign xml:lang="zh">繆荃孫</foreign> (1844–1919) later referred to him when he listed the
+                            stele in his <title xml:lang="en" type="translated">
+                                <hi rend="italic">Catalog of Inscriptions in Metal and Stone from Yifeng
+                                    Hall</hi>
+                            </title>
+                            <foreign xml:lang="zh">藝風堂金石文字目</foreign>,
+                                    <note>
+                                <ref type="biblio" target="SKSLXB">1, 26:
+                                19549</ref>.</note> which carries a preface dated 1898. The stele
+                            was recently discussed in the second and third volumes of <title xml:lang="en" type="translated">
+                                <hi rend="italic">Research on the
+                                    Sutras Engraved on Polished Cliffs of the Northern
+                                    Dynasties</hi>
+                            </title> (<hi rend="italic">Beichao moya kejing
+                                yanjiu </hi>
+                            <foreign xml:lang="zh">北朝摩崖刻經研究</foreign>) published in
+                            2003 and 2006. In 2008, Yen Chuan-ying <foreign xml:lang="zh">顏娟英</foreign> published a rubbing of the stele’s inscription on the
+                            rear, with a transcription, HT 2, in a volume on rubbings of the
+                            Northern dynasties held in the Academia Sinica <foreign xml:lang="zh">中央研究院</foreign>, Taibei.</p>
+                        <ab>
+                            <abbr>CW, TSL</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>One sutra passage (HT 1) and two historical inscriptions (HT 2 and HT 3).
+                        </p>
+                    </div>
+                    <div>
+                        <head>Sutra Passage</head>
+                        <div>
+                            <head>HT 1</head>
+                            <p>The upper part of the stele’s front side is decorated with three
+                                niches, each measuring about 35.5 x 29 cm (fig. <ptr target="Haitansi_stele_DSC_0026.jpg"/>). The right niche
+                                contains a meditating Buddha with three attending figures to each
+                                side. In the middle niche, a seated Bodhisattva, Guanshiyin, is
+                                attended by two standing bodhisattvas. The niche to the left has a
+                                meditating Buddha, attended by several standing figures. In front of
+                                the Buddha’s altar, the weathered outlines of two lions, human
+                                figures, and a censer are still visible. This niche is also framed
+                                by columns, which are supported by demons. </p>
+                            <p>The sutra passage was carved on the front of the stele, underneath
+                                the three image niches. It is the twenty-fifth chapter of the <title xml:lang="en" type="translated">
+                                    <hi rend="italic">Lotus
+                                        Sutra</hi>
+                                </title>, the “Universal Gate of Bodhisattva
+                                Perceiver of the World’s Sounds” <foreign xml:lang="zh">觀世音菩薩普門品</foreign> in <foreign xml:lang="sa">Kumārajīva</foreign>’s translation, as contained in the modern
+                                    <hi rend="italic">
+                                    <foreign xml:lang="ja">Taishō</foreign>
+                                </hi>
+                                edition, but it leaves out the gatha,<note>
+                                    <ref type="biblio" target="ZhongChonglin2006">298</ref>.</note> in accordance
+                                with the original version of <foreign xml:lang="sa">Kumāra­jīva</foreign>’s translation.<note>
+                                    <ref type="biblio" target="YvChvunfang2001">38</ref> explains that the verse
+                                    sections at the end of each chapter were taken from the later
+                                    translation done in 601 by <foreign xml:lang="sa">Jñānagupta</foreign> and <foreign xml:lang="sa">Dharmagupta</foreign> (T#264, 9: 134-197) and added to the
+                                    earlier, more popular <foreign xml:lang="sa">Kumārajīva</foreign> text.</note> This text was also
+                                circulated separately under the title <title>
+                                    <hi rend="italic">Sutra
+                                        on the Perceiver of the Sounds</hi>
+                                </title> (<title>
+                                    <hi rend="italic">Guanyin jing</hi>
+                                </title>
+                                <foreign xml:lang="zh">觀音經</foreign>). </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscriptions</head>
+                        <div>
+                            <head>HT 2</head>
+                            <p>The votive inscription on the rear of the stele is entitled <title xml:lang="en" type="translated">
+                                    <hi rend="italic">Stele of
+                                        [Hai]tan Monastery from the Great Qi [dynasty] in Xuchang
+                                        County, Dongping Prefecture</hi>
+                                </title> (<hi rend="italic">Da Qi Dongping Jun Xuchang Xian [Hai]tan Si bei </hi>
+                                <foreign xml:lang="zh">大亝東平郡須昌縣[海]檀寺碑</foreign>). The text can be divided
+                                into four parts: First, a lenghty introduction, more or less in
+                                parallel prose, elaborates on the fundamentals of the Buddha’s
+                                teachings. In the second part, the donor is named, a certain monk
+                                Fahui <foreign xml:lang="zh">法慧</foreign>, who set up the stele
+                                carved with images and the text of the <title>
+                                    <hi rend="italic">Guanshiyin Sutra</hi>
+                                </title>, accompanied by prayers for
+                                the true awakening of all members of the Buddhist association, to be
+                                accomplished under the dragon-flower tree. The next part consists of
+                                three verses of four lines each, praising the carving of the
+                                scripture as an suitable means to promote the Buddhist teaching. The
+                                last part of the inscription gives the date.</p>
+                            <p>Beneath the inscription and on both sides of the stele, the names of
+                                donors are listed. They are to a large extent effaced and not
+                                        legible.<note>
+                                    <ref type="biblio" target="Yang_Hao2006b">175</ref>, counted almost 100 donors. <ref type="biblio" target="LaiFei2007">162</ref>, and <ref type="biblio" target="Yang_Hao2006b">176</ref>, convey two totally
+                                    different transcriptions of the names on both sides of the
+                                    stele.</note>
+                            </p>
+                        </div>
+                        <div>
+                            <head>HT 3</head>
+                            <p>This inscription on the stele’s back side states that it was
+                                re-erected during the Chenghua era of the Ming dynasty
+                                (1465–1487).</p>
+                            <ab>
+                                <abbr>CW, TSL</abbr>
+                            </ab>
+                            <figure rend="page" xml:id="DSC_0059.jpg">
+                                <head xml:lang="zh">位於蓮座上佛塔中的佛字石刻，2006年照片</head>
+                                <head>Rock carving of the character <hi rend="italic">fo</hi> in a
+                                    stupa placed on a lotus throne; photograph taken in 2006</head>
+                                <graphic url="DSC_0059.jpg"/>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

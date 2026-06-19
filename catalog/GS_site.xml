@@ -1,0 +1,58 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="GS" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Mount Gang</c:title>
+        <c:title lang="zh" type="given">崗山</c:title>
+        <c:date/>
+        <c:province lang="en">Shandong Province</c:province>
+        <c:province lang="zh">山東省  </c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A"/>
+        <!--<c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A2"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A3"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A4"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_A5"/>-->
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B"/>
+        <!--       <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B2"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B3"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B5"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B7"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B8"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B9"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B10"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B11"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B12"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B13"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B14"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B15"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B16"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B18"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B19"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B21"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B23"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B24"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B25"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B26"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B27"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B28"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B29"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B30"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B31.1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_B31.2"/>-->
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_C"/>
+        <!-- <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_C1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_C2"/>-->
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_D"/>
+        <!--<c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_D1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_D2"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_D3"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_D4"/>-->
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_E"/>
+        <!--<c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="GS_Lanka_GV"/>-->
+    </c:fileDescription>
+    <location>
+        <coordinates srsName="EPSG:4326">116.969, 35.426</coordinates>
+    </location>
+</c:object>

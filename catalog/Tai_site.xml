@@ -1,0 +1,63 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="Tai" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Mount Tai</c:title>
+        <c:title lang="zh" type="given">泰山</c:title>
+        <c:date/>
+        <c:province lang="en">Shandong Province</c:province>
+        <c:province lang="zh">山東省  </c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_01"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_02"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_03"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_04"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_05"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_06"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_07"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_08"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_09"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_10"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_11"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_12"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_13"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_14"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_15a"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_15b"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_16"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_17"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_18"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_19"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_20"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_21"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_22"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_23"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_24"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_25"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_26"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_27"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_28"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_29"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_30"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_31"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_32"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_33"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_34"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_35"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_36"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_37"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_38"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_39"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_40"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_41"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_42"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_43"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_44"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_45"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_46"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_47"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="Tai_48"/>
+    </c:fileDescription>
+    <c:location>
+        <coordinates srsName="EPSG:4326">117.117708, 36.224721</coordinates>
+    </c:location>
+</c:object>

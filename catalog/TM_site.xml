@@ -1,0 +1,16 @@
+<c:object xmlns="http://www.tei-c.org/ns/1.0" xmlns:c="http://exist-db.org/ns/catalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="site" xml:id="TM" xsi:schemaLocation="http://exist-db.org/ns/catalog http://www.stonesutras.org:8080/exist/rest/db/schema/catalog.xsd">
+    <c:header>
+        <c:title lang="en" type="given">Tianming Monastery Stele</c:title>
+        <c:title lang="zh" type="given">天明寺碑</c:title>
+        <c:date/>
+        <c:province lang="en">Shandong Province</c:province>
+        <c:province lang="zh">山東省  </c:province>
+    </c:header>
+    <c:fileDescription>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="TM_1"/>
+        <c:link xmlns:xlink="http://www.w3.org/1999/xlink" type="inscription" xlink:href="TM_2"/>
+    </c:fileDescription>
+    <location>
+        <coordinates srsName="EPSG:4326">117.52682,35.640215</coordinates>
+    </location>
+</c:object>

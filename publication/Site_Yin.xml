@@ -1,0 +1,367 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the Site of Mount Yin</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+    
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="shandong_volume1" xml:lang="en">Shandong Volume 1</title>
+        <title n="shandong_volume1" xml:lang="zh">山東省第一卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="9"/>
+    </seriesStmt>
+    <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>31.03.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item> Abschnitt Carving Techniques überarbeitet gemäß Markette</item>
+            </change>
+            <change>
+                <date>03.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Location überarbeitet gemäß Markette</item>
+            </change>
+            <change>
+                <date>April 5th 2011</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Änderungen und Kürzungen von LL eingearbeitet</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_Yin">
+        <body>
+            <div xml:lang="zh">
+                <head>銀山</head>
+                <figure rend="full" xml:id="Yin_sc_2924.JPG">
+                    <head>View of Mount Yin from the east; photograph taken in 2006</head>
+                    <head xml:lang="zh">銀山東側，2006年照片</head>
+                    <graphic url="Yin_sc_2924.JPG"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>銀山位於東平湖西岸，東平縣西北33公里、梁山縣以北29公里、聊城市東南偏南45公里處（見封二地圖）。
+                            山體南北跨度約0.7公里，東西長約1.3公里，山頂海拔為120米。銀山遭受了嚴重的人為破壞（<ptr target="Yin_sc_DSC3459.JPG"/>）。其石刻位於一個石灰石採石場的邊緣，有被夷為平地的危險。目前保存有一段通向山上一座現代建築的石階、
+                            建築本身以及附近的摩崖石刻（<ptr target="Yin_sc_2888-1.jpg"/> 、<ptr target="Yin_sc_68.jpg"/>）。銀山的地理位置是東經116.1186度，北緯36.0655度，相當於UTM坐標系統第50S帶，東行420630，北行3991570。</p>
+                        <p>銀山石刻，面向南方。附近的司里山石刻，在其西南偏南方6公里處。在銀山上，可以看到司里山，但因其石刻面朝東方，所以並不在視線之內。與銀山隔東平湖相對的是正東方10.9公里外的洪頂山（地圖，<ptr target="Map_2_Dongping_2013_01_29.jpg"/>)。
+                            從銀山可以看到洪頂山，不過在銀山刻經處卻無法看到該山。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>銀山摩崖石刻，可以經由通往一個小型現代建築的陡峭石階到達（<ptr target="Yin_sc_2888-1.jpg"/>；<ptr target="Yin_sc_68.jpg"/>）。該建築是為保護唐代的大像龕而建，龕内雕有兩尊坐佛像。摩崖石刻即刊刻在現代建築東側的岩面上（<ptr target="Yin_r_detail_IMG_2911-2.jpg"/>）。</p>
+                        <p>再向東120米，在銀山南麓靠近山腳處有兩個造像龕（<ptr target="Yin_scu_IMG_2930-1.JPG"/>）。左邊較大的壁龕高93釐米，內供一佛坐像。其下底座岩石被磨平，上有一嚴重風化的題記（銀山2號石刻）。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>山名來歷不詳。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="page" xml:id="Yin_sc_68.jpg">
+                            <head>View of Mount Yin from the south with
+                                two stelae erected in 2000, and stairs leading up to the modern building; photograph taken in
+                                2004</head>
+                            <head xml:lang="zh">銀山及其通向現代建築石階的正視圖，2004年照片</head>
+                            <graphic url="Yin_sc_68.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>沒有相關寺院的資料。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>銀山背面嚴重風化的題記（銀山2號），提及“高唐縣令”。高唐縣在現今銀山以北90公里處。除了這個人名外，再没有其他與該地點相關的人物信息。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>銀山背面一佛造像龕底座題記中存有唯一一個紀年（銀山2號）。這處題記最初至少有十一行，每行十三字。第一行中可辨認出紀年“大齊天統四年（568）二月”。雖然造像窟與銀山正面的刻經文相隔甚遠，不過，銀山的主要銘刻出自北齊末年的觀點仍得到公認，
+                                因其書法及刊刻風格與山東同時期其他石刻相似。<note>見賴非<ref type="biblio" target="LaiFei2003a">104</ref> 和桐谷征一<ref type="biblio" target="Kiriya2003a">74-76</ref>。</note>
+                        </p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>2003年出版的《北朝摩崖刻經研究［續］》簡短地描述了這個地點，<note>張總
+                            <ref target="ZhangZong2003a" type="biblio">4</ref>。</note>並數次提到了所刻經名。2006年出版的第三輯再次討論了銀山。賴非2007年的專著《山東北朝佛教摩崖刻經調查與研究》，提供銀山1號完整的信息。<note>賴非
+                                <ref target="LaiFei2007" type="biblio"/>。</note>
+                        </p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>銘刻</head>
+                    <div>
+                        <head>銘文總數</head>
+                        <p>銀山現存一處刻經（銀山1號）和一個造像龕供養題刻（銀山2號）。</p>
+                    </div>
+                    <div>
+                        <head>經名</head>
+                        <div>
+                            <head>銀山1號</head>
+                            <p>“佛說摩訶般若波羅蜜”，總共四行九個大字，刊刻在陡峭的摩崖之上。由於前兩個字“佛說”，這處題銘聽起來類似佛經之名，只是末尾没有“經”字。由此看來，它被當作另一段佛經節文的標題，節文可能刊刻於其下，不過已經湮滅。 <note>張總
+                                    <ref target="ZhangZong2003a" type="biblio">4</ref>。</note>
+                            </p>
+                            <p>然而，最後幾個字“般若波羅蜜”也見於徂徠山映佛岩及陶山石刻，這說明般若波羅蜜也作為習語被刊刻。<note>見桐谷征一<ref type="biblio" target="Kiriya2003a">76</ref>，及《中國佛教石經·山東省》第三卷。</note> 因此“佛說摩訶般若波羅蜜”也並不一定是另一篇或許失傳的佛經節文的標題，而可以理解為頌揚佛所說的般若波羅蜜，類似於洪頂山（洪頂山6號）和司里山（司里山3號）的刻文所具有的避邪功能。寥寥數字刊刻上石，銀山摩崖由此成為獲得般若波羅蜜的聖地。</p>
+                            <ab>
+                                <abbr>溫狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>歷史題刻</head>
+                        <div>
+                            <head>銀山2號</head>
+                            <p>2號銘刻與1號刻經無直接關聯。銘刻於造像龕的佛像座，紀年為568年。</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>銀山刻經技法主要為“V”形刻法，即從筆畫兩邊線斜入鏨，簡便快捷。 </p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Yin_sc_DSC3459.JPG">
+                            <head xml:lang="en">Mount Yin being used as a quarry; photograph taken
+                                in 2012</head>
+                            <head xml:lang="zh">銀山當代採石場，照片拍攝於2012年</head>
+                            <graphic url="Yin_sc_DSC3459.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Yin</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>Mount Yin <foreign xml:lang="zh">銀山</foreign> is
+                            sited to the west of Lake Dongping <foreign xml:lang="zh">東平湖</foreign>,
+                            33 km northwest of the county seat of Dong­ping <foreign xml:lang="zh">東平</foreign>, 29 km
+                            north of the county seat of Liangshan <foreign xml:lang="zh">梁山</foreign>, and 45 km
+                            south-southeast of Liaocheng City <foreign xml:lang="zh">聊城市</foreign> (map in front endpaper).
+                            It has a north-south extension
+                            of about 0.7 km, and an east-west extension of about 1.3 km. The peak is
+                            at an altitude of 120 m above sea level. Mount Yin has been severely
+                            damaged by human activity. Its inscriptions are situated on the brink of
+                            a limestone quarry, and are endangered by demolition work (fig. <ptr target="Yin_sc_DSC3459.JPG"/>). A steep flight of stairs leads
+                            uphill to a small modern building. The building and the neighboring
+                            inscription-bearing rock have been spared. Geographically, Mount Yin is
+                            situated 116.1186° east and 36.0655° north WGS84. This equals 420630 E
+                            (easting) and 3991570 N (northing) on the meridian 50S UTM.</p>
+                        <p>Mount Yin’s inscription faces south. The neighboring inscription site of
+                            Mount Sili <foreign xml:lang="zh">司里山</foreign> lies 6 km to the
+                            south-southwest. While Mount Sili is visible from Mount Yin, its
+                            inscriptions are not within the line of sight, as they face east.
+                            Separated by Lake Dongping from Mount Yin, Mount Hongding <foreign xml:lang="zh">洪頂山</foreign> is located exactly to the east at a
+                            distance of 10.9 km (map, fig. <ptr target="Map_2_Dongping_2013_01_29.jpg"/>). It can be seen from Mount
+                            Yin, but not when standing at the actual inscription site. </p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>Mount Yin’s main polished cliff inscription can be
+                            reached by climbing the stairs leading to the modern
+                            building  (fig. <ptr target="Yin_sc_2888-1.jpg"/> and fig. <ptr target="Yin_sc_68.jpg"/>), which protects a large niche with two seated Buddhas of the Tang dynasty. The cliff inscription
+                            was hewn into the bluff rock face to the east of
+                            this building (fig. <ptr target="Yin_r_detail_IMG_2911-2.jpg"/>).</p>
+                        <p>About 120 m further to the east, on the southern
+                            slope and near to its foot, are two more
+                            niches with sculpted images (fig. <ptr target="Yin_scu_IMG_2930-1.JPG"/>).  The larger niche to the left,
+                            which is 93 cm high, contains a seated Buddha sculpture. The rock of the
+                            pedestal beneath has been smoothed and contains a heavily weathered and
+                            damaged votive inscription (Yin 2).</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name </head>
+                        <p>The origin of the mountain’s name is not clear.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="Yin_sc_2888-1.jpg">
+                            <head>Modern building next to carved cliff; photograph taken in
+                                2006</head>
+                            <head xml:lang="zh">現代建築在石刻摩崖之側，2006年照片</head>
+                            <graphic url="Yin_sc_2888-1.jpg"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>There is no information on a related monastery.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons </head>
+                        <p>The votive inscription on Mount Yin’s southern slope mentions the title
+                            of a local official and probable donor, a “County Magistrate of Gaotang”
+                            (Gaotang xianling <foreign xml:lang="zh">高唐縣令</foreign>). The modern
+                            city of Gaotang lies 90 kilometers to the north. Apart from this name, there is
+                            no information on the persons related to this site.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>The only date found at the site is part of the votive inscription on the
+                            pedestal of the larger niche with the Buddha figure (Yin 2). It
+                            originally comprised at least eleven columns with 13 characters each. In
+                            the first column, a date of “the second month of the fourth year of the
+                            <hi rend="italic">tiantong</hi>
+                            <foreign xml:lang="zh">天統</foreign> era of the Great Qi
+                            dynasty” is given that corresponds to 568. Although the niches and
+                            the sutra text are quite far apart, it is nevertheless generally agreed
+                            that the main inscription at Mount Yin is from the late Northern
+                            dynasties because of its stylistic similarity with other Shandong
+                                inscriptions.<note>See <ref target="LaiFei2003a" type="biblio">104</ref>, and <ref type="biblio" target="Kiriya2003a">74-76</ref>. </note>
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>
+                            <title>
+                                <hi rend="italic">Research on the Sutras Engraved on Polished Cliffs of the Northern Dynasties, vol. 2</hi>
+                            (<hi rend="italic">Beichao moya kejing yanjiu (xu) </hi>
+                                <foreign xml:lang="zh">北朝摩崖刻經研究（續）</foreign>)</title> of 2003 has a
+                            short description of the site,<note>
+                                <ref target="ZhangZong2003a" type="biblio">4</ref>.</note> and the
+                            carved sutra title is mentioned several times. Mount Yin is discussed
+                            once more in the third volume of 2006.  Lai Fei’s monograph
+                            of 2007 gives full information on the inscription Yin 1.<note>
+                                <ref target="LaiFei2007" type="biblio"/>.</note>
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>At Mount Yin, one sutra title (Yin 1) and one votive inscription (Yin 2)
+                            were carved.</p>
+                    </div>
+                    <div>
+                        <head>Sutra Title</head>
+                        <div>
+                            <head>Yin 1</head>
+                            <p>Nine large characters, arranged in four vertical columns,
+                                were carved on the rough cliff face, reading “The Great Perfection
+                                of Wisdom Spoken by the Buddha”. The first two characters
+                                “Spoken by the Buddha” sound like the title of a sutra,
+                                only missing the mandatory “sutra” at the end. Therefore, it has
+                                been interpreted as a title for a sutra passage, which was probably
+                                carved underneath but has vanished.<note>
+                                    <ref target="ZhangZong2003a" type="biblio">4</ref>. </note>
+                            </p>
+                            <p>Yet, the last characters reading “Perfection of Wisdom” are also seen at Yingfoyan
+                                    <foreign xml:lang="zh">映佛岩</foreign> on Mount Culai <foreign xml:lang="zh">徂徠山</foreign>, and on Mount Tao <foreign xml:lang="zh">陶山</foreign>,<note>
+                                    <ref target="Kiriya2003a" type="biblio">76</ref>.</note>
+                                indicating that the Perfection of Wisdom was also carved as a phrase
+                                of its own (see vol. 3 for Mount Tao and for Mount Culai).
+                                Thus, the formulation “The Great Perfection of Wisdom Spoken by the
+                                Buddha” does not necessarily have to be the title of another lost
+                                inscription, but it can be understood as the eulogized Great
+                                Perfection of Wisdom as spoken by the Enlightened One himself, with
+                                a similar talismanic function, as seen on Mount Hongding <foreign xml:lang="zh">洪頂山</foreign> (HDS 6) and Mount Sili <foreign xml:lang="zh">司里山</foreign> (Sili 3).
+                                In this case, the act of
+                                simply carving the characters would transform the rocky grounds of
+                                Mount Yin into the very place where perfect enlightenment is
+                                attained. </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                            <figure rend="center" xml:id="Yin_scu_IMG_2930-1.JPG">
+                                <head>Two niches on the southern slope of Mount Yin; photograph taken in
+                                    2006</head>
+                                <head xml:lang="zh">銀山南麓的兩個佛龕，2006年照片</head>
+                                <graphic url="Yin_scu_IMG_2930-1.JPG"/>
+                            </figure>
+                            <figure rend="center" xml:id="Yin_r_detail_IMG_2911-2.jpg">
+                                <head>Cliff carved with “The Great Perfection of Wisdom Spoken by the
+                                    Buddha”; Photograph taken in 2006</head>
+                                <head xml:lang="zh">“佛說摩訶般若波羅蜜”摩崖石刻，2006年照片</head>
+                                <graphic url="Yin_r_detail_IMG_2911-2.jpg"/>
+                            </figure>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical inscription</head>
+                        <div>
+                            <head>Yin 2</head>
+                            <p>The inscription Yin 2 is not directly related to the inscription Yin 1. It is carved on the base of a seated Buddha  figure in a niche, dated to the year 568.</p>
+                            <ab>
+                                <abbr>TSL</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Carving Techniques</head>
+                        <p>The technique is mainly V-shaped carving. The carver chisels slanting
+                            lines from both sides of a stroke, a convenient and fast technique.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

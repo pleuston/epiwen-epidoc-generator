@@ -1,0 +1,1362 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the site of Mount Jian</title>
+            </titleStmt>
+            <publicationStmt>
+
+                <seriesStmt>
+                    <!-- Titel und Kürzel des Bandes in @n -->
+                    <title n="shandong_volume3" xml:lang="en">Shandong Volume 3</title>
+                    <title n="shandong_volume3" xml:lang="zh">山東省第三卷</title>
+                    <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                    <biblScope unit="chapter" n="3"/>
+                </seriesStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>30.03.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Fußnoten überarbeitet</item>
+            </change>
+            <change>
+                <date>03.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Location überarbeitet gemäß Markette</item>
+            </change>
+            <change>
+                <date>27.06.2012</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Topography and Spatial grouping überarbeitet</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_JS">
+        <body>
+            <div xml:lang="zh">
+                <head>尖<space n="2"/>山</head>
+                <figure rend="full" xml:id="JS_sc_G7S92081.JPG" n="figure">
+                    <head xml:lang="zh">由崗山遠望尖山。2005年以遠距鏡頭拍攝</head>
+                    <head>Mount Jian as seen from Mount Gang; photograph taken with a telephoto lens
+                        in 2005</head>
+                    <graphic url="JS_sc_G7S92081.JPG"/>
+                </figure>
+                <p>鄒城附近有六座摩崖刻經山，尖山爲其中之一。尖山刻經毀於20世紀60年代。此處刻經的損毀着實令人惋惜，因爲其作爲山東省境内最豐富而多樣的石刻群之一，有16則以上刻銘，其中3則的紀年爲575年。</p>
+                <p>所幸刻經尚完好時，已製作拓本。這些拓本的數據測量和拍照記録收入本卷。此外，爲了獲得有關刻經相對位置，本卷亦詳細考察了眾多金石文獻對此刻經址的記録。本卷提供的復原圖就建立在這些早期工作的基礎上，並且考慮了所有已知的研究成果。其中，日本學者道端良秀（1903－？）於20世紀40年代早期所作的調查對本卷的復原圖助益頗大，他的考察包含兩張已知僅存的該址早期照片。</p>
+                <p>尖山令人費解的佛名“大空王佛”（尖山10號）及其他四段佛經節文亦見於山東其他刻經址，四段經文中最常見者爲《文殊師利所説般若波羅蜜經》九十八字節文（尖山6號）。高僧僧安道壹（活動於562－579年）爲此刻經址，同時也是洪頂山（《中國佛教石經·山東省》第一卷）以及鐵山（《中國佛教石經·山東省》第二卷）刻經址的策劃者。</p>
+                <ab>
+                    <abbr>雷德侯</abbr>
+                </ab>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>
+                            <anchor xml:id="JS_start_zh"/> 從遠處望去，尖山爲一座聳立於平原上的錐形山體（<ptr target="JS_sc_G7S92081.JPG"/>；<ptr target="JS_sc_PICT5338.JPG"/>），山脚海拔高度約120米。刊刻有佛經的石坪原始位置在山頂以東1公里處，<!--位於WGS84-->其地理位置是東經117.0184度，北緯35.4395度，相當於UTM坐標系統第50S帶，東行501670，北行3921780。這處刻經址又稱“大佛嶺”，位於鄒城市東北6公里、曲阜市東南偏南17公里處。</p>
+                        <p>
+                            <anchor xml:id="XiweiReservoir_zh"/>20世紀60年代修建西葦水庫，刻經址成爲採石場，刻經石遭爆破，毀損殆盡。<note>王思禮和賴非<ref target="Wang_Lai1991a" type="biblio">第13頁</ref>。《山東北朝摩崖刻經全集》<ref target="SD_BCMykj1992" type="biblio">第3頁</ref>。賴非<ref type="biblio" target="LaiFei2007">第81頁</ref>。</note>如今，採石場已被棄置（<ptr target="JS_sc_PICT5338.JPG"/>）。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間分佈</head>
+                        <p>距離尖山最近的刻經址爲位於其西南偏西4.8公里處的崗山、東南偏東8.2公里處的葛山及南方12.4公里處的嶧山（地圖，<ptr target="Zoucheng_2013_02_21e.jpg"/>）。從尖山山頂可以看到這些山峰的峰頂，但在尖山山頂以東的原刻經址却看不到其他山峰。因此，可以推斷，從尖山刻經原址也看不到崗山、葛山和嶧山的刻經。</p>
+                        <p>大部分尖山刻銘原位於一面傾斜的岩壁，與葛山和鐵山刻銘相同。但在這兩座山，單幅長篇銘文規劃成長方形制；與之相反，大佛嶺刻經則由數則銘文組合而成，形成類似洪頂山刻經那樣的刻經群（見《中國佛教石經·山東省》第一卷）。距大佛嶺東南120米左右處，有三塊稱爲“支鍋石”的直立大石，其上也刻有銘文。</p>
+                        <p>一些金石文獻提到尖山刻銘的排列方式和相對位置，尖山刻經原初的空間分佈現僅能透過這些金石文獻復原。日本學者道端良秀在20世紀40年代銘文仍完好無缺時拍攝的兩張照片，也提供了復原的依據（<ptr target="JS_r_total_Bild-1.jpg"/>）。</p>
+                        <p>基於這些佐證，學者們做出數份尖山刻經空間分佈復原圖。復原圖顯示，銘文沿着一條中心軸排列，佛經節文位於中心。刻銘應從南向北排列，因爲調查人員在現場進行田野調查時，辨認出由道端良秀所攝的照片背景的山群（<ptr target="JS_r_total_Bild-1.jpg"/>）。此外，金石學家吴式芬（1796－1856）也記録尖山1號位於山坡南端。<note>“沙門僧安道壹□□四行，每行二字。石坂南端。”
+                                    《金石彙目分編》<ref target="Jinshihuimufenbian" type="biblio">第21152頁</ref>。</note>
+                            <ptr target="Version-2-wushifen-3-michihata.jpg"/>爲吴式芬和道端良秀的復原圖；<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>則是項目研究組所做的復原圖。題記分佈在中心軸左右兩側，因此，應該没有截斷由刻經文所構成的中心軸。刻經文由上而下可分爲三組：位於頂部的第一組是一段關於摩訶般若的經文（尖山6號）；第二組是一個巨大的佛名（尖山10號）；第三組則是另一段關於菩薩修行的六波羅蜜的佛經節文（尖山12號）。多條金石文獻著録證實了這樣的分組。有關本刻經址復原的詳情，見下文“研究史”部分。</p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地名</head>
+                        <p>尖山本名珠山，又作朱山、朱雀山。婁一均（活動於1709－1711年）纂清康熙刻本《鄒縣誌》載：<quote>縣東北，距城十五里，在九龍山西南十里。其形獨立如珠，故名。即九龍山之前峰也。<note>
+                                        《鄒縣舊誌彙編》<ref type="biblio" target="Zouxianjiuzhihuibian1986">第25頁</ref>。</note>
+                            </quote>九龍山位於曲阜市以南九公里處。</p>
+                        <p>大佛嶺，本名大步頂，因巨大的“大空王佛”佛名（尖山10號）而被稱作大佛嶺。早期記録中尖山寫作“嵾山”，見尖山4號刻銘。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>當地寺院情况不明。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>
+                            <anchor xml:id="JS_RP_zh_start"/>尖山刻經由僧人書法家僧安道壹（活動於562－579年）和當地望族韋氏家族共同完成。山東省多處刻經點發現有僧安道壹的署名，而韋氏家族則是當地望族之一。僧安道壹署名的題刻（尖山1號）位於山坡最頂端，標示出貫穿綫形排列的刻經的中心軸的最高點，因此，他應是刻經活動的主導者。這位尖山4號題記及山東省其他刻經址題記（洪頂山3號、7號和鐵山2號）中被稱作大沙門的僧安道壹，很可能負責此處刻經内容的選定。刻經可能是根據他尊崇的義理而選擇的，甚或作爲他修行成果的反映，所有供養人都能從中受惠。</p>
+                        <p>“僧安道壹”之名也見於尖山第一篇刻經（尖山6號）左側的尖山4號題記。這篇題記非常重要，其中記載：<quote>大沙門僧安道壹……［韋］子深……同刊經佛於昌邑之西繹嶺嵾山里。</quote>在此則題記中，韋子深還提到了他的妻子徐氏，以及他的兒子欽之和伏兒。不過最重要的是，他自豪地提及自己的先祖，即漢代著名的大丞相韋賢（公元前148－前60年），以及在該地區享有盛譽的乃兄韋興祖。</p>
+                        <p>這則重要題記的右側有另一則題記一行（尖山5號）。這則題記提到韋夫人徐氏的全名爲徐法仙。《文殊師利所説般若波羅蜜經》節文（尖山6號）的另一側有一則紀年題記（尖山7號），其第一行刻文提到韋子深之子伏兒，他可能是這則題記的刊刻者。</p>
+                        <p>“僧安道壹”之名還出現在另一則長篇題記（尖山11號）中。此則題記位於本刻經址中心刻銘，即高達六米的“大空王佛”佛名（尖山10號）右側。在尖山11號題記中，這位大沙門的名字帶有“大都經佛主”的稱號，有别於經主韋欽之和韋伏兒的名字，這可能暗示了他是佛名的書丹者。關於這則題記的行文，有兩點值得注意：第一，這裏没有提及韋子深，而是由他的兒子接替他的位置追溯祖先漢代大丞相；第二，提到了佛教儀軌“佛主前大發［菩提］心”，意指韋子深的兒子們在“佛主”面前誓願“大發［菩提］心”，即追隨菩薩道。此處“佛主”即僧安道壹。此時韋子深或許已經辭世，這些誓願由他的兒子以他的名義發出，以積累功德。此外，題記第二行結語似乎是迴向文，“……父母，一切眾生”。</p>
+                        <p>“韋子［深］”一名還出現在該刻經址第二篇刻經節文（尖山12號）下的一則題記（尖山15號）。這則題記稱他作“都維那經主”。<!--其中的供養人還包括其子伏兒和另一韋氏家族成員。-->緊接着這則題記的是徐時的短篇題記（尖山14號），徐時很可能是韋子深夫人家族中的一員。</p>
+                        <p>中央“大空王佛”佛名的左側有一組女性供養人題記。尖山8號題刻至少稱三名女居士爲經主。此則題記最後一行唯一殘存的刻字表明［韋子］深的夫人也參與了供養。供養人還包括唐邕的妻子趙夫人、陳德信的妻子董夫人和陳德茂的妻子（陳德茂的妻子没有冠以娘家姓氏）。
+                                    這幾位夫人的丈夫皆是豪門。唐邕（活動於532－581年）和陳德信在正史中均有記載，<note>有關唐邕的傳記，見《北齊書》<ref type="biblio" target="BeiQishu1972">卷四十，第530－532頁</ref>。陳德信亦多次見於正史，見《北齊書》<ref type="biblio" target="BeiQishu1972">卷八，第111－112頁；卷十一，第145頁；卷四十二，第556頁；卷五十，第692－693頁</ref>。</note>只有陳德茂無史可徵。但是，陳德茂很可能是北齊（550－577）後主（565－576年在位）的謀士陳德信的族弟。
+                                    趙夫人的丈夫唐邕是568至572年間北響堂山南洞内外刻經的著名經主。趙夫人和她的丈夫可能也參與了河北省涉縣中皇山的刻經活動。<note>中皇山僅存的發願文提到，趙夫人的母親爲了替過世的女兒積累功德而刊刻《妙法蓮華經》中有名的《觀世音菩薩普門品》。趙夫人去世的時間應該在她供養尖山刻經後不久，即武平六年（575）六月至武平七年（576）十二月。見賴非<ref type="biblio" target="LaiFei2003a">第113頁</ref>。
+                                    同篇經文也見於東平縣海檀寺的刻經碑，見《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第469－475頁</ref>。</note>
+                        </p>
+                        <p>女居士供養人題記的右側刻銘爲六個比丘尼法名（尖山9號）。尖山8號和9號這兩則由在家和出家女眾刊刻的題記，似乎與中心佛名另一側大沙門僧安道壹和韋氏家族男居士供養人欽之、伏兒的題記相呼應。佛陀在中心，左右兩側爲男、女供養人，分别由一位或多位僧尼帶領，對應了供養人圖像的一般表現方式，即男女分列在其供養對象兩側。</p>
+                        <p>支鍋石著名的四句《諸行無常偈》（尖山16.1號）之後也有一則題記（尖山16.2號），其中殘存韋氏家族更多成員的名字。<anchor xml:id="JS_RP_zh_end"/>
+                        </p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                        <figure xml:id="JS_r_total_Bild-1.jpg" rend="center" n="figure">
+                            <head xml:lang="zh">道端良秀拍攝於20世紀40年代的刻經址照片。刊於道端良秀<ref type="biblio" target="Michihata1972">圖2</ref>
+                            </head>
+                            <head>Photograph taken by Michihata <foreign xml:lang="sa">Ryōshū</foreign> in the 1940s; published in <ref type="biblio" target="Michihata1972">fig. 2</ref>
+                            </head>
+                            <graphic url="JS_r_total_Bild-1.jpg" height="100mm"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>尖山2號、4號和7號題記均有武平六年（575）的紀年。尖山7號記録刊刻時間爲這一年的四月二十五日（575年5月20日），尖山4號爲同年六月一日（575年6月24日），尖山2號没有確切的日期。</p>
+                        <p>尖山4號提及一件據稱發生在兩年前（573）六月三日的靈異事件。該事件亦載於《北齊書》，反映了尖山刻經與時事之間的關聯。</p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <!--<figure xml:id="JS_r_total_Bild-1.jpg" rend="center" n="figure">
+                            <head xml:lang="zh">道端良秀拍攝於20世紀40年代的刻經址照片。刊於道端良秀<ref type="biblio" target="Michihata1972">圖2</ref>
+                            </head>
+                            <head>Photograph taken by Michihata <foreign xml:lang="sa">Ryōshū</foreign>
+                                in the 1940s; published in <ref type="biblio" target="Michihata1972">fig. 2</ref>
+                            </head>
+                            <graphic url="JS_r_total_Bild-1.jpg" height="90mm"/>
+                        </figure>-->
+                        <p>尖山刻經引發早期金石學家濃厚的興趣。由於尖山刻經已不存，現存拓本和金石文獻對復原刻經及其佈局至關重要。<note>有關金石學文獻和這些拓本的詳情，見賴非<ref target="LaiFei2007" type="biblio">第93－99頁</ref>。</note>
+                        </p>
+                        <p>據孫葆田（1840－1911）<!--於1911年完成-->《山東金石誌》，黄易（黄小松，1744－1802）是第一位記録尖山刻銘的學者。<note>《山東金石誌》<ref type="biblio" target="Shandongjinshizhi">第9247－9248頁</ref>。</note> 他爲此山繪圖，其題跋描述尖山“崇岡重疊，登陟殊難”（<ptr target="Huang_Yi_Jianshan.jpg"/>）。由他的描述和圖本身都無法獲取本刻經址及其刻銘的清晰畫面。黄易的題跋提到刻銘録有“武平六年”紀年（即本卷尖山4號），並且列出了尖山5號、8號、10號和16.2號題記提到的名字及大幅“大空王佛”佛名（尖山10號）。他從全部18則刻銘辨識出6則。<note>《蓬萊宿約》<ref target="Penglaisuyue2010" type="biblio">第190頁</ref>。</note>
+                        </p>
+                        <p>之後，阮元（1764－1849）根據黄易的拓本，在《山左金石誌》（1796）討論了尖山4號。<note>《山左金石誌》<ref type="biblio" target="Shanzuojinshizhi">第14482頁</ref>。</note>
+                                    他著録10則刻銘，即尖山1號、5號、6號、8號、10號、12號、14號、15號、16.1號、16.2號和16.3號，有的録文完整，有的不全，均載有尺寸，間或評註銘文提到的人物，頗有助益。<note>《山左金石誌》<ref target="Shanzuojinshizhi" type="biblio">第14482－14483頁</ref>。</note>
+                                    但阮元僅見到刻銘的拓本，無法提供其相互位置。出於同樣的原因，一些題刻没有完整記録，附近的一則崗山的題刻也誤歸於此。<!--</p>
+                        <p>-->同年（1796）但稍早，曾協助阮元的段松苓（1745－1800）先於《山左金石誌》刊刻其自撰《山左碑目》，同樣記録了十則尖山刻銘。<note>《山左碑目》<ref type="biblio" target="Shanzuobeimu">第14843－14844頁</ref>。</note>
+                        </p>
+                        <p>吴式芬（1796－1856）更全面地調查了尖山刻文。其《金石彙目分編》著録十七則尖山刻銘，<note>《金石彙目分編》<ref type="biblio" target="Jinshihuimufenbian">第211529頁</ref>。</note>其中包括那則應屬於崗山的刻文、支鍋石三則題刻和大佛嶺山坡十三則刻銘。吴式芬補充了部分刻文的相互位置，但没有指出佛經節文和“大空王佛”佛名等大型刻銘的具體位置。不過，藉助此後金石文獻著録，就可以根據吴式芬所載而復原尖山題刻的分佈（<ptr target="Version-2-wushifen-3-michihata.jpg"/>）。</p>
+                        <p>《鄒縣誌稿》（1834）的編撰者董純和馬星翼實地考察過尖山刻經。此書稿未曾刊刻，不過錢枱在其《鄒縣金石續誌》可能徵引此稿。<note>賴非<ref type="biblio" target="LaiFei2007">第93頁</ref>。</note>除了支鍋石刻銘，錢枱還列舉了九則刻文，並將其分爲三組。第一組包括尖山3號、4號、5號、6號和7號，第二組僅含尖山8號，最後一組由尖山10號、11號和12號組成。<note>《鄒縣金石續誌》<ref type="biblio" target="Zouxianjinshixuzhi">第135－136頁</ref>。</note>
+                        </p>
+                        <p>李佐賢（1807－1876）在其清道光十九年（1839）刊刻的《石泉書屋金石題跋》叙述了他的朋友孟雨山（名廣均，1800－1870）給他介紹尖山刻經址，以及他們二人如何“捫石辨字録其文”。<note>《石泉書屋金石題跋》<ref type="biblio" target="SQSW">第14193－14194頁</ref>。</note>
+                            李佐賢把刻銘分爲四組。第一組和錢枱所分第一組基本上相同，但不含尖山3號，第二組包括尖山8號、10號和11號，第三組僅有尖山12號。他提到，第四組刻文已遭石匠損毀。他對照其所見與阮元所録，指出了後者的若干錯誤，但將這些錯誤歸因於阮元所據拓本不完整。此外，他還嘆惋，阮元記録的兩則銘文已不復見。他冀望藉由著録這些尖山銘文，傳諸後人。</p>
+                        <p>關於尖山刻銘的記載還見於孫葆田編纂的《山東金石誌》。此書將每則刻銘單列一則條目，其下依次爲標題、録文、尺寸和評註。<note>《山東金石誌》<ref type="biblio" target="Shandongjinshizhi">第9246－9248頁</ref>。</note>
+                            值得注意的是，孫氏根據刻字在石面或拓本的佈局依樣摹刻。他考慮到了行格、字間距，以及單個字相對於鄰行的確切位置。然而，銘文之間相對位置言之不詳，以致無法用來復原尖山刻經的整體佈局。</p>
+                        <p>1941年至1943年間，日本學者道端良秀探查尖山。<note>清原実門<ref type="biblio" target="Kiyohara1991">第201頁</ref>。</note>
+                            1972年，他發表了《中国の石仏と石經》，記録山東之行。現代學者視道端對尖山的描述 爲復原刻文及其原始佈局的可信材料（<ptr target="Version-2-wushifen-3-michihata.jpg"/>）。<note>道端良秀<ref type="biblio" target="Michihata1972">第29－34頁</ref>。</note>道端提供了兩張大佛嶺石坪的照片，這是迄今所知僅有的攝於石坪仍保存其刻銘時的照片。</p>
+                        <p>直到1990年，王鈞和阿濤將尖山作爲鄒城四山之一發表，對現已毀損的刻經的研究又重新開啟。<note>王鈞和阿濤<ref type="biblio" target="Wang_A1990">第1－34頁</ref>。</note>
+                                    在《北朝摩崖刻經研究》第一集，王思禮和賴非<note>王思禮和賴非<ref type="biblio" target="Wang_Lai1991a">第13－16頁</ref>。</note>以及胡新立<note>胡新立<ref type="biblio" target="HuXinli1991">第252－255頁</ref>。</note>
+                                    均嘗試比對現存拓本和舊刊金石學文獻復原尖山刻經。清原実門也復原了尖山刻銘。<note>清原実門<ref type="biblio" target="Kiyohara1991">第201－206頁</ref>。</note>
+                            他的復原不僅參考了阮元、李佐賢、孫葆田和錢枱的記録，還有道端良秀的著作。在2003年出版的《北朝摩崖刻經研究》第二集，許多有關僧人、書法家僧安道壹的討論同時述及尖山刻經。
+                                    2007年，賴非發表了最新的尖山刻經復原。他提供了銘文在岩石表面的分佈圖，並詳細解釋了銘文的位置。在這份復原中，銘文均以拓本的照片呈現，但没有註明拓本製作之際，哪些刻文已經損壞或佚失。<note>賴非<ref type="biblio" target="LaiFei2007">第99－101頁</ref>。</note>
+                        </p>
+                        <p>本卷提供的復原圖（<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>）是根據山東博物館收藏的兩套拓本和泰安市博物館的一套拓本完成的。本復原利用了所有三套拓本的記録、測量數據和録文，但只採用了山東博物館的拓本照片。在這些資料的基礎上，再補充王鈞和阿濤的《四山摩崖刻經》（1990）和《山東北朝摩崖刻經全集》（1992）<note>
+                                    《山東北朝摩崖刻經全集》<ref type="biblio" target="SD_BCMykj1992"/>。</note>發表的拓本。</p>
+                        <p>與其他大多數的復原不同，本卷復原考慮到拓本的實際大小，按比例複製，字的大小也根據現存拓本尺寸調整。本卷收録合計12則銘文的拓本，其中不完整的刻字由萬國碼（Unicode）字庫提供的文字補充。尖山2號和尖山14號没有拓本傳世，無法顧及其尺寸。尖山6號（佛經節文）和尖山12號的拓本只有單字傳拓本，無刻銘整拓。本卷依所知佛經原文排列這些單字拓本。由於許多刻字不只一次出現在相關的佛經節文中，每幅單字拓本的確切位置已不可復原。尖山12號所有刻字均存有拓本，而尖山6號的很多刻字拓本已佚。佚失的拓本都根據傳世録文加進現行萬國碼録文。</p>
+                        <p>在排列拓本和録文之前，要確定石面的總尺寸。道端良秀、胡新立和賴非分别給出了岩石總面積的測量值，但只有道端能够在銘文依然完好無損的現場做測量。因此，他的測量值被認爲是最準確的。此外，通過對現存拓本長度和寬度、銘文間距的粗略計算，我們可以相信，道端測量所得的長40米、寬8米的總面積是合理的。</p>
+                        <p>有關銘文間距的測量值，有兩份記録可參考。孫葆田寫道：<quote>……［刻銘“文殊般若”（尖山3號）］在鄒縣尖山
+                                《文殊般若經》（尖山6號）十餘步之上。 <note>《山東金石誌》 <ref type="biblio" target="Shandongjinshizhi">第9247b頁</ref>。</note>
+                            </quote>
+                                    這一距離相當於7米。<note>清原実門<ref target="Kiyohara1991" type="biblio">第202頁</ref>。</note>此外，
+                            道端良秀指出從《思益梵天所問經》擷取的六波羅蜜佛經節文（尖山12號）位於“大空王佛”（尖山10號） 佛名下方5米處。<note>道端良秀<ref target="Michihata1972" type="biblio">第211頁</ref>。</note>本卷復原圖（<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>）採用這些間距。當銘文間距完全不可知時，各拓本被均匀排列在整塊岩面上。</p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>刻銘</head>
+                    <div>
+                        <head>總目</head>
+                        <p>在尖山刻經的復原圖中，最醒目的就是佛名“大空王佛”四個大字（尖山10號）。一則經題（尖山3號）及三段佛經節文（尖山6號、12號和16.1號）也見於山東省其他摩崖刻經址。十三則歷史題刻（尖山1號、2號、4號、5號、7號、8號、9號、11號、14號、15號、16.2號、16.3號和16.4號）提供若干人名和紀年。</p>
+                        <ab>
+                            <abbr>温狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>佛名</head>
+                        <div>
+                            <head>尖山10號</head>
+                            <p>大空王佛無疑是北齊時期山東地區僧人尊崇的一位重要的佛陀。包括尖山在内的十座山一共刻有十五則“大空王佛”刻銘。<note xml:id="occurence_Dakongwangfo_zh">其中，洪頂山六處。徂徠山、鳳凰山、書院東山、二鼓山、崗山、尖山、天池山、雲翠山以及嵫陽山各一處。山東省外，河北省南響堂山亦發現兩處。</note>關於出現在山東的這一佛名的詳盡討論，見《中國佛教石經·山東省》第一卷，第82－87頁。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <div>
+                            <head>尖山3號</head>
+                            <p>尖山3號刻銘僅刻有“文殊般若”四字。如下文“討論”部分，學者們對本刻銘與其下方佛經節文（尖山6號）間的關係持有不同見解。一般認爲，這四個大字是此佛經節文的標題。若果真如此，這四字或是這整部佛經標題《文殊師利所説般若波羅蜜經》的縮寫，或是專爲此段九十八字刻經節文新創的標題。<note>相近實例見《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第49頁和第63－68頁</ref>。</note>
+                            </p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山6號</head>
+                            <p>
+                                <anchor xml:id="JS_6_intro_zh"/>這段出自《文殊師利所説般若波羅蜜經》的九十八字刻經節文由單字拓本復原而成。之前的學者如阮元、段松苓和李佐賢等，對刻字總數有不同的統計。這段節文對山東地區的供養人和刊刻者來説顯然意義重大。這段節文有兩處刻於洪頂山（洪頂山16.2號和22號），兩處於嶧山（位於五華峰的嶧山1號和妖精洞附近的嶧山3號），徂徠山（徂徠山1號）、水牛山（水牛山2號）以及龍山（龍山1號）則各有一處，亦見於其他經址的一些碑刻。<note>見下文，<ptr type="infrafootnote_zh" target="list98characters_zh"/>。</note>有關這部佛經在禪修中的作用，見《中國佛教石經·山東省》第一卷“導論”，第10－11頁。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山12號</head>
+                            <p>
+                                <anchor xml:id="JS12_intro_zh"/>學者們指出，這段出自《思益梵天所問經》的六波羅蜜節文六行，每行十三字。如同尖山6號，這段節文也根據單字拓本復原。18世紀，阮元確認這段刻文屬於《波羅蜜經》。這段刻銘相對於其他刻銘的確切位置却存有争議。其内容及六行十三字的行格都與平陰縣殘碑上的刻經（平陰1號）相同。此碑相關討論，見《中國佛教石經·山東省》第一卷，第451－458頁。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山16.1號</head>
+                            <p>
+                                <anchor xml:id="JS_VerseImpermanence_zh"/>支鍋石上刻有一著名的四句偈語，即《諸行無常偈》。此偈見於三個版本的《大般涅槃經》，即法顯（約337－442年）譯本，<note>《大般涅槃經》
+                                    T#7，1：204c23－24。</note>曇無讖（385－433或436）所譯的北本，<note>《大般涅槃經》T#374，12：450a16，451a1。</note>慧嚴（363－443）、慧觀（383－453）和謝靈運（385－433）所校訂的南本。<note>《大般涅槃經》T#375，12：692a13，693a1。</note>出自《大般涅槃經》的此偈常被刊刻石上。</p>
+                            <ab>
+                                <p>555年，在此偈刊刻於尖山前二十年，高僧禪師僧稠（480－560）對今位於河南省境内的安陽小南海中窟重新進行雕飾。此小型窟室原爲坐禪之用，但後沿用爲僧稠的紀念窟。窟室内牆佈滿精緻的浮雕。後牆右側，與盧舍那佛像之左的僧稠供養肖像相對，圖刻有《大般涅槃經》中講述《諸行無常偈》緣起的場景：</p>
+                                <p>帝釋天爲了試探一苦行者决心，幻化成一食肉的惡魔，口誦此偈的第一部分。苦行者起誓以生命换取偈語的第二部分。他如願獲得全偈，“然後處處，若石、若壁、若樹、若道，書寫此偈。”
+                                        <note>《大般涅槃經》T#374，12：452a5－6。</note>隨後他攀上高樹縱身跳下。帝釋天得見此行者堅毅悟道的决心，便還身神祗的原形，並於半空中接住了這位菩薩。此偈原文以榜題形式附刻於畫面一旁。<note xml:id="Xiaonanhai_Lit_zh">詳盡場景描繪以及榜題録文見顔娟英<ref type="biblio" target="YenChuanying1998">第383－385頁</ref>。榜題英文翻譯以及與奈良法隆寺玉蟲厨子和敦煌285窟壁畫上同題材圖像的對比，見徐湘靈<ref type="biblio" target="Hsu1999">第46－52頁</ref>。捨身題材和中窟外壁正面刊刻《涅槃經偈》的關聯，見徐湘靈 <ref type="biblio" target="Hsu2011">第308頁</ref>。榜題德文翻譯，見温狄婭<ref type="biblio" target="Wenzel2007b">第136－137頁</ref>。對此的討論、《續高僧傳》中所含僧稠傳記的德文版以及敦煌手稿P.
+                                            3559提及他的段落，見安東平<ref type="biblio" target="Anderl1995"/>。</note>
+                                </p>
+                                <p>《諸行無常偈》早年亦刻於山東省濟南市黄石崖。<note>見本卷下文，<ptr type="infra" target="HSY_VerseImpermanence_zh"/>。</note>此奉行以苦行獲得救贖的偈語在中國其他地區亦相當盛行。最早的石刻是在1921年於茂縣壩中村寨發現的，紀年爲南齊永明元年（483）造的無量壽佛像碑上。刻工相對粗糙的偈語旁邊似爲行者，立於層層疊疊的山巒之中（<ptr target="Nirvana_gatha_Chengdu.jpg"/>）。<anchor xml:id="JS_VerseImpermanence_zh_end"/>
+                                </p>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>尖山1號</head>
+                            <p>題記簡短，僅有“大沙門僧安道壹”一名。這位著名的僧人、書法家的名字見於山東省多處刻銘。<note>見桐谷征一<ref type="biblio" target="Kiriya2003a">第50－55頁</ref>。</note>關於他對山東摩崖刻經的貢獻，見《中國佛教石經·山東省》第一卷“導論”，第11至18頁。清人段松苓將其詮釋爲一名安姓僧人，引出了該僧姓名的種種説法。<note>《中國佛教石經·山東省》第一卷<ref type="biblio" target="Shandong_1">第58、116－117、143－144和254頁</ref>。《中國佛教石經·山東省》第二卷<ref type="biblio" target="Shandong_2">第88頁</ref>。</note>
+                            </p>
+                            <p>吴式芬誤録此題記爲四行，實爲三行。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山2號</head>
+                            <p>此則題記紀年北齊武平六年（575），是本刻經址斷代和解讀的重要依據。道端良秀是此則題記唯一的見證人，他記録此題記位於“文殊般若”四字（尖山3號）的右側。清原実門認爲，這是對紀年同爲武平六年、位於中軸綫上稍低位置的尖山7號題記的誤認。本題記（尖山2號）比尖山7號短很多，並有尖山7號没有的“大齊”二字，因此本卷認爲，尖山2號和尖山7號是紀年相同的兩則不同銘文。<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>顯示這兩則題記假定的相對位置。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山4號</head>
+                            <p>此則題記位於九十八字佛經節文（尖山6號）的左側，含有關於書法家僧安道壹、供養人韋子深（漢大丞相韋賢的後裔）和武平六年六月一日（575年6月24日）紀年等重要内容，還提到了韋子深的妻子和孩子。阮元特别重視此處及他處刻銘的史料關聯。</p>
+                            <p>清原実門根據尖山11號刻銘的内容（見下文），認爲韋子深應是漢大丞相韋賢的第十七代孫。故此處刻銘録文“第十九代孫”應作“第十七代孫”。<note>清原実門
+                                        <ref target="Kiyohara1991" type="biblio">第204頁</ref>。</note>
+                            </p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山5號</head>
+                            <p>學者們對此則題記的解讀各不相同。據復原圖（<ptr target="Version-2-wushifen-3-michihata.jpg"/>；<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>），此題記位於尖山4號和尖山6號之間。題記所載供養人爲徐法仙，部分學者認爲她是韋子深的妻子（參見尖山4號）。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山7號</head>
+                            <p>此則題記的紀年爲武平六年四月二十五日（575年5月20日）。本卷復原該題記由兩行組成。一些學者認爲僅一行，或實際上只是另一則題記的一部分（見下文“討論”部分，<ptr type="infra" target="lizuoxian kiyohara"/>）。吴式芬、李佐賢和錢枱都認爲其相對位置在尖山6號右側（<ptr target="Version-2-wushifen-3-michihata.jpg"/>）。吴式芬所記録的第一行中有五字不見於存世的拓本。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山8號</head>
+                            <p>此則題記記録了多位供養人名。每行起首皆爲“經主”這一稱謂。阮元是第一位指出供養人趙夫人爲唐邕之妻的學者。這對理解山東省摩崖刻經與同時期、由唐邕主持的北響堂山刻經之間的關係是很重要的進展。學者們也試圖透過史料辨識出題記中其他供養人，即陳德信和陳德茂的身份。<note>李裕群<ref type="biblio" target="LiYuqun1997">第449頁</ref>。賴非<ref target="LaiFei2003a" type="biblio">第113－114頁</ref>。</note>
+                            </p>
+                            <p>此則題記是三行還是四行，説法不一。根據拓本，似爲四行。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山9號</head>
+                            <p>在本卷的復原圖（<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>）中，此則由比丘尼法門與其他比丘尼共同刊刻的題記位於尖山10號“大空王佛”佛名之側。其他學者提出了另外幾種佈局的推測。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山11號</head>
+                            <p>此則題記是由大沙門僧安道壹、韋欽之和韋伏兒具名，强調了僧安道壹在尖山的刻經活動，並揭示出他的社會關係。此外，“韋欽之”和“韋伏兒”這兩個名字使本題記和尖山4號産生了關聯，他們應是韋子深的兒子。題記稱此二子爲“漢大丞相第十八代孫”，不過尖山4號刻銘稱他們的父親韋子深爲韋賢的“第十九代孫”。</p>
+                            <p>爲了解决這個明顯的矛盾之處，清原実門提出，尖山4號拓本上清晰可見的“十九”字有誤，應作“十七”。<note>清原実門<ref target="Kiyohara1991" type="biblio">第204頁</ref>。</note>但胡新立傾向將本題記中的“韋伏兒和韋欽之，第十八代孫”改成“第二十代孫”。<note>胡新立
+                                        <ref target="HuXinli1991" type="biblio">第253－254頁</ref>。</note>不過，尖山4號的“十七”誤作“十九”這一看法顯得更具説服力。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山13號</head>
+                            <p>此通清光緒年間（1875－1908）禁採石碑已佚失，只有道端良秀提到它，並記録其位於尖山12號之下、殘損的尖山15號（另一則韋子深等人的題記）上方。道端良秀的老照片上可見此碑（<ptr target="JS_r_total_Bild-1.jpg"/>）。賴非請教附近村中長者，據此復原了碑文。<note>賴非
+                                        <ref target="LaiFei2007" type="biblio">第93頁</ref>。</note>
+                            </p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山14號</head>
+                            <p>此則由經主徐時刊刻的題記無拓本，僅見於金石學文獻。根據阮元和吴式芬的記載，此則題記分爲三行。不過，阮元的録文暗示最後兩行實際上屬於尖山15號。吴式芬將尖山14號和15號當作兩則獨立的刻銘，並記録“經主徐時題記”共有三行。</p>
+                            <p>道端良秀没有提到此則題銘，僅記録尖山15號有三行。因爲他没有録全尖山15號的三行刻文，所以還不清楚第一行是否上接阮元的録文。不過，很難將阮元記録的“經主題銘，徐時”視爲對“經主，驃騎大［將軍］……”的誤讀。因此，本卷的復原圖（<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>）根據吴式芬的描寫，將尖山14號與尖山15號當作兩則題記，並假定尖山14號爲三行。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山15號</head>
+                            <p>此則刻銘提到“韋子［深］”<!--“伏兒”“韋將□”和“韋子［深］”-->和另外兩位不知其名、僅知其軍銜的人物。位置可能在尖山13號之下（<ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>）。只有拓本A將全部三行銘文展示在一張拓紙上，其他的拓本則將前兩行與最後一行分開拓製。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山16.2號</head>
+                            <p>此則題記有“［韋平振］”和“韋玉［爲］”之名，位於支鍋石《諸行無常偈》（尖山16.1號）一側。由山東博物館收藏的拓本（<ptr target="JS_16.2.jpg"/>）可以確定這一位置。根據拓本，
+                                尖山16.1號的第三和第四行在右，尖山16.2號的第二行居左。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>尖山16.3號</head>
+                            <p>山東博物館的兩張拓本上有另一則位於尖山16.1號第一行正下方的題記。僅存一個應作爲姓氏的“朱”字（<ptr target="JS_16.3.jpg"/>）。</p>
+                            <ab>
+                                <abbr>雷德侯</abbr>
+                            </ab>
+                            <figure rend="center" xml:id="JS_sc_PICT5338.JPG" n="figure">
+                                <head xml:lang="zh">尖山大佛嶺採石場舊址的碎石。2005年拍攝 </head>
+                                <head>Debris of the stone quarry at the former Great Buddha Ridge;
+                                    photograph taken in 2005</head>
+                                <graphic url="JS_sc_PICT5338.JPG" height="150mm"/>
+                            </figure>
+                        </div>
+                        <div>
+                            <head>尖山16.4號</head>
+                            <p>傳統金石學家中，只有吴式芬提及支鍋石這則題記。與現存四字拓本（<ptr target="JS_16.4.jpg"/>）不同，吴氏僅録三字。他似乎是將第二個字“吉”與第三個字“了”組成“亨”字。</p>
+                            <ab>
+                                <abbr>温狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>書法藝術</head>
+                        <p>書法風格類似泰山經石峪刻經，但略顯活潑。<anchor xml:id="JS_end_zh"/>
+                        </p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Jian</head>
+                <p>Mount Jian <foreign xml:lang="zh">尖山</foreign> is one of the six mountains with
+                    engraved inscriptions near the city of Zoucheng <foreign xml:lang="zh">鄒城</foreign>. The texts on Mount Jian were destroyed in 1960s. The loss is
+                    especially regrettable because this was one of the richest and most diverse
+                    clusters in Shandong, with more than 16 separate inscriptions, three of them
+                    dated to 575.</p>
+                <p>Fortunately, rubbings of the inscriptions were taken when they were still intact.
+                    These rubbings were measured and photographed for the present volume. In
+                    addition, the extensive epigraphic literature on the site was scrutinized for
+                    all hints on the relative position of the inscriptions. Our new reconstruction
+                    of the layout builds on these earlier efforts and takes all known research into
+                    account. Most helpful was a survey made by the Japanese scholar Michihata
+                        <foreign xml:lang="ja">Ryōshū </foreign>
+                    <foreign xml:lang="zh">道端良秀</foreign> (1903–?) in the early 1940s. It includes the only two known
+                    early photographs of the site.</p>
+                <p>The enigmatic Buddha name “Buddha King of Great Emptiness” (Da kong wang fo
+                        <foreign xml:lang="zh">大空王佛</foreign>; JS 10) and the four sutra passages on
+                    Mount Jian were also engraved on several other mountains in Shandong. Among
+                    these four is the often seen passage of 98 characters from the <hi rend="italic">
+                        <foreign xml:lang="sa">Prajñāpāramitā</foreign>
+                    </hi> literature (JS 6).
+                    The eminent Renunciant Seng’an Daoyi <foreign xml:lang="zh">僧安道壹</foreign> (fl.
+                    562–579) was the mastermind behind the engravings, as he was for those at Mount
+                    Hong­ding <foreign xml:lang="zh">洪頂山</foreign> (<ref type="biblio" target="Shandong_1"/>) and Mount Tie <foreign xml:lang="zh">鐵山</foreign>
+                        (<ref type="biblio" target="Shandong_2"/>). </p>
+                <ab>
+                    <abbr>LL</abbr>
+                </ab>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>
+                            <anchor xml:id="JS_start"/>From a distance, Mount Jian (literally:
+                            Pointed Mountain) has a triangular shape, rising from the plain, which
+                            here has an altitude of 120 m above sea level (figs. <ptr target="JS_sc_G7S92081.JPG"/> and <ptr target="JS_sc_PICT5338.JPG"/>). The original site of the inscription bearing rock, however, is 1 km
+                            east of the peak, and geographically situated 117.0184° east and
+                            35.4395° north, WGS84. This equals 501670 E (easting) and 3921780 N
+                            (northing), UTM zone 50S. The inscribed site was also known as the
+                            “Great Buddha Ridge” (Dafoling <foreign xml:lang="zh">大佛嶺</foreign>). It
+                            is located 6 km northeast of the city of Zoucheng, and 17 km
+                            south-southeast of the city of Qufu <foreign xml:lang="zh">曲阜</foreign>.<!-- The whole site would have
+                            been no more than a hundred meters across. --><!--</p>
+                        <p>-->
+                            <anchor xml:id="XiweiReservoir"/>The
+                            inscription bearing rock was blown up in 1960s, when the site was
+                            quarried for stone used in construction of the Xiwei reservoir (Xiwei
+                            shuiku <foreign xml:lang="zh">西葦水庫</foreign>).<note>
+                                <ref target="Wang_Lai1991a" type="biblio">13</ref>, <ref target="SD_BCMykj1992" type="biblio">3</ref>, and <ref type="biblio" target="LaiFei2007">81</ref>.</note> Today, the
+                            quarry has been abandoned (fig. <ptr target="JS_sc_PICT5338.JPG"/>).</p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>
+                            <anchor xml:id="fourmountains"/> The closest mountains with inscriptions
+                            are Mount Gang <foreign xml:lang="zh">崗山</foreign>, which is located 4.8
+                            km to the west-southwest; Mount Ge <foreign xml:lang="zh">葛山</foreign>,
+                            8.2 km to the east-southeast, and Mount Yi <foreign xml:lang="zh">嶧山</foreign>, 12.4 km to the south (map, fig. <ptr target="Zoucheng_2013_02_21e.jpg"/>). The peaks of these mountains
+                            can be seen from the top of Mount Jian, but not from the original
+                            inscription site, which lies to the east of the peak. Therefore, it
+                            follows that the inscriptions on Mount Gang, Mount Ge, and Mount Yi
+                            cannot be seen by somebody standing at the original site.</p>
+                        <p>Most inscriptions on Mount Jian were originally located on a single
+                            sloping rock face, as are those of Mount Ge and Mount Tie. But on these
+                            two mountains, single long inscriptions are laid out in rectangular
+                            formats. By contrast, the engravings on the Great Buddha Ridge consisted
+                            of several <hi rend="nh">separate</hi> inscriptions grouped together.
+                            They formed a cluster, like those at Mount Hongding <foreign xml:lang="zh">洪頂山</foreign> (see <ref type="biblio" target="Shandong_1"/>). At a distance of about 120 meters to the
+                            southeast of the Great Buddha Ridge, stood three upright boulders called
+                            “Pot Stand Rocks” (Zhiguo shi <foreign xml:lang="zh">支鍋石</foreign>).
+                            These also carried inscriptions.</p>
+                        <p>The original spatial grouping can only be reconstructed from hints in
+                            epigraphic sources, as to how certain inscriptions were arranged and
+                            were related to each other. Additional, important evidence is supplied
+                            by the two photographs taken by Michihata <foreign xml:lang="ja">Ryōshū</foreign> in the 1940s, when the inscriptions were still
+                            intact (fig. <ptr target="JS_r_total_Bild-1.jpg"/>). </p>
+                        <figure rend="center" xml:id="Zoucheng_2013_02_21e.jpg">
+                            <head xml:lang="zh">鄒城六山位置圖</head>
+                            <head>Map of the six mountains in and around Zoucheng</head>
+                            <graphic url="Zoucheng_2013_02_21e.jpg"/>
+                        </figure>
+                        <p>On the basis of this evidence, several reconstructions of the spatial
+                            grouping of the inscriptions have been made, which reveal that they were
+                            arranged along a stretched-out central axis, with the sacred text
+                            passages in the middle. The inscriptions must have been oriented from
+                            south to north, as the hills in the background of Michihata’s photo
+                            <!--(fig. <ptr target="JS_r_total_Bild-1.jpg"/>)--> were identified
+                            during field work at today’s stone quarry. In addition, the epigrapher
+                            Wu Shifen <foreign xml:lang="zh">吴式芬</foreign> (1796–1856) says that JS
+                            1 was carved at the southern end of the rocky slope.<note>
+                                <foreign xml:lang="zh">“沙門僧安道壹□□四行，每行二字。石坂南端。”</foreign>
+                                <ref type="biblio" target="Jinshihuimufenbian"><!--1, 28: -->21152</ref>.</note> The reconstructions by Wu
+                            Shifen and by Michihata are shown in figure <ptr target="Version-2-wushifen-3-michihata.jpg"/>, while our
+                            reconstruction is at figure <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>. The
+                            colophons at the site do not seem to have interrupted this central axis
+                            of sacred texts, as they were placed either to the right or to the left.
+                            The inscriptions were divided vertically into three sections: The first
+                            section at the top centered on a sutra passage on the Great Perfection
+                            of Wisdom (JS 6), the second section on a giant Buddha name (JS 10), and
+                            the third section on another sutra passage on the Six Perfections of a
+                            bodhisattva (JS 12). This division is corroborated by many epigraphic
+                            records. For more details on the reconstruction of the site, see
+                            Research History below.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name</head>
+                        <p>Mount Jian was originally named Vermilion Mount (Zhu Shan <foreign xml:lang="zh">朱山</foreign>) or Pearl Mount (Zhu Shan <foreign xml:lang="zh">珠山</foreign>), or Vermilion Bird Mount (Zhuque Shan
+                                <foreign xml:lang="zh">朱雀山</foreign>). The <hi rend="italic">Gazetteer of Zou County</hi> (<hi rend="italic">Zouxian
+                                zhi</hi>
+                            <foreign xml:lang="zh">鄒縣誌</foreign>), revised by Lou Yijun
+                                <foreign xml:lang="zh">婁一均</foreign> (fl. 1709–1711) of the Kangxi
+                            era <foreign xml:lang="zh">康熙</foreign> (1662–1722), says:
+                                <quote>Located northeast of the county seat, 15 miles from the city,
+                                and 10 miles southwest of Nine Dragon Mountain (Jiulong Shan
+                                    <foreign xml:lang="zh">九龍山</foreign>). The name derives from its
+                                shape, which is freestanding like a pearl. It is the first peak in
+                                the sequence of the Nine Dragon Mountain.<note>
+                                    <foreign xml:lang="zh">“縣東北，距城十五里，在九龍山西南十里。其形獨立如珠，故名。即九龍山之前峰也。”</foreign>
+                                    <ref type="biblio" target="Zouxianjiuzhihuibian1986">25</ref>.</note>
+                            </quote> Nine Dragon Mountain is situated nine
+                            kilometers south of Qufu City. </p>
+                        <p>Great Buddha Ridge was originally named Great Step Peak (Dabuding
+                                <foreign xml:lang="zh">大步頂</foreign>). It was called Great Buddha
+                            Ridge because of the colossal Buddha name, Buddha King of Great
+                            Emptiness (Da kong wang fo <foreign xml:lang="zh">大空王佛</foreign>; JS
+                            10). In former times, the name of Mount Jian was written with a variant
+                            character, <!--<hi rend="italic">jian </hi>
+                            <foreign xml:lang="zh">嵾</foreign>, -->which
+                            is seen in inscription JS 4.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>There is no information on local monasteries.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons</head>
+                        <p>
+                            <anchor xml:id="JS_RP_start"/>The carving project at Mount Jian was a
+                            cooperation between the monk calligrapher, Seng’an
+                            Daoyi<!-- <foreign xml:lang="zh">僧安道壹</foreign> (fl. 562–579)-->, who is
+                            named in several inscriptions in Shandong, and the Wei <foreign xml:lang="zh">韋</foreign> family, one of the powerful local clans.
+                            The Renunciant Seng’an Daoyi can be considered as main initiator of the
+                            project, because an inscription with this name (JS 1) was placed at the
+                            top of the slope, marking the highest point of the central axis that
+                            runs through the texts. The Great Renunciant, as he is called in JS 4,
+                            as well as in other Shandong inscriptions (HDS 3, HDS 7, Tie 2), may
+                            have selected the texts. The choice may have been made in accordance
+                            with his teachings, or even as a reflection of his spiritual
+                            achievements, from which all donors could expect to benefit.</p>
+                        <p>The main colophon, JS 4, to the right of the first sutra passage (JS 6),
+                            states that “the Great Renunciant Seng’an with [Wei] Zishen <foreign xml:lang="zh">[韋]子深</foreign> ... carved sutra [passages] and a
+                            Buddha [name] at Mount Jian in the ranges of Mount Yi, west of Changyi.”
+                            Wei Zi­shen also names his wife, Lady Xu <foreign xml:lang="zh">徐</foreign>, and his sons, Qinzhi <foreign xml:lang="zh">欽之</foreign> and Fu’er <foreign xml:lang="zh">伏兒</foreign>, in this
+                            inscription, but above all, he boasts of his ancestor, a famous <hi rend="nh">Great</hi> Minister of the Han dynasty, Wei Xian <foreign xml:lang="zh">韋賢</foreign> (148–60 BCE), as well as of the rank of
+                            his elder brother, Wei Xingzu <foreign xml:lang="zh">韋興祖</foreign>, who
+                            held prestigious posts in the region.</p>
+                        <p>The full name of Lady Xu is given as Xu Faxian <foreign xml:lang="zh">徐法仙</foreign> in an inscription in one column (JS 5), to the left
+                            of the main colophon (JS 4). At the other side of the sutra passage on
+                            the Great Perfection of Wisdom, a dated inscription (JS 7) may have been
+                            presented by Wei’s son, Fu’er, whose name appears in the first
+                            column.</p>
+                        <p>Seng’an Daoyi appears again in a second, longer inscription (JS 11), to
+                            the left of the site’s central carving, the large “Buddha King of Great
+                            Emptiness” (JS 10), which measured almost six meters in height. In JS
+                            11, the Great Renunciant Seng’an Daoyi is set apart from the donors of
+                            sutras, Qinzhi and Fu’er of the Wei family, as “Great Chief Donor of
+                            Sutras and the Buddha”, possibly implying that he wrote the Buddha name
+                            himself. The inscription’s wording is remarkable in two ways: First, Wei
+                            Zishen is not named again; instead, his sons now take his place in
+                            referring to their ancestor, the Great Minister of the Han dynasty. And
+                            second, the ritual of “putting forth the [<hi rend="italic">bodhi</hi>]
+                            mind before the donor of the Buddha” is mentioned, meaning that the sons
+                            of Wei Zishen took a vow to “put forth the [<hi rend="italic">bodhi</hi>] mind” or to follow the path of the bodhisattva, in the
+                            presence of the monk, who had donated the Buddha name, namely Seng’an
+                            Daoyi. Perhaps Wei Zi­shen had died in the meantime, and these vows were
+                            taken by his sons to generate religious merit on his behalf. The second
+                            column of the inscription seems to have ended with a formula often used
+                            for the transfer of such merit, “... the parents, and all living
+                            beings”. </p>
+                        <p>The name of Wei Zi[shen] appears one more time below the second sutra
+                            passage of the site (JS 12), in the colophon JS 15, where he is called
+                            “Chief Overseer, Donor of Sutras”.
+                            <!--Associated donors in this inscription are his son Fu’er, and another member of his family, bearing the title of a general. This might be his son Qinzhi.-->
+                            Close to this inscription was the very short colophon by Xu Shi <foreign xml:lang="zh">徐時</foreign> (JS 14), who may have been a member of
+                            the family of Wei Zi­shen’s wife. </p>
+                        <p>A group of colophons by female donors was placed to the right of the
+                            central “Buddha King of Great Emptiness”. In the inscription JS 8, at
+                            least three lay women are named as donors of sutras. The only surviving
+                            character in the last column indicates that the wife of [Wei Zi]shen
+                            also took part in the donation. The other sutra donors are: Lady Zhao
+                                <foreign xml:lang="zh">趙</foreign>, wife of Tang Yong <foreign xml:lang="zh">唐邕</foreign>; Lady Dong <foreign xml:lang="zh">董</foreign>, wife of Chen Dexin <foreign xml:lang="zh">陳德信</foreign>; and an unnamed Lady, wife of Chen Demao <foreign xml:lang="zh">陳德茂</foreign>. The names of the husbands indicate that
+                            they were from powerful families; Tang Yong (fl. 532–581) and Chen Dexin
+                            are both mentioned in the dynastic histories.<note>For the biography of
+                                Tang Yong, see <ref type="biblio" target="BeiQishu1972">
+                                    <hi rend="italic">juan </hi>40: 530–532</ref>. Chen Dexin is
+                                mentioned in <ref type="biblio" target="BeiQishu1972">
+                                    <hi rend="italic">juan </hi>8: 111–112, <hi rend="italic">juan
+                                    </hi>11: 145, <hi rend="italic">juan </hi>42: 556, <hi rend="italic">juan </hi>50: 692–693</ref>.</note> Chen Demao
+                            is not mentioned there, but he was probably a younger relative of Chen
+                            Dexin, one of the advisors of Emperor
+                            Houzhu<!--<foreign xml:lang="zh">後主</foreign>--> (r. 565–576) of the
+                            Northern Qi <foreign xml:lang="zh">北齊</foreign>
+                            (550–577).<!--<note></note>--> The husband of Lady Zhao, Tang Yong, is
+                            the famous donor of the sutras carved between 568 and 572 inside and
+                            outside the southern cave at Northern Mount Xiangtang (Bei Xiangtang
+                            Shan <foreign xml:lang="zh">北響堂山</foreign>). Lady Zhao and her husband
+                            may also have been involved in the carving of sutras at Mount Zhonghuang
+                                <foreign xml:lang="zh">中皇山</foreign> in She County <foreign xml:lang="zh">涉縣</foreign> in Hebei.<note>The only votive
+                                inscription at Mount Zhonghuang refers to the carving of the famous
+                                chapter of the <title xml:lang="en" type="translated">
+                                    <hi rend="italic">Lotus Sutra</hi>
+                                </title>, the “Universal Gate
+                                of Bodhisattva Perceiver of the World’s Sounds” (<hi rend="italic">Guanshiyin pusa pumen pin </hi>
+                                <foreign xml:lang="zh">觀世音菩薩普門品</foreign>) by Lady Zhao’s mother, who transferred the
+                                accumulated merit to her deceased daughter. Lady Zhao had died
+                                sometime between the sixth month of the sixth year of the <hi rend="italic">wuping</hi> era (575) and the twelfth month of the
+                                seventh year of the <hi rend="italic">wuping </hi>
+                                <foreign xml:lang="zh">武平</foreign> era (576), not long after she had
+                                donated inscriptions at Mount Jian; see <ref type="biblio" target="LaiFei2003a">113</ref>. Note that the same text was also
+                                carved on the stele at Haitan Monastery (Haitan Si <foreign xml:lang="zh">海檀寺</foreign>), see <ref type="biblio" target="Shandong_1">469–475</ref>.</note>
+                        </p>
+                        <p>To the left of JS 8<!--the colophons by lay women--> was a simple
+                            inscription listing the names of six ordained nuns (JS 9). These two
+                            colophons, by ordained and unordained women, balanced the colophon by
+                            the Renunciant Seng’an Daoyi and the male lay donors of the Wei family,
+                            Qinzhi, and Fu’er, on the other side of the central Buddha name. The
+                            arrangement of the central Buddha, with female donors at the right side,
+                            and male donors at the left side, led by one or several nuns or monks,
+                            respectively, corresponds to the standard pictorial representation of
+                            donors, where men and women are lined up on both sides of their
+                            donation, such as a Buddha figure.</p>
+                        <p>One more colophon on Pot Stand Rocks (JS 16.2), following after the
+                            famous four line <hi rend="italic">Gatha Verse of Impermanence of All
+                                Conditioned Phenomena</hi> (<hi rend="italic">Zhuxing wuchang ji
+                                </hi>
+                            <foreign xml:lang="zh">諸行無常偈</foreign>, JS 16.1), preserves
+                            fragmented names of more members of the Wei clan.<anchor xml:id="JS_RP_end"/>
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>The inscriptions JS 2, JS 4 and JS 7 all have dates from the sixth year
+                            of the <hi rend="italic">wuping</hi> era, 575. While JS 2 does not
+                            specify month and day, JS 7 names the twenty-fifth day of the fourth
+                            month of this year (May 20, 575), and JS 4 the first day of the sixth
+                            month (June 24, 575).</p>
+                        <p>JS 4 refers to a supposedly supernatural event that took place two years
+                            earlier, on June 3, 573, which is also mentioned in the <hi rend="italic">History of the Northern Qi Dynasty</hi> (<hi rend="italic">Beiqishu </hi>
+                            <foreign xml:lang="zh">北齊書</foreign>).
+                            This connects the engravings on Mount Jian with events of the time.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>Mount Jian is one of the sites that attracted considerable attention from
+                            the early epigraphers, but as the original inscriptions are lost, the
+                            surviving rubbings and epigraphic sources have particular significance
+                            for the reconstruction of the carved texts and their layout.<note>For a
+                                detailed description of epigraphic sources and sets of rubbings see
+                                    <ref type="biblio" target="LaiFei2007">93–99</ref>.</note>
+                        </p>
+                        <p>According to a remark in Sun Baotian’s <foreign xml:lang="zh">孫葆田</foreign> (1840–1911) <title>
+                                <hi rend="italic">Epigraphic
+                                    Records of Shandong</hi>
+                            </title> (<hi rend="italic">Shandong
+                                jinshi zhi </hi>
+                            <foreign xml:lang="zh">山東金石誌</foreign>), Huang Yi
+                                <foreign xml:lang="zh">黄易</foreign> (Huang Xiaosong <foreign xml:lang="zh">黄小松</foreign>; 1744–1802) was the first scholar who
+                            recorded an inscription from Mount Jian.<note>
+                                <ref type="biblio" target="Shandongjinshizhi"><!--2, 12: -->9247–9248</ref>.</note>
+                            He made a sketch of the site and, in his accompanying colophon, says:
+                            “The imposing range rises in a double ridge and is quite difficult to
+                            climb” (fig. <ptr target="Huang_Yi_Jianshan.jpg"/>). But neither from
+                            this description, nor from the sketch itself, can one gain a clear
+                            picture of the site and its inscriptions. In his colophon Huang Yi
+                            mentions the date “sixth year of the <hi rend="italic">wuping</hi> era”
+                            (575) in the inscription, which we here call JS 4, and further lists
+                            names from inscriptions JS 5, JS 8, JS 10, JS 16.2, as well as the large
+                            “Buddha King of Great Emptiness” (JS 10). Thus he identified six of a
+                            total of 18 inscriptions.<note>
+                                <ref type="biblio" target="Penglaisuyue2010">190</ref>.</note>
+                        </p>
+                        <p>Later, Ruan Yuan <foreign xml:lang="zh">阮元</foreign> (1764–1849) based
+                            his discussion of JS 4, in his <title>
+                                <hi rend="italic">Epigraphic
+                                    Records of Shandong</hi>
+                            </title> (<hi rend="italic">Shanzuo
+                                jinshi zhi </hi>
+                            <foreign xml:lang="zh">山左金石誌</foreign>) of 1796, on
+                            Huang Yi’s rubbing. He lists ten different inscriptions with partial or
+                            complete transcriptions and their measurements (JS 1, JS 5, JS 6, JS 8,
+                            JS 10, JS 12, JS 14 with JS 15, JS 16.1, JS 16.2, JS 16.3) and makes
+                            useful comments about the persons mentioned in the colophons.<note>
+                                <ref type="biblio" target="Shanzuojinshizhi"><!--1, 19: -->14482–14483</ref>.</note> But since Ruan Yuan had
+                            only seen rubbings of these inscriptions, he was unable to give
+                            information on their relative positions. For the same reason, some
+                            inscriptions are incompletely recorded, and one from nearby Mount Gang
+                            was included erroneously.</p>
+                        <p>Earlier in the same year 1796, Duan Songling <foreign xml:lang="zh">段松苓</foreign> (1745–1800), who had been assisting Ruan Yuan,
+                            published his own work, the <title>
+                                <hi rend="italic">List of Stelae in
+                                    Shandong</hi>
+                            </title> (<hi rend="italic">Shanzuo beimu
+                                </hi>
+                            <foreign xml:lang="zh">山左碑目</foreign>), in which he also lists
+                            ten different inscriptions for Mount Jian.<note>
+                                <ref type="biblio" target="Shanzuobeimu"><!--2, 20: -->14843–14844</ref>.</note>
+                        </p>
+                        <p>A more complete survey of the texts carved at Mount Jian was achieved by
+                            Wu Shifen<!--<foreign xml:lang="zh">吴式芬</foreign> (1796–1856)-->, who
+                            listed 17 inscriptions in his <hi rend="italic">
+                                <hi rend="nh">Categorized</hi> Edition of an Assembled Catalog of
+                                Epigraphica</hi> (<hi rend="italic">Jinshi huimu
+                                fenbian</hi>
+                            <foreign xml:lang="zh">金石彙目分編</foreign>).<note>
+                                <ref type="biblio" target="Jinshihuimufenbian"><!--1, 28:-->211529</ref>.</note> These include the misplaced
+                            inscription from Mount Gang, three inscriptions from Pot Stand Rocks,
+                            and thirteen from the actual slope at Great Buddha Ridge. Wu Shifen
+                            added information on the relative positions of some inscriptions, but he
+                            did not <hi rend="nh">specify</hi> the position of the larger
+                            inscriptions, namely the carved sutra passages and the name, “<hi rend="nh">Buddha</hi> King of Great Emptiness”. Nevertheless, taking
+                            also later epigraphic records into account, it is possible to suggest an
+                            arrangement of the inscriptions based on Wu Shifen’s notes (fig. <ptr target="Version-2-wushifen-3-michihata.jpg"/>). </p>
+                        <figure rend="full" xml:id="Version-2-wushifen-3-michihata.jpg" n="figure">
+                            <head xml:lang="zh">尖山刻經分佈復原：左圖根據吴式芬《金石彙目分編》，右圖根據道端良秀的記録。項目研究組製作</head>
+                            <head xml:lang="en">Reconstruction of the original layout of Mount
+                                Jian’s inscriptions: Left according to Wu Shifen’s <hi rend="italic">Categorized Edition of an Assembled Catalog of
+                                Epigraphica</hi>, and right, according to the report by Michihata;
+                                made by RG </head>
+                            <graphic url="Version-2-wushifen-3-michihata.jpg"/>
+                        </figure>
+                        <figure rend="full" xml:id="JS_reconstruction_whole_RGB_final_version.jpg" n="figure">
+                            <head xml:lang="zh">根據現存拓本和金石文獻復原的尖山刻經分佈圖。項目研究組製作</head>
+                            <head xml:lang="en">Reconstruction of the original layout of Mount
+                                Jian’s inscriptions according to available information in epigraphic
+                                literature and extant rubbings; made by RG</head>
+                            <head/>
+                            <graphic url="JS_reconstruction_whole_RGB_final_version.jpg"/>
+                        </figure>
+                        <p>Two scholars who actually went to the site were Dong Chun <foreign xml:lang="zh">董純</foreign> and Ma Xingyi <foreign xml:lang="zh">馬星翼</foreign>, who compiled their <hi rend="italic">Draft Gazetteer
+                                of Zou County</hi> (<hi rend="italic">Zouxian zhi gao</hi>
+                            <foreign xml:lang="zh">鄒縣誌稿</foreign>) in 1834. This draft was never printed,
+                            but it is assumed that Qian Tai <foreign xml:lang="zh">錢枱</foreign>
+                            quoted from it in his <hi rend="italic">Sequel to the Gazetteer of Zou
+                                County: Epigraphy</hi> (<hi rend="italic">Zouxian jinshi
+                                xuzhi</hi>
+                            <foreign xml:lang="zh">鄒縣金石續誌</foreign>).<note>
+                                <ref type="biblio" target="LaiFei2007">93</ref>. </note> In addition
+                            to the inscriptions at Pot Stand Rocks, Qian Tai lists nine
+                            inscriptions, which he divides into three sections. The first section
+                            comprises JS 3, JS 4, JS 5, JS 6, and JS 7; the second only JS 8; the
+                            last section consists of JS 10, JS 11, and JS 12.<note>
+                                <ref type="biblio" target="Zouxianjinshixuzhi"><!--3, 26:-->135–136</ref>.</note>
+                        </p>
+                        <p>In 1839 Li Zuoxian <foreign xml:lang="zh">李佐賢</foreign> (1807–1876) also
+                            went to Mount Jian. His <hi rend="italic">Colophons to Epigraphica from
+                                the Stone Well Studio</hi> (<hi rend="italic">Shiquan shuwu jinshi
+                                tiba</hi>
+                            <foreign xml:lang="zh">石泉書屋金石題跋</foreign>) describe how his
+                            friend, Meng Yushan <foreign xml:lang="zh">孟雨山</foreign> (Meng Guangjun
+                                <foreign xml:lang="zh">孟廣均</foreign>; 1800–1870), introduced him to
+                            the site, and how they “touched the rock to distinguish characters and
+                            then recorded the text <foreign xml:lang="zh">捫石辨字録其文</foreign>.”<note>
+                                <ref type="biblio" target="SQSW"><!--2, 19: -->14193–14194</ref>.</note> Li <hi rend="nh">Zuoxian</hi> said that the inscriptions were arranged in four
+                            sections. His first section differs from that of Qian Tai’s by the
+                            omission of JS 3. His second section contains JS 8, JS 10, and JS 11,
+                            and for the third section he gives only JS 12. He says that quarry
+                            workers had already destroyed the texts in the fourth section. When
+                            comparing his findings with those of Ruan Yuan, he points out several
+                            errors, but excuses these on account of the incomplete rubbings on which
+                            Ruan Yuan had to rely. Furthermore, he regrets that two of the
+                            inscriptions listed by Ruan Yuan are no longer to be seen on the rock,
+                            and he expresses his wish to preserve the inscriptions by recording them
+                            for future generations.</p>
+                        <figure rend="center" xml:id="Huang_Yi_Jianshan.jpg" n="figure">
+                            <head xml:lang="zh">黄易（1744－1802），《尖山圖》，紙本墨色；<!--圖片來源：-->選自《岱麓訪碑圖》，1797年。北京故宫博物院藏品</head>
+                            <head xml:lang="en">Huang Yi (1744–1802), Sketch of Mount Jian. Ink on
+                                paper.<?lb?> From the album <hi rend="italic">Illustrations of
+                                    Enquiries into Stelae Around Mount Dai</hi>. Dated 1797. Palace
+                                Museum, Beijing </head>
+                            <graphic url="Huang_Yi_Jianshan.jpg"/>
+                        </figure>
+                        <p>Another account on Mount Jian is the <hi rend="italic">Epigraphic Records
+                                of Shandong</hi> by Sun Baotian. This work dedicates a separate
+                            entry, subdivided into <hi rend="nh">heading</hi>, transcriptions,
+                            measurements, and commentary, to each inscription.<note>
+                                <ref type="biblio" target="Shandongjinshizhi"><!--2, 12:-->9246–9248</ref>.</note> Remarkably, Sun arranged
+                            the characters on the printed page according to their actual layout on
+                            the rock or in rubbings. He noted column breaks, spaces between
+                            characters, and the exact position of single characters in relation to
+                            the neighboring column. However, the information he provides on the
+                            inscriptions’ relative position to each other is too sparse to be used
+                            for a reconstruction of the overall layout.</p>
+                        <p>Sometime between 1941 and 1943, the Japanese scholar Michihata <foreign xml:lang="ja">Ryōshū</foreign><!--<foreign xml:lang="zh">道端良秀</foreign> --> visited
+                            Mount Jian.<note>
+                                <ref type="biblio" target="Kiyohara1991">201</ref>.</note> In 1972, he published an account of his travels
+                            in Shandong, <title>
+                                <hi rend="italic">Stone Buddhas and Stone Sutras in
+                                    China</hi>
+                            </title> (<foreign xml:lang="ja">
+                                <hi rend="italic">Chūgoku no sekibutsu to sekkyō </hi>
+                                <foreign xml:lang="zh">中国の石仏と石經</foreign>)</foreign>. Modern authors have used
+                            Michihata’s photographs and his description of Mount Jian<note>
+                                <ref type="biblio" target="Michihata1972">29–34</ref>.</note> as a
+                            reliable source in their reconstructions of the inscriptions and of the
+                            original layout (fig. <ptr target="Version-2-wushifen-3-michihata.jpg"/>). </p>
+                        <p>Only in 1990 was research on the now demolished inscriptions taken up
+                            again, when Wang Jun <foreign xml:lang="zh">王鈞</foreign> and A Tao
+                                <foreign xml:lang="zh">阿濤</foreign> published Mount Jian as one of
+                            the celebrated Four Mountains in Zoucheng with calligraphic
+                                    inscriptions.<note>
+                                <ref type="biblio" target="Wang_A1990">1–34</ref>.</note> In the first volume of <title>
+                                <hi rend="italic">Research on the Sutras Engraved on Polished Cliffs
+                                    of the Northern Dynasties</hi> (<hi rend="italic">Beichao moya
+                                    ke­jing yanjiu </hi>
+                                <foreign xml:lang="zh">北朝摩崖刻經研究</foreign>)</title> of 1991, Wang Sili <foreign xml:lang="zh">王思禮</foreign> and Lai Fei <foreign xml:lang="zh">賴非</foreign>,<note>
+                                <ref type="biblio" target="Wang_Lai1991a">13–16.</ref>
+                            </note> as well as Hu Xinli <foreign xml:lang="zh">胡新立</foreign>,<note>
+                                <ref type="biblio" target="HuXinli1991">252–255</ref>. </note> attempted to reconstruct the
+                            inscriptions by comparing extant rubbings with earlier epigraphic
+                            records. Kiyohara Sanekado <foreign xml:lang="zh">清原実門</foreign> also
+                            made a list of the inscriptions originally carved at Mount
+                                    Jian.<note>
+                                <ref type="biblio" target="Kiyohara1991">201–206</ref>.</note> For his reconstruction, he drew on the
+                            work of Ruan Yuan, Li Zuoxian, Sun Baotian, and Qian Tai, and also that
+                            of Michihata. In the second volume of <hi rend="italic">Research on the
+                                Sutras Engraved on Polished Cliffs of the Northern Dynasties</hi> of
+                            2003, Mount Jian is mentioned in various discussions on the monk
+                            calligrapher, Seng’an Daoyi. The latest reconstruction was undertaken by
+                            Lai Fei in 2007. He provides a plan of the inscriptions’ distribution
+                            across the rock surface and explains in detail where he places them. In
+                            this reconstruction, the inscriptions are represented by photographs of
+                            the rubbings, but without notes of what was already damaged or lost when
+                            the rubbings were made.<note>
+                                <ref type="biblio" target="LaiFei2007">99–101</ref>.</note>
+                        </p>
+                        <p>The reconstruction offered here (fig. <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>) is based
+                            on two sets of rubbings from the Shandong Museum (Shandong bowuguan
+                                <foreign xml:lang="zh">山東博物館</foreign>) in Jinan, and one set of
+                            rubbings from the Municipal Museum of Tai’an (Tai’an Shi bowuguan
+                                <foreign xml:lang="zh">泰安市博物館</foreign>). Notes, measurements and
+                            transcriptions of all three sets were made for the present publication,
+                            but only those in the museum in Jinan were photographed. The information
+                            thus obtained was supplemented by several rubbings already published by
+                            Wang Jun and A Tao in 1990 and the <hi rend="italic">Compendium of
+                                Sutras Engraved on Polished Cliffs of the Northern Dynasties in
+                                Shandong</hi> (<hi rend="italic">Shandong Beichao moya kejing
+                                quanji</hi>
+                            <foreign xml:lang="zh">山東北朝摩崖刻經全集</foreign>) of
+                                    1992.<note>
+                                <ref type="biblio" target="SD_BCMykj1992"/>.</note>
+                        </p>
+                        <p>Unlike most other reconstructions, ours takes the actual size of the
+                            rubbings into account and reproduces them to scale. The sizes of the
+                            characters are also adjusted to scale, based on the measurements taken
+                            from extant rubbings. Images of rubbings of a total of twelve
+                            inscriptions are given, with characters supplied in unicode where the
+                            rubbings are incomplete. Since no rubbings of JS 2 and JS 14 have
+                            survived, these could only be transcribed without information on
+                            measurements. In the case of the sutra passages JS 6 and JS 12, rubbings
+                            were taken only of single characters and not of the entire inscription.
+                            The rubbings have been arranged according to the original text, which is
+                            known. Because many characters appear more than once in the relevant
+                            text passages, the exact position of each rubbing can no longer be
+                            determined. While, except for one, all rubbings of the characters for JS
+                            12 are preserved, many are missing for JS 6. These have been added in
+                            unicode transcription.</p>
+                        <p>Before arranging rubbings and transcriptions, the overall size of the
+                            rock surface had to be determined. Measurements of the total area were
+                            given by Michihata, Hu Xinli and Lai Fei, respectively, but only
+                            Michihata had been able to measure in the field when the inscriptions
+                            were still intact. Therefore, his measurements have been accepted as
+                            being the most accurate. Moreover, calculations of the approximate
+                            length and width of the extant rubbings, as well as of the few available
+                            data on distances between inscriptions, have led us to believe that
+                            Michihata’s measurements of the total area, with a length of 40 m and a
+                            width of 8 m, are reasonable. </p>
+                        <p>Two measurements of distances between inscriptions have been recorded.
+                            Sun Baotian states that “the inscription ‘<foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>’ (JS 3) is located more than ten steps
+                            above the <hi rend="italic">Sutra on the Wisdom of <foreign xml:lang="sa">Mañjuśrī</foreign>
+                            </hi> (JS 6).”<note>
+                                <foreign xml:lang="zh">“……在鄒縣尖山《文殊般若經》十餘步之上。”</foreign>
+                                <ref type="biblio" target="Shandongjinshizhi"><!--2, 12: -->9247b</ref>.</note>
+                            This equals about seven meters.<note>
+                                <ref target="Kiyohara1991" type="biblio">202</ref>.</note> Michihata, furthermore, reports
+                            that the passage on the Six Perfections taken from the <hi rend="italic">Sutra of the Questions of <foreign xml:lang="sa">Viśeṣacintibrahma</foreign>
+                            </hi> (<hi rend="italic">Siyifantian
+                                suo wen jing </hi>
+                            <foreign xml:lang="zh">思益梵天所問經</foreign>, JS 12)
+                            is located five meters below the “Buddha King of Great Emptiness” (JS
+                                    10).<note>
+                                <ref target="Michihata1972" type="biblio">211</ref>.</note> These distances are adopted in the current
+                            reconstruction (fig. <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>). When
+                            nothing is known about the space between inscriptions, the rubbings have
+                            been distributed evenly across the entire surface. <!--The
+                            relative positioning of the 15 inscriptions that were once located at
+                            Great Buddha Ridge, including a stele from the Guangxu era (1875–1908),
+                            is the result of the evaluation of information presented
+                            in the above mentioned epigraphical sources. A detailed description
+                            of each inscription is given below.-->
+                        </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>The name “Buddha King of Great Emptiness” (JS 10), in four large
+                            characters, is the most conspicuous in the set of inscriptions on Mount
+                            Jian. One sutra title (JS 3) and three sutra passages (JS 6, JS 12 and
+                            JS 16.1) all reproduce text sections that are also found at other
+                            Shandong mountain sites. Thirteen historical inscriptions (JS 1, JS 2,
+                            JS 4, JS 5, JS 7, JS 8, JS 9, JS 11, JS 14, JS 15, JS 16.2, JS 16.3 and
+                            JS 16.4) give names of individuals and some dates.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Buddha Name</head>
+                        <div>
+                            <head>JS 10</head>
+                            <p>The Buddha King of Great Emptiness was clearly important in Shandong
+                                during the Northern Qi dynasty. It occurs fifteen times at ten
+                                mountain sites, including Mount Jian.<note xml:id="occurence_Dakongwangfo">Six examples are on Mount
+                                    Hongding, and one each on Mount Culai, Mount Fenghuang, East
+                                    Mount Shuyuan <foreign xml:lang="zh">書院東山</foreign>, Mount Ergu
+                                        <foreign xml:lang="zh">二鼓山</foreign>, Mount Gang, Mount
+                                    Jian, Mount Tianchi <foreign xml:lang="zh">天池山</foreign>, Mount
+                                    Yuncui <foreign xml:lang="zh">雲翠山</foreign> and Mount Ziyang
+                                        <foreign xml:lang="zh">嵫陽山</foreign>, respectively. Beyond
+                                    Shandong, the name is found twice at Southern Mount Xiangtang,
+                                    Hebei Province.</note> For a more detailed discussion of the
+                                name and its meaning, see <ref type="biblio" target="Shandong_1">82–87</ref>. </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Sutra passages</head>
+                        <div>
+                            <head>JS 3</head>
+                            <p>This is a short inscription of the four characters <hi rend="italic">Wenshu bore </hi>
+                                <foreign xml:lang="zh">文殊般若</foreign>
+                                    (<foreign xml:lang="sa">Mañjuśrī Prajñā</foreign>). As the
+                                Discussion below indicates, authorities have had different views on
+                                where it was placed relative to the sutra text JS 6 below it. <hi rend="italic">Wenshu bore</hi> is generally believed to be the
+                                title of the sutra. If this is correct, the four characters are
+                                either an abbreviated title for the whole text, or
+                                <!--have to be understood as--> a newly created title for the
+                                passage of 98 characters below.<note>For another instance see <ref type="biblio" target="Shandong_2">60,
+                                63–68</ref>.</note>
+                            </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 6</head>
+                            <p>
+                                <anchor xml:id="JS_6_intro_start"/>The passage of 98 characters from
+                                the <hi rend="italic">Sutra on the Great Perfection of Wisdom Spoken
+                                    by <foreign xml:lang="sa">Mañjuśrī</foreign>
+                                </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Sapta­śatikā­prajñā­pāramitā-sūtra</foreign>
+                                </hi>, <hi rend="italic">Wen­shu­shili suo shuo mohe bore boluomi jing
+                                    </hi>
+                                <foreign xml:lang="zh">文殊師利所説摩訶般若波羅蜜經</foreign>) has been
+                                reconstructed from rubbings of sheets of individual characters.
+                                Earlier authorities, including Ruan Yuan, Duan Songling, and Li
+                                Zuoxian, counted varying numbers of characters.</p>
+                            <?pb?>
+                            <p>This passage obviously carried importance for the patrons and carvers
+                                on the mountains in Shandong. It is found twice on Mount Hongding
+                                (HDS 16.2, HDS 22), twice on Mount Yi (at the Summit of the Five
+                                Flowers, Yi 1, and next to the Cave of the Bewitching Fairy, Yi 3)
+                                and once each on Mount Culai (CLS 1), on Mount Shuiniu (SNS 2), and
+                                on Mount Long (LS 1), as well as on a number of stelae at other
+                                    sites.<note>See also below, <ptr type="infrafootnote" target="list98characters"/>.</note> The role of this sutra
+                                in the practice of meditation is discussed in the Introduction to
+                                    <ref type="biblio" target="Shandong_1">34–35</ref>.<anchor xml:id="JS_6_intro_end"/>
+                            </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 12</head>
+                            <p>
+                                <anchor xml:id="JS12_intro"/>Scholars have noted that this passage on
+                                the Six Perfections from the <hi rend="italic">Sutra of the
+                                    Questions of <foreign xml:lang="sa">Viśeṣacintibrahma</foreign>
+                                </hi> had six columns, each
+                                containing 13 characters. As with the previous inscription, our
+                                reconstruction of the passage is based on a set of sheets with
+                                rubbings of individual characters. In the late eighteenth century,
+                                Ruan Yuan recognized that the text belonged to the <hi rend="italic">
+                                    <foreign xml:lang="sa">Pāramitā</foreign>
+                                </hi> group of
+                                sutras. The exact position of the carving, relative to the other
+                                inscriptions, is disputed. The text as well as its <hi rend="nh">layout</hi> are identical with that of the passage on the
+                                damaged stele from Pingyin County (PY 1). For a discussion of this
+                                stele see <ref type="biblio" target="Shandong_1">452–458</ref>.</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 16.1</head>
+                            <p>
+                                <anchor xml:id="JS_VerseImpermanence"/>A famous four-line gatha verse
+                                is on Pot Stand Rocks. It is the <hi rend="italic">Verse of
+                                    Impermanence of All Conditioned Phenomena</hi> (<hi rend="italic">Zhuxing wuchang ji</hi>
+                                <foreign xml:lang="zh">諸行無常偈</foreign>), which is found in three recensions of the
+                                        <title>
+                                    <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi>
+                                </title> (<title>
+                                    <hi rend="italic">Da boniepan jing </hi>
+                                    <foreign xml:lang="zh">大般涅槃經</foreign>
+                                </title>), namely in the translation by
+                                Faxian <foreign xml:lang="zh">法顯</foreign> (ca. 337–442),<note>T#7,
+                                    1: 204c23–24.</note> in the sutra’s Northern Edition, translated
+                                by <foreign xml:lang="sa">Dharmakṣema</foreign>
+                                <foreign xml:lang="zh">曇無讖</foreign> (385–433 or 436),<note>T#374, 12:
+                                    450a16, 451a1.</note> and in the Southern Edition, revised by
+                                    <foreign xml:lang="sa">Jñānabhadra</foreign>
+                                <foreign xml:lang="zh">慧嚴</foreign> (363–443), Huiguan <foreign xml:lang="zh">慧觀</foreign> (383–453), and Xie Lingyun <foreign xml:lang="zh">謝靈運</foreign> (385–433).<note>T#375, 12: 692a13,
+                                    693a1.</note> This verse of the <hi rend="italic">Nirvana
+                                    Sutra</hi> was often cut into stone. </p>
+                            <figure rend="left" xml:id="Nirvana_gatha_Chengdu.jpg" n="figure">
+                                <head xml:lang="zh">茂縣南齊永明元年（483）無量壽佛像碑左側局部，<?cb?>四川博物院藏品。2016年拍攝</head>
+                                <head>Detail of the stele dated 483. Unearthed in Maoxian, Sichuan;
+                                    Sichuan Museum <foreign xml:lang="zh">四川博物院</foreign>, Chengdu.
+                                    Photograph taken in 2016</head>
+                                <graphic url="Nirvana_gatha_Chengdu.jpg"/>
+                            </figure>
+                            <p>In 555, two decades before this verse was carved at Mount Jian, the
+                                eminent meditation master, Sengchou <foreign xml:lang="zh">僧稠</foreign> (480–560), had started to refurbish the middle
+                                cave at Xiaonanhai <foreign xml:lang="zh">小南海</foreign> near Anyang
+                                    <foreign xml:lang="zh">安陽</foreign> in today’s Henan Province.
+                                The interior of this small cave, originally created for meditation,
+                                but subsequently dedicated as Sengchou’s memorial cave, is richly
+                                decorated with fine relief carvings. On the left side of the rear
+                                wall, opposite Sengchou’s donor portrait to the right of Buddha
+                                Vairocana, a series of pictorial scenes sets out the story of the
+                                transmission of the <hi rend="italic">Verse of Impermanence of All
+                                    Conditioned Phenomena</hi> as told in the <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign>
+                                Sutra</hi>:</p>
+                            <p>To test the resolve of a meditating ascetic, the god Indra had turned
+                                into a flesh-eating demon and recited the first part of the verse.
+                                The ascetic vowed to sacrifice his life in return for hearing the
+                                second part. After receiving the entire gatha, “he wrote this verse
+                                everywhere, on stone, on walls, on trees, and on roads.”<note>T#374,
+                                    12: 452a5–6: <foreign xml:lang="zh">“然後處處，若石、若壁、若樹、若道，書寫此偈。”</foreign>
+                                </note> Then he climbed a
+                                high tree from which he threw himself. When he saw the ascetic’s
+                                unwavering commitment to awakening, the god Indra transformed
+                                himself back into his heavenly manifestation and caught the
+                                bodhisattva in mid-air. The words of the verse itself are cut in
+                                cartouches accompanying the pictorial scenes.<note xml:id="Xiaonanhai_Lit">For a description of the pictorial
+                                    scenes and transcriptions of the cartouches, see <ref type="biblio" target="YenChuanying1998">383–385</ref>; for
+                                    their English translation and a comparison with the same
+                                    pictorial scenes on the Tamamushi <foreign xml:lang="zh">玉蟲厨子</foreign> shrine at <foreign xml:lang="ja">Horyūji
+                                        </foreign>
+                                    <foreign xml:lang="zh">法隆寺</foreign> in Nara
+                                        <foreign xml:lang="zh">奈良</foreign>, and a mural in cave 285
+                                    in Dunhuang <foreign xml:lang="zh">敦煌</foreign>, see <ref type="biblio" target="Hsu1999">46–52</ref>; for a German
+                                    translation of the cartouches see <ref type="biblio" target="Wenzel2007b">136–137</ref>; for the relationship of
+                                    the motif of sacrificing one’s body and the carving of the
+                                    excerpt from the <hi rend="italic">Nirvana Sutra</hi> on the
+                                    facade of the middle cave, see <ref type="biblio" target="Hsu2011">308</ref>. For a discussion and German
+                                    translation of Sengchou’s biography as contained in the <hi rend="italic">Sequel to the Biographies of Eminent
+                                        Monks</hi> (<hi rend="italic">Xu gaoseng zhuan </hi>
+                                    <foreign xml:lang="zh">續高僧傳</foreign>), and of the texts on the
+                                    Dunhuang manuscript P. 3559 attributed to him, see <ref type="biblio" target="Anderl1995"/>.</note>
+                            </p>
+                            <p>At an earlier date, this <hi rend="italic">Verse of Impermanence of
+                                    All Conditioned Phenomena</hi> was also cut into the rock in
+                                Shandong, at Yellow Stone Cliff.<note>See below, p. <ptr type="infra" target="HSY_VerseImpermanence_start HSY_VerseImpermanence_end"/>.</note> The story of the steadfast ascetic obtaining the
+                                salvific verse was popular in other parts of China as well. One of
+                                the earliest stone cut versions is a stele unearthed in 1921 in
+                                Bazhong Village Stronghold <foreign xml:lang="zh">壩中村寨</foreign> in
+                                Mao County <foreign xml:lang="zh">茂縣</foreign>, dated to 483, the
+                                first year of the <hi rend="italic">yongming </hi>
+                                <foreign xml:lang="zh">永明</foreign> era of the Southern Qi <foreign xml:lang="zh">南齊</foreign> dynasty (479–502). The somewhat crude
+                                characters of the verse are carved next to a figure, probably the
+                                ascetic, standing in a mountainous landscape (fig. <ptr target="Nirvana_gatha_Chengdu.jpg"/>).<anchor xml:id="JS_VerseImpermanence_end"/>
+                            </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical inscriptions</head>
+                        <div>
+                            <head>JS 1</head>
+                            <p>The brief inscription consists only of the name “Renunciant Seng’an
+                                Daoyi”. This renowned calligrapher monk appears in many carved
+                                inscriptions in Shandong.<note>List in <ref type="biblio" target="Kiriya2003a">50–55</ref>.</note> His contribution to
+                                the texts on the Shandong mountains is discussed in the introduction
+                                to <ref type="biblio" target="Shandong_1">36, 38, 42, 46</ref>. An
+                                early reading of the name by Duan Songling as an individual with the
+                                surname An and the title, <hi rend="italic">seng </hi>
+                                <foreign xml:lang="zh">僧</foreign>, has led to a variety of
+                                interpretations of the monk’s name<!-- of the monk-->.<note>See <ref type="biblio" target="Shandong_1">81, 116–117, 143–144,
+                                        254</ref>; <ref type="biblio" target="Shandong_2">102</ref>.
+                                </note>
+                            </p>
+                            <p>Wu Shifen erroneously records that the inscription was in four
+                                columns rather than three.</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 2</head>
+                            <p>The date, given in this inscription as the sixth year of the <hi rend="italic">wuping</hi> era of the Northern Qi dynasty,
+                                equivalent to 575, is essential for understanding the site.
+                                Michihata, the only authority to record this inscription, writes
+                                that it was placed to the right of JS 3, the four characters <hi rend="italic">Wenshu bore </hi>
+                                <foreign xml:lang="zh">文殊般若</foreign>. Kiyohara considers this to be a mistake for
+                                another colophon dated to the sixth year of the <hi rend="italic">wuping</hi> era further down the central axis (JS 7). The
+                                colophon JS 2 is much shorter than JS 7, and has two characters
+                                (“Great Qi [dynasty] <foreign xml:lang="zh">大齊</foreign>”), which
+                                are not seen in JS 7. Therefore, we think that JS 2 and JS 7 are
+                                indeed two different inscriptions, both with the same date. See fig.
+                                    <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>,
+                                for their presumed relative positions. </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 4</head>
+                            <p>
+                                <anchor xml:id="JS4"/>The colophon, placed to the right of the sutra
+                                passage of 98 characters, JS 6, contains information on the
+                                calligrapher, Seng’an Daoyi, and the donor, Wei Zishen, a descendent
+                                of a Great Minister of the Han dynasty, Wei Xian, as well as a date
+                                equivalent to June 24, 575 (first day of the sixth month of the
+                                sixth year of the <hi rend="italic">wuping</hi> era). The wife and
+                                children of Wei Zishen are also mentioned. Ruan Yuan paid particular
+                                attention to the historical aspects of the inscription, both here
+                                and elsewhere.</p>
+                            <p>Kiyohara proposed changing the reading of Wei Zishen, “descendant in
+                                the nineteenth generation” of the Great Minister of the Han, to
+                                “descendant in the seventeenth generation” on the basis of the
+                                wording of another colophon by Wei Zishen, JS 11 (see
+                                        below).<note>
+                                    <ref target="Kiyohara1991" type="biblio">204</ref>.</note>
+                            </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 5</head>
+                            <p>Different interpretations of this colophon are given by various
+                                authorities. In the reconstructions (figs. <ptr target="Version-2-wushifen-3-michihata.jpg"/> and <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>), it is
+                                placed between JS 4 and JS 6. It names Xu Faxian as a donor, who is
+                                sometimes thought to be the wife of Wei Zishen (see JS 4).</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 7</head>
+                            <p>The twenty-fifth day of the fourth month of the sixth year of the <hi rend="italic">wuping</hi> era (May 20, 575) is mentioned in this
+                                colophon. In our reconstruction, the colophon has two columns. Some
+                                authorities have previously cited it as having one column or,
+                                indeed, as part of another inscription (see Discussion, pp. <ptr type="infra" target="lizuoxian kiyohara"/>). Wu Shifen, Li
+                                Zuoxian, and Qian Tai agree that this inscription was placed to the
+                                left of JS 6 (fig. <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>). Wu
+                                Shifen records five characters in the first column, which are not
+                                visible on the rubbing that we have today.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 8</head>
+                            <p>This inscription gives the names of several donors. At the head of
+                                every column is the title, Sutra Donor (<hi rend="italic">jingzhu
+                                    </hi>
+                                <foreign xml:lang="zh">經主</foreign>). The first
+                                identification of the donor Lady Zhao, as the wife of Tang Yong, was
+                                made by Ruan Yuan. This was a significant step in understanding
+                                links between the Shandong inscriptions and the sutras carved during
+                                a similar period at Northern Mount Xiangtang, where Tang Yong is
+                                named as donor. Some efforts have been made to identify in
+                                historical records the other donors listed in the colophon, namely
+                                Chen Dexin<!-- <foreign xml:lang="zh">陳德信</foreign>--> and Chen
+                                        Demao<!-- <foreign xml:lang="zh">陳德茂</foreign>-->.<note>
+                                    <ref type="biblio" target="LiYuqun1997">449</ref>; <ref target="LaiFei2003a" type="biblio">113–114</ref>.</note>
+                            </p>
+                            <p>Authorities have differed as to whether there were three or four
+                                columns. The rubbings seem to indicate that there were four.</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 9</head>
+                            <p>The colophon by Nun (<foreign xml:lang="sa">
+                                    <hi rend="italic">bhikṣuṇī</hi>
+                                </foreign>) Famen <foreign xml:lang="zh">法門</foreign> and others is placed next to JS 10, the Buddha
+                                King of Great Emptiness inscription, in our reconstruction (fig.
+                                    <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>).
+                                Others have suggested alternative positions.</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 11</head>
+                            <p>
+                                <anchor xml:id="JS11"/>The colophon gives dedications by Renunciant
+                                Seng’an Daoyi, as well as by Wei Qinzhi and Wei Fu’er. It thus
+                                establishes Seng’an Daoyi’s involvement with the sutra carving on
+                                Mount Jian and throws light on his social connections. The names Wei
+                                Qinzhi and Wei Fu’er link the inscription to JS 4, as the two are
+                                thought to be the sons of Wei Zishen. They are called “descendants
+                                in the eighteenth generation of the Great Minister of the Han” in
+                                the colophon, yet their father, Wei Zishen, is called “descendant in
+                                the nineteenth generation of Wei Xian” in JS 4.<!--</p>
+                            <p>--> To solve this obvious
+                                contradiction, Kiyohara proposes that the characters for “nineteen”
+                                    (<hi rend="italic">shijiu </hi>
+                                <foreign xml:lang="zh">十九</foreign>), which are clearly seen on the rubbing of JS 4,
+                                are a misreading, and should be changed to “seventeen” (<hi rend="italic">shiqi </hi>
+                                <foreign xml:lang="zh">十七</foreign>).<note>
+                                    <ref target="Kiyohara1991" type="biblio">204</ref>.</note> On the other hand, Hu Xinli
+                                prefers to change the reading from “Wei Fu’er and Wei Qinzhi,
+                                descendants in the eighteenth generation” to “descendants in the <hi rend="nh">twentieth</hi> generation.”<note>
+                                    <ref target="HuXinli1991" type="biblio">253–254</ref>.</note>
+                                However, a misreading of the Chinese characters “nineteen” for
+                                “seventeen” in JS 4 is more convincing. </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 13</head>
+                            <p>The lost stele from the <hi rend="italic">Guangxu</hi> era
+                                (1875–1908), with a prohibition to quarry stones, is only mentioned
+                                by Michihata, who placed it below JS 12, and above the fragments of
+                                JS 15, another colophon by Wei Zishen and others. The stele is seen
+                                on the old photograph taken by Michihata (fig. <ptr target="JS_r_total_Bild-1.jpg"/>). Lai Fei reconstructed the
+                                text of the stele according to an interview with a village
+                                        elder.<note>
+                                    <ref target="LaiFei2007" type="biblio">93</ref>.
+                                </note>
+                            </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 14</head>
+                            <p>No rubbing of this colophon by a sutra donor, Xu Shi <foreign xml:lang="zh">徐時</foreign>, has survived; it is mentioned only
+                                in epigraphic records. According to Ruan Yuan and Wu Shifen, the
+                                inscription had three columns. The transcription given by Ruan Yuan,
+                                however, implies that the last two columns actually belong to JS 15.
+                                Wu Shifen treated JS 14 and JS 15 as two separate inscriptions,
+                                noting for the “Colophon by Donor of Sutras, Xu Shi” that it had a
+                                total of three columns.</p>
+                            <p>Michihata does not mention this inscription, but only JS 15 in three
+                                columns. Since he could not transcribe the three columns of JS 15
+                                completely, it is not clear whether the first column follows Ruan
+                                Yuan’s transcription or not. Yet it is hard to read Ruan Yuan’s
+                                “Colophon by Donor of Sutras, Xu Shi” as a mistake for “Donor of
+                                Sutras, Cavalry Great [General] .....” Therefore, our reconstruction
+                                (fig. <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>)
+                                distinguishes between JS 14 and JS 15 and assigns three columns to
+                                JS 14, on the basis of Wu Shifen’s description.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 15</head>
+                            <p>The colophon names Wei Zi[shen], and two unknown men with military
+                                titles.<!--[Wei] Fu’er, and a third person, probably Wei Qinzhi-->
+                                The inscription is thought to have been placed below JS 13 (see fig.
+                                    <ptr target="JS_reconstruction_whole_RGB_final_version.jpg"/>).
+                                Only rubbing A shows all three columns of this colophon on one sheet
+                                of paper; all other rubbings have separated the first two and the
+                                last column. </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 16.2</head>
+                            <p>The colophon, which can be reconstructed as naming Wei Pingzhen
+                                    <foreign xml:lang="zh">韋平振</foreign> and Wei Yuwei <foreign xml:lang="zh">韋玉爲</foreign>, was originally placed next to the
+                                inscription of the <hi rend="italic">Verse of Impermanence of All
+                                    Conditioned Phenomena</hi> on Pot Stand Rocks (JS 16.1). This
+                                position has been identified on the basis of a rubbing in the
+                                Shandong Museum in Jinan (fig. <ptr target="JS_16.2.jpg"/>) that
+                                shows the third and fourth columns of JS 16.1 on the right and the
+                                second column of JS 16.2 on the left. </p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 16.3</head>
+                            <p>Two rubbings in the Shandong Museum show that another colophon was
+                                placed directly below the first column of JS 16.1. Only the
+                                character <hi rend="italic">zhu </hi>
+                                <foreign xml:lang="zh">朱</foreign> has survived (fig. <ptr target="JS_16.3.jpg"/>). It
+                                is taken to be a surname.</p>
+                            <ab>
+                                <abbr>LL</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>JS 16.4</head>
+                            <p>Among traditional epigraphers, only Wu Shifen mentions this
+                                inscription on the Pot Stand Rocks. In contrast with the surviving
+                                rubbing, which shows four characters (fig. <ptr target="JS_16.4.jpg"/>), he transcribes only three. He seems to have merged the second
+                                character <hi rend="italic">ji </hi>
+                                <foreign xml:lang="zh">吉</foreign> with the third, <hi rend="italic">liao
+                                    </hi>
+                                <foreign xml:lang="zh">了</foreign>, into one character,
+                                reading <hi rend="italic">heng </hi>
+                                <foreign xml:lang="zh">亨</foreign>.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Style of Calligraphy</head>
+                        <p>The style of calligraphy is similar to that of the stone inscription in
+                            Stone Sutra Valley at Mount Tai, but it appears slightly more
+                                lively.<anchor xml:id="JS_end"/>
+                        </p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <back/>
+    </text>
+</TEI>

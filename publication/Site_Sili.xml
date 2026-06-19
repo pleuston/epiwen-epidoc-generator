@@ -1,0 +1,991 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the Site of Silishan</title>
+            </titleStmt>
+            <publicationStmt>
+
+                <seriesStmt>
+                    <!-- Titel und Kürzel des Bandes in @n -->
+                    <title n="shandong_volume1" xml:lang="en">Shandong Volume 1</title>
+                    <title n="shandong_volume1" xml:lang="zh">山東省第一卷</title>
+                    <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                    <biblScope unit="chapter" n="8"/>
+                </seriesStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>31.03.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Korrekturen der Markette eingearbeitet</item>
+            </change>
+            <change>
+                <date>08.05.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Korrekturen, SZ,</item>
+            </change>
+            <change>
+                <date>24.08.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>"Inscriptions" neu geordnet</item>
+            </change>
+            <change>
+                <date>07.11.2011</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Korrekturen der Markette eingearbeitet</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_Sili">
+        <body>
+            <div xml:lang="zh">
+                <head xml:lang="zh">司里山</head>
+                <figure rend="full" xml:id="SL_sc_IMG_3258.jpg">
+                    <head>Mount Sili’s main outcrop with the giant Buddha, photograph taken in
+                        2006</head>
+                    <head xml:lang="zh">司里山主岩巨佛造像，2006年照片</head>
+                    <graphic url="SL_sc_IMG_3258.jpg"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>司里山由一組從黃河沖積土層中露頭的基岩形成。在被黃河淤積隔斷之前，它是魯中山脈的一部分。
+                            司里山位於東平湖西岸、東平縣城西北31公里、梁山縣北23公里、聊城市東南偏南51公里處（見封二地圖）。
+                            山體南北縱向長約0.8公里，東西横向寬約0.5公里。山頂海拔約110米。</p>
+                        <p>到目前為止，司里山摩崖上幾乎沒有現代人工痕跡，附近有一座廣播塔、一間小屋和一座現代寺廟。司里山的地理位置是東經116.1241度，
+                            北緯36.0112度，相當於UTM坐標系統第50S帶，東行421070，北行3985550。</p>
+                        <p>司里山石刻主要面向東方。附近的銀山石刻在司里山西北偏北6公里處。在司里山上可以看到銀山，但銀山石刻卻不在視線之內。
+                                東北方11.9公里的洪頂山，與司里山隔東平湖相對（地圖，<ptr target="Map_2_Dongping_2013_01_29.jpg"/>）。在司里山上可以看到洪頂山，可是不能看到山谷內摩崖石刻。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>司里山腳下，一巨岩横臥在通往山上的道路旁。岩上有一座人工洞窟，窟內的空間可容一至二人（<ptr target="SL_sc_meditation_cave_CIMG6881.JPG"/>）。洞窟內壁
+                            一側可以看到一座雕像的模糊輪廓，另一內壁有一些刮痕，
+                            很難確定石窟是未曾完工還是遭受了嚴重的風蝕。類似規模和形制的洞窟，也見於其他許多石窟寺，它們通常被當作禪修之所。多數洞窟內壁空無一物，只作為僧人禪修或休眠之所。
+                            不過，少數石窟也裝飾有雕像，最精緻的一例是安陽小南海的中窟，由僧稠（480-560）在公元555年至560年之間完成，作為他禪修之地。這座司里山腳下的
+                            小型石窟也很可能是僧人的禪修之地和簡單的住所。</p>
+                        <p>接近山巔的一塊岩石上刻有成排的小佛坐像，岩石高3.1米，其上豎立一木杆（<ptr target="SL_sc__2700.JPG"/>），我們稱此巨石為下南岩。近日，清除這塊巨石下的土壤後，另一排佛像顯露出來。其中三尊佛像旁刻有佛名，即羅睺佛、寳德佛和喜明佛，皆出自
+                                《佛說佛名經》（T＃441，14:299b3-4和300a21）。<note>張總於2012年到司里山現場，並提供了這一發現的消息。</note>
+                                在下南岩背後，山地繼續抬升數米，至山頂台地。台地上有兩塊11米高的巨岩，這兩塊岩石從形狀上看，像是由一塊巨岩分割而成，東半部略大於西半部，根據它們的位置，我們分別稱為上西岩和上東岩（<ptr target="SL_sc_IMG_3258.jpg"/>）。</p>
+                        <p>上西岩和上東岩這兩個部分被一道峽谷似的裂縫分開數米（<ptr target="SL_sc_UWOe_CIMG6731.JPG"/>）。
+                                岩石的西、南和東側，各有幾組佛像。上西岩南側，遠遠可以看到一個大佛坐像及其二脅侍菩薩的殘跡（<ptr target="SL_sc_IMG_3258.jpg"/>）。在上西岩前的台地上，下南岩與大佛之間，有一個中等大小的現代寺廟。</p>
+                        <p>在上東岩之前的石地上，有幾排柱洞遺跡，證明此處曾有木結構建築。在上西岩和上東岩的平頂上可以找到更多柱洞，形製各異，或圓或方（<ptr target="SL_sc_hole_3210.jpg"/>）。在這兩塊岩石靠近間隙的岩面上有溝道遺跡，可能是用來支撑那些連接這兩塊巨石的木板（<ptr target="SL_sc_hole_3211.JPG"/>）。
+                            毫無疑問，曾有更多的木構建築建造在高聳的巨石之上。很可能整個司里山頂，從下南岩開始，經過現代寺廟，接著沿上西岩西側拾階而上到達山頂，以及大佛頭頂上方上東岩頂沿線都曾有建築。</p>
+                        <p>上西岩南面和東面幾乎佈滿佛龕。許多題記具有紀年，因此可清楚地知道，南側佛龕主要在武則天時期（625-705）鑿成，而東側佛龕除了一個紀年在公元713年之外，
+                                其他佛龕都修復於北宋嘉祐年間（1056-1064；<ptr target="SL_scu_UWOe_IMG_2822.JPG"/>）。</p>
+                        <p>上東岩南側之左是前面提到的三座巨大佛像，其右是大大小小的佛龕。岩石下部是已知最早的三教合一<note>趙洲<ref target="ZhaoZhou2010b" type="biblio"/>。趙洲在其博士論文中探討了四川與重慶地區以三教合一為題材的石刻造像在此後的演變。 </note> 造像<hi rend="dash">──</hi>老子、釋迦牟尼和孔子的石刻（<ptr target="SL_scu_UEOs_part_3245.JPG"/>），石刻題記紀年為公元1057年（嘉祐二年），其中載有“三教通連/箇箇真見……”。
+                            在這個佛龕之上是整個司里山最早的題銘，其紀年在公元561年（北齊皇建二年）。</p>
+                        <figure rend="center" n="map" xml:id="Map_6_Silishan_Level3.jpg">
+                            <head>Map of the inscription site Mount Sili</head>
+                            <head xml:lang="zh">司里山遺址地圖</head>
+                            <graphic url="Map_6_Silishan_Level3.jpg"/>
+                        </figure>
+                        <p>沿逆時針方向繞上東岩行至東側崖壁，崖壁中央有一個九尊像大龕，五尊立像，四尊坐像（<ptr target="SL_scu_UEOe_total_DSCF0018.JPG"/>）。<note>周郢<ref type="biblio" target="ZhouYing2011"/>認為，此九尊雕像為《水滸傳》中的英雄人物。
+                            </note>上東岩的摩崖北面，即岩石背面，空無一物，西面即靠裂縫的一側，大部分由造像龕所覆蓋。</p>
+                        <p>上東岩東側九尊像大龕之前，有一向下傾斜的坡地。此處一塊被命名為下東岩的崖面横向探出數米。其上刊刻有一佛龕和《大般涅槃經》 節文（<ptr target="SL_sc_4_total_3664-2.JPG"/>）。</p>
+                        <p>司里山有四處題刻應早於武則天（625-705，690-705年在位）時期的願文，它們是該刻經點最初布局的一部分，展示了公元6世紀後半期的刻經文字（地圖，<ptr target="Map_6_Silishan_Level3.jpg"/>）。</p>
+                        <p>第一處（司里山1號）僅保存有三個字，在上東岩南側，公元561年題記之右，三教石龕之上（<ptr target="Sili_inscript_231.tif"/>）。石刻的原始高度和寬度，已不復可知。
+                            公元561年的題刻及其所屬石龕，毁壞了該石刻的左半部；公元1064年和1066年題刻則可能破壞了其
+                            右半部。正下方有開鑿於公元1057年的三教石龕，
+                            深入岩面約20釐米，因此任何可能原屬於1號題刻的横排文字也不復存留。然而，現存三個字的上方有一塊未經人工斧鑿的岩石，應為原刻文的上界，由此可以確定這三個字是原文的最頂行。</p>
+                        <p>第二處（司里山2號）即公元561年的題銘，破壞了其右側的佛經節文（<ptr target="SL_r_colophon_561_total_2522.jpg"/>）。
+                            這不僅是司里山最早的有明確紀年的刻文，而且給緊鄰的司里山1號提供了斷代參考。</p>
+                        <p>第三處（司里山3號）《小品般若波羅密經》節文九行（現存前三字）在上東岩東側頂端 （<ptr target="SL_r_xiaopinbore_part_DSCF0090.JPG"/>）。刻文下方，為千佛式的横排佛像及九尊像巨龕所破壞。因此原始石刻高度無法確定。
+                            2003年田熊信之試圖復原刻經，推測每行為九個字，結果顯示，原始刻經應該下至現存九尊像大龕約一半的位置。假如這個復原正確，左側刻經原文第一行也被旁邊的坐佛所破壞。</p>
+                        <p>司里山刊刻的最大的石經（司里山4號），是下東岩水平石面上的《大般涅槃經》“觀實相”節文（<ptr target="SL_r_4_total_0009.jpg"/>），被岩石表面的凸起分為兩部分（<ptr target="SL_r_mahaparinirvana_part_2799-2.JPG"/>），
+                            刻經的布局考慮到了石面的凹凸狀況及中部的凸起而做了細緻的調整。節文共三十四行，每行平均十一字，只有開頭的五行文字比較少。在節文開頭正上方的岩面上有一個嚴重風蝕的佛龕。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>原名脊梁山、立梁山（立良山），後依附近村名（司里村）改稱司里山。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="SL_sc_meditation_cave_CIMG6881.JPG">
+                            <head>Boulder with meditation cave at the foot of Mount Sili, photograph
+                                taken in 2006</head>
+                            <head xml:lang="zh">司里山腳下的禪窟，2006年照片</head>
+                            <graphic url="SL_sc_meditation cave_CIMG6881.jpg" height="90mm"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>寺院情況不明。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>與此處刻經址及其附近寺院相關的人物情況不明。</p>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>除了破壞刻經左半部（司里山1號）北齊皇建二年（561）的還願文之外，司里山没有發現其他能夠提示鑿製刻經的題記或紀年。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>《東平金石志》兩處提到司里山舊稱棘梁山，<note> 《東平金石志》<ref target="SKSLXB" type="biblio">3,
+                                    26: 629,
+                            645</ref>。</note>其一為“棘梁山古造像並記”，另一處為1637年七月二十二日的“明玉皇殿落成碑記”。其中没有佛教刻經的相關記載。</p>
+                        <p>至於近期的研究，安廷山首先在其1997年出版的關於山東摩崖刻經研究的書中提及司里山。<note> 安廷山<ref target="AnTingshan1997" type="biblio">131-133</ref>。</note>
+                            賴非緊接著在1998年展開石刻摩拓工作。之後，學者多次實地考察司里山，研究成果於2003年出版，由山東省石刻藝術博物館編輯。在《北朝摩崖刻經研究[續]》中，張總確定了刻經節文出處，
+                            田熊信之復原了《小品般若波羅蜜經》大明咒節文（司里山3號），桐谷征一討論了僧安道壹（活躍於
+                            562-579）在該刻經點的參與營造，賴非大致介紹了司里山摩崖石刻。在後來的出版成果中，賴非繼續對此刻經址作詳盡論述。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>銘刻</head>
+                    <div>
+                        <head>銘文總數</head>
+                        <p>司里山有三段佛經節文（司里山1、3、4號）及一處北朝題記（司里山2號）。</p>
+                    </div>
+                    <div>
+                        <head>佛經</head>
+                        <div>
+                            <head/>
+                            <p>2007年，賴非指出，上東岩南側殘存三字經文出自《大般涅槃經》中著名的《無常偈》，<note> 賴非<ref type="biblio" target="LaiFei2007">8</ref>。</note>
+                                    其原文為“諸行無常，是生滅法。生滅滅已，寂滅為樂。”<note>《大般涅槃經》T#7, 1: 204c23-24；T#374,
+                                    12: 450a16-451a1；T#375, 12: 692a13-693a1。</note>
+                                        這段文字見於《大般涅槃經》的大乘和非大乘的各個中文譯本。<note>有關《大般涅槃經》研究綜述，見《電子佛教辭典》<ref type="biblio" target="Radich_niepan_jing"/>
+                                    “涅槃經”，及下文司里山4號。</note>在《大般涅槃經》講述的雪山童子本生故事中，《無常偈》被視為佛教教義的精髓。
+                                為了考驗雪山童子求道的決心，帝釋天化身為邪惡的羅刹。他先透露了《無常偈》的前半段，然後要求雪山童子以肉體交換後半段。雪山童子同意了，他一得到整段偈文，
+                                就欣然地從一棵高樹上跳下，欲犧牲他的肉體與生命。正在這個時候，帝釋天變回本形，從半空中接住了勇敢的雪山童子，並表彰了他求道的決心和成績。</p>
+                            <p>認定三字殘經出自《無常偈》是有根據的，因為這段文字同時期也被刊刻在鄒城的尖山以及河北省南響堂山6號洞窟的窟楣，還有河南省安陽附近小南海石窟中洞的內壁。
+                                不過，只有現存銘刻之上還可容下兩橫排文字的空間，該復原才能成立。由於殘經上有一塊凸起的岩石，這兩排文字原先很可能並不存在，曾刻於此處的經文出處只能存疑。</p>
+                            <ab>
+                                <abbr>溫狄婭</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>司里山3號</head>
+                            <p>上東岩的東側刻經，計九行，每行兩到三個字，田熊信之將其復原為鳩摩羅什的十卷節譯本《小品般若波羅蜜經》大明呪之節文。<note>田熊信之<ref target="Takuma2003" type="biblio">205</ref>。</note>
+                                    節文講述了憍尸迦<hi rend="dash">──</hi>即帝釋天<hi rend="dash">──</hi>與佛陀之間的一段簡短對話。其中大明呪頌揚般若波羅蜜為無上呪，無等等呪，能使過去、現在和未來諸佛覺無上菩提道。<note>《心經》也把般若波羅蜜視為大明呪。這段深具影響力的佛經，首先被鳩摩羅什譯為《摩訶般若波羅蜜大明咒經》T#250,
+                                    8: 847c；後來的第二個譯本出自玄奘，即《般若波羅蜜多心經》T#251, 8: 848a-c。
+                                    </note>鳩摩羅什還翻譯了《大智度論》，<note>《大智度論》T#1509, 25:
+                                57-756。</note>它更為詳盡地解釋了般若波羅蜜作為無上呪的原因：</p>
+                            <quote>是以帝釋白佛言：“諸咒術中，般若波羅蜜是大呪術。何以故？能常與眾生道德樂故。餘咒術樂因緣能起煩惱，又不善業，故墮三惡道。復次，
+                                    餘呪術能隨貪欲瞋恚，自在作惡，使般若波羅蜜咒能滅禪定佛道涅槃諸著，何況貪恚麁病。是故名為大明呪，無上呪，無等等呪。”<note>《大智度論》T#1509,
+                                    25: 469b15-21。</note>
+                            </quote>
+                            <p>因此，這段石經與洪頂山6號《仁王般若》節文<note>《佛說仁王般若波羅蜜經》T#245, 8:
+                                832c23-26。</note>非常相近。在洪頂山刻經中，神秘的般若波羅蜜被比作一系列具有魔力的護符；
+                                不同的是，在司里山，重點在於其確保諸佛覺菩提之道的魔力。</p>
+                            <p>在《觀佛三昧海經》<note>《觀佛三昧海經》T#643, 15:
+                                    645c-697a。</note>這部中土撰述的偽經中，大明呪被作為發誓願的動機：“是時帝釋坐善法堂，<note>善法堂，又名妙法堂，在忉利天的西南角，
+                                        那裡三十三天神討論事件是否合乎法則，還是與妙法堂相反。見《電子佛教辭典》<ref type="biblio" target="Muller_miaofatang"/>
+                                “妙法堂”。</note>燒眾名香發大誓願：‘般若波羅蜜是大明呪、是無上呪、無等等呪，審實不虛。
+                                    我持此法當成佛<note>義即“我持此法當覺菩提之道。”</note>。’”<note>《觀佛三昧海經》T#643, 15:
+                                    647b3-6。</note>
+                            </p>
+                            <p>言外之意，司里山所刊刻的大明呪具有讓眾生悟道的無上效力，很可能被信眾作為發誓願的範本。般若波羅蜜及與其等同的大明呪、無上呪和無等等呪，在《金剛三昧經》
+                                    中佔據了特別突出的位置。經布斯韋爾(<foreign xml:lang="en">Robert
+                                    Buswell</foreign>)證實，這部非常有意思的偽經由朝鮮僧人法朗（活躍於632-646年）作於朝鮮。<note>
+                                    <ref target="Buswell1989" type="biblio">23</ref>。</note>
+                                他曾在中國被奉為禪宗四祖的道信（580-651）門下學習。《金剛三昧經》被重新引入中國，對中國禪宗佛教的發展造成了很大的影響。</p>
+                            <p>第六品“真性空”中有關於般若波羅蜜的文字敘述： </p>
+                            <quote>舍利弗言：“如尊所說，在事之先，取以本利。是念寂滅，寂滅是如。總持諸德，該羅萬法。圓融不二，
+                                    不可思議。當知是法，即是摩訶般若波羅蜜。是大神呪、是大明呪、是無上呪、是無等等呪。”<note>《金剛三昧經》T#273, 9:
+                                    371b9-14。</note>
+                            </quote>
+                            <p>由於司里山所刻的《小品般若波羅蜜經》大明呪節文大多被損毀，無法與流傳至今的其他文本進行比較。不過可以確定的是，作為刻經範本的佛經節文的長度與文辭，都根據摩崖的尺幅作了調整。</p>
+                        </div>
+                        <div>
+                            <head>司里山4號</head>
+                            <p>佛經節文出自《大般涅槃經》文本接近結尾的段落。該佛經流傳有南北兩個版本。北本由中印度僧人曇無讖（385-433或436）於北涼時期完成，
+                                    公元414年他與中國僧人慧嵩及道朗開始合作翻譯《大般涅槃經》的前十卷。翻譯工作曾一度中斷，直至他又前往于闐取回經文的中間和後半部分之後，才於公元421年完成了四十卷譯本。<note>《大般涅槃經》T#374,
+                                    12: 365c-603c。</note>
+                            </p>
+                            <p>北本佛經流傳到南方，劉宋文帝下令另行翻譯，公元436年總計三十六卷的譯本完成，<note>《大般涅槃經》T#375, 12:
+                                    605a-852b。</note>譯者為僧人慧觀（383-453）、慧嚴
+                                    （363-433）和謝靈運（385-433）。這個文本即現今所謂的“南本”。嚴格來說，南本不是真正的翻譯，而是對已存文本的修訂，它基於曇無讖的譯本，同時也參考了更早的法顯（約337－442）和佛陀跋陀羅（活躍於406-421年）的六卷譯本。<note>《佛說大般泥洹經》T#376,
+                                    12: 853a-899c。</note>
+                            </p>
+                            <figure rend="center" xml:id="SL_sc__2700.JPG">
+                                <head>The plateau on Mount Sili seen from the south with a modern
+                                    temple hall, photograph taken in 2006</head>
+                                <head xml:lang="zh">司里山台地及現代寺廟由南向北的全景，2006年照片</head>
+                                <graphic url="SL_sc__2700.JPG"/>
+                            </figure>
+                            <p>佛經節文論述實相的本質，可能出自北本<note>《大般涅槃經》T#374, 12:
+                                    603b20-c9。</note>和南本<note>《大般涅槃經》T#375, 12:
+                                    851c26-852a16。</note>的段落。經過仔細比勘，
+                                    確認司里山節文更接近南本，即採用較新的譯本，其中十處作“想”字（<ptr target="SL_4_rub_JN_detail_DSC4030_cw.jpg"/>），而不作“相”字。這個不同也出現在《大正藏》所收錄的南本，並可追溯到該佛經的宋本、
+                                元本、明本以及奈良的天平抄本和正倉院抄本。司里山刻經傾向於《大般涅槃經》南本這一事實，可以說明山東石經使用當時最新的佛經版本這一總體趨向。</p>
+                            <p>在刻經節文中，佛陀教導其最後一個弟子<hi rend="dash">──</hi>一百二十歲的婆羅門須拔陀羅。他問及“斷一切諸有”的方法，佛陀建議他“觀實想”。須拔陀又問及實想，佛陀告訴他這等同於“無想之想”。
+                                此後佛陀論及空，說明“一切諸法皆是虛假”，抛棄了常人信奉的一些作為傳統真理組成部分的基本概念：法與無法，微塵與時節，有與無，男與女，因與因因，以及果與果果。特別強調相對概念，
+                                旨在抛棄西方觀念中的主客體二元區分。這些概念包括：自與他，作者與受者，生與生者，見與見者，聞與聞者，覺知與覺知者，菩提與求道者，業與造業者，煩惱與煩惱法。
+                                當這些觀念被認作次要的，當它們被超越時，即獲得實相，這等同於法界，畢竟智，第一義諦，第一義空。這一成果不亞於覺菩提。</p>
+                            <p>由於有關如來藏的內容，《大般涅槃經》在中國產生了很大的影響。如來藏即潛在的佛性，眾生皆生而有之，即使一闡提也能因此而被救贖。
+                                不過，刻經節文似乎與這一重要觀點完全無關，它總體上與《般若波羅蜜經》沒有區別，因此增加了山東地區取自該組佛經的刻經。</p>
+                            <ab>
+                                <abbr>柏剛，溫狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>司里山2號</head>
+                            <p>題記歸屬於其左側一個名為“彌勒下生”的小佛立像。現在賢劫中，彌勒是兜率天中的補位菩薩，等待著他的最後一次的降生。他一旦“下生”，即意味著在遙遠的未來進入人間後，
+                                便將成佛。這尊造像於大齊皇建二年（561）由一群署名為“佛弟子”的信徒捐資雕刻，他們的名字已經不復辨識。
+                                此題銘破壞了殘存刻經的一部分（司里山1號），因此，其不僅可以作為該條刻經斷代的下限參考。同時，也提供了司里山刻經活動大致的時間信息。</p>
+                            <ab>
+                                <abbr>溫狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>從筆道横斷面上對刻經技法進行分析，司里山刻經技法主要是“V”形刻法。即從筆畫兩邊線斜入鏨，雙邊線相交，自然形成，方便快捷。 </p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="SL_sc_UWOe_CIMG6731.JPG">
+                            <head>Crack between the Upper Western Outcrop (left) and Upper Eastern
+                                Outcrop (right), photograph taken in 2006</head>
+                            <head xml:lang="zh">上西岩（左）與上東岩（右）之間的大裂縫，2006年照片</head>
+                            <graphic url="SL_sc_UWOe_CIMG6731.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Sili</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>Mount Sili <foreign xml:lang="zh">司里山</foreign> consists of several
+                            outcrops that rise out of the Yellow River <foreign xml:lang="zh">黃河</foreign> alluvium soil. Before being cut off by the Yellow
+                            River’s deposit, these outcrops belonged to the central range of
+                            Shandong Province. Mount Sili, on the western banks of Lake Dongping
+                                <foreign xml:lang="zh">東平湖</foreign>, is located 31 km northwest of
+                            the county seat of Dongping <foreign xml:lang="zh">東平</foreign>, 23 km
+                            north of the county seat of Liangshan <foreign xml:lang="zh">梁山</foreign>, and 51 km south-southeast of Liaocheng City <foreign xml:lang="zh">聊城市</foreign> (map in front endpaper). It has a
+                            north-south extension of about 0.8 km, and an east-west extension of 0.5
+                            km. The peak is located at an altitude of 110 m above sea level. </p>
+                        <p>So far, there has been little human activity on the rock. A radio tower
+                            and a small building have been built close to it, and there is also a
+                            modern temple hall. Geographically, the slope is situated at 116.1241°
+                            east and 36.0112° north WGS84. This equals 421070 E (easting) and
+                            3985550 N (northing) on the meridian 50S UTM.</p>
+                        <p> Most of the inscriptions of Mount Sili face east. The neighboring
+                            inscription site of Mount Yin <foreign xml:lang="zh">銀山</foreign> lies 6
+                            km north-northwest of Mount Sili. While Mount Yin is visible from Mount
+                            Sili, its inscriptions are not within the line of sight. The neighboring
+                            site of Mount Hongding <foreign xml:lang="zh">洪頂山</foreign>, which lies
+                            11.9 km to the northeast, is today separated from Mount Sili by Lake
+                            Dongping (map, fig. <ptr target="Map_2_Dongping_2013_01_29.jpg"/>).
+                            Mount Hong­ding is visible from Mount Sili, but the inscriptions within
+                            the valley are not.</p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>At the foot of Mount Sili, a single boulder lies left of the path leading
+                            up the mountain. This boulder has a man-made opening carved out to
+                            create a cave with enough room for one or two people (fig. <ptr target="SL_sc_meditation_cave_CIMG6881.JPG"/>). The walls inside the
+                            cave show only faint traces of the outline of a figure on one wall, and
+                            some scribbling on another, making it hard to decide whether the cave
+                            was never finished or whether it has been badly weathered. Caves of
+                            similar size and shape are known from many cave-temple sites as
+                            meditation caves. Most have bare walls, since they were used by monks
+                            only as a place in which to meditate or to sleep. A few have walls
+                            embellished with icons; the most elaborate example is the middle cave of
+                            Xiao Nanhai <foreign xml:lang="zh">小南海</foreign> close to Anyang
+                                <foreign xml:lang="zh">安陽</foreign>, which was carved out for
+                            Sengchou <foreign xml:lang="zh">僧稠</foreign> (480–560) between 555 to
+                            560 as his meditation cave. At Mount Sili, this small cave at the foot
+                            of the mountain might well have served monks as a modest shelter and
+                            meditation place.</p>
+                        <p>Close to the top of the mountain, an outcrop decorated with rows of
+                            seated Buddha images rises 3.1 m above the ground. A wooden pole has
+                            been erected on top of it (fig. <ptr target="SL_sc__2700.JPG"/>). This
+                            boulder is called the Lower Southern Outcrop. Recently, when earth was
+                            removed from the foot of the boulder, another register of Buddha figures
+                            came to light. Three of these had Buddha names carved next to them,
+                            namely Buddha Luohou <foreign xml:lang="zh">羅睺佛</foreign>, Buddha Baode
+                                <foreign xml:lang="zh">寳德佛</foreign>, and Buddha Ximing <foreign xml:lang="zh">喜明佛</foreign>. These Buddhas are mentioned in the
+                                    <title>
+                                <hi rend="italic">Sutra Spoken by the Buddha on Buddha
+                                    Names</hi>
+                            </title> (<hi rend="italic">Foshuo foming jing
+                                </hi>
+                            <foreign xml:lang="zh">佛說佛名經</foreign>, T#441, 14: 299b3-4 and
+                                300a21).<note>Personal communication from Zhang Zong <foreign xml:lang="zh">張總</foreign>, who visited Mount Sili in 2012.
+                            </note>
+                        </p>
+                        <p>Behind the Lower Southern Outcrop, the rocky ground rises a few more
+                            meters, terminating in a plateau at the top. This plateau is dominated
+                            by two huge outcrops, with a height of about 11 m, which give the
+                            impression of a single rock that was at some time split into two parts,
+                            the part to the east being the more massive (fig. <ptr target="SL_sc_IMG_3258.jpg"/>). Both parts—the Upper Western and the
+                            Upper Eastern Outcrop—are divided by a gorge-like crack that separates
+                            them by a few meters (fig. <ptr target="SL_sc_UWOe_CIMG6731.JPG"/>).</p>
+                        <figure rend="center" xml:id="SL_sc_total_IMG_3030-3.JPG">
+                            <head>Upper Eastern Outcrop, southeast corner; photograph taken in
+                                2006</head>
+                            <head xml:lang="zh">上東岩東南角, 2006年照片</head>
+                            <graphic url="SL_sc_total_IMG_3030-3.JPG"/>
+                        </figure>
+                        <p>The west, south and east sides of the outcrops have been decorated with
+                            Buddhist sculptures in several registers. A monumental seated Buddha and
+                            the remains of two attending bodhisattvas can be seen from afar on the
+                            south side of the Upper Western Outcrop (fig. <ptr target="SL_sc_IMG_3258.jpg"/>). A modern temple hall of modest size
+                            is located in front of the Upper Western Outcrop, halfway between the
+                            Lower Southern Outcrop and the monumental Buddha. As part of the five
+                            year restoration program from 2008 to 2013, another three-bay hall was
+                            built in 2011 next to the still-standing radio tower. In the courtyard
+                            in front of it is a stele with an inscription (<hi rend="italic">Yuhuang
+                                dian luocheng beiji </hi>
+                            <foreign xml:lang="zh">玉皇殿落成碑記</foreign>)
+                            dated July 22, 1637 (Da Ming chongzhen dingchou liu yue yi ri <foreign xml:lang="zh">大明崇禎丁丑六月一日</foreign>), which records the completion of
+                            the Temple of the Jade Emperor.</p>
+                        <p>The rocky ground in front of the Upper Eastern Outcrop displays rows of
+                            post-holes that are evidence of wooden buildings once erected on the
+                            site. More post-holes of various sizes, some round, some angular, are to
+                            be found on the leveled tops of the Upper Western and Eastern Outcrops
+                            (fig. <ptr target="SL_sc_hole_3210.jpg"/>). Close to the divide between
+                            the two outcrops, channels have been cut into the rock, probably to
+                            support wooden joists that bridged the gap between the outcrops (fig.
+                                <ptr target="SL_sc_hole_3211.JPG"/>). Undoubtly, more wooden
+                            buildings were once placed on top of the towering outcrops. In all
+                            likelihood, the whole of Mount Sili’s peak was studded with wooden
+                            structures, beginning at the Lower Southern Outcrop and continuing past
+                            the modern temple, on up the stepped west side of the Upper Western
+                            Outcrop to the top and along the top of the Upper Eastern Outcrop, above
+                            the giant Buddha’s head. </p>
+                        <figure rend="center" xml:id="SL_sc_hole_3210.jpg">
+                            <head>View from the top of the Upper Western Outcrop at post-holes in
+                                various shapes, photograph taken in 2006</head>
+                            <head xml:lang="zh">從上西岩頂部看到的多形製柱洞遺跡，2006年照片</head>
+                            <graphic url="SL_sc_hole_3210.jpg"/>
+                        </figure>
+                        <p>The surfaces of the south and east sides of the Upper Western Outcrop are
+                            almost completely covered with sculptured niches. Many are dated by
+                            votive inscriptions, so that it is clear that the niches on the south
+                            side were mainly carved during the reign of Empress Wu Zetian <foreign xml:lang="zh">武則天</foreign> (625-705, reigned 690-705). On the east
+                            side, one niche is dated to the year 713, and there are other niches
+                            with figures that were restored during the <hi rend="italic">jiayou</hi>
+                            era <foreign xml:lang="zh">嘉祐</foreign> (1056-1064) of the Northern Song
+                            dynasty (fig. <ptr target="SL_scu_UWOe_IMG_2822.JPG"/>).</p>
+                        <p>The left side of the Upper Eastern Outcrop’s south side is dominated by
+                            the giant triad, and the right side displays larger and smaller niches.
+                            In the lower register, one of the earliest known Chinese representations
+                            of the Three Teachings, embodied by Laozi, Buddha, and Confucius, has
+                            been hewn out of the rock (fig. <ptr target="SL_scu_UEOs_part_3245.JPG"/>).<note>
+                                <ref target="ZhaoZhou2010b" type="biblio"/>. In his
+                                dissertation, Zhao Zhou examines the later evolution of rock
+                                carvings of the Three Teachings in Chongqing and Sichuan.</note>
+                        </p>
+                        <p>An accompanying inscription dates the sculptures to the year 1057 (second
+                            year of <hi rend="italic">jiayou</hi> era) and states: “The Three
+                            Teachings are connected, and each one sees truly…” Above this niche, the
+                            earliest votive inscription of the entire site of Mount Sili is located,
+                            dated to 561 (the second year of the <hi rend="italic">huangjian</hi>
+                            era <foreign xml:lang="zh">皇建</foreign> of the Northern Qi dynasty).</p>
+                        <p>The Upper Eastern Outcrop can be circumambulated counter-clockwise along
+                            a path that first leads to its east side. This side is dominated by a
+                            large niche displaying nine statues, five standing, and four sitting on
+                            thrones (fig. <ptr target="SL_scu_UEOe_total_DSCF0018.JPG"/>).<note>
+                                <ref type="biblio" target="ZhouYing2011"/> argues that these statues
+                                are protaits of the heros from <hi rend="italic">Water Margin</hi>
+                                    (<hi rend="italic">Shuihu zhuan</hi>
+                                <foreign xml:lang="zh">水滸傳</foreign>).</note> The north or back side of the outcrop is
+                            bare, while the west side, which forms one side of the massive crack,
+                            was in part decorated with image niches.</p>
+                        <p>In front of the large niche with nine statues on the east side of the
+                            Upper Eastern Outcrop, another slope follows downward. Here, a cliff
+                            that is called the Lower Eastern Outcrop stretches horizontally for a
+                            few meters. A Buddha niche has been chiseled next to a passage from the
+                                <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign>
+                                Sutra </hi> (fig. <ptr target="SL_sc_4_total_3664-2.JPG"/>).</p>
+                        <figure rend="center" xml:id="SL_sc_hole_3211.JPG">
+                            <head>Channels on top of the Upper Western Outcrop, photograph taken in
+                                2006</head>
+                            <head xml:lang="zh">上西岩頂部的溝道，2006年照片</head>
+                            <graphic url="SL_sc_hole_3211.JPG"/>
+                        </figure>
+                        <p>Four inscriptions on Mount Sili are considered earlier than the votive
+                            inscriptions of the Wu Zetian era (690-705). They are part of the
+                            original layout of the site and display the features of carved sutra
+                            passages from the second half of the sixth century (map, fig. <ptr target="Map_6_Silishan_Level3.jpg"/>).</p>
+                        <p>Only three characters have been preserved from the first inscription
+                            (Sili 1). They are located on the south side of the Upper Eastern
+                            Outcrop, to the left of the votive inscription dated to 561, and above
+                            the niche with the Three Teachings triad (fig. <ptr target="Sili_inscript_231.tif"/>). The original height and width of
+                            this inscription can no longer be reconstructed. On the right, it was
+                            destroyed by the votive inscription dated 561 and its accompanying
+                            niche; on the left, other inscriptions dated 1064 and 1066, which
+                            pertain to the sculptures, may have destroyed the left-hand portion.
+                            Directly beneath, the Three Teachings niche of 1057 was cut into of the
+                            rock surface, roughly 20 cm deep; thus, any additional horizontal rows
+                            of characters were lost. The space above the three preserved characters,
+                            however, is bound by a rocky overhang that has not been worked, so that
+                            we may assume that the three characters belong to the original topmost
+                            line of the text. </p>
+                        <figure rend="center" xml:id="SL_scu_UWOe_IMG_2822.JPG">
+                            <head>Upper Western Outcrop, east side; photograph taken in 2006</head>
+                            <head xml:lang="zh">上西岩（東面），2006年照片</head>
+                            <graphic url="SL_scu_UWOe_IMG_2822.JPG"/>
+                        </figure>
+                        <p>The second inscription of interest is of course the one dated to the year
+                            561 (Sili 2), since it damaged the original sutra passage to the left
+                            (fig. <ptr target="SL_r_colophon_561_total_2522.jpg"/>). Not only is
+                            this the earliest dated inscription found at Mount Sili, but it also
+                            provides a <hi rend="italic">terminus ad quem</hi> for the dating of the
+                            neighboring inscription, Sili 1.</p>
+                        <p>The third inscription appears on the uppermost edge of the east side of
+                            the Upper Eastern Outcrop (fig. <ptr target="SL_r_xiaopinbore_part_DSCF0090.JPG"/>), namely, nine columns
+                            (of which the first three characters remain) of a sutra passage (Sili 3)
+                            on the Great Illuminating Spell from the <title>
+                                <hi rend="italic">Shorter Version of the Great Perfection of Wisdom</hi>
+                            </title>
+                                (<hi rend="italic">
+                                <foreign xml:lang="sa">Aṣṭasāhasrikāprajñāpāramitā</foreign>
+                            </hi>, <hi rend="italic">Xiaopin bore boluomi jing </hi>
+                            <foreign xml:lang="zh">小品般若波羅蜜經</foreign>). The lower part of the inscription was
+                            destroyed by a horizontal row of figures in the Thousand Buddha pattern,
+                            and a huge niche with nine large statues. Thus the original height of
+                            the inscription can no longer be <hi rend="nh">definitively</hi>
+                            reconstructed. A reconstruction attempted by Takuma Nobuyuki <foreign xml:lang="zh">田熊信之</foreign> in 2003 ascribes up to nine characters
+                            to each column, with the result that the original inscription would have
+                            descended about halfway down the height of today’s niche with nine
+                            statues. Assuming that the reconstruction is correct, the first column
+                            of the original inscription at the right must also have been destroyed
+                            by a neighboring meditation Buddha.</p>
+                        <figure rend="center" xml:id="SL_scu_UEOs_part_3245.JPG">
+                            <head>Niche with figures representating the Three Teachings (from right
+                                to left: Laozi, the Buddha, Confucius), dated 1057; photograph taken
+                                in 2006</head>
+                            <head xml:lang="zh">三教（老子、釋迦牟尼、孔子）造像龕，紀年為公元1057年，2006年照片</head>
+                            <graphic url="SL_scu_UEOs_part_3245.JPG"/>
+                        </figure>
+                        <p>The largest sutra excerpt carved at Mount Sili is the passage on the
+                            Contemplation of the Real Attributes from the <hi rend="italic">Great
+                                    <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra </hi> (Sili
+                            4), located on the Lower Eastern Outcrop on a horizontal slab of stone
+                            (fig. <ptr target="SL_r_4_total_0009.jpg"/>). It is divided by a
+                            protruding section into two parts (fig. <ptr target="SL_r_mahaparinirvana_part_2799-2.JPG"/>). The characters of
+                            the inscription are cut into the rock bed in such a way as to adjust to
+                            the bumps and hollows of the surface, and also to the protruding rock in
+                            the middle. The inscription consists of 34 columns altogether, each with
+                            eleven characters on average; only the first five columns have
+                            considerably fewer characters. A niche with a badly weathered Buddha
+                            figure has been carved out of the rock right above the beginning of the
+                            sutra passage.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place name</head>
+                        <p>Mount Sili was originally called Mount Jiliang <foreign xml:lang="zh">脊梁山</foreign> (Mount Backbone) or Mount Liliang <foreign xml:lang="zh">立梁山</foreign> (Mount Upright Ridge); later it was
+                            renamed after nearby Sili Village <foreign xml:lang="zh">司里村</foreign>.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>There is no information on a related monastery.</p>
+                    </div>
+                    <div>
+                        <head>Related Persons</head>
+                        <p>There is no information on persons related to this site or to a nearby
+                            monastery.</p>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>Apart from the votive inscription dated to the second year of the <hi rend="italic">huangjian</hi> era of the Northern Qi dynasty (561),
+                            which destroyed the right-hand portion of the sutra text, Sili 1, no
+                            colophons or dates are found at Mount Sili that shed any light on the
+                            creation of the carved sutra passages.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>Local gazetteers concerning Dongping refer to Mount Sili twice under its
+                            old name of Mount Jiliang <foreign xml:lang="zh">棘梁山</foreign>.<note>
+                                <ref type="biblio" target="SKSLXB">3, 26:
+                                    629, 645</ref>.</note> They contain two entries, one about
+                            “ancient sculptures with inscriptions”, and another about the “stele
+                            recording the completion of the Temple of the Jade Emperor under the
+                            Ming dynasty” in 1637. No Buddhist inscriptions are cited.</p>
+                        <p>In more recent studies, Mount Sili was first mentioned in An Tingshan’s
+                                <foreign xml:lang="zh">安廷山</foreign> book of 1997 on rock
+                            inscription sites in Shandong Province.<note>
+                                <ref target="AnTingshan1997" type="biblio">131-133</ref>. </note> In
+                            1998 rubbings of the inscriptions were made by Lai Fei <foreign xml:lang="zh">賴非</foreign>. The years directly following account for
+                            most of the research conducted at the site, and the results were
+                            published in 2003 in <title>
+                                <hi rend="italic">Research on the Sutras
+                                    Engraved on Polished Cliffs of the Northern Dynasties, vol. 2
+                                </hi> (<hi rend="italic">Beichao moya kejing yanjiu [xu]
+                                    </hi>
+                                <foreign xml:lang="zh">北朝摩崖刻經研究 [續]</foreign>)</title>.
+                            Zhang Zong <foreign xml:lang="zh">張總</foreign> identifies the sutra
+                            passages carved, and Takuma Nobuyuki <foreign xml:lang="zh">田熊信之</foreign> reconstructs the passage on the Great Illuminating
+                            Spell from the <hi rend="italic">Shorter Version of the Great Perfection
+                                of Wisdom </hi> (Sili 3). Kiriya Seiichi <foreign xml:lang="zh">桐谷征一</foreign> discusses the involvement of Seng’an Daoyi <foreign xml:lang="zh">僧安道壹</foreign> (fl. 562-579) in the construction of
+                            the site, and Lai Fei gives a general description of the site. Lai Fei
+                            enlarges on this description in later publications.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>At Mount Sili, three sutra passages (Sili 1, 3, 4), and one historical
+                            inscription from the Northern Qi dynasty (Sili 2) were carved.</p>
+                    </div>
+                    <div>
+                        <head>Sutra Passages (Sili 1, 3, 4)</head>
+                        <div>
+                            <head>Sili 1</head>
+                            <p>The three-character fragment from a sutra (Sili 1) on the south side
+                                of the Upper Eastern Outcrop was identified by Lai Fei in 2007 as
+                                part of a well-known verse from the <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra
+                                        </foreign>
+                                    </hi>
+                                </title>(<title>
+                                    <hi rend="italic">Da boniepan
+                                        jing </hi>
+                                </title>
+                                <foreign xml:lang="zh">大般涅槃經</foreign>)<note>
+                                    <ref type="biblio" target="LaiFei2007">8</ref>. </note> which reads: </p>
+                            <quote>All <hi rend="italics">dharmas</hi> are impermanent; this is the
+                                Law of birth and extinction. After birth and extinction have been
+                                extinguished, tranquil extinction is bliss.<note>T#07, 1: 204c23-24;
+                                    T#374, 12: 450a16 and 451a1; T#375, 12: 692a13 and 693a1:
+                                        <foreign xml:lang="zh">“諸行無常，是生滅法。生滅滅已，寂滅為樂。”</foreign>
+                                </note>
+                            </quote>
+                            <p> This verse is found in Chinese translations of non-Mahayana as well
+                                as Mahayana versions of the <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                    </hi>
+                                </title>.<note>For a
+                                    summary of the state of research on the group of sutras entitled
+                                            <title>
+                                        <hi rend="italic">
+                                            <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                        </hi>
+                                    </title> see
+                                        <ref target="Radich_niepan_jing" type="biblio"/> and below,
+                                    Sili 4.</note> In the <hi rend="italic">
+                                    <foreign xml:lang="sa">Brāhmaṇa­jātaka</foreign>
+                                </hi>, the story of a previous
+                                incarnation of Buddha <foreign xml:lang="sa">Śākyamuni</foreign>
+                                told in the <title>
+                                    <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</hi>
+                                </title>, the verse is
+                                seen as the quintessence of the Buddhist teaching.</p>
+                            <p> To test a Brahman’s determination to achieve the Way, the god Indra
+                                once transformed himself into an evil <hi rend="italic">
+                                    <foreign xml:lang="sa">rākṣasa</foreign>
+                                </hi>, and, after giving the
+                                first part of the verse to the Brahman, he demanded the Brahman’s
+                                flesh in exchange for the second half. The Brahman agreed, and as
+                                soon as he had received the entire verse, he willingly sacrificed
+                                his body and life by jumping from a high tree. At that very moment,
+                                however, Indra transformed himself back into his original shape and
+                                caught the brave Brahman in mid-air, praising his determination and
+                                achievement of the Way. </p>
+                            <figure rend="center" xml:id="SL_sc_4_total_3664-2.JPG">
+                                <head>Lower Eastern Outcrop with Buddha niche and passage from the
+                                        <hi rend="italic">Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra </hi>; photograph taken in
+                                    2006</head>
+                                <head xml:lang="zh">下東岩的佛龕與《大般涅槃經》佛經節文，2006年照片</head>
+                                <graphic url="SL_sc_4_total_3664-2.JPG"/>
+                            </figure>
+                            <p>The identification of the three remaining characters as the famous
+                                verse from the <hi rend="italic">
+                                    <foreign xml:lang="sa">Brāhmana­jātaka</foreign>
+                                </hi> can be supported by
+                                reference to the same words carved around the same time at Mount
+                                Jian <foreign xml:lang="zh">尖山</foreign> in Zoucheng <foreign xml:lang="zh">鄒城</foreign>, on the lintel of cave 6 at Southern
+                                Mount Xiangtang <foreign xml:lang="zh">南響堂山</foreign> in Hebei
+                                    <foreign xml:lang="zh">河北</foreign>, and on the interior wall of
+                                the middle cave of Xiao Nanhai <foreign xml:lang="zh">小南海</foreign>,
+                                close to Anyang <foreign xml:lang="zh">安陽</foreign> in Henan
+                                    <foreign xml:lang="zh">河南</foreign>. But the three-character
+                                fragment would only fit into a layout that requires two more
+                                horizontal rows above the preserved characters. Since there is a
+                                rocky overhang right above the characters, the existence of such
+                                original rows becomes rather unlikely, and the identification of the
+                                passage that was once carved has to remain uncertain.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                            <figure rend="center" xml:id="SL_scu_UEOe_total_DSCF0018.JPG">
+                                <head>East side of the Upper Eastern Outcrop with large niche
+                                    containing nine statues; photograph taken in 2006</head>
+                                <head xml:lang="zh">上東岩東側九尊像大龕，2006年照片</head>
+                                <graphic url="SL_scu_UEOe_total_DSCF0018.JPG"/>
+                            </figure>
+                        </div>
+                        <div>
+                            <head>Sili 3</head>
+                            <p>The nine columns with two or three characters each on the east side
+                                of the Upper Eastern Outcrop have been reconstructed by Takuma
+                                Nobuyuki as a shortened version of the passage on the Great
+                                Illuminating Spell from the <title>
+                                    <hi rend="italic">Shorter Version
+                                        of the Great Perfection of Wisdom Sutra </hi>
+                                </title>
+                                        (<title>
+                                    <hi rend="italic">Xiaopin bore boluomi jing
+                                    </hi>
+                                </title>
+                                <foreign xml:lang="zh">小品般若波羅蜜經</foreign>) from
+                                    <foreign xml:lang="sa">Kumārajīva’s</foreign> abbreviated
+                                translation in ten scrolls, T#227, 8: 543b25-c5.<note>
+                                    <ref type="biblio" target="Takuma2003">205</ref>.</note> This
+                                passage presents a short dialogue between <foreign xml:lang="sa">Kauśika</foreign>
+                                <foreign xml:lang="zh">憍尸迦</foreign>, that is,
+                                the god Indra, and the Buddha, in which the Perfection of Wisdom is
+                                praised as the Great Illuminating Spell, the Unsurpassed Spell, and
+                                the Unequalled Spell, which has caused and will cause all Buddhas of
+                                the past, present and future to attain supreme
+                                    enlightenment.<note>The Perfection of Wisdom equaling the Great
+                                    Illuminating Spell is also found in the <title>
+                                        <hi rend="italic">Heart Sutra </hi>
+                                    </title> (<title>
+                                        <hi rend="italic">
+                                            <foreign xml:lang="sa">*Mahā­prajñā­pāramitāhṛdaya-sūtra</foreign>
+                                        </hi>
+                                    </title>).
+                                    This extremely influential sutra was first translated by
+                                        <foreign xml:lang="sa">Kumārajīva</foreign> as <title>
+                                        <hi rend="italic">Mohe bore boluomi daming­zhou jing
+                                        </hi>
+                                    </title>
+                                    <foreign xml:lang="zh">摩訶般若波羅蜜大明呪經</foreign>,
+                                    T#250, 8: 847c. A second and later translation was done by
+                                    Xuanzang (<title>
+                                        <hi rend="italic">Bore boluomiduo xin jing
+                                        </hi>
+                                    </title>
+                                    <foreign xml:lang="zh">般若波羅蜜多心經</foreign>,
+                                    T#251, 8: 848a-c).</note> The <hi rend="italic">Treatise on the
+                                    Great Perfection of Wisdom Sutra </hi> (<hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāprajñāpāramitāśāstra</foreign>
+                                </hi>, <hi rend="italic">Da
+                                    zhidu lun </hi>
+                                <foreign xml:lang="zh">大智度論</foreign>, T#1509,
+                                25: 57-756), also translated by <foreign xml:lang="sa">Kumārajīva</foreign>, explains in more detail why the
+                                Perfection of Wisdom is superior to any other spell:</p>
+                            <quote>Hence, Indra addressed the Buddha and said: ‘Among all spells,
+                                the Perfection of Wisdom is the Great Spell. Why is that? Because it
+                                can constantly offer the bliss of the virtue of the Way to all
+                                living beings. The causes and conditions of the bliss of the other
+                                spells might give rise to afflictions and also to unwholesome deeds,
+                                and therefore [result in] falling into the Three Evil Destinies.
+                                Furthermore, the other spells can follow desire and anger and freely
+                                cause evil. This Perfection of Wisdom can eliminate all attachments
+                                to meditative concentration, the Buddha-way and nirvana, let alone
+                                greed, ill-will and crude maladies. For that reason it is called the
+                                Great Illuminating Spell, the Unsurpassed Spell, and the Unequalled
+                                    Spell.’<note>T#1509, 25: 469b15-21: <foreign xml:lang="zh">“是以帝釋白佛言：‘諸咒術中，般若波羅蜜是大呪術。何以故？能常與眾生道德樂故。餘咒術樂因緣能起煩惱，又不善業，故墮三惡道。復次，
+                                        餘呪術能隨貪欲瞋恚，自在作惡，使般若波羅蜜咒能滅禪定佛道涅槃諸著，何況貪恚麁病。是故名為大明呪，無上呪，無等等呪。’”</foreign>
+                                </note>
+                            </quote>
+                            <p>The character of this inscription is therefore quite similar to that
+                                of HDS 6, which presents a passage from the <hi rend="italic">Sutra
+                                    Spoken by the Buddha on the Perfection of Wisdom for Humane
+                                    Kings</hi> (<hi rend="italic">Fo shuo ren­wang bore boluomi jing
+                                    </hi>
+                                <foreign xml:lang="zh">佛說仁王般若波羅蜜經</foreign>, T#245, 8:
+                                832c23-26). While in the inscription at Mount Hongding the numinous
+                                Perfection of Wisdom is likened to a series of powerful talismanic
+                                objects, at Mount Sili the focus lies on its magical power to ensure
+                                the enlightenment of all Buddhas.</p>
+                            <p>As we know from the <hi rend="italic">Scripture of the Ocean-like
+                                    Samadhi of Buddha Visualization </hi> (<hi rend="italic">Guanfo
+                                    sanmeihai jing </hi>
+                                <foreign xml:lang="zh">觀佛三昧海經</foreign>,
+                                T#643, 15: 645c-697a), an apocryphal text written in Chinese, the
+                                Great Illuminating Spell served as motivation for taking a vow:</p>
+                            <quote>At that time Indra sat in the Hall of the Fine Dharma,<note>The
+                                    Hall of the Fine Dharma, also called Hall of Wonderful Dharma,
+                                    is situated in the southwest corner of the <foreign xml:lang="sa">Trāyastriṃśas</foreign> heaven, where the
+                                    thirty-three <hi rend="italic">devas </hi> discuss whether
+                                    affairs are according to law or truth or the contrary, see <ref type="biblio" target="Muller_miaofatang"/>.</note> burning
+                                all kinds of excellent incense, and made that great vow: ‘The
+                                Perfection of Wisdom is the Great Illuminating Spell, is the
+                                Unsurpassed Spell, [is] the Unequalled Spell. It accomplishes truth
+                                and is not in vain. If I keep to this doctrine, I shall achieve the
+                                way of the Buddha.’<note>Meaning, “I shall achieve perfect
+                                    enlightenment.” T#643, 15: 647b3-6: <foreign xml:lang="zh">是時帝釋坐善法堂，燒眾名香發大誓願：“般若波羅蜜是大明呪，是無上呪、無等等呪，審實不虛。我持此法當成佛道。”</foreign>
+                                </note>
+                            </quote>
+                            <p>In this context, the carving of the Great Illuminating Spell on the
+                                rock of Mount Sili is of utmost efficacy for the enlightenment of
+                                all beings and might well have served as a model vow to be taken by
+                                believers. The Perfection of Wisdom and its equation as the Great
+                                Illuminating Spell, the Unsurpassed Spell, and the Unequalled Spell,
+                                furthermore, held a prominent position in the <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Vajrasamādhi-sūtra</foreign>
+                                    </hi>
+                                </title>. This very
+                                interesting apocryphal sutra was shown by Robert Buswell to have
+                                been written in Korea by the Korean monk, Pŏmnang (<foreign xml:lang="zh">法朗</foreign>, fl. 632-646).<note>
+                                    <ref type="biblio" target="Buswell1989">23</ref>.</note> Pŏmnang
+                                had studied in China under Daoxin <foreign xml:lang="zh">道信</foreign> (580-651), who is regarded as the fourth patriarch
+                                of the Chan lineage. The <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Vajrasamādhi</foreign>
+                                    </hi>
+                                </title> was
+                                reimported into China, where it exerted considerable influence on
+                                the shaping of sinitic Chan Buddhism. </p>
+                            <p>In chapter 6, “The Voidness of the True Nature”, the following
+                                elaboration on the Perfection of Wisdom is found: </p>
+                            <quote>
+                                <foreign xml:lang="sa">Śāriputra</foreign> said: ‘As the [World]
+                                Honored One says: Prior to the phenomena, seizing the original
+                                benefit, this thought extinguishes in quiescence. Quiescent
+                                extinction is thusness. Holding on to all virtues, it collects
+                                together all the myriad <hi rend="italic">dharmas</hi>. [Thusness
+                                is] completely interpenetrated, not two-fold, unthinkable. You
+                                should know that this doctrine is the Great Perfection of Wisdom, is
+                                the Great Supernatural Spell, is the Great Illuminating Spell, is
+                                the Unsurpassed Spell, is the Unequalled Spell.’<note>T#273, 9:
+                                    371b9-14: <foreign xml:lang="zh">
+                                        “舍利弗言：‘如尊所說，在事之先，取以本利。是念寂滅，寂滅是如。總持諸德，該羅萬法。圓融不二，不可思議。當知是法，即是摩訶般若波羅蜜。是大神呪、是大明呪、
+                                        是無上呪、是無等等呪。’”</foreign>
+                                </note>
+                            </quote>
+                            <p>Since the passage on the Great Illuminating Spell from the <hi rend="italic">Shorter Version of the Great Perfection of Wisdom
+                                </hi> was largely destroyed, it cannot be <hi rend="nh">compared</hi> with other transmitted text versions. But in this
+                                case it may safely be assumed that any version which served as a
+                                template for the carved text was adjusted in length and wording to
+                                the space available on the rock.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                            <figure rend="center" xml:id="SL_r_mahaparinirvana_part_2799-2.JPG">
+                                <head>Detail of the carved passage of the <hi rend="italic">Great
+                                            <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra </hi>
+                                    on the Lower Eastern Outcrop; photograph taken in 2006</head>
+                                <head xml:lang="zh">下東岩刊刻《大般涅槃經》節文（局部），2006年照片</head>
+                                <graphic url="SL_r_mahaparinirvana_part_2799-2.JPG"/>
+                            </figure>
+                        </div>
+                        <div>
+                            <head>Sili 4</head>
+                            <p>
+                                <anchor xml:id="cwsili4"/>The passage is drawn from the Mahayana
+                                        <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                    </hi>
+                                </title>, where it
+                                is almost the final passage in the text. This sutra was transmitted
+                                in two editions, the Northern and Southern Editions. The Northern
+                                Edition was accomplished under the Northern Liang dynasty by the
+                                central Indian monk <foreign xml:lang="sa">Dharmakṣema</foreign>
+                                (Tan Wuchen <foreign xml:lang="zh">曇無讖</foreign>, 385-433 or 436),
+                                who started to translate the first ten scrolls of the <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                    </hi>
+                                </title> in
+                                cooperation with the Chinese monks Huisong <foreign xml:lang="zh">慧嵩</foreign> and Daolang <foreign xml:lang="zh">道朗</foreign> in
+                                414. Then the translation project came to an end, and could only be
+                                completed after one more journey to Khotan to obtain the middle and
+                                last parts of the scripture. In 421 the translation was finally
+                                completed in 40 scrolls (T#374, 12: 365c-603c). </p>
+                            <p>When the Northern Edition of the sutra was transmitted to the south,
+                                Emperor Wen <foreign xml:lang="zh">文帝</foreign> of the Liu Song
+                                    <foreign xml:lang="zh">劉宋</foreign> dynasty decreed that another
+                                translation should be undertaken, which then was completed in 436,
+                                comprising 36 scrolls (T#376, 12: 853a-899c). The responsible
+                                translators were the monks Huiguan <foreign xml:lang="zh">慧觀</foreign> (383-453) and <foreign xml:lang="sa">Jñānabhadra</foreign>
+                                <foreign xml:lang="zh">慧嚴</foreign>
+                                (363-443), and the layman Xie Lingyun <foreign xml:lang="zh">謝靈運</foreign> (385-433). This text came to be known as the
+                                Southern Edition (T#375, 12: 605a-852b). Strictly speaking, the
+                                Southern Edition was not an actual translation, but rather a
+                                revision of the text, which was based on the <foreign xml:lang="sa">Dharmakṣema</foreign> translation, also taking into account an
+                                earlier work in six scrolls by Faxian <foreign xml:lang="zh">法顯</foreign> (ca. 337-442) and Buddhabhadra <foreign xml:lang="zh">佛陀跋陀羅</foreign> (fl. 406-421).</p>
+                            <p>The received editions of this passage, a disquisition on the nature
+                                of the attributes of <hi rend="italic">dharmas</hi>, may be
+                                consulted for the Northern Edition at T#374, 12: 603b20-c9, and for
+                                the Southern Edition at T#375, 12: 851c26-852a16. A precise
+                                comparison with the text engraved reveals that the Mount Sili
+                                passage is much closer to the Southern than it is to the Northern
+                                Edition, since it follows earlier editions of the canon after using,
+                                in ten places, the character <foreign xml:lang="zh">想</foreign> for
+                                “conception” (fig. <ptr target="SL_4_rub_JN_detail_DSC4030_cw.jpg"/>) instead of <foreign xml:lang="zh">相</foreign> for “attributes”.
+                                This variant is also found in today’s <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="ja">Taishō</foreign>
+                                    </hi>
+                                </title>
+                                edition of the southern version, and can be traced back to the Song,
+                                Yuan and Ming editions of the canon, as well as to the <hi rend="italic">
+                                    <foreign xml:lang="ja">Tempyō</foreign>
+                                </hi>
+                                manuscripts and <hi rend="italic">
+                                    <foreign xml:lang="ja">Shōsōin</foreign>
+                                </hi> manuscripts at Nara. The fact that
+                                at Mount Sili the southern version of the <hi rend="italic">Great
+                                        <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra </hi> was
+                                preferred may give evidence of a general tendency in the Shandong
+                                stone scriptures to rely on the most recent and at that time the
+                                most “modern” edition. </p>
+                            <p>In the carved passage, the Buddha instructs his last convert, a 120
+                                year-old Brahmin by the name of Subhadra. This disciple has asked
+                                for a way to “cut off all existents”, and the Buddha recommends the
+                                Contemplation on the Real Attributes. Enquiring about the Real
+                                Attributes, Subhadra is told that these are the same as Attributes
+                                Devoid of Attributes. What follows is an instruction on emptiness,
+                                which illustrates that “all <hi rend="italic">dharmas</hi> without
+                                exception are empty and contingent” by rejecting some of the most
+                                fundamental concepts that make up conventional truth as perceived by
+                                ordinary beings: <hi rend="italic">Dharmas</hi> and not <hi rend="italic">dharmas</hi>, infinitesimal particles and temporal
+                                divisions, existence and non-existence, male and female, cause and
+                                cause of the cause, as well as result and result of the result.
+                                Particular stress is laid on pairing of notions aimed at rejecting
+                                what might be called the distinction between subject and object from
+                                a western viewpoint. Those notions include: self and other, actor
+                                and receiver, the produced and the producer, seeing and the one who
+                                sees, hearing and hearer, understanding and the one who understands,
+                                    <hi rend="italic">bodhi</hi> and the one who attains it, karmic
+                                actions and the one who engages in karmic actions, the afflictions
+                                and the afflicted. When these notions are understood as
+                                insubstantial and are thereby transcended, insight into the Real
+                                Attributes is gained. These are equal to the Dharma Realm, the
+                                Ultimate Knowledge, the Truth of Primary Meaning, and the Emptiness
+                                of Primary Meaning. The fruit of this insight is no less than
+                                enlightenment.</p>
+                            <p>The Mahayana <title>
+                                    <hi rend="italic">
+                                        <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                    </hi>
+                                </title> generated
+                                great response in China because of its doctrine of “Buddha nature”
+                                    (<hi rend="italic">
+                                    <foreign xml:lang="sa">tathāgatagarbha</foreign>
+                                </hi>), which held that the
+                                potential for Buddhahood is already inherent in every living being,
+                                and that even <hi rend="italic">
+                                    <foreign xml:lang="sa">icchantikas</foreign>
+                                </hi>, beings incapable of attaining
+                                enlightenment, could be saved. Nevertheless, the passage selected
+                                for carving seems totally unrelated to this important doctrine.
+                                Instead, the general tone of the passage is similar to <hi rend="italic">
+                                    <foreign xml:lang="sa">Prajñāpāramitā</foreign>
+                                </hi> scriptures as a whole, and thus
+                                adds to other passages taken from this group of scriptures and
+                                carved into the rocks of the Shandong inscription sites.</p>
+                            <ab>
+                                <abbr>PC, CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscription</head>
+                        <div>
+                            <head>Sili 2</head>
+                            <p>This votive inscription belongs to the small figure of a standing
+                                Buddha to its right, which is named an image of “Maitreya’s rebirth
+                                below”. At present, Maitreya awaits his last rebirth as a
+                                bodhisattva in <foreign xml:lang="sa">Tuṣita</foreign> heaven; but
+                                as soon as he is “reborn below”, meaning into the human world in the
+                                distant future, he will achieve Buddhahood. The figure was donated
+                                in the second year of the <hi rend="italic">huangjian</hi> era of
+                                the Great Qi [dynasty] (561) by some laymen calling themselves
+                                “disciples of the Buddha”. Their names are no longer legible. The
+                                creation of the votive inscription destroyed part of the remains of
+                                a sutra passage (Sili 1) and thus provides not only a <hi rend="italic">terminus ad quem</hi> for this inscription, but
+                                also a rough date for the time of sutra carving activities at Mount
+                                Sili.</p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Carving Techniques</head>
+                        <p>Mainly V-shaped carving: the carver chisels slanting lines from both
+                            sides of a stroke, so that the lines intersect and the stroke naturally
+                            takes shape, a convenient and fast technique.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <!--figure rend="center" xml:id="SL_rub_colophon_561_2597-3.jpg">
+                            <head>Votive inscription dated to the second year of the <hi rend="italic">huangjian</hi> era
+                                of the Northern Qi dynasty (561); photograph taken in
+                                2006.</head>
+                            <head xml:lang="zh">大齊皇建二年（公元561年）題記，2006年照片。</head>
+                            <graphic url="SL_rub_colophon 561_2597-3.jpg"/>
+                        </figure-->
+                        <figure rend="center" xml:id="SL_4_rub_JN_detail_DSC4030_cw.jpg">
+                            <head>The characters “Real Conceptualization”, following the southern
+                                edition of the <hi rend="italic">
+                                    <foreign xml:lang="sa">Mahāparinirvāṇa-sūtra</foreign>
+                                </hi>; detail of rubbing
+                                Sili 4</head>
+                            <head xml:lang="zh">出自南本《大般涅槃經》的“實想”二字，司里山4號拓片局部</head>
+                            <graphic url="SL_4_rub_JN_detail_DSC4030_cw.jpg" height="160mm"/>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to Damaged Stele from Pingyin County</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>N.N.</publisher>
+            </publicationStmt>
+            <seriesStmt>
+                <!-- Titel und Kürzel des Bandes in @n -->
+                <title n="shandong_volume1" xml:lang="en">Shandong Volume 1</title>
+                <title n="shandong_volume1" xml:lang="zh">山東省第一卷</title>
+                <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+                <biblScope unit="chapter" n="10"/>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>04.07.2011</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>file established</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_PY">
+        <body>
+            <div xml:lang="zh">
+                <head>平陰縣殘碑</head>
+                <p>這一通小石碑殘塊僅30釐米高，上部刻有一個蟠龍環繞的佛龕。僅有拓片傳世。<note>柳文金 <ref type="biblio" target="LiuWenjin2003">無頁碼</ref>
+                    </note>此碑曾由柳文金收藏，現佚失或藏主不明。該碑原址不詳。根據柳文金，此碑來自濟寧縣，但一般認為原出或存平陰縣。<note>張總
+                    <ref type="biblio" target="ZhangZong2003a">4</ref>；賴非<ref target="LaiFei2007" type="biblio">169</ref>。
+                </note>從書法風格上來看，它和兗州金口壩出土的石碑很接近，其中一通碑的紀年為河清三年（564）。<note>賴非 <ref type="biblio" target="LaiFei2007">169</ref>。 </note>
+                </p>
+                <p>碑上所刻的佛經節文出自《思益梵天所問經》，<note>《大正藏》T#586, 15:
+                    33-62。</note>是對菩薩六波羅蜜的定義。相同的經文段落也出現在鄒城已毀的的尖山12號中。<note>見《中國佛教石經·山東省》第二卷。</note>
+                </p>
+                <p>除了這兩處銘文，關於菩薩六波羅蜜的經文在山東省現存還有兩處：洪頂山2號和鄒城鐵山1號，<note>同上。</note>這兩處的六波羅蜜引自《大方等大集經》。《大方等大集經》關於六波羅蜜的定義是直截了當的，而《思益梵天所問經》卻用似非而是的方式闡明六波羅蜜，
+                    提出了一般所認為的六個完美性質<hi rend="dash">──</hi>即佈施、戒律、忍辱、精進、禪定和智慧<hi rend="dash">──</hi>的各種對立面。</p>
+                <ab>
+                    <abbr>溫狄婭</abbr>
+                </ab>
+            </div>
+            <div xml:lang="en">
+                <head>Damaged Stele from Pingyin County</head>
+                <!-- <div rend="onecolumn">
+                    <head>Overview</head>-->
+                <p>The fragment of a small stele, with intertwining dragons enclosing a Buddha niche in
+                    the upper part, measures only about 30 cm in height. Only a rubbing is
+                    known.<note>
+                        <ref type="biblio" target="LiuWenjin2003">unpaginated</ref>
+                    </note>
+                    The stele was formerly in the collection of Liu Wenjin. It is now either lost or held
+                    in an unknown private collection. Its provenance is unclear. According to Liu Wenjin,
+                    it came from Jining County; yet it has been assumed that it was found or preserved in
+                    Pingyin County.<note>
+                        <ref target="ZhangZong2003a" type="biblio">4</ref>; <ref target="LaiFei2007" type="biblio">169</ref>. </note> Stylistically, it is said
+                    to be close to other stelae found at the Jin­kou Embankment <foreign xml:lang="zh">金口壩</foreign> in Yanzhou <foreign xml:lang="zh">兗州</foreign>. One of these
+                    comparable stelae dates to the third year of the <hi rend="italic">heqing</hi> era
+                    (564).<note>
+                        <ref target="LaiFei2007" type="biblio">169</ref>. </note>
+                </p>
+                <p>The carved text passage gives a definition of the Six Perfections of the bodhisattva.
+                    It is taken from the <title xml:lang="en" type="translated">
+                        <hi rend="italic">Sutra of
+                        the Questions of <foreign xml:lang="sa">Viśeṣacintibrahma</foreign>
+                        </hi>
+                    </title> (<title xml:lang="zh" type="transcription">
+                        <hi rend="italic">Siyi fantian suo wen jing
+                        </hi>
+                    </title>
+                    <foreign xml:lang="zh">思益梵天所問經</foreign>).<note>T#586, 15:
+                            33-62.</note> The same text was carved as the now demolished inscription JS 12 at
+                    Mount Jian <foreign xml:lang="zh">尖山</foreign> in Zoucheng <foreign xml:lang="zh">鄒城</foreign> (see Shandong, vol. 2).</p>
+                <p>In addition to these two inscriptions, text passages about the Six Perfections of a
+                    bodhisattva have survived at two other sites in Shandong Province: In inscription HDS
+                    2 at Mount Hongding <foreign xml:lang="zh">洪頂山</foreign> and inscription Tie 1 at
+                    Mount Tie <foreign xml:lang="zh">鐵山</foreign> in Zoucheng (see Shandong, vol. 2), the
+                    Six Perfections are quoted from the <title xml:lang="en" type="translated">
+                        <hi rend="italic">Vast and Universal Great Collection Sutra</hi>
+                    </title> (<hi rend="italic">
+                        <foreign xml:lang="sa">*Mahāvaipulyamahāsaṃnipāta-sūtra</foreign>,
+                    </hi>
+                    <hi rend="italic">Da­feng­deng daji jing</hi> 大方等大集經). In contrast to the
+                    rather straight forward definitions of the Six Perfections taken from the <title xml:lang="en" type="translated">
+                        <hi rend="italic">Great Collection
+                        Sutra</hi>
+                    </title>, the text from the <title xml:lang="en" type="translated">
+                        <hi rend="italic">Sutra of the Questions of <foreign xml:lang="sa">Viśeṣacinti­brahma</foreign>
+                        </hi>
+                    </title> elucidates the Six Perfections
+                    in paradoxes, naming the opposites of what are commonly held to be the perfections:
+                    generosity, discipline, patience, vigorous effort, meditation, and wisdom.</p>
+                <ab>
+                    <abbr>CW</abbr>
+                </ab>
+                <!--</div>-->
+            </div>
+        </body>
+    </text>
+</TEI>

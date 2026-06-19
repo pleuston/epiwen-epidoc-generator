@@ -1,0 +1,386 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://data.stonesutras.org:8080/exist/rest/db/schema/stone.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Introduction to the Site of Mount Ergu</title>
+            </titleStmt>
+            <publicationStmt>
+    
+    <seriesStmt>
+        <!-- Titel und Kürzel des Bandes in @n -->
+        <title n="shandong_volume1" xml:lang="en">Shandong Volume 1</title>
+        <title n="shandong_volume1" xml:lang="zh">山東省第一卷</title>
+        <!-- Ordnungsnummer für Kapitelreihenfolge in @n -->
+        <biblScope unit="chapter" n="5"/>
+    </seriesStmt> <publisher>N.N.</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <date>25.03.2009</date>
+                <respStmt>
+                    <name>JMP</name>
+                </respStmt>
+                <item>Aktualisierung Gliederung</item>
+            </change>
+            <change>
+                <date>31.03.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Carving techniques korrigiert gemäß Markette</item>
+            </change>
+            <change>
+                <date>03.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Location überarbeitet gemäß Markette</item>
+            </change>
+            <change>
+                <date>17.04.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Related Monasteries eingefügt (vgl. Mount Dazhai)</item>
+            </change>
+            <change>
+                <date>1.09.2009</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>neue Gliederung des Abschnitts "Inscriptions" und Text eingefüllt</item>
+            </change>
+            <change>
+                <date>10.03.2011</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Abschnitt Related Monasteries geändert auf Verweis auf Mount Tianchi.</item>
+            </change>
+            <change>
+                <date>22.11.2012</date>
+                <respStmt>
+                    <name>CW</name>
+                </respStmt>
+                <item>Sanskrit terms marked as foreign xml:lang="sa"</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="Site_EG">
+        <body>
+            <div xml:lang="zh">
+                <head>二鼓山</head>
+                <figure xml:id="EG_r_part_DSCF0043.JPG" rend="full">
+                    <head>Rocky ground of Mount Ergu; photograph taken in 2004</head>
+                    <head xml:lang="zh">二鼓山岩石地表，2004年照片</head>
+                    <graphic url="EG_r_part_DSCF0043.JPG"/>
+                </figure>
+                <div>
+                    <head>空間</head>
+                    <div>
+                        <head>地理位置</head>
+                        <p>二鼓山是魯中山脈中的另一處刻經點。二鼓山的梯形山坡在大寨谷之西緩緩地升起，它位於平陰縣西南25公里、聊城市東南47公里、東平縣北24公里處（見封二地圖）。 二鼓山山腳的海拔高度是100米。</p>
+                        <p>二鼓山的地理位置是東經116.2694度，北緯36.1011度，相當於UTM坐標系統的第50S帶，東行434240，北行3995410。
+                            二鼓山的摩崖石刻在山的東坡，面向西方（<ptr target="EG_w_3991.JPG"/>）。在大寨山谷的另一面，向東2.1公里，是天池山和書院東山摩崖石刻（地圖，<ptr target="Map_5_2013_01_29a.jpg"/>）。由於這兩座山的石刻分别面向西南偏西和西南，
+                            這三處石刻皆相望所及。洪頂山在二鼓山西南僅5公里處，不過其間幾座山脊遮擋了視線。二鼓山東南偏南4.7公里處是雲翠山。其上的石刻在峰頂之下，並且面向西方，
+                            因此該石刻原本應該在二鼓山遠眺視線所及之處，可是茂密的叢林阻擋了觀者的視線。</p>
+                        <ab>
+                            <abbr>史英</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>地形與空間構成</head>
+                        <p>摩崖石刻位於二鼓山東麓一處稍微向南傾斜的坡岩之上。岩上曾經修築梯田。2011年，計劃在題刻之上修建一座維護性的建築。拆除緊鄰題刻北緣的壘石墻時，發現其下帶有紀年的五字題記（<ptr target="EG_r_part_DSCF0043.JPG"/>）。</p>
+                        <p>有供養人姓名的題記位於佛名下方，而新發現的紀年則在佛名的右上方。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>釋名</head>
+                        <p>在洪範池鎮張海村西，兩座相鄰的山頭平如鼓，故曰“二鼓山”。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>時間</head>
+                    <div>
+                        <head>相關寺院</head>
+                        <p>見天池山“導論”部分。</p>
+                    </div>
+                    <div>
+                        <head>相關人物</head>
+                        <p>四位供養人，即比丘僧太、比丘道顒、僧安一和程伯仁署名於“大空王佛”佛名之下方。其中比丘僧太，很可能還有道顒，也出現在雲翠山銘刻中（雲翠山2號）。</p>
+                        <p>很明顯地，有一群可能來自當時濟州崇梵寺的僧人曾活躍於今平陰縣地區， 他們在二鼓山與雲翠山<hi rend="dash">──</hi>也可能還包括其他刻經點<hi rend="dash">──</hi>完成了較小規模的摩崖石刻。<note>賴非<ref type="biblio" target="LaiFei2003c">107</ref>。</note>
+                        </p>
+                        <p>題刻中第三個人名“僧安一”的身份，頗有爭議。此名字可以單純讀作“僧·安一”，但大部分學者更傾向於認為他就是參與洪頂山、鐵山和尖山刻經的大沙門僧安道壹。<note>桐谷征一<ref type="biblio" target="Kiriya2003a">51, 74</ref>；賴非<ref type="biblio" target="LaiFei2003c">126</ref>；劉濤<ref target="LiuTao2003a" type="biblio">238</ref>；田熊信之<ref target="Takuma2003" type="biblio">188</ref>；許洪國<ref target="XuHongguo2003" type="biblio">245</ref>。</note>
+                        </p>
+                        <p>第四個供養人程伯仁是一個俗家信徒的名字，有關其人，惜無跡可尋。</p>
+                        <ab>
+                            <abbr>雷德侯、蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>斷代</head>
+                        <p>該摩崖石刻的紀年為河清元年，即公元562年。在這條紀年重見天日之前，此處摩崖的刊刻年代一般根據書法風格被推斷為北齊時期（550-574）。那些認為此處石刻與僧安道壹（活躍於 562-579）有關的學者，
+                            把二鼓山佛名題刻認作其具有早期風格的作品，因此推測石刻的刊刻年代為稍早於公元564年。<note>桐谷征一<ref type="biblio" target="Kiriya2003a">51, 74</ref>；賴非<ref type="biblio" target="LaiFei2003c">107</ref>。</note>紀年石刻的發現肯定了之前對刊刻年代的推斷。 </p>
+                        <ab>
+                            <abbr>雷德侯，蔡穗玲</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>研究史</head>
+                        <p>有關二鼓山的研究，主要見於山東省石刻藝術博物館編的《北朝摩崖刻經研究［續］》。在2003年出版的這一輯中，多次提及此處石刻，並討論題記中記載的僧人。在2006年出版的 《北朝摩崖刻經研究［三］》，楊浩也對此處石刻做了簡短描述。<note>楊浩、郝莉<ref type="biblio" target="Yang_Hao2006b">174</ref>。</note> 2011年發現了562年紀年題刻。 </p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>銘刻</head>
+                    <div>
+                        <head>銘文總數</head>
+                        <p>二鼓山刊刻有一個佛名（二鼓山1號）及兩個題記（二鼓山2號及3號）。</p>
+                    </div>
+                    <div>
+                        <head>佛名</head>
+                        <div>
+                            <head>二鼓山1號</head>
+                            <p>有關佛名“大空王佛”的含義，見洪頂山佛名的相關說明。關於該佛名在山東省的分佈，見洪頂山8號的討論。 </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>題記</head>
+                        <div>
+                            <head>二鼓山2號</head>
+                            <p> 第一條題記包括三個僧名和一個居士名（<ptr target="EG_r_2_part_4022-2.jpg"/>）。無籍貫等相關信息。</p>
+                        </div>
+                        <div>
+                            <head>二鼓山3號</head>
+                            <p> 第二條題記由五個字組成，記錄了二鼓山摩崖石刻的紀年。</p>
+                            <ab>
+                                <abbr>溫狄婭</abbr>
+                            </ab>
+                        </div>
+                    </div>
+                    <div>
+                        <head>刊刻技法</head>
+                        <p>二鼓山摩崖石刻主要以“凵”形技法刊刻。刻工從筆畫的兩邊傾斜鑿入，在中間相交所自然形成的筆道。</p>
+                        <ab>
+                            <abbr>賴非</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>書法藝術</head>
+                        <p>二鼓山所刻佛名，超過3米長，是山東境內三個最大的“大空王佛”石刻之一（洪頂山8號和尖山10號）。
+                            這些巨大的佛名有一個共同的風格特徵，即“佛”字的最後兩個豎筆的頂端，形似所謂的“佛手”（見扉頁）。<note>桐谷征一<ref type="biblio" target="Kiriya2003a">71</ref>；北島信一<ref target="Kitajima2003" type="biblio">281</ref>。</note>
+                        </p>
+                        <p>“佛”字的最後一個特長的筆畫，見天池山（天池山1號）的相關介紹。</p>
+                        <ab>
+                            <abbr>溫狄婭</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>Mount Ergu</head>
+                <div>
+                    <head>Space</head>
+                    <div>
+                        <head>Location</head>
+                        <p>Mount Ergu <foreign xml:lang="zh">二鼓山</foreign> is another site in the
+                            Shandong central ranges. The terraced slopes of Mount Ergu rise gently
+                            to the west of Dazhai Valley <foreign xml:lang="zh">大寨谷</foreign>. It is
+                            sited 25 km southwest of the county seat of Pingyin <foreign xml:lang="zh">平陰</foreign>, 47
+                            km southeast of Liaocheng City <foreign xml:lang="zh">聊城市</foreign>, and 24 km
+                            north of the county seat of Dongping <foreign xml:lang="zh">東平</foreign> (map in front endpaper). The foot of Mount Ergu is at an
+                            altitude of 100 m above sea level. Apart from the stone walls terracing
+                            the slope, there has been no recent interference with the inscribed
+                            rock.</p>
+                        <p>Geographically, Mount Ergu is situated 116.2694° east and 36.1011° north
+                            WGS 84. This equals 434240 E (easting) and 3995410 N (northing) on the
+                            meridian 50S UTM. Mount Ergu’s inscription can be found at the east side
+                            of the mountain, facing west (fig. <ptr target="EG_w_3991.JPG"/>). On
+                            the opposite side of Dazhai Valley, 2.1 km to the east, are the
+                            inscription sites of Mount Tianchi <foreign xml:lang="zh">天池山</foreign>
+                            and East Mount Shuyuan <foreign xml:lang="zh">書院東山</foreign> (map, fig.
+                                <ptr target="Map_5_2013_01_29a.jpg"/>). Since the inscriptions of
+                            both sites are facing west-southwest and southwest respectively, they
+                            are within each other’s line of sight. The inscriptions of Mount
+                            Hongding <foreign xml:lang="zh">洪頂山</foreign> are located only 5 km to
+                            the southwest of Mount Ergu, but some mountain ridges block the view
+                            from Mount Ergu to Mount Hongding. Mount Yuncui <foreign xml:lang="zh">雲翠山</foreign> lies 4.7 km to the south-southeast of Mount Ergu. Since its
+                            inscriptions are situated underneath the mountain’s peak and face west,
+                            they may be considered to be in the line of sight from Mount Ergu.
+                            Nevertheless, the dense forest prohibits a clear view. </p>
+                        <ab>
+                            <abbr>TS</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Topography and Spatial Grouping</head>
+                        <p>The inscriptions are situated at the east side of the mountain, on a
+                            section of bedrock sloping slightly toward the south. Terraces have been built into the slope. In 2011, a building was going to be erected over the inscription. When for this purpose
+                            the wall of piled stones abutting the inscription to the north (fig. <ptr target="EG_r_part_DSCF0043.JPG"/>) was removed, five
+                            characters with a date appeared beneath it.</p>
+                        <p>The historical inscription is placed below the Buddha name, and the newly discovered date to its left.</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Place Name</head>
+                        <p>Located to the west of Zhanghai Village <foreign xml:lang="zh">張海村</foreign> of Hongfanchi Township <foreign xml:lang="zh">洪範池鎮</foreign>, the two adjoining mountains look like drums;
+                            therefore the mountain is called “Two Drums Mountain”, Ergu Shan <foreign xml:lang="zh">二鼓山</foreign>.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="EG_w_3991.JPG">
+                            <head>Documentation of the exact location of Mount Ergu’s inscriptions;
+                                photograph taken in 2006</head>
+                            <head xml:lang="zh">測繪二鼓山石刻的確切地理位置，2006年照片</head>
+                            <graphic url="EG_w_3991.JPG"/>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <head>Time</head>
+                    <div>
+                        <head>Related Monasteries</head>
+                        <p>See the introduction to Mount Tianchi <foreign xml:lang="zh">天池山</foreign>.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Related Persons</head>
+                        <p>The names of four donors, namely <hi rend="italic">
+                                <foreign xml:lang="sa">bhikṣu</foreign>
+                            </hi> Sengtai <foreign xml:lang="zh">比丘僧太</foreign>, <hi rend="italic">
+                                <foreign xml:lang="sa">bhikṣu</foreign>
+                            </hi> Daoyong <foreign xml:lang="zh">比丘道顒</foreign>, Seng Anyi <foreign xml:lang="zh">僧安一</foreign>, and Cheng Boren <foreign xml:lang="zh">程伯仁</foreign>, are recorded in the colophon located beneath the
+                            carved Buddha name, “Buddha King of Great Emptiness”. Sengtai <foreign xml:lang="zh">僧太</foreign>, and possibly Daoyong <foreign xml:lang="zh">道顒</foreign> are also known from
+                            the colophon at Mount Yuncui <foreign xml:lang="zh">雲翠山</foreign>
+                            (YC 2). </p>
+                        <p>Apparently, a group of monks, probably from Chongfan Monastery <foreign xml:lang="zh">崇梵寺</foreign>, was active in the area of today’s
+                            Pingyin County and created smaller scale inscriptions at Mount Ergu and
+                            Mount Yuncui, and perhaps at other sites as well.<note>
+                                <ref type="biblio" target="LaiFei2003c">107</ref>.</note>
+                        </p>
+                        <p>The identity of the third name appearing in the colophon, reading “Seng
+                            Anyi”, is debated. While it may simply read “Venerable Anyi”, most authors prefer to identify it with the Great Renunciant Seng’an Daoyi
+                                <foreign xml:lang="zh">僧安道壹</foreign> (fl. 562-579), known from
+                            Mount Hongding <foreign xml:lang="zh">洪頂山</foreign>, Mount Tie <foreign xml:lang="zh">鐵山</foreign>, and Mount Jian <foreign xml:lang="zh">尖山</foreign>.<note>
+                                <ref target="Kiriya2003a" type="biblio">51, 74</ref>; <ref target="LaiFei2003c" type="biblio">126</ref>; <ref target="LiuTao2003a" type="biblio">238</ref>; <ref target="Takuma2003" type="biblio">188</ref>; <ref target="XuHongguo2003" type="biblio">245</ref>.</note>
+                        </p>
+                        <p>The fourth name, Cheng Boren <foreign xml:lang="zh">程伯仁</foreign>,
+                            is that of a layperson, about whom nothing else is known.</p>
+                        <ab>
+                            <abbr>LL, TSL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Dating</head>
+                        <p>The inscription is dated to 562, the first year of the <hi rend="italic">heqing</hi> era
+                                <foreign xml:lang="zh">河清元年</foreign>. Before the carved date came
+                            to light, the inscription was generally dated to the Northern Qi dynasty
+                            (550-574) based on the calligraphic style. Those authors who connected
+                            the inscription to the monk Seng’an Daoyi, assigned Mount Ergu’s Buddha
+                            name to an early period of this monk’s works, which they had dated to somewhat earlier than 564.<note>
+                                <ref target="Kiriya2003a" type="biblio">51, 74</ref>; <ref target="LaiFei2003c" type="biblio">107</ref>.</note> The
+                            discovery of the inscription has confirmed the early dating.</p>
+                        <ab>
+                            <abbr>LL, TSL</abbr>
+                        </ab>
+                    </div>
+                    <div>
+                        <head>Research History</head>
+                        <p>Research on Mount Ergu is primarily found in the second volume of <title>
+                                <hi rend="italic">Research on the Sutras Engraved on Polished Cliffs of the Northern Dynasties </hi> (<hi rend="italic">Beichao moya kejing yanjiu
+                                    [xu] </hi>
+                                <foreign xml:lang="zh">北朝摩崖刻經研究(續)</foreign>)</title>. In this
+                            volume from 2003, the site is mentioned several times, and the identity
+                            of the monks mentioned in the colophon is discussed. In the third volume
+                            of <title>
+                                <hi rend="italic">Research on the Sutras Engraved on Polished Cliffs of the Northern Dynasties</hi>
+                            </title> from 2006, Yang Hao <foreign xml:lang="zh">楊浩</foreign> gives
+                            another short description of the site.<note>
+                                <ref target="Yang_Hao2006b" type="biblio">174</ref>.</note> The date
+                            corresponding to 562 was discovered in 2011. </p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+                <div>
+                    <head>Inscriptions</head>
+                    <div>
+                        <head>Inventory</head>
+                        <p>One Buddha name (EG 1) and two historical inscriptions (EG 2, EG 3).</p>
+                    </div>
+                    <div>
+                        <head>Buddha Name</head>
+                        <div>
+                            <head>EG 1</head>
+                            <p>For the “Buddha King of Great Emptiness” see the
+                                relevant introduction on Mount Hongding’s <foreign xml:lang="zh">洪頂山</foreign> Buddha names. For all occurrences of this name in
+                                Shandong Province see HDS 8, discussion. </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Historical Inscriptions</head>
+                        <div>
+                            <head>EG 2</head>
+                            <p>The first historical inscription consists of the names of three monks and one layperson (fig. <ptr target="EG_r_2_part_4022-2.jpg"/>). No place of origin is given. </p>
+                            <ab>
+                                <abbr>CW</abbr>
+                            </ab>
+                        </div>
+                        <div>
+                            <head>EG 3</head>
+                            <p>The second historical inscription consists of five characters giving
+                                the date 562. </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>Carving Techniques</head>
+                        <p>The technique is mainly the rectangular U-shaped carving. The carver chisels slanting
+                            lines from both sides of a stroke, so that the lines intersect and the
+                            stroke naturally takes shape.</p>
+                        <ab>
+                            <abbr>LF</abbr>
+                        </ab>
+                        <figure rend="center" xml:id="EG_r_2_part_4022-2.jpg">
+                            <head>Detail of EG 2; photograph taken in 2006</head>
+                            <head xml:lang="zh">二鼓山2號摩崖局部，2006年照片</head>
+                            <graphic url="EG_r_2_part_4022-2.jpg"/>
+                        </figure>
+                    </div>
+                    <div>
+                        <head>Style of Calligraphy</head>
+                        <p>The Buddha name of Mount Ergu, measuring more than three meters in height, is one
+                            of three examples of giant sized names of the “Buddha King
+                            of Great Emptiness” carved in Shandong (HDS 8 and JS 10). They
+                            share the stylistic feature of shaping the top ends of the last two
+                            vertical strokes of the character <hi rend="italic">fo</hi>
+                            <foreign xml:lang="zh">佛</foreign> in a certain way, which has been
+                            described as “hands of the Buddha” (see frontispiece).<note>
+                                <ref type="biblio" target="Kiriya2003a">71</ref>; <ref type="biblio" target="Kitajima2003">281</ref>.</note>
+                        </p>
+                        <p>For the last stroke of the character for “Buddha” <foreign xml:lang="zh">佛</foreign>, see the relevant introduction to Mount Tianchi
+                                <foreign xml:lang="zh">天池山</foreign> (TC 1).</p>
+                        <ab>
+                            <abbr>CW</abbr>
+                        </ab>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

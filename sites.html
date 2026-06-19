@@ -6,6 +6,48 @@
     <title>Epiwen · Sites</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
+    <style>
+      /* ── Tree ── */
+      .tree { font-size: .9rem; line-height: 1.5; }
+      .tree-row {
+        display: flex; align-items: baseline; gap: .3rem;
+        padding: .08rem 0; cursor: pointer; border-radius: 3px;
+      }
+      .tree-row:hover { background: var(--bg-subtle, #f2f5fb); }
+      .tree-row.selected { background: var(--accent-light, #e7eeff); }
+      .tree-caret {
+        flex: 0 0 1rem; text-align: center; color: var(--text-muted, #888);
+        font-size: .7rem; user-select: none; transition: transform .12s;
+      }
+      .tree-caret.open { transform: rotate(90deg); }
+      .tree-caret.leaf { visibility: hidden; }
+      .tree-label-zh { color: var(--text-muted, #777); margin-left: .25rem; }
+      .tree-id { color: var(--text-muted, #aaa); font-size: .78em; margin-left: .3rem; }
+      .tree-children { margin-left: 1rem; display: none; }
+      .tree-children.open { display: block; }
+      .tree-section > .tree-row { font-weight: 600; color: var(--text-strong, #334); }
+      .tree-sigla {
+        display: block; margin: 0 0 .15rem 2.3rem;
+        font-size: .8em; color: var(--text-muted, #888); word-break: break-word;
+      }
+      .badge-desc {
+        font-size: .68rem; border: 1px solid var(--accent, #6680cc); color: var(--accent, #6680cc);
+        border-radius: 8px; padding: 0 .35rem; margin-left: .35rem; line-height: 1.4;
+      }
+      /* ── Detail ── */
+      .view-toggle-btn.active { background: var(--accent, #6680cc); color: #fff; }
+      .detail-dl { display: grid; grid-template-columns: max-content 1fr; gap: .25rem .8rem; margin: .3rem 0 1rem; }
+      .detail-dl dt { color: var(--text-muted, #888); font-size: .85em; }
+      .detail-dl dd { margin: 0; }
+      .prose-body { line-height: 1.6; }
+      .prose-body h3, .prose-body h4 { margin: 1rem 0 .35rem; }
+      .prose-body .foreign { font-style: italic; }
+      .prose-body .term { border-bottom: 1px dotted var(--border, #bbb); }
+      .prose-xml, .site-xml { margin: 0; padding: .7rem; overflow: auto; font-size: .76rem;
+        background: var(--bg-subtle, #f7f9fc); border-radius: 4px; }
+      .detail-section-head { font-weight: 600; font-size: .82em; text-transform: uppercase;
+        letter-spacing: .04em; color: var(--text-muted, #888); margin: 1.1rem 0 .4rem; }
+    </style>
   </head>
   <body>
     <header class="topbar">
@@ -13,9 +55,9 @@
         <a href="catalog.html" class="brand-home">Epiwen</a>
       </div>
       <nav class="sitenav">
-        <a href="catalog.html"                  class="sitenav-link" data-tab="objects">Objects</a>
-        <a href="catalog.html?tab=inscriptions"  class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
-        <a href="catalog.html?tab=rubbings"     class="sitenav-link" data-tab="rubbings">Rubbings</a>
+        <a href="catalog.html"                  class="sitenav-link">Objects</a>
+        <a href="catalog.html?tab=inscriptions"  class="sitenav-link">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"     class="sitenav-link">Rubbings</a>
         <a href="sites.html"                    class="sitenav-link active">Sites</a>
         <a href="authorities.html"              class="sitenav-link">Authorities</a>
         <a href="bibliography.html"             class="sitenav-link">Bibliography</a>
@@ -24,25 +66,37 @@
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
-    <main class="docs-pane">
+    <div class="about-layout">
 
-      <section class="about-hero">
-        <h1>Sites</h1>
-        <p>
-          Site records for the monument complexes that bear the inscriptions —
-          cliff-carved sutra sites, sutra stele sites, cave-temple complexes,
-          and mountain sites across North China. Each site groups the objects
-          and inscriptions physically located there.
-        </p>
-        <p class="coming-soon">
-          Site browser coming soon.
-        </p>
-        <p style="margin-top:1rem">
-          <a href="site-editor.html" class="btn primary">+ New site</a>
-        </p>
-      </section>
+      <!-- ── Tree pane ── -->
+      <div class="about-pane">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2>Sites <span id="site-count" class="catalog-date" style="font-weight:normal;font-size:.85em"></span></h2>
+            <div class="catalog-head-actions">
+              <input type="search" id="site-search" class="catalog-searchbox"
+                     placeholder="Filter sites…" aria-label="filter sites" />
+              <a href="site-editor.html" class="btn small primary">+ New</a>
+            </div>
+          </div>
+          <div id="site-tree" class="tree"></div>
+        </section>
+      </div>
 
-    </main>
+      <!-- ── Detail pane ── -->
+      <div class="catalog-preview" id="site-detail-panel">
+        <div class="preview-head">
+          <span id="preview-title">Select a site</span>
+          <div class="preview-head-right">
+            <button id="view-html" class="btn small view-toggle-btn active">HTML</button>
+            <button id="view-xml"  class="btn small view-toggle-btn">XML</button>
+            <a id="site-edit-link" class="btn small" style="display:none">Edit</a>
+          </div>
+        </div>
+        <div id="site-detail" class="hp-pane" style="padding:.9rem"></div>
+      </div>
+
+    </div>
 
     <footer class="foot">
       Source:
@@ -51,6 +105,7 @@
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="sites-browser.js"></script>
     <script src="modal.js"></script>
   </body>
 </html>
