@@ -193,6 +193,8 @@
       })
       .then(function () {
         toast((isNew ? "Added" : "Updated") + ": " + filename);
+        // Cache fresh XML so the catalog bypasses stale CDN content on next load
+        try { sessionStorage.setItem("epiwen_fresh:" + filename, xml); } catch (e) {}
         setBtnState(false);
         if (onDone) onDone();
       })

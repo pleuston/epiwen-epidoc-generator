@@ -537,7 +537,11 @@
           renderCatalog(records);
         }
         xmlFiles.forEach(function (f) {
-          rawFetch(RAW + f.name)
+          // Use locally-cached fresh XML if the user just saved this file from the editor;
+          // otherwise fetch from GitHub raw (which may lag the CDN by several minutes).
+          var fresh = sessionStorage.getItem("epiwen_fresh:" + f.name);
+          var fetchPromise = fresh ? Promise.resolve(fresh) : rawFetch(RAW + f.name);
+          fetchPromise
             .then(function (xml) { records.push(parseRecord(f.name, xml)); })
             .catch(function () {})
             .then(function () { remaining -= 1; if (!remaining) done(); });
