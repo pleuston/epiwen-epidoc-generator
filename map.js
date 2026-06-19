@@ -40,6 +40,18 @@
     );
   }
 
+  // 左图右史 / OSGeo.cn — transparent period maps (boundaries, places, rivers).
+  var OSGEO_ATTR = '<a href="https://history-map.osgeo.cn" target="_blank" rel="noopener">左图右史</a> · OSGeo.cn';
+  function osgeo(uid, z) {
+    return L.tileLayer(
+      "https://tile.osgeo.cn/wmts/" + uid + "/webmercator/{z}/{x}/{y}.png",
+      // tile.osgeo.cn hotlink-protects by Referer (302s foreign referrers but
+      // serves no-referrer requests) — so suppress the Referer header.
+      { maxNativeZoom: 8, maxZoom: 18, opacity: 0.85, zIndex: z || 7,
+        referrerPolicy: "no-referrer", attribution: OSGEO_ATTR }
+    );
+  }
+
   // The atlas, chronologically (id, label)
   var DYNASTIES = [
     ["bc0210", "Qin · 210 BCE"],            ["bc0007", "W. Han · 7 BCE"],
@@ -93,7 +105,13 @@
     var overlays = {
       "Sites": cluster,
       "Tang circuits &amp; prefectures": ccts("Tang_Admin", { zIndex: 5 }),
-      "Tang traffic routes": ccts("Tang_TrafficRoute", { zIndex: 6 })
+      "Tang traffic routes": ccts("Tang_TrafficRoute", { zIndex: 6 }),
+      // 左图右史 / OSGeo.cn — period maps for the stone-sutra (Northern dynasties) era
+      "E. Wei 東魏 (557 era)": osgeo("mp03c5", 7),
+      "W. Wei 西魏 (557 era)": osgeo("mp03c6", 8),
+      "N. Qi 北齊": osgeo("mp03c7", 9),
+      "N. Zhou 北周": osgeo("mp03c8", 10),
+      "Chen · N.Qi · N.Zhou 557": osgeo("mp0394", 11)
     };
 
     L.control.layers(baseLayers, overlays, { collapsed: true }).addTo(map);
