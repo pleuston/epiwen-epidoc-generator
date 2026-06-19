@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hawkes1959" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Ch’u Tz’ŭ: The Songs of the South, an Ancient Chinese Anthology</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chuci (Hawkes) 1959</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hawkes" type="personal">
+        <namePart type="family">Hawkes</namePart>
+        <namePart type="given">David</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Clarendon Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Oxford</placeTerm>
+        </place>
+        <dateIssued>1959</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

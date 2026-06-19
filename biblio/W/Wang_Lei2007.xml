@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wang_Lei2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ayuwang xiang de chubu kaocha</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>阿育王像的初步考察</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Investigation of <hi rend="italic">
+                <foreign lang="sa">Aśoka</foreign>
+            </hi> Images</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Jianping and Lei Yuhua 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjianping" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Jianping</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">剑平</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉华</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Aśoka images are images of Buddha Śākyamuni said to have been made by king Aśoka. The earliest of these images in China date back to the Jin dynasty, but they have been produced at least until the Tang 
+        dynasty, when Gaozong in 659 decreed that an Aśoka image in his likeness was made (T#2106, 52:407a18-19).  These images have a clearly discernable iconography, and their style preserves influences 
+        of the art of Gandhara. Wang and Lei examine first Chinese text sources about Aśoka images (mainly found in Huijiao’s 慧皎Gaosengzhuan 高僧傳, Daoxuan’s道宣(596-667) Xu gaosengzhuan,  and his 
+        Assembled Records of Response of the Three Jewels in the Spiritual Realm (i. e. China) (Ji shenzhou sanbao gantong lu集神州三寶感通錄, T#2106, 52: 404-435). For illuminating the legends around the 
+        Aśoka images, Wang and Lei quote in detail from the biographies of monk Huida 慧達  (T#2059, 50:409b29-c3), monk  Tanyi  曇翼 , monk Huiyuan 慧遠 , monk Sengming 僧明 (T#2060, 50:692a03-694a14) and 
+        monk Mingyu 明馭   (T#2060, 50: 674b29-c22, who send the renshou relics to Chongfansi in Jizhou 济州崇梵寺, where an Aśoka image was housed). The most famous of all Aśoka images is that of 
+        Changgansi 長干寺. Its story is found in the Assembled Records of Response of the Three Jewels in the Spiritual Realm (T#2106, 52:414a26-c17).  This is the image that was finally taken from 
+        Changgansi to Daxingshansi 大興善寺 in Chang’an when the Sui dynasty was established.  From these records, the authors like to extract the following historical facts: Five monks from the western regions 
+        travelled to India and received an Aśoka image. On their way to the capital Ye they got in trouble and hid it on a river bank. Therefore, the dissemination route of the Aśoka image runs from India via 
+        the western regions, entering the Central Plains of China and eventually spreading down the Lower Yangtzi area.  Furthermore, the Aśoka image developed in several stages: First, a bronze lotus pedestal 
+        was added, and in the first year of Xian’an era (371) the image was completed with a halo that Liang Wudi supplemented with seven apsaras and two bodhisattvas. During the era Zhide (583-586), a square 
+        pedestal was added, and a brocade hat (?) 锦帽 on top of the crown made of seven jewels 七宝冠. Under Sui Wendi, a sitting image was made on the basis of the standing one.  According to a report in 
+        X#1623, 87:244c7-9, monk Tanyi came to Sichuan, where an Aśoka icon performed the miracle of shedding tears in times of famine.  In Xi’an lu in Chengdu, an Aśoka image was unearthed that is dated by 
+        its votive inscription to the year 551. Seven more statues or parts of them from the Xiao and Liang of the Southern Dynasties to the Northern Zhou dynasty can be found in Wanfosi. The iconography of the 
+        Aśoka images is characterized by a very high usnisa, moustache, almond shaped eyes, a kasaya covering both shoulders, U-shaped folds of the kasaya, the left hand holding a stack of folding, the right hand 
+        showing the mudra of fearlessness.  The authors relate these images to the art of Gandhara, and identify more images of this type in Longmen (west hill, Tangzidong 唐字洞,upper part of west wall, donation of 
+        nun Jingming of Jingfusi 唐代净福寺比丘尼净命with inscription; and on the 
+        cliff above Huijiandong惠简洞  a niche with two standing figures to the left and right), and in Dunhuang (cave 323, inner cave, south wall, mural of东晋杨都金像出渚的感应事迹), as well as one in Bazhong (巴中南龕83號窟).</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xinanminzudaxuexuebao" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xi’nan minzu daxue xuebao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>西南民族大學學報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="no">193</detail>
+            <extent unit="page">
+                <start>65</start>
+                <end>69</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

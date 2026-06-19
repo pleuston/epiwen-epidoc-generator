@@ -1,0 +1,83 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yidujinshiji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yidu jinshi ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>益都金石記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of epigraphica from Yidu</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>益都</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Yidu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yidu jinshi ji">
+        <title>Yidu jinshi ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#duansongling" type="personal">
+        <namePart lang="zh" type="family">段</namePart>
+        <namePart lang="zh" type="given">松苓</namePart>
+        <namePart transliteration="pinyin" type="family">Duan</namePart>
+        <namePart transliteration="pinyin" type="given">Songling</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>4 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">4</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1883</dateIssued>
+        <edition>乾           隆
+            八
+            十
+            年
+            乙
+            卯
+            歲
+            秋
+            九
+            月
+            十
+            五
+            日
+            偃
+            師
+            武
+            億
+            序           
+            、朱　
+            文　
+            藻　
+            　序
+       </edition>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>20</number>
+            </detail>
+            <extent unit="page">
+                <start>14803</start>
+                <end>14895</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

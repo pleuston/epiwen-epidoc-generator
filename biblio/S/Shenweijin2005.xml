@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shenweijin2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei Qi: lishu Tai Shan <hi rend="normal">Jingang Jing</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北齊·<!--·-->隸書泰山金剛經</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The <hi rend="italic">Diamond Sutra</hi> in Clerical Script of the Northern Qi Dynasty at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shen Wei­jin 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shenweijin" type="personal">
+        <namePart lang="zh" type="family">沈</namePart>
+        <namePart lang="zh" type="given">維進</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>Shen Weijin aligns the rubbings in text sequence. However, his collection is incomplete, and he publisheds less rubbings than we do. He also offers a transcription (64-69), which is rather accurate, in abbreviated characters, but punctuated. He supplies notes to his transcription, which explain the contents of the sutra. On p. 79-80, he gives a nice overview of historical and modern countings of the total number of characters and columns, describing his own discoveries of characters. When speculating about the dating of the carving, he describes many Shandong sutra carvings, at Mount Hongding, Mount Tie, Munt Jian, Mount Culai, saying that that at Mount Tai was also done under the Northern Qi dynasty. He offers a so far unheard argument about why these carving activities flourished under the Northern Qi (p. 82): The Northern Qi people saw how, under the neighboring Northern Zhou dynasty, Buddhism, and, in particular, hand-written Buddhist scriptures were threatened and finally destroyed; thus they started to carve them into stone. Shen thinks that the Mount Tai carving was not finished because of the onsetting Buddhist persecution in 577. 
+    He holds that An Daoyi is the calligrapher of the Diamong Sutra. He then continues with a nmore detailed description of the calligraphic features of the Mount Tai characters.</abstract>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+            <placeTerm lang="zh">南京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Jiangsu meishu chubanshe</namePart>
+                <namePart lang="zh">江蘇美術出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhonghua guibao" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Zhonghua guibao: Tai Shan beike jingdian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中華瑰寶·泰山碑刻經典</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

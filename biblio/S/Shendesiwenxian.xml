@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shendesiwenxian" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shaanxi Shende Si ta chutu wenxian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>陝西神德寺塔出土文獻</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Excavated Documents from Shende Pagoda, Shaanxi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shende Si 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangzheng" type="personal">
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">征</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Zheng</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangxuemei" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">雪梅</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Xuemei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>4 vols.</extension>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+            <placeTerm lang="zh">南京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fenghuang chubanshe</namePart>
+                <namePart lang="zh">鳳凰出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

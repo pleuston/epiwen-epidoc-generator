@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nakamura1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Iwanami Bukkyō jiten</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>岩波佛教辞典</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakamura 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakamura" type="personal">
+        <namePart transliteration="romaji" type="family">Nakamura</namePart>
+        <namePart transliteration="romaji" type="given">Hajime</namePart>
+        <namePart lang="ja" type="family">中村</namePart>
+        <namePart lang="ja" type="given">元</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1989</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

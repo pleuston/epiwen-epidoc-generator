@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shishuoxinyu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shishuo xinyu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>世説新語</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A New Account of Tales of the World</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shishuo xinyu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuyiqing" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">義慶</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qianzhenmin" type="personal">
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">振民</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Changsha</placeTerm>
+            <placeTerm lang="zh">長沙</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yuelu shushe</namePart>
+                <namePart lang="zh">岳麓書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kroll1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Lexical Landscapes and Textual Mountains in the High T’ang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kroll 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kroll" type="personal">
+        <namePart lang="en" type="family">Kroll</namePart>
+        <namePart lang="en" type="given">Paul W.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>The subject of sacred geographie has been flourishing for some time, rivaling perennial topics like Wang Wei’s "nature poetry" of Liu Zongyuan’s 柳宗元 (773-819) "landscape essys". "Nature poetry" - an unrefelecting tag of no critical value. "... the religious potency of the living world, taken so much for granted by te men of the T’ang...". The "most prominent features of the chinese landscape are not merely natural, but numinous, objects". 
+    Xuanzong’s "extreme ... concern for honoring ... the powers of his realm’s supreme mountains and rivers, evident in the new titles and enfeoffments bestowed during his reign on each of the Five Marchmounts..., Four Conduits ..., Four Holdweights..., Four Seas, and other assorted alpine and fluvial divinities."
+    "... the chief conceptual role of state officials in medieval times was as representatives of the state cult, the Confusion tao, centered on the "Son of Heaven"--not as political placemen." Bureaucrats as religious emissaries, controlling "irregular cults" yinci 淫祠, with a duty to "transform by instruction" jiaohua 教化.
+    "...the functional activities of the warranted Confucian official and those of the ordained Taoist priest share so many similarities in medieval times..."
+    "... the map of T’ang sacred geography we obtain when we overlay the imperially recognized Marchmounts, Conduits, etc., with the contemporary Taoist scheme of the ten major and thirty-six lesser grotto-heavens, and seventy-two "favored lands" (fu-ti 福地), codified .... by the great prelate Ssu-ma Ch’eng-chen 司馬承禎 (647-735).."
+    Realized Ones 真人(in contrast to mere gods of mountain and groves 山林之神) take seat in grotto archives dongfu 洞府
+    "... landscape was not ... simply a matter of terrestrial geography": System of the apportioned countrysides fenye 分野 pairs geographical and political divisions with corresponding sky sectors. "The Taoist view ... could see earthly landscapes as representations and, in some respects, containers of celestial phenomena--just as the huamn body could itself be regarded as a microcosm..." "... to ... I-hsing 一行 (683-727) ... goes the honor of perfecting a fully worked-out system that added to the old fen-yeh template a finer correlation with the twenty-eight "lunar lodgings" (hsiu 宿) that had earlier been imported from Indian astronomy."
+    Li Bo, writing on the waterfall at Mount lu 廬山. Kroll uses Sheet of Spray as translation for waterfall 瀑布. At Mount Lu, the famous waterfall is always portrayed as facing Insence Burner Peak 香爐峰.
+    "... the great selecting and synthesizing principle of Nature", the "Shaper of Mutations".
+    When Li Bo wrote his poem on the Mount Lu waterfall, "... a lexical loop has been activated, such that these lines from Chih T’an-ti’s fu have affected, in small part, how Li Po is disposed to view and represent the scene."
+    "... the so-called "nature poetry" of Wang Wei 王維 (701-61), for example, consists largely of generic imagery, founded on a relatively restricted vocabulary, that presents little in the way of visual particularity." "... the imperatives of shih composition are a push toward the suggestive arrangement of a selected few images rather than a punctilious depiction of scene."
+    "The notion of the landscape--cosmic or terrestrial--as a grand text for decipherment is classically embodied in the myth of Fu-hsi inventing the eight trigrams of the <hi rend="italic">I ching</hi> through observation of the figures (<foreign xml:lang="zh">象</foreign>) and exempla (<foreign xml:lang="zh">法</foreign>) of heaven and earth, and the markings (<foreign xml:lang="zh">文</foreign>) of birds and beasts."
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ToungPao" type="host">
+        <titleInfo lang="en">
+            <title>T’oung Pao</title>
+        </titleInfo><!--titleInfo transliteration="pinyin">
+            <title>T’oung Pao: Revue internationale de sinologie</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>通報</title>
+        </titleInfo-->
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1998</date>
+            <detail type="volume">84</detail>
+            <detail type="no">1-3</detail>
+            <extent unit="page">
+                <start>62</start>
+                <end>101</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Abe_R1999">
+  <titleInfo lang="en">
+      <title>The Weaving of Mantra: Kūkai and the Construction of Esoteric Buddhist Discourse</title>
+  </titleInfo>
+  <titleInfo type="reference">
+      <title>Abé 1999</title>
+  </titleInfo>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#abe_ryuichi" type="personal">
+    <namePart lang="en" type="family">Abé</namePart>
+    <namePart lang="en" type="given">Ryūichi</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued>1999</dateIssued>
+    <place>
+      <placeTerm>New York</placeTerm>
+    </place>
+    <publisher>
+      <name type="corporate">
+        <namePart lang="en">Columbia University Press</namePart>
+      </name>
+    </publisher>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

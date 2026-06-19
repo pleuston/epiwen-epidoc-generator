@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZengLizhen2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>敦煌現實護類佛教疑僞經研究<hi rend="dash">──</hi>以《解怨經》《消栽經》《救疾經》爲中心</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang xianshi hulei Fojiao yiwei jing yanjiu—yi ‘Jieyuan Jing’‘Xiaozai Jing’‘Jiuji Jing’ wei zhongxin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of Practical Protective Apocryphal Buddhist Sutras—with a Focus on the <hi rend="italic">Sutra for Ending Hostilities</hi>, <hi rend="italic">Sutra for Dispelling Calamities</hi>, the <hi rend="italic">Sutra for Rescue from Illness</hi> </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zeng Lizhen 2022</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zenglizhen" type="personal">
+        <namePart lang="zh" type="family">曾</namePart>
+        <namePart lang="zh" type="given">麗珍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master thesis <foreign lang="zh">碩士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm lang="zh">四川大學</placeTerm>
+            <placeTerm transliteration="pinyin">Sichuan daxue</placeTerm>
+        </place>
+    </originInfo>
+</mods>

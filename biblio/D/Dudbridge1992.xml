@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dudbridge1992" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Women Pilgrims to T’ai Shan: Some Pages from a Seventeenth-Century Novel</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dudbridge 1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dudbridge" type="personal">
+        <namePart lang="en" type="family">Dudbridge</namePart>
+        <namePart lang="en" type="given">Glen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Naquin1992" type="host">
+        <titleInfo lang="en">
+            <title>Pilgrims and Sacred Sites in China</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>39</start>
+                <end>64</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

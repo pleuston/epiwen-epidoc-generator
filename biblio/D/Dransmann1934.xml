@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dransmann1934" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Täschan-Tschüfu Führer, T’aishan-Küfow Guide, Tai Shan Qufu zhinan <foreign lang="zh">泰山曲阜指南</foreign></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dransmann 1934</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dransmann" type="personal">
+        <namePart lang="de" type="family">Dransmann</namePart>
+        <namePart lang="de" type="given">Ferdinand</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>Yenchowfu</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Missionsdruckerei, Cath. Miss. Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1934</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

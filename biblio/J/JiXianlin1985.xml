@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="JiXianlin1985">
+            <titleInfo lang="zh">
+                        <title>大唐西域記校注</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Da Tang xiyouji jiaozhu</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="en">
+                        <title>Record of the Great Tang About the Western Regions by Xuanzang (c.600-660) with Commentary</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Ji Xian­lin 1985</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#jixianlin">
+                        <namePart lang="zh" type="family">季</namePart>
+                        <namePart lang="zh" type="given">羨林</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1985</dateIssued>
+                        <place>
+                            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                                    <placeTerm lang="zh">北京</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart transliteration="pinyin">Zhonghua
+                                                  shuju</namePart>
+                                                <namePart lang="zh">中華書局</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

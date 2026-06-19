@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hirata2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>隋唐帝国形成期における軍事と外交</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Zui-Tō teikoku keiseiki ni okeru gunji to gaikō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Military and Diplomacy During the Formative Period of the Sui and Tang Empires</title>
+    </titleInfo>
+    <abstract>Chinese Title: 隋唐帝國形成階段的軍事與外交 (Sui Tang diguo xingcheng jieduan de junshi yu waijiao)</abstract>
+    <titleInfo type="reference">
+        <title>Hirata 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hirata" type="personal">
+        <namePart transliteration="romaji" type="family">Hirata</namePart>
+        <namePart transliteration="romaji" type="given">Yōichirō</namePart>
+        <namePart lang="ja" type="family">平田</namePart>
+        <namePart lang="ja" type="given">陽一郎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyūko shoin</namePart>
+                <namePart lang="ja">汲古書院</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign lang="ja">Kyūko sōsho </foreign>
+                <foreign lang="zh">汲古叢書</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>165</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

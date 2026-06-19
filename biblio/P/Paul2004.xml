@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Paul2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo lang="en">
+                <title>The Sutra of Queen Śrīmālā of the Lion’s Roar. Translated from the Chinese
+                        (Taishō Volume 12, Number 353)</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Paul 2004</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#paul" type="personal">
+                <namePart type="family">Paul</namePart>
+                <namePart type="given">Diana Y.</namePart>
+                <role>
+                        <roleTerm>translator</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>2004</dateIssued>
+                <place>
+                        <placeTerm>Berkeley</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="en">Bukkyō Dendō Kyōkai and Numata Center for
+                                        Buddhist Translation and Research</namePart>
+                        </name>
+                </publisher>
+                <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+                <titleInfo lang="en">
+                        <title>BDK English Tripiṭaka 20-I, 26-I</title>
+                </titleInfo>
+                <part>
+                        <extent unit="pages">
+                                <start>3</start>
+                                <end>61</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

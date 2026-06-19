@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ningen_bunka" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>人間文化研究所年報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ningen bunka kenkyūjo nenpō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annual Report of the Humanities Research Institute Chikushi Jogakuen University</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chikushi_ningen_bunka" type="corporate">
+        <namePart lang="ja">筑紫女学園大学人間文化研究所</namePart>
+        <namePart transliteration="romaji">Chikushi jogakuen daigaku Ningen bunka kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2016-</dateIssued>
+        <dateIssued encoding="marc" point="start">2016</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Dazaifu</placeTerm>
+            <placeTerm lang="ja">大宰府</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chikushi jogakuen daigaku Ningen bunka kenkyūjo</namePart>
+                <namePart lang="ja">筑紫女学園大学人間文化研究所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

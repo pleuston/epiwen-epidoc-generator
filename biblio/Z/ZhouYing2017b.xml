@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhouying2017b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山詩歌的歷史演進：讀《全泰山詩》</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan shige de lishi yanjin: du <hi rend="italic">Quan Tai Shan shi</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Historical Evolution of Poems about Mount Tai: Reading <hi rend="italic">A Complete Collection of the Poems of Mount Tai <!--The Complete Poems about Mount Tai --></hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2017b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart type="family" transliteration="other">Zhou</namePart>
+        <namePart type="given" transliteration="other">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Zhouying2017" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Bixia xinyang yu Taishan wenhua</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>碧霞信仰與泰山文化</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Belief in the Lady of the Azure Clouds and the Culture of Mount Tai</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2017</date>
+            <extent unit="page">
+                <start>322</start>
+                <end>332</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

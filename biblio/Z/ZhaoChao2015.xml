@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhaoChao2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qie er bu she: Zhongguo gudai shike yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鍥而不捨：中國古代石刻研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chiselling Relentlessly: Research on Ancient Chinese Stone Carvings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao Chao 2015</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="ja" oXygen2:href="#zhaochao" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Chao</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">超</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taiyuan</placeTerm>
+            <placeTerm lang="zh">太原</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Sanjin chubanshe</namePart>
+                <namePart lang="zh">三晋出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

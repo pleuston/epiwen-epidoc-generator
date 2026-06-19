@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wanghongli2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo jinshixue shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國金石學史</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A History of Chinese Epigraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Hongli 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wanghongli" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">宏理</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Hongli</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Huadong shifan daxue chubanshe</namePart>
+                <namePart lang="zh">華東師範大學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

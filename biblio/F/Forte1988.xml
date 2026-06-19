@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Forte1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Mingtang and Buddhist Utopias in the History of the Astronomical Clock: The Tower,
+            Statue and Armillary Sphere Constructed by Empress Wu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Forte 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#forte" type="personal">
+        <namePart lang="it" type="family">Forte</namePart>
+        <namePart lang="it" type="given">Antonino</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm>Roma and </placeTerm>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Istituto Italiano per il Medio ed Estreme Oriente and </namePart>
+                <namePart lang="fr">École Française d’Éxtrême-Orient</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo lang="it">
+            <title>Serie Orientale Roma</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">LIX</detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo lang="fr">
+            <title>Publications de l’École Française d’Éxtrême-Orient</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>CXLV</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

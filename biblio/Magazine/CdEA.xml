@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CdEA" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Cahiers d’Extrême-Asie</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#verellen" type="personal">
+        <namePart lang="en" type="family">Verellen</namePart>
+        <namePart lang="en" type="given">Franciscus</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Ecole</namePart>
+            </name>
+        </publisher>
+        <dateIssued encoding="marc" point="start">1985</dateIssued>
+        <dateIssued/>
+        <issuance>continuing</issuance>
+        <frequency>annual</frequency>
+    </originInfo>
+    <language>
+        <languageTerm>france, english</languageTerm>
+    </language>
+    <physicalDescription>print</physicalDescription>
+</mods>

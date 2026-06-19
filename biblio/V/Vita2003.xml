@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Vita2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo lang="en">
+                                <title>Printings of the Buddhist ‘Canon’ in Modern Japan</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Vita 2003</title>
+                </titleInfo>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#vita" type="personal">
+                                <namePart lang="fr" type="family">Vita</namePart>
+                                <namePart lang="fr" type="given">Silvio</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <originInfo>
+                                <dateIssued>2003</dateIssued>
+                </originInfo>
+                <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Verardi_Vita2003" type="host">
+                                <titleInfo lang="en">
+                                                <title>Buddhist Asia 1. Papers from the First
+                                                  Conference of Buddhist Studies Held in Naples in
+                                                  May 2001</title>
+                                </titleInfo>
+                                <name ns2:href="#verardi" type="personal">
+                                                <namePart lang="it" type="family">Verardi</namePart>
+                                                <namePart lang="it" type="given">Giovanni</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <name ns2:href="#vita" type="personal">
+                                                <namePart lang="it" type="family">Vita</namePart>
+                                                <namePart lang="it" type="given">Silvio</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <originInfo>
+                                                <issuance>monographic</issuance>
+                                </originInfo>
+                                <part>
+                                                <extent unit="page">
+                                                  <start>217</start>
+                                                  <end>245</end>
+                                                </extent>
+                                </part>
+                </relatedItem>
+</mods>

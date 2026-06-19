@@ -1,0 +1,82 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lai_Hu2006b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beichao Fojiao kejingbei xingzhi qianyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北朝佛教刻經碑形制淺議</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Discussion on the Formats of Buddhist Steles with Engraved Sutras of the Northern Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai and Hu 2006</title>
+        <!--<title>Lai Fei and Hu Xinli 2006</title>-->
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>sutra stelae</topic>
+        <topic>Haitansi</topic>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huxinli" type="personal">
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Xinli </namePart>
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">新立</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SD_Shikeyishu_bwg2006b" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing (san)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經（三）</title>
+        </titleInfo>
+        <name oXygen2:href="#sd_shikeyishu_bwg" type="corporate">
+            <namePart transliteration="pinyin">Shandong sheng shike yishu bowuguan</namePart>
+            <namePart lang="zh">山東省石刻藝術博物館</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#hb_handanshi_wenwuju" type="corporate">
+            <namePart transliteration="pinyin">Hebei shang Handan shi wenwuju</namePart>
+            <namePart lang="zh">河北省邯郸市文物局</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2006-7</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hohhot</placeTerm>
+                <placeTerm lang="zh">呼和浩特</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Neimenggu renmin chubanshe</namePart>
+                    <namePart lang="zh">内蒙古人民出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>132</start>
+                <end>146</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

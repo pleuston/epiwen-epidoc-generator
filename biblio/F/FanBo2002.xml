@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FanBo2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xi’an Beilin shoucang de ji fang Sanjiejiao beike</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西安碑林收藏的幾方三階教碑刻</title>
+        <!--<title>西安碑林收藏的几方三階教碑刻</title>-->
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Some Steles Connected to the Three Levels Movement in the Collection of the Forest of Steles Museum in Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fan Bo 2002</title>
+        <!--<title>Fang Ruo and Wang Zhuanghong 1981</title>-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fanbo" type="personal">
+        <namePart transliteration="pinyin" type="family">Fan</namePart>
+        <namePart transliteration="pinyin" type="given">Bo</namePart>
+        <namePart lang="zh" type="family">樊</namePart>
+        <namePart lang="zh" type="given">波</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#beilinjikan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beilin jikan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>碑林集刊</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">8</detail>
+            
+            <extent unit="page">
+                <start>199</start>
+                <end>206</end>
+            </extent>
+            <date>2002</date>
+        </part>
+    </relatedItem>
+</mods>

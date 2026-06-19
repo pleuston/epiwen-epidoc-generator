@@ -1,0 +1,97 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuangBingzhang1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石經遼金兩代刻經概説</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shijing Liao Jin liangdai kejing gaishuo</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>General Remarks on the Carved Sutras of the Liao and Jin Dynasties at
+            Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Bing­zhang 1987</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangbingzhang" type="personal">
+        <namePart type="family" transliteration="pinyin">Huang</namePart>
+        <namePart type="given" transliteration="pinyin">Bingzhang</namePart>
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">炳章</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Fayin" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fayin</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>法音</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1987</date>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>11</start>
+                <end>21</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <!-- <classification edition="FS_shijing_zhiyanjiu1987">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#FS_shijing_zhiyanjiu1987" type="host">
+        <note>reprint</note>
+        <titleInfo lang="zh">
+            <title>房山石經之研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing zhi yanjiu</title>
+        </titleInfo>
+        <name oXygen2:href="#zg_fojiao_xiehui" type="corporate">
+            <namePart lang="zh">中國佛教協會</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1987</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>108</start>
+                <end>134</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#LvTiegang1999" type="host">
+        <note>reprint</note>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>161</start>
+                <end>192</end>
+            </extent>
+        </part>
+    </relatedItem> -->
+    <note type="reprint">Reprinted in <ref target="FS_shijing_zhiyanjiu1987" type="biblio">108–134</ref> and <ref target="LvTiegang1999" type="biblio">vol.2, 161–192</ref>
+    </note>
+</mods>

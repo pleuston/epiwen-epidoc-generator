@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto_Keisho1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>インド佛教碑銘の研究I　TEXT，NOTE，和譯</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Indo Bukkyō himei no kenkyū I: TEXT, NOTE, Wayaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Comprehensive Study<!--Survey--> of the Indian Buddhist Inscriptions, Part I: Text, Notes, and Japanese Translation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto Keishō 1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tsukamoto_keisho" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">啓祥</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Keishō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Heirakuji shoten</namePart>
+                <namePart lang="ja">平樂寺書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

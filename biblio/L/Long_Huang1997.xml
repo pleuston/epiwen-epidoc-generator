@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Long_Huang1997" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>巴蜀道教碑文集成</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Ba Shu daojiao beiwen jicheng</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Daoist Texts on Steles in Ba and Shu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Long and Huang 1997</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#longxianzhao" type="personal">
+        <namePart lang="zh" type="family">龍</namePart>
+        <namePart lang="zh" type="given">顯昭</namePart>
+        <namePart transliteration="pinyin" type="family">Long</namePart>
+        <namePart transliteration="pinyin" type="given">Xianzhao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huanghaide" type="personal">
+        <namePart lang="zh" type="family">黃</namePart>
+        <namePart lang="zh" type="given">海德</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Haide</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">四川大學出版社</namePart>
+                <namePart transliteration="pinyin">Sichuan daxue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

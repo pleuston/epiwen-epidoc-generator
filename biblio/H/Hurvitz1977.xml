@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hurvitz1977" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Hsüan-tsang <foreign lang="zh">玄奘</foreign> (602–664) and the <hi rend="italic">Heart Scripture</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hurvitz 1977</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hurvitz" type="personal">
+        <namePart lang="en" type="family">Hurvitz</namePart>
+        <namePart lang="en" type="given">Leon</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+   
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Lancaster1977" type="host">
+        <titleInfo lang="en">
+            <title>Prajñāpāramitā and Related Systems: Studies in Honor of Edward Conze</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+           
+            <extent unit="page">
+                <start>103</start>
+                <end>121</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

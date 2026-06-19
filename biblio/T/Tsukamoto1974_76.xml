@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto1974_76" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Tsukamoto Zenryū chosakushū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>塚本善隆著作集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Writings of Tsukamoto Zenryū</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto 1974–1976</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">善隆</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Zenryū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note>Band 3 hat bei den Sinos eine andere Signatur als die anderen Bände, nämlich Zo BQ 626.
+        T88</note>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">7</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1974</dateIssued>
+        <dateIssued point="end">1976</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Daitō shuppansha</namePart>
+                <namePart lang="ja">大東出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

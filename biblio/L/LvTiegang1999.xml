@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LvTiegang1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shijing yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>房山石經研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the Stone Sutras at Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lü Tie­gang 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lvtiegang" type="personal">
+        <namePart lang="zh" type="family">吕</namePart>
+        <namePart lang="zh" type="given">鐵鋼</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>3 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">3</detail>
+        </extent>
+        <form>print</form>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm lang="zh">香港</placeTerm>
+            <placeTerm transliteration="pinyin">Hong Kong</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中國佛教文化出版有限公司</namePart>
+                <namePart transliteration="pinyin">Zhongguo Fojiao wenhua chuban youxian gongsi</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Qingdaorenyiji">
+    <titleInfo transliteration="pinyin">
+        <title>Qing Daoren yiji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>清道人遺集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Posthumous Works of Qing Daoren (Li Ruiqing)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Ruiqing yiji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liruiqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ruiqing</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">瑞清</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1969</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenhai chubanshe</namePart>
+                <namePart lang="zh">文海出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>近代中國史料叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jindai Zhongguo shiliao congkan</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>416</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

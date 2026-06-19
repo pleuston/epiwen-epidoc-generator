@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BEB_1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Brill’s Encyclopedia of Buddhism, Volume 1: Literature and Lan­guages</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>BEB 1</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#silk" type="personal">
+        <namePart lang="en" type="family">Silk</namePart>
+        <namePart lang="en" type="given">Jonathan A.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Leiden and Boston</placeTerm>
+        </place>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="" type="series">
+        <titleInfo lang="en">
+            <title>Handbook of Oriental Studies: Section 2, India; Volume 29/1</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

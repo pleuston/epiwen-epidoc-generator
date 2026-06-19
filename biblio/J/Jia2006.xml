@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jia2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Hongzhou School of Chan Buddhism in Eighth- through Tenth-Century China</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Memories of Loyang">
+        <title>Jia Jin­hua 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiajinhua" type="personal">
+        <namePart lang="en" type="family">Jia</namePart>
+        <namePart lang="en" type="given">Jinhua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm>Albany, NY</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">State University of New York Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

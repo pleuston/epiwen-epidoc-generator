@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ryumon20pin" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北魏：龍門二十品（下）</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokugi: Ryūmon 20-pin（sita)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hokugi: Ryūmon 20-pin 1965</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nigensha" type="corporate">
+        <namePart lang="ja">二玄社</namePart>
+        <namePart transliteration="romaji">Nigensha</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1965</dateIssued>
+        <place>
+            <placeTerm>Tokyo</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+                <namePart lang="ja">二玄社</namePart>
+            <namePart transliteration="romaji">Nigensha</namePart>
+            </name></publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SMS" type="series">
+        <titleInfo lang="ja">
+            <title>書跡名品叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shoseki meihin sōkan</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

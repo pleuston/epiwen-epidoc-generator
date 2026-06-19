@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qianlong_Quzhouxianzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔乾隆〕曲周縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Qianlong〕 Quzhou xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Quzhou County (Qianlong Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Quzhou xianzhi 1747</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laozongfa" type="personal">
+        <namePart transliteration="pinyin" type="family">Lao</namePart>
+        <namePart transliteration="pinyin" type="given">Zongfa</namePart>
+        <namePart lang="zh" type="family">勞</namePart>
+        <namePart lang="zh" type="given">宗發</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjinyuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Jinyuan</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">今遠</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhongguozonghefangzhiku" type="host">
+        <titleInfo lang="zh">
+            <title>中國綜合方志庫</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo zonghe fangzhi ku</title>
+        </titleInfo>
+        <originInfo>
+            <typeOfResource collection="yes"/>
+        </originInfo>
+    </relatedItem>
+    <note type="reprint">Reproduction of the 1747 edition</note>
+</mods>

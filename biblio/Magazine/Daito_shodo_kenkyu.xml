@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daito_shodo_kenkyu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>大東書道研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Daitō shodō kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Daito Studies of Calligraphy</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#daito_bunka_daigaku_shodo_kenkyujo" type="corporate">
+        <namePart lang="ja">大東文化大学書道研究所</namePart>
+        <namePart transliteration="romaji">Daitō bunka daigaku, Shodō kenkyūjo</namePart>
+        <!--<namePart lang="en">Institute for Calligraphy of Daito Bunka University</namePart>-->
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1993-</dateIssued>
+        <dateIssued encoding="marc" point="start">1993</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="ja">大東文化大学書道研究所</namePart>
+            <namePart transliteration="romaji">Daitō bunka daigaku, Shodō kenkyūjo</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

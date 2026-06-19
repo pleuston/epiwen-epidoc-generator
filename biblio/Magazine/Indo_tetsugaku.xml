@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Indo_tetsugaku" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="romaji">
+                <title>Indo-tetsugaku bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+                <title>インド哲学佛教学研究</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>Studies in Indian philosophy and Buddhism</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tokyodaigaku_jinbunshakaikei" type="corporate">
+                <namePart lang="ja">東京大学大学院人文社会系研究科インド哲学佛教学研究室 </namePart>
+                <namePart transliteration="romaji">Tōkyō daigaku daigakuin jinbun shakai kei
+                        kenkyūka indo tetsugaku bukkyōgaku kenkyūshitsu</namePart>
+                <role>
+                        <roleTerm>editor</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>1993-</dateIssued>
+                <dateIssued encoding="marc" point="start">1993</dateIssued>
+                <frequency>annual</frequency>
+                <issuance>continuing</issuance>
+                <place>
+                        <placeTerm>Tōkyō</placeTerm>
+                        <placeTerm lang="ja">東京</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="ja">東京大学大学院人文社会係研究科インド哲学佛教学研究室</namePart>
+                                <namePart transliteration="romaji">Tōkyō daigaku daigakuin jinbun
+                                        shakai kei kenkyūka indo tetsugaku bukkyōgaku
+                                        kenkyūshitsu</namePart>
+                        </name>
+                </publisher>
+        </originInfo>
+</mods>

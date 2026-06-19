@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lin_Yang_Liu2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang Fo dian de liutong zu gaizao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌佛典的流通與改造</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Circulation and Transformation of Buddhist Texts from Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lin, Yang, and Liu 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#linshitian" type="personal">
+        <namePart lang="zh" type="family">林</namePart>
+        <namePart lang="zh" type="given">世田</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangxueyong" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">學勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liubo" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">波</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+            <placeTerm lang="zh">蘭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Gansu jiaoyu chubanshe</namePart>
+                <namePart lang="zh">甘肃教育出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

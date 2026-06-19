@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Giele2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Excavated Manuscripts: Context and Methodology</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Giele 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#giele" type="personal">
+        <namePart lang="en" type="family">Giele</namePart>
+        <namePart lang="en" type="given">Enno</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Nylan_Loewe2010" type="host">
+        <titleInfo lang="en">
+            <title>China’s Early Empires: A Re-appraisal</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nylan" type="personal">
+            <namePart lang="en" type="family">Nylan</namePart>
+            <namePart lang="en" type="given">Michael</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#loewe" type="personal">
+            <namePart lang="en" type="family">Loewe</namePart>
+            <namePart lang="en" type="given">Michael</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent>
+                <start>114</start>
+                <end>134</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

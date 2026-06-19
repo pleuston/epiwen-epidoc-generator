@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shirin" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Shirin</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>史林</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shigaku_kenkyukai" type="corporate">
+        <namePart lang="ja">史学研究会</namePart>
+        <namePart transliteration="romaji">Shigaku kenkyūkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1916-</dateIssued>
+        <dateIssued encoding="marc" point="start">1916</dateIssued>
+        <frequency>bi-monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shigaku kenkyūkai</namePart>
+                <namePart lang="ja">史学研究会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

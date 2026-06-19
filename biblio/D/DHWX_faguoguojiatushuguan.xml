@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DHWX_faguoguojiatushuguan" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Faguo guojia tushuguan cang Dunhuang xiyu wenxian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>法國國家圖書館藏敦煌西域文獻</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Documents from the Western Region and Dunhuang in the Collection of the Bibliothèque nationale de France</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dunhuang Xiyu wenxian 1994–2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanghai_guji_chubanshe" type="corporate">
+        <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+        <namePart lang="zh">上海古籍出版社</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#faguoguojiatushuguan" type="corporate">
+        <namePart transliteration="zh">法國國家圖書館</namePart>
+        <namePart lang="fr">Bibliothèque nationale de France</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>38 vols.</extension>
+    <originInfo>
+        <dateIssued point="start">1994</dateIssued>
+        <dateIssued point="end">2005</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Johnston_Wang2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Daxue and Zhongyong <foreign lang="zh">大學·<!--·-->中庸</foreign>. A Bilingual Edition</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Daxue, Zhongyong (Johnston and Wang) 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#johnston_ian" type="personal">
+        <namePart type="family">Johnston</namePart>
+        <namePart type="given">Ian</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangping" type="personal">
+        <namePart type="family">Wang</namePart>
+        <namePart type="given">Ping</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm>Hong Kong</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">The Chinese University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

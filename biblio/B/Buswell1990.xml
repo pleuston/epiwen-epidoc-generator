@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Buswell1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Buddhist Apocrypha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Buswell 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#buswell" type="personal">
+        <namePart lang="en" type="family">Buswell</namePart>
+        <namePart lang="en" type="given">Robert E.</namePart>
+        <namePart type="termsOfAddress">Jr.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm lang="en">Honolulu</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

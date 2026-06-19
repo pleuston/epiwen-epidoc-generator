@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Donner1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Mahayanization of the Chinese Dhyana tradition</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Donner 1977</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#donner" type="personal">
+        <namePart lang="en" type="family">Donner</namePart>
+        <namePart lang="en" type="given">Neal</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="EasternBuddhist" type="host">
+        <titleInfo>
+            <title>The Eastern Buddhist</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+            <detail type="no">
+                <number>2</number>
+                <!--<caption>no.</caption>-->
+            </detail>
+            <extent unit="pages">
+                <start>49</start>
+                <end>64</end>
+            </extent>
+            <date>1997</date>
+        </part>
+    </relatedItem>
+</mods>

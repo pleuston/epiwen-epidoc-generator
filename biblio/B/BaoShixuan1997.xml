@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BaoShixuan1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Da’an Shan Lianhuayu Yanfusi Guanyintang ji</hi> bei shuzheng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《大安山蓮花峪延福寺觀音堂記》碑疏証</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Factual Commentary to the Stele ‘Record of the Guanyin Hall of Yanfu Monastery in
+            Lianhua Valley, Da’an Mountain’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bao Shi­xuan 1997</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baoshixuan" type="personal">
+        <namePart lang="zh" type="family">包</namePart>
+        <namePart lang="zh" type="given">世軒</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BeijingWenbo" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beijing wenbo</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北京文博</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1997</date>
+            <detail type="volume">9</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>72</start>
+                <end>77</end>
+            </extent>
+        </part>
+        <!--part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+            <detail type="no">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>72</start>
+                <end>77</end>
+            </extent>
+            <date>1997</date>
+        </part-->
+    </relatedItem>
+</mods>

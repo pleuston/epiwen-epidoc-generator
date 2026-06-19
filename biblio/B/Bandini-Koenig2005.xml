@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bandini-Koenig2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Die Felsbildstation Thalpan II: Katalog Thalpan (Steine 31-195)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bandini-König 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#bandini-koenig" type="personal">
+        <namePart lang="de" type="family">Bandini-König</namePart>
+        <namePart lang="de" type="given">Ditte</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm>Mainz</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Verlag Philipp von Zabern</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="WuerzburgerSinologischeSchriften" type="series">
+        <titleInfo lang="de">
+            <title>Materialien zur Archäologie der Nordgebiete Pakistans</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>7</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

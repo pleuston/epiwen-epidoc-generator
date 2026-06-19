@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGSHKXYKGYJS2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>河北鄴城遺址趙彭城北朝佛寺與北吴莊佛教造像埋藏坑</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Hebei Yecheng yizhi Zhaopengcheng Beichao fosi yu Beiwuzhuang fojiao zaoxiang maizangkeng</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Ruins of a Buddhist Temple of the Northern Dynasties at Zhaopengcheng and the Buddhist Sculpture Hoard at Wuzhuang in Yecheng, Hebei Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo shehui kexueyuan kaogu yanjiusuo et al. 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_shehui_kxy_kaogu_yjs" type="corporate">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hb_wenwusuo" type="corporate">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WenwuChunqiu" type="host">
+        <titleInfo lang="zh">
+            <title>考古</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">7</detail>
+            <extent unit="page">
+                <start>49</start>
+                <end>68</end>
+            </extent>
+            <date>2013</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Guweikang2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Six Lectures on Dispelling Doubts in the <hi rend="italic">Diamond Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金剛經解疑六講</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Jingang jing</hi> jieyi liu jiang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gu Weikang 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guweikang" type="personal">
+        <namePart lang="zh" type="family">顧</namePart>
+        <namePart lang="zh" type="given">偉康</namePart>
+        <namePart transliteration="pinyin" type="family">Gu</namePart>
+        <namePart transliteration="pinyin" type="given">Weikang</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+               
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

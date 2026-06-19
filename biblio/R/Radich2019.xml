@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Radich2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Reading the Writing on the Wall: ‘Sengchou’s’ Cave at Xiaonanhai, Early Chinese
+            Buddhist Meditation, and Unique Portions of *Dharmakṣema’s <hi rend="italic">Mahāparinirvāṇamahāsūtra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Radich 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#radich" type="personal">
+        <namePart type="family">Radich</namePart>
+        <namePart type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. 518: In this study, I aim to achieve a more adequate reading of elements drawn from MPNMS in the programme of Sengchou’s cave, as a case
+        study in what I regard as a more adequate method for the treatment not just of this cave, but of such questions in general. Because my aim is thus
+        methodological, I will take pains at relevant points to contrast my method and the resulting interpretations with those in the prior scholarship characterised
+        above. The principal elements of the method I propose, against that of earlier analyses, are simple. First, I treat direct citations from
+        MPNMS as allusions to the larger contexts in which those citations are embedded, and I therefore read closely the more extended narratives or
+        passages constituting those contexts. Second, I then examine these multiple contexts for resonances in theme and content, and the ways that they
+        might work in concert to create larger patterns of meaning. In the service of this model methodological exercise, I will largely restrict myself only to references to MPNMS in Sengchou’s cave, even
+        though the cave includes elements from a number of other texts.11 This study therefore makes no pretence of proposing a full re-reading of the
+        cave as a whole.
+        p. 531: As the above summary shows, despite the fact that it calls itself “the four bases of mindfulness,” and was known as such to posterity,
+        the meditative curriculum laid out in this MPNMS passage is anything but a representative instance of the practice usually known by that name.
+        Rather, it is highly idiosyncratic (spezifisch, eigenartig), for a number of reasons.
+        p. 535: Despite its name, it only features one of four constituents of the classic “four bases” meditations – the meditation on
+        the body (kāyagatānusmṛti). ... Key concerns in the meditation as laid out in MPNMS are the impurity of the ordinary body, the motif of death, the impossibility of finding anything
+        worthy of the label “self” (*ātman), visions of light and of Buddhas, and mental preparation to willingly undergo physical suffering in traversing the bodhisatva path.
+    
+    Verses accompanying two jātaka reliefs from MPNMS (T374 (XII) 450a16 and 451a1.) and Da zhidu lun (T.1509.25: 87c11-12). 
+    p. 538: All conditioned things 行 are impermanent; Of their nature, [they] come into existence and go out of existence [become extinct] 滅;
+    They come into existence and go out of existence, and when they have gone out of existence, The calm of [their] extinction 滅 is bliss.
+    諸行無常/是生滅法/66生滅滅已/寂滅為樂.
+    p. 539: In both T7 and the Saṃyuktāgama, the verse functions as an epitome of the Dharma, recited  at the very brink of the Buddha’s passing into final extinction (in T7, by
+    the Buddha himself; in the Saṃyuktāgama, by Śakra – precisely as in the present MPNMS episode).
+    p. 540: In particular, the MPNMS version is unique in giving a verse specifically from the Buddha’s deathbed (the parinirvāṇa scenario) as the epitome of the Dharma that is worth dying
+    for. In the MPNMS retelling, then, the message of the jātaka is that a devoted bodhisatva was, is, or should be prepared to sacrifice his life for
+    the tiniest sliver of the Dharma – but the Dharma in a specific inflection.
+    p. 549: I contend that it is significant, therefore, that the references to MPNMS in the programme of Sengchou’s cave fall, in Dharmakṣema’s text,
+    respectively: in Fascicle 10 (second verse in dedicatory inscription, Element  4); Fascicle 12 (Sengchou’s “four bases of mindfulness” meditation,
+    Element 1); Fascicle 14 (jātaka on “giving up the body for a single verse of the Dharma” – and partner jātaka from MPPU – Element 2);
+    Fascicle 20 (verses from Ajātaśatru’s redemption); and Fascicle 22 (second verse in dedicatory inscription).103 In other words, these references
+    bracket the entirety of the discrete “Five Practices Section:” the two verses in the inscription occurring just before and after it, and the other
+    citations evoking significant high points in its content and drama.
+    p. 551: This example already captures more than one dimension of the way I believe the allusions in the Sengchou cave must have worked – principally,
+    the way a single verse could suffice to evoke an entire scene or drama.
+    p. 552: When a culture lives so intimately with a text like MPNMS, audiences can also be expected not only to recognise individual episodes or items
+    of content; they also know the sequence of the content, and this knowledge is something else allusion can play on. In this light, I believe that
+    the five loci from MPNMS cited at Sengchou’s cave, constituting as they do major high points in the dramatic arc of the “Five Practices Section,”
+    would conjure up, to a mind steeped in the text, the “Five Practices Section” in its entirety, and epitomise it.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JIABS" type="host">
+        <titleInfo>
+            <title>Journal of the International Association of Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2020</date>
+            <detail type="volume">42, 2019</detail>
+            <extent unit="page">
+                <start>515</start>
+                <end>632</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

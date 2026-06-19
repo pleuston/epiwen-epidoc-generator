@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qianyantangjinshiwenbawei" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qianyan Tang jinshiwen bawei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>潜研堂金石文跋尾</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Postscripts to Epigraphica from the Qianyan Hall</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>金石文跋尾</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Jin­shi wen ba­wei</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Qianyan tang jinshiwen bawei">
+        <title>Qianyan Tang jinshiwen bawei</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qiandaxin" type="personal">
+        <namePart transliteration="pinyin" type="family">Qian</namePart>
+        <namePart transliteration="pinyin" type="given">Daxin</namePart>
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">大昕</namePart>
+        <namePart type="date">1728-1804</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>20 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">20</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Published in four editions 1764–1799, each expanded</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>25</number>
+            </detail>
+            <extent unit="page">
+                <start>18729</start>
+                <end>19079</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

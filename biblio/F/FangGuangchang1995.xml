@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FangGuangchang1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zangwai fojiao wenxian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>藏外佛教文献</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Extra-Canonical Buddhist Literature</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Guang­chang 1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangguangchang" type="personal">
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Guangchang</namePart>
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">廣錩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zongjiao wenhua chubanshe</namePart>
+                <namePart lang="zh">宗教文化出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

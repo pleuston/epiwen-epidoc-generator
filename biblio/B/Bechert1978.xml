@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bechert1978" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhism in Ceylon and Studies on Religious Syncretism in Buddhist Countries: Report on a Symposium in Göttingen</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bechert 1978</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bechert" type="personal">
+        <namePart lang="de" type="family">Bechert</namePart>
+        <namePart lang="de" type="given">Heinz</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>1978</dateIssued>
+        <place>
+            <placeTerm>Göttingen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Vandenhoeck &amp; Ruprecht</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Abhandlungen der Akademie der Wissenschaften in Göttingen, Philologisch-Historische Klasse: Folge 3; Nr. 108. Symposien zur Buddhismusforschung</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

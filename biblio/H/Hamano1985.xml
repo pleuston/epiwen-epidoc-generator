@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hamano1985" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>『金光明経·三身分別品』について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji"><title><hi rend="italic">Konkōmyōkyō, Sanshin funbetsu-bon </hi> ni tsuite</title></titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the <hi rend="italic">Distinguishing Between the Three Bodies Chapter</hi> in the <hi rend="italic">Golden Light Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hamano 1985</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hamano" type="personal">
+        <namePart lang="ja" type="family">浜野</namePart>
+        <namePart lang="ja" type="given">哲敬</namePart>
+        <namePart transliteration="romaji" type="family">Hamano</namePart>
+        <namePart transliteration="romaji" type="given">Tetsunori</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū </title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛教學研究 </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1985</date>
+            <detail type="volume"><number>33</number></detail>
+            <detail type="no">2</detail>
+            <extent unit="pages">
+                <start>296</start>
+                <end>299</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

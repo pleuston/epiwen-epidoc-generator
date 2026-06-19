@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ningyang_xianzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>寧陽縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Ningyang xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Ningyang County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ningyang xianzhi 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDNY_Difangzhi_BWH" type="corporate">
+        <namePart transliteration="pinyin">Shandong Sheng Ningyang Xian difangshi zhi bianzuan weiyuanhui</namePart>
+        <namePart lang="zh">山東省寧陽縣地方史志編纂委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo shuji chubanshe</namePart>
+                <namePart lang="zh">中國書籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

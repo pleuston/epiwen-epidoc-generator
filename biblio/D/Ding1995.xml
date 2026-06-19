@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ding1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國佛教雕刻的變遷<hi rend="dash">──</hi>論石窟造像之外的石佛與鎏金銅佛<hi rend="dash">──</hi></title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>$$$Zhongguo fojiao diaoke de bianqian: Lun shiku zaoxiang zhi wai de shi fu yu liu jintong fu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Path of Chinese Buddhist Sculpture<hi rend="dash">──</hi>With Focus on Stone Images Other than Those in Cave Temples and on Gilt Bronze Images<hi rend="dash">──</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ding 1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#matsubara">
+        <namePart type="family" lang="ja">松原</namePart>
+        <namePart type="given" lang="ja">三郎</namePart>
+        <namePart transliteration="romaji" type="family">Matsubara</namePart>
+        <namePart transliteration="romaji" type="given">Saburō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dingyizhong" type="personal">
+        <namePart lang="zh" type="family">丁</namePart>
+        <namePart lang="zh" type="given">義忠</namePart>
+        <namePart transliteration="romaji" type="family">Ding</namePart>
+        <namePart transliteration="romaji" type="given">Yizhong</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Matsubara1995" type="host">
+        <titleInfo lang="ja">
+            <title>中国仏教彫刻史論</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku Bukkyō chōkoku shiron</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>A Study of the History of Chinese Buddhist Sculpture</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>Text</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>10</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Osawa2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>
+            <hi rend="italic">Hannya shingyō hiken</hi> no miketsu no mondai</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>《般若心經秘鍵》の未决の問題</title>
+        <!--<title>『般若心経秘鍵』の未決の問題</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Unsolved Problem of the <hi rend="italic">Hannya shingyo hiken</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōsawa 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#osawa" type="personal">
+        <namePart transliteration="hepburn" type="family">Ōsawa</namePart>
+        <namePart transliteration="hepburn" type="given">Shōkan</namePart>
+        <namePart lang="ja" type="family">大沢</namePart>
+        <namePart lang="ja" type="given">聖寬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛教學硏究</title>
+            <!--<title>印度学仏教学研究</title>-->
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">56</detail>
+            <detail type="no">2</detail>
+            <extent unit="pages">
+                <start>618</start>
+                <end>625</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+</mods>

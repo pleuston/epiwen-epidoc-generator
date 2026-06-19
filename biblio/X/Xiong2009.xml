@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xiong2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Historical Dictionary of Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xiong 2009</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiong" type="personal">
+        <namePart lang="en" type="family">Xiong</namePart>
+        <namePart lang="en" type="given">Victor Cunrui</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm>Lanham, Maryland</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Scarecrow Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HDACHE" type="series">
+        <titleInfo lang="en">
+            <title>Historical Dictionaries of Ancient Civilizations and Historical Eras</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>19</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

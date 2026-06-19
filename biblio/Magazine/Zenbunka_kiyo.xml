@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zenbunka_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>禅文化研究所紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Zen bunka kenkyūjo kiyō</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zenbunka_kenkyujo" type="corporate">
+        <namePart lang="ja">禅文化研究所</namePart>
+        <namePart transliteration="romaji">Zen bunka kenkyūjo</namePart>
+        <namePart lang="en">The Institute for Zen Studies</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1969-2006</dateIssued>
+        <dateIssued encoding="marc" point="start">1969</dateIssued>
+        <dateIssued encoding="marc" point="end">2006</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <language>ja</language>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">禅文化研究所</namePart>
+                <namePart transliteration="romaji">Zenbunka kenkyūjo</namePart>
+                <namePart lang="en">The Institute for Zen Studies</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

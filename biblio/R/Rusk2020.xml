@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rusk2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Review of <hi rend="italic">Bronze and Stone: The Cult of Antiquity in Song Dynasty China</hi>. By Yunchiahn C. Sena</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rusk 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#rusk" type="personal">
+        <namePart lang="en" type="family">Rusk</namePart>
+        <namePart lang="en" type="given">Bruce</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#journalofchinesestudies" type="host">
+        <titleInfo lang="en">
+            <title>Journal of Chinese Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">70</detail>
+            <extent unit="page">
+                <start>248</start>
+                <end>253</end>
+            </extent>
+            <date>2020</date>
+        </part>
+    </relatedItem>
+</mods>

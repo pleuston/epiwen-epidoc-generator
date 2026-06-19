@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HidaiKazuko2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Gendai shodō no chichi: Hidai Tenrai</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>現代書道の父：比田井天来</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Father of Modern Calligraphy: Hidai Tenrai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hidai 2009</title>
+    </titleInfo>
+    <abstract>For the two hanging-scrolls with five JSY-Rubbings each, see pp. 37, 56. The date of the photograph is mentioned as 1934 (Shōwa 9) on p. 56, other sources however mention 1935 (Shōwa 10). The author herself however explaned in a E-mail to us on the November 8th, 2021 (to Jan), that the exact date of the picture is unknown. Back when the editing team suggested it to be 1934, the members have guessed it from the date of death of MIYAKE Han’yū 三宅半有 (far-right in the photo), this date of death however is unknown today.</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hidai" type="personal">
+        <namePart lang="ja" type="family">比田井</namePart>
+        <namePart lang="ja" type="given">和子</namePart>
+        <namePart transliteration="hepburn" type="family">Hidai</namePart>
+        <namePart transliteration="hepburn" type="given">Kazuko</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tenrai shoin</namePart>
+                <namePart lang="ja">天来書院</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

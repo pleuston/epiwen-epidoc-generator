@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YangWeizhong2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>關於《法門惠恭大德之碑》的若干問題<hi rend="dash">──</hi>復沈海波先生</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Guanyu <hi rend="italic">Famen Huigong dade zhi bei</hi> de ruogan wenti—fu Shen Haibo xiansheng</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Some Questions Related to the <hi rend="italic">Stele for Bhadanta Huigong of Famen</hi>—A Response to Shen Haibo</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang Wei­zhong 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangweizhong" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Weizhong</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">維中</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>正觀雜<!--誌-->志</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhengguan zazhi</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            
+            <detail type="no">12</detail>
+            <extent unit="page">
+                <start>146</start>
+                <end>158</end>
+            </extent>
+            <date>2000</date>
+        </part>
+    </relatedItem>
+</mods>

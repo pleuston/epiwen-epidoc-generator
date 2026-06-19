@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lujiuxi2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山經石峪金剛經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan Jingshi Yu Jingang jing</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>The <rend hi="italic">Diamond Sutra</rend> in Sutra Stone Valley at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lu Jiuxi 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lujiuxi" type="personal">
+        <namePart lang="zh" type="family">魯</namePart>
+        <namePart lang="zh" type="given">九喜</namePart>
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Jiuxi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm lang="zh">廣州</placeTerm>
+            <placeTerm transliteration="pinyin">Guangzhou</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">廣東人民出版社</namePart>
+                <namePart transliteration="pinyin">Guangdong renmin chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZG_SFZD" type="series">
+        <titleInfo lang="zh">
+            <title>中國書法正典系列</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo shufa zhengdian xilie</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

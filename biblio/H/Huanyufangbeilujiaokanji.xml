@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huanyufangbeilujiaokanji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Huanyu fangbei lu jiaokan ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寰宇訪碑録校勘記</title>
+        <!--<title>寰宇訪碑錄校勘記</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Revised Edition with Notes of the <hi rend="italic">Record of Visiting Steles in the Whole World</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>寰宇校刊</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Huanyu jiaokan</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Huanyu jiaokan">
+        <title>Huan­yu fang­bei lu jiao­kan ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liushengmu" type="personal">
+        <namePart transliteration="pinyin" type="family">劉</namePart>
+        <namePart transliteration="pinyin" type="given">聲木</namePart>
+        <namePart lang="zh" type="family">Liu</namePart>
+        <namePart lang="zh" type="given">Shengmu</namePart>
+        <namePart type="date">1876-1959</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <extension>11 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">11</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Preface of 1929</dateOther>
+        <dateIssued/>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>27</number>
+            </detail>
+            <extent unit="page">
+                <start>20101</start>
+                <end>20189</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

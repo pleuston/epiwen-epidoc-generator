@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jixiaoxinshu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>紀效新書</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jixiao xinshu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Treatise on Military Efficiency/ A New Book on Disciplined Service</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jixiao xinshu 1569</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qijiguang" type="personal">
+        <namePart transliteration="pinyin" type="family">Qi</namePart>
+        <namePart transliteration="pinyin" type="given">Jiguang</namePart>
+        <namePart lang="zh" type="family">戚</namePart>
+        <namePart lang="zh" type="given">繼光</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>18 <hi rend="italic">juan + <hi rend="italic">shou</hi>
+            <foreign lang="zh">首</foreign>
+        </hi>
+    </extension>
+    <originInfo>
+        <dateIssued>1569</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

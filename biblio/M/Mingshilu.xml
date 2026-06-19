@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mingshilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ming shilu: Fu jiaokanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明實録（附校勘記）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Veritable Records of the Ming Dynasty with Notes on Collation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ming shi­lu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangzhangjian" type="personal">
+        <namePart lang="zh" type="family">黃</namePart>
+        <namePart lang="zh" type="given">彰健</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>20 vols.</extension>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="zh">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chūbun shuppansha</namePart>
+                <namePart lang="zh">中文出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the Academia Sinica<!-- <foreign lang="zh">中央研究院歷史語言研究所</foreign>--> edition of 1962</note>
+</mods>

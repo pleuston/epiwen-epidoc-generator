@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jisufeiqinggepingbeiji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>激素飛清閣評碑記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jisu Feiqing Ge ping bei ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Record on Judging Steles at Rousing Simplicity and Flying Clearness
+            Pavilion</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jisu feiqing ge pingtie ji">
+        <title>Ji­su fei­qing ge ping bei ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangshoujing" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">守敬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateOther/>
+        <dateIssued/>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle"/>
+        </extent>
+    </physicalDescription>
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Yangshoujingji" type="host">
+    <originInfo>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">
+        <number>8</number>
+      </detail>
+      <extent>
+        <start>523</start>
+        <end>584</end>
+      </extent>
+    </part>
+    <typeOfResource collection="yes"/>
+  </relatedItem>    
+</mods>

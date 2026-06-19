@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJinhua2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Philosopher, Practitioner, Politician: The Many Lives of Fazang (643–712)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Jin­hua 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenjinhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Appendix G contains a translation of the colophon of the carved Huayanjing in the Jinci Museum that we documented. The colophon lists names and functions of monks involved in the translation project of this 
+    sutra, that was completed on September 29, 699, and headed by Siksananda. Fazang was one of the monks involved.</abstract>
+    <originInfo>
+        <place>
+            <placeTerm>Leiden and Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2007</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sinica Leidensia</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>75</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

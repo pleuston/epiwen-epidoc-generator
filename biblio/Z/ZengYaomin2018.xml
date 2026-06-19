@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZengYaomin2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>beichao sengguan zhidu de dishan—yi shamen datong wei zhongxin</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title> 北朝僧官制度的遞嬗<hi rend="dash">──</hi>以沙門大統為中心</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Development of the Official Monastic System in the Northern Dynasties: A Study of the Great Superior Administrator of Sangha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zeng Yaomin 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zengyaomin" type="personal">
+        <namePart transliteration="pinyin" type="family">Zeng</namePart>
+        <namePart transliteration="pinyin" type="given">Yaomin</namePart>
+        <namePart lang="zh" type="family">曾</namePart>
+        <namePart lang="zh" type="given">堯民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>
+        pp. 203–211: Fashang 法上 (495–580)
+        pp. 211–213: Sengxian 僧賢 (505–570), known from his muzhiming 大齊故昭玄沙門大統僧賢墓銘疏攷 (and his name at Xiaonanhai in XNH_4?)
+        Reasearch on this epitaph by Takuma Nonuyuki (Takuma2010). The epitaph names as titles of Sengxian: shamen datong 沙門大統 and zhaoxuan datong 昭玄大統. In 533, at the age of 29, he became shamen du  沙門都 and was later (when?) promoted to shamen datong 沙門大統 (without ever serving as shamen tong). When he was 59, he became abbot of Zongchi Si 縂持寺 and Xingsheng Si 興聖寺, both monasteries being established in 563 according to Bei Qi shu. Zeng holds that Sengxian was probably promoted to shamen datong around this time. Sengxian died in Xingsheng Si in 570.
+       
+       pp. 213–216: Chan Master Ding 定禪師 (dates unknown). Zeng mentions the inscriptions at Shuyu Si western cave and inside cave 2 at Southern Mount Xiangtang and concludes that Master Ding served as zhaoxuan shamen tong after 573 (Southern Mount Xiangtang) and in 574 as zhaoxuan datong (Shuiyu Si). He suggests that Chan Master Ding may have been in office until 577.
+       Zeng also mentions former suggestions for identifying this individual (by the archaeological report of Shuiyu Si, by Takuma Nobuyuki 田熊信之 in 2006, by Li Chongfeng in 2011), but finds them all not convincing.
+        
+        
+        Conclusions (p. 224–225): Fashang 法上 (495–580) served as Monk Superintendent (shamen tong 沙門統) from 538–551. In 551, 10 shamen tong 沙門統 were established, and shortly thereafter Fashang became Chief/Superior Monk Superintendent (shamen datong 沙門大統), the highest post in the Office for Clarification of Buddhist Profundities (Zhaoxuan shu 昭玄署; Hucker p. 116-117). He held this post until 577.
+        
+        In ca. 563, Sengxian 僧賢 (505–570) also served as Chief/Superior Monk Superintendent. Thus, until 570, there were two "Chief/Superior Monk Superintendents." From the twelfth month in 573 to the tenth month in 574, Chan Master Ding 定禪師 (dates unknown) served as Chief/Superior Monk Superintendent, probably until 577. Therefore, until the demise of the Northern Qi, there were two Chief/Superior Monk Superintendents serving at the same time, at least during the time frame indicated above.
+        The hierachy in the sangha administration grew, and the system of shamen datong 沙門大統, shamen tong 沙門統, and duweina 都維那 was established. The division of power among two Chief/Superior Monk Superintendents may have had advantages for stabilizing the sangha. Fashang stood in the Dilun lineage of Huiguang 慧光, and Sengxian and  Chan Master Ding in the lineage of Sengchou 僧稠. Moreover, Fashang may be considered a scholar of doctrinal studies 義學僧, and the others meditation masters.
+        
+       
+       
+        Sengxian 僧賢 (505–570), known from his muzhiming 大齊故昭玄沙門大統僧賢墓銘疏攷 and his name at Xiaonanhai
+    
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zaoqi Zhongguo yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>早期中國史研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2018</date>
+            <detail type="volume">10</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>199</start>
+                <end>231</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

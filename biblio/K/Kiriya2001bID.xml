@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kiriya2001b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hokusei magai kokukyō no seiritsu to Daruma no hekikan</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>北斉摩崖刻經の成立とダルマの壁觀</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="translated">
+        <title>北齊摩崖刻經的形成以及菩提達摩的面壁</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Formation of Sutras Engraved on Polished Cliffs in the Northern Qi and
+            Bodhidharma’s Wall Meditation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiriya 2001a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiriya" type="personal">
+        <namePart transliteration="romaji" type="family">Kiriya</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <namePart lang="ja" type="family">桐谷</namePart>
+        <namePart lang="ja" type="given">征一</namePart>
+        <namePart transliteration="pinyin" type="family">Tonggu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhengyi</namePart>
+        <namePart lang="zh" type="family">桐谷</namePart>
+        <namePart lang="zh" type="given">征一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TagaRyugen_kinen2001" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Taga Ryūgen hakushi koki kinen ronshū<hi rend="dash">──</hi>Bukkyō shisō
+                Bukkyōshi ronshū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>田賀龍彦博士古稀記念論集<hi rend="dash">──</hi>佛教思想佛教史論集</title>
+        </titleInfo>
+        <titleInfo lang="zh" type="translated">
+            <title>紀念田賀龍彥博士七十周歲論文集<hi rend="dash">──</hi>佛教思想佛教史論集</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Collected essays in honor of Dr. Taga <foreign xml:lang="ja">Ryūgen</foreign>’s
+                70th birthday. Collected works on Buddhist thought and Buddhist history, special
+                print</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2001</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Sankibō busshorin</namePart>
+                    <namePart lang="ja">山喜房佛書林</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>125</start>
+                <end>156</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

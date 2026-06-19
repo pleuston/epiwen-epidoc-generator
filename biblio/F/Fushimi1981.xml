@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fushimi1981" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fushimi" type="personal">
+        <namePart lang="ja" type="family">伏見</namePart>
+        <namePart lang="ja" type="given">冲敬</namePart>
+        <namePart transliteration="romaji" type="family">Fushimi</namePart>
+        <namePart transliteration="romaji" type="given">Chūkei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <titleInfo type="reference">
+        <title>Fushimi 1981</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku shodō no shin kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中国書道の新研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Research on Chinese Calligraphy</title>
+    </titleInfo>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1981</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nigensha</namePart>
+                <namePart lang="ja">二玄社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

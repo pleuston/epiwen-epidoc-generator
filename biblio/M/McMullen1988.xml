@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="McMullen1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>State and Scholars in T’ang China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>McMullen 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mc_mullen" type="personal">
+        <namePart lang="en" type="family">McMullen</namePart>
+        <namePart lang="en" type="given">David</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+        <originInfo>
+            <dateIssued>1988</dateIssued>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm>Cambridge</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Cambridge University Press</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        
+</mods>

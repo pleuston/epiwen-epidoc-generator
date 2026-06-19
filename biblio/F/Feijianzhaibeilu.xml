@@ -1,0 +1,77 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Feijianzhaibeilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Feijian Zhai beilu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>非見齋碑録</title>
+        <!--<title>非見齋碑錄</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of the Steles from the Unseen Studio</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>非見齋碑録</title>
+        <!--<title>非見齋碑錄</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Feijian Zhai beilu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Feijian zhai beilu">
+        <title>Feijian Zhai beilu</title>
+    </titleInfo>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tantingxian" type="personal">
+        <namePart transliteration="pinyin" type="family">Tan</namePart>
+        <namePart transliteration="pinyin" type="given">(Ting)Xian</namePart>
+        <namePart lang="zh" type="family">譚</namePart>
+        <namePart lang="zh" type="given">（廷）獻</namePart>
+        <namePart type="date">1832-1901</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#weixizeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Xizeng</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">錫曾</namePart>
+        <namePart type="date">?-1881</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <originInfo>
+        <dateOther>1876</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>61</start>
+                <end>67</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

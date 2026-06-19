@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zizhitongjian1956" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>資治通鑒</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zizhi tongjian</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Mirror for Aid in Government</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Zizhi tongjian">
+        <title>Zi­zhi tong­jian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#simaguang" type="personal">
+        <namePart lang="zh" type="family">司馬</namePart>
+        <namePart lang="zh" type="given">光</namePart>
+        <namePart type="date">1019–1086</namePart>
+        <namePart transliteration="pinyin" type="family">Sima</namePart>
+        <namePart transliteration="pinyin" type="given">Guang</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#husansheng" type="personal">
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">三省</namePart>
+        
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Sansheng</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <abstract>use the edition 台北市: 遠流出版公司, 1984 in CATS: DS 745.S77 0172 1984</abstract>
+    <originInfo>
+        <dateOther>Completed 1084</dateOther>
+        <dateIssued>1956</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guji chubanshe</namePart>
+                <namePart lang="zh">古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <extension>294 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">294</detail>
+        </extent>
+    </physicalDescription>-->
+</mods>

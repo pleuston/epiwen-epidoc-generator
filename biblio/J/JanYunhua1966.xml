@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="JanYunhua1966">
+    <titleInfo lang="en">
+        <title>A Chronicle of Buddhism in China 581-960 A.D.</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jan Yunhua 1966</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#janyunhua">
+        <namePart transliteration="pinyin" type="family">Jan</namePart>
+        <namePart transliteration="pinyin" type="given">Yunhua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1966</dateIssued>
+        <place>
+            <placeTerm>Santiniketan</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart>Visva-Bharati</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

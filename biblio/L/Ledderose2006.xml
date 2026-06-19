@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>石類印板：房山雲居寺石經與契丹藏 </title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shilei yinban: Fangshan Yunju Si shijing yu Qidan zang</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Stones Resembled Printing Blocks. The Engraved Buddhist Stone Scriptures at Yunju
+            Monastery of Fangshan and the Qidan Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose" type="personal">
+        <namePart transliteration="de" type="family">Ledderose</namePart>
+        <namePart transliteration="de" type="given">Lothar</namePart>
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Dehou</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">德侯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Anderl_Eifring2006" type="host">
+        <titleInfo lang="en">
+            <title>Studies in Chinese Language and Culture. Festschrift in Honour of Christoph
+                Harbsmeier on the Occasion of His 60th birthday</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#anderl" type="personal">
+            <namePart lang="en" type="family">Anderl</namePart>
+            <namePart lang="en" type="given">Christoph</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#eifring" type="personal">
+            <namePart lang="en" type="family">Eifring</namePart>
+            <namePart lang="en" type="given">Halvor</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Hermes Publishing</namePart>
+                </name>
+            </publisher>
+            <place>
+                <placeTerm lang="en">Oslo</placeTerm>
+            </place>
+            <dateIssued>2006</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>319</start>
+                <end>329</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yuyama1971" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>
+            <hi rend="italic">Jūni innenju</hi> oboegaki</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>《十二因縁呪》覚え書き</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Notes on the <foreign xml:lang="sa">
+                <hi rend="italic">Pratityasamutpadagatha</hi>
+            </foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yuyama 1971</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuyama" type="personal">
+        <namePart transliteration="romaji" type="family">Yuyama</namePart>
+        <namePart transliteration="romaji" type="given">Akira</namePart>
+        <namePart lang="ja" type="family">湯山</namePart>
+        <namePart lang="ja" type="given">明</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>印度学仏教学研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1971</date>
+            <detail type="no">1</detail>
+            <detail type="volume">20</detail>
+            <extent unit="page">
+                <start>48</start>
+                <end>52</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

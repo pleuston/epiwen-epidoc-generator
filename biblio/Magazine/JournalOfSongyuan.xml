@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JournalOfSongyuan" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Journal of Song-Yuan Studies</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>宋遼金元</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#skonicki" type="personal">
+        <namePart lang="en" type="family">Skonicki</namePart>
+        <namePart lang="en" type="given">Douglas</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>California</placeTerm>
+            
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Society for Song, Yuan, and Conquest Dynasty Studies</namePart>
+            </name>
+        </publisher>
+        <dateIssued encoding="marc" point="start">1970</dateIssued>
+        <dateIssued/>
+        <issuance>continuing</issuance>
+        <frequency/>
+    </originInfo>
+    
+    
+</mods>

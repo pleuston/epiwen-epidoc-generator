@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhengSihuai1986" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>應縣木塔發現的七件遼代印刷品</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yingxian muta faxian de qijian liaodai yinshuapin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Seven printed items from Liao dynasty discovered in the timber pagoda in
+            Yingxian</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zheng Si­huai 1986</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhengsihuai" type="personal">
+        <namePart lang="zh" type="family">鄭</namePart>
+        <namePart lang="zh" type="given">思淮</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenxian" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenxian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文獻</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>27</number>
+            </detail>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>248</start>
+                <end>256</end>
+            </extent>
+            <date>1986</date>
+        </part>
+    </relatedItem>
+</mods>

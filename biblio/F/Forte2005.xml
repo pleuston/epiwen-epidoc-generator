@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Forte2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Political Propaganda and Ideology in China at the End of the Seventh Century: Inquiry
+            Into the Nature, Authors and Function of the Dunhuang Document S. 6502, Followed by an
+            Annotated Translation. Second Edition <foreign lang="zh">七世紀末中國的政治宣傳和思想意識</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Forte 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#forte_enzh" type="personal">
+        <namePart lang="it" type="family">Forte</namePart>
+        <namePart lang="it" type="given">Antonino</namePart>
+        <namePart lang="zh" type="family">富</namePart>
+        <namePart lang="zh" type="given">安敦</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name>
+                <namePart lang="it">Scuola Italiana di Studi sull’Asia Orientale</namePart>
+                <namePart lang="en" type="translated">Italian School of East Asian
+                    Studies</namePart>
+            </name>
+        </publisher>
+        <!--<place>
+            <placeTerm>Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart>Italian School of East Asian Studies</namePart>
+            </name>
+        </publisher>-->
+        <issuance>monographic</issuance>
+    </originInfo>
+    <edition>First edition 1976, second edition 2005</edition>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="" type="series">
+        <titleInfo lang="en">
+            <title>Italian School of East Asian Studies Monographs</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

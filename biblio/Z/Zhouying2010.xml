@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhouying2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan yu zhonghua wenhua</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山與中華文化</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mount Tai and Chinese Culture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shandong youyi chubanshe</namePart>
+                <namePart lang="zh">山東友誼出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Waldschmidt1950" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Das Mahāparinirvāṇasūtra: Text in Sanskrit und Tibetisch, verglichen mit dem Pāli nebst einer Übersetzung der chinesischen Entsprechung im Vinaya der Mūlasarvāstivādins, auf Grund von Turfan-Handschriften. Teil I: Der Sanskrit-Text im handschriftlichen Befund</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Waldschmidt 1950</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#waldschmidt" type="personal">
+        <namePart lang="de" type="family">Waldschmidt</namePart>
+        <namePart lang="de" type="given">Ernst</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1950</dateIssued>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Akademie-Verlag</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Abhandlungen der Deutschen Akademie der Wissenschaften, Philosophisch-Historische Klasse; 1949, 1</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

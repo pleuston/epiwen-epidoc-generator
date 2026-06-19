@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gernet_Verellen1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>Buddhism in Chinese Society. An Economic History from the Fifth to the Tenth Centuries</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Gernet 1995</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gernet" type="personal">
+                        <namePart lang="fr" type="family">Gernet</namePart>
+                        <namePart lang="fr" type="given">Jacques</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#verellen" type="personal">
+                        <namePart lang="fr" type="family">Verellen</namePart>
+                        <namePart lang="fr" type="given">Franciscus</namePart>
+                        <role>
+                                    <roleTerm>translator</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1995</dateIssued>
+                        <place>
+                                    <placeTerm>New York</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">Columbia University
+                                                  Press</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+    <note type="reprint">English translation from the French edition <ref type="biblio" target="Gernet1956"/>
+    </note>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xusubin2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="jp">
+        <title>関野貞と中国の古物古迹保存事業</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sekino Tadashi to Chūgoku no kobutsu koseki hozon jigyō </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xu Subin 2005</title>
+    </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xusubin" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+            <namePart lang="zh" type="given">蘇斌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+   
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#FUJII_ET_AL2005" type="host">
+        <titleInfo lang="jp">
+            <title>関野貞アジア踏査:東京大学コレクションXX</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Sekino Tadashi Ajia tōsa:Tōkyō daigaku korekushon</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            
+            <extent unit="page">
+                <start>306</start>
+                <end>328</end>
+            </extent>
+            <date>2005</date>
+        </part>
+    </relatedItem>
+    
+</mods>

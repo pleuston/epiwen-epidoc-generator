@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MiuZhe2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yishushi zhong de wenxian yu "jiafa"</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>藝術史中的文獻與“家法“</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Miu Zhe 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuhuida" type="personal">
+        <namePart lang="zh" type="family">繆</namePart>
+        <namePart lang="zh" type="given">哲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Dushu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dushu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>讀書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>112</start>
+                <end>122</end>
+            </extent>
+            <date>2006</date>
+        </part>
+    </relatedItem>
+</mods>

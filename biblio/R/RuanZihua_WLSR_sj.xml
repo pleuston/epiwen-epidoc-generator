@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RuanZihua_WLSR_sj" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wuling Shanren shiji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>霧靈山人詩集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Anthology of the Mountain Man of Foggy Luminosity</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wuling Shanren shiji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ruanzihua" type="personal">
+        <namePart lang="zh" type="family">阮</namePart>
+        <namePart lang="zh" type="given">自華</namePart>
+        <namePart transliteration="pinyin" type="family">Ruan</namePart>
+        <namePart transliteration="pinyin" type="given">Zihua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>6 vols.</extension>
+    <originInfo>
+        <dateIssued>s.a</dateIssued>
+        <dateOther>Preface of 1594</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">s.l.</placeTerm>
+            <placeTerm lang="zh"/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="pinyin">s.n.</namePart>
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note type="reprint"><!--Reprint of the 1594 Edition, -->Preserved in the National Archives of Japan (<foreign lang="ja">Kokuritsu kôbunshokan</foreign>), Tokyo; before in the Naikaku bunko <foreign lang="zh">内閣文庫</foreign> and the Momijiyama bunko <foreign lang="zh">紅葉山文庫</foreign>
+    </note>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shimada1933" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chikuzen ni okeru Kamakura jidai no iseki ibutsu ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>筑前に於ける鎌倉時代の遺蹟遺物について</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Regarding Artefacts of the Kamakura Period Excavated Among Ruins in Chikuzen</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shimada 1933</title>
+    </titleInfo>
+    <abstract>On the Amida Sutra Stone in Minakata, see Kokuhō Amida kyōseki tsuimei no kishinjō nado 國實阿彌陀經石追銘の寄進狀等 in: pp. 70-72 and plates. (#141).
+    https://hdl.handle.net/2027/keio.10810978717</abstract>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shimada_torajiro" type="personal">
+        <namePart transliteration="romaji" type="family">Shimada</namePart>
+        <namePart transliteration="romaji" type="given">Torajirō</namePart>
+        <namePart lang="ja" type="family">島田</namePart>
+        <namePart lang="ja" type="given">寅次郎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Fukuoka_Shiseki1933_8" type="host">
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>61</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

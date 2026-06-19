@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Linyixianzhi_minguo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Minguo〕 Linyi xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔民國〕臨沂縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Linyi County (Minguo Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Linyi xianzhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhubaojiong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Baojiong</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">保烱</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>16 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<originInfo>
+        <dateOther>16 vols</dateOther>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">16</detail>
+        </extent>
+    </physicalDescription>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="ZG_jdszlck_nj" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo jindai shi ziliao congkan: Nian Jun</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國近代史資料叢刊：捻軍</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>428</start>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yuyao_xianzhi_Guangxu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔光緒〕餘姚縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Guangxu〕 Yuyao xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Yuyao County (Guangxu Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yuyao xianzhi 1899</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shaoyoulian" type="personal">
+        <namePart transliteration="pinyin" type="family">Shao</namePart>
+        <namePart transliteration="pinyin" type="given">Youlian</namePart>
+        <namePart lang="zh" type="family">邵</namePart>
+        <namePart lang="zh" type="given">友濂</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sundezu" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Dezu</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart lang="zh" type="given">德祖</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhoubinglin" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Binglin</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">炳麟</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <extension>27 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<originInfo>
+        <dateOther>27 vols</dateOther>
+    </originInfo>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="ZGDFZJC_ZJ" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo difangzhi jicheng: Zhejiang fu xianzhi ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國地方志集成：浙江府縣志輯</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>36</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1899 edition</note>
+</mods>

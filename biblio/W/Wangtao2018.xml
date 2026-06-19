@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wangtao2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Mirroring China’s Past: Emperors, Scholars, and Their Bronzes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Tao 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangtao" type="personal">
+       
+        <namePart lang="en" type="family">Wang</namePart>
+        <namePart lang="en" type="given">Tao</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm lang="en">Chicage</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Art Institute of Chicago</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

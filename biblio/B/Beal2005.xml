@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Beal2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+   
+    
+    <titleInfo lang="en">
+        <title>Si-yu-ki. Buddhist Records of the Western World - Translated from the Chinese of Hiuen Tsiang (AD 629). <hi rend="normal">Digital Edition. Version 2.0</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Beal 2005</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beal" type="personal">
+        <namePart lang="en" type="family">Beal</namePart>
+        <namePart lang="en" type="given">Samuel</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    
+    
+   
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <dateCaptured>2025-02-21</dateCaptured>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en"/>
+            </name>
+        </publisher>
+    </originInfo>
+    <location>
+        <url>https://mbingenheimer.net/tools/beal/xiyuji.html</url>
+    </location>
+    <genre>Web</genre>
+    
+    <!--<relatedItem type="host">
+        <titleInfo transliteration="pinyin">
+            <title></title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title></title>
+        </titleInfo>
+        <language>
+            <languageTerm></languageTerm>
+        </language>
+        <physicalDescription>
+            <internetMediaType>text/html</internetMediaType>
+        </physicalDescription>
+    </relatedItem>-->
+</mods>

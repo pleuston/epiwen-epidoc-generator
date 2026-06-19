@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Drege1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Images de Dunhuang. Dessins et peintures sur papiers des fonds Pelliot et Stein</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Drège 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#drege" type="personal">
+        <namePart lang="en" type="family">Drège</namePart>
+        <namePart lang="en" type="given">Jean-Pierre</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">École française d’Extrême-Orient</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Mémoires archéologiques 24</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

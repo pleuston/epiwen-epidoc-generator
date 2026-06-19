@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeiYH_WangJP_2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zailun Sichuan de ‘puti ruixiang’ </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>再論四川的‘菩提瑞像’</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Further Discussion of Miraculous Bodhi Images of Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lei and Wang 2005</title>
+        <!--<title>Lei Yuhua and Wang Jianping 2005</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjianping" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Jianping</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">劍平</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qianxiaoyun" type="personal">
+        <namePart transliteration="pinyin" type="family">Qian</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaoyun</namePart>
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">曉雲</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Gugongbowuyuanyuankan" type="host">
+        <titleInfo lang="zh">
+            <title>故宫博物院院刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Gugong bowuyuan yuankan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2005</date>
+            <detail type="no">
+                <number>6</number>
+            </detail>
+            <detail type="volume">122</detail>
+            <extent unit="page">
+                <start>142</start>
+                <end>148, 161</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tanaka_Ichimatsu1926" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>調査ノート：繪畫手控</title>
+        <!--<title>調査ノート：十八　繪畫手控</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chōsa nōto: Kaiga tebikae</title>
+        <!--<title>Chōsa nōto: Jūhachi Kaiga tebikae</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research Notebook: Notes on Painting</title>
+        <!--<title>Research Notebook: No. 18, Handbook of Paintings</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tanaka Ichimatsu 1926<!--T_019--></title>
+    </titleInfo>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tobunken" type="corporate">
+        <namePart transliteration="romaji">Tōkyō bunkazai kenkyūjo</namePart>
+        <namePart lang="ja">東京文化財研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanaka_ichimatsu" type="personal">
+        <namePart lang="ja" type="family">田中</namePart>
+        <namePart lang="ja" type="given">一松</namePart>
+        <namePart transliteration="romaji" type="family">Tanaka</namePart>
+        <namePart transliteration="romaji" type="given">Ichimatsu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url displayLabel="additional">Dated December 26, 1926.
+            Last entry from February, 1930. https://www.tobunken.go.jp/researchnote/202203/tanaka/tanaka1/T_019/</url>
+    </location>
+    <originInfo>
+        <dateIssued>1926</dateIssued>
+        <!--<dateIssued>2022</dateIssued>-->
+        <dateCaptured>2022-08-03</dateCaptured>
+        <!--<place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō bunkazai kenkyūjo</namePart>
+                <namePart lang="ja">東京文化財研究所</namePart>
+            </name>
+        </publisher>-->
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign lang="ja">Tōkyō bunkazai kenkyūjo</foreign>: Nihon bijutsu no kiroku to hyōka: Bijutsushika no chōsa nōto: Tanaka Ichimatsu <foreign lang="ja">shiryō </foreign>
+                <foreign lang="zh">東京文化財研究所：日本美術の記録と評価<hi rend="dash">──</hi>美術史家の調査ノート：田中一松資料</foreign>
+                <!--[Tokyo National Research Institute for Cultural Properties: The Documentation and Evaluation of Japanese Art: 
+                Research Notebooks of Art Historians. Documents of Tanaka Ichimatsu]-->
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>18</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

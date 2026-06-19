@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Edgerton1970" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Hybrid Sanskrit Grammar and Dictionary</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Edgerton 1970</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#edgerton" type="personal">
+        <namePart lang="en" type="family">Edgerton</namePart>
+        <namePart lang="en" type="given">Franklin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1970</dateIssued>
+        <place>
+            <placeTerm>Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Motilal Banarsidass<!-- Publishers Private Limited--></namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">First edition: New Haven, 1953</note>
+</mods>

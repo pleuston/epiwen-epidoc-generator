@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiXiaoqiang2014">
+    <titleInfo lang="zh">
+        <title>大藏信仰與大足寳頂山石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dazang xinyang yu Dazu Baoding Shan shiku</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Cave Shrines on Mount Baoding in Dazu and the Cult of the Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Xiaoqiang 2014</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lixiaoqiang" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">小強</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Dazu_shike_yjy2014" type="host">
+        <titleInfo lang="zh">
+            <title>2014年大足學國際學術研討會論文集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2014</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>211</start>
+                <end>228</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

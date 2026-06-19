@@ -24,22 +24,48 @@
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
-    <main class="docs-pane">
+    <div class="about-layout">
 
-      <section class="about-hero">
-        <h1>Bibliography</h1>
-        <p>
-          Scholarly literature, rubbings catalogues, and primary sources cited in
-          the inscription and rubbing records — monographs, journal articles, and
-          archival finding aids. References are linked to their corresponding
-          catalog entries via <code>@corresp</code> TEI attributes.
-        </p>
-        <p class="coming-soon">
-          Bibliography browser coming soon.
-        </p>
-      </section>
+      <!-- ── List pane ── -->
+      <div class="about-pane">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2>Bibliography <span id="biblio-count" class="catalog-date" style="font-weight:normal;font-size:.85em"></span></h2>
+            <div class="catalog-head-actions">
+              <input type="search" id="biblio-search" class="catalog-searchbox"
+                     placeholder="Filter…" aria-label="filter bibliography" />
+            </div>
+          </div>
+          <div class="view-toggle" style="margin-bottom:.4rem">
+            <button class="view-btn biblio-tab-btn active" data-filter="all">All</button>
+            <button class="view-btn biblio-tab-btn" data-filter="monograph">Monograph</button>
+            <button class="view-btn biblio-tab-btn" data-filter="article">Article</button>
+            <button class="view-btn biblio-tab-btn" data-filter="chapter">Chapter</button>
+            <button class="view-btn biblio-tab-btn" data-filter="edited">Edited</button>
+          </div>
+          <div style="display:flex;align-items:center;gap:.4rem;margin-bottom:.6rem;font-size:.82em;color:var(--text-muted)">
+            <label for="year-min">Year</label>
+            <input type="number" id="year-min" class="catalog-searchbox"
+                   style="width:4.5rem;padding:.25rem .4rem"
+                   placeholder="from" min="1800" max="2100" />
+            <span>–</span>
+            <input type="number" id="year-max" class="catalog-searchbox"
+                   style="width:4.5rem;padding:.25rem .4rem"
+                   placeholder="to" min="1800" max="2100" />
+          </div>
+          <div id="biblio-list" class="catalog-list"></div>
+        </section>
+      </div>
 
-    </main>
+      <!-- ── Detail pane ── -->
+      <div class="catalog-preview" id="biblio-detail-panel">
+        <div class="preview-head">
+          <span id="preview-title">Select a bibliography record</span>
+        </div>
+        <div id="biblio-detail-content" class="hp-pane"></div>
+      </div>
+
+    </div>
 
     <footer class="foot">
       Source:
@@ -48,6 +74,7 @@
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="bibliography-browser.js"></script>
     <script src="modal.js"></script>
   </body>
 </html>

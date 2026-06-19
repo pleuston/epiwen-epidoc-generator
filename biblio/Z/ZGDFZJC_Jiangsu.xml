@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGDFZJC_Jiangsu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo transliteration="pinyin"><title>Zhongguo difangzhi jicheng: Jiangsu fuxian zhi ji</title></titleInfo><titleInfo lang="zh"><title>中國地方誌集成：江蘇府縣誌輯</title></titleInfo><titleInfo lang="en" type="translated"><title>Collection of Local Gazetteers of China: Series of Prefectural and County Gazetteers of Jiangsu</title></titleInfo><titleInfo type="reference"><title>Zhongguo difangzhi jicheng jiangsu 1991</title></titleInfo><!-- <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiangxiaoqing" type="personal">
+        <namePart lang="zh" type="family">姜</namePart>
+        <namePart lang="zh" type="given">小青</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>--><extension>68 vols.</extension><originInfo><dateIssued>1991</dateIssued><place><placeTerm transliteration="pinyin">Nanjing</placeTerm><placeTerm lang="zh">南京</placeTerm></place><publisher><name type="corporate"><namePart transliteration="pinyin">Jiangsu guji chubanshe</namePart><namePart lang="zh">江蘇古籍出版社</namePart></name></publisher><issuance>monographic</issuance></originInfo></mods>

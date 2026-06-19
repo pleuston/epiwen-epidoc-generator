@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinshilubu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>金石録補</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi lu bu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Addendum to the <hi rend="italic">Records on Metal and Stone</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi lu bu">
+        <title>Jinshi lu bu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yeyibao" type="personal">
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Yibao</namePart>
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">奕苞</namePart>
+        <namePart type="date">1629-1686</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>27+7 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<originInfo>
+        <dateOther>27+7 vols</dateOther>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">27+7</detail>
+        </extent>
+    </physicalDescription>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>12</number>
+            </detail>
+            <extent unit="page">
+                <start>8985</start>
+                <end>9190</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

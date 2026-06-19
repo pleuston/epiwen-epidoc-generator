@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Linyanzhi2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Lingyan zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>靈巖志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Lingyan Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lingyan zhi 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#madaxiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Ma</namePart>
+        <namePart transliteration="pinyin" type="given">Daxiang</namePart>
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">大相</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangyulin" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Yulin</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">玉林</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhaopeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Peng</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">鵬</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+   
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shandong renmin chubanshe</namePart>
+            </name>
+            <namePart lang="zh">山東人民出版社</namePart>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+   
+        <!-- <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGFZCS_Huabei" type="series">
+        <titleInfo lang="zh">
+            <title>中國方志叢書：華北地方</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi congshu: Huabei difang</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>70</number>
+            </detail>
+        </part></relatedItem>-->
+    
+    <note type="reprint">Reprint of the edition of 1696</note>
+</mods>

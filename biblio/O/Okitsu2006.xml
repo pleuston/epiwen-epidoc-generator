@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okitsu2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo type="reference">
+        <title>Okitsu 2006</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>『賢愚経』を構成する説話の帰属部派</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sectarian Affiliation of Stories Contained in the ‘Sutra of the Wise and the Foolish’</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Gengukyō’ o kōsei suru setsuwa no kizoku buha</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#okitsu_katori" type="personal">
+        <namePart transliteration="romaji" type="family">Okitsu</namePart>
+        <namePart transliteration="romaji" type="given">Kaori</namePart>
+        <namePart lang="ja" type="family">興津</namePart>
+        <namePart lang="ja" type="given">香織</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_bukkyogaku_kenku" type="host">
+        <titleInfo lang="ja">
+            <title>印度學佛教學研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">55</detail>
+            <detail type="no">1</detail>
+            <date>2006</date>
+            <extent unit="pages">
+                <start>178</start>
+                <end>181</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

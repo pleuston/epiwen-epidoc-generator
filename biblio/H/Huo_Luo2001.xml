@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huo_Luo2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="pinyin">
+                <title>Minjiang shangyou xinchu nanchao shike zaoxiang ji xiangguan wenti</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+                <title>岷江上游新出南朝石刻造像及相關問題</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>The Stone Sculptures in the Southern Dynasties Recently Unearthed from the
+                        Upper Reaches of the Minjiang River and Some Related Issues</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Huo Wei and Luo Jin­yong 2001</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huowei" type="personal">
+                <namePart transliteration="pinyin" type="family">Huo</namePart>
+                <namePart transliteration="pinyin" type="given">Wei</namePart>
+                <namePart lang="zh" type="family">霍</namePart>
+                <namePart lang="zh" type="given">巍</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luojinyong" type="personal">
+                <namePart transliteration="pinyin" type="family">Luo</namePart>
+                <namePart transliteration="pinyin" type="given">Jinyong</namePart>
+                <namePart lang="zh" type="family">羅</namePart>
+                <namePart lang="zh" type="given">進勇</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SichuanDaxueXuebao" type="host">
+                <titleInfo transliteration="pinyin">
+                        <title>Sichuan daxue xuebao (zhexue shehui kexue ban)</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                        <title>四川大學學報 (哲學社會科學版)</title>
+                </titleInfo>
+                <titleInfo lang="en">
+                        <title>Journal of Sichuan University (Social Science Edition)</title>
+                </titleInfo>
+                <originInfo>
+                        <issuance>continuing</issuance>
+                </originInfo>
+                <part>
+                        <date>2001</date>
+                        <detail type="no">5</detail>
+                        <extent unit="page">
+                                <start>91</start>
+                                <end>99</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

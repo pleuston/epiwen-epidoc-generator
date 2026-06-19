@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Oda2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>大般涅槃経序説</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Daihatsu nehangyō josetsu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Introduction to the <hi rend="italic">Mahāparinirvāṇa-sūtra</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Oda 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#oda" type="personal">
+        <namePart lang="ja" type="family">織田</namePart>
+        <namePart lang="ja" type="given">顕祐</namePart>
+        <namePart transliteration="romaji" type="family">Oda</namePart>
+        <namePart transliteration="romaji" type="given">Akihira</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shinshū Ōtani-ha shūmusho shuppanbu</namePart>
+                <namePart lang="zh">真宗大谷派宗務所出版部</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

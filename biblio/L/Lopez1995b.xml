@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lopez1995b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Religions of India in Practice</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lopez 1995b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lopez" type="personal">
+        <namePart lang="en" type="family">Lopez</namePart>
+        <namePart lang="en" type="given">Donald S., Jr.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Princeton University Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="en">Princeton, NJ</placeTerm>
+        </place>
+        <dateIssued>1995</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="series">
+        <titleInfo lang="en">
+            <title>Princeton Readings in Religions</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

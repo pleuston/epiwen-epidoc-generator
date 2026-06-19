@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hao Chunwen" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qidanzang<!--’--> de diaoyin niandai</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>契丹藏的雕印年代</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Date of the Carving of the Qidan Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhao 1983</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhao</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">炤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZGLSBWG_guankan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo lishi bowuguan guankan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國歷史博物館館刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>15</start>
+                <end>17</end>
+            </extent>
+            <date>1983</date>
+        </part>
+    </relatedItem>
+</mods>

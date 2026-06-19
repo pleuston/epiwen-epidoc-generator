@@ -1,0 +1,24 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chen2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Apocrypha Titled <hi rend="normal">Foshuo fumu enzhong jing</hi> and Its Material Culture in the Medieval Chinese Society</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenying_en" type="personal">
+        <namePart lang="en" type="family">Chen</namePart>
+        <namePart lang="en" type="given">Ying</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <note type="thesis">Ph.D. diss.</note>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm>Oxford University</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Inagaki1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+                    <titleInfo lang="en">
+                                        <title>The Three Pure Land Sutras</title>
+                    </titleInfo>
+                    <titleInfo type="reference">
+                                        <title>Inagaki 1995</title>
+                    </titleInfo>
+                    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#inagaki" type="personal">
+                                        <namePart type="family">Inagaki</namePart>
+                                        <namePart type="given">Hisao</namePart>
+                                        <role>
+                                                  <roleTerm>translator</roleTerm>
+                                        </role>
+                    </name>
+                    <abstract>Translation of the Smaller Sutra on Amitayus on pp. 121-126</abstract>
+                    <originInfo>
+                                        <dateIssued>1995</dateIssued>
+                                        <place>
+                                                  <placeTerm>Berkeley</placeTerm>
+                                        </place>
+                                        <publisher>
+                                                  <name type="corporate">
+                                                  <namePart lang="en">Bukkyō Dendō Kyōkai and Numata
+                                                  Center for Buddhist Translation and
+                                                  Research</namePart>
+                                                  </name>
+                                        </publisher>
+                                        <issuance>monographic</issuance>
+                    </originInfo>
+                    <relatedItem type="series">
+                                        <titleInfo lang="en">
+                                                  <title>BDK English Tripiṭaka 12-II, III,
+                                                  IV</title>
+                                        </titleInfo>
+                    </relatedItem>
+</mods>

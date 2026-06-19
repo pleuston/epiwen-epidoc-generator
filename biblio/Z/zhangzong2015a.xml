@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="zhangzong2015a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Drawing of Yama and Scripture-Carving of the Early Tang Dynasty: Case Study of
+            the Rubbings of ‘Qi Shiyuan’s Inscription for the Xian Mausoleum’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2015a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lin_pei-ying" type="personal">
+        <namePart type="family">林</namePart>
+        <namePart type="given">佩瑩</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#LouYulie2015" type="host">
+        <titleInfo lang="en">
+            <title>Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2015</date>
+            <extent unit="page">
+                <start>180</start>
+                <end>204</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

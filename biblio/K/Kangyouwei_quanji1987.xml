@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kangyouwei_quanji1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Kang Youwei quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>康有爲全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Works of Kang Youwei</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Kang Youwei quanji">
+        <title>Kang Youwei quanji 1987–1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kangyouwei" type="personal">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiangyihua" type="personal">
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Yihua</namePart>
+        <namePart lang="zh" type="family">姜</namePart>
+        <namePart lang="zh" type="given">義華</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wugenliang" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Genliang</namePart>
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">根樑</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">12</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1987</dateIssued>
+        <dateIssued point="end">1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

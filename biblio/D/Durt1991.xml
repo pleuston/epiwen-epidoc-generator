@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Durt1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>La date du Buddha en Corée et au Japon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Durt 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#durt" type="personal">
+        <namePart lang="fr" type="family">Durt</namePart>
+        <namePart lang="fr" type="given">Hubert</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Bechert1991" type="host">
+        <titleInfo lang="de">
+            <title>Die Datierung des historischen Buddha</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>The Dating of the Historical Buddha</title>
+        </titleInfo>
+        <name ns2:href="#bechert" type="personal">
+            <namePart lang="de" type="family">Bechert</namePart>
+            <namePart lang="de" type="given">Heinz</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1991</dateIssued>
+            <place>
+                <placeTerm>Göttingen</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="de">Vandenhoeck und Ruprecht</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>458</start>
+                <end>489</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taniguchi1966" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+           <titleInfo lang="ja">
+                      <title>書の品等論の成立について<hi rend="dash">──</hi>虞龢の「論書表」を中心に </title>
+           </titleInfo>
+           <titleInfo transliteration="romaji">
+                      <title>Sho no hintōron no seiritsu ni suite, Gu Ka no ‘Ronshohyō’ o chūshin ni</title>
+           </titleInfo>
+           <titleInfo lang="en" type="translated">
+                      <title>The Beginnings of Classification in Calligraphy Theory, Centering on the <hi rend="italics">Memorial on Calligraphy</hi> by Yu He</title>
+           </titleInfo>
+           <titleInfo type="reference">
+                      <title>Taniguchi 1966</title>
+           </titleInfo>
+           <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taniguchi_tetsuo" type="personal">
+                      <role>
+                                 <roleTerm>author</roleTerm>
+                      </role>
+           </name>
+           <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Bigaku" type="host">
+                      <titleInfo transliteration="romaji">
+                                 <title>Bigaku</title>
+                      </titleInfo>
+                      <titleInfo lang="ja">
+                                 <title>美學</title>
+                      </titleInfo>
+                      <originInfo>
+                                 <issuance>continuing</issuance>
+                      </originInfo>
+                      <part>
+                                 <detail type="volume">64</detail>
+                                 <extent unit="page">
+                                            <start>1</start>
+                                            <end>9</end>
+                                 </extent>
+                                 <date>1966</date>
+                      </part>
+           </relatedItem>
+           <classification edition="#Taniguchi1973">reprint</classification>
+           <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Taniguchi1973" type="host">
+                      <note>reprint</note>
+                      <name ns2:href="#taniguchi_tetsuo" type="personal">
+                                 <role>
+                                            <roleTerm>author</roleTerm>
+                                 </role>
+                      </name>
+                      <originInfo>
+                                 <issuance>monographic</issuance>
+                      </originInfo>
+                      <part>
+                                 <extent unit="page">
+                                            <start>115</start>
+                                            <end>132</end>
+                                 </extent>
+                      </part>
+           </relatedItem>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YuLina2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>‘磚構木相’<hi rend="dash">──</hi>宋金時期中原仿木構磚室墓鬥栱模數設計芻議</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>‘Zhuangou muxiang’<hi rend="dash">──</hi>Song Jin shiqi zhongyuan fang mugou zhuanshimu gougong shu sheji chuyi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>‘Brick-built in Wooden Form’<hi rend="dash">──</hi>A Preliminary Discussion on the Modular Design of Dougong Brackets in Brick Chamber Tombs Imitating Timber Structures from the Song Jin Period in Zhongyuan Area</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yu 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yulina" type="personal">
+        <namePart lang="zh" type="family">俞</namePart>
+        <namePart lang="zh" type="given">莉娜</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>建築學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jianzhu xuebao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>189</start>
+                <end>195</end>
+            </extent>
+            <date>2021</date>
+        </part>
+    </relatedItem>
+</mods>

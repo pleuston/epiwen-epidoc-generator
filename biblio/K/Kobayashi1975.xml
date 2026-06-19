@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kobayashi1975" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>南岳慧思立誓願文の形成に関する問題</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nangaku esi tati seigan bun no keisei ni kan suru mondai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Questions in Relation to the Formation of the <hi rend="italic">Nan-yüeh-ssu-ta-shih-li-shih-yüan-wên</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kobayashi Taizen 1975</title>
+    </titleInfo>
+   
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kobayashi_taizen" type="personal">
+        <namePart type="family">小林</namePart>
+        <namePart type="given">泰善</namePart>
+        <namePart type="family">Kobayashi</namePart>
+        <namePart type="given">Taizen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Journal of Indian and Buddhist Studies</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛教學研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1975</date>
+            <detail type="volume">24</detail>
+            <detail type="no">1</detail>
+
+
+            <extent unit="page">
+                <start>250</start>
+                <end>253</end>
+            </extent>
+            
+        </part>
+    </relatedItem>
+</mods>

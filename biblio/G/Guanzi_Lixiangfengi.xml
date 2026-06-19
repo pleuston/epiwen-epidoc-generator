@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Guanzi_Lixiangfeng" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Guanzi jiaozhu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>管子校注</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Review and Annotation of <hi rend="italic">Guanzi</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guanzi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lixiangfeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Xiangfeng</namePart>
+        <namePart lang="zh" type="family">黎</namePart>
+        <namePart lang="zh" type="given">翔鳯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

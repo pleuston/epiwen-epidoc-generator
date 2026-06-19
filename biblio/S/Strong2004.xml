@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Strong2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Relics of the Buddha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Strong 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#strong" type="personal">
+        <namePart lang="en" type="family">Strong</namePart>
+        <namePart lang="en" type="given">John S.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Although in his book Relics of the Buddha, John S. Strong does not “consider commemorative (uddesika) relics such as Buddha images” 
+        (Strong 2004: 20), he still admits that “certain images such as the “shadow of the Buddha” at Nagarahāra or the famous “Udrāyana” sandalwood 
+        image of the Buddha may well qualify as contact relics of the Buddha” (Strong 2004:20, note 51). In other words, while he classifies Buddha 
+        images in general as uddesika relics, some particular images stand out and might even join the ranks of paribhoga relics, or contact relics. 
+        The examples that he names, the Buddha’s shadow at Nagarahāra and the Udrāyana sandalwood image, fully qualify as true icons of the Buddha, and 
+        have been considered as such ever since.
+        On footprints: The footprints of the Buddha may mark the Buddha’s presence in this world; or emphasize his absence, being traces of where he had once been.
+        The footprints of the Buddha may be grouped into two kinds: his actual footprints, and replicas or representations of them. The latter fall into the same category as images, and are thus said to be uddesika, representational, relics. The first fall into the category of pāribhogika relics, or relics of touch or contact.
+        The Pali legend of Puṇṇa (Skr.: Pūrṇa) [Found in Sāratthappakāsinī [Commentary on Samyutta Nikāya.]2:373ff; Papañcasūdanī [Commentary on Majjhima Nikāya.] There is also a Sanskrit version, the Pūrṇāvadāna, found in Divyāvadāna and Avadānakalpalatā, but without the footprint relics.] narrates the legend of the Saccabandha and Nammadā footprints: When the Buddha, on the invitation of Puṇṇa, visists the land of Sunāparanta, he leaves two footprints: One on the riverbank of the Nammadā River, where it can be venerated by the nāga king, whenever the river is in flood; and the other in the solid rock of the mountain of Saccabandha. With the transmission of this story to Southeast Asia, places in Thailand and Burma were identified with these footprints in the early seventeenth century. Impressions on mountain tops and river bottoms reflect the vertical extension of the Buddha’s presence; the distribution of 80.000 relics by Asoka (or Sui Wendi) reflect the horizontal extension of Buddha relics; both cases indicate cosmic dimensions. 
+        96: “…the footprints of the Buddha (and perhaps relics in general) may be seen as meeting points between worlds, as places where humans and deities, or humans and nāgas, may encounter each other.” The Buddha is invited to these new lands by locals.
+        97: “The presence (or at least the future presence) of the Buddha and his relics in these lands, therefore, is presented as something that is requested or agreed to, not imposed. …the footprints may be thought to lay latent for a while, until the land is ready for the actual teaching of the dharma. … the theme of the discovery or “rediscovery” of the site of relics comes to the fore…”
+        
+        Mahāvaṃsa (大史 Great Chronicle). A Śrī Lankan history written in Pāli, for which there is no Chinese translation.
+        The footprint at Adam’s Peak on Sri Lanka evolved in connection with the pilgrimage tradition at that mountain in the early twelfth century. 
+        Footprints are evidence for the Buddha’s apocryphal visits, for example in Burma, Thailand and Sri Lanka. They recall encounters with or visits of the living, preaching, still-in-this-world Buddha. … They are thus extensions of the Buddha’s own physical self rather than metamorphoses of his body.
+        
+    </abstract>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm>Princeton</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Princeton University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Buddhisms: A Princeton University Press Series</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

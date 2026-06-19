@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Maspero1950b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Les régimes fonciers en Chine des origines aux temps modernes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Maspero 1950b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#maspero" type="personal">
+        <namePart lang="fr" type="family">Maspero</namePart>
+        <namePart lang="fr" type="given">Henri</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Maspero1950a" type="host">
+        <titleInfo lang="fr">
+            <title>Mélanges posthumes sur les religions et l’histoire de la Chine</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1950</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">3</detail>
+            </extent>
+        </physicalDescription>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+                <title>Études historiques</title>
+            </detail>
+            <extent unit="page">
+                <start>147</start>
+                <end>192</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

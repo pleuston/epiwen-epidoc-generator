@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zongmingan2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei tie shoucang yu yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>碑帖收藏與研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Collecting and Studying of Rubbings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zong Ming’an 2009</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zongmingan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zong</namePart>
+        <namePart transliteration="pinyin" type="given">Ming’an</namePart>
+        <namePart lang="zh" type="family">宗</namePart>
+        <namePart lang="zh" type="given">鳴安</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shaanxi renmin meishu chubanshe</namePart>
+                <namePart lang="zh">陜西人民美術出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

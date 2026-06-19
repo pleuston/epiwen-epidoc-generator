@@ -1,0 +1,96 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_223" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>摩訶般若波羅蜜經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Great Perfection of Wisdom Sutra</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Móhē bōrě bōluómì jīng</title>
+    </titleInfo>
+    <titleInfo lang="sa" type="alternative">
+        <title>Pañcaviṃśatisāhasrikāprajñāpāramitā</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="alternative">
+        <title>大品般若經</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>T#223, 8</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiumoluoshe" type="personal">
+        <namePart lang="zh">鳩摩羅什</namePart>
+        <namePart transliteration="pinyin">Jiumoluoshe</namePart>
+        <namePart lang="sa">Kumārajīva</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract>For the so-called Pañcaviṃśatisāhasrikā (e.g. T.223), Zacchetti has taught us that it is
+        better to speak of versions before the Gilgit Sanskrit (ca. 6c) as “Larger
+        Prajñāpāramitā”.</abstract>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">27</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>Yao Qin dynasty, 4th month of 6th year Hongshi, April or May 404</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>08</number>
+            </detail>
+            <extent unit="page">
+                <start>217</start>
+                <end>424</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

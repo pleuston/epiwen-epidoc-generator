@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2003c" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://147.142.222.135:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shufa huanjing leixingxue—Shufashi de lilun yu fangfa</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>書法環境<hi rend="dash">──</hi>類型學：書法史的理論與方法</title>
+        <!-- translation modified 2024-07-12 -->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Calligraphic Environment and Typology: Theory and Method in the History
+            of Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2003b</title>
+    </titleInfo>
+    <subject>
+        <topic>calligraphy</topic>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">文物出版社</namePart>
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="en" type="translation">Cultural Relics Publishing House</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

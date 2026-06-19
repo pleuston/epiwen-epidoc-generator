@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="hongxueyinyuantuji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Hongxue yinyuan tu ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鴻雪因緣圖記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Swan on the Snow: An Illustrated Record of My Preordained Life</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hongxue yinyuan tu ji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wanyanlinqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Wanyan</namePart>
+        <namePart transliteration="pinyin" type="given">Linqing</namePart>
+        <namePart lang="zh" type="family">完顏</namePart>
+        <namePart lang="zh" type="given">麟慶</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing guji chubanshe</namePart>
+                <namePart lang="zh">北京古籍出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+  <note type="reprint">Recut 1847, first preface 1839; later inserted prefaces 1849. Copy preserved in the Waseda University Library <foreign lang="zh">早稲田大学圖書館</foreign>
+    </note>
+</mods>

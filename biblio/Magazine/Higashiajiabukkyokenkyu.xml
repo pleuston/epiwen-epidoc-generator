@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Higashiajiabukkyokenkyu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東アジア仏教研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Higashiajia Bukkyō kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on East Asian Buddhism</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">東アジア仏教研究会</namePart>
+                <namePart transliteration="romaji">Higashiajia Bukkyō Kenkyū</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

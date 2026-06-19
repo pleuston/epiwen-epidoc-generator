@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HouXudong2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wu, liu shiji beifang minzhong fojiao xinyang: yi zaoxiangji wei zhongxin de kaocha (zengding ben)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>五六世紀北方民眾佛教信仰：以造像記爲中心的考察（增訂本）</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Common People’s Buddhist Beliefs in Northern China during the Fifth and Sixth Centuries: A Study Based on Inscriptions on Buddhist Statues (Updated Version)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hou Xudong 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#houxudong" type="personal">
+        <namePart transliteration="pinyin" type="family">Hou</namePart>
+        <namePart transliteration="pinyin" type="given">Xudong</namePart>
+        <namePart lang="zh" type="family">侯</namePart>
+        <namePart lang="zh" type="given">旭東</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shehui kexue wenxian chubanshe</namePart>
+                <namePart lang="zh">社會科學文獻出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKWXXSWK_WSZ" type="series">
+        <titleInfo lang="zh">
+            <title>社科文獻學術文庫·文史哲研究系列</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Sheke wenxian xueshu wenku: wen shi zhe yanjiu xilie</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

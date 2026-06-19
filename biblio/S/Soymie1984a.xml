@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Soymie1984a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Les peinture murales et les manuscrits de Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Soymié 1984a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#soymie" type="personal">
+        <namePart lang="fr" type="family">Soymié</namePart>
+        <namePart lang="fr" type="given">M.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Éditions de la Fondation Singer-Polignac</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

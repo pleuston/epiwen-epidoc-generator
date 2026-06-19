@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="PWZ_Shuhuapu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>佩文齋書畫譜</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Pei­wen Zhai shu­hua pu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalogue of Calligraphies and Paintings of the Peiwen Studio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pei­wen Zhai shu­hua pu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sunyueban" type="personal">
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart lang="zh" type="given">岳頒</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">4</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1969</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xinyu shuju</namePart>
+                <namePart lang="zh">新與書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <edition/>
+    </originInfo>
+    <note type="reprint">Reprint of the 1707 edition</note>
+</mods>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TsaiSueyling2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jingshi Yu: zuowei fojiao daochang zhi qiantan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>经石峪作为佛教道场之浅谈</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Preliminary Discussion on the Sutra Stone Valley as a Buddhist Ritual Place</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsai Suey-Ling 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsaisueyling" type="personal">
+        <namePart transliteration="pinyin" type="family">Tsai</namePart>
+        <namePart transliteration="pinyin" type="given">Suey-Ling</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ShijingYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Taishan xueyuan xuebao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>泰山学院学报</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2019</date>
+            <detail type="no">1/16</detail>
+            <extent unit="page">
+                <start>39</start>
+                <end>43</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

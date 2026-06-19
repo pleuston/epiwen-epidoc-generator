@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsuda1978" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>漱石と十弟子</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sōseki to 10-deshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Soseki and his Ten Disciples</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsuda 1978</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsuda_seifu" type="personal">
+        <namePart transliteration="romaji" type="family">Tsuda</namePart>
+        <namePart transliteration="romaji" type="given">Seifū</namePart>
+        <namePart lang="ja" type="family">津田</namePart>
+        <namePart lang="ja" type="given">青楓</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1978</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Geishūdō</namePart>
+                <namePart lang="ja">芸艸堂</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hajungmin2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Shaping Religious and Cultural Aspiration: Engraved Sutras in Southwestern Shandong Province from the Northern Qi Dynasty (550–577 CE), China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ha Jungmin 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hajungmin" type="personal">
+        <namePart lang="en" type="family">Ha</namePart>
+        <namePart lang="en" type="given">Jungmin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <note type="thesis">Ph.D. diss.</note>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm>Duke University, Durham, NC</placeTerm>
+        </place>
+    </originInfo>
+</mods>

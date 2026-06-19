@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zuercher2013a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>‘Prince Moonlight’: Messianism and Eschatology in Early Medieval Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zürcher 2013a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zuercher" type="personal">
+        <namePart lang="en" type="family">Zürcher</namePart>
+        <namePart lang="en" type="given">Erik</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Zuercher2013" type="host">
+        <titleInfo lang="en">
+            <title>Buddhism in China: Collected Papers of Erik Zürcher</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>187</start>
+                <end>257</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<classification edition="1982a">reprint</classification>
+    <originInfo type="reprint">
+        <dateIssued>1982</dateIssued>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+            <titleInfo transliteration="wade-giles">
+                <title>T’oung Pao: International Journal of Chinese Studies</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                <title>通報</title>
+            </titleInfo>
+            <originInfo>
+                <issuance>continuing</issuance>
+            </originInfo>
+            <part>
+                <detail type="volume">
+                    <number>68</number>
+                </detail>
+                <detail type="no">
+                    <number>1–3</number>
+                </detail>
+                <extent unit="page">
+                    <start>1</start>
+                    <end>75</end>
+                </extent>
+                <date>1982</date>
+            </part>
+        </relatedItem>
+    </originInfo>-->
+    <note type="reprint">Reprint of the 1982 edition</note>
+</mods>

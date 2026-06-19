@@ -1,0 +1,76 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dongeyuwendinggongnianpu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>東阿于文定公年譜</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dong’e Yu Wending gong nianpu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chronological Biography of Mister Yu Wending (Yu Shengxing) from Dong’e</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dong’e Yu Wending gong nianpu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xingtong" type="personal">
+        <namePart type="family" lang="zh">邢</namePart>
+        <namePart type="given" lang="zh">侗</namePart>
+        <namePart transliteration="pinyin" type="family">Xing</namePart>
+        <namePart transliteration="pinyin" type="given">Tong</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ruanzihua" type="personal">
+        <namePart type="family" lang="zh">阮</namePart>
+        <namePart type="given" lang="zh">自華</namePart>
+        <namePart transliteration="pinyin" type="family">Ruan</namePart>
+        <namePart transliteration="pinyin" type="given">Zihua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateOther>Completed before 1637</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shandongwenxianjicheng" type="host">
+        <titleInfo lang="zh">
+            <title>山東文獻集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shandong wenxian jicheng</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sdwxjc_bzwyh" type="corporate">
+            <namePart lang="zh">山東文獻集成編纂委員會</namePart>
+            <role>
+                <roleTerm type="etal">editor</roleTerm>
+            </role>
+        </name>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>10</number>
+            </detail>
+            <extent unit="page">
+                <start>600</start>
+                <end>768</end>
+            </extent>
+        </part>
+        <originInfo>
+            <dateIssued>2006</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Jinan</placeTerm>
+                <placeTerm lang="zh">濟南</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Shandong daxue chubanshe</namePart>
+                    <namePart lang="zh">山東大學出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+</mods>

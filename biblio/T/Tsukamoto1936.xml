@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto1936" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教史料としての金刻藏經：特に宋釋教目録と唐宋法相宗章疏に就て</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō shiryō to shite no kinkoku zōkyō toku ni Sō shakkyō mokuroku to Tō-Sō Hossōshū shōso ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$The Golden Tibetan Sutra as a Buddhist Historical Source: Especially on the Song-dynasty Shakyamuni Buddha Catalog and the Tang-Song Fasang Zongzhang Commentary</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto 1936</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">善隆</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Zenryū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TohoGakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tōhō gakuhō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東方学報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+            <extent unit="page">
+                <start>26</start>
+                <end>100</end>
+            </extent>
+            <date>1936</date>
+        </part>
+    </relatedItem>
+</mods>

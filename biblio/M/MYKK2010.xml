@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MYKK2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mianyang kanku: Sichuan Mianyang gudai zaoxiang yanjiu baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>綿陽龕窟:四川綿陽古代造像調查研究報告</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Niches of Mianyang: Reports on the Ancient Sculptures in Mianyang, Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Sichuan Zitong xian Wolongshan 2010">
+        <title>Mianyang kanku 2010</title>
+    </titleInfo>
+    <subject/>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sc_wenwukaogu_yjy" type="corporate">
+        <namePart transliteration="pinyin">Sichuan Sheng wenwu kaogu yanjiuyuan</namePart>
+        <namePart lang="zh">四川省文物考古研究院</namePart>
+        <namePart lang="en">Sichuan Provincial Institute of Cultural Heritage and Archaeology</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mys_wenwuju" type="corporate">
+        <namePart transliteration="pinyin">Mianyang Shi wenwu ju</namePart>
+        <namePart lang="zh">綿陽市文物局</namePart>
+        <namePart lang="en">Mianyang Cultural Heritage Administration</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Aikawa2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Tie Shan Daji jing he jingsong shufa yanjiu</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>鐵山大集經和經頌書法研究</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Research on the Calligraphy of the <hi rend="italic">Great Collection
+                                                Sutra</hi> and the <hi rend="italic">Sutra Hymn</hi>
+                                    on Mount Tie</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Aikawa 2003</title>
+            </titleInfo>
+            <subject>
+                        <hierarchicalGeographic>
+                                    <province>Shandong</province>
+                                    <city>Zoucheng</city>
+                        </hierarchicalGeographic>
+                        <topic>Tieshan</topic>
+            </subject>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#aikawa" type="personal">
+                        <namePart transliteration="hepburn" type="family">Aikawa</namePart>
+                        <namePart transliteration="hepburn" type="given">Masayuki</namePart>
+                        <namePart lang="ja" type="family">相川</namePart>
+                        <namePart lang="ja" type="given">政行</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg2003" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Beichao moya kejing yanjiu (xu)</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>北朝摩崖刻經研究（續）</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <dateIssued>2003-12</dateIssued>
+                                    <place>
+                                                <placeTerm transliteration="others">Hong Kong</placeTerm>
+                                                <placeTerm lang="zh">香港</placeTerm>
+                                    </place>
+                                    <publisher><name type="corporate">
+                                                  <namePart transliteration="pinyin">Tianma tushu youxian gongsi</namePart>
+                                                  <namePart lang="zh">天馬圖書有限公司</namePart>
+                                                </name></publisher>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <extent unit="page">
+                                                <start>135</start>
+                                                <end>157</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

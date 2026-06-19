@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shaanxi2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang Xincheng Zhang Gongzhu mu fajue baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐新城長公主墓發掘報告</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Report on the Excavation of the Tomb of the Tang Dynasty Princess Xincheng</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shaan­xi Sheng Kao­gu Yan­jiu­suo 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shaanxisheng_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Shaanxi Sheng kaogu yanjiusuo</namePart>
+        <namePart lang="zh">陜西省考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shaanxi_lishi_bwg" type="corporate">
+        <namePart transliteration="pinyin">Shaanxi lishi bowuguan</namePart>
+        <namePart lang="zh">陜西曆史博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liquanxian_zhaoling_bwg" type="corporate">
+        <namePart transliteration="pinyin">Liquan Xian Zhaoling bowuguan </namePart>
+        <namePart lang="zh">禮泉縣昭陵博物館 </namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

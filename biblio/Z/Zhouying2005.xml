@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhouying2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>概論</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Gailun</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Introduction</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhouying" type="personal">
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Ying</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Qujinxian2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山通鑒</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan tongjian</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>1</start>
+                <end>31</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

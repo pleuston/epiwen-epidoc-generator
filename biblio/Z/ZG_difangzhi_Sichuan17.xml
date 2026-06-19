@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZG_difangzhi_Sichuan17" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo difang zhi jicheng. Sichuan Fu Xian zhi ji 17</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國地方志集成：四川府縣志輯17</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Compendium of Chinese Local Gazetteers: Prefectures and Counties of Sichuan, volume 17</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo difang jicheng: Sichuan Fu Xian zhi ji 17</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xieyibo" type="personal">
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">藝波</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Bashu shushe</namePart>
+                <namePart lang="zh">巴蜀書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

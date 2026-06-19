@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="vonSpee2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Wu Hufan <foreign xml:lang="zh">吴湖帆</foreign>: A Twentieth Century Art Connoisseur in
+            Shanghai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Spee 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#vonSpee" type="personal">
+        <namePart lang="en" type="family">von Spee</namePart>
+        <namePart lang="en" type="given">Clarissa</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Reimer</namePart>
+            </name>
+        </publisher>
+        <issuance/>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>The Hammonds Foundation Monograph Series on Asian Art</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

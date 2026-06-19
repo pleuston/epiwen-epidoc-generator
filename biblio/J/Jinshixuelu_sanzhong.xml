@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Jinshixuelu_sanzhong">
+    <titleInfo lang="en" type="translated">
+        <title>Three Editions of the Jinshixue Records</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金石學録三種</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi xue lu san zhong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jinshi xue lu san zhong</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#luxinyuan">
+        <namePart lang="zh" type="family">陸</namePart>
+        <namePart lang="zh" type="given">心源</namePart>
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Xinyuan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#chudeyi">
+        <namePart lang="zh" type="family">褚</namePart>
+        <namePart lang="zh" type="given">德彝</namePart>
+        <namePart transliteration="pinyin" type="family">Chu</namePart>
+        <namePart transliteration="pinyin" type="given">Deyi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#liyusun">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">遇孫</namePart>
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Yusun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#sangshen">
+        <namePart lang="zh" type="family">桑</namePart>
+        <namePart lang="zh" type="given">椹</namePart>
+        <namePart transliteration="pinyin" type="family">Sang</namePart>
+        <namePart transliteration="pinyin" type="given">Shen</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+            <placeTerm lang="zh">杭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhejiang renmin meishu chubanshe</namePart>
+                <namePart lang="zh">浙江人民美術出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

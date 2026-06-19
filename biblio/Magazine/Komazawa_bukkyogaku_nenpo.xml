@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Komazawa_bukkyogaku_nenpo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>駒澤大學大學院佛教研究会年報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Komazawa daigaku daigakuin Bukkyōgaku kenkyūkai nenpō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annual report of the Institute of Buddhist Studies of Komazawa University</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#komazawa_zen_kenkyujo" type="corporate">
+        <namePart lang="ja">駒澤大學禅研究所</namePart>
+        <namePart transliteration="romaji">Komazawa daigaku Zen kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <frequency>annual</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">駒澤大學禅研究所</namePart>
+                <namePart transliteration="romaji">Komazawa daigaku Zen kenkyūjo</namePart>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

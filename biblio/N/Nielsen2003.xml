@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nielsen2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Companion to Yi Jing Numerology and Cosmology. Chinese Studies of Images and Numbers from Han <foreign lang="zh">漢</foreign> <hi rend="normal">(</hi>202 BCE–220 CE<hi rend="normal">)</hi> to Song <foreign lang="zh">宋</foreign> <hi rend="normal">(</hi>960–1279 CE<hi rend="normal">)</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nielsen 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nielsen" type="personal">
+        <namePart lang="en" type="family">Nielsen</namePart>
+        <namePart lang="en" type="given">Bent</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Routledge</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

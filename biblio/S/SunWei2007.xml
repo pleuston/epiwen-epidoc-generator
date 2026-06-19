@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SunWei2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>鮮卑考古學文化研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xianbei kaoguxue wenhua yanjiu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sun Wei 2007</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Cultural Research on Xianbei Archaeology</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sunwei" type="personal">
+        <namePart lang="zh" type="family">Sun</namePart>
+        <namePart lang="zh" type="given">Wei</namePart>
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Wei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

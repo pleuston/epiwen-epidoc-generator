@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiWeimin2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beijing kaogu zhi, Fangshan juan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北京考古志, 房山卷</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Beijing Archaeological Annals, Chapter Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Weimin 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liweimin" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Weimin</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">伟敏</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

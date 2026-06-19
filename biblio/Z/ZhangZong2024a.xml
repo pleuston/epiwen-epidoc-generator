@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2024a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>響堂刻經洞佛名、偈讚與經典</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xiangtang Kejing Dong Fo ming, jizan yu jingdian</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Buddha Names, Verses, and Sutra Texts of Sutra Cave at Xiangtang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2024a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This is basically an updated version of ZhangZong2013a, which nevertheless represent the "most comprehensive treatment of the Northern Xiangtang stone inscriptions" (so writes Zhang Zong himself).
+        Zhang has corrected errors and lacunae in his former transcriptions on the basis of Kuramoto2016a, to whom he pays tribute. The transcriptions are followed by a condensed version of his lenghty former analysis. This analysis now mostly consits of naming other sites and monuments where the respective text passage/name/verse was also carved. Moreover, his transcripts of the texts carved on the pillars are now better formatted and thus easier to understand (=&gt; compare these transcripts with my power point on Northern Xiangtang Shan). 
+    p. 52: Zhang mentions some of the peculiarities of Northern Qi quoting habits (Henan Linzhou Honggu Si; Jian Sha; Sili Shan; Xiaonanhai).</abstract>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongguoShufa" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo shufa</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國書法</title>
+        </titleInfo>
+        <titleInfo xml:lang="en">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2024</date>
+           
+            <detail type="no">9</detail>
+            <extent unit="page">
+                <start>49</start>
+                <end>77</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nonin2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>五惡段は中國撰述か</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Goakudan wa Chūgoku senjutsu ka</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Was the Passage on the Five Evils in the <hi rend="italic">Larger Pure Land Sutra</hi> Composed in China?</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nōnin 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nonin" type="personal">
+        <namePart lang="ja" type="family">能仁</namePart>
+        <namePart lang="ja" type="given">正顕</namePart>
+        <namePart transliteration="romaji" type="family">Nōnin</namePart>
+        <namePart transliteration="romaji" type="given">Masaaki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛教學硏究<!--印度学仏教学研究--></title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">60</detail>
+            <detail type="no">1</detail>
+            <extent unit="pages">
+                <start>1</start>
+                <end>11</end>
+            </extent>
+            <date>2011</date>
+        </part>
+    </relatedItem>
+</mods>

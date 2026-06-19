@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baqiongshi_JSBZXB" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baqiong Shi jinshi buzheng xubian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>八瓊室金石補正續編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sequel to the Supplementary Corrigenda to the Epigraphica of Eight Gems
+            Studio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Baqiong Shi jinshi buzheng xubian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lujihui" type="personal">
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Jihui</namePart>
+        <namePart lang="zh" type="family">陸</namePart>
+        <namePart lang="zh" type="given">繼煇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="XXSKQS2" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xuxiu Siku quanshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>續修四庫全書</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">899</number>
+                <number type="end">901</number>
+            </detail>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

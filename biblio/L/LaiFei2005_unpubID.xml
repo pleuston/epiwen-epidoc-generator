@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2005_unpub" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>“Shisong” danzi xianzhuang miaohui yu miaoshu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《石頌》單字現狀描繪與描述</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Tracing Copy of Each Character of the <hi rend="italic">Stone Hymn</hi>, with Remarks
+            on their State of Preservation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2005a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm>Zoucheng</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">unpublished record</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

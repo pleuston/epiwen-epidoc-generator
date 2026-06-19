@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Saussy2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Texts and Transformations: Essays in Honor of the 75th Birthday of Victor H. Mair</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Saussy 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#saussy" type="personal">
+        <namePart lang="en" type="family">Saussy</namePart>
+        <namePart lang="en" type="given">Haun</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sen" type="personal">
+        <namePart lang="en" type="family">Sen</namePart>
+        <namePart lang="en" type="given">Tansen</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenjinhua" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm>Amherst, New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambria Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

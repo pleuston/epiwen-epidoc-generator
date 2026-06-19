@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ibuki1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>初期禪宗文獻に見る禪觀の實踐</title>
+    </titleInfo>
+    <titleInfo transliteration="hepburn">
+        <title>Shoki Zenshū bunken ni miru Zenkan no jissen</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Practice of Meditation as Seen in Early Chan Texts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ibuki 1998</title>
+    </titleInfo>
+    <subject>
+        <topic>Zen</topic>
+        <topic>contemplation</topic>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ibuki_atsushi" type="personal">
+        <namePart transliteration="hepburn" type="family">Ibuki</namePart>
+        <namePart transliteration="hepburn" type="given">Atsushi</namePart>
+        <namePart lang="ja" type="family">伊吹</namePart>
+        <namePart lang="ja" type="given">敦</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zenbunka_kiyo" type="host">
+        <titleInfo lang="ja">
+            <title>禅文化研究所紀要</title>
+        </titleInfo>
+        <titleInfo transliteration="hepburn">
+            <title>Zen bunka kenkyūjo kiyō</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1998</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Zenbunka kenkyūjo</namePart>
+                    <namePart lang="ja">禅文化研究所</namePart>
+                    <namePart lang="en" type="translation">The Institute for Zen Studies</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1998</date>
+            <detail type="volume">24</detail>
+            <extent unit="page">
+                <start>19</start>
+                <end>45</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

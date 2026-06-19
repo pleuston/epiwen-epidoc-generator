@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lopez1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Hermeneutics</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lopez 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lopez" type="personal">
+        <namePart lang="en" type="family">Lopez</namePart>
+        <namePart lang="en" type="given">Donald S.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaii Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="en">Honolulu</placeTerm>
+        </place>
+        <dateIssued>1988</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="en">
+            <title>Kuroda Institute Studies in East Asian Buddhism</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

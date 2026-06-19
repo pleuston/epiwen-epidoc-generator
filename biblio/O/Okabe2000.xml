@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okabe2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>父母恩重經<!--（擔當　岡部和雄）-->
+            <hi rend="dash">──</hi>影印·翻刻；解題</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>
+            <hi rend="italic">Bumo onjū kyō:</hi> Eiin, honkoku; kaidai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>
+            <hi rend="italic">Bumo onjū kyō:</hi> Photographic Reproduction and Transcription; Summary</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okabe 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#okabe" type="personal">
+        <namePart lang="ja" type="family">岡部</namePart>
+        <namePart lang="ja" type="given">和雄</namePart>
+        <namePart transliteration="romaji" type="family">Okabe</namePart>
+        <namePart transliteration="romaji" type="given">Kazuo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Makita_Ochiai1994_2000" type="host">
+        <titleInfo lang="ja">
+            <title>七寺古逸經典研究叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Nanatsudera koitsu kyōten kenkyū sōsho</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Studies on Manuscripts Discovered at Nanatsu-dera</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>3</start>
+                <end>22</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

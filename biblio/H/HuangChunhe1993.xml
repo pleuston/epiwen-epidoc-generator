@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuangChunhe1993" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>隋唐幽州佛教初探</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Sui Tang Youzhou fojiao chutan</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Preliminary Discussion of Buddhism in Youzhou Under the Sui and Tang
+            Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Chun­he 1993</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangchunhe" type="personal">
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">春和</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#FoxueYanjiu" type="host">
+        <titleInfo lang="zh">
+            <title>佛學研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Foxue yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Study of Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>212</start>
+                <end>220</end>
+            </extent>
+            <date>1993</date>
+        </part>
+    </relatedItem>
+</mods>

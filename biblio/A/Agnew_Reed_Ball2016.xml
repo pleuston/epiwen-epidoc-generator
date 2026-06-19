@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Agnew_Reed_Ball2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Cave Temples of Dunhuang: Buddhist Art on China’s Silk Road</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Agnew, Reed and Ball 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#agnew" type="personal">
+        <namePart lang="en" type="family">Agnew</namePart>
+        <namePart lang="en" type="given">Neville</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#reed_m" type="personal">
+        <namePart lang="en" type="family">Reed</namePart>
+        <namePart lang="en" type="given">Marcia</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ball" type="personal">
+        <namePart lang="en" type="family">Ball</namePart>
+        <namePart lang="en" type="given">Tevvy</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm>Los Angeles</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">The Getty Conservation Institute</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

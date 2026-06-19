@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shinohara2003a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Image Makers in Xuanzang’s <hi rend="italic">Record of the Western Regions</hi> and
+            Daoxuan’s Miracle Story Collection</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shinohara 2003a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shinohara" type="personal">
+        <namePart lang="ja" type="family"/>
+        <namePart lang="ja" type="given"/>
+        <namePart transliteration="romaji" type="family">Shinohara</namePart>
+        <namePart transliteration="romaji" type="given">Koichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Qvarnstroem2003" type="host">
+        <titleInfo>
+            <title>Jainism and Early Buddhism. Essays in Honor of Padmanabh S. Jaini</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>609</start>
+                <end>620</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2000c" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Pingyin, Dongping Beichao kejing yu gaoseng An Daoyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東平陰、東平北朝刻經與高僧安道壹</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Engraved Sutras from the Northern Dynasties in Dongping and Pingyin in Shandong and
+            the Eminent Monk An Daoyi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2000a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>http://www.guoxue.com/?p=1597</url>
+    </location>
+    <genre>Web</genre>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <originInfo>
+        <dateCaptured>2012-08-16</dateCaptured>
+        <dateIssued>2001-11-27</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing guoxue shidai wenhua chuanbo gufen
+                    youxian gongsi</namePart>
+                <namePart lang="zh">北京國學時代文化傳播股份有限公司</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm>zh</languageTerm>
+    </language>
+    <relatedItem type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Guoxue wang</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>國學網</title>
+        </titleInfo>
+        <language>
+            <languageTerm>zh</languageTerm>
+        </language>
+        <physicalDescription>
+            <internetMediaType>text/html</internetMediaType>
+        </physicalDescription>
+    </relatedItem>
+</mods>

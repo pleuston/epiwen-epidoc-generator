@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanshanDeqing_XZJ126_b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>達觀大師塔銘</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Daguan dashi taming</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Inscription for the Tomb Pagoda of Great Master Daguan</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Daguan dashi taming">
+        <title>Da­guan da­shi ta­ming</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanshandeqing" type="personal">
+        <namePart lang="zh">憨山德清</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HanshanDeqing_XZJ126_a" type="host">
+        <titleInfo lang="zh">
+            <title>紫柏尊者全集</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zipo zunzhe quanji</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Collected Works of Reverend Zibo</title>
+        </titleInfo>
+        <name ns2:href="#hanshandeqing" type="personal">
+            <namePart lang="zh">憨山德清</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>626</start>
+                <end>634</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

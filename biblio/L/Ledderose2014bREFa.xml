@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2014b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Anyue Xian Wofo Yuan A qu yu B qu gailan <foreign lang="zh">安岳縣卧佛院A區與B區概覽</foreign>.
+            Sections A and B at the Grove of the Reclining Buddha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2014a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose_enzh" type="personal">
+        <namePart transliteration="de" type="family">Ledderose</namePart>
+        <namePart transliteration="de" type="given">Lothar</namePart>
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Dehou</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">德侯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sichuan_2" type="host">
+        <titleInfo>
+            <title>Zhongguo fojiao shijing: Sichuan Sheng di er juan <foreign lang="zh">中國佛教石經·四川省第二卷</foreign> Buddhist Stone Sutras in China:
+                Sichuan Province Volume 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>2</start>
+                <end>15</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

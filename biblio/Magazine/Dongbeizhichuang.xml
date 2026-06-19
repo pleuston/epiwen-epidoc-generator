@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dongbeizhichuang" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>東北之窗</title>
+    </titleInfo>
+    <titleInfo lang="pinyin">
+        <title>Dongbei zhi chuang</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Window of The Northeast</title>
+    </titleInfo>
+    <originInfo>
+        <publisher>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dalian_baoye" type="corporate">
+                <namePart lang="zh">大連報業集團</namePart>
+                <namePart transliteration="pinyin">Dalian baoye jituan</namePart>
+            </name>
+        </publisher>
+        <typeOfResource>text</typeOfResource>
+        <dateIssued>1989-</dateIssued>
+        
+        <issuance>continuing</issuance>
+        
+        <place>
+            <placeTerm>Dalian</placeTerm>
+            <placeTerm lang="zh">大連</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">大連報業集團</namePart>
+                <namePart transliteration="pinyin">Dalian baoye jituan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

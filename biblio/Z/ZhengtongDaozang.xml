@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhengtongDaozang" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>正統道藏</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhengtong Daozang</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Orthodox Taoist Canon</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="">
+        <title>Zhengtong Daozang</title>
+    </titleInfo>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="personal">
+        <namePart lang="zh" type="family"/>
+        <namePart lang="zh" type="given"/>
+        <namePart type="date"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name-->
+    <extension>60 vols.</extension>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+                <namePart lang="zh">藝文印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

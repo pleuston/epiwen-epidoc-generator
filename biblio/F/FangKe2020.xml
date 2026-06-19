@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FangKe2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dazu shike biannian shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>大足石刻編年史</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Chronicle of the Dazu Carvings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Ke 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangke" type="personal">
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">珂</namePart>
+        
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Wuhan</placeTerm>
+            <placeTerm lang="zh">武漢</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wuhan daxue chubanshe</namePart>
+                <namePart lang="zh">武漢大學出版社</namePart>
+            </name>
+           
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

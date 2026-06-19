@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Quantaishanshi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>全泰山詩</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Quan Tai Shan shi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Complete Collection of Poems on Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Quan Tai Shan shi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuanaiguo" type="personal">
+        <namePart transliteration="pinyin" type="family">Yuan</namePart>
+        <namePart transliteration="pinyin" type="given">Aiguo</namePart>
+        <namePart lang="zh" type="family">袁</namePart>
+        <namePart type="given" lang="zh">愛國</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>6 vols</extension>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">泰山出版社</namePart>
+                <namePart transliteration="pinyin">Tai Shan chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

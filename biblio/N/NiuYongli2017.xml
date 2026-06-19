@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Niu2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhengu Si Tang dai moya <hi rend="italic">Jinguan jing</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>真谷寺唐代摩崖《金棺經》</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Golden Coffin Sutra</hi> Carved on a Cliff at Zhengu Monastery During the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Niu Yongli 2017</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#niuyongli" type="personal">
+        <namePart transliteration="pinyin" type="family">Niu</namePart>
+        <namePart transliteration="pinyin" type="given">Yongli</namePart>
+        <namePart lang="zh" type="family">牛</namePart>
+        <namePart lang="zh" type="given">永利</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    
+    <location>
+        <url>https://www.webdiners.com/syda/sywh/rwzx/201707/654917.html</url>
+    </location>
+    <genre>Web</genre>
+    
+    <originInfo>
+        <dateIssued>2017-07-28</dateIssued>
+        <dateCaptured>2023-07-05</dateCaptured>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">www.webdiners.com</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    
+   
+    
+    <!--<relatedItem type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Jiaozuo wanbao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>焦作晚報</title>
+        </titleInfo>
+        <language>
+            <languageTerm>zh</languageTerm>
+        </language>
+        <physicalDescription>
+            <internetMediaType>text/html</internetMediaType>
+        </physicalDescription>
+    </relatedItem>-->
+</mods>

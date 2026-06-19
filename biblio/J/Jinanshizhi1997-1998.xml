@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinanshizhi1997-1998" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Jinan shi zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>濟南市志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Jinan City</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jinan shi zhi 1997–1998</title>
+    </titleInfo>
+    <abstract>The following pages were interesting for us in vol. 6: pp. 336, 484, 486.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JNSSZBZWYH" type="corporate">
+        <namePart transliteration="pinyin">Jinan shi shi zhi bianzuan weiyuanhui</namePart>
+        <namePart lang="zh">濟南市史志編纂委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">8</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1997</dateIssued>
+        <dateIssued point="end">1998</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju chuban</namePart>
+                <namePart lang="zh">中華書局出版</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

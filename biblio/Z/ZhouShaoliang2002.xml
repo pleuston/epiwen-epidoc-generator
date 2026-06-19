@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouShaoliang2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>得《佛說大藏經目錄》因緣記<hi rend="dash">──</hi>為啟元白先生90華誕作</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>De <hi rend="italic">Fo shuo Dazangjing mulu</hi> yinyuan ji<hi rend="dash">──</hi>wei Qi Yuanbai xiansheng 90 huadan zuo</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Story of Cause and Effect: Obtaining the <hi rend="italic">Catalog of All Canonical Scriptures Spoken by the Buddha</hi>—A Contribution for Mister Qi Yuanbai on his
+            Ninetieth Birthday</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Shao­liang 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhoushaoliang" type="personal">
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">紹良</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BJ_SFDXXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beijing shifan daxue xuebao (renwen shehui kexue ban)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北京師範大學學報（人文社會科學版）</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>56</start>
+                <end/>
+            </extent>
+            <date>2002</date>
+        </part>
+    </relatedItem>
+</mods>

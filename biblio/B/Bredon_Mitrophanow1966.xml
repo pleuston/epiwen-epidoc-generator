@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bredon_Mitrophanow1966" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Moon Year: A Record of Chinese Customs and Festivals</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bredon and Mitrophanow 1966</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bredon" type="personal">
+        <namePart lang="en" type="family">Bredon</namePart>
+        <namePart lang="en" type="given">Juliet</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mitrophanow" type="personal">
+        <namePart lang="en" type="family">Mitrophanow</namePart>
+        <namePart lang="en" type="given">Igor</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1966</dateIssued>
+        <place>
+            <placeTerm lang="en">New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Paragon Book Reprint Corp.</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the 1927 edition</note>
+</mods>

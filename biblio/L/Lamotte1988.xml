@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lamotte1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>History of Indian Buddhism: From the Origins to the Śaka Era</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lamotte 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lamotte" type="personal">
+        <namePart lang="fr" type="family">Lamotte</namePart>
+        <namePart lang="fr" type="given">Étienne</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#webb-boin" type="personal">
+        <namePart lang="fr" type="family">Webb-Boin</namePart>
+        <namePart lang="fr" type="given">Sara</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    
+    
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm>Louvain</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Université Catholique de Louvain, Institut Orientaliste</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Publications_IOL" type="series">
+        <titleInfo lang="fr">
+            <title>Publications de l’Institut Orientaliste de Louvain</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>36</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Translated from the French edition of 1958</note> 
+    
+</mods>

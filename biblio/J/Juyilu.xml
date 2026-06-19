@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Juyilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Juyi lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>居易錄</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Juyi lu</title>
+    </titleInfo>
+   
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangshizhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Shizhen</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">士禎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>34<hi rend="italic">juan</hi>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shandongwenxianjicheng" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shandong wenxian jicheng：di san ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>山東文獻集成：第三輯</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2009</dateIssued>
+            
+            <place>
+                <placeTerm transliteration="others">Jinan</placeTerm>
+                <placeTerm lang="zh">濟南</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Shandong daxue chubanshe</namePart>　<namePart lang="zh">山東大學出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="vol">22</extent>
+            <extent unit="page">
+                <start/>
+                <end/>
+            </extent>
+        </part>
+        
+    </relatedItem>
+    <note type="reprint">Reprint of handwritten manuscript with annotations by Mo Tang <foreign lang="zh">莫棠</foreign> (1865–1929)</note>
+</mods>

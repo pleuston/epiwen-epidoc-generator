@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Grimes2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Performance</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Grimes 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#grimes" type="personal">
+        <namePart lang="en" type="family">Grimes</namePart>
+        <namePart lang="en" type="given">Ronald L.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TheorizingRituals2006" type="host">
+        <titleInfo lang="en">
+            <title>Theorizing Rituals, Volume 1: Issues, Topics, Approaches, Concepts</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2006</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>379</start>
+                <end>394</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

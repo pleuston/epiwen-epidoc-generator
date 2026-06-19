@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Duzhizouyi_xuxiusikui" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>度支奏議</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Duzhi zouyi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Memorial to the Throne by Duzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="reference" displayLabel="Dai shi">
+        <title>Duzhi zouyi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#biziyan" type="personal">
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>119 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<originInfo>
+        <dateOther>119 vols</dateOther>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">119</detail>
+        </extent>
+    </physicalDescription>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#XXSKQS" type="host">
+        <titleInfo lang="zh">
+            <title>續修四庫全書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xuxiu Siku quanshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">483</number>
+                <number type="end">490</number>
+            </detail>
+        </part>
+        <issuance>monographic</issuance>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1587 edition</note>
+</mods>

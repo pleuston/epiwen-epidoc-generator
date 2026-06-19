@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="McRae1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Ch’an Commentaries on the <hi rend="italic">Heart Sūtra:</hi> Preliminary Inferences on the Permutation of
+            Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>McRae 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#mc_rae" type="personal">
+        <namePart lang="en" type="family">McRae</namePart>
+        <namePart lang="en" type="given">John R.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="JIABS" type="host">
+        <titleInfo>
+            <title>Journal of the International Association of Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1988</date>
+            <detail type="volume">11</detail>
+            <detail type="no">2</detail>
+            <extent unit="pages">
+                <start>87</start>
+                <end>115</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

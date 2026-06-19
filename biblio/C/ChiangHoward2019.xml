@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChiangHoward2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Making of the Human Sciences in China: Historical and Conceptual Foundations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chiang<!--,--> Howard 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chiangHoward" type="personal">
+        <namePart transliteration="pinyin">Chiang</namePart>
+        <namePart transliteration="pinyin">Howard</namePart>
+        <namePart lang="zh" type="family">姜</namePart>
+        <namePart lang="zh" type="given">學豪</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm lang="en">Leiden</placeTerm>
+            <!--placeTerm lang="en">Boston</placeTerm-->
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#China Studies" type="series">
+        <titleInfo lang="en">
+            <title>China Studies</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>40</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

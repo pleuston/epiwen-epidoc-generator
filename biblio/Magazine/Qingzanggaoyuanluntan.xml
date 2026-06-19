@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qingzanggaoyuanluntan" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo transliteration="pinyin">
+                                <title>Qing Zang gaoyuan luntai</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                                <title>青藏高原論壇</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                                <title>Tibet Plateau Forum</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Qingzang gaoyuan xuebao</title>
+                </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qinghaiminzudaxue" type="corporate">
+                                <namePart transliteration="pinyin">Qinghai minzu daxue</namePart>
+                                <namePart lang="zh">青海民族大學</namePart>
+                               
+                                <role>
+                                                <roleTerm>editor</roleTerm>
+                                </role>
+                </name>
+                <typeOfResource>text</typeOfResource>
+                <originInfo>
+                                <dateIssued/>
+                                <dateIssued encoding="marc" point="start">2013</dateIssued>
+                                <dateIssued encoding="marc" point="end"/>
+                                <issuance>continuing</issuance>
+                                <frequency/>
+                                <place>
+                                                <placeTerm>Xining</placeTerm>
+                                                <placeTerm lang="zh">西寧</placeTerm>
+                                </place>
+                                <publisher>
+                                                <name type="corporate">
+                                                  <namePart transliteration="pinyin">Qinghai minzu daxue</namePart>
+                                                  <namePart lang="zh">青海民族大學</namePart>
+                                                </name>
+                                </publisher>
+                </originInfo>
+</mods>

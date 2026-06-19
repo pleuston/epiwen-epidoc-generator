@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shizuka1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title><!--第3章　-->密教の寺院と霊場</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title><!--Dai 3-shō: -->Mikkyō no jiin to reijō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title><!--Chapter 3: -->$$$Temples and Sacred Sites of Esoteric Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shizuka 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shizuka_jien" type="personal">
+        <namePart transliteration="romaji" type="family">Shizuka</namePart>
+        <namePart transliteration="romaji" type="given">Jien</namePart>
+        <namePart lang="ja" type="family">静</namePart>
+        <namePart lang="ja" type="given">慈圓</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TachikawaYoritomo1999" type="host">
+        <titleInfo lang="ja">
+            <title>中国密教</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku Mikkyō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Chinese Esoteric Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>98</start>
+                <end>110</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LewisTodd1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Power of Mantra: A Story of the Five Protectors</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lewis 1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lewis_todd" type="personal">
+        <namePart lang="en" type="family">Lewis</namePart>
+        <namePart lang="en" type="given">Todd T.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Lopez1995b" type="host">
+        <titleInfo lang="en">
+            <title>Religions of India in Practice</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lopez" type="personal">
+            <namePart lang="en" type="family">Lopez</namePart>
+            <namePart lang="en" type="given">Donald S., Jr.</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1995</dateIssued>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Princeton University Press</namePart>
+                </name>
+            </publisher>
+            <place>
+                <placeTerm lang="en">Princeton, New Jersey</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>227</start>
+                <end>234</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

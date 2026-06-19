@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mashichang1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Fumu enzhong Jing</hi> xieben yu bianxiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《父母恩重經》寫本與變相</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Manuscripts and Transformation Tableaux of the <hi rend="italic">Sutra on Repaying the Profound Kindness of Parents</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ma Shichang 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mashichang" type="personal">
+        <namePart transliteration="pinyin" type="family">Ma</namePart>
+        <namePart transliteration="pinyin" type="given">Shichang</namePart>
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">世長</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1988</date>
+            <extent unit="page">
+                <start>33</start>
+                <end>35</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

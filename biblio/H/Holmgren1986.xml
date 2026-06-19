@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Holmgren1986" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>Marriage, Kinship, and Succession Under the Ch’i-tan Rulers of the Liao Dynasty (907-1125)</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Holmgren 1986</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#holmgren" type="personal">
+                        <namePart lang="en" type="family">Holmgren</namePart>
+                        <namePart lang="en" type="given">Jennifer</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+                        <titleInfo transliteration="wade-giles">
+                                    <title>T’oung Pao</title>
+                        </titleInfo>
+                        <titleInfo lang="en">
+                                    <title>International Journal of Chinese Studies</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>通報</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>72</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>44</start>
+                                                <end>91</end>
+                                    </extent>
+                                    <date>1986</date>
+                        </part>
+            </relatedItem>
+</mods>

@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YongyouShih2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Diamond Sutra in Chinese Culture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yong You 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ShiYongyou" type="personal">
+        <namePart transliteration="pinyin" type="family">Venerable</namePart>
+        <namePart transliteration="pinyin" type="given">Yongyou</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm>Los Angeles</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Buddha’s Light Publishing</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">First published in 2005</note>
+</mods>

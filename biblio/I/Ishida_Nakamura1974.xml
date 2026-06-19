@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ishida_Nakamura1974" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Shin Bukkyō jiten</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>新·佛教辞典<!--
+            Alternatives:
+            新・仏教辞典
+            新佛教辞典
+            新仏教辞典--></title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Dictionary of Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishida and Nakamura 1974</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ishida" type="personal">
+        <namePart transliteration="romaji" type="family">Ishida</namePart>
+        <namePart transliteration="romaji" type="given">Mizumaro</namePart>
+        <namePart lang="ja" type="family">石田</namePart>
+        <namePart lang="ja" type="given">瑞麿</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakamura" type="personal">
+        <namePart transliteration="romaji" type="family">Nakamura</namePart>
+        <namePart transliteration="romaji" type="given">Hajime</namePart>
+        <namePart lang="ja" type="family">中村</namePart>
+        <namePart lang="ja" type="given">元</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1974</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Seishin shobō</namePart>
+                <namePart lang="ja">誠信書房</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

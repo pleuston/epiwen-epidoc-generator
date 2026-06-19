@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Kuramoto2020">
+    <titleInfo lang="ja">
+        <title>北朝造像銘<hi rend="dash">──</hi>その起源と展開</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokuchō zōzōmei: Sono kigen to tenkai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Votive Inscriptions from the Northern Dynasties: Their Origin and Development</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuramoto 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuramoto_shotoku" type="personal">
+        <namePart lang="ja" type="family">倉本</namePart>
+        <namePart lang="ja" type="given">尚德</namePart>
+        <namePart transliteration="romaji" type="family">Kuramoto</namePart>
+        <namePart transliteration="romaji" type="given">Shōtoku</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Rekishi_to_chiri" type="host">
+        <titleInfo lang="ja">
+            <title>歴史と地理：世界史の研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Rekishi to chiri: Sekaishi no kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>History and Geography: Global History Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">263</detail>
+            <detail type="no">732</detail>
+            <extent unit="page">
+                <start>33</start>
+                <end>41</end>
+            </extent>
+            <date>2020</date>
+        </part>
+    </relatedItem>
+</mods>

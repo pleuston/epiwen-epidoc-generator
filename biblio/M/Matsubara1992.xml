@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Matsubara1992" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>山東地方の北朝石像の一考察<hi rend="dash">──</hi>諸城出土の在銘像二体を中心として<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Santō chihō no Hokuchō sekizō no ichi kōsatsu: Shojō shutsudo no zaimeizō ni-tai o chūshin to shite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Buddhist Sculptures of the Northern Dynasties in Shandong Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Matsubara 1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#matsubara">
+        <namePart type="family" lang="ja">松原</namePart>
+        <namePart type="given" lang="ja">三郎</namePart>
+        <namePart transliteration="romaji" type="family">Matsubara</namePart>
+        <namePart transliteration="romaji" type="given">Saburō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kobijutsu" type="host">
+        <titleInfo lang="ja">
+            <title>古美術</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Kobijutsu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>101</number>
+            </detail>
+            <extent unit="page">
+                <start>70</start>
+                <end>74</end>
+            </extent>
+            <date>1992</date>
+        </part>
+    </relatedItem>
+</mods>

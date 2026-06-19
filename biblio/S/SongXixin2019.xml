@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SongXixin2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="pinyin">
+                <title>Kaifeng Song Dai Po Ta yuanxing lun</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+                <title>開封宋代繁塔原型論</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>A Study on the Original Po Pagoda of the Song Dynasty in Kaifeng</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Song Xixin 2019</title>
+        </titleInfo>
+
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#songxixin" type="personal">
+                <namePart transliteration="pinyin" type="family">Song</namePart>
+                <namePart transliteration="pinyin" type="given">Xixin</namePart>
+                <namePart lang="zh" type="family">宋</namePart>
+                <namePart lang="zh" type="given">喜信</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+
+<originInfo>
+                <dateIssued>2019</dateIssued>
+                <place>
+                        <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+                        <placeTerm lang="zh">鄭州</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart transliteration="pinyin">Zhongzhou guji chubanshe</namePart>
+                                <namePart lang="zh">中州古籍出版社</namePart>
+                        </name>
+                </publisher>
+                <issuance>monographic</issuance>
+        </originInfo>
+</mods>

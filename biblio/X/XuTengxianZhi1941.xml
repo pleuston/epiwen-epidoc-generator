@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XuTengxianZhi1941" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xu Tengxian zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>續滕縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Continued Gazetteer of Teng County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xu Tengxian zhi 1941</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gaoxizhe" type="personal">
+        <namePart transliteration="pinyin" type="family">Gao</namePart>
+        <namePart transliteration="pinyin" type="given">Xizhe</namePart>
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">熙喆</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>5 <hi rend="italic">juan</hi>
+    </extension>
+    <originInfo>
+        <dateIssued>1941</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fayuan si</namePart>
+                <namePart lang="zh">法源寺</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

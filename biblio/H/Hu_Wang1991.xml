@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hu_Wang1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Zouxiang ziran: Si shan moya kejing de wenhua yiyi</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>走向自然: 四山摩崖刻經的文化意義</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Turning towards Nature: The Cultural Significance of Sutras Engraved
+                                    on Polished Cliffs of the Four Mountains</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Hu Chuanhai and Wang Nanming 1991</title>
+            </titleInfo>
+            <subject>
+                        <hierarchicalGeographic>
+                                    <province>Shandong</province>
+                        </hierarchicalGeographic>
+                        <topic>Zoucheng</topic>
+                        <topic>Four Mountains</topic>
+                        <temporal>Northern Dynasties</temporal>
+            </subject>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huchuanhai" type="personal">
+                        <namePart transliteration="pinyin" type="family">Hu</namePart>
+                        <namePart transliteration="pinyin" type="given">Chuanhai</namePart>
+                        <namePart lang="zh" type="family">胡</namePart>
+                        <namePart lang="zh" type="given">傳海</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangnanming" type="personal">
+                        <namePart transliteration="pinyin" type="family">Wang</namePart>
+                        <namePart transliteration="pinyin" type="given">Nanming</namePart>
+                        <namePart lang="zh" type="family">王</namePart>
+                        <namePart lang="zh" type="given">南溟</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg1991a" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Beichao moya kejing yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>北朝摩崖刻經研究</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <dateIssued>1991-12</dateIssued>
+                                    <place>
+                                                <placeTerm transliteration="pinyin">Ji’nan</placeTerm>
+                                                <placeTerm lang="zh">濟南</placeTerm>
+                                    </place>
+                                    <publisher>
+                                                <name type="corporate">
+                                                  <namePart transliteration="pinyin">Qilu
+                                                  shushe</namePart>
+                                                  <namePart lang="zh">齊魯書社</namePart>
+                                                </name>
+                                    </publisher>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <extent unit="page">
+                                                <start>293</start>
+                                                <end>307</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

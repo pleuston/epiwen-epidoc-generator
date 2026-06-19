@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fischel1951" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Semitic and Oriental Studies: A Volume Presented to William Popper, Professor of Semitic Languages, Emeritus, on the Occasion of His Seventy-fifth Birthday, October 29, 1949</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fischel 1951</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fischel" type="personal">
+        <namePart lang="en" type="family">Fischel</namePart>
+        <namePart lang="en" type="given">Walter Joseph</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1951</dateIssued>
+        <place>
+            <placeTerm>Berkeley and Los Angeles</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of California Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#newperspectives" type="series">
+        <titleInfo lang="en">
+            <title>University of California Publications in Semitic Philology</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

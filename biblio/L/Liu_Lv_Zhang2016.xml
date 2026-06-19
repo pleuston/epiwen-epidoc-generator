@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liu_Lv_Zhang2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Quyang Xian Bahui Si faxian Song Jin chici Limin hou bei</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>曲陽縣八會寺發現宋金《敕賜利民侯》碑</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>$$$Song-Jin Dynasty "Imperial Edicts of the Marquis of Limin" Stele Discovered at Bahui Temple in Quyang County</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Liu, Lü and Zhang 2016</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuzhanli" type="personal">
+                        <namePart transliteration="pinyin" type="family">Liu</namePart>
+                        <namePart transliteration="pinyin" type="given">Zhanli</namePart>
+                        <namePart lang="zh" type="family">劉</namePart>
+                        <namePart lang="zh" type="given">占利</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lvxingjuan" type="personal">
+                        <namePart transliteration="pinyin" type="family">Lü</namePart>
+                        <namePart transliteration="pinyin" type="given">Xingjuan</namePart>
+                        <namePart lang="zh" type="family">吕</namePart>
+                        <namePart lang="zh" type="given">興娟</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangjiansuo" type="personal">
+                        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+                        <namePart transliteration="pinyin" type="given">Jiansuo</namePart>
+                        <namePart lang="zh" type="family">張</namePart>
+                        <namePart lang="zh" type="given">建鎖</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WenwuChunqiu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Wenwu chunqiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>文物春秋</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                            <detail type="no">3</detail>
+                                    <extent unit="page">
+                                                <start>53</start>
+                                                <end>57</end>
+                                    </extent>
+                                    <date>2016</date>
+                        </part>
+            </relatedItem>
+</mods>

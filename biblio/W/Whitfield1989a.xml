@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Whitfield1989a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Monk Liu Sahe and the Dunhuang Paintings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Whitfield 1989a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#whitfield" type="personal">
+        <namePart lang="en" type="family">Whitfield</namePart>
+        <namePart lang="en" type="given">Roderick</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Orientations" type="host">
+        <titleInfo lang="en">
+            <title>Orientations</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">20.3</detail>
+            <!--<detail type="volume">20</detail>
+            <detail type="no">3</detail>-->
+            <extent unit="page">
+                <start>64</start>
+                <end>70</end>
+            </extent>
+            <date>1989</date>
+        </part>
+    </relatedItem>
+</mods>

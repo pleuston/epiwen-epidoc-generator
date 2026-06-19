@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NakamuraJihe1986" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>律令制と鄉里制</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ritsuryōsei to gōrisei</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Ritsuryō Legal System and the Township System</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakamura 1986</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakamura_jihe" type="personal">
+        <namePart lang="ja" type="family">中村</namePart>
+        <namePart lang="ja" type="given">治兵衛</namePart>
+        <namePart transliteration="romaji" type="family">Nakamura</namePart>
+        <namePart transliteration="romaji" type="given">Jihei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Todaishikenkyukai1986" type="host">
+        <titleInfo lang="ja">
+            <title>律令制<hi rend="dash">──</hi>中国朝鮮の法と国家</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Ritsuryōsei: Chūgoku, Chōsen no hō to kokka</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Ritsuryō Legal System: Law and the Nation in China and Korea</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>517</start>
+                <end>532</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

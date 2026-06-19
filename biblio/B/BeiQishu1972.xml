@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BeiQishu1972" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei Qi shu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北齊書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>History of the Northern Qi Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="BeiQishu 1972">
+        <title>Bei Qi shu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#libaiyao" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Baiyao</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">百藥</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>compiled by Li Baiyao 李百藥 (565–648) in 627–636 after a draft by his father, Li Delin 李德林 (530–590). [Wilkinson 2015, 731]</abstract>
+    <extension>2 vols</extension>
+    <!--<physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1972</dateIssued>
+        <dateOther>Completed 636</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

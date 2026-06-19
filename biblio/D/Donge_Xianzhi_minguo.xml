@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Donge_Xianzhi_minguo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>東阿縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Sheng Dong’e Xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Gazetteer of Dong’e County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title> Minguo Dong’e Xianzhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuyi" type="personal">
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">怡</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1976</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chengwen chubanshe</namePart>
+                <namePart lang="zh">成文出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of 1829 edition</note>
+</mods>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenshizhe" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wen Shi Zhe</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>文史哲</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Journal of Chinese Humanities</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="corporate" ns2:href="#sd_daxue_wsz">
+        <namePart lang="zh">山東大學《文史哲》編輯部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1951-</dateIssued>
+        
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">山東大學</namePart>
+                <namePart transliteration="pinyin">Shandong daxue</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

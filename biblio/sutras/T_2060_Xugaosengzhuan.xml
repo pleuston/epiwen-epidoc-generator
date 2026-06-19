@@ -1,0 +1,92 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="T_2060">
+        <titleInfo lang="zh">
+                <title>續高僧傳</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+                <title>Xu gaoseng zhuan</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+                <title>Sequel to the Biographies of Eminent Monks</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>T#2060, 50</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#daoxuan">
+                <namePart lang="zh">道宣</namePart>
+                <namePart type="date">596-667</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <physicalDescription>
+                <extent>
+                        <detail type="fascicle">30</detail>
+                </extent>
+        </physicalDescription>
+        <originInfo>
+                <dateIssued>first completed in 645, 19th year of Zhenguan era of Tang dynasty, but
+                        expanded later with material he prepared before his death in 667 (Shinohara
+                        1998, 144) </dateIssued>
+                <place>
+                        <placeTerm>Ximing Monastery</placeTerm>
+                        <placeTerm>西明寺</placeTerm>
+                </place>
+        </originInfo>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+                <titleInfo lang="ja">
+                        <title>大正新脩大藏經.</title>
+                </titleInfo>
+                <titleInfo transliteration="romaji">
+                        <title>Taishō shinshū daizōkyō</title>
+                </titleInfo>
+                <titleInfo transliteration="romaji" type="abbreviated">
+                        <title>Taishō</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                        <title>New edition of the Buddhist canon in the Taishō era</title>
+                </titleInfo>
+                <name ns2:href="#takakusu" type="personal">
+                        <namePart lang="ja" type="family">高楠</namePart>
+                        <namePart lang="ja" type="given">順次郎</namePart>
+                        <role>
+                                <roleTerm>editor</roleTerm>
+                        </role>
+                </name>
+                <name ns2:href="#watanabe" type="personal">
+                        <namePart lang="ja" type="family">渡邊</namePart>
+                        <namePart lang="ja" type="given">海旭</namePart>
+                        <role>
+                                <roleTerm>editor</roleTerm>
+                        </role>
+                </name>
+                <physicalDescription>
+                        <extent>
+                                <detail type="volume">85</detail>
+                        </extent>
+                </physicalDescription>
+                <originInfo>
+                        <dateIssued>1924-1932</dateIssued>
+                        <dateIssued encoding="marc" point="start">1924</dateIssued>
+                        <dateIssued encoding="marc" point="end">1932</dateIssued>
+                        <place>
+                                <placeTerm>Tōkyō</placeTerm>
+                        </place>
+                        <publisher>
+                                <name type="corporate">
+                                        <namePart lang="ja">大正一切經刊行會</namePart>
+                                        <namePart transliteration="pinyin">Taishō issaikyō
+                                                kankōkai</namePart>
+                                </name>
+                        </publisher>
+                </originInfo>
+                <part>
+                        <detail type="volume">
+                                <number>50</number>
+                        </detail>
+                        <extent unit="page">
+                                <start>425</start>
+                                <end>707</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

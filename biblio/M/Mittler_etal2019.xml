@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mittler_etal2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>China and the World – the World and China: Essays in Honor of Rudolf G. Wagner, Volume 4</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Mittler et al. 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mittler" type="personal">
+        <namePart lang="en" type="family">Mittler</namePart>
+        <namePart lang="en" type="given">Barbara</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gentzJ" type="personal">
+        <namePart lang="en" type="family">Gentz</namePart>
+        <namePart lang="en" type="given">Joachim</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gentzN" type="personal">
+        <namePart lang="en" type="family">Gentz</namePart>
+        <namePart lang="en" type="given">Natascha</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#vanceyeh" type="personal">
+        <namePart lang="en" type="family">Vance Yeh</namePart>
+        <namePart lang="en" type="given">Catherine</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>4 vols.</extension>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Deutsche Ostasienstudien 37</title>
+        </titleInfo>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm>Gossenberg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">OSTASIEN Verlag</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

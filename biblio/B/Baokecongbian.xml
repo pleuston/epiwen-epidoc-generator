@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baokecongbian" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baoke congbian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寶刻叢編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compilation of Precious Engravings</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Baoke congbian">
+        <title>Bao­ke cong­bian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chensi" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Si</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">思</namePart>
+        <namePart type="date">1225–1264</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name><!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luxinyuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Xinyuan</namePart>
+        <namePart lang="zh" type="family">陆</namePart>
+        <namePart lang="zh" type="given">心源</namePart>
+        <namePart type="date">1834 - 1894</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <extension>20 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">20</detail>
+        </extent>
+    </physicalDescription>-->
+    <tableOfContents>arranged according to regions, parts of today’s Shandong province in fascicle 1.
+        See http://www.chinaknowledge.de/Literature/Science/baokecongbian.html for more information</tableOfContents>
+    <originInfo>
+        <dateOther>1229</dateOther>
+        <dateIssued>1888</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>24</number>
+            </detail>
+            <extent unit="page">
+                <start>18073</start>
+                <end>18399</end>
+            </extent>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

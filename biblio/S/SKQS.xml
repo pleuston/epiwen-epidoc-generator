@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SKQS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wenyuan Ge Siku quanshu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>文淵閣四庫全書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Library in Four Branches of Literature Preserved at the Chamber of Literary Profundity (Wenyuan Ge)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Siku quanshu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiyun" type="personal">
+        <namePart lang="zh" type="family">紀</namePart>
+        <namePart lang="zh" type="given">昀</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <extension>1500 vols.</extension>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--note type="reprint">Reprint of the Wenyuan Ge Edition first published by Shangwu yinshuguan in Taibei in 1986</note-->
+</mods>

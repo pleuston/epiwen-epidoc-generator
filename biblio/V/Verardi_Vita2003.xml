@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Verardi_Vita2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Asia 1. Papers from the First Conference of Buddhist Studies Held in Naples
+            in May 2001</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Verardi and Vita 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#verardi" type="personal">
+        <namePart lang="it" type="family">Verardi</namePart>
+        <namePart lang="it" type="given">Giovanni</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#vita" type="personal">
+        <namePart lang="it" type="family">Vita</namePart>
+        <namePart lang="it" type="given">Silvio</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm>Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Italian School of East Asian Studies</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Analayo2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <foreign lang="sa">Studies in Āgama &amp; Vinaya Literature</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Anālayo 2023</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#analayo" type="personal">
+        <namePart lang="en" type="family">Anālayo</namePart>
+        <namePart lang="en" type="given">Bhikku</namePart>
+        <namePart lang="zh" type="family">左</namePart>
+        <namePart lang="zh" type="given">冠明</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm>New Taipei City and New Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Departments of Buddhist Studies, Dharma Drum Institute of Liberal Arts, and Aditya Prakashan</namePart>
+        </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

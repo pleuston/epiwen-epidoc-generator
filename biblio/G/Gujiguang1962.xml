@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="GuJiguang1962" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Examination and Explanation of the System of Territorial Soldiery</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>府兵制度考釋</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fubing zhidu kaoshi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gu­ji­guang 1962</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gujiguang" type="personal">
+        <namePart lang="zh" type="family">谷</namePart>
+        <namePart lang="zh" type="given">霽光</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1962</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Commercial Press</namePart>
+                <namePart transliteration="pinyin">Renmin chubanshe</namePart>
+                <namePart lang="zh">人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wang_Lai1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tie Shan Shisong de chubu kaocha yu yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鐵山石頌的初步考察與研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Investigation and Research of the <hi rend="italic">Stone Hymn</hi> on
+            Mount Tie</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Sili and Lai Fei 1989</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangsili" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Sili</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">思禮</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shufa" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shufa</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>書法</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1989</date>
+            <detail type="no">2</detail>
+            <detail type="volume">65</detail>
+            <extent unit="page">
+                <start>41</start>
+                <end>43</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

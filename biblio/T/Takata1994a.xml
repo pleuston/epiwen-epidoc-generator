@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takata1994a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国語史の資料と方法</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgokugo shi no shiryō to hōhō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Materials and Methods of the History of Chinese Language</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takata 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takata" type="personal">
+        <namePart lang="ja" type="family">高田</namePart>
+        <namePart lang="ja" type="given">時雄</namePart>
+        <namePart transliteration="romaji" type="family">Takata</namePart>
+        <namePart transliteration="romaji" type="given">Tokio</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōto daigaku Jinbunkagaku kenkyūsho</namePart>
+                <namePart lang="ja">京都大學人文科學研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

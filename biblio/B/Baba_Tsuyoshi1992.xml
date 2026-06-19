@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Baba_Tsuyoshi1992">
+    <titleInfo lang="ja">
+        <title>太行山中渉県参観記</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Taikōsan-chū Shō-ken sankanki</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Report of Visits to She County in the Taihang Mountains</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Baba Tsuyoshi 1992</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#baba_tsuyoshi" type="personal">
+        <namePart lang="ja" type="family">馬場</namePart>
+        <namePart lang="ja" type="given">毅</namePart>
+        <namePart transliteration="romaji" type="family">Baba</namePart>
+        <namePart transliteration="romaji" type="given">Tsuyoshi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--relatedItem type="series">
+        <titleInfo lang="ja">
+            <title>第2回中国抗日根拠地史国際シンポジウム参加記（1991年8月1日～4日天津にて）</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Dai 2-kai Chūgoku kō-Nichi konkyochi-shi kokusai shinpojiumu sankaki (1991-nen 8-gatsu 1-nichi kara 4-ka Tenshin nite)</title>
+        </titleInfo>
+    </relatedItem-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chugoku_kenkyu_geppo" type="host">
+        <titleInfo lang="ja">
+            <title>中国研究月報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku kenkyū geppō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Monthly Journal of Chinese Affairs</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">46</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>12</start>
+                <end>16</end>
+            </extent>
+            <date>1992</date>
+        </part>
+    </relatedItem>
+</mods>

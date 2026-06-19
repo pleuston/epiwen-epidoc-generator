@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bauer1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="de">
+                        <title>Das Antlitz Chinas. Die autobiographische Selbstdarstellung in der chinesischen Literatur von ihren Anfängen bis heute</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Bauer 1990</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bauer" type="personal">
+                        <namePart lang="de" type="family">Bauer</namePart>
+                        <namePart lang="de" type="given">Wolfgang</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1990</dateIssued>
+                        <place>
+                                    <placeTerm>München</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="de">Carl Hanser Verlag</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

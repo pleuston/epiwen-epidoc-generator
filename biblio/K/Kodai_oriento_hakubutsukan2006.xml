@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kodai_oriento_hakubutsukan2006" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>シルクロード：華麗なる植物文様の世界</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shirukurōdo: Karei naru shokubutsu mon’yō no sekai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Silk Road: A World of Splendorous Floral Patterns</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Toyobijutsutaikan">
+        <title>Kodai Oriento hakubutsukan 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kodai_oriento_hakubutsukan" type="corporate">
+        <namePart transliteration="romaji">Kodai Oriento hakubutsukan</namePart>
+        <namePart lang="ja">古代オリエント博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Yamakawa shuppansha</namePart>
+                <namePart lang="ja">山川出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Musaea Japonica</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

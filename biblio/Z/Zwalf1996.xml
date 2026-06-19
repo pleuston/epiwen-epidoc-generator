@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zwalf1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>A Catalogue of the Gandhāra Sculpture in the British Museum</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zwalf 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zwalf" type="personal">
+        <namePart transliteration="de" type="family">Zwalf</namePart>
+        <namePart transliteration="de" type="given">Wladimir</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">The British Museum Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+</mods>

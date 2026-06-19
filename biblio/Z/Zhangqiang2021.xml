@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhangqiang2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yi Cao Zhi Bei Miao wei qidian de fengge fenxi:Ru Sui hou de Seng Andaoyi yanjiu zhi yi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>以《曹植碑廟》為起點的風格分析—入隋後的僧安道壹研究之一</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Qiang 2021</title>
+    </titleInfo>
+   
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangqiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Qiang</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">強</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Taishanxueyuanxuebao" type="host">
+        <titleInfo lang="zh">
+            <title>泰山學院學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan xueyuan xuebao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>103</start>
+                <end>109</end>
+            </extent>
+            <date>2021</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Roesch2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Wood Sculptures of the 11th to 13th Centuries. Images of Water-moon Guanyin in Northern
+            Chinese Temples and Western Collections</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rösch 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#roesch" type="personal">
+        <namePart lang="en" type="family">Rösch</namePart>
+        <namePart lang="en" type="given">Petra</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+
+
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm>Stuttgart</placeTerm>
+        </place>
+
+        <publisher>
+            <name type="corporate">
+                <namePart>ibidem-Verlag</namePart>
+
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+
+    </originInfo>
+</mods>

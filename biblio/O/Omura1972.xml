@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Omura1972" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那美術史雕塑篇<!--附図附圖$$$--></title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Art history in China: Sculpture<!--, plates--></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina bijutsushi chōso hen<!-- fuzu--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Omura 1972</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#omura" type="personal">
+        <namePart transliteration="romaji" type="family">Ōmura</namePart>
+        <namePart transliteration="romaji" type="given">Seigai</namePart>
+        <namePart lang="ja" type="family">大村</namePart>
+        <namePart lang="ja" type="given">西崖</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+            <note>1 vol. plates, 1 vol. text</note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>1972</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">國書刊行會</namePart>
+                <namePart transliteration="romaji">Kokusho kankōkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note>First published 1915–1920</note>
+</mods>

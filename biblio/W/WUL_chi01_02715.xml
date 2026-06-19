@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WUL_chi01_02715" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>温故雑帖</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Onko zatchō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Notes on Reviewing the Past</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Onko Zatcho</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WULKSD_authority" type="corporate">
+        <namePart transliteration="romaji">Waseda daigaku toshokan: Kotenseki sōgō dētabēsu</namePart>
+        <namePart lang="ja">早稲田大学図書館：古典籍総合データベース</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ichishima_shunjo" type="personal">
+        <namePart lang="ja" type="family">市島</namePart>
+        <namePart lang="ja" type="given">謙吉</namePart>
+        <namePart transliteration="romaji" type="family">Ichishima</namePart>
+        <namePart transliteration="romaji" type="given">Kenkichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://www.wul.waseda.ac.jp/kotenseki/html/chi01/chi01_02715/index.html</url>
+    </location>
+    <genre>Web</genre>
+    <physicalDescription>
+        <note>
+            Call No. <foreign xml:lang="ja">チ</foreign>10 02715. Ichishima <foreign xml:lang="ja">Shunjō kyūzō 市島春城旧蔵</foreign>. No Date mentioned, except August of 1909 in the Onko <foreign xml:lang="ja">zatchō</foreign> mokuroku <foreign xml:lang="ja">温故雑帖目録</foreign>.
+        </note>
+        <note>
+            In vol. 19 there are three, in vol. 21 there are two rubbings from JSY1. In addition, five are included in WUL_chi10_01677, further four are included in a horizontal placard, in the Waseda University Library. Ichishima thus had 14 rubbings from JSY.
+        </note>
+        <extent>
+            <detail type="volume">23</detail>
+            <note>21 vols. collections, 2 vols. catalogs</note>
+        </extent>
+    </physicalDescription>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateCaptured>2021-09-16</dateCaptured>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Waseda daigaku toshokan</namePart>
+                    <namePart lang="ja">早稲田大学図書館</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+</mods>

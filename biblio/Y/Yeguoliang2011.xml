@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yeguoliang2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>宋代金石學研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Song Dai jinshixue yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies of Epigraphica in Song Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ye Guoliang 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yeguoliang" type="personal">
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">國良</namePart>
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Guoliang</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shufang chubanshe</namePart>
+                <namePart lang="zh">書房出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#CTSXWWYWXYJCS" type="series">
+        <titleInfo lang="zh">
+            <title>出土思想文物與文獻研究叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Chutu sixiang wenwu yu wenxian yanjiu congshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>39</number>
+            </detail>
+            
+        </part>
+    </relatedItem>
+</mods>

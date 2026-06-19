@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sikutangrenwenhjicongklan" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Siku Tang ren wenji congkan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四庫唐人文集叢刊</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Library of Works of the Tang Dynasty in Four Branches of Literature</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Siku Tangren wenji congkan</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shanghai_guji_chubanshe" type="corporate">
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1993</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--note type="reprint">Reprint of the Wenyuange Edition first published by Shangwu yinshuguan in Taibei in 1986</note-->
+</mods>

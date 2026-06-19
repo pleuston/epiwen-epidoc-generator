@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2024" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>敦煌吐魯番等諸民族閒喪儀葬俗之交流</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang Tulufan deng zhu minzu sangyi zangsu zhi jiaoliu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Exchanges of Folk Funeral Rites between Peoples in Turfan and Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2024</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <titleInfo xml:lang="en">
+            <title>Dunhuang Research</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2024</date>
+            <detail type="volume">204</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>14</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

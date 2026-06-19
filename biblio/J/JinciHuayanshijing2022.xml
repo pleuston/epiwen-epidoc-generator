@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JinciHuayanshijing2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>晋祠華嚴石經録文校注</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Ji ci Huayan shijing luwen jiaozhu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>$$$The Huayen Sutra Stone Scriptures of the Jin Ancestral Hall with Annotations</title>
+    </titleInfo>
+    
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangshan_shijing_bowuguan" type="corporate">
+        <namePart lang="zh">房山石經博物館</namePart>
+       
+        <namePart transliteration="pinyin">Fangshan shijing bowuguan</namePart>
+       
+            <roleTerm>editor</roleTerm>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangshan_shijing_yunjusi_wenhua-yjzx" type="corporate">
+        <namePart lang="zh">房山石經與雲居寺文化研究中心</namePart>
+        
+        <namePart transliteration="pinyin">Fangshan shijing yu Yunju Si wenhua yanjiu zhongxin</namePart>
+        
+        <roleTerm>editor</roleTerm>
+    </name>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taiyuanJinci_bwg" type="corporate">
+        <namePart lang="zh">太原晋祠博物館</namePart>
+        
+        <namePart transliteration="pinyin">Taiyuan Jinci bowuguan</namePart>
+        
+        <roleTerm>editor</roleTerm>
+    </name>
+    
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="shijingyanjiu" type="series">
+        <titleInfo lang="zh">
+            <title>石經研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Study of Stone Scriptures</title>
+        </titleInfo>
+        <typeOfResource collection="yes">text</typeOfResource>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2022</dateIssued>
+            <place>
+                <placeTerm transliteration="Shandong">Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">華夏出版社</namePart>
+                    <namePart transliteration="pinyin">Huaxia chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>4-5</number>
+            </detail>
+           
+        </part>
+    </relatedItem>
+</mods>

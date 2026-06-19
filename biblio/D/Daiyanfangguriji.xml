@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daiyanfangguriji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>岱巖訪古日記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dai­yan fang­gu ri­ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Diary of Visits to Ancient Sites at the Dai Mountains</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+      <title>岱巖</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Daiyan</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Daiyan fanggu riji">
+        <title>Daiyan fanggu riji</title>
+    </titleInfo>
+    <subject>
+        <topic>Taishan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Yi</namePart>
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">易</namePart>
+        <namePart type="date">1744-1801</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Completed 1797</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>3</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>28</number>
+            </detail>
+            <extent unit="page">
+                <start>81</start>
+                <end>87</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

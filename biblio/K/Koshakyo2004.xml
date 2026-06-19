@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Koshakyo2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>古写経：聖なる文字の世界. 特別展覧会：守屋コレクション寄贈50周年記念</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Koshakyō: Seinaru moji no sekai. Tokubetsu tenrankai: Moriya korekushon kizō
+            50-shūnen kinen </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sacred Letters of Early Sutra Copies. Special Exhibition: Celebrating Fifty Years since the Donation of the Moriya Collection</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Koshakyo 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kyoto_national_museum" type="corporate">
+        <namePart lang="ja">京都国立博物館</namePart>
+        <namePart transliteration="romaji">Kyōto kokuritsu hakubutsukan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōto kokuritsu hakubutsukan</namePart>
+                <namePart lang="ja">京都国立博物館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

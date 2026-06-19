@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Sikuweishoushu_jikan">
+    <titleInfo lang="zh">
+        <title>四庫未收書輯刊</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Siku weishou shu jikan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Siku weishou shu jikan</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Books Not Included in the <hi rend="italic">Complete Library in Four Branches of Literature</hi>
+        </title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKWSSJKBZWYH" type="corporate">
+        <namePart lang="zh">四庫未收書輯刊編纂委員會</namePart>
+        <namePart transliteration="pinyin">Siku weishou shu jikan bianzuan weiyuanhui</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">301</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing chubanshe</namePart>
+                <namePart lang="zh">北京出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<location>
+        <url/>
+    </location>-->
+</mods>

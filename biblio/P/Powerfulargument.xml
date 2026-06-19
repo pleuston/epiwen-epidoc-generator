@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Powerfulargument">
+    <titleInfo lang="en">
+        <title>Powerful Arguments: Standards of Validity in Late Imperial China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hofmann, Kurtz, and Levine 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#hofmann">
+        <namePart lang="en" type="family">Hofmann</namePart>
+        <namePart lang="en" type="given">Martin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#kurtz">
+        <namePart lang="en" type="family">Kurtz</namePart>
+        <namePart lang="en" type="given">Joachim</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#levine">
+        <namePart lang="en" type="family">Levine</namePart>
+        <namePart lang="en" type="given">Art Daniel</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm>Leiden and Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sinicaleidensia" type="series">
+        <titleInfo lang="en">
+            <title>Sinica Leidensia</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>146</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

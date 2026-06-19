@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mochizuki1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>大乗涅槃経の研究—教団史的考察</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Daijō Nehangyō no kenkyū—kyōdanshi-teki kōsatsu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies in the Mahayana <hi rend="italic">Nirvana Sutra</hi>—An Investigation in
+            Religious Associations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Mochizuki 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mochizuki_ryoko" type="personal">
+        <namePart lang="ja" type="family">望月</namePart>
+        <namePart lang="ja" type="given">良晃</namePart>
+        <namePart transliteration="romaji" type="family">Mochizuki</namePart>
+        <namePart transliteration="romaji" type="given">Ryōkō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shunjūsha</namePart>
+                <namePart lang="ja">春秋社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

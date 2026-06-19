@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liucaryetal1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Character and Context in Chinese Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu et al. 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liucaryy" type="personal">
+        <namePart lang="en" type="family">Liu</namePart>
+        <namePart lang="en" type="given">Cary Y.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ching" type="personal">
+        <namePart lang="en" type="family">Ching</namePart>
+        <namePart lang="en" type="given">Dora C. Y.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#smithj" type="personal">
+        <namePart lang="en" type="family">Smith</namePart>
+        <namePart lang="en" type="given">Judith G.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm>Princeton</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Art Museum, Princeton University</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

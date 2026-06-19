@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Guangyuan_huangzesi_bwg2004b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Cangxi Xian Yangyue Si moya shike zaoxiang diaocha jianbao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>蒼溪縣陽岳寺摩崖石刻造像調查簡報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Brief Report on the Survey of Stone Images on Polished Cliffs at Yangyue Monastery in Cangxi County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yangyue survey report <!--Guang­yuan Huang­ze Si bo­wu­guan and Cheng­du Shi wen­wu kao­gu yan­jiu­suo -->2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#guangyuan_huangzesi_bwg" type="corporate">
+        <namePart transliteration="pinyin">Guangyuan Huangze Si bowuguan</namePart>
+        <namePart lang="zh">廣元皇澤寺博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengdu_wenwukaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Chengdu Shi wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">成都市文物考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>Description of all seven niches at the site of former temple, and transcription of
+        inscriptions.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sichuanwenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Sichuan wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四川文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2004</date>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>44</start>
+                <end>49</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

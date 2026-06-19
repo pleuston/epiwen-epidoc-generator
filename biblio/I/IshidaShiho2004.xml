@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="IshidaShiho2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>‘Chikki’ to ‘renko’: <hi rend="italic">Chō Sanpō sensei zenshū</hi> no naitan shisō</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>「築基」と「煉己」<hi rend="dash">──</hi>『張三丰先生全集』の内丹思想<hi rend="dash">──</hi></title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>‘Constructing the Foundation’ and ‘Self-Refining’: The Inner Alchemical Thought of <hi rend="italic">Zhang-Sanfeng Xiansheng Quanji</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishida 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ishida_shiho" type="personal">
+        <namePart lang="ja" type="family">石田</namePart>
+        <namePart lang="ja" type="given">志穂</namePart>
+        <namePart transliteration="romaji" type="family">Ishida</namePart>
+        <namePart transliteration="romaji" type="given">Shiho</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Tsukuba_chugoku_bunka_ronso" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tsukuba Chūgoku bunka ronsō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>筑波中国文化論叢</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">23</detail>
+            <extent unit="page">
+                <start>129</start>
+                <end>154</end>
+            </extent>
+            <date>2004</date>
+        </part>
+    </relatedItem>
+</mods>

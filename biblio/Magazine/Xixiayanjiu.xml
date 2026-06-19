@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xixiayanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>西夏研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xixia yanjiu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="ningxia_sky" type="corporate">
+        <namePart lang="pinyin">Ningxia shehui kexue Yuan</namePart>
+        <namePart lang="zh">寧夏社會科學院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        
+        <dateIssued encoding="marc" point="start">2009</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Yinchuan</placeTerm>
+            <placeTerm lang="zh">銀川</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Ningxia shehui kexue Yuan</namePart>
+                <namePart lang="zh">寧夏社會科學院</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

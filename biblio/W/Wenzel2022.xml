@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenzel2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Towards a Buddhist History of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wenzel 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wenzel" type="personal">
+        <namePart lang="en" type="family">Wenzel</namePart>
+        <namePart lang="en" type="given">Claudia</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="" type="host">
+       <titleInfo lang="en">
+            <title>Journal of Chinese Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2022</date>
+            <detail type="volume">50</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>1<!--forthcoming--></start>
+                <end>44</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

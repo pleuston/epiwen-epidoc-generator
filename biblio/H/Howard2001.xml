@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Howard2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Summit of Treasures: Buddhist Cave Art of Dazu, China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Howard 2001</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#howard" type="personal">
+        <namePart lang="en" type="family">Howard</namePart>
+        <namePart lang="en" type="given">Angela F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Weatherhill</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Trumbull, CT</placeTerm>
+        </place>
+    </originInfo>
+</mods>

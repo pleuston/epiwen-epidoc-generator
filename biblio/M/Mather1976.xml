@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mather1976" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo lang="en">
+    <title>Shih-shuo Hsin-yü: A New Account of Tales of the World</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Shishuo xinyu (Mather) 1976</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuyiqing" type="personal">
+    <namePart lang="zh" type="family">劉</namePart>
+    <namePart lang="zh" type="given">義慶</namePart>
+    <namePart transliteration="pinyin" type="family">Liu</namePart>
+    <namePart transliteration="pinyin" type="given">Yiquing</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mather" type="personal">
+    <namePart lang="en" type="family">Mather</namePart>
+    <namePart lang="en" type="given">Richard B.</namePart>
+    <role>
+      <roleTerm>translator</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued>1976</dateIssued>
+    <place>
+      <placeTerm>Minneapolis</placeTerm>
+    </place>
+    <publisher>
+      <name type="corporate">
+        <namePart lang="en">University of Minnesota Press</namePart>
+      </name>
+    </publisher>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

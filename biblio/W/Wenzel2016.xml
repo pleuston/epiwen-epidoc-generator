@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenzel2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Monumental Stone Sūtra Carvings in China and Indian Pilgrim Sites</title>
+        <!--<title>Monumental Stone Sūtra Carvings in China and Indian Pilgrim Sites <foreign lang="zh">中國與印度聖地的刻經石</foreign></title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wenzel 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wenzel" type="personal">
+        <namePart lang="de" type="family">Wenzel</namePart>
+        <namePart lang="de" type="given">Claudia</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wenzel_enzh" type="personal">
+        <namePart lang="de" type="family">Wenzel</namePart>
+        <namePart lang="de" type="given">Claudia</namePart>
+        <namePart lang="zh" type="family">温</namePart>
+        <namePart lang="zh" type="given">狄婭</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JCBS" type="host">
+        <titleInfo>
+            <title>Journal of Chinese Buddhist Studies<hi rend="normal">. July 2016, Volume 29 Special Issue: The Creation of Buddhist Sacred Sites in China</hi>
+            </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>51</start>
+                <end>89</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

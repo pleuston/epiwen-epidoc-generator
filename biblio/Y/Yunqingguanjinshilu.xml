@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yunqingguanjinshilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yunqingguan jinshi lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>筠清館金石錄</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Epigraphical Records of Yunqingguan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yunqing guan jinshi lu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wurongguang" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Rongguang</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">榮光</namePart>
+        <namePart type="date">1773-1843</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>5 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">5</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Preface 1842</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>3</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>387</start>
+                <end>527</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

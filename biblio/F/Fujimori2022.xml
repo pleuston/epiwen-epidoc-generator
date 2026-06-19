@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujimori2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>「宇野雪村文庫」拓本調査報告書</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Uno Sesson bunko’ takuhon chōsa hōkokusho</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Report on an Investigation of Rubbings in the Uno Sesson Library</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujimori 2022</title>
+    </titleInfo>
+    <abstract>大東文化大学では建学以来培ってきた漢学と書道に係る研究が行われてきた。その取り組みを「漢学・書道の学際的研究拠点の形成による『東洋人の"道"』研究教育の推進」と題し、文部科学省の平成30年度私立大学ブランディング事業（全体事業代表者・河内利治教授）に採択された。本事業は8つのプロジェクトチームを構成しており、書道研究所は「拓本コレクションのデータベース化」チームとして、大東文化大学が所有する東洋の知的財産資源である拓本コレクションを精査し、デジタル・アーカイブスとして公開することを目的とした「宇野雪村文庫拓本」の調査を行った。2018年から書道研究所専任研究員の藤森がチームの代表者となり、碑法帖研究家、伊藤滋氏と本学中国文学科助教、亀澤孝幸氏に調査協力を依頼した。私立大学ブランディング事業を契機とした「宇野雪村文庫拓本」調査およびデータベース化の成果は2021年3月8日から「大東文化大学デジタル・アーカイブスサイト」（https://www.i-repository.net/il/meta_pub/G0000721daito）上で順次一般公開されているが、調査内容の公開が今回の目的である。</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujimori_hiromasa" type="personal">
+        <namePart lang="ja" type="family">藤森</namePart>
+        <namePart lang="ja" type="given">大雅</namePart>
+        <namePart transliteration="romaji" type="family">Fujimori</namePart>
+        <namePart transliteration="romaji" type="given">Hiromasa</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Daito_shodo_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>大東書道研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Daitō shodō kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>29</number>
+            </detail>
+            <date>2022</date>
+            <extent unit="page">
+                <start>100</start>
+                <end>72</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

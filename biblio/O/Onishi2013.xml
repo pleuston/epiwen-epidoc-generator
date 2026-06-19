@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Onishi2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+      <title>Cong Liye Qin jian he Qin fengni tantao ‘tai’ zi de zaozi yiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>從里耶秦簡和秦封泥探討‘泰’字的造字意義</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>Discussing the Meaning of Creating the Character ‘tai’ from Liye Bamboo Slips and Qin Clay Seal Impressions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōnishi 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#onishi" type="personal">
+        <namePart lang="ja" type="family">大西</namePart>
+        <namePart lang="ja" type="given">克也</namePart>
+        <namePart transliteration="romaji" type="family">Ōnishi</namePart>
+        <namePart transliteration="romaji" type="given">Katsuya</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Jianbo" type="host">
+        <titleInfo lang="zh">
+            <title>簡帛</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jian Bo</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            
+            <detail type="volume">8</detail>
+            <extent unit="page">
+                <start>139</start>
+                <end>148</end>
+            </extent>
+            <date>2013</date>
+        </part>
+    </relatedItem>
+</mods>

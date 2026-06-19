@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ranwanli2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Lüe lun Tang dai seng ni de zangzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>略論唐代僧尼的葬制</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Brief Discussion on the Burial System of Monks and Nuns in the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ran Wanli 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ranwanli" type="personal">
+        <namePart transliteration="pinyin" type="family">Ran</namePart>
+        <namePart transliteration="pinyin" type="given">Wanli</namePart>
+        <namePart lang="zh" type="family">冉</namePart>
+        <namePart lang="zh" type="given">萬里</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Qianlingwenhuayanjiu2005" type="host">
+       
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2005</date>
+            <extent unit="page">
+                <start>80</start>
+                <end>93</end>
+            </extent>
+        </part>
+    </relatedItem>
+    
+</mods>

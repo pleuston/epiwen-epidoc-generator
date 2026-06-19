@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dunnell1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>The Great State of White and High: Buddhism and State Formation in Eleventh-Century Xia</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Dunnell 1996</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dunnell" type="personal">
+                        <namePart lang="en" type="family">Dunnell</namePart>
+                        <namePart lang="en" type="given">Ruth W.</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1996</dateIssued>
+                        <place>
+                                    <placeTerm>Honolulu</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">University of Hawaiʻi Press</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

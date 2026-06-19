@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="mtgb_ts_jingangjing" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ming ta guben Tai Shan <hi rend="normal">Jingang Jing</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明拓孤本泰山金剛經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>The Only Extant Ming Rubbing of the Diamond Sutra at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ming ta guben Tai Shan Jingang Jing</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HN_SY_sptsg" type="corporate">
+        <namePart lang="zh">湖南省邵陽市松坡（蔡鍔）圖書館</namePart>
+        <namePart lang="zh" transliteration="pinyin">Hunan Sheng Shaoyang Shi Songpo (Cai E) tushuguan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taianshi_lvyouju" type="corporate">
+        <namePart lang="zh">泰安市旅游局</namePart>
+        <namePart lang="zh" transliteration="pinyin">Tai’an Shi lüyouju</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taianshitaianqu_hongdewenhua_chuanbozhongxin" type="corporate">
+        <namePart lang="zh">泰安市泰安區弘德文化傳播中心</namePart>
+        <namePart lang="zh" transliteration="pinyin">Tai’an Shi Tai’an Qu Hongde wenhua chuanbo zhongxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taishansuodaoyunyingzhongxin" type="corporate">
+        <namePart lang="zh">泰山索道運營中心</namePart>
+        <namePart lang="zh" transliteration="pinyin">Tai Shan suodao yunying zhongxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>5 vols.</extension>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

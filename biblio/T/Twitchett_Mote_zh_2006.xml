@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Twitchett_Mote_zh_2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jianqiao Zhongguo Mingdai shi: 1368–1644 nian (xia juan) </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>劍橋中國明代史：1368－1644年（下卷）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Cambridge History of China. Vol. 8: the Ming Dynasty, 1368–1644, Part 2</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Twitchett and Mote 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Twitchett_enzh" type="personal">
+        <namePart lang="zh" type="family">崔</namePart>
+        <namePart lang="zh" type="given">瑞德</namePart>
+        <namePart transliteration="pinyin" type="family">Twitchett</namePart>
+        <namePart transliteration="pinyin" type="given">Denis C.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Mote_enzh" type="personal">
+        <namePart lang="zh" type="family">牟</namePart>
+        <namePart lang="zh" type="given">復禮</namePart>
+        <namePart transliteration="pinyin" type="family">Mote</namePart>
+        <namePart transliteration="pinyin" type="given">Frederick W.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo shehui kexue chubanshe</namePart>
+                <namePart lang="zh">中國社會科學出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note type="reprint">Translated from the English edition of 1998</note>
+</mods>

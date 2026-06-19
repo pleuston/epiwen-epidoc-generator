@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fuyanfoxueyanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>福嚴佛學研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fuyan foxue yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Fuyan Buddhist Studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fuyanFXY" type="corporate">
+        <namePart lang="zh">福嚴佛學院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006-</dateIssued>
+        <dateIssued encoding="marc" point="start">2006</dateIssued>
+       
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Xinzhu</placeTerm>
+            <placeTerm lang="zh">新竹</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">福嚴佛學院</namePart>
+                <namePart transliteration="pinyin">Fuyan Foxueyuan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

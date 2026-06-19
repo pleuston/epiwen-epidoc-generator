@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Olivelle2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Life of the Buddha, by Aśvaghoṣa</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Olivelle 2009</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#olivelle" type="personal">
+        <namePart lang="fr" type="family">Olivelle</namePart>
+        <namePart lang="fr" type="given">Patrick</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gombrich" type="personal">
+        <namePart lang="en" type="family">Gombrich</namePart>
+        <namePart lang="en" type="given">Richard</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pollock" type="personal">
+        <namePart lang="en" type="family">Pollock</namePart>
+        <namePart lang="en" type="given">Sheldon</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#onians" type="personal">
+        <namePart lang="en" type="family">Onians</namePart>
+        <namePart lang="en" type="given">Isabelle</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#vasudeva" type="personal">
+        <namePart lang="en" type="family">Vasudeva</namePart>
+        <namePart lang="en" type="given">Somadeva</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>For detailed information on this work, see: https://claysanskritlibrary.org/volumes/life-of-the-buddha/</abstract>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">New York University Press and JJC Foundation</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Clay Sanskrit Library</title>
+        </titleInfo>
+    </relatedItem>
+    <note type="reprint">Updated Reprint of the 1997 edition, first published by the Oxford University Press</note>
+</mods>

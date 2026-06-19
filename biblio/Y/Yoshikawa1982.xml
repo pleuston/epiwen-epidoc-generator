@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshikawa1982" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛は心に在り. ‘白黑論’ から姚崇の ‘遺令’ まで</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hotoke wa kokoro ni ari. ‘Hakukoku ron’ kara Yō Sū no ‘Iryō’ made</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Buddha Dwells Within the Heart. From the “Black and White Commentary” to the
+            “Rules Bequeathed” by Yao Chong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yoshikawa 1982</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yoshikawa" type="personal">
+        <namePart lang="ja" type="family">吉川</namePart>
+        <namePart lang="ja" type="given">忠夫</namePart>
+        <namePart transliteration="romaji" type="family">Yoshikawa</namePart>
+        <namePart transliteration="romaji" type="given">Tadao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Fukunaga1982" type="host">
+        <titleInfo lang="ja">
+            <title>中國中世の宗教と文化</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku chūsei no shūkyō to bunka</title>
+        </titleInfo>
+        <name ns2:href="#fukunaga" type="personal">
+            <namePart lang="ja" type="family">福永</namePart>
+            <namePart lang="ja" type="given">光司</namePart>
+            <namePart transliteration="romaji" type="family">Fukunaga</namePart>
+            <namePart transliteration="romaji" type="given">Mitsuji</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1982</dateIssued>
+            <place>
+                <placeTerm>Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Kyōto daigaku jinbun kagaku
+                        kenkyūsho</namePart>
+                    <namePart lang="ja">京都大學人文科學研究所</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>47</start>
+                <end>101</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

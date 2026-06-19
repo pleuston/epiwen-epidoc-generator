@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanSuyin1984" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Ancient Pilgrim’s Route via Anyue and Dazu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Han Su­yin 1984</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hansuyin" type="personal">
+        <namePart transliteration="pinyin" type="penname">Han Suyin</namePart>
+        <namePart type="penname">韓素音</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ChinaDaily" type="host">
+        <titleInfo lang="en">
+            <title>China Daily</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <frequency>daily</frequency>
+        </originInfo>
+        <part>
+            <date>1984-05-26</date>
+            <detail type="vol">
+                <number/>
+            </detail>
+            <extent unit="page">
+                <start>5</start>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

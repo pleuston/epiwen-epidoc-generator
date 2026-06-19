@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshioka1988a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>吉岡義豐著作集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Yoshioka Yoshitoyo chosakushū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Collected Writings of Yoshioka Yoshitoyo</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yoshioka 1988-1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yoshioka" type="personal">
+        <namePart lang="ja" type="family">吉岡</namePart>
+        <namePart lang="ja" type="given">義豐</namePart>
+        <namePart transliteration="romaji" type="family">Yoshioka</namePart>
+        <namePart transliteration="romaji" type="given">Yoshitoyo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">5</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1988</dateIssued>
+        <dateIssued point="end">1990</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Gogatsu shobō</namePart>
+                <namePart lang="ja">五月書房</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

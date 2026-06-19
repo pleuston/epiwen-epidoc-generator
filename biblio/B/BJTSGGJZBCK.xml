@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BJTSGGJZBCK" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beijing tushuguan guji zhenben congkan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北京圖書館古籍珍本叢刊</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Rare Ancient Books in the Beijing Library</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Beitu Guji Zhenben</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#beitugujichubanbianjizu" type="corporate">
+        <namePart lang="zh">北京圖書館古籍出版編輯組</namePart>
+        <namePart transliteration="pinyin">Beijing tushuguan guji chuban bianjizu</namePart>
+        <namePart lang="en"/>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>120 vols.</extension>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing tushuguan chubanshe</namePart>
+                <namePart lang="zh">北京圖書館出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

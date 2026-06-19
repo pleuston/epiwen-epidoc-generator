@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ono1976" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>涅槃經遺教經梵網經講義</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Commentary to the <hi rend="italic">
+                <foreign lang="sa">Nirvāṇa</foreign> Sutra</hi>, the <hi rend="italic">Sutra on the Buddha’s Bequeathed Teaching</hi> and the <hi rend="italic">Sutra of <hi rend="italic">
+                    <foreign lang="sa">Brahmā’s</foreign>
+                </hi> Net</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Nehangyō’, ‘Yuikyōkyō’, ‘Bonmōkyō’ kōgi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōno Hōdō 1935</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ono_hodo" type="personal">
+        <namePart transliteration="romaji" type="family">Ōno</namePart>
+        <namePart transliteration="romaji" type="given">Hōdō</namePart>
+        <namePart lang="ja" type="family">大野</namePart>
+        <namePart lang="ja" type="given">法道</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1976</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">名著出版</namePart>
+                <namePart transliteration="romaji">Meicho shuppan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

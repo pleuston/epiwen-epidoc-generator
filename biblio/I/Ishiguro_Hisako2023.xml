@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Ishiguro_Hisako2023">
+    <titleInfo lang="ja">
+        <title>泉州安渓下草埔冶鉄遺址出土の墨書陶磁器について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>$$$ Senshū Ankei Kasōho (?) chitetsu ishi shutsudo no bokusho tōjiki ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Ceramics with Written Ink Letters from Anxi Xiacaopu Iron Smelting Site in Quanzhou</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishiguro 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ishiguro_hisako" type="personal">
+        <namePart lang="ja" type="family">石黒</namePart>
+        <namePart lang="ja" type="given">ひさ子</namePart>
+        <namePart transliteration="romaji" type="family">Ishiguro</namePart>
+        <namePart transliteration="romaji" type="given">Hisako</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Hiraizumi_bunka_kenkyu_senta_nenpo" type="host">
+        <titleInfo lang="ja">
+            <title>平泉文化研究センター年報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Hiraizumi bunka kenkyū sentā nenpō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Annual Report of the Center for Hiraizumi Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">11</detail>
+            <extent unit="page">
+                <start>63</start>
+                <end>76</end>
+            </extent>
+            <date>2023</date>
+        </part>
+    </relatedItem>
+</mods>

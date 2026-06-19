@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nihon_rekishi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>日本歷史</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nihon rekishi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nihon_rekishi_gakkai" type="corporate">
+        <namePart lang="ja">日本歷史學會</namePart>
+        <namePart transliteration="romaji">Nihon rekishi gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm>Tokyo</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">吉川弘文館</namePart>
+                <namePart transliteration="romaji">Yoshikawa kōbunkan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChuangHuiping2017b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>31 Millionen Schriftzeichen im Angesicht der Apokalypse: der buddhistische Kanon in Stein gemeißelt</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chuang Hui-Ping 2017a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chuanghuiping" type="personal">
+        <namePart transliteration="pinyin" type="family">Chuang</namePart>
+        <namePart transliteration="pinyin" type="given">Hui-Ping</namePart>
+        <namePart lang="zh" type="family">莊</namePart>
+        <namePart lang="zh" type="given">惠萍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Boettneretal2017" type="host">
+        <titleInfo xml:lang="en">
+            <title>5300 Jahre Schrift</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>70</start>
+                <end>73</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

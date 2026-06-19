@@ -1,0 +1,25 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HJAS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Harvard Journal of Asiatic Studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#harvard_yenching_institute" type="corporate">
+        <namePart lang="en">Harvard-Yenching Institute</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>U.S.A. Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard-Yenching Institute</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1936-</dateIssued>
+        <dateIssued encoding="marc" point="start">1936</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency>semi-annual</frequency>
+    </originInfo>
+</mods>

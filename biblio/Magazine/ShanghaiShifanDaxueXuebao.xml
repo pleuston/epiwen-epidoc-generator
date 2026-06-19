@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShanghaiShifanDaxueXuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shanghai shifan daxue xuebao (Zhexue shehui kexue ban)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>上海師範大學學報 (哲學社會科學版) </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title/>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shanghai_shifan_daxue" type="corporate">
+        <namePart transliteration="pinyin">Shanghai shifan daxue</namePart>
+        <namePart lang="zh">上海師範大學</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1958</dateIssued>
+        <dateIssued encoding="marc" point="end">1961</dateIssued>
+        <dateIssued encoding="marc" point="start">1979</dateIssued>
+        <frequency>bi-monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海師範大學</namePart>
+                <namePart transliteration="pinyin">Shanghai shifan daxue</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

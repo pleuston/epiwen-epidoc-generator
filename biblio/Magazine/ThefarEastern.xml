@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ThefarEastern" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Far Eastern Quarterly</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AAS" type="corporate">
+        <namePart lang="en"> Association for Asian Studies</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm lang="en">Ann Arbor</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Association for Asian Studies</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1941-1956</dateIssued>
+        <dateIssued encoding="marc" point="start">1941</dateIssued>
+        <dateIssued encoding="marc" point="end">1956</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+    </originInfo>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

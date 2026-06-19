@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhuPinyan2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo lang="en">
+        <title>Posthumous Release for Lay Women in Tang China: Two Cases from the Longmen Grottoes</title>
+    </titleInfo>
+   
+    <titleInfo type="reference">
+        <title>Zhu Pinyan 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhupinyan" type="personal">
+        <namePart lang="en" type="family">Zhu</namePart>
+        <namePart lang="en" type="given">Pinyan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://doi.org/10.3390/rel14030365</url>
+    </location>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Religions" type="host">
+        <titleInfo lang="en">
+            <title>Religions</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+            <dateIssued>2023-03-09</dateIssued>
+            <dateCaptured>2023-04-13</dateCaptured>
+        </originInfo>
+        <part>
+            <detail type="volume">14</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>365</start>
+               <!-- <end></end>-->
+            </extent>
+            <date>2023</date>
+        </part>
+        <!--<note>This journal wants to be cited as: Religions 14, no. 3: 365. https://doi.org/10.3390/rel14030365
+            This article is part of the Special Issue "Re-staging the Periphery as the Center: Women Communities in East Asian Religions"</note>-->
+    </relatedItem>
+</mods>

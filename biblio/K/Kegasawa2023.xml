@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Ronshū Zui Tō Bukkyō shakai to sono shūhen</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>論集隋唐佛教社會とその周辺</title>
+       
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Essays on Sui-Tang Buddhist Society Within Its Context</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori</namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Meiji daigaku Higashiajia sekkoku bunbutsu kenkyūjo</namePart>
+                <namePart lang="ja">明治大学東アジア石刻文物研究所</namePart>
+            </name>
+        </publisher>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyūko shoin</namePart>
+                <namePart lang="ja">汲古書院</namePart>
+            </name>
+        </publisher>
+       
+        
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyūko shoin</namePart>
+                <namePart lang="ja">汲古書院</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wu_Tsiang2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Body and Face in Chinese Visual Culture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Hung and Tsiang 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wuhung" type="personal">
+        <namePart lang="en" type="family">Wu</namePart>
+        <namePart lang="en" type="given">Hung</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsiang" type="personal">
+        <namePart lang="en" type="family">Tsiang</namePart>
+        <namePart lang="en" type="given">Katherine R.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm>Cambridge, MA and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Asia Center</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title>Harvard East Asian Monographs<!-- 239--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>239</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

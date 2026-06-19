@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Forte_Masini2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Life Journey to the East: Sinological Studies in Memory of Giuliano Bertuccioli
+            (1923-2001)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Forte and Masini 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#forte" type="personal">
+        <namePart lang="it" type="family">Forte</namePart>
+        <namePart lang="it" type="given">Antonino</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#masini" type="personal">
+        <namePart lang="it" type="family">Masini</namePart>
+        <namePart lang="it" type="given">Federico</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <place>
+            <placeTerm>Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="it">Scuola Italiana di Studi sull’ Asia Orientale</namePart>
+                <namePart lang="en">Italian School of East Asian Studies</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

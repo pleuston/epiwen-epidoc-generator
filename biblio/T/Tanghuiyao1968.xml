@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tanghuiyao1968" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>唐會要</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tang huiyao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Essential Regulations of the Tang<!--Essential Documents and Regulations of the Tang--></title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tang huiyao">
+        <title>Tang hui­yao 1968</title>
+    </titleInfo>
+    <!--<note>AC149.P3 P27::</note>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangpu" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">溥</namePart>
+        <namePart type="date">922–982</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+  <!--  <physicalDescription>
+        <extent>
+            <detail type="volume"></detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>961</dateOther>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+            </name>
+            <namePart lang="zh">藝文印書館</namePart>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <extension>100 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <relatedItem type="series">
+        <titleInfo lang="zh">
+            <title>聚珍版叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Juzhenban congshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>25–28</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

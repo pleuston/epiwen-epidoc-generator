@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dazu_shike_mingwenlu1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dazu shike mingwenlu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>大足石刻銘文録</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Record of the Dazu Stone Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dazu shike mingwen lu 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chongqing_dazu_shike_yishu_bwg" type="corporate">
+        <namePart transliteration="pinyin">Chongqing Dazu shike yishu bowuguan</namePart>
+        <namePart lang="zh">重慶大足石刻藝術博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chongqingshi_shehui_kexueyuan" type="corporate">
+        <namePart transliteration="pinyin">Chongqing Shi shehui kexueyuan Dazu shike yishu yanjiusuo</namePart>
+        <namePart lang="zh">重慶市社會科學院大足石刻藝術研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chongqing</placeTerm>
+            <placeTerm lang="zh">重慶</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chongqing chubanshe</namePart>
+                <namePart lang="zh">重慶出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JinShen2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Haiwai ji Gang Tai cang lidai foxiang zhenpin jinian tujian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>海外及港台藏歷代佛像珍品紀年圖鑒</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Illustrated Chronological Handbook of Precious Old Buddha Statues in Overseas, Hongkong and Taiwan Collections</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jin Shen 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jinshen" type="personal">
+        <namePart type="family" transliteration="pinyin">Jin</namePart>
+        <namePart type="given" transliteration="pinyin">Shen</namePart>
+        <namePart lang="zh" type="family">金</namePart>
+        <namePart lang="zh" type="given">申</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuwenzhe" type="personal">
+        <namePart type="family" transliteration="pinyin">Liu</namePart>
+        <namePart type="given" transliteration="pinyin">Wenzhe</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">文哲</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <note>page 77: 小法者著我见人见众生见寿者见则与此经不能听受读诵为人解脱须菩提在在处处
+        若有此经一切世间天人阿罗所应供养当知此处则为是塔皆应恭敬作礼围绕以诸华香
+        而散其处大魏天平四年正月敬造此像为日本考古学家关野真 20 世初得自山东曲阜。</note>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taiyuan</placeTerm>
+            <placeTerm lang="zh">太原</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanxi chuban jituan</namePart>
+                <namePart lang="zh">山西出版集團</namePart>
+            </name>
+        </publisher>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanxi renmin chubanshe</namePart>
+                <namePart lang="zh">山西人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

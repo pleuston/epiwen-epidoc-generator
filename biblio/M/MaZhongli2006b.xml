@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MaZhongli2006b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Handan Beichao moya Fojing shidai kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>邯鄲北朝摩崖佛經時代考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Investigation Into the Chronology of the Buddhist Sutras on Polished Cliffs from the
+            Northern Dynasties in Handan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ma Zhong­li 2006</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Hebei</province>
+            <county>Handan</county>
+        </hierarchicalGeographic>
+        <topic>stone scriptures</topic>
+        <temporal>Northern Qi-Dynasty</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mazhongli" type="personal">
+        <namePart transliteration="pinyin" type="family">Ma</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongli </namePart>
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">忠理</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SD_Shikeyishu_bwg2006b" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing (san)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經（三）</title>
+        </titleInfo>
+        <name oXygen2:href="#SD_shikeyishu_bwg" type="corporate">
+            <namePart transliteration="pinyin">Shandong sheng shike yishu bowuguan</namePart>
+            <namePart lang="zh">山東省石刻藝術博物館</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#hb_handanshi_wenwuju" type="corporate">
+            <namePart transliteration="pinyin">Hebei sheng Handan shi wenwuju</namePart>
+            <namePart lang="zh">河北省邯郸市文物局</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2006-07</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hohhot</placeTerm>
+                <placeTerm lang="zh">呼和浩特</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Neimenggu renmin chubanshe</namePart>
+                    <namePart lang="zh">内蒙古人民出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>25</start>
+                <end>73</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

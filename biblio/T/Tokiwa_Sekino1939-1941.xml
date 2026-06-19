@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokiwa_Sekino1939-1941" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Shina bunka shiseki</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>支那文化史迹</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Cultural Monuments of China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa and Sekino 1939–1941</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa" type="personal">
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sekino" type="personal">
+        <namePart lang="ja" type="family">関野</namePart>
+        <namePart lang="ja" type="given">貞</namePart>
+        <namePart transliteration="romaji" type="family">Sekino</namePart>
+        <namePart transliteration="romaji" type="given">Tadashi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">24</detail>
+            <note>12 vols. plates, 12 vols. text</note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1939</dateIssued>
+        <dateIssued point="end">1941</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Hōzōkan</namePart>
+                <namePart lang="ja">法藏館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

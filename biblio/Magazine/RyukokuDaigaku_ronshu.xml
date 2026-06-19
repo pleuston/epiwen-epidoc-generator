@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RyukokuDaigaku_ronshu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>龍谷大学論集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūkoku daigaku ronshū </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historical studies of Rissho University</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="ja">龍谷大学</namePart>
+        <namePart transliteration="romaji">Ryūkoku daigaku</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm/>
+            <placeTerm lang="ja"/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja"/>
+                <namePart transliteration="romaji"/>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Thunder Sound Cave <foreign lang="zh">雷音洞（摘要）</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose_enzh" type="personal">
+        <namePart transliteration="de" type="family">Ledderose</namePart>
+        <namePart transliteration="de" type="given">Lothar</namePart>
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Dehou</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">德侯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WuHung2003" type="host">
+        <titleInfo lang="zh">
+            <title>漢唐之間的視覺文化與物質文化</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Han Tang zhijian de shijue wenhua yu wuzhi wenhua</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>Between Han and Tang: Visual and Material Culture in a Transformative
+                Period</title>
+        </titleInfo>
+        <name oXygen2:href="#wuhong" type="personal">
+            <namePart transliteration="pinyin" type="family">Wu</namePart>
+            <namePart transliteration="pinyin" type="given">Hung</namePart>
+            <namePart lang="zh" type="family">巫</namePart>
+            <namePart lang="zh" type="given">鴻</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2003</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                    <namePart lang="en">Cultural Relics Publishing House</namePart>
+                    <namePart lang="zh">文物出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>235</start>
+                <end>265</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

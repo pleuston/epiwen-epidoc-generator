@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wang_Li1983" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd"><titleInfo transliteration="pinyin"><title>Xin faxian de juxing shike wofo</title></titleInfo><titleInfo lang="zh"><title>新發現的巨型石刻卧佛</title></titleInfo><titleInfo lang="en" type="translated"><title>A Recently Discovered Colossal Reclining Buddha Carved in Stone</title></titleInfo><titleInfo type="reference"><title>Wang Yi 1983</title></titleInfo><name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangyi" type="personal"><namePart transliteration="pinyin" type="family">Wang</namePart><namePart transliteration="pinyin" type="given">Yi</namePart><namePart lang="zh" type="family">汪</namePart><namePart lang="zh" type="given">毅</namePart><role><roleTerm>author</roleTerm></role></name><!-- <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lizhenting" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenting</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">振廷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name> --><relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#RenminHuabao" type="host"><titleInfo transliteration="pinyin"><title>Renmin huabao</title></titleInfo><titleInfo lang="zh"><title>人民畫報</title></titleInfo><originInfo><issuance>continuing</issuance></originInfo><part><date>1983</date><detail type="no">10</detail><extent unit="page"><start>28</start><end>29</end></extent></part></relatedItem></mods>

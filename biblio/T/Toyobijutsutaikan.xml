@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Toyobijutsutaikan" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東洋美術大觀</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōyō bijutsu taikan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Masterpieces Selected from the Fine Arts of the Far East<!-- with Detail History of Artists and Critical Descriptions--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tōyō bijutsu taikan</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shinbishoin" type="corporate">
+        <namePart transliteration="romaji">Shinbi shoin</namePart>
+        <namePart lang="ja">審美書院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tajima_shiichi" type="personal">
+        <namePart transliteration="romaji" type="family">Tajima</namePart>
+        <namePart transliteration="romaji" type="given">Shiichi</namePart>
+        <namePart lang="ja" type="family">田島</namePart>
+        <namePart lang="ja" type="given">志一</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wada_mikio" type="personal">
+        <namePart transliteration="romaji" type="family">Wada</namePart>
+        <namePart transliteration="romaji" type="given">Mikio</namePart>
+        <namePart lang="ja" type="family">和田</namePart>
+        <namePart lang="ja" type="given">幹男</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kubota_kanroku" type="personal">
+        <namePart transliteration="romaji" type="family">Kubota</namePart>
+        <namePart transliteration="romaji" type="given">Kanroku</namePart>
+        <namePart lang="ja" type="family">窪田</namePart>
+        <namePart lang="ja" type="given">勘六</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">15</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1908</dateIssued>
+        <dateIssued point="end">1918</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shinbi shoin</namePart>
+                <namePart lang="ja">審美書院</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

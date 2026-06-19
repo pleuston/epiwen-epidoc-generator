@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wilson_Wardwell1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>New Objects/New Insights: Cleveland’s Recent Chinese Acquisitions (Oct. 1994)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wilson, J. K. and Wardwell 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WilsonJKeith" type="personal">
+        <namePart lang="en" type="family">Wilson</namePart>
+        <namePart lang="en" type="given">J. Keith</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wardwell" type="personal">
+        <namePart lang="en" type="family">Wardwell</namePart>
+        <namePart lang="en" type="given">Anne E.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Bulletin_Cleveland_Museum" type="host">
+        <titleInfo lang="en">
+            <title>The Bulletin of the Cleveland Museum of Art</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1994</date>
+            <detail type="volume">81</detail>
+            <detail type="no">8</detail>
+            <extent unit="page">
+                <start>270</start>
+                <end>347</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

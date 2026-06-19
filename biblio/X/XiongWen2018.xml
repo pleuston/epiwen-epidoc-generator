@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XiongWen2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>涅槃與生死：以慶山寺地宫爲例看唐代地宫與墓葬的關係問題</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Niepan yu shengsi: yi Qingshan digong wei li kan Tangdai digong yu muzang de guanxi wenti</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Nirvana and Samsara: Taking the Qingshan Crypt as an Example to Examine the Relationship between Crypts and Tombs in the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xiong Wen 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xiongwen" type="personal">
+        <namePart lang="zh" type="family">熊</namePart>
+        <namePart lang="zh" type="given">雯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" type="host">
+        <titleInfo lang="zh">
+            <title>中國美術館</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo meishuguan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            
+            <extent unit="page">
+                <start>63</start>
+                <end>68</end>
+            </extent>
+            <date>2018</date>
+        </part>
+    </relatedItem>
+</mods>

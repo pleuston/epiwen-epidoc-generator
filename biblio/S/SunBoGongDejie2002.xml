@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="SunBoGongDejie2002">
+    <titleInfo lang="zh">
+        <title>山東臨朐明道寺舍利塔地宫佛教造像清理簡報</title>
+        <!--<title>山東臨朐明道寺舍利塔地宮佛教造像清理簡報</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Linqu Mingdao Si shelita digong fojiao zaoxiang qingli jianbao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Preliminary Report on Surveying the Buddhist Votive Images in the Relic Crypt of Mingdao Monastery in Linqu, Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sun and Gong 2002</title>
+        <!--<title>Sun Bo and Gong Dejie 2002</title>-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sunbo" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Bo</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart lang="zh" type="given">博</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gongdejie" type="personal">
+        <namePart transliteration="pinyin" type="family">Gong</namePart>
+        <namePart transliteration="pinyin" type="given">Dejie</namePart>
+        <namePart lang="zh" type="family">宫</namePart>
+       
+        <namePart lang="zh" type="given">德杰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">9</detail>
+            <extent unit="page">
+                <start>64</start>
+                <end>83</end>
+            </extent>
+            <date>2002</date>
+        </part>
+    </relatedItem>
+</mods>

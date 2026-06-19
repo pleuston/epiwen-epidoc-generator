@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yamada1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>遺教經講話</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Commentary to the ‘Sutra on the Buddha’s Bequeathed Teaching’</title>
+    </titleInfo>
+    <titleInfo transliteration="romanji">
+        <title>Yuikyōkyō kōwa</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yamada Mumon 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yamada_mumon" type="personal">
+        <namePart transliteration="romaji" type="family">Yamada</namePart>
+        <namePart transliteration="romaji" type="given">Mumon</namePart>
+        <namePart lang="jp" type="family">山田</namePart>
+        <namePart lang="jp" type="given">無文</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">春秋社</namePart>
+                <namePart transliteration="romaji">Shunjūsha</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

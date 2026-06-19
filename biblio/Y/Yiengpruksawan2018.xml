@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yiengpruksawan2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Countdown to 1051. Some Preliminary Thoughts on the Periodization of the Buddhist Eschaton in Heian and Liao</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yiengpruksawan 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yiengpruksawan" type="personal">
+        <namePart type="family">Yiengpruksawan</namePart>
+        <namePart type="given">Mimi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Saussy2018" type="host">
+        <titleInfo>
+            <title>Texts and Transformations: Essays in Honor of the 75th Birthday of Victor H. Mair</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>369</start>
+                <end>434</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

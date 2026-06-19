@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WuYuanzhen2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beijing tushuguan cang Longmen shiku zaoxiang tiji taben quanbian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北京圖書館藏龍門石窟造像題記拓本全編</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Complete Edition of Rubbings of Votive Inscriptions from the Longmen Cave-temples
+            Held in the National Library of China, Beijing</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Yuan­zhen 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuyuanzhen" type="personal">
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">元真</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">10</detail>
+        </extent>
+    </physicalDescription>
+    <typeOfResource collection="yes">rubbings</typeOfResource>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Guilin</placeTerm>
+            <placeTerm lang="zh">桂林</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">廣西師範大學出版社</namePart>
+                <namePart transliteration="pinyin">Guangxi shifan daxue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yazaki_etal1916" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東京美術學校問題：第一回調査報告書</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōkyō bijutsu gakkō mondai: Dai ikkai chōsa hōkokusho</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Tokyo Fine Arts School Problem: First Research Report</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yazaki et al. 1916</title>
+    </titleInfo>
+    <abstract>See: Y:\Texte\allgemein Articles\Y\Yazaki Chiyoji
+        
+        Publisher not mentioned in the source itself. Information taken from NDL: https://ndlonline.ndl.go.jp/#!/detail/R300000001-I000000557876-00</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yazaki_chiyoji" type="personal">
+        <namePart transliteration="romaji" type="family">Yazaki</namePart>
+        <namePart transliteration="romaji" type="given">Chiyoji</namePart>
+        <namePart lang="ja" type="family">矢崎</namePart>
+        <namePart lang="ja" type="given">千代二</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1916</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">[Tōkyō]</placeTerm>
+            <placeTerm lang="ja">[東京]</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">[Sotsugyōsei taikai chōsa iin]</namePart>
+                <namePart lang="ja">[卒業生大會調査委員]</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

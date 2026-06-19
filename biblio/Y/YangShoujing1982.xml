@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YangShoujing1982" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>學書邇言</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xueshu eryan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Shallow Words on Studying Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xue­shu er­yan</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangshoujing" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">守敬</namePart>
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Shoujing</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenshangmin" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">上岷</namePart>
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Shangmin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1982</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="romaji">Beijing</placeTerm>
+        </place>
+    </originInfo>
+</mods>

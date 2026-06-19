@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ToyoBunka_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東洋文化研究所紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōyō bunka kenkyūjo kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Memoirs of the Institute of Oriental Culture</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokyodaigaku_toyobunkajo" type="corporate">
+        <namePart lang="ja">東京大学東洋文化研究所</namePart>
+        <namePart transliteration="romaji">Tōkyō daigaku tōyō bunka kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1943-</dateIssued>
+        <dateIssued encoding="marc" point="start">1943</dateIssued>
+        <frequency>biannual</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">日光書院</namePart>
+                <namePart transliteration="romaji">Nikkō shoin</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XianBeilin_beishi_mulu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of Stone Steles in the Forest of Steles in Xi’an</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西安碑林碑石目録</title>
+        <!--<title>西安碑林碑石目錄</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xi’an Beilin beishi mulu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xi’an Beilin beishi mulu 1938</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xian_beilin_guanli_weiyuanhui" type="corporate">
+        <namePart transliteration="pinyin">Xi’an Beilin guanli weiyuanhui</namePart>
+        <namePart lang="zh">西安碑林管理委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1938</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">西安碑林<!--博物館--></namePart>
+                <namePart transliteration="pinyin">Xi’an Beilin <!--bowuguan--></namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

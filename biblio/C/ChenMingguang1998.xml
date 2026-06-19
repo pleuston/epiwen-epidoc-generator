@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenMingguang1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Dazang Fo shuo shouhu dafang daqian guotu jing</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>大藏佛説守護大方大千國土經</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Chen Mingguang 1998</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>The <hi rend="italic">Canonical Extended Sutra Spoken by the Buddha
+                                                on the Protection of the Great Thousand Worlds</hi>
+                        </title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenmingguang" type="personal">
+                        <namePart transliteration="pinyin" type="family">Chen</namePart>
+                        <namePart transliteration="pinyin" type="given">Mingguang</namePart>
+                        <namePart lang="zh" type="family">陳</namePart>
+                        <namePart lang="zh" type="given">明光</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="ZangwaiFojiaoWenxian" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Zang wai Fojiao wenxian</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>藏外佛教文獻</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <dateIssued>1998</dateIssued>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>4</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>289</start>
+                                                <end>290</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

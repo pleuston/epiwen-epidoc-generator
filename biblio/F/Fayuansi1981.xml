@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fayuansi1981" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fayuan Si</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>法源寺</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Fayuan Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fayuansi 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_fojiaotushu_wwg" type="corporate">
+        <namePart lang="zh">中國佛教圖書文物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1981</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fayuansi liutongchu</namePart>
+                <namePart lang="zh">法源寺流通處</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

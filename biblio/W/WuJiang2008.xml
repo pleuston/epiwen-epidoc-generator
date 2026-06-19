@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WuJiang2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Enlightenment in Dispute: The Reinvention of Chan Buddhism in Seventeenth-century
+            China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Jiang 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wujiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Jiang</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">疆</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm>Oxford</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Oxford University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

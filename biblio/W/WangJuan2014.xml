@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangJuan2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fojiao ruixiang de tezheng yu xingcheng de sixiang jichu: cong Yindu, Yutian, Dunhuang dao Dongtu ruixiang de zhengti kaocha</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛教瑞像的特徵與形成的思想基礎<hi rend="dash">──</hi>從印度、于闐、敦煌到東土瑞像的整體考察</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Ideological Basis for the Formation and the Characteristics of Buddhist Miraculous Images: A Thorough Investigation of Miraculous Images from India, Kucha, Dunhuang and the Eastern Region</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Juan 2014</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Juan</namePart>
+        <namePart lang="zh" type="family">汪</namePart>
+        <namePart lang="zh" type="given">娟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wang_Cheng2014" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>2013 Dunhuang, Tulufan guoji xueshu yantaohui: Huiyi lunwenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>2013敦煌、吐魯番國際學術研討會論文集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2014</date>
+            <extent unit="page">
+                <start>107</start>
+                <end>129</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinshihuimufenbian" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi huimu fenbian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金石匯目分編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Categorized Edition of an Assembled Catalog of Epigraphica</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>匯目</title>
+        <!--<title>彚目</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Huimu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi huimu fenbian">
+        <title>Jin­shi hui­mu fen­bian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wushifen" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Shifen</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">式芬</namePart>
+        <namePart type="date">1796-1856</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>For Mount Jian, Wu Shifen (1796-1856) listed altogether 17 inscriptions. These include the misplaced inscription from Mount Gang (probably copied from Ruan Yuan’s Shanzuo jinshi zhi), three inscription from Pot Stand Rocks (Zhiguoshi 支鍋石), and 13 from the actual slope at “Great Buddha Ridge”. For some of these entries a location is given, for some not.</abstract>
+    <extension>20 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">20</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Compiled 1854–1856. Published 1937</dateOther>
+        <!--<dateIssued>1937</dateIssued>-->
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>27–28</number>
+            </detail>
+            <extent unit="page">
+                <start>20651</start>
+                <end>21591</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

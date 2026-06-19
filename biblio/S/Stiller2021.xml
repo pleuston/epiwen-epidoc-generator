@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Stiller2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Carving status at Kŭmgangsan: Elite Graffiti in Premodern Korea</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Stiller 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Stiller" type="personal">
+        <namePart lang="en" type="family">Stiller</namePart>
+        <namePart lang="en" type="given">Maya Kerstin Hyun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Washington Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Seattle</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Korean Studies of the Henry M. Jackson School of International Studies</title>
+        </titleInfo>
+    </relatedItem>
+    <issuance>monographic</issuance>
+</mods>

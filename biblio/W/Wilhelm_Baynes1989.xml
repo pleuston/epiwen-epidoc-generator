@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wilhelm_Baynes1989" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>I Ching or Book of Changes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yi jing (Wilhelm/Baynes) 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wilhelm" type="personal">
+        <namePart lang="en" type="family">Wilhelm</namePart>
+        <namePart lang="en" type="given">Richard</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baynes" type="personal">
+        <namePart lang="en" type="family">Baynes</namePart>
+        <namePart lang="en" type="given">Cary F.</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1989</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Arkana</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+    </originInfo>
+    <note type="reprint">Third edition</note>
+</mods>

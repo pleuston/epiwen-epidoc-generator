@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DunhuangWenwuYJS1981-87" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國石窟：敦煌莫高窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo shiku: Dunhuang Mogao ku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chinese Caves: The Mogao Caves at Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dunhuang wenwu yanjiusuo 1981–1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dunhuang_wenwu_yanjiusuo" type="corporate">
+        <namePart lang="en">Dunhuang Institute of Cultural Relics</namePart>
+        <namePart lang="zh">敦煌文物研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">5</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1981</dateIssued>
+        <dateIssued point="end">1987</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

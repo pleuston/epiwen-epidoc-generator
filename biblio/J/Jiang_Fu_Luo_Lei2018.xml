@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jiang_Fu_Luo_Lei2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jialing jiang liuyu shikusi diaocha ji yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>嘉陵江流域石窟寺調查及研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study and Survey of the Caves Shrines Along the Jialing River</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jiang Xiaochun et al. 2018</title>
+        <!--<title>Jiang Xiaochun, Fu Yongli, Luo Hongbin and Lei Yuhua 2018</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jiangxiaochun" type="personal">
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaochun</namePart>
+        <namePart lang="zh" type="family">蔣</namePart>
+        <namePart lang="zh" type="given">曉春</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fuyongli" type="personal">
+        <namePart transliteration="pinyin" type="family">Fu</namePart>
+        <namePart transliteration="pinyin" type="given">Yongli</namePart>
+        <namePart lang="zh" type="family">符</namePart>
+        <namePart lang="zh" type="given">永利</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luohongbin" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Hongbin</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">洪彬</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉華</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YaoShengmin1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jinchuanwan kejing shiku</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金川灣刻經石窟</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Stone Sutra Cave at Jinchuanwan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yao Sheng­min 1990</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yaoshengmin" type="personal">
+        <namePart transliteration="pinyin" type="family">Yao</namePart>
+        <namePart transliteration="pinyin" type="given">Shengmin</namePart>
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">生民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chunhuawenshi" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Chunhua wenshi</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>淳化文史</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number/>
+            </detail>
+            <extent unit="page">
+                <start>40</start>
+                <end>41</end>
+            </extent>
+            <date>1990</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGKXYKGYJS_XiAn1974" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>唐青龍寺遺址發掘簡報</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tang Qinglong Si yizhi fajue jianbao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Brief Report on the Excavation of the Ruins of Qinglong Monastery of the Tang
+            Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Qinglong Monastery Report 1974</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_shehui_kxy_kaogu_yjs_Xian_gzd" type="corporate">
+        <namePart transliteration="pinyin">Zhongguo shehuikexueyuan kaoguyanjiusuo Xi’an gongzuo dui</namePart>
+        <namePart lang="zh">中國社會科學院考古研究所西安工作隊</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kaogu" type="host">
+        <titleInfo lang="zh">
+            <title>考古</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>321</start>
+                <end>327</end>
+            </extent>
+            <date>1974</date>
+        </part>
+    </relatedItem>
+    <note type="">Seitenangabe von Abbildungen nicht gegeben</note>
+</mods>

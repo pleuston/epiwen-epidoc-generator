@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jianbo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jian Bo</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>簡帛</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bamboo and silk Manuscripts</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart transliteration="pinyin">Wuhan daxue Jian Bo yanjiu zhongxin</namePart>
+        <namePart lang="zh">武漢大學簡帛研究中心</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">2006</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="pinyin">Wuhan</placeTerm>
+            <placeTerm lang="zh">武漢</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart lang="zh">武漢大學簡帛研究中心</namePart>
+                <namePart transliteration="pinyin">Wuhan daxue Jian Bo yanjiu zhongxin</namePart>
+            </name></publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

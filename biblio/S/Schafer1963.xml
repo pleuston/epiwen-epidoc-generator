@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schafer1963" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The T’ang Imperial Icon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schafer 1963</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#schafer" type="personal">
+        <namePart lang="en" type="family">Schafer</namePart>
+        <namePart lang="en" type="given">Edward H.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Sinologica" type="host">
+        <titleInfo lang="de">
+            <title>Sinologica. Zeitschrift für Chinesische Kultur und Wissenschaft</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>7</number>
+            </detail>
+            <extent unit="page">
+                <start>156</start>
+                <end>160</end>
+            </extent>
+            <date>1963</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sharf2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Coming to Terms with Chinese Buddhism: A Reading of the Treasure Store Treatise</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sharf 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sharf" type="personal">
+        <namePart lang="en" type="family">Sharf</namePart>
+        <namePart lang="en" type="given">Robert H.</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+    </name>
+    <abstract>For an extensive investigation into the pervasive role of the concept of ganying
+                in Chinese religious thought, see the chapter entitled “Chinese Buddhism and the
+                Cosmology of Sympathetic Resonance” 77-136</abstract>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title><!--Kuroda Institute -->Studies in East Asian Buddhism</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>14</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

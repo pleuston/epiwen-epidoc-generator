@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shanzuohanweiliuchaozhenshimu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>山左漢魏六朝貞石目</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shanzuo Han Wei Liu chao zhen shi mu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalogue of Steles and Stones of the Han, Wei and Six Dynasties Periods in Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shanzuo Han Wei Liu chao zhen shi mu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tianshiyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Tian</namePart>
+        <namePart transliteration="pinyin" type="given">Shiyi</namePart>
+        <namePart lang="zh" type="family">田</namePart>
+        <namePart lang="zh" type="given">士懿</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateOther qualifier="approximate">Preface and postscripts of 1922</dateOther>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guojia tushuguan chubanshe</namePart>
+                <namePart lang="zh">國家圖書館出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo lang="zh">
+            <title>地方金石志匯編</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Difang jinshi zhi huibian</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>33</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

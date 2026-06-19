@@ -1,0 +1,98 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LongmenShiku1988_jap" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>龍門石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūmon sekkutsu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Longmen Grottoes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ryūmon sekkutsu 1987–1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmen_wenwu_baoguansuo_ja" type="corporate">
+        <namePart lang="ja">龍門文物保管所</namePart>
+        <namePart transliteration="romaji">Ryūmon bunbutsu hokansho (Longmen wenwu baoguansuo)</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beijing_daxue_kaoguxi_ja" type="corporate">
+        <namePart lang="ja">北京大學考古系</namePart>
+        <namePart transliteration="romaji">Pekin daigaku kōkokei (Beijing daxue kaoguxi)</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmenshiku_editorial_ja" type="corporate">
+        <namePart lang="ja">《中国石窟·龍門石窟》編集委員会</namePart>
+        <namePart transliteration="romaji">
+            <hi rend="italic">Chūgoku sekkutsu, Ryūmon sekkutsu</hi> henshū iinkai (<hi rend="italic">Zhongguo shiku, Longmen shiku</hi> bianji weiyuanhui)</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmen_wenwu_baoguansuo" type="corporate">
+        <namePart lang="ja" type="penname">龍門文物保管所</namePart>
+        <namePart transliteration="romaji" type="penname">Ryūmon bunbutsu hokansho</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beijing_daxue_kaoguxi" type="corporate">
+        <namePart lang="ja" type="penname">北京大學考古系</namePart>
+        <namePart transliteration="romaji" type="penname">Pekin daigaku kōkokei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmen_wenwu_baoguansuo_ja" type="corporate">
+        <namePart lang="ja">龍門文物保管所</namePart>
+        <namePart transliteration="romaji">Ryūmon bunbutsu hokansho</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beijing_daxue_kaoguxi_ja" type="corporate">
+        <namePart lang="ja">北京大學考古系</namePart>
+        <namePart transliteration="romaji">Pekin daigaku kōkokei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmenshiku_editorial_ja" type="corporate">
+        <namePart lang="ja">《中国石窟·龍門石窟》編集委員会</namePart>
+        <namePart transliteration="romaji">
+            <hi rend="italic">Chūgoku sekkutsu, Ryūmon sekkutsu</hi> henshū iinkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <extension>2 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <originInfo>
+        <dateIssued point="start">1987</dateIssued>
+        <dateIssued point="end">1988</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平凡社</namePart>
+                <namePart transliteration="romaji">Heibonsha</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign lang="ja">Chūgoku</foreign> sekkutsu <foreign lang="zh">中國石窟</foreign>
+            </title>
+        </titleInfo>
+    </relatedItem>
+</mods>

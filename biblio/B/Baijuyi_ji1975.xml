@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Baijuyi_ji1975">
+    <titleInfo transliteration="pinyin">
+        <title>Bai Juyi ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>白居易集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Bai Juyi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bai Juyi ji 1975</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#guxuexie" type="personal">
+        <namePart lang="zh" type="family">顧</namePart>
+        <namePart lang="zh" type="given">學頡</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">4</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1975</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

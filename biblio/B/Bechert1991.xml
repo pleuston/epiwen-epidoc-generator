@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bechert1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Dating of the Historical Buddha. Die Datierung des historischen Buddha, Part
+            1</title>
+    </titleInfo>
+    <titleInfo lang="de">
+        <title>Die Datierung des historischen Buddha, Teil 1</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bechert 1991</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bechert" type="personal">
+        <namePart lang="de" type="family">Bechert</namePart>
+        <namePart lang="de" type="given">Heinz</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <place>
+            <placeTerm>Göttingen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Vandenhoeck und Ruprecht</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SymposienBuddhismusforschung" type="series">
+        <titleInfo lang="de">
+            <title>Symposien zur Buddhismusforschung 4, 1</title>
+        </titleInfo>
+        <name oXygen2:href="#bechert" type="personal">
+            <namePart lang="de" type="family">Bechert</namePart>
+            <namePart lang="de" type="given">Heinz</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+    </relatedItem>
+</mods>

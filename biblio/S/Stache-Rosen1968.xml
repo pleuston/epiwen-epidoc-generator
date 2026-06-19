@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Stache-Rosen1968" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Das Saṅgītisūtra und sein Kommentar Saṅgītiparyāya</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <!--<title>Mittal and Stache-Rosen 1968</title>-->
+        <title>Stache-Rosen 1968</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kusum_mittal" type="personal">
+        <namePart lang="de" type="family">Mittal</namePart>
+        <namePart lang="de" type="given">Kusum</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#stache-rosen" type="personal">
+        <namePart lang="de" type="family">Stache-Rosen</namePart>
+        <namePart lang="de" type="given">Valentina</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Akademie-Verlag</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Sanskrittexte aus den Turfanfunden 9. Deutsche Akademie der Wissenschaften zu Berlin, Institut für Orientforschung, Veröffentlichung 65. Dogmatische Begriffsreihen im Älteren Buddhismus</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>II</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

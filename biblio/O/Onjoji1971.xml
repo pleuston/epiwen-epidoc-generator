@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Onjoji1971" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hihō Onjōji</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>秘寶·園城寺</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Secret Treasures: Onjōji</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishida et al. 1971</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ishida_mosaku" type="personal">
+        <namePart lang="ja" type="family">石田</namePart>
+        <namePart lang="ja" type="given">茂作</namePart>
+        <namePart transliteration="romaji" type="family">Ishida</namePart>
+        <namePart transliteration="romaji" type="given">Mosaku</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kurata_osamu" type="personal">
+        <namePart lang="ja" type="family">藏田</namePart>
+        <namePart lang="ja" type="given">藏</namePart>
+        <namePart transliteration="romaji" type="family">Kurata</namePart>
+        <namePart transliteration="romaji" type="given">Osamu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fuke_shunmyo" type="personal">
+        <namePart lang="ja" type="family">福家</namePart>
+        <namePart lang="ja" type="given">俊明</namePart>
+        <namePart transliteration="romaji" type="family">Fuke</namePart>
+        <namePart transliteration="romaji" type="given">Shunmyō</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateIssued>1971</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kōdansha</namePart>
+                <namePart lang="ja">講談社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

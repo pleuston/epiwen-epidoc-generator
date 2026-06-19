@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FoxueYanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>佛學研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Foxue yanjiu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_foxuewenhua_yjs" type="corporate">
+        <namePart lang="zh">中国佛学文化研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1992-</dateIssued>
+        <dateIssued encoding="marc" point="start">1992</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中国佛学文化研究所</namePart>
+                <namePart transliteration="pinyin">Zhongguo foxue wenhua yanjiusuo</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <location>
+        <url>http://fxyj.chinajournal.net.cn/</url>
+    </location>
+</mods>

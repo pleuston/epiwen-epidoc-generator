@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SDSKFLQJ2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong shike fenlei quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東石刻分類全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Classified Compendium of Stone Inscriptions in Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shan­dong shi­ke fen­lei quan­ji 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sdskflqj_bjwyh" type="corporate">
+        <namePart transliteration="pinyin">Shandong shike feilei quanji bianji weiyuanhui</namePart>
+        <namePart lang="zh">《山東石刻分類全集》編輯委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+   
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Qingdao</placeTerm>
+            <placeTerm lang="zh">青島</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qingdao chubanshe</namePart>
+                <namePart lang="zh">青島出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="NakanishiToru1992">
+    <titleInfo lang="ja">
+        <title>中野忠明先生の御逝去を悼む</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nakano Tadaaki sensei no goseikyo o itamu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mourning the Death of Mister Nakano Tadaaki</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakanishi 1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nakano_tadaaki">
+        <namePart lang="ja" type="family">中西</namePart>
+        <namePart lang="ja" type="given">亨</namePart>
+        <namePart transliteration="romaji" type="family">Nakanishi</namePart>
+        <namePart transliteration="romaji" type="given">Tōru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shiseki_bijutsu_dokokaki" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shiseki bijutsu dōkōkai</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>史迹美術同攷会</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1992</date>
+            <detail type="volume">
+                <number>622</number>
+            </detail><!--
+            <detail type="issue">
+                <number>3</number>
+            </detail>
+            --><extent unit="page">
+                <start>100</start>
+                <end>100</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

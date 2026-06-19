@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dunhuangbaozang1981_1986" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang baozang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌寶藏</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Dunhuang Treasures</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dunhuang baozang 1981–1986</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangyongwu" type="personal">
+        <namePart lang="zh" type="family">黃</namePart>
+        <namePart lang="zh" type="given">永武</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Yongwu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>140 vols</extension>
+    <originInfo>
+        <dateIssued point="start">1981</dateIssued>
+        <dateIssued point="end">1986</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xinwenfeng chuban gongsi</namePart>
+                <namePart lang="zh">新文豐出版公司</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <classification edition="1989">reprint</classification>
+    <originInfo type="reprint">
+        <dateIssued>1989</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Seoul</placeTerm>
+            <placeTerm lang="zh">首爾</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Eulyoo Publishing</namePart>
+                <namePart lang="zh">驪江出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

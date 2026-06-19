@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_617" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd"><titleInfo lang="zh"><title>思惟略要法</title></titleInfo><titleInfo lang="en" type="translated"><title>Abridged Essence of the Meditation Method</title></titleInfo><titleInfo transliteration="pinyin"><title>Siwei lueyaofa</title></titleInfo><titleInfo lang="sa" type="alternative"><title/></titleInfo><titleInfo lang="en" type="abbreviated"><title/></titleInfo><titleInfo type="reference"><title>T#617, 15</title></titleInfo><abstract>The <title><hi>Abridged Essence of Meditation</hi></title> (Siwei lueyaofa 思惟略要法) is a short sutra traditionally attributed to Kumārajīva (T#617, 15: 295c-300c) 
+        that may be best described as a meditation manual. By contents it is very close to the <title>Essence of the Meditation Manual Consisting of  Five Gates</title> 
+        (Wumen chanjing yaoyong fa 五門禪經要用法(T#619, 15:325c-333a) by 佛陀蜜多 and to a Dunhuang manuscript entitled <title>Buddha contemplation</title> 
+        (Guanfo 觀佛 , S. 2585, T#2914, 85:1459c-1461c). <ref type="biblio" target="Yamabe1999">89-91</ref> believes that when the 
+        <title>Essence of the Meditation Manual Consisting of Five Gates</title> was compiled, parts of it have been taken from the <title>Abridged Essence of Meditation</title>.
+        (Demiéville 1954, 359) thought that this text "... may not be a translation of Kumārajīva, but it must date from around his age." 
+        (Yamabe 112) holds on to the attribution to Kumārajīva out of lack for better alternatives, and groups it together with the 
+        <title>Manual on the samādhi of Sitting Meditation</title> (Zuochan sanmei jing 坐禪三昧經, T#614, 15:269c-286a) and the ...... (Chanfa yaojie 禪法要解, T#616, 15:286b-297c), 
+        both attributed to Kumārajīva, and the <title>Yogācārabhumi</title> (Damo duoluo chanjing 達摩多羅禪經, T#618, 15: 300c-325c)by Buddhasena (traditionally attributed to Buddhabhadra 佛陀跋陀羅), 
+        which are said to be the meditation manual closest to the orthodox Sarvastivāda tradition, already containing many Mahāyānist elements, but without many symbolic images. 
+        In contrast to this group stand the texts attributed to Dharmamitra (like the <title>Essence of the Meditation Manual Consisting of  Five Gates</title>) and Juqu Jingsheng that are far more mystical, 
+        poorly organized, and contain many Chinese elements. They were probably compiled in China and are close to the <title>Sutra on the Ocean-like samādhi of Buddha Contemplation Spoken by the Buddha</title> 
+        (Guan sanmei hai jing T#643, 15:645-697). 
+        The text of the Abridged Essence of Meditation has the following sections:
+        1.	Introduction
+        2.	四無量觀法
+        3.	不淨觀法
+        4.	白骨觀法
+        5.	觀佛三昧法
+        6.	生身觀法
+        7.	法身觀法
+        8.	十方諸佛觀法
+        9.	觀無量壽佛法
+        10.	諸法實相觀法
+        11.	法華三昧觀法
+    </abstract><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiumoluoshe" type="personal"><namePart lang="zh">羅什</namePart><namePart transliteration="pinyin">Luoshi</namePart><namePart lang="sa">Kumārajīva</namePart><namePart type="date">344-413</namePart><role><roleTerm>translator</roleTerm></role></name><physicalDescription><extent><detail type="fascicle">1</detail></extent></physicalDescription><originInfo><dateOther/></originInfo><relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host"><titleInfo lang="ja"><title>大正新脩大藏經.</title></titleInfo><titleInfo transliteration="romaji"><title>Taishō shinshū daizōkyō</title></titleInfo><titleInfo transliteration="romaji" type="abbreviated"><title>Taishō</title></titleInfo><titleInfo lang="en" type="translated"><title>New edition of the Buddhist canon in the Taishō era</title></titleInfo><name ns2:href="#takakusu" type="personal"><namePart lang="ja" type="family">高楠</namePart><namePart lang="ja" type="given">順次郎</namePart><role><roleTerm>editor</roleTerm></role></name><name ns2:href="#watanabe" type="personal"><namePart lang="ja" type="family">渡邊</namePart><namePart lang="ja" type="given">海旭</namePart><role><roleTerm>editor</roleTerm></role></name><originInfo><dateIssued>1924-1932</dateIssued><dateIssued encoding="marc" point="start">1924</dateIssued><dateIssued encoding="marc" point="end">1932</dateIssued><place><placeTerm>Tōkyō</placeTerm></place><publisher><name type="corporate"><namePart lang="ja">大正一切經刊行會</namePart><namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart></name></publisher></originInfo><part><detail type="volume"><number>15</number></detail><extent unit="page"><start>297c</start><end>300c</end></extent></part></relatedItem></mods>

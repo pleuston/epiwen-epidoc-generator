@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DingMingyi1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Gongxian, Tianlong, Xiangtang, Anyang shuchu shikusi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鞏縣、天龍、響堂、安陽數處石窟寺</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Rock Cave Temples at Gong County, Mount Tianlong, Mount Xiangtang, and Anyang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ding Mingyi 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dingmingyi" type="personal">
+        <namePart lang="zh" type="family">丁</namePart>
+        <namePart lang="zh" type="given">明夷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1989</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZGMSQJ1984_89" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo meishu quanji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國美術全集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail level="1" type="series">
+                <title lang="zh">雕塑編</title>
+                <title transliteration="pinyin">
+                    <hi rend="italic">Diaosu bian</hi>
+                </title>
+            </detail>
+            <detail level="2" type="volume">
+                <number>13</number>
+            </detail>
+            <extent unit="page">
+                <start>26</start>
+                <end>51</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

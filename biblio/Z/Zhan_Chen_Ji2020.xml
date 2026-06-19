@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhan_Chen_Ji2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Tones from Stones: Production, Preservation and Perusal of Buddhist Epigraphy in Central and East Asia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhan Ru, Chen Jinhua, and Ji Yun 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhanru" type="personal">
+        <namePart lang="zh" type="family">湛</namePart>
+        <namePart lang="zh" type="given">如</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenjinhua" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jiyun_2" type="personal">
+        <namePart lang="zh" type="family">紀</namePart>
+        <namePart lang="zh" type="given">贇</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm>Singapore</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">World Scholastic Publishers</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

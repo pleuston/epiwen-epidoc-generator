@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeiYuhua2005c" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bazhong shiku xingsheng de beijing</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>巴中石窟興盛的背景</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Background of the Rise of the Bazhong Cave Shrines</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lei Yuhua 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DazuSKYS_bwg2007" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>2005 nian Chongqing Dazu shike guoji xueshu yantaohui lunwenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>2005 年重庆大足石刻国际学术研讨会论文集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued/>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>579</start>
+                <end>593</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

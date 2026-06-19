@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XJ_kzesk_kgbg" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>新疆克孜爾石窟考古報告</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xinjiang Kezi’er shiku kaogu baogao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Archaeological Report on the Kizil Caves in Xinjiang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xinjiang Kezi’er shiku kaogu baogao</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beijing_daxue_kaogu_XUExi" type="corporate">
+        <namePart lang="zh">北京大學考古學系</namePart>
+        <namePart transliteration="pinyin">Beijing daxue kaogu xuexi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BCX_kze_qfd_wwbgs" type="corporate">
+        <namePart lang="zh">拜城縣克孜爾千佛洞文物保管所</namePart>
+        <namePart transliteration="pinyin">Baicheng Xian Kezi’er Qianfo Dong wenwu baoguansuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">文物出版社</namePart>
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

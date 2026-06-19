@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>談中皇山、鼓山、滏山石窟刻經的書寫者</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tan Zhonghuang Shan, Gu Shan, Fu Shan shiku kejing de shuxiezhe</title>
+    </titleInfo>
+    
+    <titleInfo lang="en" type="translated">
+        <title>Study on the Author of Cave Sutras Engraved at Mount Zhonghuang, Mount Gu, and Mount Fu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shijingyanjiu2016" type="host">
+        <titleInfo lang="zh">
+            <title>石經研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shijing yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>292</start>
+                <end>310</end>
+            </extent>
+            <date>2016</date>
+        </part>
+    </relatedItem>
+</mods>

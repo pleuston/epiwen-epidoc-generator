@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Guoque" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Guo que</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>國榷</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Discussion of the State<!--A Study of the Ming Dynasty--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guo que 1958</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanqian" type="personal">
+        <namePart lang="zh" type="family">談</namePart>
+        <namePart lang="zh" type="given">遷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1958</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

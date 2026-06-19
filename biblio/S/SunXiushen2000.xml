@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SunXiushen2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fojiao dongchuan gushi huajuan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛教東傳故事畫卷</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Narrative Paintings on the Transmission of the Buddhist Teaching to the East</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sun Xiu­shen 2000</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sunxiushen" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Xiushen</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart type="given" lang="zh">修身</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海人民出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai renmin chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang shiku quanji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌石窟全集 12</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

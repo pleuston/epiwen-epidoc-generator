@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Akutagawa1919" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>傀儡師</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kairaishi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Puppeteer</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Akutagawa 1919</title>
+    </titleInfo>
+    <abstract>Akutagawa in his short novel Gesaku zanmai 戯作三昧 [A Life Devoted to Gesaku] turns the Edo-period novelist Kyokutei Bakin (1767-1848) 曲亭馬琴 into a protagonist and attempts to describe Kyokutei’s writing of the Nansō Satomi hakkenden 南総里見八犬伝（南總里見八犬傳）in 1831 (ninth month in the second year of the tenpō 天保 era). Inhere Akutagawa described a scene in Kyokutei’s home, in which a folding screen with rubbings is mentioned. There seemingly were rubbings in the collection of Kyokutei, but since this work was first published in November 1917 in the Ōsaka Mainichi shinbun 大阪毎日新聞, Akutagawa might have thought about the scene he saw at Sōseki’s funeral?  
+        
+        Later first reprinted in Akutagawa 傀儡師 [Puppeteer]. Tōkyō: Shinchōsha 新潮社, 1919, pp. 205-266.
+        
+        彼の書斎には石刷（いしずり）を貼（は）った屏風（びょうぶ）と床にかけた紅楓黄菊（こうふうこうぎく）の双幅とのほかに、装飾らしい装飾は一つもない。壁に沿うては、五十に余る本箱が、ただ古びた桐の色を、一面に寂しく並べている。障子の紙も貼ってから、一冬はもう越えたのであろう。切り貼りの点々とした白い上には、秋の日に照らされた破（や）れ芭蕉（ばしょう）の大きな影が、婆娑（ばさ）として斜めに映っている。それだけにこの客のぞろりとした服装が、いっそうまた周囲と釣（つ）り合わない。</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ryunosuke" type="personal">
+        <namePart lang="ja" type="family">芥川</namePart>
+        <namePart lang="ja" type="given">龍之介</namePart>
+        <namePart transliteration="romaji" type="family">Akutagawa</namePart>
+        <namePart transliteration="romaji" type="given">Ryūnosuke</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shinchōsha</namePart>
+                <namePart lang="ja">新潮社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

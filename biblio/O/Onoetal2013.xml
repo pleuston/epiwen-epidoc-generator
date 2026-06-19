@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Onoetal2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Tōhoku daigaku fuzoku toshokan shozō Chūgoku kinsekibun takuhonshū·Fu: Kanren shiryō</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>東北大學附属圖書館所藏中國金石文拓本集·附：關聯資料</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Tohoku University Library Collection of Chinese Stone Rubbings and Related Documentation</title>
+    </titleInfo>
+    <abstract>The English translation comes from <ref target="Ono2016" type="biblio">140, 150</ref>.</abstract>
+    <titleInfo type="reference">
+        <title>Ōno Kōji et al. 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ono_koji" type="personal">
+        <namePart transliteration="romaji" type="family">Ōno</namePart>
+        <namePart transliteration="romaji" type="given">Kōji</namePart>
+        <namePart lang="ja" type="family">大野</namePart>
+        <namePart lang="ja" type="given">晃嗣</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#saito_tomohiro" type="personal">
+        <namePart transliteration="romaji" type="family">Saitō</namePart>
+        <namePart transliteration="romaji" type="given">Tomohiro</namePart>
+        <namePart lang="ja" type="family">齋藤</namePart>
+        <namePart lang="ja" type="given">智寛</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Qing</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">青</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#watanabe_kenya" type="personal">
+        <namePart transliteration="romaji" type="family">Watanabe</namePart>
+        <namePart transliteration="romaji" type="given">Ken’ya</namePart>
+        <namePart lang="ja" type="family">渡辺</namePart>
+        <namePart lang="ja" type="given">健哉</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Sendai</placeTerm>
+            <placeTerm lang="ja">仙台</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Konno insatsu</namePart>
+            <namePart lang="ja">今野印刷</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

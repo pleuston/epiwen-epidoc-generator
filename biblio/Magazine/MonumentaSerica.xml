@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MonumentaSerica" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Monumenta Serica: Journal of Oriental Studies</title>
+    </titleInfo>
+    <titleInfo lang="zh" transliteration="pinyin">
+        <title>Huayi xuezhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#monumenta_serica_institute" type="corporate">
+        <namePart lang="en">The Monumenta Serica Institute</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1934-</dateIssued>
+        <dateIssued encoding="marc" point="start">1934</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Sankt Augustin</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Monumenta Serica Institute</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

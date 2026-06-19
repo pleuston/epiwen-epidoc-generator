@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kern1884" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <foreign lang="sa">Saddharma-Puṇḍarīka</foreign> or The Lotus of the True Law</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kern, H. 1884</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kernhendrik" type="personal">
+        <namePart lang="en" type="family">Kern</namePart>
+        <namePart lang="en" type="given">Hendrik</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1884</dateIssued>
+        <place>
+            <placeTerm>Oxford</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Clarendon</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#KSacredBooksEast" type="series">
+        <titleInfo lang="en">
+            <title>The Sacred Books of the East</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>21</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

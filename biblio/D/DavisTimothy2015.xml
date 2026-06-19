@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DavisTimothy2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Entombed Epigraphy and Commemorative Culture in Early Medieval China: A Brief History of Early <hi rend="normal">Muzhiming</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Davis 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#DavisTimothy" type="personal">
+        <namePart lang="en" type="family">Davis</namePart>
+        <namePart lang="en" type="given">Timothy M.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+       
+        
+        <publisher> <name type="corporate">
+            <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Leiden, Boston</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Studies in the History of Chinese Texts</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

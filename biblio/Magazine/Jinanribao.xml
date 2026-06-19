@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinanribao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ji’nan ribao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>濟南日報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Ji’nan Daily</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart transliteration="pinyin"/>
+        <namePart lang="zh"/>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1948</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm>Ji’nan</placeTerm>
+            <placeTerm>濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">濟南日報社</namePart>
+                <namePart transliteration="pinyin">Ji’nan ribaoshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

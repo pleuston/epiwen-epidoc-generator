@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BJTSG_JSZ1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beijing tushuguan cang Zhongguo lidai shike taben congbian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北京圖書館藏中國歷代石刻拓本彙編</title>
+        <!--<title>北京圖書館藏中國歷代石刻拓本彙編</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Rubbings Taken from Chinese Stone Inscriptions of Successive Dynasties Held in the National Library of China, Beijing</title>
+        <!--<title>A compendium of Chinese stone inscriptions in the Beijing Library</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Beijing tushuguan jinshizu 1997</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#bjtsg_jinshizu" type="corporate">
+        <namePart transliteration="pinyin">Beijing tushuguan jinshizu</namePart>
+        <namePart lang="zh">北京圖書館金石組</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>101 vols.</extension>
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+            <placeTerm lang="zh">鄭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongzhou chubanshe</namePart>
+                <namePart lang="zh">中州出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

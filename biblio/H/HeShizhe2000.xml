@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HeShizhe2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>法華經畫卷</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fahua jing hua juan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Painted Scrolls of the <hi rend="italic">Lotus Sutra</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>He Shizhe 2000</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#heshizhe" type="personal">
+        <namePart lang="zh" type="family">賀</namePart>
+        <namePart lang="zh" type="given">世哲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海人民出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai renmin chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangShiku" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang shiku quanji di qi juan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌石窟全集第七卷</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

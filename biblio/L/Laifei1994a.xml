@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Laifei1994a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>北朝後期的書法復古現象</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Beichao houqi de shufa fugu xianxiang</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>The Phenomenon of Returning to Antiquity in the Calligraphy of the Late Northern Dynasties Period</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Lai fei 1994a</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+                        <namePart transliteration="pinyin" type="family">Lai</namePart>
+                        <namePart transliteration="pinyin" type="given">Fei</namePart>
+                        <namePart lang="zh" type="family">賴</namePart>
+                        <namePart lang="zh" type="given">非</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <abstract/>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shufayanjiu" type="host">
+                        <titleInfo lang="zh">
+                                    <title>書法研究</title>
+                        </titleInfo>
+                        <titleInfo transliteration="pinyin">
+                                    <title>Shufa yanjiu</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>      <date>1994</date>
+                                    <detail type="volume">57</detail>
+                                    <detail type="no"/>
+                                    <extent unit="page">
+                                                <start>60</start>
+                                                <end>66</end>
+                                    </extent>
+                                    
+                        </part>
+            </relatedItem>
+            <note type="reprint">Reprinted in <ref type="biblio" target="LaiFei2014">76–82</ref>
+    </note>
+</mods>

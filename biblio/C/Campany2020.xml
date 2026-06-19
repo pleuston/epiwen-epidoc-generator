@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Campany2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Chinese Dreamscape. 300 BCE–800 CE</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Campany 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#campany" type="personal">
+        <namePart lang="en" type="family">Campany</namePart>
+        <namePart lang="en" type="given">Robert F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Asia Center</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Cambridge (Massachusetts) and London</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Harvard-Yenching Institute monographs</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>122</number>
+            </detail>
+        </part>
+    </relatedItem>
+   
+</mods>

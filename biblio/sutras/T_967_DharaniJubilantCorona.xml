@@ -1,0 +1,93 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="T_967">
+    <titleInfo transliteration="pinyin">
+        <title>Fódǐng zūnshèng tuóluóní jīng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛頂尊勝陀羅尼經</title>
+    </titleInfo>
+    <titleInfo lang="sa">
+        <title>Uṣṇīṣavijayādhāraṇī</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sutra of the Glorious Buddha Crown <foreign xml:lang="sa">Dhāraṇī</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="abbreviated" lang="en">
+        <title>Jubilant Corona</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#967, 19</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#fotuoboli">
+        <namePart lang="zh">佛陀波利</namePart>
+        <namePart lang="sa">Buddhapāli</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract>see Liu Shufen 2008b and Copp 2014 ("Incantation of Glory")</abstract>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther/>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>19</number>
+            </detail>
+            <extent unit="page">
+                <start>349a</start>
+                <end>352c</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

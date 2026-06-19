@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2006_07" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The End of the Project</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose" type="personal">
+        <namePart lang="en" type="family">Ledderose</namePart>
+        <namePart lang="en" type="given">Lothar</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZuerichStudies2006_07" type="host">
+        <titleInfo xml:lang="en">
+            <title>Zurich Studies in the History of Art. Georges Bloch Annual 2006/2007</title>
+        </titleInfo>
+        <name oXygen2:href="#zurich_arthistory" type="corporate">
+            <namePart lang="en">University of Zurich, Institute of Art History</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <place>
+                <placeTerm>Zürich</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart xml:lang="en">University of Zurich, Institute of Art
+                        History</namePart>
+                    <namePart xml:lang="de">Universität Zürich, Kunsthistorisches
+                        Institut</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">13/14</detail>
+            <extent unit="page">
+                <start>240</start>
+                <end>269</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

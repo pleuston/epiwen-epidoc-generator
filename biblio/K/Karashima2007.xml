@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Karashima2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Who Were the <hi rend="italic">icchantikas</hi>?</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Karashima 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#karashima" type="personal">
+        <namePart lang="ja" type="family">Karashima</namePart>
+        <namePart lang="ja" type="given">Seishi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ARIRIAB" type="host">
+        <titleInfo lang="en">
+            <title>Annual Report of the International Research Institute for Advanced Buddhology at Soka
+                University</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">10</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>67</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

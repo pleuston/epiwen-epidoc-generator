@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wright1960b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Sui Yang-ti: Personality and Stereotype</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wright 1960b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wright" type="personal">
+        <namePart lang="en" type="family">Wright</namePart>
+        <namePart lang="en" type="given">Arthur F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wright1960a" type="host">
+        <titleInfo lang="en">
+            <title>The Confucian Persuasion</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1960</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>47</start>
+                <end>76</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

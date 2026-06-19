@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kinugawa2003">
+        <titleInfo lang="zh">
+                <title>唐玄宗《御注金剛般若經》的復原與研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+                <title>Tang Xuanzong ‘Yuzhu Jingang bore jing’ de fuyuan yu yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>Reconstruction of and Research on the ‘Yuzhu Jingang bore jing’ by Tang Xuanzong</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Kinugawa 2003</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#kinugawa">
+                <namePart lang="ja" type="family">衣川</namePart>
+                <namePart lang="ja" type="given">賢次</namePart>
+                <namePart type="family">Kinugawa</namePart>
+                <namePart type="given">Kenji</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Xiang_Zheng2003" type="host">
+                <titleInfo lang="zh">
+                        <title>新世紀敦煌學論集</title>
+                </titleInfo>
+                <titleInfo transliteration="pinyin">
+                        <title>Xin Shiji Dunhuangxue lunji</title>
+                </titleInfo>
+                <originInfo>
+                        <dateIssued>2003</dateIssued>
+                        <place>
+                                <placeTerm>Chengdu</placeTerm>
+                                <placeTerm lang="zh">成都</placeTerm>
+                        </place>
+                        <publisher>
+                                <name type="corporate">
+                                        <namePart transliteration="pinyin">Ba Shu shushe</namePart>
+                                        <namePart lang="zh">巴蜀書社</namePart>
+                                </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+                </originInfo>
+                <part>
+                        <extent unit="page">
+                                <start>114</start>
+                                <end>125</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SD_Shikeyishu_bwg1992" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan Jingshi Yu kejing</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山經石峪刻經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sutra Carved in Sutra Stone Valley at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan Jing­shi Yu ke­jing 1992</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sd_shikeyishu_bwg" type="corporate">
+        <namePart transliteration="pinyin">Shandong Sheng shike yishu bowuguan</namePart>
+        <namePart lang="zh">山東省石刻藝術博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

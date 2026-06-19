@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhang_Luo_Zhu2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang cangjingdong zhi mi fafu </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌藏經洞之謎發覆</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Uncovering the Mystery of the Library Cave at Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang, Luo, and Zhu 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangyongquan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Yongquan</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">涌泉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luomujun" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Mujun</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">慕君</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhuruoxi" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Ruoxi</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">若溪</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xixiayanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo shehui kexue</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國社會科學</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2021</date>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>180</start>
+                <end>203</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JiYun2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Is the <hi rend="italic">Heart Sūtra</hi> an Apocryphal Text?—A
+            Re-examination</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ji Yun 2017</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="zh" oXygen2:href="#jiyun_2" type="personal">
+        <namePart transliteration="pinyin" type="family">Ji</namePart>
+        <namePart transliteration="pinyin" type="given">Yun</namePart>
+        <namePart lang="zh" type="family">紀</namePart>
+        <namePart lang="zh" type="given">贇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="en" oXygen2:href="#chinshihfoong" type="personal">
+        <namePart lang="en" type="family">Chin</namePart>
+        <namePart lang="en" type="given">Shih-Foong</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Singaporean Journal of Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+            <extent unit="page">
+                <start>9</start>
+                <end>113</end>
+            </extent>
+            <date>2017</date>
+        </part>
+    </relatedItem>
+</mods>

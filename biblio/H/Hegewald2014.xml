@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hegewald2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>In the Shadow of the Golden Age: Art and Identity in Asia from Gandhara to the Modern Age</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hegewald 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hegewald" type="personal">
+        <namePart lang="en" type="family">Hegewald</namePart>
+        <namePart lang="en" type="given">Julia A. B.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <language>
+        <languageTerm>en</languageTerm>
+    </language>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">EBVerlag</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Studies in Asian Art and Culture SAAC. Volume 1</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

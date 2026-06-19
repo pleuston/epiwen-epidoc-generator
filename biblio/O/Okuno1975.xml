@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Okuno1975">
+    <titleInfo lang="ja">
+        <title>北碑について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokuhi ni tsuite</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>About Northern Stelae</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okuno 1975</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#okuno" type="personal">
+        <namePart transliteration="romaji" type="family">Okuno</namePart>
+        <namePart transliteration="romaji" type="given">Mitsuru</namePart>
+        <namePart lang="ja" type="family">奥野</namePart>
+        <namePart lang="ja" type="given">満</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#MikkyoBunka" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Mikkyō bunka</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>密教文化</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1975</date>
+            <detail type="volume">111</detail>
+            <extent unit="page">
+                <start>77</start>
+                <end>86</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

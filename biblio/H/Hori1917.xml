@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hori1917" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>碑文より見たる山東の佛教<!--仏教--></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hibun yori mitaru Santō no Bukkyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhism in Shandong as Seen in Texts on Steles</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hori 1917</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hori_kentoku" type="personal">
+        <namePart lang="ja" type="family">堀</namePart>
+        <namePart lang="ja" type="given">謙徳</namePart>
+        <namePart transliteration="romaji" type="family">Hori</namePart>
+        <namePart transliteration="romaji" type="given">Kentoku</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToyoGakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tōyō gakuhō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東洋學報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>7</number>
+            </detail>
+            <detail type="no">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>424</start>
+                <end>437</end>
+            </extent>
+            <date>1917</date>
+        </part>
+    </relatedItem>
+</mods>

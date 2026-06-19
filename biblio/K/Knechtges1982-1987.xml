@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Knechtges1982-1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Wen Xuan or Selections of Refined Literature<!--. 1. Rhapsodies on Metropolises and Capitals 2. Rhapsodies on Sacrifices, Hunting, Travel, Sightseeing, Palaces and Halls, Rivers and Seas--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wen xuan (Knechtges) 1982–1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#knechtges" type="personal">
+        <namePart lang="en" type="family">Knechtges</namePart>
+        <namePart lang="en" type="given">David R.</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xiaotong" type="personal">
+        <namePart lang="zh" type="family">蕭</namePart>
+        <namePart lang="zh" type="given">統</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>Princeton, NJ</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Princeton University Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued point="start">1982</dateIssued>
+        <dateIssued point="end">1996</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Princeton Library of Asian Translations</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

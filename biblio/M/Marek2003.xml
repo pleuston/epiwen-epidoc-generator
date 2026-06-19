@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Marek2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Pontus et Bithynia: Die römischen Provinzen im Norden Kleinasiens</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Marek 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#marek" type="personal">
+        <namePart lang="en" type="family">Marek</namePart>
+        <namePart lang="en" type="given">Christian</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm>Mainz</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+                <namePart lang="en">Philipp von Zabern</namePart>
+            </name></publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Orbis Provinciarum; Zaberns Bildbände zur Archäologie</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

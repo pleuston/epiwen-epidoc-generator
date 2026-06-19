@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HidaRomi_2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Shisen-shō Men’yō chiku no magai zōzō chōsa to sono igi: Dōkyō zōkan, Amida butsu gojū
+            bosatsu zōkan kara mita chiikisei no mondai o chūshin ni</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川省綿陽地区の摩崖造像調査とその意義。道教像龕、阿弥陀仏五十菩薩像龕からみた地域性の問題を中心に</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Survey of Cliff Sculptures in the Mianyang Area of Sichuan Province and Their
+            Meaning: With a Focus on the Question of the Regionality of Niches With Daoist Images and Images of Amitābha and the Fifty Bodhisattvas</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hida 2009</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HidaRomi" type="personal">
+        <namePart lang="ja" type="family">肥田</namePart>
+        <namePart lang="ja" type="given">路美</namePart>
+        <namePart transliteration="hepburn" type="family">Hida</namePart>
+        <namePart transliteration="hepburn" type="given">Romi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shinkawa_Takahasi2009" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Ajia kenkyū kikō sō-sho jinbun-gaku hen dai-ni maki “Higashi Ajia no rekishi, minzoku, kōko”</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>アジア研究機構叢書人文学篇第2巻《東アジアの歴史・民族・考古》<!--雄山閣--> </title>
+        </titleInfo>
+        edited by Shinkawa 新川登亀男
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+           
+            <extent unit="page">
+                <start>90</start>
+                <end>120</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhonghuaFoxueXuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhonghua foxue xuebao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中華佛學學報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chung-Hwa Buddhist Journal</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhonghua_foxue_yjs" type="corporate">
+        <namePart transliteration="pinyin">Zhonghua foxue yanjiusuo</namePart>
+        <namePart lang="zh">中華佛學研究所</namePart>
+        <namePart transliteration="en">The Chung-Hwa Institute of Buddhist Studies</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1987</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+                <namePart lang="en" type="translated"/>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh, en</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

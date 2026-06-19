@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="QuTuiyuan2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo transliteration="pinyin"><title>Liu Yuxi ji jianzheng</title></titleInfo><titleInfo lang="zh"><title>劉禹錫集箋證</title></titleInfo><titleInfo type="translated" lang="en"><title>Annotations on Collected Works of Liu Yuxi</title></titleInfo><titleInfo type="reference"><title>Liu Yuxi ji jian­zheng</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#QuTuiyuan" type="personal"><namePart lang="zh" type="family">瞿</namePart><namePart lang="zh" type="given">蛻園</namePart><role><roleTerm>commentator</roleTerm></role></name><originInfo><dateIssued>2014</dateIssued><place><placeTerm transliteration="pinyin">Shanghai</placeTerm><placeTerm lang="zh">上海</placeTerm></place><publisher><name type="corporate"><namePart transliteration="pinyin">Shanghai guji chubanshe</namePart><namePart lang="zh">上海古籍出版社</namePart></name></publisher><issuance>monographic</issuance></originInfo><!-- <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZG_gudian_wenxue_congshu" type="series">
+        <titleInfo lang="zh">
+            <title>中國古典文學叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo gudian wenxue congshu</title>
+        </titleInfo><!-\-<part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+        </part>-\->
+    </relatedItem>--><note type="reprint">First published in 1989</note></mods>

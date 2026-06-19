@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Meisig1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Das Śrāmaṇyaphala-sūtra: Synoptische Übersetzung und Glossar der chinesischen Fassungen verglichen mit dem Sanskrit und Pāli</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Meisig 1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#meisig" type="personal">
+        <namePart lang="en" type="family">Meisig</namePart>
+        <namePart lang="en" type="given">Konrad</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1987</dateIssued>
+        <place>
+            <placeTerm lang="en">Wiesbaden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Otto Harrassowitz</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Freiburger Beiträge zur Indologie</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>19</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <extension>Zugl.: Münster (Westfalen), Univ., Diss<!--. K. Meisig--></extension>
+</mods>

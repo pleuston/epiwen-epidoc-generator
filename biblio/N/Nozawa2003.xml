@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nozawa2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="ja">
+                        <title>大藏經關係研究文献目録<hi rend="dash">──</hi>補遺·追加</title>
+            </titleInfo>
+            <titleInfo transliteration="romaji">
+                        <title>Daizōkyō kankei kenkyū bunken mokuroku — hoi. Tsuika</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Catalogue of research documents concerning the Buddhist Canon —
+                                    supplement and appendix</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Nozawa 2003</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nozawa" type="personal">
+                        <namePart lang="ja" type="family">野沢</namePart>
+                        <namePart lang="ja" type="given">佳美</namePart>
+                        <namePart transliteration="romaji" type="family">Nozawa</namePart>
+                        <namePart transliteration="romaji" type="given">Yoshimi</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToyoshiRonshu" type="host">
+                        <titleInfo lang="ja">
+                                    <title>東洋史論集</title>
+                        </titleInfo>
+                        <titleInfo transliteration="romaji">
+                                    <title>Tōyōshi ronshū</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>15</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>19</start>
+                                                <end>34</end>
+                                    </extent>
+                                    <date>2003</date>
+                        </part>
+            </relatedItem>
+</mods>

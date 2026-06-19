@@ -1,0 +1,97 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wuzhoushengdian2025" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+      <title>Wu Yhou shengdian—Jin Ci guancang tangke Huayan shijing yanjiu yu chenlie tujian</title>
+        <!--<title>Wei Jin nanbeichao diaosu</title>-->
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>武周聖典<hi rend="dash">──</hi>晉祠館藏唐刻華嚴石經研究與陳列圖鑒</title>
+        <!--<title>魏晉南北朝雕塑</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>The Sacred Canon of the Wu Zhou—Research and Illustrated Exhibition Catalog of the Tang Dynasty Avatamsaka Stone Sutras in the Jinci Museum Collection</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Wei Jin nanbeichao diaosu">
+        <title>Wu Zhou shengdian 2025</title>
+    </titleInfo>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taiyuan_wenwubaohu_yjy" type="corporate">
+    <namePart transliteration="pinyin">Taiyuan Shi wenwu baohu yanjiu yuan</namePart>
+    <namePart lang="zh">太原市文物保護研究院</namePart>
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taiyuanJinci_bwg" type="corporate">
+    <namePart transliteration="pinyin">Taiyuan Shi Jin Ci bowuguan</namePart>
+    <namePart lang="zh">太原市晉祠博物館</namePart>
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lianyingjungongzuoshi" type="corporate">
+    <namePart transliteration="pinyin">Lian Yingjun wenbo mingjia gongzuoshi</namePart>
+    <namePart lang="zh">連穎俊文博名家工作室</namePart>
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name>
+    <originInfo>
+      <dateIssued>2025</dateIssued>
+      <place>
+        <placeTerm transliteration="pinyin">Taiyuan</placeTerm>
+        <placeTerm lang="zh">太原</placeTerm>
+      </place>
+      <publisher>
+        <name type="corporate">
+          <namePart transliteration="pinyin">Sanjin chubanshe</namePart>
+          <namePart lang="zh">三晉出版社</namePart>
+        </name>
+      </publisher>
+    </originInfo>
+ <!--   <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGMSQJ1984_89" type="series">
+        <titleInfo lang="en">
+            <title><ref type="biblio" target="ZGMSQJ1984_89"/>, <hi rend="italic">diaosu bian </hi><foreign lang="zh">雕塑編</foreign></title>
+        </titleInfo>-->
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+       <!-- <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>-->
+    <!--</relatedItem>-->
+  <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGMSQJ1984_89" type="series">
+    <titleInfo transliteration="pinyin">
+      <title>Zhongguo meishu quanji · diaosu bian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>中國美術全集·雕塑編 </title>
+    </titleInfo>
+    <originInfo>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">
+        <number>3</number>
+      </detail>
+    </part>
+  </relatedItem>-->
+  <!--relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGMSQJ1984_89" type="host">
+    <titleInfo transliteration="pinyin">
+      <title>Zhongguo meishu quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>中國美術全集</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <typeOfResource collection="yes"/>
+    <part>
+      <dateIssued point="start">1988</dateIssued>  
+      <detail type="volume">
+        <number>diaosu bian 雕塑編 3 (1988)</number>
+      </detail>
+    </part>
+  </relatedItem-->
+</mods>

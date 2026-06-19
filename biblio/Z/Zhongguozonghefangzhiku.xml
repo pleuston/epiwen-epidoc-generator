@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Zhongguozonghefangzhiku">
+    <titleInfo lang="zh">
+        <title>中國綜合方志庫</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo zonghe fangzhi ku</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo zonghe fangzhi ku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Database of China Comprehensive Gazetteers</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lianhebaike" type="corporate">
+        <namePart lang="zh">聯合百科電子出版有限公司</namePart>
+        <namePart transliteration="pinyin">Lianhe baike dianzi chuban youxian gongsi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing Airusheng shuzihua jishu zhongxin</namePart>
+                <namePart lang="zh">北京愛如生數字化技術研究中心</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo-->
+    <location>
+        <url>http://server.wenzibase.com</url>
+    </location>
+</mods>

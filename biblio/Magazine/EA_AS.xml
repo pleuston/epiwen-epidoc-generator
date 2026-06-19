@@ -1,0 +1,27 @@
+<!-- Diesen Datensatz nicht mehr verwenden! Dublette zu ID="AsiatischeStudien" -->
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="EA_AS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Études Asiatiques</title>
+    </titleInfo>
+    <titleInfo lang="de">
+        <title>Asiatische Studien</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schweizerische_asiengesellschaft" type="corporate">
+        <namePart lang="de">Die Schweizerische Asiengesellschaft</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>continuing</issuance>
+        <frequency>quarterly</frequency>
+        <place>
+            <placeTerm>Zürich</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Die Schweizerische Asiengesellschaft</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

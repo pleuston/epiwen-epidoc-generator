@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhuzhaiji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhu Zhai ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>竹齋集</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collected Works from the Bamboo Studio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhu Zhai ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangmian" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">冕</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Mian</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shouqinze" type="personal">
+        <namePart lang="zh" type="family">壽</namePart>
+        <namePart lang="zh" type="given">勤澤</namePart>
+        <namePart transliteration="pinyin" type="family">Shou</namePart>
+        <namePart transliteration="pinyin" type="given">Qinze</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>中國歷代書畫家詩文集叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo lidai shuhuajia shiwenji congshu</title>
+        </titleInfo>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+            <placeTerm lang="zh">杭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xiling yinshe chubanshe</namePart>
+                <namePart lang="zh">西泠印社出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

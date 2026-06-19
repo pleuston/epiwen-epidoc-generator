@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kansaku2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>燕京余香<hi rend="dash">──</hi>堀越文庫のこと</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Yenchin $$$<!-- Die Lesung der Kanji wäre entweder Enkin (meine Präferenz) oder <foreign xml:lang="ja">Enkyō</foreign>. Kansaku setzt aber im Haupttext neben 燕京 die Furigana für Yenchin (Ienchin イエンチン, gemeint ist wohl Yenchin イェンチン).--> yokō: Horikoshi bunko no koto</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Remaining Fragrence: Concerning the Horikoshi bunko</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kansaku 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kansaku_kenichi" type="personal">
+        <namePart lang="ja" type="family">神作</namePart>
+        <namePart lang="ja" type="given">研一</namePart>
+        <namePart transliteration="romaji" type="family">Kansaku</namePart>
+        <namePart transliteration="romaji" type="given">Ken’ichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Nippon_kosho_tsushin" type="host">
+        <titleInfo lang="ja">
+            <title>日本古書通信</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Nippon kosho tsūshin</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2008</date>
+            <detail type="volume">
+                <number>949</number>
+            </detail>
+            <extent unit="page">
+                <start>4</start>
+                <end>6</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

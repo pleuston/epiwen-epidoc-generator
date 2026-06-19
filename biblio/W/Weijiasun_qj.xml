@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Weijiasun_qj" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wei Jiasun quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>魏稼孫全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Wei Jiasun</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wei Jiasun quanji 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#weixizeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Xizeng</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">錫曾</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangmengbi" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Mengbi</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">夢筆</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+            <placeTerm lang="zh">鄭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongzhou guji chubanshe</namePart>
+                <namePart lang="zh">中州古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

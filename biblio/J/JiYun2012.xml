@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JiYun2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《心經》疑僞問題再研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>‘Xin jing’ yiwei wenti zai yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Heart Sutra</hi> Reassessed: Original Translation or Chinese Creation</title>
+            <!--The Reassessment of the <hi rend="italic">Heart Sutra</hi>: Original Translation or Chinese Creation-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ji Yun 2012</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="zh" oXygen2:href="#jiyun_2" type="personal">
+        <namePart transliteration="pinyin" type="family">Ji</namePart>
+        <namePart transliteration="pinyin" type="given">Yun</namePart>
+        <namePart lang="zh" type="family">紀</namePart>
+        <namePart lang="zh" type="given">贇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Fuyanfoxueyanjiu" type="host">
+        <titleInfo lang="zh">
+            <title>福嚴佛學研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fuyan foxue yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">7</detail>
+           
+            <extent unit="page">
+                <start>115</start>
+                <end>182</end>
+            </extent>
+            <date>2012</date>
+        </part>
+    </relatedItem>
+   
+</mods>

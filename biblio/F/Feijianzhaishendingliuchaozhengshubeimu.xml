@@ -1,0 +1,75 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Feijianzhaishendingliuchaozhengshubeimu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Feijian zhai shending Liu Chao zhengshu beimu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>非見齋審定六朝正書碑目</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of Stelae in Standard Script from Unseen Studio Judged to be from the Six Dynasties</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>非見齋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Feijian zhai</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Feijian zhai beimu">
+        <title>Feijian zhai beimu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tantingxian" type="personal">
+        <namePart transliteration="pinyin" type="family">Tan</namePart>
+        <namePart transliteration="pinyin" type="given">(Ting)Xian</namePart>
+        <namePart lang="zh" type="family">譚 </namePart>
+        <namePart lang="zh" type="given">（廷）獻</namePart>
+        <namePart type="date">1832-1901</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#weixizeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Xizeng</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">錫曾</namePart>
+        <namePart type="date">?-1881</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>1876</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>3</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>36</number>
+            </detail>
+            <extent unit="page">
+                <start>517</start>
+                <end>520</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

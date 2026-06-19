@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HidaRomi_2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Nan Bei chao shiqi zhi Tang dai ruixiang zaoxing de tezheng ji yiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>南北朝時期至唐代瑞像造型的特徵及意義</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Features and Significance of the Miraculous Images from the Northern and Southern Dynasties to the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hida 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HidaRomi" type="personal">
+        <namePart lang="ja" type="family">肥田</namePart>
+        <namePart lang="ja" type="given">路美</namePart>
+        <namePart transliteration="hepburn" type="family">Hida</namePart>
+        <namePart transliteration="hepburn" type="given">Romi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qhrzy95_dunhuanglunwenji" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Qinghe Rao Zongyi xiansheng jiushiwu huadan Dunhuangxue guoji xueshu yantaohui
+                lunwenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>慶賀饒宗颐先生九十五華誕敦煌學國際學術研討會論文集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2012</date>
+            <extent unit="page">
+                <start>64</start>
+                <end>68</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

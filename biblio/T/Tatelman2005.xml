@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tatelman2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Heavenly Exploits: Buddhist Biographies from the Divyāvadāna, Volume One</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tatelman 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tatelman" type="personal">
+        <namePart lang="en" type="family">Tatelman</namePart>
+        <namePart lang="en" type="given">Joel</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gombrich" type="personal">
+        <namePart lang="en" type="family">Gombrich</namePart>
+        <namePart lang="en" type="given">Richard</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">New York University Press and JJC Foundation</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Clay Sanskrit Library</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinankaogu2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Jinan kaogu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>濟南考古</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Archaeological Discoveries in Jinan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jinan kaogu 2013</title>
+    </titleInfo>
+    <abstract/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jinankgyjs" type="corporate">
+        <namePart transliteration="pinyin">Jinan Shi kaogu yanjiusuo</namePart>
+        <namePart lang="zh">濟南市考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <!--<extent>
+            <detail type="volume"></detail>
+        </extent>-->
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+                <namePart lang="zh">科學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

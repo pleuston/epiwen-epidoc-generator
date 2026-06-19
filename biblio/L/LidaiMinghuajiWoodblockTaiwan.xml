@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LidaiMinghuajiRare" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <classification>rarebook</classification>
+    <titleInfo lang="zh">
+        <title>歷代名畫記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Lidai minghua ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Record of Famous Painters in Successive Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li­dai ming­hua ji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangyanyuan" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">彥遠</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>10 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicles">10</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Completed 847</dateOther>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="rarebook"> Jiajing period woodblock edition <foreign lang="zh">明嘉靖刻本</foreign>. Impression (no. 06753) preseved in the National Library in Taibei</note>
+</mods>

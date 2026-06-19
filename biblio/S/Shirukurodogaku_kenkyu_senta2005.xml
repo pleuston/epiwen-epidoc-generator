@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shirukurodogaku_kenkyu_senta2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>四川省における南方シルクロード（南伝仏教の道）の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shisen-shō ni okeru Nanpō Shirukurōdo (nanden Bukkyō no michi) no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shirukurōdogaku kenkyū sentā 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shirukurodogaku_kenkyu_senta" type="corporate">
+        <namePart transliteration="romaji">Shirukurōdogaku kenkyū sentā</namePart>
+        <namePart lang="ja">シルクロード学研究センター</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">シルクロード学研究センター</namePart>
+                <namePart transliteration="romaji">Shirukurōdogaku kenkyū sentā</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Nara</placeTerm>
+            <placeTerm lang="ja">奈良</placeTerm>
+        </place>
+    </originInfo>
+</mods>

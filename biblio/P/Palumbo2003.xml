@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Palumbo2003">
+                <titleInfo lang="en">
+                                <title>Dharmarakṣa and Kaṇṭhaka. White Horse Monasteries in Early Medieval China</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Palumbo 2003</title>
+                </titleInfo>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#palumbo">
+                                <namePart lang="en" type="family">Palumbo</namePart>
+                                <namePart lang="en" type="given">Antonello</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Verardi_Vita2003" type="host">
+                                <titleInfo lang="en">
+                                                <title>Buddhist Asia 1. Papers from the First
+                                                  Conference of Buddhist Studies Held in Naples in
+                                                  May 2001</title>
+                                </titleInfo>
+                                <name ns2:href="#verardi" type="personal">
+                                                <namePart lang="it" type="family">Verardi</namePart>
+                                                <namePart lang="it" type="given">Giovanni</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <name ns2:href="#vita" type="personal">
+                                                <namePart lang="it" type="family">Vita</namePart>
+                                                <namePart lang="it" type="given">Silvio</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <originInfo>
+                                                <dateIssued>2003</dateIssued>
+                                                <place>
+                                                  <placeTerm>Kyōto</placeTerm>
+                                                </place>
+                                                <publisher>
+                                                  <name type="corporate">
+                                                  <namePart lang="en">Italian School of East Asian
+                                                  Studies</namePart>
+                                                  </name>
+                                                </publisher>
+                                                <issuance>monographic</issuance>
+                                </originInfo>
+                                <part>
+                                                <extent unit="page">
+                                                  <start>167</start>
+                                                  <end>216</end>
+                                                </extent>
+                                </part>
+                </relatedItem>
+</mods>

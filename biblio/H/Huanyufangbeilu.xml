@@ -1,0 +1,87 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huanyufangbeilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://sutras-srv.adw.uni-heidelberg.de:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Huanyu fangbei lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寰宇訪碑録</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of Visiting Steles in the Whole World<!--Record of Enquiring into Steles in the Whole World--></title>
+    </titleInfo>
+    <!--<titleInfo lang="zh" type="abbreviated">
+        <title>寰宇</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Huanyu</title>
+    </titleInfo>-->
+    <titleInfo type="reference" displayLabel="Huanyu fangbei lu">
+        <title>Huan­yu fang­bei lu</title>
+    </titleInfo>
+    <abstract>The scholar Sun Xingyan 孫星衍 (1753-1818) worked together with Ruan Yuan in those years and compiled an extensive list of stone inscriptions in the entire country 
+        under the title Huanyu fangbei lu 寰宇訪碑録 (Record of enquiries into stelae in the whole world; preface 1802). (Huanyu fangbei lu by Sun Xingyan (1753/5-1818). (Shike shiliao xinbian) 1-26-10873b.)
+        He says that four different sutra texts, written in standard script, exist on Mount Gang and gives the date.  
+        This information does not go beyond what Ruan Yuan had said. (LL)</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sunxingyan" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Xingyan</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart lang="zh" type="given">星衍</namePart>
+        <namePart type="date">1753—1818</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xingshu" type="personal">
+        <namePart transliteration="pinyin" type="family">Xing</namePart>
+        <namePart transliteration="pinyin" type="given">Shu</namePart>
+        <namePart lang="zh" type="family">邢</namePart>
+        <namePart lang="zh" type="given">澍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhujirong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Jirong</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">記榮</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>12 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">12</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Preface 1802; edition 1885</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>26</number>
+            </detail>
+            <extent unit="page">
+                <start>19849</start>
+                <end>20099</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

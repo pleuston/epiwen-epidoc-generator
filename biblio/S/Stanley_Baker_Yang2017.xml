@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Stanley_Baker_Yang2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Dung, Hair, and Mungbeans. Household Remedies in the Longmen Recipes</title>    </titleInfo>
+    <titleInfo type="reference">
+        <title>Stanley-Baker and Yang 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#stanley_baker" type="personal">
+        <namePart lang="en" type="family">Stanley-Baker</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yang_dolly" type="personal">
+        <namePart lang="en" type="family">Yang</namePart>
+        <namePart lang="en" type="given">Dolly</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Salguero2017" type="host">
+        <titleInfo lang="en">
+            <title> Buddhism and Medicine—An Anthology of Premodern Sources</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2017</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>454</start>
+                <end>477</end>
+            </extent>
+        </part>
+    </relatedItem>
+   
+</mods>

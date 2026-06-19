@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ogawa2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石浮圖記銘考</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shi futu jiming kao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Inscriptions on the Stone Pagodas in Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ogawa 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ogawa" type="personal">
+        <namePart lang="ja" type="family">小川</namePart>
+        <namePart lang="ja" type="given">茂樹</namePart>
+        <namePart transliteration="romaji" type="family">Ogawa</namePart>
+        <namePart transliteration="romaji" type="given">Shigeki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wu_Zhang2021" type="host">
+        <titleInfo lang="zh">
+            <title>房山石經山題記整理與研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan Shijing Shan tiji zhengli yu yanjiu</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Collation and Study of Inscriptions in Shijing Shan, Fangshan</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2021</dateIssued>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                    <namePart lang="zh">文物出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+            <number>3</number>
+        </detail>
+            <extent unit="page">
+                <start>208</start>
+                <end>240</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Chinese translation from the Japanese edition <ref target="Ogawa1935" type="biblio"/>
+    </note>
+</mods>

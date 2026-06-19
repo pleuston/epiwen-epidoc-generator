@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nvwawenhua_moyakejing_lunwenji2005" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Nüwa wenhua yu moya kejing xueshu baogaohui lunwenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>女媧文化與摩崖刻經學術報告會論文集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Conference Proceedings of the Nüwa Culture and Sutra Engraved on Polished Cliffs</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Shandong wenxian jicheng">
+        <title>Nüwa wenhua yu moya kejing xueshu baogaohui lunwenji 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hb_shexian_whlyj" type="corporate">
+        <namePart transliteration="pinyin">Heibei She Xian wenwu lüyou ju</namePart>
+        <namePart lang="zh">河北涉縣文物旅游局</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        
+        <place>
+            <placeTerm transliteration="pinyin">Shexian</placeTerm>
+            <placeTerm lang="zh">涉縣</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Heibei She Xian wenwu lüyou ju</namePart>
+                <namePart lang="zh">河北涉縣文物旅游局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

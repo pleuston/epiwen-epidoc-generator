@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhuansun2018">
+    <titleInfo lang="zh">
+        <title>韓擇木《唐上都薦福寺臨檀大戒德律師碑》</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Han Zemu <hi rend="italic">Tang shangdu Jianfu Si lintan dajie De lüshi bei </hi> </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Stele of the Preceptor, the Fully Ordained Vinaya Master De of Jianfu Monastery in the Upper Capital of the Tang</hi> by Han Zemu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhuansun Enyang 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhuansun_enyang" type="personal">
+        <namePart lang="zh" type="family">顓孫</namePart>
+        <namePart lang="zh" type="given">恩揚</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TangShangduJianfusiLintanDajiedelvshi_bei2018" type="host">
+        <titleInfo lang="zh">
+            <title>唐上都薦福寺臨壇大戒德律師碑</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2018</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>3</start>
+                <end>4</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

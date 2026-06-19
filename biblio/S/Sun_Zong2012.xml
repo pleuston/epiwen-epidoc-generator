@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sun_Zong2012" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo transliteration="pinyin">
+    <title>Tai Shan Jingshi Yu dazi <hi rend="italic">Jingang Jing</hi> lishi yanjiu ji baohu fangfa chutan</title>
+  </titleInfo>
+  <titleInfo lang="zh">
+    <title>泰山經石峪大字金剛經歷史研究及保護方法初探</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>A Preliminary Investigation on the Historical Study and Protection Methods of the <hi rend="italic">Diamond Sutra</hi> in Large Characters in Sutra Stone Valley at Mount Tai</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title><!--Sun Xuewu and Zong Shiqiang-->Sun and Zong 2012</title>
+  </titleInfo>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sunxuewu" type="personal">
+    <namePart lang="zh" type="family">孫</namePart>
+    <namePart lang="zh" type="given">學武</namePart>
+    <namePart transliteration="pinyin" type="family">Sun</namePart>
+    <namePart transliteration="pinyin" type="given">Xuewu</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zongshiqiang" type="personal">
+    <namePart lang="zh" type="family">宗</namePart>
+    <namePart lang="zh" type="given">世强</namePart>
+    <namePart transliteration="pinyin" type="family">Zong</namePart>
+    <namePart transliteration="pinyin" type="given">Shiqiang</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Shikusiyanjiu" type="host">
+    <titleInfo transliteration="pinyin">
+      <title>Shiku Si yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>石窟寺研究</title>
+    </titleInfo>
+    <titleInfo lang="en">
+      <title>Studies of the Cave Temples</title>
+    </titleInfo>
+    <originInfo>
+      <!--<place>
+        <placeTerm transliteration="pinyin"/>
+        <placeTerm lang="zh"/>
+      </place>
+      <publisher>
+        <name type="corporate">
+          <namePart transliteration="pinyin"/>
+          <namePart lang="en"> House</namePart>
+          <namePart lang="zh"/>
+        </name>
+      </publisher>-->
+      <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">3</detail>
+      <extent unit="page">
+        <start>389</start>
+        <end>397</end>
+      </extent>
+      <date>2012</date>
+    </part>
+  </relatedItem>
+</mods>

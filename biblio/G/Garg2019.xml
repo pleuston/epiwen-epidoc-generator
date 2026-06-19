@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Garg2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Monasteries of South Asia and China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Garg 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#garg" type="personal">
+        <namePart lang="en" type="family">Garg</namePart>
+        <namePart lang="en" type="given">Sanjay</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm>New Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Manohar</namePart>
+            </name>
+        </publisher>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Society for Buddhist Art and Archaeology</namePart>
+        </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Society for Buddhist Art and Archaeology, Monograph no.</title>
+        </titleInfo>
+        
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

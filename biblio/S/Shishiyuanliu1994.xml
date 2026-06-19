@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shishiyuanliu1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>釋氏源流</title>
+    </titleInfo>
+    <titleInfo lang="zh" transliteration="pinyin">
+        <title>Shi shi yuanliu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Illustrated Life of the Buddha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi shi yuanliu 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shanghai_guji_chubanshe" type="corporate">
+        <namePart lang="zh">上海古籍出版社</namePart>
+        <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <dateOther>4 vols</dateOther>
+        <place>
+            <placeTerm lang="zh">上海</placeTerm>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGGDBHCK" type="series">
+        <titleInfo lang="zh">
+            <title>中國古代版畫叢刊·二編<!--·第二輯--></title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo gudai banhua congkan: er bian<!--, di er ji--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>829</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeiyinDong2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Leiyin Dong: 2012 niandu kaogu diaocha baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雷音洞：2012年度考古調查報告</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Thunder Sound Cave: Archaeological Report for the Year 2012</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Leiyin Dong 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yunjusi_wenwu_guanlichu" type="corporate">
+        <namePart transliteration="pinyin">Yunju Si wenwu guanlichu</namePart>
+        <namePart lang="zh">雲居寺文物管理處</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhejiang_daxue_yichan_yjy" type="corporate">
+        <namePart transliteration="pinyin">Zhejiang daxue wenhua yichan yanjiuyuan</namePart>
+        <namePart lang="zh">浙江大學文化遺産研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fangshan_shijing_yunjusi_wenhua-yjzx" type="corporate">
+        <namePart transliteration="pinyin">Fangshan shijing yu Yunju Si wenhua yanjiu zhongxin</namePart>
+        <namePart lang="zh">房山石經與雲居寺文化研究中心</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+            <placeTerm lang="zh">杭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhejiang renmin meishu chubanshe</namePart>
+                <namePart lang="zh">浙江人民美術出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

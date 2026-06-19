@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AsiatischeStudien" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Asiatische Studien, Études Asiatiques</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schweizerischen_asiengesellschaft" type="corporate">
+        <!-- Name der Gesellschaft seit 1991 -->
+        <namePart lang="en">Schweizerische Asiengesellschaft, Société Suisse-Asie</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+       
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schweizer_gesellschaft_asienkunde" type="corporate">
+        <!-- Name der Gesellschaft von 1947 bis 1990 -->
+        <namePart lang="fr">Schweizerische Gesellschaft für Asienkunde, Société suisse d’études asiatiques</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>Bern</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Peter Lang Verlag</namePart>
+            </name>
+        </publisher>
+        <dateIssued encoding="marc" point="start">1947</dateIssued>
+        <dateIssued/>
+        <issuance>continuing</issuance>
+        <frequency>tri-monthly</frequency>
+    </originInfo>
+    <language>
+        <languageTerm>germen, france, english</languageTerm>
+    </language>
+    <physicalDescription>print</physicalDescription>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bokenkamp1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Record of the <hi rend="italic">Feng</hi> and <hi rend="italic">Shan</hi>
+            Sacrifices</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bokenkamp 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bokenkamp" type="personal">
+        <namePart lang="en" type="family">Bokenkamp</namePart>
+        <namePart lang="en" type="given">Stephen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note>On the feng 封 and shan 禪 rites performed in 56 CE, composed by a minor official, Ma
+        Dibo</note>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Lopez1996b" type="host">
+        <titleInfo lang="en">
+            <title>Religions of China in Practice</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1996</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>251</start>
+                <end>260</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

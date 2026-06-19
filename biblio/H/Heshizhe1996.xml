@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Heshizhe1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mogao ku di 420 ku kuding bufen bihua neirong xin tan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>莫高窟第420窟窟頂部分壁畫内容新探</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Interpretations of the Murals on the Ceiling of Mogao Cave 420</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>He Shizhe 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#heshizhe" type="personal">
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Shizhe</namePart>
+        <namePart lang="zh" type="family">賀</namePart>
+        <namePart lang="zh" type="given">世哲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+           <!-- <detail type="volume">50</detail>-->
+            <date>1996</date>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>4</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

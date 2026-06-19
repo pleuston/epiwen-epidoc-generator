@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenwu_JDJS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>文物鑒定與鑒賞</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Wenwu jianding yu jianshang</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Identification and Appreciation to Cultural Relics</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wenwu_JDJS_bjb" type="corporate">
+        <namePart lang="zh">《文物鑒定與鑒賞》編輯部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010-</dateIssued>
+        <dateIssued encoding="marc" point="start">2010</dateIssued>
+        <frequency>semi-monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Hefei</placeTerm>
+            <placeTerm lang="zh">合肥</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">安徽出版集團</namePart>
+                <namePart transliteration="pinyin">Anhui chuban jituan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

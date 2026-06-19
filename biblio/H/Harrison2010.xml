@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Harrison2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Resetting the Diamond: Reflections on <foreign lang="sa">Kumārajīva’s</foreign>
+            Chinese Translation of the <foreign lang="sa">
+                <hi rend="italic">Vajracchedikā</hi>
+            </foreign> (‘<foreign lang="sa">
+                <hi rend="italic">Diamond
+                    Sūtra</hi>
+            </foreign>’)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Harrison 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#harrison" type="personal">
+        <namePart lang="en" type="family">Harrison</namePart>
+        <namePart lang="en" type="given">Paul</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Gives an overview over surviving Sanskrit recensions of the Vaj, the earliest of which
+        date about two centuries after Kumarajiva’s translation. Re-evaluates the notion that
+        Kumarajiva has intentionally shortened the Sanskrit while translating. He did not do so
+        systemmatically. Harrison explores three features of Kumarajiva’s translation style: 1.
+        Glossing (for example, his use of 相, meaning not laksana, and ding 定 fixed, set,
+        determined)2. Lexical flattening (most of all, in his use of xiang 相 for both, saṃjñā and
+        lakṣaṇa) 3. a particular handling of the "signature formula" of the Vaj
+        (affirmation-negation-affirmation). He shows that the signature formula is different from
+        the Sanskrit. The particular signature formular that Kumarajiva choose dominates all
+        translations of the sutra into English to this very day, as well as all attempts of a
+        philosophical interpretation of it. Harrison concludes with a summaric characterization of
+        what translation means, and in what respect a translation may be called a good or a bad
+        one.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JHPSCWR" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Journal of Historical and Philological Studies of China’s Western Regions
+                <!--西域歷史語言研
+                究集刊-->
+            </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">3</detail>
+            <date>2010</date>
+            <extent unit="page">
+                <start>233</start>
+                <end>248</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

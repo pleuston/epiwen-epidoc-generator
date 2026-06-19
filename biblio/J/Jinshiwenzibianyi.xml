@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="jinshiwenzibianyi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+      <title>金石文字辨异</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi wenzi bianyi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Distinguishing Characters on Bronze and Stone</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi wenzi bianyi">
+        <title>Jin­shi wen­zi bian­yi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xingshu" type="personal">
+        <namePart transliteration="pinyin" type="family">Xing</namePart>
+        <namePart transliteration="pinyin" type="given">Shu</namePart>
+        <namePart lang="zh" type="family">邢</namePart>
+        <namePart lang="zh" type="given">澍</namePart>
+        <namePart type="date"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>12 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<originInfo>
+        <dateOther>12 vols</dateOther>
+    </originInfo>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">12</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <!--<physicalDescription>
+            <extent type="fascicle">12</extent>
+        </physicalDescription>-->
+        <originInfo>
+            <dateIssued>Jiaqing period</dateIssued>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>29</number>
+            </detail>
+            <extent unit="page">
+                <start>21595</start>
+                <end>21838</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

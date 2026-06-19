@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XZJ" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>卍續藏經</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Man Zokuzōkyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Swastika Sequel to the Buddhist Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>R (Reprint of Man Zokuzōkyō)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#maeda" type="personal">
+        <namePart lang="ja" type="family">前田</namePart>
+        <namePart lang="ja" type="given">慧雲</namePart>
+        <namePart transliteration="romaji">Maeda</namePart>
+        <namePart transliteration="romaji">Eun</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakano" type="personal">
+        <namePart lang="ja" type="family">中野</namePart>
+        <namePart lang="ja" type="given">達慧</namePart>
+        <namePart transliteration="romaji">Nakano</namePart>
+        <namePart transliteration="romaji">Tatsue</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">150</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1905</dateIssued>
+        <dateIssued point="end">1912</dateIssued>
+        <place>
+            <placeTerm lang="ja">京都</placeTerm>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">藏經書院</namePart>
+                <namePart transliteration="romaji">Zōkyō shoin</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <classification edition="1977">reprint</classification>
+    <originInfo type="reprint">
+        <dateIssued>1977</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">新文豐出版公司</namePart>
+                <namePart transliteration="pinyin">Xinwenfeng chuban gongsi</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJinhua2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Zibo Zhenke <foreign lang="zh">紫柏真可</foreign> (1543–1603) and the Late
+            Ming Restoration of Yunju Temple <foreign lang="zh">雲居寺</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Jin­hua 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjinhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Studies in Chinese Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2016</date>
+            <detail type="volume">2</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>407</start>
+                <end>421</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

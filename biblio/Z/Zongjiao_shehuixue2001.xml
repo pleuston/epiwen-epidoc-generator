@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zongjiao_shehuixue2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zongjiao shehuixue</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>宗教社會學</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Sociology of Religion</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zongjiao shehuixue 2001</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sunshangyang" type="personal">
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart lang="zh" type="given">尚揚</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hamilton" type="personal">
+        <namePart lang="en" type="family">Hamilton</namePart>
+        <namePart lang="en" type="given">Malcolm B.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing daxue chubanshe</namePart>
+                <namePart lang="zh">北京大學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

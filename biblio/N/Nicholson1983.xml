@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nicholson1983" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>佛説父母恩重難報經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fo shuo fumu en zhong nanbao jing</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Buddha Speaks the Sutra About the Deep Kindness of Parents and the Difficulty in Repaying It (Filial Piety Sutra)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fumu enzhong jing 1983</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nicholson" type="personal">
+        <namePart lang="en" type="family">Nicholson</namePart>
+        <namePart lang="en" type="given">Terri</namePart>
+        
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://n2t.net/ark:/13960/t9f50cm71</url>
+    </location>
+    <genre>Web</genre>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateCaptured>2021-11-26</dateCaptured>
+            <place>
+                <placeTerm transliteration="pinyin">Taibei</placeTerm>
+                <placeTerm lang="zh">臺北</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">YBAM Buddhist Digest</namePart>
+                    <!--<namePart lang="en">www.DharmaFlower.net</namePart>-->
+                </name>
+            </publisher>
+        </originInfo>
+</mods>

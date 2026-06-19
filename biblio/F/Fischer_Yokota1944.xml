@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fischer_Yokota1944" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Vimalakīrti-nirdeśa. Das Sūtra Vimalakīrti. Das Sūtra über die Erlösung. Nach einem nipponischen Manuskript von Kawase Kōzyun</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fischer and Yokota 1944</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fischer" type="personal">
+        <namePart lang="de" type="family">Fischer</namePart>
+        <namePart lang="de" type="given">Jakob</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yokota" type="personal">
+        <namePart transliteration="romaji" type="family">Yokota</namePart>
+        <namePart type="given" transliteration="romaji">Takezo</namePart>
+        <namePart lang="ja" type="family">横田</namePart>
+        <namePart lang="ja" type="given">健</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1944</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Hokuseidō shoten</namePart>
+                <namePart lang="en">The Hokuseido Press</namePart>
+                <namePart lang="ja">北星堂書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

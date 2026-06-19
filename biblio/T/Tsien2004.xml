@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsien2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Written on Bamboo &amp; Silk: The Beginnings of Chinese Books &amp; Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsien 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsien" type="personal">
+        <namePart lang="en" type="family">Tsien</namePart>
+        <namePart lang="en" type="given">Tsuen-Hsuin</namePart>
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">存訓</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm>Chicago</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Chicago Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Second edition</note>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Cuevas_Stone2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Buddhist Dead: Practices, Discourses, Representations</title>
+        <subTitle/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cuevas and Stone 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#cuevas" type="personal">
+        <namePart lang="en" type="family">Cuevas</namePart>
+        <namePart lang="en" type="given">Bryan J.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#stone" type="personal">
+        <namePart lang="en" type="family">Stone</namePart>
+        <namePart lang="en" type="given">Jacqueline I.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <publisher>Kuroda Institute, University of Hawaiʻi Press</publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <dateIssued>2007</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title><!--Kuroda Institute -->Studies in East Asian Buddhism</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>20</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

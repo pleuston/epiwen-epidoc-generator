@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YvChvunfang1981" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Renewal of Buddhism in China: Chu-hung and the Late Ming Synthesis</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yü Chün-fang 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yvchvnfang" type="personal">
+        <namePart transliteration="pinyin" type="family">Yü</namePart>
+        <namePart transliteration="pinyin" type="given">Chün-fang</namePart>
+        <namePart lang="zh" type="family">于</namePart>
+        <namePart lang="zh" type="given">君方</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1981</dateIssued>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Columbia University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <!--<note>fortieth anniversary edition</note>-->
+    </originInfo>
+</mods>

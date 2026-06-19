@@ -1,0 +1,86 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishansouyuji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山搜玉集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan souyu ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Jades Gathered from Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>搜玉</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Souyu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tai Shan souyu ji">
+        <title>Tai Shan souyu ji (Harvard)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yuancang" type="personal">
+        <namePart transliteration="pinyin" type="family">Yuan</namePart>
+        <namePart transliteration="pinyin" type="given">Cang</namePart>
+        <namePart lang="zh" type="family">袁</namePart>
+        <namePart lang="zh" type="given">䅮</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">2</detail>
+        </extent>
+    </physicalDescription>-->
+    <location>
+        <url displayLabel="additional">https://iiif.lib.harvard.edu/manifests/view/drs:48670786$1i</url>
+    </location>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <dateOther qualifier="approximate">Preface 1579</dateOther>
+        <dateCaptured>2020-04-28</dateCaptured>
+        <place>
+            <placeTerm>Harvard University</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard College Library Harvard-Yenching Library, Harvard Yenching Library Rare Book (T 5236.77 4326 F)</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文献集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Taishan wenxian jicheng</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm>Shandong</placeTerm>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Taishan chubanshe</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>241</start>
+                <end>308</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+</mods>

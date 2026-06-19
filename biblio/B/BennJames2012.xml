@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BennJames2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>One Mountain, Two Traditions: Buddhist and Taoist Claims on Zhongnan shan in Medieval Times</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Benn, J.A. 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#benn_j" type="personal">
+        <namePart lang="en" type="family">Benn</namePart>
+        <namePart lang="en" type="given">James A.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This is the first and so far only essay on Mount Zhongnan 終南山, about 25 km south of Xian (Chang’an) as a sacred place for Daoists and Buddhist. Daoxuan 道宣 (596–667), a focus of study for Koichi Shinohara, has spent many years in his life there. In the section on self-immolators in his Xu gaoseng zhuan, many of the monks he mentions have live on Mount Zhongnan.
+        Famous saying by the Daoist Shangqing 上清 patriarch Sima Chengzhen 司馬承禎 (647–735), speaking to Lu Cangyong 盧藏用(died 713), who had lived as a hermit on Mount Zhongnan before getting a prestigious job in the Institue for the Cultivation of Literature 修文館: “Mount Zhongnan is but a short-cut to officialdom 終南山仕宦捷徑.” Hypothesis: Was Mount Zhongnan also a place where Buddhists and Taoists performed some of their more dramatic practices as a way of presenting their most sacred legends, thus to ensure legitimation and funding?
+        Taibai Shan 太白山, the western peak of the mountain range: Taibai, another name for the Metal Star, Venus, which essence had fallen to the west of Gui peak 圭峰 on Mount Zhongnan. Li Bai 李白 (701-762) roamed in Taibai Shan; he was named after Venus, Bai 白 or Taibai 太白.   
+        Zhongnan Shan as a sacred Daoist site: Lord Lao 老君 is venerated here. He gave the five-thousand character Daode jing 道德經 to Yin Xi 尹喜, the Guardian of the Pass. This pass was since the Han dynasty said to be located east of Mount Hua; but from the fifth century onward, Louguan 樓觀, Storied Abbey or Storied Observatory, became the most sacred Daoist place, in the foothills of Mount Zhongnan, 35 Chinese miles south-west of Chang’an. Earliest evidence: Great Tang Record of the Abbey of the Ancestral Sage 大唐宗聖觀記, dated 626. In 620, Louguan was renamed Abbey of the Ancestral Sage because the Tang imperial house claimed they shared the surname Li 李 with Lord Lao. Extensive temple accounts from the Yuan dynasty (1279-1368), when Louguan was operated by the Quanzhen 全真 Daoists. Louguan was the first Daoist monastery to be named “guan”; it was a observatory, since it was said to be the astronomical observatory of Yin Xi. Louguan was a place of transmission, but it was also a transmitted place. Historical person: Yin Tong 尹通 (398-499?) received imperial support of Taiwudi 太武帝 of the Later Wei 後魏 (r. 424) and claimed that his place was the observation tower of Yin Xi where the latter received the Daode jing. Wang Daoyi 王道一 (fl. ca. 470) took charge of Louguan and sponsered a major collection of Daoist scriptures and ritual manuals, including Celestial master texts and the Shangqing and Lingbao corpus. Louguan was an important site for the development of a kind of Taoist monasticism modelled after Buddhist prototypes. Daoists based at Louguan were important for Zhou Wudi’s 周 武帝 (r. 560-578) Daoist undertakings. Daoists fleeing from Liang Wudi’s 梁武帝 (r. 502-549) persecution found shelter there. Under Tang Gaozong, the most important figure was Yin Wencao 尹文操 (622-688), abbot of Louguan. Louguan kept flourishing throughout the Tang. 
+        Zhongnan Shan as a scared Buddhist site:  
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Benn_Chen_Robson2012" type="host">
+        <titleInfo lang="en">
+            <title>Images, Relics, and Legends: The Formation and Transformation of Buddhist Sacred Sites—Essays in Honour of Professor Koichi Shinohara</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>69</start>
+                <end>90</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

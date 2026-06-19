@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Anderl_Eifring2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Studies in Chinese Language and Culture. Festschrift in Honour of Christoph
+            Harbsmeier on the Occasion of His 60th Birthday</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Anderl and Eifring 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#anderl" type="personal">
+        <namePart lang="en" type="family">Anderl</namePart>
+        <namePart lang="en" type="given">Christoph</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#eifring" type="personal">
+        <namePart lang="en" type="family">Eifring</namePart>
+        <namePart lang="en" type="given">Halvor</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm>Oslo</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Hermes Publishing</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

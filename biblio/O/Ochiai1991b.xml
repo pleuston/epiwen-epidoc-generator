@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ochiai1991b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>The Manuscripts of Nanatsu-Dera: a Recently Discovered Treasure-House
+                                    in Downtown Nagoya</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Ochiai 1991</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ochiai" type="personal">
+                        <namePart lang="ja" type="family">落合</namePart>
+                        <namePart lang="ja" type="given">俊典</namePart>
+                        <namePart transliteration="romaji" type="family">Ochiai</namePart>
+                        <namePart transliteration="romaji" type="given">Toshinori</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#makita" type="personal">
+                        <namePart lang="ja" type="family">牧田</namePart>
+                        <namePart lang="ja" type="given">諦亮</namePart>
+                        <namePart transliteration="romaji" type="family">Makita</namePart>
+                        <namePart transliteration="romaji" type="given">Tairyō</namePart>
+                        <role>
+                                    <roleTerm>commentator</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#forte" type="personal">
+                        <namePart lang="it" type="family">Forte</namePart>
+                        <namePart lang="it" type="given">Antonino</namePart>
+                        <role>
+                                    <roleTerm>commentator</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#vita" type="personal">
+                        <namePart lang="en" type="family">Vita</namePart>
+                        <namePart lang="en" type="given">Silvio</namePart>
+                        <role>
+                                    <roleTerm>translator</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1991</dateIssued>
+                        <place>
+                                    <placeTerm lang="en">Kyōto</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">Scuola di Studi sull’Asia
+                                                  Orientale</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#IS_EAS_OP" type="series">
+                        <titleInfo lang="en">
+                                    <title>Italian School of East Asian Studies, Occasional
+                                                papers</title>
+                        </titleInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>3</number>
+                                    </detail>
+                        </part>
+            </relatedItem>
+</mods>

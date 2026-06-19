@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshioka1977" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="ja">
+                        <title>吉岡博士還暦記念：道教研究論集<hi rend="dash">──</hi>道教の思想と文化<hi rend="dash">──</hi>
+        </title>
+            </titleInfo>
+            <titleInfo transliteration="romaji">
+                        <title>Yoshioka hakushi kanreki kinen: Dōkyō kenkyū ronshū: Dōkyō no shisō to bunka</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Collected Essays of Research on Daoism Commemorating the 61st<!-- 60th--> Birthday of Doctor Yoshioka Yoshitoyo</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Yoshioka hakushi kanreki kinen 1977</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yoshioka" type="personal">
+                        <namePart lang="ja" type="family">吉岡</namePart>
+                        <namePart lang="ja" type="given">義豊</namePart>
+                        <namePart transliteration="romaji" type="family">Yoshioka</namePart>
+                        <namePart transliteration="romaji" type="given">Yoshitoyo</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1977</dateIssued>
+                        <place>
+                                    <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                                    <placeTerm lang="ja">東京</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart transliteration="romaji">Kokusho
+                                                  kankōkai</namePart>
+                                                <namePart lang="ja">国書刊行会</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

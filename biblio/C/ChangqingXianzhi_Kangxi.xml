@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChangqingXianzhi_Kangxi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Kangxi〕Changqing xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔康熙〕長清縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Changqing County (Kangxi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Changqing xianzhi 1672</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuezhiling" type="personal">
+        <namePart lang="zh" type="family">岳</namePart>
+        <namePart lang="zh" type="given">之嶺</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xujizeng" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">繼曾</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>14 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign> + <hi rend="italic">shou </hi>
+        <foreign lang="zh">首</foreign> and <hi rend="italic">mo </hi>
+        <foreign lang="zh">末</foreign>
+    </extension>
+    <originInfo>
+        <dateIssued>1672</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Changqing</placeTerm>
+            <placeTerm lang="zh">長清</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note type="edition"/>
+</mods>

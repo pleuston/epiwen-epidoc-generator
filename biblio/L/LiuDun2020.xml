@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuDun2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo transliteration="pinyin">
+        <title>Chu kui wulunta: yige youguan qiyuan, chuanbo yu xingshang jichu de kuaxueke yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>初窺五輪塔：一個有關起源、傳播與形上基礎的跨學科研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Glimpse of the Five-wheel Stupas: An Interdisciplinary Study of Origins, Transmissions and Metaphysical Foundations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Dun 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liudun" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Dun</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">鈍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="ZhongguoKejishi" type="host">
+        <titleInfo lang="zh">
+            <title>中國科技史雜志</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo kejishi zazhi</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>The Chinese Journal for the History of Science and Technology</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">41</detail>
+            <detail type="no">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>260</start>
+                <end>297</end>
+            </extent>
+            <date>2020</date>
+        </part>
+    </relatedItem>
+</mods>

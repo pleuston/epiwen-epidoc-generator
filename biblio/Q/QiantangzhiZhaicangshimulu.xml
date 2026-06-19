@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="QiantangzhiZhaicangshimulu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qian Tang zhi Zhai cang shi mulu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <!--<title>千唐志齋藏石目録</title>-->
+        <title>千唐志齋藏石目録</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Catalog of Stones Stored in the Studio of Thousand Tang Epitaphs</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Qian Tang zhi Zhai cang shi mulu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guoyutang" type="personal">
+        <namePart transliteration="pinyin" type="family">Guo</namePart>
+        <namePart transliteration="pinyin" type="given">Yutang</namePart>
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">玉堂</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1935</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Luoyang</placeTerm>
+            <placeTerm lang="zh">洛陽</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Mojing Tang</namePart>
+                <namePart lang="zh">墨景堂</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    
+</mods>

@@ -1,0 +1,98 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_262" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>妙法蓮華經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sutra of the Lotus of the Wonderful Law</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Miaofa lianhua jing</title>
+    </titleInfo>
+    <titleInfo lang="sa">
+        <title>Saddharmapuṇḍarīka-sūtra</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Lotus Sutra</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>蓮華經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin" type="abbreviated">
+        <title>Lianhua jing</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#262, 9</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiumoluoshe" type="personal">
+        <namePart lang="zh">鳩摩羅什</namePart>
+        <namePart transliteration="pinyin">Jiumoluoshe</namePart>
+        <namePart lang="sa">Kumārajīva</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">7</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>completed in 406, Yao Qin dynasty</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>09</number>
+            </detail>
+            <extent unit="page">
+                <start>01</start>
+                <end>62</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

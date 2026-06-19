@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mueller_Selbitschka2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Über den Alltag hinaus. Festschrift für Thomas O. Höllmann zum 65. Geburtstag</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Müller and Selbitschka 2017</title>
+    </titleInfo>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mueller_shing" type="personal">
+        <namePart lang="en" type="family">Müller</namePart>
+        <namePart lang="en" type="given">Shing</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mueller_shing_enzh" type="personal">
+        <namePart lang="en" type="family">Müller</namePart>
+        <namePart lang="en" type="given">Shing</namePart>
+        <namePart lang="zh" type="family">宋</namePart>
+        <namePart lang="zh" type="given">馨</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#selbitschka" type="personal">
+        <namePart lang="en" type="family">Selbitschka</namePart>
+        <namePart lang="en" type="given">Armin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm>Wiesbaden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harrassowitz</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

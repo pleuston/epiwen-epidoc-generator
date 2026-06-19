@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChangQing1998" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bin Xian Dafo Si zaoxiang yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>彬縣大佛寺造像藝術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhist Votive Art in the Great Buddha Monastery in Bin County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chang Qing 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#changqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Chang</namePart>
+        <namePart transliteration="pinyin" type="given">Qing</namePart>
+        <namePart lang="zh" type="family">常</namePart>
+        <namePart lang="zh" type="given">青</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">現代出版社</namePart>
+                <namePart transliteration="pinyin">Xiandai chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+    </originInfo>
+</mods>

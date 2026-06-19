@@ -1,0 +1,75 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yu_Wang2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mianyang kanku: Sichuan Mianyang gudai zaoxiang diaocha yanjiu baogao ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>綿陽龕窟<hi rend="dash">──</hi>四川綿陽古代造像調查研究報告集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mianyang Niches and Caves: A Compilation of Research Reports of Surveys of Ancient Sculptures in
+            Mianyang, Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yu et al. 2010</title>
+        <!--<title>Yu Chun and Wang Ting 2009</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuchun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yu</namePart>
+        <namePart transliteration="pinyin" type="given">Chun</namePart>
+        <namePart lang="zh" type="family">于</namePart>
+        <namePart lang="zh" type="given">春</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangting" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Ting</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">婷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gaodalun" type="personal">
+        <namePart transliteration="pinyin" type="family">Gao</namePart>
+        <namePart transliteration="pinyin" type="given">Dalun</namePart>
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">大倫</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangxijian" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Xijian</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">錫鑒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <abstract/>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">文物出版社</namePart>
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sichuan shiku si daxi <foreign lang="zh">四川石窟寺大系</foreign>
+            </title>
+        </titleInfo>
+        
+    </relatedItem>
+</mods>

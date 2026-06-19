@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kieschnick2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Primer in Chinese Buddhist Writings. Supplement: Esoteric Texts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kieschnick 2019</title>
+    </titleInfo>
+    
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kieschnick" type="personal">
+        <namePart lang="en" type="family">Kieschnick</namePart>
+        <namePart lang="en" type="given">John</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <physicalDescription>
+       
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <abstract> 
+        https://religiousstudies.stanford.edu/primer-chinese-buddhist-writings</abstract>
+   
+       
+        <location>
+            <url>https://religiousstudies.stanford.edu/primer-chinese-buddhist-writings</url>
+        </location>
+        <genre>Web</genre>
+        <originInfo>
+            <dateIssued>2019</dateIssued>
+            <dateCaptured>2023-04-04</dateCaptured>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Stanford University, School of Humanities and Sciences</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+
+</mods>

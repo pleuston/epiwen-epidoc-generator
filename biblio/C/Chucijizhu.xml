@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chucijizhu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Chuci jizhu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>楚辭集注</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Commentaries on the Songs of the South</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chuci jizhu</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhuxi" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Xi</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">熹</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1979</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

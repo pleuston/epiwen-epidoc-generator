@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yunfeng keshi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雲峰刻石</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Carved Stones in Cloudy Peaks</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2023</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+            <placeTerm lang="zh">杭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhejiang renmin chubanshe</namePart>
+            </name>
+            <namePart lang="zh">浙江人民出版社</namePart>
+        </publisher>
+    </originInfo>
+</mods>

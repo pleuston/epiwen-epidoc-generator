@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RisshoShigaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>立正史學</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Risshō shigaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historical studies of Rissho University</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#risshodaigaku_shi_gakkai" type="corporate">
+        <namePart lang="ja">立正大學史學会 </namePart>
+        <namePart transliteration="romaji">Risshō daigaku shigakukai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1936-1941</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">立正大學史學会</namePart>
+                <namePart transliteration="romaji">Risshō daigaku shigakukai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

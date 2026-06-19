@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangJuan2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang Song gu yi fojiao chanyi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐宋古逸佛教懺儀研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of Ancient Lost Buddhist Repentance Rites of the Tang and Song</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Juan 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjuan" type="personal">
+        <namePart type="family">汪</namePart>
+        <namePart type="given">娟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">文津出版社</namePart>
+                <namePart transliteration="pinyin">Wenjin chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">台北</placeTerm>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+        </place>
+    </originInfo>
+</mods>

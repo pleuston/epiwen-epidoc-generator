@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujieda1957" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Sutain shūshū chū no ‘Butchō sonshō darani’</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>スタイン蒐集中の『佛頂尊勝陀羅尼』</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Glorious Buddha Crown Dhāraṇī</hi> in the Stein
+            Collection</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujieda 1957</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujieda" type="personal">
+        <namePart lang="ja" type="family">藤枝</namePart>
+        <namePart lang="ja" type="given">晃</namePart>
+        <namePart transliteration="romaji" type="family">Fujieda</namePart>
+        <namePart transliteration="romaji" type="given">Akira</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanda_kanreki_kinenkai1957" type="host">
+        <titleInfo lang="ja">
+            <title>神田博士還曆記念書誌學論集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1957</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>403</start>
+                <end>421</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

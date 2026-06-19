@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa1997b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>法門寺的起源與拓跋育<hi rend="dash">──</hi>從法門寺北周碑文來分析</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Famen Si de qiyuan yu Tuoba Yu: Cong Famen Si Bei Zhou beiwen lai fenxi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Origin of Famen Monastery and Tuoba Yu: An Analysis on the Basis of a Stele Inscription of the Northern Zhou from Famen Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 1997b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori </namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangweikun" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang </namePart>
+        <namePart transliteration="pinyin" type="given">Weikun</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">維坤</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenbo" type="host">
+        <titleInfo lang="zh">
+            <title>文博</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenbo</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <!--<detail type="volume"></detail>-->
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>43</start>
+                <end>46; 95</end>
+            </extent>
+            <date>1997</date>
+        </part>
+    </relatedItem>
+    
+</mods>

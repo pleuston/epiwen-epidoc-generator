@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bukkyo_bunka_kenkyusho_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教文化研究所紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō bunka kenkyūsho kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en"><title>Bulletin of Buddhist Cultural Institute, <foreign xml:lang="ja">Ryūkoku</foreign>
+        University</title>&gt;</titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jodo_shukyo_gakuyin" type="corporate">
+        <namePart lang="ja">龍谷大学</namePart>
+        <namePart transliteration="romaji">Ryūkoku daigaku</namePart>
+        <namePart lang="en">Ryūkoku University, Kyōto</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1962-</dateIssued>
+        <dateIssued encoding="marc" point="start"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">龍谷大学</namePart>
+                <namePart transliteration="romaji">Ryūkoku daigaku</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

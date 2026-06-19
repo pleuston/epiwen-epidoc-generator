@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zeng_Jiang_Li_1956_kgbg" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yinan gu huaxiang shimu fajue baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>沂南古畫像石墓發掘報告</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Report on the Excavation of the Ancient Stone-Relief Tomb at Yinan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zeng et al. 1956</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zengzhaoyu" type="personal">
+        <namePart lang="zh" type="family">曾</namePart>
+        <namePart lang="zh" type="given">昭燏</namePart>
+        <namePart transliteration="pinyin" type="family">Zeng</namePart>
+        <namePart transliteration="pinyin" type="given">Zhaoyu</namePart>
+        <role>
+            <roleTerm>autor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiangbaogeng" type="personal">
+        <namePart lang="zh" type="family">蔣</namePart>
+        <namePart lang="zh" type="given">寶庚</namePart>
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Baogeng</namePart>
+        <role>
+            <roleTerm>autor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lizhongyi" type="personal">
+        <namePart lang="zh" type="family">黎</namePart>
+        <namePart lang="zh" type="given">忠義</namePart>
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongyi</namePart>
+        <role>
+            <roleTerm>autor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1956</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwubu wenwu guanliju</namePart>
+                <namePart lang="zh">文物部文物管理局</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

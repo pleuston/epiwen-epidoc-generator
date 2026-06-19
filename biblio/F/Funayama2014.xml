@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Funayama2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>長耳三藏と『耶舍傳』―ネレ－ンドラヤシャスとの關わり―</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chōji sanzō to <hi rend="italic">Yasha den</hi>: Narēndorayashasu to no kakawari </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Funayama 2014</title>
+    </titleInfo>
+    <abstract/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#funayama" type="personal">
+        <namePart lang="ja" type="family">船山</namePart>
+        <namePart lang="ja" type="given">徹</namePart>
+        <namePart transliteration="romaji" type="family">Funayama</namePart>
+        <namePart transliteration="romaji" type="given">Tōru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Bukkyoshigakukenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>仏教史学研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō shigaku kenkyu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2014</date>
+            <detail type="volume">56</detail>
+            <detail type="no">2</detail>
+            <extent unit="pages">
+                <start>12</start>
+                <end>33</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Seckel2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Before and Beyond the Image. Aniconic Symbolism in Buddhist Art.</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Seckel 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#seckel" type="personal">
+        <namePart lang="de" type="family">Seckel</namePart>
+        <namePart lang="de" type="given">Dietrich</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#leisinger" type="personal">
+        <namePart lang="de" type="family">Leisinger</namePart>
+        <namePart lang="de" type="given">Andreas</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#brinker" type="personal">
+        <namePart lang="de" type="family">Brinker</namePart>
+        <namePart lang="de" type="given">Helmut</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#rosenfield" type="personal">
+        <namePart lang="de" type="family">Rosenfield</namePart>
+        <namePart lang="de" type="given">John</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <publisher>Artibus Asiae Publishers</publisher>
+        <place>
+            <placeTerm>Museum Rietberg Zürich</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

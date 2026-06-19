@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Harrist2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>Record of the Eulogy on Mt. Tai and Imperial Autographic Monuments of the Tang Dynasty</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Harrist 2000</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#harrist" type="personal">
+                        <namePart lang="en" type="family">Harrist</namePart>
+                        <namePart lang="en" type="given">Robert E.</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#OrientalArt" type="host">
+                        <titleInfo lang="en">
+                                    <title>Oriental Art</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                <part>
+                    <date>2000</date>
+                    <detail type="volume">46</detail>
+                    <detail type="no">2</detail>
+                    <extent unit="page">
+                        <start>68</start>
+                        <end>79</end>
+                    </extent>
+                </part>
+                        
+            </relatedItem>
+</mods>

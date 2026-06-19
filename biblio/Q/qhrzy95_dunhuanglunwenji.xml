@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="qhrzy95_dunhuanglunwenji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qinghe Rao Zongyi xiansheng jiushiwu huadan Dunhuang xue guoji xueshu yantaohui lunwenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>慶賀饒宗頤先生九十五華誕敦煌學國際學術研討會論文集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Festschrift of Rao Zongyi: On the Ocassion of His 95th Birthday, Proceedings of the International Conference on Dunhuang Studies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rao Zongyi Festschrift 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhongyangwenshi_yjy" type="corporate">
+        <namePart transliteration="pinyin">Zhongyang wenshi yanjiuyuan</namePart>
+        <namePart lang="zh">中央文史研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dunhuang_yjy" type="corporate">
+        <namePart transliteration="pinyin">Dunhuang yanjiuyuan</namePart>
+        <namePart lang="zh">敦煌研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hku_raozongyixueshuguan" type="corporate">
+        <namePart transliteration="pinyin">Xianggang daxue Rao Zongyi xueshuguan</namePart>
+        <namePart lang="zh">香港大學饒宗頤學術館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangchuanlong" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">傳龍</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Chuanlong</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuYuan2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>碑林語石<hi rend="dash">──</hi>西安碑林藏石研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Beilin yushi: Xi’an Beilin cangshi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comments on Stones in the Forest of Steles: Research on Stones in the Collection of the Forest of Steles at Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lu Yuan 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luyuan" type="personal">
+        <namePart lang="zh" type="family">路</namePart>
+        <namePart lang="zh" type="given">遠</namePart>
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Yuan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">三秦出版社</namePart>
+                <namePart transliteration="pinyin">Sanqin chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

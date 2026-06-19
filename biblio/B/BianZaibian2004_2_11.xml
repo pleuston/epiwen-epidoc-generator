@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BianZaibin2004_2_11" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo transliteration="pinyin">
+    <title>‘Tang sanzang’ shijing jing xian Dujiangyan</title>
+  </titleInfo>
+  <titleInfo lang="zh">
+    <title>‘唐三藏’石經驚現都江堰</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>Stone Sutras by a “Tang Tripiṭaka Master” Surface Unexpectedly in Dujiangyan</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Bian Zaibin 2004-2-11</title>
+  </titleInfo>
+  
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bianzaibin" type="personal">
+    <namePart transliteration="pinyin" type="family">Bian</namePart>
+    <namePart transliteration="pinyin" type="given">Zaibin</namePart>
+    <namePart lang="zh" type="family">卞</namePart>
+    <namePart lang="zh" type="given">再斌</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+ 
+  
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+    <titleInfo transliteration="pinyin">
+      <title>Chengdu shangbao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>成都商報</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+      <frequency>daily</frequency>
+    </originInfo>
+    <part>
+      <date>2004-02-11</date>
+      <extent unit="page">
+        <start>unpaginated</start>
+      </extent>
+    </part>
+  </relatedItem>
+</mods>

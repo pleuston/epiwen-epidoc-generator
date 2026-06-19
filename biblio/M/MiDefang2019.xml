@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MiDefang2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baoding Shan Fo jie mingwen zhong de xijian zili shi—jian lun Zhao Zhifeng zaozi wenti</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寳頂山佛藉銘文中的稀見字例釋<hi rend="dash">──</hi>兼論趙智風造字問題</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Notes on Examples of Rare Sinographs among the Buddhist Text on Mount Baoding—with a Discussion of the Issue of Sinographs Fabricated by Zhao Zhifeng</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Mi Defang 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#midefang" type="personal">
+        <namePart transliteration="pinyin" type="family">Mi</namePart>
+        <namePart transliteration="pinyin" type="given">Defang</namePart>
+        <namePart lang="zh" type="family">米</namePart>
+        <namePart lang="zh" type="given">德昉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dazu xuekan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>大足學刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2019</date>
+            <detail type="volume">3</detail>
+            <!--<detail type="no"></detail>-->
+            <extent unit="page">
+                <start>168</start>
+                <end>190</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

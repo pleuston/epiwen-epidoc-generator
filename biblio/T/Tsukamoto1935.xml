@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto1935" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>石經山雲居寺と石刻大藏經</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sekikeisan Ungoji to sekkoku daizō kyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Sutra Mountain of Cloud Dwelling Monastery and the Canon Carved Into Stone</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto 1935</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">善隆</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Zenryū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TohoGakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tōhō gakuhō, fukkan: Bōzan Ungoji kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東方學報， 副刊：房山雲居寺研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+
+
+            <detail type="volume">
+                <number>5</number>
+                <!-- <title>
+                    <name>
+                        <namePart transliteration="romaji">(Bōzan Ungoji kenkyū</namePart>
+                        <namePart lang="zh">房山雲居寺研究</namePart>
+                        <namePart lang="en">[Research on the Cloud Dwelling Monastery at Fangshan])</namePart>
+                    </name>
+                </title> -->
+            </detail>
+
+
+            <extent unit="page">
+                <start>1</start>
+                <end>245</end>
+            </extent>
+            <date>1935</date>
+        </part>
+    </relatedItem>
+</mods>

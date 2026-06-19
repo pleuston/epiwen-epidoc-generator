@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chia_deWeerdt_2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Knowledge and Text Production in an Age of Print: China, 900-1400</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chia and De Weerdt 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chia" type="personal">
+        <namePart lang="en" type="family">Chia</namePart>
+        <namePart lang="en" type="given">Lucille</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#deweerdt" type="personal">
+        <namePart lang="en" type="family">De Weerdt</namePart>
+        <namePart lang="en" type="given">Hilde</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm>Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sinica Leidensia</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>100</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

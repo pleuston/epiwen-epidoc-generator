@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MaCongcong2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Lingyan Si shi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東靈岩寺史研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on the History of Shandong’s Lingyan Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ma Congcong 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#macongcong" type="personal">
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">叢叢</namePart>
+        <namePart transliteration="pinyin" type="family">Ma</namePart>
+        <namePart transliteration="pinyin" type="given">Congcong</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss.<!-- <foreign lang="zh">博士學位論文</foreign>--></note>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shandong daxue</placeTerm>
+            <placeTerm lang="zh">山東大學博士學位論文</placeTerm>
+        </place>
+    </originInfo>
+</mods>

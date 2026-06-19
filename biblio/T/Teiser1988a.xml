@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Teiser1988a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>‘Having Once Died and Returned to Life’: Representations of Hell in Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Teiser 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#teiser" type="personal">
+        <namePart lang="en" type="family">Teiser</namePart>
+        <namePart lang="en" type="given">Stephen F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HarvardJournalAsiaticStudies" type="host">
+        <titleInfo lang="en">
+            <title>Harvard Journal of Asiatic Studies</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">48</detail>
+            <detail type="no">2</detail>
+            
+            <extent unit="page">
+                <start>433</start>
+                <end>464</end>
+            </extent>
+            <date>1988</date>
+        </part>
+    </relatedItem>
+</mods>

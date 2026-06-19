@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dong_He_Zhu2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Chuan Yu diqu wan Tang Wudai xiaoxing jingchuang ji qi fanying de minjian xinyang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>川渝地區晚唐五代小型經幢及其反映的民間信仰</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Small Sutra Pillars of the Late Tang and Five-Dynasties Period from the Sichuan and Chongqing Areas and the Vernacular Beliefs They Reflect</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dong Huafeng et al. 2018</title>
+    </titleInfo>
+    <abstract>Official English translation, according to CNKI: “The Small Sutra Pillars of the Late Tang Dynasty and Five-Dynasties Period in Sichuan and Chongqing Areas and the Folk Beliefs Reflected by Them”</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#donghuafeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Dong</namePart>
+        <namePart transliteration="pinyin" type="given">Huafeng</namePart>
+        <namePart lang="zh" type="family">董</namePart>
+        <namePart lang="zh" type="given">華峰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hexianhong" type="personal">
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Xianhong</namePart>
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">先紅</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhuhanbing" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Hanbing</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">寒冰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fubingbing" type="personal">
+        <namePart transliteration="pinyin" type="family">Fu</namePart>
+        <namePart transliteration="pinyin" type="given">Bingbing</namePart>
+        <namePart lang="zh" type="family">付</namePart>
+        <namePart lang="zh" type="given">兵兵</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kaogu" type="host">
+        <titleInfo lang="zh">
+            <title>考古</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2018</date>
+            <detail type="no">6</detail>
+            <extent unit="page">
+                <start>105</start>
+                <end>114</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

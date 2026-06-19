@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TohoGakuho" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東方學報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōhō gakuhō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Journal of Oriental Studies</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kyoto_daigaku" type="corporate">
+        <namePart lang="ja">京都大學人文科學研究所</namePart>
+        <namePart transliteration="romaji">Kyōto daigaku jinbun kagaku kenkyūsho</namePart>
+        <namePart lang="en">Institute for Research in Humanities, Kyoto University</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1934-</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">京都大学人文科学研究所</namePart>
+                <namePart transliteration="romaji">Kyōto daigaku jinbun kagaku kenkyūsho</namePart>
+                <namePart lang="en">Institute for Research in Humanities, Kyoto
+                    University</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

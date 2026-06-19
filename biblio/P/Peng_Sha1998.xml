@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Peng_Sha1998" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang Mogao Ku beiqu dongku qingli fajue jianbao
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌莫高窟北區洞窟清理發掘簡報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Briefing on cleaning and excavation of the caves in the northern ​​Dunhuang Mogao Grottoes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Peng and Sha 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pengjinzhang" type="personal">
+        <namePart transliteration="pinyin" type="family">Peng</namePart>
+        <namePart transliteration="pinyin" type="given">Jinzhang</namePart>
+        <namePart lang="zh" type="family">彭</namePart>
+        <namePart lang="zh" type="given">金章</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shawutian" type="personal">
+        <namePart transliteration="pinyin" type="family">Sha</namePart>
+        <namePart transliteration="pinyin" type="given">Wutian</namePart>
+        <namePart lang="zh" type="family">沙</namePart>
+        <namePart lang="zh" type="given">武田</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1998</date>
+            <!--<detail type="volume">121</detail>-->
+            <detail type="no">10</detail>
+            <extent unit="page">
+                <start>4</start>
+                <end>21, 97-98+2+1</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

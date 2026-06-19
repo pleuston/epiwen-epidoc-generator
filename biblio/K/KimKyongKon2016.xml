@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KimKyongKon2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Le Rêve énigmatique du roi Prasenajit: Introduction philologique et historique à l’oniromancie bouddhique</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kim Kyong-Kon 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kimkyongkon" type="personal">
+        <namePart lang="en" type="family">Kim</namePart>
+        <namePart lang="en" type="given">Kyong-Kon</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="fr">
+            <title>Revue des sciences religieuses</title>
+        </titleInfo>
+        
+        <originInfo>
+            
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2016</date>
+            <detail type="volume"><number>90</number></detail>
+            <detail type="no">2</detail>
+            
+            <extent unit="page">
+                <start>165</start>
+                <end>187</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

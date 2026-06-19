@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LinLvshan1961" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="zh">
+                <title>北宋開寳藏《大般若經》初印本的發現</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+                <title>Bei Song Kaibaozang ‘Daborejing’ chu yinben de faxian</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+                <title>The Discovery of the First Printed Edition of the “Mahā-prajñā-pāramitā-sūtra” of the Song Kaibao Canon</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Lin Lüshan 1961</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#linlvshan" type="personal">
+                <namePart lang="zh" type="family">林</namePart>
+                <namePart lang="zh" type="given">慮山</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#XiandaiFoxue" type="host">
+                <titleInfo lang="zh">
+                        <title>現代佛學</title>
+                </titleInfo>
+                <titleInfo transliteration="pinyin">
+                        <title>Xiandai foxue</title>
+                </titleInfo>
+                <originInfo>
+                        <issuance>continuing</issuance>
+                </originInfo>
+                <part>
+                        <detail type="no">2</detail>
+                        <extent unit="page">
+                                <start>33</start>
+                                <end>41</end>
+                        </extent>
+                        <date>1961</date>
+                </part>
+        </relatedItem>
+</mods>

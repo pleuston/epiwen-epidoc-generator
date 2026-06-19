@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TsaiSueyling2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>《如來在金棺囑累清净莊嚴敬福經》の新出本文</title>
+        <!--<title>『如來在金棺囑累清淨莊嚴敬福經』の新出本文</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>
+            <hi rend="italic">Nyorai zai kinkan zokurui shōjō shōgon kyōfuku kyō</hi> no
+            shinshutsu honbun</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A New Collated Text of the <hi rend="italic">Sutra on the Merit of Reverence of Pure,
+                Splendid Display, Delivered by the Thus Come One from the Golden Coffin</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsai Suey-Ling 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsaisueyling" type="personal">
+        <namePart lang="zh" type="family">蔡</namePart>
+        <namePart lang="zh" type="given">穗玲</namePart>
+        <namePart transliteration="pinyin" type="family">Tsai</namePart>
+        <namePart transliteration="pinyin" type="given">Suey-Ling</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#muehlenbernd_ja" type="personal">
+        <namePart lang="ja" type="family">ヤン·</namePart>
+        <namePart lang="ja" type="given">ミューレンベルンド<!--,--></namePart>
+        <namePart lang="de" type="family">Mühlenbernd</namePart>
+        <namePart lang="de" type="given">Jan</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Komine_Meguro2017" type="host">
+        <titleInfo>
+            <title>資料学の現在</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>112</start>
+                <end>122</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

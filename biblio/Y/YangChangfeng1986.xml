@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YangChangfeng1986" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shuiniu Shan de shufa yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>水牛山的書法藝術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Art of Calligraphy at Shuiniu Mountain</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang Changfeng 1986</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangchangfeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Changfeng</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">昌峰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wenshang_wenshiziliao1986" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenshang wenshi ziliao di er ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>汶上文史資料·第二輯</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1986</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Jining</placeTerm>
+                <placeTerm lang="zh">濟寧</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Shandong chuban zongshe Jining fenshe</namePart>
+                </name>
+                <namePart lang="zh">山東出版總社濟寧分社</namePart>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>123</start>
+                <end>130</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

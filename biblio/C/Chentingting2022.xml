@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chentingting2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://sutras-srv.adw.uni-heidelberg.de:8080/exist/servlet/db/schema/mods-3-0.xsd">
+
+    <titleInfo lang="de">
+        <title>Die steinernen Sutren im Wolkenheimkloster bei Peking: Typologie und
+            Materialität</title>
+    </titleInfo>
+
+    <titleInfo type="reference">
+        <title>Chen Tingting 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chentingting" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">婷婷</namePart>
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Tingting</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm lang="de">Universität Heidelberg</placeTerm>
+        </place>
+    </originInfo>
+</mods>

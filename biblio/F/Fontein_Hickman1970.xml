@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fontein_Hickman1970" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Zen Painting and Calligraphy. An Exhibition of Works of Art Lent by Temples, Private Collectors, and Public and Private Museums in Japan etc</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fontein and Hickman 1970</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fontein" type="personal">
+        <namePart lang="de" type="family">Fontein</namePart>
+        <namePart lang="de" type="given">Jan</namePart>
+        
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hickman_money" type="personal">
+        <namePart lang="en" type="family">Hickman</namePart>
+        <namePart lang="en" type="given">Money L.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1970</dateIssued>
+        <place>
+            <placeTerm>Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Boston Museum of Fine Arts</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    
+</mods>

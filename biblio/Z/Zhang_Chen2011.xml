@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhang_Chen2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Anyue Wofoyuan 81 hao ku Song bei shidu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>安岳卧佛院81號窟宋碑釋讀</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Transcription and Interpretation of the Song Stele in Cave 81 at Wofoyuan in
+            Anyue</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Xuefen and Chen Wenjing 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangxuefen" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Xuefen</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">雪芬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenwenjing" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Wenjing</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">文靜</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ChengduWenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Chengdu wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>成都文物</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Chengdu Cultural Relics</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <frequency>tri-monthly</frequency>
+        </originInfo>
+        <part>
+            <date>2011</date>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>47</start>
+                <end>49</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

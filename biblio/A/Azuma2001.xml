@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Azuma2001">
+    <titleInfo lang="ja">
+        <title>曹洞宗大本山總持寺蔵伝道元禅師真筆仏垂般涅槃略説教誡経</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sōtō-shū daihonzan Sōjiji zōden Dōgen zenji shinpitsu Busshi hatsu nehan ryakusetsu kyōkai kyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Study of Bushi hatsu nehan ryakusetsu Kyōkai Kyō (Sutra) owned by Sōtō Sect Sōjiji Temple which is Said to be Copied by Dōgen Zenji</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Azuma 2001</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#azuma_ryushin">
+        <namePart lang="ja" type="family">東</namePart>
+        <namePart lang="ja" type="given">隆眞</namePart>
+        <namePart type="family">Azuma</namePart>
+        <namePart type="given">Ryūshin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Komazawa_joshi_kiyo" type="host">
+        <titleInfo lang="ja">
+            <title>駒沢女子大学研究紀要</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Komazawa joshi daigaku kenkyū kiyō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2001</date>
+            <detail type="volume">8</detail>
+            <extent unit="page">
+                <start>81</start>
+                <end>108</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

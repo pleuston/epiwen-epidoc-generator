@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Anyang_Shiku1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>河南安陽靈泉寺石窟及小南海石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Henan Anyang Lingquansi shiku ji Xiaonanhai shiku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Xiaonanhai cave temples and the caves of Lingquan Monastery near Anyang in Henan
+            Province</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Henan Anyang shiku 1988">
+        <title>He­nan An­yang shi­ku 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hn_gudaijianzhu_baohu_yjs" type="corporate">
+        <namePart lang="zh">河南省古代建築保護研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>4</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>14</end>
+            </extent>
+            <extent unit="page">
+                <start>20</start>
+                <end>20</end>
+            </extent>
+            <date>1988</date>
+        </part>
+    </relatedItem>
+</mods>

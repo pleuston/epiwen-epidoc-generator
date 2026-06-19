@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nippon_kosho_tsushin" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>日本古書通信</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nippon kosho tsūshin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Nippon Kosho <foreign xml:lang="ja">Tsūshin</foreign></title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Nippon_kosho_tsushinsha" type="corporate">
+        <namePart lang="ja">日本古書通信社</namePart>
+        <namePart transliteration="romaji">Nippon Kosho Tsūshinsha</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1934–</dateIssued>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">日本古書通信社</namePart>
+                <namePart transliteration="romaji">Nippon Kosho Tsūshinsha</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinjikoshinroku" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>人事興信録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Jinji kōshinroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Who’s Who</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Toyobijutsutaikan">
+        <title>Jinji kōshinroku</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jinji_koshinjo" type="corporate">
+        <namePart transliteration="romaji">Jinji kōshinjo</namePart>
+        <namePart lang="ja">人事興信所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">45</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1903</dateIssued>
+        <dateIssued point="end">2009</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Jinji kōshinjo</namePart>
+                <namePart lang="ja">人事興信所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

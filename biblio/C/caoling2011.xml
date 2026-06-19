@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="caoling2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國佛教疑偽經綜録</title>
+        <!--<title>中國佛教疑偽經綜錄</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo fojiao yiweijing zonglu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Comprehensive Catalogue of Chinese Buddhist Apocryphal Scriptures</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cao Ling 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#caoling" type="personal">
+        <namePart transliteration="pinyin" type="family">Cao</namePart>
+        <namePart transliteration="pinyin" type="given">Ling</namePart>
+        <namePart lang="zh" type="family">曹</namePart>
+        <namePart lang="zh" type="given">凌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">上海</placeTerm>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+        </place>
+    </originInfo>
+</mods>

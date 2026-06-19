@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Pan_Wu_2008">
+    <titleInfo lang="zh">
+        <title>中國天台宗通史</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo Tiantaizong tongshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Comprehensive History of the Tiantai School in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pan and Wu 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#panguiming" type="personal">
+        <namePart transliteration="pinyin" type="family">Pan</namePart>
+        <namePart transliteration="pinyin" type="given">Guiming</namePart>
+        <namePart lang="zh" type="family">潘</namePart>
+        <namePart lang="zh" type="given">桂明</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuzhongwei" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongwei</namePart>
+        <namePart lang="ja" type="family">吳</namePart>
+        <namePart lang="ja" type="given">忠偉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+            <placeTerm lang="zh">南京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fenghuang chubanshe</namePart>
+                <namePart lang="zh">鳳凰出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

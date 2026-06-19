@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xiang_Zheng2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>新世紀敦煌學論集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xin Shiji Dunhuangxue lun ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Compendium of Dunhuang Studies in the New Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xiang Chu and Zheng Acai 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiangchu" type="personal">
+        <namePart lang="zh" type="family">項</namePart>
+        <namePart lang="zh" type="given">楚</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhengacai" type="personal">
+        <namePart lang="zh" type="family">鄭</namePart>
+        <namePart lang="zh" type="given">阿財</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Ba Shu shushe</namePart>
+                <namePart lang="zh">巴蜀書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KannoChiaki" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Kindai higaku no shoron shiteki kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>近代碑學の書論史的研究</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Research on the History of Calligraphic Theory of Modern Stele Studies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kanno 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanno_chiaki" type="personal">
+        <namePart lang="ja" type="family">菅野</namePart>
+        <namePart lang="ja" type="given">智明</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kenbun Shuppan</namePart>
+                <namePart lang="ja">研文出版</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

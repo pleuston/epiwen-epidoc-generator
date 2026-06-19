@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FangGuangchang2006a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fodian zhang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛典章</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Essay on the Buddhist Texts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Guang­chang 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangguangchang" type="personal">
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Guangchang</namePart>
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">廣錩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhangGong2006" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang dianji yu Tang Wudai lishi wenhua</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌典籍與唐五代歷史文化</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Dunhuang Canons and the History and Culture of the Tang and Five
+                Dynasties</title>
+        </titleInfo>
+        <titleInfo type="reference">
+            <title>Zhang Gong 2006</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2006</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>149</start>
+                <end>272</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

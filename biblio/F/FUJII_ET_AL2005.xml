@@ -1,0 +1,79 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FUJII_ET_AL2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>関野貞アジア踏査</title>
+        <!--<title>関野貞アジア踏査: 東京大學コレクションXX</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sekino Tadashi Ajia tōsa</title>
+        <!--<title>Sekino Tadashi Ajia tōsa: Tōkyō daigaku korekushon XX</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sekino Tadashi’s Fieldwork in Asia</title>
+        <!--<title>$$$ Sekino Tadashi’s Fieldwork in Asia: Collection of the University of Tokyo XX</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujii et al. 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujii_keisuke" type="personal">
+        <namePart lang="ja" type="family">藤井</namePart>
+        <namePart lang="ja" type="given">惠介</namePart>
+        <namePart transliteration="romaji" type="family">Fujii</namePart>
+        <namePart transliteration="romaji" type="given">Keisuke</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#masahiro" type="personal">
+        <namePart lang="ja" type="family">早乙女</namePart>
+        <namePart lang="ja" type="given">雅博</namePart>
+        <namePart transliteration="romaji" type="family">Saotome</namePart>
+        <namePart transliteration="romaji" type="given">Masahiro</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tsunoda_mayumi" type="personal">
+        <namePart lang="ja" type="family">角田</namePart>
+        <namePart lang="ja" type="given">真弓</namePart>
+        <namePart transliteration="romaji" type="family">Tsunoda</namePart>
+        <namePart transliteration="romaji" type="given">Mayumi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nishiaki" type="personal">
+        <namePart lang="ja" type="family">西秋</namePart>
+        <namePart lang="ja" type="given">良宏</namePart>
+        <namePart transliteration="romaji" type="family">Nishiaki</namePart>
+        <namePart transliteration="romaji" type="given">Yoshihiro</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō daigaku sōgō kenkyū hakubutsukan: Tōkyō daigaku shuppankai</namePart>
+                <namePart lang="ja">東京大學綜合研究博物館: 東京大學出版会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign lang="ja">Tōkyō</foreign> daigaku korekushon <foreign lang="zh">東京大學コレクション</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>20</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

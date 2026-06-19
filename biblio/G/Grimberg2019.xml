@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Grimberg2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Archaeology and Antiquarianism in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Grimberg 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Grimberg" type="personal">
+        <namePart lang="en" type="family">Grimberg</namePart>
+        <namePart lang="en" type="given">Philip</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Smith_Claire_Encyclopedia-Living-Edition" type="host">
+        <titleInfo>
+            <title>Encyclopedia of Global Archaeology</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2019</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+    <!-- https://doi.org/10.1007/978-3-319-51726-1_3363-2 -->
+</mods>

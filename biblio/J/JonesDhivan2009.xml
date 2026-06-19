@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JonesDhivan2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>New Light on the Twelve Nidānas</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jones 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jones_dhivan" type="personal">
+        <namePart lang="de" type="family">Jones</namePart>
+        <namePart lang="de" type="given">Dhivan Thomas</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <identifier type="doi">DOI: 10.1080/14639940903239793</identifier>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo>
+            <title>Contemporary Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">10</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>241</start>
+                <end>259</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

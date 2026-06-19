@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Konczak-Nagel2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Connecting the Art, Literature, and Religion of South and Central Asia: Studies in Honour of Monika Zin</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Konczak-Nagel, Hiyama and Klein 2022</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#konczak-nagel" type="personal">
+        <namePart lang="en" type="family">Konczak-Nagel</namePart>
+        <namePart lang="en" type="given">Ines</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hiyama" type="personal">
+        <namePart lang="en" type="family">Hiyama</namePart>
+        <namePart lang="en" type="given">Satomi</namePart>
+        <namePart lang="ja" type="family">檜山</namePart>
+        <namePart lang="ja" type="given">智美</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#klein" type="personal">
+        <namePart lang="en" type="family">Klein</namePart>
+        <namePart lang="en" type="given">Astrid</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm>Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Dev Publishers and Distributors</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhangyaozhong2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+      <title>Jiumoluoshi yi <hi rend="normal">Jingang Bore boluomi jing</hi> jiaoshi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鳩摩儸什譯《金剛般若波羅蜜經》校釋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>Commentary on Kumārajīva’s Translation of the <hi rend="italic">Diamond Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Yaozhong 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangyaozhong" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">曜鈡</namePart>
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Yaozhong</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master’s Thesis <foreign lang="zh">碩士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taiwan foguang renwen shehui xueyuan wenxue yanjiusuo<!-- shuoshi xuewei lunwen--></placeTerm>
+            <placeTerm lang="zh">台灣佛光人文社會學院文學研究所<!--碩士學位論文--></placeTerm>
+        </place>
+    </originInfo>
+</mods>

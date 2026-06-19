@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BukkyoGeijutsu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教芸術</title>
+        <!--<title>佛敎藝術</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō geijutsu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Buddhist arts</title>
+        <!--<title>ARS BUDDHICA</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bukkyo_geijutsu_gakkai" type="corporate">
+        <namePart lang="ja">佛教芸術学会</namePart>
+        <!--<namePart lang="ja">佛敎藝術學會</namePart>-->
+        <namePart transliteration="romaji">Bukkyō geijutsu gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1948-</dateIssued>
+        <dateIssued encoding="marc" point="start">1948</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chūō kōron bijutsu shuppan</namePart>
+                <namePart lang="ja">中央公論美術出版</namePart>
+                <!--<namePart transliteration="romaji">Mainichi shinbunsha</namePart>
+                <namePart lang="ja">毎日新聞社</namePart>-->
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

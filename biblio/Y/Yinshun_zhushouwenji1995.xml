@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yinshun_zhushouwenji1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>The Transmission and Evolution of Buddhist Thought: Festschrift Marking the 90th
+            Birthday of Master Yinshun</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fojiao sixiang de chuancheng yu fazhan: Yinshun daoshi jiuzhi huadan zhushou
+            wenji</title>
+    </titleInfo>
+    <titleInfo xml:lang="zh">
+        <title>佛教思想的傳承與發展<hi rend="dash">──</hi>印順導師九秩華誕祝壽文集</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yinshun zhushou wenji">
+        <title>Shih Heng-ching 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shihhengching" type="personal">
+        <namePart transliteration="pinyin" type="family">Shih</namePart>
+        <namePart transliteration="pinyin" type="given">Heng-ching</namePart>
+        <namePart lang="zh" type="family">釋</namePart>
+        <namePart lang="zh" type="given">恒清</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">東大圖書公司</namePart>
+                <namePart transliteration="pinyin">Dongda tushu gongsi</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

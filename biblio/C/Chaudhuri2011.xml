@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chaudhuri2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Sanskrit in China and Japan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chaudhuri 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chaudhuri" type="personal">
+        <namePart lang="en" type="family">Chaudhuri</namePart>
+        <namePart lang="en" type="given">Saroj Kumar</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm lang="en">New Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Aditya Prakashan</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Satapitaka" type="series">
+        <titleInfo lang="en">
+            <title><foreign xml:lang="sa">Śata-Piṭaka</foreign> Series: Indo-Asian Literatures</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>637</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

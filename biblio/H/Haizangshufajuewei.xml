@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Haizangshufajuewei" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>$$$海藏書法抉微</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Haizang shufa juewei</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Haizang (Zheng Xiaoxu) Casting Light on the Subtleties of Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Haizang shufa juewei</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhengxiaoxu" type="personal">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangqian" type="personal">
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Cuierping1994" type="host">
+        <part>
+            <extent unit="page">
+                <start>935</start>
+                <end>1010</end>
+            </extent>
+        </part>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+    <note type="reprint">Based on the first edition, published 1942</note>
+</mods>

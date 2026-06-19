@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yinshun1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Huayu Collection</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Huayu ji</title>
+    </titleInfo>
+    <titleInfo xml:lang="zh">
+        <title>華雨集</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yinshun zhushou wenji">
+        <title>Shih Yinshun 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yinshun" type="personal">
+        <namePart transliteration="pinyin" type="family">Shih</namePart>
+        <namePart transliteration="pinyin" type="given">Yinshun</namePart>
+        <namePart lang="zh" type="family">釋</namePart>
+        <namePart lang="zh" type="given">印順</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">正聞出版社</namePart>
+                <namePart transliteration="pinyin">Zhengwen chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

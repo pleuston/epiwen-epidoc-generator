@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yunyueyanxuanshigao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yunyueyan Xuan shigao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雲月硯軒詩稿</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Drafts of Poems at the Yunyue Inkstone Veranda</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="">
+        <title>Yunyueyan Xuan shigao 1684</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhaoguolin" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Guolin</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">國麟</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Preface 1684</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Taishancongshu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>泰山叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>37</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>48</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

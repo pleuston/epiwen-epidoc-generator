@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WuMenglin1982" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>房山石經本《唐玄宗注金剛經》録文<hi rend="dash">──</hi>附整理后記</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Fangshan shijing ben ‘Tang Xuanzong zhu jingangjing’ luwen fu
+                                    zhengli houji</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="en">
+                        <title>A Transcription of the Fangshan Stone Sutra Edition of “Tang
+                                    Xuanzong’s Commentary on the Diamond Sutra” with Revision
+                                    Report</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Wu Meng­lin 1982</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wumenglin" type="personal">
+                        <namePart lang="zh" type="family">吴</namePart>
+                        <namePart lang="zh" type="given">夢麟</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ShijieZongjiaoYanjiu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Shijie zongjiao yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>世界宗教研究</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="no">2</detail>
+                                    <extent unit="page">
+                                                <start>9</start>
+                                                <end>25</end>
+                                    </extent>
+                                    <date>1982</date>
+                        </part>
+            </relatedItem>
+    
+    <note type="reprint">Reprinted in <ref type="biblio" target="LvTiegang1999">vol. 2, 13–254</ref>
+    </note>
+            <!--classification edition="LvTiegang1999">reprint</classification>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Fangshan shijing yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>房山石經研究</title>
+                        </titleInfo>
+                        <name ns2:href="#lvtiegang" type="personal">
+                                    <namePart lang="zh" type="family">呂</namePart>
+                                    <namePart lang="zh" type="given">鐵鋼</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <originInfo>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>2</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>13</start>
+                                                <end>54</end>
+                                    </extent>
+                        </part>
+            </relatedItem-->
+</mods>

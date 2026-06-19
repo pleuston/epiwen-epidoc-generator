@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xueshu_tansuo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>學術探索</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xueshu tansuo</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ynsshkxlhh" type="corporate">
+        <namePart lang="zh">雲南省社會科學聯合會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1993-</dateIssued>
+        <dateIssued encoding="marc" point="start">1993</dateIssued>
+        <frequency>monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Kunming</placeTerm>
+            <placeTerm lang="zh">昆明</placeTerm>
+        </place>
+    </originInfo>
+</mods>

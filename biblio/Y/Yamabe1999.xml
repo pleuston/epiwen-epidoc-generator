@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yamabe1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                <title>
+            <hi rend="normal">The Sūtra on the Ocean-Like Samādhi of the Visualization of the
+                                    Buddha</hi>: The Interfusion of the Chinese and Indian Cultures in
+                                    Central Asia as Reflected in a Fifth Century Apocryphal
+                                    Sūtra</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Yamabe 1999</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yamabe" type="personal">
+                        <namePart lang="en" type="family">Yamabe</namePart>
+                        <namePart lang="en" type="given">Nobuyoshi</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <note type="thesis">Ph.D. Diss.</note>
+            <originInfo>
+                        <dateIssued>1999</dateIssued>
+                        <place>
+                                    <placeTerm lang="en">Yale University</placeTerm>
+                        </place>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

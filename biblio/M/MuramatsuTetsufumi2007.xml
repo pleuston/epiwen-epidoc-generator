@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MuramatsuTetsufumi2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Sekino Tadashi ni yoru Santō-shō Bukkyō iseki chōsa no igi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>関野貞による山東省佛教遺迹調査の意義</title>
+        <!--<title>関野貞による山東省仏教遺跡調査の意義</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Significance of Shangdong Buddhism Remains Investigation by Sekino Tadashi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Muramatsu 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#muramatsu_tetsufumi" type="personal">
+        <namePart lang="ja" type="family">村松</namePart>
+        <namePart lang="ja" type="given">哲文</namePart>
+        <namePart transliteration="romaji" type="family">Muramatsu</namePart>
+        <namePart transliteration="romaji" type="given">Tetsufumi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#KatorikkuBunka" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Katorikku bunka = Katorikosu</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>カトリック文化 = <foreign xml:lang="en">Καθολικοσ</foreign>
+            </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">5</detail>
+            <extent unit="page">
+                <start>61</start>
+                <end>80</end>
+            </extent>
+            <date>2007</date>
+        </part>
+    </relatedItem>
+</mods>

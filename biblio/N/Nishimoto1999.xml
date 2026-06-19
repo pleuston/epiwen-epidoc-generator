@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Nishimoto1999">
+    <titleInfo lang="ja">
+        <title>西安近郊の三階教史迹<hi rend="dash">──</hi>百塔寺と金川湾唐刻石窟石經<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Seian kinkō no Sangaikyō shiseki: Hyakutōji to Kinsenwan Tōkoku sekkutsu sekikyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Remains of the Three Levels Teaching in the Proximity of Xi’an: The Hundred Pagoda Monastery and the Tang Dynasty Stone Cave at Jinchuanwan with Carved Stone Sutras</title>
+    </titleInfo>
+    <abstract>Official English translation: Remains of Sites Belonging to the Three Stage Sect in the Suburbs of Xian. If using this version, change “Xian” to “Xi’an”</abstract>
+    <titleInfo type="reference">
+        <title>Nishimoto 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nishimoto">
+        <namePart lang="ja" type="family">西本</namePart>
+        <namePart lang="ja" type="given">照真</namePart>
+        <namePart transliteration="romaji" type="family">Nishimoto</namePart>
+        <namePart transliteration="romaji" type="given">Teruma</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_bukkyōgaku_kenkyū" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛敎學硏究</title>
+            <!--<title>印度學佛教學研究</title>-->
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1999</date>
+            <detail type="volume">48</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>218</start>
+                <end>223</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

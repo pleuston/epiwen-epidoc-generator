@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hayashiya1945" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title><!--異-->异譯經類の研究</title>
+        
+       <!-- ‚ , Tokyo: Tōyō bunko, 1945. — 141-215 -->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Iyaku kyōrui no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on the Class of Sutras Translated More Than Once</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hayashiya 1945</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hayashiya" type="personal">
+        <namePart lang="ja" type="family">林屋</namePart>
+        <namePart lang="ja" type="given">友次郎</namePart>
+        <namePart transliteration="romaji" type="family">Hayashiya</namePart>
+        <namePart transliteration="romaji" type="given">Tomojirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1945</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōyō bunko</namePart>
+                <namePart lang="ja">東洋文庫</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Tōyō bunko ronsō <foreign lang="zh">東洋文庫論叢</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>30</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

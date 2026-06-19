@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TagaRyugen_kinen2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Taga Ryūgen hakushi koki kinen ronshū: Bukkyō shisō Bukkyōshi ronshū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>田賀龍彦博士古稀記念論集<hi rend="dash">──</hi>佛教思想佛教史論集</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>紀念田賀龍彥博士七十周歲論文集<hi rend="dash">──</hi>佛教思想佛教史論集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected on the Occasion of Dr. Taga <foreign xml:lang="ja">Ryūgen</foreign>’s 70th Birthday: Essays on Buddhist Thought and Buddhist History</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Taga Ryūgen hakushi koki kinen ronshū 2001</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tagaryugen_kinen" type="corporate">
+        <namePart transliteration="romaji">Taga Ryūgen hakushi koki kinen ronbunshū kankōkai</namePart>
+        <namePart lang="ja">田賀龍彦博士古稀記念論文集刊行会</namePart>
+        <namePart transliteration="pinyin">Jinian Tianhe Longyan boshi qishi zhousui lunwenji chubanshe</namePart>
+        <namePart lang="zh">紀念田賀龍彥博士七十周歲論文集出版社</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Sankibō busshorin</namePart>
+                <namePart lang="ja">山喜房佛書林</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

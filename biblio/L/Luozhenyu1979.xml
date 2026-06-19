@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luozhenyu1979" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Molin xingfeng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>墨林星鳳</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Auspicious Stars and Phoenixes from the Forest of Ink</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhenyu 1979</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhenyu" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenyu</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">振玉</namePart>
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenyu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued/>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="series">
+                <number>2</number>
+            </detail>
+            <detail type="volume">
+                <number>16</number>
+            </detail>
+            <extent unit="page">
+                <start>12035</start>
+                <end>12110</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yashiro1790" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="ja"><title>阿弥陀経石本考</title></titleInfo><titleInfo transliteration="romaji"><title>Amida kyō seki hon kō</title></titleInfo><titleInfo lang="en" type="translated"><title>Basic Research in the <hi rend="italic">Amida Sutra</hi> Stone</title></titleInfo><titleInfo type="reference"><title>Yashiro 1790</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yashiro" type="personal"><namePart lang="ja" type="family">屋代</namePart><namePart lang="ja" type="given">弘賢</namePart><namePart transliteration="romaji" type="family">Yashiro</namePart><namePart transliteration="romaji" type="given">Hirokata</namePart><role><roleTerm>author</roleTerm></role></name><note>源弘賢 [著].
+        寛政2年1790源弘賢の跋あり
+        other title「田嶋Tajima石經記」 (明治18年1885小杉榲邨写) を合綴.</note><genre>Web</genre><originInfo><dateIssued>1790</dateIssued><dateCaptured>2015-08-03</dateCaptured><dateOther>Postface 1790. National Diet Library, Call No. 830-8</dateOther><!--  <place>
+            <placeTerm>Manuscript</placeTerm>
+            <placeTerm lang="ja"/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji"/>
+                <namePart lang="ja"/>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>--></originInfo><location><url>http://dl.ndl.go.jp/info:ndljp/pid/2538091</url></location></mods>

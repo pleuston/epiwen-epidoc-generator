@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hechanglian2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>北齊泰山經石峪金剛經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bei Qi Tai Shan Jingshi Yu <hi rend="normal">Jingang Jing</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Diamond Sutra</hi> in Sutra Stone Valley at Mount Tai of the Northern Qi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>He Changlian 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hechanglian" type="personal">
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">昌廉</namePart>
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Changlian</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm lang="zh">合肥</placeTerm>
+            <placeTerm lang="zh" transliteration="pinyin">Hefei</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">安徽美術出版社</namePart>
+                <namePart transliteration="pinyin">Anhui meishu chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JDBYBTLXDQ" type="series">
+        <titleInfo lang="zh">
+            <title>經典碑帖筆法臨析大全</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jingdian bei tie bifa linxi daquan</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>35</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

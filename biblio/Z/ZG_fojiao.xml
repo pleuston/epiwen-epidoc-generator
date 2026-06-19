@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="ZG_fojiao">
+    <titleInfo lang="zh">
+        <title>中國佛教</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo fojiao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">Chinese Buddhism</titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="corporate" oXygen2:href="#zg_fojiao_xh">
+        <namePart lang="zh">中国佛教协会</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>2 vols.</extent>
+        <form>print</form>
+    </physicalDescription>
+    <originInfo>
+        <publisher>Zhishi chubanshe</publisher>
+        <publisher>知识出版社</publisher>
+        <place>
+            <placeTerm>Shanghai</placeTerm>
+            <placeTerm>上海</placeTerm>
+        </place>
+        <dateIssued>1982</dateIssued>
+    </originInfo>
+</mods>

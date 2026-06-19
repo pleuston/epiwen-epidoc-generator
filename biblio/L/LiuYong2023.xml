@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuYong2023" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xiangning Mabi Yu Qinwang Miao Tang moya kejing kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鄉寧馬壁峪秦王廟唐摩崖刻經考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Examination on Cliff Carvings of Tang Dynasty in Qinwang Temple, Mabi Valley, Xiangning County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Yong 2024</title>
+    </titleInfo>
+    <!--<subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <city>Tai'an</city>
+        </hierarchicalGeographic>
+        <topic>Taishan</topic>
+        <topic>Diamond sutra</topic>
+        <topic>stone scriptures</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>-->
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuyong" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Yong</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shijingyanjiu_6" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shijing yanjiu. Di liu ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石經研究第六輯</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2023</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Huaxia chubanshe</namePart>
+                </name>
+                <namePart lang="zh">華夏出版社</namePart>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>149</start>
+                <end>169</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

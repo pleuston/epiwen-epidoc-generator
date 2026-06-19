@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenxian" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wenxian</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>文献</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="corporate" ns2:href="#bjtug_cbs">
+        <namePart lang="zh">北京图书馆出版社</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1979-</dateIssued>
+        <dateIssued encoding="marc" point="start">1979</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">北京图书馆出版社</namePart>
+                <namePart transliteration="pinyin">Beijing tushuguan chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

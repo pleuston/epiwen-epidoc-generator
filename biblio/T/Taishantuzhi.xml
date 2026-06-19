@@ -1,0 +1,78 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishantuzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山圖志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan tuzhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Illustrated Gazetteer of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>圖志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Tuzhi</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Taishan tuzhi">
+        <title>Tai Shan tu­zhi 1774</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>Tai Shan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhuxiaochun" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaochun</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">孝纯</namePart>
+        <namePart type="date">1735-1801</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>8 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">8</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther qualifier="approximate">Preface 1774</dateOther>
+        <dateOther>8 vols</dateOther>
+        <dateIssued/>
+    </originInfo>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="ZH_shanshuizhi_congkan" type="host">
+        <titleInfo lang="zh">
+            <title>中華山水志叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhonghua shanshui zhi congkan</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>Xianzhuang shuju</publisher>
+            <publisher>綫裝書局</publisher>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm/>
+            </place>
+            <dateIssued>2004</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>174</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<note type="reprint">Based on the 1774 edition</note>-->
+</mods>

@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="xukeran2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Buddhist Stele Inscriptions at Jinkou Dam in Yanzhou</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yanzhou Jinkou Ba fojiao beike yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>兖州金口壩佛教碑刻研究</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xu Ke­ran 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xukeran" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">可然</namePart>
+        <namePart transliteration="pinyin" type="family">Xu</namePart>
+        <namePart transliteration="pinyin" type="given">Keran</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master’s Thesis <foreign lang="zh">碩士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Qufu Normal University</placeTerm>
+            <placeTerm lang="zh">曲阜師範大學</placeTerm>
+        </place>
+    </originInfo>
+</mods>

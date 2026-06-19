@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Zhuozhongzhi">
+    <titleInfo transliteration="pinyin">
+        <title>Zhuo zhong zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>酌中志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Records from the Inner Court (of the Ming Dynasty)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhuo zhong zhi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuruoyu" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">若愚</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Ruoyu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing guji chubanshe</namePart>
+                <namePart lang="zh">北京古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

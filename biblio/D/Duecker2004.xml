@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Duecker2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Vorbereitende Überlegungen zu einer ritualspezifischen Texttheorie</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dücker 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#duecker" type="personal">
+        <namePart lang="de" type="family">Dücker</namePart>
+        <namePart lang="de" type="given">Burckhard</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+   
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Duecker_Roeder2004" type="host">
+        <titleInfo lang="de">
+            <title>Rituelle Texthandlungsklassen: interdisziplinäre Betrachtungen zum Verhältnis von Text und Ritual</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            
+            <extent unit="page">
+                <start>1</start>
+                <end>19</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

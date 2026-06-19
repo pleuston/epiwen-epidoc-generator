@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Siren1925-26" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>La sculpture chinoise du Ve aux XIVe siècle; neuf cent spécimens en pierre, bronze, laque et bois, provenant principalement du Nord de la Chine, accompagnés d’un texte descriptif et d’une introduction sur l’évolution de la sculpture chinoise du Ve aux XIVe siècle</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sirén 1925–1926</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#siren" type="personal">
+        <namePart type="family" lang="fr">Sirén</namePart>
+        <namePart type="given" lang="fr">Osvald</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<extension>5 vols</extension>-->
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">5</detail>
+        </extent>
+    </physicalDescription>
+    <relatedItem type="series">
+        <titleInfo lang="fr">
+            <title>Annales du Musée Guimet: Bibliothèque d’art; Nouvelle série</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+       </part>
+    </relatedItem>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">G. van Oest</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Paris et Bruxelles</placeTerm>
+        </place>
+        <dateIssued point="start">1925</dateIssued>
+        <dateIssued point="end">1926</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shexianzhi_Jiaqing_1799" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔嘉慶〕涉縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Jiaqing〕 She xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of She County (Jiaqing Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>She xianzhi 1799</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qixuebiao" type="personal">
+        <namePart transliteration="pinyin" type="family">Qi</namePart>
+        <namePart transliteration="pinyin" type="given">Xuebiao</namePart>
+        <namePart lang="zh" type="family">戚</namePart>
+        <namePart lang="zh" type="given">學標</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <physicalDescription>
+        <extent>
+            <detail type="volume">8</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1799</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">She Xian</placeTerm>
+            <placeTerm lang="zh">涉縣</placeTerm>
+        </place>
+        
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Preserved in the Library of Beijing University <foreign lang="zh">北京大學圖書館</foreign>
+    </note>
+</mods>

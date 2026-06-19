@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Berling1981" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                <title>Syncretic Popular Orthodoxy Under the Ming: Evidence from ‘The Romance of the Three Teachings.’ Prepared for the ACLS-NEH Sponsored Conference on ‘Orthodoxy and Heterodoxy in Late Imperial China: Cultural Beliefs and Social Divisions’, August 20-26, 1981</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Berling and Pan Jingruo 1981</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#berling" type="personal">
+                        <namePart lang="en" type="family">Berling</namePart>
+                        <namePart lang="en" type="given">Judith</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#panjingruo" type="personal">
+        <namePart lang="en" type="family">Pan</namePart>
+        <namePart lang="en" type="given">Jingruo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+            <originInfo>
+                        <dateIssued>1981</dateIssued>
+                <publisher>
+                    <name type="corporate">
+                        <namePart lang="en">Conference paper</namePart>
+                    </name>
+                </publisher>
+                        <place>
+                                    <placeTerm>Montecito, CA</placeTerm>
+                        </place>
+                        
+                        <!--issuance>monographic</issuance-->
+            </originInfo>
+</mods>

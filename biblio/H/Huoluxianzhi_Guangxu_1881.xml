@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huoluxianzhi_Guangxu_1881" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔光緒〕獲鹿縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Guangxu〕 Huolu xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Huolu County (Guangxu Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huolu xianzhi 1881</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuxigang" type="personal">
+        <namePart transliteration="pinyin" type="family">Yu</namePart>
+        <namePart transliteration="pinyin" type="given">Xigang</namePart>
+        <namePart lang="zh" type="family">俞</namePart>
+        <namePart lang="zh" type="given">錫綱</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#caorong" type="personal">
+        <namePart transliteration="pinyin" type="family">Cao</namePart>
+        <namePart transliteration="pinyin" type="given">Rong</namePart>
+        <namePart lang="zh" type="family">曹</namePart>
+        <namePart lang="zh" type="given">鑅</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">14</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai shudian chubanshe</namePart>
+                <namePart lang="zh">上海書店出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGDFZJC_Hebei" type="series">
+        <titleInfo lang="zh">
+            <title>中國地方志集成：河北府縣志輯<!-- 4--></title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo difangzhi jicheng: Hebei fu xianzhi ji</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reproduction of the 1881 edition</note>
+</mods>

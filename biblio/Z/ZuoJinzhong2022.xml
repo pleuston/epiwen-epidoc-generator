@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZuoJinzhong2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+   
+   
+    <titleInfo lang="zh">
+        <title>探賾索隱古代道教經幢鈎沉</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tanze suoyin gudai daojiao jingchuang gouchen</title>
+    </titleInfo>
+   <titleInfo lang="en" type="translated">
+        <title>Unraveling the Mysteries and Probing into the Truth of Ancient Daoist Scripture Pillars </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zuo Jinzhong 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zuojinzhong" type="personal">
+        <namePart lang="zh" type="family">左</namePart>
+        <namePart lang="zh" type="given">金衆</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Zuo Jinzhong provides a list of all Daoist pillars 道幢 extant and known from epigraphic literature (35 items). He estimates that the total number of pillars may have been 1:60 of the total number of Buddhist pillars, or even less. An inscription dated to 1067 on a now lost pillar in Chengdu Yuju Guan 玉侷觀 claims that Zhang Daoling 張道陵erected a pillar on Min Shan 岷山 carved with spells/incantations 符咒.
+        The earliest surviving Daoist pillars are from the kaiyuan era. Most carry the Dao de jing. They were erected in the aftermath of the commentary to the Dao de jing written by Emperor Xuanzong. The author suggests that prototypes of the Daoist stone pillars are inscribed banners 幢/幡 made of cloth. Stone carved  幢 developed under the influence of their Buddhist counterparts. The article analyses all the material available from extant pillars, and from those mentioned in literature. </abstract>
+    <language>
+        <languageTerm>zh</languageTerm>
+    </language>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>大衆考古</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dazhong kaogu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <!--<detail type="volume"></detail>-->
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>33</start>
+                <end>42</end>
+            </extent>
+            <date>2022</date>
+        </part>
+    </relatedItem>
+</mods>

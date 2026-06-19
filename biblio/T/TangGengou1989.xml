@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TangGengou1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>房山石經題記中的的唐代邑社</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Fangshan shijing tiji zhongde Tangdai yishe</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="en">
+                        <title>Tang Dynasty Buddhist Associations in the Colophons of the Stone
+                                    Sutras in Fangshan</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Tang Geng’ou 1989</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanggengou" type="personal">
+                        <namePart lang="zh" type="family">堂</namePart>
+                        <namePart lang="zh" type="given">耕耦</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenxian" type="host">
+                        <titleInfo lang="zh">
+                                    <title>文獻</title>
+                        </titleInfo>
+                        <titleInfo transliteration="pinyin">
+                                    <title>Wenxian</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="no">1</detail>
+                                    <extent unit="page">
+                                                <start>74</start>
+                                                <end>106</end>
+                                    </extent>
+                                    <date>1989</date>
+                        </part>
+            </relatedItem>
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol. 3, 237–304</ref>
+    </note>
+            <!--classification edition="LvTiegang1999">reprint</classification>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Fangshan shijing yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>房山石經研究</title>
+                        </titleInfo>
+                        <name ns2:href="#lvtiegang" type="personal">
+                                    <namePart lang="zh" type="family">呂</namePart>
+                                    <namePart lang="zh" type="given">鐵鋼</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <originInfo>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>3</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>237</start>
+                                                <end>304</end>
+                                    </extent>
+                        </part>
+            </relatedItem-->
+</mods>

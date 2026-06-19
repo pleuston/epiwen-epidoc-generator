@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taisho_Dunhuang_Concordance2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>大正蔵·敦煌出土仏典対照目録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Taishō zō, Tonkō shutsudo butten taishō mokuroku</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Concordance to the <hi rend="italic">Taishō</hi> Canon and Dunhuang Buddhist
+            Manuscripts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Taishō Canon Dunhuang Manuscripts Concordance 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kokusai_bukkyo_gaku" type="corporate">
+        <namePart lang="zh">国際仏教学大学院大学附属図書館</namePart>
+        <namePart transliteration="romaji">Kokusai Bukkyōgaku daigakuin daigaku fuzoku toshokan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="zh">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">国際仏教学大学院大学附属図書館</namePart>
+                <namePart transliteration="romaji">Kokusai Bukkyōgaku daigakuin daigaku fuzoku
+                    toshokan</namePart>
+                <namePart lang="en">International College for Postgraduate Buddhist Studies Library</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="zh">
+            <title>大蔵経対照目録</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Daizō kyō taishō mokuroku</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>The Taishō Canon Concordance Series</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

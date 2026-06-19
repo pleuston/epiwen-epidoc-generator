@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BhattacharyaGouriswar2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>How to Justify the Spelling of the Buddhist Hybrid Sanskrit Term Bodhisatva?</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bhattacharya 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#bhattacharya_gouriswar" type="personal">
+        <namePart lang="de" type="family">Bhattacharya</namePart>
+        <namePart lang="de" type="given">Gouriswar</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Franco_Zin2010" type="host">
+        <titleInfo>
+            <title>From Turfan to Ajanta: Festschrift for Dieter Schlingloff on the Occasion of His
+                Eightieth Birthday</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>35</start>
+                <end>49</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

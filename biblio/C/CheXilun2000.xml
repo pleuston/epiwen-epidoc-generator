@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CheXilun2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《泰山道里記》的作者聶鈫</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Tai Shan daoli ji</hi> de zuozhe Nie Wen</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Nie Wen, the Author of <hi rend="italic">An Itinerary of Mount Tai</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Che Xilun 2000</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#CheXilun" type="personal">
+        <namePart type="family" transliteration="other">Che</namePart>
+        <namePart type="given" transliteration="other">Xilun</namePart>
+        <namePart lang="zh" type="family">車</namePart>
+        <namePart lang="zh" type="given">錫倫</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#NTU_HistoryJournal" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Daizong xuekan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>岱宗學刊</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Daizong Journal</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2000</date>
+            <detail type="volume">2</detail>
+            <extent unit="page">
+                <start>11</start>
+                <end>13</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

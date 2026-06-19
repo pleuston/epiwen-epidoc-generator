@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Muranaka1982" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国南北朝時代の禅観について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku Nanbokuchō jidai no Zenkan ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>About Zen contemplation under the Southern and Northern Dynasties in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Muranaka 1982</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#muranaka" type="personal">
+        <namePart transliteration="romaji" type="family">Muranaka</namePart>
+        <namePart transliteration="romaji" type="given">Yūshō</namePart>
+        <namePart lang="ja" type="family">村中</namePart>
+        <namePart lang="ja" type="given">祐生</namePart>
+        <namePart type="family">Muranaka</namePart>
+        <namePart type="given">Yūshō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1982</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Taisho_kiyo" type="host">
+        <titleInfo lang="ja">
+            <title>大正大學研究紀要</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō daigaku kenkyū kiyō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>67</number>
+            </detail>
+            <extent unit="page">
+                <start>19</start>
+                <end>39</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

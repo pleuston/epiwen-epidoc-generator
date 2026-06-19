@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChengZhangcan2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shike kegong yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>石刻刻工研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Technique of Stone Carvings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cheng Zhangcan 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengzhangcan" type="personal">
+        <namePart lang="zh" type="family">程</namePart>
+        <namePart lang="zh" type="given">章燦</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShiYan1956" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>酒泉文殊山的石窟寺院遺迹</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jiuquan Wenshu Shan de shiku siyuan yiji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Remains of the Temples and the Caves at Wenshu Mountain in Jiuquan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi Yan 1956</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shiyan" type="personal">
+        <namePart lang="zh" type="family">Shi</namePart>
+        <namePart lang="zh" type="given">Yan</namePart>
+        <namePart lang="zh" type="family">史</namePart>
+        <namePart lang="zh" type="given">岩</namePart>
+       
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WenwuCankaoZiliao" type="host">
+        <titleInfo lang="zh">
+            <title>文物參考資料</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu cankao ziliao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">7</detail>
+            <extent unit="page">
+                <start>53</start>
+                <end>59</end>
+            </extent>
+            <date>1956</date>
+        </part>
+    </relatedItem>
+</mods>

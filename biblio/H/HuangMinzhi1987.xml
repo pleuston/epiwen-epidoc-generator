@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuangMinzhi1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Song dai zhengfu duiyu siyuan de guanli zhengce</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>宋代政府對於寺院的管理政策</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Song Dynasty Government’s Temple Management Policies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Min-chi 1987</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangminzhi" type="personal">
+        <namePart type="family">黃</namePart>
+        <namePart type="given">敏枝</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Min-chi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DongfangZongjiaoYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dongfang zongjiao yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>東方宗教硏究</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Studies in Oriental Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1987</date>
+            <detail type="volume">1</detail>
+            <extent unit="page">
+                <start>109</start>
+                <end>141</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

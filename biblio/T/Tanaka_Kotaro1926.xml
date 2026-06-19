@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tanaka_Kotaro1926" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>貢太郎見聞録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kōtarō kenbunroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Records of (Tanaka) Kōtarō</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tanaka 1926</title>
+    </titleInfo>
+    <abstract>[Taishan][JSY][Diamond Sutra][Rubbings]:
+        Travel to China beginning in April 1923.
+        
+        Tanaka travelled with a Shitamoto (?) 下元 and a Ono 小野.
+        The full-name of both persons is missing, but this Shitamoto may be 下元火耕? 
+        According to another book by Tanaka, a Shitamoto was a friend of him, 
+        a journalist and owner of a weekly newspaper called Kantō shinbun 關東新聞 in 
+        Heijō (todays Pyongyang; 平壌), near the Taedongmun 대동문 大同門.
+        In the same book, a ONO Giichi 小野義一 is also mentioned.
+        Tanaka Kōtarō 田中貢太郎. “Shusei: Zuihitsu 酒星：隨筆”. 
+        Tōkyō: Gakugeisha 學藝社, 1934.
+        
+        While visiting the JSY, he saw about 200 characters in JSY, being all black
+        due to the rubbing-makers and their ink. The three couldn’t find good characters
+        in time, as well as recognizing that the quality of paper and ink being bad.
+        Shitamoto (?) pushed the other two to leave by saying that he knows someone in
+        Tianjing who can buy JSY-Rubbings if they want to.
+        
+        “Taizan ni noborite tenka o shō to su 泰山に上りて天下を小とす [Climbing on Taishan and Making the World Small]”
+        pp. 419-441
+        
+        pp. 440-441
+        <p>私達はすぐ碧霞元君廟へとおりた。もう一時になつてゐた。そこには轎夫が待つてゐて、すぐ私達を乘せて出發したが、降り坂の路は石をころがすやうに一時間もかからないうちに東西橋へまで歸つて來た。私達はそこで往き路に見落してゐた石經峪を見るつもりで、橋を渡つた所から溪におり、その前溪になつた溪へと往つた。</p>
+        <p>明るい陽が出てゐた。此方に低く溪一ぱいに濶がつた大巌石には、前岸に近いはうに三四人の者がゐて、起つたり蹲んだりして何かやつてゐた。それがその巌石に彫んだ金剛經の經文の文字を石刷にしてゐるところであつた。私達はすこし流れてゐる水を越えてそのはうへと往つた。</p>
+        <p>水のために磨滅して二百字ばかり殘つてゐる七八寸の長さのある文字は、石刷のために周圍が墨汁で眞黒になつてゐた。紙をその文字にあてて掌で押してゐる者もあれば、刷つた文字の墨汁を乾かしてゐる者もあつた。私達は土產にと思つて刷りあがつたのを見はじめたが、どうも思はしい文字がない。それに墨汁もわるければ紙もわるい。</p>
+        <p>「さあ、早くしやうぢやないか、いるなら天津に知つてる人がある、その男に賴んで買つてもらはふぢやないか、時間がおそくなる、」</p>
+        <p>下元君がさう云ふので、私達は起ちあがつた。</p></abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tanaka_kotaro" type="personal">
+        <namePart transliteration="romaji" type="family">Tanaka</namePart>
+        <namePart transliteration="romaji" type="given">Kōtarō</namePart>
+        <namePart lang="ja" type="family">田中</namePart>
+        <namePart lang="ja" type="given">貢太郎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1926</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Ōsaka mainichi shinbunsha</namePart>
+                <namePart lang="ja">大阪毎日新聞社</namePart>
+            </name>
+        </publisher>
+        <!--<place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō nichinichi shinbunsha</namePart>
+                <namePart lang="ja">東京日々新聞社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Seibunkan shoten</namePart>
+                <namePart lang="ja">盛文館書店</namePart>
+            </name>
+        </publisher>-->
+    </originInfo>
+    <issuance>monographic</issuance>
+</mods>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Egan2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Literary Aspects of the Calligraphy Couplets</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Egan 2003</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>對聯的文學範疇</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#egan" type="personal">
+        <namePart lang="en" type="family">Egan</namePart>
+        <namePart lang="en" type="given">Ronald C.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lizhigang" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">志剛</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm>Hong Kong</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Art Museum,The Chinese University of Hongkong</namePart>
+                <namePart lang="zh">香港中文大學文物舘</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HBLZ" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Hebilianzhu:Lechangzai Xuan cang Qingdai yinglian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>合璧聯珠：樂常在軒藏清代楹聯</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2003</date>
+            <extent unit="page">
+                <start>16-24, 343</start>
+                <end>348</end>
+            </extent>
+            <!--extent unit="page">
+                <start>343</start>
+                <end>348</end>
+            </extent-->
+        </part>
+    </relatedItem>
+</mods>

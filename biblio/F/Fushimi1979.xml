@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fushimi1979" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>隋唐房山雲居寺石經</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Zui-Tō Bōzan Ungoji sekikyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Sutras from the Sui and Tang Dynasties in Cloud Dwelling Monastery in Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fushimi 1979</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fushimi" type="personal">
+        <namePart lang="ja" type="family">伏見</namePart>
+        <namePart lang="ja" type="given">冲敬</namePart>
+        <namePart transliteration="romaji" type="family">Fushimi</namePart>
+        <namePart transliteration="romaji" type="given">Chūkei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1979</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nigensha</namePart>
+                <namePart lang="ja">二玄社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shoseki_meihin_sokan" type="series">
+        <titleInfo lang="ja">
+            <title>書迹名品叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shoseki meihin sōkan</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

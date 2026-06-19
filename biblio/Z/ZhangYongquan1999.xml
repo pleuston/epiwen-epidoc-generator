@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangYongquan1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang ben <hi rend="italic">Fumu enzhong jing</hi> yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌本《父母恩重經》研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies in Dunhuang Manuscripts of the <hi rend="italic">Sutra on the Depth of the
+                Kindness of Parents</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Yongquan 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangyongquan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Yongquan</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">涌泉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenshi</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文史</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1999</date>
+            <detail type="volume">4</detail>
+            <extent unit="page">
+                <start>65</start>
+                <end>86</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

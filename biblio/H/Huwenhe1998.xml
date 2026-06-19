@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huwenhe1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Renshou Xian Tanshenyan di 53 hao ‘Sanbao’ ku youbi ‘Nanzhu Guan ji’ zhong Daozang
+            jingmu yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>仁壽縣檀神岩第53號“三寶”窟右壁“南竺觀記”中道藏經目研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the Catalog of Holy Scriptures of the Taoist Canon from the “Record of the
+            Nanzhu Temple” on the Right Wall of Cave 53, the “Cave of the Three Jewels” at Tanshen
+            Cliff in Renshou County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hu Wen­he 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huwenhe" type="personal">
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Wenhe</namePart>
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">文和</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ShijieZongjiaoYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shijie zongjiao yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>世界宗教研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1998</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>118</start>
+                <end>128</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

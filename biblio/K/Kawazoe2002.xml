@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Kawazoe2002"><titleInfo lang="ja"><title>福岡県宗像大社所蔵「阿弥陀経石」について<hi rend="dash">──</hi>「日蓮と浄土教」についての参考資料として</title></titleInfo><titleInfo transliteration="romaji"><title>Fukuoka ken Munakata taisha shozō ‘Amida kyō seki’ ni tsuite – ‘Nichiren to Jōdokyō’ ni tsuite no sankō shiryō to shite</title></titleInfo><titleInfo lang="en" type="translated"><title>The Stone Cut <hi rend="italic">Amitābha Sutra</hi> Preserved in the Munakata Grand Shrine in Fukuoka Prefecture, with Reference Material on the Pure Land Teaching of Nichiren</title></titleInfo><titleInfo type="reference"><title>Kawazoe 2002</title></titleInfo><name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kawazoe" type="personal"><namePart lang="ja" type="family">川添</namePart><namePart lang="ja" type="given">昭二</namePart><namePart transliteration="romaji" type="family">Kawazoe</namePart><namePart transliteration="romaji" type="given">Shōji</namePart><role><roleTerm>author</roleTerm></role></name><abstract>state of condition, denomination, origin and inscription of Munakata Taisha Amidakyoseki</abstract><relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Nichiren_kyogaku" type="host"><titleInfo lang="ja"><title>日蓮教学研究所紀要</title></titleInfo><titleInfo transliteration="romaji"><title>Nichiren kyōgaku kenkyūsho kiyō</title></titleInfo><!--  <titleInfo lang="en" type="translated">
+            <title>Journal of Nichiren Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Rissho Daigaku Nichirengaku kyōgaku kenkyūsho</namePart>
+                    <namePart lang="ja">立正大學日蓮教学研究所</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>--><originInfo><issuance>continuing</issuance></originInfo><part><detail type="volume">30</detail><extent unit="page"><start>168</start><end>179</end></extent><date>2002</date></part></relatedItem></mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dazushikequanji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dazu shike quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>大足石刻全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Collection of Dazu Rock Carvings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dazu shike quanji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dazu_shike_yjy" type="corporate">
+        <namePart lang="zh">大足石刻研究院</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>11 vols.</extension>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chongqing</placeTerm>
+            <placeTerm lang="zh">重庆</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chongqing chubanshe</namePart>
+                <namePart lang="zh">重庆出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

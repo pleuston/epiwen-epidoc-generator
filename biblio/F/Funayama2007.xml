@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Funayama2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>‘如是我聞’か‘如是我聞一時’か<hi rend="dash">──</hi>六朝隋唐の‘如是我聞’解釋史への新視角<hi rend="dash">──</hi>
+        </title><!--<title>「如是我聞」か「如是我聞一時」か<hi rend="dash">──</hi>六朝隋唐の「如是我聞」解釋史への新視角<hi rend="dash">──</hi></title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Nyoze gamon’ ka ‘Nyoze gamon ichi-ji’ ka: Rikuchō Zui-Tō no ‘Nyoze gamon’ kaishakushi e no shin shikaku</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>‘Thus Have I Heard’ and ‘Thus Have I Heard at One Time’: A New Perspective on the Exegetical History of Interpreting ‘Thus Have I Heard’ in the Six Dynasties, Sui and Tang Periods</title>
+    </titleInfo>
+    <abstract>Official English translation: 
+    “Thus Have I Heard” or “Thus Have I Heard at One Time”? New Perspectives on the Exegetical History of “Thus Have I Heard” in the Six Dynasties, Sui and Tang Periods</abstract>
+    <titleInfo type="reference">
+        <title>Funayama 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#funayama" type="personal">
+        <namePart lang="ja" type="family">船山</namePart>
+        <namePart lang="ja" type="given">徹</namePart>
+        <namePart transliteration="romaji" type="family">Funayama</namePart>
+        <namePart transliteration="romaji" type="given">Tōru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="DharmaDrumJournal" type="host">
+        <titleInfo lang="zh">
+            <title>法鼓佛學學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fagu foxue xuebao</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Dharma Drum Journal of Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <dateIssued>2007</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Taibei</placeTerm>
+                <placeTerm lang="zh">臺北</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Taibei fagu foxue yanxiu xueyuan</namePart>
+                    <namePart lang="zh">臺北法鼓佛教研修學院</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="pages">
+                <start>241</start>
+                <end>275</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

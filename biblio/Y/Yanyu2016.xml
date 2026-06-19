@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yanyu2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wan Qing zhuan li guti de wenhua gongneng yi xuezhe Yu Yue wei shijiao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>晚清篆隸古體的文化功能<hi rend="dash">──</hi>以學者俞樾爲視角</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Cultural Functions of the Seal and Clerical Scripts in Late Qing: Yu Yue as a Case Study</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yan Yu 2016</title>
+        
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yanyu" type="personal">
+        <namePart lang="zh" type="family">延</namePart>
+        <namePart lang="zh" type="given">雨</namePart>
+        <namePart transliteration="pinyin" type="family">Yan</namePart>
+        <namePart transliteration="pinyin" type="given">yu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+   
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="HBLZ3" type="host">
+        <titleInfo lang="en">
+            <title>Double Beauty III: Qing Dynasty Couplets from the Lechangzai Xuan Collection <foreign lang="zh">合璧聯珠三：樂常在軒藏清代楹聯</foreign>
+            </title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#linhaiyang" type="personal">
+            <namePart type="family" lang="en">Lin</namePart>
+            <namePart type="given" lang="en">Haiyang</namePart>
+            <role>
+                <roleTerm>translator</roleTerm>
+            </role>
+        </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mojialiang" type="personal">
+            <namePart type="family" lang="zh">莫</namePart>
+            <namePart type="given" lang="zh">家良</namePart>
+            <namePart type="family" transliteration="pinyin">Mo</namePart>
+            <namePart type="given" transliteration="pinyin">Jialiang</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2016</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hongkong</placeTerm>
+                <placeTerm lang="zh">香港</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Art Museum, Institute of Chinese Studies, The Chinese University of Hong Kong</namePart>
+                    <namePart transliteration="pinyin">Xianggang zhongwen daxue Zhongguo wenhua yanjiusuo wenwuguan</namePart>
+                    <namePart lang="zh">香港中文大學中國文化研究所文物館</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>62</start>
+                <end>83</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

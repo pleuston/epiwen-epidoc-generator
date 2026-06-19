@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuShufen2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Death and the Degeneration of Life: Exposure of the
+            Corpse in Medieval Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Shu­fen 2000</title>
+    </titleInfo>
+    <abstract/>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liushufen" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">淑芬</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Shufen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Journal of Chinese Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>1</start>
+                <end>30</end>
+            </extent>
+        <detail type="volume">28</detail>
+        
+        
+        <date>2000</date>
+        </part>
+    </relatedItem>
+</mods>

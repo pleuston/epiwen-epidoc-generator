@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Michihata1972" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国の石佛と石經</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku no sekibutsu to sekikyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Buddhas and Stone Sutras in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Michihata 1972</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#michihata" type="personal">
+        <namePart lang="ja" type="family">道端</namePart>
+        <namePart lang="ja" type="given">良秀</namePart>
+        <namePart transliteration="romaji" type="family">Michihata</namePart>
+        <namePart transliteration="romaji" type="given">Ryōshū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1972</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Hōzōkan</namePart>
+                <namePart lang="ja">法藏館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <edition/>
+    </originInfo>
+</mods>

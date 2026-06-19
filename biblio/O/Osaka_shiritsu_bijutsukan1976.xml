@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Osaka_shiritsu_bijutsukan1976" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>六朝の美術</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Rikuchō no bijutsu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōsaka shiritsu bijutsukan 1976</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Arts of the Six Dynasties</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Osaka_shiritsu_bijutsukan" type="corporate">
+        <namePart lang="ja">大阪市立美術館</namePart>
+        <namePart transliteration="romaji">Ōsaka shiritsu bijutsukan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1976</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Heibonsha</namePart>
+                <namePart lang="ja">平凡社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

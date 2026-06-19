@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fan_Zheng_Kong2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Kaogu yu yishushi de jiaohui: Zhongguo meishu xueyuan guoji xueshu
+                                    yantaohui lunwenji</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>考古與藝術史的交匯：中國美術學院國際學術研討會論文集</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>The Interchange between Archaeology and Art History. Proceedings of
+                                    the International Forum on Archaeology and Art History. China
+                                    Academy of Art, Hangzhou 2008</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Fan, Zheng, Kong 2009</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fanjingzhong" type="personal">
+                        <namePart lang="zh" type="family">范</namePart>
+                        <namePart lang="zh" type="given">景中</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhengyan" type="personal">
+                        <namePart lang="zh" type="family">鄭</namePart>
+                        <namePart lang="zh" type="given">岩</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#konglingwei" type="personal">
+                        <namePart lang="zh" type="family">孔</namePart>
+                        <namePart lang="zh" type="given">令偉</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>2009</dateIssued>
+                        <place>
+                                    <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+                                    <placeTerm lang="zh">杭州</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="zh">中國美術學院出版社</namePart>
+                                                <namePart transliteration="pinyin">Zhongguo meishu
+                                                  xueyuan chubanshe</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

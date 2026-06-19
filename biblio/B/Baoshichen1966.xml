@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baoshichen1966" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Compiled Qing Period Criticisms on Calligraphy</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yizhou shuangji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>藝舟雙楫</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yi­zhou Shuang­ji 1966</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baoshichen" type="personal">
+        <namePart lang="zh" type="family">包</namePart>
+        <namePart lang="zh" type="given">世臣</namePart>
+        <namePart transliteration="pinyin">Bao</namePart>
+        <namePart transliteration="pinyin">Shichen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangjialuo" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">家駱</namePart>
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Jialuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1966</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">世界書局</namePart>
+                <namePart transliteration="pinyin">Shijie shuju</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zengding_Zhongguo_Xueshumingzhu" type="series">
+        <titleInfo lang="zh">
+            <title>增訂中國學術名著第五輯; 藝術叢編第一集第四冊: 清人書學論著</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Added Chinese Classics Series 5; Art Classics Series 1 Volume 4: Compiled
+                Criticisms on Calligraphy of the Qing Dynasty</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zengding Zhongguo xue shu mingzhu di wu ji yishu congbian di yi ji di si ce:
+                Qingren shuxue lunzhu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

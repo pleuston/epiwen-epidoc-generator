@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangShujun2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Hua Xia zumiao—Wahuang Gong</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>華夏祖廟<hi rend="dash">──</hi>媧皇宫</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Temples of Chinese Ancestors: Wahuang Palace</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Shujun 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangshujun" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Shujun</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">書俊</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xulumei" type="personal">
+        <namePart transliteration="pinyin" type="family">Xu</namePart>
+        <namePart transliteration="pinyin" type="given">Lumei</namePart>
+        <namePart lang="zh" type="family">許</namePart>
+        <namePart lang="zh" type="given">潞梅</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WenwuChunqiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu chunqiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物春秋</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2006</date>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>28</start>
+                <end>33</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

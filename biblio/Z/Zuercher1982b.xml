@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zuercher1982b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Perspectives in the Study of Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zürcher 1982b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zuercher" type="personal">
+        <namePart lang="en" type="family">Zürcher</namePart>
+        <namePart lang="en" type="given">Erik</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. 164: "...Chinese Buddhism in its totality: a tiny clerical establishment is working
+        at imperial order in a handful of top-level official monasteries; they are charged with the
+        production of texts, obviously as a magical protection for state and dynasty; the production
+        of those texts is to some extent regulated; their inclusion into the Canon (apparently an
+        imperial prerogative) certainly is. The texts are subjected to clerical censorship under
+        imperial supervision... All this takes place in an extremely narrow circle, both socially
+        and geographically." p. 165: "...our picture of Chinese Buddhism as a historical phenomenon
+        is not merely unbalanced, it is distorted beyond all proportions...." It was carried on by a
+        very small, highly literate élite within the clergy; their theories and teachings
+        represented Buddhism at its highest level of sophistication; they were closely linked up
+        with the worldly establishment, notably the imperial court." p. 167: "In A.D. 510 there was
+        an ascetic monk in Yingchou 郢州 (present-day Wuhan), named Miao-kuang 妙光, .... He preached an
+        apocryphal text, no doubt pretending to have "received" it, entitled "The Sūtra of the
+        Adornment of Sarvajñata and his Family" sa-p’o-jo-t’o chüan-shu yen-ching 薩婆若陀眷屬嚴經, and he
+        soon was surrounded by a large crowd of devotees. The text itself apparently also functioned
+        as a sacred object: written on a screen and covered with red silk gauze, it was venerated
+        with offerings of incense and flowers." (T#2145, 55:40b24-c12) p. 169: "The translation of
+        scriptures--one of the central elements in the Great Tradition--is of course a highly
+        meritorious work that benefits all those who take part in it, as well as its sponsors, but
+        it is described in rather down-to-earth terms. Chinese versions are "produced" (ch’u 出);
+        they are in no way supernaturally revealed, or found in mountain caves." p. 172:
+        "...hagiography is not just fantasy...It is the hyperbolic expression of existing ideals and
+        attitudes."</abstract>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JournalRoyalAsiaticSociety" type="host">
+        <titleInfo xml:lang="en">
+            <title>Journal of the Royal Asiatic Society of Great Britain and Ireland</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>161</start>
+                <end>176</end>
+            </extent>
+            <date>1982</date>
+        </part>
+    </relatedItem>
+</mods>

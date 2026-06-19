@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Haratake1983" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>夏目漱石と菅虎雄<!--（すがとらお）--><hi rend="dash">──</hi>布衣禅情を楽しむ心友</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Natsume Sōseki to Suga Torao: Fui Zenjō o tanoshimu shin’yū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Natsume Soseki and Suga Torao: Best Friends Appreciating a Common Life and a Zen Sentiment</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Haratake 1983</title>
+    </titleInfo>
+    <abstract>Research about Suga Torao 菅虎雄 and his relationship to Natsume Sōseki 夏目漱石 or other popular writers such as Aizu Yaichi 會津八一 or Akutagawa Ryūnosuke 芥川龍之介. In the volume Suga is mentioned as one of the people who made Akutagawa interested in Calligraphy and Rubbings. Furthermore, Natsume’s interest in Chinese Poetry (Kanshi 漢詩) was also influenced by Suga. Unfortunately, there is no mention of the relationship between Natsume and Rubbings or Natsumes folding screen with the JSY-Rubbings from Taishan. The book was mentioned to us by Mr. Suzuki Yasushi 鈴木靖 of the Natsume Soseki Memorial Museum 漱石山房記念館.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#haratake" type="personal">
+        <namePart transliteration="romaji" type="family">Haratake</namePart>
+        <namePart transliteration="romaji" type="given">Satoru</namePart>
+        <namePart lang="ja" type="family">原武</namePart>
+        <namePart lang="ja" type="given">哲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1983</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōiku shuppan sentā</namePart>
+                <namePart lang="ja">教育出版センター</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        
+        <titleInfo lang="en"><title><foreign xml:lang="ja">Kenkyū sensho 研究選書</foreign></title></titleInfo>
+       
+        <part>
+            <detail type="volume">
+                <number>31</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

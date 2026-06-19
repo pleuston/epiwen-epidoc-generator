@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuoZhao1993" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>‘Qidan zang’ yu ‘Kaibao zang’ zhi chayi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《契丹藏》與《開寶藏》之差异</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Differences Between the <hi rend="italic">Qidan Canon</hi> and the <hi rend="italic">Kaibao Canon</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhao 1993</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhao</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">炤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">8</detail>
+            <extent unit="page">
+                <start>59</start>
+                <end>65</end>
+            </extent>
+            <date>1993</date>
+        </part>
+    </relatedItem>
+</mods>

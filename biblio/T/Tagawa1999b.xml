@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tagawa1999b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>『観無量寿経』の成立問題試考</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>“Kanmuryōjukyō” no seiritsu mondai shikō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Analysis of the Problem of the Origin of the <hi rend="italic">Sutra on the Contemplation on the Buddha of Immeasurable Life</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kagawa 1999b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tagawa" type="personal">
+        <namePart lang="ja" type="family">香川</namePart>
+        <namePart lang="ja" type="given">孝雄</namePart>
+        <namePart transliteration="romaji" type="family">Kagawa</namePart>
+        <namePart transliteration="romaji" type="given">Takao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tagawa1999a" type="host">
+        <titleInfo lang="ja">
+            <title>仏教大学総合研究所紀要别册：浄土教の総合的研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō daigaku sōgō kenkyūjo kiyō bessastu: Jōdokyō no sōgōteki kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1999</dateIssued>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>13</start>
+                <end>37</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

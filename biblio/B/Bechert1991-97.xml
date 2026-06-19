@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bechert1991-97" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Dating of the Historical Buddha. Die Datierung des historischen Buddha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bechert 1991–1997</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bechert" type="personal">
+        <namePart lang="de" type="family">Bechert</namePart>
+        <namePart lang="de" type="given">Heinz</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1991</dateIssued>
+        <dateIssued point="end">1997</dateIssued>
+        <place>
+            <placeTerm>Göttingen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Vandenhoeck und Ruprecht</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SymposienBuddhismusforschung" type="series">
+        <titleInfo lang="de">
+            <title>Symposien zur Buddhismusforschung 4,</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1–3</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chenkwangtzuu2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dong Ya kaoguxue de zaisi: Zhang Guangzhi xiansheng shishi shi zhounian jinian lunwenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>東亞考古學的再思：張光直先生逝世十周年紀念論文集</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Rethinking East Asian Archaeology: Memorial Essay Collection for the Tenth Anniversary of Kwang-chih Chang’s Death</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Kwang-Tzuu et al. 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenkwangtzuu" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">光祖</namePart>
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Kwang-Tzuu</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhong yan yuan lishi yuyan yanjiusuo</namePart>
+                <namePart lang="zh">中研院歷史語言研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Zhongyang yanjiuyuan lishi yuyan yanjiusuo huiyi lunwenji <foreign lang="zh">中央研究院歷史語言研究所會議論文集</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

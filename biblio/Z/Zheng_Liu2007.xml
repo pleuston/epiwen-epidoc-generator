@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zheng_Liu2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>山東佛教史迹<hi rend="dash">──</hi>神通寺、龍虎塔與小龍虎塔</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Fojiao shiji—Shentong Si, Longhu Ta yu Xiao Longhu Ta </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Buddhist Historical Sites in Shandong: Shentong Monastery, the Longhu Pagoda, and the Small Longhu Pagoda</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tangdai wenhua yanjiu 1994">
+        <title>Zheng and Liu 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhengyan" type="personal">
+        <namePart lang="zh" type="family">鄭</namePart>
+        <namePart lang="zh" type="given">岩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liushanyi" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">善沂</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fagu wenhua chuban she</namePart>
+                <namePart lang="zh">法鼓文化出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

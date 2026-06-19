@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeeYumin1984" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Ketumati Maitreya and Tusita Maitreya in Early China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lee Yu-min 1984</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#leeyumin" type="personal">
+        <namePart transliteration="taiwan" type="family">Lee</namePart>
+        <namePart transliteration="taiwan" type="given">Yu-min</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">玉珉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#NPMB" type="host">
+        <titleInfo lang="en">
+            <title>National Palace Museum Bulletin</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">19</detail>
+            <detail type="no">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>12</end>
+            </extent>
+            <date>1984</date>
+        </part>
+    </relatedItem>
+</mods>

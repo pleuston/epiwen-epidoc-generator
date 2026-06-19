@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gimello1976a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chih-yen <hi rend="normal">(</hi>
+            <foreign lang="zh">智嚴</foreign>
+            <hi rend="normal">, 602–668)</hi> and the Foundations of Hua-yen <hi rend="normal">(</hi>
+            <foreign lang="zh">華嚴</foreign>
+            <hi rend="normal">)</hi> Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gimello 1976a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gimello" type="personal">
+        <namePart lang="en" type="family">Gimello</namePart>
+        <namePart lang="en" type="given">Robert Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>1976</dateIssued>
+        <place>
+            <placeTerm>Columbia University</placeTerm>
+        </place>
+    </originInfo>
+</mods>

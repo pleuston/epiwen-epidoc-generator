@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dutt1942" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Gilgit Manuscripts, vol. III: Mūlasarvāstivādavinayavastu, Part 2. “Cīvaravastu”</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dutt 1942</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dutt" type="personal">
+        <namePart lang="en" type="family">Dutt</namePart>
+        <namePart lang="en" type="given">N.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>Srinagar/Calcutta</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Calcutta Oriental Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1942</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<note>Part 2, “Cīvaravastu,” spans pp. 1-148.</note>-->
+</mods>

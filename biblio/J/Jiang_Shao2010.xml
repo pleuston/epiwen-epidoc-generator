@@ -1,0 +1,103 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jiang_Shao2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yingshan Xian Taipeng Shan shiku chubu yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>營山縣太蓬山石窟初步研究</title>
+        <!--<title>營山縣太蓬山石窟内容目錄</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Study of the Mount Taipeng Cave Shrines in Yingshan County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jiang and Shao 2010</title>
+        <!--<title>Jiang Xiao­chun, Wu Hongjian and Shao Lei 2010</title>-->
+    </titleInfo>
+    <abstract>Taipeng Shan 太蓬山, located 47 km north-east of Yingshan County 營山縣, at 731 m above sea
+        level. Most inscriptions are distributed across the eastern and western face of Touming
+        Cliff (Touming yan 透明岩/巖). The authors give an overview on the research history of the most
+        famous inscription of the site, the colophon by An Lushan 安祿山, dated to 713 (also the
+        earliest date found at the site). In July 2008, the sites was surveyed, and the niches were
+        numbered (again). Touming Cliff, Donghan Gate 東寒門 and Xihan Gate 西寒門 together count 104
+        niches and more than 1470 sculpted images. Classification of types of caves/niches follows,
+        and an overview on iconographical motifs is given. Niches K32 and K38 present Amitābha
+        teaching to 52 bodhisattvas (weathered, bodhisattvas not countable).
+        
+        Buddhist inscriptions,
+        five in total. K7: Diamond Sutra, illegible. 
+        p. 60: K7. Diamond Sutra and  K8. Diamond Sutra, illegible and transcription and identification of the two phrases about the vajra beings: 第二奉请辟毒金刚，第三奉请黄随求金刚
+       
+        K9 (commonly
+        named Dagu Cave 打鼓洞): fragments of a sutra text, illegible. K13: Diamond Sutra, ca. 5.000
+        characters K53: Fragments of 妙法蓮華經普賢菩薩勸發品第二十八 (T.262 or T.264?) 方便陀羅尼…滿三…即于佛前而說咒曰…阿婆…帝二
+        (T.262, 9: 61b5-27) 
+        
+        6 niches have votive inscriptions 造像題記:
+        K13 (outside, on the left-hand
+        side of the niche) 普濟寺碑記dated 907 (transcribed p. 60). Connection to the belief in the Ten Kings of Hell.
+        K16 (located on the right-hand side of K13; outside the niche K16, to the
+        left-and right-hand side on the cliff) right-hand side: 馮可振造像碑記dated 895 (well preserved,
+        transcribed p. 61) Feng Kezhen donated the thousand-eyed and thousand-arms Guanshiyin
+        千手千眼觀音像. Left-hand side: 修十王生七齋記, dated to 888 (transcribed p. 61) 
+        K29 (below K28, below the
+        four characters 晚霞晨暉, on the right-hand side of the outer niche frame) 安祿山題龕, dated 713
+        (transcribed p. 62) 
+        K36: fragments of an inscription, illegible 
+        K45: fragments of
+        inscriptions on the right- and left-hand side of the niche 
+        
+        南寒門K2: dated 1741 
+        
+        Visitor  inscriptions (in 4 places); and K29 has the poem 刺安祿山 by the retired scholar Yuan Jushi 遠居士
+        of the Qing, followed by 安祿山題龕辯 by Zhu Shimin 朱時敏, dated 1229, who writes that the author of
+        the former cannot be the famous An Lushan. 
+        
+        Chronology of the site: K1, K21, K22, K23 are the
+        earliest, dated on style (mandorla) to Early Tang by comparison with Longmen, Middle Binyang
+        Cave 賓陽中洞 (Bei Wei) . K43, K45; perhaps also Early Tang, comparable to Guangzuan Huangze Si
+        cave 15, Guangyuan 劍閣櫎梁子 cave 2 and cave 6 . 
+        Other cave clusters are also dated on style.
+        The Rice Granary Path 米倉道 connected Taipeng Shan and Bazhong 巴中 
+       
+    </abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jiangxiaochun" type="personal">
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaochun</namePart>
+        <namePart lang="zh" type="family">蔣</namePart>
+        <namePart lang="zh" type="given">曉春</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shaolei" type="personal">
+        <namePart transliteration="pinyin" type="family">Shao</namePart>
+        <namePart transliteration="pinyin" type="given">Lei</namePart>
+        <namePart lang="zh" type="family">邵</namePart>
+        <namePart lang="zh" type="given">磊</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2010</date>
+            <detail type="volume">122</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>56</start>
+                <end>67</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

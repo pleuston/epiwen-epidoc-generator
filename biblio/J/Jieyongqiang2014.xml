@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jieyongqiang2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Tang Zhigai fashi bei</hi> guanlian wenti xin kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《唐智該法師碑》關聯問題新考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Research on Questions Related to the <hi rend="italic">Stele of Dharma Master Zhigai of the Tang</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jie Yongqiang 2014</title>
+    </titleInfo>
+    <abstract>Official English translation: On the Related Problems of the Zhigai Tablet of the Tang Dynasty</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jieyongqiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Jie</namePart>
+        <namePart transliteration="pinyin" type="given">Yongqiang</namePart>
+        <namePart lang="zh" type="family">介</namePart>
+        <namePart lang="zh" type="given">永强</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangkaisheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Kaisheng</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">鍇生</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongyuanWenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongyuan wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中原文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2014</date>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>94</start>
+                <end>97, 126</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

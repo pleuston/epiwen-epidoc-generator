@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2008b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Hebei She Xian Zhonghuang Shan kejing zhi ‘banben’ yu xiangguan wenti</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>河北涉縣中皇山刻經之‘版本’與相關問題</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Stone Sutra “Versions” Carved at Mount Zhonghuang in She County, Hebei, and Related Questions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2008b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+      
+        <titleInfo xml:lang="en">
+            <title>Buddhist Epigraphy in China, State of the Field, and New Methodologies (Workshop in Heidelberg)</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>???</issuance>
+        </originInfo>
+        <part>
+            <date>2008</date>
+            
+                <start/>
+                <end/>
+        </part>
+    </relatedItem>
+</mods>

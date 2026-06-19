@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Binzhoushishilu_SKSLXB" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Binzhou shishi lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>邠州石室録</title>
+        <!--<title>邠州石室錄</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of the Binzhou Stone Chambers</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Baibu congshu jicheng">
+        <title>Binzhou shishi lu 1927</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yechangchi" type="personal">
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Changchi</namePart>
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">昌熾</namePart>
+        <namePart type="date">1847–1917</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>contains a 游邠州大佛寺記 by the compiler, Ye Changchi, dated 光緒二十八年四月十有四日 May 21, 1902.</abstract>
+    <originInfo>
+        <dateOther qualifier="approximate">1927</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>15</number>
+            </detail>
+            <extent unit="page">
+                <start>10929</start>
+                <end>11025</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

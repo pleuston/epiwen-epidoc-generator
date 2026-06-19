@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Binglingsi2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>炳靈寺石窟藝術</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bingling Si shiku yishu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Binglingsi Grottes Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bingling Si 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gs_binglingsi_wenwu_baohu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Gansu Bingling Si wenwu baohu yanjiusuo</namePart>
+        <namePart lang="zh">甘肅炳靈寺文物保護研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">甘肅人民美術出版社</namePart>
+                <namePart transliteration="pinyin">Gansu renmin meishu chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">蘭州</placeTerm>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+        </place>
+    </originInfo>
+</mods>

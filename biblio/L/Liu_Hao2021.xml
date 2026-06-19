@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liu_Hao2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Changqing Shenbao Si kao ji qi xiangguan yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東長清神寶寺考及其相關研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Study on the Shenbao Temple in Changqing, Shandong Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu and Hao 2021</title>
+        
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liulili" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Lili</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">麗麗</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#haosumei" type="personal">
+        <namePart transliteration="pinyin" type="family">Hao</namePart>
+        <namePart transliteration="pinyin" type="given">Sumei</namePart>
+        <namePart lang="zh" type="family">郝</namePart>
+        <namePart lang="zh" type="given">素梅</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+   
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZG_GJBWG_guankan" type="host">
+        <titleInfo lang="zh">
+            <title>中國國家博物館館刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo guojia bowuguan guankan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2021</date>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <detail type="volume">210</detail>
+            <extent unit="page">
+                <start>33</start>
+                <end>45</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

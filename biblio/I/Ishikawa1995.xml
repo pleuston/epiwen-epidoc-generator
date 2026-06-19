@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ishikawa1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>鎌倉新仏教における『涅槃経』受容の諸相</title>
+    </titleInfo>
+    <titleInfo transliteration="hepburn">
+        <title>Kamakura shin Bukkyō ni okeru Nehangyō juyō no shosō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Aspects of the Acceptance of the <hi rend="italic">Collected Elucidations of the <foreign xml:lang="sa">Mahā­pari­nirvāṇa­sūtra</foreign></hi> among the New Buddhist Schools of the Kamakura Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishikawa 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ishikawa" type="personal">
+        <namePart transliteration="hepburn" type="family">Ishikawa</namePart>
+        <namePart transliteration="hepburn" type="given">Rikizan</namePart>
+        <namePart lang="ja" type="family">石川</namePart>
+        <namePart lang="ja" type="given">力山</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Nakao1995" type="host">
+        <titleInfo lang="ja">
+            <title>道元思想体系</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Dōgen shisō taikei</title>
+        </titleInfo>
+        <originInfo>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Dōhōsha shuppan</namePart>
+                    <namePart lang="ja">同朋舍出版</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+            <dateIssued>1995</dateIssued>
+        </originInfo>
+        <part>
+            <detail type="volume">11</detail>
+            <extent unit="page">
+                <start>363</start>
+                <end>383</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

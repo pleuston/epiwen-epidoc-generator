@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokiwa1935" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo lang="ja">
+    <title>兄と共著の思ひ出</title>
+  </titleInfo>
+  <titleInfo transliteration="romaji">
+    <title>Ani to kyōcho no omoide</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>Memories of Co-authorship with My Older Brother</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Tokiwa 1935</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa" type="personal">
+    <namePart lang="ja" type="family">常盤</namePart>
+    <namePart lang="ja" type="given">大定</namePart>
+    <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+    <namePart transliteration="romaji" type="given">Daijō</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kenchikuzasshi" type="host">
+    <titleInfo transliteration="romaji">
+      <title>Kenchiku zasshi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+      <title>建築雜志</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">
+        <number>605</number>
+      </detail>
+      <extent unit="page">
+        <start>1406</start>
+        <end>1408</end>
+      </extent>
+      <date>1935</date>
+    </part>
+  </relatedItem>
+</mods>

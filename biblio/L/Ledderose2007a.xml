@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2007a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Auf ewig dem Blick entzogen</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2007a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose" type="personal">
+        <namePart lang="en" type="family">Ledderose</namePart>
+        <namePart lang="en" type="given">Lothar</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Bredekamp_Bruhn_Werner2007" type="host">
+        <titleInfo xml:lang="en">
+            <title>Bildwelten des Wissens. Kunsthistorisches Jahrbuch für Bildkritik, 4.2. (Bilder
+                ohne Betrachter)</title>
+        </titleInfo>
+        <name oXygen2:href="#bredekamp" type="personal">
+            <namePart lang="en" type="family">Bredekamp</namePart>
+            <namePart lang="en" type="given">Horst</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#bruhn" type="personal">
+            <namePart lang="en" type="family">Bruhn</namePart>
+            <namePart lang="en" type="given">Matthias</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#werner" type="personal">
+            <namePart lang="en" type="family">Werner</namePart>
+            <namePart lang="en" type="given">&gt;Gabriele</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>80</start>
+                <end>90</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

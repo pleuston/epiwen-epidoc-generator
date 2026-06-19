@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangMeng2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>敦煌佛教疑僞經綜錄</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang Fojiao yiwei jing zonglu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Comprehensive Catalog of Apocryphal Scriptures from Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Meng 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangmeng" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">孟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss. <foreign lang="zh">博士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm lang="zh">上海師範大學</placeTerm>
+            <placeTerm transliteration="pinyin">Shanghai shifan daxue</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schafer1963a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Golden Peaches of Samarkand: A Study of T‘ang Exotics</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schafer 1963a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#schafer" type="personal">
+        <namePart lang="en" type="family">Schafer</namePart>
+        <namePart lang="en" type="given">Edward H.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1963</dateIssued>
+        <place>
+            <placeTerm>Berkeley and Los Angeles, CA; London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of California Press and Cambridge University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

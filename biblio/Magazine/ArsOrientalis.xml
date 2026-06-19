@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ArsOrientalis" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo lang="en">
+                                <title>Ars Orientalis</title>
+                </titleInfo>
+                <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#uni_michigan" type="corporate">
+                                <namePart lang="en">The Department of the History of Art. University
+                                                of Michigan</namePart>
+                                <role>
+                                                <roleTerm>editor</roleTerm>
+                                </role>
+                </name>
+                <originInfo>
+                                <frequency>annual</frequency>
+                                <publisher>
+                                                <name type="corporate">
+                                                  <namePart lang="en">The Department of the History
+                                                  of Art. University of Michigan</namePart>
+                                                </name>
+                                </publisher>
+                                <issuance>continuing</issuance>
+                </originInfo>
+</mods>

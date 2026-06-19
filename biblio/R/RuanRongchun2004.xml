@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RuanRongchun2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichou zhi lu yu shiku yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>絲綢之路與石窟藝術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Silk Road and the Art of Cave Temples</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ruan Rongchun 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ruanrongchun" type="personal">
+        <namePart lang="zh" type="family">阮</namePart>
+        <namePart lang="zh" type="given">榮春</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>3 vols.</extension>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shenyang</placeTerm>
+            <placeTerm lang="zh">瀋陽</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Liaoning meishu chubanshe</namePart>
+                <namePart lang="zh">遼寧美術出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

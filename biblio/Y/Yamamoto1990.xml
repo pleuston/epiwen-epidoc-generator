@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yamamoto1990" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Introduction to Buddhist Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yamamoto 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yamamoto_chikyo_enjp" type="personal">
+        <namePart lang="en" type="family">Yamamoto</namePart>
+        <namePart lang="en" type="given">Chikyo</namePart>
+        <namePart lang="ja" type="family">山本</namePart>
+        <namePart lang="ja" type="given">智教</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm>New Delhi</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">International Academy of Indian Culture and Aditya Prakashan</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign xml:lang="sa">Śata-Piṭaka</foreign> Series: Indo-Asian Literatures</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>358</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

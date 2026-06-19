@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xingyun2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Describing the Indescribable: A Commentary on the Diamond sutra</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Hsing Yun 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xingyun" type="personal">
+        <namePart lang="zh">星雲大師</namePart>
+        <namePart lang="zh" transliteration="pinyin">Xingyun dashi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#grahamT">
+        <namePart lang="en" type="family">Graham</namePart>
+        <namePart lang="en" type="given">Tom</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Buddha’s Light Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Los Angeles</placeTerm>
+        </place>
+    </originInfo>
+    
+</mods>

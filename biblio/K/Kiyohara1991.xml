@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kiyohara1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Si Shan moya yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四山摩崖研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on the Sutras Engraved on Polished Cliffs of the Four Mountains</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiyohara 1991</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>Zoucheng</topic>
+        <topic>Four Mountains</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiyohara" type="personal">
+        <namePart lang="ja" type="family"/>
+        <namePart lang="ja" type="given">実門</namePart>
+        <namePart transliteration="romaji" type="family">Kiyohara</namePart>
+        <namePart transliteration="romaji" type="given">Sanekado</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tanikawa" type="personal">
+        <namePart lang="ja" type="family">谷川</namePart>
+        <namePart lang="ja" type="given">雅夫</namePart>
+        <namePart transliteration="romaji" type="family">Tanikawa</namePart>
+        <namePart transliteration="romaji" type="given">Masao</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract>For Mount Jian, Kiyohara gives a list of the inscriptions originally carved. For his
+        reconstruction, he relies on the epigraphic studies by Ruan Yuan, Li Zuoxian, Sun Baotian,
+        Qian Tai and Michihata.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg1991a" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經研究</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1991</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Ji’nan</placeTerm>
+                <placeTerm lang="zh">濟南</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Qilu shushe</namePart>
+                    <namePart lang="zh">齊魯書社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>191</start>
+                <end>210</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

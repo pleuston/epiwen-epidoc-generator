@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RongXinjiang2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中古中國與外來文明</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhonggu Zhongguo yu wailai wenming</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Medieval China and Foreign Civilization</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rong Xinjiang 2001</title>
+    </titleInfo>
+    <abstract>Pages 204-221: a fragmentary stele found near Turfan, which dates to the reign of Wu
+        Zhao <foreign xml:lang="zh">武瞾</foreign> (r. 690–705). The original stele was broken into 10
+        pieces, 1 large piece, nine smaller. Only a rubbing of the large fragment has been
+        published. Rong gives a transcription, which he amends a bit with transmitted transcriptions
+        of the text carved on the nine small fragments. The first part of the text is a list of sutra
+        titles, the second part is a colophon. Rong identifies the sutra titles. Among these, the
+        most recently translated text (693) is that of the Baoyu jing 寳雨經. Therfore, the stele text
+        can be dated to 693-705 (Wu Zetian characters). The stele fragment has been termed
+        武周康居士寫經功德記碑. Rong believes that it was the intention of the donor, Kang jushi 康居士, to
+        actually copy all of the texts indicated in the catalog, yet this catalog includes the 600 scrolls of T#220.
+    Therefore, Claudia thinks that the list of sutras, or the catalog, is just an abbreviation for the entire Buddhist canon.
+    A pdf of this article is on our server.</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#rongxinjiang" type="personal">
+        <namePart lang="zh" type="family">榮</namePart>
+        <namePart lang="zh" type="given">新江</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shenghuo, dushu, xinzhi, Sanlian shudian</namePart>
+                <namePart lang="zh">生活·讀書·新知三聯書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

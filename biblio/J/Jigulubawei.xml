@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jigulubawei" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>集古録跋尾</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jigulu bawei</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Colophons to collections of ancient records</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>集古録</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Ji­gu­lu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jigulu bawei">
+        <title>Ji­gu­lu ba­wei</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ouyangxiu" type="personal">
+        <namePart lang="zh" type="family">歐</namePart>
+        <namePart lang="zh" type="given">陽修</namePart>
+        <namePart type="date">1007-1072</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+<!--        <dateOther>1057-1072</dateOther>-->
+        <dateOther>1887</dateOther>
+    </originInfo>
+    <extension>10 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">10</detail>
+        </extent>
+    </physicalDescription>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>24</number>
+            </detail>
+            <extent unit="page">
+                <start>17819</start>
+                <end>17922</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

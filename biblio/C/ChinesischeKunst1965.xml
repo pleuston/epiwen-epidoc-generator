@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChinesischeKunst1965" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo lang="de">
+        <title>Chinesische Kunst: Malerei, Kalligraphie, Steinabreibungen, Holzschnitte</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Chinesische Kunst 1965</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#speiser" type="personal">
+        <namePart lang="en" type="family">Speiser</namePart>
+        <namePart lang="en" type="given">Werner</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#goepper" type="personal">
+        <namePart lang="en" type="family">Goepper</namePart>
+        <namePart lang="en" type="given">Roger</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fribourg" type="personal">
+        <namePart lang="en" type="family">Fribourg</namePart>
+        <namePart lang="en" type="given">Jean</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1965</dateIssued>
+        <place>
+            
+            <placeTerm lang="de">Zürich</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                
+                <namePart lang="de">Atlantis</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

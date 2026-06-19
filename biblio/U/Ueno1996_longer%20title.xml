@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ueno1996b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>四川における唐宋時期の石刻造像·石経事業<hi rend="dash">──</hi>附·四川唐宋石刻作品と関係論文目録</title>
+        <!--<title>四川における唐宋時期の石刻造像·石経事業<hi rend="dash">──</hi>附·四川唐宋石刻作品と関係論文目録</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shisen ni okeru Tō-Sō jiki no sekkoku zōzō, sekikyō jigyō: Fu: Shisen Tō-Sō sekkoku sakuhin to kankei ronbun mokuroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Sculpture and Stone Sutra Projects in Sichuan from the Tang and Song Periods: With a Catalogue of Stone Works in Sichuan from Tang and Song Periods and Related Articles</title>
+        <!--<title>Stone Sculptures and Stone Sutras in Sichuan from Tang and Song Dynasties. With a Catalogue of Stone Works in Sichuan from Tang and Song Dynasties and Related Articles</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ueno 1996a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#uenoryuzo" type="personal">
+        <namePart lang="ja" type="family">上野</namePart>
+        <namePart lang="ja" type="given">隆三</namePart>
+        <namePart transliteration="romaji" type="family">Ueno</namePart>
+        <namePart transliteration="romaji" type="given">Ryūzō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kegasawa1996a" type="host">
+        <titleInfo lang="ja">
+            <title>中國佛教石經の研究：房山雲居寺石經を中心に</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku Bukkyō sekikyō no kenkyū: Bōzan Ungoji sekikyō o chūshin ni</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Research on Chinese Buddhist stone <foreign xml:lang="sa">sūtras</foreign>, with special reference to the stone <foreign xml:lang="sa">sūtras</foreign> of Cloud Dwelling Monastery at Fangshan</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+            <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+            <namePart transliteration="romaji" type="given">Yasunori</namePart>
+            <namePart lang="ja" type="family">氣賀澤</namePart>
+            <namePart lang="ja" type="given">保規</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1996</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>283</start>
+                <end>338</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

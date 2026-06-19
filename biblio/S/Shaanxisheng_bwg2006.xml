@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shaanxisheng_bwg2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xi’an Beilin mingbei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西安碑林名碑</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Famous Steles from the Forest of Steles in Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shaan­xi Sheng bowuguan 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shaanxisheng_kaogu_yjy_SuiTang_bu" type="corporate">
+        <namePart transliteration="pinyin">Shaanxi Sheng bowuguan</namePart>
+        <namePart lang="zh">陜西省考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">6</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">陜西人民美術出版社</namePart>
+                <namePart transliteration="pinyin">Shaanxi renmin meishu chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

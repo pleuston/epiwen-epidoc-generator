@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sharf1993" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Zen of Japanese Nationalism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sharf 1993</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sharf" type="personal">
+        <namePart lang="en" type="family">Sharf</namePart>
+        <namePart lang="en" type="given">Robert H.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo>
+            <title>History of Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1993</date>
+            <detail type="volume">33</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>43</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

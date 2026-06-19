@@ -1,0 +1,77 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="GongDejie2012">
+    <titleInfo lang="zh">
+        <title>明道寺造像中的部分綫刻畫像</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Mingdaosi zaoxiang zhong de bufen xianke huaxiang</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Selected Line Engravings from the Mingdao Monastery Statuary</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gong and Guo 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gongdejie" type="personal">
+        <namePart transliteration="pinyin" type="family">Gong</namePart>
+        <namePart transliteration="pinyin" type="given">Dejie</namePart>
+        <namePart lang="zh" type="family">宫</namePart>
+       
+        <namePart lang="zh" type="given">德杰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guoxiaopu" type="personal">
+        <namePart transliteration="pinyin" type="family">Guo</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaopu</namePart>
+        <namePart lang="zh" type="family">郭</namePart>
+        
+        <namePart lang="zh" type="given">曉普</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhaokezeng" type="corporate">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Kezeng</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        
+        <namePart lang="zh" type="given">克增</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>文博研究（第三輯）</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenbo yanjiu  (di san ji)</title>
+        </titleInfo>
+        <originInfo>
+           
+                <dateIssued/>
+                <place>
+                    <placeTerm>Weifang</placeTerm>
+                    <placeTerm lang="zh">濰坊</placeTerm>
+                </place>
+                <publisher>
+                    <name type="corporate">
+                        <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                        <namePart lang="zh">文物出版社</namePart>
+                    </name>
+                </publisher>
+       <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <!--<detail level="1" type="series">
+                <number>3</number>
+            </detail>-->
+            <extent unit="page">
+                <start>196</start>
+                <end>203</end>
+            </extent>
+            <date>2012</date>
+        </part>
+    </relatedItem>
+</mods>

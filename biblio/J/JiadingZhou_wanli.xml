@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JiadingZhou_wanli" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔萬曆〕嘉定州志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Wanli〕 Jiading zhouzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Jiading Prefecture (Wanli Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jiading zhouzhi</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fanchunjing" type="personal">
+        <namePart transliteration="pinyin" type="family">Fan</namePart>
+        <namePart transliteration="pinyin" type="given">Chunjing</namePart>
+        <namePart lang="zh" type="family">范</namePart>
+        <namePart lang="zh" type="given">醇敬</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!-- <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#licai" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Cai</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">采</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <extension>8 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGDFZ_SBFZJ_dierbian" type="series">
+        <titleInfo lang="zh">
+            <title>中國地方志集成·善本方志輯：第二編<!-- 73--></title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo difangzhi jicheng, shanben fangzhi ji: di er bian</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">73</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+            <placeTerm lang="zh">南京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Fenghuang chubanshe</namePart>
+                <namePart lang="zh">鳳凰出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of a manuscript copy of the 1611 edition</note>
+</mods>

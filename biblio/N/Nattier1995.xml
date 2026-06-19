@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nattier1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo lang="en">
+        <title>Response to Fukui Fumimasa, ‘Hannya shingyō no kenkyūshi—genkon no mondaiten’ (published in <hi rend="italic">Bukkyōgaku</hi> No. 36 [December 1994], pp. 79–99)</title>
+    </titleInfo>
+   
+    <titleInfo type="reference">
+        <title>Nattier 1995 unpublished</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nattier" type="personal">
+        
+        <namePart lang="en" type="family">Nattier</namePart>
+        <namePart lang="en" type="given">Jan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://www.academia.edu/99934922/Response_to_Fukui_Fumimasa_on_the_Heart_Sutra_1995</url>
+    </location>
+    <genre>Web</genre>
+    <originInfo>
+        <!--<dateIssued></dateIssued>-->
+        <dateCaptured>2024-08-07</dateCaptured>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">www.academia.edu</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+   <!-- <relatedItem type="host">
+        <titleInfo transliteration="pinyin">
+            <title></title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title></title>
+        </titleInfo>
+        <language>
+            <languageTerm></languageTerm>
+        </language>
+        <physicalDescription>
+            <internetMediaType>text/html</internetMediaType>
+        </physicalDescription>
+    </relatedItem>-->
+</mods>

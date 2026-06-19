@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Richard2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Recarving China’s Past: Art, Archaeology, and Architecture of the "Wu Family Shrines"</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Naomi Noble Richard 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#richard" type="personal">
+        <namePart lang="en" type="family">Richard</namePart>
+        <namePart lang="en" type="given">Naomi Noble</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Yale University Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>New Haven and London</placeTerm>
+        </place>
+    </originInfo>
+</mods>

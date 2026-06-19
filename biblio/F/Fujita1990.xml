@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujita1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Textual Origins of the Kuan Wu-liang-shou ching: A Canonical Scripture of Pure
+            Land Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujita 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujita" type="personal">
+        <namePart lang="ja" type="family">藤田</namePart>
+        <namePart lang="ja" type="given">宏達</namePart>
+        <namePart transliteration="romaji" type="family">Fujita</namePart>
+        <namePart transliteration="romaji" type="given">Kōtatsu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Buswell1990" type="host">
+        <titleInfo lang="en">
+            <title>Chinese Buddhist Apocrypha</title>
+        </titleInfo>
+        <name ns2:href="#buswell" type="personal">
+            <namePart lang="en" type="family">Buswell</namePart>
+            <namePart lang="en" type="given">Robert E.</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1990</dateIssued>
+            <place>
+                <placeTerm>Honolulu</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">University of Hawaiʻi Press</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>149</start>
+                <end>173</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fangwennianpu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fang Wen nianpu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>方文年譜</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Chronicle of Fang Wen</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Wen nianpu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lishenghua" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">聖華</namePart>
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Shenghua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Renmin wenxue chubanshe</namePart>
+                <namePart lang="zh">人民文學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

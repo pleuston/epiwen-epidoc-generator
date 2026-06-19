@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shaanxi_bkzm_cb" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shaanxi beike zongmu tiyao chubian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>陜西碑刻總目提要初編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>First Edition of a General Catalog of Stele Inscriptions in Shaanxi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shaanxi beike zongmu tiyao 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuminxia" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Minxia</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">敏霞</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <extension>5 vols.</extension>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+                <namePart lang="zh">科學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

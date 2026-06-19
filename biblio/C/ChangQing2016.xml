@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChangQing2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Caijia He yu Lama mao Shan Qianfo Yuan: Shaanxi Linyou de liangchu fojiao ku kan zaoxiang diaocha</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>蔡家河與喇嘛帽山千佛院<hi rend="dash">──</hi>陝西麟游的兩處佛教窟龕造像調查</title>
+        <!--<title>蔡家河与喇嘛帽山千佛院:陕西麟游的两处佛教窟龛造像调查</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Caijia River and the Thousand-Buddha Monastery at Mt. Lama Cap: An Investigation on Votive Arts in Two Sites of Buddhist Caves in Linyou, Shaanxi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chang Qing 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#changqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Chang</namePart>
+        <namePart transliteration="pinyin" type="given">Qing</namePart>
+        <namePart lang="zh" type="family">常</namePart>
+        <namePart lang="zh" type="given">青</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shikusiyanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shikusi yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石窟寺研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">6</detail>
+            <date>2016</date>
+            <extent unit="page">
+                <start>20</start>
+                <end>47</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

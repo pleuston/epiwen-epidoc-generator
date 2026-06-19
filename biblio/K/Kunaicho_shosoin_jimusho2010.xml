@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kunaicho_shosoin_jimusho2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>宮内庁正倉院事務所所蔵聖語蔵経巻カラーデジタル版 第3期 第3回配本</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kunaichō Shōsōin jimusho shozō shōgozō kyōkan karā dejitaru ban dai 3-ki dai 3-kai
+            haihon</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Shōgozō Scrolls in the Office of the Shōsōin Treasure House, Imperial Household
+            Agency, Japan, color digital version, vol. 3, no. 3</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kunaicho Shosoin jimusho 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kunaicho_shosoin_jimusho" type="corporate">
+        <namePart lang="ja">宮内庁正倉院事務所</namePart>
+        <namePart transliteration="romaji">Kunaichō Shōsōin jimusho</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+                <namePart transliteration="romaji">Maruzen</namePart>
+                <namePart lang="ja">丸善</namePart>
+            </name></publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

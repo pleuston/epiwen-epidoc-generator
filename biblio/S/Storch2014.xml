@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Storch2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The History of Chinese Buddhist Bibliography: Censorship and Transformation of the
+            Tripitaka</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Storch 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#storch" type="personal">
+        <namePart lang="en" type="family">Storch</namePart>
+        <namePart lang="en" type="given">Tanya</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. xxiii: "... in the first part of the tenth century, scriptural catalogs lost most of their importance to printed editions of the Tripitaka, and the latter took on the former's role
+        in shaping the canon and defining its ideological and scriptural parameters."
+        p. 52: "when the Northern
+        Qi dynasty finished its own catalog in 576, it was called the Catalog
+        of Scriptures of the Qi Dynasty (Qishi zhongjing mulu)... it was Baochang's Catalog of Scriptures of the Liang Dynasty and
+        not Sengyou's Collection of Records about the Production of the Tripitaka that the northern Buddhist bibliographers used as a foundation for their
+        versions of the Buddhist canon."
+    Catalogs of the Northern Dynasties (p. 81-87)</abstract>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambria Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Amherst</placeTerm>
+        </place>
+    </originInfo>
+</mods>

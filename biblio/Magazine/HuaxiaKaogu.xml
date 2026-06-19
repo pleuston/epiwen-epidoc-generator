@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuaxiaKaogu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>華夏考古</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Huaxia kaogu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="zh">河南省文物考古研究所</namePart>
+        <namePart transliteration="pinyin">Henan sheng wenwu kaogu yanjiusuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="zh">河南省文物考古学会</namePart>
+        <namePart transliteration="pinyin">Henan sheng wenwu kaogu xuehui</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Zhengzhou, Henan</placeTerm>
+            <placeTerm lang="zh">河南省郑州市</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+            </name>
+        </publisher>
+    </originInfo>
+    <location>
+        <url>http://www.cnki.com.cn/Journal/F-F4-HXKG.htm</url>
+    </location>
+</mods>

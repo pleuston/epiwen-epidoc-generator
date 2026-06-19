@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kiriya2003b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>敦煌本石版金剛經について石版刻經の成立と出版起源の問題</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tonkōbon sekiban Kongōkyō ni tsuite Sekiban kokukyō no seiritsu to shuppan kigen no mondai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Questions About the Dunhuang Edition of the
+            Diamond Sutra Stone Slabs Concerning the Formation of Sutras Cut on Stone Slabs and the Origin of Their Edition</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiriya 2003b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiriya" type="personal">
+        <namePart transliteration="romaji" type="family">Kiriya</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <namePart lang="ja" type="family">桐谷</namePart>
+        <namePart lang="ja" type="given">征一</namePart>
+        <namePart transliteration="pinyin" type="family">Tonggu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhengyi</namePart>
+        <namePart lang="zh" type="family">桐谷</namePart>
+        <namePart lang="zh" type="given">征一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WatanabeHoyo_kinen2003" type="host">
+        <titleInfo lang="ja">
+            <title>渡邊寳陽先生古稀記念論文集：法華佛教文化史論叢</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Watanabe hōyō sensei koki kinen ronbunshū : Hokke bukkyō bunkashi ronsō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>359</start>
+                <end>383</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

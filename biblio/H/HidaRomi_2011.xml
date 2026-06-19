@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HidaRomi_2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Sho Tō Bukkyō bijutsu no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>初唐佛教美術の研究</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Study on the Buddhist Art of the Early Tang Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hida 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HidaRomi" type="personal">
+        <namePart lang="ja" type="family">肥田</namePart>
+        <namePart lang="ja" type="given">路美</namePart>
+        <namePart transliteration="hepburn" type="family">Hida</namePart>
+        <namePart transliteration="hepburn" type="given">Romi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chūō kōron bijutsu shuppan</namePart>
+                <namePart lang="ja">中央公論美術出版</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note>Translated into Chinese in <ref target="Hida_Yen2018" type="biblio"/>.
+    </note>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="MuramatsuKoichi2019">
+    <titleInfo lang="ja">
+        <title>近代西安碑林における展示空間の變遷：文物保護と博物館化</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kindai Seian Hirin ni okeru tenji kūkan no hensen: Bunbutsu hogo to
+            hakubutsukan-ka</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Transformation of Exhibition Space in the Modern Forest of Steles Museum in Xi’an: Preservation of Cultural Heritage and Museumization</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Muramatsu 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#muramatsu_koichi">
+        <namePart lang="ja" type="family">村松</namePart>
+        <namePart lang="ja" type="given">弘一</namePart>
+        <namePart transliteration="romaji" type="family">Muramatsu</namePart>
+        <namePart transliteration="romaji" type="given">Kōichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shukutoku_daigaku_kkrs" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shukutoku daigaku jinbun gakubu kenkyū ronshū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>淑徳大学人文学部研究論集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2019</date>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+            <extent unit="page">
+                <start>25</start>
+                <end>48</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

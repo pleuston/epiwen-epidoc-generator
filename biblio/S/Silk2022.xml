@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Silk2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Buddhism and the Scholarship of Erik Zürcher</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Silk 2022</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart lang="en" type="family">Silk</namePart>
+        <namePart lang="en" type="given">Jonathan A.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart lang="en" type="family">Zacchetti</namePart>
+        <namePart lang="en" type="given">Stefano</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart lang="en" type="family">Zürcher</namePart>
+        <namePart lang="en" type="given">Erik</namePart>
+        <role>
+            <roleTerm>honoree</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>festschrift</genre>
+    <originInfo>
+        <publisher>Brill</publisher>
+        <place>
+            <placeTerm type="text">Leiden; Boston</placeTerm>
+        </place>
+        <dateIssued>2022</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo>
+            <title>Sinica Leidensia</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>157</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <identifier type="isbn">9789004515819</identifier>
+    <identifier type="doi">10.1163/9789004522152</identifier>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KnoblockRiegel2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Annals of Lü Buwei<foreign lang="zh">吕氏春秋</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lü Buwei (Knoblock and Riegel)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lübuwei" type="personal">
+        <namePart lang="de" type="family">Lü</namePart>
+        <namePart lang="de" type="given">Buwei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#knoblock" type="personal">
+        <namePart lang="de" type="family">Knoblock</namePart>
+        <namePart lang="de" type="given">John</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#riegel" type="personal">
+        <namePart lang="de" type="family">Riegel</namePart>
+        <namePart lang="de" type="given">Jefferey</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>Stanford</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Stanford University Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2001</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

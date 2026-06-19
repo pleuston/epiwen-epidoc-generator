@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yangxueyong2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sanjiejiao wujincang fa yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>三階教無盡藏法研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on the <hi rend="italic">Dharma</hi> of the Inexhaustible Storehouse of the
+            Three Levels Teaching</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang Xue­yong 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangxueyong" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">學勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Dunhuangxuejikan" type="host">
+        <titleInfo lang="zh">
+            <title>敦煌學輯刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuangxue jikan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>134</start>
+                <end>145</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+</mods>

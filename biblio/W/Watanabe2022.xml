@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Watanabe2022" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Rekishi shiryō to shite no shashin: Aruku, utsusu, soshite hozonsuru</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>歴史資料としての写真<hi rend="dash">──</hi>歩く、写す、そして保存する</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Photographs as Historical Materials: Walk, Take and Preserve a Photograph</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Watanabe Ken’ya 2022</title>
+    </titleInfo>
+    <abstract>Short Essay thematizing Photographic Materials by using those made by Tokiwa Daijō in Henan, Jiangsu and Zhejiang as examples.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#watanabe_kenya" type="personal">
+        <namePart transliteration="romaji" type="family">Watanabe</namePart>
+        <namePart transliteration="romaji" type="given">Ken’ya</namePart>
+        <namePart lang="ja" type="family">渡邊</namePart>
+        <namePart lang="ja" type="given">健哉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AjiaAfurikaggbkkkj" type="host">
+        <titleInfo lang="ja">
+            <title>フィールドプラス：世界を感応する雑誌</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>FIELDPLUS: Sekai o kannōsuru zasshi</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">27</detail>
+            <extent unit="page">
+                <start>23</start>
+                <end>25</end>
+            </extent>
+            <date>2022</date>
+        </part>
+    </relatedItem>
+</mods>

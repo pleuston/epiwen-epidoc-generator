@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kyushu_daigaku_toyoshi_ronshu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>九州大學東洋史論集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kyūshū daigaku tōyōshi ronshū</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>The Oriental Studies</title>
+        </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kyushu_Toyoshi" type="corporate">
+        <namePart lang="ja">九州大學文學部東洋史研究会</namePart>
+        <namePart transliteration="romaji">Kyūshū daigaku bungakubu tōyōshi kenkyūkai
+        </namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1973-</dateIssued>
+        <dateIssued encoding="marc" point="start"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm>Fukuoka</placeTerm>
+            <placeTerm lang="ja">福岡</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">九州大學</namePart>
+                <namePart transliteration="romaji">Kyūshū daigaku</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshioka1966" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>銷釋金剛科儀の成立について<hi rend="dash">──</hi>初期寶卷の一研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shōshaku kongō kagi no seiritsu ni tsuite: Shoki hōkan no ichi kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>On the Formation of <hi rend="italic">Explaining the Rules of Lessons in the Diamond Sutra</hi>: A Study on an Early Precious Scroll Text<!-- The Formation of the Hsiao-shih-chin-kang-k’oi (<foreign lang="zh">銷釈金剛科儀</foreign>), a Paochuan (<foreign lang="zh">宝巻</foreign>) Text-->
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yoshioka 1966</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yoshioka" type="personal">
+        <namePart lang="ja" type="family">吉岡</namePart>
+        <namePart lang="ja" type="given">義豊</namePart>
+        <namePart lang="en" type="family">Yoshioka</namePart>
+        <namePart lang="en" type="given">Yoshitoyo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Ryukoku_Shidan" type="host">
+        <titleInfo lang="ja">
+            <title>龍谷史壇</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Ryūkoku shidan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1966</date>
+            <detail type="volume">56·57</detail>
+            <extent unit="page">
+                <start>154</start>
+                <end>170</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

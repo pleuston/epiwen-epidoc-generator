@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhutingxianshengrijichao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>竹汀先生日記鈔</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhuting xiansheng riji chao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>Excerpts from the Daily Notes of Mister Zhuting</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhuting xiansheng riji chao</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qiandaxin" type="personal">
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">大昕</namePart>
+        <namePart transliteration="pinyin" type="family">Qian</namePart>
+        <namePart transliteration="pinyin" type="given">Daxin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1965</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+                <namePart lang="zh">藝文印書館</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+          <title>百部叢書集成：式訓堂叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+          <title>Baibu congshu jicheng: Shixun Tang congshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+              <number>73:1.5</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Baibucongshujicheng" type="series">
+        <titleInfo lang="zh">
+            <title>百部叢書集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Baibu congshu jicheng</title>
+        </titleInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>100</number>
+            </detail>
+        </part>
+    </relatedItem>-->
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2023" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>以古青州作品爲主談法界圖式<hi rend="dash">──</hi>從法身釋迦到盧舍那佛</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yi gu Qingzhou zuopin weizhu tan fajietu shi<hi rend="dash">──</hi>cong fashen shijia dao Lushena Fo</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Discussing the Dharmadhātu Iconographic Program, with a Focus on Works from Ancient Qingzhou: From Dharmakāya Śākyamuni to Vairocana Buddha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2023</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Jinshiqi_SDQZLXS_ZXYS2023" type="host">
+        <titleInfo lang="zh">
+            <title>金石契<hi rend="dash">──</hi>山東青州龍興寺造像藝術</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>100</start>
+                <end>145</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

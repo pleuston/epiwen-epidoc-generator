@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ominami1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Gojō shinkan to Gomonzen</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>五定心観と五門禅</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Five Methods of Concentration and the Five Gates of Meditation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōminami 1977</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Ominami" type="personal">
+        <namePart transliteration="romaji" type="family">Ōminami</namePart>
+        <namePart transliteration="romaji" type="given">Ryūshō</namePart>
+        <namePart lang="ja" type="family">大南</namePart>
+        <namePart lang="ja" type="given">竜昇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sekiguchi1977" type="host">
+        <titleInfo lang="ja">
+            <title>仏教の実践原理</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō no jissen genri</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1977</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>71</start>
+                <end>90</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

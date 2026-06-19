@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Juanjingbei_a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title><!--Jun Jing bei; Da Qi xianglao ju xiaoyi Jun xiu luo zhi bei; Bei Qi Jun Jing bei-->
+                <foreign lang="zh">隽敬碑；大齊鄉老擧孝義隽修羅之碑；北齊隽敬碑</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Juan Jing bei; Da Qi xianglao ju xiaoyi Juan Xiuluo zhi bei; Bei Qi Juan Jing bei</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Juan Jing Stele; the Great Qi Dynasty Stele of Juan Xiuluo, Recommended as Filial and Righteous by
+            the Community Elders; the Northern Qi Stele of Juan Jing</title>
+    </titleInfo>
+    <!--<titleInfo lang="zh" type="translated">
+        <title>雋敬碑；大齊鄉老擧孝義雋修<!-\-/脩-\->羅之碑；北齊雋敬碑</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jun Jing bei ; Da Qi xiang lao ju xiao yi Jun xiu luo zhi bei ; Bei Qi Jun Jing bei</title>
+    </titleInfo>-->
+    <titleInfo type="reference">
+        <title>Juan Jing bei (Harvard)a</title>
+    </titleInfo>
+    <location>
+        <url displayLabel="additional">http://id.lib.harvard.edu/images/olvwork294816/urn-3:FHCL:8065759/catalog</url>
+        <!--<url>https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-W294816_urn-3:FHCL:8065759</url>-->
+    </location>
+    <extension>HOLLIS number 9689989</extension>
+    <!--<genre>Web</genre>-->
+    <originInfo>
+        <!--<issuance>monographic</issuance>-->
+        <dateCaptured>2022-02-26</dateCaptured>
+        <dateIssued point="start">1912</dateIssued>
+        <dateIssued point="end">1945</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+            <!--<placeTerm lang="zh">劍橋</placeTerm>-->
+        </place>
+        <!--<publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard Library</namePart>
+            </name>
+        </publisher>-->
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard-Yenching Library, Harvard University</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

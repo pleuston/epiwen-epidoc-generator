@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Quack_Luft2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Erscheinungsformen und Handhabung Heiliger Schriften</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Quack and Luft 2014</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#quack" type="personal">
+        <namePart type="family">Quack</namePart>
+        <namePart type="given">Joachim Friedrich</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luft" type="personal">
+        <namePart type="family">Luft</namePart>
+        <namePart type="given">Daniela Christina</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">De Gruyter</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+        <dateIssued>2014</dateIssued>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Materiale Textkulturen<!--, MTK 5--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

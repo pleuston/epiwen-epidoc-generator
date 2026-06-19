@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TangShangduJianfusiLintanDajiedelvshi_bei2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang Shangdu Jianfu Si lintan dajie De lüshi bei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐上都薦福寺臨壇大戒德律師碑</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>
+            <hi rend="italic">Stele of the Preceptor, the Fully Ordained Vinaya Master De of Jianfu Monastery in the Upper Capital of the Tang</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jianfu Si De lüshi bei 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xuexiaoyuan" type="personal">
+        <namePart lang="zh" type="family">薛</namePart>
+        <namePart lang="zh" type="given">曉源</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+
+    </name>
+
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liubo" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">波</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shangwu yinshuguan</namePart>
+                <namePart lang="zh">商務印書館</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

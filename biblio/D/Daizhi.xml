@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="zh"><title>岱志</title></titleInfo><titleInfo transliteration="pinyin"><title>Dai zhi</title></titleInfo><titleInfo type="translated" lang="en"><title>Gazetteer of Mount Tai</title></titleInfo><titleInfo lang="zh" type="abbreviated"><title>岱志</title></titleInfo><titleInfo lang="en" type="abbreviated"><title>Dai zhi</title></titleInfo><titleInfo lang="en" type="reference" displayLabel="Dai zhi"><title>Dai zhi</title></titleInfo><subject><topic>Taishan</topic></subject><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangdai" type="personal"><namePart lang="zh" type="family">張</namePart><namePart lang="zh" type="given">岱</namePart><namePart type="date">Ming dynasty</namePart><role><roleTerm>author</roleTerm></role></name><relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="zhangdaishiwenji" type="host"><titleInfo lang="zh"><title>張岱詩文集</title></titleInfo><titleInfo transliteration="pinyin"><title>Zhang Dai shiwen ji</title></titleInfo><titleInfo type="translated" lang="en"><title>Collected Poems and Essays of Zhang Dai</title></titleInfo><typeOfResource collection="yes">text</typeOfResource><!--        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm transliteration="Shandong"/>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Taishan chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>--><part><extent unit="page"><start>236</start><end>245</end></extent></part></relatedItem></mods><!--<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>岱志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Gazetteer of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>岱志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="reference" displayLabel="Dai zhi">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <subject>
+        <topic>Taishan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangdai" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">岱</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文獻集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Taishan wenxian jicheng</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Comprehensive Compendium of Documents about Mount Tai</title>
+        </titleInfo>
+        <typeOfResource collection="yes">text</typeOfResource>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm transliteration="Shandong"/>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Taishan chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>403</start>
+                <end>408</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>--><!--<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>岱志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Gazetteer of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>岱志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="reference" displayLabel="Dai zhi">
+        <title>Dai zhi</title>
+    </titleInfo>
+    <subject>
+        <topic>Taishan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangdai" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">岱</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文獻集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Taishan wenxian jicheng</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Comprehensive Compendium of Documents about Mount Tai</title>
+        </titleInfo>
+        <typeOfResource collection="yes">text</typeOfResource>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm transliteration="Shandong"/>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Taishan chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>403</start>
+                <end>408</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>-->

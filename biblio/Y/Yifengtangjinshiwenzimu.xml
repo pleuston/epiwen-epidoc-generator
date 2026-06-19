@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yifengtangjinshiwenzimu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yifeng Tang jinshi wenzi mu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>藝風堂金石文字目</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>List of Epigraphic Characters from the Yifeng Hall</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>藝風堂</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Yifeng Tang jinshi wenzi mu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yifeng Tang">
+        <title>Yi­feng Tang jin­shi wen­zi mu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#miaoquansun" type="personal">
+        <namePart transliteration="pinyin" type="family">Miao</namePart>
+        <namePart transliteration="pinyin" type="given">Quansun</namePart>
+        <namePart lang="zh" type="family">繆</namePart>
+        <namePart lang="zh" type="given">荃孫</namePart>
+        <namePart type="date">1844–1919</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Concerning Mount Gang, Miao Quansun lists "Five sections of rock cut inscriptions at
+        Mount Gang": Section 1 corresponds to GS_A4; section 2 corresponds to GS_B30; section 3, a
+        "Buddhist sūtra in 21 lines" is unclear, but might correspond to the inscriptions on Chicken
+        Beak Rock; section 4 corresponds to GS_A3; section 5 corresponds to GS_A5. Concerning "Minor
+        Mount Tie", Miao has only two short entries for Tie_1 and Tie_2.</abstract>
+    <extension>18 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">18</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Preface 1898; ed. 1906</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>26</number>
+            </detail>
+            <extent unit="page">
+                <start>19519</start>
+                <end>19824</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

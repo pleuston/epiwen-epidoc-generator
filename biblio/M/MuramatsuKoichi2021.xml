@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="MuramatsuKoichi2021">
+    <titleInfo lang="ja">
+        <title>江藤涛雄と中国文物～『関野貞日記』から</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Etō Namio to Chūgoku bunbutsu: <hi rend="italic">Sekino Tadashi nikki</hi> kara</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Namio ETO and Chinese Antique in Beijing, 1918<!--. -->: From the Diary of Tadashi Sekino</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Muramatsu Kōichi 2021</title>
+    </titleInfo>
+    <abstract>Keywords: Etō Namio 江藤涛雄, Sekino Tadashi 関野貞, Beijing 北京, Chūka kinseki shokaku tenrankai 中華金石書画展覧会, Chūgoku bunbutsu 中国文物
+        
+        Etō Namio (CiNii mentions Tōyū as another reading) was an merchant specializing in antique Chinese paintings, rubbings, sculptures, etc. He had his base in Hanzhong, Shaanxi and furthermore also had a antiquary in Beijing called Chōan-sō/Chang’an zhuang 長安荘. While his imfluence in bringing Chinese cultural artefacts to Japan was immense (note: try a simple internet research with the full name of Etō and see how many well-known institutions hold some artefacts bought from him), little of his life is known. Muramatsu cites a Chinese auction site with some details of Etō, according to which Etō was born in Saitama (However, that source writes 日本東京埼玉県, Tōkyō and Saitama are different prefectures, so there might be some mistake in here) in 1877, studied Archaelogy at the Imperial University of Tōkyō, came to China in 1898 to join his brother Masao 正雄 in business. He died in 1952. Muramatsu further discusses the relationship between Etō and Sekino Tadashi, the latter being two years a senior at the Imperial University and who mentioned Etō in his diaries (Muramatsu mentions Sekino writing about Etō without honorofics, suggesting the Senpai-Kōhai relationship of the two). Etō also had exchange with Nakamura Fusetsu, the latter, like Sekino, having bought some goods from Etō.
+        
+        Etō seemingly also held an exhibition in Nihonbashi, Tōkyō in 1931, that was called Chūka kinseki shokaku tenrankai 中華金石書画展覧会. Muramatsu mentions Ishida Mikinosuke 石田幹之助 writing about visiting this exhibition in his book. The cited quote comes from footnote n34 in “Tōro no Koki 当壚の胡姫 [The Western Houri standing by the Wine-warmer]” of “The Spring in Chang’an (Chōan no haru 長安の春)”<note>For the translation of 当壚の胡姫 see <ref type="biblio" target="Muramatsu2021-note"/>
+        </note>.</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#muramatsu_koichi">
+        <namePart lang="ja" type="family">村松</namePart>
+        <namePart lang="ja" type="given">弘一</namePart>
+        <namePart transliteration="romaji" type="family">Muramatsu</namePart>
+        <namePart transliteration="romaji" type="given">Kōichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shukutoku_daigaku_kkrs" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shukutoku daigaku jinbun gakubu kenkyū ronshū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>淑<!--徳-->德大学人文学部研究論集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2021</date>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+            <extent unit="page">
+                <start>69</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

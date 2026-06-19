@@ -1,0 +1,15 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Publications_EFEO" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Publications de l’école Française d’Extrême-Orient</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Adrien-Maisonneuve</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

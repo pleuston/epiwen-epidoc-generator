@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Solomon1955" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Veritable Record of the T’ang emperor Shun-Tsung (February 28, 805–August 31, 805); Han Yü’s Shun-tsung shih-lu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Solomon 1955</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#solomon" type="personal">
+        <namePart lang="en" type="family">Solomon</namePart>
+        <namePart lang="en" type="given">Bernard</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanyu" type="personal">
+            <namePart lang="zh" type="family">韓</namePart>
+            <namePart lang="zh" type="given">愈</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+    </name>
+    <originInfo>
+        <dateIssued>1955</dateIssued>
+        <place>
+            <placeTerm>Cambridge, Mass.</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

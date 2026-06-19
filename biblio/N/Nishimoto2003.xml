@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Nishimoto2003">
+    <titleInfo lang="ja">
+        <title>三階教文獻綜述</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sanjiejiao wenxian zongshu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Summary of Literary Documents of the Teaching of the Three Levels</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nishimoto 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nishimoto">
+        <namePart lang="ja" type="family">西本</namePart>
+        <namePart lang="ja" type="given">照真</namePart>
+        <namePart transliteration="romaji" type="family">Nishimoto</namePart>
+        <namePart transliteration="romaji" type="given">Teruma</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZangwaiFojiaoWenxian" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zangwai fojiao wenxian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>藏外佛教文獻</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Extra-Canonical Buddhist Texts</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1995–2011</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+            <extent unit="page">
+                <start>364</start>
+                <end>382</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chang_Chen2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Lingyan Si zaoqi jianzhu yizhi fajue shouhuo diandi</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>靈岩寺早期建築遺址發掘收穫點滴</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Record of the Excavation of the Early Architectural Site of Lingyan Monastery</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Chang and Chen 2003</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#changxingzhao" type="personal">
+                        <namePart transliteration="pinyin" type="family">Chang</namePart>
+                        <namePart transliteration="pinyin" type="given">Xingzhao</namePart>
+                        <namePart lang="zh" type="family">常</namePart>
+                        <namePart lang="zh" type="given">興照</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenbin" type="personal">
+                        <namePart transliteration="pinyin" type="family">Chen</namePart>
+                        <namePart transliteration="pinyin" type="given">Bin</namePart>
+                        <namePart lang="zh" type="family">陳</namePart>
+                        <namePart lang="zh" type="given">賓</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="Cui_Xu2003" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Jinan zhongda kaogu fajue jishi</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>濟南重大考古發掘紀實</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <dateIssued>2003</dateIssued>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <extent unit="page">
+                                                <start>181</start>
+                                                <end>192</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

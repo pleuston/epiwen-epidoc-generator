@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baibucongshujicheng" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baibu congshu jicheng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>百部叢書集成</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Collection of One Hundred Collectanea</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Baibu congshu jicheng">
+        <title>Baibu congshu jicheng</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yanyiping" type="personal">
+        <namePart lang="zh" type="family">嚴</namePart>
+        <namePart lang="zh" type="given">一萍</namePart>
+        <namePart transliteration="pinyin" type="family">Yan</namePart>
+        <namePart transliteration="pinyin" type="given">Yiping</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">100 collections, 7950</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1965</dateIssued>
+        <dateIssued point="end">1970</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+                <namePart lang="zh">藝文印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--note type="reprint">Reprint of the Wenyuange Edition first published by Shangwu yinshuguan in Taibei in 1986</note-->
+</mods>

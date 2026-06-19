@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nattier2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Guide to the Earliest Buddhist Translations: Texts from the Eastern Han and Three Kingdoms Periods</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nattier 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nattier" type="personal">
+        <namePart lang="en" type="family">Nattier</namePart>
+        <namePart lang="en" type="given">Jan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <language>
+        <languageTerm>en</languageTerm>
+    </language>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm>Tōkyō</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The International Research Institute for Advanced Buddhology, Soka University</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Bibliotheca Philologica et Philosophica Buddhica</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>X</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Anderl1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="en">
+                <title>Sengchou (480–560) <foreign lang="zh">僧稠</foreign>. Studie über einen
+                        chinesischen Meditationsmeister des 6. Jahrhunderts unter besonderer
+                        Berücksichtigung seiner Bedeutung für die frühe Periode des
+                        Chan-Buddhismus</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Anderl 1995</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#anderl" type="personal">
+                <namePart lang="en" type="family">Anderl</namePart>
+                <namePart lang="en" type="given">Christoph</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>1995</dateIssued>
+                <place>
+                        <placeTerm>Wien</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="en">Diplomarbeit zur Erlangung des Magistergrades
+                                        der Philosophie. Geisteswissenschaftliche Fakultät der
+                                        Universität Wien</namePart>
+                        </name>
+                </publisher>
+                <issuance>monographic</issuance>
+        </originInfo>
+</mods>

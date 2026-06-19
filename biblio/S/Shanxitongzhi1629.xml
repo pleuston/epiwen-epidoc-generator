@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shanxitongzhi1616" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔崇禎〕山西通志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Chongzhen〕 Shanxi tongzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Shanxi (Chongzhen Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shanxi tongzhi 1629</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liweizhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Weizhen</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">維禎</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangtao" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Tao</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">濤</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <!--<extension>30 vol</extension>-->
+    <extension>30 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo shudian</namePart>
+                <namePart lang="zh">中國書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Xijian Zhongguo difangzhi huikan <foreign lang="zh">稀見中國地方志匯刊</foreign>
+            </title>
+            <!--<title>Xijian Zhongguo difangzhi huikan <foreign lang="zh">稀見中國地方志彙刊 4</foreign></title>-->
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1629 edition</note>
+</mods>

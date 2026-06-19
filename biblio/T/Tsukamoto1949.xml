@@ -1,0 +1,94 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto1949" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北周の宗教廢毀政策の崩壊</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hoku-Shū no shūkyō haiki seisaku no hōkai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Failure of the Northern Zhou Policy of Religious Suppression</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto 1949</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">善隆</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Zenryū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Bukkyoshigaku" type="host">
+        <titleInfo lang="ja">
+            <title>仏教史学</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyōshi gaku</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1949</date>
+            <detail type="volume">1</detail>
+            <extent unit="page">
+                <start>3</start>
+                <end>31</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <classification edition="#Tsukamoto1974_76">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tsukamoto1974_76" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tsukamoto Zenryū chosakushū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>塚本善隆著作集</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+            <namePart lang="ja" type="family">塚本</namePart>
+            <namePart lang="ja" type="given">善隆</namePart>
+            <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+            <namePart transliteration="romaji" type="given">Zenryū</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">7</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1974-76</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Daitō shuppansha</namePart>
+                </name>
+                <namePart lang="ja">大東出版社</namePart>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+                <title>
+                    <name>
+                        <namePart lang="ja">北朝仏教史研究</namePart>
+                        <namePart transliteration="romaji">Hokuchō bukkyōshi kenkyū</namePart>
+                    </name>
+                </title>
+            </detail>
+            <extent unit="page">
+                <start>641</start>
+                <end>671</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

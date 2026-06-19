@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhishuiquanti" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>治水荃蹄</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhishui quanti<!-- 1572--></title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Tools for Water Control</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhishui quanti</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangong" type="personal">
+        <namePart transliteration="pinyin" type="family">Wan</namePart>
+        <namePart transliteration="pinyin" type="given">Gong</namePart>
+        <namePart lang="zh" type="family">萬</namePart>
+        <namePart lang="zh" type="given">恭</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhugengling" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Gengling</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">更翎</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--  <physicalDescription>
+        <extent>
+            <detail type="volume">4</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Compiled in 1572</dateOther>
+        <dateIssued>1985</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shuili dianli chubanshe</namePart>
+                <namePart lang="zh">水利電力出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <edition/>
+    </originInfo>
+    <!-- <note type="reprint">Reprint of 1707 edition</note>-->
+</mods>

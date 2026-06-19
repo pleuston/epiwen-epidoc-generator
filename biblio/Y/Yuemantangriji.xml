@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yuemantangriji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yueman Tang riji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>越縵堂日記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Diaries from the Yueman Hall</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yueman Tang riji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liciming" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">慈銘</namePart>
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ciming</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuzaihua" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">再華</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Zaihua</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name-->
+  <extension>18 vols.</extension>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Yangzhou</placeTerm>
+          <placeTerm lang="zh">揚州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guangling shushe</namePart>
+              <namePart lang="zh">廣陵書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+  <relatedItem type="series">
+    <titleInfo lang="zh">
+        <title>國家清史編纂委員會·<!--·-->文獻叢刊</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+      <title>Guojia Qingshi bianzuan weiyuanhui: <!--· -->Wenxian congkan </title>
+    </titleInfo>
+  </relatedItem>
+</mods>

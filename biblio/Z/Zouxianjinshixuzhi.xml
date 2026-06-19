@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zouxianjinshixuzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo transliteration="pinyin"><title>Zouxian jinshi xuzhi</title></titleInfo><titleInfo lang="zh"><title>鄒縣金石續誌</title></titleInfo><titleInfo lang="en" type="translated"><title>Sequel to the Gazetteer of Zou County: Epigraphy</title></titleInfo><titleInfo lang="zh" type="abbreviated"><title>鄒縣</title></titleInfo><titleInfo type="reference" displayLabel="Zouxian jinshi xuzhi"><title>Zou­xian jin­shi xu­zhi</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qiantai" type="personal"><namePart transliteration="pinyin" type="family">Qian</namePart><namePart transliteration="pinyin" type="given">Tai</namePart><namePart lang="zh" type="family">錢</namePart><namePart lang="zh" type="given">枱</namePart><namePart type="date">Qing dynasty</namePart><role><roleTerm>author</roleTerm></role></name><abstract>Concerning Mount Tie, Qian Tai mentions two texts carved "on the rock neighboring the
+        north side of Mount Tie northwest of the city". One is the sūtra text, which is according to
+        Qian Tai written in clerical script and consists of 18 columns, with 68 characters each (in
+        fact there are only 17 columns, with about 58 characters each). He then gives a brief
+        description of the other text on the cliff (the Stone Hymn) without naming the title. He
+        defines the calligraphy as clerical script, gives a short summary of its contents, and
+        transcribes the poem at the end of the text. Furthermore, transcriptions of the colophons
+        "to the east" and "to the south of the rock" are given.
+        On Mount Yi: “At stone sutra cave 石經洞 at Mount Yi 繹山is carved: 文殊師利白佛言, one section in 7 column with 14 characters each, 
+        which is the same as the inscription by Wei Zishen at Dafoling 大佛嶺. Just the same, there is a signature. At the end of the 
+        line the 11 characters 囗囗太保家客邑主董弥陀 are written, also in lishu. Therefore, it should have been carved at the same time. 
+        The denomination yizhu 邑主 is the same as that found on stelae from the Sui dynasty. Even though it is undated, it can be 
+        assigned to someone from after the Northern Wei dynasty.”
+        On Mount Gang: In his Sequel to the Gazette of Epigraphy in Zou County (Zouxian jinshi xuzhi 鄒縣金石續誌) of 1893, Qian Tai 錢枱 records 
+        four sections of the Lankāvatara sutra version B, and mistakenly claims that date and signatures are lacking on the mountain as a whole.(LL)
+    </abstract><physicalDescription><extent><detail type="fascicle">1</detail></extent></physicalDescription><originInfo><dateOther>Completed 1892</dateOther></originInfo><relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host"><titleInfo transliteration="pinyin"><title>Shike shiliao xinbian</title></titleInfo><titleInfo lang="zh"><title>石刻史料新編</title></titleInfo><originInfo><issuance>monographic</issuance></originInfo><typeOfResource collection="yes"/><part><detail level="1" type="series"><number>3</number></detail><detail level="2" type="volume"><number>26</number></detail><extent unit="page"><start>131</start><end>141</end></extent></part></relatedItem></mods>

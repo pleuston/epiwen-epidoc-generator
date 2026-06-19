@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouYing2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan <hi rend="italic">Xiyou</hi> yinyuan you tian xinzheng: Jingshi Yu faxian
+            ‘Xiyou’ canke</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山《西遊》因緣又添新證：經石峪發現‘西遊’殘刻</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>New Evidence of Links Between Mount Tai and the <hi rend="italic">Journey to the
+        West</hi>: Remnants of a ‘Xiyou’ Carving Discovered in Sutra Stone Valley</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2009</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>stone scriptures</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>http://blog.sina.com.cn/s/blog_4c3e6ba40100dhiq.html</url>
+    </location>
+    <genre>Web</genre>
+    <originInfo>
+        <dateIssued>2009-05-30</dateIssued>
+        <dateCaptured>2016-01-25</dateCaptured>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">blog.sina.com.cn</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--  <relatedItem type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xinlang boke</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>新浪博客</title>
+        </titleInfo>
+        <language>
+            <languageTerm>zh</languageTerm>
+        </language>
+        <physicalDescription>
+            <internetMediaType>text/html</internetMediaType>
+        </physicalDescription>
+    </relatedItem>-->
+</mods>

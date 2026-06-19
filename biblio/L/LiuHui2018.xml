@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuHui2018" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan fojiao shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山佛教史</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Buddhist History of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Hui 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuhui" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">慧</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shandong renmin chubanshe</namePart>
+                <namePart lang="zh">山東人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>中華泰山文庫：著述書系</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhonghua Tai Shan wenku: zhushu shuxi</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

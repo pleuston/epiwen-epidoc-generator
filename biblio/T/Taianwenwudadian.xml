@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taianwenwudadian" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Taian wenwu dadian·di san ci quanguo wenwu pucha shilu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰安文物大典·第三次全國文物普查實録</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Tai’an Cultural Relics Catalogue - Third National Cultural Relics Census in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Taian wenwu dadian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liukang" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Kang</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">康</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Tai Shan chubanshe</namePart>
+                <namePart lang="zh">泰山出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

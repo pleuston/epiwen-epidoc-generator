@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schmitt_Thilo1975" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Katalog chinesischer buddhistischer Textfragmente, Band 1</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Schmitt and Thilo 1975</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#schmitt_gerhard" type="personal">
+        <namePart lang="en" type="family">Schmitt</namePart>
+        <namePart lang="en" type="given">Gerhard</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Thilo" type="personal">
+        <namePart lang="en" type="family">Thilo</namePart>
+        <namePart lang="en" type="given">Thomas</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1975</dateIssued>
+        <place>
+            
+            <placeTerm lang="en">Berlin</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Akademieverlag</namePart>
+                
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Schriften zur Geschichte und Kultur des Alten Orients. Berliner Turfantexte</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note>Schmitt, Gerhard and Thomas Thilo in Zusammenarbeit mit Taijun Inokuchi. Mit einem Anhang von Akira Fujieda und Thomas Thilo. </note>
+</mods>

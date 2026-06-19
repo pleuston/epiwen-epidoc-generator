@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Longhui1983" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dazu Fojiao shike <hi rend="italic">Fumu enzhong Jing bianxiang</hi> ba</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>大足佛教石刻《父母恩重經變像》跋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Postscript to the Carving of the <hi rend="italic">Transformation Tableau of the
+                Sutra on Repaying the Profound Kindness of Parents</hi> in Dazu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Long Hui 1983</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longhui" type="personal">
+        <namePart transliteration="pinyin" type="family">Long</namePart>
+        <namePart transliteration="pinyin" type="given">Hui</namePart>
+        <namePart lang="zh" type="family">龍</namePart>
+        <namePart lang="zh" type="given">晦</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ShijieZongjiaoYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shijie zongjiao yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>世界宗教研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1983</date>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>16</start>
+                <end>25</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

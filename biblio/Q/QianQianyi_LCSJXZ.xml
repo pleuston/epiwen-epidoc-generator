@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="QianQianyi_LCSJXZ" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Liechao shiji xiaozhuan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>列朝詩集小傳</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Concise Biographies of the Poets from Successive Reigns</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lie­chao shi­ji xiao­zhuan</title>
+    </titleInfo>
+    <!-- <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <city>Tai'an</city>
+        </hierarchicalGeographic>
+        <topic>Taishan</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>-->
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qianqianyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Qian</namePart>
+        <namePart transliteration="pinyin" type="given">Qianyi</namePart>
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">謙益</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1983</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">First published in the Kangxi Era (1654–1722)</note>
+</mods>

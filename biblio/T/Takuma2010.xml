@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takuma2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Da Qi gu zhaoxuan shamen datong Sengxian muming shu kao</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>大齊故昭玄沙門大統僧賢墓銘疏攷</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title/>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Takuma 2010</title>
+            </titleInfo>
+            
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#takuma" type="personal">
+                        <namePart transliteration="romaji" type="family">Takuma</namePart>
+                        <namePart transliteration="romaji" type="given">Nobuyuki</namePart>
+                        <namePart lang="ja" type="family">田熊</namePart>
+                        <namePart lang="ja" type="given">信之</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title/>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                          <title>學苑</title>
+                        </titleInfo>
+                        
+                        <originInfo>
+                                    
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                          <date>2010</date>
+                          
+                          <detail type="volume">833</detail>
+                                    <extent unit="page">
+                                                <start>54</start>
+                                                <end>67</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

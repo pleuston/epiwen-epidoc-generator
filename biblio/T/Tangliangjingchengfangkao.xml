@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tangliangjingchengfangkao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang liangjing chengfang kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐兩京城坊考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Examination of the Two Capital Cities of the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tang liangjing chengfang kao</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xusong" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">松</namePart>
+        <namePart transliteration="pinyin" type="family">Xu</namePart>
+        <namePart transliteration="pinyin" type="given">Song</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangmu" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">穆</namePart>
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Mu</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1985</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGgudaiducheng" type="series">
+        <titleInfo lang="zh">
+            <title>中國古代都城資料選刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo gudai ducheng ziliao xuankan</title>
+        </titleInfo>
+       
+    </relatedItem>
+    
+</mods>

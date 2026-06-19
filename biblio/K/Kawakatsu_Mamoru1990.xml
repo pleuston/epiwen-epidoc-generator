@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kawakatsu_Mamoru1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>東アジア世界における火葬法の文化史：三－十四世紀について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Higashiajia sekai ni okeru kasōhō no bunkashi: 3–14 seiki ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Cultural History of Cremation in the East Asian World: From the Third to the Fourteenth Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kawakatsu Mamoru 1990</title>
+    </titleInfo>
+    <abstact>Official English title: The Cultural History on the Cremation in East Asian Civilization : 3c — 14c</abstact>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kawakatsu_Mamoru" type="personal">
+        <namePart transliteration="romaji" type="family">Kawakatsu</namePart>
+        <namePart transliteration="romaji" type="given">Mamoru</namePart>
+        <namePart lang="ja" type="family">川勝</namePart>
+        <namePart lang="ja" type="given">守</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kyushu_daigaku_toyoshi_ronshu" type="host">
+        <titleInfo lang="zh">
+            <title>九州大學東洋史論集</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Kyūshū daigaku Tōyōshi ronshū</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1990</date>
+            <detail type="volume">18</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>34</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

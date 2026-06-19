@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Binzhoushishilu1982" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Binzhou shishi lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>豳州石室錄</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of the Binzhou Stone Chambers</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Baibu congshu jicheng">
+        <title>Binzhou shishi lu 1982</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yechangchi" type="personal">
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Changchi</namePart>
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">昌熾</namePart>
+        <namePart type="date">1847–1917</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume"/>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1982</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the first edition of 1927</note>
+</mods>

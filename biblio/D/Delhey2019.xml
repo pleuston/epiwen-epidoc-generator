@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Delhey2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <foreign lang="sa">Asaṅga/Maitreya(nātha)</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Delhey 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#delhey" type="personal">
+        <namePart lang="en" type="family">Delhey</namePart>
+        <namePart lang="en" type="given">Martin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BEB_2" type="host">
+        <titleInfo>
+            <title>Brill’s Encyclopedia of Buddhism, Volume 2: Lives</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>73</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

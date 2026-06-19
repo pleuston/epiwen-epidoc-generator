@@ -1,0 +1,89 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_232" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>文殊師利所説摩訶般若波羅蜜經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sutra on the Great Perfection of Wisdom Spoken by Mañjuśrī</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Wenshushili suo shuo mohe banre boluomi jing</title>
+    </titleInfo>
+    <titleInfo lang="sa">
+        <title>Saptaśatikāprajñāpāramitā-sūtra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#232, 8</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mantuoluoxian" type="personal">
+        <namePart lang="zh">曼陀羅仙</namePart>
+        <namePart transliteration="pinyin">Mantuoluoxian</namePart>
+        <namePart lang="sa">*Mandra[sena]</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>Liang dynasty, in 503</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>08</number>
+            </detail>
+            <extent unit="page">
+                <start>726</start>
+                <end>732</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

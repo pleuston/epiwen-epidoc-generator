@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2003b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shufa leixingxue de chubu shijian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>書法類型學的初步實踐</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>First Steps toward a Typological Study of Calligraphy Put in Practice</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2003a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shenzhen</placeTerm>
+            <placeTerm lang="zh">深圳</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shenzhen chubanshe</namePart>
+                <namePart lang="zh">深圳出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shandongtongzhi_Qianlong" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>山東通志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shandong tongzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Gazetteer of Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shandong tongzhi 1736</title>
+    </titleInfo>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuanzongru" type="personal">
+        <namePart transliteration="pinyin" type="family">Yuan</namePart>
+        <namePart transliteration="pinyin" type="given">Zongru</namePart>
+        <namePart lang="zh" type="family">袁</namePart>
+        <namePart lang="zh" type="given">宗儒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name-->
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#duzhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Du</namePart>
+        <namePart transliteration="pinyin" type="given">zhao</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuejun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yue</namePart>
+        <namePart transliteration="pinyin" type="given">Jun</namePart>
+        <namePart lang="zh" type="family">岳</namePart>
+        <namePart lang="zh" type="given">濬</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>16 vols.</extension>
+    <originInfo>
+        <dateIssued>1986</dateIssued>
+        <dateOther>Preface 1736</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Yangzhou</placeTerm>
+            <placeTerm lang="zh">揚州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Jiangsu Guangling guji keyinshe</namePart>
+                <namePart lang="zh">江蘇廣陵古籍刻印社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the 1736 edition</note>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rawson2012a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Inside Out: Creating the Exotic within Early Tang Dynasty China in the Seventh and
+            Eighth Centuries</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rawson 2012a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#rawson" type="personal">
+        <namePart type="family">Rawson</namePart>
+        <namePart type="given">Jessica</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <AlsoOnlineUrl>http://dx.doi.org/10.1080/21500894.2012.662171</AlsoOnlineUrl>
+    </location>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WorldArt" type="host">
+        <titleInfo>
+            <title>World Art</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2012</date>
+            <detail type="volume">2</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>25</start>
+                <end>45</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

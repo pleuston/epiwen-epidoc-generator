@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Michihata1976" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中國における末法思想</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru mappō shisō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mappō Thought in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Michihata 1976</title>
+    </titleInfo>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#michihata" type="personal">
+        <namePart lang="ja" type="family">道端</namePart>
+        <namePart lang="ja" type="given">良秀</namePart>
+        <namePart transliteration="romaji" type="family">Michihata</namePart>
+        <namePart transliteration="romaji" type="given">Ryōshū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BukkyoShiso1976" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō shisō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>佛教思想</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>337</start>
+                <end>356</end>
+            </extent>
+            <date>1976</date>
+        </part>
+    </relatedItem>
+</mods>

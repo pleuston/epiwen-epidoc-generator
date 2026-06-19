@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chibashibijutsukan2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>「日本の版画」とは何か<hi rend="dash">──</hi>2008年1月12日－3月2日：千葉市美術館</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Nihon no hanga’ towa nanika: 2008-nen 1-gatsu 12-nichi–3-gatsu 2-ka: Chiba-shi bijutsukan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>What is ‘Japanese Woodblock Printing’: December 12, 2008–March 2: Chiba City Museum of Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chiba-shi bijutsukan 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chibashi_bijutsukan" type="corporate">
+        <namePart transliteration="romaji">Chiba-shi bijutsukan</namePart>
+        <namePart lang="ja">千葉市美術館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Chiba</placeTerm>
+            <placeTerm lang="ja">千葉</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chiba-shi bijutsukan</namePart>
+                <namePart lang="ja">千葉市美術館</namePart><!--
+                <namePart lang="en" type="translated">Chiba City Museum of Art</namePart>-->
+            </name>
+        </publisher>
+    </originInfo>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        
+        <titleInfo lang="en"><title>Nihon no hanga <foreign xml:lang="ja">日本の版画 1941－1950</foreign></title></titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

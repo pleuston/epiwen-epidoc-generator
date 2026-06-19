@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sofukawa1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>A Study on Tang Sculptures in the Longmen Caves</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūmon sekkutsu ni okeru Tō-dai zōzō no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>龍門石窟における唐代造像の硏<!--研-->究</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sofukawa 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sofukawa" type="personal">
+        <namePart transliteration="romaji" type="family">Sofukawa</namePart>
+        <namePart transliteration="romaji" type="given">Hiroshi</namePart>
+        <namePart lang="ja" type="family">曾布川</namePart>
+        <namePart lang="ja" type="given">寬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TohoGakuho" type="host">
+        <titleInfo lang="ja">
+            <title>東方學報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Tōhō gakuhō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1988</date>
+            <detail type="volume">60</detail>
+            <extent unit="page">
+                <start>199</start>
+                <end>397</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

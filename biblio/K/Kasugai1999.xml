@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kasugai1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>金剛般若経に於ける塔崇拝の問題</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kongō hannya kyō ni okeru tō sūhai no mondai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Problem of Revering Stupas in the <hi rend="italic">Diamond Sūtra</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kasugai 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kasugai_shinya" type="personal">
+        <namePart transliteration="romaji" type="family">Kasugai</namePart>
+        <namePart transliteration="romaji" type="given">Shin’ya</namePart>
+        <namePart lang="ja" type="family">春日井</namePart>
+        <namePart lang="ja" type="given">眞也</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#AbeJion1999" type="host">
+        <titleInfo lang="ja">
+            <title>金剛般若経の思想的研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Kongō hannya kyō no shisōteki kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Ideological Study on the <hi rend="italic">Diamond Sūtra</hi></title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>29</start>
+                <end>37</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

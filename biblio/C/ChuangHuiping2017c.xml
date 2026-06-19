@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChuangHuiping2017c" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Liaodai Fangshan shijing tiji tantao zhi yi’er</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>遼代房山石經題記探討之一二</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Some Investigations on Liao Dynasty Colophons of the Fangshan Stone Sutras</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chuang Hui-Ping 2017b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chuanghuiping" type="personal">
+        <namePart transliteration="pinyin" type="family">Chuang</namePart>
+        <namePart transliteration="pinyin" type="given">Hui-Ping</namePart>
+        <namePart lang="zh" type="family">莊</namePart>
+        <namePart lang="zh" type="given">惠萍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ShijingYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石經研究</title>
+        </titleInfo>
+        <titleInfo xml:lang="en">
+            <title>Studies on Stone Sutras</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2017</date>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>194</start>
+                <end>199</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

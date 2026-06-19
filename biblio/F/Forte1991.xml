@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Forte1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Foshuo Foming Jing <foreign lang="zh">佛說佛名經</foreign> (The Scripture of the Names of
+            the Buddhas, Spoken by the Buddha), 16 <hi rend="italic">juan</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Forte 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#forte" type="personal">
+        <namePart lang="it" type="family">Forte</namePart>
+        <namePart lang="it" type="given">Antonio</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Ochiai1991b" type="host">
+        <titleInfo lang="en">
+            <title>The Manuscripts of Nanatsu-Dera: A Recently Discovered Treasure-house in Downtown
+                Nagoya</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent>
+                <start>39</start>
+                <end>41</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

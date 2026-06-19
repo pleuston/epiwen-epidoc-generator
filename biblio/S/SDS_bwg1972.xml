@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SDS_bwg1972" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qufu Jiulong Shan Hanmu fajue jianbao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>曲阜九龍山漢墓發掘簡報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Report on the Excavation of the Han Tomb at Jiulongshan, Qufu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Beichao moya kejing yanjiu 1991a">
+        <title>Shan­dong sheng bo­wu­guan 1972</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sds_bwg" type="corporate">
+        <namePart transliteration="pinyin">Shandongsheng bowuguan</namePart>
+        <namePart lang="zh">山東省博物舘</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1972</date>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>39</start>
+                <end>44</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

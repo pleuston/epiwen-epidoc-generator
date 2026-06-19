@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujiwara1986" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku sekkoku shodōshi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中国石刻書道史</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$History of Calligraphy in Chinese Stone Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujiwara 1986</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yechangchi" type="personal">
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">昌熾</namePart>
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Changchi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujiwara" type="personal">
+        <namePart lang="ja" type="family">藤原</namePart>
+        <namePart lang="ja" type="given">楚水</namePart>
+        <namePart transliteration="romaji" type="family">Fujiwara</namePart>
+        <namePart transliteration="romaji" type="given">Sosui</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1986</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Meicho shuppan</namePart>
+                <namePart lang="ja">名著出版</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

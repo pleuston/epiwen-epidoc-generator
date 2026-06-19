@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuShufen2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>墓幢<hi rend="dash">──</hi>經幢研究之三</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Muchuang—jingchuang yanjiu zhi san</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Tomb Pillars—Studies in Sutra Pillars, Part 3</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Shu­fen 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liushufen" type="personal">
+        <namePart type="family">Liu</namePart>
+        <namePart type="given">Shufen</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">淑芬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZYY_lishiyuyan_yjs_jikan" type="host">
+        <titleInfo lang="zh">
+            <title>中央研究院歷史語言研究所集刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongyang yanjiuyuan lishi yuyan yanjiusuo jikan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2003</date>
+            <detail type="volume">74</detail>
+            <detail type="no">4</detail>
+            <extent>
+                <start>673</start>
+                <end>763</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

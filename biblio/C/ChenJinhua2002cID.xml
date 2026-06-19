@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJinhua2002c" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>An Alternative View of the Meditation Tradition in China: Meditation in the Life and
+            Works of Daoxuan (596-667)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Jin­hua 2002b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjinhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ToungPao" type="host">
+        <titleInfo lang="en">
+            <title>T’oung Pao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2002</date>
+            <detail type="volume">88</detail>
+            <detail type="no">4/5</detail>
+            <extent unit="page">
+                <start>332</start>
+                <end>395</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

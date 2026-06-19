@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xiebaosheng2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Cong ‘Shanzi jing bian’ kan fojiao yishu zhong de xiaodao sixiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>從《睒子經變》看佛教藝術中的孝道思想</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Reading Filial Piety in Buddhist Art through ‘The Illustration of the Shanzi Sutra’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xie Bao­sheng 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xieshengbao" type="personal">
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Shengbao</namePart>
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">生保</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DZ_shikeyishu_bwg2002a" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dazu shike yanjiu wenji 3</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>大足石刻研究文集3</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2002</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>254</start>
+                <end>272</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

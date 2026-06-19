@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZengakuKenkyu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Zengaku kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>禅学研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies in Zen Buddhism</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zengaku_kenkyukai" type="corporate">
+        <namePart lang="ja">禅学研究会</namePart>
+        <namePart transliteration="romaji">Zengaku kenkyūkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1925-</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">禅学研究会</namePart>
+                <namePart transliteration="romaji">Zengaku kenkyūkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

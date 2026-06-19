@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xusubin2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東洋建築史學の成立に見るアカデミーとナショナリズム<hi rend="dash">──</hi>関野貞と中国建築史研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōyō kenchiku shigaku no seiritsu ni miru akademī to nashonarizumu: Sekino Tadashi to Chūgoku kenchikushi kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Critical Review of Academism and Nationalism in East Asian Architectural Historiography—Tadashi Sekino and His Research on Chinese Architectural History</title>
+    </titleInfo>
+    <abstract>There was an upsurge of interest in Japanese culture following the formation of a
+        national state in the Meiji era. In order to search for the origins of Japanese, many
+        researchers did fieldwork in Korea, China, Mongolia, and other places.
+        Tadashi Sekino (1868-1935) is one of the most famous East Asian architectural and
+        fine arts historians, as well as archaeologists in modern Japan. In fact he is the epitome
+        of Japanese research on Asia as a whole. This article focuses on his research in China. He
+        carried out ten fieldwork surveys of traditional Chinese architecture from 1906-1935.
+        Employing the methodologies of architecture, archaeology, and art, he did comprehensive
+        research on Asian ancient architecture, cities as well as Buddhist sculpture. He left
+        voluminous notes concerning his surveys in China, which are valuable source material in
+        understanding Japanese research on Chinese art and architecture during the colonial
+        period in the first half of the twentieth century.
+        This article also examines the issue of the national identity of Japanese Researchers,
+        the relationship between academy and colonial politics, and the Preservation of cultural
+        heritage in the colonial era. It also deals with the Influence of research methodology of
+        architectural history from Japan to China prior to 1931.
+        明治末期、日本では国民意識の形成と共に、日本文化への関心が高まりを見せた。日本の文化のルーツを探すため、多くの日本人研究者は朝鮮、中国、蒙古などの地域へ調査に向かった。関野貞(一八六八－一九三五) は東アジアの建築史、美術史、考古学の領域の研究において注目すべぎ業績を残した研究者である。彼の研究経歴はそのまま近代日本の東洋研究の縮図といえる。本稿では、関野の六〇〇余枚にのぼる調査帖を中心にして、一九〇六年から一九三五年にいたる前後十回に亘る中国におけるフィールドワークを考察した。さらに、論者は関野の調査活動を通して、日本研究者のナショナル・アイデンティティー、学術研究と植民地政治の関連性、植民地と文化遺産の保存などの問題を論じた。また、満洲事変以前の日中における学術交流、ならびに中国に及ぼせる日本建築史学研究の影響などの問題にも言及した。</abstract>
+    <titleInfo type="reference">
+        <title>Xu Subin 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xusubin" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">蘇斌</namePart>
+        <namePart transliteration="pinyin" type="family">Xu</namePart>
+        <namePart transliteration="pinyin" type="given">Subin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Nihon_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>日本研究<hi rend="dash">──</hi>国際日本文化研究センター紀要</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Nihon kenkyū: Kokusai Nihon bunka kenkyū sentā kiyō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>26</number>
+            </detail>
+            <extent unit="page">
+                <start>53</start>
+                <end>141</end>
+            </extent>
+            <date>2002</date>
+        </part>
+    </relatedItem>
+    <note type="reprint">(‘<foreign lang="ja">Tokushū</foreign>’ Shinpojiumu: Kindai Higashiajia no bijutsu shigaku, kenchiku shigaku, <foreign lang="ja">kōkogaku</foreign> no seiritsu: Bunkazai <foreign lang="ja">gyōsei</foreign> to sono <foreign lang="ja">shūhen </foreign>
+        <foreign lang="zh">〈特集〉シンポジウム<hi rend="dash">──</hi>近代東アジアの美術史學、建築史學、考古學の成立<hi rend="dash">──</hi>文化財行政とその周邊<hi rend="dash">──</hi>
+        </foreign> [‘Special Issue’ Symposium: The Establishment of Modern East Asian Artistic and Architectural Historiography and Archaeology: The Administration of Cultural Heritage and Its Surroundings])</note>
+</mods>

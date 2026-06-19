@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rongtaiji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Rongtai ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>容臺集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of the Minister of Rites</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rongtai ji 1630</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dongqichang" type="personal">
+        <namePart transliteration="pinyin" type="family">Dong</namePart>
+        <namePart transliteration="pinyin" type="given">Qichang</namePart>
+        <namePart lang="zh" type="family">董</namePart>
+        <namePart lang="zh" type="given">其昌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongyang tushuguan</namePart>
+                <namePart lang="zh">中央圖書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Mingdai yishujia jihui kan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>明代藝術家集匯刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Photocopy of the original edition of 1630</note>
+</mods>

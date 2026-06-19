@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hamilton1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Sociology of Religion. Theoretical and Comparative Perspectives</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hamilton 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hamilton" type="personal">
+        <namePart lang="en" type="family">Hamilton</namePart>
+        <namePart lang="en" type="given">Malcolm B.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Routledge</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

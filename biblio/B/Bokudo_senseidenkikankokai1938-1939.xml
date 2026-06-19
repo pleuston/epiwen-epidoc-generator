@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bokudo_senseidenkikankokai1938-1939" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>犬養木堂傳</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Inukai Bokudō den</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Biography of Inukai Bokudō</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bokudō sensei denki kankōkai 1938–1939</title>
+    </titleInfo>
+    <abstract>[Taishan]:
+        In vol. 2, Chapter 28 “Tōa kankei (jō) 東亞關係（上） [East Asian Relations (1)]”, Washio mentions a trip of INUKAI Tsuyoshi 犬養毅 (1855–1932; 29th Premier Minister of Japan, murdered during the “5-15 jiken 五・一五事件 [5-15 Incident]” to Shandong and Taishan. Bokudō 木堂 is the courtesy name of Inukai. 
+        Inukai was followed by a group consisting of INUKAI Takeru 犬養健 (1896–1960), KOJIMA Kazuo 古島一雄 (1865–1952), KAYANO Nagatomo 萱野長知 (1873–1947), ITANO Tomozō 板野友造 (1874–1945), SHIMIZU Ginzō 清水銀蔵 (1879–1937; courtesy name: Senri 千里), KONDŌ Tatsuji 近藤達児 (1875–1931) and his subordinate MIYAZAKI Kōsuke 宮崎幸介 (?–?), MIYAKAWA (MIYAGAWA?) Ikkan 宮川一貫 (1885–1944) and TAKASU Daisuke 高洲大助 (?–?), as well as the group of TŌYAMA Mitsuru 頭山満 (1855–1944) and the relatives of MIYAZAKI Tōten 宮崎滔天 (1870–1922). This part was first serially published by Shimizu in the Shōwa nichinichi shinbun 昭和日日新聞 as Bokudō sensei zuiyūki 木堂先生隨遊記 [Travellers Diary of following Master Bokudō].
+        See: vol. 2, p. 742 (418/556), pp. 753-755 (423/556-424/556).</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#washio" type="personal">
+        <namePart transliteration="romaji" type="family">Washio</namePart>
+        <namePart transliteration="romaji" type="given">Yoshinao</namePart>
+        <namePart lang="ja" type="family">鷲尾</namePart>
+        <namePart lang="ja" type="given">義直</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bokudo_senseidenkikankokai" type="corporate">
+        <namePart transliteration="romaji">Bokudō sensei denki kankōkai</namePart>
+        <namePart lang="ja">木堂先生傳記刊行會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1938</dateIssued>
+        <dateIssued point="end">1939</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōyō keizai shinpōsha</namePart>
+                <namePart lang="ja">東洋經濟新報社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan Leiyin Dong shijing he Jingang jing: kaishan zushi Jingwan de kejing shiye yiyi shitan</title>
+        <!--<title>Fangshan Leiyindong shijing he Jingang jing — kaishan zushi Jingwan de kejing shiye yiyi shitan</title>-->
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>房山雷音洞石經和金剛經<hi rend="dash">──</hi>開山祖師靜琬的刻經事業意義試探</title>
+        <!--<title>房山雷音洞石經和金剛經 — 開山祖師靜琬的刻經事業意義試探</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Carved Sutras in the Thunder Sound Cave in Fangshan and the <hi rend="italic">Diamond Sutra</hi>: Exploring the Significance of the Patriarch Jingwan’s Sutra Cutting Undertaking</title>
+        <!--<title>Stone Carved Sūtras in the Thunder Sound Cave in Fangshan and the Jingang jing — Exploring the Significance of the Patriarch Jingwan’s Sutra Cutting Undertaking</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 2003</title>
+    </titleInfo>
+    <subject>
+        <topic>Fangshan</topic>
+        <topic>Diamond sutra</topic>
+        <name>Jing Wan</name>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="hepburn" type="family">Kegasawa</namePart>
+        <namePart transliteration="hepburn" type="given">Yasunori</namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg2003" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing yanjiu (xu)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經研究（續）</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2003-12</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hong Kong</placeTerm>
+                <placeTerm lang="zh">香港</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Tianma tushu youxian gongsi</namePart>
+                    <namePart lang="zh">天馬圖書有限公司</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>285</start>
+                <end>299</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

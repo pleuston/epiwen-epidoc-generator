@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RyumonSekkutsu2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>龍門石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūmon sekkutsu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Longmen Grottoes</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Ryūmon sekkutsu 2001">
+        <title>Ryūmon sekkutsu 2001</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#miho_museum" type="corporate">
+        <namePart lang="en">Miho Museum</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Shiga</placeTerm>
+            <placeTerm lang="ja">滋賀</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Miho Museum</namePart>
+                <namePart lang="ja">ミホ ミュージアム</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

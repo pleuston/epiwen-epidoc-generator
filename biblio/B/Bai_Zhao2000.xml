@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Bai_Zhang2000">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo gudai seng ni mingji zhidu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國古代僧尼名籍制度</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Ancient Chinese Monks and Nuns Nomenclature System</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bai, Zhang, and Zhao 2000</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#baiwengu" type="personal">
+        <namePart transliteration="pinyin" type="family">Bai</namePart>
+        <namePart transliteration="pinyin" type="given">Wengu</namePart>
+        <namePart lang="zh" type="family">白</namePart>
+        <namePart lang="zh" type="given">文固</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangsonghui" type="personal">
+        <namePart transliteration="pinyin" type="family"/>
+        <namePart transliteration="pinyin" type="given"/>
+        <namePart lang="zh" type="family"/>
+        <namePart lang="zh" type="given"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhaochune" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Chune</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">春蛾</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xining</placeTerm>
+            <placeTerm lang="zh">西寧</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qinghai renmin chubanshe</namePart>
+                <namePart lang="zh">青海人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

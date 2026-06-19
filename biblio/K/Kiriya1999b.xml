@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kiriya1999b">
+    <titleInfo lang="ja">
+        <title>宫沢賢治のマンダラ世界</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Miyazawa Kenji no mandara sekai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Mandala World of Miyazawa Kenji</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiriya 1999b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiriya" type="personal">
+        <namePart transliteration="romaji" type="family">Kiriya</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <namePart lang="ja" type="family">桐谷</namePart>
+        <namePart lang="ja" type="given">征一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Takagi_Kanmuri1999" type="host">
+        <titleInfo lang="ja">
+            <title>日蓮とその教團</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Nichiren to sono kyōdan</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1999.03</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>415</start>
+                <end>456</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

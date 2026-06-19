@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiLing2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Huang Tang sanjie dade chanshi zaoxiang bei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>皇唐三階大德禪師造像碑</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <!--Image -->Stele of the Three Levels Bhadanta Meditation Master of the August Tang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Ling 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liling" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ling</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">翎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huanglinna" type="personal">
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Linna</namePart>
+        <namePart lang="zh" type="family">黃</namePart>
+        <namePart lang="zh" type="given">林納</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongyuanWenwu" type="host">
+        <titleInfo lang="zh">
+            <title>中原文物</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongyuan wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2010</date>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>91</start>
+                <end>94</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

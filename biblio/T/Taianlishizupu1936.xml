@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taianlishizupu1936" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai’an Li shi zupu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰安李氏族譜</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>Clan Genealogy of the Li Family of Tai’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai’an Li shi zupu 1936</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuanyinpei" type="personal">
+        <namePart lang="zh" type="family">元</namePart>
+        <namePart lang="zh" type="given">因培</namePart>
+        <role>
+            <roleTerm type="etal">author</roleTerm>
+        </role>
+    </name>
+    <!-- <extension>14 <hi rend="italic">juan </hi><foreign lang="zh">卷</foreign> + <hi rend="italic">shou </hi><foreign lang="zh">首</foreign> and <hi rend="italic">mo </hi><foreign lang="zh">末</foreign></extension>-->
+    <originInfo>
+        <dateIssued>1936</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Tai’an</placeTerm>
+            <placeTerm lang="zh">泰安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note type="edition"/>
+</mods>

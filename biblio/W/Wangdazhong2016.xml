@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wangdazhong2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yanzhou Jinkou Ba keshi yizhen</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>兖州金口壩刻石遺珍</title>
+        <!--<title>兖州金口垻刻石遺珍</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Precious Remains of Engraved Stones from the Jinkou Embankment at Yanzhou</title>
+        <!--<title>Unrecorded Valuable inscriptions in Yanzhou Jinkou Ba</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Dazhong 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangdazhong" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Dazhong</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">大中</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangruiyan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Ruiyan</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">蕊燕</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <dateIssued>2016</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo wenshi chubanshe</namePart>
+                <namePart lang="zh">中國文史出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title><!--Zhongguo renmin zhengzhi xieshang huiyi Jining Shi Yanzhou Qu weiyuanhui -->Yanzhou wenshi ziliao <foreign lang="zh"><!--中國人民政治協商會議濟寧市兗州區委員會-->兖州文史資料</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

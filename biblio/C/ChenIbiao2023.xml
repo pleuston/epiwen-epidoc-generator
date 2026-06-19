@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenIbiau2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+              <title>華嚴專宗國際學術研討會論文集</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Huayan zhuanzong guoji xueshu yantaohui lunwenji</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Papers Presented at the International Academic Conference on Huayan Buddhism<!-- School--></title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Chen I-biau 2017</title>
+            </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenibiau" type="personal">
+    <name type="personal">
+      <namePart type="family">陳</namePart>
+      <namePart type="given">一標</namePart>
+    </name>
+    <name type="personal">
+      <namePart type="family">Chen</namePart>
+      <namePart type="given">I-biau</namePart>
+    </name>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <abstract/>
+            <originInfo>
+                        <dateIssued>2023</dateIssued>
+                        <issuance>monographic</issuance>
+                        <publisher>
+                                    <name type="corporate">
+                                      <namePart lang="zh">財團法人臺北市華嚴蓮社</namePart>
+                                                <namePart transliteration="pinyin">Caituan faren Taibei Shi Huayan lianshe</namePart>
+                                    </name>
+                        </publisher>
+                        <place>
+                          <placeTerm lang="zh">臺北</placeTerm>
+                                    <placeTerm transliteration="pinyin">Taibei</placeTerm>
+                        </place>
+            </originInfo>
+</mods>

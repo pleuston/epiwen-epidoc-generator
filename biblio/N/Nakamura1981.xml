@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nakamura1981" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Waga kuni no jōdo hensō to Tonkō</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>わが国の浄土変相と敦煌</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title><!--$$$Transformation Scenes of the Our Nation’s Pure Land Mandalas and Dunhuang-->
+        Pure Land Illustrations of Our Country and Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakamura 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakamura_koji" type="personal">
+        <namePart transliteration="romaji" type="family">Nakamura</namePart>
+        <namePart transliteration="romaji" type="given">Kōji</namePart>
+        <namePart lang="ja" type="family">中村</namePart>
+        <namePart lang="ja" type="given">興二</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tonko1980_82" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku sekkutsu: Tonkō Bakukōkutsu</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>中国石窟：敦煌莫高窟</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>229</start>
+                <end>240</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

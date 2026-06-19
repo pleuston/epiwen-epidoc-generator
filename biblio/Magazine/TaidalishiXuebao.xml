@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TaidalishiXuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Taida lishi xuebao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>臺大歷史學報</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historical Inquiry of the National Taiwan University</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Taida lishi xuebao</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart transliteration="pinyin">Tai’an shizhuan </namePart>
+        <namePart lang="zh">泰安師專</namePart>
+        <namePart lang="en">Teacher Training College of Tai’an</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1999</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm>Taiwan</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin"/>　  
+                <namePart lang="zh"/>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

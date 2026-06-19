@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Silk2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>What, If Anything, Is Mahāyāna Buddhism? Problems of Definitions and Classifications</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Silk 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#silk" type="personal">
+        <namePart lang="de" type="family">Silk</namePart>
+        <namePart lang="de" type="given">Jonathan A.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Numen</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2002</date>
+            <detail type="volume">49</detail>
+            <detail type="no">4</detail>
+            <extent unit="pages">
+                <start>355</start>
+                <end>405</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

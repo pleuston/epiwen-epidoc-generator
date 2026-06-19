@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kiriya1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru hokkekyō no sekkoku</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中国における法華經の石刻</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國境内的法華經石刻</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Inscriptions of the ‘Lotus Sutra’ in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiriya 1997</title>
+    </titleInfo>
+    <abstract>Carving Buddhist sutras on stone in China could be understood as a combination of the
+        tradition of carving Confucian Classics on stone and the Buddhist practice of copying and
+        printing the Buddhist sutras. Lotus Sutra, especially the Chapter of the Universal Gate of
+        the Bodhisattva Avalokiteśvara, has been one of the mostly carved Buddhist texts in China.
+        The first part of the article – the extant examples of the carved Lotus Sutra - lists the
+        known examples in respect of the date, place, type, content and historical documents. The
+        second part – the thoughts and technology of carving Buddhist sutras in China – argues that
+        the practice of carving sutras shows the reverence for the Chinese characters and the trust
+        on the durability of the stone. The carved texts or Buddha names on the cliffs in open air
+        have often a strong symbolic meaning, and in many cases the characters can be regarded as
+        the replacements of Buddha statues. The carved texts, either key paragraphs or Buddha names
+        or the title of the sutras also represent the whole corresponding text. The function of the
+        carved texts in certain spatial environment in the Northern Qi Dynasty (550-577) might have
+        been related with the practice of meditation. In a similar manner, the Chapter of the
+        Universal Gate or the Buddha names from Lotus Sutra or even its title have been carved, and
+        they might assume the same power as the whole text. The third part – the religious thoughts
+        and the characteristics of the carved Lotus Sutra – discusses: a. the contents of the carved
+        Lotus Sutras ranging from the whole text to just the title; b. the thoughts of preserving
+        all the Buddhist texts and the Lotus Sutra in seven places with other Buddhist texts; c. the
+        cult of the bodhisattva Avalokiteśvara and the related carved text. Abstract by Zhao Zhou </abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiriya" type="personal">
+        <namePart transliteration="romaji" type="family">Kiriya</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <namePart lang="ja" type="family">桐谷</namePart>
+        <namePart lang="ja" type="given">征一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AsaiEndo_kinen1997" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Asai Endō sensei koki kinen ronbunshū: Nichiren kyōgaku no shomondai</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>浅井円道先生古稀記念論文集：日蓮教學の諸問題</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1997-02</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Heirakuji shoten</namePart>
+                    <namePart lang="ja">平樂寺書店</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>783</start>
+                <end>816</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

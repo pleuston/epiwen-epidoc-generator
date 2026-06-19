@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuangYongwu1986" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beiping suo cang Dunhuang hanwen juanzi mulu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北平所藏敦煌漢文卷子目錄</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Catalogue of Chinese Dunhuang Manuscripts in the Beiping Collections</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Yong­wu 1986</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangyongwu" type="personal">
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Yongwu</namePart>
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">永武</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>continuing</issuance>
+        <dateIssued>1986</dateIssued>
+        <place>
+            <placeTerm>Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xin wenfeng chuban gongsi</namePart>
+                <namePart lang="zh">新文豐出版公司</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

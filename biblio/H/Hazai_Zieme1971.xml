@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hazai_Zieme1971" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo lang="de">
+      <title>Fragmente der uigurischen Version des „Jin’gangjing mit den Gāthās des Meister Fu“<!--: Nebst e. Anh. von T. Inokuchi Mit 61 Faks.auf 40 Tafeln--></title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Hazai and Zieme 1971</title>
+  </titleInfo>
+  
+  
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hazai" type="personal">
+    <namePart lang="en" type="family">Georg</namePart>
+    <namePart lang="en" type="given">Hazai</namePart>
+    
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zieme" type="personal">
+    <namePart lang="en" type="family">Peter</namePart>
+    <namePart lang="en" type="given">Zieme</namePart>
+    
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name> 
+  <originInfo>
+    <issuance>monographic</issuance>
+    <dateIssued>1971</dateIssued>
+    <place>
+      <placeTerm lang="en">Berlin</placeTerm>
+    </place>
+    <publisher>
+      <name type="corporate">
+        <namePart lang="en">Akademie-Verlag GmbH.Berlin</namePart>
+        
+      </name>
+    </publisher>
+  </originInfo>
+  <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SGKAO" type="series">
+    <titleInfo lang="de">
+      <title>Schriften zur Geschichte und Kultur des Alten Orients: Berliner Turfantexte I</title>
+    </titleInfo>
+    
+    <part>
+      <detail type="no">
+        <number>3</number>
+      </detail>
+      
+    </part>
+  </relatedItem>
+</mods>

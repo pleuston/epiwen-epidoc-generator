@@ -1,0 +1,25 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HistoryofReligions" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>History of Religions</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#uni_chicago" type="corporate">
+        <namePart lang="en">The University of Chicago</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1961-</dateIssued>
+        <dateIssued encoding="marc" point="start">1961-</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Chicago</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The University of Chicago Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

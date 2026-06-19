@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SheXianzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔萬曆〕歙縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Wanli〕 She xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of She County (Wanli Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>She xianzhi 1609</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiebi" type="personal">
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Bi</namePart>
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">陛</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangtao" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Tao</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">濤</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hefei</placeTerm>
+            <placeTerm lang="zh">合肥</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Huang Shan shushe</namePart>
+                <namePart lang="zh">黄山書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the 1609 edition</note>
+</mods>

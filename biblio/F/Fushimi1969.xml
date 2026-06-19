@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fushimi1969" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北齊·隽脩羅碑</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokusei, Senshūra-hi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Northern Qi, <hi rend="italic">Juan xiuluo bei </hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fushimi 1969</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fushimi" type="personal">
+        <namePart lang="ja" type="family">伏見</namePart>
+        <namePart lang="ja" type="given">冲敬</namePart>
+        <namePart transliteration="romaji" type="family">Fushimi</namePart>
+        <namePart transliteration="romaji" type="given">Chūkei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shohin" type="host">
+        <titleInfo lang="ja">
+            <title>書品</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shohin</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1969</date>
+            <detail type="volume">
+                <number>201</number>
+            </detail>
+            <extent unit="page">
+                <start>2</start>
+                <end>46</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Partially reprinted in <ref target="Fushimi1981" type="biblio"><!--vol. -->1: 288–291</ref>
+    </note>
+</mods>

@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bianchini2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Tradition and Innovation in Late South Asian Buddhism: The Impact of Spell Practices on the Recasting of Prajñāpāramitā Scriptures</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bianchini 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bianchini" type="personal">
+        <namePart lang="en" type="family">Bianchini</namePart>
+        <namePart lang="en" type="given">Francesco</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm>University of Oxford</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Po_Ta2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>開封繁塔石刻</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Kaifeng Po Ta shike</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Inscriptions of Po Pagoda in Kaifeng</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Po Pagoda 2017</title>
+    </titleInfo>
+
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kaifeng_pota_wenwu_guanlisuo" type="corporate">
+
+        <namePart lang="zh">開封市延慶觀繁塔文物管理所</namePart>
+        <namePart transliteration="pinyin">Kaifeng Shi Yanqing Guan Po Ta wenwu guanlisuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+            <placeTerm lang="zh">鄭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongzhou guji chubanshe</namePart>
+                <namePart lang="zh">中州古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+
+
+
+</mods>

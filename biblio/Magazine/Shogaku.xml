@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shogaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>書學</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shogaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Calligraphy</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nihon_shodo_kyoiku_gakkai" type="corporate">
+        <namePart lang="ja">日本書道教育學会</namePart>
+        <namePart transliteration="romaji">Nihon shodō kyōiku gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1958</dateIssued>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nihon shodō kyōiku gakkai</namePart>
+                <namePart lang="ja">日本書道教育學会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

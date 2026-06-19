@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Zhaochengjie2019">
+    <titleInfo lang="zh">
+        <title>《金石萃編》與清代金石學</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Jinshi cuibian</hi> yu Qing dai jinshixue</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title><hi rend="italic">Assembled Edition of Bronze and Stone</hi> and Epigraphy in the Qing Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi">
+        <title>Zhao Chengjie 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#zhaochengjie">
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">成傑</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中國社會科學出版社</namePart>
+                <namePart transliteration="pinyin">Zhongguo shehui kexue chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        
+        
+    </originInfo>
+</mods>

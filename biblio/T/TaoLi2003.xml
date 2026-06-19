@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TaoLi2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Guanyu Taishan Jingshiyu kejing wenhua beijing de kaocha</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>關於泰山經石峪刻经文化背景的考察</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Investigations into the Cultural Background of the Inscriptions of Sutra Stone Valley in Taishan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tao Li 2003</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <city>Tai’an</city>
+        </hierarchicalGeographic>
+        <topic>Taishan</topic>
+        <topic>stone scriptures</topic>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taoli" type="personal">
+        <namePart transliteration="pinyin" type="family">Tao</namePart>
+        <namePart transliteration="pinyin" type="given"> Li</namePart>
+        <namePart lang="zh" type="family">陶</namePart>
+        <namePart lang="zh" type="given">莉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg2003" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing yanjiu (xu)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經研究（续）</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2003=12</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hong Kong</placeTerm>
+                <placeTerm lang="zh">香港</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Tianma tushu youxian gongsi</namePart>
+                    <namePart lang="zh">天马图书有限公司</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>359</start>
+                <end>365</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

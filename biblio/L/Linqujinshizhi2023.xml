@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Linqujinshizhi2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Linqu jinshizhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>臨朐金石志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Epigraphic Records of Linqu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Linqu jinshizhi 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#linquxian_dfz_yjzx" type="corporate">
+        <namePart transliteration="pinyin">Linqu Xian difang shi zhi yanjiu zhongxin</namePart>
+       
+        <namePart lang="zh">臨朐縣地方史志研究中心</namePart>
+      
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo wenshi chubanshe</namePart>
+                <namePart lang="zh">中國文史出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

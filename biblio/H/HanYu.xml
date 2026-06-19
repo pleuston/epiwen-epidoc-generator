@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanYu_vonZach" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Han Yü’s poetische Werke</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zach 1952</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanyu" type="personal">
+        <namePart type="family">韓</namePart>
+        <namePart type="given">愈</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zach" type="personal">
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1952</dateIssued>
+        <place>
+            <placeTerm>Cambridge, MA</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BBSS" type="series">
+        <titleInfo lang="en">
+            <title>Harvard-Yenching Institute Studies</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>VII</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

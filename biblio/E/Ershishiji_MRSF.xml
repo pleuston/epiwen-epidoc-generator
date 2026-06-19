@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ershishiji_MRSF" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ershi shiji mingren shufa dacheng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>二十世紀名人書法大成</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Calligraphy Works of Note Figures in the Twentieth Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ershi shiji mingren shuda dacheng</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#heguodong" type="personal">
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">國棟</namePart>
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Guodong</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai wenhua chubanshe</namePart>
+                <namePart lang="zh">上海文化出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Beibiezi_xinbian" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei biezi xin bian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>碑别字新編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A New Edition of Variant Characters on Steles</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bei biezi xin bian 1985</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qingong" type="personal">
+        <namePart lang="zh" type="family">秦</namePart>
+        <namePart lang="zh" type="given">公</namePart>
+        <namePart transliteration="pinyin" type="family">Qin</namePart>
+        <namePart transliteration="pinyin" type="given">Gong</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1985</dateIssued>
+        <place>
+            <placeTerm transliteration="others">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Haidaikaogu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://147.142.222.135:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Haidai kaogu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>海岱考古</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Haidai Archaeology</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sds_wenwu_kg_yjy" type="corporate">
+        <namePart transliteration="pinyin">Shandong Sheng wenwu kaogu yanjiuyuan</namePart>
+        <namePart lang="zh">山東省文物考古研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>1989-</dateIssued>
+        <dateIssued encoding="marc" point="start">1989</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency>annually since 2010</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+                <namePart lang="zh">科學出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

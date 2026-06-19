@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ikeda1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国古代写本識語集録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku kodai shahon shikigo shūroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Compilation of Colophons in Ancient Chinese Manuscripts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ikeda 1990</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ikeda" type="personal">
+        <namePart lang="ja" type="family">池田</namePart>
+        <namePart lang="ja" type="given">温</namePart>
+        <namePart transliteration="romaji" type="family">Ikeda</namePart>
+        <namePart transliteration="romaji" type="given">On</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō daigaku Tōyō bunka kenkyūsho</namePart>
+                <namePart lang="ja">東京大学東洋文化研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

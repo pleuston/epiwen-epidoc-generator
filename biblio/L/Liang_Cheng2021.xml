@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liang_Cheng2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Planning the Protection and Digital Construction of Mount Tai Stone Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liang <!--Mingying -->and Cheng<!-- Xuening--> 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liangmingying" type="personal">
+        <namePart lang="zh" type="family">梁</namePart>
+        <namePart lang="zh" type="given">明英</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengxuening" type="personal">
+        <namePart lang="zh" type="family">程</namePart>
+        <namePart lang="zh" type="given">學寧</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!-- <location>
+        <url displayLabel="additional">https://doi.org/10.2991/jracr.k.210225.001</url>
+    </location> -->
+    <originInfo>
+        <dateIssued>2021-02-19</dateIssued>
+        <dateCaptured>2021-07-16</dateCaptured>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Journal of Risk Analysis and Crisis Response</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">11</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>6</end>
+            </extent>
+            <date>2021</date>
+        </part>
+    </relatedItem>
+</mods>

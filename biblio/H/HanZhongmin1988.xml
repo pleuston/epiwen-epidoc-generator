@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanZhongmin1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國書籍編纂史稿</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo shuji bianzhuanshi gao</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Discussion of the History of Book Edition in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Han Zhongmin 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanzhongmin" type="personal">
+        <namePart lang="zh" type="family">韓</namePart>
+        <namePart lang="zh" type="given">仲民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo shuji chubanshe</namePart>
+                <namePart lang="zh">中國書籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

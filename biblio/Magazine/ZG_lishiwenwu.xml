@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZG_lishiwenwu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo lishi wenwu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國歷史文物</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>	
+            Journal of National Museum of China</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZG_guojiabowuguan" type="corporate">
+        <namePart lang="zh">中国國家博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1979-</dateIssued>
+        <dateIssued encoding="marc" point="start">1979</dateIssued>
+       
+        <place>
+            <placeTerm>Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中國國家博物館</namePart>
+                <namePart transliteration="pinyin">Zhongguo guojia bowuguan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

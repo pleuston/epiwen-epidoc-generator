@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NaitoTorajiro1992" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="Romaji">
+        <title>Shina shigakushi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>支那史學史</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A History of Chinese Historiography</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Naitō Konan 1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#NaitoTorajiro" type="personal">
+        <namePart lang="ja" type="family">内藤</namePart>
+        <namePart lang="ja" type="given">湖南</namePart>
+        <namePart transliteration="romaji" type="family">Naitō</namePart>
+        <namePart transliteration="romaji" type="given">Torajirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平凡社</namePart>
+                <namePart transliteration="romaji">Heibonsha</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

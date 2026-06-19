@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shaanxi_LYLSWHCS" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shaanxi lüyou lishi wenhua congshu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>陜西旅游歷史文化叢書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Books on Tourism, History and Culture of Shaanxi</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Shaanxi lüyou lishi wenhua congshu">
+        <title>Shaan­xi lü­you li­shi wen­hua cong­shu 2003–2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenzhongshi" type="personal">
+        <namePart transliteration="pinyin">Chen Zhongshi</namePart>
+        <namePart lang="zh">陳忠實</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">8 series, 51</detail>
+            <!-- <description>3 series.1st  serie: 30 vols, 2nd  serie: 20 vols, 3rd serie: 40 vols. Vol. 1 of
+                each series contains a catalogue of the series ; The three series consist of 90 volumes
+                altogether containing some 1,030 collections of stone inscriptions of various
+            types.</description>-->
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">2003</dateIssued>
+        <dateIssued point="end">2005</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">三秦出版社</namePart>
+                <namePart transliteration="pinyin">Sanqin chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

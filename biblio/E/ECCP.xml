@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ECCP" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Eminent Chinese of the Ch’ing Period (1644–1912) <foreign lang="zh">清代名人傳略</foreign></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>ECCP</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hummel" type="personal">
+        <namePart lang="en" type="family">Hummel</namePart>
+        <namePart lang="en" type="given">Arthur W.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1943</dateIssued>
+        <dateIssued point="end">1944</dateIssued>
+        <place>
+            <placeTerm>Washington, D.C.</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Library of Congress</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LinYuanbai1958a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石經拓印中發現的唐代碑刻: 介紹《大唐石經堂碑》</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shijing tayin zhong faxian de Tang Dai beike. Jieshao ‘Da Tang Shijing Tang bei’</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>An Engraved Stele from the Tang Dynasty Discovered Among the Rubbings of the Stone Sutras in Fangshan: An Introduction to the "Stele of the Hall of Stone Sutras from the Great Tang"</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lin Yuanbai 1958a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#linyuanbai" type="personal">
+        <namePart lang="zh" type="family">林</namePart>
+        <namePart lang="zh" type="given">元白</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#XiandaiFoxue" type="host">
+        <titleInfo lang="zh">
+            <title>現代佛學</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xiandai foxue</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>15</start>
+                <end>19</end>
+            </extent>
+            <date>1958</date>
+        </part>
+    </relatedItem>
+   <!-- <classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <name ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>137</start>
+                <end>148</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol.1, 137–148</ref>
+    </note>
+</mods>

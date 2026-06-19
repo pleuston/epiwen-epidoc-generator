@@ -1,0 +1,74 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuoZhao1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Leiyin Dong sheli yu ‘Fangshan shijing’</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雷音洞舍利與房山石經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Relics in the Thunder Sound Cave and the Stone Sutras at Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhao 1987</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhao</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">炤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ShijieZongjiaoYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shijie zongjiao yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>世界宗教研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>4</number>
+            </detail>
+            <extent unit="page">
+                <start>139</start>
+                <end>141</end>
+            </extent>
+            <date>1987</date>
+        </part>
+    </relatedItem>
+   <!-- <classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <name ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>331</start>
+                <end>335</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol. 3, 331–335</ref>
+    </note>
+</mods>

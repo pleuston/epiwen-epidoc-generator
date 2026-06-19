@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yanchengfei1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beifa zhi kangzhan qianxi liren Tai’an xianzhang jiankuang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北伐至抗戰前夕歷任泰安縣長簡况</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Brief Account on the Successive Magistrates of Tai’an County from the Northern Expedition to the Eve of the War of Resistance</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yan Chengfei 1990</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yanchengfei" type="personal">
+        <namePart lang="zh" type="family">嚴</namePart>
+        <namePart lang="zh" type="given">澄非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="TAISHANQUWENSHIZILIAO2" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Taishan Qu wenshi ziliao: di er ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>泰山區文史資料·第二輯</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <extent unit="page">
+                <start>35</start>
+                <end>40</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

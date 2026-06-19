@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Greene2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The <hi rend="italic">Scripture on the Secret Essentials of Meditation</hi>. The Authority of Meditation in the <hi rend="italic">Kaiyuan</hi> Era <foreign lang="zh">《禪秘要經》<hi rend="dash">──</hi>開元時期的禪法權威</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Greene 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#greene" type="personal">
+        <namePart lang="en" type="family">Greene</namePart>
+        <namePart lang="en" type="given">Eric</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sichuan_4" type="host">
+        <titleInfo>
+            <title>Zhongguo fojiao shijing: Sichuan Sheng di si juan <foreign lang="zh">中國佛教石經·四川省第四卷</foreign>.
+                <!--hi rend="normal"> |</hi--> Buddhist Stone Sutras in China: Sichuan Province Volume 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>63</start>
+                <end>92</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

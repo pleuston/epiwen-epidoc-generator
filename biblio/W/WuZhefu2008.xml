@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WuZhefu2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei Song chuban wenhua tese kaoshu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北宋出版文化特色考述</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Features of Print Culture in the Northern Song Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Zhefu 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wuzhefu" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhefu</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">哲夫</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WangYaoting2008" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Kaichuang dianfan: Bei Song de yishu yu wenhua yantaohui lunwenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>開創典範：北宋的藝術與文化研討會論文集</title>
+        </titleInfo>
+        
+        <originInfo>
+            <dateIssued>2008</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+           
+            <extent unit="page">
+                <start>41</start>
+                <end>48</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

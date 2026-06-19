@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Revue_des_Etudes_islamique">
+    <titleInfo lang="fr">
+        <title>Revue des Études islamiques</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="corporate" ns2:href="#louismassignon">
+        <namePart lang="fr" type="family">Massignon</namePart>
+        <namePart lang="fr" type="given">Louis</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>continuing</issuance>
+        <dateIssued>1927-1998</dateIssued>
+        <dateIssued encoding="marc" point="start">1927</dateIssued>
+        <dateIssued encoding="marc" point="start">1998</dateIssued>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Geuthner</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

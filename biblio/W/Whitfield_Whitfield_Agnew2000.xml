@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Whitfield_Whitfield_Agnew2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Cave Temples of Dunhuang. Art and History on the Silk Road</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Whitfield, Whitfield and Agnew 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#whitfield" type="personal">
+        <namePart lang="en" type="family">Whitfield</namePart>
+        <namePart lang="en" type="given">Roderick</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#whitfield_susan" type="personal">
+        <namePart lang="en" type="family">Whitfield</namePart>
+        <namePart lang="en" type="given">Susan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#agnew" type="personal">
+        <namePart lang="en" type="family">Agnew</namePart>
+        <namePart lang="en" type="given">Neville</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The British Library</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luomujun2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang ben <hi rend="italic">Jingang Jing</hi> duandai yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌本《金剛經》斷代研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Dating the Dunhuang Version of the <hi rend="italic">Diamond Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Mujun 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luomujun" type="personal">
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">慕君</namePart>
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Mujun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Dunhuangxuejikan" type="host">
+        <titleInfo lang="zh">
+            <title>敦煌學輯刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuangxue jikan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>24</start>
+                <end>36</end>
+            </extent>
+            <date>2021</date>
+        </part>
+    </relatedItem>
+</mods>

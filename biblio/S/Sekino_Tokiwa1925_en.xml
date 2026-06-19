@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sekino_Tokiwa1925_en" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Monuments in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa and Sekino 1925–1928 (Text)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa_en" type="personal">
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sekino" type="personal">
+        <namePart lang="ja" type="family">関野</namePart>
+        <namePart lang="ja" type="given">貞</namePart>
+        <namePart transliteration="romaji" type="family">Sekino</namePart>
+        <namePart transliteration="romaji" type="given">Tadashi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">5</detail>
+            <note>5 vols. English translation to <ref target="Sekino_Tokiwa1925_31" type="biblio"/>
+            </note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1926</dateIssued>
+        <dateIssued point="end">1938</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Bukkyo-shiseki Kenkyu-kwai</namePart>
+                <namePart lang="ja">佛敎史蹟硏究會</namePart>
+                <!--<namePart lang="ja">佛教史蹟研究會</namePart>-->
+                <!--<namePart lang="ja">仏教史蹟研究会</namePart>-->
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

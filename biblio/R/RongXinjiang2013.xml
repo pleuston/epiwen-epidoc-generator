@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RongXinjiang2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Eighteen Lectures on Dunhuang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rong Xinjiang 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#rongxinjiang" type="personal">
+        <namePart lang="zh" type="family">榮</namePart>
+        <namePart lang="zh" type="given">新江</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#galambos" type="personal">
+        <namePart lang="en" type="family">Galambos</namePart>
+        <namePart lang="en" type="given">Imre</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm>Leiden and Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Brill’s Humanities in China Library</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

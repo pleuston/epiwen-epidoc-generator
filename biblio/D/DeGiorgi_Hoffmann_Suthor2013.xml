@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DeGiorgi_Hoffmann_Suthor2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Synergies in Visual Culture. Bildkulturen im Dialog. Festschrift für Gerhard Wolf</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>De Giorgi, Hoffmann, Suthor 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#degiorgi" type="personal">
+        <namePart lang="en" type="family">De Giorgi</namePart>
+        <namePart lang="en" type="given">Manuela</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#annette_hoffmann" type="personal">
+        <namePart lang="de" type="family">Hoffmann</namePart>
+        <namePart lang="de" type="given">Annette</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#suthor" type="personal">
+        <namePart lang="en" type="family">Suthor</namePart>
+        <namePart lang="en" type="given">Nicola</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm lang="de">München and Paderborn</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Wilhelm Fink</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2013</dateIssued>
+    </originInfo>
+</mods>

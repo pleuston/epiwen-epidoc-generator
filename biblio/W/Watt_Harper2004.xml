@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Watt_Harper2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>China: Dawn of a Golden Age, 200-750 AD</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Watt et al. 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#watt" type="personal">
+        <namePart lang="en" type="family">Watt</namePart>
+        <namePart lang="en" type="given">James C.Y.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#howard" type="personal">
+        <namePart lang="en" type="family">Howard</namePart>
+        <namePart lang="en" type="given">Angela F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#anjiayao" type="personal">
+        <namePart transliteration="pinyin" type="family">An</namePart>
+        <namePart transliteration="pinyin" type="given">Jiayou</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#marshak" type="personal">
+        <namePart lang="en" type="family">Marshak</namePart>
+        <namePart lang="en" type="given">Borris I.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#subai" type="personal">
+        <namePart transliteration="pinyin" type="family">Su</namePart>
+        <namePart transliteration="pinyin" type="given">Bai</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhaofeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Feng</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The Metropolitan Museum of Art</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xie_Bai1990" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國僧官制度史</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo sengguan zhidu shi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>History of the System of Directors of Monks in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xie Chongguang and Bai Wengu 1990</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiechongguang" type="personal">
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">重光</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#baiwengu" type="personal">
+        <namePart lang="zh" type="family">白</namePart>
+        <namePart lang="zh" type="given">文固</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xining</placeTerm>
+            <placeTerm lang="zh">西寧</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qinghai renmin chubanshe</namePart>
+                <namePart lang="zh">青海人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

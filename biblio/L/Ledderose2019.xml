@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>經石峪：從佛教道場到文人場所</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jingshi Yu: cong fojiao daochang dao wenren changsuo</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sutra Stone Valley and Its Evolution Into a Site Enjoyed by the Literati</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ledderose_zh" type="personal">
+        <namePart type="family">雷</namePart>
+        <namePart type="given">德侯</namePart>
+        <namePart type="family">Lei</namePart>
+        <namePart type="given">Dehou</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Taishanxueyuanxuebao" type="host">
+        <titleInfo lang="zh">
+            <title>泰山學院學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan xueyuan xuebao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>34</start>
+                <end>38</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

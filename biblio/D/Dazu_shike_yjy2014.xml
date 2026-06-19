@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dazu_shike_yjy2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>2014 nian Dazu xue guoji xueshu yantaohui lunwen ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>2014年大足學國際學術研討會論文集</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Proceedings of the 2014 International Colloquium on Dazu Studies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dazu shike yanjiuyuan 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dazu_shike_yjy" type="corporate">
+        <namePart lang="zh">大足石刻研究院</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Sichuan daxue lishi wenhua xueyuan kaogu xuexi</namePart>
+                <namePart lang="zh">四川大學歷史文化學院考古學系</namePart>
+            </name>
+            Department of Archaeology, College of History and Culture, Sichuan University
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

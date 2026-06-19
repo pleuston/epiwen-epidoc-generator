@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujita1970" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>原始浄土思想の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Genshi jōdo shisō no kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Study on Early Pure Land Thought</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujita 1970</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujita" type="personal">
+        <namePart lang="ja" type="family">藤田</namePart>
+        <namePart lang="ja" type="given">宏達</namePart>
+        <namePart transliteration="romaji" type="family">Fujita</namePart>
+        <namePart transliteration="romaji" type="given">Kōtatsu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1970</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

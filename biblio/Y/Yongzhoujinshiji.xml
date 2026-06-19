@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yongzhoujinshiji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yongzhou jinshi ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雍州金石記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Epigraphic Records of Yongzhou</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yongzhou jinshi zhi">
+        <title>Yongzhou jin­shi ji</title>
+    </titleInfo>
+    <abstract>
+    </abstract>
+   
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhufeng" type="personal">
+            <namePart transliteration="pinyin" type="family">Zhu</namePart>
+            <namePart transliteration="pinyin" type="given">Feng</namePart>
+            <namePart lang="zh" type="family">朱</namePart>
+            <namePart lang="zh" type="given">楓</namePart>
+            <namePart type="date"/>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lixiling" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Xiling</namePart>
+            <namePart lang="zh" type="family">李</namePart>
+            <namePart lang="zh" type="given">錫齡</namePart>
+            <namePart type="date">1797–1844</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="fascicle">10</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateOther qualifier="approximate">Preface 1759</dateOther>
+        </originInfo>
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+            <titleInfo transliteration="pinyin">
+                <title>Shike shiliao xinbian</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                <title>石刻史料新編</title>
+            </titleInfo>
+            <originInfo>
+                <issuance>monographic</issuance>
+            </originInfo>
+            <typeOfResource collection="yes"/>
+            <part>
+                <detail level="1" type="series">
+                    <number>1</number>
+                </detail>
+                <detail level="1" type="volume">
+                    <number>23</number>
+                </detail>
+                <extent unit="page">
+                    <start>17117</start>
+                    <end>17185</end>
+                </extent>
+            </part>
+        </relatedItem>
+</mods>

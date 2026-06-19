@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhouying2015B" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>清宫彩卷繪岱宗</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Qing gong caijuan hui Daizong</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Colored Handscroll of Mount Tai from the Qing Court</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2015b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart type="family" transliteration="other">Zhou</namePart>
+        <namePart type="given" transliteration="other">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Zhouying2015" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Mingshan gucheng: Tai Shan, Tai’an wenshi shiling</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>名山古城：泰山·泰安文史拾零</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Famous Mountains and Ancient Cities: Literary Tidbits from the Literature of Mount Tai and Tai’an</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2015</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Wuzhou chuanbo chubanshe</namePart>
+                    <namePart lang="zh">五洲傳播出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2015</date>
+            <extent unit="page">
+                <start>200</start>
+                <end>201</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

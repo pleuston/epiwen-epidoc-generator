@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="GeShixuan2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wang Tong yu daotong: Wang Tong xue zai Songdai diwei zhi bianhua ji shidai yiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>王通與道統<hi rend="dash">──</hi>王通學在宋代地位之變化及時代意義</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Wang Tong and Confucian Orthodoxy: The Changing Status of Wang Tong’s Philosophy during the Song Dynasty and its Significance for this Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ge Shixuan 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#geshixuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Ge</namePart>
+        <namePart transliteration="pinyin" type="given">Shixuan</namePart>
+        <namePart lang="zh" type="family">葛</namePart>
+        <namePart lang="zh" type="given">世萱</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss. <foreign lang="zh">博士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin"><!--Guoli -->Taiwan daxue<!--, Wenxueyuan, Zhongguo wenxue yanjiusuo--></placeTerm>
+            <placeTerm lang="zh"><!--國立-->臺灣大學<!--文學院中國文學研究所--></placeTerm>
+        </place>
+    </originInfo>
+</mods>

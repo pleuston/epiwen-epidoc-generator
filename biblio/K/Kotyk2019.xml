@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kotyk2019">
+    <titleInfo lang="en">
+        <title>Chinese State and Buddhist Historical Sources on Xuanzang: Historicity and the <hi rend="italic">Daci’en si sanzang fashi zhuan </hi>大慈恩寺三藏法師傳</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kotyk 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kotyk" type="personal">
+        <namePart lang="en" type="family">Kotyk</namePart>
+        <namePart lang="en" type="given">Jeffrey</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ToungPao" type="host">
+        <titleInfo lang="en">
+            <title>T’oung Pao</title>
+        </titleInfo>
+        <originInfo>
+           
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2019</date>
+            <detail type="volume">105</detail>
+            <detail type="no">5–6</detail>
+            
+            <extent unit="page">
+                <start>513</start>
+                <end>544</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

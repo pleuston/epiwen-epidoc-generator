@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Suzheji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>蘇轍集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Su Zhe ji</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Su Zhe ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Collected Works of Su Zhe</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#suzhe" type="personal">
+        <namePart lang="zh" type="family">蘇</namePart>
+        <namePart lang="zh" type="given">轍</namePart>
+        <namePart transliteration="pinyin" type="family">Su</namePart>
+        <namePart transliteration="pinyin" type="given">Zhe</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenhongtian" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">宏天</namePart>
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Hongtian</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gaoxiufang" type="personal">
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">秀芳</namePart>
+        <namePart transliteration="pinyin" type="family">Gao</namePart>
+        <namePart transliteration="pinyin" type="given">Xiufang</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中華書局</namePart>
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

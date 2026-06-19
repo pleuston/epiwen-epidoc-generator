@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SDSKYS_HAW2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Shandong Dongping Hongding Shan moya kejing kaocha</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>山東東平洪頂山摩崖刻經考察</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>An Investigation on the Sutras Engraved on Polished Cliffs at Mount
+                                    Hongding in Dongping, Shandong</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Hong­ding­shan mo­ya ke­jing kao­cha 2006</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sd_shikeyishu_bwg" type="corporate">
+                        <namePart transliteration="pinyin">Shandong sheng shike yishu bowuguan</namePart>
+                        <namePart lang="zh">山東省石刻藝術博物館</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hd_akademie" type="corporate">
+                        <namePart lang="de">Heidelberger Akademie der Wissenschaften</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#cass_zongjiaosuo" type="corporate">
+                        <namePart transliteration="pinyin">Zhongguo shehuikexueyuan shijiezongjiao
+            yanjiusuo</namePart>
+                        <namePart lang="zh">中國社會科學院世界宗教研究所</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Wenwu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>文物</title>
+                        </titleInfo>
+                        <titleInfo lang="en">
+                                    <title>Cultural Relics</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <place>
+                                                <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                                                <placeTerm lang="zh">北京</placeTerm>
+                                    </place>
+                                    <publisher><name type="corporate">
+                                                  <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                                                  <namePart lang="en" type="translated">Cultural Relics Publishing House</namePart>
+                                                  <namePart lang="zh">文物出版社</namePart>
+                                                </name></publisher>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="no">12</detail>
+                                    <extent unit="page">
+                                                <start>79</start>
+                                                <end>91</end>
+                                    </extent>
+                                    <date>2006</date>
+                        </part>
+            </relatedItem>
+</mods>

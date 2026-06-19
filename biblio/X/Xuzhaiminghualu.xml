@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xuzhaiminghualu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>虚齋名畫録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xu Zhai minghua lu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Catalog of Famous Paintings Compiled by Xu Zhai (Pang Yuanji)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xu Zhai ming­hua lu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pangyuanji" type="personal">
+        <namePart lang="zh" type="family">龐</namePart>
+        <namePart lang="zh" type="given">元濟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>4 vols.</extension>
+    <originInfo>
+        <dateIssued>1971</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Hanhua wenhua</namePart>
+                <namePart lang="zh">漢華文化</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yishu_shangjian_xuanzhen" type="series">
+        <titleInfo lang="zh">
+            <title>藝術賞鑒選珍</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Yishu shangjian xuanzhen</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the first edition of 1909</note>
+</mods>

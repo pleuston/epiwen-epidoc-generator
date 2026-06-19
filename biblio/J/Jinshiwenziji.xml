@@ -1,0 +1,106 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinshiwenziji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>金石文字記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi wenzi ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Records of Epigraphy Writings</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>文字記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Wenzi ji</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi wenzi ji">
+        <title>Jin­shi wen­zi ji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#guyanwu" type="personal">
+        <namePart transliteration="pinyin" type="family">Gu</namePart>
+        <namePart transliteration="pinyin" type="given">Yanwu</namePart>
+        <namePart lang="zh" type="family">顧</namePart>
+        <namePart lang="zh" type="given">炎武</namePart>
+        <namePart type="date">1613-1682</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>6 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">6</detail>
+        </extent>
+    </physicalDescription>-->
+    <!--relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="PanLei1695" type="host">
+        <titleInfo lang="zh">
+            <title>亭林十種</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tinglin shizhong</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>TRANSLATION?</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" oXygen2:href="#panlei" type="personal">
+            <namePart lang="zh" type="family">潘</namePart>
+            <namePart lang="zh" type="given">耒</namePart>
+            <namePart type="date">1646-1708</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateOther>first printed around 1695</dateOther>
+            <place>
+                <placeTerm>Taibei</placeTerm>
+                <placeTerm lang="zh">臺北</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">商務印書館</namePart>
+                    <namePart transliteration="pinyin">Shangwu yinshuguan</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <issuance>monographic</issuance>
+        <part>
+            <extent unit="page">
+                <start>701</start>
+                <end>832</end>
+            </extent>
+        </part>
+    </relatedItem-->
+    <!--<classification edition="SKSLXB">reprint</classification>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <issuance>monographic</issuance>
+        <!--<physicalDescription>
+            <extent type="fascicle">6</extent>
+        </physicalDescription>-->
+        <originInfo>
+            <dateIssued>1808</dateIssued>
+        </originInfo>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>12</number>
+            </detail>
+            <extent unit="page">
+                <start>9191</start>
+                <end>9304</end>
+            </extent>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

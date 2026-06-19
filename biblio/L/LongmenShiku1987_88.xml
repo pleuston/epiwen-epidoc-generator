@@ -1,0 +1,75 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LongmenShiku1987_88" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>龍門石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Longmen shiku (Ryūmon sekkutsu)</title>
+    </titleInfo>
+    <!--titleInfo lang="ja">
+        <title>龍門石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūmon sekkutsu</title>
+    </titleInfo-->
+    <titleInfo lang="en" type="translated">
+        <title>Longmen Caves</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Long­men shi­ku 1987-1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmen_wenwu_baoguansuo" type="corporate">
+        <namePart lang="zh">龍門文物保管所</namePart>
+        <namePart transliteration="pinyin">Longmen wenwu baoguansuo</namePart>
+        <namePart lang="ja">龍門文物保管所</namePart>
+        <namePart transliteration="romaji">Ryūmon bunbutsu hokansho </namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#beijing_daxue_kaoguxi" type="corporate">
+        <namePart lang="zh">北京大學考古系</namePart>
+        <namePart transliteration="pinyin">Beijing daxue kaoguxi</namePart>
+        <namePart lang="ja">北京大學考古系</namePart>
+        <namePart transliteration="romaji">Peking daigaku kōkokei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">2</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued point="start">1987</dateIssued>
+        <dateIssuedOther point="end">1988</dateIssuedOther>
+        <place>
+            <placeTerm>Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平凡社</namePart>
+                <namePart transliteration="romaji">Heibonsha</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <classification edition="1992">reprint</classification>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

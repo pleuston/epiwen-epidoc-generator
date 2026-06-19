@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangEugene1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>What Do Trigrams Have to Do with Buddhas? The Northern Liang Stupas as a Hybrid Spatial Model</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang, Eugene 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangeugene" type="personal">
+        <namePart type="family" lang="en">Wang</namePart>
+        <namePart type="given" lang="en">Eugene</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#res" type="host">
+        <titleInfo lang="en">
+            <title>Res: Anthropology and Aesthetics</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1999</date>
+            <detail type="volume">35, Spring</detail>
+            <!--<detail type="volume">35</detail>
+            <detail>
+                <number>spring</number>
+            </detail>-->
+            <extent unit="page">
+                <start>70</start>
+                <end>91</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

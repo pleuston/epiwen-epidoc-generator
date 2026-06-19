@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shaanxijinshizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shaanxi jinshi zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>陝西金石志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Epigraphic Records of Shaanxi</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Shaanxi jinshi zhi">
+        <title>Shaan­xi jin­shi zhi</title>
+    </titleInfo>
+    <abstract/>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wushushan" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Shushan</namePart>
+        <namePart lang="zh" type="family">武</namePart>
+        <namePart lang="zh" type="given">樹善</namePart>
+        <namePart type="date"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>30 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign> + <hi rend="italic">buyi </hi>
+        <foreign lang="zh">補遺</foreign>2 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">30</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther/>
+    </originInfo>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>22</number>
+            </detail>
+            <extent unit="page">
+                <start>16355</start>
+                <end>16846</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

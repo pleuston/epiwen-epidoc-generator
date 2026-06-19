@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DazuSKYS_bwg2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>2005 nian Chongqing Dazu shike guoji xueshu yantaohui lunwen ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>2005年重慶大足石刻國際學術研討會論文集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Essays of the International Symposium on the Stone Carvings at Dazu, Chongqing, in
+            2005</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Da­zu shi­ke yi­shu bo­wu­guan 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dazu_shikeyishu_bwg" type="corporate">
+        <namePart transliteration="pinyin">Chongqing Dazu shike yishu bowuguan</namePart>
+        <namePart lang="zh">重慶大足石刻藝術博物馆</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

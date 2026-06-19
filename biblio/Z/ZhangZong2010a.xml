@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2010a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  
+    <titleInfo lang="en">
+        <title>Northern Qi Inscribed Sutras and Buddha Images: The Unique Case of the Inscribed-Sutra Cave at Mount Zhonghuang</title>
+
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2010a</title><!--298–299-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#goodman" type="personal">
+      
+        <namePart lang="en" type="family">Goodman</namePart>
+        <namePart lang="en" type="given">Howard L.</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#AsiaMajor" type="host">
+        <titleInfo lang="en">
+            <title>Asia Major, third series</title>
+        </titleInfo>
+       
+
+        <originInfo>
+           
+            
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">XXIII</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>285</start>
+                <end>305</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

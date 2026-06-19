@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gomez_Silk1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Studies in the Literature of the Great Vehicle: Three Mahāyāna Buddhist Texts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gómez and Silk 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gomez" type="personal">
+        <namePart lang="de" type="family">Gómez</namePart>
+        <namePart lang="de" type="given">Luis O.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#silk" type="personal">
+        <namePart lang="de" type="family">Silk</namePart>
+        <namePart lang="de" type="given">Jonathan A.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>1989</dateIssued>
+        <place>
+            <placeTerm>Ann Arbor</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Michigan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BBSS" type="series">
+        <titleInfo lang="en">
+            <title>Michigan Studies in Buddhist Literature</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

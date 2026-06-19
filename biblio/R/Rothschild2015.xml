@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rothschild2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Emperor Wu Zhao and Her Pantheon of Devis, Divinities, and Dynastic Mothers</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rothschild 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#rothschild" type="personal">
+        <namePart lang="en" type="family">Rothschild</namePart>
+        <namePart lang="en" type="given">N. Harry</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Columbia University Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2015</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title><!--The -->Sheng Yen Series in Chinese Buddhist Studies</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

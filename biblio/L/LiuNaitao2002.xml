@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuNaitao2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Liu Ji mu kaogu fajue ji</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>劉濟墓考古發掘記</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Notes on the Archaeological Excavation of Liu Ji’s Tomb</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Liu Naitao 2002</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liunaitao" type="personal">
+                        <namePart lang="zh" type="family">劉</namePart>
+                        <namePart lang="zh" type="given">乃濤</namePart>
+                <role>
+                    <roleTerm>author</roleTerm>
+                </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Wenwu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>文物</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">12</detail>
+                                    <extent unit="page">
+                                                <start>26</start>
+                                                <end>33</end>
+                                    </extent>
+                                    <date>2002</date>
+                        </part>
+            </relatedItem>
+</mods>

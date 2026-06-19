@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tamamura2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>宇野雪村文庫拓本目録：大東文化大学書道研究所蔵</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Uno Sesson bunko takuhon mokuroku: Daitō bunka daigaku shodō kenkyūjo zō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of Rubbings in the Uno Sesson Collection: Preserved in the Research Center for Calligraphy, Daito Bunka University</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tamamura 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tamamura_kiyoshi" type="personal">
+        <namePart lang="ja" type="family">玉村</namePart>
+        <namePart lang="ja" type="given">清司</namePart>
+        <namePart transliteration="romaji" type="family">Tamamura</namePart>
+        <namePart transliteration="romaji" type="given">Kiyoshi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">大東文化大学書道研究所</namePart>
+                <namePart transliteration="romaji">Daitō bunka daigaku shodō kenkyūjo</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

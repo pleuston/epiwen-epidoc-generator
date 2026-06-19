@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishandaoliji_b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山道里記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan dao­li ji </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Itinerary of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>道里（文獻）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Daoli (Wenxian)</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tai Shan daoli ji (wenxian)">
+        <title>Tai Shan daoli ji 1772</title>
+    </titleInfo>
+    <subject>
+        <topic>Taishan</topic>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nieqin" type="personal">
+        <namePart lang="zh" type="family">聶</namePart>
+        <namePart lang="zh" type="given">鈫</namePart>
+        <namePart type="date">Qing dynasty, 1711-1796</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateOther qualifier="approximate">Completed 1772</dateOther>
+        <dateIssued/>
+    </originInfo>
+    <note>Dott 2004, 40, translates the title as above. He calls Nie Xu always Nie Jiangguang 聶劍光. </note>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文獻集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan wenxian jicheng</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm>Shandong</placeTerm>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Tai Shan chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+            <extent unit="page">
+                <start>23</start>
+                <end>78</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Based on the 1897 edition</note>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Teiser1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>幽靈的節日. 中國中世紀的信仰與生活</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Youling de jieri. Zhongguo zhongshiji de xinyang yu shenghuo</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Ghost Festival in Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Teiser 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#teiser" type="personal">
+        <namePart lang="en" type="family">Teiser</namePart>
+        <namePart lang="en" type="given">Stephen F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#houxudong" type="personal">
+        <namePart lang="zh" type="family">侯</namePart>
+        <namePart lang="zh" type="given">旭東</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhejiang</placeTerm>
+            <placeTerm lang="zh">浙江</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">浙江人民出版社</namePart>
+                <namePart transliteration="pinyin">Zhejiang renming chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

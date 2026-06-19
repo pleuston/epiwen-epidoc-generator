@@ -1,0 +1,97 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yao_Zhang2006b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhonghuang Shan kejing yu weishi guxue</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中皇山刻經與唯識古學</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Carved Sutras of Mount Zhonghuang and the Ancient Consciousness-Only Teaching</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang and Yao 2006b</title>
+        <!--<title>Zhang Zong and Yao Yingfang 2006b</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yaoyingfang" type="personal">
+        <namePart transliteration="pinyin" type="family">Yao</namePart>
+        <namePart transliteration="pinyin" type="given">Yingfang</namePart>
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">英芳</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This article first gives a taxonomie of the inscription sites in Shandong, Hebei and Henan of the Northern dynasties
+        and the early Sui period. Next the inscription site of Zhonghuangshan in Shexian is described. The following sutras are
+        engraved: The "Siyi fantian suowen jing 思益凡天所问经" in more than 30.000 charcters; the "Shenmi jietuo jing 深密解脱经" (T.
+        675.16:668-687, translated in 514) also in more than 30.000 characters; the "Shidi 士地" in more than 60.000 characters; the
+        "Fo yi jiao jing 佛遗教经" and the "Guanyin jing" in 1000 characters each. The second part of the article points out that the
+        selection of texts engarved in Zhonghuangshan is closely connected to "Old Mind Only 古唯识" studies, meaning early Yogacāra
+        Buddhism. The "Shenmi jietuo jing 深密解脱经" that was translated by Bodhiruci is considered such an early Yogacāra work.
+        Conventionally, Xuanzang is held to be the actual founder of the Chinese Weishi school (唯识新学) which is also called Faxiang
+        school. He re-translated the "Shenmi jietuo jing" under the title "Jie shenmi jing 解深密经". Scholars who had already
+        assimilated Indian Yogacāra thought under the Northern and Southern dynasties can be found among the so called "Shelun 摄论师
+        masters" and the "Dilun masters". The first group refers to scholars of the "She dasheng lun" 摄大乘论Mahāyāna
+        samparigraha-śāstra by Asanga that was translated by Paramārtha. The second group refers to scholars of the "Ten Stages
+        Sūtra" (Daśabhūmikasūtra-śāstra) of which a version is also engraved at Zhonghuangshan. The version of the Ten Stages
+        Sūtra engraved at Zhonghuangshan is not identical with the printed Taishō version (T. 1522.26.123-203) of the Treatise on
+        the Ten Stages Sūtra (Daśabhūmikasūtra-śāstra) by Vasubandhu that was translated into Chinese by Bodhiruci and Ratnamati
+        in the year 512. The Zhonghuangshan Ten Stages Sūtra relies on the sūtra part of the Treatise on the Ten Stages Sūtra, but
+        also adds passages from the The Sūtra on the Ten Stages (十住經), an earlier translation by Kumārajīva (T. 286.10.497-535),
+        and verses taken from the Ten Stages Chapter 十地品(fascicle 23 to 27) of the first Chinese translation of the
+        Āvatamsaka-sūtra (T. 278.09.542-578) in 60 fascicles by Buddhabhadra of the Eastern Jin dynasty from 418-420. The third
+        part of the article deals with the southern and northern branch of the Dilun school. It discusses various theories about
+        the meaning of the denominations of "northern" and "southern" and the location of "Xiangzhou" (the capitel Ye or Anyang?)
+        and introduces the scholar monks associated with both traditions.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SD_Shikeyishu_bwg2006b" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing (san)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經（三）</title>
+        </titleInfo>
+        <name oXygen2:href="#sd_shikeyishu_bwg" type="corporate">
+            <namePart transliteration="pinyin">Shandong sheng shike yishu bowuguan</namePart>
+            <namePart lang="zh">山東省石刻藝術博物館</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#hb_handanshi_wenwuju" type="corporate">
+            <namePart transliteration="pinyin">Hebei sheng Handan shi wenwuju</namePart>
+            <namePart lang="zh">河北省邯郸市文物局</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2006-07</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hohhot</placeTerm>
+                <placeTerm lang="zh">呼和浩特</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Neimenggu renmin chubanshe</namePart>
+                    <namePart lang="zh">内蒙古人民出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>109</start>
+                <end>122</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DuDoucheng1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>北凉譯經論</title>
+        <!--<title>北凉譯經論</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bei Liang yijing lun</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Translations of the Buddhist Canon During the Northern Liang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Du Doucheng 1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dudoucheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Du</namePart>
+        <namePart transliteration="pinyin" type="given">Doucheng</namePart>
+        <namePart lang="zh" type="family">杜</namePart>
+        <namePart lang="zh" type="given">斗城</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Gansu wenhua chubanshe</namePart>
+                <namePart lang="zh">甘肅文化出版社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+            <placeTerm lang="zh">蘭州</placeTerm>
+        </place>
+    </originInfo>
+</mods>

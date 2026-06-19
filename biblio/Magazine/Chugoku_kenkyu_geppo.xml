@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chugoku_kenkyu_geppo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国研究月報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku kenkyū geppō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Monthly Journal of Chinese Affairs</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>1960-</dateIssued>
+        <dateIssued encoding="marc" point="start">1960</dateIssued>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">中国研究所</namePart>
+                <namePart transliteration="romaji">Chūgoku kenkyūjo</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

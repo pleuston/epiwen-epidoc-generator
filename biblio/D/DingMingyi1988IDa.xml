@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DingMingyi1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Beichao Fojiao shi de zhongyao buzheng: xi Anyang san chu shiku de zaoxiang ticai</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北朝佛教史的重要補正<hi rend="dash">──</hi>析安陽三處石窟的造像題材</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Important Addendum to the History of Buddhism Under the Northern Dynasties:
+            Analyzing the Iconography of the Three Caves at Anyang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ding Ming­yi 1988a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dingmingyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Ding</namePart>
+        <namePart transliteration="pinyin" type="given">Mingyi</namePart>
+        <namePart lang="zh" type="family">丁</namePart>
+        <namePart lang="zh" type="given">明夷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>15</start>
+                <end>20</end>
+            </extent>
+            <date>1988</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokiwa1922" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那佛教史蹟踏查報告</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina Bukkyō shiseki tōsa hōkoku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Report on Surveys of Buddhist Monuments in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa 1922</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa" type="personal">
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijō</namePart>
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1922</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">啓明會事務所</namePart>
+                <namePart transliteration="romaji">Keimeikai jimusho</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

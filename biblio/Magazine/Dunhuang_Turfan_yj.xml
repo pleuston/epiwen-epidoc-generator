@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dunhuang_Turfan_yj" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang Tulufan yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌吐魯番研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Dunhuang and Turfan Studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZG_DH_Turfan_xh" type="corporate">
+        <namePart transliteration="pinyin">Zhongguo Dunhuang Tulufan xuehui</namePart>
+        <namePart lang="zh">中國敦煌吐魯番學會</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">2016</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency>yearly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

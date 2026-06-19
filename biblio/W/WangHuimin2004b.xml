@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangHuimin2004b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yi Fo wushi pusa tu yuanliu kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>一佛五十菩薩圖源流考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Origin of the One Buddha and Fifty Bodhisattvas Image</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Huimin 2004b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wanghuimin" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Huimin</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">惠民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Maijishanshikuyishu_lwj" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Maiji Shan shiku yishu lunwenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>麥積山石窟藝術論文集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2004</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <date>2004</date>
+            <extent unit="page">
+                <start>529</start>
+                <end>545</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

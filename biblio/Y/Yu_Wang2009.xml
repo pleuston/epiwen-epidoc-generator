@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yu_Wang2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan Mianyang Shi Bishui Si moya zaoxiang de xiangguan wenti</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川綿陽市碧水寺摩崖造像的相關問題</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Some Issues About the Cliff Sculptures of Bishui Monastery in Mianyang, Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yu and Wang 2009</title>
+        <!--<title>Yu Chun and Wang Ting 2009</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuchun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yu</namePart>
+        <namePart transliteration="pinyin" type="given">Chun</namePart>
+        <namePart lang="zh" type="family">于</namePart>
+        <namePart lang="zh" type="given">春</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangting" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Ting</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">婷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This article contains the following parts: A brief description of niche 10 with the Diamond; a discussion of the date of Bishui Si with reference to the gazatteers, and the identification of Linghu Yuangui; a discussion of the style of the niches donated by Linghu Yuangui (niches 7, 20, 19, 20). The description of these niches is reprinted in <ref type="biblio" target="YuChun2010">208–210</ref>. The appendix (p. 77–79) is the a transcription of the carved Diamondsutra in niche 10. The text consists of 45 columns with up to 89 characters. 
+        
+        In the 80ies, epoxy resin was applied on the surface of the inscription for 
+    protection, which caused partial blackening of the rock. For conservation reasons, no more rubbings were taken of the inscription in 2008; instead, the surface was photographed and the text was transcribed.
+    The carved text is identified as 《金刚般若波罗蜜经》by Kumarajiva. The text had originally 94 columns and 54 rows. The topmost 9 rows have already weathered away. The last line of text that used to contain the date 
+    was already illegible in 1933 as a report in 《绵阳县志》 shows. A list of 15 text passages is given where the carved text differs from the Taisho version. Next, the authors examine carefully the evidence found in
+    The Gazetteers of Mianyang edited in 1933 民国二十二年（1933 年） 重修《绵阳县志》卷二《建置·寺观》and conclude that during the Zhenguan 贞观 era, a certain “令狐文轨”  donated the niches and the sutra, and that in the beginning of 
+    Daguan era 大观 in the Song dynasty, Li Tongshu  李同叔 erected a “水阁院” to protect them. In the middle of Daguan era, Li Yihou and Li Zhonghou 李益侯、仲侯 restored the niches. As for the name of “令狐文轨”, the authors 
+    give sufficient evidence that the second character in the Gazetteers is a mistake and should read “令狐元轨”. This person is mentioned in several miracle accounts of the Tang dynasty 
+    (T#2106, 52:428a25-b8, T#2122, 53:421a27-b10,T#2149, 55:340a18-b1, T#2068, 51:83b23-c7). The authors therefore conclude that Linghu Yuangui sometime between 627 bis 636, while he held the post of county magistrate in 
+    Baxixian (today’s Mianyang) must have copied the Diamond sutra that he took later on to Qi prefecture 歧州（今陕西凤翔义乌堡) where the miracle of the Diamond sutra that was not burned happened. According to latest research, 
+    officials under the Tang dynasty held their posts only for one to five years, and it is recorded that Linghu Yuangui had the sutras copied in 631 (Zhenguan 5). 
+    
+    The authors furthermore hold that niches 7, 19, 20, 25 
+    were also donated by Linghu Yuangui in all likeness. Comparable to niches 7 and 20 are Maoxian 茂县 Diexi 叠溪贞观四年(630)造像、绵阳 Weicheng 魏城 Shengshuisi 圣水寺永徽元年(650-656)造像、绵阳玉女泉隋大业年间(605-616)造像. 
+    Niches 7 and 20 were probably modelled after image stele from the region of Chang’an. Niche 19 depicts Buddha Amitabha and 52 bodhisattvas. This representation is very close to mural no. 6 in the main hall 金堂 of Hōryū-ji 法隆寺 that 
+    was destroyed by fire in 1949. Sketches for this mural are said to have come directly from Chang’an, from where such sketches also spread to Dunhuang in the west. For this reason, the Guanyin in cave 220 in Dunhuang 
+    which is dated to Zhenguan 16 (642) is astonishingly close to the Guanyin on wall 3 in the main hall of Hōryū-ji. The sculptures in niche 19 belong to the "Yuchi 尉迟 painting school" of the Sui and Early Tang dynasties in Chang’an that showed a distinct impact of the art of Ghandara. That gets along well with the home of Linghu Yuangui in Yiwubao 义乌堡 in Fengxiang county 凤翔县 in Shaanxi, about 150 km from Chang’an. 
+    The style of the sculptures in niche 20 is reminiscent of the late Northern Dynasties or Early Tang style in the capital Chang’an, and similar to niches 2 and 3 of Wolongshan 卧龙山in Zitong 梓潼 that are dated 
+    to 贞观八年 (634). To sum up, niches 7, 20, and 25 belong to the "Chang’an style", while niche 19 belongs to the "Yuchi 尉迟 painting school" of the Sui and Early Tang dynasties. </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SichuanWenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Sichuan wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四川文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2009</date>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>73</start>
+                <end>79</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

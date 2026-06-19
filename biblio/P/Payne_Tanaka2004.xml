@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Payne_Tanaka2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Approaching the Land of Bliss. Religious Praxis in the Cult of Amitābha</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Payne and Tanaka 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#payne" type="personal">
+        <namePart type="family">Payne</namePart>
+        <namePart type="given">Richard K.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tanaka_kenneth" type="personal">
+        <namePart type="family">Tanaka</namePart>
+        <namePart type="given">Kenneth K.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <dateIssued>2004</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title><!--Kuroda Institute -->Studies in East Asian Buddhism</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>17</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

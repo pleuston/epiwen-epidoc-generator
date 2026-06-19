@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fuzhiying2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yun shui ri yue: Xingyun dashi zhuan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雲水日月：星雲大師傳</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bright Star, Luminous Cloud: The Life of Master Xingyun</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fu Zhiying 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fuzhiying" type="personal">
+        <namePart lang="zh" type="family">符</namePart>
+        <namePart lang="zh" type="given">芝瑛</namePart>
+        <namePart transliteration="pinyin" type="family">Fu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhiying</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Tianxia yuanjian chuban gufen youxian gongsi</namePart>
+                <namePart lang="zh">天下遠見出版股份有限公司</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

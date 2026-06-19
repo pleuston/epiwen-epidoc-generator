@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shoutangjinshiwenzixuba" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shoutang jinshi wenzi xu ba</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>授堂金石文字續跋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Sequel to Colophones to Epigraphic Characters from the Lecture Hall</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shoutang jinshi wenzi xu ba</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuyi2" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Yi</namePart>
+        <namePart lang="zh" type="family">武</namePart>
+        <namePart lang="zh" type="given">億</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>14 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">14</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>1843</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>25</number>
+            </detail>
+            <extent unit="page">
+                <start>19159</start>
+                <end>19302</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

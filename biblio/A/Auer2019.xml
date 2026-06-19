@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Auer2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo lang="en">
+        <title>Advancing 3D WebGIS: browser-based Methods for Visualization and Analysis and their Integration in Virtual Research Environments in the Context of Cultural Heritage</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Michael Auer 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#auer" type="personal">
+        <namePart lang="en" type="family">Auer</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+        
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss.</note>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            
+            <placeTerm lang="de">Ruprecht-Karls-Universität Heidelberg</placeTerm>
+        </place>
+    </originInfo>
+</mods>

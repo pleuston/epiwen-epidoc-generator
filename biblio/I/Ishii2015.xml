@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Ishii2015">
+    <titleInfo lang="ja">
+        <title>『般若心<!--経-->經』をめぐる諸問題<hi rend="dash">──</hi>ジャン<hi rend="smaller">•</hi>ナティエ氏の玄奘創作説を疑う</title>
+    </titleInfo>
+    <titleInfo transliteration="hepburn">
+        <title>
+            <hi rend="italic">Hannya shingyō</hi> o meguru shomondai: Jan Natie-shi no Genjō sōsaku setsu o utagau</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Issues About the <hi rend="italic">Heart of Wisdom Sutra:</hi> Jan Nattier’s Assumption on Xuanzang’s Authorship</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishii 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ishii_kosei" type="personal">
+        <namePart transliteration="hepburn" type="family">Ishii</namePart>
+        <namePart transliteration="hepburn" type="given">Kōsei</namePart>
+        <namePart lang="ja" type="family">石井</namePart>
+        <namePart lang="ja" type="given">公成</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>印度學佛教學研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2015</date>
+            <detail type="volume">64</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>499</start>
+                <end>492</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

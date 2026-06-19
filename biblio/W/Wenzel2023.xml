@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenzel2023" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Jinchuanwan shiku de jianzhu yu shijing <foreign lang="zh">金川灣石窟的建築與石經</foreign>.
+    Architecture and Texts of Jinchuanwan Cave</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wenzel 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wenzel_enzh" type="personal">
+        <namePart lang="zh">溫狄婭</namePart>
+        <namePart lang="en">Claudia Wenzel</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shaanxi_2" type="host">
+        <titleInfo lang="en">
+            <title>Zhongguo fojiao shijing: Shaanxi Sheng di er juan <foreign lang="zh">中國佛教石經·陜西省第二卷</foreign>.
+                <!--hi rend="normal"> |</hi--> Buddhist Stone Sutras in China: Shaanxi Province, Volume
+                2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>2</start>
+                <end>30</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

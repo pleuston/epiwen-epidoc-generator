@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tejima2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国最古級摩崖佛経石刻遺跡の発見報告およびその考察―山西省和順県沙峪摩崖造像遺跡の石刻『妙法蓮華経』観世音菩薩普門品<!--―--></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku saiko kyū magai butsu kyō sekkoku iseki no hakken hōkoku oyobi sono kōsatsu— Sanseishō wajun ken Shayu magai zōzō iseki no sekkoku “Myōhō renge kyō” kanzeon bosatsu fumonhin  </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>An Investigation and Discovery Report of the Remains of the Oldest Cliff Carved Buddhist Sutra in China—The Stone Carved Universal Gate Chapter of Bodhisattva Perceiver of the World’s Sound from the Lotus Sutra at Shayu in Heshun County, Shanxi Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tejima 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tejima" type="personal">
+        <namePart lang="ja" type="family">手島</namePart>
+        <namePart lang="ja" type="given">一真</namePart>
+        <namePart transliteration="romaji" type="family">Tejima</namePart>
+        <namePart transliteration="romaji" type="given">Isshin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="ja">
+            <title>法華文化研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Hokke bunka kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>40</number>
+            </detail>
+            <extent unit="page">
+                <start>23</start>
+                <end>66</end>
+            </extent>
+            <date>2014</date>
+        </part>
+        
+    </relatedItem>
+</mods>

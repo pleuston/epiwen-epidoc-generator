@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FangGuangchang1998d" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Diyu bian jingwen jisong</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>地獄變經文偈頌</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Sutra Texts and Gāthas of Illustrations of Hell</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Guang­chang 1998d</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fangguangchang" type="personal">
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Guangchang</namePart>
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">廣錩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZangwaiFojiaoWenxian" type="host">
+        <titleInfo lang="zh">
+            <title>藏外佛教文獻</title>
+        </titleInfo>
+        
+        <originInfo>
+            
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+           <!-- <date>1998</date>-->
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+            <extent unit="page">
+                <start>321</start>
+                <end>335</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

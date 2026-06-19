@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="SuBai1985">
+    <titleInfo lang="zh">
+        <title>獨樂寺觀音閣與薊州玉田韓家</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dule Si Guanyin Ge yu Jizhou Yutian Hanjia</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Guanyin Pavilion at Dulesi Monastery and the Han Family of Yutian District in Ji
+            Prefecture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Su Bai 1985</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#subai" type="personal">
+        <namePart lang="zh" type="family">宿</namePart>
+        <namePart lang="zh" type="given">白</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">7</detail>
+            <extent unit="page">
+                <start>32</start>
+                <end>48</end>
+            </extent>
+            <date>1985</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangZhenguo2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shilun Xiangtang xi shiku zu dilun xi shiku de yitong</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>試論響堂係石窟與地論係石窟的異同</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Considerations about Distinctions and Similarities between the Xiangtang Cave Group and the Dilun Cave Group</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Zhen­guo 2005</title>
+    </titleInfo>
+    <abstract/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangzhenguo" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenguo</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">振國</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>The "Xiangtang group" includes Northern, Southern, and Small Mount Xiangtang. The Dilun group includes the three caves at Xiaonanhai, Daliusheng Ku and Dazhusheng Ku at Baoshan, Xiangquan Si 香泉寺 in Weihui 衛輝 (in the north of Henan), Thousand Buddha Cave 千佛洞 of Mount Xuangu 懸谷山, Qinyang Xian 沁陽縣 (all in Henan). 
+    Both groups are analysed in terms of exterior view (stupa / no particular shape) and architecture (central pillar, open cave, altars), image groups and iconography (Sakyamuni / a triad of Vairocana, Amitabha, Maitreya), donors (imperial / monks) and the "character" of the caves (funeral caves / meditation caves).
+    Zhonghuang Shan is listed as an extra category. It belongs to the Xiangtang group in terms of the exterior view (because of the dougong; but these are Song!). Because only texts are carved, and no images, Mount Zhonghuang forms a separate category. But Wang Zhenguo gives Tang Yong (and his wife) as donors.
+    The relation between the carved texts and the Dilun school: 
+    Shidi jing lun is a commentary to the Shidi pin of the Avatamsaka, translated in Luoyang under the Northern Wei. Different interpretations of this commenatry led to the formation of two schools. The southern school: 
+    Ratnamati 勒那麽提/勒那摩提, Huiguang 慧光 (487–556). Huiguang taught Sengchou 僧稠 (480–560) and Bhadra 跋跎. Huiguang was national superintendent monk 國僧都 in Luoyang, and 國統 (national supervisor [of the saṃgha]) in Ye. Huiguang was a big shot who founded lineages of two schools. 11 disciples for the Southern branch of the Dilun school are transmitted by Daoxuan, among them Daoping 道慿 (487–559), the teacher of Lingyu 靈裕 (518–605).(Jingying) Huiyuan 慧遠 (523–592; Schüler des Fashang 法上, Enkelschüler des Huiguang).
+    Then he lists the Northern Branch Dilun masters, starting with Bodhiruci 菩提流支 (died 527), who had only one disciple, Daochong 道寵. ...
+    Wang names all these monks to prove that the Southern Dilun branch was most influential at the capitals of Luoyang and Ye. For this reason, the texts carved at our sites should be seen as connected to this school. 
+    Der Autor verwirrt sich am Ende selbst mit all seinen historischen Details und den cross-references zwischen den Inschriftenorten und den berühmenten Mönchen. Er schafft es nicht bis zu den conclusions.
+    
+    
+    
+    
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>2005 nian Yungang guoji xueshu yanjiuhui lunwenji, yanjiu juan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>2005年雲崗國際學術研究會論文集，研究卷</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Proceedings of the International Academic Yungang Conference of 2005. Text volume</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2006</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>130</start>
+                <end>142</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

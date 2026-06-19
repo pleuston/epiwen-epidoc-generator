@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yifa2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                <title>The Origins of Buddhist Monastic Codes in China: An Annotated Translation and Study of the <hi rend="normal">Chanyuan qinggui</hi>
+        </title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Yifa 2002</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yifa" type="personal">
+                        <namePart lang="en" type="family">Yifa</namePart>
+                        <namePart lang="en" type="given"/>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>2002</dateIssued>
+                        <place>
+                                    <placeTerm>Honolulu and Tōkyō</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">The Kuroda Institute and University of Hawaiʻi Press</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+            <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#KurodaInstitute_CEAB" type="series">
+                        <titleInfo lang="en">
+                                    <title>Kuroda Institute Classics in East Asian Buddhism</title>
+                        </titleInfo>
+                        <name type="corporate" oXygen2:href="#kuroda_institute">
+                                    <namePart lang="en">The Kuroda Institute</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+            </relatedItem>
+</mods>

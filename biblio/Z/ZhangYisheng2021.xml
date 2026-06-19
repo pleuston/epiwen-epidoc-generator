@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangYisheng2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi zaoxiang shiyu xia de shandong beichao Fojiao xinyang yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金石造像記視域下的山東北朝佛教信仰研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Northern Dynasties Buddhism in Shandong from the Perspective of Epigraphy and Votive Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Yisheng 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangyisheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Yisheng</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">義生</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fojiao wenhua yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>佛教文化研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2021</date>
+            <detail type="volume">1</detail>
+            <!--<detail type="no">3</detail>-->
+            <extent unit="page">
+                <start>317</start>
+                <end>335, 381</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

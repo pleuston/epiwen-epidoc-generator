@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chugoku_shoron_taikei1977_1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku shoron taikei</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中國書論大系</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Great Compendium of Chinese Treatises on Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Beijing tushuguan taben">
+        <title>Chūgoku shoron taikei 1977–1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakata" type="personal">
+        <namePart lang="zh" type="family">中田</namePart>
+        <namePart lang="zh" type="given">勇次郎</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">18</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1977</dateIssued>
+        <dateIssued point="end">1999</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="zh">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">二玄社</namePart>
+                <namePart transliteration="romaji">Nigensha</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose2022a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Zhen liu shu shi. <foreign xml:lang="zh">枕流潄石</foreign> (Pillowing on a Stream and Rinsing with Rocks)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 2022a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose" type="personal">
+        <namePart transliteration="de" type="family">Ledderose</namePart>
+        <namePart transliteration="de" type="given">Lothar</namePart>
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Dehou</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">德侯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#LaiYuchih2022" type="host">
+        <titleInfo lang="en">
+            <title>Wujian: Sishiba wei wujian de yueduzhe yu taman suojian de shijie. <foreign xml:lang="zh">物見：四十八位物件的閱讀者與他們所見的世界</foreign>. Seeing: 48 Object Readers and their Worlds</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            
+            <extent unit="page">
+                <start>264</start>
+                <end>271</end>
+            </extent>
+        </part>
+    </relatedItem>
+    
+</mods>

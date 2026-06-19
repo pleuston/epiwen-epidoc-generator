@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schopen1975" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Phrase ‘<hi rend="italic">
+                <foreign lang="sa">sa pṛthivīpradeśaś caityabhūto
+                    bhavet </foreign>
+            </hi>’ in the <hi rend="italic">
+                <foreign lang="sa">Vajracchedikā:</foreign>
+            </hi> Notes on the Cult of the Book in <foreign lang="sa">Mahāyāna</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schopen 1975</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schopen" type="personal">
+        <namePart lang="en" type="family">Schopen</namePart>
+        <namePart lang="en" type="given">Gregory Robert</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>From the response to Schopen by Drewes 2007: p. 4: Previous scholars tended to take
+        the word bhūta in the compound to indicate a comparison and thus, like Conze, to read
+        passages like the Vajracchedikā’s as stating merely that places where people do things with
+        sūtras are like caityas. Schopen argues that this interpretation makes little sense and that
+        the term caityabhūta in these passages refers to actual caityas which serves as early
+        Mahāyāna cult sites. Altogether, Schopen analyses six caityabhūta passages and several other
+        passages that seem to be modeled on them in light of related material from a range of South
+        Asian Buddhist texts. From his analysis he draws a remarkably specific picture of the nature
+        and history of the cult of the book. ... p. 6: What is perhaps most notable about Schopen’s
+        argument in support of these theses is that the only evidence that he cites for the
+        existence of Mahāyāna book shrines is his caityabhūta passages and their variants. A key
+        question, then, is whether or not these passages make reference to shrines. What I will try
+        to suggest is that they do not, and that they are in fact similes or metaphors, as scholars
+        before Schopen tended to think.</abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#IndoIranianJournal" type="host">
+        <titleInfo>
+            <title>Indo-Iranian Journal</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">17</detail>
+            <detail type="no">3–4</detail>
+            <extent unit="page">
+                <start>147</start>
+                <end>181</end>
+            </extent>
+            <date>1975</date>
+        </part>
+    </relatedItem>
+    <classification edition="#Schopen2005a">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Schopen2005a" type="host">
+        <titleInfo lang="en">
+            <title>Figments and Fragments of Mahāyāna Buddhism in India: More Collected
+                Papers</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>25</start>
+                <end>62</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

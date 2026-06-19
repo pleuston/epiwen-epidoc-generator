@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bunka" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>文化</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bunka</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohokudaigaku_bunkakai" type="corporate">
+        <namePart lang="ja">東北帝國大學文科會</namePart>
+        <namePart transliteration="romaji">Tōhoku teikoku daigaku bunkakai</namePart>
+        <description>Vol.1, No.1 - Vol.8, No.5 (1934-1945)</description>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohokudaigaku_bungakkai" type="corporate">
+        <namePart lang="ja">東北帝國大學文學會</namePart>
+        <namePart transliteration="romaji">Tōhoku teikoku daigaku bungakukai</namePart>
+        <description>Vol.8, No.6 - Vol.12, No.1(1945)</description>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohokudaigaku_bungakkai" type="corporate">
+        <namePart lang="ja">東北大學文學會</namePart>
+        <namePart transliteration="romaji">Tōhoku daigaku bungakukai</namePart>
+        <description>new publication: Vol.1, No.1- Vol.21,No.2 (1948-)</description>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohokudaigaku_bungakkai" type="corporate">
+        <namePart lang="ja">東北大學文學部</namePart>
+        <namePart transliteration="romaji">Tōhoku daigaku bungakubu</namePart>
+        <description>new publication: Vol.21, No.3 - Vol.36, No.4</description>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohokudaigaku_bungakkai" type="corporate">
+        <namePart lang="ja">東北大學文學會</namePart>
+        <namePart transliteration="romaji">Tōhoku daigaku bungakukai</namePart>
+        <description>new publication: Vol.37, No.1.2-</description>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1934-</dateIssued>
+        <dateIssued encoding="marc" point="start">1934</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Sendai</placeTerm>
+            <placeTerm lang="ja">仙台</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">岩波書店(- Vol.12, No.1)</namePart>
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+            </name>
+            <name type="corporate">
+                <namePart lang="ja">弘文堂 (new publications: Vol.1, No.1-)</namePart>
+                <namePart transliteration="romaji">Kōbundō</namePart>
+            </name>
+            <name type="corporate">
+                <namePart lang="ja">東北大學文學會</namePart>
+                <namePart transliteration="romaji">Tōhoku daigaku bungakukai</namePart>
+            </name>
+            <name type="corporate">
+                <namePart lang="ja">東北大學文學部 </namePart>
+                <namePart transliteration="romaji">Tōhoku daigaku bungakubu</namePart>
+            </name>
+            <name type="corporate">
+                <namePart lang="ja">東北大學文學會</namePart>
+                <namePart transliteration="romaji">Tōhoku daigaku bungakukai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

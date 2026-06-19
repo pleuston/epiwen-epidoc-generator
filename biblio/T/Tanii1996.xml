@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tanii1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>契丹佛教政治史論</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kittan Bukkyō seiji shiron</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhism and Politics in the Qidan Dynasty, Liao</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tanii 1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanii" type="personal">
+        <namePart lang="ja" type="family">谷井</namePart>
+        <namePart lang="ja" type="given">俊仁</namePart>
+        <namePart transliteration="romaji" type="family">Tanii</namePart>
+        <namePart transliteration="romaji" type="given">Toshihito</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Kegasawa1996a" type="host">
+        <titleInfo lang="ja">
+            <title>中國佛教石經の研究：房山雲居寺石經を中心に</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku Bukkyō sekikyō no kenkyū: Bōzan Ungoji sekikyō o chūshin ni</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Research on Chinese Buddhist Stone Sutras, with Special Reference to the Stone Sutras of Cloud Dwelling Monastery at Fangshan</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+            <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+            <namePart transliteration="romaji" type="given">Yasunori</namePart>
+            <namePart lang="ja" type="family">氣賀澤</namePart>
+            <namePart lang="ja" type="given">保規</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1996</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>133</start>
+                <end>191</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

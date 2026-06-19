@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shanzuonanbeichaoshikecunmu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shanzuo Nanbeichao shike cunmu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山左南北朝石刻存目</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of Extant Stone Inscriptions from the Northern and Southern Dynasties in Shandong</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>存目</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Cunmu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Shanzuo cunmu">
+        <title>Shan­zuo cun­mu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yinpengshou" type="personal">
+        <namePart transliteration="pinyin" type="family">Yin</namePart>
+        <namePart transliteration="pinyin" type="given">Pengshou</namePart>
+        <namePart lang="zh" type="family">尹</namePart>
+        <namePart lang="zh" type="given">彭壽</namePart>
+        <namePart type="date">1835–1904–?</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Undated</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>20</number>
+            </detail>
+            <extent unit="page">
+                <start>14883</start>
+                <end>14889</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

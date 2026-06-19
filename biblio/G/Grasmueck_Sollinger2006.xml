@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Grasmueck_Sollinger2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Buddhistische Felsinschriften in China. Erfassung, Modellierung, Präsentation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Grasmück und Sollinger 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#grasmueck" type="personal">
+        <namePart lang="de" type="family">Grasmück</namePart>
+        <namePart lang="de" type="given">Markus</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sollinger" type="personal">
+        <namePart lang="de" type="family">Sollinger</namePart>
+        <namePart lang="de" type="given">Frank</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm>Diplomarbeit an der Hochschule Karlsruhe—Technik und Wirtschaft, Fakultät
+                Geoinformationswesen, Vermessung und Geomatik. Karlsruhe</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

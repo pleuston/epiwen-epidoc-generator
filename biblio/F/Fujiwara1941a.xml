@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fujiwara1941a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Zukai shodōshi (47): Zui-dai no shodō</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>圖解書道史（四七）<hi rend="dash">──</hi>隋代の書道</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Illustrated History of Calligraphy (47): Calligraphy of the Sui Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujiwara 1941a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujiwara" type="personal">
+        <namePart lang="ja" type="family">藤原</namePart>
+        <namePart lang="ja" type="given">楚水</namePart>
+        <namePart transliteration="romaji" type="family">Fujiwara</namePart>
+        <namePart transliteration="romaji" type="given">Sosui</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shoen" type="host">
+        <titleInfo lang="ja">
+            <title>書菀</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shoen</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1941</date>
+            <detail type="volume">5</detail>
+            <detail type="no">7</detail>
+            <extent unit="page">
+                <start>48</start>
+                <end>65</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprinted with partially different illustrations and rubbings in <ref target="Fujiwara1973" type="biblio">3: 1–26</ref>
+    </note>
+</mods>

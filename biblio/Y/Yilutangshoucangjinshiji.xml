@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yilutangshoucangjinshiji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yilu Tang shoucang jinshi ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>宜禄堂收藏金石記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of Epigraphica Collected in the Yilu Hall</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>宜禄堂</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Yilu Tang</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Shanzuo jinshi zhi">
+        <title>Yilu Tang shoucang jinshi ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhushiduan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Shiduan</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">士端</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>24 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">24</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>1863</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>3265</start>
+                <end>4202</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

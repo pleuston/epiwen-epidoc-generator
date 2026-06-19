@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CenZhongmian2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi luncong</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金石論叢</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Compendium of Epigraphic Essays</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi luncong 2004">
+        <title>Jinshi luncong 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#cenzhongmian" type="personal">
+        <namePart transliteration="pinyin" type="family">Cen</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongmian</namePart>
+        <namePart lang="zh" type="family">岑</namePart>
+        <namePart lang="zh" type="given">仲勉</namePart>
+        <namePart type="date">1886-1961</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <edition>First published 1959</edition>
+    </originInfo>
+</mods>

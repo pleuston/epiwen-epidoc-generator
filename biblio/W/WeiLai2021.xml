@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WeiLai2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shijing Shan Jinxian gongzhu Ta zai yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>石經山金仙公主塔再研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Rethinking the Princess Jinxian Pagoda in the Stone Sutra Mountain</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wei Lai 2021</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#weilai" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Lai</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">來</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shikusiyanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shiku Si yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石窟寺研究</title>
+        </titleInfo>
+        <physicalDescription>
+            <form>print</form>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued/>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                    <namePart lang="zh">文物出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">12</detail>
+            <date>2021</date>
+            
+            <extent unit="page">
+                <start>106</start>
+                <end>124</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

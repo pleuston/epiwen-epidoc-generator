@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhaoChao2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo gudai shike gailun (zengdingben)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國古代石刻概論（增訂本）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A General Discussion on Ancient Stone Carvings in China (Augmented Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao Chao 2019</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="zh" oXygen2:href="#zhaochao" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Chao</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">超</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

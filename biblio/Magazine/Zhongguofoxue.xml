@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhongguofoxue" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo foxue</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國佛學</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chinese Buddhism Studies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo foxue</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="zgfx_bwh" type="corporate">
+        <namePart transliteration="pinyin">Zhongguo foxue bianweihui</namePart>
+        <namePart lang="zh">中國佛學編委會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>unknown</dateIssued>
+        <dateIssued encoding="marc" point="start">1998</dateIssued>
+        <dateIssued encoding="marc" point="end">2000</dateIssued>
+        
+        <place>
+            <placeTerm>Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Ruwen chubanshe
+               </namePart>
+                <namePart lang="zh">如聞出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TGTZS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>退耕堂政書</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tuigengtang zhengshu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Political Writings from the Tuigeng Hall</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tuigengtang zhengshu</title>
+    </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xushichang" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">世昌</namePart>
+            <namePart transliteration="pinyin" type="family">Xu</namePart>
+            <namePart transliteration="pinyin" type="given">Shichang</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shenyunlong" type="personal">
+            <namePart lang="zh" type="family">沈</namePart>
+            <namePart lang="zh" type="given">雲龍</namePart>
+            <namePart transliteration="pinyin" type="family">shen</namePart>
+            <namePart transliteration="pinyin" type="given">yunlong</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm lang="zh" transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenhai chubanshe</namePart>
+                <namePart lang="zh">文海出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo lang="zh">
+            <title>近代中國史料叢刊 225, 4</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>23</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

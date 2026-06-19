@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeifengTa_yizhi2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>雷峰塔遺址</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Leifeng Pagoda Site</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Leifeng Pagoda Site</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Leifeng Ta yizhi 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhejiangsheng_wenwu_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Zhejiang Sheng wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">浙江省文物考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>unser Exemplar in Manuels Zimmer</abstract>
+    <abstract> </abstract>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kitamura2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>小川貫弌所蔵拓本初探<hi rend="dash">──</hi>附「小川貫弌所蔵拓本目録（除　龍門部分）」<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ogawa Kan’ichi shozō takuhon shotan: Fu ‘Ogawa Kan’ichi shozō takuhon mokuroku (jo Ryūmon bubun)’</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Preliminary Investigation of Rubbings in Ogawa Kan’ichi’s Collection: Including ‘a Catalog of Rubbings in Ogawa Kan’ichi’s Collection (Except Rubbings from Longmen)’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kitamura 2017</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#kitamura_kazuto">
+        <namePart type="family" lang="ja">北村</namePart>
+        <namePart type="given" lang="ja">一仁</namePart>
+        <namePart transliteration="romaji" type="family">Kitamura</namePart>
+        <namePart transliteration="romaji" type="given">Kazuto</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Fujii_etal2017a" type="host">
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>71</start>
+                <end>85</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

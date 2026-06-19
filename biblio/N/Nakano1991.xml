@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Nakano1991">
+    <titleInfo lang="ja">
+        <title>再説法興·元興别寺説（下）：兩寺合并論の再檢討</title>
+        <!--<title>再説　法興·元興別寺説（下）：両寺合併論の再検討</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Saisetsu Hōkō, Gangō betsujisetsu (ge): Ryōji gappeiron no sai kentō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Re-explaining the Theory of Hōgōji and Gangōji Being Two Separate Temples (3): Re-examining the Union Theory of the Two Temples</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakano 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nakano_tadaaki">
+        <namePart lang="ja" type="family">中野</namePart>
+        <namePart lang="ja" type="given">忠明</namePart>
+        <namePart transliteration="romaji" type="family">Nakano</namePart>
+        <namePart transliteration="romaji" type="given">Tadaaki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shiseki_bijutsu_dokokaki" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shiseki bijutsu dōkōkai</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>史迹美術同考会</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1991</date>
+            <detail type="volume">
+                <number>613</number>
+            </detail>
+            <!--<detail type="issue">
+                <number>3</number>
+            </detail>-->
+            <extent unit="page">
+                <start>94</start>
+                <end>106</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

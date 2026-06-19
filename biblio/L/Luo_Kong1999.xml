@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luo_Kong1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Kongzi jiazu quanshu: wenwu guji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>孔子家族全書：文物古迹</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Works on the Clan of Confucius: Cultural Relics and Historical
+            Remains</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Cefu yuangui 1960">
+        <title>Luo and Kong 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luochenglie" type="personal">
+        <namePart lang="zh" type="family">駱</namePart>
+        <namePart lang="zh" type="given">承烈</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kongdemao" type="personal">
+        <namePart lang="zh" type="family">孔</namePart>
+        <namePart lang="zh" type="given">德懋</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shenyang</placeTerm>
+            <placeTerm lang="zh">瀋陽</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Liaohai chubanshe</namePart>
+                <namePart lang="zh">遼海出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

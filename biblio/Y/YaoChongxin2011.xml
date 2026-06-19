@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YaoChongxin2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>巴蜀佛教石窟造像初步研究: 以川北地區為中心</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Ba Shu fojiao shiku zaoxiang chubu yanjiu: yi Chuanbei diqu wei zhongxin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Preliminary Study of Buddhist Sculpture Caves in the Ba and Shu Regions: Focusing
+            on Northern Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yao Chongxin 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yaochongxin" type="personal">
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">崇新</namePart>
+        <namePart transliteration="pinyin" type="family">Yao</namePart>
+        <namePart transliteration="pinyin" type="given">Chongxin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中華書局</namePart>
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Hualin_boshi" type="series">
+        <titleInfo lang="zh">
+            <title>華林博士文庫, 10</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Hualin boshi wenku, 10</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

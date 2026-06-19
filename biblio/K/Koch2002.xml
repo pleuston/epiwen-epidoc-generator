@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Koch2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    
+    <titleInfo lang="en">
+        <title>Das Qiaoling, Mausoleum des Tang-Kaisers Ruizong (662-716) im Kreis Pucheng (Prov. Shaanxi, VR China) <foreign lang="zh">中國陝西蒲城縣 唐睿宗橋陵</foreign> </title>
+    </titleInfo>
+    
+    <!--<titleInfo lang="de">
+        <title>Das Qiaoling, Mausoleum des Tang-Kaisers Ruizong (662-716) im Kreis Pucheng (Prov. Shaanxi, VR China) <foreign lang="zh">中國陝西蒲城縣 唐睿宗橋陵</foreign></title>
+    </titleInfo>-->
+            
+            <titleInfo type="reference">
+                        <title>Koch 2002</title>
+            </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#koch" type="personal">
+        <namePart transliteration="pinyin" type="family">Koch</namePart>
+        <namePart transliteration="pinyin" type="given">Alexander</namePart>
+        <namePart lang="zh" type="family">考赫</namePart>
+        <namePart lang="zh" type="given">阿歷克山大</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Qiaoling2002" type="host">
+            <titleInfo lang="zh">
+                <title>唐睿宗橋陵</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                <title>Tang Ruizong Qiaoling</title>
+            </titleInfo>
+            
+                <issuance>monographic</issuance>
+           
+            <part>
+                <extent unit="page">
+                    <start>119</start>
+                    <end>185</end>
+                </extent>
+            </part>
+        </relatedItem>
+</mods>

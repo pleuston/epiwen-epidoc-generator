@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NomuraYosho_kinen1987" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="ja">
+                        <title>野村耀昌博士古稀記念論集：佛教史佛教學論集</title>
+            </titleInfo>
+            <titleInfo transliteration="romaji">
+                        <title>Nomura Yōshō hakushi koki kinen ronshū: Bukkyōshi Bukkyōgaku ronshū</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Essays on the Occasion of Doctor Nomura <foreign xml:lang="ja">Yōshō</foreign>’s 70th Birthday: ‘Essays on History and Study of Buddhism’</title>
+            </titleInfo>
+            <titleInfo type="reference" displayLabel="Nomura Yōshō hakushi koki kinen ronshū 1987">
+                        <title>Nomura Yōshō hakushi koki kinen ronshū 1987</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nomurayosho_kinen" type="corporate">
+                        <namePart lang="ja">野村耀昌博士古稀記念論集刊行委員会</namePart>
+                        <namePart transliteration="romaji">Nomura Yōshō hakushi koki kinen ronshū kankō iinkai</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1987</dateIssued>
+                        <place>
+                                    <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                                    <placeTerm lang="ja">東京</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart transliteration="romaji">Shunjūsha</namePart>
+                                                <namePart lang="ja">春秋社</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

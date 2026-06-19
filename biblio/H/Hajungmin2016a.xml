@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hajungmin2016a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="mccune-reischauer">
+        <title>Bukje Sandongseong Hongjeongsane saegyeojin bulgyo tekseuteu: seonjeong suhaengeul wihan bulgyo gakgyeong<!--Bukche Sandongsŏng Hongjŏngsane saegyŏjin pulgyo t`eksŭt`ŭ: sŏnjŏng suhaengŭl wihan pulgyo kakkyŏng--></title>
+    </titleInfo>
+    <titleInfo lang="ko">
+        <title> <foreign lang="ko">북제</foreign>(北齊) <foreign lang="ko">산동성 홍정산</foreign>(洪頂山)<foreign lang="ko">에 새겨진 불교 텍스트: 선정 수행을 위한 불교 각경</foreign>(刻經)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Monastic Meditation Practices and Buddhist Texts on Mountain Cliffs: Buddhist Texts Carved on Mount Hongding During the Northern Qi Period (550–577 CE)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ha Jungmin 2016a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hajungmin_ko" type="personal">
+        <namePart transliteration="mccunereischauer" type="family">Ha</namePart>
+        <namePart transliteration="mccunereischauer" type="given">Jungmin</namePart>
+        <namePart lang="ko" type="family">하</namePart>
+        <namePart lang="ko" type="given">정민</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ArtHistory_VisualCulture" type="host">
+        <titleInfo lang="ko">
+            <title>
+                <foreign lang="ko">미술사와 시각문화</foreign>
+            </title>
+        </titleInfo>
+        <titleInfo transliteration="mccune-reischauer">
+            <title>Misulsa wa sigangmunhwa</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">17</detail>
+            <extent unit="page">
+                <start>158</start>
+                <end>207</end>
+            </extent>
+            <date>2016</date>
+        </part>
+    </relatedItem>
+</mods>

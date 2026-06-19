@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Pak1989">
+    <titleInfo lang="en">
+        <title>Excavation of Buddhist Temple Sites in Korea Since 1960</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pak Youngsook 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#pak">
+        <namePart lang="en" type="family">Pak</namePart>
+        <namePart lang="en" type="given">Youngsook</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Skorupski1989" type="host">
+        <titleInfo lang="en">
+            <title>The Buddhist Heritage</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#skorupski">
+            <namePart type="family">Skorupski</namePart>
+            <namePart type="given">Tadeusz</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1989</dateIssued>
+            <place>
+                <placeTerm>Tring</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Institute for Buddhist studies</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>157</start>
+                <end>178</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

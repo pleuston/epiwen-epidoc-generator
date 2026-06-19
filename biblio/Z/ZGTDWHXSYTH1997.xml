@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGTDWHXSYTH1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Di san jie Zhonguo Tangdai wenhua xueshu yantaohui wenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>第三届中國唐代文化學術研討會文集</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Proceedings of the Third Symposium on Tang Dynasty Culture in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhonguo Tangdai Yanjiuhui 1997</title>
+    </titleInfo>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZG_TDXH_BJWYH" type="corporate">
+        <namePart lang="zh">中國唐代學會編輯委員會</namePart>
+        <namePart transliteration="pinyin">Zhongguo Tangdai xuehui bianji weiyuanhui</namePart>
+       
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Lexue shuju</namePart>
+                <namePart lang="zh">樂學書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

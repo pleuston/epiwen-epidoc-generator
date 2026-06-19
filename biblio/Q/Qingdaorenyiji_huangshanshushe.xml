@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Qingdaorenyiji_huangshanshushe">
+    <titleInfo transliteration="pinyin">
+        <title>Qing Daoren yiji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>清道人遺集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Posthumous Works of Qing Daoren (Li Ruiqing)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Ruiqing yiji 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liruiqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ruiqing</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">瑞清</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#duanxiaohua" type="personal">
+        <namePart transliteration="pinyin" type="family">Duan</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaohua</namePart>
+        <namePart lang="zh" type="family">段</namePart>
+        <namePart lang="zh" type="given">曉華</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hefei</placeTerm>
+            <placeTerm lang="zh">合肥</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Huangshan shushe</namePart>
+                <namePart lang="zh">黃山書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>二十世紀詩詞名家别集叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Ershi shiji shici mingjia bieji congshu</title>
+        </titleInfo>
+        <!--<part>
+            <detail type="volume">
+                <number></number>
+            </detail>
+        </part>-->
+    </relatedItem>
+</mods>

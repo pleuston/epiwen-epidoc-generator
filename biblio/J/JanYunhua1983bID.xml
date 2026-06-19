@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="JanYunhua1983b">
+    <titleInfo lang="en" type="translated">
+        <title>A Study of <hi rend="italic">The Conceptions of Chan Master Chou</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《稠禪師意》的研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Chou chanshi yi</hi> de yanjiu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jan Yün-hua 1983a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#janyuenhua">
+        <namePart transliteration="pinyin" type="family">Jan</namePart>
+        <namePart transliteration="pinyin" type="given">Yün-hua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Dunhuangxue" type="host">
+        <titleInfo lang="zh">
+            <title>敦煌學</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuangxue</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">6</detail>
+            <extent unit="page">
+                <start>69</start>
+                <end>85</end>
+            </extent>
+            <date>1983</date>
+        </part>
+    </relatedItem>
+</mods>

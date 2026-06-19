@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuJianhua1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Hebei Quyang Bahui Si Suidai kejing kan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>河北曲陽八會寺隋代刻經龕</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sui Dynasty Stone Sutra Shrine of Bahui Monastery in Quyang, Hebei</title>
+    </titleInfo>
+    <abstract>Official English translation: “A Shrine Inscribed with Buddnist Sutras at Bahuisi,
+        Quyang, Hebei”, taken from CNKI.</abstract>
+    <titleInfo type="reference">
+        <title>Liu Jian­hua 1995</title>
+    </titleInfo>
+
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liujianhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Jianhua</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">建華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lili" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Li</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">力</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+  
+    <originInfo/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Cultural Relics</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1995</date>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>77</start>
+                <end>86</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Koell2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Railroads and the Transformation of China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Köll 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#koell" type="personal">
+        <namePart lang="de" type="family">Köll</namePart>
+        <namePart lang="de" type="given">Elisabeth</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm>Cambridge, MA</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="HarvardBusinessStudies" type="series">
+        <titleInfo lang="de">
+            <title>Harvard Studies in Business History 52</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

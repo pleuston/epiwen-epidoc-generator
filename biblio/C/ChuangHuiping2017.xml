@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChuangHuiping2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Das Steininschriftenprojekt des Wolkenheimklosters während der Liao-Dynastie (907–1125): Eine Analyse seiner Kolophone</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chuang Hui-Ping 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chuanghuiping" type="personal">
+        <namePart transliteration="pinyin" type="family">Chuang</namePart>
+        <namePart transliteration="pinyin" type="given">Hui-Ping</namePart>
+        <namePart lang="zh" type="family">莊</namePart>
+        <namePart lang="zh" type="given">惠萍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm lang="en">Berlin and Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">De Gruyter</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Materiale Textkulturen<!--, v. 17--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>17</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

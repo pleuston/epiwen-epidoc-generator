@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Adamek2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Addressing the Mind: Developments in the Culture of Confession in Sui-Tang
+            China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Adamek 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#adamek" type="personal">
+        <namePart lang="en" type="family">Adamek</namePart>
+        <namePart lang="en" type="given">Wendi Leigh</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JCBS" type="host">
+        <titleInfo lang="en">
+            <title>Journal of Chinese Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2015</date>
+            <detail type="volume">28</detail>
+            <extent unit="page">
+                <start>117</start>
+                <end>152</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

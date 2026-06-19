@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Die Region von Qingzhou als Zentrum buddhistischer Kunst im 6. Jahrhundert</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2001</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzongEN" type="personal">
+        <namePart lang="zh">張總</namePart>
+        <namePart lang="en">Zhang Zong</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Nickel2001" type="host">
+        <titleInfo lang="en">
+            <title>Die Rückkehr des Buddha. Chinesische Skulpturen des 6. Jahrhunderts, der Tempelfund von Qingzhou</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>63</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

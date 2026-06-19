@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Li_Tian2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dingzhou bai shi Fo xiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>定州白石佛像</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>White Stone Buddhist Sculpture from Dingzhou</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Jingjie and Tian Jun 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lijingjie" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Jingjie</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">静杰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tianjun" type="personal">
+        <namePart transliteration="pinyin" type="family">Tian</namePart>
+        <namePart transliteration="pinyin" type="given">Jun</namePart>
+        <namePart lang="zh" type="family">田</namePart>
+        <namePart lang="zh" type="given">軍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Juefeng wenhua chubanshe</namePart>
+                <namePart lang="zh">覺風文化出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

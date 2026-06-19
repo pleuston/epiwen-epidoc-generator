@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Idema1981" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Leyden Studies in Sinology</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Idema 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#idema" type="personal">
+        <namePart lang="en" type="family">Idema</namePart>
+        <namePart lang="en" type="given">W.L.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1981</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm lang="en">Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sinica_Leidensia" type="series">
+        <titleInfo lang="de">
+            <title>Sinica Leidensia 15</title>
+        </titleInfo>
+        
+    </relatedItem>
+</mods>

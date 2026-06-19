@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="shieryanzhai_wl" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>十二硯齋文録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shieryan Zhai wenlu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Writings From the Twelve Ink Stones Studio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shieryan Zhai wenlu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangyun" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Yun</namePart>
+        <namePart lang="zh" type="family">汪</namePart>
+        <namePart lang="zh" type="given">鋆</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="qingdaishiwenji" type="host">
+        <titleInfo lang="zh">
+            <title>清代詩文集匯編</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Qing dai shiwenji huibian</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>A Collection of Poems and Writings from the Qing Dynasty</title>
+        </titleInfo>
+        <typeOfResource collection="yes">text</typeOfResource>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2011</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+                <placeTerm lang="zh">上海</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">上海古籍出版社</namePart>
+                    <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>666</number>
+            </detail>
+            <extent unit="page">
+                <start>775</start>
+                <end>792</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the <hi rend="italic">guangxu </hi>
+        <foreign lang="zh">光緒</foreign> era (1875–1908) edition</note>
+</mods>

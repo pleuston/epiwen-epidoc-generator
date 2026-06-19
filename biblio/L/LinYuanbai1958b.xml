@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LinYuanbai1958b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>唐代房山石經刻造概況</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tangdai Fangshan shijing kezao gaikuang</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A General Review of the Chiseling of Stone Sutras of Tang Dynasty in Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lin Yuanbai 1958b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#linyuanbai" type="personal">
+        <namePart lang="zh" type="family">林</namePart>
+        <namePart lang="zh" type="given">元白</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Xiandaifoxue" type="host">
+        <titleInfo lang="zh">
+            <title>現代佛學</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xiandai foxue</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>11</start>
+                <end>23</end>
+            </extent>
+            <date>1958</date>
+        </part>
+    </relatedItem>
+    <!--<classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <name ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>149</start>
+                <end>188</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol.1, 149–188</ref>
+    </note>
+</mods>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kume1924a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>漱石先生の死（記錄）</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sōseki Sensei no shi (kiroku)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>(Records of the) Death of Master Sōseki</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kume 1924a</title>
+    </titleInfo>
+    <abstract>[Taishan][JSY][Natsume Soseki]:
+        Kume mentions AKAGI Kōhei 赤木桁平 and MATSUOKA Yuzuru 松岡譲 being too late at the day of the death of Soseki.
+        赤木君と松岡とは、とうとう臨終の間に合はなかつた。前後して遅れて來た二人は、旣にあの名園有別天地の屛風を逆まに立てた下で、息のない先生に對面した。 in: p. 261.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kume_masao" type="personal">
+        <namePart lang="ja" type="family">久米</namePart>
+        <namePart lang="ja" type="given">正雄</namePart>
+        <namePart transliteration="romaji" type="family">Kume</namePart>
+        <namePart transliteration="romaji" type="given">Masao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kume1924" type="host">
+        <titleInfo lang="ja">
+            <title>金魚</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Kingyo</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Goldfish</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>221</start>
+                <end>272</end>
+            </extent>
+            <date>1924</date>
+        </part>
+    </relatedItem>
+</mods>

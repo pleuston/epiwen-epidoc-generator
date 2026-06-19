@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yang_Yang2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ming ren shiming biecheng zihao suoyin</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明人室名别稱字號索引</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Index to House Names, Alternative Names, Style Names and Sobriquet Names of Individuals under the Ming Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang<!-- Tingfu--> and Yang<!-- Tongfu--> 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangtingfu" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Tingfu</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">廷福</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangtongfu" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Tongfu</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">同甫</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+            <namePart lang="zh">上海古籍出版社</namePart>
+        </publisher>
+    </originInfo>
+</mods>

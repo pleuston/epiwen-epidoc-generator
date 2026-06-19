@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Python1973">
+    <titleInfo lang="en">
+        <title>Vinayaviniścaya-Upāliparipṛcchā: enquète d’Upāli pour une exégèse de la discipline</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Python 1973</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#python">
+        <namePart lang="en" type="family">Python</namePart>
+        <namePart lang="en" type="given">Pierre</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#may_jacques">
+        <namePart lang="en" type="family">May</namePart>
+        <namePart lang="en" type="given">Jacques</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateIssued>1973</dateIssued>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Adrien Maisonneuve</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="fr">
+            <title>Collection Jean Przyluski</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

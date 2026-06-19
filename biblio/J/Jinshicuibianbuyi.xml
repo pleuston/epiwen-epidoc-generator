@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinshicuibianbuyi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi cui bian buyi</title>
+        <!--<title>Jinshi cuibian buyi</title>-->
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>金石萃編補遺</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Supplement to the Assembled Edition of Epigraphica</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi cui bian buyi">
+        <title>Jin­shi cui bian buyi</title>
+    </titleInfo>
+    <!--<titleInfo type="reference" displayLabel="Jinshi cuibian buyi">
+        <title>Jin­shi cui­bian buyi</title>
+    </titleInfo>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#maofengzhi" type="personal">
+        <namePart transliteration="pinyin" type="family">Mao</namePart>
+        <namePart transliteration="pinyin" type="given">Fengzhi</namePart>
+        <namePart lang="zh" type="family">毛</namePart>
+        <namePart lang="zh" type="given">鳳枝</namePart>
+        <namePart type="date">1835–1895</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">2</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Undated</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>1491</start>
+                <end>1587</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

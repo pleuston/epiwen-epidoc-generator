@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ningyangjinshizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ningyang jinshi zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寧陽金石志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Epigraphic Records of Ningyang</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>寧陽</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Ningyang</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Ningyang jinshi zhi">
+        <title>Ningyang jinshi zhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangentong" type="personal">
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Entong</namePart>
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">恩彤</namePart>
+        <namePart type="date">1826 jinshi, d. c. 1882</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>1 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">1</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1911</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>3</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>26</number>
+            </detail>
+            <extent unit="page">
+                <start>127</start>
+                <end>130 </end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

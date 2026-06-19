@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okada2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>關於慈善寺1號窟造像樣式的問題</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Guanyu Cishan Si 1 hao ku zaoxiang yangshi de wenti</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Question of the Style of the Statue in Cave 1 at Cishan Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okada 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#okada" type="personal">
+        <namePart lang="ja" type="family">岡田</namePart>
+        <namePart lang="ja" type="given">健</namePart>
+        <namePart transliteration="romaji" type="family">Okada</namePart>
+        <namePart transliteration="romaji" type="given">Ken</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangjianxin" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">建新</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Jianxin</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+   
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Cishansi_Linxiqiao2002" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Cishan Si yu Linxiqiao——fojiao zaoxiang kukan diaocha yanjiu baogao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>慈善寺與麟溪橋<hi rend="dash">──</hi>佛教造像窟龕調查研究報告</title>
+        </titleInfo>
+        
+        <originInfo>
+            <dateIssued>2002</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            
+            <extent unit="page">
+                <start>121</start>
+                <end>127</end>
+            </extent>
+            
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fangguangchang2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Liao Dazizang</hi> de dingming yu cunben</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《遼大字藏》的定名與存本</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Naming and Surviving Texts of the <hi rend="italic">Khitan Canon in Large Characters</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fang Guangchang 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fangguangchang" type="personal">
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Guangchang</namePart>
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">廣錩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongguoXueshu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo xueshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國學術</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2004</date>
+            <detail type="volume">18</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>162</start>
+                <end>189</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

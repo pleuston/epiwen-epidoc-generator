@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SunXiushen1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Fo shuo bao fumu enzhong jing</hi> banben yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>《佛説報父母恩重經》版本硏究 </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies on the Versions of the <hi rend="italic">Sutra Spoken by the Buddha on Repaying the Profound Kindness of Parents</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sun Xiu­shen 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sunxiushen" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Xiushen</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart type="given" lang="zh">修身</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Dunhuang_yanjiuyuan1996" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Duan Wenjie Dunhuang yanjiu wushi nian jinian wenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>段文傑敦煌硏究五十年紀念文集</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>Collected Essays Commemorating Duan Wenjie’s Fifty Years of Dunhuang Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>239</start>
+                <end>249</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

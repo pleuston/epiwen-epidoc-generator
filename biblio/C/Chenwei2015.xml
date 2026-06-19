@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chenwei2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xinchu Tang Tuyuhun wangzu Murong Huan muzhi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>新出唐吐谷渾王族慕容環墓志研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on the Recently Excavated Tomb Inscription of Murong Huan from the Royal Family of the Tuyuhun Ethnicity of the Tang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Wei 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenwei" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Wei</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">瑋</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+            <placeTerm lang="zh">蘭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">甘肅教育出版社</namePart>
+                <namePart transliteration="pinyin">Gansu jiaoyu chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JYG_SCZL_yanjiu" type="host">
+        <titleInfo lang="zh">
+            <title>嘉峪關與絲綢之路歷史文化研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jiayuguan yu Sichouzhilu lishi wenhua yanjiu</title>
+        </titleInfo>
+        <part>
+            <extent unit="page">
+                <start>298</start>
+                <end>312</end>
+            </extent>
+        </part>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+    </relatedItem>
+</mods>

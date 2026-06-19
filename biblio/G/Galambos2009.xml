@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Galambos2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Manuscript Copies of Stone Inscriptions in the Dunhuang Corpus: Issues of Dating and Provenance</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Galambos 2009</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#galambos" type="personal">
+        <namePart lang="en" type="family">Galambos</namePart>
+        <namePart lang="en" type="given">Imre</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#AsiatischeStudien" type="host">
+        <titleInfo>
+            <title>Asiatische Studien, Études Asiatiques</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2009</date>
+            <detail type="volume">LXIII</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>809</start>
+                <end>826</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

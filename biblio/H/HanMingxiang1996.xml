@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanMingxiang1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Changqing Lingyan Si bei jie mu ta kaolüe</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>長清靈岩寺碑碣墓塔考略</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Brief Investigation of Changqing Lingyan Monastery Steles, Tombs, and Pagodas</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Han Mingxiang 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hanmingxiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Han</namePart>
+        <namePart transliteration="pinyin" type="given">Mingxiang</namePart>
+        <namePart lang="zh" type="family">韓</namePart>
+        <namePart lang="zh" type="given">明祥</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+<!--    <classification edition="#JinanBWG2008">reprint</classification>-->
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JinanBWG2008" type="host">
+        <!--<note>reprint</note>-->
+        <titleInfo transliteration="pinyin">
+            <title>Jinian Jinan Shi bowuguan jianguan 50 zhounian jinian wenji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>紀念濟南市博物館建館50周年研究文集</title>
+        </titleInfo>
+        
+        <originInfo>
+            <dateIssued>2008</dateIssued>
+            
+            <issuance>monographic</issuance>
+            
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>258</start>
+                <end>263</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

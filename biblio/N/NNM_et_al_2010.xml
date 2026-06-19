@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NNM_et_al_2010" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>大遣唐使展：平城遷都一三〇〇年記念</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Dai kentōshi ten: Heijō sento 1300-nen kinen</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Imperial Envoys to Tang China: Early Japanese Encounters with Continental Culture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nara National Museum et al. 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#NNM" type="corporate">
+        <namePart transliteration="romaji">Nara kokuritsu hakubutsukan</namePart>
+        <namePart lang="ja">奈良国立博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Nara: Nara kokuritsu hakubutsukan, Ōsaka: Yomiuri shinbun Ōsaka honsha, Nara: NHK Nara hōsōkyoku and Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">NHK puranetto Kinki</namePart>
+                <namePart lang="ja">奈良国立博物館、読売新聞大阪本社、NHK奈良放送局、NHKプラネット近畿</namePart>
+            </name>
+        </publisher>
+        <!--<place>
+            <placeTerm transliteration="romaji">Nara: Nara kokuritsu hakubutsukan <foreign lang="zh">奈良国立博物館</foreign>, Ōsaka: Yomiuri shinbun Ōsaka honsha <foreign lang="zh">読売新聞大阪本社</foreign>, Nara: NHK Nara hōsōkyoku <foreign lang="zh">NHK奈良放送局</foreign> and Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">NHK puranetto Kinki</namePart>
+                <namePart lang="ja">NHKプラネット近畿</namePart>
+            </name>
+        </publisher>-->
+    </originInfo>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="lishinianjian1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國歷史學年鑒 <foreign lang="en">1999</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo lishixue nianjian 1999</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhong­guo li­shi­xue nian­jian 1999</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annual Review of the Study of Chinese History for 1999</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhongguoshixuehui_zglsxnj_bjb" type="corporate">
+        <namePart transliteration="pinyin">Zhongguoshi xuehui zhongguo lishixue nianjian bianjibu</namePart>
+        <namePart lang="zh">中國史學會《中國歷史學年鑒》編輯部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"><!--生活·讀書·新知-->三聯書店</namePart>
+                <namePart transliteration="pinyin"><!--Shenghuo dushu xinzhi -->Sanlian shudian</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

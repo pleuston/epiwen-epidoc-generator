@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liuhao2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Minguo shiqi Yunnan liumei jiaoyu yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>民國時期雲南留美教育研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Education in the USA for Yunnan Students during the Republican
+            Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Hao 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuhao" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">豪</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Hao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master’s Thesis <foreign lang="zh">碩士學位論文</foreign></note>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Yunnan shifan daxue</placeTerm>
+            <placeTerm lang="zh">雲南師範大學</placeTerm>
+        </place>
+    </originInfo>
+</mods>

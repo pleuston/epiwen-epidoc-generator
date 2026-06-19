@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BianZaibin2001_9_6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo transliteration="pinyin">
+    <title>Lingyan Shan Tang seng jingshu zhenwei kao</title>
+  </titleInfo>
+  <titleInfo lang="zh">
+    <title>靈岩山唐僧經書真僞考</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>Were the Sutras of Lingyan Monastery Written by Tang Monks?</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Bian Zaibin 2001-9-6</title>
+  </titleInfo>
+
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bianzaibin" type="personal">
+    <namePart transliteration="pinyin" type="family">Bian</namePart>
+    <namePart transliteration="pinyin" type="given">Zaibin</namePart>
+    <namePart lang="zh" type="family">卞</namePart>
+    <namePart lang="zh" type="given">再斌</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+    <titleInfo transliteration="pinyin">
+      <title>Dujiangyan bao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>都江堰報</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+      <frequency>daily</frequency>
+    </originInfo>
+    <part>
+      <date>2001-09-06</date>
+      <extent unit="page">
+        <start>unpaginated</start>
+      </extent>
+    </part>
+  </relatedItem>
+</mods>

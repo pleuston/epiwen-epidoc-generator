@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuShufen2025" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>“Bore” shi zhou: “Mohe bore boluomi” keming <foreign lang="zh">“般若”是咒：“摩訶般若波羅蜜”刻銘</foreign>. <hi rend="italic">Prājñā</hi> is a Spell: On the Phrase *<hi rend="italic">mahāprājñāpāramitā</hi> Carved in
+                Stone</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Shu-fen 2025</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liushufen" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Shu-fen</namePart>
+        <namePart transliteration="zh" type="family">劉</namePart>
+        <namePart transliteration="zh" type="given">淑芬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Sichuan_6" type="host">
+        <titleInfo>
+            <title>Zhongguo fojiao shijing: Sichuan Sheng di liu juan <foreign lang="zh">中國佛教石經·四川省第六卷</foreign> Buddhist Stone Sutras in China:
+                Sichuan Province Volume 6</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>66</start>
+                <end>89</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

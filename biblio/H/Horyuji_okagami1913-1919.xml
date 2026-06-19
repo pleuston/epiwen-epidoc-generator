@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Horyuji_okagami1913-1919" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>法隆寺大鏡</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hōryūji ōkagami</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Great Art of the Horyuji Temple</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hōryūji ōkagami 1913–1919</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tokyo_bijutsu_gakko" type="corporate">
+        <namePart transliteration="romaji">Tōkyō bijutsu gakkō</namePart>
+        <namePart lang="ja">東京美術學校</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">60</detail>
+            <note>60 vols. There are other 4 extra vols. (besshū 別集) and one additional short text (kaisetsu 解説) belonging to this series, but the latter weren’t added here, as the five volumes have a distinct parallel title: Kondō hekiga 金堂壁画</note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1913</dateIssued>
+        <dateIssued point="end">1919</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō bijutsu gakkō bunko, Bokusaidō and Shiraishi Muraji</namePart>
+                <namePart lang="ja">東京美術學校文庫，墨彩堂，白石村治</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

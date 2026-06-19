@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Penglaisuyue2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Penglai suyue: Gugong cang Huang Yi Han Wei beike teji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>蓬萊宿約：故宫藏黄易漢魏碑刻特集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Penglai Revisited: Special Issue on Stele Engravings from the Han and Wei Dynasties from Huang Yi’s Collection Preserved at the Palace Museum</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Peng­lai su­yue 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gugongbowuyuan" type="corporate">
+        <namePart transliteration="pinyin" type="family">Gugong bowuyuan</namePart>
+        <namePart lang="zh">故宫博物院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zijincheng chubanshe</namePart>
+                <namePart lang="zh">紫禁城出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DuJiwen1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Pingyin An Daoyi moya ke de fojiao wenhua yiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>平陰安道壹摩崖刻的佛教文化意義</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Meaning of the Buddhist Teachings of An Daoyi’s Rock Carvings in Pingyin</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Du Jiwen 1997</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dujiwen" type="personal">
+        <namePart transliteration="pinyin" type="family">Du</namePart>
+        <namePart transliteration="pinyin" type="given">Jiwen</namePart>
+        <namePart lang="zh" type="family">杜</namePart>
+        <namePart lang="zh" type="given">繼文</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Du Jiwen sees strong ties between the inscriptions and the activities of "An Daoyi" and early Chan Buddhism. Shandong chan is said to have belonged to the Northern school. He quotes the Jingde zhuandeng lu in identifying two disciples of Shenxiu as 
+    chan masters from Shandong (山東崇遠法師 and 東丘降魔, who was also known as 兖州降魔世藏. He thinks that Chan Buddhism, while withdrawing from Luoyang and Ye and wandering southwards to Shanxi and Anhui, must have passed Shandong.</abstract>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="LiuWenjin1997" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shandong Pingyin sanshan beichao moya</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>山東平陰三山北朝摩崖</title>
+        </titleInfo>
+        <name type="personal">
+            <namePart transliteration="pinyin" type="family">Liu</namePart>
+            <namePart transliteration="pinyin" type="given">Wenjin</namePart>
+            <namePart lang="zh" type="family">柳</namePart>
+            <namePart lang="zh" type="given">文金</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <part>
+            <extent unit="page">
+                <start>5</start>
+                <end>7</end>
+            </extent>
+        </part>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>1997</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">榮寶齋出版社</namePart>
+                    <namePart transliteration="pinyin">Rongbaozhai chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+    </relatedItem>
+</mods>

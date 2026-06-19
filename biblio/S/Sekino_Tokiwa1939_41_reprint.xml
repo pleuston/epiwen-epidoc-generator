@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sekino_Tokiwa1939_41_reprint" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国文化史蹟</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku bunka shiseki</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historic Relics of Chinese Culture</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa and Sekino 1975–1976</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa" type="personal">
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sekino" type="personal">
+        <namePart lang="ja" type="family">関野</namePart>
+        <namePart lang="ja" type="given">貞</namePart>
+        <namePart transliteration="romaji" type="family">Sekino</namePart>
+        <namePart transliteration="romaji" type="given">Tadashi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">15</detail>
+            <note>13 vols. plates, 2 vols. text</note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1975</dateIssued>
+        <dateIssued point="end">1976</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">法藏舘</namePart>
+                <namePart transliteration="romaji">Hōzōkan</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

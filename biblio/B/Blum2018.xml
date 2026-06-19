@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Blum2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <hi rend="italic">Da banniepan jing</hi>
+            <foreign lang="zh">《大般涅槃經》</foreign>. The
+                <hi rend="italic">Nirvana Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Blum 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#blum_enzh" type="personal">
+        <namePart lang="de" type="family">Blum</namePart>
+        <namePart lang="de" type="given">Mark L.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Sichuan_4" type="host">
+        <titleInfo lang="en">
+            <title>Zhongguo fojiao shijing: Sichuan Sheng di si juan <foreign lang="zh">中國佛教石經·四川省第四卷</foreign>. <!--hi rend="normal"> |</hi-->
+                Buddhist Stone Sutras in China: Sichuan Province Volume 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>35</start>
+                <end>62</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

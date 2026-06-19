@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tagawa1999a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>仏教大学総合研究所紀要別冊：浄土教の総合的研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō daigaku sōgō kenkyūjo kiyō bessastu: Jōdokyō no sōgōteki kenkyū </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Special Edition of the Report on Comprehensive Research of <foreign xml:lang="ja">Bukkyō</foreign> University: Comprehensive Research on Pure Land Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kagawa 1999a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tagawa" type="personal">
+        <namePart lang="ja" type="family">香川</namePart>
+        <namePart lang="ja" type="given">孝雄</namePart>
+        <namePart transliteration="romaji" type="family">Kagawa</namePart>
+        <namePart transliteration="romaji" type="given">Takao</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Bukkyō daigaku sōgō kenkyūjo</namePart>
+                <namePart lang="ja">仏教大学総合研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

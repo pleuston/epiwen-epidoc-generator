@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChaxiangshiSanchao1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo transliteration="pinyin">
+    <title>Chaxiang Shi congchao</title>
+  </titleInfo>
+  <titleInfo lang="zh">
+    <title>茶香室三鈔</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>Third Batch of Collected Writings from the Studio of Tea Fragrance</title>
+  </titleInfo>
+  <titleInfo type="reference" displayLabel="Chaxiang Shi san chao">
+    <title>Cha­xiang Shi san­chao</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yuyue" type="personal">
+    <namePart transliteration="pinyin" type="family">Yu</namePart>
+    <namePart transliteration="pinyin" type="given">Yue</namePart>
+    <namePart lang="zh" type="family">俞</namePart>
+    <namePart lang="zh" type="given">樾</namePart>
+    <namePart type="date">1821-1906</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhenfan" type="personal">
+    <namePart transliteration="pinyin" type="family">Zhen</namePart>
+    <namePart transliteration="pinyin" type="given">Fan</namePart>
+    <namePart lang="zh" type="family">貞</namePart>
+    <namePart lang="zh" type="given">凡</namePart>
+    <role>
+      <roleTerm type="etal">editor</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateOther>Preface of 1883</dateOther>
+  </originInfo>
+  <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="" type="series">
+    <titleInfo transliteration="pinyin">
+      <title>Xueshu biji congkan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>學術筆記叢刊</title>
+    </titleInfo>
+    <originInfo>
+      <dateIssued>1995</dateIssued>
+      <!-- <dateOther qualifier="approximate">Preface 1943</dateOther>-->
+      <place>
+        <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        <placeTerm lang="zh">北京</placeTerm>
+      </place>
+      <publisher>
+        <name type="corporate">
+          <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+          <namePart lang="zh">中華書局</namePart>
+        </name>
+      </publisher>
+    </originInfo>
+  </relatedItem>
+</mods>

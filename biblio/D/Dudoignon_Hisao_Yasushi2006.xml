@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dudoignon_Hisao_Yasushi2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Intellectuals in the Modern Islamic World: Transmission, Transformation and Communication</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Dudoignon et al. 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dudoignon" type="personal">
+        <namePart lang="en" type="family">Dudoignon</namePart>
+        <namePart lang="en" type="given">Stephane A</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#komatsu" type="personal">
+        <namePart lang="jp" type="family">小松</namePart>
+        <namePart lang="jp" type="given">久男</namePart>
+        <namePart transliteration="romaji" type="family">Hisao</namePart>
+        <namePart transliteration="romaji" type="given">Komatsu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kosugi" type="personal">
+        <namePart lang="jp" type="family">小杉</namePart>
+        <namePart lang="jp" type="given">泰</namePart>
+        <namePart transliteration="romaji" type="family">Yasushi</namePart>
+        <namePart transliteration="romaji" type="given">Kosugi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+   
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+           
+            <placeTerm lang="en">London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+               
+                <namePart lang="en">Routledge</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>New Horizons in Islamic Studies</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

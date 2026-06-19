@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Indo_bukkyogaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>印度学仏教学研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Indogaku bukkyōgaku kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Indology and Buddhology</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nh_indo_gakkai" type="corporate">
+        <namePart lang="ja">日本印度学仏教学会</namePart>
+        <namePart transliteration="romaji">Nihon indogaku bukkyō gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1952-</dateIssued>
+        <dateIssued encoding="marc" point="start">1952-07</dateIssued>
+        <frequency>bi-annual</frequency>
+        <place>
+            <placeTerm>Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">日本印度学仏教学会</namePart>
+                <namePart transliteration="romaji">Nihon indogaku bukkyō gakkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YangShoujing1912" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>學書邇言</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Gakusho jigen</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Shallow Words on Studying Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gakusho jigen 1912</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangshoujing" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">守敬</namePart>
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Shoujing</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mizuno_sobai" type="personal">
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1912</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Seitō shobō</namePart>
+                <namePart lang="zh">西東書房</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+</mods>

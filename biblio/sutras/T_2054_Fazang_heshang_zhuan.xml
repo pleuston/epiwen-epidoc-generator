@@ -1,0 +1,95 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="T_2054">
+            <titleInfo lang="ko">
+                        <title>Tang Tae Ch’ǒnboksa kosaju pǒn’gyǒng taedǒk Pǒpchang hwasang
+                                    chǒn</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>唐大薦福寺故寺主翻經大德法藏和尚傳</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Tang Da Jianfusi gu sizhu fanjing dade Fazang heshang zhuan</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="en">
+                        <title>Biography of Monk Fazang, the Late Great Virtuous Translator and
+                                    Abbot of the Great Monastery Jianfu of the Tang</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>T#2054, 50</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#choechiwon">
+                        <namePart lang="ko" type="family">崔</namePart>
+                        <namePart lang="ko" type="given">致遠</namePart>
+                        <namePart transliteration="McCune_Reischauer" type="family">Ch’oe</namePart>
+                        <namePart transliteration="McCune_Reischauer" type="given">Ch’iwǒn</namePart>
+                        <namePart type="date">857 - after 904</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <physicalDescription>
+                        <extent>
+                                    <detail type="fascicle">1</detail>
+                        </extent>
+            </physicalDescription>
+            <originInfo>
+                        <dateOther>904 Silla dynasty</dateOther>
+            </originInfo>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+                        <titleInfo lang="ja">
+                                    <title>大正新脩大藏經.</title>
+                        </titleInfo>
+                        <titleInfo transliteration="romaji">
+                                    <title>Taishō shinshū daizōkyō</title>
+                        </titleInfo>
+                        <titleInfo transliteration="romaji" type="abbreviated">
+                                    <title>Taishō</title>
+                        </titleInfo>
+                        <titleInfo lang="en" type="translated">
+                                    <title>New edition of the Buddhist canon in the Taishō
+                                                era</title>
+                        </titleInfo>
+                        <name ns2:href="#takakusu" type="personal">
+                                    <namePart lang="ja" type="family">高楠</namePart>
+                                    <namePart lang="ja" type="given">順次郎</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <name ns2:href="#watanabe" type="personal">
+                                    <namePart lang="ja" type="family">渡邊</namePart>
+                                    <namePart lang="ja" type="given">海旭</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <physicalDescription>
+                                    <extent>
+                                                <detail type="volume">85</detail>
+                                    </extent>
+                        </physicalDescription>
+                        <originInfo>
+                                    <dateIssued>1924-1932</dateIssued>
+                                    <dateIssued point="start">1924</dateIssued>
+                                    <dateIssued point="end">1932</dateIssued>
+                                    <place>
+                                                <placeTerm>Tōkyō</placeTerm>
+                                    </place>
+                                    <publisher>
+                                                <name type="corporate">
+                                                  <namePart lang="ja">大正一切經刊行會</namePart>
+                                                  <namePart transliteration="pinyin">Taishō issaikyō
+                                                  kankōkai</namePart>
+                                                </name>
+                                    </publisher>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">
+                                                <number>50</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>280</start>
+                                                <end>289</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nagata1973" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>竜樹の仏身観</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ryūju no busshinkan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Nāgārjuna‘s view of Buddha body</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nagata 1973</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nagata" type="personal">
+        <namePart lang="ja" type="family">永田</namePart>
+        <namePart lang="ja" type="given">瑞</namePart>
+        <namePart transliteration="romaji" type="family">Nagata</namePart>
+        <namePart transliteration="romaji" type="given">Mizu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度学仏教学研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>22</number>
+            </detail>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>369</start>
+                <end>372</end>
+            </extent>
+            <date>1973</date>
+        </part>
+    </relatedItem>
+</mods>

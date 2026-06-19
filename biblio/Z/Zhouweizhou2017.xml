@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhouweizhou2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tuyuhun ziliao jilu (Zengdingben)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>吐谷渾資料輯錄（增訂本）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compilation of Materials on Tuyuhun (Revised Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Weizhou 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouweizhou" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Weizhou</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">偉洲</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shangwu yinshuguan</namePart>
+                <namePart lang="zh">商務印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="zh">
+            <title>歐亞備要</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Ou Ya beiyao</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>26</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

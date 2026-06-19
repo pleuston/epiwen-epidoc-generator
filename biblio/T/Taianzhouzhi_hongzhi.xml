@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taianzhouzhi_hongzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Hongzhi〕 Tai’an zhouzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔弘治〕泰安州志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Tai’an Prefecture (Hongzhi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai’an zhouzhi 1488</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huxuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Xuan</namePart>
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">瑄</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lijin" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Jin</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">錦</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name><!--<extension>7 vols.; 18 <hi rend="italic">juan</hi>
+    </extension>-->
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guojia tushuguan chubanshe</namePart>
+                <namePart lang="zh">國家圖書館出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#YuanguoliBeiping_tsg_jiakusanbencongshu" type="series">
+        <titleInfo lang="zh">
+            <title>原國立北平圖書館甲庫善本叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Yuan guoli Beiping tushuguan jiaku shanben congshu</title>
+        </titleInfo>
+        <!--<typeOfResource collection="yes"/>-->
+        <part>
+            <detail type="volume">
+                <number>329</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1488 edition</note>
+</mods>

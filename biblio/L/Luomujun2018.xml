@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luomujun2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dunhuang hanwen ben <hi rend="normal">Jingang jing</hi> zhengli yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>敦煌漢文本《金剛經》整理研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the Dunhuang Chinese Documents of <hi rend="italic">Diamond Sūtra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Mujun 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luomujun" type="personal">
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">慕君</namePart>
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Mujun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss. <foreign lang="zh">博士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhejiang daxue</placeTerm>
+            <placeTerm lang="zh">浙江大學</placeTerm>
+        </place>
+    </originInfo>
+</mods>

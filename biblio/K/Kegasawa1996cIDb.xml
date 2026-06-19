@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa1996c" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>金仙公主と房山雲居寺石經の彼方<hi rend="dash">──</hi>唐代政治史の一側面</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kinsen Kōshu to Bōzan Ungoji sekikyō no kanata: Tō-dai seijishi no ichi sokumen</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Princess Gold Immortal and the Stone Sutras of Cloud Dwelling Monastery in Fangshan: Another Look at the Political History of Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 1996b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori</namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Meidai_Ajiashi" type="host">
+        <titleInfo lang="ja">
+            <title>明大アジア史論集 創刊號</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Meidai Ajiashi ronshū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>(No.1)</number>
+            </detail>
+            <extent unit="page">
+                <start>3</start>
+                <end>29</end>
+            </extent>
+            <date>1996</date>
+        </part>
+    </relatedItem>
+    <note type="reprint">Translated into Chinese in <ref target="Kegasawa1997" type="biblio"/>
+    </note>
+</mods>

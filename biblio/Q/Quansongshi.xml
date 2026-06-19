@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Quansongshi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Quan Song shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>全宋詩</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Complete Poems of the Song Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Quan Song Shi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fuxuancong" type="personal">
+        <namePart transliteration="pinyin" type="family">Fu</namePart>
+        <namePart transliteration="pinyin" type="given">Xuancong</namePart>
+        <namePart lang="zh" type="family">傅</namePart>
+        <namePart lang="zh" type="given">璇琮</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing daxue chubanshe</namePart>
+                <namePart lang="zh">北京大學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint"/>
+</mods>

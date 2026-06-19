@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yangshoujingji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>楊守敬集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yang Shoujing ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Works of Yang Shoujing</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yang Shoujing ji">
+        <title>Yang Shou­jing ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangshoujing" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Shoujing</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">守敬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xiechengren" type="personal">
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Chengren</namePart>
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">承仁</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <extension>10 vols</extension>
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Wuhan</placeTerm>
+            <placeTerm lang="zh">武漢</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Hubei renmin chubanshe</namePart>
+                <namePart lang="zh">湖北人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--relatedItem type="series">
+        <titleInfo>
+            <title lang="zh">楊守敬集第十冊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Yang Shoujing ji di shi ce</title>
+        </titleInfo>
+        <titleInfo xml:lang="en" type="translated">
+            <title>Works of Yang Shoujing, vol. 10</title>
+        </titleInfo>
+    </relatedItem-->
+</mods>

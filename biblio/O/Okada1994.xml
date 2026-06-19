@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okada1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>鞏県石窟と初唐様式</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kyō-ken sekkutsu to Sho-Tō yōshiki</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Gongxian Grottoes and Early Tang Dynasty Sculptural Style</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okada 1994</title>
+    </titleInfo>
+    <abstract>Buddha statue from Qinglong Si 青龍寺 (QLS) illustrated on p. 15 as pl. 30.
+        Footnote n19 on pp. 89-90 for p. 13 mentions Bishui Si 碧水寺 (BSS) and Wolong Shan 臥龍山 (WLS).</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#okada" type="personal">
+        <namePart lang="ja" type="family">岡田</namePart>
+        <namePart lang="ja" type="given">健</namePart>
+        <namePart transliteration="romaji" type="family">Okada</namePart>
+        <namePart transliteration="romaji" type="given">Ken</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note>Résumé translated by McKelway, Matthew （マッケルウェイ, マシュー） (1967–)</note>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Bijutsu_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>美術研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bijutsu kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>360</number>
+            </detail>
+            <date>1994</date>
+            <extent unit="page">
+                <start>1</start>
+                <end>22</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Radich2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>How Ajātaśatru Was Reformed: The Domestication of “Ajase” and Stories in Buddhist History</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Radich 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#radich" type="personal">
+        <namePart type="family">Radich</namePart>
+        <namePart type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm>Tokyo</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">The International Institute for Buddhist Studies of the
+                    International College for Postgraduate Studies</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Studia philologica Buddhica: monograph series; 27</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

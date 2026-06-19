@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuShufen1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>石室瘞窟<hi rend="dash">──</hi>中古佛教露尸葬研究之二(上)(中)(下)</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shishi yiku <hi rend="dash">──</hi> Zhonggu Fojiao lushizang yanjiu zhi er (shang) (zhong) (xia)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Stone Chamber Burial Cave <hi rend="dash">──</hi> A Study on the Burial Forms of Exposed Corpses in Medieval Chinese Buddhism, Parts 1–3<!--, I II III-->
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Shu­fen 1999</title>
+    </titleInfo>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liushufen" type="personal">
+        <namePart type="family">Liu</namePart>
+        <namePart type="given">Shufen</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">淑芬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#daluzazhi" type="host">
+        <titleInfo lang="zh">
+            <title>大陸雜志</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dalu zazhi</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1999</date>
+            <detail type="no">98.2</detail>
+            <extent>
+                <start>1</start>
+                <end>12</end>
+            </extent>
+        </part>
+        <part>
+            <date>1999</date>
+            <detail type="no">98.3</detail>
+            <extent>
+                <start>1</start>
+                <end>17</end>
+            </extent>
+        </part>
+        <part>
+            <date>1999</date>
+            <detail type="no">98.4</detail>
+            <extent>
+                <start>1</start>
+                <end>8</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

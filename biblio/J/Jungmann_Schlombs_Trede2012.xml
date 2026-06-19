@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jungmann_Schlombs_Trede2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Shifting Paradigms in East Asian Visual Culture: A Festschrift in Honour of Lothar
+            Ledderose</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jungmann, Schlombs, and Trede 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jungmann" type="personal">
+        <namePart lang="en" type="family">Jungmann</namePart>
+        <namePart lang="en" type="given">Burglind</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schlombs" type="personal">
+        <namePart lang="en" type="family">Schlombs</namePart>
+        <namePart lang="en" type="given">Adele</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#trede" type="personal">
+        <namePart lang="en" type="family">Trede</namePart>
+        <namePart lang="en" type="given">Melanie</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <publisher>
+            <namePart lang="de">Dietrich Reimer</namePart>
+        </publisher>
+        <place>
+            <placeTerm>Berlin</placeTerm>
+        </place>
+        <dateIssued>2012</dateIssued>
+    </originInfo>
+</mods>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kleine2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Der Buddhismus in Japan. Geschichte, Lehre, Praxis</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kleine 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kleine" type="personal">
+        <namePart lang="de" type="family">Kleine</namePart>
+        <namePart lang="de" type="given">Christoph</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>Tübingen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Mohr Siebeck</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2011</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

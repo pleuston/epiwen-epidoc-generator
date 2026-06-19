@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schopen1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Manuscript of the Vajracchedikā Found at Gilgit. An Annotated Transcription and
+            Translation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schopen 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#schopen" type="personal">
+        <namePart lang="de" type="family">Schopen</namePart>
+        <namePart lang="de" type="given">Gregory Robert</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<abstract>zum Smaller Sukhavativyuha see p. 265, 266, 269</abstract>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Gomez_Silk1989" type="host">
+        <titleInfo>
+            <title>Studies in the Literature of the Great Vehicle: Three Mahāyāna Texts</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>89</start>
+                <end>139</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

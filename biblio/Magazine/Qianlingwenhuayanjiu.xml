@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qianlingwenhuayanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qianling wenhua yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>乾陵文化研究</title>
+    </titleInfo>
+    <titleInfo transliteration="en">
+        <title>The Qing History Journal</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Qingshiyanjiu_bwh" type="corporate">
+        <namePart lang="pinyin">“Qingshi yanjiu” bianji weiyuanhui</namePart>
+        <namePart lang="zh">乾陵博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <place>
+            <placeTerm>西安</placeTerm>
+            <placeTerm lang="zh">Xian</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="pinyin">Qianling bowuguan</namePart>
+                <namePart lang="zh">乾陵博物館</namePart>
+            </name>
+        </publisher>
+        <dateIssued encoding="marc" point="start">2005</dateIssued>
+        <issuance>continuing</issuance>
+      <!--  <frequency>quarterly</frequency>-->
+    </originInfo>
+    <language>
+        <languageTerm>zh</languageTerm>
+    </language>
+    <physicalDescription>print</physicalDescription>
+</mods>

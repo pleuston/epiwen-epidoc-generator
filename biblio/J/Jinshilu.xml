@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jinshilu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>金石録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jinshi lu</title>
+    </titleInfo>
+    <titleInfo type="translated">
+        <title>Records on Metal and Stone</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>金石録</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Jin­shi lu</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi lu">
+        <title>Jinshi lu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhaomingcheng" type="personal">
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">明誠</namePart>
+        <namePart type="date">1081-1129</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1119-1125</dateIssued>
+    </originInfo>
+    <extension>30 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>12</number>
+            </detail>
+            <extent unit="page">
+                <start>8799</start>
+                <end>8984</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

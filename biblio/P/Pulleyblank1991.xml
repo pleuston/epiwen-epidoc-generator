@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Pulleyblank1991">
+    <titleInfo lang="en">
+        <title>Lexicon of Reconstructed Pronunciation in Early Middle Chinese, Late Middle Chinese,
+            and Early Mandarin</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pulleyblank 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#pulleyblank">
+        <namePart lang="en" type="family">Pulleyblank</namePart>
+        <namePart lang="en" type="given">Edwin G.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <place>
+            <placeTerm>Vancouver</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">UBC Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

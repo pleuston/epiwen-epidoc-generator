@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeeKyookap2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>韩国古代石刻文字考释问题及华严石经文字的复原</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Hanguo gudai shike wenzi kaoshi wenti ji Huyan shijing wenzi de fuyuan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Philological Issues Concerning the Characters in Ancient Korean Stone Inscriptions
+            and the Reconstruction of the Text of the Huayan Stone Sutras</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lee Kyookap 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LeeKyookap" type="personal">
+        <namePart transliteration="korea" type="family">Lee</namePart>
+        <namePart transliteration="korea" type="given">Kyookap</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">圭甲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>汉字汉语研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Hanzi Hanyu yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <!--<detail type="volume">
+                <number></number>
+            </detail>-->
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>99</start>
+                <end>109</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

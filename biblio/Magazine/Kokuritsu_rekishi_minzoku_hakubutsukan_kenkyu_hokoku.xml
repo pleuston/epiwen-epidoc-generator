@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kokuritsu_rekishi_minzoku_hakubutsukan_kenkyu_hokoku" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>国立歴史民俗博物館研究報告</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kokuritsu rekishi minzoku hakubutsukan kenkyū hōkoku</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Bulletin of the National Museum of Japanese History</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>1982-</dateIssued>
+        <dateIssued encoding="marc" point="start">1982</dateIssued>
+        <frequency>monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Sakura, Chiba</placeTerm>
+            <placeTerm lang="ja">千葉県佐倉市</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">国立歴史民俗博物館</namePart>
+                <namePart transliteration="romaji">Kokuritsu rekishi minzoku hakubutsukan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

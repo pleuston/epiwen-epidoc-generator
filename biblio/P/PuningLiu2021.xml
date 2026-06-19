@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="PuningLiu2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>China’s Northern Wei Dynasty, 386-535: The Struggle for Legitimacy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Puning Liu 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#PuningLiu" type="personal">
+        <namePart lang="en" type="family">Liu</namePart>
+        <namePart lang="en" type="given">Puning</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Routledge</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>London and New York</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Asian States and Empires 19</title>
+        </titleInfo>
+    </relatedItem>
+    <issuance>monographic</issuance>
+</mods>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ha2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>『大般涅槃経集解』を通して見た涅槃師の仏性義</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>“Daihatsu nehangyō shūkai” o tōshite mita nehanshi no busshōgi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Examining the Meaning of Buddha-nature among the Nirvana Sutra Teachers in the <hi rend="italic">Daban niepanjing jijie</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ha Yujin 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Ha_Yujin" type="personal">
+        <namePart lang="en" type="family">Ha</namePart>
+        <namePart lang="en" type="given">Eugene</namePart>
+        <namePart lang="ko" type="family">河</namePart>
+        <namePart lang="ko" type="given">由真</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Higashi_Ajia_Bukkyogakujutsu_Ronshu2" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia Bukkyō gakujutsu ronshū 2</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東アジア仏教学術論集2</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Proceedings of the International Conference on East Asian Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2014</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji"/>
+                <placeTerm lang="ja"/>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji"/>
+                    <namePart lang="ja"/>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>173</start>
+                <end>197</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

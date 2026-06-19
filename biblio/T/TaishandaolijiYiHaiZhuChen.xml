@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TaishandaolijiYiHaiZhuChen" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan daoli ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+       <title>泰山道里記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Itinerary of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan daoli ji (Yihai zhuchen)</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nieqin" type="personal">
+        <namePart transliteration="pinyin" type="family">Nie</namePart>
+        <namePart transliteration="pinyin" type="given">Qin</namePart>
+        <namePart lang="zh" type="family">聶</namePart>
+      <namePart lang="zh" type="given">鈫</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+                <namePart lang="zh">藝文印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+          <title>百部叢書集成：藝海珠塵</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+          <title>Baibu congshu jicheng: Yihai zhuchen</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+              <number>35:12.8</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

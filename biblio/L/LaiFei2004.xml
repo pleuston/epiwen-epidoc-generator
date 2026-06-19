@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qilu beike muzhi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>齊魯碑刻墓志研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Steles and Epitaphs in the Shandong Region</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Fei 2004</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>steles and tomb inscriptions</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+        <namePart transliteration="pinyin" type="family">Lai</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">非</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+            </name>
+            <namePart lang="zh">齊魯書社</namePart>
+        </publisher>
+    </originInfo>
+</mods>

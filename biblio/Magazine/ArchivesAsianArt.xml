@@ -1,0 +1,21 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ArchivesAsianArt" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Archives of Asian Art</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#abe" type="personal">
+        <namePart lang="en" type="family">Abe</namePart>
+        <namePart lang="en" type="given">Stanley</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <frequency>annual</frequency>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

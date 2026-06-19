@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="dott2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Spirit Money: Tourism and Pilgrimage on the Sacred Slopes of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dott 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dott" type="personal">
+        <namePart transliteration="de" type="family">Dott</namePart>
+        <namePart transliteration="de" type="given">Brian R.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Oakes_Sutton2010" type="host">
+        <titleInfo lang="en">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <place>
+                <placeTerm/>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en"/>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>27</start>
+                <end>49</end>
+            </extent>
+            <date>2010</date>
+        </part>
+    </relatedItem>
+</mods>

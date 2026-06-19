@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sen2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Revival and Failure of Buddhist Translations During the Song Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sen 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sen" type="personal">
+        <namePart lang="en" type="family">Sen</namePart>
+        <namePart lang="en" type="given">Tansen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo transliteration="wade-giles">
+            <title>T’oung Pao: International Journal of Chinese Studies</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>通報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">88</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>27</start>
+                <end>80</end>
+            </extent>
+            <date>2002</date>
+        </part>
+    </relatedItem>
+</mods>

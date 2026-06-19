@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BaoShichen_Yizhoushuangji_1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>The Pair of Oars for the Boat of Art</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Geishū sōshū [Yi zhou shuang ji] </title>
+        <!--<title>Geishū sōshū <hi rend="normal">[</hi>Yi zhou shuang ji <hi rend="normal">]</hi></title>-->
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>藝舟雙楫</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yi zhou shuang ji (Ja)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baoshichen" type="personal">
+        <namePart transliteration="pinyin" type="family">Bao</namePart>
+        <namePart transliteration="pinyin" type="given">Shichen</namePart>
+        <namePart lang="zh" type="family">包</namePart>
+        <namePart lang="zh" type="given">世臣</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tarumoto" type="personal">
+        <namePart transliteration="romaji" type="family">Tarumoto</namePart>
+        <namePart transliteration="romaji" type="given">Hidenobu</namePart>
+        <namePart lang="ja" type="family">樽本</namePart>
+        <namePart lang="ja" type="given">英信</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takahata" type="personal">
+        <namePart transliteration="romaji" type="family">Takahata</namePart>
+        <namePart transliteration="romaji" type="given">Tsunenobu</namePart>
+        <namePart lang="ja" type="family">高畑</namePart>
+        <namePart lang="ja" type="given">常信</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Meitoku shuppansha</namePart>
+                <namePart lang="ja">明德出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuangBingzhang1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>石經山雷音洞佛舍利</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shijingshan Leiyindong fo sheli</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddha Ashes Kept at Yunju Monastery, Beijing</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Bing­zhang 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangbingzhang" type="personal">
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">炳章</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Yandu" type="host">
+        <titleInfo lang="zh">
+            <title>燕都</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Yandu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1988</date>
+            <detail type="volume">21</detail>
+            <detail type="no">6</detail>
+            <extent unit="page">
+                <start>5</start>
+                <end>8</end>
+            </extent>
+        </part>
+        
+    </relatedItem>
+    <!--<classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sLvTiegang1999" type="host">
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>345</start>
+                <end>352</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol. 3, 345–352</ref>
+    </note>
+</mods>

@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xilingyinshejinshiyinpufatiezangshumu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xiling yinshe jinshi fatie yinpu cang shumu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西泠印社金石法帖印譜藏書目</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Catalogue of Epigraphica, Calligraphic Model Books<!--,--> and Seal Impressions in the Collection of the Xiling Seal Engraver’s Society</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xiling yinshe jinshi fatie yinpu cang shumu 1922</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xilingyinshe" type="corporate">
+        <name lang="zh">
+            <namePart>西泠印社</namePart>
+        </name>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing tushuguan chubanshe</namePart>
+                <namePart lang="zh">北京圖書館出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo jindai guji chuban faxing shiliao congkan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國近代古籍出版發行史料叢刊<!-- 10--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1922 edition</note>
+</mods>

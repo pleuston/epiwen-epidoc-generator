@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tamaki1942" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>阿弥陀経の諸問題</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Amida kyō no sho mondai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Questions about the <hi rend="italic">Amida Sutra</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tamaki 1942</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tamaki_toko" type="personal">
+        <namePart lang="ja" type="family">玉置</namePart>
+        <namePart lang="ja" type="given">韜晃</namePart>
+        <namePart transliteration="romaji" type="family">Tamaki</namePart>
+        <namePart transliteration="romaji" type="given">Tōkō</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1942</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+                <namePart transliteration="romaji">Ryūkoku daigaku</namePart>
+                <namePart lang="ja">龍谷大學</namePart>
+            </name></publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

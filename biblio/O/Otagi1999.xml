@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Otagi1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title><!--第5章　-->日中の密教交流</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title><!--Dai 5-shō: -->Nitchū no Mikkyō kōryū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Exchanges of Esoteric Buddhism between Japan and China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Otagi 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#otagi_hajime" type="personal">
+        <namePart transliteration="romaji" type="family">Otagi</namePart>
+        <namePart transliteration="romaji" type="given">Hajime</namePart>
+        <namePart lang="ja" type="family">愛宕</namePart>
+        <namePart lang="ja" type="given">元</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TachikawaYoritomo1999" type="host">
+        <titleInfo lang="ja">
+            <title>中国密教</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku Mikkyō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Chinese Esoteric Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>98</start>
+                <end>110</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

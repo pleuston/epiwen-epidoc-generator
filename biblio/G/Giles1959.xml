@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Giles1959" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Travels of Fa-hsien (399-414 A.D.), or Record of the Buddhistic Kingdoms</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Giles 1959</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#giles" type="personal">
+        <namePart lang="en" type="family">Giles</namePart>
+        <namePart lang="en" type="given">Lionel</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <note>First published 1923 by Cambridge University Press. Second impression 1956 by Routledge
+        and Kegan Paul Ltd. Third Impression 1959.</note>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Routledge and Kegan Paul</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <dateIssued>1959</dateIssued>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takata_Tokio_Festschrift2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Takata Tokio kyōju taishoku kinen: Tōhōgaku kenkyū ronshū
+        </title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>高田時雄教授退職記念：東方學研究論集 </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>East Asian Studies: Festschrift in Honor of the Retirement of Professor Takata Tokio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takata Tokio Festschrift 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tohogaku_kenkyu_ronshu_kankokai" type="corporate">
+        <namePart lang="ja">東方學研究論集刊行會</namePart>
+       
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Rinsen Shoten</namePart>
+                <namePart lang="ja">臨川書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

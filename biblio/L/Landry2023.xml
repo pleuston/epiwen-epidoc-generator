@@ -1,0 +1,22 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Landry2023" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Miracles in Medieval Chinese Buddhism: An Analysis of Daoxuan’s Ji shenzhou sanbao lu <foreign xml:lang="zh">集神州三寶感通錄</foreign> (Collected Record of Miracles Relating to the Three Jewels in China)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hsu 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#landry" type="personal">
+        <namePart lang="en" type="family">Landry</namePart>
+        <namePart lang="en" type="given">Nelson Elliot</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm>University of Oxford</placeTerm>
+        </place>
+    </originInfo>
+</mods>

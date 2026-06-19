@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MikkyoBunka" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>密教文化</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Mikkyō bunka</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mikkyo_kenkyukai" type="corporate">
+        <namePart lang="ja">密教文化研究会 → 密教研究会</namePart>
+        <namePart transliteration="romaji">Mikkyō bunka kenkyūkai → Mikkyō kenkyūkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1947-</dateIssued>
+        <dateIssued encoding="marc" point="start">1947</dateIssued>
+        <frequency>bi-annual → quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Kōya-chō</placeTerm>
+            <placeTerm lang="ja">高野町</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">高野山大学，密教研究会</namePart>
+                <namePart transliteration="romaji">Kōyasan daigaku, Mikkyō kenkyūkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

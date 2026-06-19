@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tianyigexiancunshumu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tianyi Ge xiancun shumu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>天一閣見存書目</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalog of Books Currently Preserved in the Tianyi Ge Library<!--[Library]--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tianyi Ge xiancun shumu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xuefucheng" type="personal">
+        <namePart lang="zh" type="family">薛</namePart>
+        <namePart lang="zh" type="given">福成</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1978</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chengwen chubanshe</namePart>
+                <namePart lang="zh">成文出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shumuleibian" type="series">
+        <titleInfo lang="zh">
+            <title>書目類編<!--（三十三）--></title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shumu leibian<!-- 33--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>33</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1889 edition</note>
+</mods>

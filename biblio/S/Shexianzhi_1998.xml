@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shexianzhi_1998" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>She xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>涉縣志</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Gazetteer of She County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>She xianzhi 1998</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shexian_difangzhi_bianzuanweiyuanhui" type="corporate">
+        <namePart lang="zh">涉縣地方志編纂委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo duiwai fanyi chuban gongsi</namePart>
+                <namePart lang="zh">中國對外翻譯出版公司</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

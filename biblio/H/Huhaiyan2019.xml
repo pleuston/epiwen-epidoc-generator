@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huhaiyan2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Faxian yanjiu zhi liu: qiu fa gaoseng zai bei Tianzhu panyan zoubi de jueji <hi rend="dash">──</hi> Lun fanwei <foreign lang="Sa">śaṅkupatha</foreign> yu Faxian de ‘bangti’ yiji Yun Wujie he Xuanzang de ‘yi’ </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>法顯研究之六：求法高僧在北天竺攀岩走壁的絶技<hi rend="dash">──</hi>論梵文<foreign lang="sa">śaṅkupatha</foreign>與法顯的‘傍梯’以及曇無竭和玄奘的‘杙’</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Suspended Crossing [<foreign lang="sa">
+                <hi rend="italic">śaṅkupatha</hi>
+            </foreign>] in the Gorges of the Indus River as Described by Chinese Pilgrims Faxian, Dharmodgata and Xuanzang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hu-von Hinüber 2019</title>
+    </titleInfo>
+    <abstract>In the Original, the chracter jue 絕 is written with the simplified character 绝. English official translation taken (and slightly changed by capitalizing some terms) from: https://glorisunglobalnetwork.org/chin-hijbs/e-journal/2-1/22-45/?lang=zh-hant</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hu-vonHinueber" type="personal">
+        <namePart lang="en" type="family">Hu-von Hinüber</namePart>
+        <namePart lang="en" type="given">Haiyan</namePart>
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Haiyan</namePart>
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">海燕</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HL_guoji_fxxk" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Hualin guoji foxue xuekan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>華林國際佛學學刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2019</date>
+            <detail type="volume">1.2</detail>
+            
+            <extent unit="page">
+                <start>22</start>
+                <end>45</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

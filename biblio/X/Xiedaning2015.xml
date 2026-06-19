@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xiedaning2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《漢傳佛教研究的過去現在未來》會議論文集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>‘Han chuan fojiao yanjiu de guoqu xianzai weilai’ huiyi lunwenji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Chinese Buddhism: Past, Present, and Future (A Collection of Conference Papers)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xie Daning 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xiedaning" type="personal">
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">大寧</namePart>
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Daning</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Yilan</placeTerm>
+            <placeTerm lang="zh">宜蘭</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Foguang daxue fojiao yanjiu zhongxin</namePart>
+                <namePart lang="zh">佛光大學佛教研究中心</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

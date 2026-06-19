@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dazhao2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《金剛經贊》研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jingang jing zan <hi rend="normal">yanjiu</hi>
+        </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the <hi rend="italic">Verses on the Diamond Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi Dazhao 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shidazhao" type="personal">
+        <name type="personal">
+            <namePart type="family">釋</namePart>
+            <namePart type="given">達照</namePart>
+        </name>   
+        <name type="personal">
+            <namePart type="family">Shi</namePart>
+            <namePart type="given">Dazhao</namePart>
+        </name>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">宗教文化出版社</namePart>
+                <namePart transliteration="pinyin">Zongjiao wenhua chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

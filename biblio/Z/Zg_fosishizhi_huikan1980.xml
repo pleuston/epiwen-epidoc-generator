@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zg_fosishizhi_huikan1980" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國佛寺史志彙刊</title>
+        <partNumber>第一辑</partNumber>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo fosi shizhi huikan.</title>
+        <partNumber>Diyi ji</partNumber>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Historical Reports on Buddhist Monasteries in China</title>
+        <partNumber>1. Series</partNumber>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Zhongguo fosi shizhi 1980">
+        <title>Zhong­guo fo­si shi­zhi 1980</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dujiexiang" type="personal">
+        <namePart lang="zh" type="family">杜</namePart>
+        <namePart lang="zh" type="given">潔祥</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="series">1</detail>
+            <detail type="volume">50</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1980</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Mingwen shuju</namePart>
+                <namePart lang="zh">明文書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

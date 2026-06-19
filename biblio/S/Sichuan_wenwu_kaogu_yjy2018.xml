@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sichuan_wenwu_kaogu_yjy2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan sanjian Tang Song Fo Dao kanku zonglu: Guangyuan juan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川散見唐宋佛道龕窟總錄<hi rend="smaller">•</hi>廣元卷</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhist and Taoist Shrines and Grottoes from the Tang and Song Dynasties in Sichuan Province: China—Guangyuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Si­chuan Sheng wen­wu kao­gu yan­jiu­yuan 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sichuan_wenwu_kaogu_yjy" type="corporate">
+        <name type="corporate">
+            <namePart transliteration="pinyin">Si­chuan Sheng wen­wu kaogu yanjiuyuan</namePart>
+        </name>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xibeidaxue_wenhua_yichan_xueyuan" type="corporate">
+        <name type="corporate">
+            <namePart lang="zh">西北大學文化遺產學院</namePart>
+        </name>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guangyuanshi_wenwuju" type="corporate">
+        <name type="corporate">
+            <namePart lang="zh">廣元市文物局</namePart>
+        </name>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChiangYee1954" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Calligraphy: An Introduction to Its Aesthetic and Technique</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chiang Yee 1954</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#chiangyee" type="personal">
+        <namePart lang="en" type="family">Chiang</namePart>
+        <namePart lang="en" type="given">Yee</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Methuen</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <dateIssued>1954</dateIssued>
+    </originInfo>
+    <note type="reprint">Revised from the 1938 edition</note>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhujian2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Minguo Tai Shan: 1912–1949 nian qikan zhong de Tai Shan ziliao xuanbian yingyin ben</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+      <title>民國泰山：1912－1949年期刊中的泰山資料選編影印本</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mount Tai in the Republic of China: Reprint<!--Photographic Copies--> of Selected Documents on Mount Tai in <!--the -->Journals from <!--(-->1912 to <!--–-->1949<!--)--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhu Jian 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhujian" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Jian</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">儉</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wuzhou chuanbo chubanshe</namePart>
+                <namePart lang="zh">五洲傳播出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

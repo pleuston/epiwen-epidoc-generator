@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kindaibungakukaisoshu1973" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>近代文學回想集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kindai bungaku kaisōshū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Modern Literary Recollections</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kindai bungaku kaisōshū 1973</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#oka_yasuo" type="personal">
+        <namePart transliteration="romaji" type="family">Oka</namePart>
+        <namePart transliteration="romaji" type="given">Yasuo</namePart>
+        <namePart lang="ja" type="family">岡</namePart>
+        <namePart lang="ja" type="given">保生</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ikari_akira" type="personal">
+        <namePart transliteration="romaji" type="family">Ikari</namePart>
+        <namePart transliteration="romaji" type="given">Akira</namePart>
+        <namePart lang="ja" type="family">伊狩</namePart>
+        <namePart lang="ja" type="given">章</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wada_kingo" type="personal">
+        <namePart transliteration="romaji" type="family">Wada</namePart>
+        <namePart transliteration="romaji" type="given">Kingo</namePart>
+        <namePart lang="ja" type="family">和田</namePart>
+        <namePart lang="ja" type="given">謹吾</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yamada_hiromitsu" type="personal">
+        <namePart transliteration="romaji" type="family">Yamada</namePart>
+        <namePart transliteration="romaji" type="given">Hiromitsu</namePart>
+        <namePart lang="ja" type="family">山田</namePart>
+        <namePart lang="ja" type="given">博光</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ito_kazuo" type="personal">
+        <namePart transliteration="romaji" type="family">Itō</namePart>
+        <namePart transliteration="romaji" type="given">Kazuo</namePart>
+        <namePart lang="ja" type="family">伊東</namePart>
+        <namePart lang="ja" type="given">一夫</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujita_satao" type="personal">
+        <namePart transliteration="romaji" type="family">Fujita</namePart>
+        <namePart transliteration="romaji" type="given">Satao</namePart>
+        <namePart lang="ja" type="family">藤多</namePart>
+        <namePart lang="ja" type="given">佐太夫</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1973</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kadokawa shoten</namePart>
+                <namePart lang="ja">角川書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <issuance>monographic</issuance>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        <titleInfo lang="en"><title>Nihon kindai bungaku taikei <foreign xml:lang="ja">日本近代文学大系</foreign></title></titleInfo>
+        <part>
+            <detail type="volume">
+                <number>60</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

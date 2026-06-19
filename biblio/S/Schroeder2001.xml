@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schroederer2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Skillful Means. The Heart of Buddhist Compassion</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schroeder 2001</title>
+    </titleInfo>
+    <abstract>Contains a discussion of the Vimalakirtinirdesa p. 62-88; the fourteen questions the
+        Buddha refused to answer p. 28-36; d disussion of Nagarjuna’s Middle Way p.
+        89-120</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schroeder" type="personal">
+        <namePart lang="en" type="family">Schroeder</namePart>
+        <namePart lang="en" type="given">John W.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <publisher>University of Hawaiʻi Press</publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="series">
+        <titleInfo lang="de">
+            <title>Society for Asian and Comparative Philosophy. Monograph No.</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>18</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

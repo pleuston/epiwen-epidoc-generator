@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Silk2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+   
+    <titleInfo lang="en">
+        <title>Canonicity</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Silk 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#silk" type="personal">
+        <namePart lang="de" type="family">Silk</namePart>
+        <namePart lang="de" type="given">Jonathan A.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>canon in use/normative canon
+        open canon: "collection of authoritative literature"
+    closed canon: authoritative collection of literature
+    "The Chinese <hi rend="italic">Dazangjing</hi> in contrast are truly nonsectarian collections" (p.12)
+        "... the absence in many traditional monasteries of a “complete” set of authoritative scripture, however defined." (p.12)
+        "Any canon must belong to a community: a text or body of texts is canonical only for some group." (p. 14)
+        functional canon/practical canon/curricular canon
+        "That formal canons are absent does not imply the absence of canons. Every scriptural religious community ... holds a certain body of literature to be authoritative, whether that acknowledgment is made explicit or not, and the utilization of certain texts to the exclusion of others is one form of canonization." (p. 14)
+        local and translocal canons (Dazangjing and Dunhuang)
+        Dunhuang: "We have no choice but to presume that these materials were once and at some place every bit as canonical, authoritative, and valued as materials much more familiar to us." (p. 14)
+        incomplete canons, losses of texts: "... that there once existed much more extensive versions of texts now available only partially." (p. 15)
+        "... the true tantric canon exists in the heaven of pure lands, and that fragments of it are periodically revealed to exemplary individuals in fortunate human communities (Gray, 2009, 11)" (p. 15)
+        "In China, the Tang-period catalogues, in the age of manuscripts, can be seen as prescriptive, while after the 10th century, with the rise of printing, such catalogues become descriptive" (p.19, after Tokuno1990, 32)
+        "it was not before the Sui dynasty that there was a ‘Chinese manuscript canon’ in a proper sense, even if the first manuscript copies of the entire canon produced by imperial order date to the Six Dynasties period" (p. 19, quoting Zacchetti forthcomming)
+        "Chinese tolerance for multiple alternate versions" (p. 19)
+        "... as a way of coming to terms with multiple versions of a single text, synoptic editions (<hi rend="italic">heben</hi> [合本]) were prepared..." (p. 20)
+        "De facto functional canons, as groupings in which some texts receive attention while others do not, are probably ubiquitous." (p. 21)
+        "Focused Canons or Canons within Canons"; "mini canons" (p. 27): examples: the assembly of anthologies of passages, such as is found in Sanskrit with the Śikṣāsamuccaya, .... or the Mahāratnakūṭa (T.310; it has 49 texts)
+        "An Shigao prepared Ekottarikāgama and Samyuktāgama anthologies (Harrison, 1997; 2002, 24-25). While it is not unlikely that these are translations of existing anthologies, they may also represent selections made in China" (p. 28)
+        "divers texts gathered together in single manuscripts"
+        "What independent evidence we do have suggests that our picture of the scope of premodern Buddhist literature as a whole is fragmentary, perhaps, radically so." (p. 28)
+        "Meanings of Canon": for political ends, rulers and dynasties ordered the copying of canons as a display of power or legitimatation; or to preserve the Dharma against its future disappearance.
+        
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BEB_1" type="host">
+        <titleInfo>
+            <title>Brill’s Encyclopedia of Buddhism, Volume 1: Literature and Languages</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>5</start>
+                <end>37</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

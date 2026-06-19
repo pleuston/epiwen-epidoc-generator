@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HBLZ" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <!--<titleInfo transliteration="pinyin">
+        <title>Hebi lianzhu: Lechangzai Xuan cang Qingdai yinglian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>合璧聯珠：樂常在軒藏清代楹聯</title>
+    </titleInfo>-->
+    <titleInfo lang="en">
+        <title>Double Beauty: Qing Dynasty Couplets from the Lechangzai Xuan Collection <foreign lang="zh">合璧聯珠：樂常在軒藏清代楹聯</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hebi lianzhu 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sturman" type="personal">
+        <namePart type="family" lang="en">Sturman</namePart>
+        <namePart type="given" lang="en">Peter Charles</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kuo" type="personal">
+        <namePart type="family" lang="zh">郭</namePart>
+        <namePart type="given" lang="zh">繼生</namePart>
+        <namePart type="family" transliteration="pinyin">Kuo</namePart>
+        <namePart type="given" transliteration="pinyin">Chi-Sheng</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hong Kong</placeTerm>
+            <placeTerm lang="zh">香港</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Art Museum, Institute of Chinese Studies, The Chinese University of Hong Kong</namePart>
+                <namePart lang="zh">香港中文大學中國文化研究所文物館</namePart>
+                <namePart transliteration="pinyin">Xianggang zhongwen daxue Zhongguo wenhua yanjiusuo wenwuguan</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

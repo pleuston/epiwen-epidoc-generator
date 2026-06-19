@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wangfansen1995" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mingdai houqi de zaowei yu sixiang zhenglun: Feng Fang yu <hi rend="italic">Daxue</hi> shijing</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明代後期的造僞與思想争論<hi rend="dash">──</hi>豐坊與《大學》石經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The ‘Daring Fool’ Feng Fang (ca. 1500–1570) and His Ink Rubbing of the Stone Inscribed <hi rend="italic">Great Learning</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Fan-sen 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangfansen" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">汎森</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Fan-shen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Xinshixue" type="host">
+        <titleInfo lang="zh">
+            <title>新史學</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xin shixue</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">6</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>19</end>
+            </extent>
+            <date>1995</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taianfuzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Qianlong〕 Tai’an fuzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔乾隆〕泰安府志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Tai’an Prefecture (Qianlong Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai’an fuzhi 1760</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <temporal>Qing Dynasty</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengcheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Cheng</namePart>
+        <namePart transliteration="pinyin" type="given">Cheng</namePart>
+        <namePart lang="zh" type="family">成</namePart>
+        <namePart lang="zh" type="given">城</namePart>
+        <role>
+            <roleTerm type="etal">author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yanxishen" type="personal">
+        <namePart transliteration="pinyin" type="family">Yan</namePart>
+        <namePart transliteration="pinyin" type="given">Xishen</namePart>
+        <namePart lang="zh" type="family">顔</namePart>
+        <namePart lang="zh" type="given">希深</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="ZGDFZJC_SD" type="host">
+        <titleInfo lang="zh">
+            <title>中國地方志集成：山東府縣志輯</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo difangzhi jicheng: Shandong Fu xianzhi ji</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number type="start">63</number>
+                <number type="end">64</number>
+            </detail>
+            <extent unit="page">
+                <start>63.167</start>
+                <end>64.250</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1760 edition</note>
+</mods>

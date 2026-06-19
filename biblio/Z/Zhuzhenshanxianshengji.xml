@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhuzhenshanxianshengji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhu Zhenshan xiansheng ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>朱鎮山先生集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Mister Zhu Zhenshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhu Zhenshan xiansheng ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhuheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhu</namePart>
+        <namePart transliteration="pinyin" type="given">Heng</namePart>
+        <namePart lang="zh" type="family">朱</namePart>
+        <namePart lang="zh" type="given">衡</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>5 vols.</extension>
+    <originInfo>
+        <dateIssued>1591</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Wuyuan</placeTerm>
+            <placeTerm lang="zh">婺源</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chen Zongyu Wuyuan keben</namePart>
+                <namePart lang="zh">陳宗愈婺源刻本</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKQS_Cunmu" type="series">
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書·集部·156</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu·ji bu</title>
+        </titleInfo><!-\- <part>
+            <detail type="volume">
+                <number type="start">199</number>
+                <number type="end">200</number>
+            </detail>
+            <extent unit="page">
+                <start>199.189</start>
+                <end>200.198</end>
+            </extent>
+        </part>-\->
+    </relatedItem>-->
+    <note type="reprint">Preserved in the National Palace Museum, Taibei <foreign lang="zh">臺北故宫<!--宮-->博物院</foreign>
+    </note>
+</mods>

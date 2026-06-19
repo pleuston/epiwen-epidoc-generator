@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Eubanks2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Miracles of Book and Body: Buddhist Textual Culture and Medieval Japan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Eubanks 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#eubanks" type="personal">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm>Berkeley, Los Angeles, and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of California Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Buddhisms<!-- 10--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

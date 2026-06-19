@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kurtz_Amelung2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Selbstbehauptungsdiskurse in Asien: China — Japan — Korea</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kurtz and Amelung 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kurtz" type="personal">
+        <namePart lang="en" type="family">Kurtz</namePart>
+        <namePart lang="en" type="given">Joachim</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+        
+    </name>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#amelung" type="personal">
+        <namePart lang="en" type="family">Amelung</namePart>
+        <namePart lang="en" type="given">Iwo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm lang="en">München</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Iudicium</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

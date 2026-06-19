@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mingjibeilue" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ming ji bei lüe</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明季北略</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historical Outline of Northern China in the Later Ming</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ming ji bei lüe</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiliuqi" type="personal">
+        <namePart lang="zh" type="family">計</namePart>
+        <namePart lang="zh" type="given">六奇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

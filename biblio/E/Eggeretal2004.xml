@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Eggertetal2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="de"><title>Die klassische chinesische Prosa: 
+            Essay, Reisebericht, Skizze, Brief. Vom Mittelalter bis zur Neuzeit. Geschichte der chinesischen Literatur. Band 4</title></titleInfo><titleInfo type="reference"><title>Eggert et al 2004</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#eggert" type="personal"><namePart lang="en" type="family">Eggert</namePart><namePart lang="en" type="given">Marion</namePart><role><roleTerm>editor</roleTerm></role></name><originInfo><dateIssued>2004</dateIssued><place><placeTerm>München</placeTerm></place><publisher><name type="corporate"><namePart lang="en">K.G. Saur</namePart></name></publisher></originInfo><!--relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Geschichte der chinesischen Literatur 4</title>
+        </titleInfo>
+    </relatedItem--></mods>

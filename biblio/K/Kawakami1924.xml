@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kawakami1924">
+    <titleInfo lang="ja">
+        <title>社會組織と社會革命に關する若干の考察<!--社会組織と社会革命に関する若干の考察--></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shakai soshiki to shakai kakumei ni kansuru jakkan no kōsatsu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Some Inquiries into Social Organization and Social Revolution</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kawakami 1924</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#kawakami">
+        <namePart lang="ja" type="family">河上</namePart>
+        <namePart lang="ja" type="given">肇</namePart>
+        <namePart transliteration="romaji" type="family">Kawakami</namePart>
+        <namePart transliteration="romaji" type="given">Hajime</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1924</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">弘文堂書房</namePart>
+                <namePart transliteration="romaji">Kōbundō shobō</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

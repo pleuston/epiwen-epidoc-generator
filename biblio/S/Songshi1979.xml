@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Songshi1979" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>宋史</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Songshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>History of the Song Dynasty, 960-1279</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Songshi 1979">
+        <title>Songshi 1979</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tuotuo" type="personal">
+        <namePart lang="zh" type="family">脱</namePart>
+        <namePart lang="zh" type="given">脱</namePart>
+        <namePart type="date">1313-1355</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>496 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">496</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Completed 1345</dateOther>
+        <dateIssued>1979</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

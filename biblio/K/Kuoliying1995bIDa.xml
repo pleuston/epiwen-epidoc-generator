@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kuoliying1995b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jiangchang wenxue yu zhanghui xiaoshuo zhi xianqu<hi rend="dash">──</hi>‘Foming
+            jing’</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>講唱文學與章回小說之先趨<hi rend="dash">──</hi>佛名經</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Pioneer of the Talking and Singing Literature — the <hi rend="italic">Sutra on Buddha
+                Names</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuo Liying 1995a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuoliying" type="personal">
+        <namePart transliteration="pinyin" type="family">Kuo</namePart>
+        <namePart transliteration="pinyin" type="given">Li-Ying</namePart>
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">麗英</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fuxingyundongzonghui1995" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fojiao yu zhongguo wenhua guoji xueshu huiyi lunwen ji (zhongji)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>佛教與中國文化國際學術會議論文集(中輯)</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1995</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>529</start>
+                <end>545</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

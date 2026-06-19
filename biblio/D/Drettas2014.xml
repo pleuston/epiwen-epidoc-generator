@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Drettas2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Le <hi rend="italic">Livre des Mutations</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Drettas 2014</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#drettas" type="personal">
+        <namePart transliteration="de" type="family">Drettas</namePart>
+        <namePart transliteration="de" type="given">Dimitri</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Drege_Moretti2014" type="host">
+        <titleInfo lang="en">
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <place>
+                <placeTerm/>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en"/>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>9</start>
+                <end>14</end>
+            </extent>
+            <date>2014</date>
+        </part>
+    </relatedItem>
+</mods>

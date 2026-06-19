@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SundaiShigaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>駿台史學</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sundai shigaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sundai Historical Review: The Journal of the Historico-Geographical Association of Meiji University</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>1951-</dateIssued>
+        <dateIssued encoding="marc" point="start">1951</dateIssued>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Sundai shigakukai</namePart>
+                <namePart lang="ja">駿台史学会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

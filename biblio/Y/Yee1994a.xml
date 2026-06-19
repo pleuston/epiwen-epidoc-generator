@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yee1994a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Traditional Chinese Cartography and the Myth of Westernization</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Yee 1994a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Yee" type="personal">
+        
+        <namePart lang="en" type="family">Yee</namePart>
+        <namePart lang="en" type="given">Cordell D.K.Yee</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#HarleyWoodward1994" type="host">
+        
+        <titleInfo lang="en">
+            <title>Cartography in the traditional East and Southeast Asian societies</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>1994</date>
+            <extent unit="page">
+                <start>170</start>
+                <end>202</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,81 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dengdingyuxianshengwenji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Deng Dingyu xiansheng wenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鄧定宇先生文集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Mister Deng Dingyu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Deng Dingyu xiansheng wenji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dengyizan" type="personal">
+        <namePart transliteration="pinyin" type="family">Deng</namePart>
+        <namePart transliteration="pinyin" type="given">Yizan</namePart>
+        <namePart lang="zh" type="family">鄧</namePart>
+        <namePart lang="zh" type="given">以贊</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<extension>2 vols.; 11 <hi rend="italic">juan</hi> + <hi rend="italic">shou </hi><foreign lang="zh">首</foreign></extension>
+    <extent>
+        <detail type="juan">4</detail>
+    </extent>-->
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <dateOther>4 vols</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKQS_Cunmu" type="series">
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書·集部</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu: ji bu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">156</number>
+            </detail>
+            <extent unit="page">
+                <start/>
+                <end/>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKQS_Cunmu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Siku Quanshu cunmu congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>
+                    <foreign lang="zh">集部</foreign>156</number>
+            </detail><extent unit="page">
+                <start></start>
+                <end></end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <!-- <note>Reprint of the 1603 edition</note>-->
+</mods>

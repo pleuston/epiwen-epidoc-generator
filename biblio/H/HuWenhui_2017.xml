@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuWenhui_2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wo yong jiaozhi jia gen mugun doubi xxx xiede qiang’ shi zhende ma</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>‘我用脚趾夹根木棍都比xxx写得强’是真的吗？</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Is ‘My Calligraphy Is Better Than That of xxx Even If Holding a Wooden Stick with My Toes’ True?</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yu shi yitong">
+        <title>Hu Wenhui 2017</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huwenhui" type="personal">
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Wenhui</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://www.thepaper.cn/newsDetail_forward_1861648</url>
+    </location>
+    <genre>Web</genre>
+    <originInfo>
+        <dateIssued>2017-11-13</dateIssued>
+        <dateCaptured>2019-06-16</dateCaptured>
+    </originInfo>
+</mods>

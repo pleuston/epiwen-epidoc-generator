@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luk1972" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Vimalakīrti Nirdeśa Sūtra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luk 1972</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luk" type="personal">
+        <namePart lang="en" type="family">Luk</namePart>
+        <namePart lang="en" type="given">Charles</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1972</dateIssued>
+        <place>
+            <placeTerm>Berkeley and Devizes</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Shambala</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

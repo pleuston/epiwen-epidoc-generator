@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SunHui2011" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo type="reference">
+        <title>Sun Hui 2011</title>
+    </titleInfo>
+    <titleInfo lang="de">
+        <title>Reliquienpagoden der Renshou-Periode</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sunhui" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Hui</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Unpublished Master thesis</note>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm>Ruprecht-Karls-Universität Heidelberg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Ruprecht-Karls-Universität Heidelberg</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

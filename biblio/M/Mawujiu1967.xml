@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mawujiu1967" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo jinshixue gaiyao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國金石學概要</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Outline of Chinese Epigraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ma Wujiu 1967</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mawujiu" type="personal">
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">無咎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1967</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yiwen yinshuguan</namePart>
+                <namePart lang="zh">藝文印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

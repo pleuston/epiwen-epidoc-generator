@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuCong2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Qingmo minchu Fengtian Sheng haiwai liuxue yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>清末民初奉天省海外留學研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Students from Fengtian Province Studying Abroad at the End of the Qing Dynasty and the Beginning of the Republican Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Cong 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LiuCong" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">聰</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Cong</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master’s Thesis <foreign lang="zh">碩士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Liaoning daxue</placeTerm>
+            <placeTerm lang="zh">遼寧大學</placeTerm>
+        </place>
+    </originInfo>
+</mods>

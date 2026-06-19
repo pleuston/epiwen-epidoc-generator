@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AH_WHLT" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Anhui wenhua luntan: wenhua Anqing yu shehuizhuyi wenhua jianshe xin lujing yantaohui lunwen huibian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>安徽文化論壇：文化安慶與社會主義文化建設新路徑研討會論文匯編</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Anhui Cultural Forum: Collection of Papers from the Seminar on Cultural Anqing and the New Path of Socialist Cultural Construction</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Anhui wenhua luntan 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_aqsw" type="corporate">
+        <namePart lang="zh">中共安慶市委</namePart>
+        <namePart transliteration="pinyin">Zhonggong Anqing shiwei</namePart>
+       
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_aqszf" type="corporate">
+        <namePart lang="zh">中共安慶市政府</namePart>
+        <namePart transliteration="pinyin">Zhonggong Anqing Shi zhengfu</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#aq_sfxy" type="corporate">
+        <namePart lang="zh">安慶師範學院</namePart>
+        <namePart transliteration="pinyin">Anqing shifan xueyuan</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ah_shkxy" type="corporate">
+        <namePart lang="zh">安徽省社會科學院</namePart>
+        <namePart transliteration="pinyin">Anhui Sheng shehui kexueyuan</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2014</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Anqing</placeTerm>
+            <placeTerm lang="zh">安慶</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Anhui Sheng shehui kexueyuan</namePart>
+                <namePart lang="zh">安徽省社會科學院</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

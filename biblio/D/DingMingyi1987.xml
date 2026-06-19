@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DingMingyi1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Tan Yunju Si Leiyin Dong chongxin faxiande sheli yinhan</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>談雲居寺雷音洞重新發現的舍利銀函</title>
+            </titleInfo>
+            <titleInfo type="translated" lang="en">
+                <title>On the Recently Discovered Silver Śarīra Box from Thunder Sound Cave in Cloud Dwelling Monastery</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Ding Mingyi 1987</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dingmingyi" type="personal">
+                        <namePart lang="zh" type="family">丁</namePart>
+                        <namePart lang="zh" type="given">明夷</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ShijieZongjiaoYanjiu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Shijie zongjiao yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>世界宗教研究</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                <part>
+                    <detail type="no">4</detail>
+                    <extent unit="page">
+                        <start>143</start>
+                        <end>145</end>
+                    </extent>
+                    <date>1987</date>
+                </part>
+                        
+            </relatedItem>
+            <!--<classification edition="LvTiegang1999">reprint</classification>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Fangshan shijing yanjiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>房山石經研究</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <name ns2:href="#lvtiegang" type="personal">
+                                    <namePart lang="zh" type="family">呂</namePart>
+                                    <namePart lang="zh" type="given">鐵鋼</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <part>
+                                    <detail type="volume">
+                                                <number>3</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>337</start>
+                                                <end>343</end>
+                                    </extent>
+                        </part>
+            </relatedItem>-->
+            <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol. 3, 337–343</ref>
+    </note>
+</mods>

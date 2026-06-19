@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hayashi2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Butten kesshū de shūsai sarenakatta <foreign xml:lang="sa">
+                <hi rend="italic">Rājovādasutta</hi>
+            </foreign> (<hi rend="italic">Kan’ō kyō</hi>): Pāri chūshaku
+            bunken no gensen shiryō ni kanren shite</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛典結集で收載されなかった<foreign xml:lang="sa">
+                <hi rend="italic">Rājovādasutta</hi>
+            </foreign>（諫王經）<hi rend="dash">──</hi>パーリ註釋文献の源泉資料に關連して<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>
+            <foreign xml:lang="sa">
+                <hi rend="italic">Rājovādasutta</hi>
+            </foreign>: An Apocryphal
+                <hi rend="italic">Sutta</hi> Not Listed in the Buddhist Councils: On the Sources of the Pali Explanatory Documents</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hayashi 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hayashi" type="personal">
+        <namePart lang="ja" type="family">林</namePart>
+        <namePart lang="ja" type="given">隆嗣</namePart>
+        <namePart transliteration="hepburn" type="family">Hayashi</namePart>
+        <namePart transliteration="hepburn" type="given">Takatsugu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>印度學佛教學硏究<!--印度学仏教学研究--></title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">62</detail>
+            <detail type="no">2</detail>
+            <extent unit="pages">
+                <start>856<!-- (209)--></start>
+                <end>849<!-- (216)--></end>
+            </extent>
+            <date>2014</date>
+        </part>
+    </relatedItem>
+</mods>

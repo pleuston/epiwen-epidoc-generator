@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huang2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xinan silu yu Sichuan zaoqi fojiao zaoxiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西南絲路與四川早期佛教造像</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The South-western Silk Road and Early Buddhist Sculpture in Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Jian­hua 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huangjianhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Jianhua</namePart>
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">劍華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title/>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>西南交通大學學報(社會科學版)</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Journal of Southwest Jiaotong University (Social Sciences)</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2005</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>112</start>
+                <end>117</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

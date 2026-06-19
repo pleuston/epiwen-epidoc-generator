@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="danshengtangji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dansheng Tang ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>澹生堂集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Writings from the Hall of Tranquil Life</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dansheng Tang ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qichenghan" type="personal">
+        <namePart transliteration="pinyin" type="family">Qi</namePart>
+        <namePart transliteration="pinyin" type="given">Chenghan</namePart>
+        <namePart lang="zh" type="family">祁</namePart>
+        <namePart lang="zh" type="given">承㸁</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guojia tushuguan chubanshe</namePart>
+                <namePart lang="zh">國家圖書館出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+  <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#YuanguoliBeiping_tsg_jiakusanbencongshu" type="series">
+    <titleInfo lang="zh">
+      <title>原國立北平圖書館甲庫善本叢書 <foreign lang="en">876–877</foreign>
+            </title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+      <title>Yuan guoli Beiping tushuguan jiaku shanben congshu</title>
+    </titleInfo>
+    <!--<typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>329</number>
+            </detail>
+        </part>-->
+  </relatedItem>
+    <note type="reprint">Reprint of the 2013 facsimile of the <hi rend="italic">chongzhen </hi>
+        <foreign lang="zh">崇禎</foreign> era (1627–1644) edition</note>
+</mods>

@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangQiyi2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hannya no kokoro: Tō-dai <hi rend="italic">Shingyō</hi> kokuseki no tekisuto ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>般若の心：唐代《心經》刻石のテキストについて</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Essence of Prajñā: A Study on Stone Carved Texts of the <hi rend="italic">Heart Sutra</hi> of the Tang Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Qiyi 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangqiyi" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">其禕</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kajiyama_satoshi" type="personal">
+        <namePart lang="ja" type="family">梶山</namePart>
+        <namePart lang="ja" type="given">智史</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <abstract>Wang Qiyi lists 28 text witnesses (but not the one at Dafo Si in Binxian).
+    Conclusions: The translation of the Heart Sutra by Xuanzang was published in 649, and disseminated to the rest of China during the yonghui and xianqing eras. The earliest text witness to date is found at Fangshan. It is dated to 661 (6th year of xianqing era). This is an "ancestor copy" 祖本 with its creation date being close to the original of Xuanzang’s translation. The copy by Huairen, a disciple of Xuanzang, is also of particular value.
+    1: Fangshan, dated 661
+    2: Fangshan, dated 699 総章二年
+    3: Huairen’s compilation, dated 672 戚亨三年
+    4: On the side and rear of the stele donated by Wang Renbiao 「王仁表造心経碑」in 685 武周垂扶元年, in the museum of Zhongtaishan in Taiwan 中台山博物館 (fig. 3 on p. 46)
+    5. On the pillar of a lamp in Longfu Monastery 隆福寺 of the ancient county town in Anci District (Anci qu 按次區) of Langfang Municipality 廊坊市 in Hebei. The inscription is dated 688 垂扶四年 . Title has fo shuo.
+    6: Fangshan, dated 691 (FS 2: 402)
+    7. Longmen, Lianhua Dong, north wall, dated 700 久視元年 and written by Huangfu Yuanheng 皇甫元亨
+    8. Fangshan fragment, dated 713 唐先天二年 (FS 3: 1). fo shuo added
+    9. pagoda inscription for Dharma master Chongfu 崇福法師塔銘, dated 721
+    
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Journal_EastAsianEpigraphy" type="host">
+        <titleInfo lang="zh">
+            <title>東アジア石刻研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia sekkoku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Journal of East Asian Epigraphy</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">8</detail>
+            <!--<detail type="no"></detail>-->
+            <extent unit="page">
+                <start>39</start>
+                <end>59</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

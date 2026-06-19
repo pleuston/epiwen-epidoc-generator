@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LongXianzhao2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>巴蜀佛教碑文集成</title>
+        <!--<title>巴蜀佛敎碑文集成</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bashu Fojiao beiwen jicheng</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Buddhist Texts on Steles in Bashu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Long Xian­zhao et al. 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#longxianzhao" type="personal">
+        <namePart lang="zh" type="family">龍</namePart>
+        <namePart lang="zh" type="given">顯昭</namePart>
+        <namePart transliteration="pinyin" type="family">Long</namePart>
+        <namePart transliteration="pinyin" type="given">Xianzhao</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Bashu shushe</namePart>
+                <namePart lang="zh">巴蜀書社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sichuan shifan daxue Bashu wenhua yanjiu zhongxin xueshu congshu <foreign lang="zh">四川師範大學巴蜀文化研究中心學術叢書</foreign>
+            </title>
+        </titleInfo>
+    </relatedItem>
+</mods>

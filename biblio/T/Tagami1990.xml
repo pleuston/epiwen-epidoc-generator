@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tagami1990" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Bodaishin no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>菩提心の研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the Aspiration for <hi rend="italic">Bodhi</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tagami 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tagami" type="corporate">
+        <namePart lang="ja" type="family">田上</namePart>
+        <namePart lang="ja" type="given">太秀</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō Shoseki</namePart>
+                <namePart lang="ja">東京書籍</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Braarvig2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Manuscripts in the Schøyen Collection. Volume III</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Braarvig 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#braarvig" type="personal">
+        <namePart lang="en" type="family">Braarvig</namePart>
+        <namePart lang="en" type="given">Jens</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm lang="en">Oslo</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Hermes Publishing</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="HYIMS" type="series">
+        <titleInfo lang="en">
+            <title>Manuscripts in the Schøyen Collection</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

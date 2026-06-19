@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Hida2006">
+    <titleInfo transliteration="pinyin">
+        <title>Tang dai Putijiaye jingang zuo zhenrong xiang de liubu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐代菩提伽耶金剛座真容像的流布</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Distribution of the Zhenrong Buddha Image Seated on the Diamond Throne from Bodh Gaya Under the Tang</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hida 2006</title>
+        <!--<title>Hida Romi and Yen Chuan-ying 2018</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HidaRomi" type="personal">
+        <namePart transliteration="romaji" type="family">Hida</namePart>
+        <namePart transliteration="romaji" type="given">Romi</namePart>
+        <namePart lang="ja" type="family">肥田</namePart>
+        <namePart lang="ja" type="given">路美</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lijingjie" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Jingjie</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">静杰</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <!--<note>This might be the Chinese translation of  "Todai ni okeru Budda-gaya kongōza shinyōzo no ryūkō ni tsuite" 唐代における仏陀伽耶金剛座真容像の流行について . In Ronsō bukkyō bijutsushi: 
+        Kōichi Machida sensei kōki kinen 論叢仏教美術史：町田甲一先生古稀記念
+        edited by Koichi Machida sensei kōki kinenkai , 155-186. Tokyo: Yoshikawa 
+        kobunkan, 1986. </note>-->
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang Yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2006</date>
+            <detail type="volume">98</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>32</start>
+                <end>41</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

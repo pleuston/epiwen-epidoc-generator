@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Skilling1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Saṃskṛtāsaṃskṛta-viniścaya of Daśabalaśrīmitra</title>
+        <!--<title>The Saṃskr̥tāsaṃskr̥ta-viniścaya of Daśabalaśrīmitra</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Skilling 1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#skilling" type="personal">
+        <namePart lang="en" type="family">Skilling</namePart>
+        <namePart lang="en" type="given">Peter</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Buddhist Studies Review</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1987</date>
+            <detail type="volume">4</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>3</start>
+                <end>23</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

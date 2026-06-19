@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Kuramoto2008c">
+    <titleInfo lang="ja">
+        <title>北朝時代における方等懺と好相行<hi rend="dash">──</hi>《大方等陀羅尼經》十二夢王石刻圖像の新發見とその意義<hi rend="dash">──</hi>
+        </title>
+        <!--<title>北朝時代における方等懺と好相行<hi rend="dash">──</hi>『大方等陀羅尼経』十二夢王石刻図像の新発見とその意義<hi rend="dash">──</hi></title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokuchō jidai ni okeru Hōdōsan to Kōsōgyō: <hi rend="italic">Daihōdō darani kyō</hi> jūni muō sekkoku zuzō no shinhakken to sono igi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>Vaipulya Repentance Ritual (<foreign lang="zh">方等懺法</foreign> Fangdeng chanfa) and the Practice of Auspicious Signs (<foreign lang="zh">好相行</foreign> Haoxiang xing) in the Northern Dynasties Period: The New Discovery of the Relief Images of the Twelve Dream Kings in the <hi rend="italic">
+                <foreign lang="sa">Vaipulyadhāraṇīsūtra</foreign>
+            </hi> (<hi rend="italic">Fangdeng tuoluoni jing</hi> <foreign lang="zh">大方等陀羅尼經</foreign>) and Its Significance</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuramoto 2008c</title>
+    </titleInfo>
+    <abstract>Alternative readings for 方等懺: Hōtōsan, Hōdōsen</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuramoto_hisanori" type="personal">
+        <namePart lang="ja" type="family">倉本</namePart>
+        <namePart lang="ja" type="given">尚德</namePart>
+        <namePart transliteration="romaji" type="family">Kuramoto</namePart>
+        <namePart transliteration="romaji" type="given">Hisanori</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bukkyo_bunka_kkrs" type="host">
+        <titleInfo lang="ja">
+            <title>佛教文化研究論集</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō bunka kenkyū ronshū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">12</detail>
+            <extent unit="page">
+                <start>50</start>
+                <end>80</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprinted and modified in <ref target="Kuramoto2016" type="biblio">275–306</ref>
+    </note>
+</mods>

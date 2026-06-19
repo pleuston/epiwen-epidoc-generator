@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FSSJYJ_1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石經研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shijing yanjiu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Studies on The Stone Sutras in Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fangshan shijing yanjiu 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lvtiegang" type="personal">
+        <namePart transliteration="pinyin" type="family">Lü</namePart>
+        <namePart transliteration="pinyin" type="given">Tiegang</namePart>
+        <namePart lang="zh" type="family">吕</namePart>
+        <namePart lang="zh" type="given">鐵鋼</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hongkong</placeTerm>
+            <placeTerm lang="zh">香港</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo fojiao wenhua</namePart>
+                <namePart lang="zh">中國佛教文化</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

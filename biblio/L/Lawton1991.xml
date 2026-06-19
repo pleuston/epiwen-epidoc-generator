@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lawton1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Time of Transition: Two Collectors of Chinese Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lawton 1991</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lawton" type="personal">
+        <namePart lang="en" type="family">Lawton</namePart>
+        <namePart lang="en" type="given">Thomas</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <place>
+            <placeTerm>Lawrence</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Spencer Museum of Art, University of Kansas</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#MurphyLectures" type="series">
+        <titleInfo lang="en">
+            <title>The Franklin D. Murphy Lectures</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

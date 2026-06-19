@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rickett2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <hi rend="italic">Guanzi</hi>
+            <foreign lang="zh">管子</foreign>: Political, Economic, and Philosophical Essays from Early China. A Study and Translation</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guanzi (Rickett) 2001</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#rickett" type="personal">
+        <namePart lang="en" type="family">Rickett</namePart>
+        <namePart lang="en" type="given">W. Allyn</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm>Boston</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cheng &amp; Tsui Company</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Princeton Library of Asian Translations</title>
+        </titleInfo>
+    </relatedItem>
+    <note type="reprint">First revised edition</note>
+</mods>

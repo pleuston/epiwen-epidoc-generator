@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShenYatong2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>唐代舍利瘞制度之“金棺銀槨”探析</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Tangdai sheliyi zhidu zhi jinguan yinguo tanxi </title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Study on the Rite of Coffined Buddhist Relics of the Tang Dynasty</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Shen Yatong 2020</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shenyatong" type="personal">
+                        <namePart lang="en" type="family">Shen</namePart>
+                        <namePart lang="en" type="given">Yatong</namePart>
+                        <namePart lang="zh" type="family">沈</namePart>
+                        <namePart lang="zh" type="given">雅彤</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tangduxuekan" type="host">
+                        <titleInfo lang="zh">
+                                    <title>唐都學刊</title>
+                        </titleInfo>
+                        <titleInfo transliteration="pinyin">
+                                    <title>Tangdu xuekan</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="volume">36</detail>
+                                    <detail type="no">5</detail>
+                                    <extent unit="page">
+                                                <start>12</start>
+                                                <end>19</end>
+                                    </extent>
+                                    <date>2020</date>
+                        </part>
+            </relatedItem>
+</mods>

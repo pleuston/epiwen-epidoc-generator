@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TachikawaYoritomo1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国密教</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku Mikkyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chinese Esoteric Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tachikawa and Yoritomo 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tachikawa_musashi" type="personal">
+        <namePart transliteration="romaji" type="family">Tachikawa</namePart>
+        <namePart transliteration="romaji" type="given">Musashi</namePart>
+        <namePart lang="ja" type="family">立川</namePart>
+        <namePart lang="ja" type="given">武蔵</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yoritomo_motohiro" type="personal">
+        <namePart transliteration="romaji" type="family">Yoritomo</namePart>
+        <namePart transliteration="romaji" type="given">Motohiro</namePart>
+        <namePart lang="ja" type="family">頼富</namePart>
+        <namePart lang="ja" type="given">本宏</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shunjūsha</namePart>
+                <namePart lang="ja">春秋社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>
+                <foreign lang="ja">Shirīzu Mikkyō </foreign>
+                <foreign lang="zh">シリーズ密教</foreign>
+            </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

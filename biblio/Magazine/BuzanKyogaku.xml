@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BuzanKyogaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>豊山教學大会紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Buzan kyōgaku taikai kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Memoirs of the Society for the Buzan Study</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#buzan_kyogaku_shinkokai" type="corporate">
+        <namePart lang="ja">豊山教學振興会</namePart>
+        <namePart transliteration="romaji">Buzan kyōgaku shinkōkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1973-</dateIssued>
+        <dateIssued encoding="marc" point="start">1973</dateIssued>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Buzan kyōgaku shinkōkai</namePart>
+                <namePart lang="ja">豊山教學振興会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

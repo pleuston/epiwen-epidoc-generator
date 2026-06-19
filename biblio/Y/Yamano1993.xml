@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yamano1993" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>南岳慧思《立誓願文》に関する一試論</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nangaku Eshi ‘Ryū seigan mon’ ni kansuru—shiron</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>An Essay on the <hi rend="italic">Tract on the Vow</hi> by Nanyue Huisi<!--A Study of Nan-yüeh Hui-ssu’s Li Shih yüan wen-->
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yamano 1993</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yamano" type="personal">
+        <namePart lang="ja" type="family">山野</namePart>
+        <namePart lang="ja" type="given">俊郎</namePart>
+        <namePart lang="en" type="family">Yamano</namePart>
+        <namePart lang="en" type="given">Toshirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Ryukoku_Shidan" type="host">
+        <titleInfo lang="ja">
+            <title>佛教學セミナ</title>
+        </titleInfo>
+        <titleInfo transliteration="en">
+            <title>Buddhist Seminar</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1993</date>
+            <detail type="volume">58</detail>
+            <extent unit="page">
+                <start>35</start>
+                <end>56</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

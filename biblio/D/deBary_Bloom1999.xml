@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="deBary_Bloom1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Sources of Chinese Tradition.  From Earliest Times to
+            1600. Volume 1</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>de Bary and Bloom 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#deBary" type="personal">
+        <namePart lang="en" type="family">de Bary</namePart>
+        <namePart lang="en" type="given">William Theodore</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bloom" type="personal">
+        <namePart lang="en" type="family">Bloom</namePart>
+        <namePart lang="en" type="given">Irene</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Columbia University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Introduction to Asian Civilizations</title>
+        </titleInfo>
+        
+    </relatedItem>
+</mods>

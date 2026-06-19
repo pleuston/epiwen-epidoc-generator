@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shih1984" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Eremitism in Landscape Paintings by Ch’ien Hsüan (ca. 1235 - before 1307)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shih 1984</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shihshouchien" type="personal">
+        <namePart transliteration="pinyin" type="family">Shih</namePart>
+        <namePart transliteration="pinyin" type="given">Shou-chien</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. Diss.</note>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <place>
+            <placeTerm>Princeton University</placeTerm>
+        </place>
+    </originInfo>
+</mods>

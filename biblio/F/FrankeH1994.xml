@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FrankeH1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Chin Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Franke, H. 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#franke_h" type="personal">
+        <namePart lang="de" type="family">Franke</namePart>
+        <namePart lang="de" type="given">Herbert</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Franke_Twitchett1994" type="host">
+        
+        
+        <titleInfo lang="en">
+            <title>The Cambridge History of China. Alien Regimes and Border States, 907 (710) -1368</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        
+        
+       
+        <part>
+            <extent unit="page">
+                <start>215</start>
+                <end>320</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

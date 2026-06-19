@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shianchang1987" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>黄易《岱麓訪碑圖》</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Huang Yi <!--‘-->
+            <hi rend="italic">Dailu fangbei tu</hi><!--’-->
+        </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>‘Illustrations of Visiting Steles in the Dai Mountains’ by Huang Yi</title><!--<title>Visiting Stelae at the Foot of Dai Mountain, Painted by Huang Yi, Qing Dynasty</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi Anchang 1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shianchang" type="personal">
+        <namePart lang="zh" type="family">施</namePart>
+        <namePart lang="zh" type="given">安昌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zijincheng" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zijincheng</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>紫禁城</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>14</start>
+                <end>16</end>
+            </extent>
+            <date>1987</date>
+        </part>
+    </relatedItem>
+</mods>

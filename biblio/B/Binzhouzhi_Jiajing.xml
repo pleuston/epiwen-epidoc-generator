@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Binzhouzhi_Shunzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>[Shunzhi] Binzhou zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔顺治〕邠州志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Binzhou County (Shunzhi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Binzhou zhi 1649</title>
+    </titleInfo>
+    
+     <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yanfengsi" type="personal">
+         <namePart lang="zh" type="family">閻</namePart>
+         <namePart lang="zh" type="given">奉思</namePart>
+        <namePart transliteration="pinyin" type="family">Yan</namePart>
+        <namePart transliteration="pinyin" type="given">Fengsi</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name> 
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sudongzhu" type="personal">
+        <namePart lang="zh" type="family">蘇</namePart>
+        <namePart lang="zh" type="given">東柱</namePart>
+        <namePart transliteration="pinyin" type="family">Su</namePart>
+        <namePart transliteration="pinyin" type="given">Dongzhu</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <extension>
+        4
+        <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!-- <physicalDescription>
+        <extent>
+            <detail type="fascicle">8</detail>
+        </extent>
+    </physicalDescription> -->
+    <originInfo>
+        <dateIssued>1649</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">
+        Preserved in the National Library of China (
+        <foreign lang="zh">善本</foreign>
+        A04835
+        <foreign lang="zh">號</foreign>
+        )
+    </note>
+</mods>

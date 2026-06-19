@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChengduKaoguFaxian2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>成都考古發現 <foreign lang="en">2006</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Chengdu kaogu faxian 2006</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chengdu kaogu faxian 2008</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chengdu Archaeological Findings, 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengdu_wenwu_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Chengdu wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">成都文物考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CaiGuoying2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo Ningxia Huizu jiaoyu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國寧夏回族教育</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Education of the Hui Ethnicity in Ningxia, China</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Jinshi luncong 2004">
+        <title>Cai Guoying 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#caiguoying" type="personal">
+        <namePart lang="zh" type="family">蔡</namePart>
+        <namePart lang="zh" type="given">國英</namePart>
+        <namePart type="date"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+                <namePart lang="zh">科學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

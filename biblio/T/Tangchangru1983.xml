@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tangzhangru1983" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wei Jin Nan Bei chao shilun shiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>魏晋南北朝史論拾遺</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Supplement to the Theses on the History of the Wei, Jin, Southern and Northern
+            Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tang Zhangru 1983</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tangzhangru" type="personal">
+        <namePart lang="zh" type="family">唐</namePart>
+        <namePart lang="zh" type="given">長孺</namePart>
+        <namePart transliteration="pinyin">Tang</namePart>
+        <namePart transliteration="pinyin">Zhangru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1983</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

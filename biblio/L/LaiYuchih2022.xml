@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiYuchih2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wujian: Sishiba wei wujian de yueduzhe yu taman suojian de shijie</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>物見：四十八位物件的閱讀者與他們所見的世界</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Seeing: 48 Object Readers and Their Worlds</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lai Yu-chih 2022</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laiyuchih" type="personal">
+        <namePart lang="zh" type="family">賴</namePart>
+        <namePart lang="zh" type="given">毓芝</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taipei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yuanzu wenhua shiye gufen youxian gongsi</namePart>
+                <namePart lang="zh">遠足文化事業股份有限公司</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

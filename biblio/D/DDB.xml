@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="DDB"><titleInfo lang="en" rend="italic"><title>Digital Dictionary of Buddhism</title></titleInfo><!--titleInfo lang="zh">
+        <title>電子佛教辭典</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">Dianzi fojiao cidian</titleInfo--><titleInfo type="reference"><title>DDB</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#muller" type="personal"><namePart type="family">Muller</namePart><namePart type="given">Charles</namePart><role><roleTerm>editor</roleTerm></role></name><!--originInfo>
+        <dateCreated>July 1995</dateCreated>
+        <dateModified>2014/06/29</dateModified>
+        <dateCaptured>2014-12-20</dateCaptured>
+        <publisher/>
+    </originInfo--><location><url>http://buddhism-dict.net/ddb</url></location></mods>

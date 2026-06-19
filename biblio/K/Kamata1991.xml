@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kamata1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru Bukkyō no denpa keiro ni kansuru jittai chōsa: Heisei 2-nendo chōsa hōkokusho</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中国における佛教の伝播<!--経-->經路に関する実態調査：平成二年度調査報告書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Investigation Into the Transmission Route of Buddhism in China: Examination Report on the Second Year of Heisei (1990)<!--The Studies and Research on the History and Development of Buddhism in China—the Summary on 1990’s Reports--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kamata 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kamata" type="personal">
+        <namePart transliteration="romaji" type="family">Kamata</namePart>
+        <namePart transliteration="romaji" type="given">Shigeo</namePart>
+        <namePart lang="ja" type="family">鎌田</namePart>
+        <namePart lang="ja" type="given">茂雄</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Zen_kenkyusho_kiyo" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Zen kenkyūsho kiyō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>禅研究所紀要</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>20</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>40</end>
+            </extent>
+            <date>1991</date>
+        </part>
+    </relatedItem>
+</mods>

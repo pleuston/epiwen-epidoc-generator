@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wurulun1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo transliteration="pinyin">
+    <title>Tongcheng Wu xiansheng riji</title>
+</titleInfo>
+    <titleInfo lang="zh">
+        <title>桐城吴先生日記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Diary of Mister Wu from Tongcheng</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Rulun 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wurulun" type="personal">
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">汝綸</namePart>
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Rulun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#songkaiyu" type="personal">
+        <namePart lang="zh" type="family">宋</namePart>
+        <namePart lang="zh" type="given">開玉</namePart>
+        <namePart transliteration="pinyin" type="family">Song</namePart>
+        <namePart transliteration="pinyin" type="given">Kaiyu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place><placeTerm transliteration="pinyin">Shijiazhuang</placeTerm>
+            <placeTerm lang="zh">石家莊</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Hebei jiaoyu chubanshe</namePart>
+                <namePart lang="zh">河北教育出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance></originInfo>
+    <extension>2 vols</extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JSXRRJ" type="series">
+        <titleInfo lang="zh">
+            <title>近世學人日記</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jinshi xueren riji</title>
+        </titleInfo>
+        <part>
+            <detail type="volume"><number/></detail></part></relatedItem>
+</mods>

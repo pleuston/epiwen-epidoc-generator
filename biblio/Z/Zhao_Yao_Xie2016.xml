@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhao_Yao_Xie2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan Mianyang Beishan Yuan moya zaoxiang ji kejing yanshi biaoceng liehua tezheng
+            yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川綿陽北山院摩崖造像及刻經岩石表層劣化特徵研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Characteristic Features for Aggravation of the Rock Surfaces of the
+            Inscriptions and Sculptures of Beishan Cloister in Mianyang, Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao, Yao, and Xie 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhaofan" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Fan</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">凡</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yaoxue" type="personal">
+        <namePart transliteration="pinyin" type="family">Yao</namePart>
+        <namePart transliteration="pinyin" type="given">Xue</namePart>
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">雪</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiezhenbin" type="personal">
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenbin</namePart>
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">振斌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract> </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SichuanWenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Sichuan wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四川文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2016</date>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>76</start>
+                <end>87</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

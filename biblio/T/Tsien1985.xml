@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsien1985" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Paper and Printing</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsien Tsuen-Hsuin 1985</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsien" type="personal">
+        <namePart lang="en" type="family">Tsien</namePart>
+        <namePart lang="en" type="given">Tsuen-Hsuin</namePart>
+        <namePart lang="zh" type="family">錢</namePart>
+        <namePart lang="zh" type="given">存訓</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1985</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambridge University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SCC" type="series">
+        <titleInfo lang="en">
+            <title>Science and Civilisation in China Vol. 5, Part I</title>
+        </titleInfo>
+        <name oXygen2:href="#needham" type="personal">
+            <namePart lang="en" type="family">Needham</namePart>
+            <namePart lang="en" type="given">Joseph</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <!--part>
+            <detail level="1" type="volume">
+                <number>5</number>
+            </detail>
+            <detail level="2" type="part">
+                <number>1</number>
+            </detail>
+        </part-->
+    </relatedItem>
+</mods>

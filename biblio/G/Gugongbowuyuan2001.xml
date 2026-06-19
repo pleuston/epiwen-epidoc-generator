@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gugongbowuyuan2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ping Shan zhi,  Tai Shan shuji,  Tai Shan zhi,  Tai Shan daoli ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>平山志  泰山述記  泰山志  泰山道里記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Gazetteer of Mount Ping</hi>, the <hi rend="italic">Narrative Record of Mount Tai</hi>, the <hi rend="italic">Gazetteer of Mount Tai</hi>, and <hi rend="italic">An Itinerary of Mount Tai</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Sichuan Shiqu xian Songgemani 2006">
+        <title>Gugong  bowuyuan 2001</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gugongbowuyuan" type="corporate">
+        <namePart transliteration="pinyin">Gugong bowuyuan</namePart>
+        <namePart lang="zh">故宫博物院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">海南出版社</namePart>
+                <namePart transliteration="pinyin">Hainan chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">海口</placeTerm>
+            <placeTerm transliteration="pinyin">Haikou</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Gugong zhenben congkan<!-- di 249 ce--></title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>故宫珍本叢刊<!--第249册--></title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>249</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

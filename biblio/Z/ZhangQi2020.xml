@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangQi2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Handan qiqu zhuanshi ta diaocha yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>邯鄲地區磚石塔調查研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Investigation and Research on Brick and Stone Pagodas in Handan Area</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangqi" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">琦</namePart>
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Qi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Master Thesis <foreign lang="zh">碩士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hebei gongcheng daxue</placeTerm>
+            <placeTerm lang="zh">河北工程大學</placeTerm>
+        </place>
+    </originInfo>
+</mods>

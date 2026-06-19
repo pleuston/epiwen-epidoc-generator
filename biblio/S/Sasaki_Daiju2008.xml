@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sasaki_Daiju2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Butchō sonshō darani kyōdō no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>仏頂尊勝陀羅尼経幢の研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Pillars Carved with the <hi rend="italic">Sutra of the Glorious Buddha
+                Crown <foreign xml:lang="sa">Dhāraṇī</foreign></hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sasaki 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sasaki_daiju" type="personal">
+        <namePart lang="ja" type="family">佐々木</namePart>
+        <namePart lang="ja" type="given">大樹</namePart>
+        <namePart transliteration="romaji" type="family">Sasaki</namePart>
+        <namePart transliteration="romaji" type="given">Daiju</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chizan_gakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Chizan gakuhō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>智山学報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">57</detail>
+            <extent unit="page">
+                <start>41</start>
+                <end>67</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+</mods>

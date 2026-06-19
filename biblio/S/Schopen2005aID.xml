@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schopen2005a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Figments and Fragments of Mahāyāna Buddhism in India: More Collected Papers</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schopen 2005</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#schopen" type="personal">
+        <namePart lang="en" type="family">Schopen</namePart>
+        <namePart lang="en" type="given">Gregory</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher><name type="corporate">
+                <namePart lang="en">University of Hawai‘i Press</namePart>
+            </name></publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesBuddhistTraditions" type="series">
+        <titleInfo lang="en">
+            <title>Studies in the Buddhist Traditions</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

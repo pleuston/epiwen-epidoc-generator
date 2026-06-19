@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="leifengcangjing" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="zh">
+                <title>雷峰藏經</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+                <title>Leifeng cangjing </title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+                <title>The Buddhist Canon at Leifeng Pagoda</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Leifeng cangjing 2011</title>
+        </titleInfo>
+        <abstract>Das Werk 南宋施誇《淳祐臨安志》hat einen Bericht zum ursprünglichen Aussehen der Pagode, die
+                für die Haarreliquie des Buddha bebaut wurde: 塔之成日，又銷《華嚴》諸經圍繞八面，真成不思议劫數大精進幢。 Das
+                Huayanjing wurde in der Ming-Zeit bereits gefunden: 塔內以石刻《華嚴經》圍砌八面，die Kalligraphie
+                wurde Ouyang Xun zugesprochen. Nach dem Einsturz von 1924 erhielt Tong Danian 童大年
+                (1884-1955) einige Platten, die er abrieb und zu einem Buch zusammenstellte. 18
+                dieser Abreibungen heute im Zhejiang Museum. 1104 Fragmente wurde im Jahr 2000
+                ausgegraben. 90 % davon Huayanjing, bis juan 34. Ca. 100 Fragmente mit 4000 Zeichen
+                vom Diamantsutra, 4/5 des Originaltextes. Äußere Ummantelung, Korridor, innere
+                Ummantelung, innere Kammer. 發掘出土的這些石經原先放置在外套筒門道兩側的外壁面上，與文獻記載『圍繞八面」相符合. Die Sutren
+                befanden sich zu beiden Seiten des Toreingangs der äußeren Ummantelung 外套筒門道兩側. Die
+                48 slabs des Huayanjing waren bereits in den 8 Durchgängen des äußeren Mantels
+                angebracht. Wo waren die 5 slabs des Diamantsutra ursprünglich? In der inneren
+                Ummantelung, wie das Diamantsutra in der Liuhe Pagode?
+                《金剛經》或砌於塔的內套筒壁面，與六和塔南門內套筒《金剛經》相間？</abstract>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhejiangshengbowuguan" type="corporate">
+                <namePart transliteration="pinyin">Zhejiangsheng bowuguan</namePart>
+                <namePart lang="zh">浙江省博物館</namePart>
+                <role>
+                        <roleTerm>editor</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>2011</dateIssued>
+                <place>
+                        <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                        <placeTerm lang="zh">北京</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                                <namePart lang="zh">文物出版社</namePart>
+                        </name>
+                </publisher>
+        </originInfo>
+</mods>

@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lacau1909" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Catalogue général des antiquités égyptiennes du Musée du Caire, Vol. 45 N<hi rend="sup">os</hi> 34001-34064: Stèles du Nouvel Empire, vol. I (1)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lacau 1909</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lacau" type="personal">
+        <namePart lang="fr" type="family">Lacau</namePart>
+        <namePart lang="fr" type="given">Pierre</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1909</dateIssued>
+        <place>
+            <placeTerm lang="fr">Le Caire and Leipzig</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Imprimerie de l’Institut française d’archéologie orientale and Karl W. Hiersemann</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

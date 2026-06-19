@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takahashi1993" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>観無量寿経の成立地について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kanmuryōjukyō no seiritsuchi ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Place of Origin of the <hi rend="italic">Sutra on the Contemplation of the Buddha of Immeasurable Life</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takahashi 1993</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takahashi_shinya" type="personal">
+        <namePart lang="ja" type="family">高橋</namePart>
+        <namePart lang="ja" type="given">審也</namePart>
+        <namePart transliteration="romaji" type="family">Takahashi</namePart>
+        <namePart transliteration="romaji" type="given">Shin’ya</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Ono1993" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shūkyōteki shinri to gendai: Undō Gidō sensei kiju kinen ronbunshū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>宗教的真理と現代 雲藤義道先生喜寿記念論文集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>279</start>
+                <end>292</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

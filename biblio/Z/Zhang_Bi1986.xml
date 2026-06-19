@@ -1,0 +1,77 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhang_Bi1986" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>論遼朝大藏經雕印</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Lun Liaochao dazangjing de diaoyin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Carving of the Liao Dynasty Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Changgeng and Bi Sujuan 1986</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangchanggeng" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">暢耕</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#bisujuan" type="personal">
+        <namePart lang="zh" type="family">畢</namePart>
+        <namePart lang="zh" type="given">素娟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGLSBWG_guangkan" type="host">
+        <titleInfo lang="zh">
+            <title>中國歷史博物館館刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo lishi bowuguan guankan</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">9</detail>
+            <extent unit="page">
+                <start>69</start>
+                <end>89</end>
+            </extent>
+            <date>1986</date>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprinted in <ref type="biblio" target="LvTiegang1999">vol. 3, 15–77</ref>
+    </note>
+    <!--relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <name ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <classification edition="LvTiegang1999">reprint</classification>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>15</start>
+                <end>77</end>
+            </extent>
+        </part>
+    </relatedItem-->
+</mods>

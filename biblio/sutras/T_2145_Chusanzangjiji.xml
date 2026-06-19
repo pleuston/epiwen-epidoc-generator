@@ -1,0 +1,86 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="T_2145">
+    <titleInfo lang="zh">
+        <title>出三藏記集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Chu sanzang jiji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of the Records of Issuing the Three Storehouses<!-- / Compilation of Notes on the Issuing of the Tripitaka--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#2145, 55</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#sengyou">
+        <namePart lang="zh">僧祐</namePart>
+        <namePart type="date">445–518</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>See Palumbo 2003, 186-199; Arthur Link 1960</abstract>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">15</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>505-515</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo type="abbreviated" transliteration="romaji">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name type="personal" ns2:href="#takakusu">
+            <namePart type="family" lang="ja">高楠</namePart>
+            <namePart type="given" lang="ja">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" ns2:href="#watanabe">
+            <namePart type="family" lang="ja">渡邊</namePart>
+            <namePart type="given" lang="ja">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>55</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>114</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

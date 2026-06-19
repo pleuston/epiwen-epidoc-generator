@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shanxi_BWG1962" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shanxi shidiao yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山西石雕藝術</title>山西省博物館主編：《山西石雕藝術》，朝華藝術出版社，1962年
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Art of Stone Sculptures in Shanxi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shanxi bowuguan 1962</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanxiBWG" type="corporate">
+        <namePart transliteration="pinyin">Shanxi Sheng bowuguan</namePart>
+        <namePart lang="zh">山西省博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1962</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chao Hua yishu chubanshe</namePart>
+                <namePart lang="zh">朝華藝術出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokiwa1925" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Waga Tō-Tai ryōmitsu no hatsugenchi taru Tō no Seiryūji ni tsukite</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>我が東台兩<!--両-->密の發<!--発-->源地たる唐の靑<!--青-->龍寺につきて</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Regarding the Qinglong Si, the Birthplace of our two Vajrayāna-Traditions of Tōmitsu and Taimitsu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa 1925</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tokiwa" type="personal">
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijō</namePart>
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shukyo_Kenkyu" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shūkyō kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>宗教研究</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Journal of Religious Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1925</date>
+            <detail type="no">25</detail>
+            <extent unit="page">
+                <start>24</start>
+                <end>42</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

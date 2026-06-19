@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sugiyama1924" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Enma meguri</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>閻魔めぐり</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Yama: A Pilgrimage</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sugiyama 1924</title>
+    </titleInfo>
+    <abstract>Link: https://catalog.hathitrust.org/Record/100045395</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sugiyama_sueo" type="personal">
+        <namePart transliteration="romaji" type="penname">Sugiyama Senjudō</namePart>
+        <namePart lang="ja" type="penname">杉山千壽堂</namePart> <!--1885-1946-->
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1924</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Senjudō</namePart>
+                <namePart lang="ja">千壽堂</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

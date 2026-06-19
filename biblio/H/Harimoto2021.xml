@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Harimoto2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Was the <hi rend="italic">Prajñāpāramitāhṛdaya</hi> Composed in Sanskrit?</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Harimoto 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#harimoto" type="personal">
+        <namePart lang="ja" type="family">張本</namePart>
+        <namePart lang="ja" type="given">研吾</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note/>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Indogaku_Bukkyogaku_kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>印度学佛教学研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Indogaku Bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2021</date>
+            <detail type="volume">69</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>60</start>
+                <end>66</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wanghao2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mingdai Wuwanggou changcheng tike kao: jianshu Tiancong ba nian Hou Jin yu Ming de zhanshi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明代吴王溝長城題刻考<hi rend="dash">──</hi>兼述天聰八年後金與明的戰事</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Study on the Inscriptions on the Great Wall at Wuwanggou in the Ming Dynasty and on the War between the Later Jin and Ming Dynasties in the Eighth Year of the Tiancong Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Hao 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wanghao" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Hao</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">浩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Gugongbowuyuanyuankan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Gugong bowuyuan yuankan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>故宫博物院院刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">6</detail>
+            <extent unit="page">
+                <start>51</start>
+                <end>64+160</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+</mods>

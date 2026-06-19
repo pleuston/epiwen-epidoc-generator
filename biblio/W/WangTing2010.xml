@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangTing2010">
+    <titleInfo transliteration="pinyin">
+        <title>Bishui Si yu Riben Falong Si yi Fo wushi’er pusa xiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>碧水寺與日本法隆寺一佛五十二菩薩像</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bishui Monastery and the Image of the Buddha and Fifty-Two Bodhisattvas of Hōryūji, Japan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Ting 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangting" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Ting</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">婷</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This is the first direct comparison between Bishui Si niche 19 (and not via Mount Wolong eastern niche) and <foreign xml:lang="ja">Hōryūji </foreign> <foreign xml:lang="zh">法隆寺</foreign> mural 6, hoping to clarify how Tang prototypes reaches Japan. Niches 7, 19, 20, and 25 were done in zhenguan 1–6 (627–632), during the time Linghu Yuangui served as Magistrate in Baxi (present Mianyang), that is, before zhenguan 6 (632). Thus, Wang identifies Bishui Si niche 19 as the earliest image (earlier than the one at Mount Wolong; p. 217).  This is followed by a detailed description of the figures in niche 19. Main bodhisattvas: round faces, wavy hair, naked chests and ankle bracelets are stylistic features shared with Gupta art, in particular that found at the Ajanta caves (p. 218). By contrast, the figure style of niches 7, 20, and 25 is Chinese: the shoulders of the bodhisattvas are not that broad, and their skirts reach down to cover the feet. That is Chang’an style. Niche 19 was carved next to niche 10. There is evidence that the recitation of the Diamond Sutra could secure rebirth in the Pure land (p. 219): 
+        《金剛經感應傳》〈法藏〉：「法藏
+        沙門法藏。隋時人也。居鄜州寶室寺。稟性淳古。行業
+        精勤。甞於開皇中。在本州洛州縣建造寺宇。曾將自
+        [A4]己衣鉢變賣。起蓋殿屋二處。又寫經八百餘卷。至唐
+        武德二年二月中。偶染一疾。昏寐中。忽見金剛神。手
+        執經一卷。謂法藏曰。汝造寺寫經。有互用之罪。我今
+        授汝　金剛般若經一卷。汝若至心能寫此經一卷。
+        流通讀誦。互用之罪。悉皆消滅。言訖不見。俄而疾愈。
+        爾後罄賣衣資。書寫此經一百卷。畢世受持。脩諸善
+        行。不涉世緣。壽至九十九歲。其年正月十五日。延請
+        大眾看念　妙法蓮花經一七卷　金剛般若波羅
+        蜜經一七卷。陞座端坐。索筆書偈。與大眾相別。俄然
+        化去。一時緇素。咸覩　阿彌陀佛化身。接引往生西
+        方極樂世界。九品花池托質矣。頌曰　今年九十九
+        看看無所有更莫問如何虗空打筋斗。」(CBETA 2023.Q3, X87, no. 1632, p. 485b7-21 // Z 2B:22, p. 74a10-b6 // R149, p. 147a10-b6)
+        [A4] 己【CB】，已【卍續】。
+        《續高僧傳》卷25〈6 感通〉：釋明濬。姓孫。齊人。....
+        「初有二青衣童子。將至王所。問一生作何業。濬答。但誦金剛般若
+        　經。王曰不可言。師可更誦滿十萬遍。明年必生淨土。」(CBETA 2023.Q3, T50, no. 2060, p. 665b28-c2)
+        <foreign xml:lang="ja">Hōryūji </foreign> mural: Dating of the mural: discussion of Japanese primary sources; of the inscription in the background of the Medicine Buddha mural (which is quoted), which is not corroborated in <hi rend="italic">Nihon shoki </hi>日本書記; the latter reports about the first destruction in 670. Matsubara Tomomi 松原智美 dates the mural to the end of the 7th or the beginning of the 8th century. Hida Romi dates them to the era of Empress Jitō 持統 (686–697). Special features of the mural:  25 small bodhisattva figures (I cant count them): 6 above, two next to the Buddha’s back screen, and 17 (? I count 14+3) below in the pond.<!--花蕾 Knospe shanjian 刪減--> Due to the restricted space offered on the wall inside the Golden Hall, and in order to unify the design with the three paradise paintings on the other large wall surfaces, the numer of the depicted bodhisattvas or reborn souls (化生童子) was abbridged to 25 (p. 220).
+        Comparision of niche 19 and the <foreign xml:lang="ja">Hōryūji </foreign> mural (p. 220–222): (1) central Buddha figure and his mudrā are identical (2) main bodhisattva to the Buddh’s right is comparable (3) bodhisattva to the Buddha’s left is compatable (4) 胎生 beings enclosed in unopened lotuses. Canopy with zhulian 珠簾 strings of beads; mountain ranges in the background (p. 221). Both are Gupta style (and not Chinese style as the other depictions of the same motif). Not necessarily from the same stencil (粉本), but from the same prototype/model 範本. The crowns of the bodhisattvas at Bishui Si are destroyed. But from the <foreign xml:lang="ja">Hōryūji </foreign> mural we know that the bodhisattva who hold a lotus in the hand is Dashizhi (with a vase in his crown), and the bodhisattva who holds his jewellry in his hand is Guanyin (with a small Buddha figure in his crown). 
+        Origin of both (p. 222–225): 
+        　exchange between China and Japan: between 630 and 890, 19 Japanese delegations/emissaries were dispatched to China, but only 16 reached China. Among them were also artists/painter (see Ennin’s diary). The stencils for the <foreign xml:lang="ja">Hōryūji</foreign> mural certainly were a precious import from China. 
+        Chizō (Zhizang fashi 智藏法師; died unknown): DDB: Japanese monk, member of the Sanron 三論 school whose family was originally from the Wu 呉 dynasty. Began his Buddhist studies as a youth under the tutelage of Ekan 慧灌 from Gangōji 元興寺 (originally from Korea, a Japanese Sanron Master, who was a disciple of Jizang 吉藏 (549–623). Came to Japan in 625, became abbot of Gangōji). Later he entered the Tang to study under Jizang 吉藏, where he become known as an expert of Sanlun philosophy. After returning to Japan he studied and taught at Hōryūji 法隆寺. His dates of birth and death are not known. He was the teacher of Dōji 道慈, Chikō 智光 and Reikō 禮光. 
+        Chizō (active second half of the seventh century) was born in China, the son born to Fuliang/Fukuryō 福亮法師, before the latter was ordained. After his own ordination, Chizō followed his father to Japan. Later, he returned to China to study sanlun 三論. As a second-generation disciple of Jizang, he probably believed am the Pure Land (as Jizang did). In the region of Wu, the motif of Amitabha and the 50 bodhisattvas flourished since the Sui and right into the Song. There is a great chance that the abbot of <foreign xml:lang="ja">Hōryūji </foreign>, Chizō, received a copy of this motif, which flourished under the Sui in the region of Wu, received from the Northern Qi. The author next discusses primary sources on the dates of Chizō. He was bestowed the title sōjō (sengzheng 僧正), "superintendant of monks", but the sources differ in when that happened. One source writes that he returned to Japan 686–697. 
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Yu_Wang2010" type="host">
+        <titleInfo lang="zh">
+            <title>綿陽龕窟<hi rend="dash">──</hi>四川綿陽古代造像調查研究報告</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2010</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>217</start>
+                <end>226</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

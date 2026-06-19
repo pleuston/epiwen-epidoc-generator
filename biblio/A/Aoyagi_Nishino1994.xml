@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Aoyagi_Nishino1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東アジアの形態世界</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Higashiajia no keitai sekai</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The World of Forms in East Asia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Aoyagi and Nishino 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Aoyagi_Masanori" type="personal">
+        <namePart lang="ja" type="family">青柳</namePart>
+        <namePart lang="ja" type="given">正規</namePart>
+        <namePart transliteration="romaji" type="family">Aoyagi</namePart>
+        <namePart transliteration="romaji" type="given">Masanori</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Nishino" type="personal">
+        <namePart lang="ja" type="family">西野</namePart>
+        <namePart lang="ja" type="given">嘉章</namePart>
+        <namePart transliteration="romaji" type="family">Nishino</namePart>
+        <namePart transliteration="romaji" type="given">Yoshiaki</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō daigaku shuppankai</namePart>
+                <namePart lang="ja">東京大學出版会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

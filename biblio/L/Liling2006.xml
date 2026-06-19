@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liling2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shuo gu zhu jin: Kaogu faxian he fugu yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鑠古鑄今：考古發現和復古藝術</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Re-casting Antiquity: Archaeological Discoveries and Archaism in Chinese Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Ling 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liling2" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ling</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">零</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Hongkong</placeTerm>
+            <placeTerm lang="zh">香港</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xianggang zhongwen daxue chubanshe</namePart>
+                <namePart lang="zh">香港中文大學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

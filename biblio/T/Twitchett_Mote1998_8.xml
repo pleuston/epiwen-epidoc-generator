@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Twitchett_Mote1998_8" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Cambridge History of China. The Ming Dynasty, 1368–1644<!---1644-->, Part 2</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Twitchett and Mote 1998</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#twitchett" type="personal">
+        <namePart lang="en" type="family">Twitchett</namePart>
+        <namePart lang="en" type="given">Denis</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Mote_en" type="personal">
+        <namePart lang="de" type="family">Mote</namePart>
+        <namePart lang="de" type="given">Frederick W.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambridge University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>The Cambridge History of China</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>8</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

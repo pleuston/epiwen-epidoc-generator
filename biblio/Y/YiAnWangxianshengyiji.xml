@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YiAnWangxianshengyiji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>一庵王先生遺集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yi’an Wang xiansheng yiji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Posthumous Collection of Writings of Mister Wang Yi’an</title>
+    </titleInfo>
+    <titleInfo lang="en" type="reference" displayLabel="Dai shi">
+        <title>Yi’an Wang xiansheng yiji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangyian" type="personal">
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangdong" type="personal">
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">2 vols. Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKQS_Cunmu" type="series">
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書·子部</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu: zi bu</title>
+        </titleInfo>
+        <extension>2 vols.</extension>
+        <part>
+            <detail type="volume">
+                <number>10</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKQS_Cunmu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>
+                    <foreign lang="zh">子部</foreign>10</number>
+            </detail><extent unit="page">
+                <start></start>
+                <end></end>
+            </extent>
+        </part>
+    </relatedItem>-->
+</mods>

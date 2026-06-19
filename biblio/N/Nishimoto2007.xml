@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Nishimoto2007">
+    <titleInfo lang="ja">
+        <title>金川湾三階教刻経の歷史空間</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kinsenwan Sangaikyō kokukyō no rekishi kūkan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Lacunae in the History of the Carved Sutras of the Three Levels Teaching at Jinchuanwan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nishimoto 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nishimoto">
+        <namePart lang="ja" type="family">西本</namePart>
+        <namePart lang="ja" type="given">照真</namePart>
+        <namePart transliteration="romaji" type="family">Nishimoto</namePart>
+        <namePart transliteration="romaji" type="given">Teruma</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Aikawa_kinen2007" type="host">
+        <titleInfo lang="zh">
+            <title>相川鐡崖古稀記念書学論文集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2007</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>279</start>
+                <end>286</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,63 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Skjaervo2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>This Most Excellent Shine of Gold, King of Kings of Sutras: The Khotanese Suvarṇabhāsottamasūtra</title>
+    </titleInfo>
+    <titleInfo lang="tr" type="translated">
+        <title>Sutraların sultanı altın ışık Hoten dilinde Suvarṇabhāsottamasūtra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Skjærvø 2004</title>
+        <!--<title>Skjaervo 2004</title>-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#skjaervo" type="personal">
+        <!--<namePart lang="en" type="family">Skjaervo</namePart>-->
+        <namePart lang="en" type="family">Skjærvø</namePart>
+        <namePart lang="en" type="given">Prods Oktor</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Department of Near Eastern Languages and Civilizations, Harvard University</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart>Department of Near Eastern Languages and Civilizations, Harvard University</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>-->
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sources of Oriental Languages and Literatures, 60–61. Central Asian Sources</title>
+            <!--<title>Central Asian Sources V</title>-->
+            <!--<title>Orta Asya kaynakları</title>-->
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>V–VI</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

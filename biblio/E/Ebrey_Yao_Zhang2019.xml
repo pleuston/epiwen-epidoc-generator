@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ebrey_Yao_Zhang2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Chinese Funerary Biographies. An Anthology of Remembered Lives</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chinese Funerary Biographies 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ebrey" type="personal">
+        <namePart lang="en" type="family">Ebrey</namePart>
+        <namePart lang="en" type="given">Patricia Buckley</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yao" type="personal">
+        <namePart lang="en" type="family">Yao</namePart>
+        <namePart lang="en" type="given">Ping</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhang_cong_ellen" type="personal">
+        <namePart lang="en" type="family">Zhang</namePart>
+        <namePart lang="en" type="given">Cong Ellen</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm>Seattle</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Washington Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

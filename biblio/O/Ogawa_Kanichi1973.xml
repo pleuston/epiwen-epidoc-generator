@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ogawa_Kanichi1973" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教文化史研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō bunkashi kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on Buddhist Cultural History</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ogawa Kan’ichi 1973</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ogawa_kanichi" type="personal">
+        <namePart transliteration="romaji" type="family">Ogawa</namePart>
+        <namePart transliteration="romaji" type="given">Kan’ichi</namePart>
+        <namePart lang="jp" type="family">小川</namePart>
+        <namePart lang="jp" type="given">貫弌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1973</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nagata bunshōdō</namePart>
+                <namePart lang="ja">永田文昌堂</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

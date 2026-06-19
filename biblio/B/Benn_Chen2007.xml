@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Benn_Chen2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhism and Peace. Issues of Violence, Wars and Self-sacrifice</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Benn, J.A. and Chen Jinhua 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#benn_j" type="personal">
+        <namePart lang="en" type="family">Benn</namePart>
+        <namePart lang="en" type="given">James</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjinhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Tzu Chi University Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Hualian</placeTerm>
+            
+        </place>
+    </originInfo>
+    <!--originInfo>
+        <place>
+            <placeTerm>Hualian</placeTerm>
+            <placeTerm lang="zh">花蓮</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Tzu Chi University Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2007</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo-->
+</mods>

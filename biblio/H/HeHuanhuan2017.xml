@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HeHuanhuan2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Whence Came the Name ‘Kuiji’ Instead of Just ‘Ji’?</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>He Huanhuan 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hehuanhuan" type="personal">
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Huanhuan</namePart>
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">歡歡</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#EasternBuddhist" type="host">
+        <titleInfo lang="en">
+            <title>The Eastern Buddhist. New Series</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        
+        <part>
+            <date>2017</date>
+            <detail type="volume">48</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>51</start>
+                <end>67</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

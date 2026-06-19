@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kokogakuzasshi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>考古學雑誌</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kōkogaku zasshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Journal of the Archaeological Society of Nippon</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="ja"/>
+        <namePart transliteration="romaji"/>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <frequency/>
+        <place>
+            <placeTerm/>
+            <placeTerm lang="ja"/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja"/>
+                <namePart transliteration="romaji"/>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

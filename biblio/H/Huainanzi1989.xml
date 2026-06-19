@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huainanzi1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Huainanzi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>淮南子</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>
+            <hi rend="italic">Book of the Masters of Huainan</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Huainanzi">
+        <title>Huai­nanzi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuan" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">An</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">安</namePart>
+        <role>
+            <roleTerm type="etal">author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gaoyou" type="personal">
+        <namePart transliteration="pinyin" type="family">Gao</namePart>
+        <namePart transliteration="pinyin" type="given">You</namePart>
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">誘</namePart>
+        <role>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateOther>Completed 139 BCE</dateOther>
+        <dateIssued>1989</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="zh">
+            <title>諸子百家叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhuzi baijia congshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+        <!--<abstarct><p>刘文典《淮南鸿烈集解》本，胡适作序，1923年商务印书馆刊印，1924年再版，二十一卷，半页十一行，行二十三字。是书以庄边吉本为底本，辑清儒王念孙、俞越、陶方琦、孙毅治让等诸家之说，又博引唐宋类书之文。吴则虞称此书“采择能分雅俗，综辑亦有伦贯”，不失为当时较好的版本。但此书珠漏甚多，杨树达先生认为其失误有三个方面:一、底本失择;二、本文、注文多所失校;三、微引不备。于大成先生又补充四条:一、王氏《杂志》一条分见数处者不分入各条;二、所引类书不问是非，致误文充斥;三、校语中唯一二条偶及《藏》本，余各本皆未对勘;四、钱塘《天文训补注》不入书中而为附录，有泰《集解》之名。何宁先生认为该书“旁证疑文，博采众说”’，收入清儒王念孙诸家校说，虽未穷尽，但资料丰富，条理分明，对当时治淮南者多有裨益。1986年经冯逸、乔华点校整理，附录了刘文典当年《三余札记》中《淮南子补校》169条、《淮南子逸文》29条，点校说明对刘文典的经历、治学
+            方法也作了介绍，1989年由中华书局《新编诸子集成》重新排印。今北京大学图书馆藏
+            有原刊本。
+            何宁《淮南子集释》，二十一卷，1998年中华书局《新编诸子集成》出版。其书以光绪二年浙江书局刻庄逵吉校刊本为底本，校以道藏本、道藏辑要本、中立四子本、茅一桂刻本、刘泖生景写宋本，唐写本及《兵略》残卷暨唐宋类书所引。高诱的十三篇注和许慎的八篇注也在每卷篇目“汉琢郡高诱注”下引陶方琦云“此篇某注”作了说明，十分简明。该书在附录部分还分别收录了《淮南子书目》、《淮南子佚文》、《淮南子总评》，收录了历代有关各本的序跋47篇。该书综辑清乾嘉以至当世众家校勘考释成果，精审识辩，择善而从，多有补证；且钩沉拾遗，精见迭出，创获颇丰；于前人伪乱误说，多所改正；是目前最好的《淮南子》校释本。            
+要购淮南子注本，当选以下两本。
+淮南子校释 张双棣著 北京大学出版社1997版  以道藏为底本，汇集八十四家注本，此书独树一帜的地方是汇校各本异文。
+淮南子集释  何宁著  中华书局1998版  以庄逵吉刊本为底本，汇集诸家注本大体与校释相同，只是多出了向宗鲁笺识。
+此两本都收集了刘文典注本的精华，并补齐了刘文典以后的主要资料，如杨树达的证闻，马宗霍的旧注参正及台湾于大成的校释。   
+但是此两本有一个共同缺点，就是创见不多，集旧注而不能融通旧注，文字有待疏通。</abstarct></p>-->
+    </relatedItem>
+</mods>

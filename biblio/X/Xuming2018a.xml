@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xuming2018a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國佛教金石文獻：塔銘墓志部·東晋南北朝隋唐五代卷上</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo Fo jiao jinshi wenxian: taming muzhi bu Dong Jin Nan Bei Chao Sui Tang Wudai juan shang</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Chinese Buddhist Epigraphy Archives: Inscriptions of Pagodas and Tombs·Eastern Jin, Northern and Southern Dynasties, Sui, Tang and The Five Dynasties Volume I</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Xu Ming 2018A</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xuming" type="personal">
+        <namePart transliteration="pinyin" type="family">Xu</namePart>
+        <namePart transliteration="pinyin" type="given">Ming</namePart>
+        <namePart lang="zh" type="family">許</namePart>
+        <namePart lang="zh" type="given">明</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Xuming2018" type="host">
+        <titleInfo lang="zh">
+            <title>中國佛教金石文獻：塔銘墓志部</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo Fo jiao jinshi wenxian: taming muzhi bu</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Chinese Buddhist Epigraphy Archives: Inscriptions of Pagodas and Tombs</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2018</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+                <placeTerm lang="zh">上海</placeTerm>
+            </place>
+            <publisher><name type="corporate">
+                    <namePart lang="zh">上海書店出版社</namePart>
+                    <namePart transliteration="pinyin">Shanghai shudian chubanshe</namePart>
+                </name></publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            
+        </part>
+    </relatedItem>
+</mods>

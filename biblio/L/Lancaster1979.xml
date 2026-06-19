@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lancaster_Park1979" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Korean Buddhist Canon: A Descriptive Catalogue</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lancaster and Park 1979</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lancaster" type="personal">
+        <namePart lang="en" type="family">Lancaster</namePart>
+        <namePart lang="en" type="given">Lewis R.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#park_sung-bae" type="personal">
+        <namePart transliteration="McCune_Reischauer" type="family">Park</namePart>
+        <namePart transliteration="McCune_Reischauer" type="given">Song-bae</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note>digital version available at
+        http://www.acmuller.net/descriptive_catalogue/index.html</note>
+    <originInfo>
+        <dateIssued>1979</dateIssued>
+        <place>
+            <placeTerm>Berkeley, Los Angeles, and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of California Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

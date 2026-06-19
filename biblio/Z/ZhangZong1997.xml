@@ -1,0 +1,127 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo transliteration="pinyin">
+                                <title>Shandong Pingyin Beichao kejing yu gaoseng An Daoyi</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                                <title>山東平陰北朝刻經與高僧安道壹</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                                <title>Engraved Sutras from the Northern Dynasties in Pingyin,
+                                                Shandong, and the Eminent Monk An Daoyi</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Zhang Zong 1997</title>
+                </titleInfo>
+                <subject>
+                                <hierarchicalGeographic>
+                                                <province>Shandong</province>
+                                                <county>Dongping</county>
+                                                <county>Pingyin</county>
+                                </hierarchicalGeographic>
+                                <topic>Hongdingshan</topic>
+                                <name>Seng’an Daoyi</name>
+                </subject>
+                <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzong" type="personal">
+                                <namePart transliteration="pinyin" type="family">Zhang</namePart>
+                                <namePart transliteration="pinyin" type="given">Zong</namePart>
+                                <namePart lang="zh" type="family">張</namePart>
+                                <namePart lang="zh" type="given">總</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LiuWenjin1997" type="host">
+                                <titleInfo transliteration="pinyin">
+                                                <title>Shandong Pingyin sanshan beichao moya</title>
+                                </titleInfo>
+                                <titleInfo lang="zh">
+                                                <title>山东平阴三山北朝摩崖</title>
+                                </titleInfo>
+                                <name type="personal">
+                                                <namePart transliteration="pinyin" type="family">Liu</namePart>
+                                                <namePart transliteration="pinyin" type="given">Wenjin</namePart>
+                                                <namePart lang="zh" type="family">柳</namePart>
+                                                <namePart lang="zh" type="given">文金</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <part>
+                                                <extent unit="page">
+                                                  <start>100</start>
+                                                  <end>115</end>
+                                                </extent>
+                                </part>
+                                <originInfo>
+                                                <dateIssued>1997</dateIssued>
+                                                <place>
+                                                  <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                                                </place>
+                                                <publisher>
+                                                  <name type="corporate">
+                                                  <namePart lang="zh">榮寶齋出版社</namePart>
+                                                  <namePart transliteration="pinyin">Rongbaozhai
+                                                  chubanshe</namePart>
+                                                  </name>
+                                                </publisher>
+                                                <issuance>monographic</issuance>
+                                </originInfo>
+                </relatedItem>
+                <relatedItem type="otherFormat">
+                                <titleInfo transliteration="pinyin">
+                                                <title>Shandong Pingyin beichao kejing yu gao seng
+                                                  An Daoyi</title>
+                                </titleInfo>
+                                <titleInfo lang="zh">
+                                                <title>山東平陰北朝刻經與高僧安道壹</title>
+                                </titleInfo>
+                                <titleInfo lang="en" type="translated">
+                                                <title>Stone inscriptions from the Northern
+                                                  Dynasties in Pingyin in Shandong and the eminent
+                                                  monk An Daoyi</title>
+                                </titleInfo>
+                                <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangzong" type="personal">
+                                                <namePart transliteration="pinyin" type="family">Zhang</namePart>
+                                                <namePart transliteration="pinyin" type="given">Zong</namePart>
+                                                <namePart lang="zh" type="family">張</namePart>
+                                                <namePart lang="zh" type="given">總</namePart>
+                                                <role>
+                                                  <roleTerm>author</roleTerm>
+                                                </role>
+                                </name>
+                                <location>
+                                                <url displayLabel="no">http://www.guoxue.com/discord/zz/sdpy.htm</url>
+                                </location>
+                                <originInfo>
+                                                <dateCaptured>2005.08.02</dateCaptured>
+                                                <dateCreated>2000</dateCreated>
+                                </originInfo>
+                                <language>
+                                                <languageTerm>zh</languageTerm>
+                                </language>
+                                <physicalDescription>
+                                                <internetMediaType>text/html</internetMediaType>
+                                </physicalDescription>
+                                <relatedItem type="host">
+                                                <titleInfo transliteration="pinyin">
+                                                  <title>Guoxue</title>
+                                                </titleInfo>
+                                                <titleInfo lang="zh">
+                                                  <title>國學</title>
+                                                </titleInfo>
+                                                <location>
+                                                  <url displayLabel="no">http://www.guoxue.com</url>
+                                                </location>
+                                                <genre>Web site</genre>
+                                                <originInfo>
+                                                  <issuance>continuing</issuance>
+                                                </originInfo>
+                                                <language>
+                                                  <languageTerm>zh</languageTerm>
+                                                </language>
+                                                <physicalDescription>
+                                                  <internetMediaType>text/html</internetMediaType>
+                                                </physicalDescription>
+                                </relatedItem>
+                </relatedItem>
+</mods>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WanliJinshiLvli1604" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Wanli sanshier nian jiachen ke huishi jinshi lüli bianlan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>萬曆三十二年甲辰科會試進士履歷便覽</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Biographical Guide to the Graduates<!--Presented Scholars--> of the Metropolitan Examinations in the Year 1604<!-- the Thirty-second Year, Jiachen, of the Wanli Era--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jinshi lüli bianlan 1604</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guoshiwang" type="personal">
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">士望</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#meizhihuan" type="personal">
+        <namePart lang="zh" type="family">梅</namePart>
+        <namePart lang="zh" type="given">之焕</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name><!-- <extension>3 vols.</extension>-->
+    <originInfo>
+        <dateIssued qualifier="others">Mid-seventeenth century</dateIssued><!--
+            (SL: Mou Zhikui war laut dem Buch im Jahr 1640 emeritiert. Daher war das Buch sicher danach erstellt.
+            <place>
+            <placeTerm transliteration="pinyin">xxx</placeTerm>
+            <placeTerm lang="zh">xxx</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">xxxxx</namePart>
+                <namePart lang="zh">xxxxx</namePart>
+            </name>
+        </publisher>-->
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Preserved in the Shanghai Library</note>
+</mods>

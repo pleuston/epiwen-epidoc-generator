@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mizuno_Kogen1991" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="ja">
+                        <title>仏典解題事典<!--
+                        Alternatives:
+                        新仏典解題事典
+                        新佛典解題事典--></title>
+            </titleInfo>
+            <titleInfo transliteration="romaji">
+                        <title>Butten kaidai jiten<!--
+                        Alternatives:
+                        Shin butten kaidai jiten--></title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Descriptive Dictionary of Buddhist Texts</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Mizuno Kogen 1991</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mizuno_kogen" type="personal">
+                        <namePart transliteration="romaji" type="family">Mizuno</namePart>
+                        <namePart transliteration="romaji" type="given">Kōgen</namePart>
+                        <namePart lang="ja" type="family">水野</namePart>
+                        <namePart lang="ja" type="given">弘元</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1991</dateIssued>
+                        <place>
+                                    <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                                    <placeTerm lang="ja">東京</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart transliteration="romaji">Shunjūsha</namePart>
+                                                <namePart lang="ja">春秋社</namePart>
+                                    </name>
+                        </publisher>
+                        <extent/>
+            </originInfo>
+       
+</mods>

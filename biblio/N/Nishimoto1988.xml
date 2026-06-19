@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Nishimoto1988">
+    <titleInfo lang="ja">
+        <title>『釈浄土群疑論』の研究<hi rend="dash">──</hi>三階教批判を中心として</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title><hi rend="italic">Shaku jōdo gungi ron</hi> no kenkyū: Sangaikyō hihan o chūshin to shite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the <hi rend="italic">Explanation of a Host of Doubts Concerning the Pure Land</hi>, with Emphasis on its Criticism of the Teaching of the Three Levels</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nishimoto 1988</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nishimoto">
+        <namePart lang="ja" type="family">西本</namePart>
+        <namePart lang="ja" type="given">照真</namePart>
+        <namePart transliteration="romaji" type="family">Nishimoto</namePart>
+        <namePart transliteration="romaji" type="given">Teruma</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1988</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tokyo</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Master’s thesis, University of Tokyo</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

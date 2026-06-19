@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Plassen2007a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Das Kumgang sammaegyong non (T.1730.34.961a-1008a) - Ein sino-koreanischer buddhistischer Kommentar des 7. Jahrhunderts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Plassen 2007a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#plassen" type="personal">
+        <namePart lang="en" type="family">Plassen</namePart>
+        <namePart lang="en" type="given">Joerg</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Quisinsky_Walter2007" type="host">
+        <titleInfo lang="en">
+            <title>Kommentarkulturen: Die Auslegung zentraler Texte der Weltreligionen. Ein vergleichender Überblick</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>115</start>
+                <end>134</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

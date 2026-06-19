@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/ v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dazangjingbubian" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dazangjing bubian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>大藏經補編</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Supplement of the Chinese Buddhist Canon</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="">
+        <title>Dazangjing bubian</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lanjifu" type="personal">
+        <namePart transliteration="pinyin">Lan Jifu</namePart>
+        <namePart lang="zh">藍吉富</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">36</detail>
+            <!-- <description>3 series.1st  serie: 30 vols, 2nd  serie: 20 vols, 3rd serie: 40 vols. Vol. 1 of
+                each series contains a catalogue of the series ; The three series consist of 90 volumes
+                altogether containing some 1,030 collections of stone inscriptions of various
+            types.</description>-->
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1984</dateIssued>
+        <dateIssued point="end">1986</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">華宇出版社</namePart>
+                <namePart transliteration="pinyin">Huayu chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XieZhenfa2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北響堂山石窟南洞北齊石經試論<hi rend="dash">──</hi>唐邕の刻經事情をめぐって<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kita Kyōdōsan sekkutsu nandō Hokusei sekikyō shiron: Tō Yō no kokukyō jijyō o megutte</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Essay on Stone Inscriptions from the Northern Qi Dynasty in the Southern Cave of Northern Mount Xiangtang: Considering the Circumstances Surrounding Stone Carving by Tang Yong</title>
+    </titleInfo>
+    <!--<abstract>Earlier this XML-file was formed as follows: 
+        Hokkyōdō-san sekkutsu nandō hokusei sekkyō shiron: Tōyū no kokkyō jijyō wo megutte
+        北響堂山石窟南洞北斉石経試論 -\-\-\-\-\-\-\- 唐邑の刻経事情をめぐって</abstract>-->
+    <titleInfo type="reference">
+        <title>Xie Zhen­fa 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xiezhenfa" type="personal">
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Zhenfa</namePart>
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">振發</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Conclusions (pp. 403-404): Xie Zhenfa thinks that the sequence of the texts as named in the Tang Stele reflects the actual order in which they were carved from 568–572. Just like the Verses taken from the Sutra of Immeasurable Meaning (T.276, 9: 384c29–385b21) spoken by 80,000 bodhisattvas in praise of the Buddha‘s body inside the inner cave, the inscription of the Vimalakīrti-nirdeśa 維摩詰所説經 (T.475) belonged to the original plan of the cave, and were carved first. In 570, Tang Yong was dismissed from office. He then continued carving the Śrīmālādevīsiṃhanāda-sūtra (Śrīmālā Sutra) (T.353), and the Excerpts of the Sutra Spoken by the Buddha on Bo 佛說孛經抄 (T#790, 17: 729a3–736b1). The final text to be carved was the Sutra Spoken by the Buddha on Maitreya’s Rebirth Below and Accomplishing Buddhahood 佛說彌勒下生成佛經 (T#454). 
+        Xie Zhenfa further argues that the selection of the Bo jing was satirizing Emperor Wucheng 武成帝 and his son, Houzhu 後主. Therefore, these two could not have been the commissioners of the southern cave.  It must have rather been a close associate of the late Emperor Wenxuan or of Fashang.
+        Influences for the carving project of Tang Yong did not come from Northern Wei stele with sutra texts (of the Guanyin jing, or the Gao wang Guanshiyin jing 高王觀世音經), but rather from Xiaonanhai and from Lingquan Si steles 靈泉寺刻經碑.  Sengchou and Lingyu were active at Ye and had close ties with Emperor Wenxuan.
+        The Verses taken from the Sutra of Immeasurable Meaning and the Vimalakīrti-nirdeśa in the southern cave have a relation to pictorial representations, just as in these cave temples.
+        靈泉寺大乘妙偈刻經碑 (<ref type="biblio" target="Baqiongshijinshibuzheng">6: 4352-4353</ref>; rubbing in Tōkyō daigaku jinbun kagaku kenkyūjo 京都大學人文科學研究所 http://kanji.zinbun.kyoto-u.ac.jp/db-machine/imgsrv/takuhon/; <ref type="biblio" target="Adamek2021">499-500</ref>&gt; Huayan bahui bei 華嚴八會碑 (Stele of the eight assemblies of the
+        Avataṃsaka-sūtra))
+        pp. 384-385: Verses taken from the Sutra of Immeasurable Meaning carved at Northern Mount Xiangtang: 
+        T.276, 9: 384c29–385b21
+        and at other sites:
+        
+        Baoshan Lingyuan Si (steles): Huayan bahui bei 華嚴八會碑 (Stele of the eight assemblies of the Avataṃsaka-sūtra, dated 564), rear side, continued on the right-hand narrow side: T.276, 9: 384c29–385a19–b4
+                
+        Bahui Si (west side of pillar, ca. 593–598):《無量義經德行品嘆佛偈》 T.276, 9: 384c29-385b22 
+        Fangshan Leiyin Dong (west wall; 616): T.276 complete 
+        Linzhou Honggu Si Qianfo Dong (dated 666) : west wall, 《無量義經德行品偈》=&gt; T.276, 9: 384c29-385b22 
+    </abstract>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Sofukawa2006" type="host">
+        <titleInfo lang="ja">
+            <title>中國美術の圖像學</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Chūgoku bijutsu no zuzōgaku</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2006</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Kyōto</placeTerm>
+                <placeTerm lang="ja">京都</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Kyōto daigaku jinbun kagaku kenkyūsho</namePart>
+                    <namePart lang="ja">京都大学人文科学研究所</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>Sonderheft</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

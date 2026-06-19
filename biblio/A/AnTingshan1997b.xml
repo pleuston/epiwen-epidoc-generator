@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AnTingshan1997b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>An Daoyi yu Shandong moya shu yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>安道壹與山東摩崖書藝術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Daoyi and the Art of Stone Inscriptions in Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>An Ting­shan 1997a</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <hierarchicalGeographic>
+            <province>Hebei</province>
+        </hierarchicalGeographic>
+        <hierarchicalGeographic>
+            <province>Henan</province>
+        </hierarchicalGeographic>
+        <topic>stone scriptures of Seng’an Daoyi</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#antingshan" type="personal">
+        <namePart transliteration="pinyin" type="family">An</namePart>
+        <namePart transliteration="pinyin" type="given">Tingshan</namePart>
+        <namePart lang="zh" type="family">安</namePart>
+        <namePart lang="zh" type="given">廷山</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZGSF" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhonghua shufa</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國書法</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Chinese Calligraphy</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">59</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>57</start>
+                <end>61</end>
+            </extent>
+            <date>1997</date>
+        </part>
+    </relatedItem>
+</mods>

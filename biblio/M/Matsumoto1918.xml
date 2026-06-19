@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Matsumoto1918" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo lang="ja">
+    <title>支那歷遊記略（上）</title>
+  </titleInfo>
+  <titleInfo transliteration="romaji">
+    <title>Shina rekiyū kiryaku (jō) </title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>A Brief Record of a Journey to China (1)</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Matsumoto Bunzaburō 1918</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#matsumoto" type="personal">
+    <namePart lang="ja" type="family">松本</namePart>
+    <namePart lang="ja" type="given">文三郎</namePart>
+    <namePart transliteration="romaji" type="family">Matsumoto</namePart>
+    <namePart transliteration="romaji" type="given">Bunzaburō</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shirin" type="host">
+    <titleInfo lang="ja">
+      <title>史林</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+      <title>Shirin</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">3</detail>
+      <detail type="no">1</detail>
+      <extent unit="page">
+        <start>85</start>
+        <end>97</end>
+      </extent>
+      <date>1918</date>
+    </part>
+  </relatedItem>
+</mods>

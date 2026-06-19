@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Religions" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Religions</title>
+    </titleInfo>
+    <originInfo>
+        <place>
+            <placeTerm/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en"/>
+            </name>
+        </publisher>
+        <typeOfResource>text</typeOfResource>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

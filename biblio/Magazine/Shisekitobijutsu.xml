@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shisekitobijutsu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Shiseki to bijutsu</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>史迹と美術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Monuments and Fine Arts</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shiseki_bijutsu_dokokaki" type="corporate">
+        <namePart lang="ja">史迹美術同考会</namePart>
+        <namePart transliteration="romaji">Shiseki bijutsu dōkōkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1930-</dateIssued>
+        <dateIssued encoding="marc" point="start">1930</dateIssued>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shigaku kenkyūkai</namePart>
+                <namePart lang="ja">史学研究会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

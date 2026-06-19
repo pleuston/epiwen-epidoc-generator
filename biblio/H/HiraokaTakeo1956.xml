@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HiraokaTakeo1956" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>唐代の長安と洛陽：地圖</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōdai Chōan to Rakuyō, chizu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chang’an and Luoyang in the Tang Dynasty, Map</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Hiraoka Takeo 1956</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Hiraoka_Takeo" type="personal">
+        <namePart transliteration="romaji" type="family">Hiraoka</namePart>
+        <namePart transliteration="romaji" type="given">Takeo</namePart>
+        <namePart lang="ja" type="family">平岡</namePart>
+        <namePart lang="ja" type="given">武夫</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1956</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyoto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōto daigaku jinbun kagaku kenkyūsho</namePart>
+                <namePart lang="ja">京都大學人文科學研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="ja">
+            <title>唐代研究のしおり</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Tōdai kenkyū no shiwori </title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>7</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

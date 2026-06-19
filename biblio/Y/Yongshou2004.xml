@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yongshou2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>峨嵋山與巴蜀佛教: 峨嵋山與巴蜀佛教文化學術討論會論文集</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Emei Shan yu Bashu fojiao: Emei Shan yu Bashu fojiao wenhua xueshu
+                                    taolunhui lunwenji</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Mount Emei and Buddhism in Ba and Shu: Conference Papers Presented at
+                                    the Academic Conference ‘Mount Emei and Buddhist Culture in Ba
+                                    and Shu’</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Yong­shou 2004</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yongshou" type="personal">
+                        <namePart lang="zh">永壽</namePart>
+                        <namePart transliteration="pinyin">Yongshou</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <abstract/>
+            <originInfo>
+                        <dateIssued>2004</dateIssued>
+                        <issuance>monographic</issuance>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="zh">宗教文化出版社</namePart>
+                                                <namePart transliteration="pinyin">Zongjiao wenhua
+                                                  chubanshe</namePart>
+                                    </name>
+                        </publisher>
+                        <place>
+                                    <placeTerm lang="zh">北京</placeTerm>
+                                    <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                        </place>
+            </originInfo>
+</mods>

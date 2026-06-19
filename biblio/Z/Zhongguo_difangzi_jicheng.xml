@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhongguo_difangzi_jicheng" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo difangzhi jicheng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國地方志集成</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Local Gazetteers of China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhong­guo di­fang­zhi ji­cheng 1991–1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiangsuguji_chubanshe" type="corporate">
+        <namePart transliteration="pinyin">Jiangsu guji chubanshe</namePart>
+        <namePart lang="zh">江蘇古籍出版社</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanghai_shudian" type="corporate">
+        <namePart transliteration="pinyin">Shanghai shudian</namePart>
+        <namePart lang="zh">上海書店</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#bashu_shushe" type="corporate">
+        <namePart transliteration="pinyin">Bashu shushe</namePart>
+        <namePart lang="zh">巴蜀書社</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">25 series, 1000</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1991</dateIssued>
+        <dateIssued point="end">1995</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing, Shanghai and Chengdu</placeTerm>
+            <placeTerm lang="zh">南京，上海，成都</placeTerm>
+            <!--<placeTerm lang="zh">南京, 上海, 成都</placeTerm>-->
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Jiangsu guji chubanshe, Shanghai shudian, Bashu shushe</namePart>
+                <namePart lang="zh">江蘇古籍出版社，上海書店，巴蜀書社</namePart>
+                <!--<namePart lang="zh">江蘇古籍出版社, 上海書店, 巴蜀書社</namePart>-->
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huanyuzhenshitu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Huanyu zhenshi tu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寰宇貞石圖</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Illustrated Stele Inscriptions in the Whole World</title>
+        <!--<title>$$$Photocopy of The Inscription Collection</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huanyu zhenshi tu 1986</title>
+    </titleInfo>
+    <!--<abstract>Please unify English translations of this work, Fujiwara1939-1940 and Fujiwara1982!</abstract>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhou_shuren" type="personal">
+        <namePart transliteration="pinyin" type="penname">Luxun</namePart>
+        <namePart lang="zh" type="penname">魯迅</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+     <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuexinlong" type="personal">
+        <namePart transliteration="pinyin" type="family">Yue</namePart>
+        <namePart transliteration="pinyin" type="given">Xinlong</namePart>
+        <namePart lang="zh" type="family">樂</namePart>
+        <namePart lang="zh" type="given">心龍</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued>1986</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai shuhua chubanshe</namePart>
+                <namePart lang="zh">上海書畫出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

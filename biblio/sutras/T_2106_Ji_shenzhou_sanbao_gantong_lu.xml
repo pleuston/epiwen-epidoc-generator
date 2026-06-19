@@ -1,0 +1,113 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="T_2106">
+    <titleInfo transliteration="pinyin">
+        <title>Ji shenzhou sanbao gantong lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>集神州三寶感通錄</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Records of Miraculous Responses to the Three Jewels in the Sacred Continent
+            <!--Record of Miraculous Responses to the Three Jewels in China-->
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#2106, 52</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#daoxuan">
+        <namePart lang="zh">道宣</namePart>
+        <namePart transliteration="pinyin">Daoxuan</namePart>
+        <namePart type="date">596-667</namePart>
+        <role>
+            <roleTerm>compiler</roleTerm>
+        </role>
+    </name>
+    <abstract>Shinohara 1991, 73-74: The Ji shenzhou sanbao gantong lu is in fact a collection of
+        smaller collections of miracle stories. The Ji shenzhou sanbao gantong lu in the Taisho
+        collection consists of three fascicles.4 The first fascicle begins with a brief preface,
+        which ends by noting that the work consists of three fascicles, listing first stupa
+        miracles, then miracles connected with Buddha images, and thirdly stories of supernatural
+        events associated with temples, scriptures, and monks. 
+        The main part of the first fascicle  contains stories about stupa miracles: a collection of stories headed by a table of contents
+        listing 20 items is followed by a section that bears its own titled preface and forms an
+        independent collection of miracle stories about stupas. This is the Zhendan shenzhou fo
+        sheli gantong xu ("Records of Buddha Relic Miracles in China"), and it gives a list of
+        miracle stories, possibly in an abbreviated form. 
+        
+        The second fascicle contains accounts of miracles associated with images of the Buddha. It is headed by a table of contents listing
+        50 items. The third fascicle begins with a collection of stories about "supernatural
+        temples" (shensi), which is followed by a titled collection of accounts of miracles about
+        scriptures (Ruijing lu) and a titled collection of miracle stories about "supernatural
+        monks" {Shenseng gantong lu ["Record of miracles concerning supernatural monks"]). The
+        classification of miracle stories in this work obviously has a connection with its overall
+        title: the title indicates that the work is a collection of miracle stories associated with
+        the Three Treasures, i.e., the Buddha, the Teaching, and the Monastic Community. The Buddha
+        is here represented by relics and images (the first and second fascicles), the Teaching, by
+        scriptures (Ruijing lu), and the Monastic Community, by stories of supernatural temples and
+        monks (the first part of the third fascicle and the Shenseng gantong lu).</abstract>
+    <note>see Shinohara 1991, title translated as "Collected Records of Three Treasure Miracles in
+        China"</note>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>664</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo type="abbreviated" transliteration="romaji">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name type="personal" ns2:href="#takakusu">
+            <namePart type="family" lang="ja">高楠</namePart>
+            <namePart type="given" lang="ja">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name type="personal" ns2:href="#watanabe">
+            <namePart type="family" lang="ja">渡邊</namePart>
+            <namePart type="given" lang="ja">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>52</number>
+            </detail>
+            <extent unit="page">
+                <start>404</start>
+                <end>435</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tejima2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中國における末法思想隆替の一齣<hi rend="dash">──</hi>新發現窄澗谷太平寺摩崖刻經〈金棺經〉の研究<hi rend="dash">──</hi>
+        </title>
+        <!--<title>中國における末法思想隆侕の一齣<hi rend="dash">──</hi>新發現窄澗谷太平寺摩崖刻經〈金棺經〉の研究<hi rend="dash">──</hi></title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru mappō shisō ryūtai no hitokoma: Shin hakken Sakukankoku Taiheiji magai kokukyō <hi rend="italic">Kinkan kyō</hi> no kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>One Scene Concerning the Vicissitudes of the Discourse on the Latter Age of the Dharma in China: A Study on the Newly Discovered Text of the <hi rend="italic">Golden Coffin Sutra</hi> (<hi rend="italic">Jinguan-Jing</hi>) Engraved on the Stone Wall of the Buddhist Cave Temple</title>
+    </titleInfo>
+    <abstract>Contact Antenna House in order to show 𤾕? Currently it is not possible to make the character appear in the PDF</abstract>
+    <titleInfo type="reference">
+        <title>Tejima 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tejima" type="personal">
+        <namePart lang="ja" type="family">手島</namePart>
+        <namePart lang="ja" type="given">一真</namePart>
+        <namePart transliteration="romaji" type="family">Tejima</namePart>
+        <namePart transliteration="romaji" type="given">Isshin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#risshodaigaku_hokekyo_bunka" type="host">
+        <titleInfo lang="ja">
+            <title>法華文化研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Hokke bunka kenkyū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2020</date>
+            <detail type="volume">
+                <number>46</number>
+            </detail>
+            <extent unit="page">
+                <start>47</start>
+                <end>74</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

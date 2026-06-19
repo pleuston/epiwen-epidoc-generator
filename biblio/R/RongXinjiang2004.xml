@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="RongXinjiang2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Juqu Anzhou’s Inscription and the Daliang Kingdom in Turfan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rong Xinjiang 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#rongxinjiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Rong</namePart>
+        <namePart transliteration="pinyin" type="given">Xinjiang</namePart>
+        <namePart lang="zh" type="family">榮</namePart>
+        <namePart lang="zh" type="given">新江</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TurfanRevisited" type="host">
+        <titleInfo lang="en">
+            <title>Turfan Revisited - The First Century of Research into the Arts and Cultures of the Silk Road</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2004</date>
+            <extent unit="page">
+                <start>268</start>
+                <end>275</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

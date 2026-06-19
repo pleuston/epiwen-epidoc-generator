@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KannoChiaki2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>震亜図書局の書法出版にみる李瑞清の参画：上海流寓遺老の売芸戦略</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shin’a tosho-kyoku no shohō shuppan ni miru Ri Zuisei no sankaku: Shanhai ryūgū irō no baigei senryaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Li Ruiqing’s Involvement in Calligraphy Publication at Zhenya Tushuju: Sales Strategies for Artworks by Retired Bureaucrats of the Qing Dynasty Who Immigrated to Shanghai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kanno 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanno_chiaki" type="personal">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Geijutsu_Kenkyu" type="host">
+        <titleInfo lang="ja">
+            <title>藝術研究報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Geijutsu kenkyūhō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>40</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>12</end>
+            </extent>
+            <date>2020</date>
+        </part>
+    </relatedItem>
+</mods>

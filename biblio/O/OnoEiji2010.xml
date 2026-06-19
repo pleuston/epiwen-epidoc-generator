@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="OnoEiji2010">
+    <titleInfo transliteration="pinyin">
+        <title>Guanyu dai you shanjing de Emituo Fo wushi pusa xiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>關於帶有山景的阿彌陀佛五十菩薩像
+         </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On Images of Amitābha and the 50 Bodhisattvas in a  Mountain Landscape</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ono Eiji 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ono_eiji" type="personal">
+        <namePart transliteration="romaji" type="family">Ono</namePart>
+        <namePart transliteration="romaji" type="given">Eiji</namePart>
+        <namePart lang="zh" type="family">小野</namePart>
+        <namePart lang="zh" type="given">英二</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiaoyuandian" type="personal">
+        <namePart transliteration="pinyin" type="family">Xiao</namePart>
+        <namePart transliteration="pinyin" type="given">Yuandian</namePart>
+        <namePart lang="zh" type="family">篠</namePart>
+        <namePart lang="zh" type="given">原典</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Yu_Wang2010" type="host">
+        <titleInfo lang="zh">
+            <title>綿陽龕窟<hi rend="dash">──</hi>四川綿陽古代造像調查研究報告</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2010</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>227</start>
+                <end>233</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

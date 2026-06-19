@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gies1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Les arts de l’Asie centrale: La collection Paul Pelliot du musée national des arts
+            asiatiques, Guimet</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Giès 1995–1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gies" type="personal">
+        <namePart lang="en" type="family">Giès</namePart>
+        <namePart lang="en" type="given">Jaques</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <originInfo>
+        <dateIssued point="start">1995</dateIssued>
+        <dateIssued point="end">1996</dateIssued>
+        <place>
+            <placeTerm>Paris</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Réunion des Musées Nationaux</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <!--physicalDescription>
+            <form>print</form>
+            <extent>
+                <detail type="volume">3</detail>
+            </extent>
+        </physicalDescription-->
+    </originInfo>
+    <!-- Japanese edition: 西域美術 : ギメ美術館ペリオ・コレクション Tōkyō: Kodansha 1994 (https://ndlsearch.ndl.go.jp/en/books/R100000002-I000002339492#bib)-->
+</mods>

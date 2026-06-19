@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Unebe2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Bonbun ‘Butchō sonshō darani kyō’ to shoyaku no taishō kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>梵文『仏頂尊勝陀羅尼経』と諸訳の対照研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sanskrit <hi rend="italic"><foreign lang="sa">Uṣṇīṣavijaya-dhāraṇī-sūtra</foreign></hi> and a Detailed Comparative Study of
+            its Translations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Unebe 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#unebe" type="personal">
+        <namePart lang="ja" type="family">畝部</namePart>
+        <namePart lang="ja" type="given">俊也</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Nagoya_bungakubu_tetsugaku" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Nagoya daigaku bungakubu kenkyū ronshū. Tetsugaku</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>名古屋大学文学部研究論集. 哲学</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">61</detail>
+            <extent unit="page">
+                <start>97</start>
+                <end>146</end>
+            </extent>
+            <date>2015</date>
+        </part>
+    </relatedItem>
+</mods>

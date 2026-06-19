@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ichishima1904" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>寸陰換璧録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sun’in kanhekiroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Complete Works of Art Dealing with the Secrets of the Universe</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ichishima 1904</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WULKSD_authority" type="corporate">
+        <namePart transliteration="romaji">Waseda daigaku toshokan: Kotenseki sōgō dētabēsu</namePart>
+        <namePart lang="ja">早稲田大学図書館：古典籍総合データベース</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ichishima_shunjo" type="personal">
+        <namePart lang="ja" type="family">市島</namePart>
+        <namePart lang="ja" type="given">謙吉</namePart>
+        <namePart transliteration="romaji" type="family">Ichishima</namePart>
+        <namePart transliteration="romaji" type="given">Kenkichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://www.wul.waseda.ac.jp/kotenseki/html/i04/i04_01919_0203/index.html</url>
+    </location>
+    <genre>Web</genre>
+    <physicalDescription>
+        <note>
+            Call No. <foreign xml:lang="ja">イ</foreign>04 01919 0203. Ichishima <foreign xml:lang="ja">Shunjō shiryō 市島春城資料</foreign>.
+        </note>
+        <extent>
+            <detail type="volume">5</detail>
+        </extent>
+    </physicalDescription>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateCaptured>2021-10-04</dateCaptured>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Waseda daigaku toshokan</namePart>
+                    <namePart lang="ja">早稲田大学図書館</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+</mods>

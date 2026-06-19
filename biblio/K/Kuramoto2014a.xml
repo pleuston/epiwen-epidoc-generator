@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Kuramoto2014a">
+    <titleInfo lang="ja">
+        <title>倉本尚德氏の発表論文に対するコメント</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kuramoto Shōtoku-shi no happyō ronbun ni taisuru komento</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comments on the Presented Paper of Mr. Shōtoku Kuramoto</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuramoto 2014a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liling" type="personal">
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Ling</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">翎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuramoto_shotoku" type="personal">
+        <namePart lang="ja" type="family">倉本</namePart>
+        <namePart lang="ja" type="given">尚德</namePart>
+        <namePart transliteration="romaji" type="family">Kuramoto</namePart>
+        <namePart transliteration="romaji" type="given">Shōtoku</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Higashiajia_bukkyo_gakujutsu_ronshu" type="host">
+        <titleInfo lang="ja">
+            <title>東アジア仏教学術論集</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia Bukkyō gakujutsu ronshū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Proceedings of the International Conference on East Asian Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">2</detail>
+            <extent unit="page">
+                <start>166</start>
+                <end>168</end>
+            </extent>
+            <date>2014</date>
+        </part>
+    </relatedItem>
+</mods>

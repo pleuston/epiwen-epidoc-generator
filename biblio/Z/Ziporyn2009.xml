@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ziporyn2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Zhuangzi. The Essential Writings. With Selections from Traditional Commentaries</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ziporyn 2009</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ziporyn" type="personal">
+        <namePart lang="en" type="family">Brook</namePart>
+        <namePart lang="en" type="given">Ziporyn</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm>Indianapolis/Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Hackett Publishing Company, Inc.</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Harvard-Yenching Institute Monograph Series 51</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

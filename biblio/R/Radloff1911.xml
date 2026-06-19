@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Radloff1911" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Kuan-ši-im Pusar: Eine türkische Übersetzung des XXV. Kapitels der chinesischen Ausgabe des Saddharmapuṇḍarīka</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Radloff 1911</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#radloff" type="personal">
+        <namePart lang="en" type="family">Radloff</namePart>
+        <namePart lang="en" type="given">W.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>St. Petersburg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Commissionaires de l’Académie Impériale des Sciences</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1911</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Bibliotheca Buddhica</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>14</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

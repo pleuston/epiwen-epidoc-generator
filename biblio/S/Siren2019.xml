@@ -1,0 +1,79 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Siren2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>西洋鏡：5－14世紀中國雕塑</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xiyang jing: 5–14 shiji Zhongguo diaosu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Western Mirror: Chinese Sculpture from the Fifth to the Fourteenth Centuries</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sirén 2019</title>
+        <!--<title>Osvald Sirén 2019</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#siren_enzh" type="personal">
+        <namePart lang="zh" type="family">喜</namePart>
+        <namePart lang="zh" type="given">龍仁</namePart>
+        <namePart lang="en" type="family">Sirén</namePart>
+        <namePart lang="en" type="given">Osvald</namePart>
+    <role>
+        <roleTerm>author</roleTerm>
+    </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luanxiaomin" type="personal">
+        <namePart lang="zh" type="family">欒</namePart>
+        <namePart lang="zh" type="given">曉敏</namePart>
+        <namePart transliteration="pinyin" type="family">Luan</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaomin</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qiuliyuan" type="personal">
+        <namePart lang="zh" type="family">邱</namePart>
+        <namePart lang="zh" type="given">麗媛</namePart>
+        <namePart transliteration="pinyin" type="family">Qiu</namePart>
+        <namePart transliteration="pinyin" type="given">Liyuan</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <!-- <physicalDescription>
+        <extent>
+            <detail type="fascicle">8</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Guangzhou</placeTerm>
+            <placeTerm lang="zh">廣州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guangdong renmin chubanshe</namePart>
+                <namePart lang="zh">廣東人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <extension>2 vols.</extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Xiyangjing" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Xiyang jing</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>西洋鏡</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>16</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note>First published in 1925</note>
+</mods>

@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gimello1976" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Apophatic and Kataphatic Discourse in <foreign lang="sa">Mahāyāna</foreign>: A Chinese View</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gimello 1976</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gimello" type="personal">
+        <namePart lang="en" type="family">Gimello</namePart>
+        <namePart lang="en" type="given">Robert M.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <subject>
+        <hierarchicalGeographic>
+            <country>China</country>
+        </hierarchicalGeographic>
+        <topic>Mahāyāna</topic>
+    </subject>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Phi_East_West" type="host">
+        <titleInfo lang="en">
+            <title>Philosophy East and West</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued/>
+            <dateIssued encoding="marc" point="start">1951</dateIssued>
+            <dateIssued encoding="marc" point="end"/>
+            <frequency>quarterly</frequency>
+            <place>
+                <placeTerm>Hawaii</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">University of Hawaii Press</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">26</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>117</start>
+                <end>136</end>
+            </extent>
+            <date>1976</date>
+        </part>
+    </relatedItem>
+</mods>

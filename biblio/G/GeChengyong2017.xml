@@ -1,0 +1,80 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="GeChengyong2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Randeng qifu hu jiyue—Xi’an beilin cang sheng Tang Fojiao ‘randeng shitai zan’ yishu
+            xinzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>燃燈祈福胡伎樂<hi rend="dash">──</hi>西安碑林藏盛唐佛教‘燃燈石臺贊’藝術新知</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Foreign Music for Lamp-Lighting Prayers—New Insights Into the Art of Buddhist ‘Stone
+            Base Hymns of Lamp-Lighting’ of the High Tang Kept in the Forest of Steles in
+            Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ge Chengyong 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gechengyong" type="personal">
+        <namePart lang="zh" type="family">葛</namePart>
+        <namePart lang="zh" type="given">承雍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Lamp-lighting prayers are common rites of religious worship (Buddhism, Daoism,
+        Zoroastrianism, Manichaeism) since the Northern Qi dynasty. In the 1950ies, a “lamp-lighting
+        stone stand” 燃燈石臺 entered the collection of the Forest of Steles. It shows foreign
+        musicians. Octagonal shaft, 1.2 m high. The original base and top are lost. Place of origin
+        unknown. The title of the carved text is 燃燈石臺讚並序 , written by Li Xian 利憲, Prince of Ning 寧王.
+        Transcription of the text given in simplified characters. The text names two palace
+        officials as donors (府使蘇公, i.e. Su Sixu 蘇思勖, who died in 745, and Magistrate Tang 判官唐公). It
+        is dated 大唐開元嵗次辛巳月直大火八日康申建 . 開元嵗次辛巳 is kaiyuan 29 (July 25, 741, if 月直大火 is the sixth month). 
+        After the date, the names and
+        occupational titles of 66 male musicians are given, followed by a dedication to the emperor,
+        empress, the crown prince, the imperial princes, all military and civil officials, beings
+        reborn in the six paths and all the people (兆庶). The titles and names of these 66 persons
+        reveal that this is a heterogeneous group with members who had access to various parts of
+        the palace, probably members of some kind of an association 社, maybe a lamp-lighting
+        association 燃燈社. The author lists 8 stone lanterns (without the Azure Dragon lantern) and
+        analyses in more detail the Langfang 廊坊 stone pillar (dated 688, the lantern on top is gone
+        missing), which also features dancers and musicians. The eternal light pillar from Langfang
+        has 16 niches with Buddha figures in 2 rows on the upper part of the shaft, and the lower
+        part of the octagonal shaft features 6 figures in shallow relief dancing and making music.
+        Then the author gives an excursion of what is known from manuscripts about Dunhuang Mogao ku
+        Lantern festivals (with dance and music, P.3405, P.3461). At Dunhuang, there is also
+        influence from Sogdian immigrants 粟特移民 who originally believed in Zoroastrianism 祆教. 
+        
+        The
+        final part of the article is about the style of the pictorial representations on the Forest
+        of Steles’ "lamp-lighting stone pillar." They are influenced by the art of the Eastern Roman
+        empire (拂菻), which was transmitted by sketches/stencils 粉本. This influence is also
+        documented in the Painting Catalog of the Xuanhe Era (Xuanhe huapu 宣和畫譜). The Forest of
+        Steles has some steles from the kaiyuan era that clearly show this influence from the
+        Eastern Roman empire, often in the depiction of lions. The author lists more examples for
+        this influence, mostly beasts, whose depiction received influences also from legends
+        circulating in India, Iran, and among the Sogdians. The lamp-lighting stone pillar under
+        study features in its bottom part foreigners 胡人 making music and winged beasts 神靈動物. The
+        tomb of donor Su Sixu 蘇思勖, who died in 745, was excavated in 1952. It featured an
+        illustration of an orchestra and dancers. The tomb of Li Xian 利憲 also has scenes of music
+        and dance 樂舞圖 on the east wall. </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wenwu" type="host">
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <!--<detail type="volume"></detail>-->
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>60</start>
+                <end>75</end>
+            </extent>
+            <date>2017</date>
+        </part>
+    </relatedItem>
+</mods>

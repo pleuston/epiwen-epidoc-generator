@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kenchikuzasshi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>建築雜志</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kenchiku zasshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Journal of Architecture and Building Science</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="ja">日本建築学会</namePart>
+        <namePart transliteration="romaji">Nihon kenchiku gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1887-</dateIssued>
+        <dateIssued encoding="marc" point="start">1887</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">日本建築学会</namePart>
+                <namePart transliteration="romaji">Nihon kenchiku gakkai</namePart>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

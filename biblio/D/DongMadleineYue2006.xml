@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DongMadleineYue2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Shanghai’s <hi rend="italic">China Traveler</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dong 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dongyuemadleine" type="personal">
+        <namePart lang="en" type="family">Dong</namePart>
+        <namePart lang="en" type="given">Madleine Yue</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DongGoldstein2006" type="host">
+        <titleInfo lang="en">
+            <title>Everyday Modernity in China</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2006</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>195</start>
+                <end>226</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

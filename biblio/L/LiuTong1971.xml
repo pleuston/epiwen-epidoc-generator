@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuTong1971" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>帝京景物略</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dijing jingwu lue</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Résumé of Sights and Goods of the Imperial Capital</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Tong 1971</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liutong" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Tong</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">侗</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1971</dateIssued>
+        <place>
+            <placeTerm>Hongkong</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Nantian shuye</namePart>
+                <namePart lang="zh">南天書業</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <classification edition="1980">reprint</classification>
+    <originInfo>
+        <dateIssued>1980</dateIssued>
+        <place>
+            <placeTerm transcription="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guji chubanshe</namePart>
+                <namePart lang="zh">古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JiuriJinghua" type="series">
+        <titleInfo lang="zh">
+            <title>舊日京華</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jiuri jinghua</title>
+        </titleInfo>
+        <name oXygen2:href="#caojuren" type="personal">
+            <namePart lang="zh" type="family">曹</namePart>
+            <namePart lang="zh" type="given">聚仁</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+    </relatedItem>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="taishanjingshiyushuolue" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan Jingshi Yu shuolüe</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山經石峪説略</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Brief Introduction to the Sutra Stone Valley at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan Jingshi Yu shuolüe 1922</title>
+    </titleInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xinghuabao" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xinghua bao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>興華報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <frequency>daily</frequency>
+        </originInfo>
+        <part>
+            <date>1922-06-14</date><!--<date>1922-6-14</date>-->
+            <extent unit="page">
+                <start>15</start>
+                <end>16</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <classification edition="#Zhujian2017">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhujian2017" type="host">
+        <titleInfo lang="zh">
+            <title>民國泰山：1912－1949年期刊中的泰山資料選編影印本</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>188</start>
+                <end>189</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

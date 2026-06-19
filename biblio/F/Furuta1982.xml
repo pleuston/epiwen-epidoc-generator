@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Furuta1982" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Yuige no sho</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>遺の偈書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Verse of the Will<!-- (ancient Chinese poetry)--></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Furuta 1982</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#furuta" type="personal">
+        <namePart lang="ja" type="family">古田</namePart>
+        <namePart lang="ja" type="given">紹欽</namePart>
+        <namePart transliteration="romaji" type="family">Furuta</namePart>
+        <namePart transliteration="romaji" type="given">Shōkin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>1982</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō and </placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Osaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Mainichi Shinbunsha</namePart>
+                <namePart lang="ja">每日新聞社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    
+</mods>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XieYongfang2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>元稹詩全集：匯校匯注匯評</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Yuan Zhen shi quanji: Huijiao huizhu huiping</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Annotated and Critical Edition of Yuan Zhen’s Poems</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xie Yongfang 2016</title>
+    </titleInfo>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xieyongfang" type="personal">
+        <namePart lang="zh" type="family">謝</namePart>
+        <namePart lang="zh" type="given">永芳</namePart>
+        <namePart transliteration="pinyin" type="family">Xie</namePart>
+        <namePart transliteration="pinyin" type="given">Yongfang</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Wuhan</placeTerm>
+            <placeTerm lang="zh">武漢</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chongwen shuju</namePart>
+                <namePart lang="zh">崇文書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    
+    
+</mods>

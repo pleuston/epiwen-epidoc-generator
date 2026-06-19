@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chaoxianwangchaoshilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="mccunereischauer">
+        <title>Joseon wangjo sillok</title>
+    </titleInfo>
+    <titleInfo lang="ko">
+        <title>朝鮮王朝實録</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Veritable Records of the Joseon Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="">
+        <title>Joseon wangjo sillok</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gugsapyeonchanwiwonhoe" type="corporate">
+        <namePart transliteration="mccunereischauer">Gugsa pyeonchan wiwonhoe</namePart>
+        <namePart lang="zh">國史編纂委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">48</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1984</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Seoul</placeTerm>
+            <placeTerm lang="ko">서울</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="mccunereischauer">Tamgudang</namePart>
+                <namePart lang="zh">探求堂</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,72 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishanyaowuzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山药物志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan yaowu zhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Records on the Medicinal Herbs of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>葯物志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Yaowu zhi</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tai Shan yaowu zhi">
+        <title>Tai Shan yao­wu zhi</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>Taishan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gaozongyue" type="personal">
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">宗岳</namePart>
+        <namePart type="date">Min Guo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>5 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">5</detail>
+        </extent>
+    </physicalDescription>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文献集成</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Taishan wenxian jicheng</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2005</dateIssued>
+            <place>
+                <placeTerm>Shandong</placeTerm>
+                <placeTerm lang="zh">山東</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">泰山出版社</namePart>
+                    <namePart transliteration="pinyin">Taishan chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+            <extent unit="page">
+                <start>79</start>
+                <end>168</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

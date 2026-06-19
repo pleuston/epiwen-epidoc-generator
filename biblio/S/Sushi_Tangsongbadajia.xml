@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sushi_Tangsongbadajia" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang Song ba da jia: Su Shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐宋八大家：蘇軾</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Eight Great Prose Masters of the Tang and Song: Su Shi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tang Song ba da jia: Su Shi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sushi" type="personal">
+        <namePart lang="zh" type="family">蘇</namePart>
+        <namePart lang="zh" type="given">軾</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuyongzhe" type="personal">
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">永喆</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qiaowanmin" type="personal">
+        <namePart lang="zh" type="family">喬</namePart>
+        <namePart lang="zh" type="given">萬民</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Tianjin</placeTerm>
+            <placeTerm lang="zh">天津</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">天津古籍出版社</namePart>
+                <namePart transliteration="pinyin">Tianjin guji chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

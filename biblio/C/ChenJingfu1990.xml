@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJingfu1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="pinyin">
+                <title>Famen Si shi lüe</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+                <title>法門寺史略</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>A Brief History of Famen Monastery</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Chen Jingfu 1990</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjingfu" type="personal">
+                <namePart lang="zh" type="family">陳</namePart>
+                <namePart lang="zh" type="given">景富</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>1990</dateIssued>
+                <place>
+                        <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+                        <placeTerm lang="zh">西安</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart transliteration="pinyin">Shaanxi renmin jiaoyu chubanshe</namePart>
+                                <namePart lang="zh">陕西人民教育出版社</namePart>
+                        </name>
+                </publisher>
+                <issuance>monographic</issuance>
+        </originInfo>
+</mods>

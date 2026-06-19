@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SunHua1991" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Santai Qijiang yamu suo jian Handai jianzhu xingxiang shulue</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>三台郪江崖墓所見漢代建築形象述略</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Brief Explanation of Han Dynasty Architectural Details Seen in the Cliff-tombs at
+            Qijiang, Santai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sun Hua 1991</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sunhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Sun</namePart>
+        <namePart transliteration="pinyin" type="given">Hua</namePart>
+        <namePart lang="zh" type="family">孫</namePart>
+        <namePart type="given" lang="zh">華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SichuanWenwu" type="host">
+        <titleInfo>
+            <title>Sichuan wenwu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>10</start>
+                <end>16</end>
+            </extent>
+            <date>1991</date>
+        </part>
+    </relatedItem>
+</mods>

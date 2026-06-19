@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zheng_Leng1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>唐代文化研究論文集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tangdai wenhua yanjiu lunwenji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collected Essays on Research in Tang Culture</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tangdai wenhua yanjiu 1994">
+        <title>Tangdai wenhua yanjiu 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhengxuemeng" type="personal">
+        <namePart lang="zh" type="family">鄭</namePart>
+        <namePart lang="zh" type="given">學檬</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lengminshu" type="personal">
+        <namePart lang="zh" type="family">冷</namePart>
+        <namePart lang="zh" type="given">敏述</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai Renmin chubanshe</namePart>
+                <namePart lang="zh">上海人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

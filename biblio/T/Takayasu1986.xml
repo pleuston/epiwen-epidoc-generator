@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Takayasu1986">
+    <titleInfo lang="en">
+        <title>Pañcaviṃśatisāhasrikā prajñāpāramitā <hi rend="normal">II, III</hi>
+        </title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Takayasu Kimura 1986</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#kimura_takayasu">
+        <namePart lang="ja" type="family">木村</namePart>
+        <namePart lang="ja" type="given">高尉</namePart>
+        <namePart lang="en" type="family">Takayasu</namePart>
+        <namePart lang="en" type="given">Kimura</namePart>
+       
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued point="end">1986</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+       <publisher> <name type="corporate">
+            <namePart transliteration="romaji">Sankibo Busshorin</namePart>
+           <namePart lang="ja">山喜房佛書林</namePart>
+        </name>
+        </publisher>
+    </originInfo>
+</mods>

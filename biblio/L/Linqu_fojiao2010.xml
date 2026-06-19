@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Linqu_fojiao2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Linqu Fojiao zaoxiang yishu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>臨朐佛教造像藝術</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Art of the Buddhist Votive Sculptures at Linqu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Linqu Fojiao zaoxiang yishu 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Linqu_gushengwu_bwg" type="corporate">
+        <namePart transliteration="pinyin">Shandong Linqu Shanwang gushengwu huashi bowuguan</namePart>
+       
+        <namePart lang="zh">山東臨朐山旺古生物化石博物館</namePart>
+      
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Beijing kexue chubanshe</namePart>
+                <namePart lang="zh">北京科學出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

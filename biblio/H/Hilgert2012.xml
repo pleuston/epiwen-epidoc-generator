@@ -1,0 +1,20 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hilgert2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Transkulturelles Erbe. Überlegungen zur Kulturizität von Artefakten, Material Text Culture
+            Blog 2012.7</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hilgert 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hilgert" type="personal">
+        <namePart lang="en" type="family">Hilgert</namePart>
+        <namePart lang="en" type="given">Markus</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://doi.org/10.6105/mtk.mtc_blog.2012.007.Hilgert</url>
+    </location>
+    
+</mods>

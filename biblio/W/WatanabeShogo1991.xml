@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WatanabeShogo1991" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>‘Hannya shingyō’ seiritsu ron josetsu: ‘Maka hannya haramitta daimyōju kyō’ to ‘Daibon hannya kyō’ no kankei o chūshin toshite</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>般若心<!--経-->經成立論序説：《摩訶般若波羅蜜多大明<!--呪経-->咒經》と《大品般若<!--経-->經》の関係を中心として</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Introduction to the Formation Theory of the <hi rend="italic">Heart of Wisdom Sutra:</hi> With a Focus on the Relationship Between the <hi rend="italic">Sutra of the Great Illuminating Spell of Mahāprajñāpāramitā</hi> and the <hi rend="italic">Larger Version of the Prajñāpāramitā Sūtra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Watanabe Shōgo 1991</title>
+    </titleInfo>
+  
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#watanabe_shogo" type="personal">
+        <namePart lang="ja" type="family">渡邊</namePart>
+        <namePart lang="ja" type="given">章悟</namePart>
+        <namePart transliteration="romaji" type="family">Watanabe</namePart>
+        <namePart transliteration="romaji" type="given">Shōgo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Bukkyogaku" type="host">
+        <titleInfo lang="ja">
+            <title>佛教學</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyōgaku</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">31</detail>
+            <!--<detail type="no">1</detail>-->
+            <extent unit="page">
+                <start>41</start>
+                <end>86</end>
+            </extent>
+            <date>1991</date>
+        </part>
+    </relatedItem>
+</mods>

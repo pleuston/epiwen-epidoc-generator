@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="zhongshandaxuexuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongshan daxue xuebao(shehui kexue ban)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中山大學學報(社會科學版)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Journal of Sun Yatsen University (Social Science Edition)</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhongshandaxue" type="corporate">
+        <namePart transliteration="pinyin">Zhongshan daxue</namePart>
+        <namePart lang="zh">中山大學</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1955</dateIssued>
+       
+     
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Guangzhou</placeTerm>
+            <placeTerm lang="zh">廣州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中山大學</namePart>
+                <namePart transliteration="pinyin"/>
+                <namePart lang="en" type="translated"/>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

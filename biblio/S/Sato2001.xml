@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sato2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>宋代仏教の研究<hi rend="dash">──</hi>元照の浄土教</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sō-dai Bukkyō no kenkyū: Ganshō no Jōdokyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies in Song Buddhism: The Pure Land Teaching of Yuanzhao</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sato 2001</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sato" type="personal">
+        <namePart lang="ja" type="family">佐藤</namePart>
+        <namePart lang="ja" type="given">成順</namePart>
+        <namePart transliteration="romaji" type="family">Satō</namePart>
+        <namePart transliteration="romaji" type="given">Seijun</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">山喜房佛書林</namePart>
+                <namePart transliteration="romaji">Sankibō busshorin</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

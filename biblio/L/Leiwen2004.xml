@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Leiwen2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Daojiao tu Ma Yuanzhen yu Wu Zhou geming</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>道教徒馬元貞與武周革命</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Taoist Ma Yuanzhen and the Wu Zhou Revolution</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lei Wen 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiwen" type="personal">
+        <namePart type="family">雷</namePart>
+        <namePart type="given">聞</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Zhongguoshiyanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguoshi yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>中國史研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2004</date>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>73</start>
+                <end>80</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

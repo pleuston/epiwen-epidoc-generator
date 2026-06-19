@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BennJames2009" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Silent <hi rend="italic">saṃgha</hi>: Some Observations on Mute Sheep
+            Monks</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Benn, J.A. 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#benn_j" type="personal">
+        <namePart lang="en" type="family">Benn</namePart>
+        <namePart lang="en" type="given">James</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#JIABS" type="host">
+        <titleInfo lang="en">
+            <title>Journal of the International Association of Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>32, 2009</number>
+            </detail>
+            <detail type="no">1-2</detail>
+            <extent unit="page">
+                <start>11</start>
+                <end>38</end>
+            </extent>
+            <date>2010</date>
+        </part>
+    </relatedItem>
+</mods>

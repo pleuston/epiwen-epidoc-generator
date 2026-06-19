@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhou_Lv1987" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan gujin youji xuanzhu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山古今游記選注</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annotations to Selected Travelogues from Antiquity to Modern Times on Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou <!--Qian -->and Lü<!-- Jixiang--> 1987</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouqian" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Qian</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">謙</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lvjixiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Lü</namePart>
+        <namePart transliteration="pinyin" type="given">Jixiang</namePart>
+        <namePart lang="zh" type="family">吕</namePart>
+        <namePart lang="zh" type="given">繼祥</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <dateIssued>1987</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shandong renmin chubanshe</namePart>
+                <namePart lang="zh">山東人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

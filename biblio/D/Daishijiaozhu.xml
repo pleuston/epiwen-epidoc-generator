@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daishijiaozhu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dai shi jiaozhu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>岱史校注</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collations and Annotations of the History of Mount Tai with Collated Anotations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dai shi jiaozhu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhazhilong" type="personal">
+        <namePart lang="zh" type="family">查</namePart>
+        <namePart lang="zh" type="given">志隆</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm type="etal">author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mamingchu" type="personal">
+        <namePart lang="zh" type="family">馬</namePart>
+        <namePart lang="zh" type="given">銘初</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yanchengfei" type="personal">
+        <namePart lang="zh" type="family">嚴</namePart>
+        <namePart lang="zh" type="given">澄非</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Qingdao</placeTerm>
+            <placeTerm lang="zh">青島</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qingdao haiyang daxue chubanshe</namePart>
+                <namePart lang="zh">青島海洋大學出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <originInfo>
+        <dateOther>Prefaces 1586 and 1587, first published 1587, enlarged 1654 and 1699</dateOther>
+    </originInfo>
+</mods>

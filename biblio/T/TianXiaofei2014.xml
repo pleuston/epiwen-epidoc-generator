@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="TianXiaofei2014">
+    <titleInfo lang="en">
+        <title>Book Collecting and Cataloging in the Age of Manuscript Culture. Xiao Yi’s ‘Master of the Golden Tower’ and Ruan Xiaoxu’s ‘Preface to Seven Records’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tian Xiaofei 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#tianxiaofei">
+        <namePart transliteration="pinyin" type="family">Tian</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaofei</namePart>
+        <namePart lang="zh" type="family">田</namePart>
+        <namePart lang="zh" type="given">曉菲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Swartz_Campany_Yang_Choo2014" type="host">
+        <titleInfo lang="en">
+            <title>Early Medieval China: A Sourcebook</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2014</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>307</start>
+                <end>323</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

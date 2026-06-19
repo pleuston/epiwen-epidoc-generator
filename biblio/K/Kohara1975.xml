@@ -1,0 +1,89 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kohara1975">
+    <titleInfo lang="ja">
+        <title>王維画とその傳称作品</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ōi ga to sono denshō sakuhin</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Paintings by Wang Wei and Works Attributed to Him</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kohara 1975</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#kohara">
+        <namePart lang="ja" type="family">古原</namePart>
+        <namePart lang="ja" type="given">宏伸</namePart>
+        <namePart transliteration="romaji" type="family">Kohara</namePart>
+        <namePart transliteration="romaji" type="given">Hironobu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1975</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Chūō kōronsha</namePart>
+                <namePart lang="ja">中央公論社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo lang="ja">
+            <title>文人畵萃編</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bunjinga suihen</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+                <title>王維</title>
+            </detail>
+            
+        </part>
+    </relatedItem>
+    
+    
+    
+    
+    
+    <!--relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Bunjinga_suihen" type="host">
+        <titleInfo lang="ja">
+            <title>文人畵萃編</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bunjinga suihen</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1975</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Chūō kōronsha</namePart>
+                    <namePart lang="ja">中央公論社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+                <title>王維</title>
+            </detail>
+            <extent unit="page">
+                <start/>
+                <end/>
+            </extent>
+        </part>
+    </relatedItem-->
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Suzuki1935" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Manual of Zen-Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Suzuki 1935</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#suzuki" type="personal">
+        <namePart transliteration="romaji" type="family">Suzuki</namePart>
+        <namePart transliteration="romaji" type="given">Daisetz (Teitarō)</namePart>
+        <namePart lang="ja" type="family">鈴木</namePart>
+        <namePart lang="ja" type="given">大拙(貞太郎)</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1935</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Eastern Buddhist Society</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<note type="reprint">Reprint Baghdad 2005</note>-->
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Ataka Buddhist Library</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>VIII</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Longde_xianzhi_kangxi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>［康熙］隆德縣志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>[Kangxi] Longde Xian zhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Longde County (Kangxi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Longde Xian zhi 1663</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#changxingjing" type="personal">
+        <namePart transliteration="pinyin" type="family">Chang</namePart>
+        <namePart transliteration="pinyin" type="given">Xingjing</namePart>
+        <namePart lang="zh" type="family">常</namePart>
+        <namePart lang="zh" type="given">星景</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangwei" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Wei</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">煒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>XX <hi rend="italic">juan</hi>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhongguo_fangzhi_ku" type="host">
+        <titleInfo lang="zh">
+            <title>中國方志庫</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi ku</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <note type="reprint">Manuscript of 1663</note>
+</mods>

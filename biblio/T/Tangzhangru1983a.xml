@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tangzhangru1983a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>南北朝期間西域與南朝的陸道交通</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Nan Bei chao qijian Xiyu yu Nanchao de ludao jiaotong</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Land Transportation between the Western Region and the Southern Dynasties during the Southern and Northern Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tang Zhangru 1983a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tangzhangru" type="personal">
+        <namePart transliteration="pinyin" type="family">Tang</namePart>
+        <namePart transliteration="pinyin" type="given">Zhangru</namePart>
+        <namePart lang="zh" type="family">唐</namePart>
+        <namePart lang="zh" type="given">長孺</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tangzhangru1983" type="host">
+        <titleInfo lang="zh">
+            <title>魏晉南北朝史論拾遺</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wei Jin Nan Bei chao shilun shiyi</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>168</start>
+                <end>195</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

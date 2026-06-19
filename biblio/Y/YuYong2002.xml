@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YuYong2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>神童山摩崖刻石</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shentongshan moya keshi</title>
+    </titleInfo>
+    <titleInfo type="translated">
+        <title>Sutra Carving on Polished Cliffs at Shentong Mountain</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yu Yong et al. 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuyong" type="personal">
+        <namePart lang="zh" type="family">于</namePart>
+        <namePart lang="zh" type="given">勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#guotingxi" type="personal">
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">廷璽</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qiaokaixuan" type="personal">
+        <namePart lang="zh" type="family">喬</namePart>
+        <namePart lang="zh" type="given">開選</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="Guojianfen2002" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beike zaoxiang</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>碑刻造像</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Statues and Inscriptions on Tablets</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2002</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Jinan</placeTerm>
+                <placeTerm lang="zh">濟南</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Shandong youyi chubanshe</namePart>
+                    <namePart lang="zh">山東友誼出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>34</start>
+                <end>36</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

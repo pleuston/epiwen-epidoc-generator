@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jiang_Wang2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Song Dai de wuchen xianwei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>宋代的武臣縣尉</title>
+        
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Military County Magistrates of the Song Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jiang and Wang 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jiangxidong" type="personal">
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Xidong</namePart>
+        <namePart lang="zh" type="family">姜</namePart>
+        <namePart lang="zh" type="given">錫東</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangzhongjie" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongjie</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">鐘杰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Hebei daxue xuebao (Zhexue shehui kexue ban)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>河北大學學報(哲學社會科學版)</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2006</date>
+            <detail type="volume">3</detail>
+            <!--<detail type="no">1</detail>-->
+            <extent unit="page">
+                <start>1</start>
+                <end>6</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

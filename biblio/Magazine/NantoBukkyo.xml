@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NantoBukkyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Nanto Bukkyō</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>南都佛教</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Journal of the Nanto Society for Buddhist Studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#todaiji_toshokan" type="corporate">
+        <namePart lang="ja">東大寺圖書館</namePart>
+        <namePart transliteration="romaji">Tōdaiji toshokan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1954-</dateIssued>
+        <dateIssued encoding="marc" point="start">1954</dateIssued>
+        <frequency>semi-annual</frequency>
+        <place>
+            <placeTerm>Nara</placeTerm>
+            <placeTerm lang="ja">奈良</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nanto bukkyō kenkyūkai</namePart>
+                <namePart lang="ja">南都佛教研究会</namePart>
+                <description>No.1-18</description>
+            </name>
+        </publisher>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">東大寺圖書館</namePart>
+                <namePart transliteration="romaji">Tōdaiji toshokan</namePart>
+                <description>No.19-</description>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

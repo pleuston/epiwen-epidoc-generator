@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kumoi1976">
+    <titleInfo lang="ja">
+        <title>インド佛教の末法思想</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Indo bukkyō no mappō shisō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Concept of the Latter Days of the Law in Indian Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kumoi 1976</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#kumoi">
+        <namePart lang="ja" type="family">雲井</namePart>
+        <namePart lang="ja" type="given">昭善</namePart>
+        <namePart transliteration="romaji" type="family">Kumoi</namePart>
+        <namePart transliteration="romaji" type="given">Shōzen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BukkyoShiso" type="host">
+        <titleInfo lang="ja">
+            <title>佛教思想</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō shisō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1976</date>
+            <detail type="volume">2</detail>
+            <extent unit="page">
+                <start>325</start>
+                <end>336</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

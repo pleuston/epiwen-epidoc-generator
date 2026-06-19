@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhaoChao1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo gudai keming yu wenshu yanjiu wushi nian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國古代銘刻與文書研究五十年</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Fifty Years of Research on Ancient Chinese Inscriptions and Documents</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao Chao 1990</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="zh" oXygen2:href="#zhaochao" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Chao</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">超</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kaogu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>考古</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1990</date>
+            <detail type="no">9</detail>
+            <extent unit="page">
+                <start>76</start>
+                <end>82</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <classification edition="#ZhaoChao2018">reprint</classification>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhaoChao2018" type="host">
+        <note>reprint</note>
+        <titleInfo transliteration="pinyin">
+            <title>Wo si guren: gudai keming yu lishi kaogu yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>我思古人：古代刻銘與歷史考古研究</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>I Think of the Ancients: Ancient Inscriptions and Historical Archaeological Research</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2018</dateIssued>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Shehui kexue wenxian chubanshe</namePart>
+                    <namePart lang="zh">社會科學文獻出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>434</start>
+                <end>444</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

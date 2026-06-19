@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TonoHaruyuki2011A" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>陝西省麟游県慈善寺石窟所見『敬福経』銘刻の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sensei-shō Rin’yūken Jizenji sekkutsu shoken <hi rend="italic">Kyōfuku kyō</hi> meikoku no kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Research on the engraved <hi rend="italic">Sutra on the Merit of Reverence</hi> seen in the Cave at Cishan Monastery in Linyou County, Shaanxi Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tono 2011A</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TonoHaruyuki" type="personal">
+        <namePart lang="ja" type="family">東野</namePart>
+        <namePart lang="ja" type="given">治之</namePart>
+        <namePart transliteration="romaji" type="family">Tōno</namePart>
+        <namePart transliteration="romaji" type="given">Haruyuki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TonoHaruyuki2011" type="host">
+        <titleInfo lang="ja">
+            <title>大和古寺の研究</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2011</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Hanawa shobō</namePart>
+                    <namePart lang="ja">塙書房</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>469</start>
+                <end>476</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baoshichen_quanji1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bao Shichen quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>包世臣全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected works of Kang Youwei</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Kang Youwei quanji">
+        <title>Kang Youwei quan­ji 1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jiangyihua" type="personal">
+        <namePart transliteration="pinyin" type="family">Jiang</namePart>
+        <namePart transliteration="pinyin" type="given">Yihua</namePart>
+        <namePart lang="zh" type="family">姜</namePart>
+        <namePart lang="zh" type="given">義華</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wugenliang" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Genliang</namePart>
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">根樑</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1987-1992</dateIssued>
+        <dateOther>1987.10 (1. volume); 1990.4 (2. volume); 1992.12 (3. volume)</dateOther>
+        <place>
+            <placeTerm>Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海古籍出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

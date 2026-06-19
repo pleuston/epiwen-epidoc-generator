@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lagerwey2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+     <titleInfo lang="en">
+           <title>Religion and Chinese Society</title>
+     </titleInfo>
+     <titleInfo type="reference">
+           <title>Lagerwey 2004</title>
+     </titleInfo>
+     <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lagerwey" type="personal">
+           <namePart lang="en" type="family">Lagerwey</namePart>
+           <namePart lang="en" type="given">John</namePart>
+                <role>
+                      <roleTerm>editor</roleTerm>
+                </role>
+     </name>
+     <originInfo>
+            <dateIssued>2004</dateIssued>
+            <place>
+                <placeTerm>Hong Kong and Paris</placeTerm>
+            </place>
+            <publisher>
+                  <name type="corporate">
+                  <namePart lang="en">The Chinese University of Hong Kong and École française d’Extrême-Orient</namePart>
+                  </name>
+            </publisher>
+            <issuance>monographic</issuance>
+     </originInfo>
+     <physicalDescription>
+                                        <form>print</form>
+                                        <extent>
+                                                       <detail type="volume">2</detail>
+                                        </extent>
+                    </physicalDescription>
+</mods>

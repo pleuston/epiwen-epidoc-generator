@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yaoguangyu_Archive2" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>函留美學生監督查復實習生姚光裕川資曾否發給</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Han liumei xuesheng jiandu chafu shixisheng Yao Guangyu chuanzi ceng fou fa ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Letter to the Supervisor of Students in America Requesting an Answer<!--,--> Whether the Trainee Yao Guangyu Received<!--Obtained--> Financial Support for Traveling</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yunnan Archive: Yao Guangyu 1918</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>1918-03-25</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Kunming</placeTerm>
+            <placeTerm lang="zh">昆明</placeTerm>
+        </place>
+        <!--<publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>-->
+    </originInfo>
+    <note type="reprint">Preserved in the Yunnan Provincial Archives <foreign lang="zh">雲南省檔案館</foreign>
+    </note>
+</mods>

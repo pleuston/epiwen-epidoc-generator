@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Libuzhigao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Libu zhigao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>禮部志稿</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Manuscript of the Record of the Ministry of Rites</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Libu zhi gao</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#linyaoyu" type="personal">
+        <namePart transliteration="pinyin" type="family">Lin</namePart>
+        <namePart transliteration="pinyin" type="given">Yaoyu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yuruji" type="personal">
+        <namePart lang="zh" type="family">俞</namePart>
+        <namePart lang="zh" type="given">汝楫</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKQS" type="series">
+        <titleInfo lang="zh">
+            <title>文淵閣四庫全書·史部·職官類</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenyuan Ge Siku quanshu · shi bu · zhiguan lei</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">597-598</number>
+            </detail>
+            <extent unit="page">
+                <start/>
+                <end/>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKQS_Cunmu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Siku Quanshu cunmu congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>
+                    <foreign lang="zh">集部</foreign>156</number>
+            </detail><extent unit="page">
+                <start></start>
+                <end></end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <!-- <note>Reprint of the 1603 edition</note>-->
+</mods>

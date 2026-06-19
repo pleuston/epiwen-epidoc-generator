@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenwujianzhu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>文物建築</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Wenwu jianzhu</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Traditional Architecture</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#henan_wwjz_yjy" type="corporate">
+        <namePart lang="zh">河南文物建築保護研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007-</dateIssued>
+        <dateIssued encoding="marc" point="start">2007</dateIssued>
+        <frequency>yearly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+            
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

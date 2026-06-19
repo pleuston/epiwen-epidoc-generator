@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xuanheshupu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sutras-srv.adw.uni-heidelberg.de:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>宣和書譜</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xuanhe Shupu [Senna Shofu] </title>
+        <!--<title>Xuanhe Shupu <hi rend="normal">[</hi>Senna Shofu<hi rend="normal">]</hi></title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Calligraphy Catalogue of the Xuanhe Era</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xuanhe Shupu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hihara" type="personal">
+        <namePart transliteration="pinyin" type="family">Hihara</namePart>
+        <namePart transliteration="pinyin" type="given">Toshikuni</namePart>
+        <namePart lang="ja" type="family">日原</namePart>
+        <namePart lang="ja" type="given">利國</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chugoku_shoron_taikei1977_1999" type="host">
+        <titleInfo lang="zh">
+            <title>中國書論大系</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>8</start>
+                <end>352</end>
+            </extent>
+        </part>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+            <extent unit="page">
+                <start>7</start>
+                <end>234</end>
+            </extent>
+        </part>
+    </relatedItem>
+        <!--<part>
+            <detail type="volume">
+                <number>5–6</number>
+            </detail>
+            extent unit="page">
+                <start>8</start>
+                <end>352</end>
+            </extent>
+        </part>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+            <extent unit="page">
+                <start>7</start>
+                <end>234</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+</mods>

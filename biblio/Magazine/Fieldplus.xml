@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fieldplus" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>フィールドプラス：世界を感応する雑誌</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>FIELDPLUS: Sekai o kannōsuru zasshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>FIELDPLUS: Magazine that Impresses the World</title>
+    </titleInfo>
+    <abstract>Romaji: Fīrudopurasu ; Alternative Title: フィールド＋</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AjiaAfurikaggbkkkj" type="corporate">
+        <namePart lang="ja">東京外国語大学アジア·アフリカ言語文化研究所</namePart>
+        <namePart transliteration="romaji">Tōkyō gaigokugo daigaku Ajia, Afurika gengo bunka kenkyūjo</namePart>
+        <namePart lang="en">Research Institute for Languages and Cultures of Asia and Africa (ILCAA), Tokyo University of Foreign Studies</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009-</dateIssued>
+        <dateIssued encoding="marc" point="start">2009</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō gaigokugo daigaku shuppankai</namePart>
+                <namePart lang="ja">東京外国語大学出版会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

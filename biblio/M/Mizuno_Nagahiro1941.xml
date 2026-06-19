@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Mizuno_Nagahiro1941">
+    <titleInfo lang="ja">
+        <title>河南洛陽龍門石窟の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kanan Rakuyō Ryūmon sekkutsu no kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Study of the Buddhist Cave at Longmen near Luoyang, Henan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Mizuno and Nagahiro 1941</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#mizuno_seiichi">
+        <namePart lang="ja" type="family">水野</namePart>
+        <namePart lang="ja" type="given">清一</namePart>
+        <namePart transliteration="romaji" type="family">Mizuno</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#nagahiro">
+        <namePart lang="ja" type="family">長廣</namePart>
+        <namePart lang="ja" type="given">敏雄</namePart>
+        <namePart transliteration="romaji" type="family">Nagahiro</namePart>
+        <namePart transliteration="romaji" type="given">Toshio</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1941</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Zauhō kankōkai</namePart>
+                <namePart lang="ja">座右寶刊行会</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

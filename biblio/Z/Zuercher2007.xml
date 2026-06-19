@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zuercher2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Buddhist Conquest of China: The Spread and Adaptation of Buddhism in Early Medieval China. Third Edition with a Foreword by Stephen F. Teiser</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zürcher 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zuercher" type="personal">
+        <namePart lang="en" type="family">Zürcher</namePart>
+        <namePart lang="en" type="given">Erik</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm>Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <edition>Third edition with a foreword by Stephen F. Teiser</edition>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#SinicaLeidensia" type="series">
+        <titleInfo lang="en">
+            <title>Sinica Leidensia</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

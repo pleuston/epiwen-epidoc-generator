@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hardie_Campbell2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Dumbarton Oaks Anthology of Chinese Garden Literature</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hardie and Duncan 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hardie" type="personal">
+        <namePart lang="en" type="family">Hardie</namePart>
+        <namePart lang="en" type="given">Alison</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#campbell" type="personal">
+        <namePart lang="en" type="family">Campbell</namePart>
+        <namePart lang="en" type="given">Duncan Murray</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm>Washington, D.C.</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart lang="en">Dumbarton Oaks Research Library and Collection</namePart>
+            </name></publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Ex Horto : Dumbarton Oaks Texts in Garden and Landscape Studies</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

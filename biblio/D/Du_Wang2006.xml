@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Du_Wang2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>炳靈寺石窟内容總録</title>
+        <!--<title>炳靈寺石窟内容總錄</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bingling Si shiku neirong zonglu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Summary Catalog of Buddhist Caves in Bingling Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Du and Wang 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dudoucheng" type="personal">
+        <namePart lang="zh" type="family">Du</namePart>
+        <namePart lang="zh" type="given">Doucheng</namePart>
+        <namePart lang="zh" type="family">杜</namePart>
+        <namePart lang="zh" type="given">斗城</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wanghengtong" type="personal">
+        <namePart lang="zh" type="family">Wang</namePart>
+        <namePart lang="zh" type="given">Hengtong</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">亨通</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">蘭州大學出版社</namePart>
+                <namePart transliteration="pinyin">Lanzhou daxue chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">蘭州</placeTerm>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+        </place>
+    </originInfo>
+</mods>

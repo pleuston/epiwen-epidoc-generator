@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChienLikuei2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+
+    <titleInfo lang="en">
+        <title>The Transmission of Buddhist Iconography and Artistic Styles Around the Yellow Sea
+            Circuit in the Sixth Century: Pensive Bodhisattva Images from Hebei, Shandong, and
+            Korea</title>
+    </titleInfo>
+
+    <titleInfo type="reference">
+        <title>Chien Li-kuei 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chien_likuei" type="personal">
+        <namePart lang="en" type="family">Chien</namePart>
+        <namePart lang="en" type="given">Li-kuei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>East Asian History</title>
+        </titleInfo>
+       
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">43</detail>
+        
+            <extent unit="page">
+                <start>1</start>
+                <end>19</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

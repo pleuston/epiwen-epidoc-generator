@@ -1,0 +1,28 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gujiyanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>古籍研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Guji yanjiu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#anhuidaxue_wxy" type="corporate">
+        <namePart transliteration="pinyin">Anhui daxue wenxueyuan</namePart>
+        <namePart lang="zh">安徽大學文學院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm transliteration="pinyin">Hefei</placeTerm>
+            <placeTerm lang="zh">合肥</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">安徽大學出版社</namePart>
+                <namePart transliteration="pinyin">Anhui daxue chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

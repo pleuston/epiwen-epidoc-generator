@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LongmenShikuyjs1993" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>龍門石窟研究論文選</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Longmen shiku yanjiu lunwen xuan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Selection of Papers on the Longmen Grottoes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Long­men shi­ku yan­jiu lun­wen xuan 1993</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#longmen_shiku_yjs" type="corporate">
+        <namePart lang="zh">龍門石窟研究所</namePart>
+        <namePart transliteration="pinyin">Longmen shiku yanjiusuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1993</dateIssued>
+        <place>
+            <placeTerm lang="zh">上海</placeTerm>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">上海人民美術出版社</namePart>
+                <namePart transliteration="pinyin">Shanghai renmin meishu chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

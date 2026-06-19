@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJinhua2006a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Fazang and Wuzhen Si: With a Special Reference to Fazang’s Daoist Ties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Jin­hua 2006a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjinhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">金華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JournalRoyalAsiaticSociety" type="host">
+        <titleInfo lang="en">
+            <title>Journal of the Royal Asiatic Society</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2006</date>
+            <detail type="volume">3</detail>
+            <detail type="no">16.2</detail>
+            <extent unit="page">
+                <start>179</start>
+                <end>197</end>
+            </extent>
+        </part>
+        
+    </relatedItem>
+</mods>

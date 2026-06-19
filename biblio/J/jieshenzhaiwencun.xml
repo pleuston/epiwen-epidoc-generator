@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="jieshenzhaiwencun" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>節慎齋文存</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jieshen Zhai wencun</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Writings from the Jieshen Studio</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jieshen Zhai wencun</title>
+    </titleInfo>
+   
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chendaiqing" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">代卿</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="qingdaishiwenji" type="host">
+        <titleInfo lang="zh">
+            <title>清代詩文集彙編</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Qing dai shiwenji huibian</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>A Collection of Poems and Writings from the Qing Dynasty</title>
+        </titleInfo>
+        <typeOfResource collection="yes">text</typeOfResource>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>2011</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+                <placeTerm lang="zh">上海</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">上海古籍出版社</namePart>
+                    <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>703</number>
+            </detail>
+            <extent unit="page">
+                <start>251</start>
+                <end>308</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

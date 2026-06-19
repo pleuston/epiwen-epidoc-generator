@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Pelliot1925" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Review of <foreign lang="zh">華德辭典</foreign> Chinesisch-Deutsches Wörterbuch, 6400 Schriftzeichen mit ihren Einzelbedeutungen und den gebräuchlichsten Zusammensetzungen, by W. Rüdenberg</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pelliot 1925</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pelliot" type="personal">
+        <namePart lang="en" type="family">Pelliot</namePart>
+        <namePart lang="en" type="given">Paul</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo>
+            <title>T’oung Pao<!--<hi rend="normal">, ser. 2, vol.</hi>: Revue internationale de sinologie--></title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">24</detail>
+            <detail type="no">2 et 3</detail>
+            <extent unit="page">
+                <start>274</start>
+                <end>275</end>
+            </extent>
+            <date point="start">1925</date>
+            <date point="end">1926</date>
+        </part>
+    </relatedItem>
+</mods>

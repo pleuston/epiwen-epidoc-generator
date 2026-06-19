@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChanWingtsit1966" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Source Book in Chinese Philosophy: Translated and Compiled by Wing-Tsit Chan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chan Wing-Tsit 1966</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chan_wingtsit" type="personal">
+        <namePart lang="en" type="family">Chan</namePart>
+        <namePart lang="en" type="given">Wing-Tsit</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <note>
+            Chapter 7, “The Natural Way of Lao Tzu” with additional notes and comments, has been published as <hi rend="italic">The Way of Lao Tzu</hi>, copyright © 1963, The Bobbs-Merrill Company.
+        </note>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1966</dateIssued>
+        <place>
+            <placeTerm>Princeton</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Princeton University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

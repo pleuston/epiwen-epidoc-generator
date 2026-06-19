@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChunhuaXianzhi_Kangxi_Guotu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>[Kangxi] Chunhua xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔康熙〕淳化縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Chunhua County (Kangxi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chunhua xianzhi 1701</title>
+    </titleInfo>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luotingxiu" type="personal">
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">廷繡</namePart>
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Tingxiu</namePart>
+        <namePart type="date">Ming dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>-->
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZhangRujin" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">如錦</namePart>
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Rujin</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>8 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">8</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1701</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Preserved in the National Library of China (<foreign lang="zh">善本</foreign>03874<foreign lang="zh">號</foreign>)</note>
+</mods>

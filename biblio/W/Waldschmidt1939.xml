@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Waldschmidt1939" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo lang="en">
+                                <title>Beiträge zur Textgeschichte des Mahāparinirvāṇasūtra</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Waldschmidt 1939</title>
+                </titleInfo>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#waldschmidt" type="personal">
+                                <namePart lang="de" type="family">Waldschmidt</namePart>
+                                <namePart lang="de" type="given">Ernst</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <originInfo>
+                                <dateIssued>1939</dateIssued>
+                                <place>
+                                                <placeTerm>Göttingen</placeTerm>
+                                </place>
+                                <publisher>
+                                                <name type="corporate">
+                                                  <namePart lang="en">Vandenhoeck und
+                                                  Ruprecht</namePart>
+                                                </name>
+                                </publisher>
+                                <issuance>monographic</issuance>
+                </originInfo>
+                <relatedItem type="series">
+                                <titleInfo lang="de">
+                                                <title>Nachrichten von der Gesellschaft der
+                                                  Wissenschaften zu Göttingen,
+                                                  Philosophisch-Historische Klasse: Fachgruppe 3,
+                                                  Nachrichten aus der allgemeinen Sprachwissenschaft
+                                                  und östliche Kulturkreise; N.F. Bd. 2, Nr.
+                                                  3</title>
+                                </titleInfo>
+                </relatedItem>
+</mods>

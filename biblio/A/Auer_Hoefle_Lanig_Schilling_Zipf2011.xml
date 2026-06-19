@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Auer_Hoefle_Lanig_Schilling_Zipf2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>3D-Sutras: A web-based atlas of laser scanned Buddhist stone inscriptions in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Auer, Höfle, Lanig, Zipf 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#auer" type="personal">
+        <namePart lang="en" type="family">Auer</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hoefle" type="personal">
+        <namePart lang="en" type="family">Höfle</namePart>
+        <namePart lang="en" type="given">Bernhard</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lanig" type="personal">
+        <namePart lang="en" type="family">Lanig</namePart>
+        <namePart lang="en" type="given">Sandra</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zipf" type="personal">
+        <namePart lang="en" type="family">Zipf</namePart>
+        <namePart lang="en" type="given">Alexander</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#AGILE2011" type="host">
+        <titleInfo lang="de">
+            <title>14th AGILE International Conference on Geographic Information Science. 18-21
+                April 2011</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm>Utrecht, The Netherlands</placeTerm>
+            </place>
+            <dateIssued>2011</dateIssued>
+        </originInfo>
+    </relatedItem>
+</mods>

@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nishibayashi1972" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hokusei Senshūra no hi/Hokusei Suigyūzan monju hannya kyō no hi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>北齊：隽脩羅碑／北齊：水牛山文殊般若經碑</title>
+        <!--<title>北斉　雋脩羅碑／北斉　水牛山文殊般若経碑</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Northern Qi: The Stele for Juan Xiuluo/Northern Qi: The <hi rend="italic">
+                <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign> Sutra</hi> Stele of Mount Shuiniu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nishibayashi 1972</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic>stele</topic>
+        <topic>Shuiniushan</topic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nishibayashi" type="personal">
+        <namePart transliteration="romaji" type="family">Nishibayashi</namePart>
+        <namePart transliteration="romaji" type="given">Shōichi</namePart>
+        <namePart lang="ja" type="family">西林</namePart>
+        <namePart lang="ja" type="given">昭一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kanda_Nishikawa1972b" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Hokusei Senshūra no hi/Suigyūzan monju hannya kyō no hi</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>北齊：雋脩羅碑／水牛山文殊般若經碑</title>
+            <!--<title>北斉　雋脩羅碑／水牛山文殊般若経碑</title>-->
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1972</dateIssued>
+            <!--<place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Nigensha</namePart>
+                    <namePart lang="ja">二玄社</namePart>
+                </name>
+            </publisher>-->
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>81</start>
+                <end>87</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

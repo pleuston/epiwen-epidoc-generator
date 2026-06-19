@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liebenthal1935" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Version of the <foreign lang="sa">Viṃśatikā</foreign> by I-ching and Its Relation to that of Hsüan-tsang <foreign lang="zh">義净譯寶生論中唯識二十論與玄奘譯本之關係</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liebenthal 1935</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liebenthal_enzh" type="personal">
+        <namePart lang="en" type="family">Liebenthal</namePart>
+        <namePart lang="en" type="given">Walter</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">華德</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Yenching Journal of Chinese Studies</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>燕京學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Yanjing xuebao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1935</date>
+            <detail type="volume">
+                <number>17</number>
+            </detail>
+            <!--<detail type="no">2</detail>-->
+            <extent unit="page">
+                <start>179</start>
+                <end>194</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

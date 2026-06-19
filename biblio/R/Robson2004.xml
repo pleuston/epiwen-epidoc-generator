@@ -1,0 +1,126 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Robson2004" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhism and the Chinese Marchmount System (Wuyue <foreign lang="zh">五嶽</foreign>): A Case Study of the Southern Marchmount (Mt. Nanyue <foreign lang="zh">南嶽</foreign>)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Robson 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#robson" type="personal">
+        <namePart lang="en" type="family">Robson</namePart>
+        <namePart lang="en" type="given">James</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Studies on the sinification of Buddhism have heretofore focused primarily on assessing the quality and depth of translation and exegesis. Fully sinified forms of Buddhism are often said to exist in China once new schools formed that understood both the complexity of Indian Buddhism and the needs of the local cultural environment. ...I... will merely note that other scholars of Sui-Tang Buddhism have called for a rethinking of the precise nature and independence of chose "post-sinification" Chinese Buddhist schools. ... I will approach the topic of sinification obliquely through the lens of the Buddhist accommodation to indigenous Chinese mountain cults, and the five marchmount system (wuyue 五嶽) in particular. The Four Famous Mountains of Buddhism: Wutai shan 五臺山, Emei shan 峨眉山, Jiujua shan 九華山, Putuo shan 普陀山. ...since in India there was no systematically organized set of Buddhist mountains like the one found in China... ... a long standing tendency to separate China’s mountains into distinct Buddhist and Daoist categories and giving a false sense that China’s sacred mountains fall clearly into either one or the other of those camps. ... the Four Famous Mountains classification system arrived on the scene rather late in Chinese history, probably not before the Southern Song dynasty (1127-1276). ... we will begin to see just how significant other mountains ... were in the initial spread of Buddhism as it took root on Chinese soil. From the earliest records in China we know that mountains have been considered to be divine or numinous sites. (note: See Terry F. Kleeman, "Mountain Deities in China: The Domestication of the Mountain God and the Subjugation of the Margins," in Journal of the American Oriental Society, vol. 114, no. 2 (1994), pp. 226-238. <ref type="biblio" target="Kleemann1994"/>) The first set of mountains are grouped under the native Chinese
+        classification scheme know [sic!] as the "Five Marchmounts" (wuyue 五嶽), and have a long
+        history dating back co about the 1st century BCE.... While these mountains were from the
+        beginning important sites for the imperial cult, they have been traditionally classified as
+        "Daoist" mountains and set off against the set of ostensibly "Buddhist" mountains known as
+        the Four Famous Mountains (sida mingshan 四大名山).... Most modern scholars have adopted
+        (consciously or not) these classification schemes since they fit nicely with the categories
+        that are traditionally used to delineate Chinese religion along the lines of three normative
+        traditions: namely "Confucianism," "Daoism," and "Buddhism." There is no question that there
+        were from an early date significant relationships established between Daoism and the Five
+        Marchmounts. One story ... is given in the Han faben neizhuan (漢法本內傳). (note: The Han faben
+        neizhuan (漢法本內傳) is quoted within the text titled: Xu Jigu jin fodao lunheng 續集古今佛道論衡
+        (T.52.398bff.).) In this text we find the Marchmounts mentioned in a passage that is related
+        to the arrival of Buddhism in China at the court of the Han emperor Mingdi 明帝 (r. 58-76).
+        Following the famous account of Mingdi’s dream presaging the arrival of Buddhism in China,
+        the text goes on to include a long passage where Daoists from the Five Marchmounts gather in
+        Loyang at the White Horse Temple (Baima si 白馬寺) for a competition against the newly arrived
+        Buddhists. In spite of the polemical nature of this story, where the Daoists are defeated
+        quite handily, it is significant for our purposes here to note that the emperor knew to find
+        the most capable Daoists at the Five Marchmounts. The marchmounts were seen, it might be
+        argued, as repositories of the highest Daoist knowledge. (note: This story appears in many
+        places including the <hi rend="italic">Guang Hongmingji </hi>
+        <foreign xml:lang="zh">廣弘明記</foreign> (T#2103, 52: 98c11–99b23), and later Chan texts like the <hi rend="italic">Lidai fabao ji </hi>
+        <foreign xml:lang="zh">曆代法寶記</foreign> (T#2075, 51:
+        179a14–...) ... modern scholars have been too tightly bound by the sectarian nature of those
+        categories, such that the marchmounts (and Nanyue in particular), have not heretofore been
+        discussed in surveys of significant Buddhist mountains in China. 345 ... the decree issued
+        in around 726 by Tang Xuanzong 唐玄宗 (r. 7 12-756). Following the advice of Sima Chengzhen
+        司馬承禎 (647-735), Xuanzong’s decree stated that the marchmounts were henceforth to be
+        understood as under the control of the deities of the Shangqing Daoist pantheon. This
+        decree, establishing Daoist monasteries at the Five Marchmounts, is usually taken as a
+        formative event in the transformation of these sites into Daoist mountains, or at least
+        Daoist dominated mountains. ... The first decree, issued by the Northern Zhou emperor Wudi
+        during the persecutions of the late 6th cent., specified that the Daoist abbeys at the Five
+        Marchmounts were to be saved from the destruction that was to be the fate of the Buddhist
+        establishments. (note: John Lagerwey, Wu-shang pi-yao: Somme taoiste du VIe siecle (Paris:
+        Publications de l’Ecole Fransaise d’Extreme-Orient, 1981 ), pp. 13-14 .) Yet, in the years
+        between the decrees of the 6th and 8th centuries the Five Marchmounts appear predominantly
+        in a Buddhist context. Indeed, as will become apparent in the discussion that follows,
+        during the Sui dynasty (581-617) Buddhists were quite successful in the competition for
+        imperial patronage,... Both the Bianzheng lun 辨正論 and the Lidai sanbao 歷代三寶記 record that in
+        581, less than ten years after the Northern Zhou promulgation, Sui Wendi "ordered the
+        construction of a Buddhist monastery at the foot of each of the Five Marchmounts and other
+        famous mountains in each province and that manors (tianzhuang 田莊) also be established" in
+        order to provide a means of support for the new institutions. (52.509a-b; 49.107b. See <ref type="biblio" target="Weinstein1987">4</ref> and <ref type="biblio" target="Wright1957">96</ref>) ... Although it is clear from other sources that Buddhists began alighting on
+        many of the Five Marchmounts much earlier than the 7th century, with this decree officially
+        sponsored Buddhist monasteries were situated securely on the imperial wide network of sacred
+        sites. It marks the first official integration of Buddhism into this indigenous Chinese
+        mountain classification system. Between 601 and 604, Sui Wendi issued three separate edicts
+        that dispatched eminent monks to provincial centers to enshrine relics (sheli 舍利 Skr.
+        sarira) in newly erected stupas (ta 塔). (note Guang Hongmingji T.52.213a-b. See <ref type="biblio" target="Wright1957">101-102</ref>. The list of sites that were included in
+        this distribution of relics are conveniently found in Kamata Shigeo 鎌田茂雄 Chūgoku Bukkyō shi_
+        Zui Tō no bukkyō 中国仏敎史:隋唐no佛教, Tokyo 1994, p. 21. For a detailed study of the Renshou relic
+        campaign see the new work by Chen Jinhua <ref type="biblio" target="ChenJinhua2002a">45-80</ref>) ... of the thirty sites that appear on the list in the Guang hongmingji
+        the Five Marchmounts are all included in a set at the front of the list. (note: T.52.213a-b)
+        This new imperial decree might best be seen as a continuation of the decree issued in 581
+        and that the marchmount temples mentioned here were precisely those that were established in
+        the earlier decree. Further on in the Guang hongmingji is a fascinating text titled A Record
+        of the Sympathetic Response to {the} Sarira [Distributed to the Provinces} (Sheli ganying ji
+        舍利 感應記) compiled by the Sui court chronicler Wang Shao 王邵 (fl . 6th cent.) (note:
+        T.52.216ff.)... Another entry in the Sheli ganyingji that is even more explicit about the
+        relationship between an indigenous marchmount deity and the Buddha’s relic is the entry for
+        Taishan. In this account we find the main deity of the marchmount (yueshen 嶽神) greeting and
+        worshipping the relic upon its arrival on the mountain. Translation 348-349 Finally,
+        returning to another relevant imperial decree, we find that in the Tang dynasty the
+        marchmounts received further support from Emperor Suzong 肅宗 (r. 756-762). The Fozu tongji
+        佛祖統記, later followed by the Fozu lidai tongzai 佛祖 歷代通載, recorded that Suzong specifically
+        ordered the construction of monasteries on the Five Marchmounts and that eminent monks
+        should be selected to serve in them. (note: T.49.376a and T.49.598b and <ref type="biblio" target="Weinstein1987">57-59</ref>) ... it is not surprising to find that the Five
+        Marchmounts had been assimilated to Buddhist doctrinal teachings (the five precepts 五戒) in
+        the apocryphal Tiwei boli Jing (5th cent.) and that by the Tang dynasty some of the
+        marchmounts were represented in contemporary literary sources as significant centers for
+        Buddhist institutions (note: The Tiwei boli jing does not survive intact, but quotations
+        from that text are found in many later works, including the writings of Zhiyi. For the
+        passages connecting the Five Marchmounts to Buddhist precepts see Tsukamoro Zenryu <ref type="biblio" target="Tsukamoto1974_76">2: 203, 204</ref>. For further studies on the
+        Tiwei boli jing see Makita Tairyo <ref type="biblio" target="Makita1976">148-211</ref>, and
+        Whalen Lai, "The Earliest Folk Buddhist Religion in China: Ti-wei Po-Ii ching and Its
+        Historical Significance," in David Chappell ed., Buddhist and Taoist Practice in Medieval
+        Chinese Society (Honolulu: University of Hawaiʻi Press, 1987). pp. 11-35 <ref type="biblio" target="Lai1987">11-35</ref>) </abstract>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" type="host" ns2:href="#Lagerwey2004">
+        <titleInfo>
+            <title>Religion and Chinese Society. Volume 1: Ancient and Medieval China</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lagerwey" type="personal">
+            <namePart lang="en" type="family">Lagerwey</namePart>
+            <namePart lang="en" type="given">John</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <form>print</form>
+            <extent>
+                <detail type="volume">2</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <!--<extent unit="volume">1</extent>-->
+            <extent unit="page">
+                <start>341</start>
+                <end>383</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

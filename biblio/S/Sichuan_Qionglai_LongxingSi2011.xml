@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sichuan_Qionglai_LongxingSi2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan Qionglai Longxing Si: 2005–2006 nian kaogu fajue baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川邛崍龍興寺：2005－2006年考古發掘報告 </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Longxing Monastery in Qionglai, Sichuan: Archaeological Report of the 2005–2006 Excavations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sichuan Qionglai Longxing Si 2011</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengdu_wenwu_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Chengdu wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">成都文物考古研究所</namePart>
+        <namePart lang="en">Institute of Cultural Relics and Archaeology in Chengdu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#qionglaishi_wenwu_guanliju" type="corporate">
+        <namePart transliteration="pinyin">Qionglai Shi wenwu guanliju</namePart>
+        <namePart lang="zh">邛崃市文物管理局</namePart>
+        <namePart lang="en">Qionglai Municipality Cultural Heritage Administration</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chuban she</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

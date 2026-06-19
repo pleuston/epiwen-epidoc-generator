@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="chenwenxin2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yaqu si shu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>雅趣四書</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Four Books of Elegant Taste</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Wenxin 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenwenxin" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Wenxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2004</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Wuhan</placeTerm>
+            <placeTerm lang="zh">武漢</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">湖北辭書出版社</namePart>
+                <namePart transliteration="pinyin">Hubei cishu chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

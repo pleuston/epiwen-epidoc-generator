@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="IDP"><titleInfo lang="en"><title>Guoji Dunhuang xiangmu <foreign lang="zh">國際敦煌項目</foreign>.
+            <!--hi rend="normal"> |</hi--> International Dunhuang Project</title></titleInfo><titleInfo type="reference"><title>IDP</title></titleInfo><name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#whitfield_susan" type="personal"><namePart type="family">Whitfield</namePart><namePart type="given">Susan</namePart><role><roleTerm>editor</roleTerm></role></name><!--originInfo>
+        <dateCreated></dateCreated>
+        <dateModified>June 2015</dateModified>
+        <dateCaptured></dateCaptured>
+        <publisher/>
+    </originInfo--><location><url>http://idp.bl.uk/</url></location><originInfo><dateCaptured>2017-02-10</dateCaptured></originInfo></mods>

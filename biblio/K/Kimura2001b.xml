@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kimura2001b">
+    <titleInfo lang="ja">
+        <title>『仏性海蔵経』の思想的性格</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Busshō kaizōkyō’ no shisō-teki seikaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Philosophical Nature of the <hi rend="italic">Sutra on the Wisdom Stored in the Ocean of Buddha-nature</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kimura 2001a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#kimura">
+        <namePart lang="ja" type="family">木村</namePart>
+        <namePart lang="ja" type="given">清孝</namePart>
+        <namePart type="family">Kimura</namePart>
+        <namePart type="given">Kiyotaka</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kimura2001a" type="host">
+        <titleInfo lang="ja">
+            <title>東アジア仏教思想の基礎構造</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia Bukkyō shisō no kiso kōzō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Studies in Basical Structure of East Asian Buddhist Thought</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued point="end">2001</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">春秋社</namePart>
+                    <namePart transliteration="romaji">Shunjūsha</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>258</start>
+                <end>271</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note>originally published in Kimura Kiyotaka (ed.), Gigi Butten no sōgō-teki kenkyū 疑偽仏典の綜合的研究, 2000, pp. 35-41</note>
+</mods>

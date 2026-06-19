@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kanno2012" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>南北朝·隋代の中国仏教思想研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nanbokuchō, Zuidai no Chūgoku Bukkyō shisō kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research into Buddhist Thought in China under the Southern and Northern Dynasties and the Sui Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kanno 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanno" type="personal">
+        <namePart lang="ja" type="family">菅野</namePart>
+        <namePart lang="ja" type="given">博史</namePart>
+        <namePart transliteration="romaji" type="family">Kanno</namePart>
+        <namePart transliteration="romaji" type="given">Hiroshi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">大蔵出版<!--株式会社--></namePart>
+                <namePart transliteration="romaji">Daizō shuppan<!-- kabushiki kaisha--></namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,66 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zacchetti2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The <hi rend="normal">Da zhidu lun</hi>
+            <foreign lang="zh">大智度論</foreign> (*Mahāprajñāpāramitopadeśa) and the History of the <hi rend="normal">Larger Prajñāpāramitā</hi>: Patterns of Textual Variation in Mahāyāna
+            Sūtra Literature</title>
+    </titleInfo>
+    <!-- <titleInfo lang="zh">
+        <title>眾經目録</title>
+    </titleInfo>-->
+    <titleInfo type="reference">
+        <title>Zacchetti 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#zacchetti" type="personal">
+        <namePart lang="en" type="family">Zacchetti</namePart>
+        <namePart lang="en" type="given">Stefano</namePart>
+        <!-- <namePart lang="zh" type="family">左</namePart>
+        <namePart lang="zh" type="given">冠明</namePart>-->
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#radich" type="personal">
+        <namePart lang="en" type="family">Radich</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#silk" type="personal">
+        <namePart lang="en" type="family">Silk</namePart>
+        <namePart lang="en" type="given">Jonathan</namePart>
+
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm>Hamburg, Bochum and Freiburg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Projekt Verlag and Numata Center for Buddhist Studies</namePart>
+            </name>
+        </publisher>
+        <!--place>
+            <placeTerm>Bochum/Freiburg</placeTerm>
+        </place-->
+        <!--publisher><name type="corporate">
+            <namePart lang="en">projekt verlag</namePart>
+        </name></publisher-->
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Hamburg Buddhist Studies</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>14</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

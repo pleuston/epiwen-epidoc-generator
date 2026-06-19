@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kanshuku_Heireiji_1986" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国石窟·炳霊寺石窟 </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku sekkutsu: Heireiji sekkutsu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Grotto Art of China: The Binglingsi Grottoes</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chūgoku sekkutsu: Heireiji sekkutsu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gansu_wenwu_gzd_ja" type="corporate">
+        <namePart transliteration="romaji">Kanshuku Shō bunbutsu kōsakutai (Gansu Sheng wenwu gongzuodui)</namePart>
+        <namePart lang="ja">甘肅省文物工作隊</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#binglingsi_wenwu_bgs_ja" type="corporate">
+        <namePart transliteration="romaji">Heireiji bunbutsu hokanjo (Bingling Si wenwu baoguansuo)</namePart>
+        <namePart lang="ja">炳靈寺文物保管所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#heireijisekkutsu_henshu_iinkai" type="corporate">
+        <namePart transliteration="romaji">
+            <hi rend="italic">Chūgoku sekkutsu, Heireiji sekkutsu</hi> henshū iinkai (<hi rend="italic">Zhongguo shiku, Bingling Si shiku</hi> bianji weiyuanhui)</namePart>
+        <namePart lang="ja">《中国石窟·炳霊寺石窟》編集委員会</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1986</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平凡社</namePart>
+                <namePart transliteration="romaji">Heibonsha</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+</mods>

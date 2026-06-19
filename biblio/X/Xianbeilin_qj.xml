@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xianbeilin_qj" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xi’an Beilin quanji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西安碑林全集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Collection of the Forest of Steles in Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xi’an Beilin quanji 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#gaoxia" type="personal">
+        <namePart lang="zh" type="family">高</namePart>
+        <namePart lang="zh" type="given">峽</namePart>
+        <namePart transliteration="pinyin" type="family">Gao</namePart>
+        <namePart transliteration="pinyin" type="given">Xia</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>200 <hi rend="italic">juan </hi> <foreign lang="zh">卷</foreign> in 25 cases <foreign lang="zh">函</foreign>
+    </extension>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Guangzhou and </placeTerm>
+            <placeTerm lang="zh">廣州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guangdong jingji chubanshe</namePart>
+                <namePart lang="zh">廣東經濟出版社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin"> Shenzhen</placeTerm>
+            <placeTerm lang="zh">深圳</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Haitian chubanshe</namePart>
+                <namePart lang="zh">海天出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

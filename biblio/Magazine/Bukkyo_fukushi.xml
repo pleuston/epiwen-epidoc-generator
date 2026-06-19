@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bukkyo_fukushi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>仏教福祉</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō fukushi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Journal of ‘Bukkyo fukushi’</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jodoshu_sogo_kenkyujo" type="corporate">
+        <namePart lang="ja">浄土宗総合研究所</namePart>
+        <namePart transliteration="romaji">Jōdo-shū sōgō kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997-2013</dateIssued>
+        <dateIssued encoding="marc" point="start">1997</dateIssued>
+        <dateIssued encoding="marc" point="end">2013</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Jōdo-shū sōgō kenkyūjo</namePart>
+                <namePart lang="ja">浄土宗総合研究所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

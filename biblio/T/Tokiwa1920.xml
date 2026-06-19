@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokiwa1920" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>漢明求法說の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kan Min guhō setsu no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$Researching the Tale of Emperor Ming of Han Asking for the Law</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokiwa 1920</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokiwa" type="personal">
+        <namePart lang="ja" type="family">常盤</namePart>
+        <namePart lang="ja" type="given">大定</namePart>
+        <namePart transliteration="romaji" type="family">Tokiwa</namePart>
+        <namePart transliteration="romaji" type="given">Daijō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToyoGakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tōyō gakuhō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東洋学報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">10</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>48</end>
+            </extent>
+            <date>1920</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Pregadio2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Notion of “Form” and the Ways of Liberation in Daoism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pregadio 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#pregadio">
+        <namePart lang="en" type="family">pregadio</namePart>
+        <namePart lang="en" type="given">Fabrizio</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#CdEA" type="host">
+        <titleInfo lang="fr">
+            <title>Cahiers d’Extrême-Asie</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2004</date>
+            <detail type="volume">14</detail>
+            <extent unit="pages">
+                <start>95</start>
+                <end>130</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

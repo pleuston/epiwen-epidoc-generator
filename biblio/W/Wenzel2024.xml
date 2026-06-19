@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenzel2024" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Book Review: A Tale of Two Stūpas: Diverging Paths in the Revival of Buddhism in Hangzhou China. By Albert Welter</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wenzel 2024</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wenzel" type="personal">
+        <namePart lang="en" type="family">Wenzel</namePart>
+        <namePart lang="en" type="given">Claudia</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url>https://doi.org/10.1093/jaarel/lfae007</url>
+    </location>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="JAAR" type="host">
+        <titleInfo lang="en">
+            <title>Journal of the American Academy of Religion</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+       
+        <part>
+            <date>2024</date>
+            <detail type="volume">XX</detail>
+            <detail type="no">1–3</detail>
+            <!--<extent unit="page">
+                <start></start>
+                <end></end>
+            </extent>-->
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Maul2012" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Tontafelabschriften des ‘Kodex Hammurapi’ in altbabylonischer Monumentalschrift</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Maul 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#maul" type="personal">
+        <namePart lang="de" type="family">Maul</namePart>
+        <namePart lang="de" type="given">Stefan M.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZeitAssyriologie" type="host">
+        <titleInfo lang="de">
+            <title>Zeitschrift für Assyriologie</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2012</date>
+            <detail type="volume">102</detail>
+            <extent unit="page">
+                <start>76</start>
+                <end>99</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

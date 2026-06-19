@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiDongchen1946a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Dai lian shiyi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>岱聯拾遺</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Gleaning Couplets from Mount Dai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Dong­chen 1946a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lidongchen" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">東辰</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name><!--note type="manuscript">unpublished manuscript</note-->
+    <originInfo>
+        <place>
+            <placeTerm transliteration="pinyin">Tai’an</placeTerm>
+            <placeTerm lang="zh">泰安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Unpublished manuscript</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1946</dateIssued>
+        <place>
+            <placeTerm/>
+        </place>
+    </originInfo>
+    <note type="reprint">Manuscript preserved in the Shandong Museum, Jinan</note>
+</mods>

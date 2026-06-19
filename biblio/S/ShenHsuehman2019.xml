@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShenHsuehman2019" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Authentic Replicas: Buddhist Art in Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shen Hsueh-Man 2019</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shenhsuehman_zh" type="personal">
+        <namePart transliteration="pinyin" type="family">Shen</namePart>
+        <namePart transliteration="pinyin" type="given">Hsueh-Man</namePart>
+        <namePart lang="zh" type="family">沈</namePart>
+        <namePart lang="zh" type="given">雪曼</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawai‘i Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

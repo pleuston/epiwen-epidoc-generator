@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FDDX_wenshi2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en" type="translated">
+        <title>Iconography and Ritual: The Fusion of Religious History and Art History in Ancient China</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>圖像與儀式：中國古代宗教史與藝術史的融合</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tuxiang yu yishi: Zhongguo gudai zongjiao shi yu yishu shi de ronghe</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fudan daxue wenshi yanjiuyuan 2017</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#FDDX_wenshi_yjy" type="corporate">
+        <namePart lang="zh">復旦大學文史研究院</namePart>
+        <namePart transliteration="pinyin">Fudan daxue wenshi yanjiuyuan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中華書局</namePart>
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Fudanwenshiyanjiu_zk" type="series">
+        <titleInfo lang="zh">
+            <title>復旦文史專刊</title>
+            <!--<title>復旦文史研究專刊</title>-->
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fudan wenshi zhuankan</title>
+            <!--<title>Fudan wenshi yanjiu zhuankan</title>-->
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>11</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lamotte1958" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>Histoire du bouddhisme indien: des origines à l’ère Śaka</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lamotte 1958</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lamotte" type="personal">
+        <namePart lang="fr" type="family">Lamotte</namePart>
+        <namePart lang="fr" type="given">Étienne</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1958</dateIssued>
+        <place>
+            <placeTerm>Louvain</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="fr">Université de Louvain, Institut Orientaliste</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="Bibliotheque_du_Museon" type="series">
+        <titleInfo lang="fr">
+            <title>Bibliothèque du Muséon</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>43</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AnyiXianzhi_Minguo1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>[Minguo] Anyi xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔民國〕安邑縣誌</title>
+    </titleInfo>
+   <!-- 景定成纂、運城市地方誌編纂委員會整理、樊道白、張博文、暢筠等點校： 《安邑縣誌》（民國二十三年稿本），山西人民出版社，1991年-->
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Anyi County (Minguo Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Anyi xianzhi 1934</title>
+    </titleInfo>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jingdingcheng" type="personal">
+        <namePart lang="zh" type="family">景</namePart>
+        <namePart lang="zh" type="given">定成</namePart>
+        <namePart transliteration="pinyin" type="family">Jing</namePart>
+        <namePart transliteration="pinyin" type="given">Dingcheng</namePart>
+        <!--<namePart type="date"/>-->
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+   <!-- <extension/>-->
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">8</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taiyuan</placeTerm>
+            <placeTerm lang="zh">太原</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanxi renmin chubanshe</namePart>
+                <namePart lang="zh">山西人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

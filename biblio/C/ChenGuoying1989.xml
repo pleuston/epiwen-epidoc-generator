@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenGuoying1989" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Fengrun Tiangong Si Ta baohu gongcheng ji faxian de zhongyao Liaodai wenwu</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>豐潤天宫寺塔保護工程及發現的重要遼代文物</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Conservation Work on the Pagoda of Tiangong Monastery in Fengrun and the Discovery of Important Liao Period Relics</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Chen Guoying 1989</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenguoying" type="personal">
+                        <namePart lang="zh" type="family">陳</namePart>
+                        <namePart lang="zh" type="given">國瑩</namePart>
+                <role>
+                    <roleTerm>author</roleTerm>
+                </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WenwuChunqiu" type="host">
+                        <titleInfo transliteration="pinyin">
+                                    <title>Wenwu chunqiu</title>
+                        </titleInfo>
+                        <titleInfo lang="zh">
+                                    <title>文物春秋</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                <part>
+                    <detail type="no">1</detail>
+                    <extent unit="page">
+                        <start>78</start>
+                        <end>91</end>
+                    </extent>
+                    <date>1989</date>
+                </part>
+                        
+            </relatedItem>
+</mods>

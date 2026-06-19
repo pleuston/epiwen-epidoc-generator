@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sha_Zhang2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Liu Sahe yu Liangzhou ruixiang xinyang de mofa guan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>劉薩訶與凉州瑞像信仰的末法觀</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Liu Sahe and the View of the Degeneration of the Dharma from the Belief on Miraculous Images in Liangzhou</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sha and Zhang 2008</title>
+        <!--<title>Sha Wutian and Zhang Shanqing 2008</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shawutian" type="personal">
+        <namePart transliteration="pinyin" type="family">Sha</namePart>
+        <namePart transliteration="pinyin" type="given">Wutian</namePart>
+        <namePart lang="zh" type="family">沙</namePart>
+        <namePart type="given" lang="zh">武田</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangshanqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Shanqing</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart type="given" lang="zh">善慶</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>Dunhuang Research</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>9</start>
+                <end>13, 115</end>
+            </extent>
+            <date>2008</date>
+        </part>
+    </relatedItem>
+</mods>

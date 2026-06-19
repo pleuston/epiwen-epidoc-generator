@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="OnishiJunko2007">
+    <titleInfo lang="ja">
+        <title>‘関野貞資料’にみるOsvald Sirén著<hi rend="italic">Chinese Sculpture from the 5th to the 14th Century</hi>成立の背景<hi rend="dash">──</hi>二〇世紀初頭における中国彫刻史研究の一側面<hi rend="dash">──</hi>
+        </title>
+        <!--<title>「関野貞資料」にみるOsvald Sirén著<hi rend="italic">Chinese Sculpture from the 5th to the 14th Century</hi>成立の背景<hi rend="dash">──</hi>二〇世紀初頭における中国彫刻史研究の一側面<hi rend="dash">──</hi></title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>‘Sekino Tadashi shiryō’ ni miru Osvald Sirén cho <hi rend="italic">Chinese Sculpture from the 5th to the 14th Century</hi> seiritsu no haikei: 20-seiki shotō ni okeru Chūgoku chōkokushi kenkyū no ichi sokumen</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Background History for the Compilation of <hi rend="italic">Chinese Sculpture from the 5th to the 14th Century</hi> by Osvald Sirén, as Recorded in ‘Sekino Tadashi Materials’—A View on Research of Chinese Sculpture History in the 20th Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōnishi 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#onishi_junko">
+        <namePart lang="ja" type="family">大西</namePart>
+        <namePart lang="ja" type="given">純子</namePart>
+        <namePart type="family">Ōnishi</namePart>
+        <namePart type="given">Junko</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BukkyoGeijutsu" type="host">
+        <titleInfo lang="ja">
+            <title>仏教芸術</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō geijutsu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">291</detail>
+            <extent unit="page">
+                <start>51</start>
+                <end>82</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

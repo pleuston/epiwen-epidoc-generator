@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dengtaishanji_Fengshike" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>登泰山記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Deng Tai Shan ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Account on Climbing Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Deng Tai Shan ji (Feng Shike)</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fengshike" type="personal">
+        <namePart transliteration="pinyin" type="family">Feng</namePart>
+        <namePart transliteration="pinyin" type="given">Shike</namePart>
+        <namePart lang="zh" type="family">馮</namePart>
+        <namePart lang="zh" type="given">時可</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Fengshike2012" type="host">
+        <titleInfo lang="zh">
+            <title>馮元成選集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2012</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>100</start>
+                <end>103</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

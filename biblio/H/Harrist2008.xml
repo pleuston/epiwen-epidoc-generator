@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Harrist2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Landscape of Words: Stone Inscriptions from Early and Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Harrist 2008</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+        </hierarchicalGeographic>
+        <topic/>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#harrist" type="personal">
+        <namePart transliteration="pinyin" type="family">Han</namePart>
+        <namePart transliteration="pinyin" type="given">Wenbin</namePart>
+        <namePart lang="zh" type="family">韓</namePart>
+        <namePart lang="zh" type="given">文彬</namePart>
+        <namePart lang="en" type="family">Harrist</namePart>
+        <namePart lang="en" type="given">Robert E. Jr.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. 24: The term moya, however, refers only to a
+        particular medium-unquarried stone that remains in its original setting. Ancient
+        theories of writing claim that the invention of Chinese characters was inspired by
+        the discovery of patterns in nature-tracks of birds, markings on the backs of tortoises,
+        or heavenly constellations.28 (: The classic formulation of this concept of the origins of writing appears in the "Postface"
+        of Xu Shen’s "Shuowen jiezi xu," 2-3. See also Chaves, "Legacy of Ts’ang Chieh.") Although these concepts of how writing originated
+        belong to the realm of myth, moya inscriptions do, in a sense, return writing
+        to nature. Other supports for writing require manufacture or exacting preparation:
+        bronze has to be cast, silk has to be woven, bamboo or wooden slips have to be
+        trimmed, and the stone for a freestanding stele must be quarried and shaped. But
+        inscriptions on cliffs or boulders, on surfaces that the landscape painter Guo Xi (ca.
+        1000-ca. 1090) called "the bones of the earth," make use of material provided directly
+        by nature itself,29 (Guo Si, "Linquan gaozhi," 639.) Not only were the surfaces for inscriptions free, but there was
+        little regulation of access to sites where they accumulated.
+        p. 276: To the list of characteristic embodiments of literati culture can be added, I
+        believe, the <hi rend="italic">moya</hi> inscriptions that began to appear in large numbers during the Song
+        period, especially in the twelfth and thirteenth centuries. Who visited scenic areas
+        and historic sites? Literati in possession of the education and cultural sophistication
+        to appreciate such excursions. By leaving behind their names at the sites they visited,
+        these men signified to a public readership their participation in activities that defined
+        their class, or the class with which they wished to be associated.</abstract>
+    <originInfo>
+        <place>
+            <placeTerm>Seattle and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Washington Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>2008</dateIssued>
+    </originInfo>
+</mods>

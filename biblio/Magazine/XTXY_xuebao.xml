@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XTXY_xuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://147.142.222.135:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xingtai xueyuan xuebao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>邢臺學院學報</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#XT_XYXB_bjb" type="corporate">
+        <namePart transliteration="pinyin">Xingtai xueyuan xuebao bianjibu</namePart>
+        <namePart lang="zh">《邢臺學院學報》編輯部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1986</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Xingtai</placeTerm>
+            <placeTerm lang="zh">邢臺</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangShouping1998" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan jingang jing jilian zhushi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山金剛經集聯注釋</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Notes on a Collection of Couplets on the <hi rend="italic">Diamond Sutra</hi> at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Shou­ping 1998</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangshouping" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">壽平</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shuxin chubanshe</namePart>
+                <namePart lang="zh">淑馨出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

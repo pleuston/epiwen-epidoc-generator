@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takatsu_Hashiguchi_Oki2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>薩摩塔研究：中国産石材による中国系石造物という視点から</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Satsuma tō kenkyū: Chūgoku san sekizai ni yoru Chūgoku kei sekizōbutsu to iu shiten
+            kara </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research in Pagodas in Satsuma: From the viewpoint of Chinese Masonry Made from
+            Chinese Stone</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takatsu, Hashiguchi and Oki 2010</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takatsu" type="personal">
+        <namePart lang="ja" type="family">高津</namePart>
+        <namePart lang="ja" type="given">孝</namePart>
+        <namePart transliteration="romaji" type="family">Takatsu</namePart>
+        <namePart transliteration="romaji" type="given">Takashi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hashiguchi" type="personal">
+        <namePart lang="ja" type="family">橋口</namePart>
+        <namePart lang="ja" type="given">亘</namePart>
+        <namePart transliteration="romaji" type="family">Hashiguchi</namePart>
+        <namePart transliteration="romaji" type="given">Wataru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#oki" type="personal">
+        <namePart lang="ja" type="family">大木</namePart>
+        <namePart lang="ja" type="given">公彦</namePart>
+        <namePart transliteration="romaji" type="family">Ōki</namePart>
+        <namePart transliteration="romaji" type="given">Kimihiko</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. 28-29: The material of base and the head of the sutra stone in Fukuoka, Munakata
+        Shrine is the same as that from 坊津 Bōnotsu in former Satsuma province (today Kagoshima). The
+        body of the stele carries a colophon reading 大宋囗囗囗年 , probably 承久二年 (1220). The stone is
+        therefore from China, Ningbo 寧波. </abstract>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kaidai_shigaku" type="host">
+        <titleInfo lang="ja">
+            <title>鹿大史学</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Kadai shigaku</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>57</number>
+            </detail>
+            <extent unit="page">
+                <start>25</start>
+                <end>38</end>
+            </extent>
+            <date>2010</date>
+        </part>
+    </relatedItem>
+</mods>

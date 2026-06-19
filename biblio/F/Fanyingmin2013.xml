@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fanyingmin2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yanzhou lidai beike lu kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>兖州歷代碑刻録考</title>
+        <!--<title>兖州歷代碑刻錄考</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Study of Yanzhou Historical Inscriptions Record</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fan Yingmin 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fanyingmin" type="personal">
+        <namePart transliteration="pinyin" type="family">Fan</namePart>
+        <namePart transliteration="pinyin" type="given">Yingmin</namePart>
+        <namePart lang="zh" type="family">樊</namePart>
+        <namePart lang="zh" type="given">英民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu chubanshe</namePart>
+                <namePart lang="zh">齊魯出版社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+    </originInfo>
+</mods>

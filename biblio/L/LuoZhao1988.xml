@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuoZhao1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zai tan ‘Qidanzang’ de diaoyin niandai</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>再談《契丹藏》的雕印年代</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Once More on the Date of the Carving of the <hi rend="italic">Qidan Canon</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhao 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhao</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">炤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenwu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文物</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">8</detail>
+            <extent unit="page">
+                <start>73</start>
+                <end>81</end>
+            </extent>
+            <date>1988</date>
+        </part>
+    </relatedItem>
+   <!-- <classification edition="LvTiegang1999">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LvTiegang1999" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <name ns2:href="#lvtiegang" type="personal">
+            <namePart lang="zh" type="family">呂</namePart>
+            <namePart lang="zh" type="given">鐵鋼</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+            <extent unit="page">
+                <start>79</start>
+                <end>103</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprinted in <ref target="LvTiegang1999" type="biblio">vol. 3, 79–103</ref>
+    </note>
+</mods>

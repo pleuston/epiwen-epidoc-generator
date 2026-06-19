@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qingjianxianzhi_Shunzhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Shunzhi〕 Qingjian xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔順治〕清澗縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Qingjian County (Shunzhi Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Qingjian xianzhi 1661</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bainaizhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Bai</namePart>
+        <namePart transliteration="pinyin" type="given">Naizhen</namePart>
+        <namePart lang="zh" type="family">白</namePart>
+        <namePart lang="zh" type="given">乃貞</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shiguozhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Shi</namePart>
+        <namePart transliteration="pinyin" type="given">Guozhen</namePart>
+        <namePart lang="zh" type="family">師</namePart>
+        <namePart lang="zh" type="given">國禎</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liaoyuanfa" type="personal">
+        <namePart transliteration="pinyin" type="family">Liao</namePart>
+        <namePart transliteration="pinyin" type="given">Yuanfa</namePart>
+        <namePart lang="zh" type="family">廖</namePart>
+        <namePart lang="zh" type="given">元發</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<originInfo>
+        <dateOther>4 vols</dateOther>
+    </originInfo>-->
+    <extension>4 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhongguo_fangzhi_ku" type="host">
+        <titleInfo lang="zh">
+            <title>中國方志庫</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi ku</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <note type="reprint">Reproduction of the 1661 edition</note>
+</mods>

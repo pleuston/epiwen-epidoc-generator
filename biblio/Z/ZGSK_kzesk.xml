@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGSK_kzesk" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo shiku: Kezi’er shiku</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國石窟·克孜爾石窟</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Caves in China: Caves at Kizil</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo shiku: Kezi’er shiku</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#XJ_wwezzq_wwglwyh" type="corporate">
+        <namePart lang="zh">新疆維吾爾自治區文物管理委員會</namePart>
+        <namePart transliteration="pinyin">Xinjiang Weiwu’er zizhiqu wenwu guanli weiyuanhui</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BCX_kze_qfd_wwbgs" type="corporate">
+        <namePart lang="zh">拜城縣克孜爾千佛洞文物保管所</namePart>
+        <namePart transliteration="pinyin">Baicheng Xian Kezi’er Qianfo Dong wenwu baoguansuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#beijing_daxue_kaoguxi" type="corporate">
+        <namePart lang="zh">北京大學考古系</namePart>
+        <namePart transliteration="pinyin">Beijing daxue kaoguxi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>3 vols.</extension>
+    <originInfo>
+        <dateIssued point="start">1989</dateIssued>
+        <dateIssued point="end">1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <!--<place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <namePart lang="ja">東京</namePart>
+        </place>-->
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō: Heibonsha</namePart>
+                <namePart lang="ja">平凡社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

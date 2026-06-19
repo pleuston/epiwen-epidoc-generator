@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BDK1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo lang="en">
+                <title>Three Chan (Zen) Classics: <hi rend="normal">The Recorded Sayings of Linji</hi>, <hi rend="normal">Wumen’s Gate</hi>, <hi rend="normal">The Faith-Mind Maxim</hi>. Taishō Volumes 47 and 48, Numbers 1985, 2005, 2010</title>   
+                
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>BDK 1999</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="ja" ns2:href="#bukkyo_dendo_kyokai" type="corporate">
+                <namePart>Bukkyō Dendō Kyōkai</namePart>
+                <role>
+                        <roleTerm>editor</roleTerm>
+                </role>
+        </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#numata_center" type="corporate">
+                <namePart>Numata Center for Buddhist Translation and Research</namePart>
+                <role>
+                        <roleTerm>editor</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>1999</dateIssued>
+                <place>
+                        <placeTerm>Berkeley</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="en">Bukkyō Dendō Kyōkai and Numata Center for Buddhist Translation and Research</namePart>
+                        </name>
+                </publisher>
+                <issuance>monographic</issuance>
+        </originInfo>
+        <relatedItem type="series">
+                <titleInfo lang="en">
+                        <title>BDK English Tripiṭaka 74-I, II, III</title>
+                </titleInfo>
+
+        </relatedItem>
+</mods>

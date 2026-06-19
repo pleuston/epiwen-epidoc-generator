@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Plassen2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Huayan Studies in the West: Some Remarks Focusing on Works Concerning the Early History of the Tradition</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Plassen 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#plassen" type="personal">
+        <namePart lang="en" type="family">Plassen</namePart>
+        <namePart lang="en" type="given">Joerg</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Hamar2007" type="host">
+        <titleInfo lang="en">
+            <title>Reflecting Mirrors: Perspectives on Huayan Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>1</start>
+                <end>18</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TheorizingRituals2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Theorizing Rituals, Volume 1: Issues, Topics, Approaches, Concepts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Theorizing Rituals 2006</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kreinath" type="personal">
+        <namePart lang="en" type="family">Kreinath</namePart>
+        <namePart lang="en" type="given">Jens</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#snoek" type="personal">
+        <namePart lang="en" type="family">Snoek</namePart>
+        <namePart lang="en" type="given">J.A.M.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#stausberg" type="personal">
+        <namePart lang="en" type="family">Stausberg</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Numen Book Series</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

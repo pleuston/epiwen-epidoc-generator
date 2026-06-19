@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Abe2002">
+  <titleInfo lang="en">
+    <title>Ordinary Images</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Abe 2002</title>
+  </titleInfo>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#abe" type="personal">
+    <namePart lang="en" type="family">Abe</namePart>
+    <namePart lang="en" type="given">Stanley K.</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued>2002</dateIssued>
+    <place>
+      <placeTerm>Chicago and London</placeTerm>
+    </place>
+    <publisher>
+      <name type="corporate">
+        <namePart lang="en">The University of Chicago Press</namePart>
+      </name>
+    </publisher>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

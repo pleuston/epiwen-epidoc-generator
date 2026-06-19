@@ -1,0 +1,68 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dantuxianzhi_Guangxu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Guangxu〕 Dantu xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔光緒〕丹徒縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Dantu County (Guangxu Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dantu xianzhi 1879</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#heshaozhang" type="personal">
+        <namePart transliteration="pinyin" type="family">He</namePart>
+        <namePart transliteration="pinyin" type="given">Shaozahng</namePart>
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">紹章</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yanglvtai" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Lvtai</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">履泰</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>64 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <originInfo>
+        <dateIssued>1975</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chengwen chubanshe</namePart>
+                <namePart lang="zh">成文出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongguoFangzhi1966_89" type="series">
+        <titleInfo lang="zh">
+            <title>中國方志叢書：華中地方<!-- 11--></title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi congshu: Huazhong difang</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>11</number>
+            </detail>
+        </part>
+        <!-- <part>
+            <detail type="volume">
+                <number>237</number>
+            </detail>
+        </part>-->
+    </relatedItem>
+    <note type="reprint">Reprint of the 1879 edition</note>
+</mods>

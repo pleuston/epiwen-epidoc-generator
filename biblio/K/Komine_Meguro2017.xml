@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Komine_Meguro2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>資料学の現在</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shiryōgaku no genzai</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Current Research on Primary Sources</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Komine and Meguro 2017</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kazuaki" type="personal">
+        <namePart lang="ja" type="family">小峯</namePart>
+        <namePart lang="ja" type="given">和明</namePart>
+        <namePart transliteration="romaji" type="family">Komine</namePart>
+        <namePart transliteration="romaji" type="given">Kazuaki</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#masashi" type="personal">
+        <namePart lang="ja" type="family">目黒</namePart>
+        <namePart lang="ja" type="given">将史</namePart>
+        <namePart transliteration="romaji" type="family">Meguro</namePart>
+        <namePart transliteration="romaji" type="given">Masashi</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">笠間書院</namePart>
+                <namePart transliteration="romaji">Kasama shoin</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="ja">
+            <title>日本文学の展望を拓く</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Nihon bungaku no tenbō o hiraku</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

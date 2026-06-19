@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yangxiao2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Local Monuments, Local Narratives: The Emergence and Development of Buddhist Rock Carvings in Northern Sichuan, 618–907 CE</title>
+        <!--<title>Structuring Localization:The Emergence and Development of Buddhist Rock Carvings in Northern Sichuan,618–907 CE</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang Xiao 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yangxiao" type="personal">
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">筱</namePart>
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Xiao</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss. <foreign lang="zh">博士學位論文</foreign>
+    </note>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm lang="de">Ruprecht-Karls-Universität Heidelberg</placeTerm>
+        </place>
+    </originInfo>
+</mods>

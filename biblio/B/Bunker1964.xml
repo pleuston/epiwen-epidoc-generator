@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bunker1964" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+   
+    <titleInfo lang="en">
+        <title>The Spirit Kings in Sixth Century Chinese Buddhist Sculpture</title>
+    </titleInfo>
+   
+    <titleInfo type="reference">
+        <title>Bunker 1964</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bunker" type="personal">
+        <namePart lang="en" type="family">Bunker</namePart>
+        <namePart lang="en" type="given">Emmy C.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Archives of the Chinese Art Society of America</title>
+        </titleInfo>
+        
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">18</detail>
+            
+            <extent unit="page">
+                <start>26</start>
+                <end>37</end>
+            </extent>
+            <date>1964</date>
+        </part>
+    </relatedItem>
+</mods>

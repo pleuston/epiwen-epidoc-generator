@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Uno_tetsuto2008">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo wenming ji</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中國文明記</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Records of Chinese Civilization</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Uno 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#Uno_tetsuto">
+        <namePart transliteration="romaji" type="family">Uno</namePart>
+        <namePart transliteration="romaji" type="given">Tetsuto</namePart>
+        <namePart lang="ja" type="family">宇野</namePart>
+        <namePart lang="ja" type="given">哲人</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#zhangxuefeng">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Xuefeng</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">學鋒</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中華書局</namePart>
+                <namePart transliteration="romaji">Zhonghua shuju</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jindairibenrenzhongguoyouji" type="series">
+        <titleInfo lang="zh">
+            <title>近代日本人中國游記</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jindai Riben ren Zhongguo youji</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

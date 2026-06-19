@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huchangjian2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+                <titleInfo transliteration="pinyin">
+                                <title>Ba Yu diqu fojiao fazhan gaishu</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                                <title>巴渝地區佛教發展概述</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                                <title>A Brief Introdcution to the Development of Buddhism in the Ba
+                                                and Yu Regions</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Hu Chang­jian 2005</title>
+                </titleInfo>
+                <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#huchangjian" type="personal">
+                                <namePart transliteration="pinyin" type="family">Hu</namePart>
+                                <namePart transliteration="pinyin" type="given">Changjian</namePart>
+                                <namePart lang="zh" type="family">胡</namePart>
+                                <namePart lang="zh" type="given">昌建</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DZ_shikeyishu_bwg2005b" type="host">
+                                <titleInfo transliteration="pinyin">
+                                                <title>Zhongguo Chongqing Dazu shike guoji xueshu
+                                                  yantaohui ji Dazu shike shouci kexue kaocha 60
+                                                  zhounian jinanhui lunwen huibian</title>
+                                </titleInfo>
+                                <titleInfo lang="zh">
+                                                <title>中国重庆大足石刻国际学术研讨会暨大足石刻首次科学考察60周年纪念会
+                                                  论文汇编</title>
+                                </titleInfo>
+                                <originInfo>
+                                                <dateIssued>2005</dateIssued>
+                                                <issuance>monographic</issuance>
+                                </originInfo>
+                                <part>
+                                                <extent unit="page">
+                                                  <start>97</start>
+                                                  <end>142</end>
+                                                </extent>
+                                </part>
+                </relatedItem>
+</mods>

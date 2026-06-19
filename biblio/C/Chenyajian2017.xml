@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chenyajian2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo fojiao jingta xieben liubian kao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國佛教經塔寫本流變考</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+      <title>An Investigation on the Evolution of Pagoda Shaped Sutra Writings</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Yajian 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenyajian" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Yajian</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">亞建</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Meishuyusheji" type="host">
+        <titleInfo lang="zh">
+            <title>美術與設計</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Meishu yu sheji</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2017</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>104</start>
+                <end>108</end>
+            </extent>
+           
+        </part>
+    </relatedItem>
+</mods>

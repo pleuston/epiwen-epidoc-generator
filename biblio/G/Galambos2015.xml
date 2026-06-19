@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Galambos2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Manuscripts and Printing: East Asia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Galambos 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#galambos" type="personal">
+        <namePart lang="en" type="family">Galambos</namePart>
+        <namePart lang="en" type="given">Imre</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BEB_1" type="host">
+        <titleInfo>
+            <title>Brill’s Encyclopedia of Buddhism, Volume 1: Literature and Languages</title>
+        </titleInfo>
+        <name ns2:href="#silk" type="personal">
+            <namePart lang="de" type="family">Silk</namePart>
+            <namePart lang="de" type="given">Jonathan A.</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+            <place>
+                <placeTerm>Leiden</placeTerm>
+                <placeTerm>Boston</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Brill</namePart>
+                </name>
+            </publisher>
+            <dateIssued>2015</dateIssued>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>968</start>
+                <end>978</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

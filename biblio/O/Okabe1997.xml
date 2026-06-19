@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okabe1997" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>民衆佛教の位相<hi rend="dash">──</hi>僞經の命運をたどって</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Minshū Bukkyō no isō: Gikyō no meiun o tadotte</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Phases of Popular Buddhism: Tracing the Fate of Apocryphal Scriptures</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okabe 1997</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#okabe" type="personal">
+        <namePart lang="ja" type="family">岡部</namePart>
+        <namePart lang="ja" type="given">和雄</namePart>
+        <namePart transliteration="romaji" type="family">Okabe</namePart>
+        <namePart transliteration="romaji" type="given">Kazuo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Takasaki-Kimura1997" type="host">
+        <titleInfo lang="ja">
+            <title>新佛教の興隆<hi rend="dash">──</hi>東アジアの佛教思想II</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shin Bukkyō no kōryū: Higashiajia no Bukkyō shisō II</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Rise of New Buddhism: Buddhist Philosophy in East Asia II</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>185</start>
+                <end>226</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChunhuaXianzhi_QianLong_Yenching" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>[Qianlong] Chunhua xianzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔乾隆〕淳化縣志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Chunhua County (Qianlong Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chunhua xianzhi 1784</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hongliangji" type="personal">
+        <namePart lang="zh" type="family">洪</namePart>
+        <namePart lang="zh" type="given">亮吉</namePart>
+        <namePart transliteration="pinyin" type="family">Hong</namePart>
+        <namePart transliteration="pinyin" type="given">Liangji</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wantingshu" type="personal">
+        <namePart lang="zh" type="family">萬</namePart>
+        <namePart lang="zh" type="given">廷樹</namePart>
+        <namePart transliteration="pinyin" type="family">Wan</namePart>
+        <namePart transliteration="pinyin" type="given">Tingshu</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>30 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">30</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1784</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Preserved in the Harvard–Yenching Library</note>
+</mods>

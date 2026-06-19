@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa1997a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山雲居寺静琬的後繼者與石經堂</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan Yunju Si Jingwan de houjizhe yu shijing Tang</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Successors of Jingwan of Cloud Dwelling Monastery at Fangshan and the Stone Sutra
+            Hall</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 1997a</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori </namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZhouShaoliang_Festschrift90" type="host">
+        <titleInfo lang="zh">
+            <title>周紹良先生欣開九秩慶壽文集集</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhou Shaoliang xiansheng xin kai jiuzhi qingshou wenji</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Festschrift of Zhou Shaoliang: on the Ocassion of his 90th Birthday</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1997</dateIssued>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                    <namePart lang="zh">中華書局</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>294</start>
+                <end>306</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

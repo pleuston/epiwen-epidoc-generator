@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Goto1933" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那の體臭</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina no taishū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Body Odor of China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gotō 1933</title>
+    </titleInfo>
+    <abstract>[Taishan][JSY][Diamond Sutra]:
+        Gotō mentions the JSY among the places that one has to visit when climbing the Taishan. See p. 148 in the sub-chapter “Tozankyaku ni shinsetsu (?) na niko 登山客に親切な（？）尼姑 [The Bhikṣuṇī that is Friendly (?) to Mountain Climbers]”, pp. 146-149 in: “Amadera no yūshu 尼寺の幽趣 [The Quiet Atmosphere of Nunneries]”, pp. 133-157.
+        
+        尼寺の訪問も、泰山の斗母宮くらゐその背景の雄大にして、而かも歷史の長いところはなく、その登山みちの廻馬嶺、珍珠瀑、經石峪（金剛般若經の石刻のあるところ）など觀るべきものも相當に多い。この斗母宮の尼寺氣分は一層澁味が深いやうに感ぜられる。</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#goto" type="personal">
+        <namePart lang="ja" type="family">後藤</namePart>
+        <namePart lang="ja" type="given">朝太郎</namePart>
+        <namePart transliteration="romaji" type="family">Gotō</namePart>
+        <namePart transliteration="romaji" type="given">Asatarō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1933</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart transliteration="romaji">Hanbunsha</namePart>
+            <namePart lang="ja">汎文社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

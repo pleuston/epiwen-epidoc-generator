@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HeMei1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="zh">
+                        <title>房山石經與 ‘隨函録,’ ‘契丹藏,’ ‘開元録’ 的關係之探討</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Fangshan shijing yu ‘Suihanlu,’ ‘Qidanzang,’ ‘Kaiyuanlu’ de guanxi zhi tantao</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Investigations in the Relationship Between the Fangshan Stone Sutras and the "Suihan Catalogue", the "Qidan Canon", and the "Kaiyuan Catalogue"</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>He Mei 1996</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hemei" type="personal">
+                        <namePart lang="zh" type="family">何</namePart>
+                        <namePart lang="zh" type="given">梅</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#FoxueYanjiu" type="host">
+                        <titleInfo lang="zh">
+                                    <title>佛學研究</title>
+                        </titleInfo>
+                        <titleInfo transliteration="pinyin">
+                                    <title>Foxue yanjiu</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                <part>
+                    <date>1996</date>
+                    <detail type="volume">5</detail>
+                    
+                    <extent unit="page">
+                        <start>262</start>
+                        <end>272</end>
+                    </extent>
+                </part>
+                        
+            </relatedItem>
+</mods>

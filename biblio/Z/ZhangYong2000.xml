@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangYong2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Fu dashi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>傅大士研究</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Study of Mahāsattva Fu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Yong 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangyong" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Bashu shushe</namePart>
+                <namePart lang="zh">巴蜀書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="zh">
+            <title>中國古典文獻學研究叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo gudian wenxianxue yanjiu congshu</title>
+        </titleInfo>
+       
+    </relatedItem>
+</mods>

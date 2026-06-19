@@ -1,0 +1,67 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Cao_Yu2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>四川安岳卧佛院唐代刻經窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan Anyue Wofo Yuan Tang dai kejing ku</title>
+        <!--<title>Sichuan Anyue Wofoyuan Tangdai kejingku</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Tang Dynasty Sutra Caves at Wofo Yuan in Anyue</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cao Dan and Yu Chun 2009</title>
+        <!--<title>Cao and Yu 2009</title>-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#caodan" type="personal">
+        <namePart transliteration="pinyin" type="family">Cao</namePart>
+        <namePart transliteration="pinyin" type="given">Dan</namePart>
+        <namePart lang="zh" type="family">曹</namePart>
+        <namePart lang="zh" type="given">丹</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yuchun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yu</namePart>
+        <namePart transliteration="pinyin" type="given">Chun</namePart>
+        <namePart lang="zh" type="family">于</namePart>
+        <namePart lang="zh" type="given">春</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sichuan_wenwu_kaogu_yjy" type="corporate">
+        <namePart transliteration="pinyin">Sichuan Sheng wenwu kaogu yanjiuyuan</namePart>
+        <namePart lang="zh">四川省文物考古研究院</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fanyong" type="personal">
+        <namePart transliteration="pinyin" type="family">Fan</namePart>
+        <namePart transliteration="pinyin" type="given">Yong</namePart>
+        <namePart lang="zh" type="family">范</namePart>
+        <namePart lang="zh" type="given">勇</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <abstract/>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">天地出版社</namePart>
+                <namePart transliteration="pinyin">Tiandi chubanshe</namePart>
+                <!--<namePart lang="zh">四川出版集團·天地出版社</namePart>
+                <namePart transliteration="pinyin">Sichuan chuban jituan, Tiandi chubanshe</namePart>-->
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">成都</placeTerm>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+        </place>
+    </originInfo>
+</mods>

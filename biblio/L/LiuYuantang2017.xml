@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuYuantang2017" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan Jingshi Yu shi zi quebi wenti</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山經石峪世字缺筆問題</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Problem of Missing Strokes in the Character <hi rend="italic">shi</hi> in
+            Stone Sutra Valley at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Yuan­tang 2017</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuyuantang" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Yuantang</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">元堂</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#GuoxueChazuo" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Guoxue chazuo</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>國學茶座</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2017</date>
+            <detail type="volume">14</detail>
+            <extent unit="page">
+                <start>93</start>
+                <end>95</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

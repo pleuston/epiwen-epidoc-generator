@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yangxueyong2010" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="zh"><title>三階教史研究<hi rend="dash">──</hi>以敦煌資料爲中心</title></titleInfo><titleInfo transliteration="pinyin"><title>Sanjiejiao shi yanjiu: yi Dunhuang ziliao wei zhongxin</title></titleInfo><titleInfo lang="en" type="translated"><title>Study of the History of the Three Levels Teaching with a Focus on Dunhuang Material</title></titleInfo><titleInfo type="reference"><title>Yang Xue­yong 2010</title></titleInfo><name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangxueyong" type="personal"><namePart lang="zh" type="family">楊</namePart><namePart lang="zh" type="given">學勇</namePart><role><roleTerm>author</roleTerm></role></name><note type="thesis">Ph.D. diss. 
+        <foreign lang="zh">博士學位論文</foreign></note><originInfo><dateIssued>2010</dateIssued><!-- <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">蘭州大學</namePart>
+                <namePart transliteration="pinyin">Lanzhou daxue</namePart>
+            </name>
+        </publisher>--><place><placeTerm lang="zh">蘭州大學</placeTerm><placeTerm transliteration="pinyin">Lanzhou Daxue</placeTerm></place></originInfo></mods>

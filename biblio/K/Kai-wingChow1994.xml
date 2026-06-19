@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Kai-wingChow1994">
+    <titleInfo lang="en">
+        <title>The Rise of Confucian Ritualism in Late Imperial China: Ethics, Classics, and Lineage Discourse</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chow 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kai-wingChow" type="personal">
+        <namePart lang="en" type="family">Chow</namePart>
+        <namePart lang="en" type="given">Kai-wing</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm>Stanford, California</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Stanford University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

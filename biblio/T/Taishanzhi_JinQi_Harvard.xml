@@ -1,0 +1,58 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishanzhi_JinQi_Harvard" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan zhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Gazetteer of Mount Tai</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>泰山志 1810</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Tai Shan zhi 1810</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tai Shan zhi">
+        <title>Tai Shan zhi 1810</title>
+    </titleInfo>
+    <subject>
+        <topic>Tai Shan</topic>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jinqi" type="personal">
+        <namePart lang="zh" type="family">金</namePart>
+        <namePart lang="zh" type="given">棨</namePart>
+        <namePart transliteration="pinyin" type="family">Jin</namePart>
+        <namePart transliteration="pinyin" type="given">Qi</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>20 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">20</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1810</dateIssued>
+      <dateOther qualifier="approximate">Compiled 1795–1798</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Tai’an</placeTerm>
+            <placeTerm lang="zh">泰安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Dai Miao</namePart>
+                <namePart lang="zh">岱廟</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Copy with Sun Xingyan’s <foreign lang="zh">孫星衍</foreign> preface of 1810 extant in the Harvard–Yenching Library; woodblocks of 1808 made in Changzhou <foreign lang="zh">常州</foreign>, Jiangsu Province, preserved in the Tai’an Municipal Museum <foreign lang="zh">泰安市博物館</foreign>
+    </note>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenHuaiyu2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+   
+    <titleInfo lang="en">
+        <title>A Study on a Stone Lantern from Dongzhang Village in Medieval China</title>
+    </titleInfo>
+  
+    <titleInfo type="reference">
+        <title>Chen Huaiyu 2019</title>
+    </titleInfo>
+    <abstract>Dieser Aufsatz widmet sich der Dongzhang Village stone lantern in Dai County aus der kaiyuan Ära, mit Votiv- und Restaurierungsinschrift von 997. Die stone lantern wird auch von Lin Wei-Cheng in seinem Wutai Shan Buch Linweicheng2014 behandelt. Chen Huaiyu schreibt kein schönes Englisch, der Textaufbau ist unstrukturiert, und seine Übersetzung der Votivinschrift (ohne chinesische Transkription) ist nahezu unverständlich. Er widerspricht sich selbst in seiner Analyse der recht umfangreichen Votivinschrift. In der Inschrift taucht die Bezeichnung Bright Light Pavilion guangming tai 光明台 auf, a technical term attested in the Avatamsaka. "The stone lantern was not created by the Buddhist canon." Das sagt wohl alles. Der Mann kann nix.</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenhuaiyu" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">懷宇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <language>
+        <languageTerm>en</languageTerm>
+    </language>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Studies in Chinese Religions</title>
+        </titleInfo>
+       
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">5</detail>
+            <detail type="no">3–4</detail>
+            <extent unit="page">
+                <start>306</start>
+                <end>329</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

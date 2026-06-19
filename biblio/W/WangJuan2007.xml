@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangJuan2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Foming jingdian he fojiao lichan de guanxi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>佛名經典和佛教禮懺的關係</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Relationship Between Buddha-Name <foreign xml:lang="sa">Sūtras</foreign> and
+            Buddhist Repentance Rituals</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Juan 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangjuan" type="personal">
+        <namePart type="family">汪</namePart>
+        <namePart type="given">娟</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#DhamaDrumJournal" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Fagu foxue xuebao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>法鼓佛學學報</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">Dhama Drum Journal of Buddhist Studies</titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>35</start>
+                <end>69</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

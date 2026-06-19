@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhaoZhou2010a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Hebei Sheng Quyang Xian Bahui Si shijing kan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>河北省曲陽縣八會寺石經龕</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Stone Sutra Shrine at Bahui Monastery in Quyang County, Hebei</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao Zhou 2010</title>
+    </titleInfo>
+    <abstract>Official English translation: A Huge Block of Stone with Engraved Buddhist Texts at the Bahuisi Temple in the County Quyang of Hebei Province</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhaozhou" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Zhou</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">洲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shikusiyanjiu2010" type="host">
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shiku Si yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石窟寺研究</title>
+        </titleInfo>
+        <part>
+            <date>2010</date>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>10</start>
+                <end>61</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

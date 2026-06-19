@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Rhie1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Early Buddhist art of China and Central Asia, vol. 1</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Rhie 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" lang="en" ns2:href="#rhie" type="personal">
+        <namePart type="family">Rhie</namePart>
+        <namePart type="given">Marylin Martin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlinks" type="series">
+        <titleInfo lang="en">
+            <title>Handbuch der Orientalistik</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm>Leiden</placeTerm>
+        </place>
+        <publisher>Brill</publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

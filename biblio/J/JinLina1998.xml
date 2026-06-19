@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JinLina1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Guanyu 6 shiji Zhongguo qi zun xiang zhong de luoji xiang zhi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>關於6世紀中國七尊像中的螺髻像之研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of Figures with a Conch-Tuft in Groups of Senem Figures in Sixth-Century China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jin Lina 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jinlina" type="personal">
+        <namePart transliteration="pinyin" type="family">Jin</namePart>
+        <namePart transliteration="pinyin" type="given">Lina</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">莉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hongqilong" type="personal">
+        <namePart transliteration="pinyin" type="family">Hong</namePart>
+        <namePart transliteration="pinyin" type="given">Qilong</namePart>
+        <namePart lang="zh" type="family">洪</namePart>
+        <namePart lang="zh" type="given">起龍</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DunhuangYanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1998</date>
+           
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>xx</start>
+                <end>xx</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Baishichangqingji1965">
+    <titleInfo transliteration="pinyin">
+        <title>Bai shi changqing ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>白氏長慶集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Works by Bai (Juyi) from the <hi rend="italic">changqing</hi> Era (821–824)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bai shi chang­qing ji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#baijuyi" type="personal">
+        <namePart lang="zh" type="family">白</namePart>
+        <namePart lang="zh" type="given">居易</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuanzhen" type="personal">
+        <namePart lang="zh" type="family">元</namePart>
+        <namePart lang="zh" type="given">稹</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateIssued>1965</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Taiwan shangwu yinshuguan</namePart>
+                <namePart lang="zh">臺灣商務印書館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the downscaled edition by the Shanghai Commercial Press after a
+        Japanese moveable type print preserved in the Jiangnan Library</note>
+</mods>

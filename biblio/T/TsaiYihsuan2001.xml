@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TsaiYihsuan2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo transliteration="pinyin">
+    <title>Yuemu: Zhongguo wanqi shuhua (tuban pian, <!--·-->jieshuo pian)</title>
+  </titleInfo>
+  <titleInfo lang="zh">
+    <title>悦目：中國晚期書畫（圖版篇·<!--·-->解説篇）</title>
+  </titleInfo>
+  <titleInfo lang="en" type="translated">
+    <title>Enchanting Images: Late Chinese Painting and Calligraphy<!-- from the Shih-t’ou Shu-wu Collection--></title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Tsai Yihsuan 2001</title>
+  </titleInfo>
+  <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsaiyihsuan" type="personal">
+    <namePart type="family">蔡</namePart>
+    <namePart type="given">宜璇</namePart>
+    <namePart type="family">Tsai</namePart>
+    <namePart type="given">Yihsuan</namePart>
+    <role>
+      <roleTerm>editor</roleTerm>
+    </role>
+  </name>
+  <originInfo>
+    <dateIssued>2001</dateIssued>
+    <place>
+      <placeTerm transliteration="pinyin">Taibei</placeTerm>
+      <placeTerm lang="zh">臺北</placeTerm>
+    </place>
+    <publisher>
+      <name type="corporate">
+        <namePart transliteration="pinyin">Shitou chuban gufen youxian gongsi</namePart>
+        <namePart lang="zh">石頭出版股份有限公司</namePart>
+      </name>
+    </publisher>
+    <issuance>monographic</issuance>
+  </originInfo>
+</mods>

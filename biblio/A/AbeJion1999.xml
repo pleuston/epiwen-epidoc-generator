@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="AbeJion1999">
+    <titleInfo lang="ja">
+        <title>金剛般若經の思想的研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kongō hannya kyō no shisōteki kenkyū</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Ideological Study on the <hi rend="italic">Diamond Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Abe Jion 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#abe_jion">
+        <namePart type="family" lang="ja">阿部</namePart>
+        <namePart type="given" lang="ja">慈園</namePart>
+        <namePart transliteration="romaji" type="family">Abe</namePart>
+        <namePart transliteration="romaji" type="given">Jion</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">春秋社</namePart>
+                <namePart transliteration="romaji">Shunjūsha</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

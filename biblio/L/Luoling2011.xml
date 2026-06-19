@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Luoling2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sanxia diyu foxue sixiangjia Huian chanshi shengping shiji sanlun</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>三峽地域佛學思想家慧安禪師生平事迹散論</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Introduction to Hui’an’s Buddhist Life</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Ling 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luoling" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Ling</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">凌</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Sanxialuntan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Sanxia luntan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>三峽論壇</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>76</start>
+                <end>80,148</end>
+            </extent>
+            <date>2011</date>
+        </part>
+    </relatedItem>
+   
+</mods>

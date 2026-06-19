@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yuetianlei2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Gao Gong yanjiu wenji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>高拱研究文集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Papers on Gao Gong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yue Tianlei 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuetianlei" type="personal">
+        <namePart lang="zh" type="family">岳</namePart>
+        <namePart lang="zh" type="given">天雷</namePart>
+        <namePart transliteration="pinyin" type="family">Yue</namePart>
+        <namePart transliteration="pinyin" type="given">Tianlei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011<!--2000--></dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+            <placeTerm lang="zh">鄭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongzhou guji chubanshe</namePart>
+                <namePart lang="zh">中州古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

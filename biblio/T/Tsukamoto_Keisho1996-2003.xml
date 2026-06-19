@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto_Keisho1996-2003" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>インド佛教碑銘の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Indo Bukkyō himei no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Comprehensive Study<!--Survey--> of the Indian Buddhist Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto Keishō 1996–2003</title>
+    </titleInfo>
+    <note>Vol. 1: TEXT, NOTE, Wayaku TEXT, NOTE, 和尺 [Part I: Text, Notes and Japanese Translation], 1996.
+        Vol. 2: Sakuin, zuhan 索引·圖版 [Part II: Indices, Maps and Illustrations], 1998.
+        Vol. 3: Pakisutan hoppō chiiki no kokubun パキスタン北方地域の刻文 [Part III: Inscriptions in Northern Areas, Pakistan], 2003.</note>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tsukamoto_keisho" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">啓祥</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Keishō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1996</dateIssued>
+        <dateIssued point="end">2003</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Heirakuji shoten</namePart>
+                <namePart lang="ja">平樂寺書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

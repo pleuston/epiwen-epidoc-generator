@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShiXingbang1989" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>法門寺地宫珍寶</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Famen Si digong zhenbao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Precious Cultural Relics in the Crypt of Famen Temple</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi Xing­bang 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shixingbang" type="personal">
+        <namePart lang="zh" type="family">史</namePart>
+        <namePart lang="zh" type="given">興邦</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1989</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanxi renmin meishu chubanshe</namePart>
+                <namePart lang="zh">陝西人民美術出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Strickmann1977" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Mao Shan Revelations: Taoism and the Aristocracy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Strickmann 1977</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#strickmann" type="personal">
+        <namePart lang="en" type="family">Strickmann</namePart>
+        <namePart lang="en" type="given">Michel</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo transliteration="wade-giles">
+            <title>T’oung Pao: International Journal of Chinese Studies</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>通報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">63</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>64</end>
+            </extent>
+            <date>1977</date>
+        </part>
+    </relatedItem>
+</mods>

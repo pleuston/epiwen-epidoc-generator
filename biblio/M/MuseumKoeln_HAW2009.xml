@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="MuseumKoeln_HAW2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Centenary of the Museum of East Asian Art Cologne. The Heart of Enlightenment: Buddhist Art
+            in China 550–600</title>
+    </titleInfo>
+    <titleInfo lang="de">
+        <title>100 Jahre Museum für Ostasiatische Kunst Köln. Das Herz der Erleuchtung:Buddhistische Kunst in
+            China 550–600</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Museum Köln and HAW 2009</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#koeln_museum" type="corporate">
+        <namePart lang="de">Museum für Ostasiatische Kunst Köln</namePart>
+        <namePart lang="en" type="translated">Museum of East Asian Art Cologne</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hd_akademie" type="corporate">
+        <namePart lang="de">Heidelberger Akademie der Wissenschaften</namePart>
+        <namePart lang="en" type="translated">Heidelberg Academy of Sciences and Humanities</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm lang="de">Köln</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Museum für Ostasiatische Kunst Köln</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

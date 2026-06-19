@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZG_kaoguxue_yanjiu_lunji1987" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國考古學研究論集<hi rend="dash">──</hi>紀念夏鼐先生考古五十周年</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo kaoguxue yanjiu lunji: jinian Xia Nai xiansheng kaogu wushi zhounian</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Collection of Reseach Articles on Archaeology in China: In Memory of Xia Nai on His Fiftieth Anniversary in Archaeology</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo kaoguxue yanjiu lunji 1987</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_kaoguxue_yj_bwh" type="corporate">
+        <namePart transliteration="pinyin">
+            <hi rend="italic">Zhongguo kaoguxue yanjiu</hi> bianweihui</namePart>
+        <namePart lang="zh">《中國考古學研究》編委會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1987</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">三秦出版社</namePart>
+                <namePart transliteration="pinyin">Sanqin chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nichiren_kyogaku" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>日蓮教学研究所紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Nichiren kyōgaku kenkyūjo kiyō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Journal of Nichiren Buddhism</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#rissho_daigaku" type="corporate">
+        <namePart lang="ja">立正大學日蓮教学研究所</namePart>
+        <namePart transliteration="romaji">Risshō daigaku Nichiren kyōgaku kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1973</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

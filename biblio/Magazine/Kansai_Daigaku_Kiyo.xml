@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kansai_Daigaku_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>關西大學中國文學會紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kansai daigaku Chūgoku bungakukai kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Records of the Chinese Literature Meetings of Kansai University</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#KansaiDaigaku_kenkyuka" type="corporate">
+        <namePart lang="ja">関西大学大学院東アジア文化研究科</namePart>
+        <namePart transliteration="romaji">Kansai daigaku daigakuin Higashiajia bunka kenkyūka</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968-</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart lang="ja">関西大学大学院東アジア文化研究科</namePart>
+                <namePart transliteration="romaji"/>
+        </name>Kansai daigaku daigakuin Higashiajia bunka kenkyūka</publisher>
+    </originInfo>
+</mods>

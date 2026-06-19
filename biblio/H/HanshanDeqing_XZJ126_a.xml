@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HanshanDeqing_XZJ126_a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>紫柏尊者全集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zibo zunzhe quanji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Reverend Zibo</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Hanshan Deqing_a">
+        <title>Hanshan Deqing a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanshandeqing" type="personal">
+        <namePart lang="zh">憨山德清</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form/>
+        <extent>30 fascicles</extent>
+    </physicalDescription>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Xuzangjing" type="host">
+        <titleInfo lang="zh">
+            <title>續藏經</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xuzangjing</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <title>126</title>
+            </detail>
+            <extent unit="page">
+                <start>0619</start>
+                <end>1061</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JYG_SCZL_yanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>嘉峪關與絲綢之路歷史文化研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jiayuguan yu Sichou zhi lu lishi wenhua yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Study of History and Culture of the Jiayu Pass and the Silk Road</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jiayuguan yu Sichou zhi lu lishi wenhua yanjiu</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zg_jygsw_xcb" type="corporate">
+        <namePart transliteration="pinyin">Zhonggong Jiayuguan shiwei xuanchuanbu</namePart>
+        <namePart lang="zh">中共嘉峪關市委宣傳部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gansu_lsxh" type="corporate">
+        <namePart transliteration="pinyin">Gansu Sheng lishi xuehui</namePart>
+        <namePart lang="zh">甘肅省歷史學會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+            <placeTerm lang="zh">蘭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Gansu jiaoyu chubanshe</namePart>
+                <namePart lang="zh">甘肅教育出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

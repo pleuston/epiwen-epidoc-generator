@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FufengXian_shikeji" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>扶風縣石刻記</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fufeng Xian shike ji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Report on Stone Inscriptions in Fufeng County</title>
+    </titleInfo>
+   
+    <titleInfo lang="en" type="reference" displayLabel="Fufeng jinshi ji">
+        <title>Fufeng Xian shike ji</title>
+    </titleInfo>
+    
+   
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangshugu" type="personal">
+        <namePart lang="zh" type="family">黃</namePart>
+        <namePart lang="zh" type="given">樹穀</namePart>
+        <namePart type="date">middle of the eigtheenth century</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <issuance>monographic</issuance>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>23</number>
+            </detail>
+            <extent unit="page">
+                <start>17211</start>
+                <end>17227</end>
+            </extent>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kanda_Nishikawa1972b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hokusei Senshūra no hi/Suigyūzan monju hannya kyō no hi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>北齊：隽脩羅碑／水牛山文殊般若經碑</title>
+        <!--<title>北斉　雋脩羅碑／水牛山文殊般若経碑</title>-->
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Northern Qi: The Stele for Juan Xiuluo/The <hi rend="italic">
+                <foreign xml:lang="sa">Mañjuśrī Prajñā</foreign> Sutra</hi> Stele of Mount Shuiniu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nishikawa and Kanda 1972</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nishikawa" type="personal">
+        <namePart transliteration="romaji" type="family">Nishikawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasushi</namePart>
+        <namePart lang="ja" type="family">西川</namePart>
+        <namePart lang="ja" type="given">寧</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanda" type="personal">
+        <namePart transliteration="romaji" type="family">Kanda</namePart>
+        <namePart transliteration="romaji" type="given">Kiichirō</namePart>
+        <namePart lang="ja" type="family">神田</namePart>
+        <namePart lang="ja" type="given">喜一郎</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+     </name>
+     <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shoseki_meihin_sokan" type="series">
+        <titleInfo transliteration="hepburn">
+            <title>Shoseki meihin sōkan</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>書迹名品叢刊</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1972</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                      <namePart transliteration="romaji">Nigensha</namePart>
+                      <namePart lang="ja">二玄社</namePart>
+                  </name>
+             </publisher>
+         </originInfo>
+         <part>
+             <detail type="volume">
+                 <number>175</number>
+             </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,27 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hiraizumi_bunka_kenkyu_senta_nenpo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>平泉文化研究センター年報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hiraizumi bunka kenkyū sentā nenpō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annual Report of the Center for Hiraizumi Studies</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>2013-</dateIssued>
+        <dateIssued encoding="marc" point="start">2013</dateIssued>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Morioka</placeTerm>
+            <placeTerm lang="ja">盛岡</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">岩手大学平泉文化研究センター</namePart>
+                <namePart transliteration="romaji">Iwate daigaku Hiraizumi bunka kenkyū sentā</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

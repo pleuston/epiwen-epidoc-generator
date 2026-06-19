@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Oda_Tokuno1920" xsi:schemaLocation="http://www.loc.gov/mods/v3      http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教大辭典<!--
+            Alternatives:
+            仏教大辞典
+            補訂佛教大辞典--></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō dai jiten<!--
+            Alternatives:
+            Hotei Bukkyō dai jiten--></title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Oda_Tokuno1920">
+        <title>Oda Tokuno 1920</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Great Dictionary of Buddhism</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#oda_tokuno" type="personal">
+        <namePart transliteration="romaji" type="family">Oda</namePart>
+        <namePart transliteration="romaji" type="given">Tokunō</namePart>
+        <namePart lang="ja" type="family">織田</namePart>
+        <namePart lang="ja" type="given">得能</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource collection="yes"/>
+    <part>
+        <detail type="version">
+            <number>5</number>
+        </detail>
+    </part>
+    <originInfo>
+            <dateIssued>1920</dateIssued>
+            <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Ōkura shoten</namePart>
+                <namePart lang="ja">大倉書店</namePart>
+            </name>
+        </publisher>
+            <extent/>
+    </originInfo>
+</mods>

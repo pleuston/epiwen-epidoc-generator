@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouQi2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mingdai fojiao yu zhengzhi wenhua</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>明代佛教與政治文化</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhism and Political Culture in the Ming Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Qi 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ZhouQi" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Qi</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">齊</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2005</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Renming chubanshe</namePart>
+                <namePart lang="zh">人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <edition>First published in 1981, second edition 2000, third edition 2006.</edition>
+</mods>

@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CASS2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sui Renshou Gong, <!--<hi rend="smaller">•</hi>-->Tang Jiucheng Gong—kaogu fajue baogao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>隋仁壽宫，<!--<hi rend="smaller">•</hi>-->唐九成宫<hi rend="dash">──</hi>考古發掘報告
+            </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Renshou Palace of the Sui, <!--<hi rend="smaller">•</hi> -->Jiucheng Palace of the Tang—Reports on the Archaeological Excavations</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>CASS 2008</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#cass_kaogusuo" type="corporate">
+        <namePart transliteration="pinyin">Zhongguo shehui kexueyuan kaogu yanjiusuo</namePart>
+        
+        <namePart lang="zh">中國社會科學院考古研究所</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">科學出版社</namePart>
+                <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+   
+</mods>

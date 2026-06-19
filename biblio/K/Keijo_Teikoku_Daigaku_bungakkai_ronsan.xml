@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Keijo_Teikoku_Daigaku_bungakkai_ronsan" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>京城帝國大學文學會論纂 第7輯</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Keijō teikoku daigaku bungakukai ronsan. Dai 7-shū</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Bulletin of Literature Association, Keijō Imperial University. Vol. 7</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Keijō teikoku daigaku bungakukai 1939–1941</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#acker" type="personal">
+        <namePart lang="en" type="family">Acker</namePart>
+        <namePart lang="en" type="given">William Reynolds Beal</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued qualifier="others">1954, 1974</dateIssued>
+        <place>
+            <placeTerm lang="en">Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Brill</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <extension>2 vols</extension>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="SinicaLeidensia" type="series">
+        <titleInfo lang="en">
+            <title>Sinica Leidensia 8, 12</title>
+        </titleInfo>
+        <!--part>
+            <detail type="volume">
+                <number>8</number>
+                <number>12</number>
+            </detail>
+        </part-->
+    </relatedItem>
+</mods>

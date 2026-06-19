@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangLintang2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>響堂山石窟碑刻題記總録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xiangtang Shan shiku beike tiji zonglu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>General Catalog of the Steles, Inscriptions, and Colophons at the Xiangtang Shan
+            Caves</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang <!--Lin­tang--> and Xu 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhanglintang" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">林堂</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xupeilan" type="personal">
+        <namePart lang="zh" type="family">許</namePart>
+        <namePart lang="zh" type="given">培蘭</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <abstract>publishes rubbings and transcriptions</abstract>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Waiwen chubanshe</namePart>
+                <namePart lang="zh">外文出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+        <edition/>
+    </originInfo>
+</mods>

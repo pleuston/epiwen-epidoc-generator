@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="keyuanwencun">
+    <titleInfo transliteration="pinyin">
+    <title>Ke Yuan wencun</title>
+</titleInfo>
+    <titleInfo lang="zh">
+        <title>可園文存</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Ke Garden</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ke Yuan wencun</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenzuolin" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Zuolin</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">作霖</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenhai chubanshe</namePart>
+                <namePart lang="zh">文海出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JDZGSLCK" type="series">
+        <titleInfo lang="zh">
+            <title>近代中國史料叢刊·第二十九輯</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jindai Zhongguo shiliao congkan: di ershijiu ji</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>284</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1909 edition</note>
+</mods>

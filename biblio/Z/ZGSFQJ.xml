@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZGSFQJ" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>中國書法全集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo shufa quanji</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Compendium of Chinese Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhongguo shufa quanji 1991</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuzhengcheng" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">正成</namePart>
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhengcheng</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">
+                <number>100</number>
+            </detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1991</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Rongbaozhai</namePart>
+                <namePart lang="zh">榮寶齋</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

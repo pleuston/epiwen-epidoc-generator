@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TaianGuanlichu1964" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <classification>archivedocuments</classification>
+    <titleInfo transliteration="pinyin">
+        <title>Tai’an zhuanshu Tai Shan guanlichu 1964 nian gongzuo jihua gangyao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰安專署泰山管理處1964年工作計劃綱要</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Outline of the 1964 Work Plan of the Special Bureau of Tai’an, Tai Shan Administration Office</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan guanlichu 1964</title>
+    </titleInfo>
+    <note type="archivedocuments">Handwritten document held in the Tai’an City Archives <foreign lang="zh">泰安市檔案館<!--館藏檔案--></foreign>
+    </note>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taishanguanlichu" type="corporate">
+        <namePart lang="zh" type="family"/>
+        <namePart lang="zh" type="given"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Tai’an</placeTerm>
+            <placeTerm lang="zh">泰安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zheng xie Shandong sheng Tai’an shi Taishan qu wenshi ziliao weiyuanhui</namePart>
+                <namePart lang="zh">政協山東省泰安市泰山區文史資料委員會</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo-->
+</mods>

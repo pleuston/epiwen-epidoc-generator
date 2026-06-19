@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiYuqi2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>漫談犍陀羅雕刻中的涅槃與荼毗圖像：以四件展物爲中心</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Mantan Jiantuoluo diaoke zhong de niepan yu tupi tuxiang: yi sijian zhanwu wei zhongxin</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Discussion of Nirvana and Jhapita in Gandhara Sculpture: Centred on Four Exhibits</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Yuqi 2023</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#LiYuqi" type="personal">
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">聿騏</namePart>
+        <namePart transliteration="pinyin" type="family">Li</namePart>
+        <namePart transliteration="pinyin" type="given">Yuqi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zijincheng" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Zijincheng</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>紫禁城</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>74</start>
+                <end>81</end>
+            </extent>
+            <date>2023</date>
+        </part>
+    </relatedItem>
+</mods>

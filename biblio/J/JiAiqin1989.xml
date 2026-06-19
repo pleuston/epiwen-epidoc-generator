@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JiAiqin1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai’an Dawenkou chutu Beichao tongliu jin lianhuazuo deng wenwu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰安大汶口出土北朝銅鎏金蓮花座等文物</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Gilded Bronze Lotus Pedestal and Other Artefacts of the Northern Dynasties Unearthed in Dawenkou, Tai’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ji Aiqin 1989</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jiaiqin" type="personal">
+        <namePart transliteration="pinyin" type="family">Ji</namePart>
+        <namePart transliteration="pinyin" type="given">Aiqin</namePart>
+        <namePart lang="zh" type="family">吉</namePart>
+        <namePart lang="zh" type="given">愛琴</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kaogu" type="host">
+        <titleInfo lang="zh">
+            <title>考古</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1989</date>
+            <detail type="no">6</detail>
+            <extent unit="page">
+                <start>568</start>
+                <end>569</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Radich2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The <hi rend="normal">Mahāparinirvāṇa-mahāsūtra</hi> and the Emergence of <hi rend="normal">Tathāgatagarbha</hi> Doctrine</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Radich 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#radich" type="personal">
+        <namePart type="family">Radich</namePart>
+        <namePart type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <location>
+        <url displayLabel="additional">http://hup.sub.uni-hamburg.de/purl/HamburgUP_HBS05_Radich</url>
+    </location>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <dateCaptured>2018-07-11</dateCaptured>
+        <place>
+            <placeTerm>Hamburg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Hamburg University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Hamburg Buddhist Studies</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

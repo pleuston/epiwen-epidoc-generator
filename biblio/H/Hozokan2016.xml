@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hozokan2016" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title/>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>倉本尚德著《北朝佛教造像刻銘研究》</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Shotoku Kuramoto’s <hi rend="italic">Studies of inscriptions on Northern Dynasties Buddhist sculpture</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Inamoto 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#inamoto" type="personal">
+        <namePart lang="ja" type="family">稲本</namePart>
+        <namePart lang="ja" type="given">泰生</namePart>
+        <namePart transliteration="hepburn" type="family">	
+            Inamoto</namePart>
+        <namePart transliteration="hepburn" type="given">Yasuo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shinkawa_Takahasi2009" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Ajia kenkyū kikō sō-sho jinbun-gaku hen dai-ni maki “Higashi Ajia no rekishi, minzoku, kōko”</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>アジア研究機構叢書人文学篇第2巻《東アジアの歴史・民族・考古》<!--雄山閣--> </title>
+        </titleInfo>
+        edited by Shinkawa 新川登亀男
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+           
+            <extent unit="page">
+                <start>90</start>
+                <end>120</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

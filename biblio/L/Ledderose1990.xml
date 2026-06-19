@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ledderose1990" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Massenproduktion Angesichts der Katastrophe</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ledderose 1990</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ledderose" type="personal">
+        <namePart transliteration="de" type="family">Ledderose</namePart>
+        <namePart transliteration="de" type="given">Lothar</namePart>
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Dehou</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">德侯</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AsiatischeStudien" type="host">
+        <titleInfo lang="fr">
+            <title>Asiatische Studien, Études Asiatiques</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">44</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>217</start>
+                <end>245</end>
+            </extent>
+            <date>1990</date>
+        </part>
+    </relatedItem>
+</mods>

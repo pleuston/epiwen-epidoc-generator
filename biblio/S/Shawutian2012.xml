@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shawutian2012" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mogao Ku di shiliu ku zhengti chongxiu shi gongyangren huaxiang de queshi yu cangjingdong de fengbi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>莫高窟第十六窟整體重修時供養人畫像的缺失與藏經洞的封閉</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Absence of Donor Portraits from the Time of the Complete Renovation of Mogao Cave 16 and the Sealing of the Library Cave</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sha Wutian 2012</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shawutian" type="personal">
+        <namePart transliteration="pinyin" type="family">Sha</namePart>
+        <namePart transliteration="pinyin" type="given">Wutian</namePart>
+        <namePart lang="zh" type="family">沙</namePart>
+        <namePart lang="zh" type="given">武田</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xixiayanjiu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xixia yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>西夏研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2012</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>9</start>
+                <end>27</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

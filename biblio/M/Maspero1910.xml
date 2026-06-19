@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Maspero1910">
+    <titleInfo lang="fr">
+        <title>Le songe et l’ambassade de l’empereur Ming: Étude critique des sources</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Maspero 1910</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#maspero">
+        <namePart lang="fr" type="family">Maspero</namePart>
+        <namePart lang="fr" type="given">Henri</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BEFEO" type="host">
+        <titleInfo lang="fr">
+            <title>Bulletin de l’École Française d’Extrême-Orient</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1910</date>
+            <detail type="volume">10</detail>
+            <extent unit="page">
+                <start>95</start>
+                <end>130</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

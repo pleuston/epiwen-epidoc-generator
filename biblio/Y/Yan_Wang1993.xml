@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yan_Wang1993" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>炳靈寺石窟</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Bingling Si shiku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Grottoes of Bingling Monastery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yan, Wang and Li 1993</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yanwenru" type="personal">
+        <namePart lang="zh" type="family">Yan</namePart>
+        <namePart lang="zh" type="given">Wenru</namePart>
+        <namePart lang="zh" type="family">閻</namePart>
+        <namePart lang="zh" type="given">文儒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangwanqing" type="personal">
+        <namePart lang="zh" type="family">Wang</namePart>
+        <namePart lang="zh" type="given">Wanqing</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">萬青</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lideqi" type="personal">
+        <namePart lang="zh" type="family">Li</namePart>
+        <namePart lang="zh" type="given">Deqi</namePart>
+        <namePart lang="zh" type="family">李</namePart>
+        <namePart lang="zh" type="given">德奇</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1993</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">甘肅人民出版社</namePart>
+                <namePart transliteration="pinyin">Gansu renmin chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">蘭州</placeTerm>
+            <placeTerm transliteration="pinyin">Lanzhou</placeTerm>
+        </place>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Zhongguo shiku yishu congshu <foreign lang="zh">中國石窟藝術叢書</foreign>
+            </title>
+        </titleInfo>
+    </relatedItem>
+</mods>

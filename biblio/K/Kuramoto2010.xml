@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Kuramoto2010">
+    <titleInfo lang="ja">
+        <title>北朝期における『菩薩瓔珞本業經』実践の一事例<hi rend="dash">──</hi>陽阿故県村造像記について<hi rend="dash">──</hi></title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokuchō-ki ni okeru ‘Bosatsu yōraku hongōkyō’ jissen no ichi jirei: Yōa Koken-mura zōzōki ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>One Practical Example of the ‘Bosatsu yōraku hongōkyō’ in the Northern Dynasties Period: About the Votive Inscription from a Village in the Old Prefecture Yôa</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuramoto 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuramoto" type="personal">
+        <namePart lang="ja" type="family">倉本</namePart>
+        <namePart lang="ja" type="given">尚德</namePart>
+        <namePart transliteration="romaji" type="family">Kuramoto</namePart>
+        <namePart transliteration="romaji" type="given">Shōtoku</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#EasternBuddhist" type="host">
+        <titleInfo lang="ja">
+            <title>東アジア仏教研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia Bukkyō kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Eastern Buddhist</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2010-05</dateIssued>
+            <place>
+                <placeTerm/>
+                <placeTerm lang="ja"/>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji"/>
+                    <namePart lang="ja"/>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">8</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>24</end>
+            </extent>
+            <date>2010</date>
+        </part>
+    </relatedItem>
+</mods>

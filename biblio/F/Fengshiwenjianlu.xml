@@ -1,0 +1,62 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fengshiwenjianlu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>封氏聞見録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fengshi wen jian lu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Record of the Tales Mr. Feng Has Heard and Seen</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fengshi wen jian lu</title>
+    </titleInfo>
+    <extension>10 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fengyan" type="personal">
+        <namePart transliteration="pinyin" type="family">Feng</namePart>
+        <namePart transliteration="pinyin" type="given">Yan</namePart>
+        <namePart lang="zh" type="family">封</namePart>
+        <namePart lang="zh" type="given">演</namePart>
+        
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Bijixiaoshuo_dg" type="series">
+        <titleInfo lang="zh">
+            <title>筆記小説大觀</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Biji xiaoshuo daguan</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Collection of Short Novels</title>
+        </titleInfo>        
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>1983</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+                <placeTerm lang="zh">南京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">江蘇廣陵古籍出版社</namePart>
+                    <namePart transliteration="pinyin">Jiangsu guangling guji chubanshe</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+            <extent unit="page">
+                <start>113</start>
+                <end>151</end>
+            </extent>
+            
+        </part>
+    </relatedItem>
+</mods>

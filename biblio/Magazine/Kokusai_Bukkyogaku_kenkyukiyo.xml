@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kokusai_Bukkyogaku_kenkyukiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>国際仏教学大学院大学研究紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kokusai Bukkyōgaku daigakuin daigaku kenkyū kiyō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Journal of the International College for Postgraduate Buddhist Studies</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kokusai_bukkyo_daigaku" type="corporate">
+        <namePart lang="ja">国際仏教学大学院大学</namePart>
+        <namePart transliteration="romaji">Kokusai Bukkyōgaku daigakuin daigaku</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998-</dateIssued>
+        <dateIssued encoding="marc" point="start">1998</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">国際仏教学大学院大学</namePart>
+                <namePart transliteration="romaji">Kokusai Bukkyōgaku daigakuin daigaku</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

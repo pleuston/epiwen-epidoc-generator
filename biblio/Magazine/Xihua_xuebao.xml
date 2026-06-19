@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xihua_xuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://147.142.222.135:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xihua shifan daxue xuebao zhexue shehui kexue ban</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>西華師範大學學報（哲學社會科學版）</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xihuashifandaxue" type="corporate">
+        <namePart transliteration="pinyin">Xihua shifan daxue</namePart>
+        <namePart lang="zh">西華師範大學</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1979</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Nanchong</placeTerm>
+            <placeTerm lang="zh">南充</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

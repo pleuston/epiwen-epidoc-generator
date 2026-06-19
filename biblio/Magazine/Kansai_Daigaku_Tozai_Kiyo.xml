@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kansai_Daigaku_Tozai_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>関西大学東西学術研究所紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kansai daigaku tōzai gakujutsu kenkyūjo kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Bulletin of the Institute of Oriental and Occidental Studies, Kansai University</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Kansai_Daigaku_Tozai" type="corporate">
+        <namePart lang="ja">関西大学東西学術研究所</namePart>
+        <namePart transliteration="romaji">Kansai daigaku tōzai gakujutsu kenkyūjo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968-</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="ja">関西大学東西学術研究所</namePart>
+                <namePart transliteration="romaji">Kansai daigaku tōzai gakujutsu kenkyūjo</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

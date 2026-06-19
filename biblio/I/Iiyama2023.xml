@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Iiyama2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Genealogy and Status: Hereditary Office Holding and Kinship in North China under Mongol Rule</title>
+        
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Liyama 2023</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Iiyama" type="personal">
+        <namePart lang="jp" type="family">飯山</namePart>
+        <namePart lang="jp" type="given">知保</namePart>
+        <namePart transliteration="romaji" type="family">Iiyama</namePart>
+        <namePart transliteration="romaji" type="given">Tomoyasu</namePart>
+        <role>
+            <roleTerm type="etal">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="HYIMS" type="series">
+        <titleInfo lang="en">
+            <title>Harvard-Yenching Institute Monograph Series</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>135</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DMB" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Dictionary of Ming Biography: 1368–1644. Mingdai mingren zhuan <foreign lang="zh">明代名人傳</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>DMB</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#goodrich" type="personal">
+        <namePart lang="en" type="family">Goodrich</namePart>
+        <namePart lang="en" type="given">L. Carrington</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fangzhaoying" type="personal">
+        <namePart lang="zh" type="family">房</namePart>
+        <namePart lang="zh" type="given">兆楹</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1976</dateIssued>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Columbia University Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <extension>2 vols.</extension>
+</mods>

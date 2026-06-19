@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WatanabeHoyo_kinen2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>法華佛教文化史論叢：渡邊寳陽先生古稀記念論文集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokke bukkyō bunkashi ronsō: Watanabe hōyō sensei koki kinen ronbunshū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Essays on the History of Hokke Buddhism Culture: Essays on the Occasion of Professor Hōyō Watanabe’s 70th Birthday</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Watanabe hōyō sensei koki kinen ronbunshū 2003</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#watanabehoyo_kinen" type="corporate">
+        <namePart lang="ja">渡邊寳陽先生古稀記念論文集刊行会</namePart>
+        <namePart transliteration="romaji">Watanabe hōyō sensei koki kinen ronbunshū
+            kankōkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Heirakuji shoten</namePart>
+                <namePart lang="ja">平樂寺書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

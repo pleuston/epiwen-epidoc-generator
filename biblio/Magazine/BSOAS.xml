@@ -1,0 +1,25 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BSOAS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Bulletin of the School of Oriental and African Studies</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#uni_london" type="corporate">
+        <namePart lang="en">University of London. The School of Oriental and African
+            Studies</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambridge University Press</namePart>
+            </name>
+        </publisher>
+        <dateIssued>1940-</dateIssued>
+        <dateIssued encoding="marc" point="start">1940</dateIssued>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

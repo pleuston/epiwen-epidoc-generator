@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FujitaM1943" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北支中支の風物</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokushi-Chūshi no fūbutsu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Local Customs and Objects<!--Particularities--> of Northern and Central China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fujita Motoharu 1938</title>
+    </titleInfo>
+    
+
+Citing from the above:
+Fujita Motoharu 藤田元春. Jōdai Nisshi kōtsūshi no kenkyū 上代日支交通史の研究 [Study on Sino-Japanese Traffic from the Asuka to the Nara Period]. Tōkyō: Tōkō shoin 刀江書院, 1943, pp. 369-370.
+https://catalog.hathitrust.org/Record/100041880
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fujita_m" type="personal">
+        <namePart lang="ja" type="family">藤田</namePart>
+        <namePart lang="ja" type="given">元春</namePart>
+        <namePart transliteration="romaji" type="family">Fujita</namePart>
+        <namePart transliteration="romaji" type="given">Motoharu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1938</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart transliteration="romaji">Hakata seishōdō</namePart>
+            <namePart lang="ja">博多成象堂</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

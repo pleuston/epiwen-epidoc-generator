@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dong_Zhang2014">
+    <titleInfo lang="zh">
+        <title>唐宋巴蜀地區十六羅漢造像的初步研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tang Song Ba Shu diqu shiliu Luohan zaoxiang de chubu yanjiu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Preliminary Study on Sculptures of the Sixteen Luohan in the Region of Ba and Shu from the Tang and Song Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dong ang Zhang 2014</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#donghuafeng" type="personal">
+        <namePart lang="zh" type="family">董</namePart>
+        <namePart lang="zh" type="given">華鋒</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhangliang" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">亮</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Dazu_shike_yjy2014" type="host">
+        <titleInfo lang="zh">
+            <title>2014年大足學國際學術研討會論文集</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2014</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>97</start>
+                <end>112</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

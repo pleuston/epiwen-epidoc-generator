@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ramirezchristensen_Cranston2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Donald Howard Shively (1921-2005)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ramirez-Christensen and Cranston 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ramirezchristensen" type="personal">
+        <namePart lang="en" type="family">Ramirez-Christensen</namePart>
+        <namePart lang="en" type="given">Esperanza</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#cranston" type="personal">
+        <namePart lang="en" type="family">Cranston</namePart>
+        <namePart lang="en" type="given">Edwin A.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#JAS" type="host">
+        <titleInfo lang="en">
+            <title>Journal of Asian Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">66</detail>
+            <detail type="no">4</detail>
+            <extent unit="pages">
+                <start>1232</start>
+                <end>1234</end>
+            </extent>
+            <date>2007</date>
+        </part>
+    </relatedItem>
+</mods>

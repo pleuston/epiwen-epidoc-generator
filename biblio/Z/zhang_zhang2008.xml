@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="zhang_zhang2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ma Hongkui zhuan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>馬鴻逵傳</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Biography of Ma Hongkui</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ma Hongkui zhuan</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangshulin" type="corporate">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangshubin" type="corporate">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Yinchuan</placeTerm>
+            <placeTerm lang="zh">銀川</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Huang He chuban chuanmei jituan Ningxia renmin chubanshe</namePart>
+                <namePart lang="zh">黃河出版傳媒集團 寧夏人民出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

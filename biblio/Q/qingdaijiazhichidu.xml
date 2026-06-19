@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="qingdaijiazhichidu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>清代價值尺度：貨幣比價研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Qing Dai jiazhi chidu:huobi bijia yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Qing Dynasty Price Measures: Research on Currency Price Rates</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Hongbin 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wanghongbin" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">宏斌</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Hongbin</namePart>
+        
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shenghuo dushu xinzhi sanlian shudian</namePart>
+                <namePart lang="zh">生活·讀書·新知三聯書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

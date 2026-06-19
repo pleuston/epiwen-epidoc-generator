@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Fukui1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Hannya shingyō no kenkyūshi: genkon no mondaiten</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>般若心<!--経-->經の研究史：現今の問題点</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A History of Studies of the <hi rend="italic">Heart of Wisdom <foreign xml:lang="sa">Sūtra:</foreign>
+            </hi> Contemporary Issues</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fukui 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fukui" type="personal">
+        <namePart lang="ja" type="family">福井</namePart>
+        <namePart lang="ja" type="given">文雅</namePart>
+        <namePart transliteration="romaji" type="family">Fukui</namePart>
+        <namePart transliteration="romaji" type="given">Fumimasa</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Bukkyogaku" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Bukkyōgaku</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>佛教學</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1994</date>
+            <detail type="volume">36</detail>
+            
+            <extent unit="page">
+                <start>79</start>
+                <end>99</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

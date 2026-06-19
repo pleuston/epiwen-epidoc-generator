@@ -1,0 +1,106 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nattier2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Avalokiteśvara in Early Chinese Buddhist Translations: A Preliminary Survey</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nattier 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nattier" type="personal">
+        <namePart lang="en" type="family">Nattier</namePart>
+        <namePart lang="en" type="given">Jan</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>185: “...the now-standard name Guanshiyin 觀世音(often abbreviated Guanyin 觀音) came into
+        use only around the beginning of the fifth century CE.” The earliest names for the
+        bodhisattva are in translation Kuiyin 窺) 音 in the Fa jing jing 法鏡經 Ugraparipṛcchā-(sūtra by
+        An Xuan 安玄 and Yan Fotiao 嚴佛調 and in transcription Elouxuan 廅樓亘 in T#361, which probably
+        goes back to the form *Avalokasvara . In early Chinese translations, Avalokasvara appears
+        only as a member of the audience listening to the Buddha preaching, and plays an extremely
+        minimal role. It becomes only an object of devotion in the two earliest translations of the
+        larger Sukhāvatīvyūha, that by Lokakṣema (T #361) and by Zhi Qian (T#362). 198: Both
+        translations “recommend that ordinary pratitioners who find themselves in difficulty should
+        turn to them [i.e. Avalokasvara and Mahāsthāmaprāpta] for aid” In a second appearance of
+        Avalokasvara in Zhi Qian’s translation, he receives his prediction (vyākarana) of his futur
+        buddhahood from Buddha Amitābha. 200-201: Nattier translates T#361, 12:288b19-24 202:
+        Avalokasvara as the successor of Amitābha Buddha “The most dramatic passage concerning
+        Avalokasvara, however, occurs in a prose portion of the sūtra and is found in th
+        etranslations of both Lokakṣema and Zhi Qian. For it is here that we are told that, after
+        the death of Amitābha Buddha, Avalokasvara will succeed him as the reigning Buddha of
+        Sukhāvati.” “With the exception of the name of the Buddha Amitābha—which is transcribed as
+        Amituo 阿彌陀 throughout Lokakṣema’s version, but translated as Wuliang qingjing 無量清淨
+        “Measureless Purity” by Zhi Qian—the wording of the two versions is virtually identical...”
+        203: Nattier translates T#362, 12:309a14-24 2What we have here, in brief, is an account of
+        the succession of one Buddha by another that is traditional in a certain sense, in that it
+        adheres to the principle that there can only be one Buddha in any given world-system at a
+        time. Thus Avalokasvara must remain a bodhisattva until after the death of Amitābha Buddha;
+        only then can he [sic!] attain buddhahood himself.” “What is far from traditional, however,
+        is the speed with which this takes place: Avalokasvara immediately attains buddhahood after
+        the death of 204. Amitābha...” “...in Sukhāvatī the succession to the next Buddha is
+        immediate. Amitābha’s land is thus presented as a “perpetual buddha-field” in the sense that
+        the Dharma will never die out.” BUT: Other version of the Larger Sukhāvatīvyūha in Sanskrit,
+        Tibetan and later Chinese versions, have “no reference to Amitābha’s final nirvāna; only the
+        mentions of his immeasurably long lifespan...” This scenario “is profoundly continuous with
+        what we find in another early Pure Land text, the Akṣobhyavyūha, which is also considered to
+        have been translated by Lokakṣema or a member of his school(Achu foguo jing 阿閦佛國經, T313). In
+        this scripture ... much attention is paid to Akṣobhya’s dramatic final nirvāna, and it is
+        also clear that no other bodhisattva can attain buddhahood in this world after his death.
+        Taken together, these scriptures suggest that an important turning point in the evolution of
+        Pure Land thought took place when all references to the eventual extinction of Amitābha were
+        eliminated, and only the discussion of his immeasurable lifespan remained. “ 205: “In the
+        larger Sukhāvatīvyūha we are told that he [Avalokasvara] can serve as a refuge for people in
+        this world who are in need of help, that he has been predicted to buddhahood (at least in
+        Zhi Qian’s version), and that he will succeed to the position of presiding Buddha of
+        Sukhāvatī after Amitābha’s death.” Conclusions: “...the inclusion of the larger
+        Sukhāvatīvyūha within the corpus of Han-period translations...” “... Avalokasvara’s first
+        significant appearance ... is in the larger Sukhāvatīvyūha-sūtra, translated during the late
+        second century CE (if by Lokakṣema himself) or perhaps slightly later (if by another member
+        of his school). This version was available in the first half of the third century to Zhi
+        Qian, who used it .... as the basis for his own translation.” 206: “Nonetheless it seems
+        clear that it was through the work of Dharmaraksa—specifically, through the twenty-third
+        chapter of his Lotus Sūtra, the Guangshiyin wumen pin 光世音五門品—that this bodhisattva first
+        gained widespread appeal in China. For though we have found small traces of the veneration
+        of this bodhisattva under the name Elouxuan, it was as Guangshiyin that he first became to
+        be widely worshipped in China.” </abstract>
+    <language>
+        <languageTerm>en</languageTerm>
+    </language>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Magee_Huang2007" type="host">
+        <titleInfo lang="en">
+            <title>Bodhisattva Avalokiteśvara (Guanyin) and Modern Society</title>
+        </titleInfo>
+        <name>
+            <namePart lang="en" type="family">Magee</namePart>
+            <namePart lang="en" type="given">William</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name>
+            <namePart lang="en" type="family">Huang</namePart>
+            <namePart lang="en" type="given">Yi-hsun</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2007</dateIssued>
+            <publisher>
+                <name type="corporate">Dharma Drum Publications</name>
+            </publisher>
+            <place>
+                <placeTerm>Taipei</placeTerm>
+            </place>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>181</start>
+                <end>212</end>
+            </extent>
+        </part>
+    </relatedItem>
+  
+</mods>

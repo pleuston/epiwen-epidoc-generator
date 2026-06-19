@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Liuyongzeng1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Mogaoku di yi ba wu ku (Zhong Tang)</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>莫高窟第一八五窟（中唐）</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Mogao Cave 185 (Mid-Tang Dynasty)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Yong­zeng 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liuyongzeng" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">永增</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jiangsu</placeTerm>
+            <placeTerm lang="zh">江蘇</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Jiangsu meishu chubanshe</namePart>
+                <namePart lang="zh">江蘇美術出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#DH_Shikuyishu" type="series">
+        <titleInfo lang="zh">
+            <title>敦煌石窟藝術 </title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang shiku yishu</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Art of Dunhuang Grottoes</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>22</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

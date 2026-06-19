@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Okamura1990">
+    <titleInfo lang="ja">
+        <title>満鉄図書館蔵書集積の歴史(I)</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Mantetsu toshokan zōsho shūseki no rekishi (I)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The History of Accumulation of Books at the Mantetsu Library (I)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okamura 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#okamura_keiji">
+        <namePart lang="ja" type="family">岡村</namePart>
+        <namePart lang="ja" type="given">敬二</namePart>
+        <namePart transliteration="romaji" type="family">Okamura</namePart>
+        <namePart transliteration="romaji" type="given">Keiji</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Toshokan_gakkai_nenpo" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Toshokan gakkai nenpō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>図書館学会年報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1990</date>
+            <detail type="volume">
+                <number>36</number>
+            </detail>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>8, 47</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

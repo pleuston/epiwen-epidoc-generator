@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouShaoliang1992" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>唐代墓誌彙編</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tangdai muzhi huibian</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collection of Tang Epitaphs</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tangdai muzhi huibian 1992">
+        <title>Tang­dai mu­zhi hui­bian 1992</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhoushaoliang" type="personal">
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">紹良</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">2</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1992</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

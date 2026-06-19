@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Jungulu">
+    <titleInfo lang="zh">
+        <title>攈古録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jungu lu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Records of Drawing Together Antiquities</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jun­gu lu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wushifen" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Shifen</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">式芬</namePart>
+        <namePart type="date">1796-1856</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateOther qualifier="approximate">Compiled 1854</dateOther>
+        <dateIssued>1995</dateIssued>
+    </originInfo>
+    <extension>20 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#XXSKQS" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Xuxiu Siku quanshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>續修四庫全書</title>
+        </titleInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>895</number>
+            </detail>
+            <extent unit="page">
+                <start>234</start>
+                <end>760</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

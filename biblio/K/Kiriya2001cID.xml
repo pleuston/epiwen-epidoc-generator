@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kiriya2001c" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国における石刻經の濫觴<hi rend="dash">──</hi>北凉石塔</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru sekkokukyō no ranshō Kita Ryou sekitou</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Emergence of Sutras Engraved on Stone in China: Stone Stupa in the Bei Liang Period</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kiriya 2001b</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kiriya" type="personal">
+        <namePart transliteration="romaji" type="family">Kiriya</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <namePart lang="ja" type="family">桐谷</namePart>
+        <namePart lang="ja" type="given">征一</namePart>
+        <namePart transliteration="pinyin" type="family">Tonggu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhengyi</namePart>
+        <namePart lang="zh" type="family">桐谷</namePart>
+        <namePart lang="zh" type="given">征一</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Seigen_kinen2001" type="host">
+        <titleInfo lang="ja">
+            <title>東アジア佛教の諸問題：聖嚴博士古稀記念論集</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashiajia Bukkyō no shomondai: Seigen hakushi koki kinen ronshū</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2001.03</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Sankibō busshorin</namePart>
+                    <namePart lang="ja">山喜房佛書林</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>151</start>
+                <end>184</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Minobusan_daigaku_bukkyo_gakubu_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>身延山大學佛教學部紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Minobusan daigaku Bukkyō gakubu kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bulletin of Faculty of Buddhism, Minobusan University</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#minobusan_daigaku_bukkyo_gakubu" type="corporate">
+        <namePart lang="ja">身延山大學佛教學部</namePart>
+        <namePart transliteration="romaji">Minobusan daidaku Bukkyō gakubu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000-</dateIssued>
+        <dateIssued encoding="marc" point="start">2000</dateIssued>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Minobu-chō, Yamanashi</placeTerm>
+            <placeTerm lang="ja">身延町</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Minobusan daidaku Bukkyō gakubu</namePart>
+                <namePart lang="ja">身延山大學佛教學部</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

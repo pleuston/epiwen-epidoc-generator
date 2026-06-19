@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shanxi_kaogu_yjs2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bei Qi Dong’an wang Lou Rui mu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>北齊東安王婁睿墓</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Tomb of Lou Rui, Prince of Dongan of the Northern Qi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shan­xi Sheng kao­gu yan­jiu­suo 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#shanxisheng_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Shanxi Sheng kaogu yanjiusuo</namePart>
+        <namePart lang="zh">山西省考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taiyuan_wenwukaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Taiyuan Shi wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">太原市文物考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <issuance>monographic</issuance>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

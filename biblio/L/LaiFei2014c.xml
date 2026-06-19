@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LaiFei2014c" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="pinyin">
+                <title>Jian Shan kejing fenbu fuyuan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+                <title>尖山刻經分佈復原</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>A Reconstruction of the Stone Sutras at Mount Jian</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Lai Fei 2014c</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#laifei" type="personal">
+                <namePart transliteration="pinyin" type="family">Lai</namePart>
+                <namePart transliteration="pinyin" type="given">Fei</namePart>
+                <namePart lang="zh" type="family">賴</namePart>
+                <namePart lang="zh" type="given">非</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <abstract>As Lai Fei analyses only part of the available epigraphical literature, he comes to different conclusions regarding the position JS 9.
+        He also holds that the position of JS 1 is unknown.</abstract>
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="LaiFei2014a" type="host">
+                <titleInfo transliteration="pinyin">
+                        <title>A Collection of Lai Fei’s Essays on Art and Archaeology</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                        <title>賴非美術考古文集</title>
+                </titleInfo>
+                <originInfo>
+                        <dateIssued>2014</dateIssued>
+                        <place>
+                                <placeTerm transliteration="pinyin">Jinan</placeTerm>
+                                <placeTerm lang="zh">濟南</placeTerm>
+                        </place>
+                        <publisher>
+                                <name type="corporate">
+                                        <namePart transliteration="pinyin">Qilu shushe</namePart>
+                                        <namePart lang="zh">齊魯書社</namePart>
+                                </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+                </originInfo>
+                <part>
+                        <extent unit="page">
+                                <start>105</start>
+                                <end>118</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

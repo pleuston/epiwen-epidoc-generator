@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Pelliot1922" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Review of  <hi rend="italic">Les sépultures impériales des Ming (Che-san Ling)</hi>, Hanoi 1920 by G. Bouillard and commandant Vaudescal</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Pelliot 1922</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pelliot" type="personal">
+        <namePart lang="en" type="family">Pelliot</namePart>
+        <namePart lang="en" type="given">Paul</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo>
+            <title>T’oung Pao<!--<hi rend="normal">, ser. 2, vol.</hi>: Revue internationale de sinologie--></title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">21</detail>
+            <detail type="no">1</detail>
+            <extent unit="page">
+                <start>57</start>
+                <end>66</end>
+            </extent>
+            <date>1922</date>
+            <!--date point="end">1926</date-->
+        </part>
+    </relatedItem>
+</mods>

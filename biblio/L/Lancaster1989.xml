@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lancaster1989" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Rock Cut Canon in China: Findings at Fang-Shan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lancaster 1989</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lancaster" type="personal">
+        <namePart lang="en" type="family">Lancaster</namePart>
+        <namePart lang="en" type="given">Lewis R.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Skorupski1989" type="host">
+        <titleInfo lang="en">
+            <title>The Buddhist Heritage</title>
+        </titleInfo>
+        <name oXygen2:href="#skorupski" type="personal">
+            <namePart lang="en" type="family">Skorupski</namePart>
+            <namePart lang="en" type="given">Tadeusz</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1989</dateIssued>
+            <place>
+                <placeTerm>Tring</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">The Institute of Buddhist Studies</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>143</start>
+                <end>156</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bungaku_kenkyu_ronshu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>文学研究論集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bungaku kenkyū ronshū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Tsukuba Studies in Literature</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukuba_hikaku_riron" type="corporate">
+        <namePart lang="ja">筑波大学比較・理論文学会</namePart>
+        <namePart transliteration="romaji">Tsukuba daigaku hikaku, riron bungakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1984-</dateIssued>
+        <dateIssued encoding="marc" point="start">1984</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tsukuba</placeTerm>
+            <placeTerm lang="ja">つくば</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">筑波大学比較・理論文学会</namePart>
+                <namePart transliteration="romaji">Tsukuba daigaku hikaku, riron bungakkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

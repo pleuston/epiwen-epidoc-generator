@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shin_Nihon_bungaku" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>新日本文學</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shin Nihon bungaku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Nova japana literaturo</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shin_Nihon_bungakukai" type="corporate">
+        <namePart lang="ja">新日本文學會</namePart>
+        <namePart transliteration="romaji">Shin Nihon bungakukai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1946-2004</dateIssued>
+        <dateIssued encoding="marc" point="start">1946</dateIssued>
+        <dateIssued encoding="marc" point="end">2004</dateIssued>
+        <frequency>monthly</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shin Nihon bungakukai</namePart>
+                <namePart lang="ja">新日本文學會</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Eckfeld2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Reinventing the Past, Inventing a Dynasty: Inspiration of Monuments of the Past and Tang Dynastic Topography</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Eckfeld 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#eckfeld" type="personal">
+        <name type="personal">
+            <namePart type="family">Eckfeld</namePart>
+            <namePart type="given">Tonia</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WuHung2010" type="host">
+        <titleInfo lang="en">
+            <title>Reinventing the Past. Archaism and Antiquarianism in Chinese Art and Visual Culture</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>155</start>
+                <end>178</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

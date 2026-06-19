@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Guangpingfuzhi_Guangxu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Guangxu〕Guangping fuzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔光緒〕廣平府志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title><!--Revised -->Gazetteer of Guangping Prefecture (Guangxu Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guangping fuzhi 1894</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wuzhongyan" type="personal">
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongyan</namePart>
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">中彥</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hujinggui" type="personal">
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Jinggui</namePart>
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">景桂</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>63 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <originInfo>
+        <dateOther>Completed 1894</dateOther>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Zhongguo_fangzhi_ku" type="host">
+        <titleInfo lang="zh">
+            <title>中國方志庫</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi ku</title>
+        </titleInfo>
+        <typeOfResource collection="yes"/>
+        <!-- <part>
+            <detail type="volume">
+                <number>237</number>
+            </detail>
+        </part>-->
+    </relatedItem>
+    <!--<note type="reprint">Reprint of the 1894 edition</note>-->
+</mods>

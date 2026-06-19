@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Senchakushu1998" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Hōnen’s Senchakushū. Passages on the Selection of the Nembutsu in the Original Vow
+            (Senchaku hongan nembutsu shū <foreign lang="zh">選擇本願念佛集</foreign>)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Senchakushu 1998</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#senchakushu_translation" type="corporate">
+        <namePart lang="en">Senchakushū English Translation Project</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract>Introduction, p. 24: Hōnen interpreted the expression “takes firm hold of his name” to
+        mean the recitation of the nembutsu. For Hōnen, the recited nem- p. 25: butsu became the
+        basis for reconciling the Wu-liang-shou-ching’s foregrounding of the original vow with the
+        Kuan wu-liang-shou ching’s emphasis on the contemplative practice. By reading the above
+        passage of the A-mi-t’o ching in this way, he was able to interpret it in light of the other
+        two sūtras. The sūtra states, “Buddhas in all six directions, that is, north, south, east,
+        west, up, and down, all confirm that Amida Buddha’s teaching is true.” Hōnen read this
+        passage to mean that this sūtra absolutely affirms that the nembutsu was the only assured
+        way to the Pure Land. Hōnen felt the main purport of the sūtra consists of the buddhas of
+        the six directions giving witness only to the practice of the nembutsu for gaining birth in
+        the Pure Land and not giving witness to the various practices in other sūtras regarding
+        birth in the Pure Land. This is called senchaku shōjō or “selection by all buddhas of the
+        six directions witnessing the authenticity of the nembutsu.” Translation (p. 137-138): 13.
+        Passages Attesting That the Nembutsu Plants Many Good Roots, While the Miscellaneous
+        Practices Plant But FEW The A-mi-T’o ching (Amida Sūtra) says:.... Shan-tao, interpreting
+        those passage says:... The following is my opinion: The words “It is impossible to be born
+        in that land by means of the virtue of few good roots” mean that it is difficult to be born
+        in that land through all the other miscellaneous practices. For that reason [Shan-tao says],
+        “It may be difficult to be born there by means of the miscellaneous good practicesthat
+        correspond to people’s varying capacities. The phrase “few good roots” is in contrast with
+        the notion of “many good roots.” Thus, the miscellaneous good practices plant few good
+        roots, while the nembutsu plants many. This is why Lung-shu’s Ching-t’u wen (Passages
+        Concerning the Pure Land) says: The characters of the A-mi-t’o ching carved in stone in the
+        city of Hsiang-yang written by Ch’en Jen-ling in the Sui dynasty were graceful, and many
+        people prized and enjoyed them. [In this version of the sūtra one finds] after the words
+        “with a single and undistracted mind” the following passage of twenty-one characters that
+        are left out of the text handed down to us today: “By upholding the name, one’s sins are
+        extinguished. This is the karmic result of the virtue of many good roots.” Here one can see
+        that the meaning is not just one of “many” versus “few.” There is also the meaning of
+        “great” versus “small”: that is to say, the miscellaneous practices represent small
+        goodness, while the nembutsu represents great goodness. There is also the connotation of
+        “superior” versus “inferior”: the miscellaneous good practices are an inferior goodness,
+        while the nembutsu is a superior goodness. One should understand the meaning.</abstract>
+    <originInfo>
+        <dateIssued>1998</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō and Honolulu</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Sōgō Bukkyō Kenkyūsho, Taishō University and University of
+                    Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

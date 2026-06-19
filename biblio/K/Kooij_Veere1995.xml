@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kooij_Veere1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Function and Meaning in Buddhist Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kooij and Verre 1995</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kooij" type="personal">
+        <namePart lang="de" type="family">Kooij</namePart>
+        <namePart lang="de" type="given">Karel R. Van</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#veere" type="personal">
+        <namePart lang="de" type="family">Veere</namePart>
+        <namePart lang="de" type="given">H. van der</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm>Groningen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Egbert Forsten</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    
+</mods>

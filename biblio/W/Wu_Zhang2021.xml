@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wu_Zhang2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石經山題記整理與研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan Shijing Shan tiji zhengli yu yanjiu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Collation and Study of Inscriptions in Shijing Shan, Fangshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu and Zhang 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wumenglin" type="personal">
+        <namePart lang="zh" type="family">吴</namePart>
+        <namePart lang="zh" type="given">夢麟</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangyongqiang" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">永强</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>3 vols.<!--<hi rend="italic">juan </hi><foreign lang="zh">卷</foreign>--></extension>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+            <!--<detail type="volume">
+                <number>3</number>
+            </detail>-->
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

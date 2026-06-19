@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JiYun2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Is the <hi rend="italic">Heart Sūtra</hi> an Apocryphal Text?—A
+            Re-examination</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ji Yun 2018</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="zh" oXygen2:href="#jiyun_2" type="personal">
+        <namePart transliteration="pinyin" type="family">Ji</namePart>
+        <namePart transliteration="pinyin" type="given">Yun</namePart>
+        <namePart lang="zh" type="family">紀</namePart>
+        <namePart lang="zh" type="given">贇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" lang="en" oXygen2:href="#chinshihfoong" type="personal">
+        <namePart lang="en" type="family">Chin</namePart>
+        <namePart lang="en" type="given">Shih-Foong</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <note>Pdf dated 8 Mar 2018. Pages 1-68</note>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm/>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en"/>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

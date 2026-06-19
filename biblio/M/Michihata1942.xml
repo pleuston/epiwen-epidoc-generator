@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Michihata1942" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>山東省に於ける六朝の<!--仏教-->佛教摩崖</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Santō-shō ni okeru Rikuchō no Bukkyō magai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Buddhist Cliff Inscriptions from the Six Dynasties in Shandong Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Michihata 1942</title>
+    </titleInfo>
+    <note>On the cover page, the title is named “山東省に於ける佛教摩崖”, thus “Rikuchō no 六朝の [from the Six Dynasties]” is missing.</note>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#michihata" type="personal">
+        <namePart lang="ja" type="family">道端</namePart>
+        <namePart lang="ja" type="given">良秀</namePart>
+        <namePart transliteration="romaji" type="family">Michihata</namePart>
+        <namePart transliteration="romaji" type="given">Ryōshū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#OtaniGakuho" type="host">
+        <titleInfo lang="ja">
+            <title><!--大谷学報-->大谷學報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Ōtani gakuhō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1942</date>
+            <detail type="volume">23</detail>
+            <detail type="no">
+                <number>5</number>
+            </detail>
+            <extent unit="page">
+                <start>58<!-- (424)--></start>
+                <end>65<!-- (433)--></end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

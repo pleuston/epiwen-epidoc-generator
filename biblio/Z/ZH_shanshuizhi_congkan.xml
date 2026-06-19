@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="ZH_shanshuizhi_congkan">
+    <titleInfo lang="zh">
+        <title>中華山水志叢刊</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Zhonghua shanshui zhi congkan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Chinese Records of Mountains and Waters</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhonghua shanshui zhi congkan 2004</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="corporate" oXygen2:href="#guojia_tushuguan_fg">
+        <namePart lang="zh">國家圖書館分館</namePart>
+        <namePart transliteration="pinyin">Guojia tushuguan fenguan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">75</detail>
+        </extent>
+        <form>print</form>
+    </physicalDescription>
+    <originInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xianzhuang shuju</namePart>
+                <namePart lang="zh">綫裝書局</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <dateIssued>2004</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

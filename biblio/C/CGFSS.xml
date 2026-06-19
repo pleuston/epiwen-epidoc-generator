@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="CGFSS" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku hōshosen</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>中国法書選</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Complete Selections of Chinese Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Complete Selections of Chinese Calligraphy 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#matsumaru_michio" type="personal">
+        <namePart lang="ja" type="family">松丸</namePart>
+        <namePart lang="ja" type="given">道雄</namePart>
+        <namePart transliteration="romaji" type="family">Matsumaru</namePart>
+        <namePart transliteration="romaji" type="given">Michio</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>60 vols</extension>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nigensha</namePart>
+                <namePart lang="ja">二玄社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

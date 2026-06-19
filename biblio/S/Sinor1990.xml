@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sinor1990" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Cambridge History of Early Inner Asia</title>
+        
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sinor 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sinor" type="personal">
+        <namePart lang="en" type="family">Sinor</namePart>
+        <namePart lang="en" type="given">Denis</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Cambridge University Press</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Waldschmidt1961" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Der Buddha preist die Verehrungswürdigkeit seiner Reliquien. Sondertext I des
+            Mahāparinirvānasūtra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Waldschmidt 1961</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#waldschmidt" type="personal">
+        <namePart lang="de" type="family">Waldschmidt</namePart>
+        <namePart lang="de" type="given">Ernst</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note>Waldschmidt rekonstruierte aus Turfanfragmenten den Sanskrittext des Mahāparinirvāṇasūtra
+        (MPS). Er ergänzt jetzt Fragmente aus den Turfan-Handschriften S 360 und S 364, die eine
+        bisher schlecht belegte Episode (den Sondertext I des Mahāparinirvāṇasūtra), einen Einschub
+        im Sanskrittext, besser lesbar macht.</note>
+    <relatedItem type="host">
+        <titleInfo lang="de">
+            <title>Nachrichten der Akademie der Wissenschaften zu Göttingen,
+                Philologisch-Historische Klasse<!--; Jg. 1961, Nr. 11-->
+            </title>
+        </titleInfo>
+        <originInfo>
+            <place>
+                <placeTerm>Göttingen</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="en">Vandenhoeck und Ruprecht</namePart>
+                </name>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">
+                <number>11</number>
+            </detail>
+            <extent unit="page">
+                <start>375</start>
+                <end>385</end>
+            </extent>
+            <date>1961</date>
+        </part>
+    </relatedItem>
+</mods>

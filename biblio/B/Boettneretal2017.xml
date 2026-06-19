@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Boettneretal2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>5300 Jahre Schrift</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Böttner et al. 2017</title>
+        <!--<title>Böttner, Lieb, Vater, Witschel 2017</title>-->
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#boettner" type="personal">
+        <namePart lang="en" type="family">Böttner</namePart>
+        <namePart lang="en" type="given">Michaela</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lieb" type="personal">
+        <namePart lang="en" type="family">Lieb</namePart>
+        <namePart lang="en" type="given">Ludger</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#vater" type="personal">
+        <namePart lang="en" type="family">Vater</namePart>
+        <namePart lang="en" type="given">Christian</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#witschel" type="personal">
+        <namePart lang="en" type="family">Witschel</namePart>
+        <namePart lang="en" type="given">Christian</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm lang="en">Heidelberg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Wunderhorn</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

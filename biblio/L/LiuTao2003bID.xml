@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuTao2003b" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo transliteration="pinyin">
+                        <title>Wei Jin xin shufeng zai Jiangnan de fazhan yu Nanchao shufa de
+                                    beizhuan</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>魏晉新書風在江南的發展與南朝書法的北傳</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>$$$The New Calligraphic Style of the Wei-Jin Period and its Spread from
+                                    the South to the North</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Liu Tao 2003</title>
+            </titleInfo>
+            <subject>
+                        <topic>stone scriptures</topic>
+                        <temporal>Northern Dynasties</temporal>
+            </subject>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liutao" type="personal">
+                        <namePart transliteration="pinyin" type="family">Liu </namePart>
+                        <namePart transliteration="pinyin" type="given">Tao</namePart>
+                        <namePart lang="zh" type="family">劉</namePart>
+                        <namePart lang="zh" type="given">濤</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#WuHung2003" type="host">
+                        <titleInfo lang="zh">
+                                    <title>漢唐之間的視覺文化與物質文化</title>
+                        </titleInfo>
+                        <titleInfo lang="en">
+                                    <title>Between Han and Tang. Visual and material Culture in a
+                                                transformative Period</title>
+                        </titleInfo>
+                        <name type="personal" ns2:href="#wuhung">
+                                    <namePart transliteration="pinyin" type="family">Wu</namePart>
+                                    <namePart transliteration="pinyin" type="given">Hung</namePart>
+                                    <namePart lang="zh" type="family">巫</namePart>
+                                    <namePart lang="zh" type="given">鴻</namePart>
+                                    <role>
+                                                <roleTerm>editor</roleTerm>
+                                    </role>
+                        </name>
+                        <originInfo>
+                                    <dateIssued>2003</dateIssued>
+                                    <place>
+                                                <placeTerm transliteration="pinyin">Beijing</placeTerm>
+                                                <placeTerm lang="zh">北京</placeTerm>
+                                    </place>
+                                    <publisher>
+                                                <name type="corporate">
+                                                  <namePart transliteration="pinyin">Wenwu
+                                                  chubanshe</namePart>
+                                                  <namePart lang="en" type="translated">Cultural
+                                                  Relics Publishing House</namePart>
+                                                  <namePart lang="zh">文物出版社</namePart>
+                                                </name>
+                                    </publisher>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <extent unit="page">
+                                                <start>599</start>
+                                                <end>635</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sotomura2020" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>シャカの入滅年について<hi rend="dash">──</hi>シャカムニとアショーカ王とカニシュカ王に關する歷史情報の相關分析<hi rend="dash">──</hi>
+        </title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shaka no nyūmetsunen ni tsuite: Shakamuni to Ashōka ō to Kanishuka ō ni kansuru rekishi jōhō no sōkan bunseki</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Year of Śākyamuni’s Death: Correlative Analysis of Historical Information on Śākyamuni, King Aśoka and King Kanishka</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sotomura 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sotomura" type="personal">
+        <namePart transliteration="romaji" type="family">Sotomura</namePart>
+        <namePart transliteration="romaji" type="given">Ataru</namePart>
+        <namePart lang="ja" type="family">外村</namePart>
+        <namePart lang="ja" type="given">中</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TohoGakuho" type="host">
+        <titleInfo lang="ja">
+            <title>東方學報</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Tōhō gakuhō</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2020</date>
+            <detail type="volume">95</detail>
+            <extent unit="page">
+                <start>580</start>
+                <end>524</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

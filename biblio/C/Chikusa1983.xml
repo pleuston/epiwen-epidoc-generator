@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Chikusa1983" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Sōgen jidai no Jionshū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>宋元時代の慈恩宗</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Faxiang School during the Song and Yuan Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chikusa 1983</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chikusa" type="personal">
+        <namePart lang="ja" type="family">竺沙</namePart>
+        <namePart lang="ja" type="given">雅章</namePart>
+        <namePart transliteration="romaji" type="family">Chikusa</namePart>
+        <namePart transliteration="romaji" type="given">Masaaki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#NantoBukkyo" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Nanto Bukkyō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>南都佛教</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>50</number>
+            </detail>
+            <extent unit="page">
+                <start>45</start>
+                <end>60</end>
+            </extent>
+            <date>1983</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bukkyo_bunka_kkrs" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教文化研究論集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō bunka kenkyū ronshū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies of Buddhist Culture</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tokyo_daigaku_bukkyo_seinenkai" type="corporate">
+        <namePart lang="ja">東京大学佛教青年会</namePart>
+        <namePart transliteration="romaji">Tōkyō daigaku Bukkyō seinenkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997-</dateIssued>
+        <dateIssued encoding="marc" point="start">1997</dateIssued>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō daigaku Bukkyō seinenkai </namePart>
+                <namePart lang="ja">東京大学佛教青年会</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

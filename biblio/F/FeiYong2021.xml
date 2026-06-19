@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="FeiYong2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Liuchao fojiao zaoxiang dui Chaoxian bandao ji Riben de yingxiang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>六朝佛教造像對朝鮮半島及日本的影響</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Impact of Buddhist Statuary of the Six Dynasties on the Korean Peninsular and
+            Japan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Fei Yong 2021</title>
+    </titleInfo>
+    <abstract>p. 292-293: In the middle of the 6th century, Buddhist statuary in the Shaanxi region
+        clearly received influences from Southern China. A group of five standing Buddha statues of
+        the Northern Zhou, excavated in 2004, and a statue excavated in 2007 are characterized in
+        style as baoyi bodai yanhua shi 褒衣薄帶演化式 (loose gown with a wide girdle). Prototypes are
+        among the Wanfo Si finds (wsz10, wsz1, wsz6, wsz3, wsz2, wsz4.) The author does not mention
+        the fact that all these single Buddha statues show the same mudra, right hand raised in
+        abhaya-mudrā 施無畏 (fearlessness), left hand showing variations of varada-mudrā 施愿印
+        (wish-granting). The torso of a Northern Zhou statue excavated in Xi’an, Weiyangqu 未央區,
+        north-west of Zhongcha Village 中查村, in November 2004, seems to hold a jewel in the left hand
+        (fig. 5-93 on p. 244). Information on this statue in 中國社會科學院考古研究所.
+        古都遺珍--長安城出土的北周佛教造像.文物出版社2010年版 (<ref type="biblio" target="GuduYizhen2010"/>). 
+        p. 262: At the end of the 5th century, most Buddhas and bodhisattvas show 
+        abhaya-mudrā 施無畏 (fearlessness) with the right hand, and varada-mudrā 施愿印
+        (wish-granting) with the left. 
+        
+        如意珠  cintā-maṇi, a wish-granting jewel. Said to be obtained from the dragon-king of the sea, or
+        the head of the great fish, Makara, or the relics of a Buddha</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#feiyong" type="personal">
+        <namePart lang="zh" type="family">費</namePart>
+        <namePart lang="zh" type="given">泳</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongguo shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

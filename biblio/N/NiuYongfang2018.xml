@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="NiuYongfang2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>She Xian shike jingcui</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>涉縣石刻精粹</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Selection of the Stone Inscriptions in Shexian</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Niu Yongfang 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#niuyongfang" type="personal">
+        <namePart lang="zh" type="family">牛</namePart>
+        <namePart lang="zh" type="given">永芳</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shijiazhuang</placeTerm>
+            <placeTerm lang="zh">石家莊</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Hebei renmin chubanshe</namePart>
+                <namePart lang="zh">河北人民出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

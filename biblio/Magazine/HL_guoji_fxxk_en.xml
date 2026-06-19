@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HL_guoji_fxxk_en" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <!--<titleInfo lang="zh">
+        <title>華林國際佛學學刊</title>
+    </titleInfo>-->
+    <!--<titleInfo transliteration="pinyin">
+        <title>Hualin guoji Fo xue xuekan</title>
+    </titleInfo>-->
+    <titleInfo lang="en">
+        <title>Hualin International Journal of Buddhist Studies</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#beijing_daxue_ysydjzx" type="corporate">
+        <namePart lang="zh">北京大學藝術與典籍中心</namePart>
+        <namePart transliteration="pinyin">Beijing daxue yishu yu dianji zhongxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+   
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">2018</dateIssued>
+        <frequency/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm lang="en">New York</placeTerm>
+            
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambria Press</namePart>
+               
+            </name>
+        </publisher>
+    </originInfo>
+    
+</mods>

@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Oshiba2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>真言宗における《大佛頂陀羅尼》の傳持とその内容について<hi rend="dash">──</hi>圓行師請来《註大佛頂真言》を中心に<hi rend="dash">──</hi>
+        </title>
+        <!--<title>真言宗における『大仏頂陀羅尼』の伝持とその内容について<hi rend="dash">──</hi>円行師請来『註大仏頂真言』を中心に<hi rend="dash">──</hi></title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shingonshū ni okeru <hi rend="italic">Daibutchō darani</hi> no denji to sono naiyō ni tsuite: Engyō-shi shōrai <hi rend="italic">Chū Daibutchō shingon</hi> o chūshin ni</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Transmission and Content of the <hi rend="italic">Dafoding tuoluoni</hi> in <foreign xml:lang="ja">Shingon-shū</foreign>: Focusing on the <hi rend="italic">Zhu dafoding zhenyan</hi> imported to Japan by <foreign xml:lang="ja">Engyō</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ōshiba 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#oshiba" type="personal">
+        <namePart lang="ja" type="family">大柴</namePart>
+        <namePart lang="ja" type="given">清圓</namePart>
+        <namePart transliteration="romaji" type="family">Ōshiba</namePart>
+        <namePart transliteration="romaji" type="given">Shōen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#MikkyoBunka" type="host">
+        <titleInfo lang="ja">
+            <title>密教文化</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Mikkyō bunka</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <place>
+                <placeTerm transliteration="romaji">Kōya-chō</placeTerm>
+                <placeTerm lang="ja">高野町</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Kōyasan daigaku, Mikkyō kenkyūkai</namePart>
+                    <namePart lang="ja">高野山大学，密教研究会</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>220</number>
+            </detail>
+            <date>2008</date>
+            <extent unit="page">
+                <start>4–5, 77</start>
+                <end>106</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2001a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《閻羅王授記經》綴補研考</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Yanluowang shouji jing</hi> zhuibu yan kao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Supplemental Study on the <hi rend="italic">Sutra on the Prophecy Given to King Yama</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2001a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="zh">
+            <title>敦煌吐魯番研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang Tulufan yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">5</detail>
+            <extent unit="page">
+                <start>81</start>
+                <end>116</end>
+            </extent>
+            <date>2001</date>
+        </part>
+    </relatedItem>
+</mods>

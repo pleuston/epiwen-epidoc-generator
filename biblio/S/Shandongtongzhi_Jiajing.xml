@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shandongtongzhi_Jiajing" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>〔嘉靖〕山東通志</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>〔Jiajing〕 Shandong tongzhi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Gazetteer of Shandong (Jiajing Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shan­dong tong­zhi 1533</title>
+    </titleInfo>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuanzongru" type="personal">
+        <namePart transliteration="pinyin" type="family">Yuan</namePart>
+        <namePart transliteration="pinyin" type="given">Zongru</namePart>
+        <namePart lang="zh" type="family">袁</namePart>
+        <namePart lang="zh" type="given">宗儒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name-->
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Yi</namePart>
+        <namePart lang="zh" type="family">陸</namePart>
+        <namePart lang="zh" type="given">釴</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chenyi" type="personal">
+        <namePart transliteration="pinyin" type="family">Chen</namePart>
+        <namePart transliteration="pinyin" type="given">Yi</namePart>
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">沂</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TYGC_MD_fangzhi1990" type="series">
+        <titleInfo lang="zh">
+            <title>天一閣藏明代方志選刊續編</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tianyi Ge cang Mingdai fangzhi xuankan xubian</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>51–52</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai shudian</namePart>
+                <namePart lang="zh">上海書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the 1533 edition</note>
+</mods>

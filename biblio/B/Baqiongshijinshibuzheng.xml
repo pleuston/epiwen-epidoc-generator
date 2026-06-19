@@ -1,0 +1,81 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baqiongshijinshibuzheng" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baqiong Shi jinshi buzheng</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>八瓊室金石補正</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Supplementary Corrigenda to the Epigraphica of Eight Gems Studio</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>八瓊</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Baqiong</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Baqiong shi jinshi buzheng">
+        <title>Baqiong Shi jinshi buzheng</title>
+    </titleInfo>
+    <abstract>The present form of the well-known Supplementary Corrigenda to the Epigraphica of Eight Gems Studio (Baqiongshi jinshi buzheng 八瓊室金石補正), 
+        was only compiled in 1925, but its information dates from the life time of its author, Lu Zengxiang 陸增祥 (1833-1889).  
+        Lu Zengxiang begins his entry on Mount Gang with the rubbings of the inscriptions on Chicken Beak Rock. 
+        The names of the signatories with the date (E) as well as the three Buddha names (D1) he transcribes in full. 
+        Of the two sections of the sutra C1 and C2 he quotes the beginning and the end, but, as usual, he does not identify the text. 
+        From the Lankāvatara sutra version A he quotes two sections  and from version B nine sections.  
+        He notes that Ruan Yuan records none of these eleven sections, but that the rubbings, which he consults, must come from Mount Gang, 
+        because the labels on them say so. Only a future visit can bring certainty, he notes. (LL)</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luzengxiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Lu</namePart>
+        <namePart transliteration="pinyin" type="given">Zengxiang</namePart>
+        <namePart lang="zh" type="family">陸</namePart>
+        <namePart lang="zh" type="given">增祥</namePart>
+        <namePart type="date">1833-1889</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>This work gives for every inscription entry the measurements, the amount of columns,
+        the location, a transcription and a commentary concerning older literature. For the Gangshan
+        entries Lu Zengxiang remarks that although his eleven entries are not found in the older
+        literature, he assumes that they all belong to Mount Gang because the notes on the rubbings
+        say so. He is aware of the fact that the inscriptions on Mount Jian and Mount Tie are
+        connected to those of Mount Gang, as was stated in Shanzuo jinshi zhi. Certainty about the
+        location of the inscriptions can only be brought about a future visit.</abstract>
+    <extension>130 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">130</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1925</dateIssued>
+        <!--<dateOther>130 vols</dateOther>-->
+    </originInfo>
+    <tableOfContents>fascicles 12-16: 北魏, fascicles 17-19: 東魏, facsicles 20-22: 北齊, fascicle 23: 北周，
+        facsicles 24-28: 隨, facsicles 29-78: 唐</tableOfContents>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number type="start">6</number>
+                <number type="end">8</number>
+            </detail>
+            <extent unit="page">
+                <start>6.3947</start>
+                <end>8.6129</end>
+            </extent>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

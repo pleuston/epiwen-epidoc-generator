@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yang_Hao2006" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Dongping jingnei Beichao moya kejing ji xiangguan wenti de tantao</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東東平境内北朝摩崖刻經及相關問題的探討</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Enquiry on Sutras Engraved on Polished Cliffs of the Northern Dynasties in the Region of Dongping in Shandong and Related Questions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yang<!-- Hao--> and Hao<!-- Li--> 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yanghao" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Hao</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">浩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#haoli" type="personal">
+        <namePart transliteration="pinyin" type="family">Hao</namePart>
+        <namePart transliteration="pinyin" type="given">Li</namePart>
+        <namePart lang="zh" type="family">郝</namePart>
+        <namePart lang="zh" type="given">莉</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SD_Shikeyishu_bwg2006b" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Bei Chao moya kejing yanjiu (san)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經研究（三）</title>
+        </titleInfo>
+        <name oXygen2:href="#sd_shikeyishu_bwg" type="corporate">
+            <namePart transliteration="pinyin">Shandong Sheng shike yishu bowuguan</namePart>
+            <namePart lang="zh">山東省石刻藝術博物館</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#hb_handanshi_wenwuju" type="corporate">
+            <namePart transliteration="pinyin">Hebei Sheng Handan Shi wenwuju</namePart>
+            <namePart lang="zh">河北省邯鄲市文物局</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2006-07</dateIssued>
+            <place>
+                <placeTerm transliteration="others">Hohhot</placeTerm>
+                <placeTerm lang="zh">呼和浩特</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Neimenggu renmin chubanshe</namePart>　 <namePart lang="zh">內蒙古人民出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>165</start>
+                <end>191</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

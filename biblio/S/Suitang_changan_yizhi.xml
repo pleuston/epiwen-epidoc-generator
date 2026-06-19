@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Suitang_changan_yizhi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sui Tang Chang’an Cheng yizhi: kaogu ziliao bian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>隋唐長安城遺址：考古資料編</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Site of Chang’an City of Sui and Tang Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sui Tang Chang’an Cheng yizhi 2017</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zg_shehui_kxy_kaogu_yjs" type="corporate">
+        <namePart lang="zh">中國社會科學院考古研究所</namePart>
+        <namePart transliteration="pinyin">Zhongguo shehui kexueyuan kaogu yanjiusuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xian_suitang_changan_baohuzhongxin" type="corporate">
+        <namePart lang="zh">西安隋唐長安城遺址保護中心</namePart>
+        <namePart transliteration="pinyin">Xi’an Sui Tang Chang’an Cheng yizhi baohu zhongxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xian_shijieyichan" type="corporate">
+        <namePart lang="zh">西安世界遺產檢測管理中心</namePart>
+        <namePart transliteration="pinyin">Xi’an shijie yichan jiance guanli zhongxin</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

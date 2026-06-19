@@ -1,0 +1,93 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuShufen1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+        <titleInfo transliteration="pinyin">
+                <title>Beiqi biaoyi xiang yicihui shizhu<hi rend="dash">──</hi>zhonggu fojiao shehui
+                        jiuji de ge’an yanjiu </title>
+        </titleInfo>
+        <titleInfo lang="zh">
+                <title>北齊標異鄉義慈惠石柱<hi rend="dash">──</hi>中古佛教社會救濟的個案研究</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+                <title>Stone Pillars Indicating Social Welfare from the Northern Qi Dynasty—a Case
+                        Study of Relief in Medieval Buddhist Society</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Liu Shu­fen 1994</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liushufen" type="personal">
+                <namePart lang="zh" type="family">劉</namePart>
+                <namePart lang="zh" type="given">淑芬</namePart>
+                <namePart transliteration="pinyin" type="family">Liu</namePart>
+                <namePart transliteration="pinyin" type="given">Shufen</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <abstract>This is about the so-called 义慈惠石柱, located in Dingxing 定兴, Hebei. The inscription
+                on the pillar is dated 562. Reported is a historical event (farmer rebellions
+                against the Northern Wei)
+                义慈惠石柱：位于定兴县石柱村，建于北齐太宁二年（562年）年，是杜洛周(?-528)、葛荣(?-528)起义军遗骨埋葬之处。石柱造型奇特，雕刻带有强烈南北朝风格，是少数北朝时代的遗存。柱身上刻有“标异乡义慈惠石柱颂”九个大字和长达三千多字的“颂文”。题额左下方有“大齐大宁二年（562年）四月十七日”的题刻。</abstract>
+        <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Xinshixue" type="host">
+                <titleInfo transliteration="pinyin">
+                        <title>Xin shixue</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                        <title>新史學</title>
+                </titleInfo>
+                <originInfo>
+                        <issuance>continuing</issuance>
+                </originInfo>
+                <part>
+                        <detail type="volume">5</detail>
+                        <detail type="no">4</detail>
+                        <extent unit="page">
+                                <start>1</start>
+                                <end>47</end>
+                        </extent>
+                        <date>1994</date>
+                </part>
+        </relatedItem>
+        <classification edition="#Liang_Liu2005">reprint</classification>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Liang_Liu2005" type="host">
+                <note>reprint</note>
+                <titleInfo lang="zh">
+                        <title>城市與鄉村</title>
+                </titleInfo>
+                <titleInfo transliteration="pinyin">
+                        <title>Chengshi yu xiangchun</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                        <title>City and Countryside</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                        <title>Liang Gengyao and Liu Shufen 2005</title>
+                </titleInfo>
+                <name ns2:href="#liushufen" type="personal">
+                        <namePart lang="zh" type="family">劉</namePart>
+                        <namePart lang="zh" type="given">淑芬</namePart>
+                        <namePart transliteration="pinyin" type="family">Liu</namePart>
+                        <namePart transliteration="pinyin" type="given">Shufen</namePart>
+                        <role>
+                                <roleTerm>editor</roleTerm>
+                        </role>
+                </name>
+                <name ns2:href="#LiangGengyao" type="personal">
+                        <namePart lang="zh" type="family">梁</namePart>
+                        <namePart lang="zh" type="given">庚堯</namePart>
+                        <namePart transliteration="pinyin" type="family">Liang</namePart>
+                        <namePart transliteration="pinyin" type="given">Gengyao</namePart>
+                        <role>
+                                <roleTerm>editor</roleTerm>
+                        </role>
+                </name>
+                <originInfo>
+                        <dateIssued>2005</dateIssued>
+                        <issuance>monographic</issuance>
+                </originInfo>
+                <part>
+                        <extent unit="page">
+                                <start>52</start>
+                                <end>87</end>
+                        </extent>
+                </part>
+        </relatedItem>
+</mods>

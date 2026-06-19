@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Borchert1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Der Nimbus des Großen Buddha im Dafosi. The Nimbus of the Great Buddha in the Dafosi <foreign lang="zh">論大佛寺大佛光背</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Borchert 1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#borchert_enzh" type="personal">
+        <namePart lang="de" type="family">Borchert</namePart>
+        <namePart lang="de" type="given">Angelika</namePart>
+        <namePart lang="zh" type="family">波</namePart>
+        <namePart lang="zh" type="given">契特</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#mueller_shing_enzh" type="personal">
+        <namePart lang="de" type="family">Müller</namePart>
+        <namePart lang="de" type="given">Shing</namePart>
+        <namePart lang="zh" type="family">宋</namePart>
+        <namePart lang="zh" type="given">馨</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#thomaswill" type="personal">
+        <namePart lang="de" type="family">Thomas Will</namePart>
+        <namePart lang="de" type="given">Margaret</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BayerischesLandesamt1996" type="host">
+        <titleInfo>
+            <title>Der Große Buddha von Dafosi <foreign lang="zh">大佛寺大佛</foreign>
+            </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>114</start>
+                <end>167</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

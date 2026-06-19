@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshikawa_Funayama2009" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>高僧伝（一）</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kō sō den (ichi)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Biographies of Eminent Monks</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yoshikawa and Funayama 2009</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yoshikawa" type="personal">
+        <namePart lang="ja" type="family">吉川</namePart>
+        <namePart lang="ja" type="given">忠夫</namePart>
+        <namePart transliteration="romaji" type="family">Yoshikawa</namePart>
+        <namePart transliteration="romaji" type="given">Tadao</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#funayama" type="personal">
+        <namePart lang="ja" type="family">船山</namePart>
+        <namePart lang="ja" type="given">徹</namePart>
+        <namePart transliteration="romaji" type="family">Funayama</namePart>
+        <namePart transliteration="romaji" type="given">Tōru</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <extension>4 vols.</extension>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

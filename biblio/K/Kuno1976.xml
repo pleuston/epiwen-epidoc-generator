@@ -1,0 +1,64 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kuno1976" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://sutras-srv.adw.uni-heidelberg.de:8080/exist/rest/db/schema/stone.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Oshidashi-butsu to senbutsu </title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>押出佛と塼佛</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bronze Repoussé Buddhist Images and Clay Images Taken from Molds</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kuno 1976</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kuno" type="personal">
+        <namePart lang="ja" type="family">久野</namePart>
+        <namePart lang="ja" type="given">健</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <abstract>
+        
+        Oshidashi-butsu 押出仏 （from p. 18 onwards) bronze repoussé images (see Tokyo National Museum,Hōryū-ji treasures, N-198 押出阿弥陀三尊及び比丘形像 38.8×31.5
+        https://webarchives.tnm.jp/imgsearch/show/C0014585)
+        中国の押出仏
+        押出仏の制作年代
+        法隆寺厨子入阿弥陀三尊像  Hōryū-ji (Nara prefecture) zushi (Schrein)
+        押出仏の原型と遺品 genkei (Modell) to ihin (Artefakt)
+        同型の押出仏 dōkei no
+        類例のない押出仏 ruirei no nai (einzigartig)
+        長谷寺千仏宝塔銅板 Hase-dera oder Chōkoku-ji  (Stadt Sakurai, Präfektur Nara)
+        天平時代の押出仏 Nara period (710-794; Kaiserstadt in Nara: Heijō-kyō, bis Heian (present Kyoto) als Kaiserstadt)
+        senbutsu 塼仏 (from p. 56 onwards) "clay tile Buddha"
+        中國の塼仏
+        塼仏の遺品
+        山田寺址出土の塼仏 Yamada-dera (Stadt Sakurai, Präfektur Nara)
+        夏見廃寺址出土の塼仏 Natsumi haiji (aufgegebener Tempel)
+        塼仏の制作年代
+        古代寺院の壁面装飾
+        新出の塼仏
+        塼仏と薬師寺薬師三尊像 Yakushi-ji (Stadt Nara, Hossō 法相 Schule)
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="ja">
+            <title>日本の美術</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Nihon no bijutsu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">118</detail>
+            <!--<detail type="no"></detail>-->
+            <extent unit="page">
+                <start>1</start>
+                <end>92</end>
+            </extent>
+            <date>1976</date>
+        </part>
+    </relatedItem>
+</mods>

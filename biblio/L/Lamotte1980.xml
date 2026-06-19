@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lamotte1980" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Indianisme et bouddhisme: mélanges offerts à Mgr Étienne Lamotte</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lamotte Festschrift 1980</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bareau" type="personal">
+        <namePart lang="fr" type="family">Bareau</namePart>
+        <namePart lang="fr" type="given">André</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Institut Orientaliste, Université catholique de Louvain</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Louvain-la-Neuve</placeTerm>
+        </place>
+        <dateIssued>1980</dateIssued>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#BBSS" type="series">
+        <titleInfo lang="en">
+            <title>Publications de l’Institut Orientaliste de Louvain 23</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

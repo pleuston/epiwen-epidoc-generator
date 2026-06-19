@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShigakuZasshi" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>史学雑誌</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shigaku zasshi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Shigaku-Zasshi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shigakukai" type="corporate">
+        <namePart lang="ja">史学会</namePart>
+        <namePart transliteration="romaji">Shigakukai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1889-</dateIssued>
+        <dateIssued encoding="marc" point="start">1889</dateIssued>
+        <frequency>monthly</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shigakukai</namePart>
+                <namePart lang="ja">史学会</namePart>
+            </name>
+            <name type="corporate">
+                <namePart transliteration="romaji">Yamakawa shuppansha</namePart>
+                <namePart lang="ja">山川出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

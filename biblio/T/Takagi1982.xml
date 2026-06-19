@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takagi1982" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>鎌倉仏教史研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kamakura Bukkyōshi kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies in Kamakura Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takagi 1982</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takagi" type="personal">
+        <namePart lang="ja" type="family">高木</namePart>
+        <namePart lang="ja" type="given">豊</namePart>
+        <namePart transliteration="romaji" type="family">Takagi</namePart>
+        <namePart transliteration="romaji" type="given">Yutaka</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1982</dateIssued>
+        <place>
+            <place>
+                <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

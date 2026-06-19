@@ -1,0 +1,51 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taishandaoliji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan daoli ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山道里記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Itinerary of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan daoli ji 1878</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nieqin" type="personal">
+        <namePart transliteration="pinyin" type="family">Nie</namePart>
+        <namePart transliteration="pinyin" type="given">Qin</namePart>
+        <namePart lang="zh" type="family">聶</namePart>
+        <namePart lang="zh" type="given">鈫</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Chengwen chubanshe</namePart>
+            </name>
+            <namePart lang="zh">成文出版社</namePart>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZGFZCS_Huabei" type="series">
+        <titleInfo lang="zh">
+            <title>中國方志叢書：華北地方</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi congshu: Huabei difang</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>70</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the edition of 1878</note>
+</mods>

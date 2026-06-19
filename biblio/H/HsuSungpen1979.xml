@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HsuSungpeng1979" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Buddhist Leader in Ming China: The Life and Thought of Han-shan Te-ch'ing 1546-1623</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hsu Sungpeng 1979</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hsusungpen" type="personal">
+        <namePart lang="zh" type="family">徐</namePart>
+        <namePart lang="zh" type="given">頌鵬</namePart>
+        <namePart transliteration="pinyin" type="family">Hsu</namePart>
+        <namePart transliteration="pinyin" type="given">Sungpeng</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1979</dateIssued>
+        <place>
+            <placeTerm>University Park</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Pennsylvania State University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

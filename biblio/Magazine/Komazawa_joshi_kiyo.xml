@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Komazawa_joshi_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>駒澤女子大學研究紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Komazawa joshi daigaku kenkyū kiyō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Faculty Journal of Komazawa Women’s University</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#komazawa_joshi_daigaku" type="corporate">
+        <namePart lang="ja">駒澤女子大學</namePart>
+        <namePart transliteration="romaji">Komazawa joshi daigaku</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1994-</dateIssued>
+        <dateIssued encoding="marc" point="start">1994</dateIssued>
+        <frequency>annual</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">駒澤女子大學</namePart>
+                <namePart transliteration="romaji">Komazawa joshi daigaku</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

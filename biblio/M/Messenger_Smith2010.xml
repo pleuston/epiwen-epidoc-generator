@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Messenger_Smith2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Cultural heritage management:a global perspective</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>P.M.Messenger and G.S.Smith 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#messenger" type="personal">
+        <namePart lang="en" type="family">Messenger</namePart>
+        <namePart lang="en" type="given">Phyllis Mauch</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#smith_George" type="personal">
+        <namePart lang="en" type="family">Smith</namePart>
+        <namePart lang="en" type="given">George S.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm lang="en">University of Florida</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart lang="en">University Press of Florida</namePart>
+            
+        </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

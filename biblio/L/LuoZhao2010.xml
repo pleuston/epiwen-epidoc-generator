@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuoZhao2010" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bao Shan Dazhusheng Ku kejing zhong de beifang lichan xitong</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寶山大住聖窟刻經中的北方禮懺系統</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Northern System of Repentance Rites Represented by the Stone Sutras of Dazhusheng Cave at Mount Bao</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Zhao 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#luozhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Zhao</namePart>
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">炤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Shikusiyanjiu2010" type="host">
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Shiku Si yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石窟寺研究</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">1</detail>
+            <date>2010</date>
+           
+            <extent unit="page">
+                <start>161</start>
+                <end>179</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

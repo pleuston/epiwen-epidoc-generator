@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KaoguYuWenwu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Kaogu yu wenwu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>考古與文物</title>
+    </titleInfo>
+    <titleInfo transliteration="en">
+        <title>Archaeology and Cultural Relics</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#sxs_kaogu_yjs" type="corporate">
+        <namePart lang="zh">陕西省考古研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1980-</dateIssued>
+        <dateIssued encoding="marc" point="start">1980</dateIssued>
+        <frequency>bi-monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Xi’an</placeTerm>
+            <placeTerm lang="zh">西安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">陕西省考古研究所</namePart>
+                <namePart transliteration="pinyin">Shaanxisheng kaogu yanjiusuo</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

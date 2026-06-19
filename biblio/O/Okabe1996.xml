@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Okabe1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>《父母恩重經》中的儒教·佛教·道教</title>
+        <!--<title>《父母恩重經》中的儒教、佛教、道教</title>-->
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>
+            <hi rend="italic">Fumu enzhong Jing</hi> zhong de Rujiao, Fojiao, Daojiao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Confucianism, Buddhism, and Daoism in the <hi rend="italic">Sutra on Repaying the Profound Kindness of Parents</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Okabe 1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#okabe" type="personal">
+        <namePart lang="ja" type="family">岡部</namePart>
+        <namePart lang="ja" type="given">和雄</namePart>
+        <namePart transliteration="romaji" type="family">Okabe</namePart>
+        <namePart transliteration="romaji" type="given">Kazuo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangguangchang" type="personal">
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">廣錩</namePart>
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Guangchang</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ShijieZongjiaoYanjiu" type="host">
+        <titleInfo lang="ja">
+            <title>世界宗教研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Shijie zongjiao yanjiu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1996</date>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>20</start>
+                <end>25</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

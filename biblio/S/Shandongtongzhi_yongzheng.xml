@@ -1,0 +1,86 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="shandongtongzhi_1736" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title><!--(Yongzheng)--> Shandong tongzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title><!--〔雍正〕-->山東通志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Gazetteer of Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shandong tongzhi 1736<!-- (Wenyuan Ge)--></title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#duzhao" type="personal">
+        <namePart transliteration="pinyin" type="family">Du</namePart>
+        <namePart transliteration="pinyin" type="given">zhao</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yuejun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yue</namePart>
+        <namePart transliteration="pinyin" type="given">Jun</namePart>
+        <namePart lang="zh" type="family">岳</namePart>
+        <namePart lang="zh" type="given">濬</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>3 vols.</extension>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <dateOther>Prefaces of 1736</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKQS" type="series">
+        <titleInfo lang="zh">
+            <title>文淵閣四庫全書·史部·地理類</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Wenyuan Ge Siku quanshu: shi bu, dili lei</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">539–541</number>
+                <!--<number type="end">541</number>-->
+            </detail>
+            <extent unit="page">
+                <start/>
+                <end/>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKQS_Cunmu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>
+                    <foreign lang="zh">集部</foreign>156</number>
+            </detail><extent unit="page">
+                <start></start>
+                <end></end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <!-- <note>Reprint of the 1603 edition</note>-->
+</mods>

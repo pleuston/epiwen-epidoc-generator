@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shilin" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shi lin</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>史林</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanghaishehuiKXY" type="corporate">
+        <namePart lang="zh">上海社會科學院歷史研究所</namePart>
+        <namePart transliteration="pinyin">Shanghai shehui kexueyuan lishi yanjiusuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1986-</dateIssued>
+        <dateIssued encoding="marc" point="start">1986</dateIssued>
+       
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai shehui kexueyuan lishi yanjiusuo</namePart>
+                <namePart lang="zh">上海社會科學院歷史研究所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,30 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhu2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Dunhuang Cave 272 and the <hi rend="italic">Ruixiang</hi> “One Buddha and Fifty-two Bodhisattvas”</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhu 2021</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhutianshu" type="personal">
+        <namePart lang="en" type="family">Zhu</namePart>
+        <namePart lang="en" type="given">Tianshu</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Walter_Ito_Adler2021" type="host">
+        <titleInfo lang="en">
+            <title>The Silk Road: Interwoven History. Vol. 2 Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>177</start>
+                <end>208</end>
+            </extent>
+        </part>
+    </relatedItem>
+    
+</mods>

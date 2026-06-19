@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>泰山石刻的佛學價值</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan shike de foxue jiazhi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Value of Mount Tai’s Stone Inscriptions for Buddhist Studies</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wang_Teng2018" type="host">
+        <titleInfo lang="zh">
+            <title>泰山文化研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <date>2018</date>
+            <extent unit="page">
+                <start>332</start>
+                <end>338</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

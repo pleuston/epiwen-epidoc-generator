@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Daicuichaocunhebian" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>岱粹抄存合編</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dai cui chaocun hebian</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Combined Compilation of the Repository of Excerpts from the Essence of [the Literature on] Mount Tai </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dai cui chaocun</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangjiefan" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">价藩</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wanghengyu" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">亨豫</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#qihuanmei" type="personal">
+        <namePart lang="zh" type="family">齊</namePart>
+        <namePart lang="zh" type="given">焕美</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">山東人民出版社</namePart>
+                <namePart transliteration="pinyin">Shandong renmin chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="" type="series">
+        <titleInfo lang="zh">
+            <title>中華泰山文庫·古籍書系</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhonghua Tai Shan wenku: guji shuxi</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

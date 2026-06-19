@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tao_Tao2006">
+    <titleInfo transliteration="pinyin">
+        <title>Ji yi tong Bei Qi tianbao si nian zaoxiang bei</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>記一通北齊天保四年造像碑</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Record of an Image Stele dated to the Fourth Year of the Tianbao Era of the Northern Qi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tao and Tao 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taoqian" type="personal">
+        <namePart transliteration="pinyin" type="family">Tao</namePart>
+        <namePart transliteration="pinyin" type="given">Qian</namePart>
+        <namePart lang="zh" type="family">陶</namePart>
+        <namePart lang="zh" type="given">倩</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taofuhai" type="personal">
+        <namePart transliteration="pinyin" type="family">Tao</namePart>
+        <namePart transliteration="pinyin" type="given">Fuhai</namePart>
+        <namePart lang="zh" type="family">陶</namePart>
+        <namePart lang="zh" type="given">富海</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ShanxiSheng_kgxh_lunwenji2006" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shanxi Sheng kaogu xuehui lunwenji (4)</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>山西省考古學會論文集（四）</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Collected Papers of the Archaeological Academy of Shanxi Province, vol. 4</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued/>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>235</start>
+                <end>237</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

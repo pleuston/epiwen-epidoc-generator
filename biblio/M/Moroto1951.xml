@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Moroto1951">
+    <titleInfo lang="ja">
+        <title>中國に於ける度牒初授の年代について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku ni okeru dochōshoju no nendai ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Date of the First Issue of the Tu Tieh in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Moroto 1951</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#moroto">
+        <namePart lang="ja" type="family">諸戶</namePart>
+        <namePart lang="ja" type="given">立雄</namePart>
+        <namePart transliteration="romaji" type="family">Moroto</namePart>
+        <namePart transliteration="romaji" type="given">Tatsuo</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Bunka" type="host">
+        <titleInfo lang="ja">
+            <title>文化</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bunka</title>
+        </titleInfo>
+        <issuance>continuing</issuance>
+        <!--originInfo>
+            <dateIssued>1934-</dateIssued>
+            <dateIssued encoding="marc" point="start">1934</dateIssued>
+            <place>
+                <placeTerm transliteration="romaji">Sendai</placeTerm>
+                <placeTerm lang="ja">仙台</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Tōhoku daigaku bungakubu</namePart>
+                </name>
+                <namePart lang="ja">東北大學文學会</namePart>
+            </publisher>
+            <issuance>continuing</issuance>
+        </originInfo-->
+        <part>
+            <detail type="volume">15</detail>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>104</start>
+                <end>120</end>
+            </extent>
+            <date>1951</date>
+        </part>
+    </relatedItem>
+</mods>

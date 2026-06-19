@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gundert1960_1973" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Bi-yän-lu <foreign lang="zh">碧巖錄</foreign>. Meister Yüan-wu’s Niederschrift von der Smaragdenen Felswand. Verfaßt auf dem Djia-shan bei Li in Hunan zwischen 1111 und 1115, im Druck erschienen in Sïtschuan um 1300</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gundert 1960-1973</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gundert" type="personal">
+        <namePart lang="de" type="family">Gundert</namePart>
+        <namePart lang="de" type="given">Wilhelm</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gundert" type="personal">
+        <namePart lang="de" type="family">Gundert</namePart>
+        <namePart lang="de" type="given">Wilhelm</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name-->
+    <extension>3 vols.</extension>
+    <originInfo>
+        <dateIssued point="start">1960</dateIssued>
+        <dateIssued point="end">1973</dateIssued>
+        <place>
+            <placeTerm>München</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Carl Hanser Verlag</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

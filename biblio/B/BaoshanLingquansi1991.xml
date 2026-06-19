@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BaoshanLingquansi1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bao Shan Lingquan Si</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>寶山靈泉寺</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Lingquan Monastery of Mount Bao</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bao Shan Ling­quan Si 1991</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hn_gudaijianzhu_baohu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Henan Sheng gudai jianzhu baohu yanjiusuo</namePart>
+        <namePart lang="zh">河南省古代建築保護研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiaofeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Xiao</namePart>
+        <namePart transliteration="pinyin" type="given">Feng</namePart>
+        <namePart lang="zh" type="family">笑</namePart>
+        <namePart lang="zh" type="given">峰</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <abstract>NB1047 B37 X533 1991 Rubbings Dazhusheng ku 293-299 Xiaonanhai as Shanying shiku 善應石窟
+        309</abstract>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm lang="zh">[鄭州]</placeTerm>
+            <placeTerm transliteration="pinyin">Zhengzhou</placeTerm>
+        </place>
+        <!--<place>
+            <placeTerm lang="zh">河南</placeTerm>
+            <placeTerm transliteration="pinyin">Henan</placeTerm>
+        </place>-->
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">河南人民出版社</namePart>
+                <namePart transliteration="pinyin">Henan renmin chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

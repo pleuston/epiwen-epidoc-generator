@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="JanYunhua1990a">
+            <titleInfo lang="en" type="translated">
+                        <title>Documents from Dunhuang and the Meditation Method of Sengchou</title>
+            </titleInfo>
+            <titleInfo lang="zh">
+                        <title>敦煌文獻與僧稠的 禪法</title>
+            </titleInfo>
+            <titleInfo transliteration="pinyin">
+                        <title>Dunhuang wenxian yu Sengchou de chanfa</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Jan Yün-hua 1990a</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#janyuenhua">
+                        <namePart transliteration="pinyin" type="family">Jan</namePart>
+                        <namePart transliteration="pinyin" type="given">Yün-hua</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JanYunhua1990a" type="host">
+                        <titleInfo lang="zh">
+                                    <title>中國禪學研究論集</title>
+                        </titleInfo>
+                        <dateIssued>1990</dateIssued>
+                        <originInfo>
+                                    <issuance>monographic</issuance>
+                        </originInfo>
+                        <part>
+                                    <extent unit="page">
+                                                <start>54</start>
+                                                <end>89</end>
+                                    </extent>
+                        </part>
+            </relatedItem>
+</mods>

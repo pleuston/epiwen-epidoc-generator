@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hanshan_Mengyouji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>憨山老人夢游集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Hanshan laoren mengyou ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Dream-Journey Collection of the Hanshan Laoren</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Han­shan lao­ren meng­you ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanshandeqing" type="personal">
+        <name type="personal">
+            <namePart lang="zh" type="family">憨山</namePart>
+            <namePart lang="zh" type="given">德清</namePart>
+            <namePart transliteration="pinyin" type="family">Hanshan</namePart>
+            <namePart transliteration="pinyin" type="given">Deqing</namePart>
+        </name>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1987</dateIssued>
+        <dateOther>Preface 1656</dateOther>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">法爾出版社</namePart>
+                <namePart transliteration="pinyin">Fa’er chubanshe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

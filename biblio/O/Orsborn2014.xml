@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Orsborn2014" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Apocryphal Treatment for Conze’s Heart Problems: Non-attainment, Apprehension, and Mental Hanging in the <hi rend="italic">Prajñāpāramitā Hṛdaya</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Orsborne 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#orsborn" type="personal">
+        <namePart lang="en" type="family">Orsborn</namePart>
+        <namePart lang="en" type="given">Matthew</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Journal of the Oxford Centre for Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2014</date>
+            <detail type="volume">6</detail>
+            <extent unit="page">
+                <start>72</start>
+                <end>105</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

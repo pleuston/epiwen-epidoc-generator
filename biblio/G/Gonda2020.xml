@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gonda2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>河井荃廬研究年表：附河井荃廬著作目録</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kawai Senro kenkyū nenpyō: Fu Kawai Senro chosaku mokuroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Chronology of Research on Senro Kawai: With an Appendix of His Publications</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gonda 2020</title>
+    </titleInfo>
+    <abstract>[Taishan][JSY][Kawai Senro]:
+        The calligrapher and seals-collector KAWAI Senro 河井荃廬, apprentice of WU Changshuo 吴昌碩, had drawn the characters from JSY on a wall in his house. No photograph found so far. Unfortunately, Kawai lost his life in his home as it was bombed and completely burned down on 1945-03-10; thus there might be no further evidence of this painting left.
+        突当りは壁　朱にぬりて　石經峪之大字をあらわしたり in: pp. 140-141.
+        
+        This was mentioned by a visit of MIMURA Chikusei 三村竹清 on the 1919-01-21 in:
+        Mimura Chikusei nikki kenkyūkai 三村竹清日記研究会 [The Research Group of Chikusei Mimura’s Diary]. “Fushū sōdō nichireki (10) 不秋草堂日暦（十） [Reprint of Chikusei Mimura’s Diary, <hi rend="italic">Fushusodo Nichireki</hi>, vol. 10]”. Engeki kenkyū: Engeki hakubutsukan kiyō 演劇研究：演劇博物館紀要 [Studies in Dramatic Art], vol. 25 (2002). Tōkyō: Waseda daigaku Tsubouchi hakase kinen engeki hakubutsukan 早稲田大学坪内博士記念演劇博物館 [The Tsubouchi Memorial Theatre Museum, Waseda University].
+        
+        Original source can be ordered here: https://www.waseda.jp/enpaku/publication/1799/.</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Gonda" type="personal">
+        <namePart lang="ja" type="family">権田</namePart>
+        <namePart lang="ja" type="given">瞬一</namePart>
+        <namePart transliteration="romaji" type="family">Gonda</namePart>
+        <namePart transliteration="romaji" type="given">Shun’ichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+       <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#KoekiZaidan_ronbunshu" type="host">
+        <titleInfo lang="ja">
+            <title>公益財團法人日本習字教育財團學術研究助成成果論文集</title>
+        </titleInfo>
+         <titleInfo transliteration="romaji">
+            <title>Kōeki zaidan hōjin Nihon shūji kyōiku zaidan gakujutsu kenkyū josei seika ronbunshū</title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>Research-aid Resulting Papers</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>5</number>
+            </detail>
+            <date>2020</date>
+            <extent unit="page">
+                <start>129</start>
+                <end>166</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <relatedItem/>
+</mods>

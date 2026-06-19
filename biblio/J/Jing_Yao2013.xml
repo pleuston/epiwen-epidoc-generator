@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Jing_Yao2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>西安青龍寺歷史文化考察</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xi’an Qinglong Si lishi wenhua kaocha</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Study of the History and Culture of Qinglong Temple in Xi’an</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jing and Yao 2013</title>
+        <!--<title>Jing Yapeng and Yao Yilong 2013</title>-->
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jingyapeng" type="personal">
+        <namePart type="family" transliteration="other">Jing</namePart>
+        <namePart type="given" transliteration="other">Yapeng</namePart>
+        <namePart lang="zh" type="family">景</namePart>
+        <namePart lang="zh" type="given">亞鵬</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yaoyilong" type="personal">
+        <namePart type="family" transliteration="other">Yao</namePart>
+        <namePart type="given" transliteration="other">Yilong</namePart>
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">益龍</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Beilinjikan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beilin jikan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>碑林集刊</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Collected Papers on the Stele Forest</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2013</date>
+            <detail type="volume">19</detail>
+            <extent unit="page">
+                <start>177</start>
+                <end>185</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

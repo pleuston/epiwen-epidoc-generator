@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Higashiajia_kenkyu" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東アジア文化交渉研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Higashiajia bunka kōshō kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Journal of East Asian cultural interaction studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#KansaiDaigaku_kenkyuka" type="corporate">
+        <namePart lang="ja">関西大学大学院東アジア文化研究科</namePart>
+        <namePart transliteration="romaji">Kansai daigaku daigakuin Higashiajia bunka kenkyūka</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008-</dateIssued>
+        
+        <place>
+            <placeTerm transliteration="romaji">Ōsaka</placeTerm>
+            <placeTerm lang="ja">大阪</placeTerm>
+        </place>
+        <publisher><name type="corporate">
+            <namePart lang="ja">関西大学大学院東アジア文化研究科</namePart>
+            <namePart transliteration="romaji">Kansai daigaku daigakuin Higashiajia bunka kenkyūka</namePart>
+            </name></publisher>
+    </originInfo>
+</mods>

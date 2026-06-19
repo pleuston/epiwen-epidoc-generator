@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="JeongJaegyun2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="mccune-reischauer">
+        <title>Dong, Seowi sigi Hadong jibang-ui josangsa-eop gwa jiyeoksahoe: Hadong Seolssi reul jungsim-euro</title>
+    </titleInfo>
+    <titleInfo lang="ko">
+        <title>東·<!--·-->西魏 <foreign lang="ko">시기</foreign> 河東 <foreign lang="ko">지방의</foreign> 造像事業<foreign lang="ko">과 지역사회: </foreign>河東 薛氏<foreign lang="ko">를 중심으로</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Statue Producing Activities of Local Communities in Hedong Commandery during the Eastern and Western Wei Periods: With a Focus on the Xue Clan in Hedong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Jeong Jaegyun 2020</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#jeongjaegyun" type="personal">
+        <namePart transliteration="mccunereischauer" type="family">Jeong</namePart>
+        <namePart transliteration="mccunereischauer" type="given">Jaegyun</namePart>
+        <namePart lang="ko" type="family">정</namePart>
+        <namePart lang="ko" type="family">재균</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="" type="host">
+        <titleInfo lang="ko">
+            <title>
+                <foreign lang="ko">역사와 경계</foreign>
+            </title>
+        </titleInfo>
+        <titleInfo transliteration="mccune-reischauer">
+            <title>Yeoksa wa gyeonggye</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">115</detail>
+            <date>2020</date>
+            <extent unit="page">
+                <start>31</start>
+                <end>63</end>
+            </extent>
+            
+        </part>
+    </relatedItem>
+</mods>

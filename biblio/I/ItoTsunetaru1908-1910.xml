@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ItoTsunetaru1908-1910" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Dazai kannaishi</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>太宰管内志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Itō 1908–1910</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ito_tsunetaru" type="personal">
+        <namePart lang="ja" type="family">伊藤</namePart>
+        <namePart lang="ja" type="given">常足</namePart>
+        <namePart transliteration="romaji" type="family">Itō</namePart>
+        <namePart transliteration="romaji" type="given">Tsunetaru</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued point="start">1908</dateIssued>
+        <dateIssued point="end">1910</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Nihon rekishi chiri gakkai</namePart>
+                <namePart lang="ja">日本歷史地理學會</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

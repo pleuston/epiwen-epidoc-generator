@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Finsterbusch1976" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="de">
+            <title>Zur Archäologie der Pei-Ch’i- (550-577) und Sui-Zeit (581-618). Mit einem Fundkatalog</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Finsterbusch 1976</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#finsterbusch" type="personal">
+                <namePart lang="de" type="family">Finsterbusch</namePart>
+                <namePart lang="de" type="given">Käte</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <dateIssued>1976</dateIssued>
+                <place>
+                        <placeTerm>Wiesbaden</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="de">Franz Steiner</namePart>
+                        </name>
+                </publisher>
+        </originInfo>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#MOS" type="series">
+                <titleInfo lang="de">
+                        <title>Münchner Ostasiatische Studien, </title>
+                </titleInfo>
+                <part>
+                        <detail type="series">
+                                <number>Sonderreihe</number>
+                        </detail>
+                        <detail type="volume">
+                                <number> 1</number>
+                        </detail>
+                </part>
+        </relatedItem>
+</mods>

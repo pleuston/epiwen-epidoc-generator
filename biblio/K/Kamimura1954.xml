@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kamimura1954" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Fumon bon Kan’yaku geju no tenka ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>普門品漢訳偈頌の添加について</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Addition of Verses to the Chinese Translation of the Universal Gate Chapter</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kamimura 1954</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kamimura" type="personal">
+        <namePart transliteration="romaji" type="family">Kamimura</namePart>
+        <namePart transliteration="romaji" type="given">Shinshō</namePart>
+        <namePart lang="ja" type="family">上村</namePart>
+        <namePart lang="ja" type="given">眞肇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Indo_bukkyogaku" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Indogaku bukkyōgaku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>印度学仏教学研究</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1954</date>
+           
+            <detail type="volume">4</detail>
+            <extent unit="page">
+                <start>129</start>
+                <end>130</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

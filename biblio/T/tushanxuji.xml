@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="tushanxuji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tushan xuji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>嵞山續集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Supplement to the Collection of Tushan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tushan xuji</title>
+    </titleInfo>
+   
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fangwen" type="personal">
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Wen</namePart>
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">文</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="XXSKQS" type="host">
+        <titleInfo lang="zh">
+            <title>續修四庫全書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xuxiu siku quanshu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>1400</number>
+            </detail>
+            <extent unit="page">
+                <start>134</start>
+                <end>298</end>
+            </extent>
+        </part>
+    </relatedItem>
+    
+</mods>

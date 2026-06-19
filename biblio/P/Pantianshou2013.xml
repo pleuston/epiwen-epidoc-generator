@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Pantianshou2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>毛筆的常識</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Maobi de changshi</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>General Knowledge of Brushes</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tinglin shizhong 1695">
+        <title>Pan Tianshou 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#pantianshou" type="personal">
+        <namePart lang="zh" type="family">潘</namePart>
+        <namePart lang="zh" type="given">天壽</namePart>
+        <namePart lang="zh" transliteration="pinyin" type="family">Pan</namePart>
+        <namePart lang="zh" transliteration="pinyin" type="given">Tianshou</namePart>
+       
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+       
+        <place>
+            <placeTerm transliteration="pinyin">Hangzhou</placeTerm>
+            <placeTerm lang="zh">杭州</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhejiang renmin meishu chubanshe</namePart>
+                <namePart lang="zh">浙江人民美術出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Walter_Ito_Adler2021" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Silk Road: Interwoven History. Vol. 2 Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Walter and Ito-Adler 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#walter" type="personal">
+        <namePart type="family" lang="en">Walter</namePart>
+        <namePart type="given" lang="en">Mariko Namba</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ito_adler" type="personal">
+        <namePart type="family" lang="en">Ito-Adler</namePart>
+        <namePart type="given" lang="en">James P.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+
+
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+        <place>
+            <placeTerm>Somerville, MA, and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Cambridge Institutes Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

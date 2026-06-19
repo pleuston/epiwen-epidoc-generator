@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuChuntao2017" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>山西五至八世紀造像碑的圖像志研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shanxi wu zhi ba shiji zaoxiangbei de tuxiangzhi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Iconographic Study of 5-8th Century Image Steles in Shanxi</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hu Chuntao 2017</title>
+    </titleInfo>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huchuntao" type="personal">
+        <namePart lang="zh" type="family">胡</namePart>
+        <namePart lang="zh" type="given">春濤</namePart>
+        <namePart transliteration="pinyin" type="family">Hu</namePart>
+        <namePart transliteration="pinyin" type="given">Chuntao</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanning</placeTerm>
+            <placeTerm lang="zh">南寧</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guangxi meishu chubanshe</namePart>
+                <namePart lang="zh">廣西美術出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

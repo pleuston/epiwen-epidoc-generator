@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Akutagawa1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>芥川龍之介全集·第三卷：小説·随筆·三</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Akutagawa Ryūnosuke zenshū dai 3-kan: Shōsetsu, zuihitsu, 3</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Complete Works of Akutagawa Ryūnosuke 3: Novels and Essays 3</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Akutagawa 1977</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ryunosuke" type="personal">
+        <namePart lang="ja" type="family">芥川</namePart>
+        <namePart lang="ja" type="given">龍之介</namePart>
+        <namePart transliteration="romaji" type="family">Akutagawa</namePart>
+        <namePart transliteration="romaji" type="given">Ryūnosuke</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <place>
+          <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart transliteration="romaji">Iwanami shoten</namePart>
+            <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

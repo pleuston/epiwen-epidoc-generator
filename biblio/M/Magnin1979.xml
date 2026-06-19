@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Magnin1979" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+     <titleInfo lang="fr">
+                 <title>La vie et l’œuvre de Huisi <foreign lang="zh">慧思</foreign> (515–577): Les origines de la secte bouddhique chinoise du Tiantai</title>
+     </titleInfo>
+     <titleInfo type="reference">
+           <title>Magnin 1979</title>
+     </titleInfo>
+     <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#magnin" type="personal">
+           <namePart lang="fr" type="family">Magnin</namePart>
+           <namePart lang="fr" type="given">Paul</namePart>
+           <role>
+                <roleTerm>author</roleTerm>
+           </role>
+     </name>
+     <originInfo>
+           <dateIssued>1979</dateIssued>
+           <place>
+                 <placeTerm>Paris</placeTerm>
+           </place>
+           <publisher>
+                 <name type="corporate">
+                       <namePart lang="fr">Adrien-Maisonneuve</namePart>
+                 </name>
+           </publisher>
+           <issuance>monographic</issuance>
+      </originInfo>
+      <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Publications_EFEO" type="series">
+           <titleInfo lang="fr">
+                 <title>Publications de l’École française d’Extrême-Orient</title>
+           </titleInfo>
+           <part>
+                 <detail type="volume">
+                       <number>116</number>
+                 </detail>
+           </part>
+      </relatedItem>
+</mods>

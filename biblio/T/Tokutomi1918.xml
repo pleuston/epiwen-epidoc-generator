@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tokutomi1918" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那漫游記</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina man’yūki</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>China Travelogue</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tokutomi 1918</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tokutomi" type="personal">
+        <namePart lang="ja" type="family">德富</namePart>
+        <namePart lang="ja" type="given">猪一郎</namePart>
+        <namePart transliteration="romaji" type="family">Tokutomi</namePart>
+        <namePart transliteration="romaji" type="given">Iichirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1918</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart transliteration="romaji">Min’yūsha</namePart>
+            <namePart lang="ja">民友社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

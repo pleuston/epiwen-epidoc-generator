@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Makita1981" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中國佛教史研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku bukkyōshi kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Buddhist History in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Makita 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#makita" type="personal">
+        <namePart lang="ja" type="family">牧田</namePart>
+        <namePart lang="ja" type="given">諦亮</namePart>
+        <namePart transliteration="romaji" type="family">Makita</namePart>
+        <namePart transliteration="romaji" type="given">Tairyō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>3 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">3</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued>1981(1.fascicle); 1984(2.fascicle); 1989(3.fascicle)</dateIssued>
+        <place>
+            <placeTerm>Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Daitō shuppansha</namePart>
+                <namePart lang="ja">大東出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

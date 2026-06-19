@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Weimojing" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Weimo jing jian a men fo pin di shi er; Weimojie shuo shuo jing <foreign lang="zh">維摩經見阿閦佛品第十二；維摩詰所説經</foreign>
+        </title>
+        <!--<title>Weimo jing jian a men fo pin di shi er ; Weimojie shuo shuo jing</title>-->
+    </titleInfo>
+    <!--<titleInfo lang="zh" type="translated">
+        <title>維摩經見阿閦佛品第十二，維摩詰所説經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Weimo jing jian a men fo pin di shi er ; Weimojie shuo shuo jing</title>
+    </titleInfo>-->
+    <titleInfo type="reference">
+        <title>Weimo jing (Harvard)</title>
+    </titleInfo>
+    <location>
+        <url displayLabel="additional">http://id.lib.harvard.edu/images/olvwork297391/urn-3:FHCL:2350538/catalog</url>
+        <!--<url>https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-W297391_urn-3:FHCL:2350538</url>-->
+    </location>
+    <extension>HOLLIS number 9721125</extension>
+    <!--<genre>Web</genre>-->
+    <originInfo>
+        <!--<issuance>monographic</issuance>-->
+        <dateCaptured>2022-04-03</dateCaptured>
+        <dateIssued point="start">1912</dateIssued>
+        <dateIssued point="end">1945</dateIssued>
+        <place>
+            <placeTerm>Cambridge</placeTerm>
+            <!--<placeTerm lang="zh">劍橋</placeTerm>-->
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard-Yenching Library, Harvard University</namePart>
+            </name>
+        </publisher>
+        <!--<publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard Library</namePart>
+            </name>
+        </publisher>-->
+    </originInfo>
+</mods>

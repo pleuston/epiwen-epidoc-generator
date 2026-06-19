@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="GuangXing2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Early Buddhist and Confucian Concepts of Filial Piety: A Comparative Study</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guang Xing 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guangxing" type="personal">
+        <namePart transliteration="pinyin" type="family">Guang</namePart>
+        <namePart transliteration="pinyin" type="given">Xing</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Journal of the Oxford Centre for Buddhist Studies</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2013</date>
+            <detail type="volume">4</detail>
+            <extent unit="page">
+                <start>8</start>
+                <end>46</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

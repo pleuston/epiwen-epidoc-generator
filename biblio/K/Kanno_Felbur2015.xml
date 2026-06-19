@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="KannoFelbur2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Sūtra Commentaries in Chinese Until the Tang Period</title>
+    </titleInfo>
+    
+    
+    <titleInfo type="reference">
+        <title>Kanno and Felbur 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanno" type="personal">
+        <namePart lang="ja" type="family">菅野</namePart>
+        <namePart lang="ja" type="given">博史</namePart>
+        <namePart transliteration="romaji" type="family">Kanno</namePart>
+        <namePart transliteration="romaji" type="given">Hiroshi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#felbur" type="personal">
+        <namePart lang="en" type="family">Felbur</namePart>
+        <namePart lang="en" type="given">Rafal</namePart>
+       
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BEB_1" type="host">
+        <titleInfo>
+            <title>Brill’s Encyclopedia of Buddhism, Volume 1: Literature and Languages</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>450</start>
+                <end>466</end>
+            </extent>
+        </part>
+    </relatedItem>
+    
+   
+</mods>

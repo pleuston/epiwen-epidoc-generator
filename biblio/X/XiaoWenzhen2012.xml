@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="XiaoWenzhen2012" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>You “Jin’gang jing jiangjing wen” zhi “Xiaoshi Jin’gang jing keyi”—tan “Jin’gang jing” xinyang shisuhua zhi zhuanbian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>由《金剛經講經文》至《銷釋金剛經科儀》─談《金剛經》信仰世俗化之轉變</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>From the <hi rend="italic">Lecture Texts on the Diamond Sutra</hi> to the <hi rend="italic">Explanation of the Diamond Sutra Ordered in Segments </hi>: A Discussion of the Evolution of the Secularization of the Belief in the <hi rend="italic">Diamond Sutra </hi>
+            
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Xiao Wenzhen 2012</title>
+    </titleInfo>
+    <note>For the translation of keyi 科儀 see Mayer1999, 67-68.</note>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#xiaowenzhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Xiao</namePart>
+        <namePart transliteration="pinyin" type="given">Wenzhen</namePart>
+        <namePart lang="zh" type="family">蕭</namePart>
+        <namePart lang="zh" type="given">文貞</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Dunhuangxue" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Dunhuang xue</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>敦煌學</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2012</date>
+            <detail type="volume">29</detail>
+            <extent unit="page">
+                <start>206</start>
+                <end>206</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="kanda_kanreki_kinenkai1957" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>神田博士還曆記念書<!--誌-->志學論集</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kanda hakushi kanreki kinen shoshigaku ronshū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Festschrift on the Occasion of Dr. Kanda <foreign xml:lang="ja">Kiichirō</foreign>’s Sixtieth Birthday</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kanda hakushi kanreki kinenkai 1957</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kanda_kanreki_kinenkai" type="corporate">
+        <namePart lang="ja">神田博士還曆記念會</namePart>
+        <namePart transliteration="romaji">Kanda hakushi kanreki kinenkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1957</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">神田博士還曆記念會</namePart>
+                <namePart transliteration="romaji">Kanda hakushi kanreki kinenkai</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

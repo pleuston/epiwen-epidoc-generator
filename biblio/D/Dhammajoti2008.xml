@@ -1,0 +1,75 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dammajoti2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+  <titleInfo lang="en">
+    <title>The Sixteen-Mode Mindfulness of Breathing</title>
+  </titleInfo>
+  <titleInfo type="reference">
+    <title>Dhammajoti 2008</title>
+  </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dhammajoti" type="personal">
+    <namePart lang="en" type="family">Dhammajoti</namePart>
+    <namePart lang="en" type="given">KL.</namePart>
+    <role>
+      <roleTerm>author</roleTerm>
+    </role>
+  </name>
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+    <titleInfo lang="en">
+      <title>Journal of the Centre for Buddhist Studies Sri Lanka</title>
+    </titleInfo>
+    <originInfo>
+      <issuance>continuing</issuance>
+    </originInfo>
+    <part>
+      <detail type="volume">
+        <number>6</number>
+      </detail>
+      <extent unit="page">
+        <start>251</start>
+        <end>288</end>
+      </extent>
+      <date>2008</date>
+    </part>
+  </relatedItem>
+
+
+  <classification edition="#Dhammajoti2021">reprint</classification>
+
+
+  <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Dhammajoti2021" type="host">
+    <note>reprint</note>
+    <!--  -->
+        <titleInfo lang="en">
+      <title>Aspects of Meditative Praxis in <foreign xml:lang="sa">Sarvāstivāda</foreign>
+            </title>
+    </titleInfo>
+    <titleInfo type="reference">
+      <title>Dhammajoti 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dhammajoti" type="personal">
+      <namePart lang="en" type="family">Dhammajoti</namePart>
+      <namePart lang="en" type="given">KL.</namePart>
+      <role>
+        <roleTerm>author</roleTerm>
+      </role>
+    </name>
+    <originInfo>
+      <dateIssued>2021</dateIssued>
+      <place>
+        <placeTerm>Hong Kong</placeTerm>
+      </place>
+      <publisher>
+        <name type="corporate">
+          <namePart lang="en">The Buddha-Dharma Centre of Hong Kong</namePart>
+        </name>
+      </publisher>
+      <issuance>monographic</issuance>
+    </originInfo>
+    <part>
+      <extent unit="page">
+        <start>7</start>
+        <end>45</end>
+      </extent>
+    </part>
+  </relatedItem>
+
+</mods>

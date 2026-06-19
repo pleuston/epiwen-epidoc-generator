@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangJing1992" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>The Story of Stone. Intertextuality, Ancient Chinese Stone Lore, and
+                                    the Stone Symbolism in Dream of the Red Chamber, Water Margin,
+                                    and the Journey to the West</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Wang Jing 1992</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangjing" type="personal">
+                        <namePart lang="en" type="family">Wang</namePart>
+                        <namePart lang="en" type="given">Jing</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued>1992</dateIssued>
+                        <place>
+                                    <placeTerm>Durham and London</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">Duke University Press</namePart>
+                                    </name>
+                        </publisher>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

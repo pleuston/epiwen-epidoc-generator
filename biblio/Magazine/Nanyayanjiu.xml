@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nanyayanjiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Nan Ya yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>南亞研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>South Asian Studies</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#NYYJ_bianjibu" type="corporate">
+        <namePart transliteration="pinyin">Nan Ya yanjiu bianjibu</namePart>
+        <namePart lang="zh">南亞研究編輯部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start">1978</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中國社會科學院</namePart>
+                <namePart transliteration="pinyin">Zhongguo shehui kexueyuan</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

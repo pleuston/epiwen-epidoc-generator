@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Haizhouzhilizhouzhi_Jiaqing" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>〔Jiaqing〕 Haizhou Zhili zhouzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔嘉慶〕海州直隸州志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of Haizhou Zhili Prefecture (Jiaqing Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Haizhou Zhili zhouzhi 1811</title>
+    </titleInfo>
+    <subject/>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tangzhongmian" type="personal">
+        <namePart transliteration="pinyin" type="family">Tang</namePart>
+        <namePart transliteration="pinyin" type="given">Zhongmian</namePart>
+        <namePart lang="zh" type="family">唐</namePart>
+        <namePart lang="zh" type="given">仲冕</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangmeiding" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Meiding</namePart>
+        <namePart lang="zh" type="family">汪</namePart>
+        <namePart lang="zh" type="given">梅鼎</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<originInfo>
+        <dateOther>66 vols</dateOther>
+    </originInfo>-->
+    <extension>66 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ZhongguoFangzhi1966_89" type="host">
+        <titleInfo lang="zh">
+            <title>中國方誌叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongguo fangzhi congshu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+    <note type="reprint">Reprint of the 1811 edition</note>
+</mods>

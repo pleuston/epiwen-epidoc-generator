@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Welter2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Tale of Two Stūpas: Diverging Paths in the Revival of Buddhism in Hangzhou China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Welter 2022</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#welter" type="personal">
+        <namePart lang="en" type="family">Welter</namePart>
+        <namePart lang="en" type="given">Albert</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>TOC:
+        Foreword
+        Preface
+        Chapter One: Introduction: Buddhist Relic Veneration, Buddhist Sites and Translocations, and the Transformation of the Hangzhou/Jiangnan region into an Indian Buddhist Homeland
+        Chapter Two: Hangzhou Buddhism in Historical Perspective
+        Chapter Three: The Origins and Development of the Yongming Stupa
+        Chapter Four: The Origins and Development of Leifeng Pagoda
+        Chapter Five: A Tale of Two Stūpas: The Parameters of Buddhist Revival in China
+        Appendix 1: Translations Associated with the "resurrection" of Yanshou and establishment of the Yongming Stupa
+        Appendix 2: Translations of The Precious Chest Seal Dharani Satra and selections from Jingci Monastery Gazetteer relating to Leifeng Pagoda
+        Bibliography
+        Index</abstract>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm>New York</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Oxford University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

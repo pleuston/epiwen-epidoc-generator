@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TonkoBunbutsu_Bakukokutsu3_1981" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国石窟：敦煌莫高窟（三）</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku sekkutsu: Tonkō Bakukōkutsu (3)</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chinese Caves: The Mogao Caves at Dunhuang (vol. 3)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tonkō bunbutsu kenkyūjo 1981</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tonko_bunbutsu_kenkyujo" type="corporate">
+        <namePart transliteration="romaji">Tonkō bunbutsu kenkyūjo</namePart>
+        <namePart lang="ja">敦煌文物研究所</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tonko_bakukokutsu_henshu_iinkai" type="corporate">
+        <namePart transliteration="romaji">Tonkō Bakukōkutsu henshū iinkai</namePart>
+        <namePart lang="ja">中国石窟·敦煌莫高窟編集委員会</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1981</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平凡社</namePart>
+                <namePart transliteration="romaji">Heibonsha</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+</mods>

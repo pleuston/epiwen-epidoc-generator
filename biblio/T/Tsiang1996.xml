@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsiang1996" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Monumentalization of Buddhist Texts in the Northern Qi Dynasty: The Engraving of Sūtras in Stone at the Xiangtangshan Caves and Other Sites in the Sixth Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsiang 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsiang" type="personal">
+        <namePart lang="en" type="family">Tsiang</namePart>
+        <namePart lang="en" type="given">Katherine R.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ArtibusAsiae" type="host">
+        <titleInfo>
+            <title>Artibus Asiae</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">56</detail>
+            <detail type="no">3/4</detail>
+            <extent unit="page">
+                <start>233</start>
+                <end>261</end>
+            </extent>
+            <date>1996</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,75 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tieqiaojinshiba" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tieqiao jinshi ba</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>鐵橋金石跋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Colophons of Epigraphica of Steel Bridge</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>鐵橋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Tieqiao</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Tieqiao jinshi ba">
+        <title>Tie­qiao jin­shi ba</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yankejun" type="personal">
+        <namePart transliteration="pinyin" type="family">Yan</namePart>
+        <namePart transliteration="pinyin" type="given">Kejun</namePart>
+        <namePart lang="zh" type="family">嚴</namePart>
+        <namePart lang="zh" type="given">可均</namePart>
+        <namePart type="date">1762-1843</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liushiheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu</namePart>
+        <namePart transliteration="pinyin" type="given">Shiheng</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">世珩</namePart>
+        <namePart type="date">1875-1926</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>4 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">4</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther>Undated</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>25</number>
+            </detail>
+            <extent unit="page">
+                <start>19303</start>
+                <end>19344</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Loveday2000" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="fr">
+        <title>La bibliothèque tournante en Chine: quelques remarques sur son rôle et son
+            évolution</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Loveday 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#loveday" type="personal">
+        <namePart lang="en" type="family">Loveday</namePart>
+        <namePart lang="en" type="given">Helen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ToungPao" type="host">
+        <titleInfo lang="en">
+            <title>T’oung Pao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2000</date>
+            <detail type="volume">86</detail>
+            <detail type="no">2</detail>
+            <extent unit="page">
+                <start>225</start>
+                <end>279</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

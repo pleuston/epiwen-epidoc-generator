@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiRongxi1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Biography of the Tripiṭaka Master of the Great Ci’en Monastery of the Great Tang
+            Dynasty. Translated from the Chinese of Śramaṇa Huili and Shi Yancong (Taishō, Volume 50, Number 2053)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Rong­xi 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#lirongxi" type="personal">
+        <namePart lang="en" type="family">Li</namePart>
+        <namePart lang="en" type="given">Rongxi</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm>Berkeley, CA</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Numata Center for Buddhist Translation and Research</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>BDK English Tripiṭaka 77</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

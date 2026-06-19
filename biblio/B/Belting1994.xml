@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Belting1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Likeness and Presence: A History of the Image before the Era of Art.</title>
+        <subTitle/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Belting 1994</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#belting" type="personal">
+        <namePart lang="en" type="family">Belting</namePart>
+        <namePart lang="en" type="given">Hans</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name>
+        <namePart type="family">Jephcott</namePart>
+        <namePart type="given">Edmund</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <publisher>University of Chicago Press</publisher>
+        <place>
+            <placeTerm>Chicago</placeTerm>
+        </place>
+        <dateIssued>1994</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

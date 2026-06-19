@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiRongxi_Dalia2002" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Lives of Great Monks and Nuns</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li Rongxi and Dalia 2002</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#lirongxi" type="personal">
+        <namePart type="family">Li</namePart>
+        <namePart type="given">Rongxi</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#dalia" type="personal">
+        <namePart type="family">Dalia</namePart>
+        <namePart type="given">Albert A.</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#numata_center" type="corporate">
+        <namePart lang="en">Numata Center for Buddhist Translation and Research</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Bukkyō Dendō Kyōkai and Numata Center for Buddhist Translation
+                    and Research</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="en">Berkeley</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>BDK English Tripiṭaka 76-III, IV, V, VI, VII</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

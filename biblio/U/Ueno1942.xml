@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ueno1942" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>本舘所藏小平文庫目綠</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Honkan shozō Kodaira bunko mokuroku</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Catalogue of the Kodaira Collection in our Library</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ueno and Mantetsu Hōten toshokan 1942</title>
+    </titleInfo>
+    <abstract>Collection of materials of Kodaira Sōji 小平総治（小平總治）(1876-1935). The collection was donated to the Fengtian Library (Hōten toshokan), a library owned by the South Manchuria(n) Railway Company, in the end of 1940, see p. 1. It included 512 Rubbings, collected by Kodaira.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ueno_takeo" type="personal">
+        <namePart lang="ja" type="family">植野</namePart>
+        <namePart lang="ja" type="given">武雄</namePart>
+        <namePart transliteration="romaji" type="family">Ueno</namePart>
+        <namePart transliteration="romaji" type="given">Takeo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mantetsu_hoten_toshokan" type="corporate">
+        <namePart transliteration="romaji">Mantetsu, Hōten toshokan</namePart>
+        <namePart lang="ja">滿鉄·<!--・-->奉天圖書館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1942</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Fengtian (Hōten)</placeTerm>
+            <placeTerm lang="ja">奉天</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Mantetsu, Hōten toshokan</namePart>
+                <namePart lang="ja">滿鉄・奉天圖書館<!--（南満洲鉄道奉天図書館）--></namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

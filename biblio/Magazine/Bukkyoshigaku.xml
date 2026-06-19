@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bukkyoshigaku" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛教史学</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Bukkyō shigaku</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bukkyoshi_gakkai" type="corporate">
+        <namePart lang="ja">佛教史学会</namePart>
+        <namePart transliteration="romaji">Bukkyōshi gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1949-1972</dateIssued>
+        <dateIssued encoding="marc" point="start">1949</dateIssued>
+        <dateIssued encoding="marc" point="end">1972</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平楽寺書店</namePart>
+                <namePart transliteration="romaji">Heirakuji shoten</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

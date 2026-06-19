@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yoshikawa1937" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那紀行</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina kikō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Chinese Travelog</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yoshikawa 1937</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yoshikawa_koichiro" type="personal">
+        <namePart lang="ja" type="family">吉川</namePart>
+        <namePart lang="ja" type="given">小一郎</namePart>
+        <namePart transliteration="romaji" type="family">Yoshikawa</namePart>
+        <namePart transliteration="romaji" type="given">Koichirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Uehara1937" type="host">
+        <titleInfo lang="ja">
+            <title>新西域記：大谷家蔵版</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1937</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">2</detail>
+            <extent unit="page">
+                <start>557</start>
+                <end>722</end>
+            </extent>
+        </part><!--between p. 566 and 567 Dafosi photos (7. month 18. day Meiji 44 明治四十四七月十八日 => July 18, 1911) 1873 wurde der Gregorianische Kalender in Japan eingeführt-->
+    </relatedItem>
+</mods>

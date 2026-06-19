@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Harrist1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Letter from Wang Hsi-chih and the Culture of Chinese Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Harrist 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#harrist" type="personal">
+        <namePart lang="en" type="family">Harrist</namePart>
+        <namePart lang="en" type="given">Robert E. Jr.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Harrist_Fong1999" type="host">
+        <titleInfo lang="en">
+            <title>The Embodied Image: Chinese Calligraphy from the John B. Elliot Collection</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>241</start>
+                <end>259</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

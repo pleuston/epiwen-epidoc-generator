@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tejima2013" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>空王·空王佛·大空王佛-北朝末·隋·唐時期尊格的展開</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Kongwang·kongwangfo·dakongwangfo—Beichaomo·Sui·Tang shiqi zunge de zhankai</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tejima 2013</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tejima" type="personal">
+        <namePart lang="ja" type="family">手島</namePart>
+        <namePart lang="ja" type="given">一真</namePart>
+        <namePart transliteration="romaji" type="family">Tejima</namePart>
+        <namePart transliteration="romaji" type="given">Isshin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#fangyaping" type="personal">
+        <namePart lang="zh" type="family">方</namePart>
+        <namePart lang="zh" type="given">亞平</namePart>
+        <namePart transliteration="pinyin" type="family">Fang</namePart>
+        <namePart transliteration="pinyin" type="given">Yaping</namePart>
+        <role>
+            <roleTerm>translate</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Katz_LiuShufen2013" type="host">
+        <titleInfo lang="zh">
+            <title>信仰、實踐與文化調適</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xinyang, shijian yu wenhua tiaoshi</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>30</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChengduWenwu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Chengdu wenwu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>成都文物</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chengdu Cultural Relics</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengduwenwu_bjb" type="corporate">
+        <namePart transliteration="pinyin">"Chengdu wenwu" bianjibu</namePart>
+        <namePart lang="zh">《成都文物》编辑部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued/>
+        <dateIssued encoding="marc" point="start"/>
+        <dateIssued encoding="marc" point="end"/>
+        <issuance>continuing</issuance>
+        <frequency>tri-monthly</frequency>
+        <place>
+            <placeTerm>Chengdu</placeTerm>
+            <placeTerm lang="zh">成都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+                <namePart lang="en" type="translated"/>
+            </name>
+        </publisher>
+    </originInfo>
+    <language>
+        <languageTerm type="code">zh</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>print</form>
+    </physicalDescription>
+</mods>

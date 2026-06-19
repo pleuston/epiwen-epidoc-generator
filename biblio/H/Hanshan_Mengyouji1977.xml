@@ -1,0 +1,54 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hanshan_Mengyouji1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>憨山老人夢游集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Hanshan laoren mengyou ji</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Dream-Journey Collection of the Elder Hanshan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Hanshan laoren mengyou ji</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shideqing" type="personal">
+        <name type="personal">
+            <namePart lang="zh" type="family">釋</namePart>
+            <namePart lang="zh" type="given">德清</namePart>
+            <namePart transliteration="pinyin" type="family">Shi</namePart>
+            <namePart transliteration="pinyin" type="given">Deqing</namePart>
+        </name>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>2 vols.</extension>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#XZJ" type="series">
+        <titleInfo lang="zh">
+            <title>續藏經</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xu Zangjing</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>127</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <dateOther>Preface of 1656</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">臺北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xinwenfeng chuban gongsi</namePart>
+                <namePart lang="zh">新文豐出版公司</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

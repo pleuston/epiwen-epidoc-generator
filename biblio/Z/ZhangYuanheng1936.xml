@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangYuanheng1936" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan shengjing</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山勝境</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Scenic Spots of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tai Shan shengjing<!--Zhang Yuan­heng 1936--></title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangyuanheng" type="personal">
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">沅恒</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>s.d</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai liangyou tushu gongsi</namePart>
+                <namePart lang="zh">上海良友圖書公司</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="Quanguolieyingji_ZhangYuanheng" type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Quanguo lieying ji</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>全國獵影集</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        
+    </relatedItem>
+</mods>

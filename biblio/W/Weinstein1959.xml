@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Weinstein1959" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Biographical Study of Tz’ŭ-ên</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Weinstein 1959</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#weinstein" type="personal">
+        <namePart lang="en" type="family">Weinstein</namePart>
+        <namePart lang="en" type="given">Stanley</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="host">
+        <titleInfo lang="en">
+            <title>Monumenta Nipponica</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1959</date>
+            <detail type="volume">15</detail>
+            <detail type="no">1/2</detail>
+            <extent unit="page">
+                <start>119</start>
+                <end>149</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

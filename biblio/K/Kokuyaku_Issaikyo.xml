@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kokuyaku_Issaikyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>國譯一切経：印度撰述部</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Kokuyaku issaikyō: Indo senjutsubu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Japanese Translations of the Scriptures: Indian Works</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kokuyaku issaikyo 1930-1936</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#iwano" type="personal">
+        <namePart lang="ja" type="family">岩野</namePart>
+        <namePart lang="ja" type="given">眞雄</namePart>
+        <namePart transliteration="romaji" type="family">Iwano</namePart>
+        <namePart transliteration="romaji" type="given">Shinʼyū</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hasuzawa" type="personal">
+        <namePart lang="ja" type="family">蓮澤</namePart>
+        <namePart lang="ja" type="given">成淳</namePart>
+        <namePart transliteration="romaji" type="family">Hasuzawa</namePart>
+        <namePart transliteration="romaji" type="given">Seijun</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <extension>155 vols.</extension>
+    <originInfo>
+        <dateIssued point="start">1930</dateIssued>
+        <dateIssued point="end">1936</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">大東出版社</namePart>
+                <namePart transliteration="romaji">Daitō shuppansha</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

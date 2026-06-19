@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sokolova2023" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="mccune-reischauer">
+        <title/>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Regional Buddhist Communities in Tang China and Their Social Networks: The Network of Master Fayun (?–766)</title>
+    </titleInfo>
+   
+    <titleInfo type="reference">
+        <title>Sokolova 2023</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sokolova" type="personal">
+        <namePart lang="en" type="family">Sokolova</namePart>
+        <namePart lang="en" type="given">Anna</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+   <!-- <location>
+        <url>https://doi.org/10.3390/rel14030335</url>
+    </location>-->
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Religions" type="host">
+        <titleInfo lang="en">
+            <title>Religions</title>
+        </titleInfo>
+       
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">14</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>19</end>
+            </extent>
+            <date>2023</date>
+        </part>
+    </relatedItem>
+</mods>

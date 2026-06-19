@@ -1,0 +1,29 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dongbeiyayanjiuluncong_Changshida" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>東北亞研究叢刊（長師大）</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Dongbei Ya yanjiu luncong (Chang shi da)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#" type="corporate">
+        <namePart lang="zh"/>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Changchun</placeTerm>
+            <placeTerm lang="zh">長春</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh"/>
+                <namePart transliteration="pinyin"/>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+    </originInfo>
+</mods>

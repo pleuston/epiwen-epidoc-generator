@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Bainiantaishan">
+    <titleInfo transliteration="pinyin">
+        <title>Bainian Tai Shan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>百年泰山</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Century of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bainian tai shan</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#taishan_Guanliweiyuanhui" type="corporate">
+        <namePart transliteration="pinyin" type="family">Tai Shan mingshengqu guanli
+            weiyuanhui</namePart>
+        <namePart lang="zh">泰山風景名勝區管理委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shandong huabao chubanshe</namePart>
+                <namePart lang="zh">山東畫報出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

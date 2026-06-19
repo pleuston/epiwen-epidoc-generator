@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="kaltenmark1953" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Le Lie-sien tchouan<!-- <foreign lang="zh"><hi rend="normal">列仙傳</hi></foreign>-->: Biographies légendaires des Immortels taoïstes de lantiquité</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kaltenmark 1953</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kaltenmark" type="personal">
+        <namePart lang="en" type="family">Kaltenmark</namePart>
+        <namePart lang="en" type="given">Max</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1953</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Bali daxue Beijing hanxue yanjiusuo</namePart>
+                <namePart lang="zh">巴黎大學北京漢學研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Université de Paris. Publications du Centre d’études sinologiques de Pékin</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

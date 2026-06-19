@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="caolvning2007" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tang <hi rend="italic">Shangdu Jianfu Si lintan dajie De lüshi zhi bei</hi> du ji</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐《上都薦福寺臨壇大戒德律師之碑》讀記</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Notes on Reading the Tang Dynasty <hi rend="italic">Stele of the Noble One Who Has Reached the Platform and [Preserved] the Precepts, the Vinaya Master of Jianfu Monastery of the Capital </hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cao Lüning 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#caolvning" type="personal">
+        <namePart transliteration="pinyin" type="family">Cao</namePart>
+        <namePart transliteration="pinyin" type="given">Lüning</namePart>
+        <namePart lang="zh" type="family">曹</namePart>
+        <namePart lang="zh" type="given">旅寧</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Beilinjikan" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beilin Jikan</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>碑林集刊</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">13</detail>
+            <extent unit="page">
+                <start>32</start>
+                <end>37</end>
+            </extent>
+            <date>2007</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,65 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yushi" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Yu shi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>語石</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Speaking About Stones</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>語石</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Yu shi</title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Yushi">
+        <title>Yu shi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yechangchi" type="personal">
+        <namePart transliteration="pinyin" type="family">Ye</namePart>
+        <namePart transliteration="pinyin" type="given">Changchi</namePart>
+        <namePart lang="zh" type="family">葉</namePart>
+        <namePart lang="zh" type="given">昌熾</namePart>
+        <namePart type="date">1847-1917</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>10 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <extent>
+            <detail type="fascicle">10</detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateOther qualifier="approximate">Preface 1901, rev. 1909; ed. 1909</dateOther>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>2</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>16</number>
+            </detail>
+            <extent unit="page">
+                <start>11849</start>
+                <end>12034</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

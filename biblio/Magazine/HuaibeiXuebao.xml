@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HuaibeiXuebao" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo transliteration="pinyin">
+                                <title>Huaibei Shifan daxue xuebao zhexue shehui kexue ban</title>
+                </titleInfo>
+                <titleInfo lang="zh">
+                                <title>淮北師範大學學報（哲學社會科學版）</title>
+                </titleInfo>
+                <titleInfo lang="en" type="translated">
+                                <title>Journal of Huaibei Normal University(Philosophy and Social Sciences)</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Huaibei shifan daxue xuebao</title>
+                </titleInfo>
+  <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huaibeishifanDX" type="corporate">
+                                <namePart transliteration="pinyin">Huaibei shifan daxue</namePart>
+                                <namePart lang="zh">淮北師範大學</namePart>
+                                <namePart lang="en">Huaibei Normal University</namePart>
+                                <role>
+                                                <roleTerm>editor</roleTerm>
+                                </role>
+                </name>
+                <typeOfResource>text</typeOfResource>
+                <originInfo>
+                                <dateIssued/>
+                                <dateIssued encoding="marc" point="start">1979</dateIssued>
+                                <dateIssued encoding="marc" point="end"/>
+                                <issuance>continuing</issuance>
+                                <frequency/>
+                                <place>
+                                                <placeTerm>Huaibei</placeTerm>
+                                                <placeTerm lang="zh">淮北</placeTerm>
+                                </place>
+                                <publisher>
+                                                <name type="corporate">
+                                                  <namePart transliteration="pinyin">Huaibei shifan daxue</namePart>
+                                                  <namePart lang="zh">淮北師範大學</namePart>
+                                                </name>
+                                </publisher>
+                </originInfo>
+</mods>

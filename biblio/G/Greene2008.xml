@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Greene2008" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Another Look at Early <hi rend="italic">Chan:</hi> Daoxuan, Bodhidharma, and the Three Levels Movement</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Greene 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#greene" type="personal">
+        <namePart lang="en" type="family">Greene</namePart>
+        <namePart lang="en" type="given">Eric</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>Green gives a new interpretation of Daoxuan’s concluding summary to the section on
+        "chan practitioners" (xichan 習禪), the Evaluation of the Chan Practitioners (Xichan lun 習禪輪)
+        Unlike Hu Shi, Jan Yün-hua and Chen Jinhua (Chen Jinhua 2002), he does not think that
+        Daoxuan praises Sengchou, in whose tradition he probably saw himself, but criticizes
+        Bodhidharma. By closely analyzing Daoxuan’s vocabulary that he used for describing the
+        meditation method of Bodhidharma, Greene is able to demonstrate that several terms that were
+        said to hold a negative connotation (qiandang 遣蕩 as indicating the teaching of the
+        middle-way 中道 instead of simply "discard and negate"; liangshe 両捨: abandonment of the two
+        extreme position of existence and emptiness instead of "double-abandoning"; jueyan 絕言:
+        refering to silent wisdom instead of merely "abstaining from the use of words"; er gui 二軌:
+        two wheels of a cart in the sense of complementary; youze 幽賾: "recondite and mysterious"
+        instead of "deep and complicated") are not meant negative at all, but are in accordance with
+        technical terms for meditation Daoxuan uses in his Continuation of the Biographies of
+        Eminent Monks elsewhere. As for the unidentified group of Chan pratitioners that Daoxuan
+        openly criticizes, Green does not think that these are later pupils of Bodhidharma, but
+        adherents of the Teaching of the Three Stages. In the final passage of his Evaluation of the
+        Chan Practitioners, Daoxuan praises again the achievements of four famous monks, namely
+        Huisi, Huiyuan, Sengchou and Sengshi. The fact that Bodhidharma is omitted from this list
+        has been taken by Yanagida and Chen Jinhua as proof for an alleged rivalry between
+        Bodhidharma’s lineage and the lineage of Sengchou, to which Daoxuan is counted. According to
+        Greene, the underlying assumption of Yanagida and Chen that Bodhidharma’s followers had
+        already established themselves as an important meditation group with a novel orientation
+        (towards asceticism, manual labor and iconoclasm) is false and is due to the construction of
+        so-called "proto-Chan" doctrines by modern Japanese scholars. Greene thinks that "there is
+        thus no reason to think that Bodhidharma or his followers were famous or formed any kind of
+        coherent group when Daoxuan was writing the Evaluation of the Chan Practitioners." (p. 78) </abstract>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo>
+            <title>T’oung Pao<hi rend="normal">, ser. 2, vol.</hi>
+            </title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2008</date>
+            <detail type="volume">94</detail>
+            <detail type="no">1–3</detail>
+            <extent unit="page">
+                <start>49</start>
+                <end>114</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

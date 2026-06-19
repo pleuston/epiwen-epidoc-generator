@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="vonPrzychowski2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Magie der Zeichen. 3000 Jahre chinesische Schriftkunst</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Karlsson and Przychowski 2015</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#karlsson_kim" type="personal">
+        <namePart type="family">Karlsson</namePart>
+        <namePart type="given">Kim</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#przychowski" type="personal">
+        <namePart type="family">Przychowski</namePart>
+        <namePart type="given">Alexandra von</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <place>
+            <placeTerm>Zürich</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Museum Rietberg and Verlag Scheidegger &amp; Spiess</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,46 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LuoHongcai2008" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo fodao zaoxiangbei yanjiu: Yi Guangzhong diqu wei kaocha zhongxin</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國佛道造像碑研究:以關中地區為考察中心</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Buddhist and Daoist Votive Stelae in China. With a Focus on the
+            Investigation of the Guanzhong Area</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Luo Hong­cai 2008</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luohongcai" type="personal">
+        <namePart lang="zh" type="family">羅</namePart>
+        <namePart lang="zh" type="given">宏才</namePart>
+        <namePart transliteration="pinyin" type="family">Luo</namePart>
+        <namePart transliteration="pinyin" type="given">Hongcai</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2008</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai daxue chubanshe</namePart>
+                <namePart lang="en" type="translated"/>
+                <namePart lang="zh">上海大學出版社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo transliteration="pinyin">
+            <title>Meishu kaoguxue congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>美術考古學叢書</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

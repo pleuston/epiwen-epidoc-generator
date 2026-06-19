@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WuMenglin1999" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>房山石經本《唐玄宗註金剛經》整理記<hi rend="dash">──</hi>附錄文</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Fangshan shijing ben <hi rend="italic">Tang Xuanzong zhu Jin’gangjing</hi> zhengliji—fu luwen
+        </title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>A Record of Sorting the Fangshan Stone Sutra Text of the <hi rend="italic">Commentary on the Diamond Sutra by Xuanzong of the Tang</hi>: with Appendix</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wu Menglin 1999</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wumenglin" type="personal">
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">夢麟</namePart>
+        <namePart transliteration="pinyin" type="family">Wu</namePart>
+        <namePart transliteration="pinyin" type="given">Menglin</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#FSSJYJ_1999" type="host">
+        <titleInfo lang="zh">
+            <title>房山石經研究</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Fangshan shijing yanjiu</title>
+        </titleInfo>
+        
+        <originInfo>
+            <dateIssued>1999</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>13</start>
+                <end>54</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

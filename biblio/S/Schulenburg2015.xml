@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schulenburg2015" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddha. 108 Begegnungen/Encounters</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schulenburg 2007</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#vonderSchulenburg" type="personal">
+        <namePart lang="en" type="family">von der Schulenburg</namePart>
+        <namePart lang="en" type="given">Stephan</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+
+
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Wienand</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm>Köln</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="de">
+            <title>Ausstellungskatalog, Museum für Angewandte Kunst, Frankfurt am Main</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

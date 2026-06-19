@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gregory1995" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Inquiry Into the Origin of Humanity. An Annotated Translation of Tsung-mi’s Yüan jen lun with a Modern Commentary</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Gregory 1995</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TsungMi" type="personal">
+        <namePart lang="zh">圭峰宗密</namePart>
+        <namePart transliteration="pinyin">Tsung Mi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gregory" type="personal">
+        <namePart lang="en" type="family">Gregory</namePart>
+        <namePart lang="en" type="given">Peter N.</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+            <roleTerm>commentator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1995</dateIssued>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title>Kuroda Institute, Classics in East Asian Buddhism</title>
+        </titleInfo>
+        
+    </relatedItem>
+</mods>

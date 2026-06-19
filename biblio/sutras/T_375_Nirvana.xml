@@ -1,0 +1,100 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_375" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>大般涅槃經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Da banniepan jing</title>
+    </titleInfo>
+    <titleInfo lang="sa">
+        <title>Mahāparinirvāṇa-sūtra</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Great <foreign xml:lang="sa">Parinirvāṇa</foreign> Sutra</title>
+    </titleInfo>
+    <titleInfo lang="en" type="abbreviated">
+        <title>Nirvana Sutra</title>
+    </titleInfo>
+    <titleInfo lang="en" type="alternative">
+        <title>Sutra of the Great Decease</title>
+    </titleInfo>
+    <titleInfo lang="zh" type="abbreviated">
+        <title>般涅槃經</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin" type="abbreviated">
+        <title>Banniepan jing</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#375, 12</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huiyan" type="personal">
+        <namePart lang="zh">慧嚴</namePart>
+        <namePart transliteration="pinyin">Huiyan</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">36</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>Southern Liang dynasty</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>12</number>
+            </detail>
+            <extent unit="page">
+                <start>605</start>
+                <end>852</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

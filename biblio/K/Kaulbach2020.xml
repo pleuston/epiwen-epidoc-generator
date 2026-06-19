@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kaulbach2020" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Die 24 Pietätsgeschichten der Religionskundlichen Sammlung Marburg
+            und ihr kulturgeschichtlicher Hintergrund</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kaulbach 2020</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kaulbach" type="personal">
+        <namePart lang="de" type="family">Kaulbach</namePart>
+        <namePart lang="de" type="given">Barbara</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+        <place>
+            <placeTerm>Gossenberg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Ostasien Verlag</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Phönixfeder</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>51</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

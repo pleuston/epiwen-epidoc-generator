@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mizuno_Nagahiro1951_56" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>雲崗石窟：西曆五世紀における中國北部佛教窟院の考古學的調査報告</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Unkō sekkutsu: Seireki goseiki ni okeru Chūgoku hokubu Bukkyō kutsuin no kōkogakuteki chōsa hōkoku</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Yun-kang, the Buddhist Cave-Temples of the Fifth Century A.D. in North China: Detailed Report of the Archaeological Survey Carried Out by the Mission of the Tōhōbunka Kenkyūsho 1938-45</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Mizuno and Nagahiro 1951–1956</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#mizuno_seiichi" type="personal">
+        <namePart lang="ja" type="family">水野</namePart>
+        <namePart lang="ja" type="given">清一</namePart>
+        <namePart transliteration="romaji" type="family">Mizuno</namePart>
+        <namePart transliteration="romaji" type="given">Seiichi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nagahiro" type="personal">
+        <namePart lang="ja" type="family">長広</namePart>
+        <namePart lang="ja" type="given">敏雄</namePart>
+        <namePart transliteration="romaji" type="family">Nagahiro</namePart>
+        <namePart transliteration="romaji" type="given">Toshio</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>1-16 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign>
+    </extension>
+    <!--<physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="fascicle">
+                <number>1-16</number>
+            </detail>
+        </extent>
+    </physicalDescription>-->
+    <originInfo>
+        <dateIssued point="start">1951</dateIssued>
+        <dateIssued point="end">1956</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōto daigaku Jinbun kagaku kenkyūsho</namePart>
+                <namePart lang="ja">京都大學人文科學研究所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

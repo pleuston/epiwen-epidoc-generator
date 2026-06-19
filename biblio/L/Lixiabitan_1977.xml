@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Lixiabitan_1977" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://sueyling:sueyling@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Rekika hitsutan</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>歴下筆譚</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Brush Jottings from Lixia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Li­xia bi­tan (Ja)</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baoshichen" type="personal">
+        <namePart transliteration="pinyin" type="family">Bao</namePart>
+        <namePart transliteration="pinyin" type="given">Shichen</namePart>
+        <namePart lang="zh" type="family">包</namePart>
+        <namePart lang="zh" type="given">世臣</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tarumoto" type="personal">
+        <namePart transliteration="romaji" type="family">Tarumoto</namePart>
+        <namePart transliteration="romaji" type="given">Hidenobu</namePart>
+        <namePart lang="ja" type="family">樽本</namePart>
+        <namePart lang="ja" type="given">英信</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takahata" type="personal">
+        <namePart transliteration="romaji" type="family">Takahata</namePart>
+        <namePart transliteration="romaji" type="given">Tsunenobu</namePart>
+        <namePart lang="ja" type="family">高畑</namePart>
+        <namePart lang="ja" type="given">常信</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>-->
+    <originInfo>
+        <dateOther>$$$Preface 1829</dateOther>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="BaoShichen_Yizhoushuangji_1977" type="host">
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent>
+                <start>68</start>
+                <end>87</end>
+            </extent>
+        </part>
+        <typeOfResource collection="yes"/>
+    </relatedItem>
+</mods>

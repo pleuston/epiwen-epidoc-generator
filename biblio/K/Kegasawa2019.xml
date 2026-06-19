@@ -1,0 +1,47 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa2019" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Bōzan Ungoji to sono sekikyō tono deai—watashi no Bōzan sekikyō kenkyū no dōtei</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>房山雲居寺とその石经との出会い<hi rend="dash">──</hi>私の房山石经研究の道程</title>
+        
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>An Encounter with the Stone Sutras of Cloud Dwelling Monastery in Fangshan—my Fangshan Stone Sutras Research Journey</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori</namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Journal_EastAsianEpigraphy" type="host">
+        <titleInfo lang="zh">
+            <title>東アジア石刻研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Higashi Asia sekkoku kenkyū</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Journal of East Asian Epigraphy</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">8</detail>
+            <!--<detail type="no"></detail>-->
+            <extent unit="page">
+                <start>1</start>
+                <end>5</end>
+            </extent>
+            <date>2019</date>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,73 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Qiaoling2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Das Qiaoling <foreign lang="zh">唐睿宗橋陵</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>唐睿宗橋陵</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Tang Ruizong Qiaoling</title>
+    </titleInfo>
+   
+    <titleInfo type="reference">
+        <title>Qiaoling 2002</title>
+    </titleInfo>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#gongqiming" type="personal">
+        <namePart transliteration="pinyin" type="family">Gong</namePart>
+        <namePart transliteration="pinyin" type="given">Qiming</namePart>
+        <namePart lang="zh" type="family">鞏</namePart>
+        <namePart lang="zh" type="given">啓明</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#koch" type="personal">
+        <namePart lang="en" type="family">Koch</namePart>
+        <namePart lang="en" type="given">Alexander</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name-->
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#RG_Zentralmuseum" type="corporate">
+        <namePart lang="de">Römisch-Germanisches Zentralmuseum</namePart>
+       
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shaanxisheng_kaogu_yjs" type="corporate">
+        <namePart lang="zh">陜西省考古研究所</namePart>
+        <namePart transliteration="pinyin">Shaanxi Sheng kaogu yanjiusuo</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <place>
+            
+            <placeTerm lang="en">Mainz and Wiesbaden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Verlag des Römisch-Germanischen Zentralmuseums and Harrassowitz Verlag</namePart>
+                
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#WWU_PrograminEastAsianStudies" type="series">
+        <titleInfo lang="en">
+            <title>Römisch-Germanisches Zentralmuseum, Monographien</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>47</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

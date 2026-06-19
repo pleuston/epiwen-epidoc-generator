@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="TongWei1997" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Ershier zhong dazang jing tong yan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>二十二種大藏經通檢</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>General Index of Twenty-two Buddhist Canons</title>
+        <title/>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tong Wei 1997</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tongwei" type="personal">
+        <namePart transliteration="pinyin" type="family">Tong</namePart>
+        <namePart transliteration="pinyin" type="given">Wei</namePart>
+        <namePart lang="zh" type="family">童</namePart>
+        <namePart lang="zh" type="given">瑋</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <issuance>monographic</issuance>
+        <dateIssued>1997</dateIssued>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">中華書局</namePart>
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">上海</placeTerm>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+        </place>
+    </originInfo>
+</mods>

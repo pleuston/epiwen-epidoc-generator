@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Juyilu1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>居易録</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Juyi Lu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Records of Living at Ease</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Juyi Lu</title>
+    </titleInfo>
+    <extension>34 <hi rend="italic">juan </hi>
+        <foreign lang="zh">卷</foreign> in 2 vols.</extension>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangshizhen" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Shizhen</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">士禎</namePart>
+        <namePart type="date">Qing dynasty</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="TSWXJC2005" type="series">
+        <titleInfo lang="zh">
+            <title>筆記小説大觀</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Biji xiaoshuo daguan</title>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+            <title>Collection of Short Novels</title>
+        </titleInfo>        
+        <originInfo>
+            <issuance>monographic</issuance>
+            <dateIssued>1988</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Taibei</placeTerm>
+                <placeTerm lang="zh">臺北</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="zh">新興書局</namePart>
+                    <namePart transliteration="pinyin">Xinxing shuju</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>15</number>
+            </detail>
+            
+        </part>
+    </relatedItem>
+</mods>

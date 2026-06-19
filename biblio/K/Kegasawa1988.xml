@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Kegasawa1988" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>中国·陝西省 扶風法門寺の歴史と現状<hi rend="dash">──</hi>仏舎利の来た寺</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Chūgoku Sensei-shō Fufū Hōmonji no rekishi to genjō: Busshari no kita tera</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>History and Present Condition of Famen-si (Famên-ssū) at Fufeng (Fufêng)—The First Temple in China Where the Śarīra Were Introduced from India</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Kegasawa 1988</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#kegasawa" type="personal">
+        <namePart transliteration="romaji" type="family">Kegasawa</namePart>
+        <namePart transliteration="romaji" type="given">Yasunori</namePart>
+        <namePart lang="ja" type="family">氣賀澤</namePart>
+        <namePart lang="ja" type="given">保規</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BukkyoGeijutsu" type="host">
+        <titleInfo lang="ja">
+            <title>仏教芸術</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bukkyō geijutsu</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1988</date>
+            <detail type="volume">179</detail>
+            <extent unit="page">
+                <start>87</start>
+                <end>105</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

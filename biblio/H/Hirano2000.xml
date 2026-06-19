@@ -1,0 +1,45 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hirano2000" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>佛·道二教にみる父母恩重経</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Butsu, Dō ni-kyō ni miru Fubo onjū kyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <hi rend="italic">Sutra on the Profound Kindness of Parents</hi> as Seen in Buddhism and Daoism</title>
+    </titleInfo>
+    <abstract>Official English title: Fu-mu-en-zhong-jing Sutra See in Dao and Fo Two Religion</abstract>
+    <titleInfo type="reference">
+        <title>Hirano 2000</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hirano_kensho" type="personal">
+        <namePart lang="ja" type="family">平野</namePart>
+        <namePart lang="ja" type="given">顕照</namePart>
+        <namePart type="family">Hirano</namePart>
+        <namePart type="given">Kenshō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Bukkyo_Daigaku_Bungakubu_ronshu" type="host">
+        <titleInfo lang="ja">
+            <title>文学部論集</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Bungakubu ronshū</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>84</number>
+            </detail>
+            <extent unit="page">
+                <start>89</start>
+                <end>96</end>
+            </extent>
+            <date>2000</date>
+        </part>
+    </relatedItem>
+</mods>

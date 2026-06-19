@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Maithrimurthi1999" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Wohlwollen, Mitleid, Freude und Gleichmut: Eine ideengeschichtliche Untersuchung der vier <foreign lang="sa">
+                <hi rend="italic">apramāṇas</hi>
+            </foreign> in der buddhistischen Ethik und Spiritualität von den Anfängen bis hin zum frühen <foreign lang="sa">Yogācāra</foreign>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Maithrimurthi 1999</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#maithrimurthi" type="personal">
+        <namePart lang="en" type="family">Maithrimurthi</namePart>
+        <namePart lang="en" type="given">Mudagamuwe</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1999</dateIssued>
+        <place>
+            <placeTerm>Stuttgart</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Steiner Verlag</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="de">
+            <title>Alt- und Neu-Indische Studien</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>50</number>
+            </detail>
+        </part>
+    </relatedItem>
+    <extension>Zugl.: Hamburg, Univ., <!--FB Orientalistik, -->Diss., 1998</extension>
+</mods>

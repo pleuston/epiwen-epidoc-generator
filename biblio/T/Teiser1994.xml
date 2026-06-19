@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Teiser1994" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>
+            <hi rend="normal">The Scripture on the Ten Kings</hi> and the Making of Purgatory in Medieval Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Teiser 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#teiser" type="personal">
+        <namePart lang="en" type="family">Teiser</namePart>
+        <namePart lang="en" type="given">Stephen F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>p. 98: S 5450, S 5544 (dated 911?), and san 262: "... stating that the text is based on "a true printed copy of the Kuo family of Hsi-ch’uan" (Hsi-ch’uan Kuo-chia chen yin-pen.)" 西川過家真印本
+    There are more examples of Diamondsutras with this note. Teiser notes p. 98-99: "The printed edition belonging originally to the Kuo family, then, must have been revered so highly in at least one Tun-huang scriptorium that it served as the master version for the production of many copies."
+    CW: Does 真印本 really refer to the master version, in terms of the correct or verified version? Is this printing technology? I don’t think so. I assume 真印 here has a religious meaning. This master version was copied many times comparable to the true images of the Buddha. It is not a "true printed copy", but rather the "text of the true seal", ultimately referring to an efficacious text.  CW 2024: 真印本 refers to the "true" Kumarajiva version of the Diamond, the one with the additional 60/62 characters that were believed to have been long lost.
+    p. 196-219: translation of <hi rend="italic">The Scripture of King Yama Rāja Concerning the Sevens of Life to Be Cultivated in Preparation for Rebirth in the Pure Land</hi> 閻羅王預修生七往生净土經 on the basis of a critical edition of the long recension derived from six tenth-century manuscripts: P.2003; P.2870; Satō ms; S.3961; P.3761; Cft 00212 (L).</abstract>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm>Honolulu</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">University of Hawaiʻi Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#StudiesInEastAsianBuddhism" type="series">
+        <titleInfo lang="en">
+            <title><!--Kuroda Institute -->Studies in East Asian Buddhism</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>9</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

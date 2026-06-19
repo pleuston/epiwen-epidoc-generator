@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xubuhuanyufangbeilu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xubu Huanyu fangbei lu</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>續補寰宇訪碑録</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Sequel to the <hi rend="italic">Record of Visiting Steles in the Whole World</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference" displayLabel="Xubu Huanyu fangbei lu">
+        <title>Xu­bu Huan­yu fang­bei lu</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liushengmu" type="personal">
+        <namePart transliteration="pinyin" type="family">劉</namePart>
+        <namePart transliteration="pinyin" type="given">聲木</namePart>
+        <namePart lang="zh" type="family">Liu</namePart>
+        <namePart lang="zh" type="given">Shengmu</namePart>
+        <namePart type="date">1876-1959</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">25</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther qualifier="approximate">Preface 1929</dateOther>
+        <dateIssued/>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKSLXB" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Shike shiliao xinbian</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>石刻史料新編</title>
+        </titleInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail level="1" type="series">
+                <number>1</number>
+            </detail>
+            <detail level="2" type="volume">
+                <number>27</number>
+            </detail>
+            <extent unit="page">
+                <start>20301</start>
+                <end>20459</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <note type="reprint">Reprint of the first edition of 1929</note>
+</mods>

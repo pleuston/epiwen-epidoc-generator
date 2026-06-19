@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yaoguangyu_Archive" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>匯寄留美學生夏季學費函·監督照收支發由</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Huiji liumei xuesheng xiaji xuefei han:jiandu zhao shouzhi fayou</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Letter to Students in America/the U.S about the Summer-semester/Term Tuition· the supervisor Provided/Awarded the Students/Them According to the Income and Expenditure</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yunnan Archive: Yao Guangyu 1918a</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>1918</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Kunming</placeTerm>
+            <placeTerm lang="zh">昆明</placeTerm>
+        </place><!--        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">s.n.</namePart>
+            </name>
+        </publisher>-->
+    </originInfo>
+    <note type="reprint">Preserved in the Yunnan Provincial Archives, ID: 1012-4-510</note>
+</mods>

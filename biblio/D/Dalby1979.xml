@@ -1,0 +1,26 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Dalby1979" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Court Politics in Late T’ang Times</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Dalby 1979</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#dalby" type="personal">
+        <namePart lang="en" type="family">Dalby</namePart>
+        <namePart lang="en" type="given">Michael</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Twitchett_Fairbank1979_3" type="host">
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>561</start>
+                <end>681</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

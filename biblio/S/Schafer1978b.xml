@@ -1,0 +1,33 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Schafer1978b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>The Jade Woman of the Greatest Mystery</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Schafer 1978b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#schafer" type="personal">
+        <namePart lang="de" type="family">Schafer</namePart>
+        <namePart lang="de" type="given">Edward H.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#HistoryofReligions" type="host">
+        <titleInfo lang="en">
+            <title>History of Religions</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>17</number>
+            </detail>
+            <extent unit="page">
+                <start>387</start>
+                <end>398</end>
+            </extent>
+            <date>1978</date>
+        </part>
+    </relatedItem>
+</mods>

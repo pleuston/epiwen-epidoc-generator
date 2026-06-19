@@ -1,0 +1,39 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouYing2021" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan biannian tongshi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山編年通史</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chronological General History of Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 2021</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <extension>3 vols.</extension>
+    <originInfo>
+        <dateIssued qualifier="forthcoming">forthcoming</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Tai’an</placeTerm>
+            <placeTerm lang="zh">泰安</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Tai Shan xueyuan Tai Shan yanjiuyuan</namePart>
+                <namePart lang="zh">泰山學院泰山研究院</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <note type="reprint">Unpublished manuscript, dated April 1, 2021. <foreign lang="zh">2021年4月1日未刊稿</foreign>
+    </note>
+</mods>

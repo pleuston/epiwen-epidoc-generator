@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wright1990" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Studies in Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wright 1990</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wright" type="personal">
+        <namePart lang="en" type="family">Wright</namePart>
+        <namePart lang="en" type="given">Arthur F.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#somers" type="personal">
+        <namePart lang="en" type="family">Somers</namePart>
+        <namePart lang="en" type="given">Robert M.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name-->
+    <originInfo>
+        <dateIssued>1990</dateIssued>
+        <place>
+            <placeTerm>New Haven and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Yale University Press</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

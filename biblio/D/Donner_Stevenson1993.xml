@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Donner_Stevenson1993" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>The Great Calming and Contemplation. A Study and Annotated
+                                    Translation of the First Chapter of Chih-i’s Mo-ho
+                                    chih-kuan</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Donner and Stevenson 1993</title>
+            </titleInfo>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#donner" type="personal">
+                        <namePart lang="en" type="family">Donner</namePart>
+                        <namePart lang="en" type="given">Neil</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#stevenson" type="personal">
+                        <namePart lang="en" type="family">Stevenson</namePart>
+                        <namePart lang="en" type="given">Daniel. B</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <typeOfResource>text</typeOfResource>
+            <originInfo>
+                        <dateIssued>1993</dateIssued>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart lang="en">University of Hawaiʻi Press</namePart>
+                                    </name>
+                        </publisher>
+                        <place>
+                                    <placeTerm>Honolulu</placeTerm>
+                        </place>
+                        <issuance>monographic</issuance>
+            </originInfo>
+</mods>

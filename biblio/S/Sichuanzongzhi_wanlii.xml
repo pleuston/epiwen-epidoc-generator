@@ -1,0 +1,91 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sichuanzongzhi_wanli" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Sichuan zongzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>四川總志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Gazetteer of Sichuan</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sichuan zongzhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yuhuaizhong" type="personal">
+        <namePart transliteration="pinyin" type="family">Yu</namePart>
+        <namePart transliteration="pinyin" type="given">Huaizhong</namePart>
+        <namePart lang="zh" type="family">虞</namePart>
+        <namePart lang="zh" type="given">懷忠</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guofei" type="personal">
+        <namePart transliteration="pinyin" type="family">Guo</namePart>
+        <namePart transliteration="pinyin" type="given">Fei</namePart>
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">棐</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <!--<extent>
+        <detail type="juan">34</detail>
+    </extent>-->
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <dateOther>34 vols</dateOther>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書·史部·地理類</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu: shi bu, dili lei</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number type="start">199–200</number>
+                <!--<number type="end">200</number>-->
+            </detail>
+            <extent unit="page">
+                <start>199.189</start>
+                <end>200.198</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="SKQS_Cunmu" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Siku quanshu cunmu congshu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>四庫全書存目叢書</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <typeOfResource collection="yes"/>
+        <part>
+            <detail type="volume">
+                <number>
+                    <foreign lang="zh">史部·地理類</foreign>199–200</number>
+            </detail>
+            <extent unit="page">
+                <start>199: 189</start>
+                <end>200: 198</end>
+            </extent>
+        </part>
+    </relatedItem>-->
+    <note type="reprint">Reprint of the 1581 edition</note>
+</mods>

@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AizuMuseum2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Waseda daigaku bunka geijutsu shūkan 2018-nendo shinpojiumu: ‘Sho’ o saigen suru</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>早稲田大学文化芸術週間2018年度シンポジウム：「書」を再視する</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Waseda Culture and Arts Week 2018 Symposium: Reflections on ‘Calligraphy’</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Aizu Museum 2018</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AizuMuseum" type="corporate">
+        <namePart transliteration="romaji">Aizu Yaichi kinen hakubutsukan</namePart>
+        <namePart lang="ja">會津八一記念博物館</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#AizuMuseum_kiyo" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Aizu Yaichi kinen hakubutsukan kenkyū kiyō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>會津八一記念博物館研究紀要</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <extent unit="volume">
+                <number>20</number>
+            </extent>
+            <date>2018</date>
+            <extent unit="page">
+                <start>125</start>
+                <end>154</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

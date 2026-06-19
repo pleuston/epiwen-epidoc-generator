@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Naba1938b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>唐代の社邑について（二）</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōdai no shayū ni tsuite (2) </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Associations of the Tang Dynasty, Second Part</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Naba 1938b</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#naba" type="personal">
+        <namePart lang="ja" type="family">那波</namePart>
+        <namePart lang="ja" type="given">利貞</namePart>
+        <namePart transliteration="romaji" type="family">Naba</namePart>
+        <namePart transliteration="romaji" type="given">Toshisada</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Shirin" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Shirin</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>史林</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">32</detail>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>71</start>
+                <end>110</end>
+            </extent>
+            <date>1938</date>
+        </part>
+    </relatedItem>
+</mods>

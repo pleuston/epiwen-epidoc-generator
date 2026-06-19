@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShanxiBWY2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shanxi bowuyuan cangpin gailan: shi zaoxiang juan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山西博物院藏品概覽·石造像卷</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>An Overwiev on the Collection of the Shanxi Museum: Volume on Stone Sculptures</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shanxi bowuyuan 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanxiBWY" type="personal">
+        <namePart lang="zh">山西博物院</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Wenwu chubanshe</namePart>
+                <namePart lang="zh">文物出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

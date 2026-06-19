@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WanChanghua1989" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>李三才與泰山</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Li Sancai yu Tai Shan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Li Sancai and Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wan Chang­hua 1989</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <city>Tai’an</city>
+        </hierarchicalGeographic>
+        <topic>Taishan</topic>
+        <temporal>Ming Dynasty</temporal>
+    </subject>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wanchanghua" type="personal">
+        <namePart lang="zh" type="family">萬</namePart>
+        <namePart lang="zh" type="given">昌華</namePart>
+        <namePart transliteration="pinyin" type="family">Wan</namePart>
+        <namePart transliteration="pinyin" type="given">Changhua</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TSYJLC1989" type="host">
+        <titleInfo lang="zh">
+            <title>泰山研究論叢</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Tai Shan yanjiu luncong</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1989</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>1</number>
+            </detail>
+            <extent unit="page">
+                <start>183</start>
+                <end>186</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

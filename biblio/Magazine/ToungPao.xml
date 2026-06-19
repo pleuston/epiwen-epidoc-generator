@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ToungPao" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>T’oung Pao: Revue internationale de sinologie</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>通報</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#will" type="personal">
+        <namePart lang="en" type="family">Will </namePart>
+        <namePart lang="en" type="given">P.-E.</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#terhaar" type="personal">
+        <namePart lang="en" type="family">ter Haar</namePart>
+        <namePart lang="en" type="given">Baarend</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1890-</dateIssued>
+        <dateIssued encoding="marc" point="start">1890</dateIssued>
+        <frequency>five issues per year</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Leiden</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">E. J. Brill</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

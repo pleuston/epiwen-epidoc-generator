@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Walsh2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Efficacious Surroundings: temple Space and Buddhist Well-being</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Walsh 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#walsh" type="personal">
+        <namePart lang="de" type="family">Walsh</namePart>
+        <namePart lang="de" type="given">Michael J.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>...any Buddhist monastery or temple, must attract not only devotees seeking health and
+        healing, but also donoers wishing to bestow wealth upon the institution.</abstract>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#JournalReligionHealth" type="host">
+        <titleInfo>
+            <title>Journal of Religion and Health</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">46</detail>
+            <detail type="no">4</detail>
+            <date>2007</date>
+            <extent unit="page">
+                <start>471</start>
+                <end>479</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

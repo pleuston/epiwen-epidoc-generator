@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenLi1994" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Baihutong shuzheng </title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>白虎通疏證</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>An Annotated Edition of the <hi rend="italic">Comprehensive Discussions in the White Tiger Hall</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Chen Li 1994</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenli" type="personal">
+        <namePart lang="zh" type="family">陳</namePart>
+        <namePart lang="zh" type="given">立</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+        
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wuzeyu" type="personal">
+        <namePart lang="zh" type="family">吳</namePart>
+        <namePart lang="zh" type="given">則虞</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+        
+    </name>
+    <originInfo>
+        <dateIssued>1994</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Xinbian zhuzi jicheng <foreign lang="zh">新編諸子集成</foreign>
+            </title>
+        </titleInfo>
+        
+    </relatedItem>
+</mods>

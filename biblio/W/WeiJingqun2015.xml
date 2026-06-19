@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WeiJingqun2015" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Xu Beihong zeng liang zhi Qi Lu zhi bang</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>徐悲鴻曾兩至齊魯之邦</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Xu Beihong Came Twice to the States of Qi and Lu</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wei Jingqun 2015</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#weijingqun" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Jingqun</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">敬群</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Qiluwanbao" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Qilu wanbao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>齊魯晚報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <frequency>daily</frequency>
+        </originInfo>
+        <part>
+            <date>2015-05-07</date>
+            <extent unit="page">
+                <start>B01</start>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

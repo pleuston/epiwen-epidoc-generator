@@ -1,0 +1,23 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="HeLiqun2013" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist State Monasteries in Early Medieval China and their Impact on East Asia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>He Liqun 2013</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#heliqun" type="personal">
+        <namePart lang="zh" type="family">何</namePart>
+        <namePart lang="zh" type="given">利群</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss.</note>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <place>
+            <placeTerm lang="en">Universität Heidelberg</placeTerm>
+        </place>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

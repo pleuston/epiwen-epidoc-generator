@@ -1,0 +1,61 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WangHexiang1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Cong Beichao moya kejing shuodao shu fen san pai lun</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>從北朝摩崖刻經説到書分三派論</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>From the Point of View of Northern Dynasties Sutras Engraved on Polished Cliffs Speaking about the Theory of Three Schools in Calligraphy</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Hexiang 1991</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <province>Hebei</province>
+            <province>Henan</province>
+        </hierarchicalGeographic>
+        <temporal>Northern Dynasties</temporal>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wanghexiang" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Hexiang</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">合祥</namePart>
+        <namePart transliteration="pinyin" type="penname">Zilan</namePart>
+        <namePart lang="zh" type="penname">滋蘭</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#SDSKYS_bwg1991a" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Beichao moya kejing yanjiu</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>北朝摩崖刻經研究</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>1991-12</dateIssued>
+            <place>
+                <placeTerm transliteration="pinyin">Jinan</placeTerm>
+                <placeTerm lang="zh">濟南</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Qilu shushe</namePart>
+                    <namePart lang="zh">齊魯書社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>82</start>
+                <end>97</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

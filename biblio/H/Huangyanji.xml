@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huangyanji" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>晃岩集</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collection of Works from the Studio of Rocks at Huang</title>
+    </titleInfo>
+    <titleInfo lang="zh" transliteration="pinyin">
+        <title>Huangyan ji</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huangyan ji</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chixianfang" type="personal">
+        <namePart lang="zh" type="family">池</namePart>
+        <namePart lang="zh" type="given">顯方</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+        
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#XM_tsg" type="corporate">
+            <namePart lang="zh">廈門市圖書館</namePart>
+            <namePart lang="zh" transliteration="pinyin">Xiamen Shi tushuguan</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+    </name>
+    <originInfo>
+        <dateIssued>2009</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Xiamen</placeTerm>
+            <placeTerm lang="zh">廈門</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">厦門大學出版社</namePart>
+                <namePart transliteration="pinyin">Xiamen daxue chubanshe</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Ximenwenxiancongkan" type="series">
+        <titleInfo lang="zh">
+            <title>厦門文獻叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Xiamen wenxian congkan</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number/>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

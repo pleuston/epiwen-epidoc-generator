@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wangleqing2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Jianfu Si beike de tedian yu jiazhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>薦福寺碑刻的特點與價值</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Value and Characteristics of the Jianfu Monastery Inscriptions</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wang Leqing 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wangleqing" type="personal">
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Leqing</namePart>
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">樂慶</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Wenbo" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Wenbo</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>文博</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2016</date>
+            
+            <detail type="no">3</detail>
+           
+            <extent unit="page">
+                <start>81</start>
+                <end>86, 36</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

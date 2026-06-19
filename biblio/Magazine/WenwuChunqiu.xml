@@ -1,0 +1,35 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="WenwuChunqiu" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>文物春秋</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Wenwu chunqiu</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Stories of Relics</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#wenwu_chunqiu_bjb" type="corporate">
+        <namePart lang="zh">文物春秋编辑部</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1989-</dateIssued>
+        <dateIssued encoding="marc" point="start">1989</dateIssued>
+        <frequency>bi-monthly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Hebei</placeTerm>
+            <placeTerm lang="zh">河北</placeTerm>
+            <placeTerm>Shijiazhuang</placeTerm>
+            <placeTerm lang="zh">石家莊</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">文物春秋杂志社</namePart>
+                <namePart transliteration="pinyin">Wenwu chunqiu zazhishe</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ArtsAsiatiques" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="fr">
+                <title>Arts Asiatiques</title>
+                <subTitle>Annales du Musée national des Arts asiatiques - Guimet et du musée
+                        Cernuschi</subTitle>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#musee_guimet" type="corporate">
+                <namePart lang="fr">Musée national des Arts asiatiques-Guimet</namePart>
+                <role>
+                        <roleTerm>editor</roleTerm>
+                </role>
+        </name>
+        <originInfo>
+                <place>
+                        <placeTerm>Paris</placeTerm>
+                </place>
+                <publisher>
+                        <name type="corporate">
+                                <namePart lang="fr">Musee Guimet</namePart>
+                        </name>
+                </publisher>
+                <dateIssued>1954-</dateIssued>
+                <dateIssued encoding="marc" point="start">1954</dateIssued>
+                <dateIssued encoding="marc" point="end"/>
+                <issuance>continuing</issuance>
+        </originInfo>
+        <physicalDescription>
+                <form>print</form>
+        </physicalDescription>
+</mods>

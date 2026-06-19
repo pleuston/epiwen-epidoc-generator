@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Baozunpeng1968" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>明監國魯王壙志之研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Ming jianguo Luwang kuangzhi zhi yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study of the Tomb Inscription of the Regent King of Lu of the Ming Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bao Zun­peng 1968</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#baozunpeng" type="personal">
+        <namePart transliteration="pinyin" type="family">Bao</namePart>
+        <namePart transliteration="pinyin" type="given">Zunpeng</namePart>
+        <namePart lang="zh" type="family">包</namePart>
+        <namePart lang="zh" type="given">遵彭</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1968</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Guoli lishi bowuguan</namePart>
+                <namePart lang="zh">國立歷史博物館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>國立歷史博物館歷史文物叢刊</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Guoli lishi bowuguan lishi wenwu congkan</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>Collected Papers on Historical Relics of National Museum of History</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

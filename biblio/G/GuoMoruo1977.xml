@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="GuoMoruo1977" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Nüshen</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>女神</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Goddess</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Guo Moruo 1977</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#guomoruo" type="personal">
+        <namePart lang="zh" type="family">郭</namePart>
+        <namePart lang="zh" type="given">沫若</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1977</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Renmin wenxue chubanshe</namePart>
+                <namePart lang="zh">人民文學出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

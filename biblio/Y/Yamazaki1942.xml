@@ -1,0 +1,55 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yamazaki1942" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>支那中世佛教の展開</title>
+        <!--<title>支那中世仏教の展開</title>-->
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shina chūsei Bukkyō no tenkai</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Development of Buddhism in Medieval China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yamazaki 1947</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yamazaki" type="personal">
+        <namePart lang="ja" type="family">山崎</namePart>
+        <namePart lang="ja" type="given">宏</namePart>
+        <namePart transliteration="romaji" type="family">Yamazaki</namePart>
+        <namePart transliteration="romaji" type="given">Hiroshi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1947</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Shimizu shoten</namePart>
+                <namePart lang="ja">清水書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <!--<classification edition="1971">reprint</classification>
+    <originInfo>
+        <edition/>
+        <dateIssued>1971</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Kyōto</placeTerm>
+            <placeTerm lang="ja">京都</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Hōzōkan</namePart>
+                <namePart lang="ja">法蔵館</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>-->
+    <note type="reprint">Reprint of 1942 edition</note>
+</mods>

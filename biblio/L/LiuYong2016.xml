@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuYong2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>變動不居的經典：明代《大學》改本研究</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Biandong buju de jingdian: Mingdai “Da Xue” gaiben yanjiu</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Ever-Changing Classic: A Study of Alternating Versions of the Ming <hi rend="italic">Great Learning</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Yong 2016</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#liuyong" type="personal">
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">勇</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">生活·讀書·新知三聯書店</namePart>
+                <namePart transliteration="pinyin">Shenghuo, dushu, xinzhi sanlian shudian</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">北京</placeTerm>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+        </place>
+    </originInfo>
+</mods>

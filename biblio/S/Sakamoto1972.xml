@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Sakamoto1972" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>法華経の中国的展開</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokekyō no Chūgoku-teki tenkai</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Development of the <hi rend="italic">Lotus Sutra</hi> in China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Sakamoto 1972</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#sakamoto" type="personal">
+        <namePart lang="ja" type="family">坂本</namePart>
+        <namePart lang="ja" type="given">幸男</namePart>
+        <namePart transliteration="romaji" type="family">Sakamoto</namePart>
+        <namePart transliteration="romaji" type="given">Yukio</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1972</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">平楽寺書</namePart>
+                <namePart transliteration="romaji">Heiryakuji shoten</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

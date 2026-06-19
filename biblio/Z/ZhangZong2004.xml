@@ -1,0 +1,70 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhangZong2004" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>石刻佛經中的新發現與新解讀</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shike fojing zhong de xin faxian yu xin jiedu</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>New Discoveries and New Understandings of Stone Cut Buddhist Sutras</title>
+        <!--<title>New discoveries and new understandings of stone cut Buddhist sūtras</title>-->
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhang Zong 2004</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zhangzong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhang</namePart>
+        <namePart transliteration="pinyin" type="given">Zong</namePart>
+        <namePart lang="zh" type="family">張</namePart>
+        <namePart lang="zh" type="given">總</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Rong_Li2004" type="host">
+        <titleInfo lang="zh">
+            <title>中外關係史：新史料與新問題</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Zhongwai guanxi shi: Xin shiliao yu xin wenti</title>
+        </titleInfo>
+        <name ns2:href="#rongxinjiang" type="personal">
+            <namePart transliteration="pinyin" type="family">Rong</namePart>
+            <namePart transliteration="pinyin" type="given">Xinjiang</namePart>
+            <namePart lang="zh" type="family">榮</namePart>
+            <namePart lang="zh" type="given">新江</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#lixiaocong" type="personal">
+            <namePart transliteration="pinyin" type="family">Li</namePart>
+            <namePart transliteration="pinyin" type="given">Xiaocong</namePart>
+            <namePart lang="zh" type="family">李</namePart>
+            <namePart lang="zh" type="given">孝聰</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>2004</dateIssued>
+            <place>
+                <placeTerm>Beijing</placeTerm>
+                <placeTerm lang="zh">北京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="pinyin">Kexue chubanshe</namePart>
+                    <namePart lang="zh"> 科学出版社</namePart>
+                </name>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>205</start>
+                <end>224</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SJFJ_MSTSCD" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shijie fojiao meishu tushuo dacidian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>世界佛教美術圖説大辭典</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Encyclopedia of Buddhist Arts</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shijie fojiao meishu tushuo dacidian 2013</title>
+    </titleInfo>
+    <abstract>Officially: Venerable Master Hsing Yun 星雲大師</abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#xingyun" type="personal">
+        <namePart transliteration="pinyin" type="given">Hsingyun</namePart>
+        <namePart lang="zh" type="given">星雲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">20</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>2013</dateIssued>
+        <issuance>monographic</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Gaoxiong</placeTerm>
+            <placeTerm lang="zh">高雄</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">佛光山宗委會</namePart>
+                <namePart transliteration="pinyin">Foguang Shan zong weihui</namePart>
+                <namePart lang="en" type="translated">Fo Guang Shan Board of Directors</namePart>
+                <!--<namePart lang="zh">佛光文化</namePart>
+                <namePart transliteration="pinyin">Foguang wenhua</namePart>-->
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Choong2014" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Divided Opinion among Chinese Commentators on Indian Interpretations of the Parable of the Raft in the <hi rend="italic">Vajracchedikā</hi></title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Choong 2014</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Choong" type="personal">
+        <namePart lang="zh" type="family">宗</namePart>
+        <namePart lang="zh" type="given">玉媺</namePart>
+        <namePart transliteration="pinyin" type="family">Choong</namePart>
+        <namePart transliteration="pinyin" type="given">Yoke Meei</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Lin_Radich2014" type="host">
+        <titleInfo lang="en">
+            <title>A Distant Mirror. Articulating Indic Ideas in Sixth and Seventh Century Chinese Buddhism</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="pages">
+                <start>419</start>
+                <end>469</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

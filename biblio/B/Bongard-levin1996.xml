@@ -1,0 +1,36 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bongard-levin1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen. Dritte Folge</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bongard-Levin et al. 1996</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#bongard-levin" type="personal">
+        <namePart lang="en" type="family">Bongard-Levin</namePart>
+        <namePart lang="en" type="given">G. M.</namePart>
+        <role>
+            <roleTerm type="etal">editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <place>
+            <placeTerm lang="de">Göttingen</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="de">Vandenhoeck and Ruprecht</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Sanskrit-Wörterbuch der buddhistischen Texte aus den Turfan-Funden, Beiheft</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>6</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

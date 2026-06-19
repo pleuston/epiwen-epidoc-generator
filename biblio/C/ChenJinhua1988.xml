@@ -1,0 +1,41 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ChenJinhua1988" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="en">
+                        <title>Stories from the Life of Chi-tsang and Their Use in T’ien-t’ai Sectarian Historiography</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                        <title>Chen Jin­hua 1988</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#chenjinhua" type="personal">
+                        <namePart transliteration="pinyin" type="family">Chen</namePart>
+                        <namePart transliteration="pinyin" type="given">Jinhua</namePart>
+                        <namePart lang="zh" type="family">陳</namePart>
+                        <namePart lang="zh" type="given">金華</namePart>
+                        <role>
+                                    <roleTerm>author</roleTerm>
+                        </role>
+            </name>
+            <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#AsiaMajor" type="host">
+                        <titleInfo lang="en">
+                                    <title>Asia Major</title>
+                        </titleInfo>
+                        <originInfo>
+                                    <issuance>continuing</issuance>
+                        </originInfo>
+                        <part>
+                                    <detail type="Series">
+                                                <number>3</number>
+                                    </detail>
+                                    <detail type="volume">
+                                                <number>II</number>
+                                    </detail>
+                                    <detail type="part">
+                                                <number>1</number>
+                                    </detail>
+                                    <extent unit="page">
+                                                <start>53</start>
+                                                <end>98</end>
+                                    </extent>
+                                    <date>1988</date>
+                        </part>
+            </relatedItem>
+</mods>

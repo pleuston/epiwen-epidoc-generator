@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LiuTao2002" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Zhongguo shufa shi. Wei Jin Nanbeichao juan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>中國書法史. 魏晉南北朝卷</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>History of Chinese Calligraphy. Volume on Wei, Jin, and the Northern and Southern
+            Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Liu Tao 2002</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#liutao" type="personal">
+        <namePart transliteration="pinyin" type="family">Liu </namePart>
+        <namePart transliteration="pinyin" type="given">Tao</namePart>
+        <namePart lang="zh" type="family">劉</namePart>
+        <namePart lang="zh" type="given">濤</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2002</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+            <placeTerm lang="zh">南京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Jiangsu jiaoyu chubanshe</namePart>
+                <namePart lang="zh">江蘇教育出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

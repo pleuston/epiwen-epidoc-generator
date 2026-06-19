@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Taniguchi1973" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東洋美術論考</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōyō bijutsu ronkō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Studies on East Asian Art</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Taniguchi 1973</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taniguchi_tetsuo" type="personal">
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <originInfo>
+        <dateIssued>1973</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">中央公論美術出版</namePart>
+                <namePart transliteration="romaji">Chūō kōron bijutsu shuppansha</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="ja">東京</placeTerm>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+        </place>
+    </originInfo>
+</mods>

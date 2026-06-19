@@ -1,0 +1,44 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Monographie" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Buddhist Monasticism in East Asia Places of Practice</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Robson, Benn and Meeks 2010</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#robson" type="personal">
+        <namePart lang="en" type="family">Robson</namePart>
+        <namePart lang="en" type="given">James</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#benn_j" type="personal">
+        <namePart lang="en" type="family">Benn</namePart>
+        <namePart lang="en" type="given">James A.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#meeks" type="personal">
+        <namePart lang="en" type="family">Meeks</namePart>
+        <namePart lang="en" type="given">Lori</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <originInfo>
+        <dateIssued>2010</dateIssued>
+        <place>
+            <placeTerm>Abingdon</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart lang="en">Routledge</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

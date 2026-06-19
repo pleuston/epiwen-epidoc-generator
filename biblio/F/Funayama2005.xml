@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Funayama2005" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://admin:rondalfa@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Perception, Conceptional Construction and Yogic Cognition According to <foreign lang="sa">Kamalaśīla’s</foreign> Epistemology</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Funayama 2005</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#funayama" type="personal">
+        <namePart lang="ja" type="family">船山</namePart>
+        <namePart lang="ja" type="given">徹</namePart>
+        <namePart transliteration="romaji" type="family">Funayama</namePart>
+        <namePart transliteration="romaji" type="given">Tōru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ChungHwaBuddhistJournal" type="host">
+        <titleInfo lang="en">
+            <title>Chung-Hwa Buddhist Journal</title>
+        </titleInfo>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">Chung-Hwa Institute of Buddhist Studies</namePart>
+                <namePart lang="en">中華佛學研究所</namePart>
+            </name>
+        </publisher>
+        <issuance>continuing</issuance>
+        <part>
+            <detail type="volume">18</detail>
+            <date>2005</date>
+            <extent unit="pages">
+                <start>273</start>
+                <end>297</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

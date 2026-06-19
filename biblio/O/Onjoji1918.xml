@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Onjoji1918" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Chishō daishi zenshū (ge) </title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>智證大師全集（下） </title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Collected Works of Venerable Master <foreign xml:lang="ja">Chishō</foreign> (3)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Onjōji 1918</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#enchin_new" type="personal">
+        <namePart lang="ja" type="family">圓</namePart>
+        <namePart lang="ja" type="given">珍</namePart>
+        <namePart transliteration="romaji" type="family">Enchin</namePart>
+        <namePart transliteration="romaji" type="given"/>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#onjoji" type="corporate">
+        <namePart transliteration="romaji">Onjōji</namePart>
+        <namePart lang="ja">園城寺</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1918</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Ōtsu</placeTerm>
+            <placeTerm lang="ja">大津</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart transliteration="romaji">Onjōji jimusho</namePart>
+            <namePart lang="ja">園城寺事務所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

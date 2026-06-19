@@ -1,0 +1,50 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="zhaotong2011" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>江陰明清學政</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Jiangyin Ming Qing xuezheng</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Officials in Charge of the Provincial Examinations in Jiangyin during the Ming and Qing Dynasties</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhao Tong 2011</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhaotong" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhao</namePart>
+        <namePart transliteration="pinyin" type="given">Tong</namePart>
+        <namePart lang="zh" type="family">趙</namePart>
+        <namePart lang="zh" type="given">統</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Shanghai</placeTerm>
+            <placeTerm lang="zh">上海</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Shanghai guji chubanshe</namePart>
+                <namePart lang="zh">上海古籍出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="series">
+        <titleInfo lang="zh">
+            <title>江陰歷史文化叢書</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Jiangyin lishi wenhua congshu</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>3</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

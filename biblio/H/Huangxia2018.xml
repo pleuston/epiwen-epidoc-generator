@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huangxia2018" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Amida Butsu gojūni bosatsu zō no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>阿弥陀仏五十二菩薩像の研究</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Research on Buddha <foreign lang="sa">Amitābha</foreign> and 52 Bodhisattva Statues</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang Xia 2018</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangxia" type="personal">
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">夏</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Xia</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <note type="thesis">Ph.D. diss. <foreign lang="zh">博士学位論文</foreign><!--<foreign lang="zh">博士學位論文</foreign>-->
+    </note>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Waseda daigaku</placeTerm>
+            <placeTerm lang="ja">早稲田大学</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="Chosongyong1997">
+    <titleInfo lang="zh">
+        <title>山東境內北朝摩崖刻經全集</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Sandong kyŏngnae pukcho maae gakkyŏng jŏnjip</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Compendium of Sutras Engraved on Polished Cliffs during the Northern Dynasties in Shandong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Cho Sŏngyong 1997</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Chosongyong" type="personal">
+        <namePart lang="ja" type="family">趙</namePart>
+        <namePart lang="ja" type="given">誠庸</namePart>
+        <namePart transliteration="romaji" type="family">Cho  조</namePart>
+        <namePart transliteration="romaji" type="given">Sŏngyong 성용</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1997</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Seoul</placeTerm>
+            <placeTerm lang="zh">首爾</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Yihwa munhwa ch’ulp’ansa</namePart>
+                <namePart lang="zh">梨花文化出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

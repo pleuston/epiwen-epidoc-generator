@@ -1,0 +1,59 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="SXKGYJS_TYKGYJS2022" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>山西太原晋陽古城二號建築基址發掘報告</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Shanxi Taiyuan Jinyang gucheng erhao jianzhu jizhi fajue baogao</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Excavation of The No.2 Building Foundation of Jinyang Ancient City in Taiyuan, Shanxi</title>
+    </titleInfo>
+    
+    <titleInfo type="reference">
+        <title>Jinyang gucheng fajue baogao 2022</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shanxisheng_kaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Shanxi kaogu yanjiusuo</namePart>
+        <namePart lang="zh">山西省考古研究所</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taiyuan_wenwukaogu_yjs" type="corporate">
+        <namePart transliteration="pinyin">Taiyuan Shi wenwu kaogu yanjiusuo</namePart>
+        <namePart lang="zh">太原市文物考古研究所</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    
+    <!--<name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanchangsheng" type="personal">
+        <namePart transliteration="pinyin" type="family">Tan</namePart>
+        <namePart transliteration="pinyin" type="given">Changsheng</namePart>
+        <namePart lang="zh" type="family">譚</namePart>
+        <namePart lang="zh" type="given">長生</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>-->
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#KaoguXuebao" type="host">
+        <titleInfo lang="zh">
+            <title>考古學報</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Kaogu xuebao</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="no">3</detail>
+            <extent unit="page">
+                <start>377</start>
+                <end>422</end>
+            </extent>
+            <date>2022</date>
+        </part>
+    </relatedItem>
+</mods>

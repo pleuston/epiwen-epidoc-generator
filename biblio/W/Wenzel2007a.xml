@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Wenzel2007a" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="de">
+        <title>Sengchous (480–560) religiöses Vermächtnis: Texte und Bilder der Mittleren Xiaonanhai-Höhle</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wenzel 2007a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wenzel" type="personal">
+        <namePart lang="de" type="family">Wenzel</namePart>
+        <namePart lang="de" type="given">Claudia</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Horin" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Hōrin</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>2007</date>
+            <detail type="volume">
+                <number>13, 2006</number>
+            </detail>
+            <extent unit="page">
+                <start>125</start>
+                <end>142</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

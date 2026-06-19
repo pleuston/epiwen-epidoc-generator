@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Matsuoka1967" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>ああ漱石山房</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Ā Sōseki sanbō</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Alas, Soseki Sanbo!</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Matsuoka 1967</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#matsuoka" type="personal">
+        <namePart lang="ja" type="family">松岡</namePart>
+        <namePart lang="ja" type="given">譲</namePart>
+        <namePart transliteration="romaji" type="family">Matsuoka</namePart>
+        <namePart transliteration="romaji" type="given">Yuzuru</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1967</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+            <namePart transliteration="romaji">Asahi shinbunsha</namePart>
+            <namePart lang="ja">朝日新聞社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

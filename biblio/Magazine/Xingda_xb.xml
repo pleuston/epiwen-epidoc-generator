@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xingda_xb" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>興大中文學報</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xing da zhongwen xuebao</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Zhongxingdaxue_zgwxx" type="corporate">
+        <namePart lang="pinyin">Zhongxing daxue Zhongguo wenxuexi</namePart>
+        <namePart lang="zh">中興大學中國文學系</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        
+        <dateIssued encoding="marc" point="start">1988</dateIssued>
+        <dateIssued encoding="marc" point="end"/>
+        
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm>Taizhong</placeTerm>
+            <placeTerm lang="zh">臺中</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhongxing daxue Zhongguo wenxuexi</namePart>
+                <namePart lang="zh">中興大學中國文學系</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

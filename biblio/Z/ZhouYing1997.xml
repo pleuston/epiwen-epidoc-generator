@@ -1,0 +1,42 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZhouYing1997" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan ‘Yuanyang Bei’ shishi xin jian</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山‘鴛鴦碑’史事新箋</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>New Annotations of Historical Events Recorded on the Yuanyang Steles at Mount Tai</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhou Ying 1997</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zhouying" type="personal">
+        <namePart transliteration="pinyin" type="family">Zhou</namePart>
+        <namePart transliteration="pinyin" type="given">Ying</namePart>
+        <namePart lang="zh" type="family">周</namePart>
+        <namePart lang="zh" type="given">郢</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#TaianShizhuanXuebao" type="host">
+        <titleInfo transliteration="pinyin">
+            <title>Tai’an shizhuan xuebao</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>泰安師專學報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1997</date>
+            <detail type="no">4</detail>
+            <extent unit="page">
+                <start>398</start>
+                <end>401</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

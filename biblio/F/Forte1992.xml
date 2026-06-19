@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Forte1992" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+                <titleInfo lang="en">
+                                <title>Chinese State Monasteries in the Seventh and Eighth Centuries</title>
+                </titleInfo>
+                <titleInfo type="reference">
+                                <title>Forte 1992</title>
+                </titleInfo>
+                <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#forte" type="personal">
+                                <namePart lang="it" type="family">Forte</namePart>
+                                <namePart lang="it" type="given">Antonio</namePart>
+                                <role>
+                                                <roleTerm>author</roleTerm>
+                                </role>
+                </name>
+                <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Kuwayama1992" type="host">
+                                <titleInfo lang="ja">
+                                                <title>慧超往五天竺國傳研究. 附論</title>
+                                </titleInfo>
+                                <titleInfo transliteration="romaji">
+                                                <title>Echō ō go tenjiku koku den kenkyu.
+                                                  Furon</title>
+                                </titleInfo>
+                                <titleInfo lang="en">
+                                    <title>Huichao’s Wang Wu-Tianzhuguo zhuan record of
+                                                  travels in five indic regions, translation and
+                                                  commentary</title>
+                                </titleInfo>
+                                <name ns2:href="#kuwayama" type="personal">
+                                                <namePart lang="ja" type="family">桑山</namePart>
+                                                <namePart lang="ja" type="given">正進</namePart>
+                                                <role>
+                                                  <roleTerm>editor</roleTerm>
+                                                </role>
+                                </name>
+                                <originInfo>
+                                                <dateIssued>1992</dateIssued>
+                                                <place>
+                                                  <placeTerm>Kyōto</placeTerm>
+                                                </place>
+                                                <publisher>
+                                                  <name type="corporate">
+                                                  <namePart lang="ja">京都大學人文科學研究所</namePart>
+                                                  <namePart transliteration="romaji">Kyōto daigaku
+                                                  jinbunkagaku kenkyūsho</namePart>
+                                                  </name>
+                                                </publisher>
+                                                <issuance>monographic</issuance>
+                                </originInfo>
+                                <part>
+                                                <extent unit="page">
+                                                  <start>213</start>
+                                                  <end>258</end>
+                                                </extent>
+                                </part>
+                </relatedItem>
+</mods>

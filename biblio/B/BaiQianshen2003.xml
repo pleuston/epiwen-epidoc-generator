@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="BaiQianshen2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Fu Shan’s World: The Transformation of Chinese Calligraphy in the Seventeenth
+            Century</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Bai Qianshen 2003</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#baiqianshen" type="personal" lang="zh" transliteration="pinyin">
+        <namePart lang="en" type="family">Bai</namePart>
+        <namePart lang="en" type="given">Qianshen</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm>Cambridge, MA</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Asia Center</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem type="series">
+        <titleInfo lang="en">
+            <title>Harvard East Asian Monographs 220</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

@@ -1,0 +1,49 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Han_Luo1983" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+        <titleInfo lang="zh">
+                <title>法門寺出土唐中宗下髮入塔銘</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+                <title/>
+        </titleInfo>
+        <titleInfo type="translated" lang="en">
+                <title>Tablet Unearthed at Famen Monastery About Emperor Zhongzong of the Tang
+                        Cutting of His Hair and Entering the Pagoda</title>
+        </titleInfo>
+        <titleInfo type="reference">
+                <title>Han Wei and Luo Xizhang 1983</title>
+        </titleInfo>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hanwei" type="personal">
+                <namePart lang="zh" type="family">韓</namePart>
+                <namePart lang="zh" type="given">偉</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#luoxizhang" type="personal">
+                <namePart lang="zh" type="family">羅</namePart>
+                <namePart lang="zh" type="given">西章</namePart>
+                <role>
+                        <roleTerm>author</roleTerm>
+                </role>
+        </name>
+        <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Wenwu" type="host">
+                <titleInfo lang="zh">
+                        <title>文物</title>
+                </titleInfo>
+                <titleInfo transliteration="pinyin">
+                        <title>Wenwu</title>
+                </titleInfo>
+                <originInfo>
+                        <issuance>continuing</issuance>
+                </originInfo>
+            <part>
+                <detail type="no">6</detail>
+                <extent unit="page">
+                    <start>14</start>
+                    <end>16</end>
+                </extent>
+                <date>1983</date>
+            </part>
+                
+        </relatedItem>
+</mods>

@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Shandong_wenshi_yjg1996" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shandong Sheng wenshi yanjiuguan guanyuan wenxuan</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>山東省文史研究館館員文選</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Selected Articles by Researchers of the Shandong Provincial Research Centre for Literature and History</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shandong wenshi yanjiuguan 1996</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#shandong_wenshi_yjg" type="corporate">
+        <namePart transliteration="pinyin">Shandong Sheng wenshi yanjiuguan</namePart>
+        
+        <namePart lang="zh">山東省文史研究館</namePart>
+        
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+  
+  
+    <originInfo>
+        <dateIssued>1996</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+      
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

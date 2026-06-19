@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Toshokan_gakkai_nenpo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>図書館学会年報</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Toshokan gakkai nenpō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Annals of Japan Society of Library Science</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#nihon_toshokan_gakkai" type="corporate">
+        <namePart lang="ja">日本図書館学会</namePart>
+        <namePart transliteration="romaji">Nihon toshokan gakkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1954-1999</dateIssued>
+        <dateIssued encoding="marc" point="start">1954</dateIssued>
+        <dateIssued encoding="marc" point="end">1999</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency>annually</frequency>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">日本図書館学会</namePart>
+                <namePart transliteration="romaji">Nihon toshokan gakkai</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

@@ -1,0 +1,31 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Xinshixue" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>新史學</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Xin shixue</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="xinshixue_zzs_bjwyy" type="corporate">
+        <namePart lang="zh">新史學雜誌社編輯委員會</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1990-2018</dateIssued>
+        <dateIssued encoding="marc" point="start">1990</dateIssued>
+        <dateIssued encoding="marc" point="end">2018</dateIssued>
+        <frequency>quarterly</frequency>
+        <issuance>continuing</issuance>
+        <place>
+            <placeTerm transliteration="pinyin">Taibei</placeTerm>
+            <placeTerm lang="zh">台北</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Xin Shixue zazhishe</namePart>
+                <namePart lang="zh">新史學雜誌社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

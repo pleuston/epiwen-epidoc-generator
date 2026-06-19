@@ -1,0 +1,77 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hurvitz1956" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>Wei Shou, Treatise on Buddhism and Taoism: An English Translation of the Original Chinese Text of <hi rend="italic">Wei-Shu</hi> CXIV and the Japanese Annotation of Tsukamoto Zenryū</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Shi Lao zhi (Hurvitz) 1956</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#hurvitz" type="personal">
+        <namePart lang="en" type="family">Hurvitz</namePart>
+        <namePart lang="en" type="given">Leon</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1956</dateIssued>
+        <place>
+            <placeTerm>Kyōto</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Kyōto daigaku Jinbun kagaku kenkyūsho</namePart>
+                <namePart lang="ja">京都大學人文科學研究所</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Mizuno_Nagahiro1951_56" type="host">
+        <titleInfo lang="en">
+            <title>Yun-kang, the Buddhist Cave Temples of the Fifth Century AD in North
+            China</title>
+        </titleInfo>
+        <name oXygen2:href="#mizuno" type="personal">
+            <namePart lang="ja" type="family">水野</namePart>
+            <namePart lang="ja" type="given">清一</namePart>
+            <namePart transliteration="romaji" type="family">Mizuno</namePart>
+            <namePart transliteration="romaji" type="given">Seiichi</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+        <name oXygen2:href="#nagahiro" type="personal">
+            <namePart lang="ja" type="family">長広</namePart>
+            <namePart lang="ja" type="given">敏雄</namePart>
+            <namePart transliteration="romaji" type="family">Nagahiro</namePart>
+            <namePart transliteration="romaji" type="given">Toshio</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <extension>16 <hi rend="italic">juan </hi>
+            <foreign lang="zh">卷</foreign>
+        </extension>
+        <!--<physicalDescription>
+            <form>print</form>
+            <extent>
+                <detail type="fascicle">
+                    <number>1-16</number>
+                </detail>
+            </extent>
+        </physicalDescription>-->
+        <part>
+            <detail type="volume">
+                <number>16</number>
+            </detail>
+            <detail type="appendix">
+                <number>2</number>
+            </detail>
+            <extent unit="page">
+                <start>23</start>
+                <end>103</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

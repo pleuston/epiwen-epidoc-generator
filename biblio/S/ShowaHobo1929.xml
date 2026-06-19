@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ShowaHobo1929" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>昭和法寳總目録. 大正新脩大藏經 別巻</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Shōwa hōbō sō-mokuroku. Taishō shinshū daizōkyō, bekkan</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The <foreign xml:lang="ja">Shōwa</foreign> Period Catalog of Catalogs of Chinese Buddhist texts. Special Volume of the New <foreign xml:lang="ja">Taishō</foreign> Era Edition of the Buddhist Canon</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Showa hobo so-mokuroku 1929</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#taisho_kankokai" type="corporate">
+        <namePart lang="ja">大正新脩大藏經刊行会</namePart>
+        <namePart transliteration="romaji">Taishō shinshū daizōkyō kankōkai</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="volume">3</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1929</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Daizō shuppansha</namePart>
+                <namePart lang="ja">大藏出版社</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint: 1979. Popular edition: 1991</note>
+</mods>

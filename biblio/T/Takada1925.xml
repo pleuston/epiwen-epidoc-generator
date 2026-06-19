@@ -1,0 +1,53 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Takada1925" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Kanji shōkai: Teisei saihan</title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>漢字詳解：訂正再版</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Detailed Explanation of Chinese Characters (Revised New Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Takada 1925</title>
+    </titleInfo>
+    <abstract>NDL Digital Collection Link:
+        Vol. 1 (Jō): https://dl.ndl.go.jp/info:ndljp/pid/926161
+        Vol. 2 (Ge): https://dl.ndl.go.jp/info:ndljp/pid/926162
+        Vol. 3 (Shu): https://dl.ndl.go.jp/info:ndljp/pid/926160
+        
+        NDL Online:
+        https://ndlonline.ndl.go.jp/#!/detail/R300000001-I000000547440-00
+    </abstract>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#takada_tadachika" type="personal">
+        <namePart lang="ja" type="family">高田</namePart>
+        <namePart lang="ja" type="given">忠周</namePart>
+        <namePart transliteration="romaji" type="family">Takada</namePart>
+        <namePart transliteration="romaji" type="given">Tadachika</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <form>print</form>
+        <extent>
+            <detail type="volume">3</detail>
+            <note>2 vols., 1 supplement volume</note>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateIssued>1925</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Seitō shobō</namePart>
+                <namePart lang="ja">西東書房</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Originally published between 1909–1912 in 6 vols</note>
+</mods>

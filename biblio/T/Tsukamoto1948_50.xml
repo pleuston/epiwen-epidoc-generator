@@ -1,0 +1,101 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Tsukamoto1948_50" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>北周の廢佛について</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hoku-Shū no haibutsu ni tsuite</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>On the Northern Zhou Suppression of Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tsukamoto 1948–1950</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+        <namePart lang="ja" type="family">塚本</namePart>
+        <namePart lang="ja" type="given">善隆</namePart>
+        <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+        <namePart transliteration="romaji" type="given">Zenryū</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#TohoGakuho" type="host">
+        <titleInfo transliteration="romaji">
+            <title>Tōhō gakuhō</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>東方学報</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <date>1948</date>
+            <detail type="volume">16</detail>
+            <extent unit="page">
+                <start>29</start>
+                <end>101</end>
+            </extent>
+        </part>
+        <part>
+            <date>1950</date>
+            <detail type="volume">18</detail>
+            <extent unit="page">
+                <start>78</start>
+                <end>111</end>
+            </extent>
+        </part>
+    </relatedItem>
+    <classification edition="#Tsukamoto1974_76">reprint</classification>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#Tsukamoto1974_76" type="host">
+        <note>reprint</note>
+        <titleInfo transliteration="romaji">
+            <title>Tsukamoto Zenryū chosakushū</title>
+        </titleInfo>
+        <titleInfo lang="ja">
+            <title>塚本善隆著作集</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>The Collected Writings of Tsukamoto Zenryū</title>
+        </titleInfo>
+        <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tsukamoto" type="personal">
+            <namePart lang="ja" type="family">塚本</namePart>
+            <namePart lang="ja" type="given">善隆</namePart>
+            <namePart transliteration="romaji" type="family">Tsukamoto</namePart>
+            <namePart transliteration="romaji" type="given">Zenryū</namePart>
+            <role>
+                <roleTerm>author</roleTerm>
+            </role>
+        </name>
+        <originInfo>
+            <dateIssued>1974-76</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+                <placeTerm lang="ja">東京</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart transliteration="romaji">Daitō shuppansha</namePart>
+                </name>
+                <namePart lang="ja">大東出版社</namePart>
+            </publisher>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>2</number>
+                <title>
+                    <name>
+                        <namePart lang="ja">北朝仏教史研究</namePart>
+                        <namePart transliteration="romaji">Hokuchō bukkyōshi kenkyū</namePart>
+                    </name>
+                </title>
+            </detail>
+            <extent unit="page">
+                <start>463</start>
+                <end>640</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

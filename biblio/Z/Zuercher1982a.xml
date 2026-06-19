@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zuercher1982a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>‘Prince Moonlight’: Messianism and Eschatology in Early Medieval Chinese Buddhism</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zürcher 1982a</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zuercher" type="personal">
+        <namePart lang="en" type="family">Zürcher</namePart>
+        <namePart lang="en" type="given">Erik</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#ToungPao" type="host">
+        <titleInfo>
+            <title>T’oung Pao<hi rend="normal">, ser. 2, vol.</hi>
+            </title>
+        <!--<titleInfo transliteration="wade-giles">
+            <title>T’oung Pao: International Journal of Chinese Studies</title>
+        </titleInfo>
+        <titleInfo lang="zh">
+            <title>通報</title>-->
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">68</detail>
+            <detail type="no">1–3</detail>
+            <extent unit="page">
+                <start>1</start>
+                <end>75</end>
+            </extent>
+            <date>1982</date>
+        </part>
+    </relatedItem>
+</mods>

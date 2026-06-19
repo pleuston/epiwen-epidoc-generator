@@ -1,0 +1,124 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="T_397.5" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>海慧菩薩品</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Chapter on Bodhisattva Oceanlike Wisdom</title>
+    </titleInfo>
+    <titleInfo transliteration="pinyin">
+        <title>Haihui pusa pin</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>T#397(5), 13</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#tanwuchen" type="personal">
+        <namePart lang="zh">曇無讖</namePart>
+        <namePart transliteration="pinyin">Tanwuchen</namePart>
+        <namePart lang="sa">Dharmaksema</namePart>
+        <namePart type="date">385-433</namePart>
+        <role>
+            <roleTerm>translator</roleTerm>
+        </role>
+    </name>
+    <physicalDescription>
+        <extent>
+            <detail type="fascicle">4</detail>
+        </extent>
+    </physicalDescription>
+    <originInfo>
+        <dateOther>420, Northern Liang dynasty</dateOther>
+    </originInfo>
+    <relatedItem type="host">
+        <titleInfo lang="zh">
+            <title>大方等大集經</title>
+        </titleInfo>
+        <titleInfo transliteration="pinyin">
+            <title>Dafangdeng daji jing</title>
+        </titleInfo>
+        <titleInfo lang="en" type="abbreviated">
+            <title>Vast and Universal Great Collection Sutra</title>
+        </titleInfo>
+        <titleInfo lang="sa" type="alternative">
+            <title>*Mahāvaipulyamahāsaṃnipātasūtra</title>
+        </titleInfo>
+        <name>
+            <namePart lang="zh">僧就合</namePart>
+            <namePart transliteration="pinyin">Sengjiuhe</namePart>
+            <role>
+                <roleTerm>compilator</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="fascicle">60</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateOther>Sui dynasty</dateOther>
+        </originInfo>
+        <part>
+            <detail type="fascicle">
+                <number>
+                    <start>8</start>
+                    <end>11</end>
+                </number>
+            </detail>
+        </part>
+    </relatedItem>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="Taisho" type="host">
+        <titleInfo lang="ja">
+            <title>大正新脩大藏經.</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Taishō shinshū daizōkyō</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji" type="abbreviated">
+            <title>Taishō</title>
+        </titleInfo>
+        <titleInfo lang="en" type="translated">
+            <title>New edition of the Buddhist canon in the Taishō era</title>
+        </titleInfo>
+        <name ns2:href="#takakusu" type="personal">
+            <namePart lang="ja" type="family">高楠</namePart>
+            <namePart lang="ja" type="given">順次郎</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <name ns2:href="#watanabe" type="personal">
+            <namePart lang="ja" type="family">渡邊</namePart>
+            <namePart lang="ja" type="given">海旭</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+        <physicalDescription>
+            <extent>
+                <detail type="volume">85</detail>
+            </extent>
+        </physicalDescription>
+        <originInfo>
+            <dateIssued>1924-1932</dateIssued>
+            <dateIssued encoding="marc" point="start">1924</dateIssued>
+            <dateIssued encoding="marc" point="end">1932</dateIssued>
+            <place>
+                <placeTerm>Tōkyō</placeTerm>
+            </place>
+            <publisher>
+                <name type="corporate">
+                    <namePart lang="ja">大正一切經刊行會</namePart>
+                    <namePart transliteration="pinyin">Taishō issaikyō kankōkai</namePart>
+                </name>
+            </publisher>
+        </originInfo>
+        <part>
+            <detail type="volume">
+                <number>13</number>
+            </detail>
+            <extent unit="page">
+                <start>46</start>
+                <end>74</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

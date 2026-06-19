@@ -1,0 +1,43 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="AnTingshan2003b" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Tai Shan shijing</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>泰山石經</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Mount Tai Stone Sutra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>An Ting­shan 2003b</title>
+    </titleInfo>
+    <subject>
+        <hierarchicalGeographic>
+            <province>Shandong</province>
+            <city>Tai’an</city>
+        </hierarchicalGeographic>
+        <topic>stone sūtra of Taishan</topic>
+    </subject>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#antingshan" type="personal">
+        <namePart transliteration="pinyin" type="family">An</namePart>
+        <namePart transliteration="pinyin" type="given">Tingshan</namePart>
+        <namePart lang="zh" type="family">安</namePart>
+        <namePart lang="zh" type="given">廷山</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Jinan</placeTerm>
+            <placeTerm lang="zh">濟南</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Qilu shushe</namePart>
+                <namePart lang="zh">齊魯書社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

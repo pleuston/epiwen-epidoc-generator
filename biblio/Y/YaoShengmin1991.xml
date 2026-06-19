@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="YaoShengmin1991" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Chunhua Xian wenwu zhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>淳化縣文物志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Gazetteer of the Cultural Relics in Chunhua County</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yao Sheng­min 1991</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yaoshengmin" type="personal">
+        <namePart transliteration="pinyin" type="family">Yao</namePart>
+        <namePart transliteration="pinyin" type="given">Shengmin</namePart>
+        <namePart lang="zh" type="family">姚</namePart>
+        <namePart lang="zh" type="given">生民</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1991</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">陝西人民教育出版社</namePart>
+                <namePart transliteration="pinyin">Shaanxi renmin jiaoyu chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">西安</placeTerm>
+            <placeTerm transliteration="pinyin">Xi’an</placeTerm>
+        </place>
+    </originInfo>
+</mods>

@@ -1,0 +1,52 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Yabuki1927" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>三階教之研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sangaikyō no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>A Study on the Teaching of Three Levels</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Yabuki 1927</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#yabuki" type="personal">
+        <namePart lang="ja" type="family">矢吹</namePart>
+        <namePart lang="ja" type="given">慶輝</namePart>
+        <namePart transliteration="romaji" type="family">Yabuki</namePart>
+        <namePart transliteration="romaji" type="given">Keiki</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1927</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <classification edition="1973">reprint</classification>
+    <originInfo type="reprint">
+        <dateIssued>1973</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Tōkyō</placeTerm>
+            <placeTerm lang="zh">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Iwanami shoten</namePart>
+                <namePart lang="zh">岩波書店</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

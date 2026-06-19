@@ -1,0 +1,60 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Craig_Fongaro_Ozaki2016" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>学びの作法：対象としてニッポン、方法としてニッポン</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Manabi no sahō: Taishō to shite Nippon, hōhō to shite Nippon</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>How to Learn? Nippon/Japan as Object, Nippon/Japan as Method. Acts of the 1st Symposium of the Hasekura League University of Florence Palazzo Marucelli-Fenzi, 29–30 October 2015</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Craig, Fongaro, and Ozaki 2016</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#craig" type="personal">
+        <namePart lang="en" type="family">Craig</namePart>
+        <namePart lang="en" type="given">Christopher</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#fongaro" type="personal">
+        <namePart lang="en" type="family">Fongaro</namePart>
+        <namePart lang="en" type="given">Enrico</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#ozaki_akihiro_en" type="personal">
+        <namePart transliteration="romaji" type="family">Akihiro</namePart>
+        <namePart transliteration="romaji" type="given">Ozaki</namePart>
+        <namePart lang="ja" type="family">尾崎</namePart>
+        <namePart lang="ja" type="given">彰宏</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+        <place>
+            <placeTerm>[Sesto San Giovanni]</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Mimesis International</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+    <!--<relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" type="series">-->
+    <relatedItem type="series">
+        
+        <titleInfo lang="en">
+            <title>Hasekura League Intercultural Studies Editions</title>
+        </titleInfo>
+        <part>
+            <detail type="no">
+                <number>1</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

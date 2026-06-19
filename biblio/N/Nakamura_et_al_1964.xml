@@ -1,0 +1,56 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Nakamura_et_al_1964" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="romaji">
+        <title>Jōdo sanbukyō (ge) Kanmuryōjukyō, Amidakyō </title>
+    </titleInfo>
+    <titleInfo lang="ja">
+        <title>浄土三部経（下）観無量寿経·阿弥陀経</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>The Three Pure Land Sutras (III): The <hi rend="italic">Sutra on the Contemplation of Immeasurable Life, The <foreign xml:lang="ja">Amitābha</foreign> Sutra</hi>
+        </title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Nakamura, Hayashima and Kino 1964</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#nakamura" type="personal">
+        <namePart transliteration="romaji" type="family">Nakamura</namePart>
+        <namePart transliteration="romaji" type="given">Hajime</namePart>
+        <namePart lang="jp" type="family">中村</namePart>
+        <namePart lang="jp" type="given">元</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hayshima" type="personal">
+        <namePart transliteration="romaji" type="family">Hayashima</namePart>
+        <namePart transliteration="romaji" type="given">Kyōshō</namePart>
+        <namePart lang="jp" type="family">早島</namePart>
+        <namePart lang="jp" type="given">鏡正</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#kino" type="personal">
+        <namePart transliteration="romaji" type="family">Kino</namePart>
+        <namePart transliteration="romaji" type="given">Kazuyoshi</namePart>
+        <namePart lang="jp" type="family">紀野</namePart>
+        <namePart lang="jp" type="given">一義</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>On pp. 175-177 regarding different versions of <foreign xml:lang="sa">Kumarajīva</foreign>’s translation.</abstract>
+    <originInfo>
+        <dateIssued>1964</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Iwanami shoten</namePart>
+                <namePart lang="ja">岩波書店</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

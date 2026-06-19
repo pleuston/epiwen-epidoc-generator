@@ -1,0 +1,48 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Huang_Wang2012" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Shaanxi Shende Si chutu wenxian: Shaanxi Sheng Tongchuan Shi Yaozhou Qu bowuguan cangpin</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>陜西神德寺出土文獻: 陜西省銅川市耀州區博物館藏品</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Documents Excavated at Shende Monastery in Shaanxi: The Collection of the Museum in Yaozhou, Tongchuan, Shaanxi Province</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Huang and Wang 2012</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#huangzheng" type="personal">
+        <namePart lang="zh" type="family">黄</namePart>
+        <namePart lang="zh" type="given">征</namePart>
+        <namePart transliteration="pinyin" type="family">Huang</namePart>
+        <namePart transliteration="pinyin" type="given">Zheng</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#wangxuemei" type="personal">
+        <namePart lang="zh" type="family">王</namePart>
+        <namePart lang="zh" type="given">雪梅</namePart>
+        <namePart transliteration="pinyin" type="family">Wang</namePart>
+        <namePart transliteration="pinyin" type="given">Xuemei</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <abstract/>
+    <extension>4 vols.</extension>
+    <originInfo>
+        <dateIssued>2012</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">鳳凰出版社</namePart>
+                <namePart transliteration="pinyin">Fenghuang chubanshe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">南京</placeTerm>
+            <placeTerm transliteration="pinyin">Nanjing</placeTerm>
+        </place>
+    </originInfo>
+</mods>

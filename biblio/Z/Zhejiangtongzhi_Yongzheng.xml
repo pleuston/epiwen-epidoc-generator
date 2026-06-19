@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Zhejiangtongzhi_Yongzheng" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>(Yongzheng) Zhejiang tongzhi</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>〔雍正〕浙江通志</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Comprehensive Gazetteer of Zhejiang (Yongzheng Edition)</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Zhejiang tongzhi</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#jizengjun" type="personal">
+        <namePart transliteration="pinyin" type="family">Ji</namePart>
+        <namePart transliteration="pinyin" type="given">Zengjun</namePart>
+        <namePart lang="zh" type="family">嵇</namePart>
+        <namePart lang="zh" type="given">曾筠</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#zj_difangzhi_bzwyh" type="corporate">
+        <namePart lang="zh">浙江省地方志編纂委員會</namePart>
+        <namePart transliteration="pinyin">Zhejiangsheng difangzhi bianzhuan weiyuanhui</namePart>
+        <namePart lang="en">Editorial Committee of Chorographies of Zhejiang Province</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <extension>280 vols.</extension>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm transliteration="pinyin">Beijing</placeTerm>
+            <placeTerm lang="zh">北京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="pinyin">Zhonghua shuju</namePart>
+                <namePart lang="zh">中華書局</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <note type="reprint">Reprint of the 1735 edition</note>
+</mods>

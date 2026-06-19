@@ -1,0 +1,57 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeiYuhua_ChengChongxun2003" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@data.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="pinyin">
+        <title>Bazhong shiku</title>
+    </titleInfo>
+    <titleInfo lang="zh">
+        <title>巴中石窟</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Cave Temples of Bazhong</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lei and Cheng 2003</title>
+        <!--<title>Lei Yuhua and Cheng Chongxun 2003</title>-->
+    </titleInfo>
+    <abstract>主編楊希明. Official English title on Book cover: “Bazhong Grotto”; in English summary “Grottos in Bazhong”. 巴中市文管所 and 成都市文物考古研究所 on book cover.</abstract>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#chengchongxun" type="personal">
+        <namePart transliteration="pinyin" type="family">Cheng</namePart>
+        <namePart transliteration="pinyin" type="given">Chongxun</namePart>
+        <namePart lang="zh" type="family">程</namePart>
+        <namePart lang="zh" type="given">崇勳</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#yangximing" type="personal">
+        <namePart transliteration="pinyin" type="family">Yang</namePart>
+        <namePart transliteration="pinyin" type="given">Ximing</namePart>
+        <namePart lang="zh" type="family">楊</namePart>
+        <namePart lang="zh" type="given">希明</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2003</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="zh">巴蜀書社</namePart>
+                <namePart transliteration="pinyin">Bashu shushe</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm lang="zh">成都</placeTerm>
+            <placeTerm transliteration="pinyin">Chengdu</placeTerm>
+        </place>
+    </originInfo>
+</mods>

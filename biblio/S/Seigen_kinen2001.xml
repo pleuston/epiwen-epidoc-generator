@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Seigen_kinen2001" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+            <titleInfo lang="ja">
+                        <title>東アジア佛教の諸問題：聖嚴博士古稀記念論集</title>
+            </titleInfo>
+            <titleInfo transliteration="romaji">
+                        <title>Higashiajia Bukkyō no shomondai: Seigen hakushi koki kinen
+                                    ronshū</title>
+            </titleInfo>
+            <titleInfo lang="en" type="translated">
+                        <title>Some Questions Concerning Buddhism in East Asia: Essays on the Occasion of Doctor Seigen’s 70th Birthday</title>
+            </titleInfo>
+            <titleInfo type="reference">
+                <title>Seigen hakushi koki kinen ronshū 2001–2003</title>
+            </titleInfo>
+            <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#seigen_kinen" type="corporate">
+                        <namePart lang="ja">中華佛学研究所聖嚴博士古稀記念論集刊行会</namePart>
+                        <namePart transliteration="romaji">Chūka Butsugaku kenkyūjo, Seigen hakushi koki kinen ronshū kankōkai</namePart>
+                        <role>
+                                    <roleTerm>editor</roleTerm>
+                        </role>
+            </name>
+            <originInfo>
+                        <dateIssued point="start">2001</dateIssued>
+                        <dateIssued point="end">2003</dateIssued>
+                        <place>
+                                    <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+                                    <placeTerm lang="ja">東京</placeTerm>
+                        </place>
+                        <publisher>
+                                    <name type="corporate">
+                                                <namePart transliteration="romaji">Sankibō
+                                                  busshorin</namePart>
+                                                <namePart lang="ja">山喜房佛書林</namePart>
+                                    </name>
+                        </publisher>
+            </originInfo>
+</mods>

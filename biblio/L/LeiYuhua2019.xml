@@ -1,0 +1,32 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="LeiYuhua2019">
+    <titleInfo lang="en">
+        <title>Archaeological Excavation at Longxing Monastery, Qionglai, Sichuan, China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Lei Yuhua 2019</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#leiyuhua" type="personal">
+        <namePart transliteration="pinyin" type="family">Lei</namePart>
+        <namePart transliteration="pinyin" type="given">Yuhua</namePart>
+        <namePart lang="zh" type="family">雷</namePart>
+        <namePart lang="zh" type="given">玉華</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Garg2019" type="host">
+        <titleInfo lang="en">
+            <title>Buddhist Monasteries of South Asia and China</title>
+        </titleInfo>
+        <originInfo>
+            <dateIssued>2019</dateIssued>
+            <issuance>monographic</issuance>
+        </originInfo>
+        <part>
+            <extent unit="page">
+                <start>263</start>
+                <end>291</end>
+            </extent>
+        </part>
+    </relatedItem>
+</mods>

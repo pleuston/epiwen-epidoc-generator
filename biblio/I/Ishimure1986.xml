@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Ishimure1986" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>陽のかなしみ</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hi no kanashimi</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>The Sadness of the Sun</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Ishimure 1986</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#Ishimure" type="personal">
+        <namePart lang="ja" type="family">石牟礼</namePart>
+        <namePart lang="ja" type="given">道子</namePart>
+        <namePart transliteration="romaji" type="family">Ishimure</namePart>
+        <namePart transliteration="romaji" type="given">Michiko</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1986</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Asahi shinbunsha</namePart>
+                <namePart lang="ja">朝日新聞社</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>

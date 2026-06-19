@@ -1,0 +1,71 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mods-3-0.xsd" ID="WeiGuangping2022">
+    <titleInfo lang="ja">
+        <title>北斉石刻経の現況とその成立の背景</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Hokusei sekkokukyō no genkyō to sono seiritsu no haikei</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Historical Background and Present Situation of Buddhist Stone Scriptures in the Northern Qi Dynasty</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Wei Guangping 2022</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#weiguangping" type="personal">
+        <namePart transliteration="pinyin" type="family">Wei</namePart>
+        <namePart transliteration="pinyin" type="given">Guangping</namePart>
+        <namePart lang="zh" type="family">魏</namePart>
+        <namePart lang="zh" type="given">廣平</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <abstract>pp. 242–251: komplette Forschungsgeschichte seit den Song Epigraphikern (Jinshilu, 1119-1125, von 趙明誠) bis heute, inklusive japanischer Literatur, chinesischer Literatur, und unserem Projekt. (Da steht sogar mein Name! Aber nur aus den chines. Publikationen... wohl doch KI generiert)
+        pp. 252–258: Tabelle mit 35 Inschriftenorten (Felsen und Stelen), Angabe des (Aufbewahrungs-)Ortes, des Inhalts (teilweise mit Transkriptionen), der Datierung, und der Gesteinsart. 
+        pp. 267–269: Chronologie
+        pp. 273–274: Hauptstifter: Tang Yong; Gao Anagong 高阿那肱 (北斉顯貴大丞相淮陰王 the nobleman of the Northern Qi, Grand Counselor-in-chief, Prince of Huaiyin; died 580, politischer Gegenspieler von Tang Yong; Nan Xiangtang Shan cave 2, Figuren); Lou Rui 婁叡 (531-570);
+        pp. 274–276: klerikale Stifter um Sengchou 僧稠 (480–560): Huiguang 慧光 (487–556; Lehrer von Sengchou, ordiniert im Shaolin Si, Begründer des südlichen Zweiges der Dilun-Schule, Hauptschüler des Ratnamati); Daoping 道慿 (487–559; Schüler von Huiguang; 宝山寺大論師道憑法師焼身塔　大斉河清二年三月十七日 April 25, 563, datierte Grabpagoda am Baoshan Si); Lingyu 靈裕 (518–605; Schüler des Daoping); (Jingying) Huiyuan 慧遠 (523–592; Enkelschüler des Huiguang); Ratnamati=&gt;Huiguang (Lehrer des Sengchou)=&gt;Daoping=&gt;Lingyu
+        pp. 276–280: die Gruppe um Seng’an Daoyi 僧安道壹. Auf p. 278 führt Wei Guangping aus, dass die Buddhanamen 大空王佛 gelesen werden können als Referenz an den Nördlichen Qi-Kaiser, der mit einem Buddha gleichgesetzt wird. 王 soll sich hier also auf 高王 beziehen, Gao ist das Herrschergeschlecht der Nördlichen Qi. Präzedenzfall ist der Mönch Faguo 法果 (dates unknown), der festgestellt hat (in der Qing Anthologie 古今圖書集成 (1700–1725) by Cheng Menglei, der Text 釋教部彚考 Shijiao bu hui [ 匯] kao): 太祖好叡明道，即当今如来，沙門宜応尽礼……我非拜天子，乃礼佛也 (X77n1521_p0008a03-5), übersetzt Caswell 1988, p. 21, nach der Quelle WS (?):1I4 (45 ]， p. 53. 
+        p. 279: Biography of Shi Seng’an in T.2060, 50: 657a6–20 has (also in LAI FEI 2003B, 96, 98-100, who thinks Shi Seng’an is not identical with Seng’an Daoyi. The same with XU HONGGUO 2003, 242-245, who says both monks lived in different regions): 「釋僧安。不知何人。戒業精苦坐禪講解。時號多能。齊文宣時。在王屋山。聚徒二十許
+        人講涅槃。始發題有雌雉。來座側伏聽。僧若食時出外飲啄。日晚上講依時赴集。三卷未了遂絕不至。衆咸怪之。安曰。雉今生人道。不須怪也。武平四年。安領徒至越州行頭陀。忽云。往年
+        雌雉應生在此。徑至一家。遙喚雌雉。一女走出。如舊相識。禮拜歌喜。女父母異之。引入設食。安曰。此女何故名雌雉耶。答曰。見其初生髮如雉毛。既是女故名雌雉也。安大笑為述本緣。女
+        聞涕泣。苦求出家。二親欣然許之。為講涅槃。聞便領解一無遺漏。至後三卷。茫然不解。于時始年十四。便就講說。遠近咸聽。歎其宿習。因斯躬勸。從學者衆矣。especially: 齊文宣時。在王屋山。聚徒二十許
+        人講涅槃。At the time of Emperor Wenxuan of the [Northern] Qi, he assembled more than 20 followers at Mount Wangwu 王屋山  to preach the nirvana Sutra. According to Wei, Mount Wangwu 王屋山 is situated at the southern end of the Taihang Mountains.
+        pp. 280–281: Beziehung zwischen Klerikern um Sengchou und Klerikern um Seng’an Daoyi:
+        Sengchou, the second abbot of Shaolin Temple, held a much higher status than Seng’an Daoyi. In 551, he was invited by Emperor Wenxuan to serve as National Master, and in 553 he concurrently served as the "Abbot of the Great Grotto Temple" of the Imperial Temple (now the Northern Xiangtang Shan). The construction of the Northern Xiangtang Shan was planned by Sengchou, and at the time, Seng’an Daoyi's lowly status would have made it impossible for him to carve the approximately 2-meter-long double-outline inscription "大空王佛" at the highest point of the cave, approximately 6 meters above ground. Moreover, considering that it was common practice in the Northern Dynasties to carve caves from the top down, it is estimated that the "大空王佛" was carved before Sengchou took up his post. The "大空王佛" at Beixiangtang Mountain (⑮) is thought to be the start of monk Seng’an Daoyi’s stone carving, and it appears that after this he left Fukoushi 滏口陘, passed through Yedu, home to many high monks, and traveled east, finally carrying out his sutra carving project, centering on (⑩) Hongding Mountain.(p. 280)
+        Of the 17 "Great Sky King Buddha" in total, 10 are located around Hongfan Town 洪範鎮. =&gt;Wei Guangping suggests (without saying so explicitely) that the Northern Qi Chongfan Temple 崇梵寺, located in present Hongfan Town 洪範鎮, may have been the center of the group around Seng’an Daoyi:
+        p. 281: Of the 17 "Great Sky King Buddha" in total, 10 are located around Hongfan Town 洪範鎮. They are ⑧ Ergu Mountain, ㉗ Yuncui Mountain, ㉘ Dongshan in Hongfan Town (2), and ⑩ Hongding Mountain (6). Then Wei lists: People and names shared by the Sengchou and Seng’an Daoyi monastic communities:  ④ The name on Mount Zhonghuang In the votive text written by the mother of Consort Zhao, it is referred to as "the late Consort Zhao." ⑮ In the votive text on the "Tang Yong Sutra Monument" made by Tang Yong at Northern Xiangtang Shan, the Buddhist sutra is referred to as "carved everywhere on famous mountains 盡勤名山." ㉑ In the signature of the master of the Mount Jian Sutra 尖山刻経 , it is referred to as "Consort Zhao of Tang Yong." 
+        The names of Sengchou and Seng’an Daoyi both have the character "monk" in them, and ① in Xiaonanhai Sengchou is referred to as "Chou Fa Shi 法師" and ㉒ in the Mount Tie Stone Hymn 鉄山《石頌》Seng’an Daoyi is referred to as "An Fa Shi."
+        p. 307 conclusions: The Xiaonanhai Grottoes were begun in 550 by the group around Mong Sengchou, which was centered in Yedu. In the east, the group around Monk Seng'an Daoyi began Mount Hongding before 556, and also Shuiniu Shan Baishi Si 白石寺 (SNS 2; but this inscription names a total of 5 monasteries! See Shandong 3, 412-413).  Thus began the practice of stone carving.
+        Further: "Stone Carving of Sutras in Preparation for the Latter Day of the Law:
+        Tang Yong carried out the stone carving of sutras with the support of two monastic groups:. The Sengchou group, using regular script with a character diameter of "over an inch," primarily carved entire volumes of sutras. Their representative works include ④ Zhonghuangshan (approximately 136,400 characters) and ⑮ Beixingtangshan (approximately 48,000 characters). The Seng'an Daoyi monastic group generally carved large characters (bangshu). Their representative works include ⑧ Ergushan, ⑩ Hongdingshan, ㉒ Tieshan, and ㉕ Taishan, all of which bear the distinctive Buddha name "大空王佛" Together, the "sutra carvers" and stonemasons pursued the ideal form of a Buddha in the Latter Day of the Law and created this dharmakāya-śarīra "法身舎利."
+        It is interesting that Wei considers Tang Yong as the master head for all Northern Qi carvings.
+        Stone carvings of the sutras, which were started in the Northern Qi Dynasty, then interrupted and restarted: Nan Xiangtang Shan; Linwang shiku: These project were continued after the fall of the Northern Qi, "because people believed idol worship offered greater benefits than complex Buddhist teachings."
+        And Wei has a new chronology for Mount Tie: "The Tieshan Cliff Carving (22) took place over two phases. Construction began after June of the 6th year of the Wuping era (575), and the section bearing the "Mahasamadhi Sutra" was completed. However, the plaque and pedestal were left unfinished when the Northern Zhou army attacked and abandoned the site. Later, in the first year of the Daxiang era of the August Zhou dynasty (皇周大象元年; 579; date of Tie 2: 在 皇周大像元年，歳大淵獻，八月庚申朔，十七日丙子 On the seventeenth day, a bingzi day, of the eighth month, which began on a gengshen day, Jupiter in Pisces, first year of the daxiang era of the August Zhou dynasty [September 23, 579].), Monk Seng'an Daoyi the former Northern Qi dynasty and his disciple Kuang Zheda created the "Stone Hymn" to proclaim the revival of Buddhism." (Shandong 2, 101, has: "the carvings at Mount Tie, from the first year of the daxiang 大像 era of the great Zhou dynasty (579), were made after the persecution had come to an end." p.102: "Given the allocation of space to the two texts, it is likely that they were planned together, before the carving started" p. 103: "The writer of the Stone Hymn implies
+        that there was no time gap between his composition and the carving of the sutra. While there was only one calligrapher, there were several donors, and certainly more than one carver; therefore, it is likely that all the work was completed in that one year, 579." Zhang Zong)
+        "Unfinished carvings and their aftermath: ... the Zhonghuang Shan Grottoes (4) became a depopulated mountainous area far from the capital after a change of dynasty. The Diamond Sutra (7) in the Taishan Sutra Stone Valley, located in a different valley from the important Mount Taishan pilgrims route, was not visited by donors and was lost to the tide of history." 
+        
+    </abstract>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#" type="host">
+        <titleInfo lang="ja">
+            <title>法華文化研究</title>
+        </titleInfo>
+        <titleInfo transliteration="romaji">
+            <title>Hokke bunka kenkyū </title>
+        </titleInfo>
+        <titleInfo lang="en">
+            <title>Journal of Institute for the Comprehensive Study of Lotus Sutra</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <part>
+            <detail type="volume">48</detail>
+            <extent unit="page">
+                <start>239</start>
+                <end>312</end>
+            </extent>
+            <date>2022</date>
+        </part>
+    </relatedItem>
+</mods>

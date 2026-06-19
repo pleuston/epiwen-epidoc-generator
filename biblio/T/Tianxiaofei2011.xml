@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd" ID="Tianxiaofei2011">
+    <titleInfo lang="en">
+        <title>Visionary Journeys: Travel Writings from Early Medieval and Nineteenth-Century China</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Tian Xiaofei 2011</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" type="personal" ns2:href="#tianxiaofei">
+        <namePart transliteration="pinyin" type="family">Tian</namePart>
+        <namePart transliteration="pinyin" type="given">Xiaofei</namePart>
+        <namePart lang="zh" type="family">田</namePart>
+        <namePart lang="zh" type="given">曉菲</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2011</dateIssued>
+        <place>
+            <placeTerm>Cambridge (Massachusetts) and London</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Harvard University Asia Center</namePart>
+            </name>
+        </publisher>
+        <issuance/>
+    </originInfo>
+    <relatedItem xmlns:ns2="http://www.w3.org/1999/xlink" type="series">
+        <titleInfo>
+            <title>Harvard-Yenching Institute Monograph Series 78</title>
+        </titleInfo>
+    </relatedItem>
+</mods>

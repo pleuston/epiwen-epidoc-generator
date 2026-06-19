@@ -1,0 +1,37 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Katsuki2006" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>初唐<!--・-->·盛唐期の敦煌における阿弥陀浄土図の研究</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Sho Tō, Sei Tō-ki no Tonkō ni okeru Amida jōdo zu no kenkyū</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>$$$</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Katsuki 2006</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" type="personal" oXygen2:href="#katsuki">
+        <namePart lang="ja" type="family">勝木</namePart>
+        <namePart lang="ja" type="given">言一郎</namePart>
+        <namePart type="family">Katsuki</namePart>
+        <namePart type="given">Gen’ichirō</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2006</dateIssued>
+        <issuance>monographic</issuance>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">創土社</namePart>
+                <namePart transliteration="romaji">Sōdosha</namePart>
+            </name>
+        </publisher>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+    </originInfo>
+</mods>

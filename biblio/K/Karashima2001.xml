@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Karashima2001" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="en">
+        <title>A Glossary of Kumārajīva’s Translation of the Lotus Sutra</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Karashima 2001</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#karashima" type="personal">
+        <namePart lang="ja" type="family">辛嶋</namePart>
+        <namePart lang="ja" type="given">静志</namePart>
+        <namePart transliteration="romaji" type="family">Karashima</namePart>
+        <namePart transliteration="romaji" type="given">Seishi</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2001</dateIssued>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="ja">創価大学・国際仏教学高等研究所</namePart>
+                <namePart transliteration="romaji">Soka University, The International Research
+                    Institute for Advanced Buddhology</namePart>
+            </name>
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <relatedItem xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#BibliothecaPPB" type="series">
+        <titleInfo lang="en">
+            <title>Bibliotheca Philologica et Philosophica Buddhica 4</title>
+        </titleInfo>
+        <part>
+            <detail type="volume">
+                <number>4</number>
+            </detail>
+        </part>
+    </relatedItem>
+</mods>

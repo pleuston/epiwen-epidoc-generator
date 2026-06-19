@@ -1,0 +1,40 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Solonin2007" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo transliteration="en">
+        <title>Obreteniye ucheniya: Traditsiya Khuayan’-Chan’ v buddizme tangutskogo gosudarstva Si-Sya</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Обретение учения: Традиция Хуаянь-Чань в буддизме тангутского
+            государства Си-Ся</title>
+    </titleInfo>
+    <titleInfo type="translated" lang="en">
+        <title>Finding the Teaching: The Huayan-Chan Tradition in Buddhism of the Tangut State of Xi-Xia</title>
+    </titleInfo>
+    <titleInfo type="reference">
+        <title>Solonin 2007</title>
+    </titleInfo>
+    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#solonin_en_ru" type="personal">
+        <namePart lang="en" type="family">Solonin</namePart>
+        <namePart lang="en" type="given">Kirill J.</namePart>
+        <role>
+            <roleTerm>author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2007</dateIssued>
+        <place>
+            <!--placeTerm transliteration="pinyin">Shijiazhuang</placeTerm-->
+            <placeTerm lang="en">St. Petersburg</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart lang="en">Publishing House of St. Petersburg University</namePart>
+            </name>
+            <!--name type="corporate">
+                <namePart transliteration="en"> Publishing House of St. Petersburg University</namePart>
+                <namePart lang="ru">Издательство С.-Петербургского
+                    университета</namePart>
+            </name-->
+        </publisher>
+        <issuance>monographic</issuance>
+    </originInfo>
+</mods>

@@ -1,0 +1,34 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Todai_Chugoku_kiyo" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="ja">
+        <title>東京大学中国語中国文学研究室紀要</title>
+    </titleInfo>
+    <titleInfo transliteration="romaji">
+        <title>Tōkyō daigaku Chūgokugo Chūgoku bungaku kenkyūshitsu kiyō</title>
+    </titleInfo>
+    <titleInfo lang="en" type="translated">
+        <title>Bulletin of the Department of Chinese Language and Literature, Tokyo University</title>
+    </titleInfo>
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#tokyo_daigaku_bungakubu" type="corporate">
+        <namePart lang="ja">東京大学文学部</namePart>
+        <namePart transliteration="romaji">Tōkyō daigaku bungakubu</namePart>
+        <role>
+            <roleTerm>editor</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>1998-</dateIssued>
+        <dateIssued encoding="marc" point="start">1998</dateIssued>
+        <issuance>continuing</issuance>
+        <frequency/>
+        <place>
+            <placeTerm transliteration="romaji">Tōkyō</placeTerm>
+            <placeTerm lang="ja">東京</placeTerm>
+        </place>
+        <publisher>
+            <name type="corporate">
+                <namePart transliteration="romaji">Tōkyō daigaku Chūgokugo Chūgoku bungaku kenkyūshitsu</namePart>
+                <namePart lang="ja">東京大学文学部中国語中国文学研究室</namePart>
+            </name>
+        </publisher>
+    </originInfo>
+</mods>
