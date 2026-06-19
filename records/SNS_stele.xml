@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en">Mañjuśrī Prajñā stele, Mount Shuiniu (two faces)</title>
+        <title xml:lang="en">Mañjuśrī Prajñā stele, Mount Shuiniu (two faces) -</title>
         <title xml:lang="zh-Hant">水牛山《文殊師利所説摩訶般若波羅蜜經》碑（兩面）</title>
         <editor role="editor">Manuel Sassmann</editor>
       </titleStmt>
       <publicationStmt>
         <authority>Epiwen / Altergraphy</authority>
-        <idno type="filename">SNS_stele</idno>
+        <idno type="filename">SNS_stele.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
         </availability>
@@ -38,7 +38,7 @@
               <supportDesc>
                 <support>
                   <material ref="aat:300011286">石灰岩 limestone</material>
-                  <objectType ref="sst:stele">碑 · stele</objectType>
+                  <objectType ref="https://opentheso.huma-num.fr/?idc=915132&amp;idt=th770">碑 · Stele</objectType>
                   <dimensions unit="cm">
                     <height>210</height>
                     <width>92</width>
@@ -52,7 +52,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote script="sst:regular-script">楷書 regular script</handNote>
+              <handNote script="https://opentheso.huma-num.fr/?idc=802549&amp;idt=th770">楷書 Regular script</handNote>
             </handDesc>
           </physDesc>
           <history>
@@ -68,11 +68,6 @@
       <langUsage>
         <language ident="zh">Literary Chinese 漢文</language>
       </langUsage>
-      <textClass>
-        <keywords scheme="#stonesutras">
-          <term ref="sst:perfection-of-wisdom">Perfection of Wisdom 般若</term>
-        </keywords>
-      </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2026-06-18" who="#epiwen">Initial EpiDoc encoding via the Epiwen generator.</change>
