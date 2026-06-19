@@ -1,10 +1,8 @@
 /* map.js — site locations on Leaflet (vendored locally in leaflet/).
  *
- * Base layers (radio): modern (Streets/Satellite/Terrain/Light) plus the
- * georeferenced 譚其驤 中國歷史地圖集 (Historical Atlas of China), Qin → Qing,
- * served as WMTS tiles by CCTS / Academia Sinica.
- * Overlays (checkbox): clustered site markers + Tang thematic layers
- * (circuits/prefectures, traffic routes), shown over whichever base.
+ * A custom grouped layer panel: base maps (modern + the 譚其驤/CCTS historical
+ * atlas) and overlays (sites, Tang detail, 左图右史/OSGeo period maps), grouped
+ * by type and source, collapsible and compact.
  */
 (function () {
   "use strict";
@@ -31,7 +29,8 @@
     setTimeout(function () { el.className = ""; }, isErr ? 6000 : 3000);
   }
 
-  // CCTS / Academia Sinica WMTS (GoogleMapsCompatible → z/x/y, RESTful, HTTPS).
+  // ── Tile sources ────────────────────────────────────────────────────────────
+
   var CCTS_ATTR = '譚其驤 <i>中國歷史地圖集</i> · <a href="https://gis.sinica.edu.tw/ccts/" target="_blank" rel="noopener">CCTS</a>, Academia Sinica';
   function ccts(id, extra) {
     return L.tileLayer(
@@ -40,28 +39,80 @@
     );
   }
 
-  // 左图右史 / OSGeo.cn — transparent period maps (boundaries, places, rivers).
   var OSGEO_ATTR = '<a href="https://history-map.osgeo.cn" target="_blank" rel="noopener">左图右史</a> · OSGeo.cn';
   function osgeo(uid, z) {
     return L.tileLayer(
       "https://tile.osgeo.cn/wmts/" + uid + "/webmercator/{z}/{x}/{y}.png",
-      // tile.osgeo.cn hotlink-protects by Referer (302s foreign referrers but
-      // serves no-referrer requests) — so suppress the Referer header.
+      // tile.osgeo.cn hotlink-protects by Referer — suppress it to load cross-origin
       { maxNativeZoom: 8, maxZoom: 18, opacity: 0.85, zIndex: z || 7,
         referrerPolicy: "no-referrer", attribution: OSGEO_ATTR }
     );
   }
 
-  // The atlas, chronologically (id, label)
-  var DYNASTIES = [
-    ["bc0210", "Qin · 210 BCE"],            ["bc0007", "W. Han · 7 BCE"],
-    ["ad0140", "E. Han · 140"],             ["ad0262", "Three Kingdoms · 262"],
-    ["ad0281", "W. Jin · 281"],             ["ad0382", "E. Jin · 382"],
-    ["ad0497", "S. & N. Dynasties · 497"],  ["ad0612", "Sui · 612"],
-    ["ad0741", "Tang · 741"],               ["ad1111", "N. Song · 1111"],
-    ["ad1208", "S. Song · 1208"],           ["ad1330", "Yuan · 1330"],
-    ["ad1582", "Ming · 1582"],              ["ad1820", "Qing · 1820"]
-  ];
+  function modern(url, extra) {
+    return L.tileLayer(url, Object.assign({ zIndex: 1 }, extra));
+  }
+
+  // ── Custom grouped layer panel ──────────────────────────────────────────────
+
+  var ICON = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><polygon points="12 2 22 8.5 12 15 2 8.5 12 2"/><polyline points="2 15.5 12 22 22 15.5"/></svg>';
+
+  function groupedControl(map, groups) {
+    var ctrl = L.control({ position: "topright" });
+    ctrl.onAdd = function () {
+      var wrap = L.DomUtil.create("div", "lp");
+      var btn = L.DomUtil.create("button", "lp-btn", wrap);
+      btn.type = "button"; btn.title = "Map layers"; btn.setAttribute("aria-label", "Map layers");
+      btn.innerHTML = ICON;
+
+      var body = L.DomUtil.create("div", "lp-body", wrap);
+      var head = L.DomUtil.create("div", "lp-head", body);
+      head.innerHTML = "<span>Layers</span>";
+      var close = L.DomUtil.create("button", "lp-close", head);
+      close.type = "button"; close.innerHTML = "×"; close.setAttribute("aria-label", "Close");
+
+      var bases = [];
+      groups.forEach(function (g) {
+        var gEl = L.DomUtil.create("div", "lp-group" +
+          (g.collapsible ? " collapsible" : "") + (g.collapsed ? "" : " open"), body);
+        var gh = L.DomUtil.create("div", "lp-grouphead", gEl);
+        gh.innerHTML = '<span class="lp-gtitle">' + g.title + "</span>" +
+          (g.source ? '<span class="lp-gsrc">' + g.source + "</span>" : "");
+        var items = L.DomUtil.create("div", "lp-items" + (g.grid ? " lp-grid" : ""), gEl);
+        if (g.collapsible) L.DomEvent.on(gh, "click", function () { gEl.classList.toggle("open"); });
+
+        g.layers.forEach(function (it) {
+          var row = L.DomUtil.create("label", "lp-item", items);
+          var inp = L.DomUtil.create("input", "", row);
+          inp.type = (g.kind === "base") ? "radio" : "checkbox";
+          if (g.kind === "base") inp.name = "lp-base";
+          if (it.on) { inp.checked = true; }
+          var sp = L.DomUtil.create("span", "lp-label", row);
+          sp.innerHTML = it.label;
+          if (g.kind === "base") {
+            bases.push(it.layer);
+            L.DomEvent.on(inp, "change", function () {
+              bases.forEach(function (b) { if (map.hasLayer(b)) map.removeLayer(b); });
+              map.addLayer(it.layer);
+            });
+          } else {
+            L.DomEvent.on(inp, "change", function () {
+              if (inp.checked) map.addLayer(it.layer); else map.removeLayer(it.layer);
+            });
+          }
+        });
+      });
+
+      L.DomEvent.on(btn, "click", function (e) { L.DomEvent.stop(e); wrap.classList.add("open"); });
+      L.DomEvent.on(close, "click", function (e) { L.DomEvent.stop(e); wrap.classList.remove("open"); });
+      L.DomEvent.disableClickPropagation(wrap);
+      L.DomEvent.disableScrollPropagation(body);
+      return wrap;
+    };
+    return ctrl;
+  }
+
+  // ── Init ────────────────────────────────────────────────────────────────────
 
   document.addEventListener("DOMContentLoaded", function () {
     var mapEl = document.getElementById("map");
@@ -71,57 +122,70 @@
     }
     sizeMap();
 
-    var map = L.map(mapEl, { scrollWheelZoom: true }).setView([34, 104], 4);
+    var map = L.map(mapEl, { scrollWheelZoom: true, zoomControl: true }).setView([34, 104], 4);
 
-    // ── Modern base layers ─────────────────────────────────────────────────────
-    var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
+    var osm = modern("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
     });
-    var sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    var sat = modern("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 18, attribution: "Imagery © Esri, Maxar, Earthstar Geographics"
     });
-    var topo = L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+    var topo = modern("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
       maxZoom: 17, subdomains: "abc",
       attribution: '© <a href="https://opentopomap.org" target="_blank" rel="noopener">OpenTopoMap</a> (CC-BY-SA)'
     });
-    var light = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    var light = modern("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       maxZoom: 19, subdomains: "abcd", attribution: "© OpenStreetMap, © CARTO"
     });
     osm.addTo(map);
 
     window.addEventListener("resize", function () { sizeMap(); map.invalidateSize(); });
 
-    // ── Base layers: modern + historical atlas (Tan Qixiang / CCTS) ────────────
-    var baseLayers = { "Streets": osm, "Satellite": sat, "Terrain": topo, "Light": light };
-    DYNASTIES.forEach(function (d) { baseLayers[d[1]] = ccts(d[0]); });
-
-    // ── Site markers (clustered) ──────────────────────────────────────────────
     var cluster = L.markerClusterGroup({
       maxClusterRadius: 45, showCoverageOnHover: false, spiderfyOnMaxZoom: true
     });
 
-    // ── Overlays: sites + Tang thematic layers (transparent, over any base) ────
-    var overlays = {
-      "Sites": cluster,
-      "Tang circuits &amp; prefectures": ccts("Tang_Admin", { zIndex: 5 }),
-      "Tang traffic routes": ccts("Tang_TrafficRoute", { zIndex: 6 }),
-      // 左图右史 / OSGeo.cn — period maps for the stone-sutra (Northern dynasties) era
-      "E. Wei 東魏 (557 era)": osgeo("mp03c5", 7),
-      "W. Wei 西魏 (557 era)": osgeo("mp03c6", 8),
-      "N. Qi 北齊": osgeo("mp03c7", 9),
-      "N. Zhou 北周": osgeo("mp03c8", 10),
-      "Chen · N.Qi · N.Zhou 557": osgeo("mp0394", 11)
-    };
+    var DYN = [
+      ["bc0210", "Qin · 210 BCE"], ["bc0007", "W. Han · 7 BCE"], ["ad0140", "E. Han · 140"],
+      ["ad0262", "Three Kingdoms · 262"], ["ad0281", "W. Jin · 281"], ["ad0382", "E. Jin · 382"],
+      ["ad0497", "S. & N. Dyn. · 497"], ["ad0612", "Sui · 612"], ["ad0741", "Tang · 741"],
+      ["ad1111", "N. Song · 1111"], ["ad1208", "S. Song · 1208"], ["ad1330", "Yuan · 1330"],
+      ["ad1582", "Ming · 1582"], ["ad1820", "Qing · 1820"]
+    ];
 
-    L.control.layers(baseLayers, overlays, { collapsed: true }).addTo(map);
+    var groups = [
+      { kind: "base", title: "Modern", layers: [
+        { label: "Streets", layer: osm, on: true },
+        { label: "Satellite", layer: sat },
+        { label: "Terrain", layer: topo },
+        { label: "Light", layer: light }
+      ] },
+      { kind: "base", title: "Historical atlas", source: "Tan Qixiang · CCTS",
+        collapsible: true, collapsed: true,
+        layers: DYN.map(function (d) { return { label: d[1], layer: ccts(d[0], { zIndex: 1 }) }; }) },
+      { kind: "overlay", title: "Site catalogue", layers: [
+        { label: "Sites", layer: cluster, on: true }
+      ] },
+      { kind: "overlay", title: "Tang detail", source: "CCTS", layers: [
+        { label: "Circuits &amp; prefectures", layer: ccts("Tang_Admin", { zIndex: 5 }) },
+        { label: "Traffic routes", layer: ccts("Tang_TrafficRoute", { zIndex: 6 }) }
+      ] },
+      { kind: "overlay", title: "Northern dynasties", source: "左图右史 · OSGeo", layers: [
+        { label: "E. Wei 東魏", layer: osgeo("mp03c5", 7) },
+        { label: "W. Wei 西魏", layer: osgeo("mp03c6", 8) },
+        { label: "N. Qi 北齊", layer: osgeo("mp03c7", 9) },
+        { label: "N. Zhou 北周", layer: osgeo("mp03c8", 10) },
+        { label: "Chen · Qi · Zhou 557", layer: osgeo("mp0394", 11) }
+      ] }
+    ];
+
+    groupedControl(map, groups).addTo(map);
 
     fetch("data/site-index.json?v=" + Date.now())
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (recs) {
         var childParents = {};
         recs.forEach(function (r) { if (r.parent) childParents[r.parent] = true; });
-
         var bounds = [];
         recs.forEach(function (r) {
           if (r.kind && r.kind !== "site") return;
@@ -143,7 +207,6 @@
           cluster.addLayer(m);
           bounds.push([ll.lat, ll.lon]);
         });
-
         map.addLayer(cluster);
         var countEl = document.getElementById("map-count");
         if (countEl) countEl.textContent = bounds.length;
