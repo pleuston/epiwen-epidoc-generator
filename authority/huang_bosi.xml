@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="huang_bosi">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>黃伯思</namePart>
+      <namePart type="date">1079–1118</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">Q11175975</identifier>
+</mads>

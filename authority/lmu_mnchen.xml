@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="lmu_mnchen">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>aliases: ["LMU München", "Ludwig-Maximilians-Universität München", "LMU Munich", "University of Munich"]</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">Q156598</identifier>
+</mads>

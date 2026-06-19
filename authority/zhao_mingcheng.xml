@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="zhao_mingcheng">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>趙明誠</namePart>
+      <namePart type="date">1081–1129</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">Q4515473</identifier>
+</mads>

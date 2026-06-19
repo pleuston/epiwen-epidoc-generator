@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="ouyang_xiu">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>歐陽脩</namePart>
+      <namePart type="date">1007–1072</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">Q334323</identifier>
+</mads>

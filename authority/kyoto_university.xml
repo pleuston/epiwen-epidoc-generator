@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="kyoto_university">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>京都大學</namePart>
+    </name>
+  </authority>
+</mads>

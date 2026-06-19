@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="jingying_huiyuan">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>淨影慧遠</namePart>
+      <namePart type="date">523–592</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">Q11168997</identifier>
+</mads>

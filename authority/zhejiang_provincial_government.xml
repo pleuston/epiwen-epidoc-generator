@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mads xmlns="http://www.loc.gov/mads/" ID="zhejiang_provincial_government">
+  <authority lang="zh">
+    <name type="personal">
+      <namePart>浙江省政府</namePart>
+    </name>
+  </authority>
+  <identifier type="wikidata">draft: true</identifier>
+</mads>

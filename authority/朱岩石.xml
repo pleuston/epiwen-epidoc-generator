@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="朱岩石">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>朱岩石</namePart>
-    </name>
-  </authority>
-  <identifier type="gnd">wiki: true</identifier>
-</mads>
