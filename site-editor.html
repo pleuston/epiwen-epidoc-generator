@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Site Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <style>
+      .form-row-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+        margin-bottom: .5rem;
+      }
+      .section-head {
+        font-weight: 600;
+        color: var(--text-muted);
+        font-size: .82em;
+        margin: .7rem 0 .35rem;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+      }
+      .subsite-chips { display: flex; flex-wrap: wrap; gap: .3rem; margin: .2rem 0 .6rem; }
+      .subsite-chip {
+        font-size: .8em;
+        background: var(--bg-subtle, #f0f3fa);
+        border: 1px solid var(--border, #ccc);
+        border-radius: 10px;
+        padding: .12rem .55rem;
+      }
+      .field-note { display:block; font-size:.78em; color: var(--text-muted, #888); margin-top:.15rem; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <a href="catalog.html" class="brand-home">Epiwen</a>
+      </div>
+      <nav class="sitenav">
+        <a href="catalog.html"                  class="sitenav-link">Objects</a>
+        <a href="catalog.html?tab=inscriptions"  class="sitenav-link">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"     class="sitenav-link">Rubbings</a>
+        <a href="sites.html"                    class="sitenav-link active">Sites</a>
+        <a href="authorities.html"              class="sitenav-link">Authorities</a>
+        <a href="bibliography.html"             class="sitenav-link">Bibliography</a>
+        <a href="docs.html"                     class="sitenav-link">Docs</a>
+      </nav>
+      <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
+    </header>
+
+    <div class="about-layout">
+
+      <!-- ── Form pane ── -->
+      <div class="about-pane" style="overflow-y:auto">
+        <section class="catalog-section" style="margin-top:0">
+          <div class="catalog-head">
+            <h2 id="editor-heading">Site record</h2>
+            <div class="catalog-head-actions">
+              <a href="sites.html" class="btn small">← Back</a>
+            </div>
+          </div>
+
+          <div id="site-form" style="padding:.5rem 0">
+
+            <!-- ── ID + type ── -->
+            <div class="form-row-2">
+              <label class="form-label">
+                Site ID <span class="catalog-date">(filename: &lt;id&gt;_site.xml)</span>
+                <input type="text" id="f-id" class="form-input" placeholder="Tai" autocomplete="off" />
+              </label>
+              <label class="form-label">
+                Type
+                <select id="f-subtype" class="form-input">
+                  <option value="mountain">Mountain</option>
+                  <option value="cliff_site">Cliff site</option>
+                  <option value="valley">Valley</option>
+                  <option value="cave_temple">Cave-temple</option>
+                  <option value="cave">Cave</option>
+                  <option value="monastery">Monastery</option>
+                  <option value="stele_site">Stele site</option>
+                  <option value="tomb_site">Tomb site</option>
+                  <option value="other">Other</option>
+                </select>
+              </label>
+            </div>
+
+            <!-- ── Parent ── -->
+            <label class="form-label" style="display:block;margin-bottom:.5rem">
+              Parent site <span class="catalog-date">(leave blank for a top-level site)</span>
+              <input type="text" id="f-parent" class="form-input" list="site-parent-list"
+                     placeholder="e.g. Tai — for a subsite like a valley or cave" autocomplete="off" />
+              <datalist id="site-parent-list"></datalist>
+              <span class="field-note">A subsite (Stone Sutra Valley) points at the parent it belongs to (Mount Tai).</span>
+            </label>
+
+            <!-- ── Subsites (read-only, shown when editing a parent) ── -->
+            <div id="subsite-block" style="display:none">
+              <p class="section-head">Subsites grouped under this site</p>
+              <div id="subsite-chips" class="subsite-chips"></div>
+            </div>
+
+            <!-- ── Titles ── -->
+            <p class="section-head">Name</p>
+            <div class="form-row-2">
+              <label class="form-label">
+                Title (EN)
+                <input type="text" id="f-title-en" class="form-input" placeholder="Mount Tai" />
+              </label>
+              <label class="form-label">
+                Title (ZH)
+                <input type="text" id="f-title-zh" class="form-input" placeholder="泰山" />
+              </label>
+            </div>
+
+            <!-- ── Province ── -->
+            <p class="section-head">Province</p>
+            <div class="form-row-2">
+              <label class="form-label">
+                Province (EN)
+                <input type="text" id="f-province-en" class="form-input" list="province-list"
+                       placeholder="Shandong Province" autocomplete="off" />
+                <datalist id="province-list">
+                  <option value="Shandong Province"></option>
+                  <option value="Sichuan Province"></option>
+                  <option value="Shaanxi Province"></option>
+                </datalist>
+              </label>
+              <label class="form-label">
+                Province (ZH) <span class="catalog-date">(auto-pairs)</span>
+                <input type="text" id="f-province-zh" class="form-input" placeholder="山東省" />
+              </label>
+            </div>
+
+            <!-- ── Coordinates ── -->
+            <p class="section-head">Location</p>
+            <label class="form-label" style="display:block;margin-bottom:.6rem">
+              Coordinates <span class="catalog-date">(EPSG:4326)</span>
+              <input type="text" id="f-coordinates" class="form-input"
+                     placeholder="117.117708, 36.224721" />
+              <span class="field-note">Order as stored in the corpus: longitude, latitude.</span>
+            </label>
+
+            <!-- ── Actions ── -->
+            <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem;padding-bottom:1rem">
+              <button class="btn primary" id="btn-save-github">② Save to GitHub</button>
+              <button class="btn small" id="btn-gh-settings" type="button">⚙ GitHub settings</button>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- ── Preview pane ── -->
+      <div class="catalog-preview" id="site-preview-panel">
+        <div class="preview-head">
+          <span id="preview-title">XML preview</span>
+          <div class="preview-head-right">
+            <button id="site-preview-copy" class="btn small">Copy XML</button>
+          </div>
+        </div>
+        <pre class="hp-pane" style="margin:0;padding:.8rem;overflow:auto;font-size:.78rem"><code id="site-xml-out"></code></pre>
+      </div>
+
+    </div>
+
+    <footer class="foot">
+      Source:
+      <a href="https://github.com/pleuston/epiwen-epidoc-generator"
+         target="_blank" rel="noopener">github.com/pleuston/epiwen-epidoc-generator</a>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="github.js"></script>
+    <script src="site-app.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>

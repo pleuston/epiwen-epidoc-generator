@@ -1,0 +1,623 @@
+[
+{
+"id": "AY",
+"title_en": "Anyue",
+"title_zh": "",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": ""
+},
+{
+"id": "BSS",
+"title_en": "Bishui Monastery",
+"title_zh": "碧水寺",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "104.752091,31.473473",
+"parent": ""
+},
+{
+"id": "BSY",
+"title_en": "Beishan Monastery",
+"title_zh": "北山院",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "104.969061,31.560066",
+"parent": ""
+},
+{
+"id": "CLS",
+"title_en": "Mount Culai",
+"title_zh": "徂徠山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.3938, 36.0112",
+"parent": ""
+},
+{
+"id": "DZ",
+"title_en": "Mount Dazhai",
+"title_zh": "大寨山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.3235, 36.0791",
+"parent": ""
+},
+{
+"id": "EG",
+"title_en": "Mount Ergu",
+"title_zh": "二鼓山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.2694, 36.1011",
+"parent": ""
+},
+{
+"id": "FHS",
+"title_en": "Mount Fenghuang",
+"title_zh": "鳳凰山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.9716, 35.8001",
+"parent": ""
+},
+{
+"id": "GS",
+"title_en": "Mount Gang",
+"title_zh": "崗山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.969, 35.426",
+"parent": ""
+},
+{
+"id": "Ge",
+"title_en": "Mount Ge",
+"title_zh": "葛山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.1084, 35.4294",
+"parent": ""
+},
+{
+"id": "HDS",
+"title_en": "Mount Hongding",
+"title_zh": "洪頂山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.238, 36.064",
+"parent": ""
+},
+{
+"id": "HSY",
+"title_en": "Huangshi Cliff",
+"title_zh": "黃石崖",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.035667, 36.630203",
+"parent": ""
+},
+{
+"id": "HT",
+"title_en": "Haitan Monastery Stele",
+"title_zh": "海檀寺碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.3025, 36.0296",
+"parent": ""
+},
+{
+"id": "JCW",
+"title_en": "Site Jinchuanwan",
+"title_zh": "金川灣",
+"province_en": "Shaanxi Province",
+"province_zh": "陝西省",
+"coordinates": "108.683500,34.743000",
+"parent": ""
+},
+{
+"id": "JKB",
+"title_en": "Yanzhou Stelae",
+"title_zh": "兖州碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.7842,35.5527",
+"parent": ""
+},
+{
+"id": "JS",
+"title_en": "Mount Jian",
+"title_zh": "尖山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.0184, 35.4395",
+"parent": ""
+},
+{
+"id": "JSY",
+"title_en": "Mount Tai",
+"title_zh": "泰山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.117708, 36.224721",
+"parent": ""
+},
+{
+"id": "JX",
+"title_en": "Jixiang Monastery Stelae",
+"title_zh": "吉祥寺碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "115.8892, 34.9535",
+"parent": ""
+},
+{
+"id": "LS",
+"title_en": "Mount Long",
+"title_zh": "龍山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.279590, 34.903425",
+"parent": ""
+},
+{
+"id": "LYS",
+"title_en": "Site of Lingyan Monastery",
+"title_zh": "靈岩寺",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "",
+"parent": ""
+},
+{
+"id": "MD",
+"title_en": "Mingdao Monastery Sculptures",
+"title_zh": "臨朐縣明道寺造像刻銘",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "118.5435, 36.5152",
+"parent": ""
+},
+{
+"id": "NY",
+"title_en": "Ningyang County Stelae",
+"title_zh": "寧陽縣碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.8049, 35.7587",
+"parent": ""
+},
+{
+"id": "PY",
+"title_en": "Pingyin County Stele",
+"title_zh": "平陰縣碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.4561, 36.2892",
+"parent": ""
+},
+{
+"id": "SF",
+"title_en": "Shifo Monastery Stele",
+"title_zh": "石佛寺碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.0940, 35.3974",
+"parent": ""
+},
+{
+"id": "SFY",
+"title_en": "Sutra from Stone Buddha Valley",
+"title_zh": "石佛峪刻經",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "36°04'40.4\"N 117°23'48.5\"E",
+"parent": ""
+},
+{
+"id": "SG",
+"title_en": "Shengguo Monastery Stele",
+"title_zh": "勝果寺碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.9872,35.5833",
+"parent": ""
+},
+{
+"id": "SNS",
+"title_en": "Mount Shuiniu",
+"title_zh": "水牛山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.6635, 35.7704",
+"parent": ""
+},
+{
+"id": "SY",
+"title_en": "East Mount Shuyuan",
+"title_zh": "書院東山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.293690, 36.099723",
+"parent": ""
+},
+{
+"id": "Sili",
+"title_en": "Mount Sili",
+"title_zh": "司里山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.1241, 36.0112",
+"parent": ""
+},
+{
+"id": "TC",
+"title_en": "Mount Tianchi",
+"title_zh": "天池山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.293414, 36.101294",
+"parent": ""
+},
+{
+"id": "TM",
+"title_en": "Tianming Monastery Stele",
+"title_zh": "天明寺碑",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.52682,35.640215",
+"parent": ""
+},
+{
+"id": "TS",
+"title_en": "Mount Tao",
+"title_zh": "陶山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.3321, 34.9324",
+"parent": ""
+},
+{
+"id": "Tai",
+"title_en": "Mount Tai",
+"title_zh": "泰山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.117708, 36.224721",
+"parent": ""
+},
+{
+"id": "Tie",
+"title_en": "Mount Tie",
+"title_zh": "鐵山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.961,35.415",
+"parent": ""
+},
+{
+"id": "WFY",
+"title_en": "Grove of the Reclining Buddha",
+"title_zh": "臥佛院",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "105.316629,30.302314",
+"parent": ""
+},
+{
+"id": "WLS",
+"title_en": "Mount Wolong",
+"title_zh": "臥龍山",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "105.054209,31.653703",
+"parent": ""
+},
+{
+"id": "XL",
+"title_en": "Xianling Shrine, Sanyuan County (639)",
+"title_zh": "三原縣獻陵石佛殿（639）",
+"province_en": "Shaanxi Province",
+"province_zh": "陝西省",
+"coordinates": "109.135043, 34.704177",
+"parent": ""
+},
+{
+"id": "YC",
+"title_en": "Mount Yuncui",
+"title_zh": "雲翠山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.293862, 36.063014",
+"parent": ""
+},
+{
+"id": "YS",
+"title_en": "Mount Yang",
+"title_zh": "陽山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.993500, 35.390000",
+"parent": ""
+},
+{
+"id": "YYS",
+"title_en": "Yangyue Monastery",
+"title_zh": "陽岳寺",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "106.063000,31.971000",
+"parent": ""
+},
+{
+"id": "Yi",
+"title_en": "Mount Yi",
+"title_zh": "嶧山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "117.0263, 35.3275",
+"parent": ""
+},
+{
+"id": "Yin",
+"title_en": "Mount Yin",
+"title_zh": "銀山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "116.118636, 36.065493",
+"parent": ""
+},
+{
+"id": "Ying",
+"title_en": "Mount Taipeng",
+"title_zh": "太蓬山",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "106.746830,31.257468",
+"parent": ""
+},
+{
+"id": "Ziyang",
+"title_en": "Mount Ziyang",
+"title_zh": "嵫陽山",
+"province_en": "Shandong Province",
+"province_zh": "山東省",
+"coordinates": "",
+"parent": ""
+},
+{
+"id": "JCW_eastwall",
+"title_en": "Jinchuanwan Cave East Wall",
+"title_zh": "金川灣石窟東璧",
+"province_en": "Shaanxi Province",
+"province_zh": "陝西省",
+"coordinates": "108.683500,34.743000",
+"parent": "JCW"
+},
+{
+"id": "JCW_westwall",
+"title_en": "Jinchuanwan Cave West Wall",
+"title_zh": "金川灣石窟西璧",
+"province_en": "Shaanxi Province",
+"province_zh": "陝西省",
+"coordinates": "108.683500,34.743000",
+"parent": "JCW"
+},
+{
+"id": "WFY_Section_Aa_Cave29",
+"title_en": "Cave 29",
+"title_zh": "29號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ab_Cave33",
+"title_en": "Cave 33",
+"title_zh": "33號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Bb_Cave39",
+"title_en": "Cave 39",
+"title_zh": "39號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Bb_Cave40",
+"title_en": "Cave 40",
+"title_zh": "40號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Bb_Cave41",
+"title_en": "Cave 41",
+"title_zh": "41號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Bb_Cave42",
+"title_en": "Cave 42",
+"title_zh": "42號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ca_Cave46",
+"title_en": "Cave 46",
+"title_zh": "46號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Cb_Cave51",
+"title_en": "Cave 51",
+"title_zh": "51號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Cc_Cave58",
+"title_en": "Cave 58",
+"title_zh": "58號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Da_Cave59",
+"title_en": "Cave 59",
+"title_zh": "59號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Da_Cave66",
+"title_en": "Cave 66",
+"title_zh": "66號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Db_Cave65",
+"title_en": "Cave 65",
+"title_zh": "65號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Db_Cave70",
+"title_en": "Cave 70",
+"title_zh": "70號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_E_F",
+"title_en": "WFY Section E F",
+"title_zh": "卧佛院南崖E區和F區",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ea_Cave71",
+"title_en": "Cave 71",
+"title_zh": "71號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ea_Cave73",
+"title_en": "Cave 73",
+"title_zh": "73號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ea_Cave76",
+"title_en": "Cave 76",
+"title_zh": "76號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Fa_Cave83",
+"title_en": "Cave 83",
+"title_zh": "83號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Fa_Cave85",
+"title_en": "Cave 85",
+"title_zh": "85號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_G",
+"title_en": "WFY Section G",
+"title_zh": "卧佛院南崖G區",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ga_Cave1",
+"title_en": "Cave 1",
+"title_zh": "1號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Ga_Cave2",
+"title_en": "Cave 2",
+"title_zh": "2號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Gb_Cave123",
+"title_en": "Cave 123",
+"title_zh": "123號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+},
+{
+"id": "WFY_Section_Gb_Cave125",
+"title_en": "Cave 125",
+"title_zh": "125號窟",
+"province_en": "Sichuan Province",
+"province_zh": "四川省",
+"coordinates": "",
+"parent": "WFY"
+}
+]
