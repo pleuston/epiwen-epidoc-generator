@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · Editor — new inscription / 新增銘文</title>
+    <title>Epiwen · Rubbing — 拓本描述</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="lang-both">
@@ -11,13 +11,13 @@
       <div class="brand">
         <a href="index.html" class="brand-home">Epiwen</a>
         <span class="brand-sep">·</span>
-        <span>New inscription <span class="zh">新增銘文</span></span>
+        <span>Rubbing <span class="zh">拓本</span></span>
       </div>
       <nav class="sitenav sitenav-editor">
-        <a href="catalog.html" class="sitenav-link">Catalog</a>
-        <a href="editor.html"  class="sitenav-link active">Inscription</a>
-        <a href="rubbing.html" class="sitenav-link">Rubbing</a>
-        <a href="docs.html"    class="sitenav-link">Docs</a>
+        <a href="catalog.html"  class="sitenav-link">Catalog</a>
+        <a href="editor.html"   class="sitenav-link">Inscription</a>
+        <a href="rubbing.html"  class="sitenav-link active">Rubbing</a>
+        <a href="docs.html"     class="sitenav-link">Docs</a>
       </nav>
       <div class="controls">
         <div class="langtoggle" role="group" aria-label="interface language">
@@ -25,27 +25,26 @@
           <button data-lang="zh"   type="button">中</button>
           <button data-lang="both" type="button" class="active">EN+中</button>
         </div>
-        <button id="btn-example"  type="button" class="btn">Load example / 範例</button>
-        <button id="btn-reset"    type="button" class="btn">Reset / 清空</button>
+        <button id="btn-reset"       type="button" class="btn">Reset / 清空</button>
         <button id="btn-copy"        type="button" class="btn primary">① Copy XML</button>
         <button id="btn-save-github" type="button" class="btn primary">② Save to GitHub</button>
-        <button id="btn-gh-settings" type="button" class="btn btn-icon" title="GitHub settings" aria-label="GitHub settings">⚙</button>
+        <button id="btn-gh-settings" type="button" class="btn btn-icon"
+                title="GitHub settings" aria-label="GitHub settings">⚙</button>
         <button id="btn-download"    type="button" class="btn">Download .xml</button>
-        <button data-workflow-modal type="button" class="btn">? How to</button>
       </div>
     </header>
 
     <div class="editor-hint">
-      <span class="step">① Fill the form</span>
+      <span class="step">① Fill the rubbing description form</span>
       <span class="arrow">→</span>
-      <span class="step">② <strong>Save to GitHub</strong> — commits directly</span>
+      <span class="step">② <strong>Save to GitHub</strong> — commits the TEI record directly</span>
       <span class="arrow hint-or">or</span>
       <span class="step">② <strong>Copy XML</strong> → paste in GitHub web editor</span>
     </div>
 
     <main class="layout">
-      <section id="form" class="pane form" aria-label="metadata form"></section>
-      <section class="pane preview" aria-label="EpiDoc output">
+      <section id="form" class="pane form" aria-label="rubbing metadata form"></section>
+      <section class="pane preview" aria-label="TEI output">
         <div class="preview-head">
           <div class="view-toggle">
             <button class="view-btn" id="btn-view-preview">Preview</button>
@@ -59,17 +58,14 @@
     </main>
 
     <footer class="foot">
-      Client-side only — nothing is uploaded; the XML is built live in your browser.
-      Vocabularies mirror the Stone Sutras thesaurus and are editable in <code>vocab.js</code>.
-      Modelled on the
-      <a href="https://tools.fdm.uni-hamburg.de/mdg/generator_metadata_epidoc.html"
-        >Hamburg Metadata Generator for EpiDoc</a>.
+      TEI rubbing record — describes a rubbing as a physical object and links it to its source inscription.
+      Vocabularies from the Epiverse th770 thesaurus on OpenTheso
+      (<a href="https://opentheso.huma-num.fr" target="_blank" rel="noopener">opentheso.huma-num.fr</a>).
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
     <script src="vocab.js"></script>
-    <script src="generator.js"></script>
-    <script src="app.js"></script>
+    <script src="rubbing-app.js"></script>
     <script src="github.js"></script>
     <script src="modal.js"></script>
   </body>

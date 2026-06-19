@@ -425,6 +425,20 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 /* editor preview pre fills the pane */
 .preview pre { flex: 1; }
 
+/* ---- rubbing form: paper-attributes checkbox group ---- */
+.checkbox-group {
+  display: flex; flex-wrap: wrap; gap: 0.3rem 1rem;
+  padding: 0.4rem 0; margin-top: 0.2rem;
+}
+.check-label {
+  display: flex; align-items: center; gap: 0.3rem;
+  font-size: 0.82rem; color: var(--ink); cursor: pointer;
+  white-space: nowrap;
+}
+.check-label input[type="checkbox"] {
+  accent-color: var(--accent); width: 0.9rem; height: 0.9rem; cursor: pointer;
+}
+
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; }
   .form { border-right: 0; border-bottom: 1px solid var(--line); }

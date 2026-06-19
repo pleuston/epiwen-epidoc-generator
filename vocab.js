@@ -191,6 +191,137 @@
     { dyn: "唐", era: "天寶", py: "Tianbao",     start: 742, end: 756 }
   ];
 
+  // ---- Rubbing vocabulary (th770 branch g2966 — "Rubbing") -------------------
+  // Source: Epiverse_th770.rdf (2026-06-12 export); rubbing group idg=g2966
+  // Rubbing top concept: idc=802596 (拓片 / Rubbing / estampage)
+  function th(id) { return "https://opentheso.huma-num.fr/?idc=" + id + "&idt=th770"; }
+
+  // Support formats (802938 branch)
+  V.RUBBING_FORMATS = [
+    { en: "Sheet / leaf",              zh: "页",         ref: th("802966"), opentheso_id: "802966" },
+    { en: "Mount",                     zh: "裱",         ref: th("802940"), opentheso_id: "802940" },
+    { en: "Horizontal scroll",         zh: "",           ref: th("802941"), opentheso_id: "802941" },
+    { en: "Vertical scroll",           zh: "",           ref: th("802942"), opentheso_id: "802942" },
+    { en: "Screen",                    zh: "",           ref: th("802943"), opentheso_id: "802943" },
+    { en: "Album",                     zh: "拓本",       ref: th("802939"), opentheso_id: "802939" },
+    { en: "Stone or metal album",      zh: "金石杂拓册", ref: th("884375"), opentheso_id: "884375" },
+    { en: "Calligraphy album (fatie)", zh: "法帖",       ref: th("884866"), opentheso_id: "884866" },
+    { en: "Cut and mounted (album)",   zh: "剪裝",       ref: th("884915"), opentheso_id: "884915" },
+    { en: "Strip rubbing",             zh: "条拓",       ref: th("884917"), opentheso_id: "884917" },
+    { en: "Notebook",                  zh: "",           ref: th("884781"), opentheso_id: "884781" }
+  ];
+
+  // Inking technique (802945 branch under 802944)
+  V.INKING_TECHNIQUES = [
+    { en: "Dry",   zh: "干拓", ref: th("802948"), opentheso_id: "802948" },
+    { en: "Wet",   zh: "湿拓", ref: th("802949"), opentheso_id: "802949" },
+    { en: "Print", zh: "",     ref: th("802950"), opentheso_id: "802950" }
+  ];
+
+  // Dry-technique subtypes (children of 802948)
+  V.INKING_DRY_SUBTYPES = [
+    { en: "Cicada wings (chanyi tuo)",          zh: "蝉翼拓", ref: th("884728"), opentheso_id: "884728" },
+    { en: "Shiny and dense ink (guanghou)",     zh: "墨色光厚", ref: th("884784"), opentheso_id: "884784" }
+  ];
+
+  // Wet-technique subtypes (children of 802949)
+  V.INKING_WET_SUBTYPES = [
+    { en: "Addings of inked surfaces (buhui)", zh: "补绘",     ref: th("884374"), opentheso_id: "884374" },
+    { en: "Black gold (wujin tuo)",            zh: "乌金拓",   ref: th("884729"), opentheso_id: "884729" },
+    { en: "Two-color process",                  zh: "双色因相法", ref: th("884730"), opentheso_id: "884730" },
+    { en: "Iridescent ink",                     zh: "彩虹墨",   ref: th("884914"), opentheso_id: "884914" }
+  ];
+
+  // Ink medium / pigment (802947 branch)
+  V.INKING_MEDIA = [
+    { en: "Black ink rubbing",      zh: "墨拓",   ref: th("802952"), opentheso_id: "802952" },
+    { en: "Charcoal rubbing",       zh: "",       ref: th("802954"), opentheso_id: "802954" },
+    { en: "Blue ink rubbing",       zh: "蓝拓",   ref: th("884731"), opentheso_id: "884731" },
+    { en: "Vermillion ink rubbing", zh: "朱砂墨", ref: th("884797"), opentheso_id: "884797" }
+  ];
+
+  // Paper types (884787 branch under 802961)
+  V.PAPER_TYPES = [
+    { en: "Xuan paper",             zh: "",       ref: th("802962"), opentheso_id: "802962" },
+    { en: "Washi paper",            zh: "",       ref: th("802965"), opentheso_id: "802965" },
+    { en: "Ribbed paper",           zh: "罗纹纸", ref: th("884868"), opentheso_id: "884868" },
+    { en: "Photolithography paper", zh: "",       ref: th("802963"), opentheso_id: "802963" },
+    { en: "Print paper",            zh: "",       ref: th("802964"), opentheso_id: "802964" }
+  ];
+
+  // Paper physical attributes (884786 branch + 884847)
+  V.PAPER_ATTRIBUTES = [
+    { en: "Elasticity",    zh: "韧劲",     ref: th("884795"), opentheso_id: "884795" },
+    { en: "Look-through",  zh: "",         ref: th("884798"), opentheso_id: "884798" },
+    { en: "Epidermis",     zh: "表皮",     ref: th("884799"), opentheso_id: "884799" },
+    { en: "Coarse grain",  zh: "粗颗粒纸", ref: th("884808"), opentheso_id: "884808" },
+    { en: "Fine grain",    zh: "细颗粒纸", ref: th("884809"), opentheso_id: "884809" },
+    { en: "Off-white",     zh: "米白纸",   ref: th("884867"), opentheso_id: "884867" },
+    { en: "Laid (zhiwen)", zh: "直纹 (纸)", ref: th("884876"), opentheso_id: "884876" },
+    { en: "Tear",          zh: "撕",       ref: th("884847"), opentheso_id: "884847" }
+  ];
+
+  // Concordance with original object (802957 branch)
+  V.CONCORDANCE_LEVELS = [
+    { en: "High",   zh: "高度一致", ref: th("802958"), opentheso_id: "802958",
+      definition: "All characters present in the inscription are visible on the rubbing." },
+    { en: "Medium", zh: "中度一致", ref: th("802959"), opentheso_id: "802959",
+      definition: "Some of the characters present in the inscription are visible on the rubbing." },
+    { en: "Low",    zh: "低度一致", ref: th("802960"), opentheso_id: "802960",
+      definition: "Most of the characters present in the inscription are not visible on the rubbing." }
+  ];
+
+  // Contact / no-contact techniques (884814 + 884815 branches under 884376)
+  V.CONTACT_TECHNIQUES = [
+    // contact with original
+    { en: "Full-form rubbing",                   zh: "",       contact: true,  ref: th("884377"), opentheso_id: "884377" },
+    { en: "Direct rubbing from original (chuītā)", zh: "传拓",  contact: true,  ref: th("884379"), opentheso_id: "884379" },
+    { en: "Selective rubbing (yǐngtā)",          zh: "颖拓",   contact: true,  ref: th("884380"), opentheso_id: "884380" },
+    { en: "Composite rubbings (quánxíngtā)",     zh: "全形拓", contact: true,  ref: th("884802"), opentheso_id: "884802" },
+    { en: "Rubbings of stone and metal (jīnshítāběn)", zh: "金石拓本", contact: true, ref: th("884803"), opentheso_id: "884803" },
+    { en: "Red rubbings (shūdān)",               zh: "書丹",   contact: true,  ref: th("884804"), opentheso_id: "884804" },
+    // no contact with original
+    { en: "Rubbing by copy (xiǎngtā)",           zh: "响拓",   contact: false, ref: th("884378"), opentheso_id: "884378" },
+    { en: "Shrunk edition (suōběn)",              zh: "縮本",   contact: false, ref: th("884382"), opentheso_id: "884382" },
+    { en: "Elongating / shortening strokes",      zh: "划伸缩", contact: false, ref: th("884796"), opentheso_id: "884796" },
+    { en: "Rubbing from the hand of (shǒutā)",   zh: "手拓",   contact: false, ref: th("884800"), opentheso_id: "884800" },
+    { en: "Rubbings from recuts (tiě)",           zh: "帖",     contact: false, ref: th("884805"), opentheso_id: "884805" },
+    { en: "Pseudo-rubbing (jiǎxìngtā)",          zh: "假性拓", contact: false, ref: th("884871"), opentheso_id: "884871" }
+  ];
+
+  // Type of the rubbed object (884816 branch)
+  V.RUBBED_OBJECT_TYPES = [
+    { en: "Pictorial rubbing",                    zh: "",       ref: th("884793"), opentheso_id: "884793" },
+    { en: "Commemorative / collective rubbings",  zh: "纪念拓", ref: th("884801"), opentheso_id: "884801" }
+  ];
+
+  // Other copying techniques (884817 branch)
+  V.OTHER_COPY_TECHNIQUES = [
+    { en: "Collotype",                               zh: "",         ref: th("802955"), opentheso_id: "802955" },
+    { en: "Photolithography",                        zh: "",         ref: th("802956"), opentheso_id: "802956" },
+    { en: "Hand-copying with brush (lín)",           zh: "臨",       ref: th("884783"), opentheso_id: "884783" },
+    { en: "Written and engraved after model (mólè)", zh: "摹勒",     ref: th("884794"), opentheso_id: "884794" },
+    { en: "Duplicate (fùjiàn)",                     zh: "複件",     ref: th("884851"), opentheso_id: "884851" },
+    { en: "Paper squeeze",                           zh: "",         ref: th("884865"), opentheso_id: "884865" },
+    { en: "Stencil",                                 zh: "墨版印刷图案", ref: th("884869"), opentheso_id: "884869" },
+    { en: "Pouncing (línmó)",                       zh: "临摹",     ref: th("884870"), opentheso_id: "884870" },
+    { en: "Tracing copy (shuānggōu tiānmò)",        zh: "雙鈎填墨", ref: th("884875"), opentheso_id: "884875" }
+  ];
+
+  // Agent roles (884822 branch under 884821)
+  V.AGENT_ROLES = [
+    { en: "Rubbing master (tāpiānshī)",   zh: "拓片師", ref: th("884830"), opentheso_id: "884830" },
+    { en: "Rubbing artisan (tāgōng)",     zh: "拓工",   ref: th("884831"), opentheso_id: "884831" },
+    { en: "Engraver of original stone",   zh: "",       ref: th("884832"), opentheso_id: "884832" },
+    { en: "Collector",                    zh: "",       ref: th("884837"), opentheso_id: "884837" },
+    { en: "Sponsor",                      zh: "资助人", ref: th("884834"), opentheso_id: "884834" },
+    { en: "Counterfeiter",                zh: "",       ref: th("884835"), opentheso_id: "884835" },
+    { en: "Merchant",                     zh: "",       ref: th("884836"), opentheso_id: "884836" },
+    { en: "Scholar-artisan",              zh: "",       ref: th("884849"), opentheso_id: "884849" },
+    { en: "Calligrapher",                 zh: "书法家", ref: th("884850"), opentheso_id: "884850" },
+    { en: "Epigrapher-monk (jīnshísēng)", zh: "金石僧", ref: th("884853"), opentheso_id: "884853" }
+  ];
+
   if (typeof module === "object" && module.exports) module.exports = V;
   else root.VOCAB = V;
 })(typeof self !== "undefined" ? self : this);
