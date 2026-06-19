@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Sign in</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="login-page">
+
+    <main class="login-main">
+      <div class="login-card">
+        <h1 class="login-title"><a href="index.html">Epiwen</a></h1>
+
+        <!-- Login form (shown when password is already configured) -->
+        <form id="login-form" class="login-form" style="display:none" autocomplete="on">
+          <p class="login-mode-label">Sign in</p>
+          <label class="field-label" for="login-pass">Password</label>
+          <input id="login-pass" type="password" class="text-input"
+                 autocomplete="current-password" />
+          <p id="login-error" class="login-error" aria-live="polite"></p>
+          <button type="submit" class="btn primary btn-wide">Sign in</button>
+          <p class="login-change">
+            <a href="#" id="show-change">Change password</a>
+          </p>
+        </form>
+
+        <!-- Setup form (shown on first run — no hash in localStorage yet) -->
+        <form id="setup-form" class="login-form" style="display:none" autocomplete="off">
+          <p class="login-mode-label">Set a password for this site</p>
+          <label class="field-label" for="setup-pass">New password</label>
+          <input id="setup-pass" type="password" class="text-input"
+                 autocomplete="new-password" />
+          <label class="field-label" for="setup-confirm">Confirm password</label>
+          <input id="setup-confirm" type="password" class="text-input"
+                 autocomplete="new-password" />
+          <p id="setup-error" class="login-error" aria-live="polite"></p>
+          <button type="submit" class="btn primary btn-wide">Set password</button>
+          <p class="login-note">
+            The password hash is stored in this browser only and never transmitted.
+          </p>
+        </form>
+
+        <!-- Change-password form -->
+        <form id="change-form" class="login-form" style="display:none" autocomplete="off">
+          <p class="login-mode-label">Change password</p>
+          <label class="field-label" for="change-current">Current password</label>
+          <input id="change-current" type="password" class="text-input"
+                 autocomplete="current-password" />
+          <label class="field-label" for="change-new">New password</label>
+          <input id="change-new" type="password" class="text-input"
+                 autocomplete="new-password" />
+          <label class="field-label" for="change-confirm">Confirm new password</label>
+          <input id="change-confirm" type="password" class="text-input"
+                 autocomplete="new-password" />
+          <p id="change-error" class="login-error" aria-live="polite"></p>
+          <div class="login-btn-row">
+            <button type="submit" class="btn primary">Update</button>
+            <button type="button" class="btn" id="change-cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script>
+      (function () {
+        var HASH_KEY = "epiwen_pass_hash";
+        var AUTH_KEY = "epiwen_authed";
+
+        var params    = new URLSearchParams(window.location.search);
+        var returnUrl = params.get("r") || "catalog.html";
+        var stored    = localStorage.getItem(HASH_KEY);
+
+        // Already authenticated — skip login
+        if (stored && sessionStorage.getItem(AUTH_KEY) === stored) {
+          window.location.href = returnUrl;
+          return;
+        }
+
+        // SHA-256 via Web Crypto
+        function sha256(str) {
+          return crypto.subtle.digest(
+            "SHA-256",
+            new TextEncoder().encode(str)
+          ).then(function (buf) {
+            return Array.from(new Uint8Array(buf))
+              .map(function (b) { return b.toString(16).padStart(2, "0"); })
+              .join("");
+          });
+        }
+
+        function authenticate(hash) {
+          sessionStorage.setItem(AUTH_KEY, hash);
+          window.location.href = returnUrl;
+        }
+
+        /* ---- Login mode ---- */
+        if (stored) {
+          var lf = document.getElementById("login-form");
+          lf.style.display = "";
+          document.getElementById("login-pass").focus();
+
+          lf.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var err = document.getElementById("login-error");
+            sha256(document.getElementById("login-pass").value).then(function (hash) {
+              if (hash !== stored) { err.textContent = "Incorrect password."; return; }
+              err.textContent = "";
+              authenticate(hash);
+            });
+          });
+
+          /* Change-password link */
+          document.getElementById("show-change").addEventListener("click", function (e) {
+            e.preventDefault();
+            lf.style.display = "none";
+            document.getElementById("change-form").style.display = "";
+            document.getElementById("change-current").focus();
+          });
+
+          document.getElementById("change-cancel").addEventListener("click", function () {
+            document.getElementById("change-form").style.display = "none";
+            lf.style.display = "";
+          });
+
+          document.getElementById("change-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            var err  = document.getElementById("change-error");
+            var cur  = document.getElementById("change-current").value;
+            var nw   = document.getElementById("change-new").value;
+            var conf = document.getElementById("change-confirm").value;
+            if (!nw)         { err.textContent = "New password cannot be empty."; return; }
+            if (nw !== conf) { err.textContent = "New passwords do not match."; return; }
+            sha256(cur).then(function (curHash) {
+              if (curHash !== stored) { err.textContent = "Current password is incorrect."; return; }
+              sha256(nw).then(function (newHash) {
+                localStorage.setItem(HASH_KEY, newHash);
+                err.textContent = "";
+                authenticate(newHash);
+              });
+            });
+          });
+
+        } else {
+          /* ---- Setup mode (first run) ---- */
+          var sf = document.getElementById("setup-form");
+          sf.style.display = "";
+          document.getElementById("setup-pass").focus();
+
+          sf.addEventListener("submit", function (e) {
+            e.preventDefault();
+            var err  = document.getElementById("setup-error");
+            var pass = document.getElementById("setup-pass").value;
+            var conf = document.getElementById("setup-confirm").value;
+            if (!pass)         { err.textContent = "Password cannot be empty."; return; }
+            if (pass !== conf) { err.textContent = "Passwords do not match."; return; }
+            sha256(pass).then(function (hash) {
+              localStorage.setItem(HASH_KEY, hash);
+              err.textContent = "";
+              authenticate(hash);
+            });
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

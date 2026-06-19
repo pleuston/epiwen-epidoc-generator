@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epiwen · Documentation</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
   </head>
   <body>
     <header class="topbar">
@@ -16,6 +17,7 @@
         <a href="editor.html" class="sitenav-link">Editor</a>
         <a href="docs.html"   class="sitenav-link active">Docs</a>
         <button data-workflow-modal class="btn small">? How to</button>
+        <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
       </nav>
     </header>
 
