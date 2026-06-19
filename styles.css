@@ -439,6 +439,20 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
   accent-color: var(--accent); width: 0.9rem; height: 0.9rem; cursor: pointer;
 }
 
+/* ---- catalog tabs ---- */
+.catalog-tabs {
+  display: flex; border-bottom: 1px solid var(--line); margin: 0.3rem 0 0.5rem;
+}
+.cat-tab {
+  border: 0; border-bottom: 2px solid transparent; background: transparent;
+  padding: 0.35rem 0.75rem; margin-bottom: -1px;
+  font-size: 0.82rem; font-family: inherit; cursor: pointer;
+  color: var(--muted);
+}
+.cat-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+.cat-tab:hover:not(.active) { color: var(--ink); }
+.catalog-part-ref { font-size: 0.78rem; color: var(--muted); margin-left: 0.4rem; }
+
 /* ---- login / password-gate page ---- */
 .login-page {
   justify-content: center; align-items: center; min-height: 100vh;

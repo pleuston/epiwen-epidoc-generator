@@ -1,6 +1,5 @@
 /* catalog.js — loads records from GitHub and renders the searchable catalog.
- * Provides: HTML preview card, XML view toggle, "Edit" button that loads a
- * record into editor.html via sessionStorage. */
+ * Three tabs: Objects (physical carriers), Inscriptions (per-text), Rubbings. */
 (function () {
   "use strict";
 
@@ -10,9 +9,10 @@
   var API    = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/records";
   var RAW    = "https://raw.githubusercontent.com/" + OWNER + "/" + REPO + "/" + BRANCH + "/records/";
 
-  var allRecords  = [];
-  var currentXml  = "";
+  var allRecords   = [];
+  var currentXml   = "";
   var selectedItem = null;
+  var currentTab   = "objects";
 
   // ---- fetch helpers -------------------------------------------------------
   function ghFetch(url) {
@@ -65,8 +65,23 @@
   function parseRecord(name, xmlText) {
     var doc = new DOMParser().parseFromString(xmlText, "application/xml");
     if (doc.getElementsByTagName("parsererror").length) {
-      return { name: name, titleEn: name, titleZh: "", when: "", dateText: "", parts: [], rawXml: xmlText };
+      return { name: name, recordType: "object", surrogateOf: "",
+               titleEn: name, titleZh: "", when: "", dateText: "", parts: [], rawXml: xmlText };
     }
+
+    // Record type (object vs rubbing)
+    var msDescEl   = doc.getElementsByTagNameNS(NS, "msDesc")[0];
+    var msDescType = msDescEl ? (msDescEl.getAttribute("type") || "") : "";
+    var recordType = msDescType === "rubbing" ? "rubbing" : "object";
+
+    // For rubbings: what inscription does this reproduce?
+    var relItemEls  = qns(doc, "relatedItem");
+    var surrogateEl = relItemEls.find(function (el) {
+      return el.getAttribute("type") === "surrogateOf";
+    });
+    var surrogateOf = surrogateEl
+      ? (surrogateEl.getAttribute("target") || txt(surrogateEl))
+      : "";
 
     // Identity
     var stmtTitles = qns(doc, "title").filter(function (t) {
@@ -90,17 +105,17 @@
     var summary = txt(first(doc, "summary"));
 
     // Physical
-    var materialEl   = first(doc, "material");
-    var material     = txt(materialEl);
-    var materialRef  = materialEl ? materialEl.getAttribute("ref") || "" : "";
-    var objectTypeEl = first(doc, "objectType");
-    var objectType   = txt(objectTypeEl);
+    var materialEl    = first(doc, "material");
+    var material      = txt(materialEl);
+    var materialRef   = materialEl ? materialEl.getAttribute("ref") || "" : "";
+    var objectTypeEl  = first(doc, "objectType");
+    var objectType    = txt(objectTypeEl);
     var objectTypeRef = objectTypeEl ? objectTypeEl.getAttribute("ref") || "" : "";
     var height    = txt(first(doc, "height"));
     var width     = txt(first(doc, "width"));
     var depth     = txt(first(doc, "depth"));
     var condition = txt(first(doc, "condition"));
-    var layoutEl     = first(doc, "layout");
+    var layoutEl      = first(doc, "layout");
     var layoutColumns = layoutEl ? layoutEl.getAttribute("columns") || "" : "";
     var layoutLines   = layoutEl ? layoutEl.getAttribute("writtenLines") || "" : "";
     var layoutNote    = txt(layoutEl);
@@ -109,13 +124,13 @@
     var scriptRef  = handNoteEl ? handNoteEl.getAttribute("script") || "" : "";
 
     // Date
-    var origDateEl  = first(doc, "origDate");
-    var when        = origDateEl ? origDateEl.getAttribute("when") || origDateEl.getAttribute("notBefore") || "" : "";
-    var notBefore   = origDateEl ? origDateEl.getAttribute("notBefore") || "" : "";
-    var notAfter    = origDateEl ? origDateEl.getAttribute("notAfter") || "" : "";
-    var calendar    = origDateEl ? origDateEl.getAttribute("calendar") || "" : "";
+    var origDateEl   = first(doc, "origDate");
+    var when         = origDateEl ? origDateEl.getAttribute("when") || origDateEl.getAttribute("notBefore") || "" : "";
+    var notBefore    = origDateEl ? origDateEl.getAttribute("notBefore") || "" : "";
+    var notAfter     = origDateEl ? origDateEl.getAttribute("notAfter") || "" : "";
+    var calendar     = origDateEl ? origDateEl.getAttribute("calendar") || "" : "";
     var datingMethod = origDateEl ? origDateEl.getAttribute("datingMethod") || "" : "";
-    var dateText    = txt(origDateEl);
+    var dateText     = txt(origDateEl);
 
     // Place
     var origPlaceEl  = first(doc, "origPlace");
@@ -128,19 +143,19 @@
     });
 
     // Publication
-    var authority    = txt(first(doc, "authority"));
-    var licenceEl    = first(doc, "licence");
-    var licence      = txt(licenceEl);
+    var authority     = txt(first(doc, "authority"));
+    var licenceEl     = first(doc, "licence");
+    var licence       = txt(licenceEl);
     var licenceTarget = licenceEl ? licenceEl.getAttribute("target") || "" : "";
-    var changeEl     = first(doc, "change");
-    var changeWhen   = changeEl ? changeEl.getAttribute("when") || "" : "";
-    var changeWho    = changeEl ? changeEl.getAttribute("who") || "" : "";
-    var changeNote   = txt(changeEl);
+    var changeEl      = first(doc, "change");
+    var changeWhen    = changeEl ? changeEl.getAttribute("when") || "" : "";
+    var changeWho     = changeEl ? changeEl.getAttribute("who") || "" : "";
+    var changeNote    = txt(changeEl);
 
     // Textparts
-    var allDivs  = qns(doc, "div");
-    var msItems  = qns(doc, "msItem");
-    var parts    = [];
+    var allDivs = qns(doc, "div");
+    var msItems = qns(doc, "msItem");
+    var parts   = [];
 
     allDivs.forEach(function (div) {
       if (div.getAttribute("type") !== "textpart") return;
@@ -158,9 +173,9 @@
       var cbeta      = titleRef.indexOf("cbeta:")  === 0 ? titleRef.slice(6)  : "";
       var taisho     = titleRef.indexOf("taisho:") === 0 ? titleRef.slice(7)  : "";
 
-      var abEl         = first(div, "ab");
-      var editionText  = extractAbText(abEl);
-      var transDiv     = allDivs.find(function (d) {
+      var abEl            = first(div, "ab");
+      var editionText     = extractAbText(abEl);
+      var transDiv        = allDivs.find(function (d) {
         return d.getAttribute("type") === "translation" && d.getAttribute("n") === n;
       }) || null;
       var translationText = extractTranslation(transDiv);
@@ -172,25 +187,26 @@
 
     // Single-text fallback (no textpart divs)
     if (!parts.length && msItems.length) {
-      var itemTitles = qns(msItems[0], "title");
-      var sutra   = txt(itemTitles.find(function (t) { return t.getAttribute("xml:lang") === "zh-Hant"; }) || itemTitles[0] || null);
-      var sutraEn = txt(itemTitles.find(function (t) { return t.getAttribute("xml:lang") === "en"; }) || null);
-      var refTitle  = itemTitles.find(function (t) { return t.getAttribute("ref"); });
-      var titleRef  = refTitle ? refTitle.getAttribute("ref") || "" : "";
-      var cbeta   = titleRef.indexOf("cbeta:")  === 0 ? titleRef.slice(6)  : "";
-      var taisho  = titleRef.indexOf("taisho:") === 0 ? titleRef.slice(7)  : "";
-      var locus   = txt(first(msItems[0], "locus"));
-      var editionDiv = allDivs.find(function (d) { return d.getAttribute("type") === "edition"; });
-      var editionText = extractAbText(editionDiv ? first(editionDiv, "ab") : null);
-      var transDiv    = allDivs.find(function (d) { return d.getAttribute("type") === "translation"; });
-      var translationText = extractTranslation(transDiv);
-      parts.push({ n: "1", subtype: "", head: locus, lang: langs[0] ? langs[0].ident : "",
-                   sutra: sutra, sutraEn: sutraEn, cbeta: cbeta, taisho: taisho,
-                   editionText: editionText, translationText: translationText });
+      var itemTitles2 = qns(msItems[0], "title");
+      var sutra2   = txt(itemTitles2.find(function (t) { return t.getAttribute("xml:lang") === "zh-Hant"; }) || itemTitles2[0] || null);
+      var sutraEn2 = txt(itemTitles2.find(function (t) { return t.getAttribute("xml:lang") === "en"; }) || null);
+      var refTitle2   = itemTitles2.find(function (t) { return t.getAttribute("ref"); });
+      var titleRef2   = refTitle2 ? refTitle2.getAttribute("ref") || "" : "";
+      var cbeta2   = titleRef2.indexOf("cbeta:")  === 0 ? titleRef2.slice(6)  : "";
+      var taisho2  = titleRef2.indexOf("taisho:") === 0 ? titleRef2.slice(7)  : "";
+      var locus2   = txt(first(msItems[0], "locus"));
+      var editionDiv  = allDivs.find(function (d) { return d.getAttribute("type") === "edition"; });
+      var editionText2 = extractAbText(editionDiv ? first(editionDiv, "ab") : null);
+      var transDiv2   = allDivs.find(function (d) { return d.getAttribute("type") === "translation"; });
+      var translationText2 = extractTranslation(transDiv2);
+      parts.push({ n: "1", subtype: "", head: locus2, lang: langs[0] ? langs[0].ident : "",
+                   sutra: sutra2, sutraEn: sutraEn2, cbeta: cbeta2, taisho: taisho2,
+                   editionText: editionText2, translationText: translationText2 });
     }
 
     return {
-      name: name, editor: editor, titleEn: titleEn, titleZh: titleZh,
+      name: name, recordType: recordType, surrogateOf: surrogateOf,
+      editor: editor, titleEn: titleEn, titleZh: titleZh,
       country: country, countryRef: countryRef, region: region, settlement: settlement,
       repository: repository, inventoryNo: inventoryNo, summary: summary,
       material: material, materialRef: materialRef,
@@ -238,6 +254,11 @@
       row("Editor", rec.editor),
       row("Summary", rec.summary),
     ]);
+
+    if (rec.recordType === "rubbing" && rec.surrogateOf) {
+      html += sec("Rubbing of", [ row("Inscription", rec.surrogateOf) ]);
+    }
+
     html += sec("Holding", [
       row("Country", rec.country),
       row("Region", rec.region),
@@ -309,45 +330,45 @@
   // ---- convert rec → editor state -----------------------------------------
   function recToState(rec) {
     return {
-      filename:        rec.name || "",
-      titleEn:         rec.titleEn || "",
-      titleZh:         rec.titleZh || "",
-      editor:          rec.editor || "",
-      country:         rec.country || "",
-      currentRegion:   rec.region || "",
+      filename:          rec.name || "",
+      titleEn:           rec.titleEn || "",
+      titleZh:           rec.titleZh || "",
+      editor:            rec.editor || "",
+      country:           rec.country || "",
+      currentRegion:     rec.region || "",
       currentSettlement: rec.settlement || "",
-      repository:      rec.repository || "",
-      inventoryNo:     rec.inventoryNo || "",
-      summary:         rec.summary || "",
-      material:        rec.material || "",
-      materialRef:     rec.materialRef || "",
-      objectType:      rec.objectType || "",
-      objectTypeRef:   rec.objectTypeRef || "",
-      heightCm:        rec.height || "",
-      widthCm:         rec.width || "",
-      depthCm:         rec.depth || "",
-      condition:       rec.condition || "",
-      layoutColumns:   rec.layoutColumns || "",
-      layoutLines:     rec.layoutLines || "",
-      layoutNote:      rec.layoutNote || "",
-      script:          rec.script || "",
-      scriptRef:       rec.scriptRef || "",
-      origDateText:    rec.dateText || "",
-      whenISO:         rec.when || "",
-      notBefore:       rec.notBefore || "",
-      notAfter:        rec.notAfter || "",
-      calendar:        rec.calendar || "",
-      datingMethod:    rec.datingMethod || "",
-      origPlace:       rec.origPlace || "",
-      origPlaceRef:    rec.origPlaceRef || "",
-      langIdent:       (rec.langs && rec.langs[0]) ? rec.langs[0].ident : "zh",
-      langLabel:       (rec.langs && rec.langs[0]) ? rec.langs[0].label : "Literary Chinese 漢文",
-      authority:       rec.authority || "Epiwen / Altergraphy",
-      licence:         rec.licence || "",
-      licenceTarget:   rec.licenceTarget || "",
-      changeWhen:      rec.changeWhen || "",
-      changeWho:       rec.changeWho || "",
-      changeNote:      rec.changeNote || "",
+      repository:        rec.repository || "",
+      inventoryNo:       rec.inventoryNo || "",
+      summary:           rec.summary || "",
+      material:          rec.material || "",
+      materialRef:       rec.materialRef || "",
+      objectType:        rec.objectType || "",
+      objectTypeRef:     rec.objectTypeRef || "",
+      heightCm:          rec.height || "",
+      widthCm:           rec.width || "",
+      depthCm:           rec.depth || "",
+      condition:         rec.condition || "",
+      layoutColumns:     rec.layoutColumns || "",
+      layoutLines:       rec.layoutLines || "",
+      layoutNote:        rec.layoutNote || "",
+      script:            rec.script || "",
+      scriptRef:         rec.scriptRef || "",
+      origDateText:      rec.dateText || "",
+      whenISO:           rec.when || "",
+      notBefore:         rec.notBefore || "",
+      notAfter:          rec.notAfter || "",
+      calendar:          rec.calendar || "",
+      datingMethod:      rec.datingMethod || "",
+      origPlace:         rec.origPlace || "",
+      origPlaceRef:      rec.origPlaceRef || "",
+      langIdent:         (rec.langs && rec.langs[0]) ? rec.langs[0].ident : "zh",
+      langLabel:         (rec.langs && rec.langs[0]) ? rec.langs[0].label : "Literary Chinese 漢文",
+      authority:         rec.authority || "Epiwen",
+      licence:           rec.licence || "",
+      licenceTarget:     rec.licenceTarget || "",
+      changeWhen:        rec.changeWhen || "",
+      changeWho:         rec.changeWho || "",
+      changeNote:        rec.changeNote || "",
       texts: rec.parts.length
         ? rec.parts.map(function (p) {
             return {
@@ -371,18 +392,56 @@
     window.location.href = "editor.html";
   }
 
-  // ---- render catalog ------------------------------------------------------
-  function renderCatalog(records) {
-    var list = document.getElementById("catalog-list");
-    if (!records.length) {
-      list.innerHTML = '<div class="catalog-empty">' +
-        'No records yet. <a href="editor.html">Add the first inscription →</a></div>';
-      return;
-    }
-    list.innerHTML = "";
-    records.forEach(function (rec) { list.appendChild(buildItem(rec)); });
+  // ---- preview pane --------------------------------------------------------
+  function clearPreview() {
+    if (selectedItem) selectedItem.classList.remove("selected");
+    selectedItem = null;
+    document.getElementById("preview-title").textContent = "Select a record to preview";
+    document.getElementById("preview-copy").style.display = "none";
+    document.getElementById("cat-view-toggle").style.display = "none";
+    document.getElementById("cat-html-view").innerHTML = "";
+    document.getElementById("cat-html-view").style.display = "none";
+    document.getElementById("cat-xml-view").style.display = "none";
+    document.getElementById("preview-out").textContent = "";
   }
 
+  function showPreview(rec, item) {
+    if (selectedItem) selectedItem.classList.remove("selected");
+    selectedItem = item;
+    if (item) item.classList.add("selected");
+
+    document.getElementById("preview-title").textContent = rec.name;
+    document.getElementById("preview-copy").style.display = "";
+    document.getElementById("cat-view-toggle").style.display = "";
+
+    document.getElementById("cat-html-view").innerHTML = buildHtmlPreview(rec);
+    document.getElementById("preview-out").textContent = rec.rawXml || "";
+    currentXml = rec.rawXml || "";
+
+    setCatView("html");
+  }
+
+  function setCatView(mode) {
+    var htmlPane = document.getElementById("cat-html-view");
+    var xmlPane  = document.getElementById("cat-xml-view");
+    htmlPane.style.display = mode === "html" ? "" : "none";
+    xmlPane.style.display  = mode === "xml"  ? "" : "none";
+    Array.prototype.forEach.call(document.querySelectorAll(".cat-view-btn"), function (b) {
+      b.classList.toggle("active", b.dataset.view === mode);
+    });
+  }
+
+  // ---- clipboard -----------------------------------------------------------
+  function flashCopy(xml, btn) {
+    if (!navigator.clipboard || !xml) return;
+    navigator.clipboard.writeText(xml).then(function () {
+      var prev = btn.textContent;
+      btn.textContent = "Copied!";
+      setTimeout(function () { btn.textContent = prev; }, 1800);
+    });
+  }
+
+  // ---- build catalog items -------------------------------------------------
   function buildItem(rec) {
     var item = document.createElement("div");
     item.className = "catalog-item";
@@ -391,7 +450,6 @@
       .join(" ").toLowerCase();
     item.dataset.idx = idx;
 
-    // monument row
     var monument = document.createElement("div");
     monument.className = "catalog-monument";
 
@@ -456,41 +514,167 @@
     return item;
   }
 
-  // ---- preview pane --------------------------------------------------------
-  function showPreview(rec, item) {
-    if (selectedItem) selectedItem.classList.remove("selected");
-    selectedItem = item;
-    if (item) item.classList.add("selected");
+  function buildInscriptionItem(rec, part, pIdx) {
+    var item = document.createElement("div");
+    item.className = "catalog-item";
 
-    document.getElementById("preview-title").textContent = rec.name;
-    document.getElementById("preview-copy").style.display = "";
-    document.getElementById("cat-view-toggle").style.display = "";
+    var label = part.head || part.subtype || ("Text " + part.n);
+    item.dataset.idx = [label, part.sutra, part.sutraEn, rec.name, rec.titleEn, rec.titleZh]
+      .join(" ").toLowerCase();
 
-    document.getElementById("cat-html-view").innerHTML = buildHtmlPreview(rec);
-    document.getElementById("preview-out").textContent = rec.rawXml || "";
-    currentXml = rec.rawXml || "";
+    var row = document.createElement("div");
+    row.className = "catalog-monument";
 
-    setCatView("html");
+    var info = document.createElement("div");
+    info.className = "catalog-info";
+
+    var titleHtml = "";
+    if (part.sutra || part.sutraEn) {
+      titleHtml = '<div class="catalog-title">' +
+        (part.sutra   ? '<span class="catalog-title-zh">' + esc(part.sutra)   + '</span>' : '') +
+        (part.sutraEn ? '<span class="catalog-title-en">' + esc(part.sutraEn) + '</span>' : '') +
+        '</div>';
+    }
+
+    info.innerHTML =
+      titleHtml +
+      '<span class="catalog-date">' + esc(label) +
+      ' · inscribed on <code class="catalog-filename">' + esc(rec.name) + '</code>' +
+      (rec.dateText ? ' · ' + esc(rec.dateText) : '') +
+      '</span>';
+
+    var actions = document.createElement("div");
+    actions.className = "catalog-actions";
+
+    var previewBtn = document.createElement("button");
+    previewBtn.type = "button"; previewBtn.className = "btn small";
+    previewBtn.textContent = "Preview";
+    previewBtn.addEventListener("click", function () { showPreview(rec, item); });
+
+    actions.appendChild(previewBtn);
+    row.appendChild(info);
+    row.appendChild(actions);
+    item.appendChild(row);
+    return item;
   }
 
-  function setCatView(mode) {
-    var htmlPane = document.getElementById("cat-html-view");
-    var xmlPane  = document.getElementById("cat-xml-view");
-    htmlPane.style.display = mode === "html" ? "" : "none";
-    xmlPane.style.display  = mode === "xml"  ? "" : "none";
-    Array.prototype.forEach.call(document.querySelectorAll(".cat-view-btn"), function (b) {
-      b.classList.toggle("active", b.dataset.view === mode);
+  function buildRubbingItem(rec) {
+    var item = document.createElement("div");
+    item.className = "catalog-item";
+    item.dataset.idx = [rec.name, rec.titleEn, rec.titleZh, rec.surrogateOf, rec.dateText]
+      .join(" ").toLowerCase();
+
+    var row = document.createElement("div");
+    row.className = "catalog-monument";
+
+    var info = document.createElement("div");
+    info.className = "catalog-info";
+
+    var refText = rec.surrogateOf
+      ? 'rubbing of <code class="catalog-filename">' + esc(rec.surrogateOf) + '</code>'
+      : "";
+    var dateClause = rec.dateText ? esc(rec.dateText) : "";
+
+    info.innerHTML =
+      '<code class="catalog-filename">' + esc(rec.name) + '</code>' +
+      (rec.titleEn || rec.titleZh
+        ? '<div class="catalog-title">' +
+          (rec.titleEn ? '<span class="catalog-title-en">' + esc(rec.titleEn) + '</span>' : '') +
+          (rec.titleZh ? '<span class="catalog-title-zh">' + esc(rec.titleZh) + '</span>' : '') +
+          '</div>'
+        : '') +
+      ((refText || dateClause)
+        ? '<span class="catalog-date">' +
+          [refText, dateClause].filter(Boolean).join(' · ') +
+          '</span>'
+        : '');
+
+    var actions = document.createElement("div");
+    actions.className = "catalog-actions";
+
+    var previewBtn = document.createElement("button");
+    previewBtn.type = "button"; previewBtn.className = "btn small";
+    previewBtn.textContent = "Preview";
+    previewBtn.addEventListener("click", function () { showPreview(rec, item); });
+
+    var copyBtn = document.createElement("button");
+    copyBtn.type = "button"; copyBtn.className = "btn small";
+    copyBtn.textContent = "Copy XML";
+    copyBtn.addEventListener("click", function () { flashCopy(rec.rawXml, copyBtn); });
+
+    actions.appendChild(previewBtn);
+    actions.appendChild(copyBtn);
+    row.appendChild(info);
+    row.appendChild(actions);
+    item.appendChild(row);
+    return item;
+  }
+
+  // ---- render by tab -------------------------------------------------------
+  function renderByTab(tab) {
+    currentTab = tab;
+
+    // Update tab button states
+    Array.prototype.forEach.call(document.querySelectorAll(".cat-tab"), function (btn) {
+      btn.classList.toggle("active", btn.dataset.tab === tab);
+    });
+
+    // Reset search and preview when switching tabs
+    var searchEl = document.getElementById("catalog-search");
+    if (searchEl) searchEl.value = "";
+    clearPreview();
+
+    if (tab === "objects") {
+      renderObjectsCatalog(allRecords.filter(function (r) { return r.recordType !== "rubbing"; }));
+    } else if (tab === "inscriptions") {
+      renderInscriptionsCatalog();
+    } else if (tab === "rubbings") {
+      renderRubbingsCatalog(allRecords.filter(function (r) { return r.recordType === "rubbing"; }));
+    }
+  }
+
+  function renderObjectsCatalog(records) {
+    var list = document.getElementById("catalog-list");
+    if (!records.length) {
+      list.innerHTML = '<div class="catalog-empty">' +
+        'No records yet. <a href="editor.html">Add the first inscription →</a></div>';
+      return;
+    }
+    list.innerHTML = "";
+    records.forEach(function (rec) { list.appendChild(buildItem(rec)); });
+  }
+
+  function renderInscriptionsCatalog() {
+    var list = document.getElementById("catalog-list");
+    list.innerHTML = "";
+
+    var items = [];
+    allRecords
+      .filter(function (r) { return r.recordType !== "rubbing"; })
+      .forEach(function (rec) {
+        rec.parts.forEach(function (part, pIdx) {
+          items.push({ rec: rec, part: part, pIdx: pIdx });
+        });
+      });
+
+    if (!items.length) {
+      list.innerHTML = '<div class="catalog-empty">No inscriptions found.</div>';
+      return;
+    }
+    items.forEach(function (it) {
+      list.appendChild(buildInscriptionItem(it.rec, it.part, it.pIdx));
     });
   }
 
-  // ---- clipboard -----------------------------------------------------------
-  function flashCopy(xml, btn) {
-    if (!navigator.clipboard || !xml) return;
-    navigator.clipboard.writeText(xml).then(function () {
-      var prev = btn.textContent;
-      btn.textContent = "Copied!";
-      setTimeout(function () { btn.textContent = prev; }, 1800);
-    });
+  function renderRubbingsCatalog(records) {
+    var list = document.getElementById("catalog-list");
+    if (!records.length) {
+      list.innerHTML = '<div class="catalog-empty">' +
+        'No rubbing records yet. <a href="rubbing.html">Add the first rubbing →</a></div>';
+      return;
+    }
+    list.innerHTML = "";
+    records.forEach(function (rec) { list.appendChild(buildRubbingItem(rec)); });
   }
 
   // ---- search --------------------------------------------------------------
@@ -504,17 +688,27 @@
   // ---- init ----------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", function () {
 
-    // Preview pane header buttons
     document.getElementById("preview-copy").addEventListener("click", function () {
       flashCopy(currentXml, this);
     });
 
-    // View toggle
     Array.prototype.forEach.call(document.querySelectorAll(".cat-view-btn"), function (btn) {
       btn.addEventListener("click", function () { setCatView(btn.dataset.view); });
     });
 
-    // Search
+    Array.prototype.forEach.call(document.querySelectorAll(".cat-tab"), function (btn) {
+      btn.addEventListener("click", function () {
+        if (allRecords.length) {
+          renderByTab(btn.dataset.tab);
+        } else {
+          currentTab = btn.dataset.tab;
+          Array.prototype.forEach.call(document.querySelectorAll(".cat-tab"), function (b) {
+            b.classList.toggle("active", b.dataset.tab === btn.dataset.tab);
+          });
+        }
+      });
+    });
+
     document.getElementById("catalog-search").addEventListener("input", function () {
       filterCatalog(this.value);
     });
@@ -522,19 +716,19 @@
     // Load records from GitHub
     ghFetch(API)
       .then(function (files) {
-        if (!files) { renderCatalog([]); return; }
+        if (!files) { renderByTab(currentTab); return; }
 
         var xmlFiles = files
           .filter(function (f) { return /\.xml$/i.test(f.name); })
           .sort(function (a, b) { return a.name.localeCompare(b.name); });
 
-        if (!xmlFiles.length) { renderCatalog([]); return; }
+        if (!xmlFiles.length) { renderByTab(currentTab); return; }
 
         var records = [], remaining = xmlFiles.length;
         function done() {
           records.sort(function (a, b) { return a.name.localeCompare(b.name); });
           allRecords = records;
-          renderCatalog(records);
+          renderByTab(currentTab);
         }
         xmlFiles.forEach(function (f) {
           // Use locally-cached fresh XML if the user just saved this file from the editor;
