@@ -1,10 +1,10 @@
 /* map.js — site locations on Leaflet (vendored locally in leaflet/).
  *
- * Base layers (radio): streets / satellite / terrain / light.
- * Overlays (checkbox): the site markers + selectable historical borders
- * (500/600/700/800 CE), lazy-loaded from local GeoJSON in overlays/.
- * Reads data/site-index.json. Tiles + historical data are external sources,
- * credited in the attribution control.
+ * Base layers (radio): modern (Streets/Satellite/Terrain/Light) plus the
+ * georeferenced 譚其驤 中國歷史地圖集 (Historical Atlas of China) served as
+ * WMTS tiles by CCTS / Academia Sinica — Southern & Northern Dynasties (497),
+ * Sui (612), and Tang (741), the stone-sutra periods.
+ * Overlay (checkbox): the clustered site markers, shown on whichever base.
  */
 (function () {
   "use strict";
@@ -31,6 +31,16 @@
     setTimeout(function () { el.className = ""; }, isErr ? 6000 : 3000);
   }
 
+  // CCTS / Academia Sinica WMTS (GoogleMapsCompatible → standard z/x/y),
+  // RESTful ResourceURL template. One layer per period of the atlas.
+  var CCTS_ATTR = '譚其驤 <i>中國歷史地圖集</i> · <a href="https://gis.sinica.edu.tw/ccts/" target="_blank" rel="noopener">CCTS</a>, Academia Sinica';
+  function ccts(id) {
+    return L.tileLayer(
+      "https://gis.sinica.edu.tw/ccts/file-exists.php?img=" + id + "-png-{z}-{x}-{y}",
+      { maxNativeZoom: 10, maxZoom: 18, attribution: CCTS_ATTR }
+    );
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var mapEl = document.getElementById("map");
     function sizeMap() {
@@ -41,7 +51,7 @@
 
     var map = L.map(mapEl, { scrollWheelZoom: true }).setView([34, 104], 4);
 
-    // ── Base layers ──────────────────────────────────────────────────────────
+    // ── Modern base layers ─────────────────────────────────────────────────────
     var osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
@@ -60,50 +70,24 @@
 
     window.addEventListener("resize", function () { sizeMap(); map.invalidateSize(); });
 
+    // ── Historical base maps (Tan Qixiang / CCTS) ──────────────────────────────
+    var baseLayers = {
+      "Streets": osm,
+      "Satellite": sat,
+      "Terrain": topo,
+      "Light": light,
+      "Tang · 741 (Tan Qixiang)": ccts("ad0741"),
+      "Sui · 612 (Tan Qixiang)": ccts("ad0612"),
+      "S. &amp; N. Dynasties · 497 (Tan Qixiang)": ccts("ad0497")
+    };
+
     // ── Site markers (clustered) ──────────────────────────────────────────────
     var cluster = L.markerClusterGroup({
       maxClusterRadius: 45, showCoverageOnHover: false, spiderfyOnMaxZoom: true
     });
 
-    // ── Historical border overlays (lazy-loaded local GeoJSON) ────────────────
-    var HIST = [
-      { label: "Borders · 500 CE (N. Wei)", file: "overlays/borders_500.geojson", color: "#8e44ad" },
-      { label: "Borders · 600 CE (Sui)",    file: "overlays/borders_600.geojson", color: "#16846b" },
-      { label: "Borders · 700 CE (Tang)",   file: "overlays/borders_700.geojson", color: "#b9770e" },
-      { label: "Borders · 800 CE (Tang)",   file: "overlays/borders_800.geojson", color: "#1f6fb0" }
-    ];
-    var overlays = { "Sites": cluster };
-    HIST.forEach(function (h) {
-      h.layer = L.geoJSON(null, {
-        style: { color: h.color, weight: 1.5, opacity: 0.9, fillColor: h.color, fillOpacity: 0.06 },
-        onEachFeature: function (f, lyr) {
-          var nm = (f.properties && (f.properties.NAME || f.properties.ABBREVN)) || "";
-          if (nm) lyr.bindTooltip(esc(nm), { sticky: true });
-        }
-      });
-      h.loaded = false;
-      overlays[h.label] = h.layer;
-    });
+    L.control.layers(baseLayers, { "Sites": cluster }, { collapsed: true }).addTo(map);
 
-    // lazy-load a historical layer the first time it is switched on
-    map.on("overlayadd", function (e) {
-      var h = HIST.filter(function (x) { return x.layer === e.layer; })[0];
-      if (!h || h.loaded) return;
-      h.loaded = true;
-      fetch(h.file).then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (gj) { if (gj) h.layer.addData(gj); })
-        .catch(function () { h.loaded = false; toast("Could not load " + h.label, true); });
-    });
-
-    L.control.layers(
-      { "Streets": osm, "Satellite": sat, "Terrain": topo, "Light": light },
-      overlays, { collapsed: true }
-    ).addTo(map);
-    map.attributionControl.addAttribution(
-      'Historical borders: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>'
-    );
-
-    // ── Site data ──────────────────────────────────────────────────────────────
     fetch("data/site-index.json?v=" + Date.now())
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (recs) {
