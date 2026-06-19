@@ -173,6 +173,7 @@
     html += "<table class=\"docs-table\" style=\"margin-bottom:.8rem\">";
     html += "<tbody>";
     html += "<tr><th>Type</th><td>" + esc(rec.name_type || "personal") + "</td></tr>";
+    if (rec.date) html += "<tr><th>Dates</th><td>" + esc(rec.date) + "</td></tr>";
     html += idRow("Wikidata", rec.wikidata, EXT_LINKS.wikidata);
     html += idRow("VIAF",     rec.viaf,     EXT_LINKS.viaf);
     html += idRow("GND",      rec.gnd,      EXT_LINKS.gnd);
