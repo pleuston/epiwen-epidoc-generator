@@ -170,7 +170,6 @@
       row.insertBefore(car, row.firstChild || null);
       var lab = document.createElement("span");
       lab.innerHTML = "Section " + esc(sec) +
-        (secRec ? '<span class="tree-id">' + esc(volLabel(secRec.volume)) + "</span>" : "") +
         (secRec && secRec.has_description ? '<span class="badge-desc">desc</span>' : "");
       row.appendChild(lab);
       secWrap.appendChild(row);
