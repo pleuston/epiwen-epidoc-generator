@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader><fileDesc><titleStmt><title xml:lang="en">sns rubbing</title>
+<title xml:lang="zh-Hant">水牛山拓片</title></titleStmt>
+<publicationStmt><authority>Epiwen / Altergraphy</authority>
+<idno type="filename">SNS1rub</idno></publicationStmt>
+<sourceDesc><msDesc type="rubbing"><msIdentifier><country>France</country>
+<idno type="inventory"/></msIdentifier>
+<physDesc><objectDesc form="拓本 · Album"><supportDesc><support><objectType ref="https://opentheso.huma-num.fr/?idc=802596&amp;idt=th770">拓片 Rubbing</objectType>
+<p><term type="rubbingFormat" ref="https://opentheso.huma-num.fr/?idc=802939&amp;idt=th770">拓本 · Album</term></p>
+<material ref="https://opentheso.huma-num.fr/?idc=802965&amp;idt=th770">Washi paper</material></support></supportDesc></objectDesc></physDesc>
+<additional><listBibl><relatedItem type="surrogateOf"><bibl><ptr target="SNS_2"/></bibl></relatedItem></listBibl></additional></msDesc></sourceDesc></fileDesc></teiHeader>
+<text>
+<body>
+
+</body>
+</text>
+</TEI>
