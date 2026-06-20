@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="wissenschaftskolleg_zu_berlin">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>aliases: ["Wissenschaftskolleg zu Berlin", "Institute for Advanced Study Berlin", "Wiko Berlin"]</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q572271</identifier>
-</mads>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ZuerichStudies2006_07" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="en"><title>Zurich Studies in the History of Art. Georges Bloch Annual</title></titleInfo><titleInfo type="reference"><title>Zurich Studies 2006/07
-        </title></titleInfo><name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#zurich_arthistory" type="corporate"><namePart lang="en">University of Zurich, Institute of Art History</namePart><role><roleTerm>editor</roleTerm></role></name><originInfo><publisher><name type="corporate"><namePart lang="en">University of Zurich, Institute of Art History</namePart></name>
-            
-            University of Zurich, Institute of Art History</publisher><place><placeTerm>Zürich</placeTerm></place><dateIssued>2006-07</dateIssued></originInfo></mods>

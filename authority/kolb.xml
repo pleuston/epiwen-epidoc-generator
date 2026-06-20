@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="kolb">
-  <authority lang="en">
-    <name type="personal">
-      <namePart type="family">Kolb</namePart>
-      <namePart type="given">Frank</namePart>
-    </name>
-  </authority>
-</mads>

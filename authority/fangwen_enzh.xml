@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="fangwen_enzh" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="de" ns1:type="simple"><name type="personal"><namePart type="family">Fong</namePart><namePart type="given">Wen C.</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Fang</namePart><namePart type="given">Wen</namePart></name></variant><variant lang="zh" type="expansion"><name type="personal"><namePart type="family">方</namePart><namePart type="given">聞</namePart></name></variant>
-  <identifier type="viaf">112107950</identifier>
-</mads>

@@ -3,68 +3,299 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · EpiDoc for Chinese stone inscriptions</title>
+    <title>Epiwen · Research Platform</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
+    <style>
+      .landing-hero {
+        padding: 2.8rem 2.5rem 1.6rem;
+        max-width: 860px;
+      }
+      .landing-title {
+        font-size: 2rem; font-weight: 700; margin: 0 0 .5rem;
+        color: var(--text, #222); letter-spacing: -.01em;
+      }
+      .landing-sub {
+        font-size: .93rem; color: var(--text-muted, #555); line-height: 1.7;
+        max-width: 660px; margin: 0;
+      }
+      .concept-wrap { padding: .5rem 1.5rem 1.5rem; overflow-x: auto; }
+      .concept-svg { display: block; width: 100%; max-width: 980px; }
+      .node { cursor: pointer; }
+      .node rect { transition: filter .14s; }
+      .node:hover rect { filter: brightness(.88); }
+      .edge { stroke: #ddd; stroke-width: 1.5; fill: none; }
+      .edge.hi { stroke: #a0291b; stroke-width: 2; }
+      .elabel { font-size: 10px; fill: #ccc; font-family: sans-serif; font-style: italic; }
+      .ntitle { font-size: 12px; font-weight: 700; font-family: sans-serif; }
+      .nsub { font-size: 9.5px; font-family: sans-serif; }
+      /* Cards */
+      .cards-section { padding: 1.2rem 2rem 3rem; max-width: 1060px; }
+      .cards-head {
+        font-size: .68rem; text-transform: uppercase; letter-spacing: .06em;
+        font-weight: 700; color: var(--text-muted, #888); margin: 0 0 .9rem;
+      }
+      .cards-grid {
+        display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: .85rem;
+      }
+      .ecard {
+        display: block; text-decoration: none; color: inherit;
+        border: 1px solid var(--border, #e2e2e2); border-radius: 9px;
+        padding: .9rem 1.05rem; transition: border-color .14s, box-shadow .14s;
+      }
+      .ecard:hover { border-color: #a0291b; box-shadow: 0 2px 10px rgba(0,0,0,.09); }
+      .ecard-tag {
+        display: inline-block; font-size: .64rem; text-transform: uppercase;
+        letter-spacing: .05em; font-weight: 700; padding: .15rem .45rem;
+        border-radius: 4px; margin-bottom: .4rem;
+      }
+      .tag-geo  { background: #dff0e6; color: #2c5a3e; }
+      .tag-phys { background: #dde7f7; color: #1e3572; }
+      .tag-text { background: #fdf0d8; color: #6a3e0e; }
+      .tag-pro  { background: #ede6f7; color: #3e1e6a; }
+      .tag-bib  { background: #dff0e6; color: #1e4e2e; }
+      .ecard-title { font-weight: 700; font-size: .93rem; margin: 0 0 .3rem; }
+      .ecard-desc { font-size: .79rem; color: var(--text-muted, #666); line-height: 1.5; margin: 0; }
+      .ecard-count { margin-top: .4rem; font-size: .73rem; font-weight: 600; color: #a0291b; }
+    </style>
   </head>
-  <body class="landing-page">
-
+  <body>
     <header class="topbar">
-      <div class="brand">
-        <a href="catalog.html" class="brand-home">Epiwen</a>
-      </div>
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
       <nav class="sitenav">
-        <a href="map.html" class="sitenav-link">Map</a>
-        <a href="sites.html"                   class="sitenav-link">Sites</a>
-        <a href="catalog.html"                 class="sitenav-link" data-tab="objects">Objects</a>
-        <a href="catalog.html?tab=inscriptions" class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
-        <a href="catalog.html?tab=rubbings"    class="sitenav-link" data-tab="rubbings">Rubbings</a>
-        <a href="authorities.html"             class="sitenav-link">Authorities</a>
-        <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
-        <a href="docs.html"                    class="sitenav-link">Docs</a>
+        <a href="map.html"                      class="sitenav-link">Map</a>
+        <a href="sites.html"                    class="sitenav-link">Sites</a>
+        <a href="catalog.html"                  class="sitenav-link">Objects</a>
+        <a href="catalog.html?tab=inscriptions"  class="sitenav-link">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"     class="sitenav-link">Rubbings</a>
+        <a href="authorities.html"              class="sitenav-link">Authorities</a>
+        <a href="bibliography.html"             class="sitenav-link">Bibliography</a>
+        <a href="docs.html"                     class="sitenav-link">Docs</a>
       </nav>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
-    <main class="landing-main">
-      <p class="landing-intro">
-        A bilingual, client-side tool for producing valid
-        <a href="https://epidoc.stoa.org/" target="_blank" rel="noopener">EpiDoc / TEI</a>
-        records for Chinese epigraphy.
-        Developed for the <em>Epiwen</em> encoding project.
-        Nothing is uploaded — the XML is built live in your browser.
-      </p>
+    <div class="landing-hero">
+      <h1 class="landing-title">Epiwen</h1>
+      <p class="landing-sub">A research environment for historical inscriptions and archival documents — connecting geographic evidence, material objects, primary sources, facsimiles, source texts, and the prosopographical and bibliographic apparatus around them.</p>
+    </div>
 
-      <nav class="landing-cards" aria-label="main sections">
+    <div class="concept-wrap">
+      <svg class="concept-svg" viewBox="0 0 980 400" xmlns="http://www.w3.org/2000/svg"
+           role="img" aria-label="Abstract entity model: geographic locations contain sites which hold objects; objects bear inscriptions which are documented by facsimiles and transcribe source texts; inscriptions link to persons who have authority records and are cited in bibliography.">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5"
+                  markerWidth="5" markerHeight="5" orient="auto">
+            <path d="M0,1 L9,5 L0,9z" fill="#ddd"/>
+          </marker>
+          <marker id="arh" viewBox="0 0 10 10" refX="8" refY="5"
+                  markerWidth="5" markerHeight="5" orient="auto">
+            <path d="M0,1 L9,5 L0,9z" fill="#a0291b"/>
+          </marker>
+        </defs>
 
-        <a href="catalog.html" class="landing-card">
-          <div class="card-label">Catalog</div>
-          <div class="card-desc">Browse and search existing inscription records</div>
+        <!-- EDGES -->
+        <path class="edge" id="e-map-sites" marker-end="url(#arr)"
+              d="M 100,148 L 100,224" data-a="nd-map" data-b="nd-sites"/>
+        <text class="elabel" x="106" y="188">locates</text>
+
+        <path class="edge" id="e-sites-obj" marker-end="url(#arr)"
+              d="M 165,250 C 230,250 270,215 293,210" data-a="nd-sites" data-b="nd-obj"/>
+        <text class="elabel" x="198" y="234">contains</text>
+
+        <path class="edge" id="e-obj-ins" marker-end="url(#arr)"
+              d="M 360,207 L 360,224" data-a="nd-obj" data-b="nd-ins"/>
+        <text class="elabel" x="366" y="219">bears</text>
+
+        <path class="edge" id="e-ins-fac" marker-end="url(#arr)"
+              d="M 360,308 L 360,332" data-a="nd-ins" data-b="nd-fac"/>
+        <text class="elabel" x="366" y="323">documented by</text>
+
+        <path class="edge" id="e-ins-txt" marker-end="url(#arr)"
+              d="M 443,248 C 520,240 555,140 573,122" data-a="nd-ins" data-b="nd-txt"/>
+        <text class="elabel" x="499" y="196">transcribes</text>
+
+        <path class="edge" id="e-ins-per" marker-end="url(#arr)"
+              d="M 450,270 L 572,270" data-a="nd-ins" data-b="nd-per"/>
+        <text class="elabel" x="482" y="263">linked to</text>
+
+        <path class="edge" id="e-per-auth" marker-end="url(#arr)"
+              d="M 718,256 C 775,236 800,200 807,184" data-a="nd-per" data-b="nd-auth"/>
+        <text class="elabel" x="754" y="220">authority</text>
+
+        <path class="edge" id="e-per-bib" marker-end="url(#arr)"
+              d="M 718,285 C 775,316 808,334 827,340" data-a="nd-per" data-b="nd-bib"/>
+        <text class="elabel" x="762" y="327">cited in</text>
+
+        <path class="edge" id="e-ins-bib" marker-end="url(#arr)"
+              d="M 443,298 C 560,375 756,384 827,362" data-a="nd-ins" data-b="nd-bib"/>
+        <text class="elabel" x="604" y="387">documented in</text>
+
+        <!-- NODES -->
+
+        <!-- Geographic / Map -->
+        <a href="map.html">
+          <g class="node" id="nd-map">
+            <rect x="38" y="102" width="124" height="46" rx="7"
+                  fill="#e4f2ea" stroke="#3a6e4a" stroke-width="1.5"/>
+            <text class="ntitle" x="100" y="122" text-anchor="middle" fill="#24503a">Map</text>
+            <text class="nsub"   x="100" y="138" text-anchor="middle" fill="#3a6e4a">geographic reference</text>
+          </g>
         </a>
 
-        <a href="editor.html" class="landing-card card-primary">
-          <div class="card-label">Editor</div>
-          <div class="card-desc">Create a new EpiDoc inscription record</div>
+        <!-- Sites -->
+        <a href="sites.html">
+          <g class="node" id="nd-sites">
+            <rect x="38" y="224" width="130" height="46" rx="7"
+                  fill="#e4f2ea" stroke="#3a6e4a" stroke-width="1.5"/>
+            <text class="ntitle" x="103" y="244" text-anchor="middle" fill="#24503a">Sites</text>
+            <text class="nsub"   x="103" y="260" text-anchor="middle" fill="#3a6e4a">complexes · locations</text>
+          </g>
         </a>
 
-        <a href="docs.html" class="landing-card">
-          <div class="card-label">Documentation</div>
-          <div class="card-desc">About the project and encoding guidelines</div>
+        <!-- Objects -->
+        <a href="catalog.html">
+          <g class="node" id="nd-obj">
+            <rect x="293" y="162" width="134" height="44" rx="7"
+                  fill="#e2ecf8" stroke="#263a8a" stroke-width="1.5"/>
+            <text class="ntitle" x="360" y="182" text-anchor="middle" fill="#1a2a6e">Objects</text>
+            <text class="nsub"   x="360" y="197" text-anchor="middle" fill="#2a3e8a">material bearers</text>
+          </g>
         </a>
 
-      </nav>
-    </main>
+        <!-- Inscriptions — central -->
+        <a href="catalog.html?tab=inscriptions">
+          <g class="node" id="nd-ins">
+            <rect x="286" y="222" width="164" height="58" rx="8"
+                  fill="#fff5f5" stroke="#a0291b" stroke-width="2.5"/>
+            <text class="ntitle" x="368" y="247" text-anchor="middle" fill="#8a1e14">Inscriptions</text>
+            <text class="nsub"   x="368" y="264" text-anchor="middle" fill="#a0291b">primary written sources</text>
+          </g>
+        </a>
 
-    <footer class="foot">
-      Source:
-      <a href="https://github.com/pleuston/epiwen-epidoc-generator"
-         target="_blank" rel="noopener">github.com/pleuston/epiwen-epidoc-generator</a> ·
-      Modelled on the
-      <a href="https://tools.fdm.uni-hamburg.de/mdg/generator_metadata_epidoc.html"
-         target="_blank" rel="noopener">Hamburg Metadata Generator for EpiDoc</a>.
-    </footer>
+        <!-- Facsimiles -->
+        <a href="catalog.html?tab=rubbings">
+          <g class="node" id="nd-fac">
+            <rect x="293" y="330" width="134" height="44" rx="7"
+                  fill="#e2ecf8" stroke="#263a8a" stroke-width="1.5"/>
+            <text class="ntitle" x="360" y="350" text-anchor="middle" fill="#1a2a6e">Facsimiles</text>
+            <text class="nsub"   x="360" y="365" text-anchor="middle" fill="#2a3e8a">documentary reproductions</text>
+          </g>
+        </a>
 
-    <div id="toast" role="status" aria-live="polite"></div>
-    <script src="modal.js"></script>
+        <!-- Source Texts -->
+        <g class="node" id="nd-txt">
+          <rect x="572" y="78" width="138" height="44" rx="7"
+                fill="#fdf3e0" stroke="#8a5218" stroke-width="1.5"/>
+          <text class="ntitle" x="641" y="98" text-anchor="middle" fill="#6a3c0e">Texts</text>
+          <text class="nsub"   x="641" y="114" text-anchor="middle" fill="#8a5218">source · canonical · literary</text>
+        </g>
+
+        <!-- Persons -->
+        <a href="authorities.html">
+          <g class="node" id="nd-per">
+            <rect x="572" y="248" width="146" height="46" rx="7"
+                  fill="#ede6f7" stroke="#542e8a" stroke-width="1.5"/>
+            <text class="ntitle" x="645" y="268" text-anchor="middle" fill="#38196e">Persons</text>
+            <text class="nsub"   x="645" y="284" text-anchor="middle" fill="#542e8a">historical agents</text>
+          </g>
+        </a>
+
+        <!-- Authorities -->
+        <a href="authorities.html">
+          <g class="node" id="nd-auth">
+            <rect x="807" y="138" width="152" height="46" rx="7"
+                  fill="#ede6f7" stroke="#542e8a" stroke-width="1.5"/>
+            <text class="ntitle" x="883" y="158" text-anchor="middle" fill="#38196e">Authorities</text>
+            <text class="nsub"   x="883" y="174" text-anchor="middle" fill="#542e8a">authority control</text>
+          </g>
+        </a>
+
+        <!-- Bibliography -->
+        <a href="bibliography.html">
+          <g class="node" id="nd-bib">
+            <rect x="827" y="318" width="152" height="46" rx="7"
+                  fill="#e2f0e6" stroke="#255a36" stroke-width="1.5"/>
+            <text class="ntitle" x="903" y="338" text-anchor="middle" fill="#1a3e26">Bibliography</text>
+            <text class="nsub"   x="903" y="354" text-anchor="middle" fill="#255a36">primary · secondary sources</text>
+          </g>
+        </a>
+
+      </svg>
+    </div>
+
+    <div class="cards-section">
+      <p class="cards-head">Modules</p>
+      <div class="cards-grid">
+
+        <a class="ecard" href="map.html">
+          <span class="ecard-tag tag-geo">Geographic</span>
+          <div class="ecard-title">Map</div>
+          <p class="ecard-desc">Sites and find-spots mapped on satellite and historical base layers, with overlays from period historical atlases.</p>
+        </a>
+
+        <a class="ecard" href="sites.html">
+          <span class="ecard-tag tag-geo">Geographic</span>
+          <div class="ecard-title">Sites</div>
+          <p class="ecard-desc">Location and complex records — the spatial and architectural contexts in which document-bearing objects are found.</p>
+        </a>
+
+        <a class="ecard" href="catalog.html">
+          <span class="ecard-tag tag-phys">Physical</span>
+          <div class="ecard-title">Objects</div>
+          <p class="ecard-desc">Material bearers of inscribed or painted texts: walls, pillars, steles, tablets, and other physical supports.</p>
+        </a>
+
+        <a class="ecard" href="catalog.html?tab=inscriptions">
+          <span class="ecard-tag tag-phys">Primary sources</span>
+          <div class="ecard-title">Inscriptions</div>
+          <p class="ecard-desc">Inscribed and carved texts as first-class entities, encoded in EpiDoc/TEI XML with full diplomatic and critical apparatus.</p>
+        </a>
+
+        <a class="ecard" href="catalog.html?tab=rubbings">
+          <span class="ecard-tag tag-phys">Documentary</span>
+          <div class="ecard-title">Facsimiles</div>
+          <p class="ecard-desc">Rubbings, photographs, and other documentary reproductions; the primary witnessing medium for worn or inaccessible originals.</p>
+        </a>
+
+        <a class="ecard" href="catalog.html?tab=inscriptions">
+          <span class="ecard-tag tag-text">Textual</span>
+          <div class="ecard-title">Texts</div>
+          <p class="ecard-desc">Canonical, literary, and archival source texts reproduced or quoted in the inscriptions, anchored to reference corpora.</p>
+        </a>
+
+        <a class="ecard" href="authorities.html">
+          <span class="ecard-tag tag-pro">Prosopographical</span>
+          <div class="ecard-title">Authorities</div>
+          <p class="ecard-desc">Authority records for historical persons, institutions, and concepts, with cross-references to VIAF, Wikidata, CBDB, and DILA.</p>
+        </a>
+
+        <a class="ecard" href="bibliography.html">
+          <span class="ecard-tag tag-bib">Scholarly</span>
+          <div class="ecard-title">Bibliography</div>
+          <p class="ecard-desc">Bibliographic records for primary editions, archival sources, and modern scholarship, encoded in MODS and searchable by author, title, and year.</p>
+        </a>
+
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        var edges = Array.from(document.querySelectorAll(".edge"));
+        document.querySelectorAll(".node").forEach(function (n) {
+          var id = n.id;
+          function hi(on) {
+            edges.forEach(function (e) {
+              var match = e.dataset.a === id || e.dataset.b === id;
+              e.classList.toggle("hi", on && match);
+              if (match) e.setAttribute("marker-end", on ? "url(#arh)" : "url(#arr)");
+            });
+          }
+          n.addEventListener("mouseenter", function () { hi(true); });
+          n.addEventListener("mouseleave", function () { hi(false); });
+        });
+      })();
+    </script>
   </body>
 </html>

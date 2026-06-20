@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="shimiaolian"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple"><name type="personal"><namePart type="family">釋</namePart><namePart type="given">妙蓮</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Shi</namePart><namePart type="given">Miaolian</namePart></name></variant>
-  <identifier type="dila">person/A040284</identifier>
-</mads>

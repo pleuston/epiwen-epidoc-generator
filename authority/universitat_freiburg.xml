@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="universitat_freiburg">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>Universität Freiburg</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q152171</identifier>
-</mads>

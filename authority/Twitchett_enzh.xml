@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Twitchett_enzh" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple"><name type="personal"><namePart type="family">Twitchett</namePart><namePart type="given">Denis C.</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Cui</namePart><namePart type="given">Ruide</namePart></name></variant><variant lang="zh" type="expansion"><name type="personal"><namePart type="family">崔</namePart><namePart type="given">瑞德（又譯杜希德）</namePart></name></variant>
-  <identifier type="viaf">61560052</identifier>
-</mads>

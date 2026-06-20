@@ -1,9 +1,0 @@
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bayerischesamt" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd">
-    <authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="de" oXygen1:type="simple">
-        <name type="corporate">
-            <namePart>Bayerisches Landesamt für Denkmalpflege</namePart>
-        </name>
-    </authority>
-
-  <identifier type="viaf">121555080</identifier>
-</mads>

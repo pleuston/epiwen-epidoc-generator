@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Hahn1982" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><titleInfo lang="en"><title>Nāgārjuna’s Ratnāvalī. Vol. 1: The Basic Texts (Sanskrit, Tibetan, Chinese)</title></titleInfo><titleInfo type="reference"><title>Hahn 1982</title></titleInfo>
-    <name xmlns:ns2="http://www.w3.org/1999/xlink" ns2:href="#hahn_michael" type="personal"><namePart lang="en" type="family">Hahn</namePart><namePart lang="en" type="given">Michael</namePart><role><roleTerm>author</roleTerm></role></name>
-    <originInfo><dateIssued>1982</dateIssued><place><placeTerm>Bonn</placeTerm></place><publisher><name type="corporate"><namePart lang="en">Indica et Tibetica</namePart></name></publisher><issuance>monographic</issuance></originInfo>
-    </mods>

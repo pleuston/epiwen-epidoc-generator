@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="alexander_von_humboldt_stiftung">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>Alexander von Humboldt-Stiftung</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q420845</identifier>
-</mads>

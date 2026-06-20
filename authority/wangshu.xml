@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="wangshu"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart type="family">王</namePart><namePart type="given">澍</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Wang</namePart><namePart type="given">Shu</namePart></name></variant>
-  <identifier type="cbdb">67185</identifier>
-</mads>

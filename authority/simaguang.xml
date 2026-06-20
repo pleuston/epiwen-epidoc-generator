@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="simaguang"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart type="family">司馬</namePart><namePart type="given">光</namePart><namePart type="date">1019-1086</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Sima</namePart><namePart type="given">Guang</namePart></name></variant>
-  <identifier type="viaf">37716344</identifier>
-  <identifier type="dila">person/A011348</identifier>
-</mads>

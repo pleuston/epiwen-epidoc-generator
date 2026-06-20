@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="brook" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple"><name type="personal"><namePart type="family">Brook</namePart><namePart type="given">Timothy</namePart></name></authority><variant lang="zh"><name type="personal"><namePart type="family"/><namePart type="given"/></name></variant><variant transliteration="pinyin"><name type="personal"><namePart type="family"/><namePart type="given"/></name></variant>
-  <identifier type="viaf">36968208</identifier>
-</mads>

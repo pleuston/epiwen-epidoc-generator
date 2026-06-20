@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Mote_enzh" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple"><name type="personal"><namePart type="family">Mote</namePart><namePart type="given">Frederick W.</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Mou</namePart><namePart type="given">Fuli</namePart></name></variant><variant lang="zh" type="expansion"><name type="personal"><namePart type="family">牟</namePart><namePart type="given">復禮</namePart></name></variant>
-  <identifier type="viaf">39389914</identifier>
-</mads>

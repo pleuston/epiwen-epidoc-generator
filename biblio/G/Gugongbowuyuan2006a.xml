@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Gugongbowuyuan2006a" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd"><!-- titleInfo lang="zh">
-        <title>千禧年宋代文物大展</title>
-    </titleInfo>
-    <titleInfo transliteration="pinyin">
-        <title>Qianxinian Songdai wenwu dazhan</title>
-    </titleInfo --><titleInfo lang="en"><title>Qianxinian Songdai wenwu dazhan <foreign lang="zh">千禧年宋代文物大展</foreign>. China at the Inception of the Second Millennium: Art and Culture of the Sung Dynasty, 960-1279</title></titleInfo><titleInfo type="reference"><title>Gu­gong bo­wu­yuan 2000</title></titleInfo><name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="#guoligugongbowuyuanbianjiweiyuanhui" type="corporate"><namePart transliteration="pinyin">Guoli gugongbowuyuan bianji weiyuanhui</namePart><namePart lang="zh">國立故宮博物院編輯委員會</namePart><role><roleTerm>editor</roleTerm></role></name><abstract/><originInfo><dateIssued>2000</dateIssued><issuance>monographic</issuance><publisher><name type="corporate"><namePart lang="zh">故宮博物院</namePart><namePart transliteration="pinyin">Gugong bowuyuan</namePart></name></publisher><place><placeTerm lang="zh">台北</placeTerm><placeTerm transliteration="pinyin">Taibei</placeTerm></place></originInfo></mods>

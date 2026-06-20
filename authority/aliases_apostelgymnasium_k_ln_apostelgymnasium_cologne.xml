@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="aliases_apostelgymnasium_k_ln_apostelgymnasium_cologne">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>aliases: ["Apostelgymnasium Köln", "Apostelgymnasium Cologne"]</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">draft: true</identifier>
-</mads>

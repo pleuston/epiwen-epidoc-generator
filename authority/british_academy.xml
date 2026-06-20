@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="british_academy">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>British Academy</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q461893</identifier>
-</mads>

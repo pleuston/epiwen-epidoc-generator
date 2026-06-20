@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="zhuzhengchang"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart type="family">朱</namePart><namePart type="given">正昌</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Zhu</namePart><namePart type="given">Zhengchang</namePart></name></variant>
-  <identifier type="viaf">4672161211704140103680</identifier>
-</mads>

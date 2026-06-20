@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="aliases_national_gallery_of_art_washington_national_gallery_">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>aliases: ["National Gallery of Art, Washington", "National Gallery of Art", "NGA Washington"]</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q214867</identifier>
-</mads>

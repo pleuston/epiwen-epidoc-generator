@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="getty_research_institute_los_angeles">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>Getty Research Institute, Los Angeles</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q1505892</identifier>
-</mads>

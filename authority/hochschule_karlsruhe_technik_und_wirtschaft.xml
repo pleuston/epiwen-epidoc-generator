@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="hochschule_karlsruhe_technik_und_wirtschaft">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>Hochschule Karlsruhe – Technik und Wirtschaft</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q314050</identifier>
-</mads>

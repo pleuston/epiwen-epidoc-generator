@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bokenkamp" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="de" ns1:type="simple"><name type="personal"><namePart type="family">Bokenkamp</namePart><namePart type="given">Stephen</namePart></name></authority><variant lang="zh"><name type="personal"><namePart type="family">柏</namePart><namePart type="given">夷</namePart></name></variant><variant transliteration="pinyin"><name type="personal"><namePart type="family">Bo</namePart><namePart type="given">Yi</namePart></name></variant>
-  <identifier type="viaf">115933783</identifier>
-</mads>

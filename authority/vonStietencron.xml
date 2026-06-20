@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="vonStietencron">
-  <authority lang="en">
-    <name type="personal">
-      <namePart type="family">Stietencron</namePart>
-      <namePart type="given">Heinrich von</namePart>
-    </name>
-  </authority>
-</mads>

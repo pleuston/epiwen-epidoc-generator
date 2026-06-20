@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="wang_yanhua">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>王艳华</namePart>
-    </name>
-  </authority>
-  <identifier type="gnd">wiki: true</identifier>
-</mads>

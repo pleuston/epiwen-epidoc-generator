@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="wyatt" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="en" ns1:type="simple"><name type="personal"><namePart type="family">Wyatt</namePart><namePart type="given">Don J.</namePart></name></authority>
-  <identifier type="viaf">54396045</identifier>
-</mads>

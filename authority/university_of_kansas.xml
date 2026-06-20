@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="university_of_kansas">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>University of Kansas</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q499451</identifier>
-</mads>

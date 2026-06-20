@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="huilin"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart>慧琳</namePart><namePart type="date"/></name></authority><variant transliteration="pinyin"><name type="personal"><namePart>Huilin</namePart></name></variant>
-  <identifier type="viaf">118431936</identifier>
-  <identifier type="dila">person/A001729</identifier>
-</mads>

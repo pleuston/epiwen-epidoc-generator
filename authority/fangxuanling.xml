@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="fangxuanling"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart type="family">房</namePart><namePart type="given">玄齡</namePart><namePart type="date">578 (579?)-648</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Fang</namePart><namePart type="given">Xuanling</namePart></name></variant>
-  <identifier type="dila">person/A002115</identifier>
-</mads>

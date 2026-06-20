@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="kangyouwei" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple"><name type="personal"><namePart type="family">康</namePart><namePart type="given">有爲</namePart><namePart type="date">1858-1927</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Kang</namePart><namePart type="given">Youwei</namePart></name></variant>
-  <identifier type="wikidata">Q360135</identifier>
-  <identifier type="viaf">76310499</identifier>
-</mads>

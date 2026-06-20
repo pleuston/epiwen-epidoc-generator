@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="zhaomingcheng"><authority xmlns:ns1="http://www.w3.org/1999/xlink" ns1:type="simple" lang="zh"><name type="personal"><namePart type="family">趙</namePart><namePart type="given">明誠</namePart><namePart type="date">1081-1129</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Zhao</namePart><namePart type="given">Mingcheng</namePart></name></variant>
-  <identifier type="wikidata">Q4515473</identifier>
-  <identifier type="viaf">315402011</identifier>
-  <identifier type="dila">person/A023239</identifier>
-  <identifier type="cbdb">27791</identifier>
-</mads>

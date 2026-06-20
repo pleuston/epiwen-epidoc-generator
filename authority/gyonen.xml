@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="gyonen" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd"><authority lang="ja"><name type="personal"><namePart>凝然</namePart><namePart type="date">1240–1321</namePart></name></authority><variant transliteration="romaji"><name type="personal"><namePart>Gyōnen</namePart></name></variant><variant transliteration="pinyin"><name type="personal"><namePart>Ningran</namePart></name></variant>
-  <identifier type="viaf">290826973</identifier>
-  <identifier type="dila">person/A001772</identifier>
-</mads>

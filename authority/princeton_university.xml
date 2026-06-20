@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="princeton_university">
-  <authority lang="en">
-    <name type="corporate">
-      <namePart>Princeton University</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q21578</identifier>
-</mads>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" ID="aliases_acad_mie_des_inscriptions_et_belles_lettres_academie">
-  <authority lang="zh">
-    <name type="personal">
-      <namePart>aliases: ["Académie des Inscriptions et Belles-Lettres", "Academie des Inscriptions et Belles-Lettres", "AIBL"]</namePart>
-    </name>
-  </authority>
-  <identifier type="wikidata">Q1011</identifier>
-</mads>

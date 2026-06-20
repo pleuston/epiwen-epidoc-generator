@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bingenheimer" xsi:schemaLocation="http://www.loc.gov/mads/     http://147.142.222.135:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="en" oXygen1:type="simple"><name type="personal"><namePart type="family">Bingenheimer</namePart><namePart type="given">Marcus</namePart></name></authority><variant lang="zh"><name type="personal"><namePart type="family">馬</namePart><namePart type="given">德偉</namePart></name></variant><variant transliteration="pinyin"><name type="personal"><namePart type="family">Ma</namePart><namePart type="given">Dewei</namePart></name></variant>
-  <identifier type="gnd">122774965</identifier>
-</mads>

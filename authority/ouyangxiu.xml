@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="ouyangxiu"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="zh"><name type="personal"><namePart type="family">歐陽</namePart><namePart type="given">脩</namePart><namePart type="date">1007-1072</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Ouyang</namePart><namePart type="given">Xiu</namePart></name></variant>
-  <identifier type="wikidata">Q334323</identifier>
-  <identifier type="viaf">100186671</identifier>
-  <identifier type="dila">person/A009432</identifier>
-  <identifier type="cbdb">1762</identifier>
-</mads>

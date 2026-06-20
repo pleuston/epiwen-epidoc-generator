@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://claudia:claudia@www.stonesutras.org:8080/exist/webdav/db/schema/mads.xsd" ID="fengyunyuan"><authority xmlns:ns1="http://www.w3.org/1999/xlink" lang="zh" ns1:type="simple"><name type="personal"><namePart type="family">馮</namePart><namePart type="given">雲鵷</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Feng</namePart><namePart type="given">Yunyuan</namePart></name></variant><variant><name type="personal"><namePart type="family">馮</namePart><namePart type="given">集軒</namePart></name></variant>
-  <identifier type="cbdb">73527</identifier>
-</mads>

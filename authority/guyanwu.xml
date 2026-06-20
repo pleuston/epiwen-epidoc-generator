@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="guyanwu" xsi:schemaLocation="http://www.loc.gov/mads/     http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" lang="zh" oXygen1:type="simple"><name type="personal"><namePart type="family">顧</namePart><namePart type="given">炎武</namePart><namePart type="date">1613-1682</namePart></name></authority><variant transliteration="pinyin"><name type="personal"><namePart type="family">Gu</namePart><namePart type="given">Yanwu</namePart></name></variant>
-  <identifier type="wikidata">Q1195906</identifier>
-  <identifier type="viaf">27155057</identifier>
-  <identifier type="dila">person/A021060</identifier>
-</mads>

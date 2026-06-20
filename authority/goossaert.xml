@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mads xmlns="http://www.loc.gov/mads/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mads/ http://data.stonesutras.org:8080/exist/servlet/db/schema/mads.xsd" ID="goossaert"><authority xmlns:oXygen1="http://www.w3.org/1999/xlink" oXygen1:type="simple" lang="fr"><name type="personal" lang="en"><namePart type="family">Goossaert</namePart><namePart type="given">Vincent</namePart></name></authority><variant lang="zh"><name type="personal"><namePart type="family">高</namePart><namePart type="given">萬桑</namePart></name></variant><variant transliteration="pinyin"><name type="personal"><namePart type="family">Gao</namePart><namePart type="given">Wansang</namePart></name></variant>
-  <identifier type="viaf">64184262</identifier>
-</mads>
