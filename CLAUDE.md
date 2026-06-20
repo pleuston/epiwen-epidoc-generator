@@ -44,7 +44,7 @@ When the private instance makes platform improvements:
 ```bash
 # In the private repo, after committing:
 cp <file> /Users/sassmann/Documents/epiwen-epidoc-generator/<file>
-cp <file> /Users/sassmann/Documents/stonehistory/AI/spaces/epiwen-epidoc-generator/<file>
+cp <file> /Users/sassmann/repos/stonehistory/AI/spaces/epiwen-epidoc-generator/<file>
 # Commit each repo
 ```
 
