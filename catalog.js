@@ -17,6 +17,7 @@
   var currentTab   = "objects";
   var showMine     = false;
   var sourceFilter = "all";   // "all" | "public" | "private" | "col:<id>"
+  var rubSourceFilter = "all"; // Rubbings tab: filter by holding collection / source
   var currentUsername = (window.EpiAuth ? EpiAuth.getUser().username : "") ||
                         localStorage.getItem("epiwen_gh_username") || "";
 
@@ -219,15 +220,19 @@
     var images = qns(doc, "graphic")
       .map(function (g) { return g.getAttribute("url"); })
       .filter(Boolean);
-    var sourceUrl = "";
+    // Provenance: distinguish the holding institution's own record (type="record"
+    // or untyped) from a data aggregator/provider (type="provider", e.g. EFEO).
+    var sourceUrl = "", provider = null;
     qns(doc, "ref").forEach(function (r) {
-      var t = r.getAttribute("target") || "";
-      if (!sourceUrl && /^https?:\/\//.test(t)) sourceUrl = t;
+      var t = r.getAttribute("target") || "", typ = r.getAttribute("type") || "";
+      if (!/^https?:\/\//.test(t)) return;
+      if (typ === "provider") { if (!provider) provider = { url: t, label: txt(r) }; }
+      else if (!sourceUrl) sourceUrl = t;
     });
 
     return {
       name: name, recordType: recordType, surrogateOf: surrogateOf,
-      images: images, sourceUrl: sourceUrl,
+      images: images, sourceUrl: sourceUrl, provider: provider,
       editor: editor, titleEn: titleEn, titleZh: titleZh,
       country: country, countryRef: countryRef, region: region, settlement: settlement,
       repository: repository, inventoryNo: inventoryNo, summary: summary,
@@ -299,6 +304,17 @@
 
     if (rec.recordType === "rubbing" && rec.surrogateOf) {
       html += sec("Rubbing of", [ row("Inscription", rec.surrogateOf) ]);
+    }
+
+    if (rec.recordType === "rubbing") {
+      html += sec("Provenance", [
+        row("Held at", rec.repository),
+        rec.sourceUrl ? '<dt>Record</dt><dd><a href="' + esc(rec.sourceUrl) +
+          '" target="_blank" rel="noopener">holding institution ↗</a></dd>' : "",
+        rec.provider ? '<dt>Data via</dt><dd><a href="' + esc(rec.provider.url) +
+          '" target="_blank" rel="noopener">' + esc(rec.provider.label) + ' ↗</a> ' +
+          '<span class="rub-prov-flag">aggregator</span></dd>' : ""
+      ]);
     }
 
     html += sec("Holding", [
@@ -596,7 +612,49 @@
       item.appendChild(ul);
     }
 
+    appendFoldedRubbings(item, rec.name);
     return item;
+  }
+
+  // ---- rubbings folded under their object/inscription ----------------------
+  function rubbingsFor(objName) {
+    if (!objName) return [];
+    return allRecords.filter(function (r) {
+      return r.recordType === "rubbing" && r.surrogateOf === objName;
+    });
+  }
+  function rubbingSourceLabel(rec) {
+    if (rec.provider && rec.provider.label) return rec.provider.label.split("—")[0].trim();
+    var rp = (rec.repository || "").toLowerCase();
+    if (rp.indexOf("harvard") !== -1)  return "Harvard-Yenching";
+    if (rp.indexOf("berkeley") !== -1) return "UC Berkeley";
+    if (rp.indexOf("efeo") !== -1)     return "EFEO estampages";
+    if (rp.indexOf("sinica") !== -1 || rp.indexOf("philology") !== -1) return "IHP";
+    return rec.repository || "—";
+  }
+  function appendFoldedRubbings(item, objName) {
+    var rubs = rubbingsFor(objName);
+    if (!rubs.length) return;
+    var head = document.createElement("div");
+    head.className = "catalog-rubbings-head";
+    head.textContent = "Rubbings (" + rubs.length + ")";
+    item.appendChild(head);
+    var ul = document.createElement("ul");
+    ul.className = "catalog-rubbings";
+    rubs.forEach(function (rub) {
+      var li = document.createElement("li");
+      li.className = "catalog-rubbing";
+      var hasImg = rub.images && rub.images.length;
+      li.innerHTML =
+        '<span class="rub-icon" title="' + (hasImg ? "has image" : "metadata only") + '">' +
+          (hasImg ? "🖼" : "🔎") + '</span>' +
+        '<span class="rub-title">' + esc(rub.titleEn || rub.name) + '</span>' +
+        '<span class="rub-src">' + esc(rubbingSourceLabel(rub)) +
+          (rub.provider ? ' <span class="rub-prov-flag">via aggregator</span>' : '') + '</span>';
+      li.addEventListener("click", function (e) { e.stopPropagation(); showPreview(rub, item); });
+      ul.appendChild(li);
+    });
+    item.appendChild(ul);
   }
 
   function buildInscriptionItem(rec, part, pIdx) {
@@ -650,6 +708,7 @@
     row.appendChild(info);
     row.appendChild(actions);
     item.appendChild(row);
+    appendFoldedRubbings(item, rec.name);
     return item;
   }
 
@@ -833,17 +892,47 @@
   function renderRubbingsCatalog(records) {
     var list = document.getElementById("catalog-list");
     var filtered = applyFilters(records);
-    updateMineLabel(filtered.length, records.length);
-    if (!filtered.length) {
-      list.innerHTML = '<div class="catalog-empty">' +
+
+    // Dedicated rubbing-collection / source selector
+    var counts = {};
+    filtered.forEach(function (r) { var s = rubbingSourceLabel(r); counts[s] = (counts[s] || 0) + 1; });
+    var sources = Object.keys(counts).sort();
+    if (rubSourceFilter !== "all" && sources.indexOf(rubSourceFilter) === -1) rubSourceFilter = "all";
+    var shown = rubSourceFilter === "all" ? filtered
+      : filtered.filter(function (r) { return rubbingSourceLabel(r) === rubSourceFilter; });
+    updateMineLabel(shown.length, records.length);
+
+    var selHtml = '';
+    if (sources.length > 1) {
+      selHtml = '<div class="rub-sourcebar">Rubbing collection: ' +
+        '<select id="rub-source" class="catalog-searchbox" style="max-width:240px">' +
+        '<option value="all">All collections (' + filtered.length + ')</option>' +
+        sources.map(function (s) {
+          return '<option value="' + esc(s) + '"' + (s === rubSourceFilter ? " selected" : "") +
+            '>' + esc(s) + ' (' + counts[s] + ')</option>';
+        }).join("") + '</select></div>';
+    }
+
+    if (!shown.length) {
+      list.innerHTML = selHtml + '<div class="catalog-empty">' +
         (showMine && currentUsername
           ? 'No rubbing records by @' + esc(currentUsername) + ' yet. <a href="rubbing.html">Add the first →</a>'
-          : 'No rubbing records yet. <a href="rubbing.html">Add the first rubbing →</a>') +
+          : 'No rubbings in this view.') +
         '</div>';
+      wireRubSource();
       return;
     }
-    list.innerHTML = "";
-    filtered.forEach(function (rec) { list.appendChild(buildRubbingItem(rec)); });
+    list.innerHTML = selHtml;
+    shown.forEach(function (rec) { list.appendChild(buildRubbingItem(rec)); });
+    wireRubSource();
+  }
+
+  function wireRubSource() {
+    var sel = document.getElementById("rub-source");
+    if (sel) sel.addEventListener("change", function () {
+      rubSourceFilter = this.value;
+      renderByTab("rubbings");
+    });
   }
 
   // ---- search --------------------------------------------------------------

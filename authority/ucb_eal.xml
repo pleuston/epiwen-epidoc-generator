@@ -1,0 +1,10 @@
+<mads xmlns="http://www.loc.gov/mads/" ID="ucb_eal">
+    <authority lang="en">
+        <name type="corporate"><namePart>C. V. Starr East Asian Library, University of California, Berkeley</namePart></name>
+    </authority>
+    <variant lang="zh" type="other">
+        <name type="corporate"><namePart>加州大学柏克莱分校东亚图书馆</namePart></name>
+    </variant>
+    <note>Chinese Rubbings Collection: 2,745 rubbing items of mainland Chinese stone inscriptions (Zhou–Qing) on the library's Invenio platform (digicoll.lib.berkeley.edu). Native CJK search; images are local JPEG (no public IIIF/API as of 2026).</note>
+    <url>https://digicoll.lib.berkeley.edu/search?f=collection&amp;p=Chinese+Rubbings+Collection</url>
+</mads>

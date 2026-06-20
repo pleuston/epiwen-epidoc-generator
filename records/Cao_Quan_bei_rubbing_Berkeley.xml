@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Cao Quan Stele (rubbing — UC Berkeley)</title>
+        <title xml:lang="zh-Hant">曹全碑（拓本・柏克萊）</title>
+        <editor role="editor">Manuel Sassmann</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Cao_Quan_bei_rubbing_Berkeley.xml</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Berkeley, CA</settlement>
+            <repository>C. V. Starr East Asian Library, University of California, Berkeley</repository>
+          </msIdentifier>
+          <msContents><summary>Ink rubbing of the Cao Quan stele in the UC Berkeley East Asian Library Chinese Rubbings Collection.</summary></msContents>
+          <physDesc><objectDesc form="拓本"><supportDesc><support>
+            <objectType>拓片 · ink rubbing on paper</objectType>
+          </support></supportDesc></objectDesc></physDesc>
+          <history><origin><origDate notBefore="0185" notAfter="0185">East. Han 185 (stele); rubbing later</origDate></origin></history>
+          <additional><listBibl>
+            <relatedItem type="surrogateOf"><bibl><ptr target="Cao_Quan_bei"/></bibl></relatedItem>
+            <bibl><ref type="record" target="https://digicoll.lib.berkeley.edu/search?p=曹全碑&amp;f=any+field">UC Berkeley digital collections — search</ref></bibl>
+          </listBibl></additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-20" who="#epiwen">Sample. Metadata from the UC Berkeley East Asian Library's own digital collections (digicoll.lib.berkeley.edu) — the original holding institution. Berkeley serves local JPEG only (no public IIIF/API), so no live image is embedded; record links to the Berkeley search.</change></revisionDesc>
+  </teiHeader>
+  <text><body/></text>
+</TEI>

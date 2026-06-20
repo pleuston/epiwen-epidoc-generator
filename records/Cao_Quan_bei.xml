@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Cao Quan Stele</title>
+        <title xml:lang="zh-Hant">曹全碑</title>
+        <editor role="editor">Manuel Sassmann</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Cao_Quan_bei.xml</idno>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>China 中國</country>
+            <region>Shaanxi 陝西</region>
+            <settlement>Xi'an 西安</settlement>
+            <repository>Xi'an Beilin Museum 西安碑林博物館</repository>
+            <idno type="inventory">Cao_Quan_bei</idno>
+          </msIdentifier>
+          <msContents><summary>Eastern Han clerical-script (lishu) stele recording the career of the magistrate Cao Quan; a canonical model of mature Han clerical calligraphy. Excavated 1573 at Heyang, Shaanxi; now in the Xi'an Forest of Steles.</summary></msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc><support>
+                <material ref="aat:300011443">石 stone</material>
+                <objectType>碑 · stele</objectType>
+              </support></supportDesc>
+            </objectDesc>
+            <handDesc><handNote>隸書 clerical script</handNote></handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="#chinese" datingMethod="#reign-era" notBefore="0185" notAfter="0185">東漢中平二年（185）Eastern Han, Zhongping 2</origDate>
+              <origPlace>Heyang 郃陽 (Shaanxi)</origPlace>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc><change when="2026-06-20" who="#epiwen">Canonical object record for the inscribed monument reproduced by the rubbing record(s) of the same name. Exported to the open catalog so rubbings fold under it.</change></revisionDesc>
+  </teiHeader>
+  <text><body/></text>
+</TEI>

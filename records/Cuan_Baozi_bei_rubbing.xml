@@ -42,6 +42,7 @@
           </history>
           <additional>
             <listBibl>
+            <relatedItem type="surrogateOf"><bibl><ptr target="Cuan_Baozi_bei"/></bibl></relatedItem>
               <bibl><ref type="record" target="https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-990095845860203941">Harvard Chinese Rubbings Collection — record</ref></bibl>
             </listBibl>
           </additional>
