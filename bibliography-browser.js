@@ -3,6 +3,8 @@
   "use strict";
 
   var allRecords    = [];
+  var _publicRecords  = [];
+  var _privateRecords = [];
   var currentFilter = "all";
   var currentQuery  = "";
   var yearMin       = 0;
@@ -148,10 +150,22 @@
     list.innerHTML = '<div class="catalog-loading">Loading bibliography…</div>';
     fetch("data/biblio-index.json?v=" + Date.now())
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-      .then(function (data) { allRecords = data; renderList(); })
+      .then(function (data) { _publicRecords = data; mergePrivate(); })
       .catch(function (err) {
         list.innerHTML = '<div class="catalog-loading">Error: ' + esc(err.message) + '</div>';
       });
+  }
+
+  // Merge private bibliography entries from enabled collections (re-run on toggle).
+  function mergePrivate() {
+    if (!window.EpiCollections) { allRecords = _publicRecords.slice(); renderList(); return; }
+    EpiCollections.loadIndex("biblio")
+      .then(function (priv) {
+        _privateRecords = priv || [];
+        allRecords = _publicRecords.concat(_privateRecords);
+        renderList();
+      })
+      .catch(function () { allRecords = _publicRecords.slice(); renderList(); });
   }
 
   // ── Filter + render list ──────────────────────────────────────────────────
@@ -199,7 +213,11 @@
 
     var cite = document.createElement("div");
     cite.className = "biblio-list-cite";
-    cite.innerHTML = formatCitation(rec);
+    if (rec.source === "private") {
+      cite.innerHTML = '<span class="catalog-badge-private" title="Private collection">🔒 ' +
+        esc(rec.collectionTitle || rec.collection || "private") + '</span> ';
+    }
+    cite.innerHTML += formatCitation(rec);
     div.appendChild(cite);
 
     div.addEventListener("click", function () { selectRecord(rec, div); });
@@ -223,8 +241,11 @@
     var contentEl = document.getElementById("biblio-detail-content");
     if (contentEl) contentEl.innerHTML = '<div class="catalog-loading">Loading…</div>';
 
-    fetch("biblio/" + rec.group + "/" + rec.key + ".xml")
-      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+    var relPath = "biblio/" + rec.group + "/" + rec.key + ".xml";
+    var xmlPromise = (rec.source === "private" && window.EpiCollections)
+      ? EpiCollections.fetchRecordXml(rec.collection, relPath)
+      : fetch(relPath).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); });
+    xmlPromise
       .then(function (xml) {
         _selectedXml = xml;
         renderDetail(rec, xml);
@@ -378,6 +399,11 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     loadIndex();
+
+    if (window.EpiCollections) {
+      EpiCollections.mountBar(document.getElementById("collections-bar"));
+      EpiCollections.onChange(mergePrivate);
+    }
 
     document.getElementById("biblio-search").addEventListener("input", function () {
       currentQuery = this.value.trim();

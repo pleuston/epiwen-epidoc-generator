@@ -894,9 +894,8 @@
         renderByTab(currentTab);
       });
 
-      var colBtn = document.getElementById("btn-collections");
-      if (colBtn && window.EpiCollections) {
-        colBtn.addEventListener("click", function () { EpiCollections.showManager(); });
+      if (window.EpiCollections) {
+        EpiCollections.mountBar(document.getElementById("collections-bar"));
       }
 
       var sourceSel = document.getElementById("source-filter");

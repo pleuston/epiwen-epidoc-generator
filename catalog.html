@@ -26,6 +26,8 @@
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
+    <div id="collections-bar" class="collections-bar" style="display:none"></div>
+
     <div class="about-layout">
 
       <div class="about-pane">
@@ -41,9 +43,6 @@
           <div id="mine-bar" style="display:none; align-items:center; gap:.5rem; flex-wrap:wrap; margin-bottom:.5rem">
             <button id="btn-mine" type="button" class="btn small" data-active="false">
               Show mine
-            </button>
-            <button id="btn-collections" type="button" class="btn small">
-              Collections…
             </button>
             <select id="source-filter" class="catalog-searchbox"
                     style="display:none; max-width:220px" aria-label="filter by source"></select>

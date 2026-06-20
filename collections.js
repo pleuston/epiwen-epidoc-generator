@@ -195,6 +195,92 @@
     });
   }
 
+  // ── Index loading for bibliography / authorities ─────────────────────────────
+  // A package may carry collections/<pkg>/<kind>-index.json (same shape as the
+  // app's public data/<kind>-index.json) plus the matching XML records. Returns
+  // the merged private index entries (tagged), or [] for packages without one.
+  function loadIndex(kind) {
+    var enabled = getEnabled();
+    if (!enabled.length || !token()) return Promise.resolve([]);
+    var titles = getTitleMap();
+    return Promise.all(enabled.map(function (id) {
+      return fetchFileRaw("collections/" + encodeURIComponent(id) + "/" + kind + "-index.json")
+        .then(function (txt) {
+          var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
+          if (!Array.isArray(arr)) return [];
+          arr.forEach(function (e) {
+            e.source = "private"; e.collection = id; e.collectionTitle = titles[id] || id;
+          });
+          return arr;
+        })
+        .catch(function () { return []; });   // 404 → package has no index of this kind
+    })).then(function (lists) { return [].concat.apply([], lists); });
+  }
+
+  // Fetch a record XML from inside a package (for private detail panes).
+  function fetchRecordXml(pkg, relPath) {
+    return fetchFileRaw("collections/" + encodeURIComponent(pkg) + "/" + relPath.replace(/^\/+/, ""));
+  }
+
+  // ── Prominent collections bar (load/unload toggles) ──────────────────────────
+  // Renders a checkbox per discovered package into `el`; ticking enables+loads,
+  // unticking disables+unloads (fires onChange listeners). Shared by the catalog,
+  // authorities and bibliography pages.
+  function mountBar(el) {
+    if (!el) return;
+    if (!token()) { el.style.display = "none"; return; }
+    el.style.display = "";
+    var c = getConfig();
+
+    function chip(p, on) {
+      return '<label class="col-chip' + (on ? " on" : "") + '">' +
+        '<input type="checkbox" value="' + esc(p.id) + '"' + (on ? " checked" : "") + '>' +
+        '<span>🔒 ' + esc(p.title) + '</span></label>';
+    }
+    function wire() {
+      Array.prototype.forEach.call(el.querySelectorAll(".col-chip input"), function (cb) {
+        cb.addEventListener("change", function () {
+          var en = getEnabled();
+          if (cb.checked) { if (en.indexOf(cb.value) === -1) en.push(cb.value); }
+          else { en = en.filter(function (x) { return x !== cb.value; }); }
+          setEnabled(en);
+          var lbl = cb.parentNode; if (lbl) lbl.classList.toggle("on", cb.checked);
+          fireChange();
+        });
+      });
+      var cfg = el.querySelector(".col-config");
+      if (cfg) cfg.addEventListener("click", showManager);
+    }
+    function render(packages, msg) {
+      var enabled = getEnabled();
+      var chips = packages.map(function (p) { return chip(p, enabled.indexOf(p.id) !== -1); }).join("");
+      el.innerHTML =
+        '<span class="collections-bar-label">🔒 Private collections</span>' +
+        (chips || '<span class="collections-bar-empty">' + esc(msg || ("none in " + c.owner + "/" + c.repo)) + '</span>') +
+        '<button class="col-config btn small" title="Configure collections" aria-label="Configure">⚙</button>';
+      wire();
+    }
+
+    if (!c.owner || !c.repo) {
+      el.innerHTML = '<span class="collections-bar-label">🔒 Private collections</span>' +
+        '<button class="col-config btn small">Set up…</button>';
+      el.querySelector(".col-config").addEventListener("click", showManager);
+      return;
+    }
+
+    // Instant paint from cached titles, then refresh from the API.
+    var cached = getTitleMap();
+    var cachedPkgs = Object.keys(cached).map(function (id) { return { id: id, title: cached[id] }; });
+    if (cachedPkgs.length) render(cachedPkgs);
+    else el.innerHTML = '<span class="collections-bar-label">🔒 Private collections</span>' +
+      '<span class="collections-bar-empty">loading…</span>';
+
+    listPackages().then(function (res) {
+      if (res.ok) render(res.packages);
+      else if (!cachedPkgs.length) render([], codeToMessage(res));
+    });
+  }
+
   // ── Manager modal ───────────────────────────────────────────────────────────
 
   function codeToMessage(res) {
@@ -351,6 +437,9 @@
     listPackages:    listPackages,
     loadPackage:     loadPackage,
     loadEnabled:     loadEnabled,
+    loadIndex:       loadIndex,
+    fetchRecordXml:  fetchRecordXml,
+    mountBar:        mountBar,
     showManager:     showManager,
     hideManager:     hideManager,
     onChange:        onChange

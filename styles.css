@@ -135,6 +135,24 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .col-pkg > span { flex: 1 1 auto; text-align: left; }
 .col-pkg code { font-size: 0.74rem; color: var(--muted); flex: 0 0 auto; }
 
+/* ---- prominent collections bar (catalog / authorities / bibliography) ---- */
+.collections-bar {
+  display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+  padding: 0.5rem 1.2rem; background: #fdf6f6;
+  border-bottom: 1px solid var(--line); font-size: 0.82rem;
+}
+.collections-bar-label { font-weight: 700; color: var(--accent); white-space: nowrap; }
+.collections-bar-empty { color: var(--muted); font-style: italic; }
+.col-chip {
+  display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer;
+  padding: 0.16rem 0.6rem; border: 1px solid var(--line); border-radius: 14px;
+  background: var(--bg); user-select: none;
+}
+.col-chip:hover { border-color: var(--accent); }
+.col-chip.on { border-color: var(--accent); background: #fff; color: var(--accent); font-weight: 600; }
+.col-chip input[type="checkbox"] { width: auto; margin: 0; flex: 0 0 auto; }
+.collections-bar .col-config { margin-left: auto; }
+
 /* ---- hint bar "or" divider ---- */
 .hint-or {
   color: var(--muted); font-style: italic; font-size: 0.78rem; padding: 0 0.1rem;

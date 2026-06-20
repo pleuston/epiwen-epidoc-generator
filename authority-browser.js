@@ -8,6 +8,8 @@
   var RAW    = "https://raw.githubusercontent.com/" + OWNER + "/" + REPO + "/" + BRANCH + "/";
 
   var allRecords   = [];
+  var _publicRecords  = [];
+  var _privateRecords = [];
   var currentFilter = "all";
   var currentQuery  = "";
   var selectedRec   = null;
@@ -38,12 +40,24 @@
         return r.json();
       })
       .then(function (data) {
-        allRecords = data;
-        renderList();
+        _publicRecords = data;
+        mergePrivate();
       })
       .catch(function (err) {
         list.innerHTML = '<div class="catalog-loading">Error loading index: ' + esc(err.message) + '</div>';
       });
+  }
+
+  // Merge private authority entries from enabled collections (re-run on toggle).
+  function mergePrivate() {
+    if (!window.EpiCollections) { allRecords = _publicRecords.slice(); renderList(); return; }
+    EpiCollections.loadIndex("authority")
+      .then(function (priv) {
+        _privateRecords = priv || [];
+        allRecords = _publicRecords.concat(_privateRecords);
+        renderList();
+      })
+      .catch(function () { allRecords = _publicRecords.slice(); renderList(); });
   }
 
   // ── Filter + render ───────────────────────────────────────────────────────
@@ -88,7 +102,12 @@
 
     var nameEl = document.createElement("div");
     nameEl.className = "catalog-title";
-    nameEl.textContent = rec.display_name || rec.id;
+    if (rec.source === "private") {
+      nameEl.innerHTML = '<span class="catalog-badge-private" title="Private collection">🔒 ' +
+        esc(rec.collectionTitle || rec.collection || "private") + '</span> ' + esc(rec.display_name || rec.id);
+    } else {
+      nameEl.textContent = rec.display_name || rec.id;
+    }
     info.appendChild(nameEl);
 
     // Sub-line: forms + type
@@ -193,7 +212,7 @@
       openInEditor(rec);
     });
     document.getElementById("auth-copy-btn").addEventListener("click", function () {
-      fetchXml(rec.id, function (xml) {
+      fetchXml(rec, function (xml) {
         navigator.clipboard.writeText(xml)
           .then(function () { toast("XML copied to clipboard"); })
           .catch(function (e) { toast("Copy failed: " + e.message, true); });
@@ -203,15 +222,14 @@
 
   // ── Edit ──────────────────────────────────────────────────────────────────
 
-  function fetchXml(id, cb) {
-    var url = RAW + "authority/" + encodeURIComponent(id) + ".xml";
-    fetch(url)
-      .then(function (r) {
-        if (!r.ok) throw new Error("HTTP " + r.status + " — " + url);
-        return r.text();
-      })
-      .then(cb)
-      .catch(function (err) { toast("Could not load XML: " + err.message, true); });
+  function fetchXml(rec, cb) {
+    var relPath = "authority/" + encodeURIComponent(rec.id) + ".xml";
+    var p = (rec.source === "private" && window.EpiCollections)
+      ? EpiCollections.fetchRecordXml(rec.collection, relPath)
+      : fetch(RAW + relPath).then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status); return r.text();
+        });
+    p.then(cb).catch(function (err) { toast("Could not load XML: " + err.message, true); });
   }
 
   function openInEditor(rec) {
@@ -237,6 +255,11 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     loadIndex();
+
+    if (window.EpiCollections) {
+      EpiCollections.mountBar(document.getElementById("collections-bar"));
+      EpiCollections.onChange(mergePrivate);
+    }
 
     document.getElementById("auth-search").addEventListener("input", function () {
       currentQuery = this.value.trim();
