@@ -29,6 +29,24 @@
 
   function modern(url, extra) { return L.tileLayer(url, Object.assign({ zIndex: 1 }, extra)); }
 
+  // 中國歷史地圖集 — CCTS / Academia Sinica (譚其驤) historical base maps.
+  var CCTS_ATTR = '譚其驤 <i>中國歷史地圖集</i> · <a href="https://gis.sinica.edu.tw/ccts/" target="_blank" rel="noopener">CCTS</a>, Academia Sinica';
+  function ccts(id, extra) {
+    return L.tileLayer(
+      "https://gis.sinica.edu.tw/ccts/file-exists.php?img=" + id + "-png-{z}-{x}-{y}",
+      Object.assign({ maxNativeZoom: 10, maxZoom: 18, attribution: CCTS_ATTR }, extra || {})
+    );
+  }
+  var CCTS_DYN = [
+    ["bc0210", "秦 · 210 BCE"],     ["bc0007", "西漢 · 7 BCE"],
+    ["ad0140", "東漢 · 140"],        ["ad0262", "三國 · 262"],
+    ["ad0281", "西晉 · 281"],        ["ad0382", "東晉 · 382"],
+    ["ad0497", "南北朝 · 497"],      ["ad0612", "隋 · 612"],
+    ["ad0741", "唐 · 741"],          ["ad1111", "北宋 · 1111"],
+    ["ad1208", "南宋 · 1208"],       ["ad1330", "元 · 1330"],
+    ["ad1582", "明 · 1582"],         ["ad1820", "清 · 1820"]
+  ];
+
   // 中國歷史地圖集 — 左图右史 / OSGeo.cn transparent period tiles.
   var OSGEO_ATTR = '<a href="https://history-map.osgeo.cn" target="_blank" rel="noopener">中國歷史地圖集 · 左图右史</a> · OSGeo.cn';
   function osgeo(uid) {
@@ -156,8 +174,15 @@
           { label: "Terrain", layer: topo },
           { label: "Light", layer: light }
         ] },
+        { kind: "base", title: "Historical atlas", source: "Tan Qixiang · CCTS",
+          collapsible: true, collapsed: true,
+          layers: CCTS_DYN.map(function (d) { return { label: d[1], layer: ccts(d[0], { zIndex: 1 }) }; }) },
         { kind: "overlay", title: "Site catalogue", layers: [
           { label: "Sites", layer: cluster, on: true }
+        ] },
+        { kind: "overlay", title: "Tang overlays", source: "CCTS", layers: [
+          { label: "Circuits & prefectures", layer: ccts("Tang_Admin", { zIndex: 5, opacity: 0.8 }) },
+          { label: "Traffic routes", layer: ccts("Tang_TrafficRoute", { zIndex: 6, opacity: 0.8 }) }
         ] }
       ];
       if (atlasTree && atlasTree.length) {
