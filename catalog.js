@@ -289,10 +289,15 @@
     // Facsimile image(s) + IIIF viewer (zoom · page-turn · compare via Mirador)
     if ((rec.images && rec.images.length) || rec.manifest) {
       html += '<div class="hp-images">' +
-        (rec.images || []).map(function (u) {
-          return '<a href="' + esc(u) + '" target="_blank" rel="noopener" title="open full image ↗">' +
-            '<img class="hp-img" src="' + esc(u) + '" loading="lazy" alt="' + esc(rec.titleEn || "rubbing") + '"></a>';
-        }).join("") +
+        // With a manifest: an inline multi-page navigator (mounted in showPreview).
+        // Without: the static facsimile image(s).
+        (rec.manifest
+          ? '<div class="rubview" data-manifest="' + esc(rec.manifest) +
+            '" data-first="' + esc((rec.images && rec.images[0]) || "") + '"></div>'
+          : (rec.images || []).map(function (u) {
+              return '<a href="' + esc(u) + '" target="_blank" rel="noopener" title="open full image ↗">' +
+                '<img class="hp-img" src="' + esc(u) + '" loading="lazy" alt="' + esc(rec.titleEn || "rubbing") + '"></a>';
+            }).join("")) +
         (rec.manifest ? '<a class="hp-viewer btn small primary" href="viewer.html?manifest=' +
           encodeURIComponent(rec.manifest) + '" target="_blank" rel="noopener">🔍 Open in IIIF viewer — zoom · turn pages</a>' : "") +
         (rec.manifest ? '<button class="hp-compare btn small" type="button" data-manifest="' + esc(rec.manifest) + '">' +
@@ -527,6 +532,9 @@
     document.getElementById("preview-out").textContent = rec.rawXml || "";
     currentXml = rec.rawXml || "";
 
+    var rv = view.querySelector(".rubview");
+    if (rv) mountRubbingViewer(rv);
+
     var hc = view.querySelector(".hp-compare");
     if (hc) hc.addEventListener("click", function () {
       var m = hc.getAttribute("data-manifest");
@@ -653,6 +661,102 @@
     if (rp.indexOf("sinica") !== -1 || rp.indexOf("philology") !== -1) return "IHP";
     return rec.repository || "—";
   }
+  // ---- inline multi-page rubbing viewer (reads the IIIF manifest) ----------
+  var _manifestCache = {};
+  function iiifLabel(l) {
+    if (!l) return "";
+    if (typeof l === "string") return l;
+    if (Array.isArray(l)) return l.map(iiifLabel).join(" ");
+    return Object.keys(l).map(function (k) { return [].concat(l[k]).join(" "); }).join(" ").trim();
+  }
+  function parseManifestPages(m) {
+    var canvases = m.items ||
+      (m.sequences && m.sequences[0] && m.sequences[0].canvases) || [];
+    return canvases.map(function (cv) {
+      var service = "", full = "", thumb = "";
+      try {                                  // IIIF v3
+        var body = cv.items[0].items[0].body;
+        full = body.id || "";
+        var svc = body.service; svc = Array.isArray(svc) ? svc[0] : svc;
+        if (svc) service = svc.id || svc["@id"] || "";
+      } catch (e) {}
+      if (!service && !full && cv.images) {  // IIIF v2 fallback
+        try {
+          var res = cv.images[0].resource;
+          full = res["@id"] || res.id || "";
+          var s2 = res.service; s2 = Array.isArray(s2) ? s2[0] : s2;
+          if (s2) service = s2["@id"] || s2.id || "";
+        } catch (e2) {}
+      }
+      if (cv.thumbnail) {
+        var t = Array.isArray(cv.thumbnail) ? cv.thumbnail[0] : cv.thumbnail;
+        thumb = (t && (t.id || t["@id"])) || "";
+      }
+      return { label: iiifLabel(cv.label), service: service, full: full, thumb: thumb };
+    }).filter(function (p) { return p.service || p.full; });
+  }
+  function pageImg(p, h) {
+    return p.service ? (p.service + "/full/," + h + "/0/default.jpg") : p.full;
+  }
+  function fetchManifestPages(url) {
+    if (_manifestCache[url]) return Promise.resolve(_manifestCache[url]);
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (m) {
+      var pages = parseManifestPages(m);
+      _manifestCache[url] = pages;
+      return pages;
+    });
+  }
+  function mountRubbingViewer(el) {
+    var manifest = el.getAttribute("data-manifest");
+    var first = el.getAttribute("data-first") || "";
+    var pages = first ? [{ service: "", full: first, thumb: first, label: "" }] : [];
+    var idx = 0;
+    el.innerHTML =
+      '<div class="rubview-stage">' +
+        (first ? '<img class="rubview-img" src="' + esc(first) + '" alt="page">' : '<span class="rubview-loading">loading pages…</span>') +
+      '</div>' +
+      '<div class="rubview-ctrls">' +
+        '<button class="rubview-prev btn small" title="previous page" type="button">◀</button>' +
+        '<span class="rubview-count">' + (pages.length ? "1 / …" : "…") + '</span>' +
+        '<button class="rubview-next btn small" title="next page" type="button">▶</button>' +
+      '</div>' +
+      '<div class="rubview-strip"></div>';
+    var img   = el.querySelector(".rubview-img");
+    var stage = el.querySelector(".rubview-stage");
+    var count = el.querySelector(".rubview-count");
+    var strip = el.querySelector(".rubview-strip");
+    function show(i) {
+      if (i < 0 || i >= pages.length) return;
+      idx = i;
+      var src = pageImg(pages[i], 800);
+      if (!img) { stage.innerHTML = '<img class="rubview-img" src="' + esc(src) + '" alt="page">'; img = stage.querySelector(".rubview-img"); }
+      else img.src = src;
+      count.textContent = (i + 1) + " / " + pages.length;
+      var thumbs = strip.children;
+      for (var k = 0; k < thumbs.length; k++) thumbs[k].classList.toggle("on", k === i);
+      if (thumbs[i]) thumbs[i].scrollIntoView({ block: "nearest", inline: "center" });
+    }
+    el.querySelector(".rubview-prev").addEventListener("click", function () { show(idx - 1); });
+    el.querySelector(".rubview-next").addEventListener("click", function () { show(idx + 1); });
+    if (pages.length) count.textContent = "1 / …";
+    fetchManifestPages(manifest).then(function (p) {
+      if (!p.length) return;
+      pages = p;
+      strip.innerHTML = pages.map(function (pg, i) {
+        var t = pg.thumb || pageImg(pg, 90);
+        return '<img class="rubview-thumb' + (i === 0 ? " on" : "") + '" data-i="' + i +
+          '" loading="lazy" src="' + esc(t) + '" alt="' + esc(pg.label || ("p" + (i + 1))) + '" title="' + esc(pg.label || ("page " + (i + 1))) + '">';
+      }).join("");
+      Array.prototype.forEach.call(strip.querySelectorAll(".rubview-thumb"), function (t) {
+        t.addEventListener("click", function () { show(parseInt(t.getAttribute("data-i"), 10)); });
+      });
+      show(0);
+    }).catch(function () { if (pages.length) count.textContent = "1 / 1"; });
+  }
+
   // ---- side-by-side comparison basket (Mirador) ----------------------------
   function compareGet() {
     try { var a = JSON.parse(sessionStorage.getItem("epiwen_compare") || "[]"); return Array.isArray(a) ? a : []; }
@@ -675,8 +779,22 @@
     bar.innerHTML =
       '<span class="compare-count">⊟ Comparison: ' + a.length + ' rubbing' + (a.length > 1 ? "s" : "") + '</span>' +
       '<a class="btn small primary" href="' + esc(href) + '" target="_blank" rel="noopener">Open side by side ↗</a>' +
+      '<button class="btn small" id="compare-detach" type="button" title="Pop out into a separate window">⧉ Detach</button>' +
+      '<button class="btn small" id="compare-save" type="button" title="Save this comparison to your favorites">★ Save</button>' +
+      '<a class="btn small" href="favorites.html">Favorites</a>' +
       '<button class="btn small" id="compare-clear" type="button">clear</button>';
     bar.querySelector("#compare-clear").addEventListener("click", function () { compareSet([]); });
+    bar.querySelector("#compare-detach").addEventListener("click", function () {
+      if (window.EpiFavorites) EpiFavorites.detach(a);
+    });
+    bar.querySelector("#compare-save").addEventListener("click", function () {
+      if (!window.EpiFavorites) return;
+      var name = prompt("Name this comparison:", a.length + "-rubbing comparison");
+      if (name === null) return;
+      EpiFavorites.save(name, a);
+      var b = bar.querySelector("#compare-save");
+      if (b) { b.textContent = "★ Saved"; setTimeout(function () { b.textContent = "★ Save"; }, 1800); }
+    });
   }
 
   function appendFoldedRubbings(item, objName) {
@@ -761,23 +879,20 @@
     var objLink = info.querySelector(".catalog-obj-link");
     if (objLink) {
       objLink.addEventListener("click", function (e) {
-        e.preventDefault();
+        e.preventDefault(); e.stopPropagation();
         history.pushState({ tab: "objects", file: rec.name }, "", objLink.href);
         renderByTab("objects", rec.name);
       });
     }
 
-    var actions = document.createElement("div");
-    actions.className = "catalog-actions";
-
-    var previewBtn = document.createElement("button");
-    previewBtn.type = "button"; previewBtn.className = "btn small";
-    previewBtn.textContent = "Preview";
-    previewBtn.addEventListener("click", function () { showPreview(rec, item); });
-
-    actions.appendChild(previewBtn);
+    // entry itself selectable (replaces the old Preview button)
+    row.classList.add("selectable");
+    row.setAttribute("role", "button"); row.setAttribute("tabindex", "0");
+    row.addEventListener("click", function () { showPreview(rec, item); });
+    row.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showPreview(rec, item); }
+    });
     row.appendChild(info);
-    row.appendChild(actions);
     item.appendChild(row);
     appendFoldedRubbings(item, rec.name);
     return item;
@@ -815,25 +930,26 @@
           '</span>'
         : '');
 
+    row.classList.add("selectable");
+    row.setAttribute("role", "button"); row.setAttribute("tabindex", "0");
+    row.addEventListener("click", function () { showPreview(rec, item); });
+    row.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showPreview(rec, item); }
+    });
+
     var actions = document.createElement("div");
     actions.className = "catalog-actions";
-
-    var previewBtn = document.createElement("button");
-    previewBtn.type = "button"; previewBtn.className = "btn small";
-    previewBtn.textContent = "Preview";
-    previewBtn.addEventListener("click", function () { showPreview(rec, item); });
 
     var copyBtn = document.createElement("button");
     copyBtn.type = "button"; copyBtn.className = "btn small";
     copyBtn.textContent = "Copy XML";
-    copyBtn.addEventListener("click", function () { flashCopy(rec.rawXml, copyBtn); });
+    copyBtn.addEventListener("click", function (e) { e.stopPropagation(); flashCopy(rec.rawXml, copyBtn); });
 
     var editBtn = document.createElement("button");
     editBtn.type = "button"; editBtn.className = "btn small primary";
     editBtn.textContent = "Edit";
-    editBtn.addEventListener("click", function () { openInRubbingEditor(rec); });
+    editBtn.addEventListener("click", function (e) { e.stopPropagation(); openInRubbingEditor(rec); });
 
-    actions.appendChild(previewBtn);
     actions.appendChild(copyBtn);
     actions.appendChild(editBtn);
     row.appendChild(info);
@@ -889,9 +1005,39 @@
     return records.filter(function (r) { return r.editor === currentUsername; });
   }
 
-  /* Compose source + mine filters. */
+  /* The site an inscription belongs to (origPlace, else the repository minus its "(in situ …)" tail). */
+  function recSite(rec) {
+    return (rec.origPlace || rec.repository || "").replace(/\s*[\(（][^)）]*[\)）]\s*$/, "").trim();
+  }
+  function applySiteFilter(records) {
+    if (siteFilter === "all") return records;
+    return records.filter(function (r) { return recSite(r) === siteFilter; });
+  }
+
+  /* Build the "filter by site" <select> (facet over the currently sourced records). */
+  function siteBar(records) {
+    var base = applyMineFilter(applySourceFilter(records));
+    var counts = {};
+    base.forEach(function (r) { var s = recSite(r); if (s) counts[s] = (counts[s] || 0) + 1; });
+    var sites = Object.keys(counts).sort();
+    if (siteFilter !== "all" && sites.indexOf(siteFilter) === -1) siteFilter = "all";
+    if (sites.length < 2) return "";
+    return '<div class="rub-sourcebar">Site 遗址: ' +
+      '<select id="site-filter" class="catalog-searchbox" style="max-width:280px">' +
+      '<option value="all">All sites (' + base.length + ')</option>' +
+      sites.map(function (s) {
+        return '<option value="' + esc(s) + '"' + (s === siteFilter ? " selected" : "") +
+          '>' + esc(s) + ' (' + counts[s] + ')</option>';
+      }).join("") + '</select></div>';
+  }
+  function wireSiteFilter() {
+    var sel = document.getElementById("site-filter");
+    if (sel) sel.addEventListener("change", function () { siteFilter = this.value; renderByTab(currentTab); });
+  }
+
+  /* Compose source + mine + site filters. */
   function applyFilters(records) {
-    return applyMineFilter(applySourceFilter(records));
+    return applySiteFilter(applyMineFilter(applySourceFilter(records)));
   }
 
   function updateMineLabel(filtered, total) {
@@ -914,15 +1060,18 @@
     var list = document.getElementById("catalog-list");
     var filtered = applyFilters(records);
     updateMineLabel(filtered.length, records.length);
+    var bar = siteBar(records);
     if (!filtered.length) {
-      list.innerHTML = '<div class="catalog-empty">' +
-        (showMine && currentUsername
+      list.innerHTML = bar + '<div class="catalog-empty">' +
+        (siteFilter !== "all" ? 'No records at “' + esc(siteFilter) + '”.'
+          : showMine && currentUsername
           ? 'No records by @' + esc(currentUsername) + ' yet. <a href="editor.html">Add the first →</a>'
           : 'No records yet. <a href="editor.html">Add the first inscription →</a>') +
         '</div>';
+      wireSiteFilter();
       return;
     }
-    list.innerHTML = "";
+    list.innerHTML = bar;
     filtered.forEach(function (rec) {
       var item = buildItem(rec);
       list.appendChild(item);
@@ -933,6 +1082,7 @@
         }, 0);
       }
     });
+    wireSiteFilter();
   }
 
   function renderInscriptionsCatalog() {
@@ -951,13 +1101,18 @@
 
     updateMineLabel(items.length, totalParts);
 
+    var bar = siteBar(nonRubbing);
     if (!items.length) {
-      list.innerHTML = '<div class="catalog-empty">No inscriptions found.</div>';
+      list.innerHTML = bar + '<div class="catalog-empty">' +
+        (siteFilter !== "all" ? 'No inscriptions at “' + esc(siteFilter) + '”.' : 'No inscriptions found.') + '</div>';
+      wireSiteFilter();
       return;
     }
+    list.innerHTML = bar;
     items.forEach(function (it) {
       list.appendChild(buildInscriptionItem(it.rec, it.part, it.pIdx));
     });
+    wireSiteFilter();
   }
 
   function renderRubbingsCatalog(records) {
@@ -993,9 +1148,69 @@
       wireRubSource();
       return;
     }
-    list.innerHTML = selHtml;
-    shown.forEach(function (rec) { list.appendChild(buildRubbingItem(rec)); });
-    wireRubSource();
+    var viewBar = '<div class="rub-viewtoggle">View: ' +
+      '<button type="button" class="btn small' + (rubViewMode === "flat" ? " primary" : "") + '" data-rubview="flat">Every rubbing</button> ' +
+      '<button type="button" class="btn small' + (rubViewMode === "compact" ? " primary" : "") + '" data-rubview="compact">Compact (by inscription)</button></div>';
+    list.innerHTML = selHtml + viewBar;
+    if (rubViewMode === "compact") {
+      // draw the different collections together under the same inscription
+      var groups = {};
+      shown.forEach(function (r) {
+        var k = r.surrogateOf || "— unlinked";
+        (groups[k] = groups[k] || []).push(r);
+      });
+      Object.keys(groups).sort().forEach(function (k) {
+        var g = document.createElement("div"); g.className = "catalog-item";
+        var head = document.createElement("div"); head.className = "catalog-rubbings-head";
+        head.appendChild(document.createTextNode(
+          (k === "— unlinked" ? "Unlinked rubbings" : k) + " (" + groups[k].length + ")"));
+        // draw the collections together for comparison: one link opens them all side by side
+        var withManifest = groups[k].filter(function (r) { return r.manifest; });
+        if (k !== "— unlinked" && withManifest.length >= 2) {
+          var cmp = document.createElement("a");
+          cmp.className = "rub-compare-btn";
+          cmp.textContent = "⊟ Compare " + withManifest.length + " side by side";
+          cmp.href = "viewer.html?" + withManifest.map(function (r) {
+            return "manifest=" + encodeURIComponent(r.manifest);
+          }).join("&");
+          cmp.target = "_blank"; cmp.rel = "noopener";
+          head.appendChild(cmp);
+        }
+        g.appendChild(head);
+        var ul = document.createElement("ul"); ul.className = "catalog-rubbings";
+        groups[k].forEach(function (rub) {
+          var li = document.createElement("li"); li.className = "catalog-rubbing selectable";
+          var hasImg = rub.images && rub.images.length;
+          li.innerHTML = '<span class="rub-icon">' + (hasImg ? "🖼" : "🔎") + '</span>' +
+            '<span class="rub-title">' + esc(rub.titleEn || rub.name) + '</span>' +
+            '<span class="rub-src">' + esc(rubbingSourceLabel(rub)) + '</span>' +
+            (rub.manifest ? '<button class="rub-cmp' + (compareHas(rub.manifest) ? " on" : "") +
+              '" type="button" title="add to side-by-side comparison">' +
+              (compareHas(rub.manifest) ? "✓" : "⊕") + '</button>' : '');
+          li.addEventListener("click", function () { showPreview(rub, g); });
+          if (rub.manifest) {
+            var cb = li.querySelector(".rub-cmp");
+            cb.addEventListener("click", function (e) {
+              e.stopPropagation();
+              compareToggle(rub.manifest);
+              cb.classList.toggle("on", compareHas(rub.manifest));
+              cb.textContent = compareHas(rub.manifest) ? "✓" : "⊕";
+            });
+          }
+          ul.appendChild(li);
+        });
+        g.appendChild(ul); list.appendChild(g);
+      });
+    } else {
+      shown.forEach(function (rec) { list.appendChild(buildRubbingItem(rec)); });
+    }
+    wireRubSource(); wireRubView();
+  }
+
+  function wireRubView() {
+    Array.prototype.forEach.call(document.querySelectorAll("[data-rubview]"), function (b) {
+      b.addEventListener("click", function () { rubViewMode = this.dataset.rubview; renderByTab("rubbings"); });
+    });
   }
 
   function wireRubSource() {

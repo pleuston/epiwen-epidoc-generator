@@ -13,6 +13,11 @@
       }
       #bar a { color: #fff; text-decoration: none; }
       #bar .brand { font-weight: 700; }
+      #bar button {
+        background: #4a3f43; color: #fff; border: 1px solid #6b5b60; border-radius: 5px;
+        padding: 0.18rem 0.55rem; font-size: 0.78rem; cursor: pointer;
+      }
+      #bar button:hover { background: #5c4e53; }
       #bar .hint { color: #c7b9bc; margin-left: auto; font-size: 0.74rem; }
       #mirador { position: fixed; top: 38px; left: 0; right: 0; bottom: 0; }
       #empty, #loading {
@@ -27,6 +32,10 @@
     <div id="bar">
       <a class="brand" href="catalog.html?tab=rubbings">← Epiwen</a>
       <span>IIIF viewer</span>
+      <span id="v-actions" style="display:none; gap:0.4rem; align-items:center;">
+        <button id="v-detach" type="button" title="Pop out into a separate window">⧉ Detach</button>
+        <button id="v-save" type="button" title="Save this comparison to your favorites">★ Save to favorites</button>
+      </span>
       <span class="hint">drag tabs side by side to compare · scroll to zoom · use the page list to turn pages</span>
     </div>
     <div id="loading">Loading IIIF viewer…</div>
@@ -36,6 +45,7 @@
     </div>
     <div id="mirador"></div>
 
+    <script src="favorites.js"></script>
     <script>
       (function () {
         var params = new URLSearchParams(window.location.search);
@@ -45,6 +55,22 @@
           document.getElementById("empty").style.display = "flex";
           return;
         }
+        // toolbar: detach into a separate window + save this comparison to favorites
+        var actions = document.getElementById("v-actions");
+        if (actions) actions.style.display = "flex";
+        var detachBtn = document.getElementById("v-detach");
+        if (detachBtn) detachBtn.addEventListener("click", function () {
+          if (window.EpiFavorites) EpiFavorites.detach(manifests);
+        });
+        var saveBtn = document.getElementById("v-save");
+        if (saveBtn) saveBtn.addEventListener("click", function () {
+          if (!window.EpiFavorites) return;
+          var name = prompt("Name this comparison:", manifests.length + "-rubbing comparison");
+          if (name === null) return;
+          EpiFavorites.save(name, manifests);
+          saveBtn.textContent = "★ Saved";
+          setTimeout(function () { saveBtn.textContent = "★ Save to favorites"; }, 1800);
+        });
         // Lay windows out side by side in a mosaic so comparisons are immediate.
         var windows = manifests.map(function (m) { return { manifestId: m }; });
         var s = document.createElement("script");

@@ -18,6 +18,7 @@
         <a href="catalog.html"                 class="sitenav-link" data-tab="objects">Objects</a>
         <a href="catalog.html?tab=inscriptions" class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
         <a href="catalog.html?tab=rubbings"    class="sitenav-link" data-tab="rubbings">Rubbings</a>
+        <a href="favorites.html"               class="sitenav-link">Favorites</a>
         <a href="authorities.html"             class="sitenav-link">Authorities</a>
         <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
         <a href="docs.html"                    class="sitenav-link active">Docs</a>
@@ -162,6 +163,18 @@
       </section>
 
       <section class="docs-section">
+        <h2>Catalog, comparing rubbings &amp; favorites</h2>
+        <ul class="docs-list">
+          <li><strong>Selectable entries</strong> — click a catalog row (or focus it and press Enter/Space) to open its preview. The row itself is the control — there is no separate <em>Preview</em> button. <em>Copy XML</em> and <em>Edit</em> stay as buttons and don't trigger the row.</li>
+          <li><strong>Site filter</strong> — on the Objects and Inscriptions tabs, a <em>Site 遗址</em> dropdown narrows the list to the inscriptions belonging to one site (built from each record's <code>&lt;origPlace&gt;</code>, falling back to <code>&lt;repository&gt;</code>).</li>
+          <li><strong>Two rubbing views</strong> — a toggle on the Rubbings tab: <em>Every rubbing</em> (flat, one row per manifest) or <em>Compact (by inscription)</em>, which draws the different collections together under the same inscription (grouped by <code>surrogateOf</code>).</li>
+          <li><strong>IIIF comparison viewer</strong> (<code>viewer.html</code>, Mirador) — add rubbings to the floating comparison bar, then <strong>Open side by side</strong>; each manifest opens as a pane in a mosaic for character-by-character comparison.</li>
+          <li><strong>Detach</strong> — <strong>⧉ Detach</strong> pops the viewer out of the catalog window into a separate, freely-resizable window. Available on the comparison bar, inside the viewer, and on every saved favorite.</li>
+          <li><strong>Favorites</strong> (<code>favorites.html</code>) — <strong>★ Save to favorites</strong> stores the current comparison (a named set of manifests) per-browser in <code>localStorage</code>. The Favorites page re-opens, detaches, or deletes each saved comparison. Personal and offline — no server round-trip.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section">
         <h2>Scope</h2>
         <p>
           The tool covers the <strong>teiHeader + physical description + edition skeleton</strong> —
@@ -194,7 +207,10 @@
             <tr><td><code>vocab.js</code></td><td>Controlled vocabularies + reign-era table</td></tr>
             <tr><td><code>generator.js</code></td><td>Pure <code>buildEpiDoc(data)</code> serializer — runs in browser and Node</td></tr>
             <tr><td><code>app.js</code></td><td>Schema-driven form, state, live preview</td></tr>
-            <tr><td><code>catalog.js</code></td><td>GitHub API loader + catalog renderer</td></tr>
+            <tr><td><code>catalog.js</code></td><td>GitHub API loader + catalog renderer (site filter, rubbing views, comparison bar)</td></tr>
+            <tr><td><code>viewer.html</code></td><td>IIIF (Mirador) comparison viewer — one pane per <code>?manifest=</code>; detachable</td></tr>
+            <tr><td><code>favorites.html</code></td><td>Personal saved comparisons</td></tr>
+            <tr><td><code>favorites.js</code></td><td>Saved-comparison store (<code>localStorage</code>) shared by the catalog, viewer, and Favorites page</td></tr>
             <tr><td><code>modal.js</code></td><td>Shared workflow modal (injected into every page)</td></tr>
             <tr><td><code>records/</code></td><td>Contributed EpiDoc XML files (merged pull requests)</td></tr>
           </tbody>
