@@ -260,9 +260,13 @@
                 localStorage.setItem(LS.name,     user.name       || "");
                 /* Also pre-fill the github.js settings keys so the editor
                    picks up the same token without re-entering settings. */
+                /* migrate the pre-rename data-repo name to epiwen-data */
+                if (localStorage.getItem("epiwen_gh_repo") === "epiwen-epidoc-generator") {
+                  localStorage.setItem("epiwen_gh_repo", "epiwen-data");
+                }
                 if (!localStorage.getItem("epiwen_gh_owner")) {
                   localStorage.setItem("epiwen_gh_owner",  "pleuston");
-                  localStorage.setItem("epiwen_gh_repo",   "epiwen-epidoc-generator");
+                  localStorage.setItem("epiwen_gh_repo",   "epiwen-data");
                   localStorage.setItem("epiwen_gh_branch", "main");
                   localStorage.setItem("epiwen_gh_path",   "records/");
                 }
