@@ -532,6 +532,7 @@
 
     var rv = view.querySelector(".rubview");
     if (rv) mountRubbingViewer(rv);
+    else if (_rubOSD) { try { _rubOSD.destroy(); } catch (e) {} _rubOSD = null; }
 
     var hc = view.querySelector(".hp-compare");
     if (hc) hc.addEventListener("click", function () {
@@ -661,6 +662,20 @@
   }
   // ---- inline multi-page rubbing viewer (reads the IIIF manifest) ----------
   var _manifestCache = {};
+  var _osdPromise = null, _rubOSD = null;
+  // Lazy-load OpenSeadragon (deep-zoom) from CDN only when a preview is opened.
+  function ensureOSD() {
+    if (window.OpenSeadragon) return Promise.resolve(window.OpenSeadragon);
+    if (_osdPromise) return _osdPromise;
+    _osdPromise = new Promise(function (resolve, reject) {
+      var s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/openseadragon.min.js";
+      s.onload  = function () { window.OpenSeadragon ? resolve(window.OpenSeadragon) : reject(new Error("OSD missing")); };
+      s.onerror = function () { _osdPromise = null; reject(new Error("OSD load failed")); };
+      document.head.appendChild(s);
+    });
+    return _osdPromise;
+  }
   function iiifLabel(l) {
     if (!l) return "";
     if (typeof l === "string") return l;
@@ -707,52 +722,108 @@
       return pages;
     });
   }
+  // Strip-first viewer: only the thumbnail strip shows at first; clicking a
+  // thumbnail opens a zoomable (OpenSeadragon) preview BELOW it, fit to window.
   function mountRubbingViewer(el) {
     var manifest = el.getAttribute("data-manifest");
-    var first = el.getAttribute("data-first") || "";
+    var first    = el.getAttribute("data-first") || "";
     var pages = first ? [{ service: "", full: first, thumb: first, label: "" }] : [];
-    var idx = 0;
+    var idx = -1, fellBack = {};
+
+    // Tear down any viewer left over from a previously-previewed record.
+    if (_rubOSD) { try { _rubOSD.destroy(); } catch (e) {} _rubOSD = null; }
+
     el.innerHTML =
-      '<div class="rubview-stage">' +
-        (first ? '<img class="rubview-img" src="' + esc(first) + '" alt="page">' : '<span class="rubview-loading">loading pages…</span>') +
-      '</div>' +
-      '<div class="rubview-ctrls">' +
-        '<button class="rubview-prev btn small" title="previous page" type="button">◀</button>' +
-        '<span class="rubview-count">' + (pages.length ? "1 / …" : "…") + '</span>' +
-        '<button class="rubview-next btn small" title="next page" type="button">▶</button>' +
-      '</div>' +
-      '<div class="rubview-strip"></div>';
-    var img   = el.querySelector(".rubview-img");
-    var stage = el.querySelector(".rubview-stage");
-    var count = el.querySelector(".rubview-count");
-    var strip = el.querySelector(".rubview-strip");
-    function show(i) {
+      '<div class="rubview-strip"><span class="rubview-loading">loading pages…</span></div>' +
+      '<div class="rubview-preview" hidden>' +
+        '<div class="rubview-toolbar">' +
+          '<button class="rubview-prev btn small" type="button" title="previous page">◀</button>' +
+          '<span class="rubview-count"></span>' +
+          '<button class="rubview-next btn small" type="button" title="next page">▶</button>' +
+          '<span class="rubview-zoom">' +
+            '<button class="rubview-zout btn small" type="button" title="zoom out">－</button>' +
+            '<button class="rubview-zin btn small"  type="button" title="zoom in">＋</button>' +
+            '<button class="rubview-zfit btn small" type="button" title="fit to window">⤢</button>' +
+          '</span>' +
+        '</div>' +
+        '<div class="rubview-osd"></div>' +
+      '</div>';
+
+    var strip   = el.querySelector(".rubview-strip");
+    var preview = el.querySelector(".rubview-preview");
+    var osdEl   = el.querySelector(".rubview-osd");
+    var count   = el.querySelector(".rubview-count");
+
+    function tileSourceFor(pg) {
+      return pg.service ? (pg.service.replace(/\/+$/, "") + "/info.json")
+                        : { type: "image", url: pg.full };
+    }
+    function zoom(f) { if (_rubOSD && _rubOSD.viewport) { _rubOSD.viewport.zoomBy(f); _rubOSD.viewport.applyConstraints(); } }
+
+    function openPage(i) {
       if (i < 0 || i >= pages.length) return;
       idx = i;
-      var src = pageImg(pages[i], 800);
-      if (!img) { stage.innerHTML = '<img class="rubview-img" src="' + esc(src) + '" alt="page">'; img = stage.querySelector(".rubview-img"); }
-      else img.src = src;
+      preview.hidden = false;                       // reveal the preview BELOW the strip
       count.textContent = (i + 1) + " / " + pages.length;
-      var thumbs = strip.children;
+      var thumbs = strip.querySelectorAll(".rubview-thumb");
       for (var k = 0; k < thumbs.length; k++) thumbs[k].classList.toggle("on", k === i);
       if (thumbs[i]) thumbs[i].scrollIntoView({ block: "nearest", inline: "center" });
+
+      var ts = tileSourceFor(pages[i]);
+      ensureOSD().then(function (OSD) {
+        if (_rubOSD && _rubOSD.element === osdEl) { _rubOSD.open(ts); return; }
+        if (osdEl._creating) { osdEl._pending = ts; return; }   // guard rapid pre-load clicks
+        osdEl._creating = true;
+        _rubOSD = OSD({
+          element: osdEl,
+          prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/",
+          showNavigationControl: false,
+          homeFillsViewer: false,                   // fit the whole image into the window
+          visibilityRatio: 1,
+          minZoomImageRatio: 0.9,
+          gestureSettingsMouse: { clickToZoom: false }, // scroll = zoom, drag = pan
+          tileSources: [ts]
+        });
+        _rubOSD.addHandler("open", function () {
+          osdEl._creating = false;
+          if (osdEl._pending) { var t = osdEl._pending; osdEl._pending = null; _rubOSD.open(t); }
+        });
+        _rubOSD.addHandler("open-failed", function () {   // tiled info.json blocked → plain image
+          var pg = pages[idx];
+          if (pg && pg.service && pg.full && !fellBack[idx]) {
+            fellBack[idx] = true; _rubOSD.open({ type: "image", url: pg.full });
+          }
+        });
+      }).catch(function () {                          // OSD CDN unreachable → static fit image
+        osdEl.innerHTML = '<img class="rubview-img" src="' + esc(pageImg(pages[idx], 1200)) + '" alt="page">';
+      });
     }
-    el.querySelector(".rubview-prev").addEventListener("click", function () { show(idx - 1); });
-    el.querySelector(".rubview-next").addEventListener("click", function () { show(idx + 1); });
-    if (pages.length) count.textContent = "1 / …";
-    fetchManifestPages(manifest).then(function (p) {
-      if (!p.length) return;
-      pages = p;
+
+    el.querySelector(".rubview-prev").addEventListener("click", function () { openPage(idx - 1); });
+    el.querySelector(".rubview-next").addEventListener("click", function () { openPage(idx + 1); });
+    el.querySelector(".rubview-zin").addEventListener("click",  function () { zoom(1.5); });
+    el.querySelector(".rubview-zout").addEventListener("click", function () { zoom(1 / 1.5); });
+    el.querySelector(".rubview-zfit").addEventListener("click", function () { if (_rubOSD && _rubOSD.viewport) _rubOSD.viewport.goHome(); });
+
+    function buildStrip() {
       strip.innerHTML = pages.map(function (pg, i) {
-        var t = pg.thumb || pageImg(pg, 90);
-        return '<img class="rubview-thumb' + (i === 0 ? " on" : "") + '" data-i="' + i +
-          '" loading="lazy" src="' + esc(t) + '" alt="' + esc(pg.label || ("p" + (i + 1))) + '" title="' + esc(pg.label || ("page " + (i + 1))) + '">';
+        var t = pg.thumb || pageImg(pg, 140);
+        return '<img class="rubview-thumb" data-i="' + i + '" loading="lazy" src="' + esc(t) +
+          '" alt="' + esc(pg.label || ("p" + (i + 1))) + '" title="' + esc(pg.label || ("page " + (i + 1))) + '">';
       }).join("");
       Array.prototype.forEach.call(strip.querySelectorAll(".rubview-thumb"), function (t) {
-        t.addEventListener("click", function () { show(parseInt(t.getAttribute("data-i"), 10)); });
+        t.addEventListener("click", function () { openPage(parseInt(t.getAttribute("data-i"), 10)); });
       });
-      show(0);
-    }).catch(function () { if (pages.length) count.textContent = "1 / 1"; });
+    }
+
+    fetchManifestPages(manifest).then(function (p) {
+      if (p.length) { pages = p; buildStrip(); }
+      else if (first) buildStrip();
+      else strip.innerHTML = '<span class="rubview-loading">no pages found</span>';
+    }).catch(function () {
+      if (first) buildStrip();
+      else strip.innerHTML = '<span class="rubview-loading">could not load pages</span>';
+    });
   }
 
   // ---- side-by-side comparison basket (Mirador) ----------------------------
