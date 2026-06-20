@@ -281,14 +281,29 @@
     if (!el) return;
     if (!token()) { el.style.display = "none"; return; }
     el.style.display = "";
-    var c = getConfig();
 
-    function chip(p, on) {
-      return '<label class="col-chip' + (on ? " on" : "") + '">' +
-        '<input type="checkbox" value="' + esc(p.id) + '"' + (on ? " checked" : "") + '>' +
-        '<span>🔒 ' + esc(p.title) + '</span></label>';
+    function pkgsFromCache() {
+      var t = getTitleMap();
+      return Object.keys(t).map(function (id) { return { id: id, title: t[id] }; })
+        .sort(function (a, b) { return a.id.localeCompare(b.id); });
     }
-    function wire() {
+    // Always-present action buttons: dedicated "Add collection" + config gear.
+    var ACTIONS =
+      '<button class="col-add btn small" type="button">＋ Add collection</button>' +
+      '<button class="col-config btn small" title="Configure collections" aria-label="Configure">⚙</button>';
+
+    function render(packages, msg) {
+      var enabled = getEnabled();
+      var chips = packages.map(function (p) {
+        var on = enabled.indexOf(p.id) !== -1;
+        return '<label class="col-chip' + (on ? " on" : "") + '">' +
+          '<input type="checkbox" value="' + esc(p.id) + '"' + (on ? " checked" : "") + '>' +
+          '<span>🔒 ' + esc(p.title) + '</span></label>';
+      }).join("");
+      el.innerHTML =
+        '<span class="collections-bar-label">🔒 Private collections</span>' +
+        (chips || '<span class="collections-bar-empty">' + esc(msg || "none yet — add one →") + '</span>') +
+        ACTIONS;
       Array.prototype.forEach.call(el.querySelectorAll(".col-chip input"), function (cb) {
         cb.addEventListener("change", function () {
           var en = getEnabled();
@@ -299,37 +314,26 @@
           fireChange();
         });
       });
-      var cfg = el.querySelector(".col-config");
-      if (cfg) cfg.addEventListener("click", showManager);
-    }
-    function render(packages, msg) {
-      var enabled = getEnabled();
-      var chips = packages.map(function (p) { return chip(p, enabled.indexOf(p.id) !== -1); }).join("");
-      el.innerHTML =
-        '<span class="collections-bar-label">🔒 Private collections</span>' +
-        (chips || '<span class="collections-bar-empty">' + esc(msg || ("none in " + c.owner + "/" + c.repo)) + '</span>') +
-        '<button class="col-config btn small" title="Configure collections" aria-label="Configure">⚙</button>';
-      wire();
+      el.querySelector(".col-add").addEventListener("click", function () { showManager(true); });
+      el.querySelector(".col-config").addEventListener("click", function () { showManager(false); });
     }
 
-    if (!c.owner || !c.repo) {
-      el.innerHTML = '<span class="collections-bar-label">🔒 Private collections</span>' +
-        '<button class="col-config btn small">Set up…</button>';
-      el.querySelector(".col-config").addEventListener("click", showManager);
-      return;
+    var c = getConfig();
+    if (!c.owner || !c.repo) { render([], "set a repo to begin →"); }
+    else {
+      var cached = pkgsFromCache();
+      render(cached, "loading…");
+      listPackages().then(function (res) {
+        if (res.ok) render(res.packages);
+        else if (!cached.length) render([], codeToMessage(res));
+      });
     }
 
-    // Instant paint from cached titles, then refresh from the API.
-    var cached = getTitleMap();
-    var cachedPkgs = Object.keys(cached).map(function (id) { return { id: id, title: cached[id] }; });
-    if (cachedPkgs.length) render(cachedPkgs);
-    else el.innerHTML = '<span class="collections-bar-label">🔒 Private collections</span>' +
-      '<span class="collections-bar-empty">loading…</span>';
-
-    listPackages().then(function (res) {
-      if (res.ok) render(res.packages);
-      else if (!cachedPkgs.length) render([], codeToMessage(res));
-    });
+    // Re-paint when collections change (toggled or newly added) — cache-based, no network.
+    if (!el._barBound) {
+      el._barBound = true;
+      onChange(function () { render(pkgsFromCache()); });
+    }
   }
 
   // ── Manager modal ───────────────────────────────────────────────────────────
@@ -538,7 +542,7 @@
     });
   }
 
-  function showManager() {
+  function showManager(focusCreate) {
     injectModal();
     // refresh field values from stored config
     var c = getConfig();
@@ -552,6 +556,10 @@
     // auto-discover if we have a token + owner
     if (token() && c.owner) refreshList();
     else if (!token()) setStatus("Sign in with a GitHub token first.", true);
+    if (focusCreate) {
+      var f = document.getElementById("col-new-name");
+      if (f) { try { f.scrollIntoView({ block: "center" }); } catch (e) {} f.focus(); }
+    }
   }
 
   function hideManager() {
