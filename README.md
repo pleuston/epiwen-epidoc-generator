@@ -41,6 +41,34 @@ either).
 - **Live preview + well-formedness check**; **Copy** and **Download .xml**.
 - **No build step, no server, no dependencies** — a folder of static files.
 
+### Catalog browser & rubbing comparison
+
+- **Catalog tabs** — Objects / Inscriptions / Rubbings, pulled from EpiDoc
+  collections (the public set plus your private collections, via the GitHub
+  Contents API).
+- **Selectable entries** — click a catalog row (or focus it and press
+  Enter/Space) to open its preview. There is no separate *Preview* button; the
+  entry itself is the control. *Copy XML* and *Edit* remain as buttons and don't
+  trigger the row.
+- **Site filter** — on Objects and Inscriptions, a *Site 遗址* dropdown facets the
+  list by the site each inscription belongs to (built from each record's
+  `<origPlace>`, falling back to `<repository>`).
+- **Two rubbing views** — a toggle on the Rubbings tab:
+  - *Every rubbing* — the flat list, one row per manifest (the default);
+  - *Compact (by inscription)* — draws the different collections together under
+    the same inscription (grouped by `surrogateOf`), one header per inscription.
+- **IIIF comparison viewer** (`viewer.html`, [Mirador](https://projectmirador.org/)) —
+  add rubbings to the floating comparison bar, then **Open side by side**; each
+  `?manifest=` opens as a pane in a mosaic for character-by-character comparison.
+- **Detachable viewer** — **⧉ Detach** pops the viewer out of the catalog window
+  into a separate, freely-resizable browser window, so you can place it beside
+  other windows. Available on the comparison bar, inside the viewer, and on every
+  saved favorite.
+- **Favorites** (`favorites.html`) — **★ Save to favorites** stores the current
+  comparison (a named set of manifests) per-browser in `localStorage`. The
+  Favorites page lists every saved comparison and lets you re-open it (tab),
+  detach it (window), or delete it. Personal and offline — no server round-trip.
+
 ## Run it
 
 Just open `index.html` in a browser, or serve the folder:
@@ -69,6 +97,9 @@ The whole tool is static, so Pages needs **no build**:
 | File | Role |
 | --- | --- |
 | `index.html` | page shell, loads the three scripts |
+| `catalog.html` / `catalog.js` | catalog browser (Objects / Inscriptions / Rubbings), site filter, selectable entries, two rubbing views, comparison bar |
+| `viewer.html` | IIIF (Mirador) comparison viewer — one pane per `?manifest=`; detachable |
+| `favorites.js` / `favorites.html` | personal saved comparisons (`localStorage`); the Favorites page |
 | `styles.css` | layout + bilingual label visibility |
 | `vocab.js` | controlled vocabularies + reign-era table (edit here) |
 | `generator.js` | pure `buildEpiDoc(data)` serializer — runs in browser **and** Node |
