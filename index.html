@@ -6,6 +6,7 @@
     <title>Epiwen</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
+    <script src="changelog.js"></script>
     <style>
       .landing-hero {
         padding: 3.2rem 2.5rem 2.2rem;
@@ -20,7 +21,7 @@
         max-width: 580px; margin: 0;
       }
       .landing-nav {
-        padding: 0 2.5rem 3.5rem;
+        padding: 0 2.5rem 1.8rem;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
         gap: .5rem;
@@ -40,6 +41,53 @@
       .lnav-icon { font-size: .78rem; opacity: .45; flex: 0 0 auto; }
       .lnav-label { font-size: .86rem; font-weight: 600; }
       .lnav-hint { font-size: .74rem; color: var(--text-muted, #888); }
+
+      /* Recent-changes widget */
+      .log-widget { padding: 0 2.5rem 3rem; max-width: 860px; }
+      .log-widget-head {
+        display: flex; align-items: baseline; justify-content: space-between;
+        padding-bottom: .4rem; margin-bottom: .2rem;
+        border-bottom: 1px solid var(--border, #e4e4e4);
+      }
+      .log-widget-title {
+        font-size: .72rem; font-weight: 700; letter-spacing: .07em;
+        text-transform: uppercase; color: var(--text-muted, #999);
+      }
+      .log-widget-more {
+        font-size: .76rem; color: var(--accent, #c0392b);
+        text-decoration: none;
+      }
+      .log-widget-more:hover { text-decoration: underline; }
+      .log-entry {
+        display: flex; align-items: center; gap: .65rem;
+        padding: .28rem 0;
+        border-bottom: 1px solid var(--border-light, #f3f3f3);
+        font-size: .8rem; min-width: 0;
+      }
+      .log-av {
+        width: 18px; height: 18px; border-radius: 50%;
+        object-fit: cover; flex: 0 0 18px;
+        background: var(--border, #e4e4e4);
+      }
+      .log-av-init {
+        width: 18px; height: 18px; border-radius: 50%; flex: 0 0 18px;
+        background: var(--accent, #c0392b); color: #fff;
+        font-size: .64rem; font-weight: 700;
+        display: flex; align-items: center; justify-content: center;
+      }
+      .log-msg {
+        flex: 1; color: var(--text, #222);
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      }
+      .log-author { flex: 0 0 auto; color: var(--text-muted, #999); }
+      .log-time   { flex: 0 0 68px; text-align: right; color: var(--text-muted, #bbb); }
+      .log-sha {
+        flex: 0 0 50px; text-align: right; font-family: monospace;
+        font-size: .72rem; color: var(--border, #ccc);
+        text-decoration: none;
+      }
+      .log-sha:hover { color: var(--accent, #c0392b); }
+      .log-status { padding: .6rem 0; font-size: .8rem; color: var(--text-muted, #aaa); }
     </style>
   </head>
   <body>
@@ -106,6 +154,49 @@
       </a>
     </nav>
 
+    <div class="log-widget" aria-label="Recent record changes">
+      <div class="log-widget-head">
+        <span class="log-widget-title">Recent changes</span>
+        <a href="logs.html" class="log-widget-more">View all →</a>
+      </div>
+      <div id="log-list"><div class="log-status">Loading…</div></div>
+    </div>
+
     <div id="toast" role="status" aria-live="polite"></div>
+    <script>
+      (function () {
+        function esc(s) {
+          return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+        }
+        EpiChangelog.fetchXML(20).then(function (commits) {
+          var el = document.getElementById("log-list");
+          if (!commits || !commits.length) {
+            el.innerHTML = '<div class="log-status">No record changes found.</div>';
+            return;
+          }
+          el.innerHTML = commits.map(function (c) {
+            var msg = c.commit.message.split('\n')[0];
+            if (msg.length > 68) msg = msg.slice(0, 65) + '…';
+            var login  = c.author  ? c.author.login : c.commit.author.name;
+            var avatar = c.author  ? c.author.avatar_url : null;
+            var avHtml = avatar
+              ? '<img class="log-av" src="' + esc(avatar) + '" alt="' + esc(login) + '">'
+              : '<span class="log-av-init">' + esc(login[0].toUpperCase()) + '</span>';
+            var time   = EpiChangelog.timeAgo(c.commit.author.date);
+            var sha    = c.sha.slice(0, 7);
+            return '<div class="log-entry">' +
+              avHtml +
+              '<span class="log-msg">' + esc(msg) + '</span>' +
+              '<span class="log-author">' + esc(login) + '</span>' +
+              '<span class="log-time">'   + esc(time) + '</span>' +
+              '<a class="log-sha" href="' + esc(c.html_url) + '" target="_blank" rel="noopener">' + sha + '</a>' +
+            '</div>';
+          }).join('');
+        }).catch(function () {
+          document.getElementById("log-list").innerHTML =
+            '<div class="log-status">Could not load changelog.</div>';
+        });
+      })();
+    </script>
   </body>
 </html>

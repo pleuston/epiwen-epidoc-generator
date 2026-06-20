@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changelog · Epiwen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <script src="changelog.js"></script>
+    <style>
+      .logs-main {
+        max-width: 960px;
+        padding: 2.4rem 2.5rem 4rem;
+      }
+      .logs-h1 {
+        font-size: 1.35rem; font-weight: 700; margin: 0 0 1.4rem;
+        color: var(--text, #222);
+      }
+      /* Tabs */
+      .logs-tabs {
+        display: flex; gap: .25rem; margin-bottom: 1.2rem;
+        border-bottom: 1px solid var(--border, #e4e4e4);
+      }
+      .logs-tab {
+        padding: .38rem .9rem; font-size: .82rem; font-weight: 600;
+        background: none; border: none; cursor: pointer;
+        color: var(--text-muted, #888);
+        border-bottom: 2px solid transparent; margin-bottom: -1px;
+        transition: color .12s, border-color .12s;
+      }
+      .logs-tab.active {
+        color: var(--accent, #c0392b);
+        border-bottom-color: var(--accent, #c0392b);
+      }
+      .logs-tab:hover:not(.active) { color: var(--text, #333); }
+
+      /* Pane */
+      .logs-pane { display: none; }
+      .logs-pane.active { display: block; }
+      .logs-desc { font-size: .82rem; color: var(--text-muted, #888); margin: 0 0 .9rem; }
+
+      /* Table */
+      .lt-head {
+        display: grid;
+        grid-template-columns: 100px 160px 1fr 60px;
+        gap: .5rem;
+        padding: .25rem .4rem;
+        font-size: .7rem; font-weight: 700; letter-spacing: .07em;
+        text-transform: uppercase; color: var(--text-muted, #bbb);
+        border-bottom: 1px solid var(--border, #e4e4e4);
+        margin-bottom: .1rem;
+      }
+      .ltrow {
+        display: grid;
+        grid-template-columns: 100px 160px 1fr 60px;
+        gap: .5rem;
+        padding: .32rem .4rem;
+        font-size: .8rem;
+        border-bottom: 1px solid var(--border-light, #f3f3f3);
+        align-items: center;
+        min-width: 0;
+      }
+      .ltrow:hover { background: var(--bg-subtle, #fdfcfc); }
+      .lt-date { color: var(--text-muted, #aaa); white-space: nowrap; font-variant-numeric: tabular-nums; }
+      .lt-author {
+        display: flex; align-items: center; gap: .45rem;
+        white-space: nowrap; overflow: hidden;
+        color: var(--text, #444);
+      }
+      .lt-av {
+        width: 18px; height: 18px; border-radius: 50%;
+        object-fit: cover; flex: 0 0 18px;
+        background: var(--border, #e4e4e4);
+      }
+      .lt-av-init {
+        width: 18px; height: 18px; border-radius: 50%; flex: 0 0 18px;
+        background: var(--accent, #c0392b); color: #fff;
+        font-size: .62rem; font-weight: 700;
+        display: flex; align-items: center; justify-content: center;
+      }
+      .lt-msg {
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        color: var(--text, #222);
+      }
+      .lt-sha {
+        font-family: monospace; font-size: .74rem;
+        color: var(--text-muted, #bbb); text-decoration: none;
+        text-align: right;
+      }
+      .lt-sha:hover { color: var(--accent, #c0392b); }
+      .log-status { padding: .8rem 0; font-size: .82rem; color: var(--text-muted, #aaa); }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
+      <nav class="sitenav">
+        <a href="map.html"                     class="sitenav-link">Map</a>
+        <a href="sites.html"                   class="sitenav-link">Sites</a>
+        <a href="catalog.html"                 class="sitenav-link">Objects</a>
+        <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+        <a href="catalog.html?tab=rubbings"    class="sitenav-link">Rubbings</a>
+        <a href="authorities.html"             class="sitenav-link">Authorities</a>
+        <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
+        <a href="docs.html"                    class="sitenav-link">Docs</a>
+      </nav>
+      <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
+    </header>
+
+    <main class="logs-main">
+      <h1 class="logs-h1">Changelog</h1>
+
+      <div class="logs-tabs">
+        <button class="logs-tab active" data-tab="records">Record changes</button>
+        <button class="logs-tab"        data-tab="platform">Platform</button>
+      </div>
+
+      <section id="tab-records" class="logs-pane active">
+        <p class="logs-desc">Commits touching XML record files — records, catalog, authority, bibliography.</p>
+        <div class="lt-head">
+          <span>Date</span><span>Author</span><span>Message</span><span style="text-align:right">SHA</span>
+        </div>
+        <div id="records-list"><div class="log-status">Loading…</div></div>
+      </section>
+
+      <section id="tab-platform" class="logs-pane">
+        <p class="logs-desc">Platform and infrastructure changes — HTML, CSS, JavaScript, scripts, configuration.</p>
+        <div class="lt-head">
+          <span>Date</span><span>Author</span><span>Message</span><span style="text-align:right">SHA</span>
+        </div>
+        <div id="platform-list"><div class="log-status">Loading…</div></div>
+      </section>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script>
+      /* Tab switching */
+      document.querySelectorAll(".logs-tab").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          document.querySelectorAll(".logs-tab").forEach(function (b) { b.classList.remove("active"); });
+          document.querySelectorAll(".logs-pane").forEach(function (p) { p.classList.remove("active"); });
+          btn.classList.add("active");
+          document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+        });
+      });
+
+      /* Rendering */
+      function esc(s) {
+        return String(s)
+          .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+          .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+      }
+      function fmtDate(iso) {
+        var d = new Date(iso);
+        return d.getFullYear() + '-' +
+          String(d.getMonth()+1).padStart(2,'0') + '-' +
+          String(d.getDate()).padStart(2,'0');
+      }
+      function renderRows(commits) {
+        return commits.map(function (c) {
+          var msg    = c.commit.message.split('\n')[0];
+          if (msg.length > 90) msg = msg.slice(0, 87) + '…';
+          var login  = c.author ? c.author.login : c.commit.author.name;
+          var avatar = c.author ? c.author.avatar_url : null;
+          var avHtml = avatar
+            ? '<img class="lt-av" src="' + esc(avatar) + '" alt="' + esc(login) + '">'
+            : '<span class="lt-av-init">' + esc(login[0].toUpperCase()) + '</span>';
+          var date = fmtDate(c.commit.author.date);
+          var sha  = c.sha.slice(0, 7);
+          return '<div class="ltrow">' +
+            '<span class="lt-date" title="' + esc(c.commit.author.date) + '">' + date + '</span>' +
+            '<span class="lt-author">' + avHtml + esc(login) + '</span>' +
+            '<span class="lt-msg">' + esc(msg) + '</span>' +
+            '<a class="lt-sha" href="' + esc(c.html_url) + '" target="_blank" rel="noopener">' + sha + ' ↗</a>' +
+          '</div>';
+        }).join('');
+      }
+      function noResults(msg) {
+        return '<div class="log-status">' + esc(msg) + '</div>';
+      }
+
+      /* Fetch both datasets in parallel; set-subtract for platform */
+      Promise.all([
+        EpiChangelog.fetchAll(300),
+        EpiChangelog.fetchXML()
+      ]).then(function (results) {
+        var all = results[0] || [];
+        var xml = results[1] || [];
+        var xmlShas = {};
+        xml.forEach(function (c) { xmlShas[c.sha] = true; });
+        var platform = all.filter(function (c) { return !xmlShas[c.sha]; });
+
+        document.getElementById("records-list").innerHTML =
+          xml.length ? renderRows(xml) : noResults("No record changes found.");
+        document.getElementById("platform-list").innerHTML =
+          platform.length ? renderRows(platform) : noResults("No platform commits found.");
+      }).catch(function () {
+        ["records-list","platform-list"].forEach(function (id) {
+          document.getElementById(id).innerHTML = noResults("Could not load changelog.");
+        });
+      });
+    </script>
+  </body>
+</html>
