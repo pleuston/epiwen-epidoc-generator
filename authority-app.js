@@ -311,7 +311,7 @@
     // Authority typeahead: duplicate check / quick-load on name fields
     if (window.EpiAuthorityLookup) {
       function loadExisting(rec) {
-        fetch("authority/" + rec.id + ".xml")
+        EpiData.fetch("authority/" + rec.id + ".xml")
           .then(function (r) { return r.ok ? r.text() : null; })
           .then(function (xml) {
             if (!xml) { toast("Could not load " + rec.id, true); return; }

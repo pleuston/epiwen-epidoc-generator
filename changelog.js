@@ -8,7 +8,7 @@
     token: "epiwen_gh_token", owner: "epiwen_gh_owner",
     repo: "epiwen_gh_repo",  branch: "epiwen_gh_branch"
   };
-  var DEF = { owner: "pleuston", repo: "epiwen-epidoc-generator", branch: "main" };
+  var DEF = { owner: "pleuston", repo: "epiwen-data", branch: "main" };
 
   function cfg() {
     return {

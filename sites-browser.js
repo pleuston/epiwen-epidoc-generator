@@ -42,7 +42,7 @@
   function load() {
     var tree = el("site-tree");
     tree.innerHTML = '<div class="catalog-loading">Loading sites…</div>';
-    fetch("data/site-index.json?v=" + Date.now())
+    EpiData.fetch("data/site-index.json")
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (data) {
         allRecords = data;
@@ -233,10 +233,10 @@
     if (cache[id]) { renderDetail(rec); return; }
 
     var jobs = [rec.catalog_file
-      ? fetch(rec.catalog_file).then(okText).catch(function () { return ""; })
+      ? EpiData.fetch(rec.catalog_file).then(okText).catch(function () { return ""; })
       : Promise.resolve("")];
     jobs.push(rec.prose_file
-      ? fetch(rec.prose_file).then(okText).catch(function () { return ""; })
+      ? EpiData.fetch(rec.prose_file).then(okText).catch(function () { return ""; })
       : Promise.resolve(""));
     Promise.all(jobs).then(function (res) {
       cache[id] = { siteXml: res[0], proseXml: res[1] };

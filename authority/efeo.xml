@@ -1,6 +1,0 @@
-<mads xmlns="http://www.loc.gov/mads/" ID="efeo">
-    <authority lang="fr"><name type="corporate"><namePart>École française d'Extrême-Orient (EFEO) — estampages</namePart></name></authority>
-    <variant lang="zh" type="other"><name type="corporate"><namePart>法國遠東學院</namePart></name></variant>
-    <note>The Bibliothèque de l'EFEO (Paris) maintains estampages.efeo.fr, the union catalogue of c. 4,000+ Chinese ink rubbings across seven European holders (EFEO, Musée Guimet, IHEC/Collège de France, Société asiatique, Bodleian, British Library, Rietberg) — an aggregator, not the original holding institution. HTML search only.</note>
-    <url>https://estampages.efeo.fr/</url>
-</mads>

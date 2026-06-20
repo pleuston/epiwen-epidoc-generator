@@ -194,12 +194,12 @@
     }
 
     // Load the dynasty atlas tree, then build the panel (degrade gracefully)
-    fetch("data/osgeo-atlas.json?v=" + Date.now())
+    EpiData.fetch("data/osgeo-atlas.json")
       .then(function (r) { return r.ok ? r.json() : []; })
       .catch(function () { return []; })
       .then(buildControl);
 
-    fetch("data/site-index.json?v=" + Date.now())
+    EpiData.fetch("data/site-index.json")
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (recs) {
         var childParents = {};

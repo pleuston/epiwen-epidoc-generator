@@ -148,7 +148,7 @@
   function loadIndex() {
     var list = document.getElementById("biblio-list");
     list.innerHTML = '<div class="catalog-loading">Loading bibliography…</div>';
-    fetch("data/biblio-index.json?v=" + Date.now())
+    EpiData.fetch("data/biblio-index.json")
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (data) { _publicRecords = data; mergePrivate(); })
       .catch(function (err) {
@@ -244,7 +244,7 @@
     var relPath = "biblio/" + rec.group + "/" + rec.key + ".xml";
     var xmlPromise = (rec.source === "private" && window.EpiCollections)
       ? EpiCollections.fetchRecordXml(rec.collection, relPath)
-      : fetch(relPath).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); });
+      : EpiData.fetch(relPath).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); });
     xmlPromise
       .then(function (xml) {
         _selectedXml = xml;

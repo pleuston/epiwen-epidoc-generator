@@ -16,7 +16,7 @@
   };
   var DEFAULTS = {
     owner:  "pleuston",
-    repo:   "epiwen-epidoc-generator",
+    repo:   "epiwen-data",
     branch: "main",
     path:   "records/"
   };

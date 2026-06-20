@@ -24,7 +24,7 @@
     if (_index) { cb(_index); return; }
     _pending.push(cb);
     if (_pending.length > 1) return;   // fetch already in flight
-    fetch("data/authority-index.json")
+    EpiData.fetch("data/authority-index.json")
       .then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();

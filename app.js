@@ -473,7 +473,7 @@
   function propose() {
     var xml   = build(cleanState());
     var fname = (state.filename || "epidoc-record.xml").replace(/\.xml$/i, "") + ".xml";
-    var url   = "https://github.com/pleuston/epiwen-epidoc-generator/new/main" +
+    var url   = "https://github.com/pleuston/epiwen-data/new/main" +
                 "?filename=" + encodeURIComponent("records/" + fname);
     if (navigator.clipboard) {
       navigator.clipboard.writeText(xml).then(function () {

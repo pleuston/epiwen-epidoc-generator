@@ -4,10 +4,8 @@
   "use strict";
 
   var OWNER  = "pleuston";
-  var REPO   = "epiwen-epidoc-generator";
+  var REPO   = "epiwen-data";   // records live in the private data backend
   var BRANCH = "main";
-  var API    = "https://api.github.com/repos/" + OWNER + "/" + REPO + "/contents/records";
-  var RAW    = "https://raw.githubusercontent.com/" + OWNER + "/" + REPO + "/" + BRANCH + "/records/";
 
   var allRecords    = [];
   var publicRecords = [];
@@ -1347,8 +1345,8 @@
     var fileParam = _sp.get("file") || "";
     currentTab = tabParam;
 
-    // Load records from GitHub
-    ghFetch(API)
+    // Load records from the data backend (epiwen-data, via token)
+    EpiData.list("records")
       .then(function (files) {
         if (!files) { renderByTab(currentTab, fileParam); loadPrivate(); return; }
 
@@ -1369,9 +1367,9 @@
         }
         xmlFiles.forEach(function (f) {
           // Use locally-cached fresh XML if the user just saved this file from the editor;
-          // otherwise fetch from GitHub raw (which may lag the CDN by several minutes).
+          // otherwise read it from the data backend via the Contents API + token.
           var fresh = sessionStorage.getItem("epiwen_fresh:" + f.name);
-          var fetchPromise = fresh ? Promise.resolve(fresh) : rawFetch(RAW + f.name);
+          var fetchPromise = fresh ? Promise.resolve(fresh) : EpiData.text("records/" + f.name);
           fetchPromise
             .then(function (xml) { records.push(parseRecord(f.name, xml)); })
             .catch(function () {})

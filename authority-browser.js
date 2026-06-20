@@ -2,11 +2,6 @@
 (function () {
   "use strict";
 
-  var OWNER  = "pleuston";
-  var REPO   = "epiwen-epidoc-generator";
-  var BRANCH = "main";
-  var RAW    = "https://raw.githubusercontent.com/" + OWNER + "/" + REPO + "/" + BRANCH + "/";
-
   var allRecords   = [];
   var _publicRecords  = [];
   var _privateRecords = [];
@@ -34,7 +29,7 @@
     var list = document.getElementById("auth-list");
     list.innerHTML = '<div class="catalog-loading">Loading authority index…</div>';
 
-    fetch("data/authority-index.json?v=" + Date.now())
+    EpiData.fetch("data/authority-index.json")
       .then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
@@ -226,7 +221,7 @@
     var relPath = "authority/" + encodeURIComponent(rec.id) + ".xml";
     var p = (rec.source === "private" && window.EpiCollections)
       ? EpiCollections.fetchRecordXml(rec.collection, relPath)
-      : fetch(RAW + relPath).then(function (r) {
+      : EpiData.fetch(relPath).then(function (r) {
           if (!r.ok) throw new Error("HTTP " + r.status); return r.text();
         });
     p.then(cb).catch(function (err) { toast("Could not load XML: " + err.message, true); });

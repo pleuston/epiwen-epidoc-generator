@@ -188,7 +188,7 @@
 
   function loadIndex(cb) {
     if (_siteIndex) { cb(_siteIndex); return; }
-    fetch("data/site-index.json")
+    EpiData.fetch("data/site-index.json")
       .then(function (r) { return r.ok ? r.json() : []; })
       .then(function (data) { _siteIndex = data || []; cb(_siteIndex); })
       .catch(function () { _siteIndex = []; cb(_siteIndex); });
