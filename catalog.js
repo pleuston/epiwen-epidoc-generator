@@ -215,8 +215,19 @@
                    editionText: editionText2, translationText: translationText2 });
     }
 
+    // Facsimile images (rubbings): <facsimile><graphic url="…IIIF…"/> + source link
+    var images = qns(doc, "graphic")
+      .map(function (g) { return g.getAttribute("url"); })
+      .filter(Boolean);
+    var sourceUrl = "";
+    qns(doc, "ref").forEach(function (r) {
+      var t = r.getAttribute("target") || "";
+      if (!sourceUrl && /^https?:\/\//.test(t)) sourceUrl = t;
+    });
+
     return {
       name: name, recordType: recordType, surrogateOf: surrogateOf,
+      images: images, sourceUrl: sourceUrl,
       editor: editor, titleEn: titleEn, titleZh: titleZh,
       country: country, countryRef: countryRef, region: region, settlement: settlement,
       repository: repository, inventoryNo: inventoryNo, summary: summary,
@@ -266,6 +277,17 @@
 
     var dims = [rec.height, rec.width, rec.depth].filter(Boolean).join(" × ");
     var html = '<div class="hp-preview">';
+
+    // Facsimile image(s) — e.g. live IIIF rubbing image from a holding library
+    if (rec.images && rec.images.length) {
+      html += '<div class="hp-images">' + rec.images.map(function (u) {
+        return '<a href="' + esc(u) + '" target="_blank" rel="noopener" title="open full image ↗">' +
+          '<img class="hp-img" src="' + esc(u) + '" loading="lazy" alt="' + esc(rec.titleEn || "rubbing") + '"></a>';
+      }).join("") +
+      (rec.sourceUrl ? '<a class="hp-source" href="' + esc(rec.sourceUrl) +
+        '" target="_blank" rel="noopener">Source record ↗</a>' : "") +
+      '</div>';
+    }
 
     html += sec("Identity", [
       row("File", rec.name),

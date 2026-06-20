@@ -445,6 +445,14 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
   background: var(--bg); color: var(--ink);
   padding: 0.9rem 1.1rem;
 }
+/* facsimile / IIIF rubbing image in the preview pane */
+.hp-images { margin: 0 0 1.1rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.hp-img {
+  max-width: 100%; max-height: 460px; display: block;
+  border: 1px solid var(--line); border-radius: 4px; background: #faf9f8;
+}
+.hp-source { font-size: 0.8rem; color: var(--accent); align-self: flex-start; }
+
 .hp-section { margin-bottom: 1.1rem; }
 .hp-st {
   font-size: 0.71rem; font-weight: 700;
