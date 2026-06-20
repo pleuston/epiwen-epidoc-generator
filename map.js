@@ -135,14 +135,13 @@
     var sat = modern("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 18, attribution: "Imagery © Esri, Maxar, Earthstar Geographics"
     });
-    var topo = modern("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
-      maxZoom: 17, subdomains: "abc",
-      attribution: '© <a href="https://opentopomap.org" target="_blank" rel="noopener">OpenTopoMap</a> (CC-BY-SA)'
+    var topo = modern("https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 13, attribution: "Terrain © Esri"
     });
     var light = modern("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       maxZoom: 19, subdomains: "abcd", attribution: "© OpenStreetMap, © CARTO"
     });
-    osm.addTo(map);
+    sat.addTo(map);
     window.addEventListener("resize", function () { sizeMap(); map.invalidateSize(); });
 
     var cluster = L.markerClusterGroup({
@@ -152,8 +151,8 @@
     function buildControl(atlasTree) {
       var groups = [
         { kind: "base", title: "Base map", layers: [
-          { label: "Streets", layer: osm, on: true },
-          { label: "Satellite", layer: sat },
+          { label: "Streets", layer: osm },
+          { label: "Satellite", layer: sat, on: true },
           { label: "Terrain", layer: topo },
           { label: "Light", layer: light }
         ] },
