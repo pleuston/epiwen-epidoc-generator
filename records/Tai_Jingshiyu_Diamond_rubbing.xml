@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Tai Shan jing shi yu jin gang jing (rubbing)</title>
+        <title xml:lang="zh-Hant">泰山經石峪金剛經（拓本）</title>
+        <editor role="editor">Manuel Sassmann</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Tai_Jingshiyu_Diamond_rubbing.xml</idno>
+        <availability><licence target="https://library.harvard.edu/digital-collections">Harvard Library digital collections — open access</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Harvard-Yenching Library, Harvard University</repository>
+            <idno type="shelfmark">TP1070</idno>
+            <idno type="hollis">990098150510203941</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ink rubbing of the colossal Diamond Sūtra carved in the Sutra Stone Valley (經石峪) on Mount Tai; Northern Qi. Twenty albums.</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="拓本 album">
+              <supportDesc>
+                <support>
+                  <objectType>拓片 · ink rubbing on paper</objectType>
+                  <extent>20 v. ; 44 cm.</extent>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0550" notAfter="0577">Bei Qi, between 550 and 577</origDate>
+            </origin>
+          </history>
+          <additional>
+            <listBibl>
+            <relatedItem type="surrogateOf"><bibl><ptr target="JSY_Diamond"/></bibl></relatedItem>
+              <bibl><ref type="record" target="https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-990098150510203941">Harvard Chinese Rubbings Collection — record</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc>
+      <change when="2026-06-20" who="#epiwen">Imported from Harvard LibraryCloud (HOLLIS 990098150510203941) via harvard_rubbings_to_epiwen.py; rubbing image served live from Harvard IDS IIIF (15825538), open access.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://ids.lib.harvard.edu/ids/iiif/15825538/full/,1000/0/default.jpg"/>
+  </facsimile>
+  <text><body/></text>
+</TEI>

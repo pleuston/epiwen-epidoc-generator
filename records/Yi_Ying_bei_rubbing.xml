@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Han Yi Ying bei (rubbing)</title>
+        <title xml:lang="zh-Hant">漢乙瑛碑（拓本）</title>
+        <editor role="editor">Manuel Sassmann</editor>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Epiwen / Altergraphy</authority>
+        <idno type="filename">Yi_Ying_bei_rubbing.xml</idno>
+        <availability><licence target="https://library.harvard.edu/digital-collections">Harvard Library digital collections — open access</licence></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="rubbing">
+          <msIdentifier>
+            <country>United States</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Harvard-Yenching Library, Harvard University</repository>
+            <idno type="shelfmark">TP0521</idno>
+            <idno type="hollis">990097074740203941</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ink rubbing of the Yi Ying stele at the Confucius Temple, Qufu; a canonical Eastern Han clerical inscription; dated 153.</summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="拓本 album">
+              <supportDesc>
+                <support>
+                  <objectType>拓片 · ink rubbing on paper</objectType>
+                  <extent>1 v. ; 33 cm.</extent>
+                </support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate notBefore="0153" notAfter="0153">Dong Han Yongxing 1 [153]</origDate>
+            </origin>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl><ref type="record" target="https://id.lib.harvard.edu/curiosity/chinese-rubbings-collection/6-990097074740203941">Harvard Chinese Rubbings Collection — record</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>
+    <revisionDesc>
+      <change when="2026-06-20" who="#epiwen">Imported from Harvard LibraryCloud (HOLLIS 990097074740203941) via harvard_rubbings_to_epiwen.py; rubbing image served live from Harvard IDS IIIF (11527531), open access.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://ids.lib.harvard.edu/ids/iiif/11527531/full/,1000/0/default.jpg"/>
+  </facsimile>
+  <text><body/></text>
+</TEI>
