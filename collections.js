@@ -34,6 +34,12 @@
   var DEFAULTS = { repo: "epiwen-private", branch: "main" };
   var MODAL_ID = "col-manager-modal";
 
+  // A SHARED collection auto-loads for everyone with app access. It lives in the
+  // data backend (epiwen-data), so no per-user config or extra grant is needed —
+  // anyone whose token can read epiwen-data gets it automatically, always on.
+  var SHARED = { owner: "pleuston", repo: "epiwen-data", branch: "main",
+                 id: "shared", title: "Shared collection" };
+
   var _changeHandlers = [];
 
   // ── helpers ────────────────────────────────────────────────────────────────
@@ -112,6 +118,61 @@
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     });
+  }
+
+  // ── Shared collection (auto-loaded, fixed repo) ─────────────────────────────
+  // Same as apiUrl/fetchFileRaw but against an explicit {owner,repo,branch} —
+  // used for SHARED, which is NOT the user's configured collections repo.
+  function ctxApiUrl(ctx, path) {
+    return "https://api.github.com/repos/" + ctx.owner + "/" + ctx.repo +
+      "/contents/" + path + "?ref=" + encodeURIComponent(ctx.branch);
+  }
+  function ctxFetchRaw(ctx, path) {
+    return fetch(ctxApiUrl(ctx, path), { headers: headers(true) }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    });
+  }
+
+  /* Load every .xml record in the shared collection. Always attempted (no
+     enable toggle); 404 (not created yet) yields an empty, non-error result. */
+  function loadShared() {
+    if (!token()) return Promise.resolve({ records: [], errors: [] });
+    return fetch(ctxApiUrl(SHARED, "collections/" + SHARED.id), { headers: headers(false) })
+      .then(function (r) {
+        if (r.status === 404) return { records: [], errors: [] };
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json().then(function (entries) {
+          if (!Array.isArray(entries)) return { records: [], errors: [] };
+          var xmlFiles = entries.filter(function (e) {
+            return e.type === "file" && /\.xml$/i.test(e.name);
+          });
+          return Promise.all(xmlFiles.map(function (f) {
+            return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + encodeURIComponent(f.name))
+              .then(function (xml) {
+                return { name: f.name, xml: xml, collection: SHARED.id,
+                         collectionTitle: SHARED.title, shared: true };
+              })
+              .catch(function () { return null; });
+          })).then(function (arr) { return { records: arr.filter(Boolean), errors: [] }; });
+        });
+      })
+      .catch(function (e) { return { records: [], errors: [{ id: SHARED.id, message: e.message }] }; });
+  }
+
+  /* The shared collection's optional <kind>-index.json (authority / biblio). */
+  function loadSharedIndex(kind) {
+    if (!token()) return Promise.resolve([]);
+    return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + kind + "-index.json")
+      .then(function (txt) {
+        var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
+        if (!Array.isArray(arr)) return [];
+        arr.forEach(function (e) {
+          e.source = "private"; e.collection = SHARED.id; e.collectionTitle = SHARED.title;
+        });
+        return arr;
+      })
+      .catch(function () { return []; });   // 404 → no shared index of this kind
   }
 
   function b64(str) { return btoa(unescape(encodeURIComponent(str))); }
@@ -251,21 +312,24 @@
   // app's public data/<kind>-index.json) plus the matching XML records. Returns
   // the merged private index entries (tagged), or [] for packages without one.
   function loadIndex(kind) {
-    var enabled = getEnabled();
-    if (!enabled.length || !token()) return Promise.resolve([]);
+    if (!token()) return Promise.resolve([]);
     var titles = getTitleMap();
-    return Promise.all(enabled.map(function (id) {
-      return fetchFileRaw("collections/" + encodeURIComponent(id) + "/" + kind + "-index.json")
-        .then(function (txt) {
-          var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
-          if (!Array.isArray(arr)) return [];
-          arr.forEach(function (e) {
-            e.source = "private"; e.collection = id; e.collectionTitle = titles[id] || id;
-          });
-          return arr;
-        })
-        .catch(function () { return []; });   // 404 → package has no index of this kind
-    })).then(function (lists) { return [].concat.apply([], lists); });
+    var jobs = [ loadSharedIndex(kind) ];   // the shared collection is always included
+    getEnabled().forEach(function (id) {
+      jobs.push(
+        fetchFileRaw("collections/" + encodeURIComponent(id) + "/" + kind + "-index.json")
+          .then(function (txt) {
+            var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
+            if (!Array.isArray(arr)) return [];
+            arr.forEach(function (e) {
+              e.source = "private"; e.collection = id; e.collectionTitle = titles[id] || id;
+            });
+            return arr;
+          })
+          .catch(function () { return []; })   // 404 → package has no index of this kind
+      );
+    });
+    return Promise.all(jobs).then(function (lists) { return [].concat.apply([], lists); });
   }
 
   // Fetch a record XML from inside a package (for private detail panes).
@@ -294,6 +358,10 @@
 
     function render(packages, msg) {
       var enabled = getEnabled();
+      // Always-on, non-removable chip for the shared collection.
+      var sharedChip = '<span class="col-chip shared on" ' +
+        'title="Shared collection — auto-loaded for everyone with access to the data backend">' +
+        '<span>🌐 ' + esc(SHARED.title) + '</span></span>';
       var chips = packages.map(function (p) {
         var on = enabled.indexOf(p.id) !== -1;
         return '<label class="col-chip' + (on ? " on" : "") + '">' +
@@ -301,8 +369,9 @@
           '<span>🔒 ' + esc(p.title) + '</span></label>';
       }).join("");
       el.innerHTML =
-        '<span class="collections-bar-label">🔒 Private collections</span>' +
-        (chips || '<span class="collections-bar-empty">' + esc(msg || "none yet — add one →") + '</span>') +
+        '<span class="collections-bar-label">Collections</span>' +
+        sharedChip +
+        (chips || '<span class="collections-bar-empty">' + esc(msg || "add your own →") + '</span>') +
         ACTIONS;
       Array.prototype.forEach.call(el.querySelectorAll(".col-chip input"), function (cb) {
         cb.addEventListener("change", function () {
@@ -581,6 +650,9 @@
     listPackages:    listPackages,
     loadPackage:     loadPackage,
     loadEnabled:     loadEnabled,
+    loadShared:      loadShared,
+    loadSharedIndex: loadSharedIndex,
+    SHARED:          SHARED,
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,
     mountBar:        mountBar,

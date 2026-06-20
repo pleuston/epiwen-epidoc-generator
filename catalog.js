@@ -1233,8 +1233,13 @@
      enabled set. */
   function loadPrivate() {
     if (!window.EpiCollections) return;
-    EpiCollections.loadEnabled().then(function (res) {
-      privateRecords = (res.records || []).map(function (r) {
+    // The shared collection auto-loads alongside any enabled private collections.
+    var jobs = [ EpiCollections.loadEnabled() ];
+    if (EpiCollections.loadShared) jobs.unshift(EpiCollections.loadShared());
+    Promise.all(jobs).then(function (results) {
+      var raw = [];
+      results.forEach(function (res) { raw = raw.concat((res && res.records) || []); });
+      privateRecords = raw.map(function (r) {
         var rec = parseRecord(r.name, r.xml);
         rec.source          = "private";
         rec.collection      = r.collection;

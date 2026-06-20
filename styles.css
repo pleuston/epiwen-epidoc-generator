@@ -158,6 +158,8 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .col-chip:hover { border-color: var(--accent); }
 .col-chip.on { border-color: var(--accent); background: #fff; color: var(--accent); font-weight: 600; }
 .col-chip input[type="checkbox"] { width: auto; margin: 0; flex: 0 0 auto; }
+/* Shared collection: always-on, non-removable — dashed to read as auto, not a toggle. */
+.col-chip.shared { cursor: default; border-style: dashed; border-color: var(--accent); background: #fff; color: var(--accent); font-weight: 600; }
 .collections-bar .col-config { margin-left: auto; }
 
 /* ---- hint bar "or" divider ---- */
