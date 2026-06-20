@@ -769,34 +769,48 @@
       for (var k = 0; k < thumbs.length; k++) thumbs[k].classList.toggle("on", k === i);
       if (thumbs[i]) thumbs[i].scrollIntoView({ block: "nearest", inline: "center" });
 
-      var ts = tileSourceFor(pages[i]);
+      loadInto(i);
+    }
+
+    // Load page i into the OSD viewer. Robust to rapid clicks (only the latest
+    // requested page wins) and to a load that never fires "open" (no wedge).
+    // osdEl._want = latest desired page; osdEl._loadingIdx = page being opened.
+    function loadInto(i) {
+      osdEl._want = i;
       ensureOSD().then(function (OSD) {
-        if (_rubOSD && _rubOSD.element === osdEl) { _rubOSD.open(ts); return; }
-        if (osdEl._creating) { osdEl._pending = ts; return; }   // guard rapid pre-load clicks
-        osdEl._creating = true;
+        if (osdEl._want !== i) return;                 // superseded by a later click
+        if (osdEl._creating) return;                   // construction in flight → "open" reconciles to _want
+        if (_rubOSD && _rubOSD.element === osdEl) {     // reuse the live viewer
+          osdEl._loadingIdx = i; _rubOSD.open(tileSourceFor(pages[i])); return;
+        }
+        osdEl._creating = true; osdEl._loadingIdx = i;
         _rubOSD = OSD({
           element: osdEl,
           prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/",
           showNavigationControl: false,
-          homeFillsViewer: false,                   // fit the whole image into the window
+          homeFillsViewer: false,                      // fit the whole image into the window
           visibilityRatio: 1,
           minZoomImageRatio: 0.9,
-          gestureSettingsMouse: { clickToZoom: false }, // scroll = zoom, drag = pan
-          tileSources: [ts]
+          gestureSettingsMouse: { clickToZoom: false },// scroll = zoom, drag = pan
+          tileSources: [tileSourceFor(pages[i])]
         });
-        _rubOSD.addHandler("open", function () {
-          osdEl._creating = false;
-          if (osdEl._pending) { var t = osdEl._pending; osdEl._pending = null; _rubOSD.open(t); }
-        });
-        _rubOSD.addHandler("open-failed", function () {   // tiled info.json blocked → plain image
-          var pg = pages[idx];
-          if (pg && pg.service && pg.full && !fellBack[idx]) {
-            fellBack[idx] = true; _rubOSD.open({ type: "image", url: pg.full });
-          }
-        });
-      }).catch(function () {                          // OSD CDN unreachable → static fit image
-        osdEl.innerHTML = '<img class="rubview-img" src="' + esc(pageImg(pages[idx], 1200)) + '" alt="page">';
+        _rubOSD.addHandler("open", reconcile);
+        _rubOSD.addHandler("open-failed", onOpenFailed);
+      }).catch(function () {                           // OSD CDN unreachable → static fit image
+        if (osdEl._want === i) osdEl.innerHTML = '<img class="rubview-img" src="' + esc(pageImg(pages[i], 1200)) + '" alt="page">';
       });
+    }
+    function reconcile() {                              // a load settled → jump to the latest wanted page
+      osdEl._creating = false;
+      if (osdEl._want != null && osdEl._want !== osdEl._loadingIdx) loadInto(osdEl._want);
+    }
+    function onOpenFailed() {                           // tiled info.json blocked, etc.
+      osdEl._creating = false;                          // never wedge if the first open fails
+      var li = osdEl._loadingIdx, pg = pages[li];
+      if (pg && pg.service && pg.full && !fellBack[li]) {  // fall the FAILED page back to a plain image
+        fellBack[li] = true; _rubOSD.open({ type: "image", url: pg.full }); return;
+      }
+      if (osdEl._want != null && osdEl._want !== li) loadInto(osdEl._want);
     }
 
     el.querySelector(".rubview-prev").addEventListener("click", function () { openPage(idx - 1); });
