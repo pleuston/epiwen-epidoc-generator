@@ -505,11 +505,56 @@
   }
 
   // ---- preview pane --------------------------------------------------------
+  function toast(msg, isErr) {
+    var t = document.getElementById("toast");
+    if (!t) { if (isErr) alert(msg); return; }
+    t.textContent = msg; t.className = "show" + (isErr ? " toast-error" : "");
+    setTimeout(function () { t.className = ""; }, isErr ? 6000 : 3000);
+  }
+
+  // Where a record's file lives (repo + path) — for delete. Records come from
+  // the shared corpus (epiwen-public) or an enabled collection (configured repo).
+  function recordLocation(rec) {
+    if (!rec || !rec.name || !window.EpiCollections) return null;
+    var SH = EpiCollections.SHARED;
+    if (rec.collection && SH && rec.collection === SH.id)
+      return { owner: SH.owner, repo: SH.repo, branch: SH.branch, path: "collections/" + SH.id + "/" + rec.name };
+    if (rec.collection) {
+      var c = EpiCollections.getConfig();
+      return { owner: c.owner, repo: c.repo, branch: c.branch, path: "collections/" + rec.collection + "/" + rec.name };
+    }
+    return null;
+  }
+
+  function deleteRecord(rec) {
+    var loc = recordLocation(rec);
+    if (!loc) { toast("Can’t locate this record’s file.", true); return; }
+    if (!EpiCollections.deleteFile) { toast("Delete unavailable.", true); return; }
+    if (!window.confirm("Delete “" + rec.name + "”?\n\nThis permanently removes\n  " +
+        loc.owner + "/" + loc.repo + "/" + loc.path + "\nfrom GitHub. It cannot be undone here.")) return;
+    var btn = document.getElementById("preview-delete");
+    if (btn) { btn.disabled = true; btn.textContent = "Deleting…"; }
+    EpiCollections.deleteFile(loc.owner, loc.repo, loc.branch, loc.path, "Delete " + rec.name + " via Epiwen")
+      .then(function () {
+        privateRecords = privateRecords.filter(function (r) { return r !== rec; });
+        publicRecords  = publicRecords.filter(function (r) { return r !== rec; });
+        _insIndexCache = null;
+        rebuildAll(); clearPreview(); renderByTab(currentTab);
+        toast("Deleted " + rec.name);
+      })
+      .catch(function (e) {
+        var m = e && e.message || "error";
+        toast("Delete failed: " + m + (/403|forbidden|permission/i.test(m) ? " — token needs write access to " + loc.repo : ""), true);
+      })
+      .then(function () { if (btn) { btn.disabled = false; btn.textContent = "🗑 Delete"; } });
+  }
+
   function clearPreview() {
     if (selectedItem) selectedItem.classList.remove("selected");
     selectedItem = null;
     document.getElementById("preview-title").textContent = "Select a record to preview";
     document.getElementById("preview-copy").style.display = "none";
+    var _pd = document.getElementById("preview-delete"); if (_pd) _pd.style.display = "none";
     document.getElementById("cat-view-toggle").style.display = "none";
     document.getElementById("cat-html-view").innerHTML = "";
     document.getElementById("cat-html-view").style.display = "none";
@@ -525,6 +570,8 @@
     document.getElementById("preview-title").textContent = rec.name;
     document.getElementById("preview-copy").style.display = "";
     document.getElementById("cat-view-toggle").style.display = "";
+    var pd = document.getElementById("preview-delete");
+    if (pd) { pd.style.display = recordLocation(rec) ? "" : "none"; pd.onclick = function () { deleteRecord(rec); }; }
 
     var view = document.getElementById("cat-html-view");
     view.innerHTML = buildHtmlPreview(rec);
@@ -1034,8 +1081,14 @@
     editBtn.textContent = "Edit";
     editBtn.addEventListener("click", function (e) { e.stopPropagation(); openInRubbingEditor(rec); });
 
+    var delBtn = document.createElement("button");
+    delBtn.type = "button"; delBtn.className = "btn small btn-danger";
+    delBtn.textContent = "🗑"; delBtn.title = "Delete this rubbing's file from GitHub";
+    delBtn.addEventListener("click", function (e) { e.stopPropagation(); deleteRecord(rec); });
+
     actions.appendChild(copyBtn);
     actions.appendChild(editBtn);
+    if (recordLocation(rec)) actions.appendChild(delBtn);
     row.appendChild(info);
     row.appendChild(actions);
     item.appendChild(row);

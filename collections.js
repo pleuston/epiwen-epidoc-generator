@@ -187,6 +187,29 @@
     return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + relpath);
   }
 
+  /* Delete a file from any repo (GET its sha, then DELETE). Needs a token with
+     write access to that repo; 403 → no write permission. */
+  function deleteFile(owner, repo, branch, path, message) {
+    var base = "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" +
+      String(path).replace(/^\/+/, "").split("/").map(encodeURIComponent).join("/");
+    return fetch(base + "?ref=" + encodeURIComponent(branch), { headers: headers(false) })
+      .then(function (r) {
+        if (r.status === 404) throw new Error("file not found");
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (meta) {
+        return fetch(base, {
+          method: "DELETE",
+          headers: Object.assign({ "Content-Type": "application/json" }, headers(false)),
+          body: JSON.stringify({ message: message || ("Delete " + path), sha: meta.sha, branch: branch })
+        }).then(function (r) {
+          if (!r.ok) return r.json().then(function (e) { throw new Error(e.message || ("HTTP " + r.status)); });
+          return r.json();
+        });
+      });
+  }
+
   function b64(str) { return btoa(unescape(encodeURIComponent(str))); }
 
   function contentsUrl(path) {  // PUT target — branch goes in the body, no ?ref
@@ -758,6 +781,7 @@
     loadShared:      loadShared,
     loadSharedIndex: loadSharedIndex,
     fetchSharedFile: fetchSharedFile,
+    deleteFile:      deleteFile,
     SHARED:          SHARED,
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,

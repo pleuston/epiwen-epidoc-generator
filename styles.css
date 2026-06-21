@@ -281,6 +281,11 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .catalog-monument.selectable:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .rub-viewtoggle { margin: 0 0 0.6rem; font-size: 0.85rem; color: var(--muted, #667); }
 .catalog-rubbing.selectable { cursor: pointer; }
+/* danger / delete buttons */
+.btn-danger { color: var(--bad, #b3261e); border-color: var(--bad, #b3261e); }
+.btn-danger:hover { background: var(--bad, #b3261e); color: #fff; }
+.btn-danger[disabled] { opacity: 0.6; cursor: default; }
+
 /* "By inscription" index view */
 .rub-index { font-size: 0.86rem; }
 .ins-row { padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
