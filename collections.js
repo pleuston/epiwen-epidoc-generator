@@ -192,7 +192,10 @@
   function deleteFile(owner, repo, branch, path, message) {
     var base = "https://api.github.com/repos/" + owner + "/" + repo + "/contents/" +
       String(path).replace(/^\/+/, "").split("/").map(encodeURIComponent).join("/");
-    return fetch(base + "?ref=" + encodeURIComponent(branch), { headers: headers(false) })
+    // Cache-bust + no-store: this URL was already fetched with Accept:raw when the
+    // record loaded, and some browsers mis-Vary and would serve that cached XML here.
+    return fetch(base + "?ref=" + encodeURIComponent(branch) + "&_t=" + (new Date().getTime()),
+                 { headers: headers(false), cache: "no-store" })
       .then(function (r) {
         if (r.status === 404) throw new Error("file not found");
         if (!r.ok) throw new Error("HTTP " + r.status);
