@@ -429,6 +429,10 @@
         '<p class="modal-desc">Load named packages of records from a private repo. ' +
           'Records stay visible only to tokens with access — others get a 404. ' +
           'Layout: <code>collections/&lt;name&gt;/*.xml</code>.</p>' +
+        '<p class="modal-desc">Need a token with access? Generate a ' +
+          '<a href="https://github.com/settings/tokens/new?scopes=repo&amp;description=Epiwen" target="_blank" rel="noopener">classic PAT (<code>repo</code> scope)</a> or a ' +
+          '<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained PAT</a> (Contents: Read), ' +
+          'then sign out and sign back in with it.</p>' +
         '<div class="gh-form">' +
           '<label class="gh-label">Owner / org' +
             '<input type="text" id="col-owner" class="gh-input" value="' + esc(c.owner) + '" placeholder="your-github-username"/>' +

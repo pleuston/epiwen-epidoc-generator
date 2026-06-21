@@ -1045,6 +1045,8 @@
   // ---- render by tab -------------------------------------------------------
   // Shown when the data backend (private epiwen-data) can't be read — almost
   // always a token without access, which GitHub reports as a 404.
+  var TOKEN_CLASSIC = "https://github.com/settings/tokens/new?scopes=repo&amp;description=Epiwen";
+  var TOKEN_FINE    = "https://github.com/settings/personal-access-tokens/new";
   function showBackendError() {
     var list = document.getElementById("catalog-list");
     if (!list) return;
@@ -1052,12 +1054,12 @@
       '<div class="catalog-empty backend-error">' +
         '<strong>Can’t read the data backend.</strong> The catalog lives in the private repo ' +
         '<code>pleuston/epiwen-data</code>, and the token you’re signed in with can’t read it ' +
-        '(GitHub returns a 404). Sign in with a token that has access:' +
+        '(GitHub returns a 404). Generate a token that has access:' +
         '<ul>' +
-          '<li>a <b>classic</b> PAT with the <code>repo</code> scope, or</li>' +
-          '<li>a <b>fine-grained</b> PAT granting <code>epiwen-data → Contents: Read</code>.</li>' +
+          '<li><a href="' + TOKEN_CLASSIC + '" target="_blank" rel="noopener">classic PAT with the <code>repo</code> scope</a> — one click, scope pre-filled; or</li>' +
+          '<li><a href="' + TOKEN_FINE + '" target="_blank" rel="noopener">fine-grained PAT</a> granting <code>epiwen-data → Contents: Read</code>.</li>' +
         '</ul>' +
-        'Set it via ⚙ Manage in the Collections menu (top-right), then reload.' +
+        'Then <a href="#" onclick="EpiAuth.signOut();return false;">sign out and sign back in</a> with the new token.' +
         (backendErrorDetail ? '<div class="muted" style="margin-top:.4rem">(' + esc(backendErrorDetail) + ')</div>' : '') +
       '</div>';
   }
