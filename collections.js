@@ -31,15 +31,17 @@
     enabled: "epiwen_private_enabled",
     titles:  "epiwen_private_titles"
   };
-  var DEFAULTS = { repo: "epiwen-private", branch: "main" };
+  // Default collections repo: epiwen-data, so its corpora (e.g. the opt-in
+  // Stone Sutras corpus) are discoverable as toggles without manual config.
+  var DEFAULTS = { repo: "epiwen-data", branch: "main" };
   var MODAL_ID = "col-manager-modal";
 
-  // The Stone Sutras corpus is the default-on collection (sites + records). It
-  // lives in the data backend (epiwen-data), so anyone whose token can read
-  // epiwen-data gets it automatically. Toggleable; authorities + biblio are NOT
-  // here — they stay in the always-on core, shared by every corpus.
-  var SHARED = { owner: "pleuston", repo: "epiwen-data", branch: "main",
-                 id: "stonesutras", title: "Stone Sutras corpus" };
+  // SHARED = the default-ON public corpus: rubbings + holding-institution
+  // authorities, in the PUBLIC repo epiwen-public. Person/place authorities and
+  // bibliography stay in the always-on core; the Stone Sutras corpus (sites +
+  // inscriptions) is an opt-in toggle in epiwen-data, not the default.
+  var SHARED = { owner: "pleuston", repo: "epiwen-public", branch: "main",
+                 id: "rubbings", title: "Public corpus (rubbings)" };
 
   var _changeHandlers = [];
 
