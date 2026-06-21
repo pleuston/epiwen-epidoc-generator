@@ -241,6 +241,9 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .catalog-searchbox:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
 .catalog-loading, .catalog-empty { font-size: 0.84rem; color: var(--muted); padding: 0.5rem 0; }
 .catalog-empty a { color: var(--accent); }
+.catalog-empty.backend-error { color: var(--ink); line-height: 1.5; border-left: 3px solid var(--accent); padding: 0.5rem 0.7rem; background: rgba(122,30,40,0.04); }
+.catalog-empty.backend-error ul { margin: 0.4rem 0; padding-left: 1.1rem; }
+.catalog-empty.backend-error code { background: rgba(0,0,0,0.06); padding: 0 0.25rem; border-radius: 3px; font-size: 0.95em; }
 
 .catalog-item {
   border: 1px solid var(--line); border-radius: 7px; margin-bottom: 0.6rem; overflow: hidden;

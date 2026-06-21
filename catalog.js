@@ -10,6 +10,7 @@
   var allRecords    = [];
   var publicRecords = [];
   var privateRecords = [];
+  var backendUnreadable = false, backendErrorDetail = "";
   var currentXml   = "";
   var selectedItem = null;
   var currentTab   = "objects";
@@ -1042,6 +1043,25 @@
   }
 
   // ---- render by tab -------------------------------------------------------
+  // Shown when the data backend (private epiwen-data) can't be read — almost
+  // always a token without access, which GitHub reports as a 404.
+  function showBackendError() {
+    var list = document.getElementById("catalog-list");
+    if (!list) return;
+    list.innerHTML =
+      '<div class="catalog-empty backend-error">' +
+        '<strong>Can’t read the data backend.</strong> The catalog lives in the private repo ' +
+        '<code>pleuston/epiwen-data</code>, and the token you’re signed in with can’t read it ' +
+        '(GitHub returns a 404). Sign in with a token that has access:' +
+        '<ul>' +
+          '<li>a <b>classic</b> PAT with the <code>repo</code> scope, or</li>' +
+          '<li>a <b>fine-grained</b> PAT granting <code>epiwen-data → Contents: Read</code>.</li>' +
+        '</ul>' +
+        'Set it via the ⚙ in the Collections bar, then reload.' +
+        (backendErrorDetail ? '<div class="muted" style="margin-top:.4rem">(' + esc(backendErrorDetail) + ')</div>' : '') +
+      '</div>';
+  }
+
   function renderByTab(tab, file) {
     currentTab = tab;
 
@@ -1062,6 +1082,8 @@
     var searchEl = document.getElementById("catalog-search");
     if (searchEl) searchEl.value = "";
     clearPreview();
+
+    if (backendUnreadable) { showBackendError(); return; }
 
     if (tab === "objects") {
       renderObjectsCatalog(allRecords.filter(function (r) { return r.recordType !== "rubbing"; }), file || "");
@@ -1438,7 +1460,7 @@
     // Load records from the data backend (epiwen-data, via token)
     EpiData.list("records")
       .then(function (files) {
-        if (!files) { renderByTab(currentTab, fileParam); loadPrivate(); return; }
+        if (!files) { backendUnreadable = true; renderByTab(currentTab, fileParam); loadPrivate(); return; }
 
         var xmlFiles = files
           .filter(function (f) { return /\.xml$/i.test(f.name); })
@@ -1467,9 +1489,8 @@
         });
       })
       .catch(function (e) {
-        document.getElementById("catalog-list").innerHTML =
-          '<div class="catalog-empty">Could not load records from GitHub: ' +
-          esc(e.message) + '</div>';
+        backendUnreadable = true; backendErrorDetail = e.message;
+        renderByTab(currentTab, fileParam);
         loadPrivate();   // private collections may still be reachable
       });
   });
