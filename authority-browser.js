@@ -252,7 +252,6 @@
     loadIndex();
 
     if (window.EpiCollections) {
-      EpiCollections.mountBar(document.getElementById("collections-bar"));
       EpiCollections.onChange(mergePrivate);
     }
 

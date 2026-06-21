@@ -1057,7 +1057,7 @@
           '<li>a <b>classic</b> PAT with the <code>repo</code> scope, or</li>' +
           '<li>a <b>fine-grained</b> PAT granting <code>epiwen-data → Contents: Read</code>.</li>' +
         '</ul>' +
-        'Set it via the ⚙ in the Collections bar, then reload.' +
+        'Set it via ⚙ Manage in the Collections menu (top-right), then reload.' +
         (backendErrorDetail ? '<div class="muted" style="margin-top:.4rem">(' + esc(backendErrorDetail) + ')</div>' : '') +
       '</div>';
   }
@@ -1404,8 +1404,7 @@
       });
 
       if (window.EpiCollections) {
-        EpiCollections.mountBar(document.getElementById("collections-bar"));
-      }
+        }
 
       var sourceSel = document.getElementById("source-filter");
       if (sourceSel) {

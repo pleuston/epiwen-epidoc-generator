@@ -641,6 +641,87 @@
     if (e.key === "Escape") hideManager();
   });
 
+  // ── Global collections dropdown (top bar, next to the user chip) ─────────────
+  // Self-injects on every page that loads collections.js, so the same selector
+  // is available everywhere and its selection applies app-wide.
+  var _menuMounted = false;
+  function mountMenu() {
+    if (_menuMounted || !token()) return;
+    var signOut = document.querySelector('[onclick="EpiAuth.signOut()"]');
+    if (!signOut || !signOut.parentNode) return;
+    _menuMounted = true;
+
+    var wrap = document.createElement("div");
+    wrap.className = "col-menu";
+    wrap.innerHTML =
+      '<button class="col-menu-btn btn small" type="button" aria-haspopup="true" aria-expanded="false">' +
+        '🌐 Collections<span class="col-menu-count" hidden></span> <span class="col-menu-caret">▾</span>' +
+      '</button>' +
+      '<div class="col-menu-panel" hidden role="menu"></div>';
+    signOut.parentNode.insertBefore(wrap, signOut);
+
+    var btn = wrap.querySelector(".col-menu-btn"),
+        panel = wrap.querySelector(".col-menu-panel"),
+        countEl = wrap.querySelector(".col-menu-count");
+
+    function pkgsFromCache() {
+      var t = getTitleMap();
+      return Object.keys(t).map(function (id) { return { id: id, title: t[id] }; })
+        .sort(function (a, b) { return a.id.localeCompare(b.id); });
+    }
+    function updateCount() {
+      var n = getEnabled().length;
+      countEl.textContent = n ? String(n) : ""; countEl.hidden = (n === 0);
+    }
+    function renderPanel(packages) {
+      var enabled = getEnabled();
+      var items = packages.map(function (p) {
+        var on = enabled.indexOf(p.id) !== -1;
+        return '<label class="col-menu-item' + (on ? " on" : "") + '">' +
+          '<input type="checkbox" value="' + esc(p.id) + '"' + (on ? " checked" : "") + '>' +
+          '<span>🔒 ' + esc(p.title) + '</span></label>';
+      }).join("");
+      panel.innerHTML =
+        '<div class="col-menu-head">Collections</div>' +
+        '<div class="col-menu-item shared on" title="Auto-loaded for everyone with backend access">' +
+          '<span>🌐 ' + esc(SHARED.title) + '</span><span class="col-menu-always">always on</span></div>' +
+        (items || '<div class="col-menu-empty">No private collections yet.</div>') +
+        '<div class="col-menu-sep"></div>' +
+        '<button class="col-menu-action col-add" type="button">＋ Add collection…</button>' +
+        '<button class="col-menu-action col-manage" type="button">⚙ Manage &amp; settings</button>';
+      Array.prototype.forEach.call(panel.querySelectorAll(".col-menu-item input"), function (cb) {
+        cb.addEventListener("change", function () {
+          var en = getEnabled();
+          if (cb.checked) { if (en.indexOf(cb.value) === -1) en.push(cb.value); }
+          else en = en.filter(function (x) { return x !== cb.value; });
+          setEnabled(en);
+          var lbl = cb.closest(".col-menu-item"); if (lbl) lbl.classList.toggle("on", cb.checked);
+          updateCount(); fireChange();
+        });
+      });
+      panel.querySelector(".col-add").addEventListener("click", function () { close(); showManager(true); });
+      panel.querySelector(".col-manage").addEventListener("click", function () { close(); showManager(false); });
+    }
+    function open() {
+      renderPanel(pkgsFromCache()); panel.hidden = false; btn.setAttribute("aria-expanded", "true");
+      listPackages().then(function (res) { if (res.ok && !panel.hidden) renderPanel(res.packages); });
+    }
+    function close() { panel.hidden = true; btn.setAttribute("aria-expanded", "false"); }
+
+    btn.addEventListener("click", function (e) { e.stopPropagation(); panel.hidden ? open() : close(); });
+    document.addEventListener("click", function (e) { if (!wrap.contains(e.target)) close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
+
+    updateCount();
+    onChange(function () { updateCount(); if (!panel.hidden) renderPanel(pkgsFromCache()); });
+    var c = getConfig();
+    if (c.owner && c.repo) listPackages().then(function () { updateCount(); });
+  }
+
+  // Auto-mount the dropdown once the DOM is ready (idempotent).
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mountMenu);
+  else mountMenu();
+
   window.EpiCollections = {
     getConfig:       getConfig,
     setConfig:       setConfig,
@@ -656,6 +737,7 @@
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,
     mountBar:        mountBar,
+    mountMenu:       mountMenu,
     listUserRepos:   listUserRepos,
     createPackage:   createPackage,
     createRepo:      createRepo,

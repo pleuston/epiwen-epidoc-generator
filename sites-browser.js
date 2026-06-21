@@ -13,6 +13,7 @@
   var TEI = "http://www.tei-c.org/ns/1.0";
 
   var allRecords = [];
+  var publicRecords = [];
   var byId = {};
   var byParent = {};        // parentId -> [records]
   var selectedId = null;
@@ -45,20 +46,38 @@
     EpiData.fetch("data/site-index.json")
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (data) {
-        allRecords = data;
-        byId = {}; byParent = {};
-        data.forEach(function (r) {
-          byId[r.id] = r;
-          (byParent[r.parent || ""] = byParent[r.parent || ""] || []).push(r);
-        });
+        publicRecords = data;
+        rebuildIndexes(publicRecords);
         renderTree("");
         // Deep-link from the map: sites.html?site=<id>
         var want = new URLSearchParams(location.search).get("site");
         if (want && byId[want]) showDetail(want);
+        mergePrivate();   // fold in sites from enabled collections, if any
       })
       .catch(function (e) {
         tree.innerHTML = '<div class="catalog-loading">Error: ' + esc(e.message) + "</div>";
       });
+  }
+
+  function rebuildIndexes(records) {
+    allRecords = records;
+    byId = {}; byParent = {};
+    records.forEach(function (r) {
+      byId[r.id] = r;
+      (byParent[r.parent || ""] = byParent[r.parent || ""] || []).push(r);
+    });
+  }
+
+  // Fold sites from enabled collections into the tree (additive; re-run on toggle).
+  // A collection contributes sites by carrying collections/<pkg>/site-index.json.
+  function mergePrivate() {
+    if (!window.EpiCollections || !EpiCollections.loadIndex) return;
+    EpiCollections.loadIndex("site").then(function (priv) {
+      rebuildIndexes(publicRecords.concat(priv || []));
+      var s = el("site-search");
+      renderTree(s ? s.value : "");
+      if (selectedId && byId[selectedId]) showDetail(selectedId);
+    }).catch(function () {});
   }
 
   // ── tree ───────────────────────────────────────────────────────────────────
@@ -380,6 +399,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     load();
+    if (window.EpiCollections) EpiCollections.onChange(mergePrivate);
     el("view-html").addEventListener("click", function () { setView("html"); });
     el("view-xml").addEventListener("click", function () { setView("xml"); });
     var s = el("site-search");

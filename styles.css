@@ -162,6 +162,28 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .col-chip.shared { cursor: default; border-style: dashed; border-color: var(--accent); background: #fff; color: var(--accent); font-weight: 600; }
 .collections-bar .col-config { margin-left: auto; }
 
+/* ---- global collections dropdown (top bar, next to the user chip) ---- */
+.topbar .col-menu { position: relative; display: inline-block; margin-right: 0.5rem; }
+.col-menu-btn { display: inline-flex; align-items: center; gap: 0.3rem; }
+.col-menu-count { background: var(--accent); color: #fff; border-radius: 9px; padding: 0 0.35rem; font-size: 0.72rem; line-height: 1.5; }
+.col-menu-caret { font-size: 0.7rem; opacity: 0.8; }
+.col-menu-panel {
+  position: absolute; right: 0; top: calc(100% + 0.35rem); z-index: 60;
+  min-width: 240px; max-width: 340px; background: #fff; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.14); padding: 0.35rem;
+}
+.col-menu-head { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); padding: 0.25rem 0.45rem; }
+.col-menu-item { display: flex; align-items: center; gap: 0.4rem; padding: 0.32rem 0.45rem; border-radius: 5px; cursor: pointer; font-size: 0.85rem; }
+.col-menu-item:hover { background: var(--bg); }
+.col-menu-item.on { color: var(--accent); font-weight: 600; }
+.col-menu-item.shared { cursor: default; }
+.col-menu-item input[type="checkbox"] { width: auto; margin: 0; flex: 0 0 auto; }
+.col-menu-always { margin-left: auto; font-size: 0.66rem; font-weight: 400; color: var(--accent); border: 1px dashed var(--accent); border-radius: 8px; padding: 0 0.3rem; }
+.col-menu-empty { font-size: 0.8rem; color: var(--muted); padding: 0.3rem 0.45rem; }
+.col-menu-sep { height: 1px; background: var(--line); margin: 0.35rem 0.2rem; }
+.col-menu-action { display: block; width: 100%; text-align: left; background: none; border: 0; padding: 0.35rem 0.45rem; border-radius: 5px; cursor: pointer; font-size: 0.85rem; color: var(--ink); }
+.col-menu-action:hover { background: var(--bg); }
+
 /* ---- hint bar "or" divider ---- */
 .hint-or {
   color: var(--muted); font-style: italic; font-size: 0.78rem; padding: 0 0.1rem;
