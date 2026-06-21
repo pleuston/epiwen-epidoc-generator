@@ -281,6 +281,16 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .catalog-monument.selectable:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .rub-viewtoggle { margin: 0 0 0.6rem; font-size: 0.85rem; color: var(--muted, #667); }
 .catalog-rubbing.selectable { cursor: pointer; }
+/* "By inscription" index view */
+.rub-index { font-size: 0.86rem; }
+.ins-row { padding: 0.45rem 0; border-bottom: 1px solid var(--line); }
+.ins-name { font-weight: 600; color: var(--ink); margin-bottom: 0.2rem; }
+.ins-name .ins-zh { font-weight: 400; color: var(--muted); margin-left: 0.25rem; }
+.ins-name .ins-count { font-weight: 400; font-size: 0.75rem; color: #fff; background: var(--accent); border-radius: 9px; padding: 0 0.4rem; margin-left: 0.3rem; }
+.ins-hold { padding: 0.1rem 0 0.1rem 0.8rem; line-height: 1.6; }
+.ins-inst { color: var(--muted); margin-right: 0.25rem; }
+.ins-hold a { color: var(--accent); text-decoration: none; }
+.ins-hold a:hover { text-decoration: underline; }
 .catalog-info { flex: 1; min-width: 0; }
 .catalog-badge-private {
   display: inline-block; margin: 0 0 0.25rem; padding: 0.04rem 0.45rem;

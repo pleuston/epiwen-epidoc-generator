@@ -1257,8 +1257,17 @@
     }
     var viewBar = '<div class="rub-viewtoggle">View: ' +
       '<button type="button" class="btn small' + (rubViewMode === "flat" ? " primary" : "") + '" data-rubview="flat">Every rubbing</button> ' +
-      '<button type="button" class="btn small' + (rubViewMode === "compact" ? " primary" : "") + '" data-rubview="compact">Compact (by inscription)</button></div>';
+      '<button type="button" class="btn small' + (rubViewMode === "compact" ? " primary" : "") + '" data-rubview="compact">Compact (by inscription)</button> ' +
+      '<button type="button" class="btn small' + (rubViewMode === "index" ? " primary" : "") + '" data-rubview="index">By inscription (index)</button></div>';
     list.innerHTML = selHtml + viewBar;
+    if (rubViewMode === "index") {
+      var ibox = document.createElement("div"); ibox.className = "rub-index";
+      ibox.innerHTML = '<div class="catalog-loading">Loading inscription index…</div>';
+      list.appendChild(ibox);
+      renderInscriptionIndex(ibox);
+      wireRubSource(); wireRubView();
+      return;
+    }
     if (rubViewMode === "compact") {
       // draw the different collections together under the same inscription
       var groups = {};
@@ -1318,6 +1327,31 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-rubview]"), function (b) {
       b.addEventListener("click", function () { rubViewMode = this.dataset.rubview; renderByTab("rubbings"); });
     });
+  }
+
+  // "By inscription" index: one heading per inscription, holdings grouped by
+  // institution as comma-separated id links. Reads collections/<corpus>/_inscription_index.json.
+  var _insIndexCache = null;
+  function renderInscriptionIndex(box) {
+    function draw(data) {
+      if (!Array.isArray(data) || !data.length) { box.innerHTML = '<div class="catalog-empty">No inscription index for this corpus.</div>'; return; }
+      box.innerHTML = data.map(function (ins) {
+        var holds = (ins.holdings || []).map(function (h) {
+          var ids = (h.items || []).map(function (it) {
+            return '<a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(it.id) + '</a>';
+          }).join(", ");
+          return '<div class="ins-hold"><span class="ins-inst">' + esc(h.institution) + ':</span> ' + ids + '</div>';
+        }).join("");
+        return '<div class="ins-row"><div class="ins-name">' + esc(ins.en) +
+          (ins.zh ? ' <span class="ins-zh">' + esc(ins.zh) + '</span>' : '') +
+          ' <span class="ins-count">' + (ins.count || 0) + '</span></div>' + holds + '</div>';
+      }).join("");
+    }
+    if (_insIndexCache) { draw(_insIndexCache); return; }
+    if (!window.EpiCollections || !EpiCollections.fetchSharedFile) { box.innerHTML = '<div class="catalog-empty">Index unavailable.</div>'; return; }
+    EpiCollections.fetchSharedFile("_inscription_index.json")
+      .then(function (txt) { _insIndexCache = JSON.parse(txt); draw(_insIndexCache); })
+      .catch(function () { box.innerHTML = '<div class="catalog-empty">No inscription index found for this corpus.</div>'; });
   }
 
   function wireRubSource() {

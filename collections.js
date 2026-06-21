@@ -182,6 +182,11 @@
       .catch(function () { return []; });   // 404 → no shared index of this kind
   }
 
+  /* Fetch an arbitrary file (e.g. _inscription_index.json) from the shared corpus. */
+  function fetchSharedFile(relpath) {
+    return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + relpath);
+  }
+
   function b64(str) { return btoa(unescape(encodeURIComponent(str))); }
 
   function contentsUrl(path) {  // PUT target — branch goes in the body, no ?ref
@@ -752,6 +757,7 @@
     loadEnabled:     loadEnabled,
     loadShared:      loadShared,
     loadSharedIndex: loadSharedIndex,
+    fetchSharedFile: fetchSharedFile,
     SHARED:          SHARED,
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,
