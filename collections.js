@@ -168,22 +168,48 @@
   }
 
   /* Load every .xml record from the default (no-auth) corpus in the app repo.
-     Always attempted; 404 (corpus/ not yet created) yields empty result. */
+     Walks one level of subdirectories (sites/, objects/, rubbings/, characters/).
+     Always attempted; 404 yields empty result. */
   function loadDefaultCorpus() {
-    return ctxListNoAuth(DEFAULT_CORPUS, DEFAULT_CORPUS.id)
+    var base = DEFAULT_CORPUS.id;
+    function fetchFile(path, name) {
+      return ctxFetchNoAuth(DEFAULT_CORPUS, path)
+        .then(function (xml) {
+          return { name: name, xml: xml, collection: DEFAULT_CORPUS.id,
+                   collectionTitle: DEFAULT_CORPUS.title, shared: true };
+        })
+        .catch(function () { return null; });
+    }
+    function listDir(dirPath) {
+      return ctxListNoAuth(DEFAULT_CORPUS, dirPath)
+        .then(function (entries) {
+          if (!entries || !Array.isArray(entries)) return [];
+          return entries.filter(function (e) {
+            return e.type === "file" && /\.xml$/i.test(e.name);
+          }).map(function (e) {
+            return { path: dirPath + "/" + encodeURIComponent(e.name), name: e.name };
+          });
+        })
+        .catch(function () { return []; });
+    }
+    return ctxListNoAuth(DEFAULT_CORPUS, base)
       .then(function (entries) {
         if (!entries || !Array.isArray(entries)) return { records: [], errors: [] };
-        var xmlFiles = entries.filter(function (e) {
+        var rootFiles = entries.filter(function (e) {
           return e.type === "file" && /\.xml$/i.test(e.name);
+        }).map(function (e) {
+          return { path: base + "/" + encodeURIComponent(e.name), name: e.name };
         });
-        return Promise.all(xmlFiles.map(function (f) {
-          return ctxFetchNoAuth(DEFAULT_CORPUS, DEFAULT_CORPUS.id + "/" + encodeURIComponent(f.name))
-            .then(function (xml) {
-              return { name: f.name, xml: xml, collection: DEFAULT_CORPUS.id,
-                       collectionTitle: DEFAULT_CORPUS.title, shared: true };
-            })
-            .catch(function () { return null; });
-        })).then(function (arr) { return { records: arr.filter(Boolean), errors: [] }; });
+        var subdirJobs = entries.filter(function (e) {
+          return e.type === "dir";
+        }).map(function (e) { return listDir(base + "/" + e.name); });
+        return Promise.all(subdirJobs).then(function (subResults) {
+          var allFiles = rootFiles;
+          subResults.forEach(function (sub) { allFiles = allFiles.concat(sub); });
+          return Promise.all(allFiles.map(function (f) {
+            return fetchFile(f.path, f.name);
+          })).then(function (arr) { return { records: arr.filter(Boolean), errors: [] }; });
+        });
       })
       .catch(function () { return { records: [], errors: [] }; });
   }

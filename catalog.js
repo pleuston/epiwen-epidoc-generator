@@ -1414,6 +1414,7 @@
     // The shared collection auto-loads alongside any enabled private collections.
     var jobs = [ EpiCollections.loadEnabled() ];
     if (EpiCollections.loadShared) jobs.unshift(EpiCollections.loadShared());
+    if (EpiCollections.loadDefaultCorpus) jobs.unshift(EpiCollections.loadDefaultCorpus());
     Promise.all(jobs).then(function (results) {
       var raw = [];
       results.forEach(function (res) { raw = raw.concat((res && res.records) || []); });
@@ -1495,14 +1496,16 @@
     // enabled collections; authorities + biblio stay in the always-on core.
     // Probe a core path (data/) to detect backend readability, then load records
     // from the collections via loadPrivate().
+    // Always load the default corpus (no auth needed); also probe the private
+    // backend and, if accessible, load private collections on top.
+    loadPrivate();   // default corpus works without a token; loadEnabled/loadShared gracefully no-op without one
     EpiData.list("data")
       .then(function (files) {
-        if (!files) { backendUnreadable = true; renderByTab(currentTab, fileParam); return; }  // 404 = no access
-        loadPrivate();   // Stone Sutras corpus + enabled collections provide all records
+        if (!files) { backendUnreadable = true; return; }  // 404 = no private backend access
+        loadPrivate();   // re-run now that we know the backend is readable (adds private records)
       })
       .catch(function (e) {
         backendUnreadable = true; backendErrorDetail = e.message;
-        renderByTab(currentTab, fileParam);
       });
   });
 })();
