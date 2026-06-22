@@ -204,12 +204,16 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 
 /* ---- site navigation (about page + editor back-link) ---- */
 .sitenav { display: flex; gap: 0.5rem; align-items: center; }
+.nav-group { display: flex; flex-direction: column; gap: 0.15rem; }
+.nav-group-label { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); line-height: 1; padding: 0 0.1rem; }
+.nav-group-links { display: flex; align-items: center; gap: 0.05rem; }
 .sitenav-link {
   font-size: 0.85rem; color: var(--ink); text-decoration: none;
   padding: 0.35rem 0.7rem; border-radius: 6px; border: 1px solid transparent;
 }
 .sitenav-link:hover { border-color: var(--line); }
 .sitenav-link.active { color: var(--accent); font-weight: 600; }
+.nav-pipe { color: var(--line); font-size: 0.85rem; padding: 0 0.1rem; user-select: none; }
 .sitenav-back {
   font-size: 1rem; color: var(--muted); text-decoration: none;
   margin-right: 0.2rem; padding: 0 0.2rem;

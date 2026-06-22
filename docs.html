@@ -13,18 +13,39 @@
       <div class="brand">
         <a href="index.html" class="brand-home">Epiwen</a>
       </div>
-      <nav class="sitenav">
-        <a href="map.html"                     class="sitenav-link">Map</a>
-        <a href="sites.html"                   class="sitenav-link">Sites</a>
-        <a href="catalog.html"                 class="sitenav-link" data-tab="objects">Objects</a>
-        <a href="catalog.html?tab=inscriptions" class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
-        <a href="catalog.html?tab=rubbings"    class="sitenav-link" data-tab="rubbings">Rubbings</a>
-        <a href="favorites.html"               class="sitenav-link">Favorites</a>
-        <a href="authorities.html"             class="sitenav-link">Authorities</a>
-        <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
-        <a href="docs.html"                    class="sitenav-link active">Docs</a>
-        <a href="issues.html"                   class="sitenav-link">Issues</a>
-      </nav>
+        <nav class="sitenav">
+          <a href="map.html" class="sitenav-link">Map</a>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Catalogs</span>
+            <div class="nav-group-links">
+              <a href="sites.html" class="sitenav-link">Sites</a>
+              <a href="catalog.html" class="sitenav-link">Objects</a>
+              <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+              <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Authorities</span>
+            <div class="nav-group-links">
+              <a href="authorities.html?filter=vocabulary" class="sitenav-link">Vocabularies</a>
+              <a href="authorities.html?filter=personal" class="sitenav-link">Persons</a>
+              <a href="authorities.html?filter=corporate" class="sitenav-link">Institutions</a>
+              <a href="authorities.html?filter=temporal" class="sitenav-link">Time</a>
+              <a href="authorities.html?filter=geographic" class="sitenav-link">Places</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+          <a href="ontology.html" class="sitenav-link">Ontology</a>
+        </nav>
+      <a href="issues.html"                   class="sitenav-link">Issues</a>
+      <a href="docs.html"                    class="sitenav-link active">Docs</a>
+      <a href="logs.html" class="sitenav-link">Log</a>
+      <span class="nav-pipe">|</span>
+      <a href="favorites.html"               class="sitenav-link">Favorites</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -48,107 +69,6 @@
         <button data-workflow-modal class="btn primary" style="margin-top:0.6rem">
           Open workflow guide →
         </button>
-      </section>
-
-      <section class="docs-section">
-        <h2>Data model</h2>
-        <p>The platform is organized around nine entity types and the relationships between them. Hover a node to highlight its connections.</p>
-        <div style="overflow-x:auto; margin: 1.2rem 0">
-          <svg viewBox="0 0 980 400" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;max-width:900px"
-               role="img" aria-label="Entity model diagram">
-            <defs>
-              <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
-                <path d="M0,1 L9,5 L0,9z" fill="#ddd"/>
-              </marker>
-              <marker id="arh" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
-                <path d="M0,1 L9,5 L0,9z" fill="#a0291b"/>
-              </marker>
-            </defs>
-            <!-- EDGES -->
-            <path class="dm-edge" id="dm-map-sites" marker-end="url(#arr)" d="M 100,148 L 100,224" data-a="dm-map" data-b="dm-sites" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="106" y="188" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">locates</text>
-            <path class="dm-edge" id="dm-sites-obj" marker-end="url(#arr)" d="M 165,250 C 230,250 270,215 293,210" data-a="dm-sites" data-b="dm-obj" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="198" y="234" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">contains</text>
-            <path class="dm-edge" id="dm-obj-ins" marker-end="url(#arr)" d="M 360,207 L 360,224" data-a="dm-obj" data-b="dm-ins" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="366" y="219" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">bears</text>
-            <path class="dm-edge" id="dm-ins-fac" marker-end="url(#arr)" d="M 360,308 L 360,332" data-a="dm-ins" data-b="dm-fac" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="366" y="323" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">documented by</text>
-            <path class="dm-edge" id="dm-ins-txt" marker-end="url(#arr)" d="M 443,248 C 520,240 555,140 573,122" data-a="dm-ins" data-b="dm-txt" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="499" y="196" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">transcribes</text>
-            <path class="dm-edge" id="dm-ins-per" marker-end="url(#arr)" d="M 450,270 L 572,270" data-a="dm-ins" data-b="dm-per" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="482" y="263" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">linked to</text>
-            <path class="dm-edge" id="dm-per-auth" marker-end="url(#arr)" d="M 718,256 C 775,236 800,200 807,184" data-a="dm-per" data-b="dm-auth" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="754" y="220" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">authority</text>
-            <path class="dm-edge" id="dm-per-bib" marker-end="url(#arr)" d="M 718,285 C 775,316 808,334 827,340" data-a="dm-per" data-b="dm-bib" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="762" y="327" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">cited in</text>
-            <path class="dm-edge" id="dm-ins-bib" marker-end="url(#arr)" d="M 443,298 C 560,375 756,384 827,362" data-a="dm-ins" data-b="dm-bib" style="stroke:#ddd;stroke-width:1.5;fill:none"/>
-            <text x="604" y="387" style="font-size:10px;fill:#ccc;font-family:sans-serif;font-style:italic">documented in</text>
-            <!-- NODES -->
-            <a href="map.html"><g class="dm-node" id="dm-map" style="cursor:pointer">
-              <rect x="38" y="102" width="124" height="46" rx="7" fill="#e4f2ea" stroke="#3a6e4a" stroke-width="1.5"/>
-              <text x="100" y="122" text-anchor="middle" fill="#24503a" style="font-size:12px;font-weight:700;font-family:sans-serif">Map</text>
-              <text x="100" y="138" text-anchor="middle" fill="#3a6e4a" style="font-size:9.5px;font-family:sans-serif">geographic reference</text>
-            </g></a>
-            <a href="sites.html"><g class="dm-node" id="dm-sites" style="cursor:pointer">
-              <rect x="38" y="224" width="130" height="46" rx="7" fill="#e4f2ea" stroke="#3a6e4a" stroke-width="1.5"/>
-              <text x="103" y="244" text-anchor="middle" fill="#24503a" style="font-size:12px;font-weight:700;font-family:sans-serif">Sites</text>
-              <text x="103" y="260" text-anchor="middle" fill="#3a6e4a" style="font-size:9.5px;font-family:sans-serif">complexes · locations</text>
-            </g></a>
-            <a href="catalog.html"><g class="dm-node" id="dm-obj" style="cursor:pointer">
-              <rect x="293" y="162" width="134" height="44" rx="7" fill="#e2ecf8" stroke="#263a8a" stroke-width="1.5"/>
-              <text x="360" y="182" text-anchor="middle" fill="#1a2a6e" style="font-size:12px;font-weight:700;font-family:sans-serif">Objects</text>
-              <text x="360" y="197" text-anchor="middle" fill="#2a3e8a" style="font-size:9.5px;font-family:sans-serif">material bearers</text>
-            </g></a>
-            <a href="catalog.html?tab=inscriptions"><g class="dm-node" id="dm-ins" style="cursor:pointer">
-              <rect x="286" y="222" width="164" height="58" rx="8" fill="#fff5f5" stroke="#a0291b" stroke-width="2.5"/>
-              <text x="368" y="247" text-anchor="middle" fill="#8a1e14" style="font-size:12px;font-weight:700;font-family:sans-serif">Inscriptions</text>
-              <text x="368" y="264" text-anchor="middle" fill="#a0291b" style="font-size:9.5px;font-family:sans-serif">primary written sources</text>
-            </g></a>
-            <a href="catalog.html?tab=rubbings"><g class="dm-node" id="dm-fac" style="cursor:pointer">
-              <rect x="293" y="330" width="134" height="44" rx="7" fill="#e2ecf8" stroke="#263a8a" stroke-width="1.5"/>
-              <text x="360" y="350" text-anchor="middle" fill="#1a2a6e" style="font-size:12px;font-weight:700;font-family:sans-serif">Facsimiles</text>
-              <text x="360" y="365" text-anchor="middle" fill="#2a3e8a" style="font-size:9.5px;font-family:sans-serif">documentary reproductions</text>
-            </g></a>
-            <g class="dm-node" id="dm-txt" style="cursor:default">
-              <rect x="572" y="78" width="138" height="44" rx="7" fill="#fdf3e0" stroke="#8a5218" stroke-width="1.5"/>
-              <text x="641" y="98" text-anchor="middle" fill="#6a3c0e" style="font-size:12px;font-weight:700;font-family:sans-serif">Texts</text>
-              <text x="641" y="114" text-anchor="middle" fill="#8a5218" style="font-size:9.5px;font-family:sans-serif">source · canonical · literary</text>
-            </g>
-            <a href="authorities.html"><g class="dm-node" id="dm-per" style="cursor:pointer">
-              <rect x="572" y="248" width="146" height="46" rx="7" fill="#ede6f7" stroke="#542e8a" stroke-width="1.5"/>
-              <text x="645" y="268" text-anchor="middle" fill="#38196e" style="font-size:12px;font-weight:700;font-family:sans-serif">Persons</text>
-              <text x="645" y="284" text-anchor="middle" fill="#542e8a" style="font-size:9.5px;font-family:sans-serif">historical agents</text>
-            </g></a>
-            <a href="authorities.html"><g class="dm-node" id="dm-auth" style="cursor:pointer">
-              <rect x="807" y="138" width="152" height="46" rx="7" fill="#ede6f7" stroke="#542e8a" stroke-width="1.5"/>
-              <text x="883" y="158" text-anchor="middle" fill="#38196e" style="font-size:12px;font-weight:700;font-family:sans-serif">Authorities</text>
-              <text x="883" y="174" text-anchor="middle" fill="#542e8a" style="font-size:9.5px;font-family:sans-serif">authority control</text>
-            </g></a>
-            <a href="bibliography.html"><g class="dm-node" id="dm-bib" style="cursor:pointer">
-              <rect x="827" y="318" width="152" height="46" rx="7" fill="#e2f0e6" stroke="#255a36" stroke-width="1.5"/>
-              <text x="903" y="338" text-anchor="middle" fill="#1a3e26" style="font-size:12px;font-weight:700;font-family:sans-serif">Bibliography</text>
-              <text x="903" y="354" text-anchor="middle" fill="#255a36" style="font-size:9.5px;font-family:sans-serif">primary · secondary sources</text>
-            </g></a>
-          </svg>
-        </div>
-        <script>
-          (function () {
-            var edges = Array.from(document.querySelectorAll(".dm-edge"));
-            document.querySelectorAll(".dm-node").forEach(function (n) {
-              var id = n.id;
-              function hi(on) {
-                edges.forEach(function (e) {
-                  var match = e.dataset.a === id || e.dataset.b === id;
-                  e.style.stroke = on && match ? "#a0291b" : "#ddd";
-                  e.style.strokeWidth = on && match ? "2" : "1.5";
-                  if (match) e.setAttribute("marker-end", on ? "url(#arh)" : "url(#arr)");
-                });
-              }
-              n.addEventListener("mouseenter", function () { hi(true); });
-              n.addEventListener("mouseleave", function () { hi(false); });
-            });
-          })();
-        </script>
       </section>
 
       <section class="docs-section">

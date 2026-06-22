@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · Authorities</title>
+    <title>Epiwen · Glyphs</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
     <script src="data.js"></script>
@@ -23,7 +23,7 @@
               <a href="catalog.html" class="sitenav-link">Objects</a>
               <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
               <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
-              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
+              <a href="glyphs.html" class="sitenav-link active">Glyphs</a>
             </div>
           </div>
           <span class="nav-pipe">|</span>
@@ -41,11 +41,11 @@
           <a href="bibliography.html" class="sitenav-link">Bibliography</a>
           <a href="ontology.html" class="sitenav-link">Ontology</a>
         </nav>
-      <a href="issues.html"                   class="sitenav-link">Issues</a>
-      <a href="docs.html"                    class="sitenav-link">Docs</a>
-      <a href="logs.html" class="sitenav-link">Log</a>
+      <a href="issues.html"    class="sitenav-link">Issues</a>
+      <a href="docs.html"      class="sitenav-link">Docs</a>
+      <a href="logs.html"      class="sitenav-link">Log</a>
       <span class="nav-pipe">|</span>
-      <a href="favorites.html"               class="sitenav-link">Favorites</a>
+      <a href="favorites.html" class="sitenav-link">Favorites</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -53,35 +53,26 @@
 
     <div class="about-layout">
 
-      <!-- ── List pane ── -->
       <div class="about-pane">
         <section class="catalog-section" style="margin-top:0">
           <div class="catalog-head">
-            <h2>Authorities <span id="auth-count" class="catalog-date" style="font-weight:normal;font-size:.85em"></span></h2>
+            <h2>Glyphs</h2>
             <div class="catalog-head-actions">
-              <button id="auth-new-btn" class="btn small primary">+ New</button>
-              <input type="search" id="auth-search" class="catalog-searchbox"
-                     placeholder="Filter…" aria-label="filter authorities" />
+              <input type="search" id="glyph-search" class="catalog-searchbox"
+                     placeholder="Filter…" aria-label="filter glyphs" />
             </div>
           </div>
-          <div class="view-toggle" style="margin-bottom:.5rem">
-            <button class="view-btn auth-tab-btn active" data-filter="all">All</button>
-            <button class="view-btn auth-tab-btn" data-filter="vocabulary">Vocabularies</button>
-            <button class="view-btn auth-tab-btn" data-filter="personal">Persons</button>
-            <button class="view-btn auth-tab-btn" data-filter="corporate">Institutions</button>
-            <button class="view-btn auth-tab-btn" data-filter="temporal">Time</button>
-            <button class="view-btn auth-tab-btn" data-filter="geographic">Places</button>
+          <div id="glyph-list">
+            <div class="catalog-loading">Character index not yet available.</div>
           </div>
-          <div id="auth-list" class="catalog-list"></div>
         </section>
       </div>
 
-      <!-- ── Detail pane ── -->
-      <div class="catalog-preview" id="auth-detail-panel">
+      <div class="catalog-preview" id="glyph-detail-panel">
         <div class="preview-head">
-          <span id="preview-title">Select an authority record</span>
+          <span id="preview-title">Select a glyph</span>
         </div>
-        <div id="auth-detail-content" class="hp-pane"></div>
+        <div id="glyph-detail-content" class="hp-pane"></div>
       </div>
 
     </div>
@@ -93,18 +84,7 @@
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
-    <script>
-      (function () {
-        var f = new URLSearchParams(location.search).get("filter");
-        if (f) {
-          document.querySelectorAll('.sitenav a[href*="?filter="]').forEach(function (a) {
-            a.classList.toggle("active", a.href.includes("filter=" + f));
-          });
-        }
-      })();
-    </script>
     <script src="collections.js"></script>
-    <script src="authority-browser.js"></script>
     <script src="modal.js"></script>
   </body>
 </html>

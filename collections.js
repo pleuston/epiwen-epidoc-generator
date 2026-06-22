@@ -36,6 +36,12 @@
   var DEFAULTS = { repo: "epiwen-data", branch: "main" };
   var MODAL_ID = "col-manager-modal";
 
+  // DEFAULT = no-auth corpus bundled in the app repo itself (pleuston/epiwen).
+  // Loaded without a token so the app works out of the box in workshops.
+  // Records live under corpus/ in the app repo.
+  var DEFAULT_CORPUS = { owner: "pleuston", repo: "epiwen", branch: "main",
+                         id: "corpus", title: "Workshop corpus" };
+
   // SHARED = the default-ON public corpus: rubbings + holding-institution
   // authorities, in the PUBLIC repo epiwen-public. Person/place authorities and
   // bibliography stay in the always-on core; the Stone Sutras corpus (sites +
@@ -139,6 +145,47 @@
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     });
+  }
+
+  // No-auth fetch for public repos (works without a token; GitHub rate-limits
+  // unauthenticated requests to 60/hour but that is fine for workshop use).
+  function ctxFetchNoAuth(ctx, path) {
+    return fetch(ctxApiUrl(ctx, path), {
+      headers: { "Accept": "application/vnd.github.raw", "X-GitHub-Api-Version": "2022-11-28" }
+    }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    });
+  }
+  function ctxListNoAuth(ctx, path) {
+    return fetch(ctxApiUrl(ctx, path), {
+      headers: { "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" }
+    }).then(function (r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    });
+  }
+
+  /* Load every .xml record from the default (no-auth) corpus in the app repo.
+     Always attempted; 404 (corpus/ not yet created) yields empty result. */
+  function loadDefaultCorpus() {
+    return ctxListNoAuth(DEFAULT_CORPUS, DEFAULT_CORPUS.id)
+      .then(function (entries) {
+        if (!entries || !Array.isArray(entries)) return { records: [], errors: [] };
+        var xmlFiles = entries.filter(function (e) {
+          return e.type === "file" && /\.xml$/i.test(e.name);
+        });
+        return Promise.all(xmlFiles.map(function (f) {
+          return ctxFetchNoAuth(DEFAULT_CORPUS, DEFAULT_CORPUS.id + "/" + encodeURIComponent(f.name))
+            .then(function (xml) {
+              return { name: f.name, xml: xml, collection: DEFAULT_CORPUS.id,
+                       collectionTitle: DEFAULT_CORPUS.title, shared: true };
+            })
+            .catch(function () { return null; });
+        })).then(function (arr) { return { records: arr.filter(Boolean), errors: [] }; });
+      })
+      .catch(function () { return { records: [], errors: [] }; });
   }
 
   /* Load every .xml record in the shared collection. Always attempted (no
@@ -407,7 +454,7 @@
           '<span>🔒 ' + esc(p.title) + '</span></label>';
       }).join("");
       el.innerHTML =
-        '<span class="collections-bar-label">Collections</span>' +
+        '<span class="collections-bar-label">Corpora</span>' +
         sharedChip +
         (chips || '<span class="collections-bar-empty">' + esc(msg || "add your own →") + '</span>') +
         ACTIONS;
@@ -463,7 +510,7 @@
         ' role="dialog" aria-modal="true" aria-labelledby="col-modal-heading">' +
       '<div class="modal-box" style="max-width:520px">' +
         '<button class="modal-close" id="col-modal-close" aria-label="Close">&#x2715;</button>' +
-        '<h2 id="col-modal-heading" class="modal-title">Private collections</h2>' +
+        '<h2 id="col-modal-heading" class="modal-title">Corpora</h2>' +
         '<p class="modal-desc">Load named packages of records from a private repo. ' +
           'Records stay visible only to tokens with access — others get a 404. ' +
           'Layout: <code>collections/&lt;name&gt;/*.xml</code>.</p>' +
@@ -697,7 +744,7 @@
     wrap.className = "col-menu";
     wrap.innerHTML =
       '<button class="col-menu-btn btn small" type="button" aria-haspopup="true" aria-expanded="false">' +
-        '🌐 Collections<span class="col-menu-count" hidden></span> <span class="col-menu-caret">▾</span>' +
+        '🌐 Corpora<span class="col-menu-count" hidden></span> <span class="col-menu-caret">▾</span>' +
       '</button>' +
       '<div class="col-menu-panel" hidden role="menu"></div>';
     signOut.parentNode.insertBefore(wrap, signOut);
@@ -725,7 +772,7 @@
           '<span>🔒 ' + esc(p.title) + '</span></label>';
       }).join("");
       panel.innerHTML =
-        '<div class="col-menu-head">Collections</div>' +
+        '<div class="col-menu-head">Corpora</div>' +
         '<label class="col-menu-item shared' + (sharedOn ? " on" : "") + '" title="On by default — shared with everyone who has backend access. Untick to hide it.">' +
           '<input type="checkbox" class="col-shared-cb"' + (sharedOn ? " checked" : "") + '>' +
           '<span>🌐 ' + esc(SHARED.title) + '</span><span class="col-menu-always">default</span></label>' +
@@ -781,11 +828,13 @@
     listPackages:    listPackages,
     loadPackage:     loadPackage,
     loadEnabled:     loadEnabled,
-    loadShared:      loadShared,
-    loadSharedIndex: loadSharedIndex,
-    fetchSharedFile: fetchSharedFile,
-    deleteFile:      deleteFile,
-    SHARED:          SHARED,
+    loadDefaultCorpus: loadDefaultCorpus,
+    loadShared:        loadShared,
+    loadSharedIndex:   loadSharedIndex,
+    fetchSharedFile:   fetchSharedFile,
+    deleteFile:        deleteFile,
+    DEFAULT_CORPUS:    DEFAULT_CORPUS,
+    SHARED:            SHARED,
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,
     mountBar:        mountBar,

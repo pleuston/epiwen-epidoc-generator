@@ -15,7 +15,6 @@
   var selectedItem = null;
   var currentTab   = "objects";
   var showMine     = false;
-  var sourceFilter = "all";   // "all" | "public" | "private" | "col:<id>"
   var rubSourceFilter = "all"; // Rubbings tab: filter by holding collection / source
   var siteFilter   = "all";    // Objects/Inscriptions: filter by site (origPlace / repository)
   var rubViewMode  = "flat";   // Rubbings tab: "flat" (every rubbing) | "compact" (by inscription)
@@ -1149,16 +1148,6 @@
     }
   }
 
-  function applySourceFilter(records) {
-    if (sourceFilter === "all")     return records;
-    if (sourceFilter === "public")  return records.filter(function (r) { return r.source !== "private"; });
-    if (sourceFilter === "private") return records.filter(function (r) { return r.source === "private"; });
-    if (sourceFilter.indexOf("col:") === 0) {
-      var id = sourceFilter.slice(4);
-      return records.filter(function (r) { return r.collection === id; });
-    }
-    return records;
-  }
 
   function applyMineFilter(records) {
     if (!showMine || !currentUsername) return records;
@@ -1195,22 +1184,15 @@
     if (sel) sel.addEventListener("change", function () { siteFilter = this.value; renderByTab(currentTab); });
   }
 
-  /* Compose source + mine + site filters. */
   function applyFilters(records) {
-    return applySiteFilter(applyMineFilter(applySourceFilter(records)));
+    return applySiteFilter(applyMineFilter(records));
   }
 
   function updateMineLabel(filtered, total) {
     var lbl = document.getElementById("mine-label");
     if (!lbl) return;
     var parts = [];
-    if (sourceFilter !== "all") {
-      var srcName = sourceFilter === "public" ? "public"
-        : sourceFilter === "private" ? "private"
-        : "“" + sourceFilter.slice(4) + "”";
-      parts.push(srcName);
-    }
-    if (showMine && currentUsername) parts.push("@" + currentUsername);
+    if (showMine && currentUsername) parts.push(“@” + currentUsername);
     lbl.textContent = parts.length
       ? (filtered + " of " + total + " record" + (total === 1 ? "" : "s") + " · " + parts.join(" · "))
       : "";
@@ -1444,35 +1426,10 @@
       });
       privateRecords.sort(function (a, b) { return a.name.localeCompare(b.name); });
       rebuildAll();
-      updateSourceFilterOptions();
       renderByTab(currentTab);
     });
   }
 
-  /* Rebuild the source-filter <select> options from the loaded private records. */
-  function updateSourceFilterOptions() {
-    var sel = document.getElementById("source-filter");
-    if (!sel) return;
-    if (!privateRecords.length) {
-      sel.style.display = "none";
-      if (sourceFilter !== "all") { sourceFilter = "all"; }
-      return;
-    }
-    var cols = {};
-    privateRecords.forEach(function (r) { cols[r.collection] = r.collectionTitle || r.collection; });
-    var opts = '<option value="all">All sources</option>' +
-               '<option value="public">Public only</option>' +
-               '<option value="private">Private only</option>';
-    Object.keys(cols).sort().forEach(function (id) {
-      opts += '<option value="col:' + esc(id) + '">🔒 ' + esc(cols[id]) + '</option>';
-    });
-    sel.innerHTML = opts;
-    // keep current selection if still valid, else reset
-    var valid = ["all", "public", "private"].concat(Object.keys(cols).map(function (id) { return "col:" + id; }));
-    if (valid.indexOf(sourceFilter) === -1) sourceFilter = "all";
-    sel.value = sourceFilter;
-    sel.style.display = "";
-  }
 
   // ---- init ----------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", function () {
@@ -1491,17 +1448,6 @@
         mineBtn.classList.toggle("primary", showMine);
         renderByTab(currentTab);
       });
-
-      if (window.EpiCollections) {
-        }
-
-      var sourceSel = document.getElementById("source-filter");
-      if (sourceSel) {
-        sourceSel.addEventListener("change", function () {
-          sourceFilter = this.value;
-          renderByTab(currentTab);
-        });
-      }
 
       // Re-load private records whenever the manager changes the enabled set
       if (window.EpiCollections) {

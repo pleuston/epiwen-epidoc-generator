@@ -5,7 +5,7 @@
   var allRecords   = [];
   var _publicRecords  = [];
   var _privateRecords = [];
-  var currentFilter = "all";
+  var currentFilter = (new URLSearchParams(window.location.search)).get("filter") || "all";
   var currentQuery  = "";
   var selectedRec   = null;
 
@@ -60,8 +60,11 @@
   function filteredRecords() {
     var q = currentQuery.toLowerCase();
     return allRecords.filter(function (r) {
-      if (currentFilter === "personal"  && r.name_type !== "personal")  return false;
-      if (currentFilter === "corporate" && r.name_type !== "corporate") return false;
+      if (currentFilter === "vocabulary"  && r.name_type !== "vocabulary")  return false;
+      if (currentFilter === "personal"   && r.name_type !== "personal")   return false;
+      if (currentFilter === "corporate"  && r.name_type !== "corporate")  return false;
+      if (currentFilter === "temporal"   && r.name_type !== "temporal")   return false;
+      if (currentFilter === "geographic" && r.name_type !== "geographic") return false;
       if (q) {
         var hay = ((r.display_name || "") + " " + (r.name_zh || "") + " " + (r.name_pinyin || "")).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
@@ -249,6 +252,12 @@
   // ── Init ──────────────────────────────────────────────────────────────────
 
   document.addEventListener("DOMContentLoaded", function () {
+    // Sync tab button to URL ?filter param
+    if (currentFilter !== "all") {
+      document.querySelectorAll(".auth-tab-btn").forEach(function (btn) {
+        btn.classList.toggle("active", btn.dataset.filter === currentFilter);
+      });
+    }
     loadIndex();
 
     if (window.EpiCollections) {

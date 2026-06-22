@@ -11,6 +11,7 @@
       .landing-hero {
         padding: 3.2rem 2.5rem 2.2rem;
         max-width: 680px;
+        margin: 0 auto;
       }
       .landing-title {
         font-size: 2rem; font-weight: 700; margin: 0 0 .55rem;
@@ -26,6 +27,7 @@
         grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
         gap: .5rem;
         max-width: 860px;
+        margin: 0 auto;
       }
       .lnav-link {
         display: flex; align-items: baseline; gap: .55rem;
@@ -43,7 +45,7 @@
       .lnav-hint { font-size: .74rem; color: var(--text-muted, #888); }
 
       /* Recent-changes widget */
-      .log-widget { padding: 0 2.5rem 3rem; max-width: 860px; }
+      .log-widget { padding: 0 2.5rem 3rem; max-width: 860px; margin: 0 auto; }
       .log-widget-head {
         display: flex; align-items: baseline; justify-content: space-between;
         padding-bottom: .4rem; margin-bottom: .2rem;
@@ -93,18 +95,39 @@
   <body>
     <header class="topbar">
       <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
-      <nav class="sitenav">
-        <a href="map.html"                      class="sitenav-link">Map</a>
-        <a href="sites.html"                    class="sitenav-link">Sites</a>
-        <a href="catalog.html"                  class="sitenav-link">Objects</a>
-        <a href="catalog.html?tab=inscriptions"  class="sitenav-link">Inscriptions</a>
-        <a href="catalog.html?tab=rubbings"     class="sitenav-link">Rubbings</a>
-        <a href="favorites.html"               class="sitenav-link">Favorites</a>
-        <a href="authorities.html"              class="sitenav-link">Authorities</a>
-        <a href="bibliography.html"             class="sitenav-link">Bibliography</a>
-        <a href="docs.html"                     class="sitenav-link">Docs</a>
-        <a href="issues.html"                   class="sitenav-link">Issues</a>
-      </nav>
+        <nav class="sitenav">
+          <a href="map.html" class="sitenav-link">Map</a>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Catalogs</span>
+            <div class="nav-group-links">
+              <a href="sites.html" class="sitenav-link">Sites</a>
+              <a href="catalog.html" class="sitenav-link">Objects</a>
+              <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+              <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Authorities</span>
+            <div class="nav-group-links">
+              <a href="authorities.html?filter=vocabulary" class="sitenav-link">Vocabularies</a>
+              <a href="authorities.html?filter=personal" class="sitenav-link">Persons</a>
+              <a href="authorities.html?filter=corporate" class="sitenav-link">Institutions</a>
+              <a href="authorities.html?filter=temporal" class="sitenav-link">Time</a>
+              <a href="authorities.html?filter=geographic" class="sitenav-link">Places</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+          <a href="ontology.html" class="sitenav-link">Ontology</a>
+        </nav>
+      <a href="issues.html"                   class="sitenav-link">Issues</a>
+      <a href="docs.html"                     class="sitenav-link">Docs</a>
+      <a href="logs.html" class="sitenav-link">Log</a>
+      <span class="nav-pipe">|</span>
+      <a href="favorites.html"               class="sitenav-link">Favorites</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -142,7 +165,7 @@
       <a class="lnav-link" href="authorities.html">
         <span class="lnav-icon">◉</span>
         <span class="lnav-label">Authorities</span>
-        <span class="lnav-hint">persons &amp; institutions</span>
+        <span class="lnav-hint">persons, institutions, place</span>
       </a>
       <a class="lnav-link" href="bibliography.html">
         <span class="lnav-icon">❧</span>

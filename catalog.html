@@ -14,18 +14,39 @@
       <div class="brand">
         <a href="index.html" class="brand-home">Epiwen</a>
       </div>
-      <nav class="sitenav">
-        <a href="map.html"                     class="sitenav-link">Map</a>
-        <a href="sites.html"                   class="sitenav-link">Sites</a>
-        <a href="catalog.html"                 class="sitenav-link" data-tab="objects">Objects</a>
-        <a href="catalog.html?tab=inscriptions" class="sitenav-link" data-tab="inscriptions">Inscriptions</a>
-        <a href="catalog.html?tab=rubbings"    class="sitenav-link" data-tab="rubbings">Rubbings</a>
-        <a href="favorites.html"               class="sitenav-link">Favorites</a>
-        <a href="authorities.html"             class="sitenav-link">Authorities</a>
-        <a href="bibliography.html"            class="sitenav-link">Bibliography</a>
-        <a href="docs.html"                    class="sitenav-link">Docs</a>
-        <a href="issues.html"                   class="sitenav-link">Issues</a>
-      </nav>
+        <nav class="sitenav">
+          <a href="map.html" class="sitenav-link">Map</a>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Catalogs</span>
+            <div class="nav-group-links">
+              <a href="sites.html" class="sitenav-link">Sites</a>
+              <a href="catalog.html" class="sitenav-link active">Objects</a>
+              <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+              <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <span class="nav-group-label">Authorities</span>
+            <div class="nav-group-links">
+              <a href="authorities.html?filter=vocabulary" class="sitenav-link">Vocabularies</a>
+              <a href="authorities.html?filter=personal" class="sitenav-link">Persons</a>
+              <a href="authorities.html?filter=corporate" class="sitenav-link">Institutions</a>
+              <a href="authorities.html?filter=temporal" class="sitenav-link">Time</a>
+              <a href="authorities.html?filter=geographic" class="sitenav-link">Places</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+          <a href="ontology.html" class="sitenav-link">Ontology</a>
+        </nav>
+      <a href="issues.html"                   class="sitenav-link">Issues</a>
+      <a href="docs.html"                    class="sitenav-link">Docs</a>
+      <a href="logs.html" class="sitenav-link">Log</a>
+      <span class="nav-pipe">|</span>
+      <a href="favorites.html"               class="sitenav-link">Favorites</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -36,7 +57,6 @@
       <div class="about-pane">
         <section class="catalog-section" style="margin-top:0">
           <div class="catalog-head">
-            <h2>Catalog</h2>
             <div class="catalog-head-actions">
               <a href="editor.html" id="btn-add-new" class="btn small primary">+ New</a>
               <input type="search" id="catalog-search" class="catalog-searchbox"
@@ -47,9 +67,7 @@
             <button id="btn-mine" type="button" class="btn small" data-active="false">
               Show mine
             </button>
-            <select id="source-filter" class="catalog-searchbox"
-                    style="display:none; max-width:220px" aria-label="filter by source"></select>
-            <span id="mine-label" style="font-size:.78rem;color:var(--muted)"></span>
+<span id="mine-label" style="font-size:.78rem;color:var(--muted)"></span>
           </div>
           <div id="catalog-list">
             <div class="catalog-loading">Loading records from GitHub…</div>
