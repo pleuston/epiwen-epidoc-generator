@@ -242,6 +242,13 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .sitenav-link:hover { border-color: var(--line); }
 .sitenav-link.active { color: var(--accent); font-weight: 600; }
 .nav-pipe { color: var(--line); font-size: 0.85rem; padding: 0 0.1rem; user-select: none; }
+.topbar-icon {
+  font-size: 1rem; text-decoration: none; color: var(--muted);
+  padding: 0.2rem 0.35rem; border-radius: 6px; border: 1px solid transparent;
+  line-height: 1;
+}
+.topbar-icon:hover { color: var(--ink); border-color: var(--line); }
+.topbar-icon.active { color: var(--accent); }
 .sitenav-back {
   font-size: 1rem; color: var(--muted); text-decoration: none;
   margin-right: 0.2rem; padding: 0 0.2rem;

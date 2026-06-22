@@ -915,13 +915,13 @@
       '<button class="btn small" id="compare-clear" type="button">clear</button>';
     bar.querySelector("#compare-clear").addEventListener("click", function () { compareSet([]); });
     bar.querySelector("#compare-detach").addEventListener("click", function () {
-      if (window.EpiFavorites) EpiFavorites.detach(a);
+      if (window.EpiBookmarks) EpiBookmarks.detach(a);
     });
     bar.querySelector("#compare-save").addEventListener("click", function () {
-      if (!window.EpiFavorites) return;
+      if (!window.EpiBookmarks) return;
       var name = prompt("Name this comparison:", a.length + "-rubbing comparison");
       if (name === null) return;
-      EpiFavorites.save(name, a);
+      EpiBookmarks.save(name, a);
       var b = bar.querySelector("#compare-save");
       if (b) { b.textContent = "★ Saved"; setTimeout(function () { b.textContent = "★ Save"; }, 1800); }
     });

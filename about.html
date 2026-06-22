@@ -64,8 +64,7 @@
           </div>
         </nav>
       <a href="docs.html"                    class="sitenav-link active">Docs</a>
-      <span class="nav-pipe">|</span>
-      <a href="favorites.html"               class="sitenav-link">Favorites</a>
+      <a href="bookmarks.html" class="topbar-icon" title="Bookmarks">🔖</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -111,7 +110,7 @@
           <li><strong>Two rubbing views</strong> — a toggle on the Rubbings tab: <em>Every rubbing</em> (flat, one row per manifest) or <em>Compact (by inscription)</em>, which draws the different collections together under the same inscription (grouped by <code>surrogateOf</code>).</li>
           <li><strong>IIIF comparison viewer</strong> (<code>viewer.html</code>, Mirador) — add rubbings to the floating comparison bar, then <strong>Open side by side</strong>; each manifest opens as a pane in a mosaic for character-by-character comparison.</li>
           <li><strong>Detach</strong> — <strong>⧉ Detach</strong> pops the viewer out of the catalog window into a separate, freely-resizable window. Available on the comparison bar, inside the viewer, and on every saved favorite.</li>
-          <li><strong>Favorites</strong> (<code>favorites.html</code>) — <strong>★ Save to favorites</strong> stores the current comparison (a named set of manifests) per-browser in <code>localStorage</code>. The Favorites page re-opens, detaches, or deletes each saved comparison. Personal and offline — no server round-trip.</li>
+          <li><strong>Favorites</strong> (<code>favorites.html</code>) — <strong>★ Save to favorites</strong> stores the current comparison (a named set of manifests) per-browser in <code>localStorage</code>. The Bookmarks page re-opens, detaches, or deletes each saved comparison. Personal and offline — no server round-trip.</li>
         </ul>
       </section>
 
@@ -151,7 +150,7 @@
             <tr><td><code>catalog.js</code></td><td>GitHub API loader + catalog renderer (site filter, rubbing views, comparison bar)</td></tr>
             <tr><td><code>viewer.html</code></td><td>IIIF (Mirador) comparison viewer — one pane per <code>?manifest=</code>; detachable</td></tr>
             <tr><td><code>favorites.html</code></td><td>Personal saved comparisons</td></tr>
-            <tr><td><code>favorites.js</code></td><td>Saved-comparison store (<code>localStorage</code>) shared by the catalog, viewer, and Favorites page</td></tr>
+            <tr><td><code>bookmarks.js</code></td><td>Saved-comparison store (<code>localStorage</code>) shared by the catalog, viewer, and Bookmarks page</td></tr>
             <tr><td><code>modal.js</code></td><td>Shared workflow modal (injected into every page)</td></tr>
             <tr><td><code>records/</code></td><td>Contributed EpiDoc XML files (merged pull requests)</td></tr>
           </tbody>

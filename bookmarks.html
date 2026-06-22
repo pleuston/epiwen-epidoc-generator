@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · Favorites</title>
+    <title>Epiwen · Bookmarks</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
     <script src="collections.js"></script>
-    <script src="favorites.js"></script>
+    <script src="bookmarks.js"></script>
   </head>
   <body>
     <header class="topbar">
@@ -63,7 +63,7 @@
           </div>
         </nav>
       <a href="docs.html"                     class="sitenav-link">Docs</a>
-      <a href="bookmarks.html" class="topbar-icon" title="Bookmarks">🔖</a>
+      <a href="bookmarks.html" class="topbar-icon active" title="Bookmarks">🔖</a>
       <button onclick="EpiAuth.signOut()" class="btn small">Sign out</button>
     </header>
 
@@ -75,7 +75,7 @@
           </div>
           <p style="font-size:.85rem;color:var(--muted);max-width:60ch">
             Saved rubbing comparisons. Build one on the Rubbings tab by adding rubbings to the
-            comparison bar, then “★ Save to favorites”. Saved per browser (localStorage).
+            comparison bar, then “★ Save to bookmarks”. Saved per browser (localStorage).
           </p>
           <div id="fav-list"><div class="catalog-loading">Loading…</div></div>
         </section>
@@ -97,7 +97,7 @@
           if (!favs.length) {
             list.innerHTML = '<div class="catalog-empty">No saved comparisons yet. ' +
               'Add rubbings to the comparison bar on the ' +
-              '<a href="catalog.html?tab=rubbings">Rubbings tab</a>, then “★ Save to favorites”.</div>';
+              '<a href="catalog.html?tab=rubbings">Rubbings tab</a>, then “★ Save to bookmarks”.</div>';
             return;
           }
           list.innerHTML = "";
