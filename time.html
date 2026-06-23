@@ -8,183 +8,720 @@
     <script src="auth.js"></script>
     <style>
       .time-layout { display: flex; gap: 0; min-height: calc(100vh - 3.2rem); }
-      .time-pane   { flex: 0 0 18rem; border-right: 1px solid var(--border); overflow-y: auto; padding: .5rem 0; }
+      .time-pane   { flex: 0 0 20rem; border-right: 1px solid var(--border); overflow-y: auto; padding: .5rem 0; }
       .time-detail { flex: 1; padding: 1.5rem 2rem; overflow-y: auto; }
-      .dyn-group   { margin-bottom: .1rem; }
+      .dyn-group   { margin-bottom: .05rem; }
       .dyn-btn     { display: flex; justify-content: space-between; align-items: baseline;
-                     width: 100%; text-align: left; padding: .35rem .75rem;
+                     width: 100%; text-align: left; padding: .3rem .75rem;
                      background: var(--surface-alt, #f4f4f4); border: none; cursor: pointer;
-                     font-size: .9rem; font-weight: 600; color: var(--text); gap: .5rem; }
+                     font-size: .88rem; font-weight: 600; color: var(--text); gap: .5rem; }
       .dyn-btn:hover { background: var(--hover-bg, #e8e8e8); }
-      .dyn-btn .dyn-dates { font-weight: 400; font-size: .8rem; color: var(--text-muted); white-space: nowrap; }
+      .dyn-btn .dyn-dates { font-weight: 400; font-size: .76rem; color: var(--text-muted); white-space: nowrap; }
       .era-list    { list-style: none; margin: 0; padding: 0; }
-      .era-item    { display: flex; align-items: baseline; gap: .5rem;
-                     padding: .28rem .75rem .28rem 1.4rem; cursor: pointer; font-size: .88rem; }
+      .era-item    { display: flex; align-items: baseline; gap: .4rem;
+                     padding: .22rem .75rem .22rem 1.4rem; cursor: pointer; font-size: .84rem; }
       .era-item:hover  { background: var(--hover-bg, #f0f0f0); }
       .era-item.active { background: var(--accent-light, #e6f0ff); font-weight: 600; }
-      .era-zh  { font-size: 1rem; }
-      .era-py  { color: var(--text-muted); font-style: italic; font-size: .8rem; }
-      .era-dates { margin-left: auto; color: var(--text-muted); font-size: .78rem; white-space: nowrap; }
+      .era-zh  { font-size: .92rem; min-width: 4rem; }
+      .era-py  { color: var(--text-muted); font-style: italic; font-size: .76rem; flex: 1; }
+      .era-dates { color: var(--text-muted); font-size: .74rem; white-space: nowrap; }
       .time-h2 { margin-top: 0; display: flex; align-items: baseline; gap: .6rem; }
-      .time-h2 .zh { font-size: 1.1rem; font-weight: 400; color: var(--text-muted); }
-      .time-meta dt { font-weight: 600; min-width: 8rem; display: inline-block; }
-      .time-meta dd { display: inline; margin: 0 0 .3rem 0; }
-      .time-meta p  { margin: 0 0 .3rem 0; }
+      .time-h2 .zh { font-size: 1.05rem; font-weight: 400; color: var(--text-muted); }
       .epidoc-block { background: var(--surface-alt, #f4f4f4); border-radius: 4px;
-                      padding: .75rem 1rem; font-family: monospace; font-size: .83rem;
+                      padding: .75rem 1rem; font-family: monospace; font-size: .81rem;
                       white-space: pre-wrap; overflow-x: auto; margin-top: .5rem; }
-      .source-note  { font-size: .82rem; color: var(--text-muted); margin-top: 1.5rem;
+      .source-note  { font-size: .8rem; color: var(--text-muted); margin-top: 1.5rem;
                       border-top: 1px solid var(--border); padding-top: .75rem; }
+      dt { font-weight: 600; min-width: 7rem; display: inline-block; }
+      dd { display: inline; margin: 0 0 .3rem 0; }
     </style>
   </head>
   <body>
     <header class="topbar">
-      <div class="brand">
-        <a href="index.html" class="brand-home">Epiwen</a>
-      </div>
-        <nav class="sitenav">
-          <div class="nav-group">
-            <button class="nav-group-btn">Explore</button>
-            <div class="nav-group-dropdown">
-              <a href="map.html" class="sitenav-link">Map</a>
-              <a href="graph.html" class="sitenav-link">Graph</a>
-            </div>
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
+      <nav class="sitenav">
+        <div class="nav-group">
+          <button class="nav-group-btn">Explore</button>
+          <div class="nav-group-dropdown">
+            <a href="map.html" class="sitenav-link">Map</a>
+            <a href="graph.html" class="sitenav-link">Graph</a>
           </div>
-          <span class="nav-pipe">|</span>
-          <div class="nav-group">
-            <button class="nav-group-btn">Catalogs</button>
-            <div class="nav-group-dropdown">
-              <a href="sites.html" class="sitenav-link">Sites</a>
-              <a href="catalog.html" class="sitenav-link">Objects</a>
-              <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
-              <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
-              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
-            </div>
+        </div>
+        <span class="nav-pipe">|</span>
+        <div class="nav-group">
+          <button class="nav-group-btn">Catalogs</button>
+          <div class="nav-group-dropdown">
+            <a href="sites.html" class="sitenav-link">Sites</a>
+            <a href="catalog.html" class="sitenav-link">Objects</a>
+            <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+            <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+            <a href="glyphs.html" class="sitenav-link">Glyphs</a>
           </div>
-          <span class="nav-pipe">|</span>
-          <div class="nav-group">
-            <button class="nav-group-btn">Authorities</button>
-            <div class="nav-group-dropdown">
-              <a href="vocabularies.html" class="sitenav-link">Vocabularies</a>
-              <a href="persons.html" class="sitenav-link">Persons</a>
-              <a href="institutions.html" class="sitenav-link">Institutions</a>
-              <a href="time.html" class="sitenav-link active">Time</a>
-              <a href="places.html" class="sitenav-link">Places</a>
-            </div>
+        </div>
+        <span class="nav-pipe">|</span>
+        <div class="nav-group">
+          <button class="nav-group-btn">Authorities</button>
+          <div class="nav-group-dropdown">
+            <a href="vocabularies.html" class="sitenav-link">Vocabularies</a>
+            <a href="persons.html" class="sitenav-link">Persons</a>
+            <a href="institutions.html" class="sitenav-link">Institutions</a>
+            <a href="time.html" class="sitenav-link active">Time</a>
+            <a href="places.html" class="sitenav-link">Places</a>
           </div>
-          <span class="nav-pipe">|</span>
-          <div class="nav-group">
-            <button class="nav-group-btn">References</button>
-            <div class="nav-group-dropdown">
-              <a href="bibliography.html" class="sitenav-link">Bibliography</a>
-              <a href="premodern-sources.html" class="sitenav-link">Premodern Sources</a>
-              <a href="modern-corpora.html" class="sitenav-link">Modern Corpora</a>
-            </div>
+        </div>
+        <span class="nav-pipe">|</span>
+        <div class="nav-group">
+          <button class="nav-group-btn">References</button>
+          <div class="nav-group-dropdown">
+            <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+            <a href="premodern-sources.html" class="sitenav-link">Premodern Sources</a>
+            <a href="modern-corpora.html" class="sitenav-link">Modern Corpora</a>
           </div>
-          <span class="nav-pipe">|</span>
-          <div class="nav-group">
-            <button class="nav-group-btn">Documentation</button>
-            <div class="nav-group-dropdown">
-              <a href="about.html" class="sitenav-link">About</a>
-              <a href="ontology.html" class="sitenav-link">Ontology</a>
-              <a href="project-wiki.html" class="sitenav-link">Project Wiki</a>
-              <a href="issues.html" class="sitenav-link">Issues</a>
-              <a href="logs.html" class="sitenav-link">Logs</a>
-            </div>
+        </div>
+        <span class="nav-pipe">|</span>
+        <div class="nav-group">
+          <button class="nav-group-btn">Documentation</button>
+          <div class="nav-group-dropdown">
+            <a href="about.html" class="sitenav-link">About</a>
+            <a href="ontology.html" class="sitenav-link">Ontology</a>
+            <a href="project-wiki.html" class="sitenav-link">Project Wiki</a>
+            <a href="issues.html" class="sitenav-link">Issues</a>
+            <a href="logs.html" class="sitenav-link">Logs</a>
           </div>
-        </nav>
+        </div>
+      </nav>
       <div class="topbar-end"><a href="bookmarks.html" class="topbar-icon" title="Bookmarks">🔖</a><button onclick="EpiAuth.signOut()" class="btn small">Sign out</button></div>
     </header>
 
     <div class="time-layout">
-
-      <!-- ── Dynasty / era list ── -->
       <div class="time-pane" id="time-pane"></div>
-
-      <!-- ── Detail panel ── -->
       <div class="time-detail" id="time-detail">
         <p style="color:var(--text-muted)">Select a dynasty or reign era.</p>
+        <p class="source-note" style="margin-top:0;border-top:none;padding-top:0">
+          Dynasty and reign-era dates follow the tables in
+          <em>Zhongguo lishi niandai jianbian</em> 中國歷史年代簡編
+          (Academia Sinica standard) and Endymion Wilkinson,
+          <em>Chinese History: A New Manual</em> (Harvard-Yenching Institute).
+          BCE dates are stored as negative integers and converted to ISO 8601
+          proleptic Gregorian for EpiDoc (1 BCE = year <code>0000</code>).
+        </p>
+        <p class="source-note" style="padding-top:.5rem">
+          <strong>Time authorities with persistent URIs:</strong><br>
+          <a href="https://authority.dila.edu.tw/time/" target="_blank" rel="noopener">DILA Time Authority</a>
+          — East Asian dynasties and reign eras with calendar conversion, maintained by
+          Dharma Drum Institute; the primary authority for this corpus.<br>
+          <a href="https://perio.do/" target="_blank" rel="noopener">PeriodO</a>
+          — international linked-data gazetteer of scholarly period definitions; Chinese
+          coverage is growing and its URIs are used in cross-domain archaeological datasets.<br>
+          <a href="https://chronontology.dainst.org/" target="_blank" rel="noopener">iDAI.chronontology</a>
+          — German Archaeological Institute (DAI) period service, CIDOC-CRM modelled,
+          interoperable with PeriodO and Getty AAT; useful for mapping Chinese periods
+          onto global archaeological timelines.<br>
+          <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>
+          — dynasty and era Q items carry P580/P582 start–end claims and link to VIAF,
+          GND, and Library of Congress, providing a lightweight cross-reference anchor.
+        </p>
       </div>
-
     </div>
 
     <footer class="foot">
-      Source:
-      <a href="https://github.com/pleuston/epiwen"
-         target="_blank" rel="noopener">github.com/pleuston/epiwen</a>
+      Source: <a href="https://github.com/pleuston/epiwen" target="_blank" rel="noopener">github.com/pleuston/epiwen</a>
     </footer>
-
     <div id="toast" role="status" aria-live="polite"></div>
 
     <script>
     (function () {
       "use strict";
 
+      // Dates stored as integers: positive = CE, negative = BCE (e.g. -206 = 206 BCE)
       var DYNASTIES = [
-        { zh: "北魏", en: "Northern Wei",  start: 386, end: 534 },
-        { zh: "東魏", en: "Eastern Wei",   start: 534, end: 550 },
-        { zh: "西魏", en: "Western Wei",   start: 535, end: 556 },
-        { zh: "北齊", en: "Northern Qi",   start: 550, end: 577 },
-        { zh: "北周", en: "Northern Zhou", start: 557, end: 581 },
-        { zh: "隋",   en: "Sui",           start: 581, end: 618 },
-        { zh: "唐",   en: "Tang",          start: 618, end: 907 }
+        { zh: "秦",   en: "Qin",              start: -221, end: -206 },
+        { zh: "西漢", en: "Western Han",       start: -206, end: 9    },
+        { zh: "新",   en: "Xin",              start: 9,    end: 23   },
+        { zh: "東漢", en: "Eastern Han",       start: 25,   end: 220  },
+        { zh: "曹魏", en: "Wei",               start: 220,  end: 265  },
+        { zh: "蜀漢", en: "Shu Han",           start: 221,  end: 263  },
+        { zh: "吳",   en: "Wu",               start: 222,  end: 280  },
+        { zh: "西晉", en: "Western Jin",       start: 265,  end: 316  },
+        { zh: "東晉", en: "Eastern Jin",       start: 317,  end: 420  },
+        { zh: "劉宋", en: "Liu Song",          start: 420,  end: 479  },
+        { zh: "南齊", en: "Southern Qi",       start: 479,  end: 502  },
+        { zh: "梁",   en: "Liang",             start: 502,  end: 557  },
+        { zh: "陳",   en: "Chen",              start: 557,  end: 589  },
+        { zh: "北魏", en: "Northern Wei",      start: 386,  end: 534  },
+        { zh: "東魏", en: "Eastern Wei",       start: 534,  end: 550  },
+        { zh: "西魏", en: "Western Wei",       start: 535,  end: 556  },
+        { zh: "北齊", en: "Northern Qi",       start: 550,  end: 577  },
+        { zh: "北周", en: "Northern Zhou",     start: 557,  end: 581  },
+        { zh: "隋",   en: "Sui",               start: 581,  end: 618  },
+        { zh: "唐",   en: "Tang",              start: 618,  end: 907  },
+        { zh: "後梁", en: "Later Liang",       start: 907,  end: 923  },
+        { zh: "後唐", en: "Later Tang",        start: 923,  end: 936  },
+        { zh: "後晉", en: "Later Jin",         start: 936,  end: 947  },
+        { zh: "後漢", en: "Later Han",         start: 947,  end: 950  },
+        { zh: "後周", en: "Later Zhou",        start: 951,  end: 960  },
+        { zh: "遼",   en: "Liao",              start: 907,  end: 1125 },
+        { zh: "北宋", en: "Northern Song",     start: 960,  end: 1127 },
+        { zh: "南宋", en: "Southern Song",     start: 1127, end: 1279 },
+        { zh: "金",   en: "Jin (Jurchen)",     start: 1115, end: 1234 },
+        { zh: "元",   en: "Yuan",              start: 1271, end: 1368 },
+        { zh: "明",   en: "Ming",              start: 1368, end: 1644 },
+        { zh: "清",   en: "Qing",              start: 1616, end: 1912 }
       ];
 
       var ERAS = [
-        { dyn: "北魏", era: "太和", py: "Taihe",      start: 477, end: 499 },
-        { dyn: "北魏", era: "正始", py: "Zhengshi",   start: 504, end: 508 },
-        { dyn: "北魏", era: "永平", py: "Yongping",   start: 508, end: 512 },
-        { dyn: "北魏", era: "延昌", py: "Yanchang",   start: 512, end: 515 },
-        { dyn: "北魏", era: "正光", py: "Zhengguang", start: 520, end: 525 },
-        { dyn: "北魏", era: "孝昌", py: "Xiaochang",  start: 525, end: 527 },
-        { dyn: "東魏", era: "天平", py: "Tianping",   start: 534, end: 537 },
-        { dyn: "東魏", era: "興和", py: "Xinghe",     start: 539, end: 542 },
-        { dyn: "東魏", era: "武定", py: "Wuding",     start: 543, end: 550 },
-        { dyn: "西魏", era: "大統", py: "Datong",     start: 535, end: 551 },
-        { dyn: "北齊", era: "天保", py: "Tianbao",    start: 550, end: 559 },
-        { dyn: "北齊", era: "河清", py: "Heqing",     start: 562, end: 565 },
-        { dyn: "北齊", era: "天統", py: "Tiantong",   start: 565, end: 569 },
-        { dyn: "北齊", era: "武平", py: "Wuping",     start: 570, end: 576 },
-        { dyn: "北齊", era: "隆化", py: "Longhua",    start: 576, end: 577 },
-        { dyn: "北周", era: "保定", py: "Baoding",    start: 561, end: 565 },
-        { dyn: "北周", era: "天和", py: "Tianhe",     start: 566, end: 572 },
-        { dyn: "北周", era: "建德", py: "Jiande",     start: 572, end: 578 },
-        { dyn: "北周", era: "大象", py: "Daxiang",    start: 579, end: 580 },
-        { dyn: "隋",   era: "開皇", py: "Kaihuang",   start: 581, end: 600 },
-        { dyn: "隋",   era: "仁壽", py: "Renshou",    start: 601, end: 604 },
-        { dyn: "隋",   era: "大業", py: "Daye",       start: 605, end: 618 },
-        { dyn: "唐",   era: "武德", py: "Wude",       start: 618, end: 626 },
-        { dyn: "唐",   era: "貞觀", py: "Zhenguan",   start: 627, end: 649 },
-        { dyn: "唐",   era: "開元", py: "Kaiyuan",    start: 713, end: 741 },
-        { dyn: "唐",   era: "天寶", py: "Tianbao",    start: 742, end: 756 }
+        // 西漢 Western Han — nian hao system began with Wu Di, 140 BCE
+        {dyn:"西漢",era:"建元",   py:"Jianyuan",        start:-140,end:-135},
+        {dyn:"西漢",era:"元光",   py:"Yuanguang",       start:-134,end:-129},
+        {dyn:"西漢",era:"元朔",   py:"Yuanshuo",        start:-128,end:-123},
+        {dyn:"西漢",era:"元狩",   py:"Yuanshou",        start:-122,end:-117},
+        {dyn:"西漢",era:"元鼎",   py:"Yuanding",        start:-116,end:-111},
+        {dyn:"西漢",era:"元封",   py:"Yuanfeng",        start:-110,end:-105},
+        {dyn:"西漢",era:"太初",   py:"Taichu",          start:-104,end:-101},
+        {dyn:"西漢",era:"天漢",   py:"Tianhan",         start:-100,end:-97 },
+        {dyn:"西漢",era:"太始",   py:"Taishi",          start:-96, end:-93 },
+        {dyn:"西漢",era:"征和",   py:"Zhenghe",         start:-92, end:-89 },
+        {dyn:"西漢",era:"後元",   py:"Houyuan",         start:-88, end:-87 },
+        {dyn:"西漢",era:"始元",   py:"Shiyuan",         start:-86, end:-80 },
+        {dyn:"西漢",era:"元鳳",   py:"Yuanfeng",        start:-80, end:-75 },
+        {dyn:"西漢",era:"元平",   py:"Yuanping",        start:-74, end:-74 },
+        {dyn:"西漢",era:"本始",   py:"Benshi",          start:-73, end:-70 },
+        {dyn:"西漢",era:"地節",   py:"Dijie",           start:-69, end:-66 },
+        {dyn:"西漢",era:"元康",   py:"Yuankang",        start:-65, end:-62 },
+        {dyn:"西漢",era:"神爵",   py:"Shenjue",         start:-61, end:-58 },
+        {dyn:"西漢",era:"五鳳",   py:"Wufeng",          start:-57, end:-54 },
+        {dyn:"西漢",era:"甘露",   py:"Ganlu",           start:-53, end:-50 },
+        {dyn:"西漢",era:"黃龍",   py:"Huanglong",       start:-49, end:-49 },
+        {dyn:"西漢",era:"初元",   py:"Chuyuan",         start:-48, end:-44 },
+        {dyn:"西漢",era:"永光",   py:"Yongguang",       start:-43, end:-39 },
+        {dyn:"西漢",era:"建昭",   py:"Jianzhao",        start:-38, end:-34 },
+        {dyn:"西漢",era:"竟寧",   py:"Jingning",        start:-33, end:-33 },
+        {dyn:"西漢",era:"建始",   py:"Jianshi",         start:-32, end:-29 },
+        {dyn:"西漢",era:"河平",   py:"Heping",          start:-28, end:-25 },
+        {dyn:"西漢",era:"陽朔",   py:"Yangshuo",        start:-24, end:-21 },
+        {dyn:"西漢",era:"鴻嘉",   py:"Hongjia",         start:-20, end:-17 },
+        {dyn:"西漢",era:"永始",   py:"Yongshi",         start:-16, end:-13 },
+        {dyn:"西漢",era:"元延",   py:"Yuanyan",         start:-12, end:-9  },
+        {dyn:"西漢",era:"綏和",   py:"Suihe",           start:-8,  end:-7  },
+        {dyn:"西漢",era:"建平",   py:"Jianping",        start:-6,  end:-3  },
+        {dyn:"西漢",era:"元壽",   py:"Yuanshou",        start:-2,  end:-1  },
+        {dyn:"西漢",era:"元始",   py:"Yuanshi",         start:1,   end:5   },
+        {dyn:"西漢",era:"居攝",   py:"Juse",            start:6,   end:8   },
+        {dyn:"西漢",era:"初始",   py:"Chushi",          start:8,   end:8   },
+        // 新 Xin
+        {dyn:"新",era:"始建國",   py:"Shijian'guo",     start:9,   end:13  },
+        {dyn:"新",era:"天鳳",     py:"Tianfeng",        start:14,  end:19  },
+        {dyn:"新",era:"地皇",     py:"Dihuang",         start:20,  end:23  },
+        // 東漢 Eastern Han
+        {dyn:"東漢",era:"建武",   py:"Jianwu",          start:25,  end:56  },
+        {dyn:"東漢",era:"建武中元",py:"Jianwu Zhongyuan",start:56, end:57  },
+        {dyn:"東漢",era:"永平",   py:"Yongping",        start:58,  end:75  },
+        {dyn:"東漢",era:"建初",   py:"Jianchu",         start:76,  end:84  },
+        {dyn:"東漢",era:"元和",   py:"Yuanhe",          start:84,  end:87  },
+        {dyn:"東漢",era:"章和",   py:"Zhanghe",         start:87,  end:89  },
+        {dyn:"東漢",era:"永元",   py:"Yongyuan",        start:89,  end:105 },
+        {dyn:"東漢",era:"元興",   py:"Yuanxing",        start:105, end:105 },
+        {dyn:"東漢",era:"延平",   py:"Yanping",         start:106, end:106 },
+        {dyn:"東漢",era:"永初",   py:"Yongchu",         start:107, end:113 },
+        {dyn:"東漢",era:"元初",   py:"Yuanchu",         start:114, end:120 },
+        {dyn:"東漢",era:"永寧",   py:"Yongning",        start:120, end:121 },
+        {dyn:"東漢",era:"建光",   py:"Jianguang",       start:121, end:122 },
+        {dyn:"東漢",era:"延光",   py:"Yanguang",        start:122, end:125 },
+        {dyn:"東漢",era:"永建",   py:"Yongjian",        start:126, end:132 },
+        {dyn:"東漢",era:"陽嘉",   py:"Yangjia",         start:132, end:135 },
+        {dyn:"東漢",era:"永和",   py:"Yonghe",          start:136, end:141 },
+        {dyn:"東漢",era:"漢安",   py:"Han'an",          start:142, end:144 },
+        {dyn:"東漢",era:"建康",   py:"Jiankang",        start:144, end:144 },
+        {dyn:"東漢",era:"永嘉",   py:"Yongjia",         start:145, end:145 },
+        {dyn:"東漢",era:"本初",   py:"Benchu",          start:146, end:146 },
+        {dyn:"東漢",era:"建和",   py:"Jianhe",          start:147, end:149 },
+        {dyn:"東漢",era:"和平",   py:"Heping",          start:150, end:150 },
+        {dyn:"東漢",era:"元嘉",   py:"Yuanjia",         start:151, end:152 },
+        {dyn:"東漢",era:"永興",   py:"Yongxing",        start:153, end:154 },
+        {dyn:"東漢",era:"永壽",   py:"Yongshou",        start:155, end:158 },
+        {dyn:"東漢",era:"延熹",   py:"Yanxi",           start:158, end:167 },
+        {dyn:"東漢",era:"永康",   py:"Yongkang",        start:167, end:167 },
+        {dyn:"東漢",era:"建寧",   py:"Jianning",        start:168, end:172 },
+        {dyn:"東漢",era:"熹平",   py:"Xiping",          start:172, end:178 },
+        {dyn:"東漢",era:"光和",   py:"Guanghe",         start:178, end:184 },
+        {dyn:"東漢",era:"中平",   py:"Zhongping",       start:184, end:189 },
+        {dyn:"東漢",era:"光熹",   py:"Guangxi",         start:189, end:189 },
+        {dyn:"東漢",era:"昭寧",   py:"Zhaoning",        start:189, end:189 },
+        {dyn:"東漢",era:"永漢",   py:"Yonghan",         start:189, end:189 },
+        {dyn:"東漢",era:"初平",   py:"Chuping",         start:190, end:193 },
+        {dyn:"東漢",era:"興平",   py:"Xingping",        start:194, end:195 },
+        {dyn:"東漢",era:"建安",   py:"Jian'an",         start:196, end:220 },
+        {dyn:"東漢",era:"延康",   py:"Yankang",         start:220, end:220 },
+        // 曹魏 Wei
+        {dyn:"曹魏",era:"黃初",   py:"Huangchu",        start:220, end:226 },
+        {dyn:"曹魏",era:"太和",   py:"Taihe",           start:227, end:233 },
+        {dyn:"曹魏",era:"青龍",   py:"Qinglong",        start:233, end:237 },
+        {dyn:"曹魏",era:"景初",   py:"Jingchu",         start:237, end:239 },
+        {dyn:"曹魏",era:"正始",   py:"Zhengshi",        start:240, end:249 },
+        {dyn:"曹魏",era:"嘉平",   py:"Jiaping",         start:249, end:254 },
+        {dyn:"曹魏",era:"正元",   py:"Zhengyuan",       start:254, end:256 },
+        {dyn:"曹魏",era:"甘露",   py:"Ganlu",           start:256, end:260 },
+        {dyn:"曹魏",era:"景元",   py:"Jingyuan",        start:260, end:264 },
+        {dyn:"曹魏",era:"咸熙",   py:"Xianxi",          start:264, end:265 },
+        // 蜀漢 Shu Han
+        {dyn:"蜀漢",era:"章武",   py:"Zhangwu",         start:221, end:223 },
+        {dyn:"蜀漢",era:"建興",   py:"Jianxing",        start:223, end:237 },
+        {dyn:"蜀漢",era:"延熙",   py:"Yanxi",           start:238, end:257 },
+        {dyn:"蜀漢",era:"景耀",   py:"Jingyao",         start:258, end:263 },
+        {dyn:"蜀漢",era:"炎興",   py:"Yanxing",         start:263, end:263 },
+        // 吳 Wu
+        {dyn:"吳",era:"黃武",     py:"Huangwu",         start:222, end:229 },
+        {dyn:"吳",era:"黃龍",     py:"Huanglong",       start:229, end:231 },
+        {dyn:"吳",era:"嘉禾",     py:"Jiahe",           start:232, end:238 },
+        {dyn:"吳",era:"赤烏",     py:"Chiwu",           start:238, end:251 },
+        {dyn:"吳",era:"太元",     py:"Taiyuan",         start:251, end:252 },
+        {dyn:"吳",era:"神鳳",     py:"Shenfeng",        start:252, end:252 },
+        {dyn:"吳",era:"建興",     py:"Jianxing",        start:252, end:253 },
+        {dyn:"吳",era:"五鳳",     py:"Wufeng",          start:254, end:256 },
+        {dyn:"吳",era:"太平",     py:"Taiping",         start:256, end:258 },
+        {dyn:"吳",era:"永安",     py:"Yong'an",         start:258, end:264 },
+        {dyn:"吳",era:"元興",     py:"Yuanxing",        start:264, end:265 },
+        {dyn:"吳",era:"甘露",     py:"Ganlu",           start:265, end:266 },
+        {dyn:"吳",era:"寶鼎",     py:"Baoding",         start:266, end:269 },
+        {dyn:"吳",era:"建衡",     py:"Jianheng",        start:269, end:271 },
+        {dyn:"吳",era:"鳳凰",     py:"Fenghuang",       start:272, end:274 },
+        {dyn:"吳",era:"天冊",     py:"Tianche",         start:275, end:276 },
+        {dyn:"吳",era:"天璽",     py:"Tianxi",          start:276, end:276 },
+        {dyn:"吳",era:"天紀",     py:"Tianji",          start:277, end:280 },
+        // 西晉 Western Jin
+        {dyn:"西晉",era:"泰始",   py:"Taishi",          start:265, end:274 },
+        {dyn:"西晉",era:"咸寧",   py:"Xianning",        start:275, end:280 },
+        {dyn:"西晉",era:"太康",   py:"Taikang",         start:280, end:289 },
+        {dyn:"西晉",era:"太熙",   py:"Taixi",           start:290, end:290 },
+        {dyn:"西晉",era:"永熙",   py:"Yongxi",          start:290, end:291 },
+        {dyn:"西晉",era:"永平",   py:"Yongping",        start:291, end:291 },
+        {dyn:"西晉",era:"元康",   py:"Yuankang",        start:291, end:299 },
+        {dyn:"西晉",era:"永康",   py:"Yongkang",        start:300, end:301 },
+        {dyn:"西晉",era:"永寧",   py:"Yongning",        start:301, end:302 },
+        {dyn:"西晉",era:"太安",   py:"Tai'an",          start:302, end:303 },
+        {dyn:"西晉",era:"永安",   py:"Yong'an",         start:304, end:304 },
+        {dyn:"西晉",era:"建武",   py:"Jianwu",          start:304, end:304 },
+        {dyn:"西晉",era:"永興",   py:"Yongxing",        start:304, end:306 },
+        {dyn:"西晉",era:"光熙",   py:"Guangxi",         start:306, end:306 },
+        {dyn:"西晉",era:"永嘉",   py:"Yongjia",         start:307, end:313 },
+        {dyn:"西晉",era:"建興",   py:"Jianxing",        start:313, end:316 },
+        // 東晉 Eastern Jin
+        {dyn:"東晉",era:"建武",   py:"Jianwu",          start:317, end:318 },
+        {dyn:"東晉",era:"大興",   py:"Daxing",          start:318, end:321 },
+        {dyn:"東晉",era:"永昌",   py:"Yongchang",       start:322, end:323 },
+        {dyn:"東晉",era:"太寧",   py:"Taining",         start:323, end:325 },
+        {dyn:"東晉",era:"咸和",   py:"Xianhe",          start:326, end:334 },
+        {dyn:"東晉",era:"咸康",   py:"Xiankang",        start:335, end:342 },
+        {dyn:"東晉",era:"建元",   py:"Jianyuan",        start:343, end:344 },
+        {dyn:"東晉",era:"永和",   py:"Yonghe",          start:345, end:356 },
+        {dyn:"東晉",era:"升平",   py:"Shengping",       start:357, end:361 },
+        {dyn:"東晉",era:"隆和",   py:"Longhe",          start:362, end:363 },
+        {dyn:"東晉",era:"興寧",   py:"Xingning",        start:363, end:365 },
+        {dyn:"東晉",era:"太和",   py:"Taihe",           start:366, end:371 },
+        {dyn:"東晉",era:"咸安",   py:"Xian'an",         start:371, end:372 },
+        {dyn:"東晉",era:"寧康",   py:"Ningkang",        start:373, end:375 },
+        {dyn:"東晉",era:"太元",   py:"Taiyuan",         start:376, end:396 },
+        {dyn:"東晉",era:"隆安",   py:"Long'an",         start:397, end:401 },
+        {dyn:"東晉",era:"元興",   py:"Yuanxing",        start:402, end:404 },
+        {dyn:"東晉",era:"義熙",   py:"Yixi",            start:405, end:418 },
+        {dyn:"東晉",era:"元熙",   py:"Yuanxi",          start:419, end:420 },
+        // 劉宋 Liu Song
+        {dyn:"劉宋",era:"永初",   py:"Yongchu",         start:420, end:422 },
+        {dyn:"劉宋",era:"景平",   py:"Jingping",        start:423, end:424 },
+        {dyn:"劉宋",era:"元嘉",   py:"Yuanjia",         start:424, end:453 },
+        {dyn:"劉宋",era:"孝建",   py:"Xiaojian",        start:454, end:456 },
+        {dyn:"劉宋",era:"大明",   py:"Daming",          start:457, end:464 },
+        {dyn:"劉宋",era:"永光",   py:"Yongguang",       start:465, end:465 },
+        {dyn:"劉宋",era:"景和",   py:"Jinghe",          start:465, end:465 },
+        {dyn:"劉宋",era:"泰始",   py:"Taishi",          start:465, end:471 },
+        {dyn:"劉宋",era:"泰豫",   py:"Taiyu",           start:472, end:472 },
+        {dyn:"劉宋",era:"元徽",   py:"Yuanhui",         start:473, end:477 },
+        {dyn:"劉宋",era:"昇明",   py:"Shengming",       start:477, end:479 },
+        // 南齊 Southern Qi
+        {dyn:"南齊",era:"建元",   py:"Jianyuan",        start:479, end:482 },
+        {dyn:"南齊",era:"永明",   py:"Yongming",        start:483, end:493 },
+        {dyn:"南齊",era:"隆昌",   py:"Longchang",       start:494, end:494 },
+        {dyn:"南齊",era:"延興",   py:"Yanxing",         start:494, end:494 },
+        {dyn:"南齊",era:"建武",   py:"Jianwu",          start:494, end:498 },
+        {dyn:"南齊",era:"永泰",   py:"Yongtai",         start:498, end:498 },
+        {dyn:"南齊",era:"永元",   py:"Yongyuan",        start:499, end:501 },
+        {dyn:"南齊",era:"中興",   py:"Zhongxing",       start:501, end:502 },
+        // 梁 Liang
+        {dyn:"梁",era:"天監",     py:"Tianjian",        start:502, end:519 },
+        {dyn:"梁",era:"普通",     py:"Putong",          start:520, end:526 },
+        {dyn:"梁",era:"大通",     py:"Datong",          start:527, end:529 },
+        {dyn:"梁",era:"中大通",   py:"Zhong Datong",    start:529, end:534 },
+        {dyn:"梁",era:"大同",     py:"Datong",          start:535, end:546 },
+        {dyn:"梁",era:"中大同",   py:"Zhong Datong",    start:547, end:547 },
+        {dyn:"梁",era:"太清",     py:"Taiqing",         start:547, end:549 },
+        {dyn:"梁",era:"大寶",     py:"Dabao",           start:550, end:551 },
+        {dyn:"梁",era:"承聖",     py:"Chengsheng",      start:552, end:555 },
+        {dyn:"梁",era:"紹泰",     py:"Shaotai",         start:555, end:556 },
+        {dyn:"梁",era:"太平",     py:"Taiping",         start:556, end:557 },
+        // 陳 Chen
+        {dyn:"陳",era:"永定",     py:"Yongding",        start:557, end:559 },
+        {dyn:"陳",era:"天嘉",     py:"Tianjia",         start:560, end:566 },
+        {dyn:"陳",era:"天康",     py:"Tiankang",        start:566, end:566 },
+        {dyn:"陳",era:"光大",     py:"Guangda",         start:567, end:568 },
+        {dyn:"陳",era:"太建",     py:"Taijian",         start:569, end:582 },
+        {dyn:"陳",era:"至德",     py:"Zhide",           start:583, end:586 },
+        {dyn:"陳",era:"禎明",     py:"Zhenming",        start:587, end:589 },
+        // 北魏 Northern Wei — complete
+        {dyn:"北魏",era:"登國",   py:"Dengguo",         start:386, end:396 },
+        {dyn:"北魏",era:"皇始",   py:"Huangshi",        start:396, end:398 },
+        {dyn:"北魏",era:"天興",   py:"Tianxing",        start:398, end:404 },
+        {dyn:"北魏",era:"天賜",   py:"Tianci",          start:404, end:409 },
+        {dyn:"北魏",era:"永興",   py:"Yongxing",        start:409, end:413 },
+        {dyn:"北魏",era:"神瑞",   py:"Shenrui",         start:414, end:416 },
+        {dyn:"北魏",era:"泰常",   py:"Taichang",        start:416, end:423 },
+        {dyn:"北魏",era:"始光",   py:"Shiguang",        start:424, end:428 },
+        {dyn:"北魏",era:"神麚",   py:"Shen'e",          start:428, end:431 },
+        {dyn:"北魏",era:"延和",   py:"Yanhe",           start:432, end:434 },
+        {dyn:"北魏",era:"太延",   py:"Taiyan",          start:435, end:440 },
+        {dyn:"北魏",era:"太平真君",py:"Taiping Zhenjun", start:440, end:451 },
+        {dyn:"北魏",era:"正平",   py:"Zhengping",       start:451, end:452 },
+        {dyn:"北魏",era:"興安",   py:"Xing'an",         start:452, end:454 },
+        {dyn:"北魏",era:"興光",   py:"Xingguang",       start:454, end:454 },
+        {dyn:"北魏",era:"太安",   py:"Tai'an",          start:455, end:459 },
+        {dyn:"北魏",era:"和平",   py:"Heping",          start:460, end:465 },
+        {dyn:"北魏",era:"天安",   py:"Tian'an",         start:466, end:467 },
+        {dyn:"北魏",era:"皇興",   py:"Huangxing",       start:467, end:471 },
+        {dyn:"北魏",era:"延興",   py:"Yanxing",         start:471, end:476 },
+        {dyn:"北魏",era:"承明",   py:"Chengming",       start:476, end:476 },
+        {dyn:"北魏",era:"太和",   py:"Taihe",           start:477, end:499 },
+        {dyn:"北魏",era:"景明",   py:"Jingming",        start:500, end:503 },
+        {dyn:"北魏",era:"正始",   py:"Zhengshi",        start:504, end:508 },
+        {dyn:"北魏",era:"永平",   py:"Yongping",        start:508, end:512 },
+        {dyn:"北魏",era:"延昌",   py:"Yanchang",        start:512, end:515 },
+        {dyn:"北魏",era:"熙平",   py:"Xiping",          start:516, end:518 },
+        {dyn:"北魏",era:"神龜",   py:"Shengui",         start:518, end:520 },
+        {dyn:"北魏",era:"正光",   py:"Zhengguang",      start:520, end:525 },
+        {dyn:"北魏",era:"孝昌",   py:"Xiaochang",       start:525, end:527 },
+        {dyn:"北魏",era:"武泰",   py:"Wutai",           start:528, end:528 },
+        {dyn:"北魏",era:"建義",   py:"Jianyi",          start:528, end:528 },
+        {dyn:"北魏",era:"永安",   py:"Yong'an",         start:528, end:530 },
+        {dyn:"北魏",era:"建明",   py:"Jianming",        start:530, end:530 },
+        {dyn:"北魏",era:"普泰",   py:"Putai",           start:531, end:532 },
+        {dyn:"北魏",era:"中興",   py:"Zhongxing",       start:531, end:532 },
+        {dyn:"北魏",era:"太昌",   py:"Taichang",        start:532, end:532 },
+        {dyn:"北魏",era:"永興",   py:"Yongxing",        start:532, end:532 },
+        {dyn:"北魏",era:"永熙",   py:"Yongxi",          start:532, end:534 },
+        // 東魏 Eastern Wei
+        {dyn:"東魏",era:"天平",   py:"Tianping",        start:534, end:537 },
+        {dyn:"東魏",era:"元象",   py:"Yuanxiang",       start:538, end:539 },
+        {dyn:"東魏",era:"興和",   py:"Xinghe",          start:539, end:542 },
+        {dyn:"東魏",era:"武定",   py:"Wuding",          start:543, end:550 },
+        // 西魏 Western Wei
+        {dyn:"西魏",era:"大統",   py:"Datong",          start:535, end:551 },
+        // 北齊 Northern Qi
+        {dyn:"北齊",era:"天保",   py:"Tianbao",         start:550, end:559 },
+        {dyn:"北齊",era:"乾明",   py:"Qianming",        start:560, end:560 },
+        {dyn:"北齊",era:"皇建",   py:"Huangjian",       start:560, end:561 },
+        {dyn:"北齊",era:"太寧",   py:"Taining",         start:561, end:562 },
+        {dyn:"北齊",era:"河清",   py:"Heqing",          start:562, end:565 },
+        {dyn:"北齊",era:"天統",   py:"Tiantong",        start:565, end:569 },
+        {dyn:"北齊",era:"武平",   py:"Wuping",          start:570, end:576 },
+        {dyn:"北齊",era:"隆化",   py:"Longhua",         start:576, end:577 },
+        {dyn:"北齊",era:"承光",   py:"Chengguang",      start:577, end:577 },
+        // 北周 Northern Zhou
+        {dyn:"北周",era:"武成",   py:"Wucheng",         start:559, end:560 },
+        {dyn:"北周",era:"保定",   py:"Baoding",         start:561, end:565 },
+        {dyn:"北周",era:"天和",   py:"Tianhe",          start:566, end:572 },
+        {dyn:"北周",era:"建德",   py:"Jiande",          start:572, end:578 },
+        {dyn:"北周",era:"宣政",   py:"Xuanzheng",       start:578, end:579 },
+        {dyn:"北周",era:"大象",   py:"Daxiang",         start:579, end:580 },
+        {dyn:"北周",era:"大定",   py:"Dading",          start:581, end:581 },
+        // 隋 Sui
+        {dyn:"隋",era:"開皇",     py:"Kaihuang",        start:581, end:600 },
+        {dyn:"隋",era:"仁壽",     py:"Renshou",         start:601, end:604 },
+        {dyn:"隋",era:"大業",     py:"Daye",            start:605, end:617 },
+        {dyn:"隋",era:"義寧",     py:"Yining",          start:617, end:618 },
+        // 唐 Tang — complete
+        {dyn:"唐",era:"武德",     py:"Wude",            start:618, end:626 },
+        {dyn:"唐",era:"貞觀",     py:"Zhenguan",        start:627, end:649 },
+        {dyn:"唐",era:"永徽",     py:"Yonghui",         start:650, end:655 },
+        {dyn:"唐",era:"顯慶",     py:"Xianqing",        start:656, end:661 },
+        {dyn:"唐",era:"龍朔",     py:"Longshuo",        start:661, end:663 },
+        {dyn:"唐",era:"麟德",     py:"Linde",           start:664, end:665 },
+        {dyn:"唐",era:"乾封",     py:"Qianfeng",        start:666, end:668 },
+        {dyn:"唐",era:"總章",     py:"Zongzhang",       start:668, end:670 },
+        {dyn:"唐",era:"咸亨",     py:"Xianheng",        start:670, end:674 },
+        {dyn:"唐",era:"上元",     py:"Shangyuan",       start:674, end:676 },
+        {dyn:"唐",era:"儀鳳",     py:"Yifeng",          start:676, end:679 },
+        {dyn:"唐",era:"調露",     py:"Diaolu",          start:679, end:680 },
+        {dyn:"唐",era:"永隆",     py:"Yonglong",        start:680, end:681 },
+        {dyn:"唐",era:"開耀",     py:"Kaiyao",          start:681, end:682 },
+        {dyn:"唐",era:"永淳",     py:"Yongchun",        start:682, end:683 },
+        {dyn:"唐",era:"弘道",     py:"Hongdao",         start:683, end:683 },
+        {dyn:"唐",era:"嗣聖",     py:"Sisheng",         start:684, end:684 },
+        {dyn:"唐",era:"文明",     py:"Wenming",         start:684, end:684 },
+        {dyn:"唐",era:"光宅",     py:"Guangzhai",       start:684, end:684 },
+        {dyn:"唐",era:"垂拱",     py:"Chuigong",        start:685, end:688 },
+        {dyn:"唐",era:"永昌",     py:"Yongchang",       start:689, end:689 },
+        {dyn:"唐",era:"載初",     py:"Zaichu",          start:689, end:690 },
+        {dyn:"唐",era:"天授",     py:"Tianshou",        start:690, end:692 },
+        {dyn:"唐",era:"如意",     py:"Ruyi",            start:692, end:692 },
+        {dyn:"唐",era:"長壽",     py:"Changshou",       start:692, end:694 },
+        {dyn:"唐",era:"延載",     py:"Yanzai",          start:694, end:694 },
+        {dyn:"唐",era:"天冊萬歲", py:"Tiance Wansui",   start:695, end:695 },
+        {dyn:"唐",era:"萬歲登封", py:"Wansui Dengfeng", start:696, end:696 },
+        {dyn:"唐",era:"萬歲通天", py:"Wansui Tongtian", start:696, end:697 },
+        {dyn:"唐",era:"神功",     py:"Shengong",        start:697, end:697 },
+        {dyn:"唐",era:"聖曆",     py:"Shengli",         start:698, end:700 },
+        {dyn:"唐",era:"久視",     py:"Jiushi",          start:700, end:700 },
+        {dyn:"唐",era:"大足",     py:"Dazu",            start:701, end:701 },
+        {dyn:"唐",era:"長安",     py:"Chang'an",        start:701, end:704 },
+        {dyn:"唐",era:"神龍",     py:"Shenlong",        start:705, end:707 },
+        {dyn:"唐",era:"景龍",     py:"Jinglong",        start:707, end:710 },
+        {dyn:"唐",era:"景雲",     py:"Jingyun",         start:710, end:711 },
+        {dyn:"唐",era:"太極",     py:"Taiji",           start:712, end:712 },
+        {dyn:"唐",era:"延和",     py:"Yanhe",           start:712, end:712 },
+        {dyn:"唐",era:"先天",     py:"Xiantian",        start:712, end:713 },
+        {dyn:"唐",era:"開元",     py:"Kaiyuan",         start:713, end:741 },
+        {dyn:"唐",era:"天寶",     py:"Tianbao",         start:742, end:756 },
+        {dyn:"唐",era:"至德",     py:"Zhide",           start:756, end:758 },
+        {dyn:"唐",era:"乾元",     py:"Qianyuan",        start:758, end:760 },
+        {dyn:"唐",era:"上元",     py:"Shangyuan",       start:760, end:761 },
+        {dyn:"唐",era:"寶應",     py:"Baoying",         start:762, end:763 },
+        {dyn:"唐",era:"廣德",     py:"Guangde",         start:763, end:764 },
+        {dyn:"唐",era:"永泰",     py:"Yongtai",         start:765, end:766 },
+        {dyn:"唐",era:"大曆",     py:"Dali",            start:766, end:779 },
+        {dyn:"唐",era:"建中",     py:"Jianzhong",       start:780, end:783 },
+        {dyn:"唐",era:"興元",     py:"Xingyuan",        start:784, end:784 },
+        {dyn:"唐",era:"貞元",     py:"Zhenyuan",        start:785, end:805 },
+        {dyn:"唐",era:"永貞",     py:"Yongzhen",        start:805, end:805 },
+        {dyn:"唐",era:"元和",     py:"Yuanhe",          start:806, end:820 },
+        {dyn:"唐",era:"長慶",     py:"Changqing",       start:821, end:824 },
+        {dyn:"唐",era:"寶曆",     py:"Baoli",           start:825, end:826 },
+        {dyn:"唐",era:"大和",     py:"Dahe",            start:827, end:835 },
+        {dyn:"唐",era:"開成",     py:"Kaicheng",        start:836, end:840 },
+        {dyn:"唐",era:"會昌",     py:"Huichang",        start:841, end:846 },
+        {dyn:"唐",era:"大中",     py:"Dazhong",         start:847, end:860 },
+        {dyn:"唐",era:"咸通",     py:"Xiantong",        start:860, end:874 },
+        {dyn:"唐",era:"乾符",     py:"Qianfu",          start:874, end:879 },
+        {dyn:"唐",era:"廣明",     py:"Guangming",       start:880, end:881 },
+        {dyn:"唐",era:"中和",     py:"Zhonghe",         start:881, end:885 },
+        {dyn:"唐",era:"光啓",     py:"Guangqi",         start:885, end:888 },
+        {dyn:"唐",era:"文德",     py:"Wende",           start:888, end:888 },
+        {dyn:"唐",era:"龍紀",     py:"Longji",          start:889, end:889 },
+        {dyn:"唐",era:"大順",     py:"Dashun",          start:890, end:891 },
+        {dyn:"唐",era:"景福",     py:"Jingfu",          start:892, end:893 },
+        {dyn:"唐",era:"乾寧",     py:"Qianning",        start:894, end:898 },
+        {dyn:"唐",era:"光化",     py:"Guanghua",        start:898, end:901 },
+        {dyn:"唐",era:"天復",     py:"Tianfu",          start:901, end:904 },
+        {dyn:"唐",era:"天祐",     py:"Tianyou",         start:904, end:907 },
+        // 後梁 Later Liang
+        {dyn:"後梁",era:"開平",   py:"Kaiping",         start:907, end:911 },
+        {dyn:"後梁",era:"乾化",   py:"Qianhua",         start:911, end:915 },
+        {dyn:"後梁",era:"貞明",   py:"Zhenming",        start:915, end:921 },
+        {dyn:"後梁",era:"龍德",   py:"Longde",          start:921, end:923 },
+        // 後唐 Later Tang
+        {dyn:"後唐",era:"同光",   py:"Tongguang",       start:923, end:926 },
+        {dyn:"後唐",era:"天成",   py:"Tiancheng",       start:926, end:930 },
+        {dyn:"後唐",era:"長興",   py:"Changxing",       start:930, end:933 },
+        {dyn:"後唐",era:"應順",   py:"Yingshun",        start:934, end:934 },
+        {dyn:"後唐",era:"清泰",   py:"Qingtai",         start:934, end:936 },
+        // 後晉 Later Jin
+        {dyn:"後晉",era:"天福",   py:"Tianfu",          start:936, end:944 },
+        {dyn:"後晉",era:"開運",   py:"Kaiyun",          start:944, end:947 },
+        // 後漢 Later Han
+        {dyn:"後漢",era:"天福",   py:"Tianfu",          start:947, end:947 },
+        {dyn:"後漢",era:"乾祐",   py:"Qianyou",         start:948, end:950 },
+        // 後周 Later Zhou
+        {dyn:"後周",era:"廣順",   py:"Guangshun",       start:951, end:954 },
+        {dyn:"後周",era:"顯德",   py:"Xiande",          start:954, end:960 },
+        // 遼 Liao
+        {dyn:"遼",era:"神冊",     py:"Shence",          start:916, end:921 },
+        {dyn:"遼",era:"天贊",     py:"Tianzan",         start:922, end:926 },
+        {dyn:"遼",era:"天顯",     py:"Tianxian",        start:926, end:938 },
+        {dyn:"遼",era:"會同",     py:"Huitong",         start:938, end:947 },
+        {dyn:"遼",era:"大同",     py:"Datong",          start:947, end:947 },
+        {dyn:"遼",era:"天祿",     py:"Tianlu",          start:947, end:951 },
+        {dyn:"遼",era:"應曆",     py:"Yingli",          start:951, end:969 },
+        {dyn:"遼",era:"保寧",     py:"Baoning",         start:969, end:979 },
+        {dyn:"遼",era:"乾亨",     py:"Qianheng",        start:979, end:983 },
+        {dyn:"遼",era:"統和",     py:"Tonghe",          start:983, end:1012},
+        {dyn:"遼",era:"開泰",     py:"Kaitai",          start:1012,end:1021},
+        {dyn:"遼",era:"太平",     py:"Taiping",         start:1021,end:1031},
+        {dyn:"遼",era:"景福",     py:"Jingfu",          start:1031,end:1032},
+        {dyn:"遼",era:"重熙",     py:"Chongxi",         start:1032,end:1055},
+        {dyn:"遼",era:"清寧",     py:"Qingning",        start:1055,end:1064},
+        {dyn:"遼",era:"咸雍",     py:"Xianyong",        start:1065,end:1074},
+        {dyn:"遼",era:"大康",     py:"Dakang",          start:1075,end:1084},
+        {dyn:"遼",era:"大安",     py:"Da'an",           start:1085,end:1094},
+        {dyn:"遼",era:"壽昌",     py:"Shouchang",       start:1095,end:1101},
+        {dyn:"遼",era:"乾統",     py:"Qiantong",        start:1101,end:1110},
+        {dyn:"遼",era:"天慶",     py:"Tianqing",        start:1111,end:1120},
+        {dyn:"遼",era:"保大",     py:"Baoda",           start:1121,end:1125},
+        // 北宋 Northern Song
+        {dyn:"北宋",era:"建隆",   py:"Jianlong",        start:960, end:963 },
+        {dyn:"北宋",era:"乾德",   py:"Qiande",          start:963, end:968 },
+        {dyn:"北宋",era:"開寶",   py:"Kaibao",          start:968, end:976 },
+        {dyn:"北宋",era:"太平興國",py:"Taiping Xingguo", start:976, end:984 },
+        {dyn:"北宋",era:"雍熙",   py:"Yongxi",          start:984, end:987 },
+        {dyn:"北宋",era:"端拱",   py:"Duangong",        start:988, end:989 },
+        {dyn:"北宋",era:"淳化",   py:"Chunhua",         start:990, end:994 },
+        {dyn:"北宋",era:"至道",   py:"Zhidao",          start:995, end:997 },
+        {dyn:"北宋",era:"咸平",   py:"Xianping",        start:998, end:1003},
+        {dyn:"北宋",era:"景德",   py:"Jingde",          start:1004,end:1007},
+        {dyn:"北宋",era:"大中祥符",py:"Dazhong Xiangfu", start:1008,end:1016},
+        {dyn:"北宋",era:"天禧",   py:"Tianxi",          start:1017,end:1021},
+        {dyn:"北宋",era:"乾興",   py:"Qianxing",        start:1022,end:1022},
+        {dyn:"北宋",era:"天聖",   py:"Tiansheng",       start:1023,end:1032},
+        {dyn:"北宋",era:"明道",   py:"Mingdao",         start:1032,end:1033},
+        {dyn:"北宋",era:"景祐",   py:"Jingyou",         start:1034,end:1038},
+        {dyn:"北宋",era:"寶元",   py:"Baoyuan",         start:1038,end:1040},
+        {dyn:"北宋",era:"康定",   py:"Kangding",        start:1040,end:1041},
+        {dyn:"北宋",era:"慶曆",   py:"Qingli",          start:1041,end:1048},
+        {dyn:"北宋",era:"皇祐",   py:"Huangyou",        start:1049,end:1054},
+        {dyn:"北宋",era:"至和",   py:"Zhihe",           start:1054,end:1056},
+        {dyn:"北宋",era:"嘉祐",   py:"Jiayou",          start:1056,end:1063},
+        {dyn:"北宋",era:"治平",   py:"Zhiping",         start:1064,end:1067},
+        {dyn:"北宋",era:"熙寧",   py:"Xining",          start:1068,end:1077},
+        {dyn:"北宋",era:"元豐",   py:"Yuanfeng",        start:1078,end:1085},
+        {dyn:"北宋",era:"元祐",   py:"Yuanyou",         start:1086,end:1094},
+        {dyn:"北宋",era:"紹聖",   py:"Shaosheng",       start:1094,end:1098},
+        {dyn:"北宋",era:"元符",   py:"Yuanfu",          start:1098,end:1100},
+        {dyn:"北宋",era:"建中靖國",py:"Jianzhong Jingguo",start:1101,end:1101},
+        {dyn:"北宋",era:"崇寧",   py:"Chongning",       start:1102,end:1106},
+        {dyn:"北宋",era:"大觀",   py:"Daguan",          start:1107,end:1110},
+        {dyn:"北宋",era:"政和",   py:"Zhenghe",         start:1111,end:1118},
+        {dyn:"北宋",era:"重和",   py:"Chonghe",         start:1118,end:1119},
+        {dyn:"北宋",era:"宣和",   py:"Xuanhe",          start:1119,end:1125},
+        {dyn:"北宋",era:"靖康",   py:"Jingkang",        start:1126,end:1127},
+        // 南宋 Southern Song
+        {dyn:"南宋",era:"建炎",   py:"Jianyan",         start:1127,end:1130},
+        {dyn:"南宋",era:"紹興",   py:"Shaoxing",        start:1131,end:1162},
+        {dyn:"南宋",era:"隆興",   py:"Longxing",        start:1163,end:1164},
+        {dyn:"南宋",era:"乾道",   py:"Qiandao",         start:1165,end:1173},
+        {dyn:"南宋",era:"淳熙",   py:"Chunxi",          start:1174,end:1189},
+        {dyn:"南宋",era:"紹熙",   py:"Shaoxi",          start:1190,end:1194},
+        {dyn:"南宋",era:"慶元",   py:"Qingyuan",        start:1195,end:1200},
+        {dyn:"南宋",era:"嘉泰",   py:"Jiatai",          start:1201,end:1204},
+        {dyn:"南宋",era:"開禧",   py:"Kaixi",           start:1205,end:1207},
+        {dyn:"南宋",era:"嘉定",   py:"Jiading",         start:1208,end:1224},
+        {dyn:"南宋",era:"寶慶",   py:"Baoqing",         start:1225,end:1227},
+        {dyn:"南宋",era:"紹定",   py:"Shaoding",        start:1228,end:1233},
+        {dyn:"南宋",era:"端平",   py:"Duanping",        start:1234,end:1236},
+        {dyn:"南宋",era:"嘉熙",   py:"Jiaxi",           start:1237,end:1240},
+        {dyn:"南宋",era:"淳祐",   py:"Chunyou",         start:1241,end:1252},
+        {dyn:"南宋",era:"寶祐",   py:"Baoyu",           start:1253,end:1258},
+        {dyn:"南宋",era:"開慶",   py:"Kaiqing",         start:1259,end:1259},
+        {dyn:"南宋",era:"景定",   py:"Jingding",        start:1260,end:1264},
+        {dyn:"南宋",era:"咸淳",   py:"Xianchun",        start:1265,end:1274},
+        {dyn:"南宋",era:"德祐",   py:"Deyou",           start:1275,end:1276},
+        {dyn:"南宋",era:"景炎",   py:"Jingyan",         start:1276,end:1278},
+        {dyn:"南宋",era:"祥興",   py:"Xiangxing",       start:1278,end:1279},
+        // 金 Jin (Jurchen)
+        {dyn:"金",era:"收國",     py:"Shouguo",         start:1115,end:1117},
+        {dyn:"金",era:"天輔",     py:"Tianfu",          start:1117,end:1123},
+        {dyn:"金",era:"天會",     py:"Tianhui",         start:1123,end:1135},
+        {dyn:"金",era:"天眷",     py:"Tianjuan",        start:1138,end:1140},
+        {dyn:"金",era:"皇統",     py:"Huangtong",       start:1141,end:1149},
+        {dyn:"金",era:"天德",     py:"Tiande",          start:1149,end:1153},
+        {dyn:"金",era:"貞元",     py:"Zhenyuan",        start:1153,end:1156},
+        {dyn:"金",era:"正隆",     py:"Zhenglong",       start:1156,end:1161},
+        {dyn:"金",era:"大定",     py:"Dading",          start:1161,end:1189},
+        {dyn:"金",era:"明昌",     py:"Mingchang",       start:1190,end:1196},
+        {dyn:"金",era:"承安",     py:"Cheng'an",        start:1196,end:1200},
+        {dyn:"金",era:"泰和",     py:"Taihe",           start:1201,end:1208},
+        {dyn:"金",era:"大安",     py:"Da'an",           start:1209,end:1211},
+        {dyn:"金",era:"崇慶",     py:"Chongqing",       start:1212,end:1213},
+        {dyn:"金",era:"至寧",     py:"Zhining",         start:1213,end:1213},
+        {dyn:"金",era:"貞祐",     py:"Zhenyou",         start:1213,end:1217},
+        {dyn:"金",era:"興定",     py:"Xingding",        start:1217,end:1222},
+        {dyn:"金",era:"元光",     py:"Yuanguang",       start:1222,end:1223},
+        {dyn:"金",era:"正大",     py:"Zhengda",         start:1224,end:1231},
+        {dyn:"金",era:"開興",     py:"Kaixing",         start:1232,end:1232},
+        {dyn:"金",era:"天興",     py:"Tianxing",        start:1232,end:1234},
+        // 元 Yuan
+        {dyn:"元",era:"中統",     py:"Zhongtong",       start:1260,end:1264},
+        {dyn:"元",era:"至元",     py:"Zhiyuan",         start:1264,end:1294},
+        {dyn:"元",era:"元貞",     py:"Yuanzhen",        start:1295,end:1297},
+        {dyn:"元",era:"大德",     py:"Dade",            start:1297,end:1307},
+        {dyn:"元",era:"至大",     py:"Zhida",           start:1308,end:1311},
+        {dyn:"元",era:"皇慶",     py:"Huangqing",       start:1312,end:1313},
+        {dyn:"元",era:"延祐",     py:"Yanyou",          start:1314,end:1320},
+        {dyn:"元",era:"至治",     py:"Zhizhi",          start:1321,end:1323},
+        {dyn:"元",era:"泰定",     py:"Taiding",         start:1324,end:1328},
+        {dyn:"元",era:"致和",     py:"Zhihe",           start:1328,end:1328},
+        {dyn:"元",era:"天曆",     py:"Tianli",          start:1328,end:1330},
+        {dyn:"元",era:"至順",     py:"Zhishun",         start:1330,end:1333},
+        {dyn:"元",era:"元統",     py:"Yuantong",        start:1333,end:1335},
+        {dyn:"元",era:"至元",     py:"Zhiyuan",         start:1335,end:1340},
+        {dyn:"元",era:"至正",     py:"Zhizheng",        start:1341,end:1368},
+        // 明 Ming
+        {dyn:"明",era:"洪武",     py:"Hongwu",          start:1368,end:1398},
+        {dyn:"明",era:"建文",     py:"Jianwen",         start:1399,end:1402},
+        {dyn:"明",era:"永樂",     py:"Yongle",          start:1403,end:1424},
+        {dyn:"明",era:"洪熙",     py:"Hongxi",          start:1425,end:1425},
+        {dyn:"明",era:"宣德",     py:"Xuande",          start:1426,end:1435},
+        {dyn:"明",era:"正統",     py:"Zhengtong",       start:1436,end:1449},
+        {dyn:"明",era:"景泰",     py:"Jingtai",         start:1450,end:1456},
+        {dyn:"明",era:"天順",     py:"Tianshun",        start:1457,end:1464},
+        {dyn:"明",era:"成化",     py:"Chenghua",        start:1465,end:1487},
+        {dyn:"明",era:"弘治",     py:"Hongzhi",         start:1488,end:1505},
+        {dyn:"明",era:"正德",     py:"Zhengde",         start:1506,end:1521},
+        {dyn:"明",era:"嘉靖",     py:"Jiajing",         start:1522,end:1566},
+        {dyn:"明",era:"隆慶",     py:"Longqing",        start:1567,end:1572},
+        {dyn:"明",era:"萬曆",     py:"Wanli",           start:1573,end:1620},
+        {dyn:"明",era:"泰昌",     py:"Taichang",        start:1620,end:1620},
+        {dyn:"明",era:"天啟",     py:"Tianqi",          start:1621,end:1627},
+        {dyn:"明",era:"崇禎",     py:"Chongzhen",       start:1628,end:1644},
+        // 清 Qing (incl. pre-conquest Manchu state eras)
+        {dyn:"清",era:"天命",     py:"Tianming",        start:1616,end:1626},
+        {dyn:"清",era:"天聰",     py:"Tiancong",        start:1627,end:1636},
+        {dyn:"清",era:"崇德",     py:"Chongde",         start:1636,end:1644},
+        {dyn:"清",era:"順治",     py:"Shunzhi",         start:1644,end:1661},
+        {dyn:"清",era:"康熙",     py:"Kangxi",          start:1662,end:1722},
+        {dyn:"清",era:"雍正",     py:"Yongzheng",       start:1723,end:1735},
+        {dyn:"清",era:"乾隆",     py:"Qianlong",        start:1736,end:1795},
+        {dyn:"清",era:"嘉慶",     py:"Jiaqing",         start:1796,end:1820},
+        {dyn:"清",era:"道光",     py:"Daoguang",        start:1821,end:1850},
+        {dyn:"清",era:"咸豐",     py:"Xianfeng",        start:1851,end:1861},
+        {dyn:"清",era:"同治",     py:"Tongzhi",         start:1862,end:1874},
+        {dyn:"清",era:"光緒",     py:"Guangxu",         start:1875,end:1908},
+        {dyn:"清",era:"宣統",     py:"Xuantong",        start:1909,end:1912}
       ];
 
       var pane   = document.getElementById("time-pane");
       var detail = document.getElementById("time-detail");
       var active = null;
 
+      function dispYear(y) {
+        return y < 0 ? Math.abs(y) + " BCE" : y + " CE";
+      }
+      function dispRange(s, e) {
+        if (s < 0 && e < 0) return Math.abs(s) + "–" + Math.abs(e) + " BCE";
+        if (s < 0) return Math.abs(s) + " BCE – " + e + " CE";
+        return s === e ? s + " CE" : s + "–" + e + " CE";
+      }
       function isoYear(y) {
-        return y < 0 ? "-" + String(-y).padStart(4,"0") : String(y).padStart(4,"0");
+        // Converts stored year to ISO 8601 proleptic Gregorian
+        // (1 BCE = 0000, 2 BCE = -0001, etc.)
+        if (y <= 0) {
+          var iso = y + 1;
+          return iso < 0 ? "-" + String(-iso).padStart(4,"0") : String(iso).padStart(4,"0");
+        }
+        return String(y).padStart(4,"0");
       }
 
       function showDynasty(d) {
         clearActive();
+        var noEra = (d.zh === "秦");
         detail.innerHTML =
           '<h2 class="time-h2">' + d.en + ' <span class="zh">' + d.zh + '</span></h2>' +
-          '<p class="time-meta">' +
-            '<p><dt>Dates</dt> <dd>' + d.start + '–' + d.end + ' CE</dd></p>' +
-            '<p><dt>Reign eras</dt> <dd>' + ERAS.filter(function(e){return e.dyn===d.zh;}).length + ' in this dataset</dd></p>' +
-          '</p>' +
-          '<p style="font-size:.85rem;color:var(--text-muted);margin-top:1rem">' +
-            'Dynasty-level dates are used as fallback <code>notBefore</code>/<code>notAfter</code> ' +
-            'when no reign era is attested.' +
-          '</p>' +
-          '<div class="epidoc-block">' +
-            '&lt;origDate calendar="#chinese"\n' +
-            '          datingMethod="#dynasty"\n' +
-            '          notBefore="' + isoYear(d.start) + '"\n' +
-            '          notAfter="'  + isoYear(d.end)   + '"&gt;' + d.zh + '&lt;/origDate&gt;' +
-          '</div>' +
+          '<p><dt>Dates</dt> <dd>' + dispRange(d.start, d.end) + '</dd></p>' +
+          '<p><dt>Reign eras</dt> <dd>' + ERAS.filter(function(e){return e.dyn===d.zh;}).length +
+            (noEra ? ' — nian hao system not yet in use' : '') + '</dd></p>' +
+          (noEra ? '' :
+            '<p style="font-size:.85rem;margin-top:.75rem">Dynasty-level EpiDoc fallback:</p>' +
+            '<div class="epidoc-block">' +
+              '&lt;origDate calendar="#chinese"\n' +
+              '          datingMethod="#dynasty"\n' +
+              '          notBefore="' + isoYear(d.start) + '"\n' +
+              '          notAfter="'  + isoYear(d.end)   + '"&gt;' + d.zh + '&lt;/origDate&gt;' +
+            '</div>') +
           '<p class="source-note">Extend via <a href="https://authority.dila.edu.tw/time/" target="_blank" rel="noopener">DILA Time Authority</a>.</p>';
       }
 
@@ -194,12 +731,10 @@
         if (li) { li.classList.add("active"); active = li; }
         detail.innerHTML =
           '<h2 class="time-h2">' + e.era + ' <span class="zh">' + e.dyn + '</span></h2>' +
-          '<p style="font-size:.95rem;color:var(--text-muted);margin-top:-.5rem">' + e.py + '</p>' +
-          '<p class="time-meta">' +
-            '<p><dt>Dynasty</dt> <dd>' + e.dyn + ' (' + dynEn(e.dyn) + ')</dd></p>' +
-            '<p><dt>Dates</dt> <dd>' + e.start + '–' + e.end + ' CE</dd></p>' +
-          '</p>' +
-          '<p style="font-size:.85rem;margin-top:.75rem">EpiDoc <code>&lt;origDate&gt;</code> — example, year 1:</p>' +
+          '<p style="font-size:.93rem;color:var(--text-muted);margin-top:-.5rem">' + e.py + '</p>' +
+          '<p><dt>Dynasty</dt> <dd>' + e.dyn + ' (' + dynEn(e.dyn) + ')</dd></p>' +
+          '<p><dt>Dates</dt> <dd>' + dispRange(e.start, e.end) + '</dd></p>' +
+          '<p style="font-size:.85rem;margin-top:.75rem">EpiDoc <code>&lt;origDate&gt;</code> — year 1:</p>' +
           '<div class="epidoc-block">' +
             '&lt;origDate calendar="#chinese"\n' +
             '          datingMethod="#reign-era"\n' +
@@ -208,20 +743,18 @@
             '          notAfter="'  + isoYear(e.end)   + '"&gt;' +
             e.dyn + e.era + '元年&lt;/origDate&gt;' +
           '</div>' +
-          '<p class="source-note">Extended table available from <a href="https://authority.dila.edu.tw/time/" target="_blank" rel="noopener">DILA Time Authority</a>.</p>';
+          '<p class="source-note">Extended table: <a href="https://authority.dila.edu.tw/time/" target="_blank" rel="noopener">DILA Time Authority</a>.</p>';
       }
 
       function dynEn(zh) {
         var d = DYNASTIES.filter(function(x){return x.zh===zh;})[0];
         return d ? d.en : zh;
       }
-
       function clearActive() {
         if (active) active.classList.remove("active");
         active = null;
       }
 
-      // Build sidebar
       DYNASTIES.forEach(function (d) {
         var eras = ERAS.filter(function(e){return e.dyn===d.zh;});
         var group = document.createElement("div");
@@ -229,8 +762,9 @@
 
         var btn = document.createElement("button");
         btn.className = "dyn-btn";
-        btn.innerHTML = '<span>' + d.zh + ' <span style="font-weight:400;font-size:.85rem">' + d.en + '</span></span>' +
-                        '<span class="dyn-dates">' + d.start + '–' + d.end + '</span>';
+        btn.innerHTML =
+          '<span>' + d.zh + ' <span style="font-weight:400;font-size:.8rem">' + d.en + '</span></span>' +
+          '<span class="dyn-dates">' + dispRange(d.start, d.end) + '</span>';
         btn.addEventListener("click", function(){ showDynasty(d); });
         group.appendChild(btn);
 
@@ -241,9 +775,10 @@
             var li = document.createElement("li");
             li.className = "era-item";
             li.setAttribute("data-key", e.dyn + e.era);
-            li.innerHTML = '<span class="era-zh">' + e.era + '</span>' +
-                           '<span class="era-py">' + e.py + '</span>' +
-                           '<span class="era-dates">' + e.start + '–' + e.end + '</span>';
+            li.innerHTML =
+              '<span class="era-zh">' + e.era + '</span>' +
+              '<span class="era-py">' + e.py + '</span>' +
+              '<span class="era-dates">' + dispRange(e.start, e.end) + '</span>';
             li.addEventListener("click", function(){ showEra(e); });
             ul.appendChild(li);
           });

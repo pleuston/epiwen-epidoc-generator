@@ -232,7 +232,9 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
   z-index: 200;
   box-shadow: 0 4px 14px rgba(0,0,0,0.08);
 }
-.nav-group.open .nav-group-dropdown { display: flex; flex-direction: column; gap: 0.1rem; }
+.nav-group.open .nav-group-dropdown,
+.nav-group:hover .nav-group-dropdown { display: flex; flex-direction: column; gap: 0.1rem; }
+.nav-group:hover .nav-group-btn { color: var(--accent); border-color: var(--line); }
 .nav-group-dropdown .sitenav-link { display: block; white-space: nowrap; }
 
 .sitenav-link {
