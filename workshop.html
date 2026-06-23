@@ -119,8 +119,18 @@
           </p>
         </form>
 
-        <div style="margin-top:1.2rem;padding-top:.9rem;border-top:1px solid var(--line);
-                    font-size:.8rem;color:var(--muted);text-align:center;line-height:1.55">
+        <div style="margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--line)">
+          <button id="btn-guest" type="button" class="btn btn-wide"
+                  style="background:none;border:1px solid var(--line);color:var(--muted)">
+            Browse as guest (read-only)
+          </button>
+          <p style="font-size:.75rem;color:var(--muted);text-align:center;margin:.5rem 0 0">
+            View public workshop records without a GitHub account.
+            Writing is disabled.
+          </p>
+        </div>
+
+        <div style="margin-top:.9rem;font-size:.8rem;color:var(--muted);text-align:center;line-height:1.55">
           Workshop repo:
           <a href="https://github.com/pleuston/epiwen-workshop"
              target="_blank" rel="noopener">github.com/pleuston/epiwen-workshop</a>
@@ -145,10 +155,16 @@
       var returnUrl = new URLSearchParams(window.location.search).get("r") || "catalog.html";
 
       function applyWorkshopRepo() {
+        // Write target
         localStorage.setItem("epiwen_gh_owner",  WORKSHOP.owner);
         localStorage.setItem("epiwen_gh_repo",   WORKSHOP.repo);
         localStorage.setItem("epiwen_gh_branch", WORKSHOP.branch);
         localStorage.setItem("epiwen_gh_path",   WORKSHOP.path);
+        // Collections: point at stonesutras-data and enable the SNS package
+        localStorage.setItem("epiwen_private_owner",   "pleuston");
+        localStorage.setItem("epiwen_private_repo",    "epiwen-stonesutras-data");
+        localStorage.setItem("epiwen_private_branch",  "main");
+        localStorage.setItem("epiwen_private_enabled", JSON.stringify(["stonesutras"]));
       }
 
       function startSession(username) {
@@ -227,6 +243,15 @@
       } else {
         showFresh();
       }
+
+      /* Guest: no token — reads work against the public epiwen-workshop repo */
+      document.getElementById("btn-guest").addEventListener("click", function () {
+        localStorage.removeItem(LS.token);
+        localStorage.setItem(LS.username, "guest");
+        localStorage.setItem(LS.avatar,   "");
+        localStorage.setItem(LS.name,     "Guest");
+        startSession("guest");
+      });
 
       function showFresh() {
         var ff = document.getElementById("fresh-form");
