@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
     <script src="data.js"></script>
+    <style>
+      .source-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .source-card {
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 1rem 1.1rem;
+        background: var(--surface);
+      }
+      .source-card h3 { margin: 0 0 .2rem 0; font-size: .95rem; }
+      .source-card .source-zh { color: var(--text-muted); font-size: .82rem; margin-bottom: .4rem; }
+      .source-card p { font-size: .83rem; color: var(--text); margin: 0 0 .5rem 0; }
+      .source-card a.source-link {
+        font-size: .8rem; color: var(--accent);
+        text-decoration: none; word-break: break-all;
+      }
+      .source-card a.source-link:hover { text-decoration: underline; }
+      .source-tag {
+        display: inline-block; font-size: .72rem; padding: .1rem .4rem;
+        border-radius: 3px; background: var(--surface-alt, #f0f0f0);
+        color: var(--text-muted); margin-right: .25rem; margin-bottom: .3rem;
+      }
+    </style>
   </head>
   <body>
     <header class="topbar">
@@ -71,7 +98,6 @@
 
     <div class="about-layout">
 
-      <!-- ── List pane ── -->
       <div class="about-pane">
         <section class="catalog-section" style="margin-top:0">
           <div class="catalog-head">
@@ -79,27 +105,107 @@
             <div class="catalog-head-actions">
               <button id="auth-new-btn" class="btn small primary">+ New</button>
               <input type="search" id="auth-search" class="catalog-searchbox"
-                     placeholder="Filter…" aria-label="filter authorities" />
+                     placeholder="Filter…" aria-label="filter places" />
             </div>
-          </div>
-          <div class="view-toggle" style="margin-bottom:.5rem">
-            <button class="view-btn auth-tab-btn" data-filter="all">All</button>
-            <button class="view-btn auth-tab-btn" data-filter="vocabulary">Vocabularies</button>
-            <button class="view-btn auth-tab-btn" data-filter="personal">Persons</button>
-            <button class="view-btn auth-tab-btn" data-filter="corporate">Institutions</button>
-            <button class="view-btn auth-tab-btn" data-filter="temporal">Time</button>
-            <button class="view-btn auth-tab-btn active" data-filter="geographic">Places</button>
           </div>
           <div id="auth-list" class="catalog-list"></div>
         </section>
       </div>
 
-      <!-- ── Detail pane ── -->
       <div class="catalog-preview" id="auth-detail-panel">
         <div class="preview-head">
-          <span id="preview-title">Select an authority record</span>
+          <span id="preview-title">Geographic Authority Sources</span>
         </div>
-        <div id="auth-detail-content" class="hp-pane"></div>
+        <div id="auth-detail-content" class="hp-pane">
+          <div style="padding:.5rem .25rem">
+            <p style="font-size:.85rem;color:var(--text-muted);margin-top:0">
+              Place authority records in this corpus reference the following external authorities.
+            </p>
+
+            <div class="source-grid">
+
+              <div class="source-card">
+                <h3>DILA Place Authority</h3>
+                <div class="source-zh">法鼓山佛教文獻數位典藏 — 地名權威</div>
+                <span class="source-tag">Buddhist</span>
+                <span class="source-tag">Chinese</span>
+                <span class="source-tag">historical</span>
+                <p>Controlled vocabulary of Buddhist and historical place names in East Asia,
+                   maintained by the Dharma Drum Institute of Language and Culture.
+                   Covers monastery sites, mountains, administrative divisions, and pilgrimage routes.</p>
+                <a class="source-link" href="https://authority.dila.edu.tw/place/"
+                   target="_blank" rel="noopener">authority.dila.edu.tw/place/</a>
+              </div>
+
+              <div class="source-card">
+                <h3>CHGIS — China Historical GIS</h3>
+                <div class="source-zh">中國歷史地理資訊系統（哈佛大學）</div>
+                <span class="source-tag">Harvard</span>
+                <span class="source-tag">GIS</span>
+                <span class="source-tag">administrative</span>
+                <p>Harvard University's database of historical administrative units in China,
+                   221 BCE – 1911, with coordinates and temporal extents. The standard reference
+                   for historical prefectures, counties, and their changes over time.</p>
+                <a class="source-link" href="https://chgis.fas.harvard.edu/"
+                   target="_blank" rel="noopener">chgis.fas.harvard.edu</a>
+              </div>
+
+              <div class="source-card">
+                <h3>CBDB — China Biographical Database</h3>
+                <div class="source-zh">中國歷代人物傳記資料庫（哈佛大學）</div>
+                <span class="source-tag">Harvard</span>
+                <span class="source-tag">biographical</span>
+                <span class="source-tag">place-of-origin</span>
+                <p>Prosopographical database of Chinese historical figures with indexed place-of-origin
+                   and activity locations, linked to CHGIS coordinates.
+                   Useful for cross-referencing persons with geographic contexts.</p>
+                <a class="source-link" href="https://projects.iq.harvard.edu/cbdb"
+                   target="_blank" rel="noopener">projects.iq.harvard.edu/cbdb</a>
+              </div>
+
+              <div class="source-card">
+                <h3>Shanghai Library Open Data</h3>
+                <div class="source-zh">上海圖書館開放數據平台</div>
+                <span class="source-tag">Shanghai</span>
+                <span class="source-tag">linked data</span>
+                <span class="source-tag">modern</span>
+                <p>Shanghai Library's linked-data platform providing authority records for
+                   Chinese geographic names, persons, and organisations. Cross-referenced with
+                   national standards and international authorities.</p>
+                <a class="source-link" href="https://data.library.sh.cn/"
+                   target="_blank" rel="noopener">data.library.sh.cn</a>
+              </div>
+
+              <div class="source-card">
+                <h3>Getty TGN</h3>
+                <div class="source-zh">蓋蒂地名辭彙</div>
+                <span class="source-tag">international</span>
+                <span class="source-tag">hierarchical</span>
+                <span class="source-tag">Getty</span>
+                <p>The Getty Thesaurus of Geographic Names — a structured vocabulary of
+                   geographic names and their relationships, including historical variants.
+                   Used in Epiwen for interoperability with Western art-historical and
+                   archaeological datasets.</p>
+                <a class="source-link" href="https://www.getty.edu/research/tools/vocabularies/tgn/"
+                   target="_blank" rel="noopener">getty.edu/research/tools/vocabularies/tgn/</a>
+              </div>
+
+              <div class="source-card">
+                <h3>Wikidata</h3>
+                <div class="source-zh">維基數據</div>
+                <span class="source-tag">open</span>
+                <span class="source-tag">linked data</span>
+                <span class="source-tag">QID</span>
+                <p>Wikidata QIDs serve as a lightweight interoperability anchor for place records,
+                   linking to Wikipedia, GeoNames, and other authority systems via
+                   <code>wikidata</code> identifiers on place authority records.</p>
+                <a class="source-link" href="https://www.wikidata.org/"
+                   target="_blank" rel="noopener">wikidata.org</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
