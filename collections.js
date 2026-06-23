@@ -200,8 +200,10 @@
         }).map(function (e) {
           return { path: base + "/" + encodeURIComponent(e.name), name: e.name };
         });
+        // authority/ holds MADS authority records (loaded by the Authorities
+        // browser, not the catalog) — skip it here so they aren't parsed as objects.
         var subdirJobs = entries.filter(function (e) {
-          return e.type === "dir";
+          return e.type === "dir" && e.name !== "authority";
         }).map(function (e) { return listDir(base + "/" + e.name); });
         return Promise.all(subdirJobs).then(function (subResults) {
           var allFiles = rootFiles;
