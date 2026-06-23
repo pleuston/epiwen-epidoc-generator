@@ -401,7 +401,8 @@
   function loadEnabled() {
     var enabled = getEnabled();
     if (!enabled.length) return Promise.resolve({ records: [], errors: [] });
-    if (!token())        return Promise.resolve({ records: [], errors: [{ code: "no-token" }] });
+    // No token guard: public collections (e.g. epiwen-workshop) work without auth.
+    // Private repos without a token return 404/401, caught per-package below.
 
     var titles = getTitleMap();
     var errors = [];
