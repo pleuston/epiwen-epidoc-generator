@@ -1116,6 +1116,31 @@
       '</div>';
   }
 
+  function hasToken() {
+    return !!((window.EpiData && EpiData.token && EpiData.token()) ||
+              localStorage.getItem("epiwen_gh_token"));
+  }
+
+  // A quiet, non-blocking banner shown when the private backend can't be read
+  // but the default corpus loaded fine — so signed-in users know their private
+  // collections are missing without losing the records that did load. Guests
+  // (no token) never see it: they have no private backend to begin with.
+  function renderBackendNotice() {
+    var box = document.getElementById("catalog-notice");
+    if (!box) return;
+    if (backendUnreadable && allRecords.length && hasToken()) {
+      box.innerHTML =
+        '<div class="catalog-notice-bar">' +
+          'Showing the public corpus only — your token can’t read the private ' +
+          '<code>pleuston/epiwen-data</code> backend (GitHub returns a 404). ' +
+          '<a href="' + TOKEN_FINE + '" target="_blank" rel="noopener">Use a token with access</a> ' +
+          'to see private collections.' +
+        '</div>';
+    } else {
+      box.innerHTML = "";
+    }
+  }
+
   function renderByTab(tab, file) {
     currentTab = tab;
 
@@ -1137,7 +1162,10 @@
     if (searchEl) searchEl.value = "";
     clearPreview();
 
-    if (backendUnreadable) { showBackendError(); return; }
+    // Only blank the catalog with the full error when NOTHING loaded. If the
+    // default corpus loaded, render it and show a quiet notice instead.
+    if (backendUnreadable && !allRecords.length) { showBackendError(); return; }
+    renderBackendNotice();
 
     if (tab === "objects") {
       renderObjectsCatalog(allRecords.filter(function (r) { return r.recordType !== "rubbing"; }), file || "");
@@ -1165,7 +1193,7 @@
 
   /* Build the "filter by site" <select> (facet over the currently sourced records). */
   function siteBar(records) {
-    var base = applyMineFilter(applySourceFilter(records));
+    var base = applyMineFilter(records);
     var counts = {};
     base.forEach(function (r) { var s = recSite(r); if (s) counts[s] = (counts[s] || 0) + 1; });
     var sites = Object.keys(counts).sort();
@@ -1192,7 +1220,7 @@
     var lbl = document.getElementById("mine-label");
     if (!lbl) return;
     var parts = [];
-    if (showMine && currentUsername) parts.push(“@” + currentUsername);
+    if (showMine && currentUsername) parts.push("@" + currentUsername);
     lbl.textContent = parts.length
       ? (filtered + " of " + total + " record" + (total === 1 ? "" : "s") + " · " + parts.join(" · "))
       : "";
@@ -1410,7 +1438,7 @@
      Additive and idempotent — safe to call again after the manager changes the
      enabled set. */
   function loadPrivate() {
-    if (!window.EpiCollections) return;
+    if (!window.EpiCollections) { renderByTab(currentTab); return; }
     // The shared collection auto-loads alongside any enabled private collections.
     var jobs = [ EpiCollections.loadEnabled() ];
     if (EpiCollections.loadShared) jobs.unshift(EpiCollections.loadShared());
@@ -1426,6 +1454,11 @@
         return rec;
       });
       privateRecords.sort(function (a, b) { return a.name.localeCompare(b.name); });
+    }).catch(function () {
+      // A rejected collection load must not leave the catalog stuck on the
+      // "Loading…" placeholder — keep whatever records we already had.
+    }).then(function () {
+      // Always render, success or failure, so the UI never hangs on "Loading…".
       rebuildAll();
       renderByTab(currentTab);
     });

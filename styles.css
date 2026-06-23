@@ -312,6 +312,9 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .catalog-empty.backend-error { color: var(--ink); line-height: 1.5; border-left: 3px solid var(--accent); padding: 0.5rem 0.7rem; background: rgba(122,30,40,0.04); }
 .catalog-empty.backend-error ul { margin: 0.4rem 0; padding-left: 1.1rem; }
 .catalog-empty.backend-error code { background: rgba(0,0,0,0.06); padding: 0 0.25rem; border-radius: 3px; font-size: 0.95em; }
+.catalog-notice-bar { font-size: 0.78rem; color: var(--muted); line-height: 1.45; border-left: 3px solid var(--line); padding: 0.4rem 0.6rem; margin-bottom: 0.5rem; background: rgba(0,0,0,0.02); }
+.catalog-notice-bar a { color: var(--accent); }
+.catalog-notice-bar code { background: rgba(0,0,0,0.06); padding: 0 0.25rem; border-radius: 3px; font-size: 0.95em; }
 
 .catalog-item {
   border: 1px solid var(--line); border-radius: 7px; margin-bottom: 0.6rem; overflow: hidden;
