@@ -399,22 +399,193 @@
       });
   }
 
-  /* A package's records-index.json — lightweight list metadata for every record,
-     in ONE request. This is how large collections (thousands of records) are
-     browsed: the directory walk in loadPackage() is capped at 1000 entries by the
-     Contents API and fetches every file, which does not scale. Returns the index
-     entries tagged { _lazy:true, collection } (catalog.js renders the list from
-     these and fetches each record's full XML only when it is opened), or null
-     when the package has no index (caller falls back to loadPackage). */
-  function loadPackageIndex(id) {
-    return fetchFileRaw("collections/" + encodeURIComponent(id) + "/records-index.json")
-      .then(function (txt) {
-        var arr; try { arr = JSON.parse(txt); } catch (e) { return null; }
-        if (!Array.isArray(arr)) return null;
-        arr.forEach(function (e) { e._lazy = true; e.collection = id; });
-        return arr;
+  // ── Records index (list metadata for large collections) ─────────────────────
+  // The full index, collections/<pkg>/records-index.json, is a build artifact
+  // (scripts/build_records_index.py) and can be multiple MB — too large to
+  // rewrite on every edit. So the editor never touches it: it writes only the
+  // changed record's entry to a small companion collections/<pkg>/records-index.
+  // patch.json (a map keyed by filename; { _deleted:true } is a tombstone), and
+  // loadPackageIndex() merges the patch over the full index at load time. A full
+  // regeneration folds the patch back in and clears it.
+
+  var TEI_NS = "http://www.tei-c.org/ns/1.0";
+  function _itxt(el) { return el ? (el.textContent || "").trim() : ""; }
+  function _iq(root, tag) { return Array.prototype.slice.call(root.getElementsByTagNameNS(TEI_NS, tag)); }
+  function _ifirst(root, tag) { var e = root.getElementsByTagNameNS(TEI_NS, tag); return e.length ? e[0] : null; }
+  function _b64utf8(s) { return btoa(unescape(encodeURIComponent(s))); }
+  function _unb64utf8(s) { try { return decodeURIComponent(escape(atob((s || "").replace(/\n/g, "")))); } catch (e) { return ""; } }
+
+  // Build one records-index entry from a record's XML. Mirrors the fields
+  // scripts/build_records_index.py extracts (and catalog.js parseRecord's list
+  // view). Keep the two in sync.
+  function indexEntryFromXml(filename, xmlText) {
+    var base = { name: filename, file: filename, record_type: "object", title_en: filename,
+                 title_zh: "", editor: "", when: "", date_text: "", region: "", settlement: "",
+                 repository: "", orig_place: "", surrogate_of: "", provider_label: "", manifest: "", parts: [] };
+    var doc = new DOMParser().parseFromString(xmlText, "application/xml");
+    if (doc.getElementsByTagName("parsererror").length) return base;
+
+    var root = doc.documentElement;
+    if (root && root.getAttribute("type") === "site") {
+      var sEn = "", sZh = "";
+      Array.prototype.forEach.call(root.getElementsByTagName("*"), function (el) {
+        if ((el.localName || "") !== "title") return;
+        var lang = el.getAttribute("xml:lang") || "";
+        if (lang.indexOf("zh") === 0) { if (!sZh) sZh = _itxt(el); }
+        else if (!sEn) sEn = _itxt(el);
+      });
+      base.record_type = "site"; base.title_en = sEn || filename; base.title_zh = sZh;
+      return base;
+    }
+
+    var msDesc = _ifirst(doc, "msDesc");
+    base.record_type = (msDesc && msDesc.getAttribute("type") === "rubbing") ? "rubbing" : "object";
+
+    _iq(doc, "relatedItem").some(function (rel) {
+      if (rel.getAttribute("type") !== "surrogateOf") return false;
+      var ptr = _ifirst(rel, "ptr");
+      base.surrogate_of = ptr ? (ptr.getAttribute("target") || _itxt(ptr)) : _itxt(rel);
+      return true;
+    });
+
+    base.title_en = "";   // object records: empty unless a titleStmt en title exists
+    _iq(doc, "title").forEach(function (t) {
+      var p = t.parentNode;
+      if (!p || p.localName !== "titleStmt") return;
+      var lang = t.getAttribute("xml:lang") || "";
+      if (lang === "en" && !base.title_en) base.title_en = _itxt(t);
+      else if (lang === "zh-Hant" && !base.title_zh) base.title_zh = _itxt(t);
+    });
+    base.editor     = _itxt(_ifirst(doc, "editor"));
+    base.region     = _itxt(_ifirst(doc, "region"));
+    base.settlement = _itxt(_ifirst(doc, "settlement"));
+    base.repository = _itxt(_ifirst(doc, "repository"));
+
+    var od = _ifirst(doc, "origDate");
+    base.when      = od ? (od.getAttribute("when") || od.getAttribute("notBefore") || "") : "";
+    base.date_text = _itxt(od);
+    base.orig_place = _itxt(_ifirst(doc, "origPlace"));
+
+    _iq(doc, "ref").forEach(function (r) {
+      var target = r.getAttribute("target") || "", typ = r.getAttribute("type") || "";
+      if (!/^https?:\/\//.test(target)) return;
+      if (typ === "iiif-manifest" && !base.manifest) base.manifest = target;
+      else if (typ === "provider" && !base.provider_label) base.provider_label = _itxt(r);
+    });
+
+    var msItems = _iq(doc, "msItem");
+    var langs = _iq(doc, "language");
+    function itemTitles(ms) { return ms ? _iq(ms, "title") : []; }
+    function sutraPair(titles) {
+      var zh = "", en = "";
+      titles.forEach(function (t) {
+        var lang = t.getAttribute("xml:lang") || "";
+        if (lang === "zh-Hant" && !zh) zh = _itxt(t);
+        else if (lang === "en" && !en) en = _itxt(t);
+      });
+      if (!zh && titles.length) zh = _itxt(titles[0]);
+      return { zh: zh, en: en };
+    }
+
+    _iq(doc, "div").forEach(function (div) {
+      if (div.getAttribute("type") !== "textpart") return;
+      var n = div.getAttribute("n") || "", ms = null;
+      msItems.forEach(function (m) { if (m.getAttribute("n") === n) ms = m; });
+      var sp = sutraPair(itemTitles(ms));
+      base.parts.push({ n: n, head: _itxt(_ifirst(div, "head")), subtype: div.getAttribute("subtype") || "",
+                        lang: div.getAttribute("xml:lang") || "", sutra: sp.zh, sutra_en: sp.en });
+    });
+    if (!base.parts.length && msItems.length) {
+      var sp2 = sutraPair(itemTitles(msItems[0]));
+      base.parts.push({ n: "1", head: _itxt(_ifirst(msItems[0], "locus")), subtype: "",
+                        lang: langs[0] ? (langs[0].getAttribute("ident") || "") : "", sutra: sp2.zh, sutra_en: sp2.en });
+    }
+    return base;
+  }
+
+  // Read+modify+write the small records-index.patch.json for a package (Contents
+  // API, with the user's token, against the configured collections repo).
+  function _patchRecordsIndex(id, mutate, message) {
+    var t = token();
+    if (!t) return Promise.reject(new Error("Sign in to update the index."));
+    var c = getConfig();
+    var rel  = "collections/" + id + "/records-index.patch.json";
+    var url  = "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + rel;
+    var h    = { "Authorization": "Bearer " + t, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+    return fetch(url + "?ref=" + encodeURIComponent(c.branch), { headers: h })
+      .then(function (r) {
+        if (r.status === 404) return { patch: {}, sha: null };
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json().then(function (j) {
+          var patch; try { patch = JSON.parse(_unb64utf8(j.content)); } catch (e) { patch = {}; }
+          if (!patch || typeof patch !== "object" || Array.isArray(patch)) patch = {};
+          return { patch: patch, sha: j.sha };
+        });
       })
-      .catch(function () { return null; });   // 404 = no index → walk instead
+      .then(function (st) {
+        mutate(st.patch);
+        var body = { message: message, content: _b64utf8(JSON.stringify(st.patch, null, 1) + "\n"), branch: c.branch };
+        if (st.sha) body.sha = st.sha;
+        return fetch(url, { method: "PUT", headers: Object.assign({ "Content-Type": "application/json" }, h), body: JSON.stringify(body) })
+          .then(function (r) { if (!r.ok) return r.json().then(function (e) { throw new Error(e.message || "HTTP " + r.status); }); return r.json(); });
+      });
+  }
+
+  // True if the package actually has a full records-index.json. Uses a metadata
+  // GET (no content), so it stays cheap even for multi-MB indexes. Packages
+  // without one are browsed by directory walk and need no patch file.
+  function _indexExists(id) {
+    var c = getConfig();
+    var url = "https://api.github.com/repos/" + c.owner + "/" + c.repo +
+      "/contents/collections/" + encodeURIComponent(id) + "/records-index.json?ref=" + encodeURIComponent(c.branch);
+    return fetch(url, { headers: headers(false) }).then(function (r) { return r.ok; }).catch(function () { return false; });
+  }
+
+  /* Editor hooks: keep the index current without rewriting the full (large) file.
+     No-op for packages that have no index (the catalog walks those directly). */
+  function recordsIndexUpsert(id, filename, xml) {
+    return _indexExists(id).then(function (exists) {
+      if (!exists) return null;
+      var entry = indexEntryFromXml(filename, xml);
+      return _patchRecordsIndex(id, function (patch) { patch[filename] = entry; }, "Index: update " + filename);
+    });
+  }
+  function recordsIndexRemove(id, filename) {
+    return _indexExists(id).then(function (exists) {
+      if (!exists) return null;
+      return _patchRecordsIndex(id, function (patch) { patch[filename] = { name: filename, _deleted: true }; }, "Index: remove " + filename);
+    });
+  }
+
+  /* A package's records-index.json merged with its records-index.patch.json —
+     lightweight list metadata for every record in ONE (well, two small) request.
+     This is how large collections (thousands of records) are browsed: the
+     directory walk in loadPackage() is capped at 1000 entries by the Contents API
+     and fetches every file, which does not scale. Returns the merged entries
+     tagged { _lazy:true, collection } (catalog.js renders the list from these and
+     fetches each record's full XML only when opened), or null when the package
+     has no index (caller falls back to loadPackage). */
+  function loadPackageIndex(id) {
+    var dir = "collections/" + encodeURIComponent(id);
+    function safeJson(path) {
+      return fetchFileRaw(path).then(function (t) { try { return JSON.parse(t); } catch (e) { return null; } })
+        .catch(function () { return null; });
+    }
+    return Promise.all([safeJson(dir + "/records-index.json"), safeJson(dir + "/records-index.patch.json")])
+      .then(function (res) {
+        var index = res[0], patch = res[1];
+        if (!Array.isArray(index)) return null;          // no full index → walk instead
+        var byName = {};
+        index.forEach(function (e) { if (e && e.name) byName[e.name] = e; });
+        if (patch && typeof patch === "object" && !Array.isArray(patch)) {
+          Object.keys(patch).forEach(function (fn) {
+            var p = patch[fn];
+            if (p && p._deleted) delete byName[fn];
+            else if (p) byName[fn] = p;
+          });
+        }
+        return Object.keys(byName).map(function (k) { var e = byName[k]; e._lazy = true; e.collection = id; return e; });
+      });
   }
 
   /* Load every .xml record in collections/<id>/ (raw text; parsing is catalog.js) */
@@ -901,6 +1072,9 @@
     listPackages:    listPackages,
     loadPackage:     loadPackage,
     loadPackageIndex: loadPackageIndex,
+    indexEntryFromXml:  indexEntryFromXml,
+    recordsIndexUpsert: recordsIndexUpsert,
+    recordsIndexRemove: recordsIndexRemove,
     loadEnabled:     loadEnabled,
     loadDefaultCorpus: loadDefaultCorpus,
     loadDefaultAuthorityIndex: loadDefaultAuthorityIndex,

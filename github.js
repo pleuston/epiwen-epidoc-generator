@@ -225,6 +225,25 @@
     btn.textContent = busy ? "Saving…" : "② Save to GitHub";
   }
 
+  // For a collections/<pkg>/<file> path, return { pkg, file }; else null. Used to
+  // keep that package's records-index current after a save/delete.
+  function collectionOf(relPath) {
+    var m = String(relPath).match(/^collections\/([^/]+)\/(.+)$/);
+    return m ? { pkg: m[1], file: m[2].split("/").pop() } : null;
+  }
+  function syncIndexOnSave(relPath, xml) {
+    var c = collectionOf(relPath);
+    if (!c || !window.EpiCollections || !EpiCollections.recordsIndexUpsert) return Promise.resolve();
+    return EpiCollections.recordsIndexUpsert(c.pkg, c.file, xml)
+      .catch(function (e) { toast("Saved — but index update failed: " + e.message, true); });
+  }
+  function syncIndexOnDelete(relPath) {
+    var c = collectionOf(relPath);
+    if (!c || !window.EpiCollections || !EpiCollections.recordsIndexRemove) return Promise.resolve();
+    return EpiCollections.recordsIndexRemove(c.pkg, c.file)
+      .catch(function (e) { toast("Deleted — but index update failed: " + e.message, true); });
+  }
+
   function toast(msg, isErr) {
     var el = document.getElementById("toast");
     if (!el) return;
@@ -276,6 +295,7 @@
         }
         return r.json();
       })
+      .then(function () { return syncIndexOnSave(relPath, xml); })
       .then(function () {
         toast((isNew ? "Added" : "Updated") + ": " + filename);
         try { sessionStorage.setItem("epiwen_fresh:" + filename, xml); } catch (e) {}
@@ -332,6 +352,7 @@
         if (!r.ok) return r.json().then(function (e) { throw new Error(e.message || "HTTP " + r.status); });
         return r.json();
       })
+      .then(function () { return syncIndexOnDelete(relPath); })
       .then(function () {
         toast("Deleted: " + filename);
         setBtnState(false);
