@@ -1,0 +1,54 @@
+[
+ {
+  "name": "C0010.xml",
+  "file": "C0010.xml",
+  "record_type": "object",
+  "title_en": "孟霖遊青蓮寺詩刻",
+  "title_zh": "孟霖遊青蓮寺詩刻",
+  "when": "1564",
+  "date_text": "明嘉靖四十三年",
+  "region": "Shanxi 山西",
+  "settlement": "晉城市 澤州縣",
+  "repository": "青蓮寺 (in situ 原處)",
+  "orig_place": "青蓮寺",
+  "surrogate_of": "",
+  "provider_label": "",
+  "manifest": "",
+  "parts": [
+   {
+    "n": "1",
+    "head": "",
+    "subtype": "",
+    "lang": "",
+    "sutra": "孟霖遊青蓮寺詩刻",
+    "sutra_en": ""
+   }
+  ]
+ },
+ {
+  "name": "C0012.xml",
+  "file": "C0012.xml",
+  "record_type": "object",
+  "title_en": "Record of an Excursion to Jue Peak",
+  "title_zh": "遊珏峯記",
+  "when": "1661",
+  "date_text": "順治辛丑十八年",
+  "region": "Shanxi 山西",
+  "settlement": "晋城市",
+  "repository": "珏山正顶云梯石崖 (in situ 原處)",
+  "orig_place": "珏山正顶云梯石崖",
+  "surrogate_of": "",
+  "provider_label": "",
+  "manifest": "",
+  "parts": [
+   {
+    "n": "1",
+    "head": "",
+    "subtype": "",
+    "lang": "",
+    "sutra": "游珏峰记",
+    "sutra_en": ""
+   }
+  ]
+ }
+]
