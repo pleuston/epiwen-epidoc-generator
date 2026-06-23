@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Workshop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .login-badge {
+        display: inline-block; font-size: .7rem; font-weight: 700;
+        letter-spacing: .07em; text-transform: uppercase;
+        background: var(--accent, #c0392b); color: #fff;
+        padding: .15rem .5rem; border-radius: 3px;
+        vertical-align: middle; margin-left: .4rem;
+      }
+      .workshop-repo {
+        display: flex; align-items: center; gap: .5rem;
+        padding: .55rem .75rem;
+        background: var(--field-bg, #f5f5f5);
+        border: 1px solid var(--line); border-radius: 6px;
+        font-size: .83rem; color: var(--muted);
+        margin-bottom: .9rem;
+      }
+      .workshop-repo .repo-name {
+        font-family: monospace; font-size: .85rem;
+        color: var(--ink); font-weight: 600;
+      }
+      .workshop-repo .repo-icon { font-size: 1rem; }
+
+      /* PAT reveal toggle */
+      .pat-wrap { position: relative; }
+      .pat-reveal {
+        position: absolute; right: .6rem; top: 50%; transform: translateY(-50%);
+        background: none; border: none; cursor: pointer;
+        font-size: .75rem; color: var(--muted); padding: .2rem .3rem; line-height: 1;
+      }
+      .pat-reveal:hover { color: var(--ink); }
+      .pat-wrap .text-input { padding-right: 3rem; width: 100%; box-sizing: border-box; }
+
+      /* returning user */
+      .login-avatar-row {
+        display: flex; align-items: center; gap: .75rem;
+        padding: .7rem .9rem;
+        background: var(--field-bg, #f5f5f5);
+        border: 1px solid var(--line); border-radius: 6px;
+        margin-bottom: .9rem;
+      }
+      .login-avatar {
+        width: 40px; height: 40px; border-radius: 50%;
+        flex: 0 0 40px; background: var(--line);
+        display: block; object-fit: cover;
+      }
+      .login-avatar-placeholder {
+        width: 40px; height: 40px; border-radius: 50%;
+        flex: 0 0 40px; background: var(--line);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.1rem; color: var(--muted);
+      }
+      .login-avatar-info { min-width: 0; }
+      .login-avatar-handle { font-weight: 700; font-size: .92rem; color: var(--ink); }
+      .login-avatar-fullname { font-size: .78rem; color: var(--muted); }
+
+      .login-spinner {
+        display: inline-block; width: 14px; height: 14px;
+        border: 2px solid rgba(255,255,255,.4); border-top-color: white;
+        border-radius: 50%; animation: spin .7s linear infinite;
+        vertical-align: middle; margin-right: .4rem;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body class="login-page">
+
+    <main class="login-main">
+      <div class="login-card">
+        <h1 class="login-title">
+          <a href="login.html">Epiwen</a>
+          <span class="login-badge">Workshop</span>
+        </h1>
+
+        <div class="workshop-repo">
+          <span class="repo-icon">🗄</span>
+          Writing to <span class="repo-name">pleuston/epiwen-workshop</span>
+        </div>
+
+        <!-- ══ RETURNING USER ══ -->
+        <div id="returning-form" style="display:none">
+          <p class="login-mode-label">Welcome back</p>
+          <div class="login-avatar-row" id="returning-chip"></div>
+          <button id="btn-continue" type="button" class="btn primary btn-wide">
+            Enter workshop →
+          </button>
+          <p class="login-change">
+            <a href="#" id="link-switch">Use a different account</a>
+          </p>
+        </div>
+
+        <!-- ══ FRESH ══ -->
+        <form id="fresh-form" style="display:none" autocomplete="off">
+          <p class="login-mode-label">Sign in with GitHub</p>
+          <label class="field-label" for="pat-input">Personal access token</label>
+          <div class="pat-wrap">
+            <input id="pat-input" type="password" class="text-input"
+                   autocomplete="off" spellcheck="false"
+                   placeholder="github_pat_…  or  ghp_…" />
+            <button type="button" class="pat-reveal" id="pat-toggle"
+                    aria-label="Show / hide token">Show</button>
+          </div>
+          <p id="fresh-error" class="login-error" aria-live="polite"></p>
+          <button id="btn-signin" type="submit" class="btn primary btn-wide">
+            Sign in →
+          </button>
+          <p class="login-note">
+            Use the workshop token provided by your instructor, or generate your own at
+            <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=Epiwen+workshop"
+               target="_blank" rel="noopener">GitHub → Settings → Developer settings</a>
+            with <strong>public_repo</strong> scope.
+            The token is stored only in this browser.
+          </p>
+        </form>
+
+        <div style="margin-top:1.2rem;padding-top:.9rem;border-top:1px solid var(--line);
+                    font-size:.8rem;color:var(--muted);text-align:center;line-height:1.55">
+          Workshop repo:
+          <a href="https://github.com/pleuston/epiwen-workshop"
+             target="_blank" rel="noopener">github.com/pleuston/epiwen-workshop</a>
+        </div>
+      </div>
+    </main>
+
+    <script>
+    (function () {
+      "use strict";
+
+      var WORKSHOP = { owner: "pleuston", repo: "epiwen-workshop", branch: "main", path: "records/" };
+
+      var LS = {
+        username: "epiwen_gh_username",
+        avatar:   "epiwen_gh_avatar",
+        name:     "epiwen_gh_name",
+        token:    "epiwen_gh_token"
+      };
+      var SESSION_KEY = "epiwen_authed";
+
+      var returnUrl = new URLSearchParams(window.location.search).get("r") || "catalog.html";
+
+      function applyWorkshopRepo() {
+        localStorage.setItem("epiwen_gh_owner",  WORKSHOP.owner);
+        localStorage.setItem("epiwen_gh_repo",   WORKSHOP.repo);
+        localStorage.setItem("epiwen_gh_branch", WORKSHOP.branch);
+        localStorage.setItem("epiwen_gh_path",   WORKSHOP.path);
+      }
+
+      function startSession(username) {
+        applyWorkshopRepo();
+        sessionStorage.setItem(SESSION_KEY, username);
+        window.location.replace(returnUrl);
+      }
+
+      function esc(s) {
+        return String(s || "")
+          .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+          .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+      }
+
+      function setSigninBusy(busy) {
+        var btn = document.getElementById("btn-signin");
+        if (busy) {
+          btn.disabled = true;
+          btn.innerHTML = '<span class="login-spinner"></span>Verifying…';
+        } else {
+          btn.disabled = false;
+          btn.textContent = "Sign in →";
+        }
+      }
+
+      function showError(msg) {
+        document.getElementById("fresh-error").textContent = msg;
+        setSigninBusy(false);
+      }
+
+      function verifyToken(token) {
+        return fetch("https://api.github.com/user", {
+          headers: {
+            "Authorization": "Bearer " + token,
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+          }
+        });
+      }
+
+      var storedUser = localStorage.getItem(LS.username);
+
+      if (storedUser && sessionStorage.getItem(SESSION_KEY) === storedUser) {
+        /* Already in a session — just switch repo and go */
+        applyWorkshopRepo();
+        window.location.replace(returnUrl);
+        return;
+      }
+
+      if (storedUser) {
+        var rf = document.getElementById("returning-form");
+        rf.style.display = "";
+        var av    = localStorage.getItem(LS.avatar) || "";
+        var fname = localStorage.getItem(LS.name)   || "";
+        document.getElementById("returning-chip").innerHTML =
+          (av ? '<img class="login-avatar" src="' + esc(av) + '" alt="@' + esc(storedUser) + '">'
+              : '<div class="login-avatar-placeholder">👤</div>') +
+          '<div class="login-avatar-info">' +
+            '<div class="login-avatar-handle">@' + esc(storedUser) + '</div>' +
+            (fname ? '<div class="login-avatar-fullname">' + esc(fname) + '</div>' : '') +
+          '</div>';
+
+        document.getElementById("btn-continue").addEventListener("click", function () {
+          startSession(storedUser);
+        });
+
+        document.getElementById("link-switch").addEventListener("click", function (e) {
+          e.preventDefault();
+          [LS.username, LS.avatar, LS.name, LS.token].forEach(function (k) {
+            localStorage.removeItem(k);
+          });
+          rf.style.display = "none";
+          showFresh();
+        });
+
+      } else {
+        showFresh();
+      }
+
+      function showFresh() {
+        var ff = document.getElementById("fresh-form");
+        ff.style.display = "";
+        document.getElementById("pat-input").focus();
+
+        document.getElementById("pat-toggle").addEventListener("click", function () {
+          var inp = document.getElementById("pat-input");
+          var isHidden = inp.type === "password";
+          inp.type = isHidden ? "text" : "password";
+          this.textContent = isHidden ? "Hide" : "Show";
+        });
+
+        ff.addEventListener("submit", function (e) {
+          e.preventDefault();
+          var token = document.getElementById("pat-input").value.trim();
+          if (!token) { showError("Paste your GitHub personal access token."); return; }
+
+          setSigninBusy(true);
+          document.getElementById("fresh-error").textContent = "";
+
+          verifyToken(token)
+            .then(function (r) {
+              if (r.status === 401) throw new Error("Token invalid or expired.");
+              if (r.status === 403) throw new Error("Token lacks permission — needs public_repo scope.");
+              if (!r.ok) throw new Error("GitHub returned HTTP " + r.status + ".");
+              return r.json();
+            })
+            .then(function (user) {
+              localStorage.setItem(LS.token,    token);
+              localStorage.setItem(LS.username, user.login);
+              localStorage.setItem(LS.avatar,   user.avatar_url || "");
+              localStorage.setItem(LS.name,     user.name       || "");
+              startSession(user.login);
+            })
+            .catch(function (err) { showError(err.message); });
+        });
+      }
+
+    })();
+    </script>
+  </body>
+</html>
