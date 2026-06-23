@@ -271,7 +271,10 @@
     setBtnState(true);
     var isNew = true;
 
-    fetch(apiUrl, { headers: headers })
+    // Cache-bust + no-store (see deleteAt) so a previously raw-fetched copy of
+    // this file isn't served here, which would break r.json().
+    fetch(apiUrl + "?ref=" + encodeURIComponent(s.branch) + "&_t=" + (new Date().getTime()),
+          { headers: headers, cache: "no-store" })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (existing) {
         isNew = !existing;
@@ -335,7 +338,11 @@
     };
 
     setBtnState(true);
-    fetch(apiUrl + "?ref=" + encodeURIComponent(s.branch), { headers: headers })
+    // Cache-bust + no-store: this URL was likely already fetched with Accept:raw
+    // when the record loaded; some browsers mis-Vary on Accept and would serve
+    // that cached XML here, breaking r.json().
+    fetch(apiUrl + "?ref=" + encodeURIComponent(s.branch) + "&_t=" + (new Date().getTime()),
+          { headers: headers, cache: "no-store" })
       .then(function (r) {
         if (r.status === 404) throw new Error("File not found on GitHub (nothing to delete).");
         if (!r.ok) throw new Error("HTTP " + r.status);

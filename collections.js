@@ -539,7 +539,10 @@
     var rel  = "collections/" + id + "/records-index.patch.json";
     var url  = "https://api.github.com/repos/" + c.owner + "/" + c.repo + "/contents/" + rel;
     var h    = { "Authorization": "Bearer " + t, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
-    return fetch(url + "?ref=" + encodeURIComponent(c.branch), { headers: h })
+    // Cache-bust + no-store: loadPackageIndex fetches this same URL with Accept:raw,
+    // and a mis-Vary'd cached copy would break r.json() / hide the real sha.
+    return fetch(url + "?ref=" + encodeURIComponent(c.branch) + "&_t=" + (new Date().getTime()),
+                 { headers: h, cache: "no-store" })
       .then(function (r) {
         if (r.status === 404) return { patch: {}, sha: null };
         if (!r.ok) throw new Error("HTTP " + r.status);
