@@ -37,8 +37,8 @@
             <objectDesc>
               <supportDesc>
                 <support>
-                  <material ref="aat:300011286">limestone 石灰岩</material>
-                  <objectType ref="sst:stele">stele 碑</objectType>
+                  <material ref="aat:300011286">石灰岩 limestone</material>
+                  <objectType ref="https://opentheso.huma-num.fr/?idc=915132&amp;idt=th770">碑 · Stele</objectType>
                   <dimensions unit="cm">
                     <height>210</height>
                     <width>92</width>
@@ -52,7 +52,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote script="sst:regular-script">regular script 楷書</handNote>
+              <handNote script="https://opentheso.huma-num.fr/?idc=802549&amp;idt=th770">楷書 Regular script</handNote>
             </handDesc>
           </physDesc>
           <history>
@@ -68,19 +68,11 @@
       <langUsage>
         <language ident="zh">Literary Chinese 漢文</language>
       </langUsage>
-      <textClass>
-        <keywords scheme="#stonesutras">
-          <term ref="sst:perfection-of-wisdom">Perfection of Wisdom 般若</term>
-        </keywords>
-      </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2026-06-18" who="#epiwen">Initial EpiDoc encoding via the Epiwen generator.</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <graphic url="images/SNS_2.jpg"/>
-  </facsimile>
   <text>
     <body>
       <div type="edition" xml:space="preserve">
@@ -88,11 +80,25 @@
           <head>碑陽 recto</head>
           <ab>
             <lb n="1"/>
-            文殊師利白佛言
+            /1/尒時，文殊師利1白佛言：“世尊！我觀正法无爲、无相，无得、无利，无生、无滅，无来无
             <lb n="2"/>
-            世尊云何名般若波羅蜜
+            /2/去无知者、无見者、无作者。不見般若波羅蜜，亦不見般若波羅蜜境界。非證、非
             <lb n="3"/>
-            佛言般若波羅蜜無邊無際
+            /3/不證，不作戯論，无有分别。一切法无盡、離盡。无凡夫法，无聲聞法，无辟支佛法、
+            <lb n="4"/>
+            /4/佛法。非得、非不得，不捨生死，不證涅槃。非思議、非不思議，非作、非不作。法相如
+            <lb n="5"/>
+            /5/是，不知云何當學般若波羅蜜？”尒時佛告文殊師利：“若能如是知諸法相，是名
+            <lb n="6"/>
+            /6/學般若波羅蜜。菩薩摩訶薩若欲學菩提自在三昧，得是三昧已，照眀一切甚
+            <lb n="7"/>
+            /7/深佛法，及知一切諸佛名字，亦悉了逹諸佛世界。”文殊師利白佛言：“世尊！何故
+            <lb n="8"/>
+            /8/名般若波羅蜜？”佛言：“般若波羅蜜，无邊、无際、无名、无相，非思量、无歸依、无洲渚、
+            <lb n="9"/>
+            /9/无犯、无福，无晦、无眀，如法界无有分齊，亦无限數，是名般若波羅蜜，亦名菩薩
+            <lb n="10"/>
+            /10/摩訶薩行處。非行、非不行處，悉入一乗，名15非行處。何以故？无念无作故。”
           </ab>
         </div>
         <div type="textpart" n="2" subtype="verso" xml:lang="zh-Hant">
