@@ -399,6 +399,24 @@
       });
   }
 
+  /* A package's records-index.json — lightweight list metadata for every record,
+     in ONE request. This is how large collections (thousands of records) are
+     browsed: the directory walk in loadPackage() is capped at 1000 entries by the
+     Contents API and fetches every file, which does not scale. Returns the index
+     entries tagged { _lazy:true, collection } (catalog.js renders the list from
+     these and fetches each record's full XML only when it is opened), or null
+     when the package has no index (caller falls back to loadPackage). */
+  function loadPackageIndex(id) {
+    return fetchFileRaw("collections/" + encodeURIComponent(id) + "/records-index.json")
+      .then(function (txt) {
+        var arr; try { arr = JSON.parse(txt); } catch (e) { return null; }
+        if (!Array.isArray(arr)) return null;
+        arr.forEach(function (e) { e._lazy = true; e.collection = id; });
+        return arr;
+      })
+      .catch(function () { return null; });   // 404 = no index → walk instead
+  }
+
   /* Load every .xml record in collections/<id>/ (raw text; parsing is catalog.js) */
   function loadPackage(id) {
     return fetch(apiUrl("collections/" + encodeURIComponent(id)), { headers: headers(false) })
@@ -430,7 +448,13 @@
     var errors = [];
 
     return Promise.all(enabled.map(function (id) {
-      return loadPackage(id)
+      // Prefer the records index (scales to thousands); fall back to walking the
+      // directory for packages that have no records-index.json yet.
+      return loadPackageIndex(id)
+        .then(function (indexed) {
+          if (indexed) return indexed;
+          return loadPackage(id);
+        })
         .then(function (recs) {
           recs.forEach(function (r) { r.collectionTitle = titles[id] || id; });
           return recs;
@@ -876,6 +900,7 @@
     getTitleMap:     getTitleMap,
     listPackages:    listPackages,
     loadPackage:     loadPackage,
+    loadPackageIndex: loadPackageIndex,
     loadEnabled:     loadEnabled,
     loadDefaultCorpus: loadDefaultCorpus,
     loadDefaultAuthorityIndex: loadDefaultAuthorityIndex,

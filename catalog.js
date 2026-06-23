@@ -268,6 +268,44 @@
     };
   }
 
+  // A lightweight record built from a package's records-index.json entry. Carries
+  // only the fields the list/filter/search need; the full record (all fields +
+  // rawXml) is loaded lazily by ensureFullRecord() when the record is opened.
+  function indexRecord(r) {
+    return {
+      name: r.name, recordType: r.record_type || "object",
+      surrogateOf: r.surrogate_of || "",
+      titleEn: r.title_en || "", titleZh: r.title_zh || "",
+      when: r.when || "", dateText: r.date_text || "",
+      region: r.region || "", settlement: r.settlement || "",
+      repository: r.repository || "", origPlace: r.orig_place || "",
+      provider: r.provider_label ? { label: r.provider_label } : null,
+      manifest: r.manifest || "", images: [],
+      parts: (r.parts || []).map(function (p) {
+        return { n: p.n || "", head: p.head || "", subtype: p.subtype || "",
+                 sutra: p.sutra || "", sutraEn: p.sutra_en || "", lang: p.lang || "",
+                 cbeta: "", taisho: "", editionText: "", translationText: "" };
+      }),
+      rawXml: "", _lazy: true, _path: r.file || r.name
+    };
+  }
+
+  // Ensure a record has its full parsed fields + rawXml. Index records load only
+  // list metadata; the first time one is previewed/edited/copied we fetch its XML
+  // (one request) and re-parse it in place. Resolves with the (now full) record.
+  function ensureFullRecord(rec) {
+    if (!rec || !rec._lazy || rec.rawXml) return Promise.resolve(rec);
+    if (!window.EpiCollections || !EpiCollections.fetchRecordXml)
+      return Promise.reject(new Error("collections unavailable"));
+    return EpiCollections.fetchRecordXml(rec.collection, encodeURIComponent(rec._path || rec.name))
+      .then(function (xml) {
+        var full = parseRecord(rec.name, xml);
+        Object.keys(full).forEach(function (k) { rec[k] = full[k]; });
+        rec._lazy = false;
+        return rec;
+      });
+  }
+
   // ---- HTML helpers --------------------------------------------------------
   function esc(s) {
     return String(s)
@@ -531,12 +569,13 @@
   // the shared corpus (epiwen-public) or an enabled collection (configured repo).
   function recordLocation(rec) {
     if (!rec || !rec.name || !window.EpiCollections) return null;
+    var file = rec._path || rec.name;
     var SH = EpiCollections.SHARED;
     if (rec.collection && SH && rec.collection === SH.id)
-      return { owner: SH.owner, repo: SH.repo, branch: SH.branch, path: "collections/" + SH.id + "/" + rec.name };
+      return { owner: SH.owner, repo: SH.repo, branch: SH.branch, path: "collections/" + SH.id + "/" + file };
     if (rec.collection) {
       var c = EpiCollections.getConfig();
-      return { owner: c.owner, repo: c.repo, branch: c.branch, path: "collections/" + rec.collection + "/" + rec.name };
+      return { owner: c.owner, repo: c.repo, branch: c.branch, path: "collections/" + rec.collection + "/" + file };
     }
     return null;
   }
@@ -589,6 +628,25 @@
     if (pd) { pd.style.display = recordLocation(rec) ? "" : "none"; pd.onclick = function () { deleteRecord(rec); }; }
 
     var view = document.getElementById("cat-html-view");
+
+    // Index records carry no XML until opened — fetch + parse on first preview.
+    if (rec._lazy && !rec.rawXml) {
+      view.innerHTML = '<div class="catalog-loading">Loading record…</div>';
+      document.getElementById("preview-out").textContent = "";
+      currentXml = "";
+      setCatView("html");
+      ensureFullRecord(rec)
+        .then(function () { if (selectedItem === item) renderPreviewBody(rec, view); })
+        .catch(function (e) {
+          if (selectedItem === item)
+            view.innerHTML = '<div class="catalog-empty">Could not load record: ' + esc(e.message) + '</div>';
+        });
+      return;
+    }
+    renderPreviewBody(rec, view);
+  }
+
+  function renderPreviewBody(rec, view) {
     view.innerHTML = buildHtmlPreview(rec);
     document.getElementById("preview-out").textContent = rec.rawXml || "";
     currentXml = rec.rawXml || "";
@@ -673,12 +731,12 @@
     var copyBtn = document.createElement("button");
     copyBtn.type = "button"; copyBtn.className = "btn small";
     copyBtn.textContent = "Copy XML";
-    copyBtn.addEventListener("click", function (e) { e.stopPropagation(); flashCopy(rec.rawXml, copyBtn); });
+    copyBtn.addEventListener("click", function (e) { e.stopPropagation(); ensureFullRecord(rec).then(function () { flashCopy(rec.rawXml, copyBtn); }); });
 
     var editBtn = document.createElement("button");
     editBtn.type = "button"; editBtn.className = "btn small primary";
     editBtn.textContent = "Edit";
-    editBtn.addEventListener("click", function (e) { e.stopPropagation(); openInEditor(rec); });
+    editBtn.addEventListener("click", function (e) { e.stopPropagation(); ensureFullRecord(rec).then(function () { openInEditor(rec); }); });
 
     actions.appendChild(copyBtn);
     actions.appendChild(editBtn);
@@ -1089,12 +1147,12 @@
     var copyBtn = document.createElement("button");
     copyBtn.type = "button"; copyBtn.className = "btn small";
     copyBtn.textContent = "Copy XML";
-    copyBtn.addEventListener("click", function (e) { e.stopPropagation(); flashCopy(rec.rawXml, copyBtn); });
+    copyBtn.addEventListener("click", function (e) { e.stopPropagation(); ensureFullRecord(rec).then(function () { flashCopy(rec.rawXml, copyBtn); }); });
 
     var editBtn = document.createElement("button");
     editBtn.type = "button"; editBtn.className = "btn small primary";
     editBtn.textContent = "Edit";
-    editBtn.addEventListener("click", function (e) { e.stopPropagation(); openInRubbingEditor(rec); });
+    editBtn.addEventListener("click", function (e) { e.stopPropagation(); ensureFullRecord(rec).then(function () { openInRubbingEditor(rec); }); });
 
     var delBtn = document.createElement("button");
     delBtn.type = "button"; delBtn.className = "btn small btn-danger";
@@ -1463,7 +1521,9 @@
       var raw = [];
       results.forEach(function (res) { raw = raw.concat((res && res.records) || []); });
       privateRecords = raw.map(function (r) {
-        var rec = parseRecord(r.name, r.xml);
+        // Index records (from records-index.json) arrive pre-summarised and load
+        // their XML lazily; directory-walked records carry full XML to parse now.
+        var rec = r._lazy ? indexRecord(r) : parseRecord(r.name, r.xml);
         rec.source          = "private";
         rec.collection      = r.collection;
         rec.collectionTitle = r.collectionTitle || r.collection;
