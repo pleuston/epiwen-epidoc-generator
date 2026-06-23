@@ -147,20 +147,19 @@
     });
   }
 
-  // No-auth fetch for public repos (works without a token; GitHub rate-limits
-  // unauthenticated requests to 60/hour but that is fine for workshop use).
+  // Fetch from a public repo. Works WITHOUT a token (guests), but uses the
+  // signed-in user's token when present — public repos accept it, and it lifts
+  // the rate limit from 60/hour (unauthenticated, per IP) to 5000/hour. Without
+  // this, signed-in users load the default corpus on the same 60/hour pool as
+  // anonymous traffic and get throttled.
   function ctxFetchNoAuth(ctx, path) {
-    return fetch(ctxApiUrl(ctx, path), {
-      headers: { "Accept": "application/vnd.github.raw", "X-GitHub-Api-Version": "2022-11-28" }
-    }).then(function (r) {
+    return fetch(ctxApiUrl(ctx, path), { headers: headers(true) }).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     });
   }
   function ctxListNoAuth(ctx, path) {
-    return fetch(ctxApiUrl(ctx, path), {
-      headers: { "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" }
-    }).then(function (r) {
+    return fetch(ctxApiUrl(ctx, path), { headers: headers(false) }).then(function (r) {
       if (r.status === 404) return null;
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.json();
