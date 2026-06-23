@@ -36,7 +36,7 @@ body.lang-en .zh { display: none; }
 .topbar {
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; padding: 0.6rem 1rem; border-bottom: 1px solid var(--line);
-  flex-wrap: wrap;
+  flex-wrap: wrap; position: relative; z-index: 1000;
 }
 .brand { font-size: 0.95rem; }
 .brand .zh { color: var(--muted); }
