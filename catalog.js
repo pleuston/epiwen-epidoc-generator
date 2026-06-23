@@ -274,7 +274,7 @@
   function indexRecord(r) {
     return {
       name: r.name, recordType: r.record_type || "object",
-      surrogateOf: r.surrogate_of || "",
+      surrogateOf: r.surrogate_of || "", editor: r.editor || "",
       titleEn: r.title_en || "", titleZh: r.title_zh || "",
       when: r.when || "", dateText: r.date_text || "",
       region: r.region || "", settlement: r.settlement || "",
