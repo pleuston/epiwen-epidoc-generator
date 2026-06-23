@@ -245,7 +245,7 @@
   }
 
   function openInEditor(rec) {
-    fetchXml(rec.id, function (xml) {
+    fetchXml(rec, function (xml) {
       sessionStorage.setItem("epiwen_preload_authority", JSON.stringify({
         id:             rec.id,
         display_name:   rec.display_name,
@@ -257,6 +257,9 @@
         gnd:            rec.gnd,
         dila_authority: rec.dila_authority,
         cbdb:           rec.cbdb,
+        // Default (public corpus) authorities live in the app repo and are
+        // read-only here — no in-place delete.
+        _canDelete:     !rec._default,
         xml:            xml
       }));
       window.location.href = "authority-editor.html";

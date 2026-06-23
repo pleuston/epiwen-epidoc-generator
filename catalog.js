@@ -522,9 +522,23 @@
     return { owner: OWNER, repo: REPO, branch: BRANCH, path: "records/" };
   }
 
+  // A record can be deleted in place only if it lives in the user's editable
+  // collection. The default corpus (app-repo examples) and the shared public
+  // corpus are read-only references — editing them is "save as new", and there
+  // is no in-place delete (their files are not at collections/<collection>/ in
+  // the user's configured repo, so a delete there would 404).
+  function canDeleteInPlace(rec) {
+    if (!rec || !rec.collection || !window.EpiCollections) return false;
+    var dc = EpiCollections.DEFAULT_CORPUS, sh = EpiCollections.SHARED;
+    if (dc && rec.collection === dc.id) return false;
+    if (sh && rec.collection === sh.id) return false;
+    return true;
+  }
+
   function openInEditor(rec) {
     var state = recToState(rec);
     state._writeTarget = writeTargetFor(rec);
+    state._canDelete   = canDeleteInPlace(rec);
     sessionStorage.setItem("epiwen_preload", JSON.stringify(state));
     window.location.href = "editor.html";
   }
@@ -553,6 +567,7 @@
   function openInRubbingEditor(rec) {
     var state = recToRubbingState(rec);
     state._writeTarget = writeTargetFor(rec);
+    state._canDelete   = canDeleteInPlace(rec);
     sessionStorage.setItem("epiwen_preload_rubbing", JSON.stringify(state));
     window.location.href = "rubbing.html";
   }
@@ -570,7 +585,10 @@
   function recordLocation(rec) {
     if (!rec || !rec.name || !window.EpiCollections) return null;
     var file = rec._path || rec.name;
-    var SH = EpiCollections.SHARED;
+    var SH = EpiCollections.SHARED, DC = EpiCollections.DEFAULT_CORPUS;
+    // The default corpus lives in the app repo under corpus/<subdir>/ (the subdir
+    // isn't tracked in list metadata), so it can't be located for deletion here.
+    if (rec.collection && DC && rec.collection === DC.id) return null;
     if (rec.collection && SH && rec.collection === SH.id)
       return { owner: SH.owner, repo: SH.repo, branch: SH.branch, path: "collections/" + SH.id + "/" + file };
     if (rec.collection) {

@@ -841,7 +841,7 @@
         if (_preload._writeTarget && window.EpiGitHub && EpiGitHub.setTarget) {
           EpiGitHub.setTarget(_preload._writeTarget);
         }
-        if (_btnDel && tv(state.filename)) _btnDel.style.display = "";
+        if (_btnDel && tv(state.filename) && state._canDelete) _btnDel.style.display = "";
       } catch (e) { console.warn("epiwen_preload_rubbing parse error", e); }
     }
   });

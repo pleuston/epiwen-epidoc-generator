@@ -444,9 +444,10 @@
         EpiGitHub.setTarget(loaded._writeTarget);
       }
 
-      // Editing an existing record (came from the catalog) — offer Delete.
+      // Editing a record that lives in an editable collection — offer Delete.
+      // (Default-corpus / shared examples are read-only: no in-place delete.)
       var delBtn = document.getElementById("btn-delete-github");
-      if (delBtn && state.filename) delBtn.style.display = "";
+      if (delBtn && state.filename && state._canDelete) delBtn.style.display = "";
     } catch (e) { console.warn("epiwen_preload parse error", e); }
   }
 

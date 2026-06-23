@@ -263,10 +263,12 @@
   // ── Init ──────────────────────────────────────────────────────────────────
 
   document.addEventListener("DOMContentLoaded", function () {
-    // Show the Delete button once we're editing an existing record (has an id).
+    // Default (public corpus) authorities are read-only here — no in-place delete.
+    var _canDelete = true;
+    // Show the Delete button once we're editing a deletable existing record.
     function revealDelete() {
       var db = document.getElementById("btn-delete-github");
-      if (db && state.id) db.style.display = "";
+      if (db && state.id && _canDelete) db.style.display = "";
     }
 
     // Preload from sessionStorage if editing an existing record
@@ -275,6 +277,7 @@
       sessionStorage.removeItem("epiwen_preload_authority");
       try {
         var preload = JSON.parse(raw);
+        _canDelete = preload._canDelete !== false;
         var parsed = preload.xml ? parseMads(preload.xml) : state;
         // Overlay any top-level fields from the index record (covers enrichments)
         ["id","wikidata","viaf","gnd","dila_authority","cbdb"].forEach(function (k) {
