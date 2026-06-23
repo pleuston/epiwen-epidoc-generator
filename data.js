@@ -15,7 +15,11 @@
  */
 (function () {
   "use strict";
-  var OWNER = "pleuston", REPO = "epiwen-data", BRANCH = "main";
+  // Falls back to epiwen-data so that regular users (who set epiwen_gh_repo in
+  // login.html) get the expected backend; workshop users get epiwen-workshop.
+  var OWNER  = localStorage.getItem("epiwen_gh_owner")  || "pleuston";
+  var REPO   = localStorage.getItem("epiwen_gh_repo")   || "epiwen-data";
+  var BRANCH = localStorage.getItem("epiwen_gh_branch") || "main";
 
   function token() {
     return (window.EpiAuth ? EpiAuth.getUser().token : "") ||

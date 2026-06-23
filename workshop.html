@@ -207,13 +207,6 @@
 
       var storedUser = localStorage.getItem(LS.username);
 
-      if (storedUser && sessionStorage.getItem(SESSION_KEY) === storedUser) {
-        /* Already in a session — just switch repo and go */
-        applyWorkshopRepo();
-        window.location.replace(returnUrl);
-        return;
-      }
-
       if (storedUser) {
         var rf = document.getElementById("returning-form");
         rf.style.display = "";
