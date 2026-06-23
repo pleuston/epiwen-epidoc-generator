@@ -249,6 +249,7 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 }
 .topbar-icon:hover { color: var(--ink); border-color: var(--line); }
 .topbar-icon.active { color: var(--accent); }
+.topbar-end { display: flex; align-items: center; gap: 0.25rem; }
 .sitenav-back {
   font-size: 1rem; color: var(--muted); text-decoration: none;
   margin-right: 0.2rem; padding: 0 0.2rem;
