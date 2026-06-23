@@ -443,6 +443,10 @@
       if (loaded._writeTarget && window.EpiGitHub && EpiGitHub.setTarget) {
         EpiGitHub.setTarget(loaded._writeTarget);
       }
+
+      // Editing an existing record (came from the catalog) — offer Delete.
+      var delBtn = document.getElementById("btn-delete-github");
+      if (delBtn && state.filename) delBtn.style.display = "";
     } catch (e) { console.warn("epiwen_preload parse error", e); }
   }
 
@@ -548,6 +552,16 @@
     var _btnCfg  = document.getElementById("btn-gh-settings");
     if (_btnSave) _btnSave.addEventListener("click", function () {
       if (window.EpiGitHub) EpiGitHub.save(build(cleanState()), state.filename);
+    });
+    var _btnDel = document.getElementById("btn-delete-github");
+    if (_btnDel) _btnDel.addEventListener("click", function () {
+      if (!window.EpiGitHub || !state.filename) return;
+      var fn = state.filename.replace(/\.xml$/i, "") + ".xml";
+      if (!window.confirm("Delete “" + fn + "” from GitHub?\n\n" +
+          "This permanently removes the record file and cannot be undone here.")) return;
+      EpiGitHub.del(state.filename, function () {
+        setTimeout(function () { window.location.href = "catalog.html"; }, 800);
+      });
     });
     if (_btnCfg)  _btnCfg.addEventListener("click", function () {
       if (window.EpiGitHub) EpiGitHub.showSettings();

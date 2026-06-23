@@ -811,6 +811,17 @@
     if (_btnCfg) _btnCfg.addEventListener("click", function () {
       if (window.EpiGitHub) EpiGitHub.showSettings();
     });
+    var _btnDel = document.getElementById("btn-delete-github");
+    if (_btnDel) _btnDel.addEventListener("click", function () {
+      var fn = tv(state.filename);
+      if (!window.EpiGitHub || !fn) return;
+      var disp = fn.replace(/\.xml$/i, "") + ".xml";
+      if (!window.confirm("Delete “" + disp + "” from GitHub?\n\n" +
+          "This permanently removes the rubbing record and cannot be undone here.")) return;
+      EpiGitHub.del(fn, function () {
+        setTimeout(function () { window.location.href = "catalog.html?tab=rubbings"; }, 800);
+      });
+    });
 
     // Preload from catalog "Edit" button (via sessionStorage)
     var _preloadRaw = sessionStorage.getItem("epiwen_preload_rubbing");
@@ -826,6 +837,7 @@
         if (_preload._writeTarget && window.EpiGitHub && EpiGitHub.setTarget) {
           EpiGitHub.setTarget(_preload._writeTarget);
         }
+        if (_btnDel && tv(state.filename)) _btnDel.style.display = "";
       } catch (e) { console.warn("epiwen_preload_rubbing parse error", e); }
     }
   });

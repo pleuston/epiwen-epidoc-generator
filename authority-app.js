@@ -263,6 +263,12 @@
   // ── Init ──────────────────────────────────────────────────────────────────
 
   document.addEventListener("DOMContentLoaded", function () {
+    // Show the Delete button once we're editing an existing record (has an id).
+    function revealDelete() {
+      var db = document.getElementById("btn-delete-github");
+      if (db && state.id) db.style.display = "";
+    }
+
     // Preload from sessionStorage if editing an existing record
     var raw = sessionStorage.getItem("epiwen_preload_authority");
     if (raw) {
@@ -281,6 +287,7 @@
         writeForm(state);
         var h = document.getElementById("editor-heading");
         if (h && state.id) h.textContent = "Edit: " + state.id;
+        revealDelete();
       } catch (e) { console.warn("preload parse error", e); }
     }
     update();
@@ -320,6 +327,7 @@
             update();
             var h = document.getElementById("editor-heading");
             if (h) h.textContent = "Edit: " + state.id;
+            revealDelete();
             toast("Loaded: " + rec.display_name);
           })
           .catch(function () { toast("Could not load " + rec.id, true); });
@@ -347,6 +355,17 @@
       } else {
         toast("GitHub module not loaded", true);
       }
+    });
+
+    // Delete
+    document.getElementById("btn-delete-github").addEventListener("click", function () {
+      var id = (state.id || "").trim();
+      if (!window.EpiGitHub || !id) return;
+      if (!window.confirm("Delete authority record “" + id + ".xml” from GitHub?\n\n" +
+          "This permanently removes the record and cannot be undone here.")) return;
+      EpiGitHub.deleteAt("authority/" + id + ".xml", function () {
+        setTimeout(function () { window.location.href = "persons.html"; }, 800);
+      });
     });
   });
 })();

@@ -298,6 +298,59 @@
     saveAt(xml, filePath, onDone);
   }
 
+  // Delete a file at an explicit repo-relative path (GET its sha, then DELETE).
+  // Targets the same destination as saveAt (effectiveSettings + any write target).
+  function deleteAt(relPath, onDone) {
+    if (!relPath) { toast("No file path to delete", true); return; }
+    var s = effectiveSettings();
+    if (!s.token) { showSettings(); return; }
+
+    relPath = relPath.replace(/^\/+/, "");
+    var filename = relPath.split("/").pop();
+    var apiUrl   = "https://api.github.com/repos/" + s.owner + "/" + s.repo + "/contents/" + relPath;
+    var headers  = {
+      "Authorization":        "Bearer " + s.token,
+      "Accept":               "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28"
+    };
+
+    setBtnState(true);
+    fetch(apiUrl + "?ref=" + encodeURIComponent(s.branch), { headers: headers })
+      .then(function (r) {
+        if (r.status === 404) throw new Error("File not found on GitHub (nothing to delete).");
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (existing) {
+        return fetch(apiUrl, {
+          method:  "DELETE",
+          headers: Object.assign({ "Content-Type": "application/json" }, headers),
+          body:    JSON.stringify({ message: "Delete record: " + filename, sha: existing.sha, branch: s.branch })
+        });
+      })
+      .then(function (r) {
+        if (!r.ok) return r.json().then(function (e) { throw new Error(e.message || "HTTP " + r.status); });
+        return r.json();
+      })
+      .then(function () {
+        toast("Deleted: " + filename);
+        setBtnState(false);
+        if (onDone) onDone();
+      })
+      .catch(function (err) {
+        toast("GitHub error: " + err.message, true);
+        setBtnState(false);
+      });
+  }
+
+  function del(filename, onDone) {
+    if (!filename) { toast("No filename to delete", true); return; }
+    var s = effectiveSettings();
+    if (!s.token) { showSettings(); return; }
+    filename = filename.replace(/\.xml$/i, "") + ".xml";
+    deleteAt(s.path.replace(/\/+$/, "") + "/" + filename, onDone);
+  }
+
   // Close settings modal on Escape
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") hideSettings();
@@ -306,6 +359,8 @@
   window.EpiGitHub = {
     save:            save,
     saveAt:          saveAt,
+    del:             del,
+    deleteAt:        deleteAt,
     showSettings:    showSettings,
     hideSettings:    hideSettings,
     hasToken:        hasToken,
