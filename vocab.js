@@ -80,7 +80,15 @@
       opentheso_id: "925227"
     },
     // project-specific types without a direct th770 support equivalent
-    { en: "dedicatory inscription (tiji)", zh: "題記 / 造像記", ref: "sst:dedicatory-text" }
+    { en: "image stele (zaoxiang bei)", zh: "造像碑", ref: "sst:image-stele" }
+  ];
+
+  // inscription type (文本類型) — the *kind of text* engraved on the object, as
+  // distinct from the physical support (V.OBJECT_TYPES). A votive inscription
+  // (題記 / 造像記) is typically engraved on an image stele (造像碑 — an object
+  // type above). No th770 equivalent; sst: refs retained.
+  V.INSCRIPTION_TYPES = [
+    { en: "votive / dedicatory inscription (tiji)", zh: "題記 / 造像記", ref: "sst:dedicatory-text" }
   ];
 
   // script (書體) — sourced from th770 "Type of script" hierarchy (802546)

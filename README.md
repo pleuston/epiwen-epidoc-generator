@@ -27,8 +27,9 @@ either).
 - **Bilingual UI** — toggle EN / 中 / EN+中; every field is labelled in both.
 - **CJK-safe** — characters pass through verbatim into UTF-8 XML.
 - **Project vocabularies** — material, object type (the five carriers: 摩崖 /
-  碑 / 經幢 / 窟壁 / 題記), script (篆隸楷行草), language, licence, and a list of
-  canonical sutras with CBETA/Taishō anchors. Editable in `vocab.js`.
+  碑 / 經幢 / 窟壁 / 造像碑), inscription type (題記/造像記), script (篆隸楷行草),
+  language, licence, and a list of canonical sutras with CBETA/Taishō anchors.
+  Editable in `vocab.js`.
 - **Reign-era date helper** — pick a 年號 and a reign year and the tool computes
   the exact `@when` and fills `@notBefore`/`@notAfter`/`@calendar`/`@datingMethod`
   (e.g. 武平 + 六年 → `when="0575"`).
