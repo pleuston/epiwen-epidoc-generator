@@ -645,6 +645,16 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
   font-size: 0.82rem; margin: 0; line-height: 1.55;
   white-space: pre-wrap; word-break: break-word;
 }
+.hp-trans { font-size: 0.86rem; line-height: 1.6; margin: 0; }
+
+/* "Part of <file>" banner shown atop a single-inscription preview */
+.hp-partof {
+  font-size: 0.82rem; color: var(--muted);
+  border-left: 3px solid var(--accent); background: rgba(122,30,40,0.04);
+  padding: 0.4rem 0.6rem; margin-bottom: 0.9rem; line-height: 1.5;
+}
+.hp-partof code { background: rgba(0,0,0,0.06); padding: 0 0.25rem; border-radius: 3px; }
+.hp-partof .hp-objlink { color: var(--accent); white-space: nowrap; }
 
 /* editor preview pre fills the pane */
 .preview pre { flex: 1; }

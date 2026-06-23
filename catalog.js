@@ -697,6 +697,108 @@
     setCatView("html");
   }
 
+  // ---- inscription (textpart) preview --------------------------------------
+  // Extract just this textpart's XML — its <div type="textpart" n="…"> plus the
+  // matching <div type="translation" n="…"> — instead of the whole object.
+  function partXml(rec, part) {
+    if (!rec.rawXml) return "";
+    var doc = new DOMParser().parseFromString(rec.rawXml, "application/xml");
+    if (doc.getElementsByTagName("parsererror").length) return rec.rawXml;
+    var ser = new XMLSerializer();
+    var tp = null, tr = null;
+    qns(doc, "div").forEach(function (d) {
+      var type = d.getAttribute("type"), n = d.getAttribute("n") || "";
+      if (type === "textpart" && n === part.n) tp = tp || d;
+      else if (type === "translation" && n === part.n) tr = tr || d;
+    });
+    if (!tp) {   // single-text record (no textpart divs): whole edition + translation
+      qns(doc, "div").forEach(function (d) {
+        var type = d.getAttribute("type");
+        if (type === "edition") tp = tp || d;
+        else if (type === "translation") tr = tr || d;
+      });
+    }
+    var out = [];
+    if (tp) out.push(ser.serializeToString(tp));
+    if (tr) out.push(ser.serializeToString(tr));
+    return out.join("\n\n") || rec.rawXml;
+  }
+
+  function buildInscriptionPreview(rec, part, pIdx) {
+    function row(label, val) { return (val || val === 0) ? "<dt>" + esc(label) + "</dt><dd>" + esc(String(val)) + "</dd>" : ""; }
+    var label   = part.head || part.subtype || ("Text " + (pIdx + 1));
+    var objHref = "catalog.html?tab=objects&file=" + encodeURIComponent(rec.name);
+    var html = '<div class="hp-preview">';
+    html += '<div class="hp-partof">Part of <code class="catalog-filename">' + esc(rec.name) + '</code>' +
+            ' — <a class="hp-objlink" href="' + esc(objHref) + '">open the object record →</a></div>';
+    var idRows = [
+      row("Section", label),
+      row("Text", part.sutra),
+      row("Text (EN)", part.sutraEn),
+      row("CBETA", part.cbeta),
+      row("Language", part.lang),
+      row("On object", rec.titleEn || rec.titleZh),
+      row("Date", rec.dateText)
+    ].join("");
+    if (idRows) html += '<section class="hp-section"><h4 class="hp-st">Inscription</h4><dl class="hp-dl">' + idRows + '</dl></section>';
+    if (part.editionText)
+      html += '<section class="hp-section"><h4 class="hp-st">Transcription</h4><pre class="hp-text">' + esc(part.editionText) + '</pre></section>';
+    if (part.translationText)
+      html += '<section class="hp-section"><h4 class="hp-st">Translation</h4><p class="hp-trans">' + esc(part.translationText) + '</p></section>';
+    html += '</div>';
+    return html;
+  }
+
+  // The catalog "open the object record →" link inside an inscription preview.
+  function wireObjLink(view, rec) {
+    var a = view.querySelector(".hp-objlink");
+    if (a) a.addEventListener("click", function (e) {
+      e.preventDefault();
+      history.pushState({ tab: "objects", file: rec.name }, "", a.href);
+      renderByTab("objects", rec.name);
+    });
+  }
+
+  function showInscriptionPreview(rec, part, pIdx, item) {
+    if (selectedItem) selectedItem.classList.remove("selected");
+    selectedItem = item;
+    if (item) item.classList.add("selected");
+
+    var label = part.head || part.subtype || ("Text " + (pIdx + 1));
+    document.getElementById("preview-title").textContent = label + " · " + rec.name;
+    document.getElementById("preview-copy").style.display = "";
+    document.getElementById("cat-view-toggle").style.display = "";
+    var pd = document.getElementById("preview-delete");
+    if (pd) pd.style.display = "none";   // a single inscription isn't independently deletable
+
+    var view = document.getElementById("cat-html-view");
+    function render() {
+      // Re-resolve the part from the (now full) record so we get edition/translation text.
+      var p = (rec.parts || []).filter(function (x) { return x.n === part.n; })[0] || part;
+      view.innerHTML = buildInscriptionPreview(rec, p, pIdx);
+      var xml = partXml(rec, p);
+      document.getElementById("preview-out").textContent = xml;
+      currentXml = xml;
+      wireObjLink(view, rec);
+      setCatView("html");
+    }
+
+    if (rec._lazy && !rec.rawXml) {
+      view.innerHTML = '<div class="catalog-loading">Loading inscription…</div>';
+      document.getElementById("preview-out").textContent = "";
+      currentXml = "";
+      setCatView("html");
+      ensureFullRecord(rec)
+        .then(function () { if (selectedItem === item) render(); })
+        .catch(function (e) {
+          if (selectedItem === item)
+            view.innerHTML = '<div class="catalog-empty">Could not load inscription: ' + esc(e.message) + '</div>';
+        });
+      return;
+    }
+    render();
+  }
+
   function setCatView(mode) {
     var htmlPane = document.getElementById("cat-html-view");
     var xmlPane  = document.getElementById("cat-xml-view");
@@ -1119,12 +1221,13 @@
       });
     }
 
-    // entry itself selectable (replaces the old Preview button)
+    // entry itself selectable (replaces the old Preview button) — shows only
+    // this inscription (its textpart XML + a link back to the object).
     row.classList.add("selectable");
     row.setAttribute("role", "button"); row.setAttribute("tabindex", "0");
-    row.addEventListener("click", function () { showPreview(rec, item); });
+    row.addEventListener("click", function () { showInscriptionPreview(rec, part, pIdx, item); });
     row.addEventListener("keydown", function (e) {
-      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showPreview(rec, item); }
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); showInscriptionPreview(rec, part, pIdx, item); }
     });
     row.appendChild(info);
     item.appendChild(row);
