@@ -235,6 +235,10 @@ textarea.mono { font-family: "SF Mono", Menlo, monospace; }
 .nav-group.open .nav-group-dropdown,
 .nav-group:hover .nav-group-dropdown { display: flex; flex-direction: column; gap: 0.1rem; }
 .nav-group:hover .nav-group-btn { color: var(--accent); border-color: var(--line); }
+/* Transparent bridge covers the 3px gap between button and dropdown so hover isn't lost */
+.nav-group-dropdown::before {
+  content: ''; position: absolute; top: -6px; left: 0; right: 0; height: 6px;
+}
 .nav-group-dropdown .sitenav-link { display: block; white-space: nowrap; }
 
 .sitenav-link {

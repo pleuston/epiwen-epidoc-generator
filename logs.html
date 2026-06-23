@@ -220,21 +220,18 @@
         return '<div class="log-status">' + esc(msg) + '</div>';
       }
 
-      /* Fetch both datasets in parallel; set-subtract for platform */
+      /* Fetch both repos in parallel */
       Promise.all([
-        EpiChangelog.fetchAll(300),
+        EpiChangelog.fetchPlatform(300),
         EpiChangelog.fetchXML()
       ]).then(function (results) {
-        var all = results[0] || [];
-        var xml = results[1] || [];
-        var xmlShas = {};
-        xml.forEach(function (c) { xmlShas[c.sha] = true; });
-        var platform = all.filter(function (c) { return !xmlShas[c.sha]; });
+        var platform = results[0] || [];
+        var xml      = results[1] || [];
 
-        document.getElementById("records-list").innerHTML =
-          xml.length ? renderRows(xml) : noResults("No record changes found.");
         document.getElementById("platform-list").innerHTML =
           platform.length ? renderRows(platform) : noResults("No platform commits found.");
+        document.getElementById("records-list").innerHTML =
+          xml.length ? renderRows(xml) : noResults("No record changes found.");
       }).catch(function () {
         ["records-list","platform-list"].forEach(function (id) {
           document.getElementById(id).innerHTML = noResults("Could not load changelog.");

@@ -8,7 +8,8 @@
     token: "epiwen_gh_token", owner: "epiwen_gh_owner",
     repo: "epiwen_gh_repo",  branch: "epiwen_gh_branch"
   };
-  var DEF = { owner: "pleuston", repo: "epiwen-data", branch: "main" };
+  var DEF     = { owner: "pleuston", repo: "epiwen-data", branch: "main" };
+  var DEF_APP = { owner: "pleuston", repo: "epiwen",      branch: "main" };
 
   function cfg() {
     return {
@@ -72,5 +73,12 @@
     return ghFetch(commitsUrl(c, "", limit || 200), c.token);
   }
 
-  window.EpiChangelog = { fetchXML: fetchXML, fetchAll: fetchAll, timeAgo: timeAgo, cfg: cfg };
+  /* All commits in the app repo (pleuston/epiwen) */
+  function fetchPlatform(limit) {
+    var c = cfg();
+    var app = { owner: DEF_APP.owner, repo: DEF_APP.repo, branch: DEF_APP.branch, token: c.token };
+    return ghFetch(commitsUrl(app, "", limit || 200), c.token);
+  }
+
+  window.EpiChangelog = { fetchXML: fetchXML, fetchAll: fetchAll, fetchPlatform: fetchPlatform, timeAgo: timeAgo, cfg: cfg };
 })();
