@@ -267,18 +267,14 @@
                 localStorage.setItem(LS.username, user.login);
                 localStorage.setItem(LS.avatar,   user.avatar_url || "");
                 localStorage.setItem(LS.name,     user.name       || "");
-                /* Also pre-fill the github.js settings keys so the editor
-                   picks up the same token without re-entering settings. */
-                /* migrate the pre-rename data-repo name to epiwen-data */
-                if (localStorage.getItem("epiwen_gh_repo") === "epiwen-epidoc-generator") {
-                  localStorage.setItem("epiwen_gh_repo", "epiwen-data");
-                }
-                if (!localStorage.getItem("epiwen_gh_owner")) {
-                  localStorage.setItem("epiwen_gh_owner",  "pleuston");
-                  localStorage.setItem("epiwen_gh_repo",   "epiwen-data");
-                  localStorage.setItem("epiwen_gh_branch", "main");
-                  localStorage.setItem("epiwen_gh_path",   "records/");
-                }
+                /* A real GitHub sign-in uses the canonical private data backend.
+                   Set it unconditionally so a leftover guest/workshop backend
+                   (epiwen-workshop, set by "Browse as guest") doesn't persist and
+                   break EpiData reads like the bibliography. */
+                localStorage.setItem("epiwen_gh_owner",  "pleuston");
+                localStorage.setItem("epiwen_gh_repo",   "epiwen-data");
+                localStorage.setItem("epiwen_gh_branch", "main");
+                localStorage.setItem("epiwen_gh_path",   "records/");
                 startSession(user.login);
               })
               .catch(function (err) {

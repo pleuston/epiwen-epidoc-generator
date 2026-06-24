@@ -58,11 +58,17 @@
     return new Date(iso).toISOString().slice(0, 10);
   }
 
-  /* Commits touching XML data directories */
+  /* Record changes — commits touching record/data files, wherever they live:
+     the data repo (records/catalog/authority/biblio) AND the app repo's bundled
+     default corpus (corpus/), since editing a default-corpus record commits to
+     the app repo. */
   function fetchXML(limit) {
     var c = cfg();
     var dirs = ["records", "catalog", "authority", "biblio"];
-    return Promise.all(dirs.map(function (d) { return ghFetch(commitsUrl(c, d, 100), c.token); }))
+    var jobs = dirs.map(function (d) { return ghFetch(commitsUrl(c, d, 100), c.token); });
+    var app = { owner: DEF_APP.owner, repo: DEF_APP.repo, branch: DEF_APP.branch };
+    jobs.push(ghFetch(commitsUrl(app, "corpus", 100), c.token));   // default-corpus record edits
+    return Promise.all(jobs)
       .then(mergeDedup)
       .then(function (all) { return limit ? all.slice(0, limit) : all; });
   }
@@ -73,11 +79,20 @@
     return ghFetch(commitsUrl(c, "", limit || 200), c.token);
   }
 
-  /* All commits in the app repo (pleuston/epiwen) */
+  /* Platform changes — app-repo commits EXCEPT the default-corpus record edits
+     (those are record changes, shown on the Records tab). */
   function fetchPlatform(limit) {
     var c = cfg();
-    var app = { owner: DEF_APP.owner, repo: DEF_APP.repo, branch: DEF_APP.branch, token: c.token };
-    return ghFetch(commitsUrl(app, "", limit || 200), c.token);
+    var app = { owner: DEF_APP.owner, repo: DEF_APP.repo, branch: DEF_APP.branch };
+    return Promise.all([
+      ghFetch(commitsUrl(app, "", 300), c.token),        // all app-repo commits
+      ghFetch(commitsUrl(app, "corpus", 200), c.token)   // …the record (corpus) commits to subtract
+    ]).then(function (res) {
+      var all = res[0] || [], corpus = res[1] || [], skip = {};
+      corpus.forEach(function (cm) { skip[cm.sha] = true; });
+      var platform = all.filter(function (cm) { return !skip[cm.sha]; });
+      return limit ? platform.slice(0, limit) : platform;
+    });
   }
 
   window.EpiChangelog = { fetchXML: fetchXML, fetchAll: fetchAll, fetchPlatform: fetchPlatform, timeAgo: timeAgo, cfg: cfg };
