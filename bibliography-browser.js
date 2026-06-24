@@ -148,12 +148,21 @@
   function loadIndex() {
     var list = document.getElementById("biblio-list");
     list.innerHTML = '<div class="catalog-loading">Loading bibliography…</div>';
-    EpiData.fetch("data/biblio-index.json")
-      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-      .then(function (data) { _publicRecords = data; mergePrivate(); })
-      .catch(function (err) {
-        list.innerHTML = '<div class="catalog-loading">Error: ' + esc(err.message) + '</div>';
-      });
+    // Public sample bundled in the app repo (no token) + the full backend index
+    // (epiwen-data, needs read access). Guests with no backend access still see
+    // the sample instead of an error.
+    var def = (window.EpiCollections && EpiCollections.loadDefaultBiblioIndex)
+      ? EpiCollections.loadDefaultBiblioIndex() : Promise.resolve([]);
+    var backend = EpiData.fetch("data/biblio-index.json")
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .catch(function () { return []; });
+    Promise.all([def, backend]).then(function (res) {
+      var d = res[0] || [], b = res[1] || [], byKey = {};
+      d.forEach(function (e) { if (e && e.key) byKey[e.key] = e; });
+      b.forEach(function (e) { if (e && e.key) byKey[e.key] = e; });   // backend wins over the sample
+      _publicRecords = Object.keys(byKey).map(function (k) { return byKey[k]; });
+      mergePrivate();
+    });
   }
 
   // Merge private bibliography entries from enabled collections (re-run on toggle).
@@ -242,9 +251,13 @@
     if (contentEl) contentEl.innerHTML = '<div class="catalog-loading">Loading…</div>';
 
     var relPath = "biblio/" + rec.group + "/" + rec.key + ".xml";
-    var xmlPromise = (rec.source === "private" && window.EpiCollections)
-      ? EpiCollections.fetchRecordXml(rec.collection, relPath)
-      : EpiData.fetch(relPath).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); });
+    var xmlPromise;
+    if (rec.source === "private" && window.EpiCollections)
+      xmlPromise = EpiCollections.fetchRecordXml(rec.collection, relPath);
+    else if (rec._defaultCorpus && window.EpiCollections && EpiCollections.fetchDefaultCorpusFile)
+      xmlPromise = EpiCollections.fetchDefaultCorpusFile(relPath);
+    else
+      xmlPromise = EpiData.fetch(relPath).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); });
     xmlPromise
       .then(function (xml) {
         _selectedXml = xml;

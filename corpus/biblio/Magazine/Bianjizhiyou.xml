@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="Bianjizhiyou" xsi:schemaLocation="http://www.loc.gov/mods/v3     http://data.stonesutras.org:8080/exist/servlet/db/schema/mods-3-0.xsd">
+    <titleInfo lang="zh">
+        <title>編輯之友</title>
+    </titleInfo>
+    <titleInfo lang="pinyin">
+        <title>Bianji zhi you</title>
+    </titleInfo>
+    <titleInfo lang="en">
+        <title>Editorial Friend</title>
+    </titleInfo>
+   
+    <name xmlns:oXygen2="http://www.w3.org/1999/xlink" oXygen2:href="bianjizhiyou_bjb" type="corporate">
+        <namePart lang="zh">《編輯之友》編輯部</namePart>
+            <namePart transliteration="pinyin">Bianji zhi you bianjibu</namePart>
+            <role>
+                <roleTerm>editor</roleTerm>
+            </role>
+        </name>
+    
+             <originInfo>
+                 <publisher>
+                 <name type="corporate">
+                     <namePart transliteration="pinyin">Shanxi chuban jituan</namePart>
+                     <namePart lang="zh">山西出版集團</namePart>    </name>
+                 </publisher>
+        <typeOfResource>text</typeOfResource>
+        <dateIssued>1981-</dateIssued>
+        <dateIssued encoding="marc" point="start">1981</dateIssued>
+        <issuance>continuing</issuance>
+      
+        <place>
+            <placeTerm>Taiyuan</placeTerm>
+            <placeTerm lang="zh">太原</placeTerm>
+        </place>
+        
+    </originInfo>
+</mods>

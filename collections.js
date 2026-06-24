@@ -256,6 +256,20 @@
       .catch(function () { return []; });
   }
 
+  /* The default corpus's bibliography index (corpus/biblio-index.json) — public,
+     no token, so guests see a sample bibliography. Entries tagged _defaultCorpus
+     so the browser fetches their XML via the no-auth corpus/ path. [] if absent. */
+  function loadDefaultBiblioIndex() {
+    return ctxFetchNoAuth(DEFAULT_CORPUS, DEFAULT_CORPUS.id + "/biblio-index.json")
+      .then(function (txt) {
+        var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
+        if (!Array.isArray(arr)) return [];
+        arr.forEach(function (e) { e._defaultCorpus = true; });
+        return arr;
+      })
+      .catch(function () { return []; });
+  }
+
   /* Fetch a file from the default corpus by its path relative to corpus/
      (no token) — e.g. a site's catalog_file "sites/SNS_site.xml". */
   function fetchDefaultCorpusFile(relPath) {
@@ -1110,6 +1124,7 @@
     loadDefaultAuthorityIndex: loadDefaultAuthorityIndex,
     fetchDefaultAuthorityXml:  fetchDefaultAuthorityXml,
     loadDefaultSiteIndex:      loadDefaultSiteIndex,
+    loadDefaultBiblioIndex:    loadDefaultBiblioIndex,
     fetchDefaultCorpusFile:    fetchDefaultCorpusFile,
     loadShared:        loadShared,
     loadSharedIndex:   loadSharedIndex,

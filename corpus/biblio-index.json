@@ -1,0 +1,286 @@
+[
+ {
+  "key": "AGILE2011",
+  "reference": "AGILE 2011",
+  "title": "14th AGILE International Conference on Geographic Information Science. 18-21 April 2011",
+  "title_zh": "",
+  "title_en": "",
+  "author": [],
+  "author_zh": [],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2011",
+  "pub_type": "monograph",
+  "group": "A",
+  "place": "Utrecht, The Netherlands",
+  "publisher": ""
+ },
+ {
+  "key": "Andrews2016",
+  "reference": "Andrews 2016",
+  "title": "The Temple of the Prince who Torched his Body and the Making of Mount Wutai",
+  "title_zh": "",
+  "title_en": "",
+  "author": [
+   "Andrews, Susan"
+  ],
+  "author_zh": [],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2016",
+  "pub_type": "article",
+  "group": "A",
+  "place": "",
+  "publisher": "",
+  "journal": "Journal of Chinese Buddhist Studies",
+  "journal_zh": "",
+  "volume": "29",
+  "page_start": "91",
+  "page_end": "127"
+ },
+ {
+  "key": "Auer2019",
+  "reference": "Michael Auer 2019",
+  "title": "Advancing 3D WebGIS: browser-based Methods for Visualization and Analysis and their Integration in Virtual Research Environments in the Context of Cultural Heritage",
+  "title_zh": "",
+  "title_en": "",
+  "author": [
+   "Auer, Michael"
+  ],
+  "author_zh": [],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2019",
+  "pub_type": "other",
+  "group": "A",
+  "place": "Ruprecht-Karls-Universität Heidelberg",
+  "publisher": ""
+ },
+ {
+  "key": "Baokecongbian",
+  "reference": "Bao­ke cong­bian",
+  "title": "Baoke congbian",
+  "title_zh": "寶刻叢編",
+  "title_en": "Compilation of Precious Engravings",
+  "author": [
+   "Chen, Si"
+  ],
+  "author_zh": [
+   "陳思"
+  ],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "1888",
+  "pub_type": "article",
+  "group": "B",
+  "place": "",
+  "publisher": "",
+  "volume": "24",
+  "page_start": "18073",
+  "page_end": "18399",
+  "host_title": "Shike shiliao xinbian",
+  "host_title_zh": "石刻史料新編",
+  "host_editor": [],
+  "host_editor_zh": [],
+  "host_place": "",
+  "host_publisher": ""
+ },
+ {
+  "key": "Bell2000",
+  "reference": "Bell 2000",
+  "title": "Didactic Narration: Jataka Iconography in Dunhuang with a Catalogue of Jataka Representations in China",
+  "title_zh": "",
+  "title_en": "",
+  "author": [
+   "Bell, Alexander Peter"
+  ],
+  "author_zh": [],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2000",
+  "pub_type": "monograph",
+  "group": "B",
+  "place": "Münster",
+  "publisher": "LIT Verlag"
+ },
+ {
+  "key": "Bredekamp_Bruhn_Werner2007",
+  "reference": "Bredekamp, Bruhn, and Werner 2007",
+  "title": "Bildwelten des Wissens. Kunsthistorisches Jahrbuch für Bildkritik, 4.2. (Bilder ohne Betrachter)",
+  "title_zh": "",
+  "title_en": "",
+  "author": [],
+  "author_zh": [],
+  "editor": [
+   "Bredekamp, Horst",
+   "Bruhn, Matthias",
+   "Werner, Gabriele"
+  ],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2007",
+  "pub_type": "other",
+  "group": "B",
+  "place": "Berlin",
+  "publisher": "Akademie-Verlag"
+ },
+ {
+  "key": "Durt1991",
+  "reference": "Durt 1991",
+  "title": "La date du Buddha en Corée et au Japon",
+  "title_zh": "",
+  "title_en": "",
+  "author": [
+   "Durt, Hubert"
+  ],
+  "author_zh": [],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "1991",
+  "pub_type": "chapter",
+  "group": "D",
+  "place": "",
+  "publisher": "",
+  "volume": "1",
+  "page_start": "458",
+  "page_end": "489",
+  "host_title": "Die Datierung des historischen Buddha",
+  "host_title_zh": "",
+  "host_editor": [
+   "Bechert, Heinz"
+  ],
+  "host_editor_zh": [],
+  "host_place": "Göttingen",
+  "host_publisher": "Vandenhoeck und Ruprecht"
+ },
+ {
+  "key": "FangGuangchang2016",
+  "reference": "Fang Guang­chang 2016",
+  "title": "Fojiao wenxian yanjiu",
+  "title_zh": "佛教文獻研究",
+  "title_en": "A Study of Buddhist Documents",
+  "author": [],
+  "author_zh": [],
+  "editor": [
+   "Fang, Guangchang"
+  ],
+  "editor_zh": [
+   "方廣錩"
+  ],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2016",
+  "pub_type": "edited",
+  "group": "F",
+  "place": "Guilin",
+  "publisher": "Guangxi shifan daxue chubanshe"
+ },
+ {
+  "key": "Fogel2012",
+  "reference": "Fogel 2012",
+  "title": "The Role of Japan in Modern Chinese Art",
+  "title_zh": "",
+  "title_en": "",
+  "author": [],
+  "author_zh": [],
+  "editor": [
+   "Fogel, Joshua A."
+  ],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2012",
+  "pub_type": "edited",
+  "group": "F",
+  "place": "Berkeley, CA",
+  "publisher": "Global, Area, and International Archive / University of California Press"
+ },
+ {
+  "key": "Haiwaizhenminlu",
+  "reference": "Haiwai zhenmin lu",
+  "title": "Haiwai zhenmin lu",
+  "title_zh": "海外貞珉録",
+  "title_en": "The Record of the Steles Abroad",
+  "author": [
+   "Luo, Zhenyu"
+  ],
+  "author_zh": [
+   "羅振玉"
+  ],
+  "editor": [],
+  "editor_zh": [],
+  "translator": [],
+  "translator_zh": [],
+  "year": "",
+  "pub_type": "chapter",
+  "group": "H",
+  "place": "",
+  "publisher": "",
+  "volume": "6",
+  "page_start": "683",
+  "page_end": "700",
+  "host_title": "Luo Zhenyu xueshu lunzhu ji",
+  "host_title_zh": "羅振玉學術論著集",
+  "host_editor": [],
+  "host_editor_zh": [],
+  "host_place": "",
+  "host_publisher": ""
+ },
+ {
+  "key": "HeZiquan2005",
+  "reference": "He Ziquan 2005",
+  "title": "Zhongguo zhonggu shehui he zhengzhi yanjiu congshu",
+  "title_zh": "中國中古社會和政治研究叢書",
+  "title_en": "The Series of Researches on Society and Politics of Medieval China",
+  "author": [],
+  "author_zh": [],
+  "editor": [
+   "He, Ziquan"
+  ],
+  "editor_zh": [
+   "何茲全"
+  ],
+  "translator": [],
+  "translator_zh": [],
+  "year": "2005-",
+  "pub_type": "periodical",
+  "group": "H",
+  "place": "Beijing",
+  "publisher": "Shanngwu yinshu guan"
+ },
+ {
+  "key": "Bianjizhiyou",
+  "reference": "Bianjizhiyou",
+  "title": "Bianji zhi you",
+  "title_zh": "編輯之友",
+  "title_en": "",
+  "author": [],
+  "author_zh": [],
+  "editor": [
+   "Bianji zhi you bianjibu"
+  ],
+  "editor_zh": [
+   "《編輯之友》編輯部"
+  ],
+  "translator": [],
+  "translator_zh": [],
+  "year": "1981-",
+  "pub_type": "periodical",
+  "group": "Magazine",
+  "place": "Taiyuan",
+  "publisher": "Shanxi chuban jituan"
+ }
+]
