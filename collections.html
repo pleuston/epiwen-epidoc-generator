@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Rubbing Collections</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <style>
+      .coll-layout { display: flex; gap: 0; align-items: stretch; min-height: calc(100vh - 52px); }
+      .coll-tree {
+        flex: 0 0 280px; border-right: 1px solid var(--line); padding: 1rem .9rem; overflow-y: auto;
+        max-height: calc(100vh - 52px);
+      }
+      .coll-tree h2 { font-size: 1rem; margin: 0 0 .6rem; }
+      .ct-search { width: 100%; box-sizing: border-box; margin-bottom: .7rem; }
+      .ct-node { font-size: .86rem; }
+      .ct-row { display: flex; align-items: center; gap: .3rem; padding: .2rem .25rem; border-radius: 4px; cursor: pointer; }
+      .ct-row:hover { background: var(--field-bg, #fafafa); }
+      .ct-row.active { background: #eef0f2; font-weight: 600; }
+      .ct-caret { width: 1em; color: var(--muted); font-size: .7rem; transition: transform .12s; flex: 0 0 1em; }
+      .ct-caret.open { transform: rotate(90deg); }
+      .ct-caret.leaf { visibility: hidden; }
+      .ct-count { margin-left: auto; color: var(--muted); font-size: .76rem; }
+      .ct-children { margin-left: 1em; display: none; }
+      .ct-children.open { display: block; }
+      .coll-main { flex: 1; padding: 1.2rem 1.5rem 3rem; overflow-y: auto; max-height: calc(100vh - 52px); }
+      .coll-main h1 { font-size: 1.25rem; margin: 0 0 .2rem; }
+      .coll-crumb { font-size: .85rem; color: var(--muted); margin: 0 0 1rem; }
+      .coll-card h3 a { color: var(--ink); text-decoration: none; }
+      .coll-card h3 a:hover { color: var(--accent); }
+      .coll-card .coll-links { margin-top: .5rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+      .coll-card .coll-links a { font-size: .78rem; }
+      .coll-tag-cat { background: #f3e9d6; color: #8a6d2f; }
+      .coll-tag-har { background: #e3f0e3; color: #2e6b2e; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
+      <nav class="sitenav">
+        <div class="nav-group">
+          <button class="nav-group-btn">Catalogs</button>
+          <div class="nav-group-dropdown">
+            <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+            <a href="collections.html" class="sitenav-link active">Rubbing Collections</a>
+            <a href="catalog.html" class="sitenav-link">Objects</a>
+            <a href="sites.html" class="sitenav-link">Sites</a>
+            <a href="map.html" class="sitenav-link">Map</a>
+          </div>
+        </div>
+      </nav>
+      <div class="topbar-end"><button onclick="EpiAuth.signOut()" class="btn small">Sign out</button></div>
+    </header>
+
+    <div class="coll-layout">
+      <aside class="coll-tree">
+        <h2>Rubbing collections</h2>
+        <input type="search" id="ct-search" class="catalog-searchbox ct-search" placeholder="Filter collections…" />
+        <div id="ct-tree"><div class="catalog-loading">Loading…</div></div>
+      </aside>
+      <main class="coll-main">
+        <h1 id="coll-title">All collections</h1>
+        <p class="coll-crumb" id="coll-crumb"></p>
+        <div id="coll-cards" class="source-grid"></div>
+      </main>
+    </div>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="variants.js"></script>
+    <script src="collections-page.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
