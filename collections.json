@@ -1,6 +1,6 @@
 {
  "generated": "2026-06-26",
- "note": "Rubbing holding collections. Coordinates are the HOLDING institution location (approximate), distinct from the inscription site. harvested_count = records in the staging harvest. Japan Search collections are accessed via the aggregator (via: Japan Search). See schemas/ for per-connector field mappings. Includes catalog-only / offline collections (catalog_only:true) documented in the obsidian vault — print or PDF catalogs, no online harvest; coordinates are the holding institution.",
+ "note": "Rubbing holding collections. Coordinates are the HOLDING institution location (approximate), distinct from the inscription site. harvested_count = records in the staging harvest. Japan Search collections are accessed via the aggregator (via: Japan Search). See schemas/ for per-connector field mappings. Includes catalog-only / offline collections (catalog_only:true) documented in the obsidian vault — print or PDF catalogs, no online harvest; coordinates are the holding institution. Each collection has continent/country (+ province for China) for the geo tree, and an 'authority' id linking to its Institution authority record where one exists.",
  "total_harvested": 13279,
  "collections": [
   {
@@ -14,7 +14,10 @@
    "lon": -71.1145,
    "site": "https://library.harvard.edu/digital-collections",
    "harvested_count": 8418,
-   "schema": "schemas/harvard-librarycloud.md"
+   "schema": "schemas/harvard-librarycloud.md",
+   "continent": "Americas",
+   "country": "United States",
+   "authority": "harvard_yenching"
   },
   {
    "id": "berkeley-starr",
@@ -27,7 +30,10 @@
    "lon": -122.2607,
    "site": "https://digicoll.lib.berkeley.edu/search?cc=chineserubbings",
    "harvested_count": 2745,
-   "schema": "schemas/berkeley-oai.md"
+   "schema": "schemas/berkeley-oai.md",
+   "continent": "Americas",
+   "country": "United States",
+   "authority": "ucb_eal"
   },
   {
    "id": "jp-colbase",
@@ -41,7 +47,9 @@
    "lon": 139.7765,
    "site": "https://colbase.nich.go.jp/",
    "harvested_count": 947,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-ndl",
@@ -55,7 +63,9 @@
    "lon": 139.744,
    "site": "https://dl.ndl.go.jp/",
    "harvested_count": 494,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-daito",
@@ -69,7 +79,9 @@
    "lon": 139.6995,
    "site": "https://www.daito.ac.jp/",
    "harvested_count": 212,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-nijl",
@@ -83,7 +95,9 @@
    "lon": 139.4218,
    "site": "https://www.nijl.ac.jp/",
    "harvested_count": 120,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-nme",
@@ -97,7 +111,9 @@
    "lon": 135.5361,
    "site": "https://www.minpaku.ac.jp/",
    "harvested_count": 100,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-utokyo",
@@ -111,7 +127,11 @@
    "lon": 139.762,
    "site": "https://da.dl.itc.u-tokyo.ac.jp/",
    "harvested_count": 73,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan",
+   "rubbing_site": "https://www.ioc.u-tokyo.ac.jp/database/index.html",
+   "rubbing_site_note": "東洋文化研究所 拓本文字データベース / 関野貞 中国碑碣拓本資料アーカイブ — ~5,000 rubbings, 1.8M characters (Han–Xinhai)"
   },
   {
    "id": "jp-arc",
@@ -125,7 +145,9 @@
    "lon": 135.7195,
    "site": "https://www.dh-jac.net/",
    "harvested_count": 90,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "jp-jpsearch-other",
@@ -139,7 +161,9 @@
    "lon": 138.2,
    "site": "https://jpsearch.go.jp/",
    "harvested_count": 80,
-   "schema": "schemas/japan-search.md"
+   "schema": "schemas/japan-search.md",
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "efeo",
@@ -153,7 +177,10 @@
    "site": "https://www.efeo.fr/",
    "harvested_count": 0,
    "note": "no public API — hand-added",
-   "schema": null
+   "schema": null,
+   "continent": "Europe",
+   "country": "France",
+   "authority": "efeo"
   },
   {
    "id": "indianapolis",
@@ -167,7 +194,9 @@
    "site": "https://discovernewfields.org/",
    "harvested_count": 0,
    "note": "hand-added",
-   "schema": null
+   "schema": null,
+   "continent": "Americas",
+   "country": "United States"
   },
   {
    "id": "toyo-bunko",
@@ -183,7 +212,9 @@
    "catalog": "@Toyobunko2002 — 東洋文庫所蔵中国石刻拓本目録 (Tokyo: Tōyō bunko, 2002)",
    "access": "print catalog only",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "kyoto-jinbun",
@@ -199,7 +230,9 @@
    "catalog": "@Kyoto_zinbun_database — 京都大学人文科学研究所所蔵石刻拓本資料",
    "access": "online database — not yet connected to Epiwen (future connector)",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "tohoku-univ",
@@ -215,7 +248,9 @@
    "catalog": "@Onoetal2013 — 東北大學附属圖書館所藏中國金石文拓本集 (Sendai, 2013)",
    "access": "print catalog only",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "daito-uno",
@@ -231,7 +266,9 @@
    "catalog": "@Tamamura2004 — 宇野雪村文庫拓本目録 (Tokyo, 2004)",
    "access": "print catalog (institution also partly on Japan Search via i-repository)",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "shukutoku-shogaku",
@@ -247,7 +284,9 @@
    "catalog": "@Shogakubunkasenta2016 — 中国石刻拓本目録 (2016)",
    "access": "print catalog + digital archive",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "Japan"
   },
   {
    "id": "field-museum",
@@ -266,7 +305,9 @@
    "schema": null,
    "holdings": "≈4,000+ Chinese rubbings",
    "note": "Noted for >4,000 Chinese rubbings (四千余件). Includes the Qionglai Longxing Monastery 邛崍龍興寺 Diamond-Sutra batch (inv. 233776) collected via D.C. Graham 葛維漢; studied by Zhang Zong 張總.",
-   "source": "obsidian vault — Walravens catalog (@Tchen_Starr1981) + Zhang Zong"
+   "source": "obsidian vault — Walravens catalog (@Tchen_Starr1981) + Zhang Zong",
+   "continent": "Americas",
+   "country": "United States"
   },
   {
    "id": "nlc-beijing",
@@ -282,7 +323,10 @@
    "catalog": "@BJTSG1989 — 北京圖書館藏中國歷代石刻拓本彙編 (101 vols, Zhengzhou, 1989–91)",
    "access": "print catalog (101 vols) only",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "China",
+   "province": "Beijing 北京"
   },
   {
    "id": "pku-library",
@@ -298,7 +342,10 @@
    "catalog": "@Sunguanwen2020 — 北京大學圖書館藏歷代金石拓本草目; @Hu_Tang1998 — 拓本精華",
    "access": "print catalog only",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "China",
+   "province": "Beijing 北京"
   },
   {
    "id": "dalian-library",
@@ -314,7 +361,10 @@
    "catalog": "@Dairentoshokan1925 — 拓本陳列目録 (Dairen, 1925)",
    "access": "historical catalog (1925); current holdings unverified",
    "catalog_only": true,
-   "schema": null
+   "schema": null,
+   "continent": "Asia",
+   "country": "China",
+   "province": "Liaoning 遼寧"
   }
  ]
 }
