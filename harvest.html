@@ -85,7 +85,13 @@
         <input type="search" id="hv-search" placeholder="Filter by title / 中文 / date…" />
         <label><input type="checkbox" id="hv-f-public" /> Public only</label>
         <label><input type="checkbox" id="hv-f-digit" /> Digitised only</label>
-        <label><input type="checkbox" id="hv-f-new" checked /> Hide already imported</label>
+        <label>Show
+          <select id="hv-f-status" aria-label="import status">
+            <option value="all">All</option>
+            <option value="imported">Imported</option>
+            <option value="unimported" selected>Unimported</option>
+          </select>
+        </label>
       </div>
 
       <div id="hv-info" class="hv-info" style="display:none"></div>

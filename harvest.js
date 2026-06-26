@@ -253,11 +253,12 @@ idnos +
   // ── render / filter ──────────────────────────────────────────────────────────
   function applyFilters() {
     var q = fold(el("hv-search").value.trim());
-    var pub = el("hv-f-public").checked, dig = el("hv-f-digit").checked, hideImp = el("hv-f-new").checked;
+    var pub = el("hv-f-public").checked, dig = el("hv-f-digit").checked, status = el("hv-f-status").value;
     filtered = entries.filter(function (e) {
       if (pub && SRC.restricted(e)) return false;
       if (dig && !SRC.digitised(e)) return false;
-      if (hideImp && isImported(e)) return false;
+      if (status === "unimported" && isImported(e)) return false;
+      if (status === "imported" && !isImported(e)) return false;
       if (collFilter && SRC.collectionOf && SRC.collectionOf(e) !== collFilter) return false;
       if (q && fold(SRC.hay(e)).indexOf(q) === -1) return false;
       return true;
@@ -426,7 +427,7 @@ idnos +
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    ["hv-search", "hv-f-public", "hv-f-digit", "hv-f-new"].forEach(function (id) {
+    ["hv-search", "hv-f-public", "hv-f-digit", "hv-f-status"].forEach(function (id) {
       var e = el(id); if (e) e.addEventListener(e.type === "search" ? "input" : "change", applyFilters);
     });
     el("hv-import-btn").addEventListener("click", importSelected);
