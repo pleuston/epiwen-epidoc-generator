@@ -853,11 +853,24 @@
     document.getElementById("preview-title").textContent = "Rubbing Repositories";
     content.innerHTML =
       '<div class="hp-preview"><div style="padding:.25rem">' +
-        '<p style="font-size:.85rem;color:var(--muted);margin-top:0">' +
-          (records.length) + ' rubbings in this catalogue come from ' + keys.length +
-          ' holding institutions and aggregators. Counts are live; select a rubbing to view it.' +
-        '</p><div class="source-grid">' + cards + '</div></div></div>';
+        '<div id="rub-stats" style="border:1px solid var(--line);border-radius:6px;background:var(--field-bg,#fafafa);padding:.7rem .85rem;margin-bottom:1rem;font-size:.85rem">' +
+          '<b>' + records.length + '</b> rubbings in this catalogue from <b>' + keys.length + '</b> holding institutions. ' +
+          '<a class="source-link" href="collections.html">Explore all rubbing collections →</a>' +
+        '</div>' +
+        '<div class="source-grid">' + cards + '</div></div></div>';
     content.style.display = "";
+    // Enrich the banner with global harvest statistics (collections.json, no auth).
+    fetch("collections.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      if (!d || !d.collections) return;
+      var banner = document.getElementById("rub-stats"); if (!banner) return;
+      var harv = d.collections.filter(function (c) { return c.harvested_count; });
+      var total = harv.reduce(function (s, c) { return s + c.harvested_count; }, 0);
+      banner.innerHTML =
+        '<b>' + records.length + '</b> rubbings in this catalogue from <b>' + keys.length + '</b> holding institutions.<br>' +
+        '<span style="color:var(--muted)">Harvested for import: <b>' + total.toLocaleString() + '</b> rubbings across <b>' +
+          harv.length + '</b> collections; <b>' + d.collections.length + '</b> collections catalogued worldwide.</span> ' +
+        '<a class="source-link" href="collections.html">Explore all rubbing collections →</a>';
+    }).catch(function () {});
   }
 
   // From an object's textpart row: switch to the Inscriptions tab and open that
