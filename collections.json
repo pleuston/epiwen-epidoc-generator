@@ -1332,7 +1332,10 @@
    "est_note": "6,557 = inscriptions (not rubbings)",
    "category": "object",
    "aggregates": "national Korean epigraphy corpus (6,557 inscriptions across all of Korea)",
-   "authority": "nrich"
+   "authority": "nrich",
+   "staged_count": 6557,
+   "staged_file": "harvest/nrich-inscriptions.json",
+   "harvested": "2026-06-26"
   },
   {
    "id": "kyujanggak",
@@ -1618,7 +1621,7 @@
    "lon": 121.44,
    "site": "https://library.sh.cn/",
    "harvested_count": 0,
-   "holdings": ">100,000 sheets est.; 古代碑帖知識庫 — the most advanced Chinese platform: BIBFRAME, IIIF, Linked Data, OCR-segmented character classes (shl:Script). The model to cross-walk to.",
+   "holdings": ">100,000 sheets est.; 古代碑帖知識庫 — the most advanced Chinese platform: BIBFRAME, IIIF, Linked Data, OCR-segmented character classes (shl:Script). The model to cross-walk to. [Harvested: 45 LOD knowledge-base exemplars; full ~100k on-site.]",
    "schema": null,
    "province": "Shanghai 上海",
    "rubbing_site": "https://beitie.library.sh.cn/home",
@@ -1626,7 +1629,10 @@
    "api": "BIBFRAME + IIIF + LOD",
    "api_url": "https://beitie.library.sh.cn/home",
    "harvest": "api",
-   "authority": "shanghai_library"
+   "authority": "shanghai_library",
+   "staged_count": 45,
+   "staged_file": "harvest/shanghai-library-beitie.json",
+   "harvested": "2026-06-26"
   },
   {
    "id": "palace-museum-beijing",
@@ -1815,13 +1821,12 @@
    "lon": 121.516,
    "site": "https://www.ncl.edu.tw/",
    "harvested_count": 0,
-   "holdings": "金石拓片資料 — searchable, image-attached, persistent IDs minted at the institution level, IIIF integration; curated subset (count under verification). Track record of institutional data-sharing — second outreach target after IHP.",
+   "holdings": "金石拓片資料 — 6,498 records (verified live: 總筆數 6498). HTML/AJAX search app (rbook.ncl.edu.tw); no clean CSV/JSON/OAI/IIIF list endpoint — harvestable only via a session-based scrape (see harvest/HARVEST-STATUS.md). Image-attached, institution-level persistent IDs.",
    "schema": null,
    "rubbing_site": "https://rbook.ncl.edu.tw/NCLSearch/Search/Index/5",
-   "api": "IIIF + institution-level persistent IDs",
-   "api_url": "https://rbook.ncl.edu.tw/",
-   "harvest": "api",
-   "authority": "ncl_taiwan"
+   "harvest": "scrape",
+   "authority": "ncl_taiwan",
+   "est_count": 6498
   },
   {
    "id": "npm-taipei",

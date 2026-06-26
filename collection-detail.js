@@ -64,6 +64,7 @@
     facts += fact("Type", c.kind === "aggregator" ? "Aggregator" + (c.aggregates ? " — " + esc(c.aggregates) : "") : "Single institution");
     facts += fact("Catalogue layer", c.category === "object" ? "Object / inscription database" + (c.db_type ? " (" + esc(c.db_type) + ")" : "") : "Rubbing collection");
     facts += fact("Harvested into Epiwen", c.harvested_count ? c.harvested_count.toLocaleString() + " rubbings" : null);
+    facts += fact("Harvested / staged", c.staged_count ? c.staged_count.toLocaleString() + " records → <code>" + esc(c.staged_file) + "</code>" : null);
     facts += fact("Documented holding", c.est_count ? "≈ " + c.est_count.toLocaleString() : null);
     facts += fact("拓本 keyword matches (Japan Search)", c.mentions ? "~" + c.mentions.toLocaleString() + " (upper bound)" : null);
     facts += fact("Access", esc(accessLabel(c)) + (c.api ? " — " + esc(c.api) : ""));
