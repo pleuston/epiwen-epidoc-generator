@@ -112,12 +112,13 @@
     return "";
   }
   function cmp(a, b) {
-    var va = sortVal(a, sortKey), vb = sortVal(b, sortKey), r;
-    r = (typeof va === "number") ? va - vb : String(va).localeCompare(String(vb));
-    if (r === 0) r = (b.harvested_count || 0) - (a.harvested_count || 0) ||
-                     (b.mentions || b.est_count || 0) - (a.mentions || a.est_count || 0) ||
-                     fold(a.label || "").localeCompare(fold(b.label || ""));
-    return sortDir === "desc" ? -r : r;
+    var va = sortVal(a, sortKey), vb = sortVal(b, sortKey);
+    var primary = (typeof va === "number") ? va - vb : String(va).localeCompare(String(vb));
+    if (primary !== 0) return sortDir === "desc" ? -primary : primary;
+    // tiebreak (direction-independent): biggest count first, then name A→Z
+    return (b.harvested_count || 0) - (a.harvested_count || 0) ||
+           (b.mentions || b.est_count || 0) - (a.mentions || a.est_count || 0) ||
+           fold(a.label || "").localeCompare(fold(b.label || ""));
   }
   function accessLabel(c) {
     if (c.harvested_count) return c.harvested_count.toLocaleString() + " harvested";
