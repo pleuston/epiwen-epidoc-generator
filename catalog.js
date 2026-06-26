@@ -804,10 +804,10 @@
   // corpus. Counts are computed live from the loaded records (not hardcoded).
   var REPO_META = [
     { re: /harvard.yenching/i, zh: "哈佛燕京圖書館", inventory: 8418, harvest: "harvest.html", desc: "Harvard-Yenching Library's Chinese Rubbings and Rubbings Collection — among the largest outside China, digitised open-access and served via IIIF deep-zoom." },
-    { re: /berkeley/i,         zh: "加州大學柏克萊分校 C.V. Starr 東亞圖書館", desc: "C. V. Starr East Asian Library, UC Berkeley — East Asian rubbings in its digital collections." },
-    { re: /japan ?search|ジャパンサーチ/i, zh: "ジャパンサーチ（日本檢索）", desc: "Japan's national cross-institution discovery portal, aggregating rubbings (拓本) held across Japanese libraries, museums and archives." },
-    { re: /national diet|国立国会図書館|ndl/i, zh: "国立国会図書館", desc: "National Diet Library, Japan — rubbings in its NDL Digital Collections." },
-    { re: /colbase|national institutes for cultural heritage|national museums of japan/i, zh: "ColBase（国立文化財機構）", desc: "ColBase — the integrated collections database of Japan's National Institutes for Cultural Heritage (the national museums)." },
+    { re: /berkeley/i,         zh: "加州大學柏克萊分校 C.V. Starr 東亞圖書館", inventory: 2745, harvest: "harvest.html?source=berkeley", desc: "C. V. Starr East Asian Library, UC Berkeley — East Asian rubbings in its digital collections." },
+    { re: /japan ?search|ジャパンサーチ/i, zh: "ジャパンサーチ（日本檢索）", inventory: 2000, harvest: "harvest.html?source=japansearch", desc: "Japan's national cross-institution discovery portal, aggregating rubbings (拓本) held across Japanese libraries, museums and archives." },
+    { re: /national diet|国立国会図書館|ndl/i, zh: "国立国会図書館", harvest: "harvest.html?source=japansearch", desc: "National Diet Library, Japan — rubbings in its NDL Digital Collections (harvested via Japan Search)." },
+    { re: /colbase|national institutes for cultural heritage|national museums of japan/i, zh: "ColBase（国立文化財機構）", harvest: "harvest.html?source=japansearch", desc: "ColBase — the integrated collections database of Japan's National Institutes for Cultural Heritage (harvested via Japan Search)." },
     { re: /efeo|école française|ecole francaise/i, zh: "法國遠東學院", desc: "École française d'Extrême-Orient — its union catalogue of Chinese estampages (rubbings)." },
     { re: /indianapolis/i,     zh: "印第安納波利斯藝術博物館", desc: "Indianapolis Museum of Art at Newfields — Asian art collection." }
   ];

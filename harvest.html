@@ -64,11 +64,16 @@
     </header>
 
     <main class="hv-main">
-      <h1 class="hv-h1">Rubbing Harvest — Harvard-Yenching</h1>
+      <h1 class="hv-h1">Rubbing Harvest</h1>
       <p class="hv-sub" id="hv-summary">Loading harvest…</p>
 
       <div class="hv-toolbar">
-        <input type="search" id="hv-search" placeholder="Filter by title / date / shelf / HOLLIS…" />
+        <select id="hv-source" aria-label="harvest source">
+          <option value="harvard">Harvard-Yenching</option>
+          <option value="berkeley">UC Berkeley</option>
+          <option value="japansearch">Japan Search · JP institutions</option>
+        </select>
+        <input type="search" id="hv-search" placeholder="Filter by title / 中文 / date…" />
         <label><input type="checkbox" id="hv-f-public" /> Public only</label>
         <label><input type="checkbox" id="hv-f-digit" /> Digitised only</label>
         <label><input type="checkbox" id="hv-f-new" checked /> Hide already imported</label>

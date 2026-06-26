@@ -1,27 +1,21 @@
-/* harvest.js — browse the staged Harvard rubbing harvest and import selected
- * entries into the public rubbing corpus (epiwen-public/collections/rubbings/).
+/* harvest.js — browse the staged rubbing harvests and import selected entries
+ * into the public rubbing corpus (epiwen-public/collections/rubbings/).
  *
- * Reads  : harvest/harvard-rubbings.json  (from the configured data repo, via EpiData)
- * Imports: generates a rubbing TEI record per selected entry and commits it to
- *          pleuston/epiwen-public with the signed-in user's token. Dedupes against
- *          what is already imported (by Harvard FHCL / HOLLIS id) and skips
- *          access-restricted records. */
+ * Sources (staging files in epiwen-public/harvest/, public so the import token
+ * can read them): Harvard-Yenching, UC Berkeley, Japan Search (JP institutions).
+ * Each source supplies its own record generator, filename scheme and dedup key.
+ * Importing generates a rubbing TEI record per selected entry and commits it with
+ * the signed-in user's token; dedupes against what's already imported and skips
+ * access-restricted records. */
 (function () {
   "use strict";
 
   var TARGET = { owner: "pleuston", repo: "epiwen-public", branch: "main", dir: "collections/rubbings" };
-  // The harvest staging file lives in the PUBLIC epiwen-public repo (same repo the
-  // import writes to), so the token that can import can also read it — and it's
-  // independent of the user's configured epiwen_gh_repo. Not rendered by the app.
   var HARVEST_REPO = { owner: "pleuston", repo: "epiwen-public", branch: "main" };
-  var HARVEST = "harvest/harvard-rubbings.json";
   var PAGE = 100;
 
-  var entries = [], filtered = [], page = 0;
-  var importedFhcl = {}, importedHollis = {};   // sets of ids already in the corpus
-
+  // ── generic helpers ─────────────────────────────────────────────────────────
   function token() { return localStorage.getItem("epiwen_gh_token") || ""; }
-  // Fold 繁/简/異體字 + lowercase so search is script-insensitive (variants.js).
   function fold(s) { return window.EpiVariants ? EpiVariants.fold(s) : String(s == null ? "" : s).toLowerCase(); }
   function esc(s) {
     return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
@@ -34,41 +28,179 @@
     setTimeout(function () { t.className = ""; }, err ? 6000 : 3000);
   }
   function b64(s) { return btoa(unescape(encodeURIComponent(s))); }
+  function slug(s) {
+    return String(s || "rubbing").normalize("NFKD").replace(/[^\w]+/g, "_")
+      .replace(/_+/g, "_").replace(/^_|_$/g, "").slice(0, 60) || "rubbing";
+  }
+  function tag(name, val, attrs) { return val ? "<" + name + (attrs || "") + ">" + esc(val) + "</" + name + ">" : ""; }
+  function anyCjk(arr) { for (var i = 0; i < (arr || []).length; i++) if (/[㐀-鿿]/.test(arr[i] || "")) return arr[i]; return ""; }
   function fhclNum(urn) { var m = String(urn || "").match(/FHCL:(\d+)/i); return m ? m[1] : ""; }
-  function isRestricted(e) { return e.access === "R"; }
-  function isImported(e) {
-    return (e.fhcl_urn && importedFhcl[fhclNum(e.fhcl_urn)]) || (e.hollis && importedHollis[e.hollis]) || false;
+  function alnum(s) { return String(s || "").replace(/[^A-Za-z0-9]+/g, ""); }
+
+  // Shared rubbing-TEI builder used by every source's gen().
+  function buildRubbingXml(o) {
+    var refs = (o.refs || []).filter(function (r) { return r.target; }).map(function (r) {
+      return "\n              <bibl><ref type=\"" + r.type + "\" target=\"" + esc(r.target) + "\">" + esc(r.label || r.type) + "</ref></bibl>";
+    }).join("");
+    var idnos = (o.idnos || []).filter(function (i) { return i.value; }).map(function (i) {
+      return "            <idno type=\"" + i.type + "\">" + esc(i.value) + "</idno>\n";
+    }).join("");
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' +
+'<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>\n' +
+'<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">\n' +
+'  <teiHeader>\n    <fileDesc>\n      <titleStmt>\n' +
+'        ' + tag("title", o.titleEn || "Rubbing", ' xml:lang="en"') + '\n' +
+(o.titleZh ? '        ' + tag("title", o.titleZh, ' xml:lang="zh-Hant"') + '\n' : '') +
+'        <editor role="editor">Epiwen import</editor>\n      </titleStmt>\n' +
+'      <publicationStmt>\n        <authority>Epiwen / Altergraphy</authority>\n' +
+'        <idno type="filename">' + esc(o.filename) + '</idno>\n' +
+'        <availability><licence' + (o.licenceTarget ? ' target="' + esc(o.licenceTarget) + '"' : '') + '>' + esc(o.licence || "See source record") + '</licence></availability>\n' +
+'      </publicationStmt>\n      <sourceDesc>\n        <msDesc type="rubbing">\n          <msIdentifier>\n' +
+'            ' + (tag("country", o.country) || "<country/>") + '\n' +
+(o.settlement ? '            ' + tag("settlement", o.settlement) + '\n' : '') +
+'            ' + (tag("repository", o.repository) || "<repository/>") + '\n' +
+idnos +
+'          </msIdentifier>\n          <msContents>\n            ' + (tag("summary", o.summary) || "<summary/>") + '\n          </msContents>\n' +
+'          <physDesc>\n            <objectDesc form="拓本">\n              <supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc>\n            </objectDesc>\n          </physDesc>\n' +
+'          <history><origin>' + (tag("origDate", o.origDate) || "<origDate/>") + (o.origPlace ? " " + tag("origPlace", o.origPlace) : "") + '</origin></history>\n' +
+'          <additional>\n            <listBibl>' + refs + '\n            </listBibl>\n          </additional>\n' +
+'        </msDesc>\n      </sourceDesc>\n    </fileDesc>\n' +
+'    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>\n' +
+'    <revisionDesc>\n      <change when="' + new Date().toISOString().slice(0, 10) + '" who="#epiwen">' + esc(o.changeNote || "Imported via the Epiwen rubbing harvest.") + '</change>\n    </revisionDesc>\n' +
+'  </teiHeader>\n' +
+(o.image ? '  <facsimile>\n    <graphic url="' + esc(o.image) + '"/>\n  </facsimile>\n' : '') +
+'  <text><body><div type="edition"><p>Ink rubbing — see the source record / IIIF for images.</p></div></body></text>\n' +
+'</TEI>\n';
   }
 
-  // ── GitHub helpers (write to epiwen-public with the user's token) ───────────
+  // ── sources ──────────────────────────────────────────────────────────────────
+  var SOURCES = {
+    harvard: {
+      id: "harvard", label: "Harvard-Yenching Library",
+      file: "harvest/harvard-rubbings.json",
+      summary: '<a href="https://library.harvard.edu/digital-collections" target="_blank" rel="noopener">Harvard LibraryCloud</a>',
+      importedRe: /_rubbing_HV(\d+)\.xml$/i,
+      entryId: function (e) { return fhclNum(e.fhcl_urn); },
+      filename: function (e) { var id = e.fhcl_urn ? ("HV" + fhclNum(e.fhcl_urn)) : (e.hollis || "x"); return slug(e.title) + "_rubbing_" + id + ".xml"; },
+      digitised: function (e) { return !!e.digitised; },
+      restricted: function (e) { return e.access === "R"; },
+      cjk: function (e) { return anyCjk(e.titles_all); },
+      meta: function (e) { return [e.date, e.shelf, e.hollis ? "HOLLIS " + e.hollis : "", e.culture].filter(Boolean).join(" · "); },
+      hay: function (e) { return e.title + " " + (e.titles_all || []).join(" ") + " " + e.date + " " + e.shelf + " " + e.hollis; },
+      recordUrl: function (e) { return e.record_url; },
+      viewUrl: function (e) { return e.iiif_manifest ? ("viewer.html?manifest=" + encodeURIComponent(e.iiif_manifest)) : e.record_url; },
+      gen: function (e) {
+        return buildRubbingXml({
+          titleEn: e.title, titleZh: this.cjk(e),
+          repository: e.repository || "Harvard-Yenching Library, Harvard University",
+          country: "United States", settlement: "Cambridge, MA",
+          idnos: [{ type: "hollis", value: e.hollis }, { type: "shelf", value: e.shelf }],
+          summary: e.abstract, origDate: e.date,
+          licence: e.access === "R" ? "Harvard Library — access restricted; see the source record" : "Harvard Library digital collections — open access",
+          licenceTarget: "https://library.harvard.edu/digital-collections",
+          refs: [{ type: "record", target: e.record_url, label: "Harvard Library record" }, { type: "iiif-manifest", target: e.iiif_manifest, label: "IIIF manifest (deep-zoom)" }],
+          image: e.drs_file_id ? ("https://mps.lib.harvard.edu/assets/images/drs:" + e.drs_file_id + "/full/,1000/0/default.jpg") : "",
+          filename: this.filename(e),
+          changeNote: "Imported from Harvard LibraryCloud (" + (e.fhcl_urn || e.hollis || "") + ") via the Epiwen rubbing harvest; images served live from Harvard IIIF."
+        });
+      }
+    },
+    berkeley: {
+      id: "berkeley", label: "UC Berkeley (C.V. Starr)",
+      file: "harvest/berkeley-rubbings.json",
+      summary: '<a href="https://digicoll.lib.berkeley.edu/search?ln=en&cc=chineserubbings" target="_blank" rel="noopener">UC Berkeley Digital Collections</a>',
+      importedRe: /_rubbing_UCB([A-Za-z0-9]+)\.xml$/i,
+      entryId: function (e) { return e.id; },
+      filename: function (e) { return slug(e.title) + "_rubbing_UCB" + alnum(e.id) + ".xml"; },
+      digitised: function (e) { return !!e.image; },
+      restricted: function () { return false; },
+      cjk: function (e) { return anyCjk(e.titles_all); },
+      meta: function (e) { return [e.date, (e.subjects || []).slice(0, 2).join(", ")].filter(Boolean).join(" · "); },
+      hay: function (e) { return e.title + " " + (e.titles_all || []).join(" ") + " " + e.description + " " + (e.subjects || []).join(" "); },
+      recordUrl: function (e) { return e.record_url; },
+      viewUrl: function (e) { return e.record_url; },
+      gen: function (e) {
+        return buildRubbingXml({
+          titleEn: e.title, titleZh: this.cjk(e),
+          repository: "C.V. Starr East Asian Library, University of California, Berkeley",
+          country: "United States", settlement: "Berkeley, CA",
+          idnos: [{ type: "record", value: e.id }],
+          summary: e.description, origDate: e.date,
+          licence: e.rights || "UC Berkeley Library — see the source record for rights",
+          licenceTarget: e.record_url,
+          refs: [{ type: "record", target: e.record_url, label: "UC Berkeley digital collections record" }],
+          image: e.image, filename: this.filename(e),
+          changeNote: "Imported from UC Berkeley digital collections (record " + e.id + ", OAI chineserubbings) via the Epiwen rubbing harvest."
+        });
+      }
+    },
+    japansearch: {
+      id: "japansearch", label: "Japan Search (JP institutions)",
+      file: "harvest/japansearch-rubbings.json",
+      summary: '<a href="https://jpsearch.go.jp/" target="_blank" rel="noopener">Japan Search</a>',
+      importedRe: /_rubbing_JPS([A-Za-z0-9]+)\.xml$/i,
+      entryId: function (e) { return alnum(e.id); },
+      filename: function (e) { return slug(e.title_en || e.title) + "_rubbing_JPS" + alnum(e.id) + ".xml"; },
+      digitised: function (e) { return !!e.image; },
+      restricted: function (e) { return e.access && e.access !== "PUBLIC"; },
+      cjk: function (e) { return /[㐀-鿿]/.test(e.title || "") ? e.title : ""; },
+      meta: function (e) { return [e.date, e.institution, e.origin].filter(Boolean).join(" · "); },
+      hay: function (e) { return (e.title || "") + " " + (e.title_en || "") + " " + (e.description || "") + " " + (e.institution || "") + " " + (e.origin || ""); },
+      recordUrl: function (e) { return e.record_url; },
+      viewUrl: function (e) { return e.record_url; },
+      gen: function (e) {
+        return buildRubbingXml({
+          titleEn: e.title_en || "", titleZh: /[㐀-鿿]/.test(e.title || "") ? e.title : "",
+          repository: e.institution || e.provider || "Japan Search",
+          country: "Japan",
+          idnos: [{ type: "jps", value: e.id }],
+          summary: e.description, origDate: e.date, origPlace: e.origin,
+          licence: "Japan Search / " + (e.institution || "") + " — " + (e.rights || "see source record"),
+          licenceTarget: e.record_url,
+          refs: [{ type: "record", target: e.record_url, label: "Source record" }, { type: "provider", target: "https://jpsearch.go.jp/", label: "Japan Search" }],
+          image: e.image, filename: this.filename(e),
+          changeNote: "Imported from Japan Search (" + e.id + ") via the Epiwen rubbing harvest; image referenced from the holding institution."
+        });
+      }
+    }
+  };
+
+  // ── state ────────────────────────────────────────────────────────────────────
+  var SRC = SOURCES.harvard;
+  var entries = [], filtered = [], page = 0, imported = {};
+
+  function isImported(e) { return !!imported[SRC.id + "|" + SRC.entryId(e)]; }
+
+  // ── GitHub I/O ───────────────────────────────────────────────────────────────
   function ghHeaders() {
     return { "Authorization": "Bearer " + token(), "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
   }
   function listImported() {
+    imported = {};
     var url = "https://api.github.com/repos/" + TARGET.owner + "/" + TARGET.repo +
       "/contents/" + TARGET.dir + "?ref=" + encodeURIComponent(TARGET.branch) + "&_t=" + (new Date().getTime());
     return fetch(url, { headers: ghHeaders(), cache: "no-store" })
       .then(function (r) { return r.ok ? r.json() : []; })
       .then(function (list) {
         (Array.isArray(list) ? list : []).forEach(function (f) {
-          var hv = f.name.match(/_rubbing_HV(\d+)\.xml$/i);
-          if (hv) importedFhcl[hv[1]] = true;
-          var ho = f.name.match(/_rubbing_(\d+)\.xml$/);
-          if (ho) importedHollis[ho[1]] = true;
+          Object.keys(SOURCES).forEach(function (sid) {
+            var m = f.name.match(SOURCES[sid].importedRe);
+            if (m) imported[sid + "|" + m[1]] = true;
+          });
         });
       })
       .catch(function () {});
   }
-  function loadHarvestJson() {
+  function loadHarvestJson(file) {
     var url = "https://api.github.com/repos/" + HARVEST_REPO.owner + "/" + HARVEST_REPO.repo +
-      "/contents/" + HARVEST.split("/").map(encodeURIComponent).join("/") +
+      "/contents/" + file.split("/").map(encodeURIComponent).join("/") +
       "?ref=" + encodeURIComponent(HARVEST_REPO.branch) + "&_t=" + (new Date().getTime());
     // Accept: raw must win over ghHeaders()'s +json, else a >1MB file comes back
-    // as the metadata wrapper (content empty) instead of the raw JSON.
+    // as the metadata wrapper (no entries) instead of the raw JSON.
     return fetch(url, { headers: Object.assign(ghHeaders(), { "Accept": "application/vnd.github.raw" }), cache: "no-store" })
       .then(function (r) {
-        if (r.status === 404) throw new Error(HARVEST + " not found in " + HARVEST_REPO.repo);
-        if (!r.ok) throw new Error("HTTP " + r.status + " loading the harvest");
+        if (r.status === 404) throw new Error(file + " not found");
+        if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
       });
   }
@@ -86,73 +218,15 @@
       .then(function (r) { if (!r.ok) return r.json().then(function (e) { throw new Error(e.message || "HTTP " + r.status); }); return r.json(); });
   }
 
-  // ── Record generation ───────────────────────────────────────────────────────
-  function slug(s) {
-    return String(s || "rubbing").normalize("NFKD").replace(/[^\w]+/g, "_")
-      .replace(/_+/g, "_").replace(/^_|_$/g, "").slice(0, 60) || "rubbing";
-  }
-  function filenameFor(e) {
-    var id = e.fhcl_urn ? ("HV" + fhclNum(e.fhcl_urn)) : (e.hollis || fhclNum(e.via_id) || "x");
-    return slug(e.title) + "_rubbing_" + id + ".xml";
-  }
-  function cjkTitle(e) {
-    var all = e.titles_all || [];
-    for (var i = 0; i < all.length; i++) if (/[㐀-鿿]/.test(all[i])) return all[i];
-    return "";
-  }
-  function tag(name, val, attrs) {
-    if (!val) return "";
-    return "<" + name + (attrs || "") + ">" + esc(val) + "</" + name + ">";
-  }
-  function genXml(e) {
-    var zh = cjkTitle(e);
-    var img = e.drs_file_id ? ("https://mps.lib.harvard.edu/assets/images/drs:" + e.drs_file_id + "/full/,1000/0/default.jpg") : "";
-    var lic = isRestricted(e)
-      ? "Harvard Library — access restricted; see the source record"
-      : "Harvard Library digital collections — open access";
-    var refs = "";
-    if (e.record_url)    refs += "\n              <bibl><ref type=\"record\" target=\"" + esc(e.record_url) + "\">Harvard Library record</ref></bibl>";
-    if (e.iiif_manifest) refs += "\n              <bibl><ref type=\"iiif-manifest\" target=\"" + esc(e.iiif_manifest) + "\">IIIF manifest (deep-zoom)</ref></bibl>";
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' +
-'<?xml-model href="https://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>\n' +
-'<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">\n' +
-'  <teiHeader>\n    <fileDesc>\n      <titleStmt>\n' +
-'        ' + tag("title", e.title || "Rubbing", ' xml:lang="en"') + '\n' +
-(zh ? '        ' + tag("title", zh, ' xml:lang="zh-Hant"') + '\n' : '') +
-'        <editor role="editor">Epiwen import</editor>\n      </titleStmt>\n' +
-'      <publicationStmt>\n        <authority>Epiwen / Altergraphy</authority>\n' +
-'        <idno type="filename">' + esc(filenameFor(e)) + '</idno>\n' +
-'        <availability><licence target="https://library.harvard.edu/digital-collections">' + esc(lic) + '</licence></availability>\n' +
-'      </publicationStmt>\n      <sourceDesc>\n        <msDesc type="rubbing">\n          <msIdentifier>\n' +
-'            <country>United States</country>\n            <settlement>Cambridge, MA</settlement>\n' +
-'            ' + tag("repository", e.repository || "Harvard-Yenching Library, Harvard University") + '\n' +
-(e.hollis ? '            <idno type="hollis">' + esc(e.hollis) + '</idno>\n' : '') +
-(e.shelf ? '            <idno type="shelf">' + esc(e.shelf) + '</idno>\n' : '') +
-'          </msIdentifier>\n          <msContents>\n            ' + (tag("summary", e.abstract) || "<summary/>") + '\n          </msContents>\n' +
-'          <physDesc>\n            <objectDesc form="拓本">\n              <supportDesc><support><objectType>拓片 · ink rubbing on paper</objectType></support></supportDesc>\n            </objectDesc>\n          </physDesc>\n' +
-'          <history><origin>' + (tag("origDate", e.date) || "<origDate/>") + '</origin></history>\n' +
-'          <additional>\n            <listBibl>' + refs + '\n            </listBibl>\n          </additional>\n' +
-'        </msDesc>\n      </sourceDesc>\n    </fileDesc>\n' +
-'    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>\n' +
-'    <revisionDesc>\n      <change when="' + new Date().toISOString().slice(0, 10) + '" who="#epiwen">Imported from Harvard LibraryCloud (' + esc(e.fhcl_urn || e.hollis || "") + ') via the Epiwen rubbing harvest; images served live from Harvard IIIF.</change>\n    </revisionDesc>\n' +
-'  </teiHeader>\n' +
-(img ? '  <facsimile>\n    <graphic url="' + esc(img) + '"/>\n  </facsimile>\n' : '') +
-'  <text><body><div type="edition"><p>Ink rubbing — see the IIIF manifest for the full deep-zoom images.</p></div></body></text>\n' +
-'</TEI>\n';
-  }
-
-  // ── Rendering ────────────────────────────────────────────────────────────────
+  // ── render / filter ──────────────────────────────────────────────────────────
   function applyFilters() {
     var q = fold(el("hv-search").value.trim());
     var pub = el("hv-f-public").checked, dig = el("hv-f-digit").checked, hideImp = el("hv-f-new").checked;
     filtered = entries.filter(function (e) {
-      if (pub && e.access === "R") return false;
-      if (dig && !e.digitised) return false;
+      if (pub && SRC.restricted(e)) return false;
+      if (dig && !SRC.digitised(e)) return false;
       if (hideImp && isImported(e)) return false;
-      if (q) {
-        var hay = fold(e.title + " " + (e.titles_all || []).join(" ") + " " + e.date + " " + e.shelf + " " + e.hollis);
-        if (hay.indexOf(q) === -1) return false;
-      }
+      if (q && fold(SRC.hay(e)).indexOf(q) === -1) return false;
       return true;
     });
     page = 0;
@@ -163,23 +237,21 @@
     if (!filtered.length) { list.innerHTML = '<div class="hv-status">No matching entries.</div>'; el("hv-pager").innerHTML = ""; updateBar(); return; }
     var start = page * PAGE, slice = filtered.slice(start, start + PAGE);
     list.innerHTML = slice.map(function (e, i) {
-      var idx = start + i, imp = isImported(e), restr = isRestricted(e);
+      var idx = start + i, imp = isImported(e), restr = SRC.restricted(e), zh = SRC.cjk(e);
       var box = (imp || restr) ? '<span title="' + (imp ? "already imported" : "access restricted") + '">' + (imp ? "✓" : "🔒") + '</span>'
                                : '<input type="checkbox" class="hv-cb" data-i="' + idx + '">';
-      var zh = cjkTitle(e);
+      var rec = SRC.recordUrl(e), view = SRC.viewUrl(e), titleEn = e.title_en || e.title || "(untitled)";
       return '<div class="hv-row' + (imp ? " imported" : "") + '">' +
         '<div>' + box + '</div>' +
-        '<div><div class="hv-title">' + esc(e.title || "(untitled)") +
-            (zh ? '<span class="hv-zh">' + esc(zh) + '</span>' : '') + '</div>' +
-          '<div class="hv-meta">' + esc(e.date || "") + (e.shelf ? " · " + esc(e.shelf) : "") +
-            (e.hollis ? " · HOLLIS " + esc(e.hollis) : "") + (e.culture ? " · " + esc(e.culture) : "") + '</div></div>' +
+        '<div><div class="hv-title">' + esc(titleEn) + (zh ? '<span class="hv-zh">' + esc(zh) + '</span>' : '') + '</div>' +
+          '<div class="hv-meta">' + esc(SRC.meta(e)) + '</div></div>' +
         '<div class="hv-badges">' +
-          (e.digitised ? '<span class="hv-badge img">IIIF</span>' : '') +
-          (restr ? '<span class="hv-badge lock">restricted</span>' : (e.access === "P" ? '<span class="hv-badge ok">public</span>' : '')) +
+          (SRC.digitised(e) ? '<span class="hv-badge img">image</span>' : '') +
+          (restr ? '<span class="hv-badge lock">restricted</span>' : '') +
           (imp ? '<span class="hv-badge ok">imported</span>' : '') +
           '<div class="hv-links">' +
-            (e.record_url ? '<a href="' + esc(e.record_url) + '" target="_blank" rel="noopener">record ↗</a>' : '') +
-            (e.iiif_manifest ? '<a href="viewer.html?manifest=' + encodeURIComponent(e.iiif_manifest) + '" target="_blank" rel="noopener">view ↗</a>' : '') +
+            (rec ? '<a href="' + esc(rec) + '" target="_blank" rel="noopener">record ↗</a>' : '') +
+            (view && view !== rec ? '<a href="' + esc(view) + '" target="_blank" rel="noopener">view ↗</a>' : '') +
           '</div>' +
         '</div>' +
       '</div>';
@@ -215,14 +287,13 @@
       if (k >= idxs.length) {
         btn.disabled = false;
         el("hv-import-status").textContent = "Done — " + ok + " imported" + (fail ? ", " + fail + " failed" : "") + ".";
-        listImported().then(function () { applyFilters(); });   // refresh imported state
+        listImported().then(function () { applyFilters(); });
         return;
       }
-      var e = filtered[idxs[k]], fn = filenameFor(e);
+      var e = filtered[idxs[k]], fn = SRC.filename(e);
       el("hv-import-status").textContent = "Importing " + (k + 1) + " / " + idxs.length + "…";
-      commit(TARGET.dir + "/" + fn, genXml(e), "Import rubbing: " + fn)
-        .then(function () { ok++; log.innerHTML = '✓ ' + esc(fn) + '<br>' + log.innerHTML;
-          if (e.fhcl_urn) importedFhcl[fhclNum(e.fhcl_urn)] = true; if (e.hollis) importedHollis[e.hollis] = true; })
+      commit(TARGET.dir + "/" + fn, SRC.gen(e), "Import rubbing: " + fn)
+        .then(function () { ok++; log.innerHTML = '✓ ' + esc(fn) + '<br>' + log.innerHTML; imported[SRC.id + "|" + SRC.entryId(e)] = true; })
         .catch(function (err) { fail++; log.innerHTML = '✗ ' + esc(fn) + ' — ' + esc(err.message) + '<br>' + log.innerHTML; })
         .then(function () { setTimeout(function () { step(k + 1); }, 250); });
     }
@@ -231,13 +302,26 @@
 
   function summarize() {
     var total = entries.length;
-    var pub = entries.filter(function (e) { return e.access === "P"; }).length;
-    var dig = entries.filter(function (e) { return e.digitised; }).length;
+    var dig = entries.filter(function (e) { return SRC.digitised(e); }).length;
     var imp = entries.filter(isImported).length;
     el("hv-summary").innerHTML =
-      '<b>' + imp + '</b> of <b>' + total + '</b> imported · ' + dig + ' digitised · ' + pub + ' public · ' +
-      'source: <a href="https://library.harvard.edu/digital-collections" target="_blank" rel="noopener">Harvard LibraryCloud</a>. ' +
-      'Select entries and import into the public rubbing corpus.';
+      '<b>' + imp + '</b> of <b>' + total + '</b> imported · ' + dig + ' with images · source: ' + SRC.summary +
+      '. Select entries and import into the public rubbing corpus.';
+  }
+
+  function loadSource(sid) {
+    SRC = SOURCES[sid] || SOURCES.harvard;
+    entries = []; filtered = []; page = 0;
+    el("hv-list").innerHTML = '<div class="hv-status">Loading ' + esc(SRC.label) + '…</div>';
+    el("hv-summary").textContent = "Loading…";
+    Promise.all([loadHarvestJson(SRC.file), listImported()]).then(function (res) {
+      entries = (res[0] && res[0].entries) || [];
+      summarize();
+      applyFilters();
+    }).catch(function (err) {
+      el("hv-list").innerHTML = '<div class="hv-status">Could not load ' + esc(SRC.file) + ' — ' + esc(err.message) + '.</div>';
+      el("hv-summary").textContent = "Harvest unavailable.";
+    });
   }
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -246,18 +330,10 @@
     });
     el("hv-import-btn").addEventListener("click", importSelected);
 
-    // epiwen-public is public, so the inventory is browsable without a token;
-    // importing still requires a token that can write epiwen-public.
-    Promise.all([
-      loadHarvestJson().catch(function (err) { throw new Error("Could not load the harvest — " + err.message + " (from " + HARVEST_REPO.owner + "/" + HARVEST_REPO.repo + ")."); }),
-      listImported()
-    ]).then(function (res) {
-      entries = (res[0] && res[0].entries) || [];
-      summarize();
-      applyFilters();
-    }).catch(function (err) {
-      el("hv-list").innerHTML = '<div class="hv-status">' + esc(err.message) + '</div>';
-      el("hv-summary").textContent = "Harvest unavailable.";
-    });
+    var sel = el("hv-source");
+    var want = new URLSearchParams(location.search).get("source");
+    if (want && SOURCES[want]) sel.value = want;
+    sel.addEventListener("change", function () { loadSource(this.value); });
+    loadSource(sel.value);
   });
 })();
