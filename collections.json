@@ -1539,13 +1539,14 @@
    "lat": 36.0564,
    "lon": 103.8608,
    "harvested_count": 0,
-   "holdings": "Lanzhou University aggregator — ~100,000 epigraphy/rubbing records, the most ambitious PRC aggregator outside Beijing/Shanghai; subscription / institutional-trial only. No public API.",
+   "holdings": "Lanzhou University aggregator (with the 甘肅省金石博物館 + LZU 金石學 research team) — ≈100,000 jinshi records (pre-Qin–end of Qing), ≈100M characters of transcriptions + descriptions, ~60% from newly-published excavation material; the most ambitious PRC aggregator outside Beijing/Shanghai. Subscription / institutional-trial only, geo-blocked outside China, no public API.",
    "schema": null,
    "site": "https://gsdb.lib.lzu.edu.cn/",
    "rubbing_site": "https://gsdb.lib.lzu.edu.cn/",
    "est_count": 100000,
    "commercial": true,
-   "harvest": "subscription"
+   "harvest": "subscription",
+   "access": "Subscription / institutional-trial only; geo-blocked; no public API."
   },
   {
    "id": "zju-muzhi",
