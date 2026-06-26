@@ -105,7 +105,7 @@
   ];
   function sortVal(c, key) {
     if (key === "harvested") return c.harvested_count || 0;
-    if (key === "mentions")  return c.mentions || 0;
+    if (key === "mentions")  return c.mentions || c.est_count || 0;
     if (key === "name")      return fold(c.label || "");
     if (key === "country")   return (c.country || "") + "|" + (c.province || "");
     if (key === "kind")      return c.kind || "";
@@ -115,14 +115,16 @@
     var va = sortVal(a, sortKey), vb = sortVal(b, sortKey), r;
     r = (typeof va === "number") ? va - vb : String(va).localeCompare(String(vb));
     if (r === 0) r = (b.harvested_count || 0) - (a.harvested_count || 0) ||
-                     (b.mentions || 0) - (a.mentions || 0) ||
+                     (b.mentions || b.est_count || 0) - (a.mentions || a.est_count || 0) ||
                      fold(a.label || "").localeCompare(fold(b.label || ""));
     return sortDir === "desc" ? -r : r;
   }
   function accessLabel(c) {
     if (c.harvested_count) return c.harvested_count.toLocaleString() + " harvested";
     if (c.connector === "japan-search") return "via Japan Search";
+    if (c.connector === "efeo-estampages") return "EFEO database";
     if (c.connector === "database") return "online database";
+    if (c.rubbing_site) return "online catalogue";
     return "catalog-only";
   }
   function linksFor(c) {
@@ -130,7 +132,8 @@
     if (src && c.harvested_count) L.push('<a href="harvest.html?source=' + src + '">holdings</a>');
     if (c.js_browse) L.push('<a href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Japan Search ↗</a>');
     if (c.site) L.push('<a href="' + esc(c.site) + '" target="_blank" rel="noopener">site ↗</a>');
-    if (c.rubbing_site && c.rubbing_site !== c.site) L.push('<a href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">rubbing db ↗</a>');
+    if (c.rubbing_site && c.rubbing_site !== c.site) L.push('<a href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">' + (c.connector === "efeo-estampages" ? "EFEO db ↗" : "rubbing db ↗") + '</a>');
+    if (c.rubbing_db2 && c.rubbing_db2 !== c.rubbing_site && c.rubbing_db2 !== c.site) L.push('<a href="' + esc(c.rubbing_db2) + '" target="_blank" rel="noopener">catalogue ↗</a>');
     if (c.authority) L.push('<a href="institutions.html?id=' + encodeURIComponent(c.authority) + '">authority</a>');
     return L.join(" ");
   }
@@ -138,7 +141,9 @@
     var kind = c.kind === "aggregator"
       ? '<span class="coll-kind agg" title="' + esc(c.aggregates || "aggregates several institutions") + '">aggregator</span>'
       : '<span class="coll-kind inst">institution</span>';
-    var catLine = c.catalog ? '<div class="ct-city" title="' + esc(c.catalog) + '">' + esc(c.catalog.length > 44 ? c.catalog.slice(0, 42) + "…" : c.catalog) + '</div>' : "";
+    var sub = c.catalog || c.holdings || "";
+    var catLine = sub ? '<div class="ct-city" title="' + esc(c.catalogue || c.catalog || c.holdings || "") + '">' + esc(sub.length > 50 ? sub.slice(0, 48) + "…" : sub) + '</div>' : "";
+    var est = c.mentions || c.est_count || 0;
     return '<tr>' +
       '<td><div class="ct-name">' + esc(c.label) + '</div>' +
         (c.label_zh ? '<div class="ct-zh">' + esc(c.label_zh) + '</div>' : "") +
@@ -146,7 +151,7 @@
       '<td>' + esc(c.country || "—") + (c.province ? '<div class="ct-city">' + esc(c.province) + '</div>' : "") + '</td>' +
       '<td>' + kind + '</td>' +
       '<td class="num">' + (c.harvested_count ? c.harvested_count.toLocaleString() : "—") + '</td>' +
-      '<td class="num">' + (c.mentions ? "~" + c.mentions.toLocaleString() : "—") + '</td>' +
+      '<td class="num">' + (est ? "~" + est.toLocaleString() : "—") + '</td>' +
       '<td><span class="coll-access" title="' + esc(c.access || "") + '">' + accessLabel(c) + '</span>' + catLine + '</td>' +
       '<td><div class="ct-links">' + linksFor(c) + '</div></td>' +
       '</tr>';

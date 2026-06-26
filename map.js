@@ -219,11 +219,14 @@
             "<h4>" + esc(c.label) + (c.label_zh ? ' <span class="pp-sub">' + esc(c.label_zh) + "</span>" : "") + "</h4>" +
             (c.harvested_count ? '<div class="pp-sub">' + c.harvested_count + " rubbings harvested" + (c.via ? " · via " + esc(c.via) : "") + "</div>"
                                : (c.connector === "japan-search" ? '<div class="pp-sub">via Japan Search — not yet harvested</div>'
+                                  : c.connector === "efeo-estampages" ? '<div class="pp-sub">EFEO « Estampages chinois conservés en Europe » database</div>'
                                                                   : '<div class="pp-sub">catalog-only — not yet harvested</div>')) +
             (c.holdings ? '<div class="pp-sub">Holdings: ' + esc(c.holdings) + "</div>" : "") +
-            (c.mentions ? '<div class="pp-sub">~' + c.mentions + " records mention 拓本</div>" : "") +
+            (c.mentions ? '<div class="pp-sub">~' + c.mentions + " records mention 拓本</div>"
+                        : (c.est_count ? '<div class="pp-sub">~' + c.est_count.toLocaleString() + " rubbings (est.)</div>" : "")) +
             (c.catalog ? '<div class="pp-sub">Catalog: ' + esc(c.catalog) + "</div>" : "") +
             (c.site ? '<a class="btn small" href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a> ' : "") +
+            (c.rubbing_site && c.rubbing_site !== c.site ? '<a class="btn small primary" href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">' + (c.connector === "efeo-estampages" ? "EFEO database ↗" : "Rubbing database ↗") + '</a> ' : "") +
             (src && c.harvested_count ? '<a class="btn small primary" href="harvest.html?source=' + src + '">Browse harvest →</a>' : "") +
             (c.js_browse ? '<a class="btn small primary" href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Browse on Japan Search ↗</a>' : "")
           ).addTo(collLayer);
