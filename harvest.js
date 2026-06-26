@@ -61,7 +61,9 @@
     var url = "https://api.github.com/repos/" + HARVEST_REPO.owner + "/" + HARVEST_REPO.repo +
       "/contents/" + HARVEST.split("/").map(encodeURIComponent).join("/") +
       "?ref=" + encodeURIComponent(HARVEST_REPO.branch) + "&_t=" + (new Date().getTime());
-    return fetch(url, { headers: Object.assign({ "Accept": "application/vnd.github.raw" }, ghHeaders()), cache: "no-store" })
+    // Accept: raw must win over ghHeaders()'s +json, else a >1MB file comes back
+    // as the metadata wrapper (content empty) instead of the raw JSON.
+    return fetch(url, { headers: Object.assign(ghHeaders(), { "Accept": "application/vnd.github.raw" }), cache: "no-store" })
       .then(function (r) {
         if (r.status === 404) throw new Error(HARVEST + " not found in " + HARVEST_REPO.repo);
         if (!r.ok) throw new Error("HTTP " + r.status + " loading the harvest");
