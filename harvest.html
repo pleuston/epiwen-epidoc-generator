@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Rubbing Harvest</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <script src="data.js"></script>
+    <style>
+      .hv-main { max-width: 1100px; margin: 0 auto; padding: 1.4rem 1.5rem 4rem; }
+      .hv-h1 { font-size: 1.3rem; font-weight: 700; margin: 0 0 .2rem; }
+      .hv-sub { font-size: .85rem; color: var(--muted); margin: 0 0 1.1rem; }
+      .hv-sub b { color: var(--ink); }
+      .hv-toolbar {
+        display: flex; gap: .6rem; flex-wrap: wrap; align-items: center;
+        padding: .7rem .8rem; background: var(--field-bg, #fafafa);
+        border: 1px solid var(--line); border-radius: 6px; margin-bottom: 1rem;
+        position: sticky; top: 0; z-index: 5;
+      }
+      .hv-toolbar input[type=search] { flex: 1; min-width: 200px; }
+      .hv-toolbar label { font-size: .82rem; color: var(--muted); display: inline-flex; align-items: center; gap: .3rem; }
+      .hv-row {
+        display: grid; grid-template-columns: 26px 1fr auto; gap: .6rem; align-items: start;
+        padding: .5rem .6rem; border-bottom: 1px solid var(--line); font-size: .85rem;
+      }
+      .hv-row:hover { background: var(--field-bg, #fafafa); }
+      .hv-row.imported { opacity: .55; }
+      .hv-title { font-weight: 600; color: var(--ink); }
+      .hv-meta { font-size: .77rem; color: var(--muted); margin-top: .15rem; }
+      .hv-badges { white-space: nowrap; text-align: right; font-size: .72rem; }
+      .hv-badge {
+        display: inline-block; padding: .05rem .35rem; border-radius: 3px;
+        background: #eef0f2; color: var(--muted); margin-left: .25rem;
+      }
+      .hv-badge.ok { background: #e3f0e3; color: #2e6b2e; }
+      .hv-badge.lock { background: #f3e5e5; color: #8a3030; }
+      .hv-badge.img { background: #e6ecf5; color: #2f4f86; }
+      .hv-links a { color: var(--accent); font-size: .76rem; margin-left: .4rem; white-space: nowrap; }
+      .hv-pager { display: flex; gap: .6rem; align-items: center; justify-content: center; margin: 1rem 0; font-size: .85rem; }
+      .hv-status { font-size: .82rem; color: var(--muted); padding: 1rem 0; }
+      #hv-import-bar {
+        position: sticky; bottom: 0; background: var(--bg); border-top: 1px solid var(--line);
+        padding: .7rem .8rem; display: none; gap: .8rem; align-items: center; font-size: .85rem;
+      }
+      #hv-log { font-size: .8rem; color: var(--muted); margin-top: .4rem; max-height: 9rem; overflow: auto; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
+      <nav class="sitenav">
+        <div class="nav-group">
+          <button class="nav-group-btn">Catalogs</button>
+          <div class="nav-group-dropdown">
+            <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+            <a href="catalog.html" class="sitenav-link">Objects</a>
+            <a href="sites.html" class="sitenav-link">Sites</a>
+          </div>
+        </div>
+      </nav>
+      <div class="topbar-end"><button onclick="EpiAuth.signOut()" class="btn small">Sign out</button></div>
+    </header>
+
+    <main class="hv-main">
+      <h1 class="hv-h1">Rubbing Harvest — Harvard-Yenching</h1>
+      <p class="hv-sub" id="hv-summary">Loading harvest…</p>
+
+      <div class="hv-toolbar">
+        <input type="search" id="hv-search" placeholder="Filter by title / date / shelf / HOLLIS…" />
+        <label><input type="checkbox" id="hv-f-public" /> Public only</label>
+        <label><input type="checkbox" id="hv-f-digit" /> Digitised only</label>
+        <label><input type="checkbox" id="hv-f-new" checked /> Hide already imported</label>
+      </div>
+
+      <div id="hv-list"><div class="hv-status">Loading…</div></div>
+      <div class="hv-pager" id="hv-pager"></div>
+
+      <div id="hv-import-bar">
+        <span id="hv-selcount">0 selected</span>
+        <button class="btn primary small" id="hv-import-btn">Import selected →</button>
+        <span id="hv-import-status"></span>
+      </div>
+      <div id="hv-log"></div>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="harvest.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>

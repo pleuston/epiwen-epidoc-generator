@@ -803,7 +803,7 @@
   // Curated metadata for the holding institutions/aggregators in the rubbing
   // corpus. Counts are computed live from the loaded records (not hardcoded).
   var REPO_META = [
-    { re: /harvard.yenching/i, zh: "哈佛燕京圖書館", desc: "Harvard-Yenching Library's Chinese Rubbings and Rubbings Collection — among the largest outside China, digitised open-access and served via IIIF deep-zoom." },
+    { re: /harvard.yenching/i, zh: "哈佛燕京圖書館", inventory: 8418, harvest: "harvest.html", desc: "Harvard-Yenching Library's Chinese Rubbings and Rubbings Collection — among the largest outside China, digitised open-access and served via IIIF deep-zoom." },
     { re: /berkeley/i,         zh: "加州大學柏克萊分校 C.V. Starr 東亞圖書館", desc: "C. V. Starr East Asian Library, UC Berkeley — East Asian rubbings in its digital collections." },
     { re: /japan ?search|ジャパンサーチ/i, zh: "ジャパンサーチ（日本檢索）", desc: "Japan's national cross-institution discovery portal, aggregating rubbings (拓本) held across Japanese libraries, museums and archives." },
     { re: /national diet|国立国会図書館|ndl/i, zh: "国立国会図書館", desc: "National Diet Library, Japan — rubbings in its NDL Digital Collections." },
@@ -836,13 +836,17 @@
       var g = groups[k], m = repoMeta(g.name);
       var host = "";
       if (g.url) { try { host = new URL(g.url).hostname.replace(/^www\./, ""); } catch (e) { host = g.url; } }
+      var countTag = (m && m.inventory)
+        ? '<span class="source-tag" title="imported into Epiwen / full harvested inventory">' + g.count + ' of ' + m.inventory.toLocaleString() + ' imported</span>'
+        : '<span class="source-tag">' + g.count + (g.count === 1 ? " rubbing" : " rubbings") + ' in Epiwen</span>';
       return '<div class="source-card">' +
         '<h3>' + esc(g.name) + '</h3>' +
         (m && m.zh ? '<div class="source-zh">' + esc(m.zh) + '</div>' : "") +
-        '<span class="source-tag">' + g.count + (g.count === 1 ? " rubbing" : " rubbings") + ' in Epiwen</span>' +
+        countTag +
         (g.country ? '<span class="source-tag">' + esc(g.country) + '</span>' : "") +
         (m && m.desc ? '<p>' + esc(m.desc) + '</p>' : "") +
         (g.url ? '<a class="source-link" href="' + esc(g.url) + '" target="_blank" rel="noopener">' + esc(host || "record ↗") + '</a>' : "") +
+        (m && m.harvest ? ' &ensp;·&ensp; <a class="source-link" href="' + esc(m.harvest) + '">browse full inventory →</a>' : "") +
         '</div>';
     }).join("");
 
