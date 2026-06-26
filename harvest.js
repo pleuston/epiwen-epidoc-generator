@@ -34,6 +34,21 @@
   }
   function tag(name, val, attrs) { return val ? "<" + name + (attrs || "") + ">" + esc(val) + "</" + name + ">" : ""; }
   function anyCjk(arr) { for (var i = 0; i < (arr || []).length; i++) if (/[㐀-鿿]/.test(arr[i] || "")) return arr[i]; return ""; }
+  // Japan Search collection-code → clean label (cobas etc. aggregate many museums).
+  var JS_DB = {
+    cobas: "ColBase · National Museums of Japan", dignl: "NDL Digital Collections",
+    daito: "Daitō Bunka University", utokyo_da: "University of Tokyo",
+    arc_resource: "ARC, Ritsumeikan University", arc_books: "ARC, Ritsumeikan University",
+    arc_nishikie: "ARC, Ritsumeikan University", bibnl: "National Diet Library",
+    nmj01: "Nat'l Institute of Japanese Literature", nmj02: "Nat'l Institute of Japanese Literature"
+  };
+  function jsDbLabel(e) {
+    if (JS_DB[e.database]) return JS_DB[e.database];
+    var inst = (e.institution || "").split(" / ").filter(function (x) {
+      return /博物館|圖書館|図書館|大學|大学|文庫|文化財|機構|資料館|美術館|Museum|Library|Universit|Archives|Institut|National/.test(x);
+    });
+    return inst[0] || e.provider || e.database || "(unknown)";
+  }
   function fhclNum(urn) { var m = String(urn || "").match(/FHCL:(\d+)/i); return m ? m[1] : ""; }
   function alnum(s) { return String(s || "").replace(/[^A-Za-z0-9]+/g, ""); }
 
@@ -66,7 +81,10 @@ idnos +
 '          <additional>\n            <listBibl>' + refs + '\n            </listBibl>\n          </additional>\n' +
 '        </msDesc>\n      </sourceDesc>\n    </fileDesc>\n' +
 '    <profileDesc><langUsage><language ident="zh">Literary Chinese 漢文</language></langUsage></profileDesc>\n' +
-'    <revisionDesc>\n      <change when="' + new Date().toISOString().slice(0, 10) + '" who="#epiwen">' + esc(o.changeNote || "Imported via the Epiwen rubbing harvest.") + '</change>\n    </revisionDesc>\n' +
+'    <revisionDesc>\n      <change when="' + new Date().toISOString().slice(0, 10) + '" who="#epiwen">' +
+  esc((o.changeNote || "Imported via the Epiwen rubbing harvest.") +
+      (META.harvested ? " Harvested " + META.harvested + (META.harvest_log ? " — " + META.harvest_log : "") + "." : "")) +
+'</change>\n    </revisionDesc>\n' +
 '  </teiHeader>\n' +
 (o.image ? '  <facsimile>\n    <graphic url="' + esc(o.image) + '"/>\n  </facsimile>\n' : '') +
 '  <text><body><div type="edition"><p>Ink rubbing — see the source record / IIIF for images.</p></div></body></text>\n' +
@@ -148,7 +166,14 @@ idnos +
       hay: function (e) { return (e.title || "") + " " + (e.title_en || "") + " " + (e.description || "") + " " + (e.institution || "") + " " + (e.origin || ""); },
       recordUrl: function (e) { return e.record_url; },
       viewUrl: function (e) { return e.record_url; },
+      // Japan Search aggregates many collections — filter by the source collection.
+      collections: true,
+      collectionOf: function (e) { return e.database || ""; },
+      collectionLabel: function (e) { return jsDbLabel(e); },
       gen: function (e) {
+        // "harvested via Japan Search": cite the original record when present, else
+        // mark Japan Search as the only (non-independently-verifiable) access path.
+        var hasOrig = !!e.record_url;
         return buildRubbingXml({
           titleEn: e.title_en || "", titleZh: /[㐀-鿿]/.test(e.title || "") ? e.title : "",
           repository: e.institution || e.provider || "Japan Search",
@@ -156,10 +181,12 @@ idnos +
           idnos: [{ type: "jps", value: e.id }],
           summary: e.description, origDate: e.date, origPlace: e.origin,
           licence: "Japan Search / " + (e.institution || "") + " — " + (e.rights || "see source record"),
-          licenceTarget: e.record_url,
-          refs: [{ type: "record", target: e.record_url, label: "Source record" }, { type: "provider", target: "https://jpsearch.go.jp/", label: "Japan Search" }],
+          licenceTarget: e.record_url || "https://jpsearch.go.jp/",
+          refs: [{ type: "record", target: e.record_url, label: (e.institution || "Holding institution") + " record" },
+                 { type: "provider", target: "https://jpsearch.go.jp/", label: "Japan Search (harvest aggregator)" }],
           image: e.image, filename: this.filename(e),
-          changeNote: "Imported from Japan Search (" + e.id + ") via the Epiwen rubbing harvest; image referenced from the holding institution."
+          changeNote: "Harvested via Japan Search (" + e.id + "; collection: " + (e.institution || e.database) + "). " +
+            (hasOrig ? "Original record: " + e.record_url + "." : "Original record not independently linkable — Japan Search is the access path.")
         });
       }
     }
@@ -167,7 +194,7 @@ idnos +
 
   // ── state ────────────────────────────────────────────────────────────────────
   var SRC = SOURCES.harvard;
-  var entries = [], filtered = [], page = 0, imported = {};
+  var entries = [], filtered = [], page = 0, imported = {}, META = {}, collFilter = "";
 
   function isImported(e) { return !!imported[SRC.id + "|" + SRC.entryId(e)]; }
 
@@ -231,6 +258,7 @@ idnos +
       if (pub && SRC.restricted(e)) return false;
       if (dig && !SRC.digitised(e)) return false;
       if (hideImp && isImported(e)) return false;
+      if (collFilter && SRC.collectionOf && SRC.collectionOf(e) !== collFilter) return false;
       if (q && fold(SRC.hay(e)).indexOf(q) === -1) return false;
       return true;
     });
@@ -309,18 +337,41 @@ idnos +
     var total = entries.length;
     var dig = entries.filter(function (e) { return SRC.digitised(e); }).length;
     var imp = entries.filter(isImported).length;
+    var when = META.harvested ? ' · harvested ' + esc(META.harvested) +
+      (META.harvest_log ? ' (<a href="' + esc(META.harvest_log) + '" target="_blank" rel="noopener">log</a>)' : '') : '';
     el("hv-summary").innerHTML =
-      '<b>' + imp + '</b> of <b>' + total + '</b> imported · ' + dig + ' with images · source: ' + SRC.summary +
+      '<b>' + imp + '</b> of <b>' + total + '</b> imported · ' + dig + ' with images · source: ' + SRC.summary + when +
       '. Select entries and import into the public rubbing corpus.';
+  }
+
+  // Populate the collection sub-filter for aggregator sources (Japan Search).
+  function buildCollectionFilter() {
+    var sel = el("hv-collection");
+    collFilter = "";
+    if (!SRC.collections) { sel.style.display = "none"; sel.innerHTML = ""; return; }
+    var counts = {}, labels = {};
+    entries.forEach(function (e) {
+      var c = SRC.collectionOf(e); if (!c) return;
+      counts[c] = (counts[c] || 0) + 1;
+      if (!labels[c]) labels[c] = SRC.collectionLabel(e);
+    });
+    var keys = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+    sel.innerHTML = '<option value="">All collections (' + entries.length + ')</option>' +
+      keys.map(function (c) {
+        return '<option value="' + esc(c) + '">' + esc((labels[c] || c).split(" / ")[0]) + ' (' + counts[c] + ')</option>';
+      }).join("");
+    sel.style.display = "";
   }
 
   function loadSource(sid) {
     SRC = SOURCES[sid] || SOURCES.harvard;
-    entries = []; filtered = []; page = 0;
+    entries = []; filtered = []; page = 0; META = {}; collFilter = "";
     el("hv-list").innerHTML = '<div class="hv-status">Loading ' + esc(SRC.label) + '…</div>';
     el("hv-summary").textContent = "Loading…";
     Promise.all([loadHarvestJson(SRC.file), listImported()]).then(function (res) {
-      entries = (res[0] && res[0].entries) || [];
+      META = res[0] || {};
+      entries = META.entries || [];
+      buildCollectionFilter();
       summarize();
       applyFilters();
     }).catch(function (err) {
@@ -334,6 +385,7 @@ idnos +
       var e = el(id); if (e) e.addEventListener(e.type === "search" ? "input" : "change", applyFilters);
     });
     el("hv-import-btn").addEventListener("click", importSelected);
+    el("hv-collection").addEventListener("change", function () { collFilter = this.value; applyFilters(); });
 
     var sel = el("hv-source");
     var want = new URLSearchParams(location.search).get("source");
