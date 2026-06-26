@@ -1776,13 +1776,13 @@
    "lon": 121.615,
    "site": "https://www.ihp.sinica.edu.tw/",
    "harvested_count": 0,
-   "holdings": "≈50,000 rubbings — 40,000 oracle-bone (world's largest), 5,700 Buddhist statuary, 2,200 Liao–Jin–Yuan, Han reliefs, bronzes. Metadata harvestable (IHPKMC scriptable; ASCDC SPARQL); 釋文 full text member-gated.",
+   "holdings": "≈50,000 rubbings — ≈40,000 oracle-bone (world's largest), ≈5,700 Buddhist stone-statuary, ≈2,200 Liao–Jin–Yuan (1,300 Yuan / 540 Jin / 220 Liao), a Five Dynasties–Song subset, Han stone-relief & bronze. IHPKMC platform is member-gated (full 釋文 behind login; session-token URLs); harvestable only via a bespoke connector (ihp_rubbings.py v0.2). Aggregate IHP Digital Archives ≈642,000 records.",
    "schema": null,
    "rubbing_site": "https://ihparchive.ihp.sinica.edu.tw/ihpkmc/ihpkm_op",
    "est_count": 50000,
-   "api": "scriptable HTTP + ASCDC SPARQL",
-   "api_url": "https://ihparchive.ihp.sinica.edu.tw/ihpkmc/ihpkm_op",
-   "harvest": "api"
+   "harvest": "request",
+   "needs_request": true,
+   "access": "Member-gated (IHPKMC). Active data-sharing outreach target (since 2026-05); not openly harvestable."
   },
   {
    "id": "ncl-taipei",
@@ -1799,10 +1799,10 @@
    "lon": 121.516,
    "site": "https://www.ncl.edu.tw/",
    "harvested_count": 0,
-   "holdings": "金石拓片資料 — curated, image-attached, institution-level persistent IDs, IIIF; track record of institutional data-sharing.",
+   "holdings": "金石拓片資料 — searchable, image-attached, persistent IDs minted at the institution level, IIIF integration; curated subset (count under verification). Track record of institutional data-sharing — second outreach target after IHP.",
    "schema": null,
    "rubbing_site": "https://rbook.ncl.edu.tw/NCLSearch/Search/Index/5",
-   "api": "IIIF + persistent IDs",
+   "api": "IIIF + institution-level persistent IDs",
    "api_url": "https://rbook.ncl.edu.tw/",
    "harvest": "api"
   },
@@ -1821,12 +1821,12 @@
    "lon": 121.5485,
    "site": "https://www.npm.gov.tw/",
    "harvested_count": 0,
-   "holdings": "故宮典藏資料檢索 — 墨拓本 entries (e.g. 漢刻石殘字墨拓本軸); CC0/CC-BY on a substantial subset, the most open Chinese-language institutional licence. Many transferred from Beijing pre-1949.",
+   "holdings": "故宮典藏資料檢索 — 墨拓本 entries (e.g. 漢刻石殘字墨拓本軸); rubbing count not broken out (≈700k objects total). Open access under CC0 / CC BY 4.0 on a substantial subset — the most open Chinese-language institutional licence. Many transferred from the Beijing Palace Museum pre-1949. Open web catalogue, no documented bulk API.",
    "schema": null,
    "rubbing_site": "https://digitalarchive.npm.gov.tw/",
-   "api": "open (CC0 / CC-BY)",
-   "api_url": "https://digitalarchive.npm.gov.tw/",
-   "harvest": "api"
+   "harvest": "open",
+   "open_license": "CC0 / CC BY 4.0",
+   "access": "Open access (CC0 / CC BY 4.0); web catalogue, no documented API."
   },
   {
    "id": "ntu-library",
@@ -1846,6 +1846,26 @@
    "schema": null,
    "needs_request": true,
    "harvest": "request"
+  },
+  {
+   "id": "nmh-taipei",
+   "label": "National Museum of History (國立歷史博物館), Taipei",
+   "label_zh": "國立歷史博物館",
+   "connector": "none",
+   "kind": "institution",
+   "aggregator": false,
+   "category": "rubbing",
+   "continent": "Asia",
+   "country": "Taiwan",
+   "city": "Taipei, Taiwan",
+   "lat": 25.0318,
+   "lon": 121.5095,
+   "site": "https://www.nmh.gov.tw/",
+   "harvested_count": 0,
+   "needs_request": true,
+   "harvest": "request",
+   "schema": null,
+   "holdings": "Pre-1949 transfers from the Henan Provincial Museum 河南博物館; rubbing component unclear — verification pending (per the vault CN/TW survey)."
   }
  ]
 }
