@@ -10,9 +10,10 @@
   "use strict";
 
   var TARGET = { owner: "pleuston", repo: "epiwen-public", branch: "main", dir: "collections/rubbings" };
-  // The harvest staging file lives in the data repo; read it explicitly (not via
-  // EpiData) so the tool works regardless of the user's configured epiwen_gh_repo.
-  var HARVEST_REPO = { owner: "pleuston", repo: "epiwen-data", branch: "main" };
+  // The harvest staging file lives in the PUBLIC epiwen-public repo (same repo the
+  // import writes to), so the token that can import can also read it — and it's
+  // independent of the user's configured epiwen_gh_repo. Not rendered by the app.
+  var HARVEST_REPO = { owner: "pleuston", repo: "epiwen-public", branch: "main" };
   var HARVEST = "harvest/harvard-rubbings.json";
   var PAGE = 100;
 
@@ -239,13 +240,10 @@
     });
     el("hv-import-btn").addEventListener("click", importSelected);
 
-    if (!token()) {
-      el("hv-list").innerHTML = '<div class="hv-status">Sign in with a GitHub token that can read epiwen-data and write epiwen-public to use the harvest.</div>';
-      el("hv-summary").textContent = "Sign in required.";
-      return;
-    }
+    // epiwen-public is public, so the inventory is browsable without a token;
+    // importing still requires a token that can write epiwen-public.
     Promise.all([
-      loadHarvestJson().catch(function (err) { throw new Error("Could not load the harvest — " + err.message + " (need access to " + HARVEST_REPO.owner + "/" + HARVEST_REPO.repo + ")."); }),
+      loadHarvestJson().catch(function (err) { throw new Error("Could not load the harvest — " + err.message + " (from " + HARVEST_REPO.owner + "/" + HARVEST_REPO.repo + ")."); }),
       listImported()
     ]).then(function (res) {
       entries = (res[0] && res[0].entries) || [];
