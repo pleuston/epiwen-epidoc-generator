@@ -50,6 +50,11 @@
     return inst[0] || e.provider || e.database || "(unknown)";
   }
   function fhclNum(urn) { var m = String(urn || "").match(/FHCL:(\d+)/i); return m ? m[1] : ""; }
+  // Harvard's persistent object viewer (page-turner). The old id.lib.harvard.edu/aleph
+  // record_url stored in the harvest redirects to a dead HOLLIS docid; the NRS/viewer
+  // resolver on the FHCL URN is the link that actually opens the rubbing.
+  function hvViewer(e) { return (e && e.fhcl_urn) ? ("https://viewer.lib.harvard.edu/viewer/" + e.fhcl_urn) : ((e && e.record_url) || ""); }
+  var HV_COLLECTION = "https://curiosity.lib.harvard.edu/chinese-rubbings";
   function alnum(s) { return String(s || "").replace(/[^A-Za-z0-9]+/g, ""); }
 
   // Shared rubbing-TEI builder used by every source's gen().
@@ -96,7 +101,7 @@ idnos +
     harvard: {
       id: "harvard", label: "Harvard-Yenching Library",
       file: "harvest/harvard-rubbings.json",
-      summary: '<a href="https://library.harvard.edu/digital-collections" target="_blank" rel="noopener">Harvard LibraryCloud</a>',
+      summary: '<a href="https://curiosity.lib.harvard.edu/chinese-rubbings" target="_blank" rel="noopener">Harvard Chinese Rubbings</a>',
       importedRe: /_rubbing_HV(\d+)\.xml$/i,
       entryId: function (e) { return fhclNum(e.fhcl_urn); },
       filename: function (e) { var id = e.fhcl_urn ? ("HV" + fhclNum(e.fhcl_urn)) : (e.hollis || "x"); return slug(e.title) + "_rubbing_" + id + ".xml"; },
@@ -105,8 +110,11 @@ idnos +
       cjk: function (e) { return anyCjk(e.titles_all); },
       meta: function (e) { return [e.date, e.shelf, e.hollis ? "HOLLIS " + e.hollis : "", e.culture].filter(Boolean).join(" · "); },
       hay: function (e) { return e.title + " " + (e.titles_all || []).join(" ") + " " + e.date + " " + e.shelf + " " + e.hollis; },
-      recordUrl: function (e) { return e.record_url; },
-      viewUrl: function (e) { return e.iiif_manifest ? ("viewer.html?manifest=" + encodeURIComponent(e.iiif_manifest)) : e.record_url; },
+      recordUrl: function (e) { return hvViewer(e); },
+      // Harvard's stored iiif_manifest URL now only serves an HTML meta-refresh (no
+      // CORS, not JSON), so the in-app Mirador can't load it. Open Harvard's own
+      // Mirador page instead (manifests/view/drs:…), which renders server-side.
+      viewUrl: function (e) { return e.iiif_manifest ? e.iiif_manifest.replace("/manifests/", "/manifests/view/") : hvViewer(e); },
       gen: function (e) {
         return buildRubbingXml({
           titleEn: e.title, titleZh: this.cjk(e),
@@ -115,8 +123,8 @@ idnos +
           idnos: [{ type: "hollis", value: e.hollis }, { type: "shelf", value: e.shelf }],
           summary: e.abstract, origDate: e.date,
           licence: e.access === "R" ? "Harvard Library — access restricted; see the source record" : "Harvard Library digital collections — open access",
-          licenceTarget: "https://library.harvard.edu/digital-collections",
-          refs: [{ type: "record", target: e.record_url, label: "Harvard Library record" }, { type: "iiif-manifest", target: e.iiif_manifest, label: "IIIF manifest (deep-zoom)" }],
+          licenceTarget: HV_COLLECTION,
+          refs: [{ type: "record", target: hvViewer(e), label: "Harvard Library record" }, { type: "iiif-manifest", target: e.iiif_manifest, label: "IIIF manifest (deep-zoom)" }],
           image: e.drs_file_id ? ("https://mps.lib.harvard.edu/assets/images/drs:" + e.drs_file_id + "/full/,1000/0/default.jpg") : "",
           filename: this.filename(e),
           changeNote: "Imported from Harvard LibraryCloud (" + (e.fhcl_urn || e.hollis || "") + ") via the Epiwen rubbing harvest; images served live from Harvard IIIF."
