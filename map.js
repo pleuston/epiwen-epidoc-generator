@@ -222,10 +222,12 @@
                                : (c.connector === "japan-search" ? '<div class="pp-sub">via Japan Search — not yet harvested</div>'
                                   : c.aggregator_db ? '<div class="pp-sub">aggregator — EFEO union database (>10,000 across Europe)</div>'
                                   : c.via_aggregator ? '<div class="pp-sub">via the EFEO aggregator</div>'
+                                  : c.verify ? '<div class="pp-sub">verification pending — no online rubbing DB</div>'
                                                                   : '<div class="pp-sub">catalog-only — not yet harvested</div>')) +
             (c.holdings ? '<div class="pp-sub">Holdings: ' + esc(c.holdings) + "</div>" : "") +
             (c.api ? '<div class="pp-sub">✓ harvestable API: ' + esc(c.api) + "</div>"
-                   : (c.needs_request ? '<div class="pp-sub">⌑ data by request (no open API)</div>' : "")) +
+                   : (c.needs_request ? '<div class="pp-sub">⌑ data by request (no open API)</div>'
+                   : (c.verify ? '<div class="pp-sub">⚠ no rubbing collection verified here</div>' : ""))) +
             (c.mentions ? '<div class="pp-sub">~' + c.mentions + " records mention 拓本</div>"
                         : (c.est_count ? '<div class="pp-sub">~' + c.est_count.toLocaleString() + " rubbings (est.)</div>" : "")) +
             (c.catalog ? '<div class="pp-sub">Catalog: ' + esc(c.catalog) + "</div>" : "") +
