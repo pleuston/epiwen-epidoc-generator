@@ -210,12 +210,17 @@
         if (!data || !data.collections) return;
         data.collections.forEach(function (c) {
           if (typeof c.lat !== "number" || typeof c.lon !== "number") return;
-          var icon = L.divIcon({ className: "site-divicon", html: '<div class="map-coll-marker"></div>',
+          var hollow = !c.harvested_count;   // catalog-only / not yet harvested
+          var icon = L.divIcon({ className: "site-divicon",
+            html: '<div class="map-coll-marker' + (hollow ? " catalog" : "") + '"></div>',
             iconSize: [16, 16], iconAnchor: [8, 8], popupAnchor: [0, -8] });
           var src = srcMap[c.connector];
           L.marker([c.lat, c.lon], { icon: icon, title: c.label }).bindPopup(
             "<h4>" + esc(c.label) + (c.label_zh ? ' <span class="pp-sub">' + esc(c.label_zh) + "</span>" : "") + "</h4>" +
-            (c.harvested_count ? '<div class="pp-sub">' + c.harvested_count + " rubbings harvested" + (c.via ? " · via " + esc(c.via) : "") + "</div>" : "") +
+            (c.harvested_count ? '<div class="pp-sub">' + c.harvested_count + " rubbings harvested" + (c.via ? " · via " + esc(c.via) : "") + "</div>"
+                               : '<div class="pp-sub">catalog-only — not yet harvested</div>') +
+            (c.catalog ? '<div class="pp-sub">Catalog: ' + esc(c.catalog) + "</div>" : "") +
+            (c.access ? '<div class="pp-sub">' + esc(c.access) + "</div>" : "") +
             (c.site ? '<a class="btn small" href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a> ' : "") +
             (src && c.harvested_count ? '<a class="btn small primary" href="harvest.html?source=' + src + '">Browse harvest →</a>' : "")
           ).addTo(collLayer);
