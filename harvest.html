@@ -45,6 +45,14 @@
         padding: .7rem .8rem; display: none; gap: .8rem; align-items: center; font-size: .85rem;
       }
       #hv-log { font-size: .8rem; color: var(--muted); margin-top: .4rem; max-height: 9rem; overflow: auto; }
+      .hv-info {
+        border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px;
+        background: var(--field-bg, #fafafa); padding: .7rem .85rem; margin-bottom: 1rem;
+      }
+      .hv-info-title { font-weight: 700; font-size: 1rem; }
+      .hv-info-title .zh { color: var(--muted); font-weight: 600; margin-left: .4rem; font-size: .9rem; }
+      .hv-info-meta { font-size: .82rem; color: var(--muted); margin: .2rem 0 .5rem; }
+      .hv-info-links { display: flex; flex-wrap: wrap; gap: .7rem; font-size: .8rem; }
     </style>
   </head>
   <body>
@@ -80,6 +88,7 @@
         <label><input type="checkbox" id="hv-f-new" checked /> Hide already imported</label>
       </div>
 
+      <div id="hv-info" class="hv-info" style="display:none"></div>
       <div id="hv-list"><div class="hv-status">Loading…</div></div>
       <div class="hv-pager" id="hv-pager"></div>
 

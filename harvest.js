@@ -344,6 +344,50 @@ idnos +
       '. Select entries and import into the public rubbing corpus.';
   }
 
+  // ── Collection info frame (above the holding list) ──────────────────────────
+  // Shows the current source's collection metadata + original link + the
+  // Institution authority record, sourced from collections.json (no auth).
+  var COLL = null;
+  var CONNECTOR = { harvard: "harvard-librarycloud", berkeley: "berkeley-oai", japansearch: "japan-search" };
+
+  function infoFrameHtml(c) {
+    var links = [];
+    if (c.site) links.push('<a href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a>');
+    if (c.rubbing_site && c.rubbing_site !== c.site) links.push('<a href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">Rubbing database ↗</a>');
+    if (c.authority) links.push('<a href="institutions.html?id=' + encodeURIComponent(c.authority) + '">Institution authority →</a>');
+    links.push('<a href="collections.html">All collections →</a>');
+    return '<div class="hv-info-title">' + esc(c.label) + (c.label_zh ? ' <span class="zh">' + esc(c.label_zh) + '</span>' : '') + '</div>' +
+      '<div class="hv-info-meta">' +
+        esc(c.city || c.country || "") +
+        (c.harvested_count ? ' · ' + c.harvested_count.toLocaleString() + ' harvested' : '') +
+        (c.holdings ? ' · Holdings: ' + esc(c.holdings) : '') +
+        (c.via ? ' · via ' + esc(c.via) : '') +
+      '</div><div class="hv-info-links">' + links.join("") + '</div>';
+  }
+  function renderInfoFrame() {
+    var box = el("hv-info"); if (!box || !COLL) return;
+    var ms = COLL.filter(function (c) { return c.connector === CONNECTOR[SRC.id]; });
+    if (!ms.length) { box.style.display = "none"; return; }
+    if (ms.length === 1) {
+      box.innerHTML = infoFrameHtml(ms[0]);
+    } else {
+      var names = ms.slice(0, 6).map(function (c) { return (c.label || c.id).replace(/^Japan Search · /, ""); });
+      box.innerHTML = '<div class="hv-info-title">Japan Search <span class="zh">ジャパンサーチ</span></div>' +
+        '<div class="hv-info-meta">Aggregator harvesting ' + ms.length + ' Japanese institutions — ' +
+          esc(names.join(", ")) + (ms.length > 6 ? "…" : "") +
+          '. Use the collection filter above to narrow.</div>' +
+        '<div class="hv-info-links"><a href="https://jpsearch.go.jp/" target="_blank" rel="noopener">Japan Search ↗</a>' +
+        '<a href="collections.html">All collections →</a></div>';
+    }
+    box.style.display = "";
+  }
+  function loadCollectionsMeta() {
+    if (COLL) { renderInfoFrame(); return; }
+    fetch("collections.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      COLL = (d && d.collections) || []; renderInfoFrame();
+    }).catch(function () {});
+  }
+
   // Populate the collection sub-filter for aggregator sources (Japan Search).
   function buildCollectionFilter() {
     var sel = el("hv-collection");
@@ -373,6 +417,7 @@ idnos +
       entries = META.entries || [];
       buildCollectionFilter();
       summarize();
+      loadCollectionsMeta();
       applyFilters();
     }).catch(function (err) {
       el("hv-list").innerHTML = '<div class="hv-status">Could not load ' + esc(SRC.file) + ' — ' + esc(err.message) + '.</div>';
