@@ -160,7 +160,7 @@
     var est = c.mentions || c.est_count || 0;
     var accCls = c.api ? " acc-api" : (c.needs_request || c.commercial || c.verify) ? " acc-req" : "";
     return '<tr>' +
-      '<td><div class="ct-name">' + esc(c.label) + '</div>' +
+      '<td><div class="ct-name"><a href="collection.html?id=' + encodeURIComponent(c.id) + '">' + esc(c.label) + '</a></div>' +
         (c.label_zh ? '<div class="ct-zh">' + esc(c.label_zh) + (c.hangul ? " · " + esc(c.hangul) : "") + '</div>'
                     : (c.hangul ? '<div class="ct-zh">' + esc(c.hangul) + '</div>' : "")) +
         (c.city ? '<div class="ct-city">' + esc(c.city) + '</div>' : "") + '</td>' +
