@@ -129,6 +129,7 @@
     if (c.connector === "japan-search") return "via Japan Search";
     if (c.aggregator_db) return "aggregator · union DB";
     if (c.api) return "API ✓";
+    if (c.commercial) return "subscription";
     if (c.needs_request) return c.via_aggregator ? "needs request · via EFEO" : "needs request";
     if (c.via_aggregator) return "via EFEO aggregator";
     if (c.connector === "database") return "online database";
@@ -156,7 +157,7 @@
     var sub = c.catalog || c.holdings || "";
     var catLine = sub ? '<div class="ct-city" title="' + esc(c.catalogue || c.catalog || c.holdings || "") + '">' + esc(sub.length > 50 ? sub.slice(0, 48) + "…" : sub) + '</div>' : "";
     var est = c.mentions || c.est_count || 0;
-    var accCls = c.api ? " acc-api" : c.needs_request ? " acc-req" : "";
+    var accCls = c.api ? " acc-api" : (c.needs_request || c.commercial) ? " acc-req" : "";
     return '<tr>' +
       '<td><div class="ct-name">' + esc(c.label) + '</div>' +
         (c.label_zh ? '<div class="ct-zh">' + esc(c.label_zh) + (c.hangul ? " · " + esc(c.hangul) : "") + '</div>'
