@@ -218,12 +218,14 @@
           L.marker([c.lat, c.lon], { icon: icon, title: c.label }).bindPopup(
             "<h4>" + esc(c.label) + (c.label_zh ? ' <span class="pp-sub">' + esc(c.label_zh) + "</span>" : "") + "</h4>" +
             (c.harvested_count ? '<div class="pp-sub">' + c.harvested_count + " rubbings harvested" + (c.via ? " · via " + esc(c.via) : "") + "</div>"
-                               : '<div class="pp-sub">catalog-only — not yet harvested</div>') +
+                               : (c.connector === "japan-search" ? '<div class="pp-sub">via Japan Search — not yet harvested</div>'
+                                                                  : '<div class="pp-sub">catalog-only — not yet harvested</div>')) +
             (c.holdings ? '<div class="pp-sub">Holdings: ' + esc(c.holdings) + "</div>" : "") +
+            (c.mentions ? '<div class="pp-sub">~' + c.mentions + " records mention 拓本</div>" : "") +
             (c.catalog ? '<div class="pp-sub">Catalog: ' + esc(c.catalog) + "</div>" : "") +
-            (c.access ? '<div class="pp-sub">' + esc(c.access) + "</div>" : "") +
             (c.site ? '<a class="btn small" href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a> ' : "") +
-            (src && c.harvested_count ? '<a class="btn small primary" href="harvest.html?source=' + src + '">Browse harvest →</a>' : "")
+            (src && c.harvested_count ? '<a class="btn small primary" href="harvest.html?source=' + src + '">Browse harvest →</a>' : "") +
+            (c.js_browse ? '<a class="btn small primary" href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Browse on Japan Search ↗</a>' : "")
           ).addTo(collLayer);
         });
       }).catch(function () {});

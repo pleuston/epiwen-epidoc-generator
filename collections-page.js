@@ -101,9 +101,12 @@
       : esc(c.label);
     var tag = c.harvested_count
       ? '<span class="source-tag coll-tag-har">' + c.harvested_count + ' harvested</span>'
-      : '<span class="source-tag coll-tag-cat">catalog-only</span>';
+      : (c.connector === "japan-search"
+          ? '<span class="source-tag coll-tag-js">via Japan Search</span>'
+          : '<span class="source-tag coll-tag-cat">catalog-only</span>');
     var links = [];
     if (harvestable) links.push('<a class="source-link" href="harvest.html?source=' + src + '">Open holdings →</a>');
+    if (c.js_browse) links.push('<a class="source-link" href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Browse on Japan Search ↗</a>');
     if (c.site) links.push('<a class="source-link" href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a>');
     if (c.rubbing_site && c.rubbing_site !== c.site) links.push('<a class="source-link" href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">Rubbing database ↗</a>');
     if (c.authority) links.push('<a class="source-link" href="institutions.html?id=' + encodeURIComponent(c.authority) + '">Institution authority →</a>');
