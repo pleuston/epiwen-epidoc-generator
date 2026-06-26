@@ -17,7 +17,8 @@
    "schema": "schemas/harvard-librarycloud.md",
    "continent": "Americas",
    "country": "United States",
-   "authority": "harvard_yenching"
+   "authority": "harvard_yenching",
+   "kind": "institution"
   },
   {
    "id": "berkeley-starr",
@@ -33,7 +34,8 @@
    "schema": "schemas/berkeley-oai.md",
    "continent": "Americas",
    "country": "United States",
-   "authority": "ucb_eal"
+   "authority": "ucb_eal",
+   "kind": "institution"
   },
   {
    "id": "jp-colbase",
@@ -49,7 +51,9 @@
    "harvested_count": 947,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "aggregator",
+   "aggregates": "4 national museums (Tokyo/Kyoto/Nara/Kyushu) + 2 research institutes"
   },
   {
    "id": "jp-ndl",
@@ -65,7 +69,8 @@
    "harvested_count": 494,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "jp-daito",
@@ -81,7 +86,8 @@
    "harvested_count": 212,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "jp-nijl",
@@ -97,7 +103,8 @@
    "harvested_count": 120,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "jp-nme",
@@ -113,7 +120,8 @@
    "harvested_count": 100,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "jp-utokyo",
@@ -131,7 +139,8 @@
    "continent": "Asia",
    "country": "Japan",
    "rubbing_site": "https://www.ioc.u-tokyo.ac.jp/database/index.html",
-   "rubbing_site_note": "東洋文化研究所 拓本文字データベース / 関野貞 中国碑碣拓本資料アーカイブ — ~5,000 rubbings, 1.8M characters (Han–Xinhai)"
+   "rubbing_site_note": "東洋文化研究所 拓本文字データベース / 関野貞 中国碑碣拓本資料アーカイブ — ~5,000 rubbings, 1.8M characters (Han–Xinhai)",
+   "kind": "institution"
   },
   {
    "id": "jp-arc",
@@ -147,7 +156,9 @@
    "harvested_count": 90,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "aggregator",
+   "aggregates": "aggregates partner libraries (Waseda et al.)"
   },
   {
    "id": "jp-jpsearch-other",
@@ -163,7 +174,9 @@
    "harvested_count": 80,
    "schema": "schemas/japan-search.md",
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "aggregator",
+   "aggregates": "union of misc Japan Search databases"
   },
   {
    "id": "efeo",
@@ -180,7 +193,8 @@
    "schema": null,
    "continent": "Europe",
    "country": "France",
-   "authority": "efeo"
+   "authority": "efeo",
+   "kind": "institution"
   },
   {
    "id": "indianapolis",
@@ -196,7 +210,8 @@
    "note": "hand-added",
    "schema": null,
    "continent": "Americas",
-   "country": "United States"
+   "country": "United States",
+   "kind": "institution"
   },
   {
    "id": "toyo-bunko",
@@ -214,7 +229,8 @@
    "catalog_only": true,
    "schema": null,
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "kyoto-jinbun",
@@ -232,7 +248,8 @@
    "catalog_only": true,
    "schema": null,
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "tohoku-univ",
@@ -250,7 +267,8 @@
    "catalog_only": true,
    "schema": null,
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "daito-uno",
@@ -268,7 +286,8 @@
    "catalog_only": true,
    "schema": null,
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "shukutoku-shogaku",
@@ -286,7 +305,8 @@
    "catalog_only": true,
    "schema": null,
    "continent": "Asia",
-   "country": "Japan"
+   "country": "Japan",
+   "kind": "institution"
   },
   {
    "id": "field-museum",
@@ -307,7 +327,8 @@
    "note": "Noted for >4,000 Chinese rubbings (四千余件). Includes the Qionglai Longxing Monastery 邛崍龍興寺 Diamond-Sutra batch (inv. 233776) collected via D.C. Graham 葛維漢; studied by Zhang Zong 張總.",
    "source": "obsidian vault — Walravens catalog (@Tchen_Starr1981) + Zhang Zong",
    "continent": "Americas",
-   "country": "United States"
+   "country": "United States",
+   "kind": "institution"
   },
   {
    "id": "nlc-beijing",
@@ -318,7 +339,7 @@
    "city": "Beijing, China",
    "lat": 39.945,
    "lon": 116.322,
-   "site": "http://www.nlc.cn/",
+   "site": "https://www.nlc.cn/",
    "harvested_count": 0,
    "catalog": "@BJTSG1989 — 北京圖書館藏中國歷代石刻拓本彙編 (101 vols, Zhengzhou, 1989–91)",
    "access": "print catalog (101 vols) only",
@@ -326,7 +347,8 @@
    "schema": null,
    "continent": "Asia",
    "country": "China",
-   "province": "Beijing 北京"
+   "province": "Beijing 北京",
+   "kind": "institution"
   },
   {
    "id": "pku-library",
@@ -345,7 +367,8 @@
    "schema": null,
    "continent": "Asia",
    "country": "China",
-   "province": "Beijing 北京"
+   "province": "Beijing 北京",
+   "kind": "institution"
   },
   {
    "id": "dalian-library",
@@ -356,7 +379,7 @@
    "city": "Dalian, China",
    "lat": 38.914,
    "lon": 121.6147,
-   "site": "http://www.dl-library.net.cn/",
+   "site": "https://www.dl-library.net.cn/",
    "harvested_count": 0,
    "catalog": "@Dairentoshokan1925 — 拓本陳列目録 (Dairen, 1925)",
    "access": "historical catalog (1925); current holdings unverified",
@@ -364,7 +387,8 @@
    "schema": null,
    "continent": "Asia",
    "country": "China",
-   "province": "Liaoning 遼寧"
+   "province": "Liaoning 遼寧",
+   "kind": "institution"
   },
   {
    "id": "nara-nat-museum",
@@ -384,7 +408,8 @@
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=NarahakuBijutsuinDB",
    "access": "via Japan Search (f-db=NarahakuBijutsuinDB) — not yet harvested; ~632 records mention 拓本 (upper bound)",
    "schema": "japan-search",
-   "rubbing_site": "https://bijutsuindb.narahaku.go.jp/"
+   "rubbing_site": "https://bijutsuindb.narahaku.go.jp/",
+   "kind": "institution"
   },
   {
    "id": "rekihaku",
@@ -404,7 +429,8 @@
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=nmj01",
    "access": "via Japan Search (f-db=nmj01) — not yet harvested; ~814 records mention 拓本 (upper bound)",
    "schema": "japan-search",
-   "rubbing_site": "https://www.rekihaku.ac.jp/doc/t-db-index.html"
+   "rubbing_site": "https://www.rekihaku.ac.jp/doc/t-db-index.html",
+   "kind": "institution"
   },
   {
    "id": "tokyo-met-library",
@@ -424,7 +450,8 @@
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=tokyo",
    "access": "via Japan Search (f-db=tokyo) — not yet harvested; ~395 records mention 拓本 (upper bound)",
    "schema": "japan-search",
-   "rubbing_site": "https://archive.library.metro.tokyo.lg.jp/"
+   "rubbing_site": "https://archive.library.metro.tokyo.lg.jp/",
+   "kind": "institution"
   },
   {
    "id": "nagoya-city-museum",
@@ -443,7 +470,8 @@
    "mentions": 309,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=NagoyaCity_Museum",
    "access": "via Japan Search (f-db=NagoyaCity_Museum) — not yet harvested; ~309 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "fukuoka-city-museum",
@@ -462,7 +490,8 @@
    "mentions": 305,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=fcm_db",
    "access": "via Japan Search (f-db=fcm_db) — not yet harvested; ~305 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "edo-tokyo-museum",
@@ -481,7 +510,8 @@
    "mentions": 242,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=tokyomuseumcolection",
    "access": "via Japan Search (f-db=tokyomuseumcolection) — not yet harvested; ~242 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "kyushu-univ",
@@ -500,7 +530,8 @@
    "mentions": 78,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=kyudai",
    "access": "via Japan Search (f-db=kyudai) — not yet harvested; ~78 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "maeda-tosa-museum",
@@ -513,13 +544,14 @@
    "city": "Kanazawa, Japan",
    "lat": 36.564,
    "lon": 136.651,
-   "site": "https://www.kanazawa-museum.jp/maeda/",
+   "site": "https://www.kanazawa-museum.jp/maedatosa/",
    "harvested_count": 0,
    "fdb": "maedatosa",
    "mentions": 40,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=maedatosa",
    "access": "via Japan Search (f-db=maedatosa) — not yet harvested; ~40 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "ibaraki-univ",
@@ -538,7 +570,8 @@
    "mentions": 36,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=ibaraki_u",
    "access": "via Japan Search (f-db=ibaraki_u) — not yet harvested; ~36 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "niigata-univ",
@@ -557,7 +590,8 @@
    "mentions": 35,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=cria",
    "access": "via Japan Search (f-db=cria) — not yet harvested; ~35 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "ryukoku-univ",
@@ -576,7 +610,8 @@
    "mentions": 28,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=ryukoku",
    "access": "via Japan Search (f-db=ryukoku) — not yet harvested; ~28 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "kansai-univ",
@@ -595,7 +630,8 @@
    "mentions": 14,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=ukansai",
    "access": "via Japan Search (f-db=ukansai) — not yet harvested; ~14 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "keio-univ",
@@ -614,7 +650,8 @@
    "mentions": 10,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=keioobjecthub",
    "access": "via Japan Search (f-db=keioobjecthub) — not yet harvested; ~10 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "meiji-univ",
@@ -633,7 +670,8 @@
    "mentions": 6,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=meiji_u",
    "access": "via Japan Search (f-db=meiji_u) — not yet harvested; ~6 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "ryukyus-univ",
@@ -652,7 +690,8 @@
    "mentions": 2,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=uryukyu",
    "access": "via Japan Search (f-db=uryukyu) — not yet harvested; ~2 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "tokushima-univ",
@@ -671,7 +710,8 @@
    "mentions": 2,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=utokushima",
    "access": "via Japan Search (f-db=utokushima) — not yet harvested; ~2 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "oita-sages",
@@ -690,7 +730,8 @@
    "mentions": 372,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=oitadigital_sages",
    "access": "via Japan Search (f-db=oitadigital_sages) — not yet harvested; ~372 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "otepia-kochi",
@@ -709,7 +750,8 @@
    "mentions": 110,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=kochi",
    "access": "via Japan Search (f-db=kochi) — not yet harvested; ~110 records mention 拓本 (upper bound)",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "paper-museum-tokyo",
@@ -728,7 +770,8 @@
    "mentions": 130,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=papermuseum_tokyo",
    "access": "via Japan Search (f-db=papermuseum_tokyo) — not yet harvested; ~130 records mention 拓本 (upper bound); rubbings of printing woodblocks / paper-craft, not stone inscriptions",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   },
   {
    "id": "saitama-rekimin",
@@ -747,7 +790,8 @@
    "mentions": 4103,
    "js_browse": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%E6%8B%93%E6%9C%AC&f-db=saitama_museum",
    "access": "via Japan Search (f-db=saitama_museum) — not yet harvested; ~4103 records mention 拓本 (upper bound); largely sword-fitting (刀装具) rubbings, not stone inscriptions",
-   "schema": "japan-search"
+   "schema": "japan-search",
+   "kind": "institution"
   }
  ]
 }

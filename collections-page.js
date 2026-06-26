@@ -92,53 +92,98 @@
     render();
   }
 
-  // ── cards ─────────────────────────────────────────────────────────────────────
-  function card(c) {
-    var src = SRC[c.connector];
-    var harvestable = src && c.harvested_count;
-    var name = harvestable
-      ? '<a href="harvest.html?source=' + src + '">' + esc(c.label) + "</a>"
-      : esc(c.label);
-    var tag = c.harvested_count
-      ? '<span class="source-tag coll-tag-har">' + c.harvested_count + ' harvested</span>'
-      : (c.connector === "japan-search"
-          ? '<span class="source-tag coll-tag-js">via Japan Search</span>'
-          : '<span class="source-tag coll-tag-cat">catalog-only</span>');
-    var links = [];
-    if (harvestable) links.push('<a class="source-link" href="harvest.html?source=' + src + '">Open holdings →</a>');
-    if (c.js_browse) links.push('<a class="source-link" href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Browse on Japan Search ↗</a>');
-    if (c.site) links.push('<a class="source-link" href="' + esc(c.site) + '" target="_blank" rel="noopener">Collection site ↗</a>');
-    if (c.rubbing_site && c.rubbing_site !== c.site) links.push('<a class="source-link" href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">Rubbing database ↗</a>');
-    if (c.authority) links.push('<a class="source-link" href="institutions.html?id=' + encodeURIComponent(c.authority) + '">Institution authority →</a>');
-    return '<div class="source-card coll-card">' +
-      '<h3>' + name + '</h3>' +
-      (c.label_zh ? '<div class="source-zh">' + esc(c.label_zh) + '</div>' : "") +
-      tag +
-      (c.via ? '<span class="source-tag">via ' + esc(c.via) + '</span>' : "") +
-      (c.city ? '<span class="source-tag">' + esc(c.city) + '</span>' : "") +
-      (c.holdings ? '<p><b>Holdings:</b> ' + esc(c.holdings) + '</p>' : "") +
-      (c.catalog ? '<p><b>Catalog:</b> ' + esc(c.catalog) + '</p>' : "") +
-      (c.access ? '<p class="source-zh">' + esc(c.access) + (c.rubbing_site_note ? ' · ' + esc(c.rubbing_site_note) : "") + '</p>'
-                : (c.rubbing_site_note ? '<p class="source-zh">' + esc(c.rubbing_site_note) + '</p>' : "")) +
-      '<div class="coll-links">' + links.join("") + '</div>' +
-      '</div>';
+  // ── sortable table ───────────────────────────────────────────────────────────
+  var sortKey = "harvested", sortDir = "desc";
+  var COLS = [
+    { label: "Collection", key: "name" },
+    { label: "Country",    key: "country" },
+    { label: "Type",       key: "kind" },
+    { label: "Harvested",  key: "harvested", num: true },
+    { label: "Est. 拓本",  key: "mentions",  num: true },
+    { label: "Access",     key: null },
+    { label: "Links",      key: null }
+  ];
+  function sortVal(c, key) {
+    if (key === "harvested") return c.harvested_count || 0;
+    if (key === "mentions")  return c.mentions || 0;
+    if (key === "name")      return fold(c.label || "");
+    if (key === "country")   return (c.country || "") + "|" + (c.province || "");
+    if (key === "kind")      return c.kind || "";
+    return "";
+  }
+  function cmp(a, b) {
+    var va = sortVal(a, sortKey), vb = sortVal(b, sortKey), r;
+    r = (typeof va === "number") ? va - vb : String(va).localeCompare(String(vb));
+    if (r === 0) r = (b.harvested_count || 0) - (a.harvested_count || 0) ||
+                     (b.mentions || 0) - (a.mentions || 0) ||
+                     fold(a.label || "").localeCompare(fold(b.label || ""));
+    return sortDir === "desc" ? -r : r;
+  }
+  function accessLabel(c) {
+    if (c.harvested_count) return c.harvested_count.toLocaleString() + " harvested";
+    if (c.connector === "japan-search") return "via Japan Search";
+    if (c.connector === "database") return "online database";
+    return "catalog-only";
+  }
+  function linksFor(c) {
+    var src = SRC[c.connector], L = [];
+    if (src && c.harvested_count) L.push('<a href="harvest.html?source=' + src + '">holdings</a>');
+    if (c.js_browse) L.push('<a href="' + esc(c.js_browse) + '" target="_blank" rel="noopener">Japan Search ↗</a>');
+    if (c.site) L.push('<a href="' + esc(c.site) + '" target="_blank" rel="noopener">site ↗</a>');
+    if (c.rubbing_site && c.rubbing_site !== c.site) L.push('<a href="' + esc(c.rubbing_site) + '" target="_blank" rel="noopener">rubbing db ↗</a>');
+    if (c.authority) L.push('<a href="institutions.html?id=' + encodeURIComponent(c.authority) + '">authority</a>');
+    return L.join(" ");
+  }
+  function rowHtml(c) {
+    var kind = c.kind === "aggregator"
+      ? '<span class="coll-kind agg" title="' + esc(c.aggregates || "aggregates several institutions") + '">aggregator</span>'
+      : '<span class="coll-kind inst">institution</span>';
+    var catLine = c.catalog ? '<div class="ct-city" title="' + esc(c.catalog) + '">' + esc(c.catalog.length > 44 ? c.catalog.slice(0, 42) + "…" : c.catalog) + '</div>' : "";
+    return '<tr>' +
+      '<td><div class="ct-name">' + esc(c.label) + '</div>' +
+        (c.label_zh ? '<div class="ct-zh">' + esc(c.label_zh) + '</div>' : "") +
+        (c.city ? '<div class="ct-city">' + esc(c.city) + '</div>' : "") + '</td>' +
+      '<td>' + esc(c.country || "—") + (c.province ? '<div class="ct-city">' + esc(c.province) + '</div>' : "") + '</td>' +
+      '<td>' + kind + '</td>' +
+      '<td class="num">' + (c.harvested_count ? c.harvested_count.toLocaleString() : "—") + '</td>' +
+      '<td class="num">' + (c.mentions ? "~" + c.mentions.toLocaleString() : "—") + '</td>' +
+      '<td><span class="coll-access" title="' + esc(c.access || "") + '">' + accessLabel(c) + '</span>' + catLine + '</td>' +
+      '<td><div class="ct-links">' + linksFor(c) + '</div></td>' +
+      '</tr>';
   }
   function render() {
     var q = fold(el("ct-search").value.trim());
     var list = all.filter(function (c) { return matches(c, sel); });
-    if (q) list = list.filter(function (c) { return fold((c.label || "") + " " + (c.label_zh || "") + " " + (c.city || "")).indexOf(q) !== -1; });
-    list.sort(function (a, b) { return (b.harvested_count || 0) - (a.harvested_count || 0); });
+    if (q) list = list.filter(function (c) { return fold((c.label || "") + " " + (c.label_zh || "") + " " + (c.city || "") + " " + (c.country || "")).indexOf(q) !== -1; });
+    list.sort(cmp);
     el("coll-title").textContent = sel
       ? [sel.continent, sel.country, sel.province].filter(Boolean).join(" › ")
       : "All collections";
     var har = list.reduce(function (s, c) { return s + (c.harvested_count || 0); }, 0);
+    var agg = list.filter(function (c) { return c.kind === "aggregator"; }).length;
     el("coll-crumb").textContent = list.length + " collection" + (list.length === 1 ? "" : "s") +
-      (har ? " · " + har.toLocaleString() + " rubbings harvested" : "");
-    el("coll-cards").innerHTML = list.length ? list.map(card).join("") : '<p class="catalog-loading">No collections here.</p>';
+      (har ? " · " + har.toLocaleString() + " rubbings harvested" : "") +
+      (agg ? " · " + agg + " aggregator" + (agg === 1 ? "" : "s") : "");
+    if (!list.length) { el("coll-cards").innerHTML = '<p class="catalog-loading">No collections here.</p>'; return; }
+    var thead = "<thead><tr>" + COLS.map(function (col) {
+      if (!col.key) return "<th>" + esc(col.label) + "</th>";
+      var arrow = sortKey === col.key ? (sortDir === "desc" ? " ▼" : " ▲") : "";
+      return '<th class="sortable" data-key="' + col.key + '">' + esc(col.label) + arrow + "</th>";
+    }).join("") + "</tr></thead>";
+    el("coll-cards").innerHTML = '<table class="coll-table">' + thead + "<tbody>" + list.map(rowHtml).join("") + "</tbody></table>";
   }
 
   document.addEventListener("DOMContentLoaded", function () {
     el("ct-search").addEventListener("input", render);
+    // Sort when a sortable column header is clicked (thead is re-rendered each render).
+    el("coll-cards").addEventListener("click", function (e) {
+      var th = e.target.closest ? e.target.closest("th.sortable") : null;
+      if (!th) return;
+      var k = th.getAttribute("data-key");
+      if (sortKey === k) sortDir = sortDir === "desc" ? "asc" : "desc";
+      else { sortKey = k; sortDir = (k === "harvested" || k === "mentions") ? "desc" : "asc"; }
+      render();
+    });
     fetch("collections.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
       all = (d && d.collections) || [];
       renderTree();
