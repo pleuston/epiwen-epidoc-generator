@@ -1,0 +1,698 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "又史記",
+   "attribution": "一百三十卷四/函三十二本",
+   "location": "",
+   "juan": 6,
+   "wyg": "006-65a",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "王廷贊",
+   "attribution": "正藍旗人舉人/五十七年任 馮雲會 濟寧人進士/雍正元年任",
+   "location": "",
+   "juan": 18,
+   "wyg": "018-116a",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "大理行記",
+   "attribution": "郭松年 商州/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-311a",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "建布政使公廨記",
+   "attribution": "布政/ 張 紞 富平/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-315b",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "新築騰衝司城記",
+   "attribution": "侍郎/ 侯 璡 澤州/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-318a",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "南壩閘記",
+   "attribution": "布政/ 陳 文 廬陵/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-321b",
+   "sbck": ""
+  },
+  {
+   "seq": 7,
+   "title": "重建雲南按察司署記",
+   "attribution": "大學/士 商 輅 淳安/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-324a",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "海口記",
+   "attribution": "廵撫/ 陳 金 應城/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-326a",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "二忠祠記",
+   "attribution": "副使/ 彭 綱 清江/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-329a",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "永昌名宦鄉賢祠記",
+   "attribution": "按察/ 林 俊 莆田/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-333a",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "楊氏二孝三節記",
+   "attribution": "大學/士 楊一清 安寧/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-334a",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "新建永昌府治記",
+   "attribution": "大學/士 楊廷和 新都/",
+   "location": "新建永昌府",
+   "juan": 29,
+   "wyg": "029-336a",
+   "sbck": ""
+  },
+  {
+   "seq": 13,
+   "title": "重修蒙化府儒學記",
+   "attribution": "侍郎/ 張志淳 永昌/",
+   "location": "重修蒙化府",
+   "juan": 29,
+   "wyg": "029-338b",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "新建尋甸府城記",
+   "attribution": "張志淳",
+   "location": "新建尋甸府",
+   "juan": 29,
+   "wyg": "029-340b",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "通海縣三節祠記",
+   "attribution": "廵按/ 毛鳳韶 麻城/",
+   "location": "通海縣",
+   "juan": 29,
+   "wyg": "029-345b",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "碧嶢精舎記",
+   "attribution": "修撰/ 楊 慎 新都/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-347a",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "逰㸃蒼山記",
+   "attribution": "楊 慎",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-348b",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "定逺縣儒學記",
+   "attribution": "楊 慎",
+   "location": "定逺縣",
+   "juan": 29,
+   "wyg": "029-354a",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "連然新井記",
+   "attribution": "楊 慎",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-355b",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "逰雞足山記",
+   "attribution": "知府/ 李元陽 太和/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-357a",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "布政司題名記",
+   "attribution": "布政/ 曾存仁 吉水/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-362b",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "剙建廣通縣學記",
+   "attribution": "提學/ 張佳印 銅梁/",
+   "location": "剙建廣通縣",
+   "juan": 29,
+   "wyg": "029-365a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "逰安寧温泉記",
+   "attribution": "張佳印",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-367a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "武定府改土設流記",
+   "attribution": "同知/ 鄧世彦 湖廣/",
+   "location": "武定府",
+   "juan": 29,
+   "wyg": "029-370a",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "阿迷州通靈洞記",
+   "attribution": "廵撫/ 鄒應龍 長安/",
+   "location": "阿迷州",
+   "juan": 29,
+   "wyg": "029-372a",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "横山水洞記",
+   "attribution": "布政/ 羅元正 鄱陽/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-374a",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "傅公祠記",
+   "attribution": "提學/ 馮時可 華亭/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-377a",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "汛舟昆明池歴太華諸峯記",
+   "attribution": "副使/ 王士性 臨海/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-379b",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "修建五華書院記",
+   "attribution": "叅政/ 黄 琮 海陽/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-383a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "追贈光祿寺少卿張公忠烈祠碑記",
+   "attribution": "",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-385b",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "新建松華壩石閘碑記",
+   "attribution": "提學/ 江 和 鄱陽/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-388b",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "新建重關記",
+   "attribution": "郎中/ 施堯化 昆明/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-391b",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "新建昆明書院碑記",
+   "attribution": "總督/ 蔡毓榮 奉天/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-394a",
+   "sbck": ""
+  },
+  {
+   "seq": 34,
+   "title": "改建雲南省城府縣學宫碑記",
+   "attribution": "",
+   "location": "雲南省城府",
+   "juan": 29,
+   "wyg": "029-397a",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "五年思所以移風易俗仰贊",
+   "attribution": "",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-398a",
+   "sbck": ""
+  },
+  {
+   "seq": 36,
+   "title": "新建雲濤寺及新温泉碑記",
+   "attribution": "廵撫/ 石 琳 奉天/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-401a",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "重建表忠祠記",
+   "attribution": "知府/ 丁 煒 晉江/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-403b",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "蘭隱君祠堂記",
+   "attribution": "侍讀/ 李澄中 諸城/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-406a",
+   "sbck": ""
+  },
+  {
+   "seq": 39,
+   "title": "甘忠果祠堂碑記",
+   "attribution": "總督/ 蔣陳錫 常熟/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-407b",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "學博李又山鄉飲記",
+   "attribution": "提學/ 張 謙 武昌/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-411a",
+   "sbck": ""
+  },
+  {
+   "seq": 41,
+   "title": "者殆不可測哉爰為之記",
+   "attribution": "",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-413a",
+   "sbck": ""
+  },
+  {
+   "seq": 42,
+   "title": "遷建麗江府學記",
+   "attribution": "知府/ 楊 馝 奉天/",
+   "location": "遷建麗江府",
+   "juan": 29,
+   "wyg": "029-413a",
+   "sbck": ""
+  },
+  {
+   "seq": 43,
+   "title": "開巖洞碑記",
+   "attribution": "綿州/知州 王立憲 建水/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-415b",
+   "sbck": ""
+  },
+  {
+   "seq": 44,
+   "title": "紅優曇花記",
+   "attribution": "按察/ 常 安 滿洲/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-419a",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "東川新建石城碑記",
+   "attribution": "廵撫/ 張允隨 奉天/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-421a",
+   "sbck": ""
+  },
+  {
+   "seq": 46,
+   "title": "福山泉碑記",
+   "attribution": "張允隨",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-423b",
+   "sbck": ""
+  },
+  {
+   "seq": 47,
+   "title": "之心油然以生乎是為記",
+   "attribution": "",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-425a",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "修建文山書院記",
+   "attribution": "知縣/ 徐本僊 蘄水/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-425a",
+   "sbck": ""
+  },
+  {
+   "seq": 49,
+   "title": "昭通書院碑記",
+   "attribution": "總兵/ 徐成貞 漢陽/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-426b",
+   "sbck": ""
+  },
+  {
+   "seq": 50,
+   "title": "重修彌勒州學宫記",
+   "attribution": "吳應枚",
+   "location": "重修彌勒州",
+   "juan": 29,
+   "wyg": "029-432a",
+   "sbck": ""
+  },
+  {
+   "seq": 51,
+   "title": "重修通海縣學宫記",
+   "attribution": "吳應枚",
+   "location": "重修通海縣",
+   "juan": 29,
+   "wyg": "029-434a",
+   "sbck": ""
+  },
+  {
+   "seq": 52,
+   "title": "醒亭記",
+   "attribution": "布政/使 陳𢎞謀 臨桂/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-435b",
+   "sbck": ""
+  },
+  {
+   "seq": 53,
+   "title": "總兵趙得勝援屏事略記",
+   "attribution": "知縣/ 何其偉 石屏/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-436b",
+   "sbck": ""
+  },
+  {
+   "seq": 54,
+   "title": "新建五華書院碑記",
+   "attribution": "總督/ 尹繼善 滿洲/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-438b",
+   "sbck": ""
+  },
+  {
+   "seq": 55,
+   "title": "滇南育嬰堂碑記",
+   "attribution": "總督/ 王繼文 奉天/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-443a",
+   "sbck": ""
+  },
+  {
+   "seq": 56,
+   "title": "掩骼會碑記",
+   "attribution": "廵撫/ 石文晟 奉天/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-445b",
+   "sbck": ""
+  },
+  {
+   "seq": 57,
+   "title": "雲南布政司題名記",
+   "attribution": "布政/使 張允隨 見前/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-447a",
+   "sbck": ""
+  },
+  {
+   "seq": 58,
+   "title": "景東創建試院碑記",
+   "attribution": "吳應枚 見前/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-449a",
+   "sbck": ""
+  },
+  {
+   "seq": 59,
+   "title": "平雲南碑",
+   "attribution": "學士/ 程文海 建昌/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-467b",
+   "sbck": ""
+  },
+  {
+   "seq": 60,
+   "title": "賽平章德政碑",
+   "attribution": "提舉/ 趙子元",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-470b",
+   "sbck": ""
+  },
+  {
+   "seq": 61,
+   "title": "黔寧昭靖王祠堂碑",
+   "attribution": "王 奎 見前/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-474a",
+   "sbck": ""
+  },
+  {
+   "seq": 62,
+   "title": "定逺王神道碑",
+   "attribution": "大學/士 楊士奇 廬陵/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-478a",
+   "sbck": ""
+  },
+  {
+   "seq": 63,
+   "title": "定逺忠敬王廟碑",
+   "attribution": "尚書/ 王 直 泰和/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-480a",
+   "sbck": ""
+  },
+  {
+   "seq": 64,
+   "title": "大理八蜡廟碑",
+   "attribution": "知府/ 李元陽 太和/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-486b",
+   "sbck": ""
+  },
+  {
+   "seq": 65,
+   "title": "雲南平諸夷碑",
+   "attribution": "御史/ 趙汝濂 太和/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-488a",
+   "sbck": ""
+  },
+  {
+   "seq": 66,
+   "title": "銅漏銘",
+   "attribution": "布政/ 張 紞 富平/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-504a",
+   "sbck": ""
+  },
+  {
+   "seq": 67,
+   "title": "西南夷𫝊贊",
+   "attribution": "太史/令 司馬遷 龍門/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-595a",
+   "sbck": ""
+  },
+  {
+   "seq": 68,
+   "title": "南夷君長贊",
+   "attribution": "蘭臺/令史 班 固 扶風/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-595b",
+   "sbck": ""
+  },
+  {
+   "seq": 69,
+   "title": "西南蠻𫝊贊",
+   "attribution": "同平/章事 劉 昫 歸義/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-596a",
+   "sbck": ""
+  },
+  {
+   "seq": 70,
+   "title": "南詔列𫝊贊",
+   "attribution": "失 名",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-596b",
+   "sbck": ""
+  },
+  {
+   "seq": 71,
+   "title": "毛給諫玉遺像贊",
+   "attribution": "修撰/謫戍 楊 慎 新都/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-597a",
+   "sbck": ""
+  },
+  {
+   "seq": 72,
+   "title": "平雲南頌",
+   "attribution": "王景常",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-597b",
+   "sbck": ""
+  },
+  {
+   "seq": 73,
+   "title": "平滇頌",
+   "attribution": "有序/ 檢討/ 尤 侗 長洲/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-600b",
+   "sbck": ""
+  },
+  {
+   "seq": 74,
+   "title": "稽首而為之記",
+   "attribution": "",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-609b",
+   "sbck": ""
+  },
+  {
+   "seq": 75,
+   "title": "恭肅嚴公墓誌銘",
+   "attribution": "大學/士 王錫爵 太倉/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-671a",
+   "sbck": ""
+  },
+  {
+   "seq": 76,
+   "title": "過華亭寺讀方子及碑",
+   "attribution": "鄧原岳 見前/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-776b",
+   "sbck": ""
+  },
+  {
+   "seq": 77,
+   "title": "拜楊莊介先生像",
+   "attribution": "丁 煒 見前/",
+   "location": "",
+   "juan": 29,
+   "wyg": "029-784a",
+   "sbck": ""
+  }
+ ]
+}

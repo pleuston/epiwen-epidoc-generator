@@ -1,0 +1,799 @@
+{
+ "excerpts": [
+  {
+   "name": "Wang Shu 王澍《竹雲題跋》",
+   "text": "> Stub — [[_wiki/projects/history-of-epigraphic-studies/index|History of Epigraphic Studies]] job, [[skslxb|《石刻史料新編》]] 第二輯 考證目録題跋類, work 209."
+  }
+ ],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "比干墓銅盤銘",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-1a",
+   "sbck": "",
+   "authority": "insc-0529"
+  },
+  {
+   "seq": 2,
+   "title": "比干墓題字",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-1b",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "延陵季子墓題字",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-2a",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "秦詛楚文",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-3b",
+   "sbck": "",
+   "authority": "insc-0468"
+  },
+  {
+   "seq": 5,
+   "title": "西漢五鳳題字",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "婁壽碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-4b",
+   "sbck": "",
+   "authority": "insc-0047"
+  },
+  {
+   "seq": 7,
+   "title": "西嶽華山廟碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-5a",
+   "sbck": "",
+   "authority": "insc-0025"
+  },
+  {
+   "seq": 8,
+   "title": "曹全碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-6a",
+   "sbck": "",
+   "authority": "insc-0076"
+  },
+  {
+   "seq": 9,
+   "title": "鍾太傅薦季直表",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "鍾繇賀捷表",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-9b",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "魏鍾繇調元表",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-10b",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "呉天璽紀功碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-11a",
+   "sbck": "",
+   "authority": "insc-0170"
+  },
+  {
+   "seq": 13,
+   "title": "皇象急就章",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-13a",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "王右軍樂毅論",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-14a",
+   "sbck": "",
+   "authority": "insc-0098"
+  },
+  {
+   "seq": 15,
+   "title": "王右軍黄庭經",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-14b",
+   "sbck": "",
+   "authority": "insc-1669"
+  },
+  {
+   "seq": 16,
+   "title": "王右軍曹娥碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-15a",
+   "sbck": "",
+   "authority": "insc-0475"
+  },
+  {
+   "seq": 17,
+   "title": "曹娥碑别本",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "蘭亭二十種",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-16a",
+   "sbck": "",
+   "authority": "insc-0469"
+  },
+  {
+   "seq": 19,
+   "title": "定武蘭亭",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-30b",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "宋搨蘭亭九字損本",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-31a",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "潁上蘭亭",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-32a",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "宋游丞相藏蘭亭三種",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-33a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "集聖教字蘭亭",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-34a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "王右軍十七帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-1a",
+   "sbck": "",
+   "authority": "insc-1670"
+  },
+  {
+   "seq": 25,
+   "title": "王右軍王略帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-3a",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "唐僧懷仁集王右軍書聖教序",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "王右軍快雪帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "王右軍裹鮓帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-14a",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "王大令洛神十三行",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "王大令論謝太傅表",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-16a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "王大令桓山殘碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-16a",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "索靖月儀章",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-16b",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "楊義和内景經",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-17a",
+   "sbck": ""
+  },
+  {
+   "seq": 34,
+   "title": "梁瘞鶴銘圖",
+   "attribution": "以今現存字圖之/",
+   "juan": 2,
+   "wyg": "002-18b",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "江隂真宰",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-18b",
+   "sbck": ""
+  },
+  {
+   "seq": 36,
+   "title": "丹陽外仙尉",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "瘞鶴銘考",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "歐陽率更醴泉銘",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-1a",
+   "sbck": "",
+   "authority": "insc-0161"
+  },
+  {
+   "seq": 39,
+   "title": "虞永興破邪論叙",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-1b",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "歐陽蘭臺道因法師碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-2a",
+   "sbck": "",
+   "authority": "insc-0172"
+  },
+  {
+   "seq": 41,
+   "title": "禇摹蘭亭真蹟",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-2b",
+   "sbck": ""
+  },
+  {
+   "seq": 42,
+   "title": "禇摹蘭亭",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-3b",
+   "sbck": ""
+  },
+  {
+   "seq": 43,
+   "title": "禇河南雁塔聖教序",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 44,
+   "title": "禇河南同州聖教序",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "禇河南倪寛贊",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-7a",
+   "sbck": ""
+  },
+  {
+   "seq": 46,
+   "title": "禇河南文皇哀冊",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-8b",
+   "sbck": ""
+  },
+  {
+   "seq": 47,
+   "title": "禇河南隨清娯墓誌銘",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "魏栖梧善才寺碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-9b",
+   "sbck": ""
+  },
+  {
+   "seq": 49,
+   "title": "禇河南髙士賛",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 50,
+   "title": "唐朝散大夫陸柬之書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-11b",
+   "sbck": ""
+  },
+  {
+   "seq": 51,
+   "title": "唐蕭瑀書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 52,
+   "title": "唐孫思邈書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 53,
+   "title": "王方慶萬歲通天進帖",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 54,
+   "title": "李懷琳仿絶交書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 55,
+   "title": "孫過庭書譜",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 56,
+   "title": "唐碧落碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-19a",
+   "sbck": "",
+   "authority": "insc-0180"
+  },
+  {
+   "seq": 57,
+   "title": "唐狄仁傑書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 58,
+   "title": "張九齡告",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 59,
+   "title": "徐季海書朱巨川告",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 60,
+   "title": "李陽冰謙卦",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-21b",
+   "sbck": ""
+  },
+  {
+   "seq": 61,
+   "title": "李陽冰縉雲城隍廟碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 62,
+   "title": "李陽冰慧山聽松二篆字",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-23a",
+   "sbck": ""
+  },
+  {
+   "seq": 63,
+   "title": "李陽冰殘字",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-23b",
+   "sbck": ""
+  },
+  {
+   "seq": 64,
+   "title": "唐經生書靈飛經",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-24a",
+   "sbck": ""
+  },
+  {
+   "seq": 65,
+   "title": "唐明皇紀泰山銘",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-24b",
+   "sbck": "",
+   "authority": "insc-0251"
+  },
+  {
+   "seq": 66,
+   "title": "唐明皇批答裴耀卿等奏狀",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-25b",
+   "sbck": ""
+  },
+  {
+   "seq": 67,
+   "title": "汝帖唐初四家",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-27a",
+   "sbck": ""
+  },
+  {
+   "seq": 68,
+   "title": "唐李徳裕與表弟書",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-27b",
+   "sbck": ""
+  },
+  {
+   "seq": 69,
+   "title": "顏魯公中興頌",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-27b",
+   "sbck": "",
+   "authority": "insc-0309"
+  },
+  {
+   "seq": 70,
+   "title": "顏魯公宋廣平碑并碑側記",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 71,
+   "title": "顔魯公東方朔畫像賛",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-1a",
+   "sbck": "",
+   "authority": "insc-0542"
+  },
+  {
+   "seq": 72,
+   "title": "顔魯公送蔡明逺叙",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-3b",
+   "sbck": ""
+  },
+  {
+   "seq": 73,
+   "title": "顔魯公送劉太冲叙",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 74,
+   "title": "顔魯公乍奉辭帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-5a",
+   "sbck": ""
+  },
+  {
+   "seq": 75,
+   "title": "顔魯公乞米帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 76,
+   "title": "顔魯公劉中使帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-6b",
+   "sbck": ""
+  },
+  {
+   "seq": 77,
+   "title": "顔魯公論坐書稿",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-7b",
+   "sbck": "",
+   "authority": "insc-0488"
+  },
+  {
+   "seq": 78,
+   "title": "顔魯公祭姪季明稿",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-10b",
+   "sbck": ""
+  },
+  {
+   "seq": 79,
+   "title": "顔魯公告伯父稿",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 80,
+   "title": "顔魯公奉命帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 81,
+   "title": "卞氏所收偽魯公帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-14a",
+   "sbck": ""
+  },
+  {
+   "seq": 82,
+   "title": "懷素帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 83,
+   "title": "懷素藏真聖母二帖",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 84,
+   "title": "唐李紳告",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 85,
+   "title": "李北海少林寺戒壇銘",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-16a",
+   "sbck": "",
+   "authority": "insc-0223"
+  },
+  {
+   "seq": 86,
+   "title": "唐歙州刺史葉慧明碑",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-16b",
+   "sbck": "",
+   "authority": "insc-0226"
+  },
+  {
+   "seq": 87,
+   "title": "唐李商隱書月賦",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 88,
+   "title": "楊少師神仙起居法",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 89,
+   "title": "宋髙宗臨蘭亭",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-18b",
+   "sbck": ""
+  },
+  {
+   "seq": 90,
+   "title": "米臨蘭亭",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 91,
+   "title": "米元章顔魯公碑隂",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 92,
+   "title": "米元章蜀素真跡",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 93,
+   "title": "祝京兆書",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-22a",
+   "sbck": ""
+  },
+  {
+   "seq": 94,
+   "title": "篆書謙卦家人卦",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 95,
+   "title": "十種千文",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-24a",
+   "sbck": ""
+  },
+  {
+   "seq": 96,
+   "title": "跋自臨皇甫明公碑後",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-30a",
+   "sbck": "",
+   "authority": "insc-0470"
+  }
+ ]
+}

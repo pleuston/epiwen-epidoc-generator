@@ -1,0 +1,925 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "蘇州府重修孔子廟學碑",
+   "attribution": "宋濓/",
+   "juan": 1,
+   "wyg": "001-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "蘇州府孔子廟學新建南門記",
+   "attribution": "王彛/",
+   "juan": 1,
+   "wyg": "001-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "蘇州府重修儒學記",
+   "attribution": "胡像/",
+   "juan": 1,
+   "wyg": "001-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "重脩蘇州府廟學記",
+   "attribution": "金幼孜/",
+   "juan": 1,
+   "wyg": "001-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "蘇郡儒學興脩記",
+   "attribution": "徐有貞/",
+   "juan": 1,
+   "wyg": "001-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "蘇州府重脩儒學記",
+   "attribution": "王直/",
+   "juan": 1,
+   "wyg": "001-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 7,
+   "title": "脩蘇州府儒學記",
+   "attribution": "陸釴/",
+   "juan": 1,
+   "wyg": "001-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "蘇州府重建文廟記",
+   "attribution": "吳寛/",
+   "juan": 1,
+   "wyg": "001-16a",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "長洲縣學記",
+   "attribution": "金玟/",
+   "juan": 1,
+   "wyg": "001-18a",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "蘇州府長洲縣重建儒學記",
+   "attribution": "夏時正/",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "直𨽻蘇州府吳縣儒學重建記",
+   "attribution": "楊榮/",
+   "juan": 1,
+   "wyg": "001-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "吳縣脩學記",
+   "attribution": "吳寛/",
+   "juan": 1,
+   "wyg": "001-24b",
+   "sbck": ""
+  },
+  {
+   "seq": 13,
+   "title": "吳江縣重脩廟學記",
+   "attribution": "趙寛/",
+   "juan": 1,
+   "wyg": "001-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "重建崑山縣儒學記",
+   "attribution": "謝遷/",
+   "juan": 1,
+   "wyg": "001-30a",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "嘉定縣重建儒學記",
+   "attribution": "陳鑑/",
+   "juan": 1,
+   "wyg": "001-32b",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "崇明縣脩廟學記",
+   "attribution": "徐有貞/",
+   "juan": 1,
+   "wyg": "001-34b",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "太倉州儒學記",
+   "attribution": "祝允明/",
+   "juan": 1,
+   "wyg": "001-37b",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "科第題名記",
+   "attribution": "徐有貞/",
+   "juan": 1,
+   "wyg": "001-39b",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "蘇州府儒學鄉貢題名記",
+   "attribution": "徐有貞/",
+   "juan": 1,
+   "wyg": "001-41b",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "蘇州府社學記",
+   "attribution": "徐有貞/",
+   "juan": 1,
+   "wyg": "001-43b",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "鄉飲酒碑銘",
+   "attribution": "王&KR0156;/",
+   "juan": 1,
+   "wyg": "001-45a",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "吳縣學射圃記",
+   "attribution": "王鏊/",
+   "juan": 1,
+   "wyg": "001-48a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "願治堂記",
+   "attribution": "王恕/",
+   "juan": 2,
+   "wyg": "002-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "觀風題名記",
+   "attribution": "徐有貞/",
+   "juan": 2,
+   "wyg": "002-2a",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "來鶴樓記",
+   "attribution": "魏驥/",
+   "juan": 2,
+   "wyg": "002-4b",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "退思堂記",
+   "attribution": "陳孟浩/",
+   "juan": 2,
+   "wyg": "002-6b",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "昭賜樓記",
+   "attribution": "劉昌/",
+   "juan": 2,
+   "wyg": "002-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "燕思堂記",
+   "attribution": "楊循吉/",
+   "juan": 2,
+   "wyg": "002-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "移建姑蘇驛記",
+   "attribution": "邱霽/",
+   "juan": 2,
+   "wyg": "002-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "濟農倉記",
+   "attribution": "王直/",
+   "juan": 2,
+   "wyg": "002-13a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "重建永豐倉記",
+   "attribution": "陳鑑/",
+   "juan": 2,
+   "wyg": "002-17a",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "吳江縣重建濟農倉記",
+   "attribution": "楊循吉/",
+   "juan": 2,
+   "wyg": "002-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "望湖閣記",
+   "attribution": "浦應祥/",
+   "juan": 2,
+   "wyg": "002-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 34,
+   "title": "治水分司題名記",
+   "attribution": "張習/",
+   "juan": 2,
+   "wyg": "002-23b",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "沙湖隄記",
+   "attribution": "吳寛/",
+   "juan": 3,
+   "wyg": "003-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 36,
+   "title": "常熟縣許浦塘疏濬記",
+   "attribution": "倪岳/",
+   "juan": 3,
+   "wyg": "003-3b",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "三吳治水頌",
+   "attribution": "楊循吉/",
+   "juan": 3,
+   "wyg": "003-6a",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "重浚七鴉浦記",
+   "attribution": "姚文灝/",
+   "juan": 3,
+   "wyg": "003-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 39,
+   "title": "重濬湖川塘記",
+   "attribution": "祝允明/",
+   "juan": 3,
+   "wyg": "003-10b",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "重濬至和塘記",
+   "attribution": "吳瑞/",
+   "juan": 3,
+   "wyg": "003-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 41,
+   "title": "長洲義官疏渠題名記",
+   "attribution": "楊循吉/",
+   "juan": 3,
+   "wyg": "003-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 42,
+   "title": "治水義官題名記",
+   "attribution": "楊循吉/",
+   "juan": 3,
+   "wyg": "003-17a",
+   "sbck": ""
+  },
+  {
+   "seq": 43,
+   "title": "重濬湖川塘題名記",
+   "attribution": "桑悦/",
+   "juan": 3,
+   "wyg": "003-18b",
+   "sbck": ""
+  },
+  {
+   "seq": 44,
+   "title": "滸墅永通渠記",
+   "attribution": "陳琦/",
+   "juan": 3,
+   "wyg": "003-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "西華石塘記",
+   "attribution": "王㒜/",
+   "juan": 3,
+   "wyg": "003-21b",
+   "sbck": ""
+  },
+  {
+   "seq": 46,
+   "title": "重建安里橋記",
+   "attribution": "姜漸/",
+   "juan": 4,
+   "wyg": "004-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 47,
+   "title": "重建寳帶橋記",
+   "attribution": "陳循/",
+   "juan": 4,
+   "wyg": "004-2b",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "重建越城橋記",
+   "attribution": "張習/",
+   "juan": 4,
+   "wyg": "004-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 49,
+   "title": "重建尹山橋記",
+   "attribution": "錢溥/",
+   "juan": 4,
+   "wyg": "004-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 50,
+   "title": "葑門塘改造二橋記",
+   "attribution": "吳寛/",
+   "juan": 4,
+   "wyg": "004-7a",
+   "sbck": ""
+  },
+  {
+   "seq": 51,
+   "title": "重建勝安橋記",
+   "attribution": "夏璣/",
+   "juan": 4,
+   "wyg": "004-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 52,
+   "title": "重建渡水橋記",
+   "attribution": "楊循吉/",
+   "juan": 4,
+   "wyg": "004-10b",
+   "sbck": ""
+  },
+  {
+   "seq": 53,
+   "title": "吳縣康履橋記",
+   "attribution": "楊循吉/",
+   "juan": 4,
+   "wyg": "004-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 54,
+   "title": "冶長涇普濟石橋記",
+   "attribution": "杜啟/",
+   "juan": 4,
+   "wyg": "004-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 55,
+   "title": "重脩夾浦橋記",
+   "attribution": "沈燾/",
+   "juan": 4,
+   "wyg": "004-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 56,
+   "title": "饒稼橋記",
+   "attribution": "莫旦/",
+   "juan": 4,
+   "wyg": "004-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 57,
+   "title": "重修垂虹橋記",
+   "attribution": "錢溥/",
+   "juan": 4,
+   "wyg": "004-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 58,
+   "title": "重建獬豸橋銘",
+   "attribution": "有序/ 吳洪/",
+   "juan": 4,
+   "wyg": "004-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 59,
+   "title": "常熟縣新建迎春橋記",
+   "attribution": "王宗鍚/",
+   "juan": 4,
+   "wyg": "004-23a",
+   "sbck": ""
+  },
+  {
+   "seq": 60,
+   "title": "韓氏脩造橋梁道路記",
+   "attribution": "桑悦/",
+   "juan": 4,
+   "wyg": "004-25a",
+   "sbck": ""
+  },
+  {
+   "seq": 61,
+   "title": "長洲縣重建官瀆朱涇二橋記",
+   "attribution": "都穆/",
+   "juan": 4,
+   "wyg": "004-26b",
+   "sbck": ""
+  },
+  {
+   "seq": 62,
+   "title": "吳郡溪瀆三橋記",
+   "attribution": "陳霽/",
+   "juan": 4,
+   "wyg": "004-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 63,
+   "title": "吳邑重建永安諸橋記",
+   "attribution": "浦應祥/",
+   "juan": 4,
+   "wyg": "004-29b",
+   "sbck": ""
+  },
+  {
+   "seq": 64,
+   "title": "歸普二涇通水建橋記",
+   "attribution": "楊循吉/",
+   "juan": 4,
+   "wyg": "004-31a",
+   "sbck": ""
+  },
+  {
+   "seq": 65,
+   "title": "重修至徳廟記",
+   "attribution": "周忱/",
+   "juan": 5,
+   "wyg": "005-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 66,
+   "title": "重新至徳廟記",
+   "attribution": "陳音/",
+   "juan": 5,
+   "wyg": "005-3a",
+   "sbck": ""
+  },
+  {
+   "seq": 67,
+   "title": "吳相伍君廟碑",
+   "attribution": "王鏊/",
+   "juan": 5,
+   "wyg": "005-4b",
+   "sbck": ""
+  },
+  {
+   "seq": 68,
+   "title": "重修陽山白龍祠記",
+   "attribution": "金幼孜/",
+   "juan": 5,
+   "wyg": "005-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 69,
+   "title": "重修范文正公忠烈廟記",
+   "attribution": "王直/",
+   "juan": 5,
+   "wyg": "005-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 70,
+   "title": "晉大將軍右司馬陸士龍祠記",
+   "attribution": "徐有貞/",
+   "juan": 5,
+   "wyg": "005-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 71,
+   "title": "范文正公祠堂重修記",
+   "attribution": "張益/",
+   "juan": 5,
+   "wyg": "005-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 72,
+   "title": "重建范文正公祠堂記",
+   "attribution": "徐有貞/",
+   "juan": 5,
+   "wyg": "005-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 73,
+   "title": "新遷范文正公祠記",
+   "attribution": "黎擴/",
+   "juan": 5,
+   "wyg": "005-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 74,
+   "title": "宋衛文節公祠堂碑",
+   "attribution": "沈魯/",
+   "juan": 5,
+   "wyg": "005-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 75,
+   "title": "韓蘄王廟記",
+   "attribution": "張習/",
+   "juan": 5,
+   "wyg": "005-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 76,
+   "title": "周孝子廟之記",
+   "attribution": "吳寛/",
+   "juan": 5,
+   "wyg": "005-25b",
+   "sbck": ""
+  },
+  {
+   "seq": 77,
+   "title": "來鶴樓合祠碑",
+   "attribution": "彭韶/",
+   "juan": 5,
+   "wyg": "005-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 78,
+   "title": "二卿祠堂記",
+   "attribution": "夏時正/",
+   "juan": 5,
+   "wyg": "005-31a",
+   "sbck": ""
+  },
+  {
+   "seq": 79,
+   "title": "宋太師鶴山先生文靖魏公祠堂碑",
+   "attribution": "楊循吉/",
+   "juan": 5,
+   "wyg": "005-35b",
+   "sbck": ""
+  },
+  {
+   "seq": 80,
+   "title": "新建鄉社亭記",
+   "attribution": "顧清/",
+   "juan": 5,
+   "wyg": "005-37b",
+   "sbck": ""
+  },
+  {
+   "seq": 81,
+   "title": "直道陳公祠記",
+   "attribution": "沈燾/",
+   "juan": 5,
+   "wyg": "005-39b",
+   "sbck": ""
+  },
+  {
+   "seq": 82,
+   "title": "石湖鄉賢祠記",
+   "attribution": "莫旦/",
+   "juan": 5,
+   "wyg": "005-42a",
+   "sbck": ""
+  },
+  {
+   "seq": 83,
+   "title": "重修山川壇記",
+   "attribution": "浦應祥/",
+   "juan": 5,
+   "wyg": "005-44a",
+   "sbck": ""
+  },
+  {
+   "seq": 84,
+   "title": "𠡠祀鶴山先生魏文靖公記",
+   "attribution": "吳寛/",
+   "juan": 5,
+   "wyg": "005-45b",
+   "sbck": ""
+  },
+  {
+   "seq": 85,
+   "title": "虎丘雲巖禪寺修造記",
+   "attribution": "楊士竒/",
+   "juan": 6,
+   "wyg": "006-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 86,
+   "title": "蘇郡虎丘寺修塔記",
+   "attribution": "張益/",
+   "juan": 6,
+   "wyg": "006-3a",
+   "sbck": ""
+  },
+  {
+   "seq": 87,
+   "title": "勅賜藏經閣記",
+   "attribution": "周忱/",
+   "juan": 6,
+   "wyg": "006-5a",
+   "sbck": ""
+  },
+  {
+   "seq": 88,
+   "title": "天平山白雲禪寺重興碑",
+   "attribution": "姚廣孝/",
+   "juan": 6,
+   "wyg": "006-6a",
+   "sbck": ""
+  },
+  {
+   "seq": 89,
+   "title": "萬夀禪寺重構佛殿記",
+   "attribution": "宋濂/",
+   "juan": 6,
+   "wyg": "006-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 90,
+   "title": "重修承天寺記",
+   "attribution": "陳繼/",
+   "juan": 6,
+   "wyg": "006-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 91,
+   "title": "承天寺重建大雄殿記",
+   "attribution": "吳寛/",
+   "juan": 6,
+   "wyg": "006-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 92,
+   "title": "重建寳光賢首講寺碑",
+   "attribution": "曽棨/",
+   "juan": 6,
+   "wyg": "006-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 93,
+   "title": "重修報恩寺寳塔記",
+   "attribution": "陳琦/",
+   "juan": 6,
+   "wyg": "006-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 94,
+   "title": "陽山大石巖雲泉庵記",
+   "attribution": "吳寛/",
+   "juan": 6,
+   "wyg": "006-24a",
+   "sbck": ""
+  },
+  {
+   "seq": 95,
+   "title": "蘇州府𤣥妙觀重建彌羅寳閣記",
+   "attribution": "胡濙/",
+   "juan": 6,
+   "wyg": "006-25b",
+   "sbck": ""
+  },
+  {
+   "seq": 96,
+   "title": "重建清真觀記",
+   "attribution": "俞貞木/",
+   "juan": 6,
+   "wyg": "006-27b",
+   "sbck": ""
+  },
+  {
+   "seq": 97,
+   "title": "福濟觀新建祠宇記",
+   "attribution": "徐有貞/",
+   "juan": 6,
+   "wyg": "006-29a",
+   "sbck": ""
+  },
+  {
+   "seq": 98,
+   "title": "清微道院三官閣碑",
+   "attribution": "都穆/",
+   "juan": 6,
+   "wyg": "006-31b",
+   "sbck": ""
+  },
+  {
+   "seq": 99,
+   "title": "文正書院記",
+   "attribution": "祝顥/",
+   "juan": 7,
+   "wyg": "007-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 100,
+   "title": "新修道山亭記",
+   "attribution": "黎擴/",
+   "juan": 7,
+   "wyg": "007-3b",
+   "sbck": ""
+  },
+  {
+   "seq": 101,
+   "title": "長洲練氏義塾記",
+   "attribution": "宋濂/",
+   "juan": 7,
+   "wyg": "007-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 102,
+   "title": "大塲鎮重修義塾記",
+   "attribution": "王直/",
+   "juan": 7,
+   "wyg": "007-7a",
+   "sbck": ""
+  },
+  {
+   "seq": 103,
+   "title": "張節婦唐氏旌門銘",
+   "attribution": "有序/ 宋濂/",
+   "juan": 7,
+   "wyg": "007-9b",
+   "sbck": ""
+  },
+  {
+   "seq": 104,
+   "title": "節婦黄氏旌門頌",
+   "attribution": "蘇伯衡/",
+   "juan": 7,
+   "wyg": "007-11b",
+   "sbck": ""
+  },
+  {
+   "seq": 105,
+   "title": "朱孝子旌門記",
+   "attribution": "吳寛/",
+   "juan": 7,
+   "wyg": "007-14a",
+   "sbck": ""
+  },
+  {
+   "seq": 106,
+   "title": "東莊記",
+   "attribution": "季東陽/",
+   "juan": 7,
+   "wyg": "007-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 107,
+   "title": "雲巖雅集志",
+   "attribution": "徐有貞/",
+   "juan": 8,
+   "wyg": "008-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 108,
+   "title": "太湖諸山記",
+   "attribution": "王鏊/",
+   "juan": 8,
+   "wyg": "008-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 109,
+   "title": "游林屋洞詩序",
+   "attribution": "王鏊/",
+   "juan": 8,
+   "wyg": "008-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 110,
+   "title": "㢘石記",
+   "attribution": "吳寛/",
+   "juan": 8,
+   "wyg": "008-6b",
+   "sbck": ""
+  },
+  {
+   "seq": 111,
+   "title": "遊石湖記",
+   "attribution": "朱逢吉/",
+   "juan": 8,
+   "wyg": "008-8a",
+   "sbck": ""
+  },
+  {
+   "seq": 112,
+   "title": "丹井銘",
+   "attribution": "宋濂/",
+   "juan": 8,
+   "wyg": "008-11b",
+   "sbck": ""
+  },
+  {
+   "seq": 113,
+   "title": "遊郡西諸山記",
+   "attribution": "都穆/",
+   "juan": 8,
+   "wyg": "008-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 114,
+   "title": "郎官栢詩序",
+   "attribution": "金問/",
+   "juan": 8,
+   "wyg": "008-18a",
+   "sbck": ""
+  },
+  {
+   "seq": 115,
+   "title": "三髙祠議",
+   "attribution": "丘霽/",
+   "juan": 8,
+   "wyg": "008-19b",
+   "sbck": ""
+  }
+ ]
+}

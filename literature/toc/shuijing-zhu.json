@@ -1,0 +1,443 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "宣時事碑",
+   "location": "",
+   "juan": 3
+  },
+  {
+   "seq": 2,
+   "title": "工篆諸山碑",
+   "location": "以為郡縣",
+   "juan": 4
+  },
+  {
+   "seq": 3,
+   "title": "夾右碣",
+   "location": "",
+   "juan": 5
+  },
+  {
+   "seq": 4,
+   "title": "天下碑",
+   "location": "",
+   "juan": 6
+  },
+  {
+   "seq": 5,
+   "title": "堯神屋石碑",
+   "location": "東十里汾水",
+   "juan": 6
+  },
+  {
+   "seq": 6,
+   "title": "沇州刺史河東薛季像碑",
+   "location": "東北有金城城",
+   "juan": 8
+  },
+  {
+   "seq": 7,
+   "title": "沇州刺史茂陵楊叔恭碑",
+   "location": "熹平四年遷州",
+   "juan": 8
+  },
+  {
+   "seq": 8,
+   "title": "東太山成人班孟堅碑",
+   "location": "案陵",
+   "juan": 8
+  },
+  {
+   "seq": 9,
+   "title": "寧中卒碑",
+   "location": "也累遷桂陽郡",
+   "juan": 9
+  },
+  {
+   "seq": 10,
+   "title": "縣長魯國孔明碑",
+   "location": "脩縣治城",
+   "juan": 9
+  },
+  {
+   "seq": 11,
+   "title": "漳河神壇碑",
+   "location": "防排通以正水",
+   "juan": 10
+  },
+  {
+   "seq": 12,
+   "title": "漢冀州從事安平趙徴碑",
+   "location": "新博縣",
+   "juan": 10
+  },
+  {
+   "seq": 13,
+   "title": "獻文帝南巡碑",
+   "location": "青龍三年立城",
+   "juan": 10
+  },
+  {
+   "seq": 14,
+   "title": "墳塋陵隧碑",
+   "location": "郡山",
+   "juan": 11
+  },
+  {
+   "seq": 15,
+   "title": "御射石碑",
+   "location": "臺南臺在北阜",
+   "juan": 11
+  },
+  {
+   "seq": 16,
+   "title": "漢上谷太守議郎張平仲碑",
+   "location": "南又東北川",
+   "juan": 11
+  },
+  {
+   "seq": 17,
+   "title": "御射碑",
+   "location": "下水",
+   "juan": 11
+  },
+  {
+   "seq": 18,
+   "title": "郎山君碑",
+   "location": "之名山",
+   "juan": 11
+  },
+  {
+   "seq": 19,
+   "title": "郎山碑",
+   "location": "案近刻訛作山",
+   "juan": 11
+  },
+  {
+   "seq": 20,
+   "title": "晉康王碑",
+   "location": "理涿縣故城城",
+   "juan": 12
+  },
+  {
+   "seq": 21,
+   "title": "范陽王司馬虓廟碑",
+   "location": "理涿縣故城城",
+   "juan": 12
+  },
+  {
+   "seq": 22,
+   "title": "郊天碑",
+   "location": "案城",
+   "juan": 13
+  },
+  {
+   "seq": 23,
+   "title": "工巧去子丹碑",
+   "location": "",
+   "juan": 13
+  },
+  {
+   "seq": 24,
+   "title": "祗洹碑",
+   "location": "",
+   "juan": 13
+  },
+  {
+   "seq": 25,
+   "title": "晉城門校尉昌原恭侯鄭仲林碑",
+   "location": "空密陵",
+   "juan": 15
+  },
+  {
+   "seq": 26,
+   "title": "堂廟永平元年二月二十日刻石",
+   "location": "",
+   "juan": 15
+  },
+  {
+   "seq": 27,
+   "title": "茅茨碑",
+   "location": "",
+   "juan": 16
+  },
+  {
+   "seq": 28,
+   "title": "丹于碑",
+   "location": "",
+   "juan": 16
+  },
+  {
+   "seq": 29,
+   "title": "晉辟雝行禮碑",
+   "location": "",
+   "juan": 16
+  },
+  {
+   "seq": 30,
+   "title": "太學刻石",
+   "location": "",
+   "juan": 16
+  },
+  {
+   "seq": 31,
+   "title": "漢邠州刺史趙融碑",
+   "location": "縣平陽故城",
+   "juan": 17
+  },
+  {
+   "seq": 32,
+   "title": "太公碑",
+   "location": "十里渭水",
+   "juan": 19
+  },
+  {
+   "seq": 33,
+   "title": "樓豎漢京兆尹司馬文預碑",
+   "location": "",
+   "juan": 19
+  },
+  {
+   "seq": 34,
+   "title": "祠堂碑",
+   "location": "",
+   "juan": 19
+  },
+  {
+   "seq": 35,
+   "title": "言洛陽南界碑",
+   "location": "出南山",
+   "juan": 21
+  },
+  {
+   "seq": 36,
+   "title": "沈子髙諸梁碑",
+   "location": "醴水",
+   "juan": 21
+  },
+  {
+   "seq": 37,
+   "title": "許由廟碑",
+   "location": "側潁水",
+   "juan": 22
+  },
+  {
+   "seq": 38,
+   "title": "郭奉孝碑",
+   "location": "潁川郡治也城",
+   "juan": 22
+  },
+  {
+   "seq": 39,
+   "title": "叔敖碑",
+   "location": "綿嗣城",
+   "juan": 22
+  },
+  {
+   "seq": 40,
+   "title": "袁良碑",
+   "location": "扶鄉故縣",
+   "juan": 22
+  },
+  {
+   "seq": 41,
+   "title": "漢相王君造四縣邸碑",
+   "location": "東門之池也城",
+   "juan": 22
+  },
+  {
+   "seq": 42,
+   "title": "晉中散大夫胡均碑",
+   "location": "世謂之虎鄉城",
+   "juan": 23
+  },
+  {
+   "seq": 43,
+   "title": "漢温令許續碑",
+   "location": "康八年立濄水",
+   "juan": 23
+  },
+  {
+   "seq": 44,
+   "title": "令虞詡碑",
+   "location": "故城",
+   "juan": 23
+  },
+  {
+   "seq": 45,
+   "title": "漢陽臺令許叔種碑",
+   "location": "惟此文見碑城",
+   "juan": 23
+  },
+  {
+   "seq": 46,
+   "title": "文穆冢碑",
+   "location": "者也郭城",
+   "juan": 23
+  },
+  {
+   "seq": 47,
+   "title": "漢太傅掾橋載墓碑",
+   "location": "南流入于睢城",
+   "juan": 23
+  },
+  {
+   "seq": 48,
+   "title": "漢司徒袁安魏中郎將徐庶等數碑",
+   "location": "徐州治城",
+   "juan": 23
+  },
+  {
+   "seq": 49,
+   "title": "漢廣野君廟碑",
+   "location": "陽者陳留北縣",
+   "juan": 24
+  },
+  {
+   "seq": 50,
+   "title": "郎楊禪字文節兄弟二碑",
+   "location": "東七里水",
+   "juan": 24
+  },
+  {
+   "seq": 51,
+   "title": "嘉石昭明芳烈一碑",
+   "location": "",
+   "juan": 24
+  },
+  {
+   "seq": 52,
+   "title": "豫州從事皇毓碑",
+   "location": "西二里水",
+   "juan": 24
+  },
+  {
+   "seq": 53,
+   "title": "道兒君碑",
+   "location": "者也門南隔水",
+   "juan": 25
+  },
+  {
+   "seq": 54,
+   "title": "度尚碑",
+   "location": "慕容忠于此城",
+   "juan": 25
+  },
+  {
+   "seq": 55,
+   "title": "杜重一碑",
+   "location": "",
+   "juan": 26
+  },
+  {
+   "seq": 56,
+   "title": "崖髙五十丈刻石",
+   "location": "南縣北山",
+   "juan": 27
+  },
+  {
+   "seq": 57,
+   "title": "鄒恢碑",
+   "location": "又東逕萬山",
+   "juan": 28
+  },
+  {
+   "seq": 58,
+   "title": "杜元凱碑",
+   "location": "之所立也山",
+   "juan": 28
+  },
+  {
+   "seq": 59,
+   "title": "曹仁記水碑",
+   "location": "不如龐徳矣城",
+   "juan": 28
+  },
+  {
+   "seq": 60,
+   "title": "桓宣碑",
+   "location": "宣所築城",
+   "juan": 28
+  },
+  {
+   "seq": 61,
+   "title": "征西將軍周訪碑",
+   "location": "謂之墮淚碑山",
+   "juan": 28
+  },
+  {
+   "seq": 62,
+   "title": "冠盖里而刻石",
+   "location": "于廟下荆州",
+   "juan": 28
+  },
+  {
+   "seq": 63,
+   "title": "漢太尉長史邑人張敏碑",
+   "location": "以封之水",
+   "juan": 29
+  },
+  {
+   "seq": 64,
+   "title": "南陽都鄉正衛彈勸碑",
+   "location": "善城",
+   "juan": 29
+  },
+  {
+   "seq": 65,
+   "title": "若令樊萌中常侍樊安碑",
+   "location": "四周城溉城",
+   "juan": 29
+  },
+  {
+   "seq": 66,
+   "title": "魏汝南太守程曉碑",
+   "location": "援為侯國外城",
+   "juan": 30
+  },
+  {
+   "seq": 67,
+   "title": "彭山碑",
+   "location": "西下有彭山",
+   "juan": 31
+  },
+  {
+   "seq": 68,
+   "title": "平子碑",
+   "location": "南水",
+   "juan": 31
+  },
+  {
+   "seq": 69,
+   "title": "廟設祠刻石",
+   "location": "",
+   "juan": 34
+  },
+  {
+   "seq": 70,
+   "title": "晉征南將軍荆州刺史胡奮碑",
+   "location": "置呉乃徙此城",
+   "juan": 35
+  },
+  {
+   "seq": 71,
+   "title": "漢南太守程堅碑",
+   "location": "",
+   "juan": 38
+  },
+  {
+   "seq": 72,
+   "title": "曹娥碑",
+   "location": "東有龍頭山山",
+   "juan": 40
+  },
+  {
+   "seq": 73,
+   "title": "北嶽在中山上曲陽縣西北碣",
+   "location": "石髓處也恒山",
+   "juan": 40
+  }
+ ]
+}

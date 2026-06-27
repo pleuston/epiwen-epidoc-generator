@@ -3,41 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · Collection</title>
+    <title>Epiwen · Work</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="leaflet/leaflet.css" />
     <script src="auth.js"></script>
     <style>
       .cd-main { max-width: 1000px; margin: 0 auto; padding: 1.2rem 1.5rem 4rem; }
       .cd-back { display: inline-block; font-size: .83rem; color: var(--accent); text-decoration: none; margin-bottom: 1rem; }
       .cd-back:hover { text-decoration: underline; }
       .cd-main h1 { font-size: 1.5rem; margin: .1rem 0 .15rem; }
-      .cd-zh { color: var(--muted); font-weight: 600; font-size: 1.1rem; margin-left: .3rem; }
+      .cd-zh { color: var(--muted); font-weight: 600; font-size: 1.05rem; margin-left: .3rem; }
       .cd-loc { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
       .cd-badges { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .3rem; }
       .cd-badge { display: inline-block; padding: .1rem .5rem; border-radius: 4px; font-size: .74rem; font-weight: 600; background: #eef0f2; color: var(--muted); }
-      .cd-badge.agg { background: #f3e9d6; color: #8a6d2f; }
-      .cd-badge.inst { background: #eef0f2; color: var(--muted); }
-      .cd-badge.rub { background: #e3f0e3; color: #2e6b2e; }
-      .cd-badge.obj { background: #e6ecf5; color: #2f4f86; }
-      .cd-badge.acc-api { background: #e3f0e3; color: #2e6b2e; }
-      .cd-badge.acc-req { background: #f3e9d6; color: #8a6d2f; }
-      .cd-cols { display: flex; gap: 1.6rem; align-items: flex-start; flex-wrap: wrap; }
-      .cd-left { flex: 1 1 460px; min-width: 0; }
-      .cd-right { flex: 0 0 300px; }
-      .cd-holdings { font-size: .95rem; line-height: 1.5; }
-      .cd-access-note { font-size: .85rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: .7rem; }
+      .cd-badge.cat { background: #e3f0e3; color: #2e6b2e; }
+      .cd-badge.gaz { background: #f3e9d6; color: #8a6d2f; }
       .cd-main h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 1.4rem 0 .5rem; }
-      .cd-links { display: flex; flex-wrap: wrap; gap: .5rem; }
       .cd-facts { display: grid; grid-template-columns: max-content 1fr; gap: .3rem .9rem; font-size: .86rem; margin: 0; }
       .cd-facts dt { color: var(--muted); }
       .cd-facts dd { margin: 0; }
       .cd-facts code { font-size: .85em; background: var(--field-bg, #f3f3f3); padding: 0 .3em; border-radius: 3px; }
-      .cd-members { margin: .3rem 0 0; padding-left: 1.1rem; font-size: .88rem; }
-      .cd-members li { margin: .15rem 0; }
-      .cd-muted { color: var(--muted); font-size: .85em; }
-      #cd-map { height: 240px; border: 1px solid var(--line); border-radius: 6px; }
-      .leaflet-popup-content { font-size: .85rem; }
+      .lw-excerpt { border: 1px solid var(--line); border-radius: 6px; margin: .5rem 0; }
+      .lw-excerpt > summary { cursor: pointer; padding: .5rem .7rem; font-weight: 600; font-size: .9rem; }
+      .lw-excerpt[open] > summary { border-bottom: 1px solid var(--line); }
+      .lw-excerpt .lw-body { padding: .6rem .8rem; font-size: .85rem; line-height: 1.6; white-space: pre-wrap; max-height: 28rem; overflow: auto; }
+      .lw-toc-bar { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin: .3rem 0 .6rem; }
+      .lw-toc-bar input { flex: 1; min-width: 180px; }
+      .lw-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+      .lw-table th, .lw-table td { text-align: left; padding: .3rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+      .lw-table td.num { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+      .lw-table tbody tr:hover { background: var(--field-bg, #fafafa); }
+      .lw-table code { font-size: .82em; color: var(--muted); }
+      .lw-table a { color: var(--accent); text-decoration: none; }
+      .lw-table a:hover { text-decoration: underline; }
+      .lw-attr { color: var(--muted); font-size: .8rem; }
+      .lw-pager { display: flex; gap: .6rem; align-items: center; justify-content: center; margin: .8rem 0; font-size: .85rem; }
     </style>
   </head>
   <body>
@@ -62,14 +61,13 @@
     </header>
 
     <main class="cd-main">
-      <a href="collections.html" id="cd-back" class="cd-back">← All collections</a>
+      <a href="literature.html" id="cd-back" class="cd-back">← All works</a>
       <div id="cd-content"><div class="catalog-loading">Loading…</div></div>
     </main>
 
     <div id="toast" role="status" aria-live="polite"></div>
-    <script src="leaflet/leaflet.js"></script>
     <script src="variants.js"></script>
-    <script src="collection-detail.js"></script>
+    <script src="literature-work.js"></script>
     <script src="nav.js"></script>
   </body>
 </html>

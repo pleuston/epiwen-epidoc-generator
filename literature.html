@@ -3,32 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epiwen · Object &amp; Inscription Databases</title>
+    <title>Epiwen · Epigraphic Literature</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="auth.js"></script>
     <style>
       .coll-layout { display: flex; gap: 0; align-items: stretch; min-height: calc(100vh - 52px); }
-      .coll-tree {
-        flex: 0 0 280px; border-right: 1px solid var(--line); padding: 1rem .9rem; overflow-y: auto;
-        max-height: calc(100vh - 52px);
-      }
+      .coll-tree { flex: 0 0 240px; border-right: 1px solid var(--line); padding: 1rem .9rem; overflow-y: auto; max-height: calc(100vh - 52px); }
       .coll-tree h2 { font-size: 1rem; margin: 0 0 .6rem; }
       .ct-search { width: 100%; box-sizing: border-box; margin-bottom: .7rem; }
-      .ct-node { font-size: .86rem; }
-      .ct-row { display: flex; align-items: center; gap: .3rem; padding: .2rem .25rem; border-radius: 4px; cursor: pointer; }
+      .ct-row { display: flex; align-items: center; gap: .3rem; padding: .2rem .25rem; border-radius: 4px; cursor: pointer; font-size: .86rem; }
       .ct-row:hover { background: var(--field-bg, #fafafa); }
       .ct-row.active { background: #eef0f2; font-weight: 600; }
-      .ct-caret { width: 1em; color: var(--muted); font-size: .7rem; transition: transform .12s; flex: 0 0 1em; }
-      .ct-caret.open { transform: rotate(90deg); }
+      .ct-caret { width: 1em; color: var(--muted); font-size: .7rem; flex: 0 0 1em; }
       .ct-caret.leaf { visibility: hidden; }
       .ct-count { margin-left: auto; color: var(--muted); font-size: .76rem; }
-      .ct-children { margin-left: 1em; display: none; }
-      .ct-children.open { display: block; }
       .coll-main { flex: 1; padding: 1.2rem 1.5rem 3rem; overflow-y: auto; max-height: calc(100vh - 52px); }
       .coll-main h1 { font-size: 1.25rem; margin: 0 0 .2rem; }
-      .coll-crumb { font-size: .85rem; color: var(--muted); margin: 0 0 1rem; }
+      .coll-crumb { font-size: .85rem; color: var(--muted); margin: 0 0 .4rem; }
       .coll-intro { font-size: .85rem; color: var(--muted); margin: 0 0 1rem; max-width: 60rem; }
-      /* sortable overview table */
       .coll-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
       .coll-table th, .coll-table td { text-align: left; padding: .4rem .55rem; border-bottom: 1px solid var(--line); vertical-align: top; }
       .coll-table thead th { position: sticky; top: 0; background: var(--bg); z-index: 2; font-weight: 600; white-space: nowrap; }
@@ -39,16 +31,12 @@
       .ct-name { font-weight: 600; color: var(--ink); }
       .ct-name a { color: inherit; text-decoration: none; }
       .ct-name a:hover { color: var(--accent); text-decoration: underline; }
-      .ct-zh { color: var(--muted); }
+      .ct-zh { color: var(--muted); font-size: .82rem; }
       .ct-city { color: var(--muted); font-size: .78rem; }
       .coll-kind { display: inline-block; padding: .05rem .4rem; border-radius: 3px; font-size: .72rem; white-space: nowrap; }
       .coll-kind.agg { background: #f3e9d6; color: #8a6d2f; }
-      .coll-kind.inst { background: #eef0f2; color: var(--muted); }
-      .coll-access { font-size: .8rem; color: var(--muted); white-space: nowrap; }
-      .coll-access.acc-api { color: #2e6b2e; font-weight: 600; }
-      .coll-access.acc-req { color: #8a6d2f; font-weight: 600; }
-      .ct-links { margin-top: .2rem; display: flex; flex-wrap: wrap; gap: .45rem; }
-      .ct-links a { font-size: .76rem; white-space: nowrap; }
+      .coll-kind.inst { background: #e3f0e3; color: #2e6b2e; }
+      .coll-table code { font-size: .85em; background: var(--field-bg, #f3f3f3); padding: 0 .3em; border-radius: 3px; }
     </style>
   </head>
   <body>
@@ -60,8 +48,8 @@
           <div class="nav-group-dropdown">
             <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
             <a href="collections.html" class="sitenav-link">Rubbing Collections</a>
-            <a href="objects.html" class="sitenav-link active">Object Databases</a>
-            <a href="literature.html" class="sitenav-link">Epigraphic Literature</a>
+            <a href="objects.html" class="sitenav-link">Object Databases</a>
+            <a href="literature.html" class="sitenav-link active">Epigraphic Literature</a>
             <a href="inscriptions.html" class="sitenav-link">Inscription Concordance</a>
             <a href="catalog.html" class="sitenav-link">Objects</a>
             <a href="sites.html" class="sitenav-link">Sites</a>
@@ -74,24 +62,21 @@
 
     <div class="coll-layout">
       <aside class="coll-tree">
-        <h2>Object databases</h2>
-        <input type="search" id="ct-search" class="catalog-searchbox ct-search" placeholder="Filter databases…" />
+        <h2>Epigraphic literature</h2>
+        <input type="search" id="ct-search" class="catalog-searchbox ct-search" placeholder="Filter works / 中文 / author…" />
         <div id="ct-tree"><div class="catalog-loading">Loading…</div></div>
       </aside>
       <main class="coll-main">
-        <h1 id="coll-title">All databases</h1>
+        <h1 id="coll-title">All works</h1>
         <p class="coll-crumb" id="coll-crumb"></p>
-        <p class="coll-intro">External databases of the inscribed <b>objects</b> themselves (stelae, epitaphs,
-          cliff &amp; bronze inscriptions) with their texts — as distinct from the <a href="collections.html">rubbing
-          collections</a>. These map to Epiwen's inscription/object model; rubbings are one attached witness.</p>
+        <p class="coll-intro">The 金石學 literature — premodern Chinese epigraphy catalogues (著錄) and gazetteers that <b>record</b> inscriptions. Each work opens its 序/跋/四庫提要 and its inscription list (目錄); titles cross-link to the <a href="inscriptions.html">inscription concordance</a>. Harvested from Kanripo (四庫全書).</p>
         <div id="coll-cards"></div>
       </main>
     </div>
 
     <div id="toast" role="status" aria-live="polite"></div>
-    <script>window.COLL_CATEGORY = "object";</script>
     <script src="variants.js"></script>
-    <script src="collections-page.js"></script>
+    <script src="literature-page.js"></script>
     <script src="nav.js"></script>
   </body>
 </html>

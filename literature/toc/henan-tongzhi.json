@@ -1,0 +1,851 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "援筆而為之記",
+   "attribution": "",
+   "location": "",
+   "juan": 9,
+   "wyg": "009-5a",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "危仲銘",
+   "attribution": "監/生 呉 慶 監/生",
+   "location": "",
+   "juan": 32,
+   "wyg": "032-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "明劉昌祥符縣儒學碑記",
+   "attribution": "祥符即古浚儀縣國朝/省開封縣入之其學宫",
+   "location": "祥符縣",
+   "juan": 42,
+   "wyg": "042-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "明呉寛太康縣儒學碑記",
+   "attribution": "國之所以立者天子與/公卿大夫百執事之人",
+   "location": "太康縣",
+   "juan": 42,
+   "wyg": "042-9a",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "明高拱鄢陵縣儒學碑記",
+   "attribution": "嘉靖戊申秋九月鄢博/王君誥等介於中元子",
+   "location": "鄢陵縣",
+   "juan": 42,
+   "wyg": "042-11b",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "明沈鯉歸德府學重修碑記",
+   "attribution": "歸德故宋也宋自昔/以愚稱天下如所謂",
+   "location": "歸德府",
+   "juan": 42,
+   "wyg": "042-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 7,
+   "title": "元郭思恭彰德府學習雅樂記",
+   "attribution": "相郡廟學之制創/自古昔聖朝尚文",
+   "location": "彰德府",
+   "juan": 42,
+   "wyg": "042-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "明郭朴彰德府修學碑記",
+   "attribution": "彰德郡學建在治城大/定門内址雖狹隘而規",
+   "location": "彰德府",
+   "juan": 42,
+   "wyg": "042-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "明傅瀚衛輝府儒學敬一亭碑記",
+   "attribution": "𢎞治戊午嵗朝/廷擇郡之勝地",
+   "location": "衛輝府",
+   "juan": 42,
+   "wyg": "042-24a",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "明范鏞新鄉縣儒學碑記",
+   "attribution": "新鄉衛鉅邑廟學自平/定楊侯清重繕迄今有",
+   "location": "新鄉縣",
+   "juan": 42,
+   "wyg": "042-25a",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "明車璽輝縣儒學碑記",
+   "attribution": "輝縣在衛輝府之西地形/高阜泉源悠深為衛地之",
+   "location": "璽輝縣",
+   "juan": 42,
+   "wyg": "042-26a",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "明何瑭河内縣儒學碑記",
+   "attribution": "河内縣儒學文廟在縣/治之西攷碑記洪武十",
+   "location": "河内縣",
+   "juan": 42,
+   "wyg": "042-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 13,
+   "title": "元呉炳登封縣儒學碑記",
+   "attribution": "聖人之化與國家聲教/為逺邇學之廢舉視守",
+   "location": "登封縣",
+   "juan": 42,
+   "wyg": "042-32a",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "明耿裕盧氏縣儒學碑記",
+   "attribution": "學校治之本也我太祖/髙皇帝於建國之初即",
+   "location": "盧氏縣",
+   "juan": 42,
+   "wyg": "042-34b",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "明劉昌新野縣儒學碑記",
+   "attribution": "新野為南陽望邑其廟/學嘗建於縣之子城外",
+   "location": "新野縣",
+   "juan": 42,
+   "wyg": "042-39a",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "明魏驥汝寧府儒學碑記",
+   "attribution": "汝寧府古蔡州也元至/元癸巳始陞為府其府",
+   "location": "汝寧府",
+   "juan": 42,
+   "wyg": "042-41a",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "明楊守陳汝陽縣儒學碑記",
+   "attribution": "人之性本於天至善/極粹者也或昧而虧",
+   "location": "汝陽縣",
+   "juan": 42,
+   "wyg": "042-42a",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "明孟洋遂平縣儒學碑記",
+   "attribution": "遂平縣學成朱通判臣/走二生於信陽請余記",
+   "location": "遂平縣",
+   "juan": 42,
+   "wyg": "042-44b",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "明劉吉信陽州儒學碑記",
+   "attribution": "信陽州古申伯所封之/地成化已亥金谿江侯",
+   "location": "信陽州",
+   "juan": 42,
+   "wyg": "042-46a",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "明陳智汝州儒學碑記",
+   "attribution": "洪惟我朝統一寰宇九圍/敉寧武功既輯修禮樂崇",
+   "location": "智汝州",
+   "juan": 43,
+   "wyg": "043-1b",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "明車璽伊陽縣儒學碑記",
+   "attribution": "國家建學教民以明人/倫正風俗為本曩成化",
+   "location": "伊陽縣",
+   "juan": 43,
+   "wyg": "043-3a",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "明費宏陳州儒學碑記",
+   "attribution": "陳之學在𢎞治中知州白/思義嘗葺之迨今踰二十",
+   "location": "宏陳州",
+   "juan": 43,
+   "wyg": "043-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "眀呉寛許州儒學碑記",
+   "attribution": "許在河南距河甚逺墊溺/之患之所不及地宜稻多",
+   "location": "寛許州",
+   "juan": 43,
+   "wyg": "043-6a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "明劉理順重修郾城縣儒學碑記",
+   "attribution": "閲運㑹而常新/者夫子之道在",
+   "location": "郾城縣",
+   "juan": 43,
+   "wyg": "043-8a",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "明許論陜州儒學碑記",
+   "attribution": "陜召公分治之地名郡也/舊有廟學規制宏敞祖宗",
+   "location": "論陜州",
+   "juan": 43,
+   "wyg": "043-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "元馬祖常光州儒學碑記",
+   "attribution": "光州既新作孔子廟乃/以圗來徵文於州人馬",
+   "location": "常光州",
+   "juan": 43,
+   "wyg": "043-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "明劉健貢院碑記",
+   "attribution": "河南貢院舊在汴城之浚儀街/即元平章珠展故宅狹隘不足",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "田文鏡改建貢院碑記",
+   "attribution": "余/奉",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "明李夢陽大梁書院碑記",
+   "attribution": "大梁書院田成或問書/院有田乎李子曰有哉",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-22a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "明方大美遊梁書院碑記",
+   "attribution": "觀風之命攬轡中原顧/瞻嵩河之遺首涖大梁",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-26a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "侯方域重修書院碑記",
+   "attribution": "順治八年燕山王公來守/歸德首下教博士弟子問",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-31b",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "明李廕嵓太丘書院碑記",
+   "attribution": "甘棠以人重也邑之西/五里漢陳公寔祠在焉",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-32b",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "明劉健百泉書院記",
+   "attribution": "蘇門山麓衛水發源泉脉仰/出者以百數故其地名百泉",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-36b",
+   "sbck": ""
+  },
+  {
+   "seq": 34,
+   "title": "翁大立百泉書院種樹記",
+   "attribution": "嘉靖已酉初夏予校士/至百泉環泉皆古木也",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-38b",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "明王所用創建啟運書院碑記",
+   "attribution": "濟邑據懷之西偏/風氣醇樸士斌斌",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-40a",
+   "sbck": ""
+  },
+  {
+   "seq": 36,
+   "title": "明胡謐伊洛書院記",
+   "attribution": "伊洛在河南居天地中自周/營漢都後代㦯因之㦯為㑹",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-42a",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "元趙孟頫書薛友諒伊川書院碑記",
+   "attribution": "聖天子繼統/御極四方無",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-47a",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "明劉咸伊川書院碑記",
+   "attribution": "永樂丙申秋余自西川調/至河南間嘗出巡伊洛過",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-48a",
+   "sbck": ""
+  },
+  {
+   "seq": 39,
+   "title": "元程鉅夫諸葛書院碑記",
+   "attribution": "南陽城西七里有岡阜/窿然隠起曰卧龍岡有",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-50b",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "明劉昌紫雲書院碑記",
+   "attribution": "天地闢而聖人出聖人者/代天地而有為者也其言",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-57a",
+   "sbck": ""
+  },
+  {
+   "seq": 41,
+   "title": "元王緯洓水書院碑記",
+   "attribution": "至治壬戌縣侯特穆爾布/哈來涖光山越明年政成",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-61b",
+   "sbck": ""
+  },
+  {
+   "seq": 42,
+   "title": "明邵光䕃正學書院碑記",
+   "attribution": "書院非古也古之教者/家有塾黨有庠術有序",
+   "location": "",
+   "juan": 43,
+   "wyg": "043-62b",
+   "sbck": ""
+  },
+  {
+   "seq": 43,
+   "title": "世南碑",
+   "attribution": "在伊陽縣學宫後壁書攀龍/附鳳字大如斗體勢遒邁 忠孝二碑 在/伊",
+   "location": "",
+   "juan": 52,
+   "wyg": "052-43b",
+   "sbck": ""
+  },
+  {
+   "seq": 44,
+   "title": "荒蕪陞知許州民為立德政碑",
+   "attribution": "",
+   "location": "許州",
+   "juan": 55,
+   "wyg": "055-27b",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "忘為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-64a",
+   "sbck": ""
+  },
+  {
+   "seq": 46,
+   "title": "為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-64a",
+   "sbck": ""
+  },
+  {
+   "seq": 47,
+   "title": "何得然及去民為立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-64b",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "謁秩滿民為立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-88b",
+   "sbck": ""
+  },
+  {
+   "seq": 49,
+   "title": "民為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-88b",
+   "sbck": ""
+  },
+  {
+   "seq": 50,
+   "title": "大治去任民為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-90b",
+   "sbck": ""
+  },
+  {
+   "seq": 51,
+   "title": "新中水惟著舊時袍之頌",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-98b",
+   "sbck": ""
+  },
+  {
+   "seq": 52,
+   "title": "祠立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 55,
+   "wyg": "055-110b",
+   "sbck": ""
+  },
+  {
+   "seq": 53,
+   "title": "以示失業者任滿民立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-22a",
+   "sbck": ""
+  },
+  {
+   "seq": 54,
+   "title": "食後陞汝寧知府民為立頌德碑",
+   "attribution": "",
+   "location": "寧知府",
+   "juan": 56,
+   "wyg": "056-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 55,
+   "title": "政七月相率歸者千餘家李華為之記",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-37a",
+   "sbck": ""
+  },
+  {
+   "seq": 56,
+   "title": "懷慕為立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-43a",
+   "sbck": ""
+  },
+  {
+   "seq": 57,
+   "title": "咸慕富珠哩翀為撰遺愛碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-43a",
+   "sbck": ""
+  },
+  {
+   "seq": 58,
+   "title": "帥悟賴以活者千數民為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-43b",
+   "sbck": ""
+  },
+  {
+   "seq": 59,
+   "title": "農勸士及去邑人為立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-82b",
+   "sbck": ""
+  },
+  {
+   "seq": 60,
+   "title": "皆為辯理州民立德政碑",
+   "attribution": "",
+   "location": "辯理州",
+   "juan": 56,
+   "wyg": "056-83a",
+   "sbck": ""
+  },
+  {
+   "seq": 61,
+   "title": "革帛為禮服善政多此類民為立碑",
+   "attribution": "",
+   "location": "",
+   "juan": 56,
+   "wyg": "056-109b",
+   "sbck": ""
+  },
+  {
+   "seq": 62,
+   "title": "貞祐間調登封令有善政民為立去思碑",
+   "attribution": "",
+   "location": "",
+   "juan": 58,
+   "wyg": "058-66b",
+   "sbck": ""
+  },
+  {
+   "seq": 63,
+   "title": "十五巻即其所記",
+   "attribution": "",
+   "location": "",
+   "juan": 61,
+   "wyg": "061-25b",
+   "sbck": ""
+  },
+  {
+   "seq": 64,
+   "title": "號小司馬史記",
+   "attribution": "",
+   "location": "",
+   "juan": 65,
+   "wyg": "065-29b",
+   "sbck": ""
+  },
+  {
+   "seq": 65,
+   "title": "肅所著有詩賦誄頌",
+   "attribution": "",
+   "location": "",
+   "juan": 67,
+   "wyg": "067-2b",
+   "sbck": ""
+  },
+  {
+   "seq": 66,
+   "title": "寺和師塔記",
+   "attribution": "",
+   "location": "",
+   "juan": 69,
+   "wyg": "069-26a",
+   "sbck": ""
+  },
+  {
+   "seq": 67,
+   "title": "張鳴鈞中天日月光華頌",
+   "attribution": "頌八章以德動天監祥/開日華為韻 豫當中",
+   "location": "",
+   "juan": 77,
+   "wyg": "077-8b",
+   "sbck": ""
+  },
+  {
+   "seq": 68,
+   "title": "原憲贊",
+   "attribution": "原憲味道財寡義豐栖遲萆門安賤固窮/絃歌自樂體逸心冲進應子貢邈有清風",
+   "location": "",
+   "juan": 77,
+   "wyg": "077-30a",
+   "sbck": ""
+  },
+  {
+   "seq": 69,
+   "title": "襄城童贊",
+   "attribution": "奇矣難測襄城小童/倦遊六合來憩兹邦",
+   "location": "",
+   "juan": 77,
+   "wyg": "077-30b",
+   "sbck": ""
+  },
+  {
+   "seq": 70,
+   "title": "陸雲王子喬贊",
+   "attribution": "遺形靈岳顧景亡歸/乘雲倐忽飄飄紫微 庾闡孫登贊",
+   "location": "",
+   "juan": 77,
+   "wyg": "077-30b",
+   "sbck": ""
+  },
+  {
+   "seq": 71,
+   "title": "見趙盾贊",
+   "attribution": "趙盾將朝端衣整笏鉏麑受命衝冠怒/髪惆悵賢臣顧瞻城闕利劍不抽青槐",
+   "location": "",
+   "juan": 77,
+   "wyg": "077-31a",
+   "sbck": ""
+  },
+  {
+   "seq": 72,
+   "title": "蔡邕光武濟陽宫碑記",
+   "attribution": "王室中㣲哀平短祚姦臣/王莽偷有神器十有八年",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 73,
+   "title": "母廟碑",
+   "attribution": "臣聞天地生成其法自然之謂道隂陽鼔/舞其功不測之謂神然則物或類應事因",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-7a",
+   "sbck": ""
+  },
+  {
+   "seq": 74,
+   "title": "顔真卿宋州八闗齋㑹報徳碑記",
+   "attribution": "夫徳之所感淪/骨髓而非深誠",
+   "location": "卿宋州",
+   "juan": 79,
+   "wyg": "079-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 75,
+   "title": "貞廣成宫碑記",
+   "attribution": "不宰物而萬類䝉利不致用而元/功溥施廣成子之大吾無間然矣",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-16b",
+   "sbck": ""
+  },
+  {
+   "seq": 76,
+   "title": "照碧堂記",
+   "attribution": "去都而東順流千里皆桑麻平野無山/林登覽之勝然放舟通津門不再宿至",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-26b",
+   "sbck": ""
+  },
+  {
+   "seq": 77,
+   "title": "慶大業雜記",
+   "attribution": "大業元年勅有司於洛陽故王城東/營建東京以越國公楊素為營東京",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-30a",
+   "sbck": ""
+  },
+  {
+   "seq": 78,
+   "title": "洛陽名園記",
+   "attribution": "富鄭公園洛陽園池多因隋唐之舊/獨富鄭公園最為近闢而景物最勝",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-35b",
+   "sbck": ""
+  },
+  {
+   "seq": 79,
+   "title": "増修堂廡碑記",
+   "attribution": "聖元以幅員之廣建行省十一惟/河南密邇京都為腹心地乃者皇",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-42b",
+   "sbck": ""
+  },
+  {
+   "seq": 80,
+   "title": "塘巡撫河南都御史題名碑記",
+   "attribution": "嘉靖十九年都察/院僉都御史餘姚",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-55b",
+   "sbck": ""
+  },
+  {
+   "seq": 81,
+   "title": "齊之鸞按察司題名碑記",
+   "attribution": "國初釐革元制改諸路/行中書省為承宣布政",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-61b",
+   "sbck": ""
+  },
+  {
+   "seq": 82,
+   "title": "元紫芝先生祠碑記",
+   "attribution": "夫人生者治亂之始也天地/者人生之始也太古者天地",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-63b",
+   "sbck": ""
+  },
+  {
+   "seq": 83,
+   "title": "之騏瀛海張公墾田徳政碑記",
+   "attribution": "嘗攷有周開國以/農事為王業根本",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-66a",
+   "sbck": ""
+  },
+  {
+   "seq": 84,
+   "title": "袁應泰廣濟河申詳條款碑記",
+   "attribution": "懐慶府河内縣為/興水利定經制以",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-67b",
+   "sbck": ""
+  },
+  {
+   "seq": 85,
+   "title": "表官渡橋碑記",
+   "attribution": "爰夫淹水弓聲集魚鱗為雁齒清/流壘勢創石鼈以木函况乎天上",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-79a",
+   "sbck": ""
+  },
+  {
+   "seq": 86,
+   "title": "察院三司碑記",
+   "attribution": "自京師以達江南三千里以及吳/越之區閩甌之鄉達官之以",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-84a",
+   "sbck": ""
+  },
+  {
+   "seq": 87,
+   "title": "侯方域新遷顔魯公碑記",
+   "attribution": "宋郡舊有魯公碑盖魯/公所書八闗齋㑹報徳",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-85a",
+   "sbck": ""
+  },
+  {
+   "seq": 88,
+   "title": "重修顔魯公碑亭碑記",
+   "attribution": "太保宋公入相之四年而/𦵏其親以歸既畢事矣拄",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-86a",
+   "sbck": ""
+  },
+  {
+   "seq": 89,
+   "title": "殉節碑記",
+   "attribution": "烈婦孫氏嵗貢生䕃光之女性貞静通/女誡大義年十七歸處士田雲龍雲龍",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-89a",
+   "sbck": ""
+  },
+  {
+   "seq": 90,
+   "title": "恭人節烈祠碑記",
+   "attribution": "睢州節烈祠在城西隅距州治/可一里故建以祠",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-90a",
+   "sbck": ""
+  },
+  {
+   "seq": 91,
+   "title": "産祠記",
+   "attribution": "昔唐狄仁傑之為河北安撫使也示其僚/屬曰治當以鄭大夫子産為法夫梁公一",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-100a",
+   "sbck": ""
+  },
+  {
+   "seq": 92,
+   "title": "爾圖大梁書院再行釐正祀典記",
+   "attribution": "古者立學必設/奠於先師而釋",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-110b",
+   "sbck": ""
+  },
+  {
+   "seq": 93,
+   "title": "圖重修萬金渠記",
+   "attribution": "在昔禹平水土大者九川而小/亦不遺乎畎澮誠以灌溉者田",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-112b",
+   "sbck": ""
+  },
+  {
+   "seq": 94,
+   "title": "古東城銘",
+   "attribution": "文王受命肇興西土周公作洛始㑹風/雨居中正本拓統開祚盛則駿奔衰則",
+   "location": "",
+   "juan": 79,
+   "wyg": "079-115b",
+   "sbck": ""
+  }
+ ]
+}

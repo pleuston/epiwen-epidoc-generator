@@ -1,0 +1,329 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "大唐故陪戎校尉崔府君墓誌銘",
+   "attribution": "并序名闕/撰人",
+   "juan": 1,
+   "wyg": "001-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "縣開國男李府君墓誌銘",
+   "attribution": "并序撰賈/彦璿",
+   "juan": 1,
+   "wyg": "001-2b",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "王公墓誌銘",
+   "attribution": "并序撰許/志雍",
+   "juan": 1,
+   "wyg": "001-4b",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "州刺史兼御史中丞馬公墓誌銘",
+   "attribution": "并序撰/楊倞",
+   "juan": 1,
+   "wyg": "001-8a",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "大唐故太白禪師塔銘",
+   "attribution": "并序撰/胡的",
+   "juan": 1,
+   "wyg": "001-10a",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "唐故馮府君墓誌銘",
+   "attribution": "并序名闕/撰人",
+   "juan": 1,
+   "wyg": "001-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 7,
+   "title": "大唐故汝南公主墓誌銘",
+   "attribution": "并序名闕/撰人",
+   "juan": 1,
+   "wyg": "001-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "唐故處士潁川陳氏公墓誌銘",
+   "attribution": "并序撰/李乂",
+   "juan": 1,
+   "wyg": "001-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "大唐扶風馬氏墓誌銘",
+   "attribution": "并序名闕/撰人",
+   "juan": 1,
+   "wyg": "001-15b",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "墓誌銘",
+   "attribution": "并序撰/李藝",
+   "juan": 1,
+   "wyg": "001-16b",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "序",
+   "attribution": "周彪/撰",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "碑隂",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-20b",
+   "sbck": "",
+   "authority": "insc-0560"
+  },
+  {
+   "seq": 13,
+   "title": "宋張氏墓誌",
+   "attribution": "闕撰/人名",
+   "juan": 1,
+   "wyg": "001-21b",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "唐徐氏山口碣石題刻",
+   "attribution": "徐浩/撰",
+   "juan": 1,
+   "wyg": "001-22a",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "唐故東莞臧君夫人周氏墓誌銘",
+   "attribution": "張師/素撰",
+   "juan": 1,
+   "wyg": "001-22b",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "夫人京兆杜氏墓誌銘",
+   "attribution": "闕撰/人名",
+   "juan": 1,
+   "wyg": "001-23b",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "德本寺碑隂",
+   "attribution": "闕撰/人名",
+   "juan": 1,
+   "wyg": "001-25a",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "嬪吳氏墓銘",
+   "attribution": "胡季/良撰",
+   "juan": 1,
+   "wyg": "001-25b",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "唐故越州衙前總管杜府君墓誌銘",
+   "attribution": "山隂沙門/東乂撰",
+   "juan": 1,
+   "wyg": "001-26a",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "唐王府君墓誌銘",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-27a",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "唐故鳳光寺俊禪和上之墓銘",
+   "attribution": "闕撰/人名",
+   "juan": 1,
+   "wyg": "001-27b",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "唐故許氏夫人祈氏墓誌",
+   "attribution": "李師/聖撰",
+   "juan": 1,
+   "wyg": "001-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "唐賈水部墓誌額",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-29a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "漢永初討羌檄",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-31b",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "石佛識",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-32b",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "題名",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-33b",
+   "sbck": "",
+   "authority": "insc-0046"
+  },
+  {
+   "seq": 27,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-33b",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-33b",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-34a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-35a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-35a",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "王濛帖",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-36b",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "鍾繇帖",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-37a",
+   "sbck": "",
+   "authority": "insc-1522"
+  },
+  {
+   "seq": 34,
+   "title": "唐故陸氏劉夫人墓誌銘",
+   "attribution": "并序名闕/撰人",
+   "juan": 1,
+   "wyg": "001-39b",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "題名",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-40b",
+   "sbck": "",
+   "authority": "insc-0046"
+  },
+  {
+   "seq": 36,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-40b",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "又",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-40b",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "詩刻",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-41a",
+   "sbck": ""
+  },
+  {
+   "seq": 39,
+   "title": "上都左街保壽寺文章應制",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-41a",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "奉和",
+   "attribution": "并書撰/王謩",
+   "juan": 1,
+   "wyg": "001-41b",
+   "sbck": ""
+  }
+ ]
+}

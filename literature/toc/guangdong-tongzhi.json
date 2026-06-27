@@ -1,0 +1,1166 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "曽子贊",
+   "attribution": "",
+   "location": "",
+   "juan": 1,
+   "wyg": "001-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "子思子贊",
+   "attribution": "",
+   "location": "",
+   "juan": 1,
+   "wyg": "001-7b",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "孟子贊",
+   "attribution": "",
+   "location": "",
+   "juan": 1,
+   "wyg": "001-8a",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "平定朔漠告成太學碑",
+   "attribution": "康熙三十六年/",
+   "location": "",
+   "juan": 1,
+   "wyg": "001-8a",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "平定青海告成太學碑",
+   "attribution": "雍正三年/",
+   "location": "",
+   "juan": 1,
+   "wyg": "001-58a",
+   "sbck": ""
+  },
+  {
+   "seq": 6,
+   "title": "何思贊",
+   "attribution": "順徳人/運使 胡廷蘭 增城人/僉事 莫如善 恩平人/按察使",
+   "location": "",
+   "juan": 32,
+   "wyg": "032-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 7,
+   "title": "危仲銘",
+   "attribution": "徳慶人/同知 劉車䕃 茂名人/ 陳宗文 茂名人/知縣",
+   "location": "",
+   "juan": 33,
+   "wyg": "033-4a",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "莫仲銘",
+   "attribution": "四㑹人/推官 支 榮 陽江人/教授 陳天驥 吳川人/",
+   "location": "",
+   "juan": 33,
+   "wyg": "033-69a",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "唐濬銘",
+   "attribution": "海康人/縣丞 楊惟政 海康人/訓導 陳景仁 海康人/課大使",
+   "location": "",
+   "juan": 34,
+   "wyg": "034-12a",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "盧上銘",
+   "attribution": "東莞人英田之子廕/國學典籍陞主事 梁次揆 順德人大學士儲/之子廕中書舍人",
+   "location": "",
+   "juan": 37,
+   "wyg": "037-34a",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "徳碑邑人郭蒼為之銘",
+   "attribution": "",
+   "location": "",
+   "juan": 38,
+   "wyg": "038-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "村流亡日集以治行薦去後民立遺愛碑",
+   "attribution": "",
+   "location": "",
+   "juan": 42,
+   "wyg": "042-32b",
+   "sbck": ""
+  },
+  {
+   "seq": 13,
+   "title": "桂陽太守周府君碑",
+   "attribution": "郭 蒼",
+   "location": "守周府",
+   "juan": 59,
+   "wyg": "059-1b",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "開大庾嶺記",
+   "attribution": "張九齡",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "端州石室碑",
+   "attribution": "李 邕",
+   "location": "端州",
+   "juan": 59,
+   "wyg": "059-13b",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "石室記",
+   "attribution": "李 邕",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-14b",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "册祭廣利王記",
+   "attribution": "失名",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "連州刺史㕔記",
+   "attribution": "劉禹錫",
+   "location": "連州",
+   "juan": 59,
+   "wyg": "059-16a",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "南海神廟碑",
+   "attribution": "韓 愈",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-17b",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "燕喜亭記",
+   "attribution": "韓 愈",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "韶州府新建公署記",
+   "attribution": "余 靖",
+   "location": "韶州府",
+   "juan": 59,
+   "wyg": "059-32a",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "余襄公神道碑",
+   "attribution": "歐陽修",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-34b",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "永濟行宫記",
+   "attribution": "張 維",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-39b",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "潮州韓文公廟碑",
+   "attribution": "蘇 軾",
+   "location": "潮州",
+   "juan": 59,
+   "wyg": "059-41a",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "伏波廟記",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-44a",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "峻靈王廟碑",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-45a",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "瓊州惠通泉記",
+   "attribution": "蘇 軾",
+   "location": "瓊州",
+   "juan": 59,
+   "wyg": "059-46b",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "嵗寒堂十二石記",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-47b",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "威武廟碑隂記",
+   "attribution": "李 綱",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-48a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "五仙觀記",
+   "attribution": "張 勵",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-49a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "放生池記",
+   "attribution": "真徳秀",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-50b",
+   "sbck": ""
+  },
+  {
+   "seq": 32,
+   "title": "伏波将軍廟記",
+   "attribution": "袁 潭",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-52a",
+   "sbck": ""
+  },
+  {
+   "seq": 33,
+   "title": "新州竹城記",
+   "attribution": "胡 寅",
+   "location": "新州",
+   "juan": 59,
+   "wyg": "059-54b",
+   "sbck": ""
+  },
+  {
+   "seq": 34,
+   "title": "平賊碑記",
+   "attribution": "陸升之",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-56b",
+   "sbck": ""
+  },
+  {
+   "seq": 35,
+   "title": "重建東嶽行宫記",
+   "attribution": "崔與之",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-58a",
+   "sbck": ""
+  },
+  {
+   "seq": 36,
+   "title": "建集靈廟記",
+   "attribution": "宋 諤",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-59a",
+   "sbck": ""
+  },
+  {
+   "seq": 37,
+   "title": "貞烈祠記",
+   "attribution": "陳公奉",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-63a",
+   "sbck": ""
+  },
+  {
+   "seq": 38,
+   "title": "張余二公祠記",
+   "attribution": "楊萬里",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-64b",
+   "sbck": ""
+  },
+  {
+   "seq": 39,
+   "title": "濓溪書院記",
+   "attribution": "朱 熹",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-65b",
+   "sbck": ""
+  },
+  {
+   "seq": 40,
+   "title": "開鑿楞伽峽記",
+   "attribution": "葉 適",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-68a",
+   "sbck": ""
+  },
+  {
+   "seq": 41,
+   "title": "慶雲記",
+   "attribution": "白玉蟾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-69b",
+   "sbck": ""
+  },
+  {
+   "seq": 42,
+   "title": "東莞縣遷學記",
+   "attribution": "王中行",
+   "location": "東莞縣",
+   "juan": 59,
+   "wyg": "059-70b",
+   "sbck": ""
+  },
+  {
+   "seq": 43,
+   "title": "欽州學記",
+   "attribution": "張 栻",
+   "location": "欽州",
+   "juan": 59,
+   "wyg": "059-72a",
+   "sbck": ""
+  },
+  {
+   "seq": 44,
+   "title": "逺遊菴銘",
+   "attribution": "并序/ 蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-76b",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "何公橋銘",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-77a",
+   "sbck": ""
+  },
+  {
+   "seq": 46,
+   "title": "九成臺銘",
+   "attribution": "并序/ 蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-78a",
+   "sbck": ""
+  },
+  {
+   "seq": 47,
+   "title": "卓錫泉銘",
+   "attribution": "并序/ 蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-78b",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "自然端硯銘",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-79b",
+   "sbck": ""
+  },
+  {
+   "seq": 49,
+   "title": "端石硯銘",
+   "attribution": "蘇 軾",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-79b",
+   "sbck": ""
+  },
+  {
+   "seq": 50,
+   "title": "三洲巖銘",
+   "attribution": "祖無擇",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-80a",
+   "sbck": ""
+  },
+  {
+   "seq": 51,
+   "title": "中閣頌",
+   "attribution": "髙 紳",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-80b",
+   "sbck": ""
+  },
+  {
+   "seq": 52,
+   "title": "海角亭記",
+   "attribution": "范 梈",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-81b",
+   "sbck": ""
+  },
+  {
+   "seq": 53,
+   "title": "廣州府儒學重修大成殿記",
+   "attribution": "熊朋來",
+   "location": "廣州府",
+   "juan": 59,
+   "wyg": "059-82b",
+   "sbck": ""
+  },
+  {
+   "seq": 54,
+   "title": "得全書院記",
+   "attribution": "歐陽𤣥",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-84b",
+   "sbck": ""
+  },
+  {
+   "seq": 55,
+   "title": "香山縣遷學記",
+   "attribution": "吳 澄",
+   "location": "香山縣",
+   "juan": 59,
+   "wyg": "059-86b",
+   "sbck": ""
+  },
+  {
+   "seq": 56,
+   "title": "馬公祠記",
+   "attribution": "周伯琦",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-89b",
+   "sbck": ""
+  },
+  {
+   "seq": 57,
+   "title": "七賢太守記",
+   "attribution": "吳 禮",
+   "location": "",
+   "juan": 59,
+   "wyg": "059-91a",
+   "sbck": ""
+  },
+  {
+   "seq": 58,
+   "title": "何氏義田遺訓記",
+   "attribution": "宋 濓",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 59,
+   "title": "何仙姑井亭記",
+   "attribution": "孟士潁",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-2a",
+   "sbck": ""
+  },
+  {
+   "seq": 60,
+   "title": "髙要縣儒學記",
+   "attribution": "李時勉",
+   "location": "髙要縣",
+   "juan": 60,
+   "wyg": "060-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 61,
+   "title": "番山亭記",
+   "attribution": "陳 贄",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-6b",
+   "sbck": ""
+  },
+  {
+   "seq": 62,
+   "title": "還珠亭記",
+   "attribution": "李 駿",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-8b",
+   "sbck": ""
+  },
+  {
+   "seq": 63,
+   "title": "瀧水縣新城碑記",
+   "attribution": "尹鳳岐",
+   "location": "瀧水縣",
+   "juan": 60,
+   "wyg": "060-10a",
+   "sbck": ""
+  },
+  {
+   "seq": 64,
+   "title": "仰髙祠記",
+   "attribution": "王 直",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-12b",
+   "sbck": ""
+  },
+  {
+   "seq": 65,
+   "title": "修廣州儒學記",
+   "attribution": "葉 盛",
+   "location": "廣州",
+   "juan": 60,
+   "wyg": "060-15a",
+   "sbck": ""
+  },
+  {
+   "seq": 66,
+   "title": "唐丞相張文獻公開鑿大庾嶺碑隂記",
+   "attribution": "",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-17a",
+   "sbck": ""
+  },
+  {
+   "seq": 67,
+   "title": "南海縣儒學記",
+   "attribution": "丘 濬",
+   "location": "南海縣",
+   "juan": 60,
+   "wyg": "060-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 68,
+   "title": "平蠻遺蹟記",
+   "attribution": "丘 濬",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-23a",
+   "sbck": ""
+  },
+  {
+   "seq": 69,
+   "title": "髙州府儒學記",
+   "attribution": "丘 濬",
+   "location": "髙州府",
+   "juan": 60,
+   "wyg": "060-24b",
+   "sbck": ""
+  },
+  {
+   "seq": 70,
+   "title": "髙州府重修城隍廟記",
+   "attribution": "孔 鏞",
+   "location": "髙州府",
+   "juan": 60,
+   "wyg": "060-26b",
+   "sbck": ""
+  },
+  {
+   "seq": 71,
+   "title": "新建饒平縣治記",
+   "attribution": "江朝宗",
+   "location": "饒平縣",
+   "juan": 60,
+   "wyg": "060-28a",
+   "sbck": ""
+  },
+  {
+   "seq": 72,
+   "title": "勇敢祠記",
+   "attribution": "陶 魯",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-30a",
+   "sbck": ""
+  },
+  {
+   "seq": 73,
+   "title": "新築西河堤記",
+   "attribution": "商 輅",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-31b",
+   "sbck": ""
+  },
+  {
+   "seq": 74,
+   "title": "厓山全節廟碑",
+   "attribution": "陳獻章",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-34a",
+   "sbck": ""
+  },
+  {
+   "seq": 75,
+   "title": "吳川縣城記",
+   "attribution": "陳獻章",
+   "location": "吳川縣",
+   "juan": 60,
+   "wyg": "060-35b",
+   "sbck": ""
+  },
+  {
+   "seq": 76,
+   "title": "程鄉縣儒學記",
+   "attribution": "陳獻章",
+   "location": "程鄉縣",
+   "juan": 60,
+   "wyg": "060-36b",
+   "sbck": ""
+  },
+  {
+   "seq": 77,
+   "title": "雲潭記",
+   "attribution": "陳獻章",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-38b",
+   "sbck": ""
+  },
+  {
+   "seq": 78,
+   "title": "青雲橋記",
+   "attribution": "倫文叙",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-40a",
+   "sbck": ""
+  },
+  {
+   "seq": 79,
+   "title": "新開潮陽縣城河紀功之碑",
+   "attribution": "吳 裕",
+   "location": "潮陽縣",
+   "juan": 60,
+   "wyg": "060-42b",
+   "sbck": ""
+  },
+  {
+   "seq": 80,
+   "title": "三利溪記",
+   "attribution": "李東陽",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-44b",
+   "sbck": ""
+  },
+  {
+   "seq": 81,
+   "title": "宋包孝肅新祠記",
+   "attribution": "張 詡",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-46a",
+   "sbck": ""
+  },
+  {
+   "seq": 82,
+   "title": "四㑹縣儒學記",
+   "attribution": "湛若水",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-48b",
+   "sbck": ""
+  },
+  {
+   "seq": 83,
+   "title": "顯忠亭記",
+   "attribution": "祝允明",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-50a",
+   "sbck": ""
+  },
+  {
+   "seq": 84,
+   "title": "平南碑記",
+   "attribution": "黄 佐",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-52b",
+   "sbck": ""
+  },
+  {
+   "seq": 85,
+   "title": "釣鼇橋記",
+   "attribution": "黄 佐",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-54b",
+   "sbck": ""
+  },
+  {
+   "seq": 86,
+   "title": "㢘州府儒學記",
+   "attribution": "黄 佐",
+   "location": "州府",
+   "juan": 60,
+   "wyg": "060-56b",
+   "sbck": ""
+  },
+  {
+   "seq": 87,
+   "title": "孝子祠記",
+   "attribution": "張 岳",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-59a",
+   "sbck": ""
+  },
+  {
+   "seq": 88,
+   "title": "克復堂記",
+   "attribution": "鄒守益",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-61a",
+   "sbck": ""
+  },
+  {
+   "seq": 89,
+   "title": "原道堂記",
+   "attribution": "鄒守益",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-62b",
+   "sbck": ""
+  },
+  {
+   "seq": 90,
+   "title": "新浚韶郡東河堤記",
+   "attribution": "符 錫",
+   "location": "浚韶郡",
+   "juan": 60,
+   "wyg": "060-64b",
+   "sbck": ""
+  },
+  {
+   "seq": 91,
+   "title": "捍海隄記",
+   "attribution": "李義壯",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-67b",
+   "sbck": ""
+  },
+  {
+   "seq": 92,
+   "title": "忠孝祠記",
+   "attribution": "蕭鳴鳯",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-70a",
+   "sbck": ""
+  },
+  {
+   "seq": 93,
+   "title": "平浰頭碑",
+   "attribution": "王守仁",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-72a",
+   "sbck": ""
+  },
+  {
+   "seq": 94,
+   "title": "修韶州府儒學記",
+   "attribution": "羅欽順",
+   "location": "韶州",
+   "juan": 60,
+   "wyg": "060-72b",
+   "sbck": ""
+  },
+  {
+   "seq": 95,
+   "title": "新安經始碑記",
+   "attribution": "何維栢",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-75b",
+   "sbck": ""
+  },
+  {
+   "seq": 96,
+   "title": "新築北津寨記",
+   "attribution": "葉春及",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-77b",
+   "sbck": ""
+  },
+  {
+   "seq": 97,
+   "title": "歸善天泉書院記",
+   "attribution": "葉夢熊",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-82a",
+   "sbck": ""
+  },
+  {
+   "seq": 98,
+   "title": "河源制府湖記",
+   "attribution": "楊起元",
+   "location": "源制府",
+   "juan": 60,
+   "wyg": "060-84a",
+   "sbck": ""
+  },
+  {
+   "seq": 99,
+   "title": "平岑岡寇記",
+   "attribution": "王世禎",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-86b",
+   "sbck": ""
+  },
+  {
+   "seq": 100,
+   "title": "漢前將軍關忠義侯廟記",
+   "attribution": "曹志遇",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-90b",
+   "sbck": ""
+  },
+  {
+   "seq": 101,
+   "title": "增祀南雷二將記",
+   "attribution": "李 齡",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-92a",
+   "sbck": ""
+  },
+  {
+   "seq": 102,
+   "title": "重修赤灣天妃廟碑記",
+   "attribution": "吳國光",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-95b",
+   "sbck": ""
+  },
+  {
+   "seq": 103,
+   "title": "琶洲海鼇塔記",
+   "attribution": "袁昌祚",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-97a",
+   "sbck": ""
+  },
+  {
+   "seq": 104,
+   "title": "羅旁善後功蹟碑記",
+   "attribution": "陳 璘",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-99b",
+   "sbck": ""
+  },
+  {
+   "seq": 105,
+   "title": "惠州府儒學記",
+   "attribution": "楊載鳴",
+   "location": "惠州府",
+   "juan": 60,
+   "wyg": "060-103b",
+   "sbck": ""
+  },
+  {
+   "seq": 106,
+   "title": "重建東山靈威廟碑記",
+   "attribution": "林大春",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-106b",
+   "sbck": ""
+  },
+  {
+   "seq": 107,
+   "title": "九成臺記",
+   "attribution": "陳竒謀",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-110b",
+   "sbck": ""
+  },
+  {
+   "seq": 108,
+   "title": "新開羅定州治碑記",
+   "attribution": "陳紹儒",
+   "location": "羅定州",
+   "juan": 60,
+   "wyg": "060-112b",
+   "sbck": ""
+  },
+  {
+   "seq": 109,
+   "title": "建羅定兵備道碑",
+   "attribution": "龎尚鵬",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-116a",
+   "sbck": ""
+  },
+  {
+   "seq": 110,
+   "title": "張督府平寇碑記",
+   "attribution": "黄士俊",
+   "location": "張督府",
+   "juan": 60,
+   "wyg": "060-120b",
+   "sbck": ""
+  },
+  {
+   "seq": 111,
+   "title": "建連平州治碑記",
+   "attribution": "黄士俊",
+   "location": "連平州",
+   "juan": 60,
+   "wyg": "060-124a",
+   "sbck": ""
+  },
+  {
+   "seq": 112,
+   "title": "增築廣州北城記",
+   "attribution": "黄士俊",
+   "location": "築廣州",
+   "juan": 60,
+   "wyg": "060-131a",
+   "sbck": ""
+  },
+  {
+   "seq": 113,
+   "title": "逺風堂記",
+   "attribution": "姜一洪",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-134a",
+   "sbck": ""
+  },
+  {
+   "seq": 114,
+   "title": "南海神祠碑記",
+   "attribution": "黎遂球",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-136a",
+   "sbck": ""
+  },
+  {
+   "seq": 115,
+   "title": "修廣州城西度海陸路碑記",
+   "attribution": "熊文燦",
+   "location": "廣州",
+   "juan": 60,
+   "wyg": "060-139a",
+   "sbck": ""
+  },
+  {
+   "seq": 116,
+   "title": "重修南海縣學記",
+   "attribution": "郭 棐",
+   "location": "南海縣",
+   "juan": 60,
+   "wyg": "060-142a",
+   "sbck": ""
+  },
+  {
+   "seq": 117,
+   "title": "天關自然臺銘",
+   "attribution": "并序/ 湛若水",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-176b",
+   "sbck": ""
+  },
+  {
+   "seq": 118,
+   "title": "龜峰塔銘",
+   "attribution": "區大倫",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-178b",
+   "sbck": ""
+  },
+  {
+   "seq": 119,
+   "title": "無眼端石銘",
+   "attribution": "徐 渭",
+   "location": "",
+   "juan": 60,
+   "wyg": "060-179a",
+   "sbck": ""
+  },
+  {
+   "seq": 120,
+   "title": "修復清逺大廟正陽三峽橋道記",
+   "attribution": "李棲鳯",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-64a",
+   "sbck": ""
+  },
+  {
+   "seq": 121,
+   "title": "手而為之記",
+   "attribution": "",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-66a",
+   "sbck": ""
+  },
+  {
+   "seq": 122,
+   "title": "重修廣州府儒學碑記",
+   "attribution": "劉秉權",
+   "location": "廣州",
+   "juan": 62,
+   "wyg": "062-66a",
+   "sbck": ""
+  },
+  {
+   "seq": 123,
+   "title": "重建四賢祠碑",
+   "attribution": "馬 元",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-68b",
+   "sbck": ""
+  },
+  {
+   "seq": 124,
+   "title": "巡視澳門記",
+   "attribution": "焦祈年",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-72b",
+   "sbck": ""
+  },
+  {
+   "seq": 125,
+   "title": "重修九成臺記",
+   "attribution": "黄文煒",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-80a",
+   "sbck": ""
+  },
+  {
+   "seq": 126,
+   "title": "重修監倉碑記",
+   "attribution": "黄文煒",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-82a",
+   "sbck": ""
+  },
+  {
+   "seq": 127,
+   "title": "豐裕倉碑記",
+   "attribution": "馮元方",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-84a",
+   "sbck": ""
+  },
+  {
+   "seq": 128,
+   "title": "絃亦且父戒其子兄勉其弟庶頌",
+   "attribution": "",
+   "location": "",
+   "juan": 62,
+   "wyg": "062-98a",
+   "sbck": ""
+  },
+  {
+   "seq": 129,
+   "title": "趙佗像",
+   "attribution": "",
+   "location": "",
+   "juan": 64,
+   "wyg": "064-49b",
+   "sbck": ""
+  }
+ ]
+}

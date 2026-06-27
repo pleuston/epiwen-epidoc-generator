@@ -1,0 +1,406 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "紹興御書石經",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-1a",
+   "sbck": ""
+  },
+  {
+   "seq": 2,
+   "title": "益郡石經",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-1b",
+   "sbck": ""
+  },
+  {
+   "seq": 3,
+   "title": "鐘鼎彛器欵識帖",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-5b",
+   "sbck": ""
+  },
+  {
+   "seq": 4,
+   "title": "帖譜",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-6b",
+   "sbck": ""
+  },
+  {
+   "seq": 5,
+   "title": "祕閣前帖",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-7b",
+   "sbck": "",
+   "authority": "insc-1516"
+  },
+  {
+   "seq": 6,
+   "title": "絳帖",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-16b",
+   "sbck": "",
+   "authority": "insc-0624"
+  },
+  {
+   "seq": 7,
+   "title": "太號 太宗御書",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 8,
+   "title": "封號 唐張旭書  懐素跋",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 9,
+   "title": "書號 顔真卿書  王廙書",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 10,
+   "title": "王濛       羊諮",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 11,
+   "title": "僧智果",
+   "attribution": "書梁武帝評書/",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": ""
+  },
+  {
+   "seq": 12,
+   "title": "漢章帝      晉宣帝",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 13,
+   "title": "明帝       康帝",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 14,
+   "title": "哀帝       簡文帝",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 15,
+   "title": "文孝王      梁高帝",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 16,
+   "title": "簡文帝",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 17,
+   "title": "晉司馬攸     王劭",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 18,
+   "title": "王廞       謝發",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19b",
+   "sbck": ""
+  },
+  {
+   "seq": 19,
+   "title": "梁蕭子雲      唐李邕",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 20,
+   "title": "王珉",
+   "attribution": "美食/ 王廙 聖體勝常/得書",
+   "juan": 1,
+   "wyg": "001-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 21,
+   "title": "虞世南",
+   "attribution": "名公/書 柳公權 䝉恩絲靸/蘭亭詩",
+   "juan": 1,
+   "wyg": "001-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 22,
+   "title": "唐太宗",
+   "attribution": "秀岳銘/",
+   "juan": 1,
+   "wyg": "001-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 23,
+   "title": "王羲之 山號",
+   "attribution": "景風/ 藥方/",
+   "juan": 1,
+   "wyg": "001-20a",
+   "sbck": ""
+  },
+  {
+   "seq": 24,
+   "title": "王獻之 壯號",
+   "attribution": "婢日久/思戀",
+   "juan": 1,
+   "wyg": "001-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 25,
+   "title": "西晉武帝",
+   "attribution": "刪一帖/ 唐太宗 刪十六帖/",
+   "juan": 1,
+   "wyg": "001-20b",
+   "sbck": ""
+  },
+  {
+   "seq": 26,
+   "title": "高宗",
+   "attribution": "刪六帖/",
+   "juan": 1,
+   "wyg": "001-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 27,
+   "title": "晉張芝",
+   "attribution": "刪一帖/ 鍾繇 刪五帖/",
+   "juan": 1,
+   "wyg": "001-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 28,
+   "title": "索靖",
+   "attribution": "刪一帖/ 陳逵 刪一帖/",
+   "juan": 1,
+   "wyg": "001-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 29,
+   "title": "唐虞世南",
+   "attribution": "刪二帖/ 褚遂良 刪二帖/",
+   "juan": 1,
+   "wyg": "001-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 30,
+   "title": "柳公權",
+   "attribution": "刪二帖/",
+   "juan": 1,
+   "wyg": "001-21a",
+   "sbck": ""
+  },
+  {
+   "seq": 31,
+   "title": "長沙帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-1a",
+   "sbck": "",
+   "authority": "insc-1509"
+  },
+  {
+   "seq": 32,
+   "title": "廬陵帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-2a",
+   "sbck": "",
+   "authority": "insc-1510"
+  },
+  {
+   "seq": 33,
+   "title": "清江帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-2b",
+   "sbck": "",
+   "authority": "insc-1511"
+  },
+  {
+   "seq": 34,
+   "title": "武岡帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-3a",
+   "sbck": "",
+   "authority": "insc-1512"
+  },
+  {
+   "seq": 35,
+   "title": "續閣帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-3b",
+   "sbck": "",
+   "authority": "insc-1513"
+  },
+  {
+   "seq": 36,
+   "title": "汝帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-4a",
+   "sbck": "",
+   "authority": "insc-1514"
+  },
+  {
+   "seq": 37,
+   "title": "武陵帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-5a",
+   "sbck": "",
+   "authority": "insc-1515"
+  },
+  {
+   "seq": 38,
+   "title": "淳熙祕閣前帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-5b",
+   "sbck": "",
+   "authority": "insc-1516"
+  },
+  {
+   "seq": 39,
+   "title": "淳熙祕閣續帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-6a",
+   "sbck": "",
+   "authority": "insc-1517"
+  },
+  {
+   "seq": 40,
+   "title": "羣玉堂帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-6b",
+   "sbck": "",
+   "authority": "insc-1518"
+  },
+  {
+   "seq": 41,
+   "title": "鳳墅帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-7a",
+   "sbck": "",
+   "authority": "insc-1519"
+  },
+  {
+   "seq": 42,
+   "title": "畫帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-8a",
+   "sbck": "",
+   "authority": "insc-1520"
+  },
+  {
+   "seq": 43,
+   "title": "續帖",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-8a",
+   "sbck": "",
+   "authority": "insc-1521"
+  },
+  {
+   "seq": 44,
+   "title": "總二十冊板一千三百八十板",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-11a",
+   "sbck": ""
+  },
+  {
+   "seq": 45,
+   "title": "蘭亭叙",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-12b",
+   "sbck": "",
+   "authority": "insc-0469"
+  },
+  {
+   "seq": 46,
+   "title": "定武蘭亭刻",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-17a",
+   "sbck": "",
+   "authority": "insc-0469"
+  },
+  {
+   "seq": 47,
+   "title": "高宗宸翰",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-18b",
+   "sbck": ""
+  },
+  {
+   "seq": 48,
+   "title": "六一先生集古録",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-19b",
+   "sbck": ""
+  }
+ ]
+}

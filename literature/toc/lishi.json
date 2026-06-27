@@ -1,0 +1,4139 @@
+{
+ "excerpts": [],
+ "inscriptions": [
+  {
+   "seq": 1,
+   "title": "帝堯碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-5b",
+   "sbck": "001-5a",
+   "authority": "insc-0050"
+  },
+  {
+   "seq": 2,
+   "title": "成陽靈臺碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-8b",
+   "sbck": "001-7b",
+   "authority": "insc-0041"
+  },
+  {
+   "seq": 3,
+   "title": "靈臺碑隂",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-12a",
+   "sbck": "001-11a"
+  },
+  {
+   "seq": 4,
+   "title": "益州太守髙眹脩周公禮殿記",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-14b",
+   "sbck": "001-13a"
+  },
+  {
+   "seq": 5,
+   "title": "魯相韓勑迼孔廟禮器碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-19a",
+   "sbck": "001-17a"
+  },
+  {
+   "seq": 6,
+   "title": "韓勑碑隂",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-21b",
+   "sbck": "001-19b",
+   "authority": "insc-0845"
+  },
+  {
+   "seq": 7,
+   "title": "韓勑脩孔廟後碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-24b",
+   "sbck": "001-22a",
+   "authority": "insc-0011"
+  },
+  {
+   "seq": 8,
+   "title": "魯相史晨祠孔廟奏銘",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-27a",
+   "sbck": "001-24a",
+   "authority": "insc-0034"
+  },
+  {
+   "seq": 9,
+   "title": "史晨饗孔廟後碑",
+   "attribution": "",
+   "juan": 1,
+   "wyg": "001-29b",
+   "sbck": "001-26b",
+   "authority": "insc-0029"
+  },
+  {
+   "seq": 10,
+   "title": "西嶽華山廟碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-1a",
+   "sbck": "002-1a",
+   "authority": "insc-0025"
+  },
+  {
+   "seq": 11,
+   "title": "西嶽華山亭碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-4b",
+   "sbck": "002-4b",
+   "authority": "insc-0025"
+  },
+  {
+   "seq": 12,
+   "title": "樊毅復華下民租田口筭碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-6b",
+   "sbck": "002-6b",
+   "authority": "insc-0781"
+  },
+  {
+   "seq": 13,
+   "title": "樊毅&KR0113;華嶽碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-8b",
+   "sbck": "002-8a",
+   "authority": "insc-0782"
+  },
+  {
+   "seq": 14,
+   "title": "東海廟碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-11b",
+   "sbck": "002-11a",
+   "authority": "insc-0043"
+  },
+  {
+   "seq": 15,
+   "title": "桐柏淮源廟碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-13b",
+   "sbck": "002-12b",
+   "authority": "insc-0020"
+  },
+  {
+   "seq": 16,
+   "title": "□阬君神祠碑",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-15b",
+   "sbck": "002-13a"
+  },
+  {
+   "seq": 17,
+   "title": "殽阬碑隂",
+   "attribution": "",
+   "juan": 2,
+   "wyg": "002-18a",
+   "sbck": "002-15b"
+  },
+  {
+   "seq": 18,
+   "title": "老子銘",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-1a",
+   "sbck": "003-1a",
+   "authority": "insc-0026"
+  },
+  {
+   "seq": 19,
+   "title": "楚相孫叔敖碑",
+   "attribution": "舊碑闕五十餘字此/用續刻者故其文全 <",
+   "juan": 3,
+   "wyg": "003-4b",
+   "sbck": "003-4b",
+   "authority": "insc-0015"
+  },
+  {
+   "seq": 20,
+   "title": "孫叔敖碑隂",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-8b",
+   "sbck": "003-7a"
+  },
+  {
+   "seq": 21,
+   "title": "仙人唐公房碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-10a",
+   "sbck": "003-9b",
+   "authority": "insc-0484"
+  },
+  {
+   "seq": 22,
+   "title": "碑隂",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-11b",
+   "sbck": "003-11a",
+   "authority": "insc-0560"
+  },
+  {
+   "seq": 23,
+   "title": "張公神碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-13b",
+   "sbck": "003-12b",
+   "authority": "insc-0493"
+  },
+  {
+   "seq": 24,
+   "title": "三公山碑封龍君 靈山君",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-16b",
+   "sbck": "003-15b"
+  },
+  {
+   "seq": 25,
+   "title": "無極山碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-20a",
+   "sbck": "003-18b",
+   "authority": "insc-0065"
+  },
+  {
+   "seq": 26,
+   "title": "白石神君碑",
+   "attribution": "",
+   "juan": 3,
+   "wyg": "003-24a",
+   "sbck": "003-22a",
+   "authority": "insc-0072"
+  },
+  {
+   "seq": 27,
+   "title": "蜀郡太守何君閣道碑",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-1a",
+   "sbck": "004-1a",
+   "authority": "insc-0776"
+  },
+  {
+   "seq": 28,
+   "title": "青衣尉趙孟麟羊竇道碑",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-2b",
+   "sbck": "004-2b",
+   "authority": "insc-0823"
+  },
+  {
+   "seq": 29,
+   "title": "司𨽻校尉楊孟文石門頌",
+   "attribution": "華陽國志/楊君名渙 <",
+   "juan": 4,
+   "wyg": "004-4a",
+   "sbck": "004-3b"
+  },
+  {
+   "seq": 30,
+   "title": "廣漢長王君治石路碑",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-8b",
+   "sbck": "004-8a",
+   "authority": "insc-0824"
+  },
+  {
+   "seq": 31,
+   "title": "武都太守李翕西狹頌",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-9b",
+   "sbck": "004-8b",
+   "authority": "insc-0039"
+  },
+  {
+   "seq": 32,
+   "title": "李翕黽池五瑞碑",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-11b",
+   "sbck": "004-10b",
+   "authority": "insc-0800"
+  },
+  {
+   "seq": 33,
+   "title": "李翕析里橋郙閣頌□",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-12a",
+   "sbck": "004-11a"
+  },
+  {
+   "seq": 34,
+   "title": "桂陽太守周憬功勲銘",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-14a",
+   "sbck": "004-13a",
+   "authority": "insc-0483"
+  },
+  {
+   "seq": 35,
+   "title": "周憬碑隂",
+   "attribution": "",
+   "juan": 4,
+   "wyg": "004-17b",
+   "sbck": "004-16b",
+   "authority": "insc-0777"
+  },
+  {
+   "seq": 36,
+   "title": "稾長蔡湛頌",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-1a",
+   "sbck": "005-1a"
+  },
+  {
+   "seq": 37,
+   "title": "漂陽長潘乾校官碑",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-3a",
+   "sbck": "005-3a"
+  },
+  {
+   "seq": 38,
+   "title": "梁相孔耽神祠碑",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-5a",
+   "sbck": "005-5b",
+   "authority": "insc-0806"
+  },
+  {
+   "seq": 39,
+   "title": "漢成陽令唐扶頌",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-7b",
+   "sbck": "005-7a",
+   "authority": "insc-0807"
+  },
+  {
+   "seq": 40,
+   "title": "巴郡太守張納碑",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-11b",
+   "sbck": "005-10b"
+  },
+  {
+   "seq": 41,
+   "title": "張納碑隂",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-14a",
+   "sbck": "005-13b"
+  },
+  {
+   "seq": 42,
+   "title": "劉熊碑隂",
+   "attribution": "",
+   "juan": 5,
+   "wyg": "005-20a",
+   "sbck": "005-19a"
+  },
+  {
+   "seq": 43,
+   "title": "謁者景君墓表",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-1b",
+   "sbck": "006-1a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 44,
+   "title": "景君碑隂",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-3b",
+   "sbck": "006-3a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 45,
+   "title": "郯令景君闕銘",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-4b",
+   "sbck": "006-4a",
+   "authority": "insc-0002"
+  },
+  {
+   "seq": 46,
+   "title": "北海相景君銘",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-9b",
+   "sbck": "006-9a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 47,
+   "title": "敦煌長史武斑碑",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-12a",
+   "sbck": "006-10b"
+  },
+  {
+   "seq": 48,
+   "title": "從事武梁碑",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-14a",
+   "sbck": "006-12b",
+   "authority": "insc-0789"
+  },
+  {
+   "seq": 49,
+   "title": "平都相蔣君碑",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-15a",
+   "sbck": "006-13b"
+  },
+  {
+   "seq": 50,
+   "title": "議郎元賓碑<",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-20a",
+   "sbck": "006-18a"
+  },
+  {
+   "seq": 51,
+   "title": "中常侍樊安碑",
+   "attribution": "",
+   "juan": 6,
+   "wyg": "006-21b",
+   "sbck": "006-19b",
+   "authority": "insc-0016"
+  },
+  {
+   "seq": 52,
+   "title": "冀州刺史王純碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-1a",
+   "sbck": "007-1a",
+   "authority": "insc-0018"
+  },
+  {
+   "seq": 53,
+   "title": "泰山都尉孔宙碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-4b",
+   "sbck": "007-4a",
+   "authority": "insc-0022"
+  },
+  {
+   "seq": 54,
+   "title": "門生故吏名",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-6a",
+   "sbck": "007-5b",
+   "authority": "insc-0024"
+  },
+  {
+   "seq": 55,
+   "title": "山陽太守祝睦後碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-9a",
+   "sbck": "007-8b",
+   "authority": "insc-0027"
+  },
+  {
+   "seq": 56,
+   "title": "荆州刺史度尚碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-11a",
+   "sbck": "007-10a",
+   "authority": "insc-0489"
+  },
+  {
+   "seq": 57,
+   "title": "車騎將軍馮緄碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-14a",
+   "sbck": "007-13b",
+   "authority": "insc-0500"
+  },
+  {
+   "seq": 58,
+   "title": "沛相楊統碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-16b",
+   "sbck": "007-16b",
+   "authority": "insc-0794"
+  },
+  {
+   "seq": 59,
+   "title": "楊統碑隂",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-19a",
+   "sbck": "007-19a"
+  },
+  {
+   "seq": 60,
+   "title": "竹邑侯相張夀碑",
+   "attribution": "",
+   "juan": 7,
+   "wyg": "007-19b",
+   "sbck": "007-19b"
+  },
+  {
+   "seq": 61,
+   "title": "衞尉衡方碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-1a",
+   "sbck": "008-1a"
+  },
+  {
+   "seq": 62,
+   "title": "冀州從事張表碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-4b",
+   "sbck": "008-4a",
+   "authority": "insc-0030"
+  },
+  {
+   "seq": 63,
+   "title": "金鄉長侯成碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-6b",
+   "sbck": "008-6a",
+   "authority": "insc-0035"
+  },
+  {
+   "seq": 64,
+   "title": "孝廉栁敏碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-9a",
+   "sbck": "008-8a"
+  },
+  {
+   "seq": 65,
+   "title": "淳于長夏承碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-10b",
+   "sbck": "008-9b",
+   "authority": "insc-0036"
+  },
+  {
+   "seq": 66,
+   "title": "郎中馬江碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-12b",
+   "sbck": "008-11b",
+   "authority": "insc-0797"
+  },
+  {
+   "seq": 67,
+   "title": "慎令劉脩碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-14a",
+   "sbck": "008-13a",
+   "authority": "insc-0798"
+  },
+  {
+   "seq": 68,
+   "title": "博陵太守孔彪碑",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-16a",
+   "sbck": "008-14a",
+   "authority": "insc-0037"
+  },
+  {
+   "seq": 69,
+   "title": "碑隂",
+   "attribution": "",
+   "juan": 8,
+   "wyg": "008-18a",
+   "sbck": "008-16b",
+   "authority": "insc-0560"
+  },
+  {
+   "seq": 70,
+   "title": "北軍中候郭仲奇碑",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-1a",
+   "sbck": "009-1a"
+  },
+  {
+   "seq": 71,
+   "title": "故民吳仲山碑",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-3b",
+   "sbck": "009-3a",
+   "authority": "insc-0056"
+  },
+  {
+   "seq": 72,
+   "title": "司隷校尉魯峻碑",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-4b",
+   "sbck": "009-4b"
+  },
+  {
+   "seq": 73,
+   "title": "婁夀碑隂故五官掾婁<",
+   "attribution": "闕/ 伯三百故守長史掾夏光淵二百故従",
+   "juan": 9,
+   "wyg": "009-11b",
+   "sbck": "009-11a"
+  },
+  {
+   "seq": 74,
+   "title": "䌓陽令碑隂",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-16a",
+   "sbck": "009-15a"
+  },
+  {
+   "seq": 75,
+   "title": "堂邑令費鳳碑",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-19b",
+   "sbck": "009-17b",
+   "authority": "insc-0057"
+  },
+  {
+   "seq": 76,
+   "title": "費鳳别碑",
+   "attribution": "",
+   "juan": 9,
+   "wyg": "009-22b",
+   "sbck": "009-20b",
+   "authority": "insc-0801"
+  },
+  {
+   "seq": 77,
+   "title": "太尉陳球碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-1a",
+   "sbck": "010-1a",
+   "authority": "insc-0060"
+  },
+  {
+   "seq": 78,
+   "title": "陳球碑隂",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-4a",
+   "sbck": "010-3b",
+   "authority": "insc-0061"
+  },
+  {
+   "seq": 79,
+   "title": "陳球後碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-6a",
+   "sbck": "010-5b",
+   "authority": "insc-0803"
+  },
+  {
+   "seq": 80,
+   "title": "童子逄盛碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-8b",
+   "sbck": "010-8a",
+   "authority": "insc-0067"
+  },
+  {
+   "seq": 81,
+   "title": "逢盛碑隂",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-10a",
+   "sbck": "010-9b"
+  },
+  {
+   "seq": 82,
+   "title": "孫根碑隂",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-15b",
+   "sbck": "010-14b",
+   "authority": "insc-0071"
+  },
+  {
+   "seq": 83,
+   "title": "涼州刺史魏元丕碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-19a",
+   "sbck": "010-17b",
+   "authority": "insc-0555"
+  },
+  {
+   "seq": 84,
+   "title": "司隷從事郭究碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-21b",
+   "sbck": "010-19b"
+  },
+  {
+   "seq": 85,
+   "title": "幽州刺史朱龜碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-23b",
+   "sbck": "010-21b",
+   "authority": "insc-0074"
+  },
+  {
+   "seq": 86,
+   "title": "外黄令髙彪碑",
+   "attribution": "",
+   "juan": 10,
+   "wyg": "010-25b",
+   "sbck": "010-23b",
+   "authority": "insc-0804"
+  },
+  {
+   "seq": 87,
+   "title": "太尉劉寛碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-1b",
+   "sbck": "011-1a",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 88,
+   "title": "劉寛後碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-4b",
+   "sbck": "011-4a",
+   "authority": "insc-0556"
+  },
+  {
+   "seq": 89,
+   "title": "圉令趙君碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-9a",
+   "sbck": "011-8a",
+   "authority": "insc-0083"
+  },
+  {
+   "seq": 90,
+   "title": "益州太守髙頥碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-13b",
+   "sbck": "011-12b",
+   "authority": "insc-0557"
+  },
+  {
+   "seq": 91,
+   "title": "綏民校尉熊君碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-15a",
+   "sbck": "011-14a",
+   "authority": "insc-0085"
+  },
+  {
+   "seq": 92,
+   "title": "梁相費汎碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-19b",
+   "sbck": "011-18b",
+   "authority": "insc-0535"
+  },
+  {
+   "seq": 93,
+   "title": "髙陽令楊著碑",
+   "attribution": "",
+   "juan": 11,
+   "wyg": "011-21a",
+   "sbck": "011-20b",
+   "authority": "insc-0795"
+  },
+  {
+   "seq": 94,
+   "title": "楊著碑隂",
+   "attribution": "上闕/二字 <孫甫 闕/ 鉅&KR0951;時稚眀巍郡公孫卋陽巍郡□卋眀",
+   "juan": 11,
+   "wyg": "011-23a",
+   "sbck": "011-22b"
+  },
+  {
+   "seq": 95,
+   "title": "太尉楊震碑",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-1b",
+   "sbck": "012-1a",
+   "authority": "insc-0006"
+  },
+  {
+   "seq": 96,
+   "title": "楊震碑隂",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-3b",
+   "sbck": "012-3b"
+  },
+  {
+   "seq": 97,
+   "title": "執金吾丞武榮碑",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-8a",
+   "sbck": "012-8a",
+   "authority": "insc-0466"
+  },
+  {
+   "seq": 98,
+   "title": "浚儀令衡立碑",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-10b",
+   "sbck": "012-10a",
+   "authority": "insc-0796"
+  },
+  {
+   "seq": 99,
+   "title": "戚伯著碑",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-12a",
+   "sbck": "012-11a",
+   "authority": "insc-0494"
+  },
+  {
+   "seq": 100,
+   "title": "先生郭輔碑",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-14b",
+   "sbck": "012-13b",
+   "authority": "insc-0476"
+  },
+  {
+   "seq": 101,
+   "title": "相府小史夏堪碑<",
+   "attribution": "",
+   "juan": 12,
+   "wyg": "012-16a",
+   "sbck": "012-14b"
+  },
+  {
+   "seq": 102,
+   "title": "雒陽令王稚子二闕□",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-1b",
+   "sbck": "013-1b"
+  },
+  {
+   "seq": 103,
+   "title": "交阯都尉沈君二神道",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-2b",
+   "sbck": "013-1b"
+  },
+  {
+   "seq": 104,
+   "title": "益州太守髙頥二闕",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-3a",
+   "sbck": "013-2a",
+   "authority": "insc-0834"
+  },
+  {
+   "seq": 105,
+   "title": "幽州刾史馮煥神道",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-3b",
+   "sbck": "013-3a"
+  },
+  {
+   "seq": 106,
+   "title": "馮煥殘碑",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-4a",
+   "sbck": "013-3a",
+   "authority": "insc-0822"
+  },
+  {
+   "seq": 107,
+   "title": "馮煥殘碑隂<",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-5a",
+   "sbck": "013-4a"
+  },
+  {
+   "seq": 108,
+   "title": "鉅鹿太守金君闕",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-5b",
+   "sbck": "013-4b",
+   "authority": "insc-0835"
+  },
+  {
+   "seq": 109,
+   "title": "清河相張君墓道",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-6a",
+   "sbck": "013-5a"
+  },
+  {
+   "seq": 110,
+   "title": "不其令蕫恢闕漢故□其令蕫君闕",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-7a",
+   "sbck": "013-6a"
+  },
+  {
+   "seq": 111,
+   "title": "江原長進徳碣",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-8b",
+   "sbck": "013-7a",
+   "authority": "insc-0837"
+  },
+  {
+   "seq": 112,
+   "title": "上庸長司馬孟䑓神道",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-9a",
+   "sbck": "013-7b"
+  },
+  {
+   "seq": 113,
+   "title": "處士金恭闕",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-9b",
+   "sbck": "013-8a"
+  },
+  {
+   "seq": 114,
+   "title": "金恭碑",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-10a",
+   "sbck": "013-8b"
+  },
+  {
+   "seq": 115,
+   "title": "韋氏神道□",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-10b",
+   "sbck": "013-10a"
+  },
+  {
+   "seq": 116,
+   "title": "張賔公妻穿中二柱文",
+   "attribution": "",
+   "juan": 13,
+   "wyg": "013-10b",
+   "sbck": "013-10a",
+   "authority": "insc-0836"
+  },
+  {
+   "seq": 117,
+   "title": "石經尚書殘碑",
+   "attribution": "",
+   "juan": 14,
+   "wyg": "014-1a",
+   "sbck": "014-1a",
+   "authority": "insc-0051"
+  },
+  {
+   "seq": 118,
+   "title": "石經魯詩殘碑",
+   "attribution": "",
+   "juan": 14,
+   "wyg": "014-5b",
+   "sbck": "014-4b",
+   "authority": "insc-0054"
+  },
+  {
+   "seq": 119,
+   "title": "石經儀禮殘碑東靣主人",
+   "attribution": "下闕/ 卒爵□奠爵拜執 下闕/ 人&KR0981;洗升媵觚",
+   "juan": 14,
+   "wyg": "014-7a",
+   "sbck": "014-6a"
+  },
+  {
+   "seq": 120,
+   "title": "石經公羊殘碑",
+   "attribution": "",
+   "juan": 14,
+   "wyg": "014-8a",
+   "sbck": "014-6b",
+   "authority": "insc-0053"
+  },
+  {
+   "seq": 121,
+   "title": "石經論語殘碑",
+   "attribution": "",
+   "juan": 14,
+   "wyg": "014-10a",
+   "sbck": "014-8b",
+   "authority": "insc-0052"
+  },
+  {
+   "seq": 122,
+   "title": "學師宋恩等題名",
+   "attribution": "",
+   "juan": 14,
+   "wyg": "014-16a",
+   "sbck": "014-14a"
+  },
+  {
+   "seq": 123,
+   "title": "賜豫州刾史馮焕詔",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-1b",
+   "sbck": "015-1b"
+  },
+  {
+   "seq": 124,
+   "title": "費亭侯曹騰碑隂",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-3a",
+   "sbck": "015-3a"
+  },
+  {
+   "seq": 125,
+   "title": "蜀郡屬國辛通逹李仲曽造橋碑",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-4b",
+   "sbck": "015-4b"
+  },
+  {
+   "seq": 126,
+   "title": "鄭子真宅舎殘碑",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-10a",
+   "sbck": "015-9b"
+  },
+  {
+   "seq": 127,
+   "title": "都郷正衛彈碑<",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-14a",
+   "sbck": "015-13a"
+  },
+  {
+   "seq": 128,
+   "title": "舜子巷義井碑",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-16b",
+   "sbck": "015-15b",
+   "authority": "insc-0830"
+  },
+  {
+   "seq": 129,
+   "title": "義井碑隂",
+   "attribution": "",
+   "juan": 15,
+   "wyg": "015-17b",
+   "sbck": "015-16b"
+  },
+  {
+   "seq": 130,
+   "title": "武梁祠堂畫像",
+   "attribution": "",
+   "juan": 16,
+   "wyg": "016-1a",
+   "sbck": "016-1a",
+   "authority": "insc-0552"
+  },
+  {
+   "seq": 131,
+   "title": "四老神坐神祚机",
+   "attribution": "",
+   "juan": 16,
+   "wyg": "016-6a",
+   "sbck": "016-5b"
+  },
+  {
+   "seq": 132,
+   "title": "麒麟鳳凰碑",
+   "attribution": "",
+   "juan": 16,
+   "wyg": "016-7a",
+   "sbck": "016-6b"
+  },
+  {
+   "seq": 133,
+   "title": "詔賜功臣家字",
+   "attribution": "",
+   "juan": 16,
+   "wyg": "016-8a",
+   "sbck": "016-7b"
+  },
+  {
+   "seq": 134,
+   "title": "中部碑<",
+   "attribution": "",
+   "juan": 16,
+   "wyg": "016-8b",
+   "sbck": "016-7b"
+  },
+  {
+   "seq": 135,
+   "title": "趙相劉衡碑",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-1b",
+   "sbck": "017-1a",
+   "authority": "insc-0080"
+  },
+  {
+   "seq": 136,
+   "title": "冨春丞張君碑君諱",
+   "attribution": "闕/ 字 闕/ □ 闕/ 君之苐三子 闕/ 君之□弟 下闕/ 承父",
+   "juan": 17,
+   "wyg": "017-3b",
+   "sbck": "017-3b"
+  },
+  {
+   "seq": 137,
+   "title": "郎中郭君碑",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-5a",
+   "sbck": "017-4b",
+   "authority": "insc-0811"
+  },
+  {
+   "seq": 138,
+   "title": "廣漢屬國都尉丁魴碑",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-6a",
+   "sbck": "017-5b",
+   "authority": "insc-0812"
+  },
+  {
+   "seq": 139,
+   "title": "南陽太守秦頡碑<",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-7b",
+   "sbck": "017-6b"
+  },
+  {
+   "seq": 140,
+   "title": "魯相謁孔廟殘碑",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-9a",
+   "sbck": "017-9a",
+   "authority": "insc-0525"
+  },
+  {
+   "seq": 141,
+   "title": "平原東郡門生蘇衡等題名",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-10a",
+   "sbck": "017-9b",
+   "authority": "insc-0844"
+  },
+  {
+   "seq": 142,
+   "title": "益州太守無名碑",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-11b",
+   "sbck": "017-12a",
+   "authority": "insc-0010"
+  },
+  {
+   "seq": 143,
+   "title": "益州太守碑隂",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-13b",
+   "sbck": "017-13b"
+  },
+  {
+   "seq": 144,
+   "title": "州輔碑隂",
+   "attribution": "",
+   "juan": 17,
+   "wyg": "017-17b",
+   "sbck": "017-17b"
+  },
+  {
+   "seq": 145,
+   "title": "司空宗俱碑",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-1a",
+   "sbck": "018-1a",
+   "authority": "insc-0045"
+  },
+  {
+   "seq": 146,
+   "title": "太丘長陳寔壇碑君諱寔字仲躬",
+   "attribution": "闕十/二字 <之禮樂畨畨良 闕/ 既光既耀 闕/ 立",
+   "juan": 18,
+   "wyg": "018-3a",
+   "sbck": "018-3a"
+  },
+  {
+   "seq": 147,
+   "title": "縣三老楊信碑",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-4b",
+   "sbck": "018-4a",
+   "authority": "insc-0524"
+  },
+  {
+   "seq": 148,
+   "title": "益州太守城垻碑",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-5b",
+   "sbck": "018-5b"
+  },
+  {
+   "seq": 149,
+   "title": "是邦雄桀碑",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-7b",
+   "sbck": "018-7a",
+   "authority": "insc-0829"
+  },
+  {
+   "seq": 150,
+   "title": "仲秋下旬碑<",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-8b",
+   "sbck": "018-8a"
+  },
+  {
+   "seq": 151,
+   "title": "故吏應酬殘題名",
+   "attribution": "",
+   "juan": 18,
+   "wyg": "018-9b",
+   "sbck": "018-9a"
+  },
+  {
+   "seq": 152,
+   "title": "魏大饗碑",
+   "attribution": "",
+   "juan": 19,
+   "wyg": "019-1a",
+   "sbck": "019-1a",
+   "authority": "insc-0481"
+  },
+  {
+   "seq": 153,
+   "title": "魏公卿上尊號奏",
+   "attribution": "",
+   "juan": 19,
+   "wyg": "019-3b",
+   "sbck": "019-3b",
+   "authority": "insc-0087"
+  },
+  {
+   "seq": 154,
+   "title": "魏脩孔子廟碑",
+   "attribution": "",
+   "juan": 19,
+   "wyg": "019-12a",
+   "sbck": "019-11a",
+   "authority": "insc-0088"
+  },
+  {
+   "seq": 155,
+   "title": "魏横海將軍呂君碑",
+   "attribution": "",
+   "juan": 19,
+   "wyg": "019-15b",
+   "sbck": "019-13b",
+   "authority": "insc-0090"
+  },
+  {
+   "seq": 156,
+   "title": "范式碑",
+   "attribution": "",
+   "juan": 19,
+   "wyg": "019-17b",
+   "sbck": "019-16a",
+   "authority": "insc-0091"
+  },
+  {
+   "seq": 157,
+   "title": "張平子碑",
+   "attribution": "附/ 河問諱衡字平子南陽此縣人也軆徳純和秉行孝友",
+   "juan": 19,
+   "wyg": "019-20a",
+   "sbck": "019-18b",
+   "authority": "insc-0501"
+  },
+  {
+   "seq": 158,
+   "title": "司馬遷碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-1a",
+   "sbck": "020-1a",
+   "authority": "insc-0813"
+  },
+  {
+   "seq": 159,
+   "title": "洛陽北界碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-1b",
+   "sbck": "020-1a",
+   "authority": "insc-0826"
+  },
+  {
+   "seq": 160,
+   "title": "郭林宗宋子浚碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-1b",
+   "sbck": "020-1b"
+  },
+  {
+   "seq": 161,
+   "title": "堯廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-2b",
+   "sbck": "020-2a",
+   "authority": "insc-0838"
+  },
+  {
+   "seq": 162,
+   "title": "王誨碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-2b",
+   "sbck": "020-2b"
+  },
+  {
+   "seq": 163,
+   "title": "劉孟陽碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-4a",
+   "sbck": "020-3b"
+  },
+  {
+   "seq": 164,
+   "title": "薛季像碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-4a",
+   "sbck": "020-4a"
+  },
+  {
+   "seq": 165,
+   "title": "楊叔㳟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-4b",
+   "sbck": "020-4a"
+  },
+  {
+   "seq": 166,
+   "title": "李剛碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-5a",
+   "sbck": "020-4b"
+  },
+  {
+   "seq": 167,
+   "title": "魯恭碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-5a",
+   "sbck": "020-5a"
+  },
+  {
+   "seq": 168,
+   "title": "范巨卿碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-5b",
+   "sbck": "020-5a",
+   "authority": "insc-0818"
+  },
+  {
+   "seq": 169,
+   "title": "比干碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-6a",
+   "sbck": "020-5b"
+  },
+  {
+   "seq": 170,
+   "title": "漳河神壇碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-7a",
+   "sbck": "020-6a",
+   "authority": "insc-0554"
+  },
+  {
+   "seq": 171,
+   "title": "太公廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-7a",
+   "sbck": "020-6b"
+  },
+  {
+   "seq": 172,
+   "title": "冀州北界碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-7b",
+   "sbck": "020-7a",
+   "authority": "insc-0827"
+  },
+  {
+   "seq": 173,
+   "title": "張平仲碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-8a",
+   "sbck": "020-7a"
+  },
+  {
+   "seq": 174,
+   "title": "王立碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-8a",
+   "sbck": "020-7a"
+  },
+  {
+   "seq": 175,
+   "title": "趙徴碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-8b",
+   "sbck": "020-7b"
+  },
+  {
+   "seq": 176,
+   "title": "大石嶺碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-8b",
+   "sbck": "020-7b",
+   "authority": "insc-0828"
+  },
+  {
+   "seq": 177,
+   "title": "洛陽橋右柱銘",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-8b",
+   "sbck": "020-8a"
+  },
+  {
+   "seq": 178,
+   "title": "石經",
+   "attribution": "魏三字石經/魏典論六碑",
+   "juan": 20,
+   "wyg": "020-9a",
+   "sbck": "020-8b",
+   "authority": "insc-0049"
+  },
+  {
+   "seq": 179,
+   "title": "太學碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-10a",
+   "sbck": "020-9a"
+  },
+  {
+   "seq": 180,
+   "title": "趙融碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-10a",
+   "sbck": "020-9b"
+  },
+  {
+   "seq": 181,
+   "title": "五部神廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-10b",
+   "sbck": "020-9b",
+   "authority": "insc-0062"
+  },
+  {
+   "seq": 182,
+   "title": "華山祠堂碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-10b",
+   "sbck": "020-9b"
+  },
+  {
+   "seq": 183,
+   "title": "河南界石柱<",
+   "attribution": "洛陽南/界碑",
+   "juan": 20,
+   "wyg": "020-11a",
+   "sbck": "020-10a"
+  },
+  {
+   "seq": 184,
+   "title": "張明府祠碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-11b",
+   "sbck": "020-10b"
+  },
+  {
+   "seq": 185,
+   "title": "許由廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-11b",
+   "sbck": "020-10b",
+   "authority": "insc-0490"
+  },
+  {
+   "seq": 186,
+   "title": "郭奉孝碑祠碑)",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-12a",
+   "sbck": "020-11a"
+  },
+  {
+   "seq": 187,
+   "title": "司馬文預碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-12a",
+   "sbck": "020-11a",
+   "authority": "insc-0817"
+  },
+  {
+   "seq": 188,
+   "title": "梁巖碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-12a",
+   "sbck": "020-11a",
+   "authority": "insc-0819"
+  },
+  {
+   "seq": 189,
+   "title": "魏受禪碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-12b",
+   "sbck": "020-11a",
+   "authority": "insc-0086"
+  },
+  {
+   "seq": 190,
+   "title": "張伯雅碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-12b",
+   "sbck": "020-11b"
+  },
+  {
+   "seq": 191,
+   "title": "袁梁碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-13a",
+   "sbck": "020-12a",
+   "authority": "insc-0007"
+  },
+  {
+   "seq": 192,
+   "title": "王君造四縣邸碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-13b",
+   "sbck": "020-12a",
+   "authority": "insc-0825"
+  },
+  {
+   "seq": 193,
+   "title": "袁滂碑",
+   "attribution": "袁騰碑/袁光<碑",
+   "juan": 20,
+   "wyg": "020-14a",
+   "sbck": "020-12b"
+  },
+  {
+   "seq": 194,
+   "title": "許續碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-14a",
+   "sbck": "020-12b"
+  },
+  {
+   "seq": 195,
+   "title": "虞詡碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-14b",
+   "sbck": "020-13a"
+  },
+  {
+   "seq": 196,
+   "title": "柘令許君頌",
+   "attribution": "許柘縣城内有柘令許君清德頌石碎字紊唯此文見碑",
+   "juan": 20,
+   "wyg": "020-14b",
+   "sbck": "020-13b"
+  },
+  {
+   "seq": 197,
+   "title": "老子廟碑<",
+   "attribution": "魏石/闕",
+   "juan": 20,
+   "wyg": "020-15a",
+   "sbck": "020-13b"
+  },
+  {
+   "seq": 198,
+   "title": "孔子廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-15a",
+   "sbck": "020-13b",
+   "authority": "insc-0230"
+  },
+  {
+   "seq": 199,
+   "title": "李母冢碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-15b",
+   "sbck": "020-13b"
+  },
+  {
+   "seq": 200,
+   "title": "曹嵩碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-16a",
+   "sbck": "020-14b"
+  },
+  {
+   "seq": 201,
+   "title": "曹騰碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-16a",
+   "sbck": "020-14b"
+  },
+  {
+   "seq": 202,
+   "title": "頴川太守曹君碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-16b",
+   "sbck": "020-15a"
+  },
+  {
+   "seq": 203,
+   "title": "曹熾碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-16b",
+   "sbck": "020-15a"
+  },
+  {
+   "seq": 204,
+   "title": "曹&KR0601;碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-16b",
+   "sbck": "020-15a"
+  },
+  {
+   "seq": 205,
+   "title": "魏大饗碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-17a",
+   "sbck": "020-15b",
+   "authority": "insc-0481"
+  },
+  {
+   "seq": 206,
+   "title": "朱龜碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-17a",
+   "sbck": "020-15b",
+   "authority": "insc-0074"
+  },
+  {
+   "seq": 207,
+   "title": "文穆碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-17b",
+   "sbck": "020-16a"
+  },
+  {
+   "seq": 208,
+   "title": "橋載碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-18a",
+   "sbck": "020-16b"
+  },
+  {
+   "seq": 209,
+   "title": "王子喬碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-18b",
+   "sbck": "020-16b",
+   "authority": "insc-0787"
+  },
+  {
+   "seq": 210,
+   "title": "繹幕令碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-19b",
+   "sbck": "020-17b"
+  },
+  {
+   "seq": 211,
+   "title": "盛允碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-19b",
+   "sbck": "020-18a"
+  },
+  {
+   "seq": 212,
+   "title": "廣野君廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-20a",
+   "sbck": "020-18a"
+  },
+  {
+   "seq": 213,
+   "title": "楊彦楊禪二碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-20b",
+   "sbck": "020-18b"
+  },
+  {
+   "seq": 214,
+   "title": "橋𤣥三碑",
+   "attribution": "三鼎文/征鉞<文",
+   "juan": 20,
+   "wyg": "020-20b",
+   "sbck": "020-18b"
+  },
+  {
+   "seq": 215,
+   "title": "皇毓碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-21b",
+   "sbck": "020-19b"
+  },
+  {
+   "seq": 216,
+   "title": "鄭陂頌",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-22a",
+   "sbck": "020-20a"
+  },
+  {
+   "seq": 217,
+   "title": "堯陵碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-22a",
+   "sbck": "020-20a",
+   "authority": "insc-0779"
+  },
+  {
+   "seq": 218,
+   "title": "東平憲王碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-23a",
+   "sbck": "020-21a"
+  },
+  {
+   "seq": 219,
+   "title": "孔廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-23a",
+   "sbck": "020-21a",
+   "authority": "insc-0780"
+  },
+  {
+   "seq": 220,
+   "title": "道兒君碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-23b",
+   "sbck": "020-21b"
+  },
+  {
+   "seq": 221,
+   "title": "魏孔廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-23b",
+   "sbck": "020-21b"
+  },
+  {
+   "seq": 222,
+   "title": "漢髙祖廟三碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-24a",
+   "sbck": "020-22a"
+  },
+  {
+   "seq": 223,
+   "title": "泗水亭髙廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-24a",
+   "sbck": "020-22a",
+   "authority": "insc-0784"
+  },
+  {
+   "seq": 224,
+   "title": "梧臺石社碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-24b",
+   "sbck": "020-22b"
+  },
+  {
+   "seq": 225,
+   "title": "孫嵩碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-24b",
+   "sbck": "020-22b"
+  },
+  {
+   "seq": 226,
+   "title": "孫賔碩碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-25a",
+   "sbck": "020-22b",
+   "authority": "insc-0815"
+  },
+  {
+   "seq": 227,
+   "title": "唐公房碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-25a",
+   "sbck": "020-23a",
+   "authority": "insc-0484"
+  },
+  {
+   "seq": 228,
+   "title": "黄尚石闕",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-25b",
+   "sbck": "020-23b"
+  },
+  {
+   "seq": 229,
+   "title": "秦頡二碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-26a",
+   "sbck": "020-23b"
+  },
+  {
+   "seq": 230,
+   "title": "冠盖里碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-26a",
+   "sbck": "020-24a"
+  },
+  {
+   "seq": 231,
+   "title": "張仲瑜碑<",
+   "attribution": "郭先/生碑",
+   "juan": 20,
+   "wyg": "020-26b",
+   "sbck": "020-24b"
+  },
+  {
+   "seq": 232,
+   "title": "衛彈勸碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-28a",
+   "sbck": "020-25b"
+  },
+  {
+   "seq": 233,
+   "title": "胡著碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-28a",
+   "sbck": "020-25b"
+  },
+  {
+   "seq": 234,
+   "title": "樊重碑",
+   "attribution": "樊萌碑/樊安<碑",
+   "juan": 20,
+   "wyg": "020-28a",
+   "sbck": "020-26a",
+   "authority": "insc-0814"
+  },
+  {
+   "seq": 235,
+   "title": "淮源廟三碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-29a",
+   "sbck": "020-26b"
+  },
+  {
+   "seq": 236,
+   "title": "賈彪廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-29a",
+   "sbck": "020-26b"
+  },
+  {
+   "seq": 237,
+   "title": "衛為碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-29b",
+   "sbck": "020-27a"
+  },
+  {
+   "seq": 238,
+   "title": "焦立碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-29b",
+   "sbck": "020-27a",
+   "authority": "insc-0816"
+  },
+  {
+   "seq": 239,
+   "title": "彭山廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-29b",
+   "sbck": "020-27a",
+   "authority": "insc-0783"
+  },
+  {
+   "seq": 240,
+   "title": "尹儉碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-30a",
+   "sbck": "020-27b"
+  },
+  {
+   "seq": 241,
+   "title": "侯苞碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-30a",
+   "sbck": "020-27b"
+  },
+  {
+   "seq": 242,
+   "title": "張平子碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-30b",
+   "sbck": "020-28a",
+   "authority": "insc-0501"
+  },
+  {
+   "seq": 243,
+   "title": "王子雅碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-31a",
+   "sbck": "020-28b"
+  },
+  {
+   "seq": 244,
+   "title": "魏黄權碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-31b",
+   "sbck": "020-29a"
+  },
+  {
+   "seq": 245,
+   "title": "范蠡碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-32a",
+   "sbck": "020-29a"
+  },
+  {
+   "seq": 246,
+   "title": "光尼和碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-32a",
+   "sbck": "020-29b"
+  },
+  {
+   "seq": 247,
+   "title": "舜廟碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-33a",
+   "sbck": "020-30a"
+  },
+  {
+   "seq": 248,
+   "title": "二妃祠碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-33a",
+   "sbck": "020-30b",
+   "authority": "insc-0785"
+  },
+  {
+   "seq": 249,
+   "title": "屈原廟碑<",
+   "attribution": "程堅/碑",
+   "juan": 20,
+   "wyg": "020-33b",
+   "sbck": "020-30b"
+  },
+  {
+   "seq": 250,
+   "title": "曹娥碑",
+   "attribution": "",
+   "juan": 20,
+   "wyg": "020-33b",
+   "sbck": "020-31a",
+   "authority": "insc-0475"
+  },
+  {
+   "seq": 251,
+   "title": "楊君碑隂題名",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-5a",
+   "sbck": "021-4b"
+  },
+  {
+   "seq": 252,
+   "title": "楊震碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-5b",
+   "sbck": "021-5a",
+   "authority": "insc-0006"
+  },
+  {
+   "seq": 253,
+   "title": "繁陽令楊君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-6a",
+   "sbck": "021-5b",
+   "authority": "insc-0048"
+  },
+  {
+   "seq": 254,
+   "title": "髙陽令楊君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-6b",
+   "sbck": "021-6a"
+  },
+  {
+   "seq": 255,
+   "title": "文翁石柱記",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-7a",
+   "sbck": "021-6b"
+  },
+  {
+   "seq": 256,
+   "title": "樊常侍碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-7b",
+   "sbck": "021-7a",
+   "authority": "insc-0016"
+  },
+  {
+   "seq": 257,
+   "title": "𤣥儒婁先生碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-8a",
+   "sbck": "021-7b"
+  },
+  {
+   "seq": 258,
+   "title": "老子銘",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-9a",
+   "sbck": "021-8a",
+   "authority": "insc-0026"
+  },
+  {
+   "seq": 259,
+   "title": "中常侍費亭侯曹騰碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-9a",
+   "sbck": "021-8b",
+   "authority": "insc-0791"
+  },
+  {
+   "seq": 260,
+   "title": "桂陽周府君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-9b",
+   "sbck": "021-8b"
+  },
+  {
+   "seq": 261,
+   "title": "後本䟦尾",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-10b",
+   "sbck": "021-9b"
+  },
+  {
+   "seq": 262,
+   "title": "桐栢廟碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-11a",
+   "sbck": "021-10a"
+  },
+  {
+   "seq": 263,
+   "title": "楊君碑隂題名",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-12b",
+   "sbck": "021-11b"
+  },
+  {
+   "seq": 264,
+   "title": "朔方太守碑隂",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-14a",
+   "sbck": "021-12b"
+  },
+  {
+   "seq": 265,
+   "title": "朱龜碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-14b",
+   "sbck": "021-13b",
+   "authority": "insc-0074"
+  },
+  {
+   "seq": 266,
+   "title": "太尉劉寛碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-15a",
+   "sbck": "021-14a",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 267,
+   "title": "劉寛碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-16a",
+   "sbck": "021-14b",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 268,
+   "title": "孫叔敖碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-16b",
+   "sbck": "021-15a",
+   "authority": "insc-0015"
+  },
+  {
+   "seq": 269,
+   "title": "殽阬君神祠碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-17a",
+   "sbck": "021-15b",
+   "authority": "insc-0062"
+  },
+  {
+   "seq": 270,
+   "title": "樊毅修華嶽碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-17b",
+   "sbck": "021-16a"
+  },
+  {
+   "seq": 271,
+   "title": "祝睦碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-18a",
+   "sbck": "021-16b",
+   "authority": "insc-0023"
+  },
+  {
+   "seq": 272,
+   "title": "祝睦後碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-18b",
+   "sbck": "021-17a",
+   "authority": "insc-0027"
+  },
+  {
+   "seq": 273,
+   "title": "殘碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-19a",
+   "sbck": "021-17b"
+  },
+  {
+   "seq": 274,
+   "title": "修孔子廟器表",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-19b",
+   "sbck": "021-18a"
+  },
+  {
+   "seq": 275,
+   "title": "泰山都尉孔君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-20a",
+   "sbck": "021-18b"
+  },
+  {
+   "seq": 276,
+   "title": "吳雄修孔子廟碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-20b",
+   "sbck": "021-19a"
+  },
+  {
+   "seq": 277,
+   "title": "冀州從事張表碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-21b",
+   "sbck": "021-20a",
+   "authority": "insc-0030"
+  },
+  {
+   "seq": 278,
+   "title": "郭中候碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-22a",
+   "sbck": "021-20b"
+  },
+  {
+   "seq": 279,
+   "title": "司𨽻從事郭究碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-22b",
+   "sbck": "021-21a"
+  },
+  {
+   "seq": 280,
+   "title": "田君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-23a",
+   "sbck": "021-21b",
+   "authority": "insc-0792"
+  },
+  {
+   "seq": 281,
+   "title": "堯母碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-23b",
+   "sbck": "021-22a"
+  },
+  {
+   "seq": 282,
+   "title": "魯相晨孔子廟碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-24b",
+   "sbck": "021-23a"
+  },
+  {
+   "seq": 283,
+   "title": "楊君碑隂題名",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-25b",
+   "sbck": "021-23b"
+  },
+  {
+   "seq": 284,
+   "title": "劉曜碑并隂",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-27a",
+   "sbck": "021-25b"
+  },
+  {
+   "seq": 285,
+   "title": "太尉劉寛碑隂",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-28a",
+   "sbck": "021-26a"
+  },
+  {
+   "seq": 286,
+   "title": "武榮碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-29a",
+   "sbck": "021-27a",
+   "authority": "insc-0466"
+  },
+  {
+   "seq": 287,
+   "title": "郎中鄭固碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-29b",
+   "sbck": "021-27b",
+   "authority": "insc-0013"
+  },
+  {
+   "seq": 288,
+   "title": "班碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-30a",
+   "sbck": "021-28a"
+  },
+  {
+   "seq": 289,
+   "title": "魯峻碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-30b",
+   "sbck": "021-28b",
+   "authority": "insc-0044"
+  },
+  {
+   "seq": 290,
+   "title": "槀長蔡君頌",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-33a",
+   "sbck": "021-30b"
+  },
+  {
+   "seq": 291,
+   "title": "郎中王君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-33a",
+   "sbck": "021-31a",
+   "authority": "insc-0808"
+  },
+  {
+   "seq": 292,
+   "title": "太尉陳球碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-33b",
+   "sbck": "021-31b",
+   "authority": "insc-0060"
+  },
+  {
+   "seq": 293,
+   "title": "北海相景君碑",
+   "attribution": "",
+   "juan": 21,
+   "wyg": "021-34b",
+   "sbck": "021-32a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 294,
+   "title": "王元賞碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-2a",
+   "sbck": "022-2a"
+  },
+  {
+   "seq": 295,
+   "title": "竹邑侯相張壽碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-3a",
+   "sbck": "022-2b",
+   "authority": "insc-0032"
+  },
+  {
+   "seq": 296,
+   "title": "無名碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-3b",
+   "sbck": "022-3a"
+  },
+  {
+   "seq": 297,
+   "title": "司𨽻楊君碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-4a",
+   "sbck": "022-3b"
+  },
+  {
+   "seq": 298,
+   "title": "樊毅華嶽碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-6a",
+   "sbck": "022-5a"
+  },
+  {
+   "seq": 299,
+   "title": "北嶽碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-7a",
+   "sbck": "022-6a",
+   "authority": "insc-0839"
+  },
+  {
+   "seq": 300,
+   "title": "碑隂題名",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-7b",
+   "sbck": "022-6b"
+  },
+  {
+   "seq": 301,
+   "title": "慎令劉君墓碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-8a",
+   "sbck": "022-7a"
+  },
+  {
+   "seq": 302,
+   "title": "伯著碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-8b",
+   "sbck": "022-7b"
+  },
+  {
+   "seq": 303,
+   "title": "王稚子闕",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-10a",
+   "sbck": "022-8b"
+  },
+  {
+   "seq": 304,
+   "title": "堯祠碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-10b",
+   "sbck": "022-9a"
+  },
+  {
+   "seq": 305,
+   "title": "碑隂題名",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-11a",
+   "sbck": "022-9b"
+  },
+  {
+   "seq": 306,
+   "title": "孔徳讓碣",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-13b",
+   "sbck": "022-12a"
+  },
+  {
+   "seq": 307,
+   "title": "孔宙碑隂題名",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-14a",
+   "sbck": "022-12b"
+  },
+  {
+   "seq": 308,
+   "title": "熊君碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-16a",
+   "sbck": "022-14a",
+   "authority": "insc-0085"
+  },
+  {
+   "seq": 309,
+   "title": "敬仲碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-16b",
+   "sbck": "022-14b"
+  },
+  {
+   "seq": 310,
+   "title": "衡方碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-17a",
+   "sbck": "022-15a",
+   "authority": "insc-0031"
+  },
+  {
+   "seq": 311,
+   "title": "俞鄉侯季子碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-17b",
+   "sbck": "022-15b"
+  },
+  {
+   "seq": 312,
+   "title": "堯祠祈雨碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-18b",
+   "sbck": "022-16a"
+  },
+  {
+   "seq": 313,
+   "title": "景君碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-19a",
+   "sbck": "022-16b"
+  },
+  {
+   "seq": 314,
+   "title": "景君石郭銘附",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-19a",
+   "sbck": "022-17a"
+  },
+  {
+   "seq": 315,
+   "title": "郙閣頌",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-19b",
+   "sbck": "022-17a",
+   "authority": "insc-0042"
+  },
+  {
+   "seq": 316,
+   "title": "費鳳碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-20b",
+   "sbck": "022-18a",
+   "authority": "insc-0057"
+  },
+  {
+   "seq": 317,
+   "title": "魏受禪壇碑",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-21a",
+   "sbck": "022-18b"
+  },
+  {
+   "seq": 318,
+   "title": "魏公卿上尊號表",
+   "attribution": "",
+   "juan": 22,
+   "wyg": "022-22a",
+   "sbck": "022-19b",
+   "authority": "insc-0089"
+  },
+  {
+   "seq": 319,
+   "title": "楊君碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-2a",
+   "sbck": "023-2a"
+  },
+  {
+   "seq": 320,
+   "title": "魏受禪壇記",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-2b",
+   "sbck": "023-2b"
+  },
+  {
+   "seq": 321,
+   "title": "魏公卿上尊號表",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-3a",
+   "sbck": "023-2b",
+   "authority": "insc-0089"
+  },
+  {
+   "seq": 322,
+   "title": "楊震碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-3a",
+   "sbck": "023-3a",
+   "authority": "insc-0006"
+  },
+  {
+   "seq": 323,
+   "title": "繁陽令楊君碑銘",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-3b",
+   "sbck": "023-3a"
+  },
+  {
+   "seq": 324,
+   "title": "髙陽令楊君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-3b",
+   "sbck": "023-3b"
+  },
+  {
+   "seq": 325,
+   "title": "文翁石柱記",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-4a",
+   "sbck": "023-3b"
+  },
+  {
+   "seq": 326,
+   "title": "魏大饗碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-4a",
+   "sbck": "023-4a",
+   "authority": "insc-0481"
+  },
+  {
+   "seq": 327,
+   "title": "魏魯孔子廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-4b",
+   "sbck": "023-4a"
+  },
+  {
+   "seq": 328,
+   "title": "樊常侍碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-4b",
+   "sbck": "023-4b",
+   "authority": "insc-0016"
+  },
+  {
+   "seq": 329,
+   "title": "𤣥儒婁先生碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-5a",
+   "sbck": "023-4b"
+  },
+  {
+   "seq": 330,
+   "title": "老子銘",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-5a",
+   "sbck": "023-5a",
+   "authority": "insc-0026"
+  },
+  {
+   "seq": 331,
+   "title": "曹騰碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-5b",
+   "sbck": "023-5a"
+  },
+  {
+   "seq": 332,
+   "title": "桐柏廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-6a",
+   "sbck": "023-5b",
+   "authority": "insc-0020"
+  },
+  {
+   "seq": 333,
+   "title": "修西嶽廟復民賦頌",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-6a",
+   "sbck": "023-6a"
+  },
+  {
+   "seq": 334,
+   "title": "楊公碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-6b",
+   "sbck": "023-6a"
+  },
+  {
+   "seq": 335,
+   "title": "朱龜碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-7a",
+   "sbck": "023-6b",
+   "authority": "insc-0074"
+  },
+  {
+   "seq": 336,
+   "title": "劉寛碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-7a",
+   "sbck": "023-7a",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 337,
+   "title": "劉寛碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-7b",
+   "sbck": "023-7a",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 338,
+   "title": "孫叔敖碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-7b",
+   "sbck": "023-7a",
+   "authority": "insc-0015"
+  },
+  {
+   "seq": 339,
+   "title": "殽阬神君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-8a",
+   "sbck": "023-7b"
+  },
+  {
+   "seq": 340,
+   "title": "祝睦碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-8b",
+   "sbck": "023-8a",
+   "authority": "insc-0023"
+  },
+  {
+   "seq": 341,
+   "title": "祝睦後碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-9a",
+   "sbck": "023-8b",
+   "authority": "insc-0027"
+  },
+  {
+   "seq": 342,
+   "title": "殘碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-9b",
+   "sbck": "023-8b"
+  },
+  {
+   "seq": 343,
+   "title": "修孔子廟器表",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-9b",
+   "sbck": "023-9a"
+  },
+  {
+   "seq": 344,
+   "title": "泰山都尉孔君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-10a",
+   "sbck": "023-9a"
+  },
+  {
+   "seq": 345,
+   "title": "呉雄修孔子廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-10a",
+   "sbck": "023-9b"
+  },
+  {
+   "seq": 346,
+   "title": "張表碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-10b",
+   "sbck": "023-10a",
+   "authority": "insc-0030"
+  },
+  {
+   "seq": 347,
+   "title": "郭中候碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-11a",
+   "sbck": "023-10a"
+  },
+  {
+   "seq": 348,
+   "title": "田君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-11b",
+   "sbck": "023-10b",
+   "authority": "insc-0792"
+  },
+  {
+   "seq": 349,
+   "title": "堯母碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-11b",
+   "sbck": "023-10b"
+  },
+  {
+   "seq": 350,
+   "title": "魯相晨孔子廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-12a",
+   "sbck": "023-11a"
+  },
+  {
+   "seq": 351,
+   "title": "楊君碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-12a",
+   "sbck": "023-11a"
+  },
+  {
+   "seq": 352,
+   "title": "無極山神廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-12b",
+   "sbck": "023-11b"
+  },
+  {
+   "seq": 353,
+   "title": "劉曜碑并隂",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-12b",
+   "sbck": "023-11b"
+  },
+  {
+   "seq": 354,
+   "title": "石經遺字",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-13a",
+   "sbck": "023-12a",
+   "authority": "insc-0843"
+  },
+  {
+   "seq": 355,
+   "title": "小黄門譙君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-13a",
+   "sbck": "023-12a"
+  },
+  {
+   "seq": 356,
+   "title": "武榮碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-13b",
+   "sbck": "023-12b",
+   "authority": "insc-0466"
+  },
+  {
+   "seq": 357,
+   "title": "武班碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-14a",
+   "sbck": "023-13a"
+  },
+  {
+   "seq": 358,
+   "title": "魯峻碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-14a",
+   "sbck": "023-13a",
+   "authority": "insc-0044"
+  },
+  {
+   "seq": 359,
+   "title": "槀長蔡君頌",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-15a",
+   "sbck": "023-13b"
+  },
+  {
+   "seq": 360,
+   "title": "太尉陳球碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-15a",
+   "sbck": "023-14a",
+   "authority": "insc-0060"
+  },
+  {
+   "seq": 361,
+   "title": "北海相景君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-15b",
+   "sbck": "023-14a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 362,
+   "title": "金鄉守長侯君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-15b",
+   "sbck": "023-14b",
+   "authority": "insc-0035"
+  },
+  {
+   "seq": 363,
+   "title": "王元賞碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-16a",
+   "sbck": "023-14b"
+  },
+  {
+   "seq": 364,
+   "title": "張夀碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-16b",
+   "sbck": "023-15a"
+  },
+  {
+   "seq": 365,
+   "title": "無名碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-16b",
+   "sbck": "023-15a"
+  },
+  {
+   "seq": 366,
+   "title": "費府君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-17b",
+   "sbck": "023-16a"
+  },
+  {
+   "seq": 367,
+   "title": "樊毅碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-17b",
+   "sbck": "023-16a"
+  },
+  {
+   "seq": 368,
+   "title": "北嶽廟碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-18a",
+   "sbck": "023-16b",
+   "authority": "insc-0840"
+  },
+  {
+   "seq": 369,
+   "title": "碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-18a",
+   "sbck": "023-16b"
+  },
+  {
+   "seq": 370,
+   "title": "周伯著碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-18b",
+   "sbck": "023-17a",
+   "authority": "insc-0494"
+  },
+  {
+   "seq": 371,
+   "title": "王君闕",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-19a",
+   "sbck": "023-17b"
+  },
+  {
+   "seq": 372,
+   "title": "碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-20a",
+   "sbck": "023-18a"
+  },
+  {
+   "seq": 373,
+   "title": "碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-20b",
+   "sbck": "023-18b"
+  },
+  {
+   "seq": 374,
+   "title": "孔德讓碣",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-21a",
+   "sbck": "023-19a"
+  },
+  {
+   "seq": 375,
+   "title": "楊震碑隂題名",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-21b",
+   "sbck": "023-19b"
+  },
+  {
+   "seq": 376,
+   "title": "唐君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-21b",
+   "sbck": "023-19b"
+  },
+  {
+   "seq": 377,
+   "title": "綏民校尉熊君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-22a",
+   "sbck": "023-20a",
+   "authority": "insc-0085"
+  },
+  {
+   "seq": 378,
+   "title": "衡方碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-22b",
+   "sbck": "023-20b",
+   "authority": "insc-0031"
+  },
+  {
+   "seq": 379,
+   "title": "俞鄉侯季子碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-22b",
+   "sbck": "023-20b"
+  },
+  {
+   "seq": 380,
+   "title": "堯祠祈雨碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-23a",
+   "sbck": "023-21a"
+  },
+  {
+   "seq": 381,
+   "title": "景君碑",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-23a",
+   "sbck": "023-21a"
+  },
+  {
+   "seq": 382,
+   "title": "郙閣頌",
+   "attribution": "",
+   "juan": 23,
+   "wyg": "023-23b",
+   "sbck": "023-21b",
+   "authority": "insc-0042"
+  },
+  {
+   "seq": 383,
+   "title": "南武陽功曹闕銘",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-5a",
+   "sbck": "024-4a",
+   "authority": "insc-0831"
+  },
+  {
+   "seq": 384,
+   "title": "王稚子闕銘",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-5a",
+   "sbck": "024-4b"
+  },
+  {
+   "seq": 385,
+   "title": "景君碑隂",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-6a",
+   "sbck": "024-5a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 386,
+   "title": "郯令景君闕銘",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-6a",
+   "sbck": "024-5b",
+   "authority": "insc-0002"
+  },
+  {
+   "seq": 387,
+   "title": "國三老袁君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-6b",
+   "sbck": "024-6a",
+   "authority": "insc-0007"
+  },
+  {
+   "seq": 388,
+   "title": "西嶽石闕銘",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-8a",
+   "sbck": "024-7a"
+  },
+  {
+   "seq": 389,
+   "title": "北海相景君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-8b",
+   "sbck": "024-7b",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 390,
+   "title": "景君碑隂",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-8b",
+   "sbck": "024-8a",
+   "authority": "insc-0001"
+  },
+  {
+   "seq": 391,
+   "title": "敦煌長史武班碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-9a",
+   "sbck": "024-8a",
+   "authority": "insc-0788"
+  },
+  {
+   "seq": 392,
+   "title": "武氏石闕銘",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-9b",
+   "sbck": "024-8b"
+  },
+  {
+   "seq": 393,
+   "title": "費亭侯曹騰碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-10a",
+   "sbck": "024-9a"
+  },
+  {
+   "seq": 394,
+   "title": "司𨽻楊厥開石門頌",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-11a",
+   "sbck": "024-9b"
+  },
+  {
+   "seq": 395,
+   "title": "吳郡丞武開明碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-11b",
+   "sbck": "024-10a",
+   "authority": "insc-0790"
+  },
+  {
+   "seq": 396,
+   "title": "從事武梁碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-13a",
+   "sbck": "024-11b",
+   "authority": "insc-0789"
+  },
+  {
+   "seq": 397,
+   "title": "平都侯相蔣君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-13b",
+   "sbck": "024-12a",
+   "authority": "insc-0778"
+  },
+  {
+   "seq": 398,
+   "title": "孔子廟置卒史碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-14a",
+   "sbck": "024-12b"
+  },
+  {
+   "seq": 399,
+   "title": "孔君碣",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-15a",
+   "sbck": "024-13b",
+   "authority": "insc-0793"
+  },
+  {
+   "seq": 400,
+   "title": "韓明府孔子廟碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-15b",
+   "sbck": "024-14a",
+   "authority": "insc-0011"
+  },
+  {
+   "seq": 401,
+   "title": "州輔墓石獸膞字",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-17a",
+   "sbck": "024-15a"
+  },
+  {
+   "seq": 402,
+   "title": "郎中鄭君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-17b",
+   "sbck": "024-15b",
+   "authority": "insc-0014"
+  },
+  {
+   "seq": 403,
+   "title": "丹陽太守郭旻碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-18a",
+   "sbck": "024-16a",
+   "authority": "insc-0059"
+  },
+  {
+   "seq": 404,
+   "title": "議郎元賓碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-18b",
+   "sbck": "024-17a"
+  },
+  {
+   "seq": 405,
+   "title": "封丘令王元賞碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-20a",
+   "sbck": "024-18a",
+   "authority": "insc-0841"
+  },
+  {
+   "seq": 406,
+   "title": "冀州刺史王純碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-20b",
+   "sbck": "024-18b",
+   "authority": "insc-0018"
+  },
+  {
+   "seq": 407,
+   "title": "王純碑隂",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-21a",
+   "sbck": "024-19a"
+  },
+  {
+   "seq": 408,
+   "title": "蒼頡廟人名",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-21b",
+   "sbck": "024-19b",
+   "authority": "insc-0842"
+  },
+  {
+   "seq": 409,
+   "title": "成皋令任伯嗣碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-22a",
+   "sbck": "024-20a"
+  },
+  {
+   "seq": 410,
+   "title": "任伯嗣碑隂",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-22b",
+   "sbck": "024-20b"
+  },
+  {
+   "seq": 411,
+   "title": "平輿令薛君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-23a",
+   "sbck": "024-20b",
+   "authority": "insc-0021"
+  },
+  {
+   "seq": 412,
+   "title": "泰山都尉孔宙碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-23a",
+   "sbck": "024-21a",
+   "authority": "insc-0022"
+  },
+  {
+   "seq": 413,
+   "title": "孔宙碑隂",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-23b",
+   "sbck": "024-21a",
+   "authority": "insc-0024"
+  },
+  {
+   "seq": 414,
+   "title": "西嶽華山廟碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-23b",
+   "sbck": "024-21b",
+   "authority": "insc-0025"
+  },
+  {
+   "seq": 415,
+   "title": "荆州刺史度尚碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-25a",
+   "sbck": "024-22b",
+   "authority": "insc-0489"
+  },
+  {
+   "seq": 416,
+   "title": "車騎將軍馮緄碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-25b",
+   "sbck": "024-23a",
+   "authority": "insc-0500"
+  },
+  {
+   "seq": 417,
+   "title": "魯相晨謁孔子冢文",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-27a",
+   "sbck": "024-24b"
+  },
+  {
+   "seq": 418,
+   "title": "廣漢縣令王君神道",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-28a",
+   "sbck": "024-25a"
+  },
+  {
+   "seq": 419,
+   "title": "金鄉守長侯君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-28a",
+   "sbck": "024-25b",
+   "authority": "insc-0035"
+  },
+  {
+   "seq": 420,
+   "title": "衛尉卿衡方碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-29b",
+   "sbck": "024-26b",
+   "authority": "insc-0031"
+  },
+  {
+   "seq": 421,
+   "title": "沛相楊君碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-29b",
+   "sbck": "024-27a"
+  },
+  {
+   "seq": 422,
+   "title": "淳于長夏承碑",
+   "attribution": "",
+   "juan": 24,
+   "wyg": "024-30a",
+   "sbck": "024-27a",
+   "authority": "insc-0036"
+  },
+  {
+   "seq": 423,
+   "title": "武都太守李翕碑",
+   "attribution": "漢時文字多與今𨽻書不合/皆依石本録之 <",
+   "juan": 25,
+   "wyg": "025-3a",
+   "sbck": "025-2b"
+  },
+  {
+   "seq": 424,
+   "title": "博陵太守孔彪碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-3b",
+   "sbck": "025-3a",
+   "authority": "insc-0037"
+  },
+  {
+   "seq": 425,
+   "title": "成陽靈臺碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-4a",
+   "sbck": "025-4a",
+   "authority": "insc-0041"
+  },
+  {
+   "seq": 426,
+   "title": "廷尉仲定碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-5b",
+   "sbck": "025-5a",
+   "authority": "insc-0799"
+  },
+  {
+   "seq": 427,
+   "title": "故民吳公碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-6b",
+   "sbck": "025-6a"
+  },
+  {
+   "seq": 428,
+   "title": "周府君碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-8a",
+   "sbck": "025-7b",
+   "authority": "insc-0777"
+  },
+  {
+   "seq": 429,
+   "title": "石經遺字",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-8b",
+   "sbck": "025-7b",
+   "authority": "insc-0843"
+  },
+  {
+   "seq": 430,
+   "title": "堂谿典嵩髙山石闕銘",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-9b",
+   "sbck": "025-9a",
+   "authority": "insc-0003"
+  },
+  {
+   "seq": 431,
+   "title": "帝堯碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-10a",
+   "sbck": "025-9b",
+   "authority": "insc-0050"
+  },
+  {
+   "seq": 432,
+   "title": "&KR1676;彰長斷碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-11a",
+   "sbck": "025-10a",
+   "authority": "insc-0519"
+  },
+  {
+   "seq": 433,
+   "title": "梁相費汎碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-11b",
+   "sbck": "025-10b",
+   "authority": "insc-0535"
+  },
+  {
+   "seq": 434,
+   "title": "堂邑令費君碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-13a",
+   "sbck": "025-12a"
+  },
+  {
+   "seq": 435,
+   "title": "華嶽碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-14b",
+   "sbck": "025-13a",
+   "authority": "insc-0025"
+  },
+  {
+   "seq": 436,
+   "title": "太尉郭禧碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-14b",
+   "sbck": "025-13b",
+   "authority": "insc-0810"
+  },
+  {
+   "seq": 437,
+   "title": "郭禧碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-15a",
+   "sbck": "025-14a"
+  },
+  {
+   "seq": 438,
+   "title": "禹廟碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-16b",
+   "sbck": "025-15b",
+   "authority": "insc-0553"
+  },
+  {
+   "seq": 439,
+   "title": "逢童碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-18a",
+   "sbck": "025-16b"
+  },
+  {
+   "seq": 440,
+   "title": "逢童碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-18a",
+   "sbck": "025-17a"
+  },
+  {
+   "seq": 441,
+   "title": "殽阬君神祠碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-18b",
+   "sbck": "025-17a",
+   "authority": "insc-0062"
+  },
+  {
+   "seq": 442,
+   "title": "殽阬君神祠碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-19a",
+   "sbck": "025-17b"
+  },
+  {
+   "seq": 443,
+   "title": "無極山碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-19b",
+   "sbck": "025-18a",
+   "authority": "insc-0065"
+  },
+  {
+   "seq": 444,
+   "title": "揚州刺史敬使君碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-20a",
+   "sbck": "025-18b",
+   "authority": "insc-0809"
+  },
+  {
+   "seq": 445,
+   "title": "槀長蔡湛頌",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-20b",
+   "sbck": "025-19a",
+   "authority": "insc-0802"
+  },
+  {
+   "seq": 446,
+   "title": "蔡湛碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-21a",
+   "sbck": "025-19b"
+  },
+  {
+   "seq": 447,
+   "title": "碭孔君神祠碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-23a",
+   "sbck": "025-21a"
+  },
+  {
+   "seq": 448,
+   "title": "成陽令唐君頌",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-23a",
+   "sbck": "025-21a"
+  },
+  {
+   "seq": 449,
+   "title": "唐君碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-23b",
+   "sbck": "025-21b"
+  },
+  {
+   "seq": 450,
+   "title": "白石神君碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-24a",
+   "sbck": "025-22a",
+   "authority": "insc-0072"
+  },
+  {
+   "seq": 451,
+   "title": "幽州刺史朱龜碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-24b",
+   "sbck": "025-22b",
+   "authority": "insc-0074"
+  },
+  {
+   "seq": 452,
+   "title": "朱龜碑隂",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-25a",
+   "sbck": "025-23a"
+  },
+  {
+   "seq": 453,
+   "title": "都鄉正街彈碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-25b",
+   "sbck": "025-23b"
+  },
+  {
+   "seq": 454,
+   "title": "太尉劉寛碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-25b",
+   "sbck": "025-23b",
+   "authority": "insc-0075"
+  },
+  {
+   "seq": 455,
+   "title": "尉氏令鄭君碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-26b",
+   "sbck": "025-24a",
+   "authority": "insc-0079"
+  },
+  {
+   "seq": 456,
+   "title": "趙相劉衡碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-26b",
+   "sbck": "025-24b",
+   "authority": "insc-0080"
+  },
+  {
+   "seq": 457,
+   "title": "陳君碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-27b",
+   "sbck": "025-25a"
+  },
+  {
+   "seq": 458,
+   "title": "陳仲弓碑",
+   "attribution": "",
+   "juan": 25,
+   "wyg": "025-27b",
+   "sbck": "025-25b",
+   "authority": "insc-0805"
+  },
+  {
+   "seq": 459,
+   "title": "圉令趙君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-2b",
+   "sbck": "026-2a",
+   "authority": "insc-0083"
+  },
+  {
+   "seq": 460,
+   "title": "周公禮殿記",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-3a",
+   "sbck": "026-2b",
+   "authority": "insc-0482"
+  },
+  {
+   "seq": 461,
+   "title": "巴郡太守樊君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-3b",
+   "sbck": "026-3a"
+  },
+  {
+   "seq": 462,
+   "title": "綏民校尉熊君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-4b",
+   "sbck": "026-4a",
+   "authority": "insc-0085"
+  },
+  {
+   "seq": 463,
+   "title": "馮使君墓闕銘",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-5a",
+   "sbck": "026-4b",
+   "authority": "insc-0832"
+  },
+  {
+   "seq": 464,
+   "title": "高陽令楊君碑隂",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-5b",
+   "sbck": "026-5a"
+  },
+  {
+   "seq": 465,
+   "title": "浚儀令衡君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-6a",
+   "sbck": "026-5b"
+  },
+  {
+   "seq": 466,
+   "title": "光禄勲劉曜碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-6b",
+   "sbck": "026-6a",
+   "authority": "insc-0534"
+  },
+  {
+   "seq": 467,
+   "title": "張侯殘碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-7a",
+   "sbck": "026-6a",
+   "authority": "insc-0821"
+  },
+  {
+   "seq": 468,
+   "title": "趙相雝府君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-8a",
+   "sbck": "026-7a"
+  },
+  {
+   "seq": 469,
+   "title": "三公碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-8b",
+   "sbck": "026-7b"
+  },
+  {
+   "seq": 470,
+   "title": "酸棗令劉熊碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-9a",
+   "sbck": "026-8a",
+   "authority": "insc-0473"
+  },
+  {
+   "seq": 471,
+   "title": "臨朐長仲君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-9b",
+   "sbck": "026-8b",
+   "authority": "insc-0820"
+  },
+  {
+   "seq": 472,
+   "title": "司空殘碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-10a",
+   "sbck": "026-9a",
+   "authority": "insc-0559"
+  },
+  {
+   "seq": 473,
+   "title": "益州太守楊宗墓闕銘",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-10a",
+   "sbck": "026-9a",
+   "authority": "insc-0833"
+  },
+  {
+   "seq": 474,
+   "title": "益州刺史薛君巴郡太守劉君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-10b",
+   "sbck": "026-9b",
+   "authority": "insc-0558"
+  },
+  {
+   "seq": 475,
+   "title": "巴郡太守張君碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-10b",
+   "sbck": "026-9b"
+  },
+  {
+   "seq": 476,
+   "title": "禹廟碑隂",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-11b",
+   "sbck": "026-10b"
+  },
+  {
+   "seq": 477,
+   "title": "武氏石室畫像",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-12a",
+   "sbck": "026-11a",
+   "authority": "insc-0552"
+  },
+  {
+   "seq": 478,
+   "title": "戚伯著碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-12a",
+   "sbck": "026-11a",
+   "authority": "insc-0494"
+  },
+  {
+   "seq": 479,
+   "title": "四皓神位刻石",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-12b",
+   "sbck": "026-11b",
+   "authority": "insc-0786"
+  },
+  {
+   "seq": 480,
+   "title": "相府小史夏堪碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-13b",
+   "sbck": "026-12a",
+   "authority": "insc-0545"
+  },
+  {
+   "seq": 481,
+   "title": "郭先生碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-13b",
+   "sbck": "026-12b",
+   "authority": "insc-0476"
+  },
+  {
+   "seq": 482,
+   "title": "魏大饗碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-14a",
+   "sbck": "026-12b",
+   "authority": "insc-0481"
+  },
+  {
+   "seq": 483,
+   "title": "魏孔子廟碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-14b",
+   "sbck": "026-13a",
+   "authority": "insc-0775"
+  },
+  {
+   "seq": 484,
+   "title": "范式碑",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-15a",
+   "sbck": "026-13b",
+   "authority": "insc-0091"
+  },
+  {
+   "seq": 485,
+   "title": "有録無說者",
+   "attribution": "",
+   "juan": 26,
+   "wyg": "026-15a",
+   "sbck": "026-13b"
+  },
+  {
+   "seq": 486,
+   "title": "天下碑録",
+   "attribution": "",
+   "juan": 27,
+   "wyg": "027-1a",
+   "sbck": "027-1a"
+  }
+ ]
+}
