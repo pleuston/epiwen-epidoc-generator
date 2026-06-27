@@ -1,0 +1,5730 @@
+{
+ "generated": "2026-06-27",
+ "series": {
+  "1": [
+   {
+    "id": "ks-1-18-13749-13817",
+    "title_zh": "中州金石記",
+    "author_zh": "畢沅",
+    "locator": "1.18:13749-13817"
+   },
+   {
+    "id": "ks-1-24-18009-18015",
+    "title_zh": "元豐題跋",
+    "author_zh": "曾鞏",
+    "locator": "1.24:18009-18015"
+   },
+   {
+    "id": "ks-t-x-121",
+    "title_zh": "兩浙冢墓遺文",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-121",
+    "title_zh": "兩浙金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-22",
+    "title_zh": "八玫室元金石偶存",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-22",
+    "title_zh": "八瓊室金石札記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-22",
+    "title_zh": "八瓊室金石袪偽",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-22",
+    "title_zh": "八瓊室金石補正",
+    "author_zh": "陸增祥",
+    "locator": ""
+   },
+   {
+    "id": "ks-1-10-7589-7624",
+    "title_zh": "古刻鈔",
+    "author_zh": "",
+    "locator": "1.10:7589-7624"
+   },
+   {
+    "id": "ks-1-15-10971-11277",
+    "title_zh": "台州金石錄",
+    "author_zh": "",
+    "locator": "1.15:10971-11277"
+   },
+   {
+    "id": "ks-1-13-10163-10169",
+    "title_zh": "吳中冢墓遗文",
+    "author_zh": "羅振玉",
+    "locator": "1.13:10163-10169"
+   },
+   {
+    "id": "ks-1-14-10677-10875",
+    "title_zh": "吳興金石記",
+    "author_zh": "陸心源",
+    "locator": "1.14:10677-10875"
+   },
+   {
+    "id": "ks-1-21-15874",
+    "title_zh": "山右石刻叢編",
+    "author_zh": "胡聘之",
+    "locator": "1.21:15874"
+   },
+   {
+    "id": "ks-1-20-14897-14926",
+    "title_zh": "山左冢墓遺文",
+    "author_zh": "羅振玉",
+    "locator": "1.20:14897-14926"
+   },
+   {
+    "id": "ks-1-5-3787-3945",
+    "title_zh": "希古樓金石萃編",
+    "author_zh": "劉承幹",
+    "locator": "1.5:3787-3945"
+   },
+   {
+    "id": "ks-1-18-13161-13605",
+    "title_zh": "常山真石志",
+    "author_zh": "",
+    "locator": "1.18:13161-13605"
+   },
+   {
+    "id": "ks-1-26-19345-19499",
+    "title_zh": "平津讀碑記",
+    "author_zh": "洪頤煊",
+    "locator": "1.26:19345-19499"
+   },
+   {
+    "id": "ks-1-25-19081-19302",
+    "title_zh": "授堂金石跋",
+    "author_zh": "",
+    "locator": "1.25:19081-19302"
+   },
+   {
+    "id": "ks-1-25-18663-18728",
+    "title_zh": "曝書亭金石文字跋尾",
+    "author_zh": "",
+    "locator": "1.25:18663-18728"
+   },
+   {
+    "id": "ks-1-16-11773-11933",
+    "title_zh": "歙縣金石志",
+    "author_zh": "葉爲銘",
+    "locator": "1.16:11773-11933"
+   },
+   {
+    "id": "ks-1-15-10877-10970",
+    "title_zh": "武林金石記",
+    "author_zh": "丁敬",
+    "locator": "1.15:10877-10970"
+   },
+   {
+    "id": "ks-t-x-95",
+    "title_zh": "江寧金石待訪目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-95",
+    "title_zh": "江寧金石待訪錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-95",
+    "title_zh": "江寧金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-95",
+    "title_zh": "江寧金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-95",
+    "title_zh": "江寧金石記",
+    "author_zh": "嚴觀",
+    "locator": ""
+   },
+   {
+    "id": "ks-1-13-9437-10052",
+    "title_zh": "江蘇金石記",
+    "author_zh": "",
+    "locator": "1.13:9437-10052"
+   },
+   {
+    "id": "ks-1-26-19501-19518",
+    "title_zh": "海東金石存考",
+    "author_zh": "",
+    "locator": "1.26:19501-19518"
+   },
+   {
+    "id": "ks-1-23-17523-17673",
+    "title_zh": "海東金石苑",
+    "author_zh": "劉喜海",
+    "locator": "1.23:17523-17673"
+   },
+   {
+    "id": "ks-1-23-17674-17818",
+    "title_zh": "海東金石苑補遺",
+    "author_zh": "",
+    "locator": "1.23:17674-17818"
+   },
+   {
+    "id": "ks-1-16-11935-12233",
+    "title_zh": "湖北金石志",
+    "author_zh": "張仲炘",
+    "locator": "1.16:11935-12233"
+   },
+   {
+    "id": "ks-1-13-10171-10187",
+    "title_zh": "湘城訪古錄",
+    "author_zh": "",
+    "locator": "1.13:10171-10187"
+   },
+   {
+    "id": "ks-1-17-13135-13160",
+    "title_zh": "滇南古金石錄",
+    "author_zh": "",
+    "locator": "1.17:13135-13160"
+   },
+   {
+    "id": "ks-1-23-17229-17392",
+    "title_zh": "滿洲金石志",
+    "author_zh": "羅福頤",
+    "locator": "1.23:17229-17392"
+   },
+   {
+    "id": "ks-1-23-17393-17454",
+    "title_zh": "滿洲金石志別錄",
+    "author_zh": "",
+    "locator": "1.23:17393-17454"
+   },
+   {
+    "id": "ks-1-23-17479-17515",
+    "title_zh": "滿洲金石志外編",
+    "author_zh": "",
+    "locator": "1.23:17479-17515"
+   },
+   {
+    "id": "ks-1-23-17516-17522",
+    "title_zh": "滿洲金石志校記",
+    "author_zh": "",
+    "locator": "1.23:17516-17522"
+   },
+   {
+    "id": "ks-1-23-17455-17478",
+    "title_zh": "滿洲金石志補遗",
+    "author_zh": "羅福頤",
+    "locator": "1.23:17455-17478"
+   },
+   {
+    "id": "ks-1-30-22331-23038",
+    "title_zh": "石刻題跋索引",
+    "author_zh": "楊殿珣",
+    "locator": "1.30:22331-23038"
+   },
+   {
+    "id": "ks-1-25-18581-18662",
+    "title_zh": "石墨鐫華",
+    "author_zh": "趙崡",
+    "locator": "1.25:18581-18662"
+   },
+   {
+    "id": "ks-1-29-21997-22330",
+    "title_zh": "石廬金石書志",
+    "author_zh": "林鈞",
+    "locator": "1.29:21997-22330"
+   },
+   {
+    "id": "ks-1-27-20301-20458",
+    "title_zh": "續補寶字訪碑錄",
+    "author_zh": "",
+    "locator": "1.27:20301-20458"
+   },
+   {
+    "id": "ks-1-24-18519-18580",
+    "title_zh": "與地碑記目",
+    "author_zh": "",
+    "locator": "1.24:18519-18580"
+   },
+   {
+    "id": "ks-1-19-13977-14054",
+    "title_zh": "芒洛冢墓遭文",
+    "author_zh": "",
+    "locator": "1.19:13977-14054"
+   },
+   {
+    "id": "ks-1-19-14107-14144",
+    "title_zh": "芒洛冢墓遺文三編",
+    "author_zh": "",
+    "locator": "1.19:14107-14144"
+   },
+   {
+    "id": "ks-t-x-121",
+    "title_zh": "遼代金石錄",
+    "author_zh": "黃任恆",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-121",
+    "title_zh": "遼碑九種",
+    "author_zh": "孟森",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-100",
+    "title_zh": "金石催便補邀",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-101",
+    "title_zh": "金石存",
+    "author_zh": "吳玉搢",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-103",
+    "title_zh": "金石略",
+    "author_zh": "鄭樵",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-100",
+    "title_zh": "金石稱例",
+    "author_zh": "梁廷枬",
+    "locator": ""
+   },
+   {
+    "id": "ks-1-9-6231-6595",
+    "title_zh": "金石苑",
+    "author_zh": "劉喜海",
+    "locator": "1.9:6231-6595"
+   },
+   {
+    "id": "ks-t-x-100",
+    "title_zh": "金石萃編",
+    "author_zh": "王昶",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-101",
+    "title_zh": "金石萃編未刻稿",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-101",
+    "title_zh": "金石萃編補正",
+    "author_zh": "方履籛",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-100",
+    "title_zh": "金石萃編補略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-100",
+    "title_zh": "金石萃編補目",
+    "author_zh": "黃本驥",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-101",
+    "title_zh": "金石訂例",
+    "author_zh": "鮑振方",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-103",
+    "title_zh": "金石錄補",
+    "author_zh": "葉奕苞",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-103",
+    "title_zh": "金石錄補續跋",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-103",
+    "title_zh": "金石錄跋",
+    "author_zh": "曾鞏",
+    "locator": ""
+   },
+   {
+    "id": "ks-1-10-7625-7773",
+    "title_zh": "金薤琳琅",
+    "author_zh": "都穆",
+    "locator": "1.10:7625-7773"
+   },
+   {
+    "id": "ks-1-10-7774-7779",
+    "title_zh": "金薤琳琅補遺",
+    "author_zh": "",
+    "locator": "1.10:7774-7779"
+   },
+   {
+    "id": "ks-1-16-12345-12352",
+    "title_zh": "鍾祥沿革考",
+    "author_zh": "",
+    "locator": "1.16:12345-12352"
+   },
+   {
+    "id": "ks-1-16-12235-12344",
+    "title_zh": "鍾祥金石考",
+    "author_zh": "",
+    "locator": "1.16:12235-12344"
+   },
+   {
+    "id": "ks-1-17-13084-13134",
+    "title_zh": "閩中金石略",
+    "author_zh": "陳棨仁",
+    "locator": "1.17:13084-13134"
+   },
+   {
+    "id": "ks-1-17-12621-12851",
+    "title_zh": "閩中金石略考證",
+    "author_zh": "",
+    "locator": "1.17:12621-12851"
+   },
+   {
+    "id": "ks-1-17-12853-13083",
+    "title_zh": "閩清金石志",
+    "author_zh": "",
+    "locator": "1.17:12853-13083"
+   },
+   {
+    "id": "ks-1-11-7967-8433",
+    "title_zh": "陶齋藏石記",
+    "author_zh": "",
+    "locator": "1.11:7967-8433"
+   },
+   {
+    "id": "ks-1-10-7087-7202",
+    "title_zh": "隸續",
+    "author_zh": "洪適",
+    "locator": "1.10:7087-7202"
+   },
+   {
+    "id": "ks-1-9-6747-7042",
+    "title_zh": "隸釋",
+    "author_zh": "洪適",
+    "locator": "1.9:6747-7042"
+   },
+   {
+    "id": "ks-t-x-89",
+    "title_zh": "集古求真",
+    "author_zh": "歐陽輔",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-89",
+    "title_zh": "集古浓真補正",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-89",
+    "title_zh": "集古錄目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-89",
+    "title_zh": "集古錄補目補",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-1-24-17819-17922",
+    "title_zh": "集古錄跋尾",
+    "author_zh": "",
+    "locator": "1.24:17819-17922"
+   }
+  ],
+  "2": [
+   {
+    "id": "ks-2-16-12245-12321",
+    "title_zh": "二百蘭亭齋金石記",
+    "author_zh": "",
+    "locator": "2.16:12245-12321"
+   },
+   {
+    "id": "ks-2-3-1715-2413",
+    "title_zh": "二銘草堂金石聚",
+    "author_zh": "",
+    "locator": "2.3:1715-2413"
+   },
+   {
+    "id": "ks-t-x-109",
+    "title_zh": "京口碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-109",
+    "title_zh": "京畿冢墓遨文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-109",
+    "title_zh": "京畿金石考",
+    "author_zh": "孫星衍",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-14-10063-10097",
+    "title_zh": "偃師金石記",
+    "author_zh": "武億",
+    "locator": "2.14:10063-10097"
+   },
+   {
+    "id": "ks-2-14-10099-10178",
+    "title_zh": "偃師金石遭文記",
+    "author_zh": "",
+    "locator": "2.14:10099-10178"
+   },
+   {
+    "id": "ks-2-6-5009-5056",
+    "title_zh": "函青閣金石記",
+    "author_zh": "楊鐸",
+    "locator": "2.6:5009-5056"
+   },
+   {
+    "id": "ks-t-x-163",
+    "title_zh": "剡源石刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-18-13159-13192",
+    "title_zh": "古今碑帖考",
+    "author_zh": "",
+    "locator": "2.18:13159-13192"
+   },
+   {
+    "id": "ks-2-19-14061-14158",
+    "title_zh": "古墨齋金石跋",
+    "author_zh": "趙紹祖",
+    "locator": "2.19:14061-14158"
+   },
+   {
+    "id": "ks-2-20-14891-14934",
+    "title_zh": "古林金石表",
+    "author_zh": "曹溶",
+    "locator": "2.20:14891-14934"
+   },
+   {
+    "id": "ks-2-3-1623-1713",
+    "title_zh": "古泉山館金石文編殘稿",
+    "author_zh": "瞿中溶",
+    "locator": "2.3:1623-1713"
+   },
+   {
+    "id": "ks-2-18-13689-13738",
+    "title_zh": "古誌新目初編",
+    "author_zh": "顧燮光",
+    "locator": "2.18:13689-13738"
+   },
+   {
+    "id": "ks-2-2-1413-1490",
+    "title_zh": "古誌石華續編",
+    "author_zh": "毛鳳枝",
+    "locator": "2.2:1413-1490"
+   },
+   {
+    "id": "ks-2-9-6633-6689",
+    "title_zh": "吳塚遺文續",
+    "author_zh": "",
+    "locator": "2.9:6633-6689"
+   },
+   {
+    "id": "ks-2-15-11461-11480",
+    "title_zh": "和林金石錄",
+    "author_zh": "",
+    "locator": "2.15:11461-11480"
+   },
+   {
+    "id": "ks-2-8-6379-6399",
+    "title_zh": "唐人志墓諸例",
+    "author_zh": "",
+    "locator": "2.8:6379-6399"
+   },
+   {
+    "id": "ks-2-8-6079-6108",
+    "title_zh": "商周文拾邀",
+    "author_zh": "",
+    "locator": "2.8:6079-6108"
+   },
+   {
+    "id": "ks-2-9-6911-7006",
+    "title_zh": "嘉禾金石志",
+    "author_zh": "",
+    "locator": "2.9:6911-7006"
+   },
+   {
+    "id": "ks-t-x-113",
+    "title_zh": "均州藝文志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-16-12035-12109",
+    "title_zh": "墨林星鳳",
+    "author_zh": "羅振玉",
+    "locator": "2.16:12035-12109"
+   },
+   {
+    "id": "ks-2-6-4289-4470",
+    "title_zh": "墨華通考",
+    "author_zh": "王應遴",
+    "locator": "2.6:4289-4470"
+   },
+   {
+    "id": "ks-t-x-185",
+    "title_zh": "天一閣碑目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-185",
+    "title_zh": "天下金石志",
+    "author_zh": "于奕正",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-19-14279-14332",
+    "title_zh": "定庵題跋",
+    "author_zh": "由雲龍",
+    "locator": "2.19:14279-14332"
+   },
+   {
+    "id": "ks-2-13-9941-10062",
+    "title_zh": "定襄金石考",
+    "author_zh": "",
+    "locator": "2.13:9941-10062"
+   },
+   {
+    "id": "ks-t-x-163",
+    "title_zh": "山右冢墓遗文",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-12-9025-9052",
+    "title_zh": "山右金石錄",
+    "author_zh": "",
+    "locator": "2.12:9025-9052"
+   },
+   {
+    "id": "ks-2-20-14883-14889",
+    "title_zh": "山左南北朝石刻存目",
+    "author_zh": "伊彭壽",
+    "locator": "2.20:14883-14889"
+   },
+   {
+    "id": "ks-t-x-163",
+    "title_zh": "山左碑目",
+    "author_zh": "段松苓",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-163",
+    "title_zh": "山左訪碑錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-163",
+    "title_zh": "山左金石志",
+    "author_zh": "阮元",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-6-4471-4480",
+    "title_zh": "山樵書外紀",
+    "author_zh": "",
+    "locator": "2.6:4471-4480"
+   },
+   {
+    "id": "ks-t-x-225",
+    "title_zh": "岳池金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-6-4281-4287",
+    "title_zh": "幕廬金石記",
+    "author_zh": "",
+    "locator": "2.6:4281-4287"
+   },
+   {
+    "id": "ks-2-18-13369-13626",
+    "title_zh": "平安館藏碑目",
+    "author_zh": "葉志詵",
+    "locator": "2.18:13369-13626"
+   },
+   {
+    "id": "ks-2-4-2415-2773",
+    "title_zh": "平津館金石萃編",
+    "author_zh": "嚴可均",
+    "locator": "2.4:2415-2773"
+   },
+   {
+    "id": "ks-2-16-12111-12244",
+    "title_zh": "廣金石韻府",
+    "author_zh": "林尚葵",
+    "locator": "2.16:12111-12244"
+   },
+   {
+    "id": "ks-2-20-14463-14481",
+    "title_zh": "循園金石文字跋尾",
+    "author_zh": "范壽銘",
+    "locator": "2.20:14463-14481"
+   },
+   {
+    "id": "ks-t-x-115",
+    "title_zh": "括蒼金石志",
+    "author_zh": "李遇孫",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-115",
+    "title_zh": "括蒼金石志補邀",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-20-14527-14533",
+    "title_zh": "摹廬金石經眼錄",
+    "author_zh": "",
+    "locator": "2.20:14527-14533"
+   },
+   {
+    "id": "ks-2-15-11481-11514",
+    "title_zh": "新疆訪古錄",
+    "author_zh": "",
+    "locator": "2.15:11481-11514"
+   },
+   {
+    "id": "ks-2-9-6409-6593",
+    "title_zh": "旬容金石記",
+    "author_zh": "",
+    "locator": "2.9:6409-6593"
+   },
+   {
+    "id": "ks-t-x-115",
+    "title_zh": "昆明金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-231",
+    "title_zh": "昭通金石志稿不分卷",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-13-9743-9769",
+    "title_zh": "曲阜碑碣考",
+    "author_zh": "孔祥霖",
+    "locator": "2.13:9743-9769"
+   },
+   {
+    "id": "ks-t-x-225",
+    "title_zh": "月浦金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-4-2775-3263",
+    "title_zh": "望堂金石初集二集",
+    "author_zh": "",
+    "locator": "2.4:2775-3263"
+   },
+   {
+    "id": "ks-2-12-9093-9145",
+    "title_zh": "東巡金石錄",
+    "author_zh": "",
+    "locator": "2.12:9093-9145"
+   },
+   {
+    "id": "ks-t-x-231",
+    "title_zh": "枕經堂金石書畫題",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-17-12419-12489",
+    "title_zh": "校碑隨筆",
+    "author_zh": "方若",
+    "locator": "2.17:12419-12489"
+   },
+   {
+    "id": "ks-2-7-5415-5510",
+    "title_zh": "求古精舍金石圖",
+    "author_zh": "陳經",
+    "locator": "2.7:5415-5510"
+   },
+   {
+    "id": "ks-2-19-13999-14060",
+    "title_zh": "求是齋碑跋",
+    "author_zh": "丁紹基",
+    "locator": "2.19:13999-14060"
+   },
+   {
+    "id": "ks-2-12-8863-8884",
+    "title_zh": "河朔訪古隨筆",
+    "author_zh": "顧燮光",
+    "locator": "2.12:8863-8884"
+   },
+   {
+    "id": "ks-2-12-9013-9023",
+    "title_zh": "河朔金石待訪目",
+    "author_zh": "",
+    "locator": "2.12:9013-9023"
+   },
+   {
+    "id": "ks-2-12-8951-9012",
+    "title_zh": "河朔金石目",
+    "author_zh": "顧燮光",
+    "locator": "2.12:8951-9012"
+   },
+   {
+    "id": "ks-t-x-231",
+    "title_zh": "浙江碑碣通志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-20-14755-14773",
+    "title_zh": "海寧金石目未定稿",
+    "author_zh": "鄒存淦",
+    "locator": "2.20:14755-14773"
+   },
+   {
+    "id": "ks-t-x-72",
+    "title_zh": "海州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-15-11535-11629",
+    "title_zh": "海東金石苑",
+    "author_zh": "劉喜海",
+    "locator": "2.15:11535-11629"
+   },
+   {
+    "id": "ks-2-9-6791-6819",
+    "title_zh": "海陵金石略",
+    "author_zh": "",
+    "locator": "2.9:6791-6819"
+   },
+   {
+    "id": "ks-t-x-72",
+    "title_zh": "海陽金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-109",
+    "title_zh": "涇川金石記",
+    "author_zh": "趙紹祖",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-11-7739-8172",
+    "title_zh": "湖南金石志",
+    "author_zh": "",
+    "locator": "2.11:7739-8172"
+   },
+   {
+    "id": "ks-2-20-14495-14506",
+    "title_zh": "漢孟孝琚碑題跋",
+    "author_zh": "袁嘉穀",
+    "locator": "2.20:14495-14506"
+   },
+   {
+    "id": "ks-t-x-72",
+    "title_zh": "漢碑大觀八集",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-72",
+    "title_zh": "漢碑引經考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-72",
+    "title_zh": "漢碑錄文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-14-10661-10707",
+    "title_zh": "灌縣金石志",
+    "author_zh": "",
+    "locator": "2.14:10661-10707"
+   },
+   {
+    "id": "ks-2-16-11677-11815",
+    "title_zh": "獨笑齋金石文考",
+    "author_zh": "",
+    "locator": "2.16:11677-11815"
+   },
+   {
+    "id": "ks-2-20-14801-14811",
+    "title_zh": "畿輔待訪裨目",
+    "author_zh": "",
+    "locator": "2.20:14801-14811"
+   },
+   {
+    "id": "ks-2-20-14775-14800",
+    "title_zh": "畿輔碑目",
+    "author_zh": "樊彬",
+    "locator": "2.20:14775-14800"
+   },
+   {
+    "id": "ks-2-11-8173-8724",
+    "title_zh": "畿輔金石志通志",
+    "author_zh": "",
+    "locator": "2.11:8173-8724"
+   },
+   {
+    "id": "ks-2-2-1019-1145",
+    "title_zh": "石刻名彙第一編",
+    "author_zh": "",
+    "locator": "2.2:1019-1145"
+   },
+   {
+    "id": "ks-2-16-11631-11647",
+    "title_zh": "石墨考異",
+    "author_zh": "嚴蔚",
+    "locator": "2.16:11631-11647"
+   },
+   {
+    "id": "ks-2-19-14173-14188",
+    "title_zh": "石經閣金石跋文",
+    "author_zh": "馮登府",
+    "locator": "2.19:14173-14188"
+   },
+   {
+    "id": "ks-t-x-27",
+    "title_zh": "碑帖跋",
+    "author_zh": "梁啓超",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-27",
+    "title_zh": "碑目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-27",
+    "title_zh": "碑目考證",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-27",
+    "title_zh": "碑酸",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-19-13789-13872",
+    "title_zh": "竹雲題跋",
+    "author_zh": "王澍",
+    "locator": "2.19:13789-13872"
+   },
+   {
+    "id": "ks-t-x-225",
+    "title_zh": "粵西得碑記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-225",
+    "title_zh": "粵西金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-20-14482-14485",
+    "title_zh": "綴學堂河朔碑刻跋尾",
+    "author_zh": "",
+    "locator": "2.20:14482-14485"
+   },
+   {
+    "id": "ks-2-17-12491-12509",
+    "title_zh": "續校碑隨筆",
+    "author_zh": "",
+    "locator": "2.17:12491-12509"
+   },
+   {
+    "id": "ks-2-1-59-795",
+    "title_zh": "續語堂碑錄",
+    "author_zh": "",
+    "locator": "2.1:59-795"
+   },
+   {
+    "id": "ks-2-10-7501-7511",
+    "title_zh": "荆南萃古編",
+    "author_zh": "周懋琦",
+    "locator": "2.10:7501-7511"
+   },
+   {
+    "id": "ks-2-2-1589-1622",
+    "title_zh": "蒼潤軒元牘記",
+    "author_zh": "",
+    "locator": "2.2:1589-1622"
+   },
+   {
+    "id": "ks-2-18-13117-13157",
+    "title_zh": "蒼潤軒碑跋記",
+    "author_zh": "",
+    "locator": "2.18:13117-13157"
+   },
+   {
+    "id": "ks-2-12-8725-8741",
+    "title_zh": "蜀碑記補",
+    "author_zh": "李調元",
+    "locator": "2.12:8725-8741"
+   },
+   {
+    "id": "ks-t-x-225",
+    "title_zh": "袁州石刻記",
+    "author_zh": "顧燮光",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-29",
+    "title_zh": "補實字訪碑錄刊誤",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-29",
+    "title_zh": "補寰宇訪碑錄校勘記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-29",
+    "title_zh": "補瘞鶴銘考",
+    "author_zh": "汪鋆",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-15-11027-11052",
+    "title_zh": "西陲石刻錄",
+    "author_zh": "",
+    "locator": "2.15:11027-11052"
+   },
+   {
+    "id": "ks-2-20-14429-14461",
+    "title_zh": "退魔題跋",
+    "author_zh": "",
+    "locator": "2.20:14429-14461"
+   },
+   {
+    "id": "ks-t-x-104",
+    "title_zh": "金石史",
+    "author_zh": "郭宗昌",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-104",
+    "title_zh": "金石圖說",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-17-12375-12417",
+    "title_zh": "金石學錄",
+    "author_zh": "",
+    "locator": "2.17:12375-12417"
+   },
+   {
+    "id": "ks-t-x-104",
+    "title_zh": "金石文鈔",
+    "author_zh": "趙紹祖",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-20-14643-14654",
+    "title_zh": "金石苑目",
+    "author_zh": "姚覲元",
+    "locator": "2.20:14643-14654"
+   },
+   {
+    "id": "ks-t-x-231",
+    "title_zh": "鎮江府志金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-231",
+    "title_zh": "鎮海金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-185",
+    "title_zh": "鐵函齋書跋",
+    "author_zh": "楊賓",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-185",
+    "title_zh": "鐵橋金石跋",
+    "author_zh": "嚴可均",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-185",
+    "title_zh": "鐵華盦金石錄補",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-2-7-5511-5740",
+    "title_zh": "陶齋藏事記",
+    "author_zh": "",
+    "locator": "2.7:5511-5740"
+   },
+   {
+    "id": "ks-2-14-10295-10348",
+    "title_zh": "隋唐石刻拾遗",
+    "author_zh": "黃本驥",
+    "locator": "2.14:10295-10348"
+   },
+   {
+    "id": "ks-2-8-5819-5960",
+    "title_zh": "隨軒金石文字",
+    "author_zh": "徐渭仁",
+    "locator": "2.8:5819-5960"
+   },
+   {
+    "id": "ks-2-8-6059-6078",
+    "title_zh": "雙鉤華山廟碑",
+    "author_zh": "",
+    "locator": "2.8:6059-6078"
+   },
+   {
+    "id": "ks-2-12-8791-8862",
+    "title_zh": "順天金石志",
+    "author_zh": "",
+    "locator": "2.12:8791-8862"
+   },
+   {
+    "id": "ks-2-6-4979-5008",
+    "title_zh": "香南精舍金石契",
+    "author_zh": "崇恩",
+    "locator": "2.6:4979-5008"
+   },
+   {
+    "id": "ks-2-15-11401-11435",
+    "title_zh": "高要金石略",
+    "author_zh": "彭泰來",
+    "locator": "2.15:11401-11435"
+   }
+  ],
+  "3": [
+   {
+    "id": "ks-t-x-160",
+    "title_zh": "三台金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-109-118",
+    "title_zh": "上江金石志",
+    "author_zh": "",
+    "locator": "3.5:109-118"
+   },
+   {
+    "id": "ks-3-5-253-255",
+    "title_zh": "上海金石續志",
+    "author_zh": "",
+    "locator": "3.5:253-255"
+   },
+   {
+    "id": "ks-3-5-247-251",
+    "title_zh": "上海金石類附志",
+    "author_zh": "",
+    "locator": "3.5:247-251"
+   },
+   {
+    "id": "ks-3-2-567-574",
+    "title_zh": "上清真人許長史舊館壇碑",
+    "author_zh": "",
+    "locator": "3.2:567-574"
+   },
+   {
+    "id": "ks-3-9-187-223",
+    "title_zh": "上虞金石志",
+    "author_zh": "",
+    "locator": "3.9:187-223"
+   },
+   {
+    "id": "ks-3-23-221-227",
+    "title_zh": "上谷訪碑記",
+    "author_zh": "鄧嘉績",
+    "locator": "3.23:221-227"
+   },
+   {
+    "id": "ks-3-12-315-418",
+    "title_zh": "上饒碑版志",
+    "author_zh": "",
+    "locator": "3.12:315-418"
+   },
+   {
+    "id": "ks-t-x-234",
+    "title_zh": "中州冢墓遗文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-234",
+    "title_zh": "中州金石目",
+    "author_zh": "姚晏",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-234",
+    "title_zh": "中州金石目錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-234",
+    "title_zh": "中州金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-233-249",
+    "title_zh": "中江金石志",
+    "author_zh": "",
+    "locator": "3.16:233-249"
+   },
+   {
+    "id": "ks-3-5-119-140",
+    "title_zh": "丹徒碑碣志",
+    "author_zh": "",
+    "locator": "3.5:119-140"
+   },
+   {
+    "id": "ks-3-5-141-183",
+    "title_zh": "丹徒金石摭餘",
+    "author_zh": "",
+    "locator": "3.5:141-183"
+   },
+   {
+    "id": "ks-t-x-41",
+    "title_zh": "丹陽金石續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-2-135-147",
+    "title_zh": "九曜石刻錄",
+    "author_zh": "",
+    "locator": "3.2:135-147"
+   },
+   {
+    "id": "ks-3-12-527-537",
+    "title_zh": "九江金石志",
+    "author_zh": "",
+    "locator": "3.12:527-537"
+   },
+   {
+    "id": "ks-t-x-151",
+    "title_zh": "乾州金石志稿",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-201",
+    "title_zh": "事垣金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-201",
+    "title_zh": "事陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-89-108",
+    "title_zh": "井矿金石志",
+    "author_zh": "",
+    "locator": "3.16:89-108"
+   },
+   {
+    "id": "ks-3-23-503-507",
+    "title_zh": "交河金石志",
+    "author_zh": "",
+    "locator": "3.23:503-507"
+   },
+   {
+    "id": "ks-3-13-421-429",
+    "title_zh": "京山塋墓志",
+    "author_zh": "",
+    "locator": "3.13:421-429"
+   },
+   {
+    "id": "ks-3-15-57-90",
+    "title_zh": "什邡金石篇",
+    "author_zh": "",
+    "locator": "3.15:57-90"
+   },
+   {
+    "id": "ks-3-7-213-217",
+    "title_zh": "仁和碑碣志",
+    "author_zh": "",
+    "locator": "3.7:213-217"
+   },
+   {
+    "id": "ks-3-16-61-73",
+    "title_zh": "仁壽勝蹟志",
+    "author_zh": "姚令儀",
+    "locator": "3.16:61-73"
+   },
+   {
+    "id": "ks-3-16-57-60",
+    "title_zh": "仁壽金石志",
+    "author_zh": "",
+    "locator": "3.16:57-60"
+   },
+   {
+    "id": "ks-3-31-29-32",
+    "title_zh": "介休金石考",
+    "author_zh": "",
+    "locator": "3.31:29-32"
+   },
+   {
+    "id": "ks-3-31-273-292",
+    "title_zh": "代州金石志",
+    "author_zh": "",
+    "locator": "3.31:273-292"
+   },
+   {
+    "id": "ks-3-21-363-416",
+    "title_zh": "佛山忠義金石志",
+    "author_zh": "",
+    "locator": "3.21:363-416"
+   },
+   {
+    "id": "ks-3-21-417-456",
+    "title_zh": "佛山忠義金石志",
+    "author_zh": "",
+    "locator": "3.21:417-456"
+   },
+   {
+    "id": "ks-3-38-129-146",
+    "title_zh": "佛金山館秦漢碑跋",
+    "author_zh": "牟房",
+    "locator": "3.38:129-146"
+   },
+   {
+    "id": "ks-3-2-1-75",
+    "title_zh": "佩文齋金石譜",
+    "author_zh": "",
+    "locator": "3.2:1-75"
+   },
+   {
+    "id": "ks-t-x-116",
+    "title_zh": "來齋金石刻考略",
+    "author_zh": "林侗",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-239-256",
+    "title_zh": "保定金石志",
+    "author_zh": "",
+    "locator": "3.23:239-256"
+   },
+   {
+    "id": "ks-t-x-24",
+    "title_zh": "保寧金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-30-179-184",
+    "title_zh": "信陽金石志",
+    "author_zh": "",
+    "locator": "3.30:179-184"
+   },
+   {
+    "id": "ks-3-29-235-264",
+    "title_zh": "修武金石志",
+    "author_zh": "",
+    "locator": "3.29:235-264"
+   },
+   {
+    "id": "ks-3-29-265-330",
+    "title_zh": "修武金石志",
+    "author_zh": "",
+    "locator": "3.29:265-330"
+   },
+   {
+    "id": "ks-t-x-198",
+    "title_zh": "僵居碑誌集",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-218",
+    "title_zh": "億年堂金石記",
+    "author_zh": "陳邦福",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-589-672",
+    "title_zh": "儋縣金石志",
+    "author_zh": "",
+    "locator": "3.22:589-672"
+   },
+   {
+    "id": "ks-t-x-224",
+    "title_zh": "元氏碑記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-40-583-615",
+    "title_zh": "元牘記",
+    "author_zh": "",
+    "locator": "3.40:583-615"
+   },
+   {
+    "id": "ks-3-4-561-714",
+    "title_zh": "元碑存目",
+    "author_zh": "黃本驥",
+    "locator": "3.4:561-714"
+   },
+   {
+    "id": "ks-t-x-224",
+    "title_zh": "元魏熒陽鄭文公摩崖碑跋",
+    "author_zh": "諸可寶",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-30-249-259",
+    "title_zh": "光山金石志約稿",
+    "author_zh": "",
+    "locator": "3.30:249-259"
+   },
+   {
+    "id": "ks-3-17-89-96",
+    "title_zh": "光澤金石略",
+    "author_zh": "",
+    "locator": "3.17:89-96"
+   },
+   {
+    "id": "ks-t-x-157",
+    "title_zh": "全椒碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-120",
+    "title_zh": "兩浙金石別錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-120",
+    "title_zh": "兩漢金石記",
+    "author_zh": "翁方綱",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-211-214",
+    "title_zh": "八寨金石附志稿",
+    "author_zh": "",
+    "locator": "3.23:211-214"
+   },
+   {
+    "id": "ks-t-x-228",
+    "title_zh": "再續寰宇訪碑錄校勘記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-505-507",
+    "title_zh": "分宜金石志",
+    "author_zh": "",
+    "locator": "3.12:505-507"
+   },
+   {
+    "id": "ks-3-10-431-434",
+    "title_zh": "分疆金石錄",
+    "author_zh": "",
+    "locator": "3.10:431-434"
+   },
+   {
+    "id": "ks-t-x-118",
+    "title_zh": "利川金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-114",
+    "title_zh": "刻碑姓名錄",
+    "author_zh": "黃錫番",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-85",
+    "title_zh": "化州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-38-231-243",
+    "title_zh": "半氈齋題跋",
+    "author_zh": "江藩",
+    "locator": "3.38:231-243"
+   },
+   {
+    "id": "ks-t-x-140",
+    "title_zh": "南充金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-293-295",
+    "title_zh": "南匯金石志",
+    "author_zh": "",
+    "locator": "3.5:293-295"
+   },
+   {
+    "id": "ks-3-12-519-526",
+    "title_zh": "南康金石志",
+    "author_zh": "",
+    "locator": "3.12:519-526"
+   },
+   {
+    "id": "ks-3-21-287-362",
+    "title_zh": "南海金石志",
+    "author_zh": "",
+    "locator": "3.21:287-362"
+   },
+   {
+    "id": "ks-t-x-140",
+    "title_zh": "南海金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-21-187-223",
+    "title_zh": "南海金石略",
+    "author_zh": "",
+    "locator": "3.21:187-223"
+   },
+   {
+    "id": "ks-3-4-381-404",
+    "title_zh": "南漢金石志",
+    "author_zh": "吳蘭修",
+    "locator": "3.4:381-404"
+   },
+   {
+    "id": "ks-3-13-463-467",
+    "title_zh": "南漳金石志",
+    "author_zh": "",
+    "locator": "3.13:463-467"
+   },
+   {
+    "id": "ks-3-13-431-461",
+    "title_zh": "南漳金石志集鈔",
+    "author_zh": "",
+    "locator": "3.13:431-461"
+   },
+   {
+    "id": "ks-3-7-549-602",
+    "title_zh": "南潯碑刻志",
+    "author_zh": "",
+    "locator": "3.7:549-602"
+   },
+   {
+    "id": "ks-3-10-439-443",
+    "title_zh": "南田金石志",
+    "author_zh": "",
+    "locator": "3.10:439-443"
+   },
+   {
+    "id": "ks-3-23-403-458",
+    "title_zh": "南皮金石志",
+    "author_zh": "",
+    "locator": "3.23:403-458"
+   },
+   {
+    "id": "ks-t-x-140",
+    "title_zh": "南部金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-1-133",
+    "title_zh": "南陵金石志",
+    "author_zh": "",
+    "locator": "3.12:1-133"
+   },
+   {
+    "id": "ks-3-30-185-214",
+    "title_zh": "南陽金石志",
+    "author_zh": "",
+    "locator": "3.30:185-214"
+   },
+   {
+    "id": "ks-3-22-207-225",
+    "title_zh": "南雄金石路",
+    "author_zh": "",
+    "locator": "3.22:207-225"
+   },
+   {
+    "id": "ks-t-x-62",
+    "title_zh": "古誌石華",
+    "author_zh": "黃本驥",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-181",
+    "title_zh": "台州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-78",
+    "title_zh": "合江金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-17-21",
+    "title_zh": "合江金石志",
+    "author_zh": "",
+    "locator": "3.16:17-21"
+   },
+   {
+    "id": "ks-3-12-447-460",
+    "title_zh": "吉安金石志",
+    "author_zh": "",
+    "locator": "3.12:447-460"
+   },
+   {
+    "id": "ks-t-x-90",
+    "title_zh": "吉林金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-62",
+    "title_zh": "吉誌彙目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-761-788",
+    "title_zh": "同州金石志",
+    "author_zh": "蔣湘南",
+    "locator": "3.31:761-788"
+   },
+   {
+    "id": "ks-3-31-687-760",
+    "title_zh": "同州金石志",
+    "author_zh": "蔣湘南",
+    "locator": "3.31:687-760"
+   },
+   {
+    "id": "ks-t-x-137",
+    "title_zh": "名山古蹟新志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-137",
+    "title_zh": "名山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-73",
+    "title_zh": "含經堂碑目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-194",
+    "title_zh": "吳下塚墓遺文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-359-488",
+    "title_zh": "吳中金石新編",
+    "author_zh": "陳暐",
+    "locator": "3.5:359-488"
+   },
+   {
+    "id": "ks-t-x-192",
+    "title_zh": "吳川金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-194",
+    "title_zh": "吳橋碑志",
+    "author_zh": "施崇禮",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-194",
+    "title_zh": "吳縣金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-7-491-500",
+    "title_zh": "吳興金石徵",
+    "author_zh": "",
+    "locator": "3.7:491-500"
+   },
+   {
+    "id": "ks-3-35-515-542",
+    "title_zh": "吳郡金石目",
+    "author_zh": "程祖慶",
+    "locator": "3.35:515-542"
+   },
+   {
+    "id": "ks-t-x-234",
+    "title_zh": "周秦刻石釋音",
+    "author_zh": "吾丘衍",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-501-511",
+    "title_zh": "咸寧金石志",
+    "author_zh": "",
+    "locator": "3.31:501-511"
+   },
+   {
+    "id": "ks-3-13-249-255",
+    "title_zh": "咸寧金石志",
+    "author_zh": "",
+    "locator": "3.13:249-255"
+   },
+   {
+    "id": "ks-t-x-198",
+    "title_zh": "咸寧長安金石續考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-181",
+    "title_zh": "唐代海東藩閥誌存",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-25-63-104",
+    "title_zh": "唐山碑記",
+    "author_zh": "",
+    "locator": "3.25:63-104"
+   },
+   {
+    "id": "ks-3-35-97-136",
+    "title_zh": "唐昭陵石蹟考略",
+    "author_zh": "林侗",
+    "locator": "3.35:97-136"
+   },
+   {
+    "id": "ks-t-x-181",
+    "title_zh": "唐樓碑碣附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-227-262",
+    "title_zh": "唐石經考證",
+    "author_zh": "",
+    "locator": "3.35:227-262"
+   },
+   {
+    "id": "ks-3-24-241-245",
+    "title_zh": "唐縣碑碣志",
+    "author_zh": "",
+    "locator": "3.24:241-245"
+   },
+   {
+    "id": "ks-t-x-181",
+    "title_zh": "唐風樓金石文字跋尾",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-14-119-125",
+    "title_zh": "善化古蹟志",
+    "author_zh": "",
+    "locator": "3.14:119-125"
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "善寺兩唐碑釋文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-91",
+    "title_zh": "嘉定碑版志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-313-336",
+    "title_zh": "嘉定金石志",
+    "author_zh": "",
+    "locator": "3.5:313-336"
+   },
+   {
+    "id": "ks-t-x-91",
+    "title_zh": "嘉定金石續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-159-161",
+    "title_zh": "嘉祥金石志",
+    "author_zh": "",
+    "locator": "3.26:159-161"
+   },
+   {
+    "id": "ks-3-7-399-447",
+    "title_zh": "嘉興金石志",
+    "author_zh": "",
+    "locator": "3.7:399-447"
+   },
+   {
+    "id": "ks-3-14-471-539",
+    "title_zh": "四川金石志",
+    "author_zh": "",
+    "locator": "3.14:471-539"
+   },
+   {
+    "id": "ks-t-x-69",
+    "title_zh": "國山碑考",
+    "author_zh": "吳騫",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-28-393-428",
+    "title_zh": "圝城金石篇",
+    "author_zh": "",
+    "locator": "3.28:393-428"
+   },
+   {
+    "id": "ks-3-26-227-296",
+    "title_zh": "城武金石志",
+    "author_zh": "",
+    "locator": "3.26:227-296"
+   },
+   {
+    "id": "ks-3-40-63-106",
+    "title_zh": "墓銘舉例",
+    "author_zh": "王行",
+    "locator": "3.40:63-106"
+   },
+   {
+    "id": "ks-t-x-228",
+    "title_zh": "增城金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-229",
+    "title_zh": "增廣金石韻府",
+    "author_zh": "張鳳藻",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-228",
+    "title_zh": "增補校碑隨筆",
+    "author_zh": "方若",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-229",
+    "title_zh": "增訂碑別字",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-381-453",
+    "title_zh": "墨妙亭碑目考",
+    "author_zh": "張鑑",
+    "locator": "3.35:381-453"
+   },
+   {
+    "id": "ks-3-19-551-650",
+    "title_zh": "壹灣教育碑記",
+    "author_zh": "",
+    "locator": "3.19:551-650"
+   },
+   {
+    "id": "ks-3-27-549-573",
+    "title_zh": "壽光金石志",
+    "author_zh": "鄒允中",
+    "locator": "3.27:549-573"
+   },
+   {
+    "id": "ks-3-12-139-161",
+    "title_zh": "壽州金石志",
+    "author_zh": "",
+    "locator": "3.12:139-161"
+   },
+   {
+    "id": "ks-t-x-114",
+    "title_zh": "夔州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-2-149-238",
+    "title_zh": "夢碧石言",
+    "author_zh": "",
+    "locator": "3.2:149-238"
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "大名金石志",
+    "author_zh": "洪家祿",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "大城金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "大竹金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "大邑金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "大邑金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-184",
+    "title_zh": "天壞閣雜記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-9-499-546",
+    "title_zh": "太平石刻續志",
+    "author_zh": "",
+    "locator": "3.9:499-546"
+   },
+   {
+    "id": "ks-t-x-178",
+    "title_zh": "太康金目志",
+    "author_zh": "劉盼遂",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-178",
+    "title_zh": "太谷墓誌",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-178",
+    "title_zh": "太谷碑碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-15-459-462",
+    "title_zh": "夾江金石志",
+    "author_zh": "",
+    "locator": "3.15:459-462"
+   },
+   {
+    "id": "ks-3-8-481-488",
+    "title_zh": "奉化金石志",
+    "author_zh": "",
+    "locator": "3.8:481-488"
+   },
+   {
+    "id": "ks-3-15-407-413",
+    "title_zh": "奉節金石志",
+    "author_zh": "",
+    "locator": "3.15:407-413"
+   },
+   {
+    "id": "ks-3-25-233-274",
+    "title_zh": "威縣碑刻志",
+    "author_zh": "",
+    "locator": "3.25:233-274"
+   },
+   {
+    "id": "ks-3-25-275-300",
+    "title_zh": "威縣金石志",
+    "author_zh": "",
+    "locator": "3.25:275-300"
+   },
+   {
+    "id": "ks-3-15-555-558",
+    "title_zh": "威遠金石志",
+    "author_zh": "",
+    "locator": "3.15:555-558"
+   },
+   {
+    "id": "ks-t-x-201",
+    "title_zh": "孝豐金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-29-331-445",
+    "title_zh": "孟縣金石志",
+    "author_zh": "",
+    "locator": "3.29:331-445"
+   },
+   {
+    "id": "ks-3-29-447-481",
+    "title_zh": "孟縣金石志",
+    "author_zh": "",
+    "locator": "3.29:447-481"
+   },
+   {
+    "id": "ks-t-x-20",
+    "title_zh": "安吉碑版志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-19",
+    "title_zh": "安定金石記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-20",
+    "title_zh": "安岳金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-19",
+    "title_zh": "安徽通志金石古物考稿",
+    "author_zh": "徐乃昌",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-19",
+    "title_zh": "安徽金石略",
+    "author_zh": "趙紹祖",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-128",
+    "title_zh": "安遺碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-20",
+    "title_zh": "安陸金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-20",
+    "title_zh": "安陽金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-4-443-478",
+    "title_zh": "宋韓蘄王碑釋文",
+    "author_zh": "顧沅",
+    "locator": "3.4:443-478"
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "完縣金石志",
+    "author_zh": "彭作楨",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-8-555-558",
+    "title_zh": "定海金石志",
+    "author_zh": "",
+    "locator": "3.8:555-558"
+   },
+   {
+    "id": "ks-3-24-247-310",
+    "title_zh": "定縣金石志餘",
+    "author_zh": "賈恩紱",
+    "locator": "3.24:247-310"
+   },
+   {
+    "id": "ks-t-x-45",
+    "title_zh": "定興金石志",
+    "author_zh": "楊晨",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-215",
+    "title_zh": "宜春金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-217",
+    "title_zh": "宜祿堂收藏金石記",
+    "author_zh": "朱士端",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-217",
+    "title_zh": "宜祿堂收藏金石記",
+    "author_zh": "朱士端",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-218",
+    "title_zh": "宜興碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-218",
+    "title_zh": "宜興荆溪碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-218",
+    "title_zh": "宜興荆谿金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-215",
+    "title_zh": "宜賓金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-217",
+    "title_zh": "宜黃金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-687-711",
+    "title_zh": "容縣金石志",
+    "author_zh": "",
+    "locator": "3.22:687-711"
+   },
+   {
+    "id": "ks-3-27-87-184",
+    "title_zh": "富平金石志稿",
+    "author_zh": "",
+    "locator": "3.27:87-184"
+   },
+   {
+    "id": "ks-3-2-303-310",
+    "title_zh": "富順金石志",
+    "author_zh": "",
+    "locator": "3.2:303-310"
+   },
+   {
+    "id": "ks-3-36-497-509",
+    "title_zh": "寒山金石林部目",
+    "author_zh": "趙均",
+    "locator": "3.36:497-509"
+   },
+   {
+    "id": "ks-3-32-283-304",
+    "title_zh": "察哈爾金石志",
+    "author_zh": "",
+    "locator": "3.32:283-304"
+   },
+   {
+    "id": "ks-3-10-543-553",
+    "title_zh": "寧國金石志",
+    "author_zh": "",
+    "locator": "3.10:543-553"
+   },
+   {
+    "id": "ks-t-x-202",
+    "title_zh": "寫禮廎讀碑記",
+    "author_zh": "王頌蔚",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-13-257-353",
+    "title_zh": "寰宇訪碑錄校勘記",
+    "author_zh": "",
+    "locator": "3.13:257-353"
+   },
+   {
+    "id": "ks-t-x-24",
+    "title_zh": "寶刻編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-24",
+    "title_zh": "寶刻類編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-25",
+    "title_zh": "寶山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-25",
+    "title_zh": "寶山金石續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-25",
+    "title_zh": "寶慶藝文略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "寶應金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "寶應金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-24",
+    "title_zh": "寶豐金石志",
+    "author_zh": "武億",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-25",
+    "title_zh": "寶鐵齋金石文跋尾",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-24",
+    "title_zh": "寶雞金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "寶鴨齋題跋",
+    "author_zh": "徐樹鈞",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-211-214",
+    "title_zh": "射洪金石志",
+    "author_zh": "",
+    "locator": "3.16:211-214"
+   },
+   {
+    "id": "ks-3-16-215-231",
+    "title_zh": "射洪金石志",
+    "author_zh": "",
+    "locator": "3.16:215-231"
+   },
+   {
+    "id": "ks-3-28-175-179",
+    "title_zh": "尉氏金石附志",
+    "author_zh": "王觀潮",
+    "locator": "3.28:175-179"
+   },
+   {
+    "id": "ks-t-x-201",
+    "title_zh": "小蓬萊閣金石文字",
+    "author_zh": "黃易",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-20-277-385",
+    "title_zh": "屏東縣古碑拓帖文集",
+    "author_zh": "",
+    "locator": "3.20:277-385"
+   },
+   {
+    "id": "ks-3-30-563-573",
+    "title_zh": "山右訪碑記",
+    "author_zh": "魯燮光",
+    "locator": "3.30:563-573"
+   },
+   {
+    "id": "ks-t-x-160",
+    "title_zh": "山東金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-30-575-746",
+    "title_zh": "山西碑碣志",
+    "author_zh": "",
+    "locator": "3.30:575-746"
+   },
+   {
+    "id": "ks-3-30-301-562",
+    "title_zh": "山西金石志",
+    "author_zh": "",
+    "locator": "3.30:301-562"
+   },
+   {
+    "id": "ks-3-22-419-587",
+    "title_zh": "山金石志",
+    "author_zh": "",
+    "locator": "3.22:419-587"
+   },
+   {
+    "id": "ks-3-9-59-73",
+    "title_zh": "山陰碑刻志",
+    "author_zh": "",
+    "locator": "3.9:59-73"
+   },
+   {
+    "id": "ks-3-28-81-87",
+    "title_zh": "岱巖訪古日記",
+    "author_zh": "黃易",
+    "locator": "3.28:81-87"
+   },
+   {
+    "id": "ks-3-15-487-490",
+    "title_zh": "峨眉金石志",
+    "author_zh": "",
+    "locator": "3.15:487-490"
+   },
+   {
+    "id": "ks-3-15-491-494",
+    "title_zh": "峨眉金石續志",
+    "author_zh": "",
+    "locator": "3.15:491-494"
+   },
+   {
+    "id": "ks-t-x-36",
+    "title_zh": "崇慶金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-167",
+    "title_zh": "嵊縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-29-595-605",
+    "title_zh": "嵩洛訪碑日記",
+    "author_zh": "黃易",
+    "locator": "3.29:595-605"
+   },
+   {
+    "id": "ks-t-x-176",
+    "title_zh": "嵩陽石刻集記",
+    "author_zh": "葉封",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-218",
+    "title_zh": "嶧縣碑碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-305-308",
+    "title_zh": "川沙縣金石志",
+    "author_zh": "",
+    "locator": "3.5:305-308"
+   },
+   {
+    "id": "ks-3-5-301-304",
+    "title_zh": "川沙金石志",
+    "author_zh": "",
+    "locator": "3.5:301-304"
+   },
+   {
+    "id": "ks-t-x-122",
+    "title_zh": "川金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-15-235-281",
+    "title_zh": "巴縣金石志",
+    "author_zh": "",
+    "locator": "3.15:235-281"
+   },
+   {
+    "id": "ks-3-38-409-417",
+    "title_zh": "帝鄉碑碣紀略",
+    "author_zh": "",
+    "locator": "3.38:409-417"
+   },
+   {
+    "id": "ks-3-14-237-242",
+    "title_zh": "常寧金石志",
+    "author_zh": "",
+    "locator": "3.14:237-242"
+   },
+   {
+    "id": "ks-t-x-33",
+    "title_zh": "常昭金石合志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-33",
+    "title_zh": "常昭金石合志稿",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-24-135-153",
+    "title_zh": "平山金石志料集",
+    "author_zh": "張林",
+    "locator": "3.24:135-153"
+   },
+   {
+    "id": "ks-3-27-301-322",
+    "title_zh": "平度金石志",
+    "author_zh": "",
+    "locator": "3.27:301-322"
+   },
+   {
+    "id": "ks-3-7-467-478",
+    "title_zh": "平湖金石志",
+    "author_zh": "",
+    "locator": "3.7:467-478"
+   },
+   {
+    "id": "ks-3-23-299-303",
+    "title_zh": "平谷金石志",
+    "author_zh": "",
+    "locator": "3.23:299-303"
+   },
+   {
+    "id": "ks-3-31-315-328",
+    "title_zh": "平陽古蹟志",
+    "author_zh": "",
+    "locator": "3.31:315-328"
+   },
+   {
+    "id": "ks-3-10-401-430",
+    "title_zh": "平陽金石志",
+    "author_zh": "",
+    "locator": "3.10:401-430"
+   },
+   {
+    "id": "ks-t-x-120",
+    "title_zh": "廉州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-307-313",
+    "title_zh": "廣信金石志",
+    "author_zh": "",
+    "locator": "3.12:307-313"
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "廣安金石新志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-67",
+    "title_zh": "廣宗金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "廣川書跋",
+    "author_zh": "董逌",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-25-105-139",
+    "title_zh": "廣平金石略",
+    "author_zh": "",
+    "locator": "3.25:105-139"
+   },
+   {
+    "id": "ks-t-x-65",
+    "title_zh": "廣德州碑記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "廣昌金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-65",
+    "title_zh": "廣東考古輯要",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-65",
+    "title_zh": "廣東金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-65",
+    "title_zh": "廣豐碑志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-473-490",
+    "title_zh": "廬州金石志",
+    "author_zh": "",
+    "locator": "3.10:473-490"
+   },
+   {
+    "id": "ks-3-32-143-150",
+    "title_zh": "延安金石志",
+    "author_zh": "",
+    "locator": "3.32:143-150"
+   },
+   {
+    "id": "ks-3-32-355-361",
+    "title_zh": "延慶碑碣志",
+    "author_zh": "",
+    "locator": "3.32:355-361"
+   },
+   {
+    "id": "ks-3-10-171-178",
+    "title_zh": "建德碑志",
+    "author_zh": "",
+    "locator": "3.10:171-178"
+   },
+   {
+    "id": "ks-3-17-73-76",
+    "title_zh": "建甌金石志",
+    "author_zh": "",
+    "locator": "3.17:73-76"
+   },
+   {
+    "id": "ks-3-17-77-80",
+    "title_zh": "建陽金石志",
+    "author_zh": "",
+    "locator": "3.17:77-80"
+   },
+   {
+    "id": "ks-3-15-119-143",
+    "title_zh": "彭縣金石志",
+    "author_zh": "",
+    "locator": "3.15:119-143"
+   },
+   {
+    "id": "ks-t-x-229",
+    "title_zh": "彰明金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-6-547-560",
+    "title_zh": "徐州裨碣志",
+    "author_zh": "",
+    "locator": "3.6:547-560"
+   },
+   {
+    "id": "ks-3-23-603-606",
+    "title_zh": "徐水金石新記",
+    "author_zh": "劉鴻書",
+    "locator": "3.23:603-606"
+   },
+   {
+    "id": "ks-3-38-1-56",
+    "title_zh": "循園古冢遗文尾",
+    "author_zh": "",
+    "locator": "3.38:1-56"
+   },
+   {
+    "id": "ks-t-x-41",
+    "title_zh": "德化金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-41",
+    "title_zh": "德安金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-42",
+    "title_zh": "德慶金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-41",
+    "title_zh": "德清碑刻續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-42",
+    "title_zh": "德縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-42",
+    "title_zh": "德興金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-232",
+    "title_zh": "志墓例附論",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-181-185",
+    "title_zh": "恩平金石志",
+    "author_zh": "",
+    "locator": "3.22:181-185"
+   },
+   {
+    "id": "ks-t-x-198",
+    "title_zh": "息縣圻墓志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-673-675",
+    "title_zh": "感恩金石志",
+    "author_zh": "",
+    "locator": "3.22:673-675"
+   },
+   {
+    "id": "ks-3-8-395-479",
+    "title_zh": "慈谿金石志",
+    "author_zh": "",
+    "locator": "3.8:395-479"
+   },
+   {
+    "id": "ks-t-x-86",
+    "title_zh": "懷岷精舍金石跋尾",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-86",
+    "title_zh": "懷慶金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-34",
+    "title_zh": "成安金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-14-541-545",
+    "title_zh": "成都金石志",
+    "author_zh": "",
+    "locator": "3.14:541-545"
+   },
+   {
+    "id": "ks-3-14-547-562",
+    "title_zh": "成都金石志",
+    "author_zh": "",
+    "locator": "3.14:547-562"
+   },
+   {
+    "id": "ks-t-x-54",
+    "title_zh": "扶風縣石刻記",
+    "author_zh": "黃樹穀",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-32-61-76",
+    "title_zh": "扶風金石記",
+    "author_zh": "",
+    "locator": "3.32:61-76"
+   },
+   {
+    "id": "ks-3-38-591-601",
+    "title_zh": "拙存堂題跋",
+    "author_zh": "蔣衡",
+    "locator": "3.38:591-601"
+   },
+   {
+    "id": "ks-t-x-215",
+    "title_zh": "掖縣碑墓志",
+    "author_zh": "于始瞻",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-214",
+    "title_zh": "揚州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-214",
+    "title_zh": "揚州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-151",
+    "title_zh": "摊為金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-291-296",
+    "title_zh": "撫州金石志",
+    "author_zh": "",
+    "locator": "3.12:291-296"
+   },
+   {
+    "id": "ks-3-14-141-143",
+    "title_zh": "攸縣金石志",
+    "author_zh": "",
+    "locator": "3.14:141-143"
+   },
+   {
+    "id": "ks-3-15-603-650",
+    "title_zh": "敘州冢墓附志",
+    "author_zh": "",
+    "locator": "3.15:603-650"
+   },
+   {
+    "id": "ks-3-16-109-113",
+    "title_zh": "敘永金石篇",
+    "author_zh": "",
+    "locator": "3.16:109-113"
+   },
+   {
+    "id": "ks-3-23-561-564",
+    "title_zh": "文安碑碣志",
+    "author_zh": "",
+    "locator": "3.23:561-564"
+   },
+   {
+    "id": "ks-3-14-181-190",
+    "title_zh": "新化金石志",
+    "author_zh": "",
+    "locator": "3.14:181-190"
+   },
+   {
+    "id": "ks-3-12-515-518",
+    "title_zh": "新喻金石志",
+    "author_zh": "",
+    "locator": "3.12:515-518"
+   },
+   {
+    "id": "ks-t-x-202",
+    "title_zh": "新城金石志",
+    "author_zh": "王樹枏",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-659-685",
+    "title_zh": "新城金石志",
+    "author_zh": "王樹枏",
+    "locator": "3.23:659-685"
+   },
+   {
+    "id": "ks-3-21-533-555",
+    "title_zh": "新寧金石略",
+    "author_zh": "",
+    "locator": "3.21:533-555"
+   },
+   {
+    "id": "ks-3-23-169-174",
+    "title_zh": "新平金石志",
+    "author_zh": "",
+    "locator": "3.23:169-174"
+   },
+   {
+    "id": "ks-3-21-643-677",
+    "title_zh": "新會金石志",
+    "author_zh": "",
+    "locator": "3.21:643-677"
+   },
+   {
+    "id": "ks-3-32-203-222",
+    "title_zh": "新民碑碣志",
+    "author_zh": "",
+    "locator": "3.32:203-222"
+   },
+   {
+    "id": "ks-3-15-145-148",
+    "title_zh": "新津金石志",
+    "author_zh": "",
+    "locator": "3.15:145-148"
+   },
+   {
+    "id": "ks-3-12-485-504",
+    "title_zh": "新淦筌墓志",
+    "author_zh": "",
+    "locator": "3.12:485-504"
+   },
+   {
+    "id": "ks-3-32-387-450",
+    "title_zh": "新疆金石志",
+    "author_zh": "",
+    "locator": "3.32:387-450"
+   },
+   {
+    "id": "ks-3-7-389-394",
+    "title_zh": "新登金石志",
+    "author_zh": "",
+    "locator": "3.7:389-394"
+   },
+   {
+    "id": "ks-3-28-607-613",
+    "title_zh": "新鄉金石續志",
+    "author_zh": "",
+    "locator": "3.28:607-613"
+   },
+   {
+    "id": "ks-3-28-213-233",
+    "title_zh": "新鄭金石志",
+    "author_zh": "",
+    "locator": "3.28:213-233"
+   },
+   {
+    "id": "ks-3-7-395-398",
+    "title_zh": "昌化金石志",
+    "author_zh": "",
+    "locator": "3.7:395-398"
+   },
+   {
+    "id": "ks-3-23-281-297",
+    "title_zh": "昌平金石志",
+    "author_zh": "",
+    "locator": "3.23:281-297"
+   },
+   {
+    "id": "ks-3-27-575-628",
+    "title_zh": "昌樂金石續志",
+    "author_zh": "",
+    "locator": "3.27:575-628"
+   },
+   {
+    "id": "ks-3-23-555-559",
+    "title_zh": "昌黎金石志",
+    "author_zh": "",
+    "locator": "3.23:555-559"
+   },
+   {
+    "id": "ks-t-x-230",
+    "title_zh": "昭平金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-230",
+    "title_zh": "昭通金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-230",
+    "title_zh": "昭陵碑考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-230",
+    "title_zh": "昭陵碑錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-391-400",
+    "title_zh": "景甯金石志",
+    "author_zh": "",
+    "locator": "3.10:391-400"
+   },
+   {
+    "id": "ks-3-26-101-125",
+    "title_zh": "曲阜金石志",
+    "author_zh": "",
+    "locator": "3.26:101-125"
+   },
+   {
+    "id": "ks-3-26-97-100",
+    "title_zh": "曲阜金石志",
+    "author_zh": "",
+    "locator": "3.26:97-100"
+   },
+   {
+    "id": "ks-3-32-363-385",
+    "title_zh": "會稽碑刻志",
+    "author_zh": "",
+    "locator": "3.32:363-385"
+   },
+   {
+    "id": "ks-3-38-153-166",
+    "title_zh": "有萬熹齋石刻跋",
+    "author_zh": "",
+    "locator": "3.38:153-166"
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "望都金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-39-1-30",
+    "title_zh": "朱子金石學",
+    "author_zh": "鮑鼎",
+    "locator": "3.39:1-30"
+   },
+   {
+    "id": "ks-t-x-78",
+    "title_zh": "杭州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-78",
+    "title_zh": "杭州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-46",
+    "title_zh": "東光金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-613-616",
+    "title_zh": "東平金石志",
+    "author_zh": "",
+    "locator": "3.26:613-616"
+   },
+   {
+    "id": "ks-3-26-617-629",
+    "title_zh": "東平金石志",
+    "author_zh": "",
+    "locator": "3.26:617-629"
+   },
+   {
+    "id": "ks-3-26-631-645",
+    "title_zh": "東平金石志",
+    "author_zh": "",
+    "locator": "3.26:631-645"
+   },
+   {
+    "id": "ks-t-x-45",
+    "title_zh": "東昌金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-38-57-119",
+    "title_zh": "東洲草堂金石跋",
+    "author_zh": "何紹基",
+    "locator": "3.38:57-119"
+   },
+   {
+    "id": "ks-t-x-46",
+    "title_zh": "東甌金石志",
+    "author_zh": "戴咸弼",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-46",
+    "title_zh": "東莞金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-46",
+    "title_zh": "東觀餘論",
+    "author_zh": "黃伯思",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-45",
+    "title_zh": "東都冢墓遗文",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-45",
+    "title_zh": "東阿金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-46",
+    "title_zh": "東阿金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-257-272",
+    "title_zh": "松江金石志",
+    "author_zh": "",
+    "locator": "3.5:257-272"
+   },
+   {
+    "id": "ks-3-5-273-276",
+    "title_zh": "松江金石續志",
+    "author_zh": "",
+    "locator": "3.5:273-276"
+   },
+   {
+    "id": "ks-t-x-124",
+    "title_zh": "林縣金石志",
+    "author_zh": "李見荃",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-126",
+    "title_zh": "林縣金石志",
+    "author_zh": "李見荃",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-25-328-334",
+    "title_zh": "柏鄉金石志",
+    "author_zh": "",
+    "locator": "3.25:328-334"
+   },
+   {
+    "id": "ks-3-28-159-174",
+    "title_zh": "样符金石志",
+    "author_zh": "",
+    "locator": "3.28:159-174"
+   },
+   {
+    "id": "ks-t-x-69",
+    "title_zh": "桂陽碑銘志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-14-381-403",
+    "title_zh": "桃源金石志",
+    "author_zh": "",
+    "locator": "3.14:381-403"
+   },
+   {
+    "id": "ks-3-10-491-494",
+    "title_zh": "桐城金石續附志",
+    "author_zh": "",
+    "locator": "3.10:491-494"
+   },
+   {
+    "id": "ks-3-7-479-483",
+    "title_zh": "桐鄉碑碣志",
+    "author_zh": "",
+    "locator": "3.7:479-483"
+   },
+   {
+    "id": "ks-3-7-485-490",
+    "title_zh": "桐鄉碑碣志",
+    "author_zh": "",
+    "locator": "3.7:485-490"
+   },
+   {
+    "id": "ks-t-x-228",
+    "title_zh": "棗陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-36",
+    "title_zh": "楚州金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-159",
+    "title_zh": "榮縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-159",
+    "title_zh": "榮縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-24-101-104",
+    "title_zh": "樂城金石志",
+    "author_zh": "",
+    "locator": "3.24:101-104"
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "樂山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "樂平金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-116",
+    "title_zh": "樂昌金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "樂至冢墓志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "樂至冢墓志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-24-105-133",
+    "title_zh": "欒城碑碣志",
+    "author_zh": "",
+    "locator": "3.24:105-133"
+   },
+   {
+    "id": "ks-t-x-232",
+    "title_zh": "正定金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-232",
+    "title_zh": "正陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-192",
+    "title_zh": "武岡內篇",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-457-468",
+    "title_zh": "武州石窟記",
+    "author_zh": "兌君",
+    "locator": "3.31:457-468"
+   },
+   {
+    "id": "ks-3-13-241-247",
+    "title_zh": "武昌金石志",
+    "author_zh": "",
+    "locator": "3.13:241-247"
+   },
+   {
+    "id": "ks-t-x-194",
+    "title_zh": "武林石刻記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-6-77-132",
+    "title_zh": "武進陽湖金石合志",
+    "author_zh": "",
+    "locator": "3.6:77-132"
+   },
+   {
+    "id": "ks-3-6-133-143",
+    "title_zh": "武進陽湖金石志",
+    "author_zh": "",
+    "locator": "3.6:133-143"
+   },
+   {
+    "id": "ks-3-31-229-271",
+    "title_zh": "武鄉金石志",
+    "author_zh": "",
+    "locator": "3.31:229-271"
+   },
+   {
+    "id": "ks-3-28-433-448",
+    "title_zh": "武陟碑碣志",
+    "author_zh": "",
+    "locator": "3.28:433-448"
+   },
+   {
+    "id": "ks-3-28-449-461",
+    "title_zh": "武陟金石志",
+    "author_zh": "",
+    "locator": "3.28:449-461"
+   },
+   {
+    "id": "ks-t-x-118",
+    "title_zh": "歷城金石續考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "歷城金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-67",
+    "title_zh": "歸安石刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-67",
+    "title_zh": "歸安金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-8-559-567",
+    "title_zh": "歸德金石文字志",
+    "author_zh": "查昌岐",
+    "locator": "3.8:559-567"
+   },
+   {
+    "id": "ks-3-12-423-429",
+    "title_zh": "歸緩金石志",
+    "author_zh": "",
+    "locator": "3.12:423-429"
+   },
+   {
+    "id": "ks-t-x-28",
+    "title_zh": "毫州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-28-429-431",
+    "title_zh": "水金石志",
+    "author_zh": "",
+    "locator": "3.28:429-431"
+   },
+   {
+    "id": "ks-t-x-220",
+    "title_zh": "永嘉金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-219",
+    "title_zh": "永川碑碣附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-220",
+    "title_zh": "永州金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-220",
+    "title_zh": "永年碑碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-220",
+    "title_zh": "永清文徵錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-2-521-537",
+    "title_zh": "求恕齋碑錄",
+    "author_zh": "",
+    "locator": "3.2:521-537"
+   },
+   {
+    "id": "ks-t-x-159",
+    "title_zh": "汝陽藝文志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-13-233-240",
+    "title_zh": "江夏金石志",
+    "author_zh": "",
+    "locator": "3.13:233-240"
+   },
+   {
+    "id": "ks-3-15-283-286",
+    "title_zh": "江津金石志",
+    "author_zh": "",
+    "locator": "3.15:283-286"
+   },
+   {
+    "id": "ks-3-5-219-224",
+    "title_zh": "江浦金石埤乘",
+    "author_zh": "",
+    "locator": "3.5:219-224"
+   },
+   {
+    "id": "ks-3-5-289-291",
+    "title_zh": "江灣金石志",
+    "author_zh": "",
+    "locator": "3.5:289-291"
+   },
+   {
+    "id": "ks-3-35-543-551",
+    "title_zh": "江西金石目",
+    "author_zh": "繆荃孫",
+    "locator": "3.35:543-551"
+   },
+   {
+    "id": "ks-3-6-315-318",
+    "title_zh": "江都碑目志",
+    "author_zh": "",
+    "locator": "3.6:315-318"
+   },
+   {
+    "id": "ks-3-6-319-322",
+    "title_zh": "江都碑目續志",
+    "author_zh": "",
+    "locator": "3.6:319-322"
+   },
+   {
+    "id": "ks-3-6-331-399",
+    "title_zh": "江都縣金石續考",
+    "author_zh": "",
+    "locator": "3.6:331-399"
+   },
+   {
+    "id": "ks-3-6-323-329",
+    "title_zh": "江都藝文續考",
+    "author_zh": "",
+    "locator": "3.6:323-329"
+   },
+   {
+    "id": "ks-3-6-175-294",
+    "title_zh": "江陰碑刻記",
+    "author_zh": "",
+    "locator": "3.6:175-294"
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "汪本隸釋刊誤",
+    "author_zh": "黃丕烈",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-122",
+    "title_zh": "汾金石記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-160",
+    "title_zh": "沙縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-6-561-566",
+    "title_zh": "沛縣碑碣志",
+    "author_zh": "",
+    "locator": "3.6:561-566"
+   },
+   {
+    "id": "ks-3-29-139-234",
+    "title_zh": "河內金石志",
+    "author_zh": "",
+    "locator": "3.29:139-234"
+   },
+   {
+    "id": "ks-3-36-123-135",
+    "title_zh": "河南圖書館藏石目",
+    "author_zh": "李根源",
+    "locator": "3.36:123-135"
+   },
+   {
+    "id": "ks-3-28-89-157",
+    "title_zh": "河南金石志",
+    "author_zh": "",
+    "locator": "3.28:89-157"
+   },
+   {
+    "id": "ks-3-35-553-595",
+    "title_zh": "河朔新碑目",
+    "author_zh": "顧燮光",
+    "locator": "3.35:553-595"
+   },
+   {
+    "id": "ks-3-25-141-186",
+    "title_zh": "河朔訪古記",
+    "author_zh": "納新",
+    "locator": "3.25:141-186"
+   },
+   {
+    "id": "ks-t-x-51",
+    "title_zh": "法華金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-1-29",
+    "title_zh": "泰山石刻記",
+    "author_zh": "孫星衍",
+    "locator": "3.26:1-29"
+   },
+   {
+    "id": "ks-3-6-497-533",
+    "title_zh": "泰州碑記",
+    "author_zh": "",
+    "locator": "3.6:497-533"
+   },
+   {
+    "id": "ks-t-x-213",
+    "title_zh": "洋縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-36-117-121",
+    "title_zh": "洛陽存古閣藏石目",
+    "author_zh": "",
+    "locator": "3.36:117-121"
+   },
+   {
+    "id": "ks-t-x-131",
+    "title_zh": "洛陽金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-15-495-500",
+    "title_zh": "洪雅金石志",
+    "author_zh": "",
+    "locator": "3.15:495-500"
+   },
+   {
+    "id": "ks-3-15-501-504",
+    "title_zh": "洪雅金石志",
+    "author_zh": "",
+    "locator": "3.15:501-504"
+   },
+   {
+    "id": "ks-3-17-81-83",
+    "title_zh": "浦城金石志",
+    "author_zh": "",
+    "locator": "3.17:81-83"
+   },
+   {
+    "id": "ks-3-10-151-161",
+    "title_zh": "浦江金石志",
+    "author_zh": "",
+    "locator": "3.10:151-161"
+   },
+   {
+    "id": "ks-3-7-367-372",
+    "title_zh": "海寧碑目志",
+    "author_zh": "",
+    "locator": "3.7:367-372"
+   },
+   {
+    "id": "ks-3-7-229-365",
+    "title_zh": "海寧金石志稿",
+    "author_zh": "",
+    "locator": "3.7:229-365"
+   },
+   {
+    "id": "ks-3-10-569-573",
+    "title_zh": "涇縣石刻紀略",
+    "author_zh": "胡韞玉",
+    "locator": "3.10:569-573"
+   },
+   {
+    "id": "ks-3-10-555-568",
+    "title_zh": "涇縣金石志",
+    "author_zh": "",
+    "locator": "3.10:555-568"
+   },
+   {
+    "id": "ks-3-31-623-629",
+    "title_zh": "涇陽金石略",
+    "author_zh": "",
+    "locator": "3.31:623-629"
+   },
+   {
+    "id": "ks-t-x-153",
+    "title_zh": "消儀閣題跋",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-399-402",
+    "title_zh": "消平金石志",
+    "author_zh": "",
+    "locator": "3.26:399-402"
+   },
+   {
+    "id": "ks-3-15-371-389",
+    "title_zh": "涪州石魚題刻",
+    "author_zh": "",
+    "locator": "3.15:371-389"
+   },
+   {
+    "id": "ks-3-15-295-319",
+    "title_zh": "涪州碑記目",
+    "author_zh": "",
+    "locator": "3.15:295-319"
+   },
+   {
+    "id": "ks-3-2-343-349",
+    "title_zh": "淇泉摹古錄",
+    "author_zh": "",
+    "locator": "3.2:343-349"
+   },
+   {
+    "id": "ks-t-x-86",
+    "title_zh": "淮陽藝文附志",
+    "author_zh": "朱撰卿",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-167",
+    "title_zh": "深州金石記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-32-93-119",
+    "title_zh": "淳化金石志",
+    "author_zh": "",
+    "locator": "3.32:93-119"
+   },
+   {
+    "id": "ks-3-12-477-484",
+    "title_zh": "清江金石志",
+    "author_zh": "",
+    "locator": "3.12:477-484"
+   },
+   {
+    "id": "ks-3-25-301-328",
+    "title_zh": "清河金石志",
+    "author_zh": "",
+    "locator": "3.25:301-328"
+   },
+   {
+    "id": "ks-3-6-295-300",
+    "title_zh": "清河金石附志",
+    "author_zh": "",
+    "locator": "3.6:295-300"
+   },
+   {
+    "id": "ks-t-x-153",
+    "title_zh": "清泉碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-153",
+    "title_zh": "清泉金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-25-28",
+    "title_zh": "清源碑碣志",
+    "author_zh": "",
+    "locator": "3.31:25-28"
+   },
+   {
+    "id": "ks-3-24-37-85",
+    "title_zh": "清苑金石志",
+    "author_zh": "",
+    "locator": "3.24:37-85"
+   },
+   {
+    "id": "ks-3-22-1-19",
+    "title_zh": "清遠金石志",
+    "author_zh": "",
+    "locator": "3.22:1-19"
+   },
+   {
+    "id": "ks-t-x-157",
+    "title_zh": "渠縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-631-635",
+    "title_zh": "渭南金石志",
+    "author_zh": "",
+    "locator": "3.31:631-635"
+   },
+   {
+    "id": "ks-3-13-1-232",
+    "title_zh": "湖北金石通志",
+    "author_zh": "",
+    "locator": "3.13:1-232"
+   },
+   {
+    "id": "ks-t-x-84",
+    "title_zh": "湖州金石略",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-163-169",
+    "title_zh": "湯溪金石志",
+    "author_zh": "",
+    "locator": "3.10:163-169"
+   },
+   {
+    "id": "ks-3-5-211-217",
+    "title_zh": "溧水碑碣志",
+    "author_zh": "",
+    "locator": "3.5:211-217"
+   },
+   {
+    "id": "ks-3-5-243-246",
+    "title_zh": "溧陽碑帖續志",
+    "author_zh": "",
+    "locator": "3.5:243-246"
+   },
+   {
+    "id": "ks-t-x-120",
+    "title_zh": "溧陽碑志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-179-182",
+    "title_zh": "溫州碑碣志",
+    "author_zh": "",
+    "locator": "3.10:179-182"
+   },
+   {
+    "id": "ks-t-x-229",
+    "title_zh": "滋園題跋",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-91-95",
+    "title_zh": "滋陽金石考",
+    "author_zh": "",
+    "locator": "3.26:91-95"
+   },
+   {
+    "id": "ks-t-x-84",
+    "title_zh": "滑縣碑志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-597-602",
+    "title_zh": "满城金石志",
+    "author_zh": "",
+    "locator": "3.23:597-602"
+   },
+   {
+    "id": "ks-3-2-575-585",
+    "title_zh": "漢劉熊碑",
+    "author_zh": "",
+    "locator": "3.2:575-585"
+   },
+   {
+    "id": "ks-3-35-47-65",
+    "title_zh": "漢劉熊碑考",
+    "author_zh": "顧燮光",
+    "locator": "3.35:47-65"
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢四皓石刻題跋集錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-67-77",
+    "title_zh": "漢射陽石門畫象彙考",
+    "author_zh": "張寶德",
+    "locator": "3.35:67-77"
+   },
+   {
+    "id": "ks-t-x-73",
+    "title_zh": "漢東海廟碑殘字",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-77",
+    "title_zh": "漢烹平石經殘字集錄續拾",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-77",
+    "title_zh": "漢熹平石經集錄又續編",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-77",
+    "title_zh": "漢熹平石經集錄續補",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢石例",
+    "author_zh": "劉寶楠",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-37-519-529",
+    "title_zh": "漢石存目",
+    "author_zh": "王懿榮",
+    "locator": "3.37:519-529"
+   },
+   {
+    "id": "ks-3-38-245-275",
+    "title_zh": "漢石經室金石跋尾",
+    "author_zh": "沈樹鏞",
+    "locator": "3.38:245-275"
+   },
+   {
+    "id": "ks-3-35-137-163",
+    "title_zh": "漢石經考異補正",
+    "author_zh": "瞿中溶",
+    "locator": "3.35:137-163"
+   },
+   {
+    "id": "ks-3-2-595-605",
+    "title_zh": "漢隸拾遺",
+    "author_zh": "王念孫",
+    "locator": "3.2:595-605"
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢魏六朝墓銘纂例",
+    "author_zh": "李富孫",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢魏六朝志墓金石例",
+    "author_zh": "吳鎬",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢魏南北朝墓誌集釋",
+    "author_zh": "趙萬里",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-76",
+    "title_zh": "漢魏碑考",
+    "author_zh": "陳洙",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-14-1-118",
+    "title_zh": "潛江貞石記",
+    "author_zh": "甘鵬雲",
+    "locator": "3.14:1-118"
+   },
+   {
+    "id": "ks-3-16-173-195",
+    "title_zh": "潼川金石志",
+    "author_zh": "",
+    "locator": "3.16:173-195"
+   },
+   {
+    "id": "ks-3-32-1-5",
+    "title_zh": "澄城金石志",
+    "author_zh": "",
+    "locator": "3.32:1-5"
+   },
+   {
+    "id": "ks-3-32-7-26",
+    "title_zh": "澄城金石志",
+    "author_zh": "",
+    "locator": "3.32:7-26"
+   },
+   {
+    "id": "ks-3-29-655-678",
+    "title_zh": "澠池金石志",
+    "author_zh": "",
+    "locator": "3.29:655-678"
+   },
+   {
+    "id": "ks-t-x-228",
+    "title_zh": "澤州金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-90",
+    "title_zh": "濟南金石志",
+    "author_zh": "馮雲鵷",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-90",
+    "title_zh": "濟寧碑目志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-90",
+    "title_zh": "濟寧碑目續志",
+    "author_zh": "袁紹昂",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-91",
+    "title_zh": "濟陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-128",
+    "title_zh": "瀘縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-8-221-225",
+    "title_zh": "烏程碑碣志",
+    "author_zh": "",
+    "locator": "3.8:221-225"
+   },
+   {
+    "id": "ks-3-24-179-212",
+    "title_zh": "無極金石志",
+    "author_zh": "",
+    "locator": "3.24:179-212"
+   },
+   {
+    "id": "ks-3-32-469-668",
+    "title_zh": "燕庭金石叢稿",
+    "author_zh": "劉喜海",
+    "locator": "3.32:469-668"
+   },
+   {
+    "id": "ks-3-23-459-501",
+    "title_zh": "獻縣金石志",
+    "author_zh": "",
+    "locator": "3.23:459-501"
+   },
+   {
+    "id": "ks-t-x-222",
+    "title_zh": "玉山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-435-437",
+    "title_zh": "玉環碑碣志",
+    "author_zh": "",
+    "locator": "3.10:435-437"
+   },
+   {
+    "id": "ks-t-x-236",
+    "title_zh": "珠河金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-151",
+    "title_zh": "琴川碑石三志補記續編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-409-417",
+    "title_zh": "瓊山金石志",
+    "author_zh": "",
+    "locator": "3.22:409-417"
+   },
+   {
+    "id": "ks-3-22-389-408",
+    "title_zh": "瓊州金石志",
+    "author_zh": "",
+    "locator": "3.22:389-408"
+   },
+   {
+    "id": "ks-3-6-401-414",
+    "title_zh": "瓜洲碑目續志",
+    "author_zh": "",
+    "locator": "3.6:401-414"
+   },
+   {
+    "id": "ks-3-6-415-424",
+    "title_zh": "甘泉碑碣志",
+    "author_zh": "",
+    "locator": "3.6:415-424"
+   },
+   {
+    "id": "ks-3-6-465-479",
+    "title_zh": "甘泉碑碣志",
+    "author_zh": "",
+    "locator": "3.6:465-479"
+   },
+   {
+    "id": "ks-3-6-425-428",
+    "title_zh": "甘泉碑碣續志",
+    "author_zh": "",
+    "locator": "3.6:425-428"
+   },
+   {
+    "id": "ks-3-6-429-464",
+    "title_zh": "甘泉金石續考",
+    "author_zh": "",
+    "locator": "3.6:429-464"
+   },
+   {
+    "id": "ks-t-x-58",
+    "title_zh": "甘肅新碑記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-167",
+    "title_zh": "生春紅室金石述記",
+    "author_zh": "林萬里",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-257-260",
+    "title_zh": "甯安金石志",
+    "author_zh": "",
+    "locator": "3.22:257-260"
+   },
+   {
+    "id": "ks-t-x-144",
+    "title_zh": "甯津金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-144",
+    "title_zh": "甯海金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-144",
+    "title_zh": "甯陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-21-95-186",
+    "title_zh": "番禺金石志",
+    "author_zh": "",
+    "locator": "3.21:95-186"
+   },
+   {
+    "id": "ks-t-x-216",
+    "title_zh": "瘗鶴銘辨",
+    "author_zh": "張紹",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-216",
+    "title_zh": "瘞鶴銘考",
+    "author_zh": "汪士鋐",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-216",
+    "title_zh": "瘞鶴銘考",
+    "author_zh": "汪士鋐",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-37-449-479",
+    "title_zh": "癖政堂收藏金石小學書目",
+    "author_zh": "",
+    "locator": "3.37:449-479"
+   },
+   {
+    "id": "ks-3-12-167-171",
+    "title_zh": "登州金石志",
+    "author_zh": "",
+    "locator": "3.12:167-171"
+   },
+   {
+    "id": "ks-3-32-199-202",
+    "title_zh": "皋蘭金石志",
+    "author_zh": "",
+    "locator": "3.32:199-202"
+   },
+   {
+    "id": "ks-t-x-216",
+    "title_zh": "益都金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-215",
+    "title_zh": "益都金石記",
+    "author_zh": "段松苓",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-173-205",
+    "title_zh": "盱眙金石志稿",
+    "author_zh": "",
+    "locator": "3.12:173-205"
+   },
+   {
+    "id": "ks-3-39-431-462",
+    "title_zh": "石刻鋪敘",
+    "author_zh": "",
+    "locator": "3.39:431-462"
+   },
+   {
+    "id": "ks-t-x-167",
+    "title_zh": "石城金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-331-341",
+    "title_zh": "石墨餘馨",
+    "author_zh": "俞陛雲",
+    "locator": "3.35:331-341"
+   },
+   {
+    "id": "ks-t-x-171",
+    "title_zh": "石屏金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-171",
+    "title_zh": "石泉書屋金石題跋",
+    "author_zh": "李佐賢",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-171",
+    "title_zh": "石目",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-297-308",
+    "title_zh": "石經殘字考",
+    "author_zh": "翁方綱",
+    "locator": "3.35:297-308"
+   },
+   {
+    "id": "ks-3-35-277-295",
+    "title_zh": "石經考",
+    "author_zh": "顧炎武",
+    "locator": "3.35:277-295"
+   },
+   {
+    "id": "ks-3-2-545-565",
+    "title_zh": "石門碑醒",
+    "author_zh": "",
+    "locator": "3.2:545-565"
+   },
+   {
+    "id": "ks-3-14-405-408",
+    "title_zh": "石門金石志",
+    "author_zh": "",
+    "locator": "3.14:405-408"
+   },
+   {
+    "id": "ks-3-7-449-456",
+    "title_zh": "石門金石志",
+    "author_zh": "",
+    "locator": "3.7:449-456"
+   },
+   {
+    "id": "ks-3-7-457-466",
+    "title_zh": "石門金石志",
+    "author_zh": "",
+    "locator": "3.7:457-466"
+   },
+   {
+    "id": "ks-3-35-309-330",
+    "title_zh": "石鼓文音釋",
+    "author_zh": "楊慎",
+    "locator": "3.35:309-330"
+   },
+   {
+    "id": "ks-3-22-331-335",
+    "title_zh": "砥齋題跋",
+    "author_zh": "王弘撰",
+    "locator": "3.22:331-335"
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "碑別字抬遺",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-28",
+    "title_zh": "碑帖紀證",
+    "author_zh": "范大徹",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "碑版文廣例",
+    "author_zh": "王芑孫",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-28",
+    "title_zh": "碧落碑文正誤",
+    "author_zh": "陶滋",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-5-7",
+    "title_zh": "福山金石志稿",
+    "author_zh": "",
+    "locator": "3.16:5-7"
+   },
+   {
+    "id": "ks-3-17-9-29",
+    "title_zh": "福州碑碣志",
+    "author_zh": "",
+    "locator": "3.17:9-29"
+   },
+   {
+    "id": "ks-t-x-54",
+    "title_zh": "福建石刻續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-54",
+    "title_zh": "福建石刻附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-54",
+    "title_zh": "福建金石志",
+    "author_zh": "福建通志局",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-28-209-212",
+    "title_zh": "禹州金石附志",
+    "author_zh": "姚椿",
+    "locator": "3.28:209-212"
+   },
+   {
+    "id": "ks-3-16-299-341",
+    "title_zh": "窗碑記",
+    "author_zh": "",
+    "locator": "3.16:299-341"
+   },
+   {
+    "id": "ks-t-x-229",
+    "title_zh": "章邱金石錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-236",
+    "title_zh": "竹崦盦金石目錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-236",
+    "title_zh": "竹崦盦金石目錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-226",
+    "title_zh": "筠消館金石",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-9-11",
+    "title_zh": "筠連金石附志",
+    "author_zh": "文爾炘",
+    "locator": "3.16:9-11"
+   },
+   {
+    "id": "ks-3-15-49-51",
+    "title_zh": "簡州碑目志",
+    "author_zh": "",
+    "locator": "3.15:49-51"
+   },
+   {
+    "id": "ks-3-15-53-56",
+    "title_zh": "簡陽金石續篇",
+    "author_zh": "",
+    "locator": "3.15:53-56"
+   },
+   {
+    "id": "ks-3-28-43-70",
+    "title_zh": "籀史",
+    "author_zh": "翟耆年",
+    "locator": "3.28:43-70"
+   },
+   {
+    "id": "ks-3-34-539-547",
+    "title_zh": "紅崖碑釋文",
+    "author_zh": "",
+    "locator": "3.34:539-547"
+   },
+   {
+    "id": "ks-3-38-419-578",
+    "title_zh": "紅藕齋漢碑彙鈔集跋",
+    "author_zh": "孟慶雲",
+    "locator": "3.38:419-578"
+   },
+   {
+    "id": "ks-t-x-140",
+    "title_zh": "納谿金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-9-1-58",
+    "title_zh": "紹興金石志",
+    "author_zh": "",
+    "locator": "3.9:1-58"
+   },
+   {
+    "id": "ks-3-31-409-412",
+    "title_zh": "絳縣碑志",
+    "author_zh": "胡廷",
+    "locator": "3.31:409-412"
+   },
+   {
+    "id": "ks-3-15-165-194",
+    "title_zh": "綿陽金石志",
+    "author_zh": "",
+    "locator": "3.15:165-194"
+   },
+   {
+    "id": "ks-3-10-347-384",
+    "title_zh": "縉雲碑碣志",
+    "author_zh": "",
+    "locator": "3.10:347-384"
+   },
+   {
+    "id": "ks-t-x-91",
+    "title_zh": "績語堂題跋",
+    "author_zh": "魏錫曾",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-51",
+    "title_zh": "繁峙金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-187-206",
+    "title_zh": "羅定金石志",
+    "author_zh": "",
+    "locator": "3.22:187-206"
+   },
+   {
+    "id": "ks-3-15-211-234",
+    "title_zh": "羅江金石志",
+    "author_zh": "",
+    "locator": "3.15:211-234"
+   },
+   {
+    "id": "ks-3-15-207-210",
+    "title_zh": "羅江金石志",
+    "author_zh": "",
+    "locator": "3.15:207-210"
+   },
+   {
+    "id": "ks-t-x-217",
+    "title_zh": "義門題跋",
+    "author_zh": "何焯",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-37-605-616",
+    "title_zh": "翠墨園語",
+    "author_zh": "王懿榮",
+    "locator": "3.37:605-616"
+   },
+   {
+    "id": "ks-t-x-214",
+    "title_zh": "耀州金石志",
+    "author_zh": "喬世寧",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-413-436",
+    "title_zh": "聞喜金石志",
+    "author_zh": "楊田",
+    "locator": "3.31:413-436"
+   },
+   {
+    "id": "ks-3-31-383-393",
+    "title_zh": "聯晉金石記",
+    "author_zh": "",
+    "locator": "3.31:383-393"
+   },
+   {
+    "id": "ks-t-x-230",
+    "title_zh": "肇慶金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-51",
+    "title_zh": "肥城金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-27-323-350",
+    "title_zh": "膠州金石志",
+    "author_zh": "",
+    "locator": "3.27:323-350"
+   },
+   {
+    "id": "ks-3-27-351-354",
+    "title_zh": "膠澳金石志",
+    "author_zh": "",
+    "locator": "3.27:351-354"
+   },
+   {
+    "id": "ks-3-14-377-380",
+    "title_zh": "臨武金石志",
+    "author_zh": "",
+    "locator": "3.14:377-380"
+   },
+   {
+    "id": "ks-t-x-124",
+    "title_zh": "臨沂金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-126",
+    "title_zh": "臨沂金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-33-39",
+    "title_zh": "臨縣古蹟考",
+    "author_zh": "吳命新",
+    "locator": "3.31:33-39"
+   },
+   {
+    "id": "ks-3-28-1-16",
+    "title_zh": "臨胸藝文志",
+    "author_zh": "",
+    "locator": "3.28:1-16"
+   },
+   {
+    "id": "ks-3-28-17-38",
+    "title_zh": "臨胸金石續志",
+    "author_zh": "",
+    "locator": "3.28:17-38"
+   },
+   {
+    "id": "ks-t-x-124",
+    "title_zh": "臨邑金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-126",
+    "title_zh": "臨邑金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-20-135-275",
+    "title_zh": "臺南古碑志",
+    "author_zh": "",
+    "locator": "3.20:135-275"
+   },
+   {
+    "id": "ks-3-20-1-133",
+    "title_zh": "臺南市南門碑林圖志",
+    "author_zh": "",
+    "locator": "3.20:1-133"
+   },
+   {
+    "id": "ks-3-18-189-361",
+    "title_zh": "臺灣中部古碑文集成",
+    "author_zh": "",
+    "locator": "3.18:189-361"
+   },
+   {
+    "id": "ks-3-20-387-391",
+    "title_zh": "臺灣金石志",
+    "author_zh": "",
+    "locator": "3.20:387-391"
+   },
+   {
+    "id": "ks-3-6-481-485",
+    "title_zh": "興化碑目志",
+    "author_zh": "",
+    "locator": "3.6:481-485"
+   },
+   {
+    "id": "ks-3-12-443-445",
+    "title_zh": "興安金石志",
+    "author_zh": "",
+    "locator": "3.12:443-445"
+   },
+   {
+    "id": "ks-3-13-551-557",
+    "title_zh": "興山金石志",
+    "author_zh": "",
+    "locator": "3.13:551-557"
+   },
+   {
+    "id": "ks-3-31-557-570",
+    "title_zh": "興平金石志",
+    "author_zh": "",
+    "locator": "3.31:557-570"
+   },
+   {
+    "id": "ks-3-34-617-631",
+    "title_zh": "舊館壇碑考",
+    "author_zh": "翁大年",
+    "locator": "3.34:617-631"
+   },
+   {
+    "id": "ks-t-x-134",
+    "title_zh": "芒洛冢墓邀文續編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-134",
+    "title_zh": "茂名金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-134",
+    "title_zh": "茂州金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-6-171-174",
+    "title_zh": "荆溪碑刻志",
+    "author_zh": "",
+    "locator": "3.6:171-174"
+   },
+   {
+    "id": "ks-3-37-273-308",
+    "title_zh": "菜竹堂碑目",
+    "author_zh": "",
+    "locator": "3.37:273-308"
+   },
+   {
+    "id": "ks-t-x-84",
+    "title_zh": "華亭金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-85",
+    "title_zh": "華陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-85",
+    "title_zh": "華陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "萬年金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "萬邑西南山石刻記",
+    "author_zh": "況周頤",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-78",
+    "title_zh": "萬里邀文目錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-441-455",
+    "title_zh": "蒲縣碑銘志",
+    "author_zh": "王居正",
+    "locator": "3.31:441-455"
+   },
+   {
+    "id": "ks-3-2-109-134",
+    "title_zh": "蒼玉洞題名石刻",
+    "author_zh": "",
+    "locator": "3.2:109-134"
+   },
+   {
+    "id": "ks-t-x-78",
+    "title_zh": "蒿里遺文目錄續編",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-16-251-260",
+    "title_zh": "蓬溪金石志",
+    "author_zh": "",
+    "locator": "3.16:251-260"
+   },
+   {
+    "id": "ks-3-32-325-354",
+    "title_zh": "蔚州金石志",
+    "author_zh": "",
+    "locator": "3.32:325-354"
+   },
+   {
+    "id": "ks-t-x-192",
+    "title_zh": "蕪湖碑刻志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-202",
+    "title_zh": "蕭山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-13-363-366",
+    "title_zh": "蕲州金石志",
+    "author_zh": "",
+    "locator": "3.13:363-366"
+   },
+   {
+    "id": "ks-t-x-116",
+    "title_zh": "藍田金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-216",
+    "title_zh": "藝風堂金石文字目",
+    "author_zh": "繆荃孫",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-176",
+    "title_zh": "蘇州金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-5-523-570",
+    "title_zh": "蘇州金石志",
+    "author_zh": "",
+    "locator": "3.5:523-570"
+   },
+   {
+    "id": "ks-t-x-176",
+    "title_zh": "蘇齋唐碑選",
+    "author_zh": "翁方綱",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-176",
+    "title_zh": "蘇齋題跋",
+    "author_zh": "翁方綱",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-116",
+    "title_zh": "蘭谿縣金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-10-273-313",
+    "title_zh": "處州金石志",
+    "author_zh": "",
+    "locator": "3.10:273-313"
+   },
+   {
+    "id": "ks-t-x-222",
+    "title_zh": "虞鄉金石新考",
+    "author_zh": "李無逸",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-263-275",
+    "title_zh": "蜀石經毛詩考異",
+    "author_zh": "吳騫",
+    "locator": "3.35:263-275"
+   },
+   {
+    "id": "ks-3-14-191-201",
+    "title_zh": "衡山金石志",
+    "author_zh": "",
+    "locator": "3.14:191-201"
+   },
+   {
+    "id": "ks-3-40-487-542",
+    "title_zh": "衡陽金石志",
+    "author_zh": "",
+    "locator": "3.40:487-542"
+   },
+   {
+    "id": "ks-3-10-1-141",
+    "title_zh": "衢縣碑碣志",
+    "author_zh": "",
+    "locator": "3.10:1-141"
+   },
+   {
+    "id": "ks-t-x-224",
+    "title_zh": "袁州碑銘志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-201",
+    "title_zh": "裹陽察墓造文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-37-263-272",
+    "title_zh": "西安碑目",
+    "author_zh": "",
+    "locator": "3.37:263-272"
+   },
+   {
+    "id": "ks-3-31-469-489",
+    "title_zh": "西安金石志",
+    "author_zh": "",
+    "locator": "3.31:469-489"
+   },
+   {
+    "id": "ks-3-28-283-322",
+    "title_zh": "西華金石續志",
+    "author_zh": "",
+    "locator": "3.28:283-322"
+   },
+   {
+    "id": "ks-t-x-202",
+    "title_zh": "解縣金石考",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-28-327-329",
+    "title_zh": "許州金石志",
+    "author_zh": "",
+    "locator": "3.28:327-329"
+   },
+   {
+    "id": "ks-3-28-331-392",
+    "title_zh": "許昌金石志",
+    "author_zh": "",
+    "locator": "3.28:331-392"
+   },
+   {
+    "id": "ks-t-x-232",
+    "title_zh": "誌銘廣例",
+    "author_zh": "梁玉繩",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-222",
+    "title_zh": "語石",
+    "author_zh": "葉昌熾",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-236",
+    "title_zh": "諸史碑銘錄目",
+    "author_zh": "陸雅浦",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-32-261-264",
+    "title_zh": "諸城王氏金石書提要",
+    "author_zh": "",
+    "locator": "3.32:261-264"
+   },
+   {
+    "id": "ks-3-28-71-80",
+    "title_zh": "諸城金石續考",
+    "author_zh": "",
+    "locator": "3.28:71-80"
+   },
+   {
+    "id": "ks-3-34-525-538",
+    "title_zh": "諸城金石續考",
+    "author_zh": "",
+    "locator": "3.34:525-538"
+   },
+   {
+    "id": "ks-3-28-39-42",
+    "title_zh": "諸城金石考",
+    "author_zh": "",
+    "locator": "3.28:39-42"
+   },
+   {
+    "id": "ks-t-x-236",
+    "title_zh": "諸暨金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-2-587-593",
+    "title_zh": "讀漢碑",
+    "author_zh": "兪樾",
+    "locator": "3.2:587-593"
+   },
+   {
+    "id": "ks-3-35-165-177",
+    "title_zh": "讀熹平石經殘碑記",
+    "author_zh": "趙鐵寒",
+    "locator": "3.35:165-177"
+   },
+   {
+    "id": "ks-3-35-357-361",
+    "title_zh": "讀石墨餘警後記",
+    "author_zh": "",
+    "locator": "3.35:357-361"
+   },
+   {
+    "id": "ks-3-40-477-485",
+    "title_zh": "讀碑小識",
+    "author_zh": "茫子",
+    "locator": "3.40:477-485"
+   },
+   {
+    "id": "ks-3-40-573-581",
+    "title_zh": "讀金石萃編條記",
+    "author_zh": "沈欽韓",
+    "locator": "3.40:573-581"
+   },
+   {
+    "id": "ks-3-8-519-553",
+    "title_zh": "象山金石志",
+    "author_zh": "",
+    "locator": "3.8:519-553"
+   },
+   {
+    "id": "ks-t-x-232",
+    "title_zh": "貞松堂集古遺文續編",
+    "author_zh": "羅振玉",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-12-135-138",
+    "title_zh": "貴池金石志",
+    "author_zh": "",
+    "locator": "3.12:135-138"
+   },
+   {
+    "id": "ks-t-x-67",
+    "title_zh": "貴池金石附志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-69",
+    "title_zh": "貴溪金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-69",
+    "title_zh": "貴縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-167-225",
+    "title_zh": "費縣金石志",
+    "author_zh": "",
+    "locator": "3.26:167-225"
+   },
+   {
+    "id": "ks-3-23-25-30",
+    "title_zh": "賀縣金石志",
+    "author_zh": "",
+    "locator": "3.23:25-30"
+   },
+   {
+    "id": "ks-3-16-27-56",
+    "title_zh": "資州金石志",
+    "author_zh": "",
+    "locator": "3.16:27-56"
+   },
+   {
+    "id": "ks-3-16-75-88",
+    "title_zh": "資陽金石考",
+    "author_zh": "",
+    "locator": "3.16:75-88"
+   },
+   {
+    "id": "ks-t-x-58",
+    "title_zh": "贛榆金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-58",
+    "title_zh": "贛縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-36",
+    "title_zh": "赤溪金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-226",
+    "title_zh": "越中金石記",
+    "author_zh": "杜春生",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-122",
+    "title_zh": "踪安碑碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-188",
+    "title_zh": "輞川金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-40-469-476",
+    "title_zh": "辛已金石偶譯",
+    "author_zh": "",
+    "locator": "3.40:469-476"
+   },
+   {
+    "id": "ks-t-x-39",
+    "title_zh": "達縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-187-210",
+    "title_zh": "遵義金石志",
+    "author_zh": "",
+    "locator": "3.23:187-210"
+   },
+   {
+    "id": "ks-3-23-547-553",
+    "title_zh": "遷安金石篇",
+    "author_zh": "",
+    "locator": "3.23:547-553"
+   },
+   {
+    "id": "ks-3-15-559-562",
+    "title_zh": "邛州金石志",
+    "author_zh": "",
+    "locator": "3.15:559-562"
+   },
+   {
+    "id": "ks-t-x-28",
+    "title_zh": "邠州石室錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-25-41-50",
+    "title_zh": "邢臺金石志",
+    "author_zh": "",
+    "locator": "3.25:41-50"
+   },
+   {
+    "id": "ks-3-6-567-578",
+    "title_zh": "邳州古蹟志",
+    "author_zh": "",
+    "locator": "3.6:567-578"
+   },
+   {
+    "id": "ks-3-17-85-87",
+    "title_zh": "邵武石刻志",
+    "author_zh": "",
+    "locator": "3.17:85-87"
+   },
+   {
+    "id": "ks-t-x-134",
+    "title_zh": "郿縣金石遺文",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-333-342",
+    "title_zh": "鄉寧金石記",
+    "author_zh": "",
+    "locator": "3.31:333-342"
+   },
+   {
+    "id": "ks-3-25-515-526",
+    "title_zh": "鄒平金石志",
+    "author_zh": "",
+    "locator": "3.25:515-526"
+   },
+   {
+    "id": "ks-3-26-131-141",
+    "title_zh": "鄒縣金石續志",
+    "author_zh": "",
+    "locator": "3.26:131-141"
+   },
+   {
+    "id": "ks-t-x-219",
+    "title_zh": "鄞縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-219",
+    "title_zh": "鄞縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-84",
+    "title_zh": "鄠縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-28-181-189",
+    "title_zh": "鄢陵金石志",
+    "author_zh": "",
+    "locator": "3.28:181-189"
+   },
+   {
+    "id": "ks-3-28-191-207",
+    "title_zh": "鄢陵金石志",
+    "author_zh": "",
+    "locator": "3.28:191-207"
+   },
+   {
+    "id": "ks-t-x-118",
+    "title_zh": "醴泉金石志",
+    "author_zh": "孫星衍",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-401-407",
+    "title_zh": "释州石刻志",
+    "author_zh": "",
+    "locator": "3.31:401-407"
+   },
+   {
+    "id": "ks-3-15-95-103",
+    "title_zh": "金堂金石續志",
+    "author_zh": "",
+    "locator": "3.15:95-103"
+   },
+   {
+    "id": "ks-t-x-99",
+    "title_zh": "金山金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-102",
+    "title_zh": "金石例",
+    "author_zh": "潘昂霄",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-102",
+    "title_zh": "金石例補",
+    "author_zh": "郭麐",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-102",
+    "title_zh": "金石古文",
+    "author_zh": "楊慎",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-106",
+    "title_zh": "金石學",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-106",
+    "title_zh": "金石學講義",
+    "author_zh": "陸和九",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-106",
+    "title_zh": "金石小箋",
+    "author_zh": "葉奕苞",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-102",
+    "title_zh": "金石彙目分編",
+    "author_zh": "吳式芬",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-105",
+    "title_zh": "金石文字記",
+    "author_zh": "顧炎武",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-105",
+    "title_zh": "金石文字辨異",
+    "author_zh": "邢澍",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-105",
+    "title_zh": "金石文字辨異補編",
+    "author_zh": "楊紹廉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-105",
+    "title_zh": "金石文字集拓",
+    "author_zh": "莫繩孫",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-105",
+    "title_zh": "金石文考略",
+    "author_zh": "李光暎",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-102",
+    "title_zh": "金石林時地考",
+    "author_zh": "趙均",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-39-627-674",
+    "title_zh": "金石綜例",
+    "author_zh": "馮登府",
+    "locator": "3.39:627-674"
+   },
+   {
+    "id": "ks-t-x-106",
+    "title_zh": "金石續編",
+    "author_zh": "陸耀遹",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-39-575-586",
+    "title_zh": "金石要例",
+    "author_zh": "黃宗羲",
+    "locator": "3.39:575-586"
+   },
+   {
+    "id": "ks-3-40-25-29",
+    "title_zh": "金石餘論",
+    "author_zh": "李遇孫",
+    "locator": "3.40:25-29"
+   },
+   {
+    "id": "ks-3-10-143-149",
+    "title_zh": "金華金石志",
+    "author_zh": "",
+    "locator": "3.10:143-149"
+   },
+   {
+    "id": "ks-t-x-99",
+    "title_zh": "金陵古金石考目",
+    "author_zh": "顧起元",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-99",
+    "title_zh": "金陵碑碣新志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-297-367",
+    "title_zh": "鉅野金石志",
+    "author_zh": "",
+    "locator": "3.26:297-367"
+   },
+   {
+    "id": "ks-3-7-219-228",
+    "title_zh": "錢塘金石志",
+    "author_zh": "",
+    "locator": "3.7:219-228"
+   },
+   {
+    "id": "ks-t-x-33",
+    "title_zh": "長垣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-34",
+    "title_zh": "長子碑碣志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-34",
+    "title_zh": "長子金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-491-499",
+    "title_zh": "長安金石志",
+    "author_zh": "",
+    "locator": "3.31:491-499"
+   },
+   {
+    "id": "ks-3-17-55-65",
+    "title_zh": "長汀金石志",
+    "author_zh": "",
+    "locator": "3.17:55-65"
+   },
+   {
+    "id": "ks-t-x-33",
+    "title_zh": "長治金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-25-569-572",
+    "title_zh": "長清金石錄遺",
+    "author_zh": "",
+    "locator": "3.25:569-572"
+   },
+   {
+    "id": "ks-3-8-243-250",
+    "title_zh": "長興碑版志",
+    "author_zh": "",
+    "locator": "3.8:243-250"
+   },
+   {
+    "id": "ks-3-8-251-299",
+    "title_zh": "長興碑碣志",
+    "author_zh": "",
+    "locator": "3.8:251-299"
+   },
+   {
+    "id": "ks-t-x-114",
+    "title_zh": "開有益寨金石文字記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-114",
+    "title_zh": "開縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-29-679-698",
+    "title_zh": "関鄉金石志",
+    "author_zh": "",
+    "locator": "3.29:679-698"
+   },
+   {
+    "id": "ks-t-x-137",
+    "title_zh": "閩中金石志",
+    "author_zh": "馮登府",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-17-43-46",
+    "title_zh": "閩侯金石志",
+    "author_zh": "",
+    "locator": "3.17:43-46"
+   },
+   {
+    "id": "ks-t-x-157",
+    "title_zh": "闕特勤碑跋",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "關中石刻文字新編",
+    "author_zh": "毛鳳枝",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "關中金石文字存逸考",
+    "author_zh": "毛鳳枝",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-64",
+    "title_zh": "關中金石記",
+    "author_zh": "畢沅",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-29-513-526",
+    "title_zh": "陜縣金石志",
+    "author_zh": "",
+    "locator": "3.29:513-526"
+   },
+   {
+    "id": "ks-t-x-160",
+    "title_zh": "陜西金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-34",
+    "title_zh": "陳簠齋丈筆記",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-427-508",
+    "title_zh": "陵縣金石志",
+    "author_zh": "",
+    "locator": "3.26:427-508"
+   },
+   {
+    "id": "ks-t-x-127",
+    "title_zh": "陵縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-509-518",
+    "title_zh": "陵縣金石續志",
+    "author_zh": "",
+    "locator": "3.26:509-518"
+   },
+   {
+    "id": "ks-t-x-127",
+    "title_zh": "陵縣金石續志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-184",
+    "title_zh": "陶齋吉金續錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-184",
+    "title_zh": "陶齋金石文字跋尾",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-213",
+    "title_zh": "陽信金石附志",
+    "author_zh": "勞乃宣",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-214",
+    "title_zh": "陽原金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-213",
+    "title_zh": "陽武金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-87-96",
+    "title_zh": "隋徐智竦墓誌考",
+    "author_zh": "王文燾",
+    "locator": "3.35:87-96"
+   },
+   {
+    "id": "ks-t-x-117",
+    "title_zh": "隸辨",
+    "author_zh": "顧藹吉",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-120",
+    "title_zh": "隸韻考證",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-24-1-35",
+    "title_zh": "雄縣金石新篇",
+    "author_zh": "",
+    "locator": "3.24:1-35"
+   },
+   {
+    "id": "ks-t-x-90",
+    "title_zh": "集古求真續編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-220",
+    "title_zh": "雍州金石記",
+    "author_zh": "朱楓",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-6-579-582",
+    "title_zh": "雕甯金石文字附志",
+    "author_zh": "",
+    "locator": "3.6:579-582"
+   },
+   {
+    "id": "ks-3-32-249-255",
+    "title_zh": "雙城碑銘志",
+    "author_zh": "",
+    "locator": "3.32:249-255"
+   },
+   {
+    "id": "ks-3-15-91-94",
+    "title_zh": "雙流金石志",
+    "author_zh": "",
+    "locator": "3.15:91-94"
+   },
+   {
+    "id": "ks-3-38-277-327",
+    "title_zh": "雪堂金石文字跋尾",
+    "author_zh": "羅振玉",
+    "locator": "3.38:277-327"
+   },
+   {
+    "id": "ks-3-2-351-520",
+    "title_zh": "雪展尋碑錄",
+    "author_zh": "",
+    "locator": "3.2:351-520"
+   },
+   {
+    "id": "ks-t-x-226",
+    "title_zh": "雲南金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-226",
+    "title_zh": "雲南金石志稿",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-226",
+    "title_zh": "雲和金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-227",
+    "title_zh": "雲臺金石新志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-227",
+    "title_zh": "雲陽金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-124",
+    "title_zh": "零陵金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-126",
+    "title_zh": "零陵金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-23-175-186",
+    "title_zh": "電白金石志",
+    "author_zh": "",
+    "locator": "3.23:175-186"
+   },
+   {
+    "id": "ks-t-x-198",
+    "title_zh": "霞浦金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-26-41-43",
+    "title_zh": "青城金石志",
+    "author_zh": "",
+    "locator": "3.26:41-43"
+   },
+   {
+    "id": "ks-3-27-355-391",
+    "title_zh": "青州金石志",
+    "author_zh": "",
+    "locator": "3.27:355-391"
+   },
+   {
+    "id": "ks-t-x-153",
+    "title_zh": "青田古蹟志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-153",
+    "title_zh": "青縣金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-51",
+    "title_zh": "非見齋審定六朝正書碑目",
+    "author_zh": "譚獻",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-30-1-8",
+    "title_zh": "鞏縣金石志",
+    "author_zh": "",
+    "locator": "3.30:1-8"
+   },
+   {
+    "id": "ks-3-30-9-122",
+    "title_zh": "鞏縣金石志",
+    "author_zh": "",
+    "locator": "3.30:9-122"
+   },
+   {
+    "id": "ks-t-x-73",
+    "title_zh": "韓城金石志不分卷",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-77",
+    "title_zh": "韓忠武王祠墓誌正編",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-21-457-508",
+    "title_zh": "順德金石志",
+    "author_zh": "",
+    "locator": "3.21:457-508"
+   },
+   {
+    "id": "ks-3-21-509-527",
+    "title_zh": "順德金石略",
+    "author_zh": "",
+    "locator": "3.21:509-527"
+   },
+   {
+    "id": "ks-3-23-229-237",
+    "title_zh": "順義金石志",
+    "author_zh": "",
+    "locator": "3.23:229-237"
+   },
+   {
+    "id": "ks-t-x-184",
+    "title_zh": "題嵩洛訪碑圖",
+    "author_zh": "翁方綱",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-62",
+    "title_zh": "顧氏求古錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-t-x-222",
+    "title_zh": "餘姚金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-7-373-384",
+    "title_zh": "餘杭碑碣志",
+    "author_zh": "",
+    "locator": "3.7:373-384"
+   },
+   {
+    "id": "ks-3-12-563-585",
+    "title_zh": "饒州金石志",
+    "author_zh": "",
+    "locator": "3.12:563-585"
+   },
+   {
+    "id": "ks-3-21-635-641",
+    "title_zh": "香山碑志",
+    "author_zh": "",
+    "locator": "3.21:635-641"
+   },
+   {
+    "id": "ks-3-23-271-279",
+    "title_zh": "香河金石志",
+    "author_zh": "",
+    "locator": "3.23:271-279"
+   },
+   {
+    "id": "ks-3-26-407-421",
+    "title_zh": "高唐金石錄",
+    "author_zh": "",
+    "locator": "3.26:407-421"
+   },
+   {
+    "id": "ks-3-26-403-405",
+    "title_zh": "高唐金石錄",
+    "author_zh": "",
+    "locator": "3.26:403-405"
+   },
+   {
+    "id": "ks-t-x-58",
+    "title_zh": "高昌專錄",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-22-65-119",
+    "title_zh": "高要金石志",
+    "author_zh": "",
+    "locator": "3.22:65-119"
+   },
+   {
+    "id": "ks-3-6-487-491",
+    "title_zh": "高郵墓志",
+    "author_zh": "",
+    "locator": "3.6:487-491"
+   },
+   {
+    "id": "ks-3-6-493-496",
+    "title_zh": "高郵志",
+    "author_zh": "",
+    "locator": "3.6:493-496"
+   },
+   {
+    "id": "ks-3-24-87-89",
+    "title_zh": "高陽金石志",
+    "author_zh": "",
+    "locator": "3.24:87-89"
+   },
+   {
+    "id": "ks-t-x-222",
+    "title_zh": "鬱林金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-35-209-225",
+    "title_zh": "魏三體石經遺字考",
+    "author_zh": "孫星衍",
+    "locator": "3.35:209-225"
+   },
+   {
+    "id": "ks-3-37-531-534",
+    "title_zh": "魏晉石存目",
+    "author_zh": "羅振玉",
+    "locator": "3.37:531-534"
+   },
+   {
+    "id": "ks-t-x-26",
+    "title_zh": "鮑臆園丈手札",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-31-201-228",
+    "title_zh": "鳳臺金石輯錄",
+    "author_zh": "姚學甲",
+    "locator": "3.31:201-228"
+   },
+   {
+    "id": "ks-3-23-323-357",
+    "title_zh": "鹽山金石志",
+    "author_zh": "",
+    "locator": "3.23:323-357"
+   },
+   {
+    "id": "ks-3-23-359-401",
+    "title_zh": "鹽山金石新篇",
+    "author_zh": "",
+    "locator": "3.23:359-401"
+   },
+   {
+    "id": "ks-3-28-241-244",
+    "title_zh": "鹿邑金石志",
+    "author_zh": "",
+    "locator": "3.28:241-244"
+   },
+   {
+    "id": "ks-3-28-245-267",
+    "title_zh": "鹿邑金石志",
+    "author_zh": "",
+    "locator": "3.28:245-267"
+   },
+   {
+    "id": "ks-3-13-367-371",
+    "title_zh": "麻城碑碣志前編",
+    "author_zh": "",
+    "locator": "3.13:367-371"
+   },
+   {
+    "id": "ks-3-28-615-624",
+    "title_zh": "黃州金石志",
+    "author_zh": "",
+    "locator": "3.28:615-624"
+   },
+   {
+    "id": "ks-t-x-118",
+    "title_zh": "黎平金石志",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-14-217-236",
+    "title_zh": "黑龍江金石附稿",
+    "author_zh": "",
+    "locator": "3.14:217-236"
+   },
+   {
+    "id": "ks-3-15-451-458",
+    "title_zh": "黔江金石志",
+    "author_zh": "",
+    "locator": "3.15:451-458"
+   },
+   {
+    "id": "ks-3-15-149-153",
+    "title_zh": "龍安金石志",
+    "author_zh": "",
+    "locator": "3.15:149-153"
+   },
+   {
+    "id": "ks-3-15-353-369",
+    "title_zh": "龍脊石題刻",
+    "author_zh": "",
+    "locator": "3.15:353-369"
+   },
+   {
+    "id": "ks-t-x-127",
+    "title_zh": "龍脊石題刻",
+    "author_zh": "",
+    "locator": ""
+   },
+   {
+    "id": "ks-3-21-529-531",
+    "title_zh": "龍門金石志",
+    "author_zh": "",
+    "locator": "3.21:529-531"
+   },
+   {
+    "id": "ks-t-x-127",
+    "title_zh": "龍門金石志",
+    "author_zh": "",
+    "locator": ""
+   }
+  ]
+ },
+ "note": "石刻史料新編 (新文豐, 1977–2006), 第一–四輯, via the Kuhn & Stahl bibliography."
+}
