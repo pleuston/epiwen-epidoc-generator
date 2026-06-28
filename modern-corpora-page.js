@@ -123,13 +123,17 @@
     if (p !== 0) return sortDir === "desc" ? -p : p;
     return fold(a.title_zh || "").localeCompare(fold(b.title_zh || ""));
   }
-  function holds(h) {
-    if (!h) return "";
-    var b = [];
+  function holds(r) {
+    var h = r.holdings || {}, b = [];
     if (h.harvard) b.push('<span class="mc-hold harvard" title="Harvard-Yenching">Harvard</span>');
     if (h.sbb) b.push('<span class="mc-hold sbb" title="Staatsbibliothek zu Berlin">SBB</span>');
     if (h.k10plus) b.push('<span class="mc-hold k10" title="K10plus union catalog">K10+</span>');
     if (h.vault) b.push('<span class="mc-hold vault" title="already in vault">vault</span>');
+    if (r.web && !b.length) {
+      var ev = r.evidence ? String(r.evidence).match(/https?:\/\/[^\s)]+/) : null;
+      b.push(ev ? '<a class="mc-hold web" target="_blank" rel="noopener" href="' + esc(ev[0]) + '" title="web fan-out source (not library-verified)">web ↗</a>'
+                : '<span class="mc-hold web" title="web fan-out source (not library-verified)">web</span>');
+    }
     return b.join("");
   }
   function cleanAuthor(a) { return (a || "").replace(/\s*\([^)]*\)/g, "").replace(/\s+(主編|編|輯校|編著|著|纂)$/,"").trim(); }
@@ -146,7 +150,7 @@
       '<td class="num">' + (r.year ? esc(r.year) : "—") + "</td>" +
       "<td>" + (r.publisher ? '<span class="ct-zh">' + esc(r.publisher.replace(/\s*\([^)]*\)/g, "")) + "</span>" : '<span class="ct-city">—</span>') + "</td>" +
       '<td class="mc-place">' + esc(place) + (sub ? '<div class="ct-city">' + esc(sub) + "</div>" : "") + "</td>" +
-      "<td>" + (holds(r.holdings) || '<span class="ct-city">—</span>') + "</td></tr>";
+      "<td>" + (holds(r) || '<span class="ct-city">—</span>') + "</td></tr>";
   }
   function render() {
     var q = fold(el("ct-search").value.trim());
