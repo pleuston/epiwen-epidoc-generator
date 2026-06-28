@@ -22,13 +22,14 @@
     "harvard": true
    },
    "id": "mc-xiangtangshan-shiku-beik-1",
-   "section": "national",
+   "section": "site",
    "region": "",
    "province": "",
-   "site": "",
-   "category": "",
+   "site": "響堂山",
+   "category": "石窟 grottoes",
    "admin": "",
-   "place": "national"
+   "place": "響堂山",
+   "locality": "響堂山"
   },
   {
    "title_zh": "北京圖書館藏中國歷代石刻拓本匯編",
@@ -54,7 +55,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "龍門石窟碑刻題記彙錄",
@@ -74,13 +76,14 @@
     "harvard": true
    },
    "id": "mc-longmen-shiku-beike-tiji-3",
-   "section": "national",
+   "section": "site",
    "region": "",
    "province": "",
-   "site": "",
-   "category": "",
+   "site": "龍門石窟",
+   "category": "石窟 grottoes",
    "admin": "",
-   "place": "national"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "廣西石刻總集輯校 (全三冊)",
@@ -100,13 +103,14 @@
     "harvard": true
    },
    "id": "mc-guangxi-shike-zongji-jij-4",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "中南",
+   "province": "廣西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "廣西",
+   "locality": ""
   },
   {
    "title_zh": "陝西碑刻總目提要初編",
@@ -126,13 +130,14 @@
     "harvard": false
    },
    "id": "mc-shaanxi-beike-zongmu-tiy-5",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西北",
+   "province": "陝西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "道家金石略",
@@ -158,7 +163,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "陝西藥王山碑刻藝術總集",
@@ -178,13 +184,14 @@
     "harvard": true
    },
    "id": "mc-shaanxi-yaowangshan-beik-7",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西北",
+   "province": "陝西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "陝西",
+   "locality": "藥王山"
   },
   {
    "title_zh": "北京大學圖書館藏歷代金石拓本菁華",
@@ -208,7 +215,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "新中國出土墓誌",
@@ -232,7 +240,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "山東石刻分類全集（全八冊）",
@@ -252,13 +261,14 @@
     "harvard": false
    },
    "id": "mc-shandong-shike-fenlei-qu-10",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華東",
+   "province": "山東",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "石刻史料新編",
@@ -282,7 +292,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "三晉石刻總目",
@@ -300,13 +311,14 @@
     "harvard": false
    },
    "id": "mc-sanjin-shike-zongmu-12",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華北",
+   "province": "山西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "全唐文補遺",
@@ -330,7 +342,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "漢碑全集",
@@ -354,7 +367,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "千唐誌齋藏誌",
@@ -372,13 +386,14 @@
     "harvard": true
    },
    "id": "mc-qiantangzhizhai-cang-zhi-15",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "中南",
+   "province": "河南",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "河南",
+   "locality": "新安"
   },
   {
    "title_zh": "三晉石刻大全",
@@ -396,13 +411,14 @@
     "harvard": true
    },
    "id": "mc-sanjin-shike-daquan-16",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華北",
+   "province": "山西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "唐代墓誌彙編",
@@ -428,7 +444,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "房山石經題記匯編 / 房山石經題記整理與研究",
@@ -446,13 +463,14 @@
     "harvard": false
    },
    "id": "mc-fangshan-shijing-tiji-hu-18",
-   "section": "national",
+   "section": "site",
    "region": "",
    "province": "",
-   "site": "",
-   "category": "",
+   "site": "房山雲居寺",
+   "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "national"
+   "place": "房山雲居寺",
+   "locality": "房山雲居寺"
   },
   {
    "title_zh": "隋唐五代墓誌彙編",
@@ -476,7 +494,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "石刻文獻全編",
@@ -500,7 +519,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國歷代墓誌選編",
@@ -524,7 +544,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "漢魏南北朝墓誌彙編",
@@ -548,7 +569,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "北朝佛教石刻拓片百品",
@@ -574,7 +596,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "澤州碑刻大全",
@@ -592,13 +615,14 @@
     "harvard": false
    },
    "id": "mc-zezhou-beike-daquan-24",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華北",
+   "province": "山西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山西",
+   "locality": "晉城"
   },
   {
    "title_zh": "南京歷代碑刻集成",
@@ -618,13 +642,14 @@
     "harvard": false
    },
    "id": "mc-nanjing-lidai-beike-jich-25",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華東",
+   "province": "江蘇",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "江蘇",
+   "locality": "南京"
   },
   {
    "title_zh": "西安碑林全集",
@@ -642,13 +667,14 @@
     "harvard": true
    },
    "id": "mc-xi-an-beilin-quanji-26",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西北",
+   "province": "陝西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "陝西",
+   "locality": "西安"
   },
   {
    "title_zh": "秦晉豫新出墓誌蒐佚",
@@ -672,7 +698,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "遼代石刻文編 / 遼代石刻文續編",
@@ -696,7 +723,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國歷代石刻史料彙編",
@@ -720,7 +748,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "巴蜀珍稀金石文獻匯刊",
@@ -738,13 +767,14 @@
     "harvard": false
    },
    "id": "mc-bashu-zhenxi-jinshi-wenx-30",
-   "section": "national",
-   "region": "",
+   "section": "province",
+   "region": "西南",
    "province": "",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "西南地區",
+   "locality": ""
   },
   {
    "title_zh": "桂林石刻總集輯校",
@@ -762,13 +792,14 @@
     "harvard": true
    },
    "id": "mc-guilin-shike-zongji-jiji-31",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "中南",
+   "province": "廣西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "廣西",
+   "locality": "桂林"
   },
   {
    "title_zh": "中國磚銘全集",
@@ -792,7 +823,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國西北地區歷代石刻匯編",
@@ -810,13 +842,14 @@
     "harvard": true
    },
    "id": "mc-zhongguo-xibei-diqu-lida-33",
-   "section": "national",
-   "region": "",
+   "section": "province",
+   "region": "西北",
    "province": "",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "西北地區",
+   "locality": ""
   },
   {
    "title_zh": "故宮博物院藏歷代墓誌匯編",
@@ -840,7 +873,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國佛教金石文獻",
@@ -864,7 +898,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "西安碑林博物館新藏墓誌彙編 / 續編",
@@ -882,13 +917,14 @@
     "harvard": true
    },
    "id": "mc-xi-an-beilin-bowuguan-xi-36",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西北",
+   "province": "陝西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "陝西",
+   "locality": "西安"
   },
   {
    "title_zh": "泰山石刻 / 泰山石刻大全",
@@ -906,13 +942,14 @@
     "harvard": true
    },
    "id": "mc-taishan-shike-taishan-sh-37",
-   "section": "national",
+   "section": "site",
    "region": "",
    "province": "",
-   "site": "",
-   "category": "",
+   "site": "泰山",
+   "category": "五嶽",
    "admin": "",
-   "place": "national"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "石門石刻大全",
@@ -930,13 +967,14 @@
     "harvard": true
    },
    "id": "mc-shimen-shike-daquan-38",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西北",
+   "province": "陝西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "陝西",
+   "locality": "漢中"
   },
   {
    "title_zh": "中國畫像石全集",
@@ -960,7 +998,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國碑刻全集",
@@ -984,7 +1023,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "中國西南地區歷代石刻匯編",
@@ -1004,13 +1044,14 @@
     "harvard": false
    },
    "id": "mc-zhongguo-xinan-diqu-lida-41",
-   "section": "national",
-   "region": "",
+   "section": "province",
+   "region": "西南",
    "province": "",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "西南地區",
+   "locality": ""
   },
   {
    "title_zh": "河南碑刻類編 / 河南碑刻續編",
@@ -1028,13 +1069,14 @@
     "harvard": false
    },
    "id": "mc-henan-beike-leibian-xubi-42",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "中南",
+   "province": "河南",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "四川歷代碑刻",
@@ -1052,13 +1094,14 @@
     "harvard": false
    },
    "id": "mc-sichuan-lidai-beike-43",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "西南",
+   "province": "四川",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "晉城金石志",
@@ -1076,13 +1119,14 @@
     "harvard": false
    },
    "id": "mc-jincheng-jinshi-zhi-44",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華北",
+   "province": "山西",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山西",
+   "locality": "晉城"
   },
   {
    "title_zh": "齊魯碑刻",
@@ -1100,13 +1144,14 @@
     "harvard": false
    },
    "id": "mc-qi-lu-beike-45",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "華東",
+   "province": "山東",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "新中國出土墓誌·河南卷",
@@ -1124,13 +1169,14 @@
     "harvard": false
    },
    "id": "mc-xin-zhongguo-chutu-muzhi-46",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "中南",
+   "province": "河南",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "河南",
+   "locality": "新中國"
   },
   {
    "title_zh": "澳門記憶（Memória de Macau / Macau Memory）",
@@ -1148,13 +1194,14 @@
     "harvard": false
    },
    "id": "mc-aomen-jiyi-47",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "港澳台",
+   "province": "澳門",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "澳門",
+   "locality": ""
   },
   {
    "title_zh": "臺灣古碑拓本",
@@ -1172,13 +1219,14 @@
     "harvard": false
    },
    "id": "mc-taiwan-gubei-tuoben-48",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "港澳台",
+   "province": "台灣",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "台灣",
+   "locality": "臺灣古碑"
   },
   {
    "title_zh": "國史館臺灣文獻館 碑碣拓本資料庫",
@@ -1196,13 +1244,14 @@
     "harvard": false
    },
    "id": "mc-guoshiguan-taiwan-wenxia-49",
-   "section": "national",
-   "region": "",
-   "province": "",
+   "section": "province",
+   "region": "港澳台",
+   "province": "台灣",
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "第一批古代名碑名刻文物名錄（黃山摩崖石刻群）",
@@ -1220,13 +1269,14 @@
     "harvard": false
    },
    "id": "mc-diyi-pi-gudai-mingbei-mi-50",
-   "section": "national",
+   "section": "site",
    "region": "",
    "province": "",
-   "site": "",
-   "category": "",
+   "site": "黃山",
+   "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "national"
+   "place": "黃山",
+   "locality": "黃山"
   },
   {
    "title_zh": "北京圖書館藏北京石刻拓片目錄",
@@ -1250,7 +1300,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京圖書館藏石刻敘錄",
@@ -1274,7 +1325,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京石刻藝術博物館藏石刻拓片編目提要",
@@ -1300,7 +1352,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京文物精粹大系·石刻卷",
@@ -1326,7 +1379,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京石刻擷英",
@@ -1350,7 +1404,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京地區近代石刻選粹",
@@ -1374,7 +1429,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京地區摩崖石刻",
@@ -1398,7 +1454,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京地區滿文碑刻拓片總目",
@@ -1422,7 +1479,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "新日下訪碑錄",
@@ -1446,7 +1504,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "北京"
+   "place": "北京",
+   "locality": "新日下訪"
   },
   {
    "title_zh": "昌平石刻",
@@ -1470,7 +1529,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "北京"
+   "place": "北京",
+   "locality": "昌平"
   },
   {
    "title_zh": "北京市石景山區歷代碑誌選",
@@ -1494,7 +1554,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "北京"
+   "place": "北京",
+   "locality": "石景山"
   },
   {
    "title_zh": "北京市朝陽區圖書館藏石刻拓片彙編",
@@ -1518,7 +1579,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "怀柔碑刻選",
@@ -1542,7 +1604,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "北京"
+   "place": "北京",
+   "locality": "怀柔"
   },
   {
    "title_zh": "北京佛教石刻",
@@ -1566,7 +1629,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京道教石刻",
@@ -1590,7 +1654,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "明清以來北京工商會館碑刻選編",
@@ -1614,7 +1679,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京會館碑刻文錄",
@@ -1638,7 +1704,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "北京內城寺廟碑刻志",
@@ -1664,7 +1731,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "北京"
+   "place": "北京",
+   "locality": "內城"
   },
   {
    "title_zh": "北京東嶽廟與北京泰山信仰碑刻輯錄",
@@ -1688,7 +1756,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "法源寺貞石圖錄",
@@ -1712,7 +1781,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "北京"
+   "place": "北京",
+   "locality": "法源寺"
   },
   {
    "title_zh": "隋唐五代墓誌彙編·北京卷 (附遼寧卷) / 北京大學卷",
@@ -1736,7 +1806,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "龍門石窟總錄",
@@ -1760,7 +1831,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "中國佛教石經・北京省 (Buddhist Stone Sutras in China: Beijing Province)",
@@ -1784,7 +1856,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "北京"
+   "place": "北京",
+   "locality": ""
   },
   {
    "title_zh": "武清碑刻集",
@@ -1808,7 +1881,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "天津"
+   "place": "天津",
+   "locality": "武清"
   },
   {
    "title_zh": "天津市紅橋區碑石銘刻輯錄及釋文",
@@ -1832,7 +1906,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "天津"
+   "place": "天津",
+   "locality": "紅橋"
   },
   {
    "title_zh": "寶坻碑刻集成",
@@ -1856,7 +1931,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "天津"
+   "place": "天津",
+   "locality": "寶坻"
   },
   {
    "title_zh": "盤山金石志",
@@ -1880,7 +1956,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "天津"
+   "place": "天津",
+   "locality": "盤山"
   },
   {
    "title_zh": "新中國出土墓誌·上海 天津卷（上下冊）",
@@ -1906,7 +1983,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "天津"
+   "place": "天津",
+   "locality": ""
   },
   {
    "title_zh": "河北金石輯録",
@@ -1930,7 +2008,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "河北府縣鄉土碑刻輯録",
@@ -1954,7 +2033,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "河北新發現石刻題記與隋唐史研究",
@@ -1978,7 +2058,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "邯鄲地區隋唐五代碑刻校釋",
@@ -2004,7 +2085,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "邯鄲碑刻",
@@ -2028,7 +2110,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "邯鄲"
   },
   {
    "title_zh": "廊坊石刻萃編",
@@ -2052,7 +2135,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "廊坊"
   },
   {
    "title_zh": "滄州出土墓誌",
@@ -2076,7 +2160,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "滄州"
   },
   {
    "title_zh": "正定碑刻輯録",
@@ -2100,7 +2185,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "正定"
   },
   {
    "title_zh": "定州碑刻",
@@ -2124,7 +2210,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "定州"
   },
   {
    "title_zh": "河北隆堯石刻",
@@ -2148,7 +2235,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "隆堯"
   },
   {
    "title_zh": "涿州貞石録",
@@ -2172,7 +2260,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "涿州"
   },
   {
    "title_zh": "蔚縣碑銘輯録",
@@ -2196,7 +2285,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "蔚"
   },
   {
    "title_zh": "井陘碑刻精華",
@@ -2220,7 +2310,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": "井陘"
   },
   {
    "title_zh": "河北金石文化叢書（涉縣石刻精粹／石家莊市鹿泉碑刻輯録／靈壽碑刻輯録／深澤碑刻輯録 等）",
@@ -2244,7 +2335,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "河北省明代長城碑刻輯録",
@@ -2268,7 +2360,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "明薊鎮長城石刻",
@@ -2292,7 +2385,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "河北滿族蒙古族碑刻選編",
@@ -2316,7 +2410,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "響堂山石窟碑刻題記總録",
@@ -2342,7 +2437,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河北"
+   "place": "河北",
+   "locality": "響堂山"
   },
   {
    "title_zh": "正定隆興寺碑刻輯録",
@@ -2366,7 +2462,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河北"
+   "place": "河北",
+   "locality": "正定隆興寺"
   },
   {
    "title_zh": "邢臺開元寺金石志",
@@ -2390,7 +2487,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河北"
+   "place": "河北",
+   "locality": "邢臺開元寺"
   },
   {
    "title_zh": "南宮後底閣",
@@ -2414,7 +2512,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河北"
+   "place": "河北",
+   "locality": "南宮後底閣"
   },
   {
    "title_zh": "歷代石刻史料彙編",
@@ -2438,7 +2537,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "河北"
+   "place": "河北",
+   "locality": ""
   },
   {
    "title_zh": "山西碑碣",
@@ -2462,7 +2562,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "山西碑碣續編",
@@ -2486,7 +2587,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "晉陽古刻選",
@@ -2510,7 +2612,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "晉陽"
   },
   {
    "title_zh": "晉城文物通覽·碑刻卷",
@@ -2534,7 +2637,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "晉城"
   },
   {
    "title_zh": "長治金石萃編",
@@ -2558,7 +2662,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "長治"
   },
   {
    "title_zh": "河東出土墓誌錄",
@@ -2582,7 +2687,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "河東"
   },
   {
    "title_zh": "河東歷代碑誌精品 / 河東碑刻精選",
@@ -2606,7 +2712,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "河東"
   },
   {
    "title_zh": "石之語——運城碑刻精品",
@@ -2630,7 +2737,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "晉中碑刻選粹",
@@ -2654,7 +2762,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "晉中"
   },
   {
    "title_zh": "高平金石志",
@@ -2678,7 +2787,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "高平"
   },
   {
    "title_zh": "沁水碑刻搜編",
@@ -2702,7 +2812,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "沁水"
   },
   {
    "title_zh": "洪洞介休水利碑刻輯錄",
@@ -2726,7 +2837,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "洪洞金石錄",
@@ -2750,7 +2862,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "洪洞"
   },
   {
    "title_zh": "堯都歷代碑刻選萃",
@@ -2774,7 +2887,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山西"
+   "place": "山西",
+   "locality": "堯都"
   },
   {
    "title_zh": "山西戲曲碑刻輯考",
@@ -2798,7 +2912,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "山西地震碑文集",
@@ -2822,7 +2937,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "晉城佛教金石錄",
@@ -2848,7 +2964,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "河東水利石刻",
@@ -2872,7 +2989,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "山西省藝術博物館館藏碑誌集萃",
@@ -2896,7 +3014,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "晉祠文化遺產全書·碑碣石刻卷",
@@ -2920,7 +3039,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "應縣木塔匾聯碑刻集成",
@@ -2944,7 +3064,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "皇城石刻文編",
@@ -2968,7 +3089,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山西"
+   "place": "山西",
+   "locality": "皇城"
   },
   {
    "title_zh": "司馬光塋祠碑誌",
@@ -2992,7 +3114,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山西"
+   "place": "山西",
+   "locality": "司馬光塋祠"
   },
   {
    "title_zh": "山右石刻叢編",
@@ -3018,7 +3141,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山西"
+   "place": "山西",
+   "locality": ""
   },
   {
    "title_zh": "草原金石錄",
@@ -3044,7 +3168,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "內蒙古"
+   "place": "內蒙古",
+   "locality": ""
   },
   {
    "title_zh": "內蒙古遼代石刻文研究",
@@ -3070,7 +3195,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "內蒙古"
+   "place": "內蒙古",
+   "locality": ""
   },
   {
    "title_zh": "遼上京地區出土的遼代碑刻彙輯",
@@ -3096,7 +3222,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "內蒙古"
+   "place": "內蒙古",
+   "locality": ""
   },
   {
    "title_zh": "內蒙古清水河縣碑刻輯錄",
@@ -3120,7 +3247,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "內蒙古"
+   "place": "內蒙古",
+   "locality": "清水河"
   },
   {
    "title_zh": "辽宁碑志",
@@ -3146,7 +3274,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": ""
   },
   {
    "title_zh": "辽宁省博物馆藏碑志精粹",
@@ -3172,7 +3301,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": ""
   },
   {
    "title_zh": "辽宁省博物馆藏金石文字集萃",
@@ -3196,7 +3326,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": ""
   },
   {
    "title_zh": "辽南碑刻",
@@ -3222,7 +3353,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "辽南"
   },
   {
    "title_zh": "鞍山碑志",
@@ -3246,7 +3378,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "鞍山"
   },
   {
    "title_zh": "瀋陽碑志",
@@ -3270,7 +3403,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "瀋陽"
   },
   {
    "title_zh": "辽阳碑志选编",
@@ -3294,7 +3428,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "辽阳"
   },
   {
    "title_zh": "辽阳碑志续编",
@@ -3318,7 +3453,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "辽阳"
   },
   {
    "title_zh": "营口碑志辑注",
@@ -3342,7 +3478,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "营口"
   },
   {
    "title_zh": "营口碑志补遗",
@@ -3366,7 +3503,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "营口"
   },
   {
    "title_zh": "本溪碑志",
@@ -3390,7 +3528,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "本溪"
   },
   {
    "title_zh": "辽代石刻文编",
@@ -3414,7 +3553,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": ""
   },
   {
    "title_zh": "辽代石刻文续编",
@@ -3438,7 +3578,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": ""
   },
   {
    "title_zh": "元帅林石刻",
@@ -3462,7 +3603,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "元帅林"
   },
   {
    "title_zh": "辽河碑林碑刻选",
@@ -3486,7 +3628,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "辽河"
   },
   {
    "title_zh": "千山摩崖石刻研究",
@@ -3510,7 +3653,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "遼寧"
+   "place": "遼寧",
+   "locality": "千山"
   },
   {
    "title_zh": "吉林碑刻考録",
@@ -3534,7 +3678,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "松原碑刻概覽",
@@ -3558,7 +3703,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": "松原"
   },
   {
    "title_zh": "金碑彙釋",
@@ -3584,7 +3730,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "高句麗碑刻資料彙編",
@@ -3610,7 +3757,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "通化師範學院藏好太王碑拓本",
@@ -3636,7 +3784,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "集安高句麗碑",
@@ -3662,7 +3811,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "長春文廟碑刻集萃",
@@ -3686,7 +3836,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": "長春文廟"
   },
   {
    "title_zh": "吉林碑刻考錄",
@@ -3710,7 +3861,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "吉林"
+   "place": "吉林",
+   "locality": ""
   },
   {
    "title_zh": "黑龍江碑刻考錄",
@@ -3734,7 +3886,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": ""
   },
   {
    "title_zh": "黑龍江省志·文物志",
@@ -3758,7 +3911,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": ""
   },
   {
    "title_zh": "依蘭古今碑刻",
@@ -3782,7 +3936,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": "依蘭古今"
   },
   {
    "title_zh": "金源金石錄",
@@ -3808,7 +3963,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": ""
   },
   {
    "title_zh": "滿洲金石志 (附:滿洲金石志別錄/外編)",
@@ -3832,7 +3988,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": ""
   },
   {
    "title_zh": "滿洲金石志稿",
@@ -3856,7 +4013,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "黑龍江"
+   "place": "黑龍江",
+   "locality": ""
   },
   {
    "title_zh": "上海碑刻資料選輯",
@@ -3880,7 +4038,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "上海"
+   "place": "上海",
+   "locality": ""
   },
   {
    "title_zh": "上海佛教碑刻資料集（上下）",
@@ -3906,7 +4065,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "上海"
+   "place": "上海",
+   "locality": ""
   },
   {
    "title_zh": "上海道教碑刻資料集",
@@ -3932,7 +4092,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "上海"
+   "place": "上海",
+   "locality": ""
   },
   {
    "title_zh": "上海碑刻選·松江卷",
@@ -3958,7 +4119,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "上海"
+   "place": "上海",
+   "locality": ""
   },
   {
    "title_zh": "上海碑刻選·松江卷·續編",
@@ -3984,7 +4146,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "上海"
+   "place": "上海",
+   "locality": ""
   },
   {
    "title_zh": "元明清松江碑刻資料選編",
@@ -4010,7 +4173,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "清松江"
   },
   {
    "title_zh": "嘉定碑刻集（全三冊）",
@@ -4036,7 +4200,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "嘉定"
   },
   {
    "title_zh": "浦東碑刻資料選輯（修訂本）",
@@ -4060,7 +4225,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "浦東"
   },
   {
    "title_zh": "上海市閔行區碑刻資料集",
@@ -4084,7 +4250,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "閔行"
   },
   {
    "title_zh": "金山碑刻資料選輯",
@@ -4108,7 +4275,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "金山"
   },
   {
    "title_zh": "崇明傳世碑刻",
@@ -4132,7 +4300,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "崇明傳世"
   },
   {
    "title_zh": "瀛洲貞石",
@@ -4156,7 +4325,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "瀛洲"
   },
   {
    "title_zh": "奉賢碑刻錄",
@@ -4180,7 +4350,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "奉賢"
   },
   {
    "title_zh": "青浦碑刻",
@@ -4204,7 +4375,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "青浦"
   },
   {
    "title_zh": "上海圖書館善本碑帖綜錄",
@@ -4228,7 +4400,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "上海"
+   "place": "上海",
+   "locality": "善本"
   },
   {
    "title_zh": "江蘇省通志稿·金石志 (江蘇金石志)",
@@ -4252,7 +4425,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "江蘇碑刻",
@@ -4276,7 +4450,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "江蘇省明清以來碑刻資料選集",
@@ -4300,7 +4475,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "明清蘇州工商業碑刻集",
@@ -4324,7 +4500,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "蘇州"
   },
   {
    "title_zh": "明清以來蘇州社會史碑刻集",
@@ -4350,7 +4527,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "蘇州"
   },
   {
    "title_zh": "蘇州碑刻",
@@ -4376,7 +4554,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "蘇州"
   },
   {
    "title_zh": "蘇州石刻",
@@ -4400,7 +4579,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "蘇州"
   },
   {
    "title_zh": "蘇州博物館藏歷代碑志",
@@ -4424,7 +4604,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "農業經濟碑刻 / 工商經濟碑刻 (蘇州碑刻博物館藏)",
@@ -4448,7 +4629,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "金陵碑刻精華",
@@ -4472,7 +4654,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "金陵石語：南京大學藏南京地區歷代碑帖展圖錄",
@@ -4498,7 +4681,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "南京"
   },
   {
    "title_zh": "鎮江市文物志 / 鎮江東鄉碑銘集 / 京江遺珠 (丹徒大聖寺碑拓收藏集)",
@@ -4522,7 +4706,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "鎮江"
   },
   {
    "title_zh": "揚州碑刻輯考",
@@ -4546,7 +4731,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "揚州"
   },
   {
    "title_zh": "隋唐五代揚州地區石刻文獻集成",
@@ -4572,7 +4758,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "揚州"
   },
   {
    "title_zh": "淮安金石錄 / 淮安石刻：碑刻卷",
@@ -4596,7 +4783,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "淮安"
   },
   {
    "title_zh": "連雲港碑銘大觀 / 連雲港石刻調查與研究 / 海州石刻",
@@ -4622,7 +4810,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "連雲港"
   },
   {
    "title_zh": "徐州歷代碑刻集萃",
@@ -4646,7 +4835,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "徐州"
   },
   {
    "title_zh": "貞石：南京棲霞地區歷代碑刻集成",
@@ -4670,7 +4860,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "江寧歷代碑刻精選 / 江寧歷代出土墓志考釋",
@@ -4694,7 +4885,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "江寧"
   },
   {
    "title_zh": "高淳古碑石刻選",
@@ -4718,7 +4910,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "高淳"
   },
   {
    "title_zh": "常熟碑刻集 / 常熟摩崖石刻 / 常熟儒學碑刻集 / 江南言子故里碑刻集",
@@ -4742,7 +4935,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "常熟"
   },
   {
    "title_zh": "崑山碑刻輯存",
@@ -4766,7 +4960,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "崑山"
   },
   {
    "title_zh": "太倉歷代碑刻",
@@ -4790,7 +4985,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "太倉"
   },
   {
    "title_zh": "吳江縣學碑志孑遺",
@@ -4814,7 +5010,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "吳江"
   },
   {
    "title_zh": "宜興碑刻集",
@@ -4838,7 +5035,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "宜興"
   },
   {
    "title_zh": "大運河碑刻集（江蘇）",
@@ -4862,7 +5060,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "明孝陵碑刻 / 明孝陵石刻卷",
@@ -4886,7 +5085,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "孝陵"
   },
   {
    "title_zh": "焦山碑刻 / 焦山碑林典藏精品圖錄",
@@ -4910,7 +5110,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "焦山"
   },
   {
    "title_zh": "寒山寺碑刻集 / 蘇州寒山摩崖石刻 / 虎丘摩崖石刻",
@@ -4934,7 +5135,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "寒山寺"
   },
   {
    "title_zh": "南京棲霞古寺摩崖石刻",
@@ -4958,7 +5160,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": ""
   },
   {
    "title_zh": "蘇州歷代碑刻集",
@@ -4982,7 +5185,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江蘇"
+   "place": "江蘇",
+   "locality": "蘇州"
   },
   {
    "title_zh": "浙江石窟造像調查報告",
@@ -5006,7 +5210,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": ""
   },
   {
    "title_zh": "摩崖石刻（浙江省第三次全國文物普查新發現叢書）",
@@ -5030,7 +5235,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": ""
   },
   {
    "title_zh": "寧波歷代碑碣墓志彙編（唐五代宋元卷）",
@@ -5056,7 +5262,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "寧波"
   },
   {
    "title_zh": "甬城現存歷代碑碣志",
@@ -5080,7 +5287,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "甬城現"
   },
   {
    "title_zh": "杭州摩崖石刻",
@@ -5104,7 +5312,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "杭州"
   },
   {
    "title_zh": "紹興摩崖碑版集成",
@@ -5128,7 +5337,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "紹興"
   },
   {
    "title_zh": "麗水宋元墓志集錄",
@@ -5152,7 +5362,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "麗水宋元"
   },
   {
    "title_zh": "衢州墓志碑刻集錄",
@@ -5176,7 +5387,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "衢州"
   },
   {
    "title_zh": "嘉興歷代碑刻集",
@@ -5200,7 +5412,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "嘉興"
   },
   {
    "title_zh": "湖州歷代碑銘錄考",
@@ -5224,7 +5437,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "湖州"
   },
   {
    "title_zh": "處州金石",
@@ -5248,7 +5462,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "處州"
   },
   {
    "title_zh": "嚴州金石",
@@ -5272,7 +5487,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "嚴州"
   },
   {
    "title_zh": "諸暨摩崖碑刻集成",
@@ -5296,7 +5512,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "諸暨"
   },
   {
    "title_zh": "新昌歷代碑刻",
@@ -5320,7 +5537,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "新昌"
   },
   {
    "title_zh": "武義宋元墓志集錄",
@@ -5344,7 +5562,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "武義宋元"
   },
   {
    "title_zh": "臨海墓志集錄",
@@ -5368,7 +5587,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "臨海"
   },
   {
    "title_zh": "永嘉金石志",
@@ -5392,7 +5612,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "永嘉"
   },
   {
    "title_zh": "蒼南金石志",
@@ -5416,7 +5637,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "蒼南"
   },
   {
    "title_zh": "甌海金石志",
@@ -5440,7 +5662,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "甌海"
   },
   {
    "title_zh": "越窯瓷墓志",
@@ -5464,7 +5687,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": ""
   },
   {
    "title_zh": "天一閣明州碑林集錄",
@@ -5488,7 +5712,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "天一閣明州"
   },
   {
    "title_zh": "西湖碑刻",
@@ -5512,7 +5737,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "西湖"
   },
   {
    "title_zh": "杭州飛來峰摩崖萃珍",
@@ -5536,7 +5762,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "杭州飛來峰"
   },
   {
    "title_zh": "杭州孔廟",
@@ -5560,7 +5787,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "杭州孔廟"
   },
   {
    "title_zh": "杭州鳳凰山摩崖萃編",
@@ -5584,7 +5812,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "杭州鳳凰山"
   },
   {
    "title_zh": "普陀山碑刻輯要",
@@ -5608,7 +5837,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "普陀山"
   },
   {
    "title_zh": "徽州碑刻輯錄（含之二—之八，多卷本，持續出版）",
@@ -5632,7 +5862,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "徽州"
   },
   {
    "title_zh": "亳州舊志所錄碑刻文獻考述",
@@ -5656,7 +5887,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "亳州舊"
   },
   {
    "title_zh": "祁門碑刻文化拓片",
@@ -5680,7 +5912,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "祁門"
   },
   {
    "title_zh": "徽州百碑",
@@ -5704,7 +5937,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": ""
   },
   {
    "title_zh": "琅琊山石刻",
@@ -5730,7 +5964,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "琅琊山"
   },
   {
    "title_zh": "天柱山山谷流泉石刻",
@@ -5754,7 +5989,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": ""
   },
   {
    "title_zh": "齊雲山石刻",
@@ -5778,7 +6014,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "齊雲山"
   },
   {
    "title_zh": "齊雲山明代碑刻選",
@@ -5802,7 +6039,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "齊雲山明代"
   },
   {
    "title_zh": "中國金石總錄（全拓全文數字版）",
@@ -5826,7 +6064,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": ""
   },
   {
    "title_zh": "閩人墓誌拓本集（全二冊）",
@@ -5852,7 +6091,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "福建"
+   "place": "福建",
+   "locality": ""
   },
   {
    "title_zh": "福建宗教碑銘彙編（泉州府分冊）",
@@ -5878,7 +6118,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "福建"
+   "place": "福建",
+   "locality": "宗教"
   },
   {
    "title_zh": "泉州宗教石刻（增訂本）",
@@ -5904,7 +6145,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "福建"
+   "place": "福建",
+   "locality": "泉州宗教"
   },
   {
    "title_zh": "福州十邑摩崖石刻",
@@ -5930,7 +6172,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "福建"
+   "place": "福建",
+   "locality": "福州十邑"
   },
   {
    "title_zh": "廈門石刻擷珍",
@@ -5956,7 +6199,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "福建"
+   "place": "福建",
+   "locality": "廈門"
   },
   {
    "title_zh": "石廬金石書志",
@@ -5980,7 +6224,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "福建"
+   "place": "福建",
+   "locality": ""
   },
   {
    "title_zh": "閩中金石略　閩中金石略考證",
@@ -6006,7 +6251,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "福建"
+   "place": "福建",
+   "locality": ""
   },
   {
    "title_zh": "福建金石志",
@@ -6030,7 +6276,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "福建"
+   "place": "福建",
+   "locality": ""
   },
   {
    "title_zh": "江西出土墓誌選編",
@@ -6056,7 +6303,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "江西古文精華叢書·碑記卷",
@@ -6080,7 +6328,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "廬陵古碑錄",
@@ -6106,7 +6355,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江西"
+   "place": "江西",
+   "locality": "廬陵"
   },
   {
    "title_zh": "宜春碑刻",
@@ -6130,7 +6380,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江西"
+   "place": "江西",
+   "locality": "宜春"
   },
   {
    "title_zh": "鷹潭市博物館文物藏品",
@@ -6154,7 +6405,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "石上春秋：泰和古碑錄",
@@ -6178,7 +6430,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "石上春秋：泰和古碑錄續編",
@@ -6202,7 +6455,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "浮梁歷代碑銘匯編",
@@ -6226,7 +6480,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "江西"
+   "place": "江西",
+   "locality": "浮梁"
   },
   {
    "title_zh": "九江佛教碑刻文集",
@@ -6250,7 +6505,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "星子歷史文化叢書·摩崖碑刻",
@@ -6274,7 +6530,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江西"
+   "place": "江西",
+   "locality": ""
   },
   {
    "title_zh": "石鐘山金石錄",
@@ -6298,7 +6555,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江西"
+   "place": "江西",
+   "locality": "石鐘山"
   },
   {
    "title_zh": "青蓮古剎碑刻楹聯集要",
@@ -6322,7 +6580,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江西"
+   "place": "江西",
+   "locality": "青蓮古剎"
   },
   {
    "title_zh": "玉石仙岩碑刻",
@@ -6346,7 +6605,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "江西"
+   "place": "江西",
+   "locality": "玉石仙岩"
   },
   {
    "title_zh": "中國佛教石經·山東省 (Buddhist Stone Sutras in China: Shandong Province)",
@@ -6370,7 +6630,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "齊魯碑刻墓誌研究",
@@ -6394,7 +6655,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "山東道教碑刻集 (青州·昌樂卷／臨朐卷／博山卷／肥城卷)",
@@ -6418,7 +6680,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "濟寧歷代墓誌銘 ／ 濟南歷代墓志銘",
@@ -6442,7 +6705,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山東"
+   "place": "山東",
+   "locality": "濟寧"
   },
   {
    "title_zh": "青州碑刻文化",
@@ -6466,7 +6730,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山東"
+   "place": "山東",
+   "locality": "青州"
   },
   {
    "title_zh": "濟南府學文廟現存碑刻文獻 (與 趵突泉碑刻·濟南園林碑刻·金石精萃)",
@@ -6490,7 +6755,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "德州碑刻文獻選注",
@@ -6514,7 +6780,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "山東"
+   "place": "山東",
+   "locality": "德州"
   },
   {
    "title_zh": "兗州歷代碑刻考錄",
@@ -6538,7 +6805,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山東"
+   "place": "山東",
+   "locality": "兗州"
   },
   {
    "title_zh": "長清碑刻 ／ 平陰縣碑刻集成 ／ 沂山石刻·東鎮沂山碑拓集錦 ／ 沂水碑刻 ／ 平度歷代碑刻研究",
@@ -6562,7 +6830,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "山東"
+   "place": "山東",
+   "locality": "長清"
   },
   {
    "title_zh": "歷代帝王泰山刻石",
@@ -6586,7 +6855,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "岱廟碑刻 ／ 岱廟碑刻研究",
@@ -6610,7 +6880,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": "岱廟"
   },
   {
    "title_zh": "雲峰刻石調查與研究 ／ 雲峰刻石",
@@ -6634,7 +6905,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "孟子林廟歷代石刻集 ／ 孟廟孟府孟林碑刻集",
@@ -6658,7 +6930,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": "孟子林廟"
   },
   {
    "title_zh": "嶧山碑刻集",
@@ -6682,7 +6955,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": "嶧山"
   },
   {
    "title_zh": "山東石刻藝術選萃",
@@ -6706,7 +6980,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "山東"
+   "place": "山東",
+   "locality": ""
   },
   {
    "title_zh": "中原文化大典·文物典·碑刻墓誌",
@@ -6732,7 +7007,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "中原文化大典·文物典·龍門石窟",
@@ -6756,7 +7032,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "中原文化大典·文物典·中小型石窟與石刻造像",
@@ -6780,7 +7057,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河南碑刻類編",
@@ -6804,7 +7082,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河南碑刻續編",
@@ -6828,7 +7107,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河南碑誌敘錄",
@@ -6852,7 +7132,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河南佛教石刻造像",
@@ -6876,7 +7157,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河南寺廟道觀碑刻集成·洛陽卷",
@@ -6900,7 +7182,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "清代河南碑刻資料",
@@ -6924,7 +7207,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "琬琰流芳：河南博物院藏碑誌集粹",
@@ -6948,7 +7232,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "鄭州歷代碑刻彙選",
@@ -6972,7 +7257,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "鄭州"
   },
   {
    "title_zh": "洛陽明清碑誌（系列）",
@@ -6996,7 +7282,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "洛陽明清"
   },
   {
    "title_zh": "濮陽碑刻墓誌",
@@ -7020,7 +7307,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "濮陽"
   },
   {
    "title_zh": "安陽墓誌選編",
@@ -7044,7 +7332,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "安陽"
   },
   {
    "title_zh": "偃師碑誌精選 / 偃師碑誌選粹",
@@ -7068,7 +7357,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "偃師"
   },
   {
    "title_zh": "濟源金石錄",
@@ -7092,7 +7382,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河南"
+   "place": "河南",
+   "locality": "濟源"
   },
   {
    "title_zh": "貞珉永固：滑縣歷代金石精品輯錄",
@@ -7116,7 +7407,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "河洛墓刻拾零",
@@ -7142,7 +7434,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "洛陽新獲七朝墓誌",
@@ -7166,7 +7459,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "洛陽流散唐代墓誌彙編",
@@ -7192,7 +7486,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "鞏縣石窟北朝造像全拓",
@@ -7216,7 +7511,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": "鞏"
   },
   {
    "title_zh": "嵩山歷代碑刻選 / 嵩山碑刻",
@@ -7240,7 +7536,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": "嵩山"
   },
   {
    "title_zh": "嵩山少林寺碑刻選 / 少林寺碑刻選",
@@ -7264,7 +7561,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": "嵩山少林寺"
   },
   {
    "title_zh": "寶山靈泉寺",
@@ -7288,7 +7586,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": "寶山靈泉寺"
   },
   {
    "title_zh": "卧龍崗武侯祠碑刻",
@@ -7312,7 +7611,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "河南"
+   "place": "河南",
+   "locality": ""
   },
   {
    "title_zh": "荊楚文庫·方志編",
@@ -7336,7 +7636,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": ""
   },
   {
    "title_zh": "三峽湖北段沿江石刻",
@@ -7360,7 +7661,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": ""
   },
   {
    "title_zh": "恩施自治州碑刻大觀",
@@ -7384,7 +7686,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "恩施"
   },
   {
    "title_zh": "千年刻石話遺珍：武漢地區摩崖石刻調查",
@@ -7408,7 +7711,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": ""
   },
   {
    "title_zh": "宜昌摩崖碑刻",
@@ -7432,7 +7736,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "宜昌"
   },
   {
    "title_zh": "荊門碑刻",
@@ -7456,7 +7761,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "荊門"
   },
   {
    "title_zh": "咸寧市石窟寺與石刻",
@@ -7480,7 +7786,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "咸寧"
   },
   {
    "title_zh": "隨縣金石碑刻",
@@ -7504,7 +7811,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "隨"
   },
   {
    "title_zh": "武昌碑刻",
@@ -7528,7 +7836,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "武昌"
   },
   {
    "title_zh": "長陽石刻",
@@ -7552,7 +7861,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "長陽"
   },
   {
    "title_zh": "興山古今碑刻選",
@@ -7576,7 +7886,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "興山古今"
   },
   {
    "title_zh": "清代漢江流域會館碑刻",
@@ -7600,7 +7911,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": ""
   },
   {
    "title_zh": "容美土司石刻",
@@ -7626,7 +7938,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "容美土司"
   },
   {
    "title_zh": "武當山碑刻鑒賞",
@@ -7650,7 +7963,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "武當山"
   },
   {
    "title_zh": "襄陽米公祠碑刻集",
@@ -7674,7 +7988,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "襄陽米公祠"
   },
   {
    "title_zh": "襄陽古隆中碑刻集",
@@ -7698,7 +8013,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "襄陽古隆中"
   },
   {
    "title_zh": "大洪山佛教叢林碑銘塔記",
@@ -7722,7 +8038,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": ""
   },
   {
    "title_zh": "黃岡市石窟寺與石刻：2021年調查報告",
@@ -7746,7 +8063,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖北"
+   "place": "湖北",
+   "locality": "黃岡"
   },
   {
    "title_zh": "湖南石刻文獻集成·永州卷",
@@ -7770,7 +8088,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": ""
   },
   {
    "title_zh": "永州摩崖石刻拓片精選",
@@ -7794,7 +8113,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "永州"
   },
   {
    "title_zh": "永州石刻",
@@ -7818,7 +8138,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "永州"
   },
   {
    "title_zh": "長沙碑刻集成",
@@ -7842,7 +8163,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "長沙"
   },
   {
    "title_zh": "長沙碑刻校注",
@@ -7866,7 +8188,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "長沙"
   },
   {
    "title_zh": "郴州金石錄",
@@ -7890,7 +8213,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "郴州"
   },
   {
    "title_zh": "邵陽碑刻錄",
@@ -7914,7 +8238,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "邵陽"
   },
   {
    "title_zh": "古碑遺韻：株洲古碑略考",
@@ -7938,7 +8263,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": ""
   },
   {
    "title_zh": "湖南江永碑刻集初編",
@@ -7964,7 +8290,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "江永"
   },
   {
    "title_zh": "武岡摩崖石刻檔案",
@@ -7988,7 +8315,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "武岡"
   },
   {
    "title_zh": "湖南朝陽巖石刻考釋",
@@ -8014,7 +8342,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "朝陽巖"
   },
   {
    "title_zh": "道州月巖摩崖石刻",
@@ -8038,7 +8367,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "道州月巖"
   },
   {
    "title_zh": "永順土司金石錄",
@@ -8062,7 +8392,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "永順土司"
   },
   {
    "title_zh": "武陵少數民族地區碑刻文獻匯編",
@@ -8086,7 +8417,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": ""
   },
   {
    "title_zh": "浯溪摩崖石刻数字博物馆（摩崖石刻数字博物馆）",
@@ -8110,7 +8442,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "湖南"
+   "place": "湖南",
+   "locality": "浯溪"
   },
   {
    "title_zh": "廣東碑刻銘文集",
@@ -8136,7 +8469,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "廣東金石圖志",
@@ -8160,7 +8494,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "廣州寺庵碑銘集",
@@ -8184,7 +8519,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "廣州寺庵"
   },
   {
    "title_zh": "廣州府道教廟宇碑刻集釋",
@@ -8208,7 +8544,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "明清佛山碑刻文獻經濟資料",
@@ -8232,7 +8569,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "佛山"
   },
   {
    "title_zh": "潮汕金石文徵 (宋元卷)",
@@ -8256,7 +8594,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "潮汕"
   },
   {
    "title_zh": "韶關歷代寺院碑記研究",
@@ -8280,7 +8619,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "越秀碑刻",
@@ -8304,7 +8644,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "越秀"
   },
   {
    "title_zh": "番禺區現存碑刻集",
@@ -8328,7 +8669,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "番禺區現"
   },
   {
    "title_zh": "天河區碑刻拓片集",
@@ -8352,7 +8694,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "天河"
   },
   {
    "title_zh": "順德碑刻集",
@@ -8376,7 +8719,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "順德"
   },
   {
    "title_zh": "東莞市博物館藏碑刻",
@@ -8400,7 +8744,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "東莞歷代碑刻選集",
@@ -8424,7 +8769,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "東莞"
   },
   {
    "title_zh": "茶山歷代碑刻",
@@ -8448,7 +8794,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "茶山"
   },
   {
    "title_zh": "雷州碑刻",
@@ -8472,7 +8819,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "雷州"
   },
   {
    "title_zh": "庵埠歷代題刻",
@@ -8496,7 +8844,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "庵埠"
   },
   {
    "title_zh": "英德摩崖石刻",
@@ -8520,7 +8869,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "英德"
   },
   {
    "title_zh": "連州碑刻集",
@@ -8544,7 +8894,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "連州"
   },
   {
    "title_zh": "陽春摩崖石刻",
@@ -8568,7 +8919,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "陽春"
   },
   {
    "title_zh": "南海神廟碑刻集",
@@ -8592,7 +8944,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "南海神廟"
   },
   {
    "title_zh": "掇碑擷菁：東莞市袁崇煥紀念園藏東莞碑刻拓片選",
@@ -8616,7 +8969,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": ""
   },
   {
    "title_zh": "丹霞山古摩崖碑刻集",
@@ -8640,7 +8994,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "廣東"
+   "place": "廣東",
+   "locality": "丹霞山"
   },
   {
    "title_zh": "石刻里的廣西（叢書，全10卷）",
@@ -8666,7 +9021,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": ""
   },
   {
    "title_zh": "桂林墓誌碑文",
@@ -8690,7 +9046,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "桂林"
   },
   {
    "title_zh": "桂林石刻擷珍",
@@ -8714,7 +9071,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "桂林"
   },
   {
    "title_zh": "桂林石刻碑文集",
@@ -8738,7 +9096,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "桂林"
   },
   {
    "title_zh": "柳州石刻集",
@@ -8762,7 +9121,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "柳州"
   },
   {
    "title_zh": "柳州摩崖石刻",
@@ -8786,7 +9146,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "柳州"
   },
   {
    "title_zh": "玉林石刻調查與研究",
@@ -8810,7 +9171,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "玉林"
   },
   {
    "title_zh": "廣西恭城碑刻集",
@@ -8834,7 +9196,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "恭城"
   },
   {
    "title_zh": "憑祥石刻集錦",
@@ -8858,7 +9221,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "憑祥"
   },
   {
    "title_zh": "凌雲摩崖石刻",
@@ -8882,7 +9246,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "凌雲"
   },
   {
    "title_zh": "象州碑刻文物解讀",
@@ -8906,7 +9271,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "象州"
   },
   {
    "title_zh": "廣西少數民族地區石刻碑文集",
@@ -8930,7 +9296,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": ""
   },
   {
    "title_zh": "廣西商業會館系統碑刻資料集",
@@ -8956,7 +9323,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": ""
   },
   {
    "title_zh": "獨秀峰摩崖石刻",
@@ -8980,7 +9348,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "獨秀峰"
   },
   {
    "title_zh": "柳侯祠石刻注釋",
@@ -9004,7 +9373,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "廣西"
+   "place": "廣西",
+   "locality": "柳侯祠"
   },
   {
    "title_zh": "海南現存金石銘文研究",
@@ -9030,7 +9400,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "海南"
+   "place": "海南",
+   "locality": ""
   },
   {
    "title_zh": "海南金石概說",
@@ -9054,7 +9425,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "海南"
+   "place": "海南",
+   "locality": ""
   },
   {
    "title_zh": "海南碑碣匾銘額圖志",
@@ -9078,7 +9450,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "海南"
+   "place": "海南",
+   "locality": ""
   },
   {
    "title_zh": "海南史傳與碑傳匯纂（上下冊）",
@@ -9104,7 +9477,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "海南"
+   "place": "海南",
+   "locality": ""
   },
   {
    "title_zh": "三亞史蹟敘考（附摩崖石刻）／《落筆洞》（三亞歷史文化叢書）",
@@ -9128,7 +9502,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "海南"
+   "place": "海南",
+   "locality": "三亞史蹟敘"
   },
   {
    "title_zh": "海南示禁碑（文獻整理與研究）",
@@ -9152,7 +9527,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "海南"
+   "place": "海南",
+   "locality": ""
   },
   {
    "title_zh": "烏江流域民族地區歷代碑刻選輯",
@@ -9176,7 +9552,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": ""
   },
   {
    "title_zh": "長壽區碑刻拓片選",
@@ -9200,7 +9577,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "長壽"
   },
   {
    "title_zh": "九龍坡區碑刻墓誌匾額拓本",
@@ -9224,7 +9602,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "九龍坡"
   },
   {
    "title_zh": "長江三峽工程水庫水文題刻文物圖集",
@@ -9248,7 +9627,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": ""
   },
   {
    "title_zh": "大足石刻志",
@@ -9272,7 +9652,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "大足"
   },
   {
    "title_zh": "三峽國寶——白鶴梁題刻匯錄與考索",
@@ -9296,7 +9677,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": ""
   },
   {
    "title_zh": "白鶴梁題刻整理與研究",
@@ -9322,7 +9704,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "白鶴梁"
   },
   {
    "title_zh": "白帝城歷代碑刻",
@@ -9346,7 +9729,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "白帝城"
   },
   {
    "title_zh": "涞灘石刻",
@@ -9370,7 +9754,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": "涞灘"
   },
   {
    "title_zh": "中國西南地區歷代石刻彙編",
@@ -9396,7 +9781,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": ""
   },
   {
    "title_zh": "中國四川唐代摩崖造像：蒲江、邛崍地區調查研究報告",
@@ -9420,7 +9806,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "重慶"
+   "place": "重慶",
+   "locality": ""
   },
   {
    "title_zh": "巴蜀佛教碑文集成",
@@ -9444,7 +9831,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "蜀道石刻題記",
@@ -9470,7 +9858,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "羌族石刻文獻集成",
@@ -9496,7 +9885,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "川東北清代墓碑集成",
@@ -9520,7 +9910,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "成都出土歷代墓銘卷文圖錄綜釋",
@@ -9544,7 +9935,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "涼山歷史碑刻注評",
@@ -9568,7 +9960,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "四川"
+   "place": "四川",
+   "locality": "涼山歷史"
   },
   {
    "title_zh": "仁壽石刻",
@@ -9592,7 +9985,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "四川"
+   "place": "四川",
+   "locality": "仁壽"
   },
   {
    "title_zh": "安岳石窟內容總錄",
@@ -9618,7 +10012,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "四川"
+   "place": "四川",
+   "locality": "安岳"
   },
   {
    "title_zh": "蒼溪尋樂書岩：清代洞藏摩崖石刻調查報告",
@@ -9642,7 +10037,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "墨石藏珍：成都武侯祠現存碑刻",
@@ -9666,7 +10062,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "隆昌石牌坊",
@@ -9690,7 +10087,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "四川"
+   "place": "四川",
+   "locality": "隆昌石牌坊"
   },
   {
    "title_zh": "什邡鑒園碑刻",
@@ -9714,7 +10112,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "四川"
+   "place": "四川",
+   "locality": "什邡鑒園"
   },
   {
    "title_zh": "中國畫像磚全集·四川漢畫像磚",
@@ -9740,7 +10139,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "四川"
+   "place": "四川",
+   "locality": ""
   },
   {
    "title_zh": "彝文金石圖錄（第一輯）",
@@ -9764,7 +10164,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "石上歷史：黔東南碑刻研究叢書",
@@ -9788,7 +10189,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "都勻碑刻楹聯選集",
@@ -9812,7 +10214,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": "都勻"
   },
   {
    "title_zh": "黔西南布依族清代鄉規民約碑文選",
@@ -9836,7 +10239,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "天柱古碑刻考釋",
@@ -9860,7 +10264,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": "天柱"
   },
   {
    "title_zh": "錦屏碑文選輯",
@@ -9884,7 +10289,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "從江石刻資料匯編（從江文史資料第7輯）",
@@ -9908,7 +10314,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": "從江"
   },
   {
    "title_zh": "盤縣石刻木刻拓片集萃",
@@ -9932,7 +10339,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": "盤"
   },
   {
    "title_zh": "貴州道教碑刻輯錄",
@@ -9956,7 +10364,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "貴州摩崖石刻的圖像學研究",
@@ -9980,7 +10389,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "水族地區碑刻文獻探微",
@@ -10004,7 +10414,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "碎片化的歷史：清水江流域碑刻研究",
@@ -10028,7 +10439,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "清水江流域林業碑刻的生態文化",
@@ -10052,7 +10464,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "貴陽陽明祠・陽明洞碑刻拓片集",
@@ -10076,7 +10489,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "播州土司文化遺存圖釋",
@@ -10100,7 +10514,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "貴州"
+   "place": "貴州",
+   "locality": ""
   },
   {
    "title_zh": "雲南石刻文獻目錄集存（初輯）",
@@ -10126,7 +10541,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": ""
   },
   {
    "title_zh": "滇南碑傳集",
@@ -10150,7 +10566,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": ""
   },
   {
    "title_zh": "續滇南碑傳集校補",
@@ -10174,7 +10591,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": ""
   },
   {
    "title_zh": "大理叢書·金石篇",
@@ -10200,7 +10618,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "大理叢書"
   },
   {
    "title_zh": "大理歷代名碑",
@@ -10224,7 +10643,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "大理"
   },
   {
    "title_zh": "曲靖石刻",
@@ -10248,7 +10668,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "曲靖"
   },
   {
    "title_zh": "楚雄歷代碑刻",
@@ -10272,7 +10693,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "楚雄"
   },
   {
    "title_zh": "玉溪碑刻選集",
@@ -10296,7 +10718,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "玉溪"
   },
   {
    "title_zh": "隆陽碑銘石刻",
@@ -10320,7 +10743,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "隆陽"
   },
   {
    "title_zh": "宜良碑刻",
@@ -10344,7 +10768,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "宜良"
   },
   {
    "title_zh": "南詔大理國碑刻銘文整理研究",
@@ -10368,7 +10793,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": ""
   },
   {
    "title_zh": "大理五華樓新出元碑選錄並考釋",
@@ -10394,7 +10820,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": ""
   },
   {
    "title_zh": "安寧溫泉摩崖石刻古碑集",
@@ -10418,7 +10845,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "安寧溫泉"
   },
   {
    "title_zh": "劍川石鐘山石窟圖志",
@@ -10444,7 +10872,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "劍川石鐘山"
   },
   {
    "title_zh": "雲南劍川石鐘山石窟",
@@ -10470,7 +10899,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "劍川石鐘山"
   },
   {
    "title_zh": "新纂雲南通志·金石考",
@@ -10494,7 +10924,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "雲南"
+   "place": "雲南",
+   "locality": "新纂雲南通"
   },
   {
    "title_zh": "青海世居少數民族金石錄",
@@ -10520,7 +10951,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "中國文物地圖集·西藏自治區分冊",
@@ -10544,7 +10976,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "西藏文物志叢書（地方文物志：昂仁縣文物志、薩迦縣文物志、錯那縣文物志、隆子縣文物志、加查縣文物志、曲松縣文物志、謝通門文物志 等）",
@@ -10568,7 +11001,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "吐蕃金石錄",
@@ -10592,7 +11026,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "吐蕃碑刻彙編及校注 / 吐蕃碑文與摩崖石刻考證",
@@ -10616,7 +11051,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "A Corpus of Early Tibetan Inscriptions（早期西藏碑銘彙編）",
@@ -10642,7 +11078,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "古代西藏碑文研究（李方桂全集 9）",
@@ -10668,7 +11105,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "涉藏金石總錄（在編／規劃，國家級涉藏金石彙編課題）",
@@ -10692,7 +11130,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "藏文碑刻研究",
@@ -10716,7 +11155,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "西藏"
+   "place": "西藏",
+   "locality": ""
   },
   {
    "title_zh": "陝西碑刻文獻集成",
@@ -10740,7 +11180,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "陝西金石志",
@@ -10766,7 +11207,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "三秦碑刻英華 / 陝西碑石精華 / 三秦碑刻精華",
@@ -10790,7 +11232,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "咸陽碑刻 (上下)",
@@ -10814,7 +11257,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "咸陽"
   },
   {
    "title_zh": "榆林碑石",
@@ -10838,7 +11282,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "榆林"
   },
   {
    "title_zh": "漢中碑石",
@@ -10862,7 +11307,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "漢中"
   },
   {
    "title_zh": "安康碑石",
@@ -10886,7 +11332,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "安康"
   },
   {
    "title_zh": "銅川碑刻",
@@ -10910,7 +11357,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "銅川"
   },
   {
    "title_zh": "長安碑刻",
@@ -10934,7 +11382,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "長安"
   },
   {
    "title_zh": "戶縣碑刻",
@@ -10958,7 +11407,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "戶"
   },
   {
    "title_zh": "富平碑刻",
@@ -10982,7 +11432,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "富平"
   },
   {
    "title_zh": "大荔碑刻",
@@ -11006,7 +11457,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "大荔"
   },
   {
    "title_zh": "綏德古代碑刻",
@@ -11030,7 +11482,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "綏德"
   },
   {
    "title_zh": "陝西省考古研究院新入藏墓誌",
@@ -11054,7 +11507,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "鴛鴦七志齋藏石",
@@ -11078,7 +11532,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "陝西出土宋代墓誌輯釋 (民族·盟約·邊界·戰爭)",
@@ -11102,7 +11557,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "宋代麟府路碑石整理與研究",
@@ -11126,7 +11582,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "西安碑林博物館新藏墓誌彙編",
@@ -11150,7 +11607,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "西安碑林博物館新藏墓誌續編",
@@ -11176,7 +11634,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "蜀道寶藏：中國石門摩崖石刻",
@@ -11200,7 +11659,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "昭陵碑石",
@@ -11224,7 +11684,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "昭陵"
   },
   {
    "title_zh": "樓觀台道教碑石",
@@ -11248,7 +11709,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "樓觀台"
   },
   {
    "title_zh": "重陽宮道教碑石",
@@ -11272,7 +11734,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "重陽宮"
   },
   {
    "title_zh": "藥王山碑刻 / 藥王山碑刻造像大全",
@@ -11296,7 +11759,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "藥王山"
   },
   {
    "title_zh": "黃帝陵碑刻",
@@ -11320,7 +11784,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "黃帝陵"
   },
   {
    "title_zh": "邠州石室全錄",
@@ -11344,7 +11809,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": "邠州石室全"
   },
   {
    "title_zh": "隋唐五代墓誌彙編·陝西卷",
@@ -11370,7 +11836,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "新中國出土墓誌·陝西",
@@ -11396,7 +11863,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "陝西碑刻文獻萃編",
@@ -11422,7 +11890,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "陝西"
+   "place": "陝西",
+   "locality": ""
   },
   {
    "title_zh": "隴右金石錄",
@@ -11448,7 +11917,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "絲綢之路金石叢書",
@@ -11472,7 +11942,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "甘肅道教碑刻集",
@@ -11498,7 +11969,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "甘肅古代石刻藝術",
@@ -11524,7 +11996,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "甘肅佛教石刻造像",
@@ -11548,7 +12021,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "蘭州碑林藏甘肅古代碑刻拓片菁華",
@@ -11574,7 +12048,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "尋跡石上：甘肅碑刻摩崖文化",
@@ -11598,7 +12073,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "武威金石志",
@@ -11622,7 +12098,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "武威"
   },
   {
    "title_zh": "隴南古代碑銘",
@@ -11646,7 +12123,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "隴南"
   },
   {
    "title_zh": "隴南金石校錄",
@@ -11670,7 +12148,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "隴南"
   },
   {
    "title_zh": "隴南金石題壁萃編",
@@ -11694,7 +12173,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "隴南"
   },
   {
    "title_zh": "蘭州歷代碑刻",
@@ -11718,7 +12198,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "蘭州"
   },
   {
    "title_zh": "甘南藏族自治州金石錄",
@@ -11742,7 +12223,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "甘南藏族"
   },
   {
    "title_zh": "嘉峪關金石校釋",
@@ -11766,7 +12248,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "嘉峪關"
   },
   {
    "title_zh": "白銀金石校釋",
@@ -11790,7 +12273,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "白銀"
   },
   {
    "title_zh": "張掖金石校釋",
@@ -11814,7 +12298,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "張掖"
   },
   {
    "title_zh": "甘南金石校釋",
@@ -11838,7 +12323,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "甘南"
   },
   {
    "title_zh": "慶陽金石碑銘菁華",
@@ -11862,7 +12348,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "慶陽"
   },
   {
    "title_zh": "金石萃珍：平涼歷代碑刻金文選",
@@ -11886,7 +12373,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "隴西金石錄",
@@ -11912,7 +12400,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "隴西"
   },
   {
    "title_zh": "涇川金石校釋",
@@ -11936,7 +12425,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "涇川"
   },
   {
    "title_zh": "舟曲金石敘錄",
@@ -11960,7 +12450,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "舟曲"
   },
   {
    "title_zh": "宕昌金石錄",
@@ -11984,7 +12475,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "宕昌"
   },
   {
    "title_zh": "華池金石志",
@@ -12008,7 +12500,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "華池"
   },
   {
    "title_zh": "臨潭金石文鈔",
@@ -12032,7 +12525,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "臨潭"
   },
   {
    "title_zh": "積石訪碑錄",
@@ -12056,7 +12550,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "積石訪"
   },
   {
    "title_zh": "敦煌莫高窟題記匯編",
@@ -12080,7 +12575,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "敦煌莫高窟"
   },
   {
    "title_zh": "敦煌碑銘贊輯釋（增訂本）",
@@ -12106,7 +12602,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "敦煌"
   },
   {
    "title_zh": "炳靈寺石窟內容總錄",
@@ -12130,7 +12627,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "炳靈寺"
   },
   {
    "title_zh": "慶陽北石窟寺內容總錄",
@@ -12154,7 +12652,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "慶陽北"
   },
   {
    "title_zh": "崆峒山金石校釋",
@@ -12178,7 +12677,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "崆峒山"
   },
   {
    "title_zh": "天水麥積山石窟內容總錄",
@@ -12202,7 +12702,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "天水麥積山"
   },
   {
    "title_zh": "敦煌石窟內容總錄",
@@ -12226,7 +12727,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "敦煌"
   },
   {
    "title_zh": "中國西北地區歷代石刻彙編",
@@ -12252,7 +12754,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "隴右金石錄補",
@@ -12278,7 +12781,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "敦煌莫高窟供養人題記數據庫",
@@ -12302,7 +12806,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": ""
   },
   {
    "title_zh": "青海金石錄",
@@ -12326,7 +12831,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "青海"
+   "place": "青海",
+   "locality": ""
   },
   {
    "title_zh": "青海民族民間石刻藝術研究",
@@ -12352,7 +12858,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "青海"
+   "place": "青海",
+   "locality": ""
   },
   {
    "title_zh": "青海回族、撒拉族金石錄",
@@ -12376,7 +12883,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "青海"
+   "place": "青海",
+   "locality": ""
   },
   {
    "title_zh": "寧夏歷代碑刻集",
@@ -12402,7 +12910,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "新中國出土墓誌·寧夏（卷）",
@@ -12426,7 +12935,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "西夏文物·寧夏編（全12冊）",
@@ -12452,7 +12962,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "固原歷代碑刻選編",
@@ -12478,7 +12989,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": "固原"
   },
   {
    "title_zh": "中寧碑錄",
@@ -12502,7 +13014,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": "中寧"
   },
   {
    "title_zh": "西吉縣文物志",
@@ -12526,7 +13039,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": "西吉"
   },
   {
    "title_zh": "西北民族碑文（碑刻）",
@@ -12550,7 +13064,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "固原南郊隋唐墓地",
@@ -12574,7 +13089,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "須彌山石窟內容總錄",
@@ -12600,7 +13116,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": "須彌山"
   },
   {
    "title_zh": "元代北方金石碑刻集成（甘肅、寧夏卷）",
@@ -12626,7 +13143,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "中華石刻數據庫（含西北/寧夏石刻文獻）",
@@ -12650,7 +13168,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "寧夏"
+   "place": "寧夏",
+   "locality": ""
   },
   {
    "title_zh": "隋唐五代墓誌彙編・新疆卷",
@@ -12674,7 +13193,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": ""
   },
   {
    "title_zh": "新疆美術大系・新疆岩畫卷",
@@ -12700,7 +13220,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": ""
   },
   {
    "title_zh": "吐魯番出土磚志集注",
@@ -12726,7 +13247,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": ""
   },
   {
    "title_zh": "吐魯番出土墓誌彙考",
@@ -12752,7 +13274,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": "吐魯番"
   },
   {
    "title_zh": "龜茲石窟題記",
@@ -12778,7 +13301,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": "龜茲"
   },
   {
    "title_zh": "克孜爾石窟內容總錄",
@@ -12802,7 +13326,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": "克孜爾"
   },
   {
    "title_zh": "中国文物地图集・新疆维吾尔自治区分册",
@@ -12828,7 +13353,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "新疆"
+   "place": "新疆",
+   "locality": "中国"
   },
   {
    "title_zh": "香港華文碑刻集：新界編（一）",
@@ -12852,7 +13378,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "香港"
+   "place": "香港",
+   "locality": "華文"
   },
   {
    "title_zh": "香港碑銘彙編",
@@ -12876,7 +13403,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "香港"
+   "place": "香港",
+   "locality": ""
   },
   {
    "title_zh": "香港廟宇碑刻志：歷史與圖錄",
@@ -12902,7 +13430,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "香港"
+   "place": "香港",
+   "locality": ""
   },
   {
    "title_zh": "香港佛教碑銘彙釋（一）：港島、九龍及離島",
@@ -12926,7 +13455,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "香港"
+   "place": "香港",
+   "locality": ""
   },
   {
    "title_zh": "石頭上的香港史",
@@ -12952,7 +13482,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "香港"
+   "place": "香港",
+   "locality": ""
   },
   {
    "title_zh": "香港碑銘資料庫",
@@ -12976,7 +13507,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "香港"
+   "place": "香港",
+   "locality": ""
   },
   {
    "title_zh": "金石銘刻的澳門史——明清澳門廟宇碑刻鐘銘集錄研究",
@@ -13002,7 +13534,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "澳門"
+   "place": "澳門",
+   "locality": ""
   },
   {
    "title_zh": "金石銘刻的氹仔九澳史——清代氹仔、九澳廟宇碑刻鍾銘等集錄研究",
@@ -13028,7 +13561,8 @@
    "site": "",
    "category": "",
    "admin": "專題",
-   "place": "澳門"
+   "place": "澳門",
+   "locality": ""
   },
   {
    "title_zh": "澳門媽閣石刻",
@@ -13054,7 +13588,8 @@
    "site": "",
    "category": "",
    "admin": "遺址/名山",
-   "place": "澳門"
+   "place": "澳門",
+   "locality": "媽閣"
   },
   {
    "title_zh": "臺灣南部碑文集成",
@@ -13078,7 +13613,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "臺灣中部碑文集成",
@@ -13102,7 +13638,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "臺灣北部碑文集成",
@@ -13126,7 +13663,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "明清臺灣碑碣選集",
@@ -13150,7 +13688,8 @@
    "site": "",
    "category": "",
    "admin": "省級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "金門‧馬祖地區現存碑碣圖誌",
@@ -13174,7 +13713,8 @@
    "site": "",
    "category": "",
    "admin": "府/市級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "南瀛古碑誌",
@@ -13198,7 +13738,8 @@
    "site": "",
    "category": "",
    "admin": "縣級",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": "南瀛"
   },
   {
    "title_zh": "臺灣地區現存碑碣圖誌",
@@ -13222,7 +13763,8 @@
    "site": "",
    "category": "",
    "admin": "全國",
-   "place": "台灣"
+   "place": "台灣",
+   "locality": ""
   },
   {
    "title_zh": "嵩山碑刻",
@@ -13248,7 +13790,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "嵩山歷代碑刻選",
@@ -13272,7 +13815,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "嵩山少林寺石刻藝術大全",
@@ -13298,7 +13842,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "嵩山少林寺碑刻選",
@@ -13324,7 +13869,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "少林寺碑刻選",
@@ -13348,7 +13894,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "少林寺資料集",
@@ -13372,7 +13919,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "少林寺碑碣（566—1990）",
@@ -13396,7 +13944,8 @@
    "site": "中嶽嵩山",
    "category": "五嶽",
    "admin": "",
-   "place": "中嶽嵩山"
+   "place": "中嶽嵩山",
+   "locality": "中嶽嵩山"
   },
   {
    "title_zh": "池州摩崖石刻",
@@ -13420,7 +13969,8 @@
    "site": "九華山",
    "category": "五嶽",
    "admin": "",
-   "place": "九華山"
+   "place": "九華山",
+   "locality": "九華山"
   },
   {
    "title_zh": "池州記憶·古石刻",
@@ -13444,7 +13994,8 @@
    "site": "九華山",
    "category": "五嶽",
    "admin": "",
-   "place": "九華山"
+   "place": "九華山",
+   "locality": "九華山"
   },
   {
    "title_zh": "安徽摩崖石刻精粹",
@@ -13470,7 +14021,8 @@
    "site": "九華山",
    "category": "五嶽",
    "admin": "",
-   "place": "九華山"
+   "place": "九華山",
+   "locality": "九華山"
   },
   {
    "title_zh": "三晉石刻大全·大同市渾源縣卷",
@@ -13496,7 +14048,8 @@
    "site": "北嶽恒山",
    "category": "五嶽",
    "admin": "",
-   "place": "北嶽恒山"
+   "place": "北嶽恒山",
+   "locality": "北嶽恒山"
   },
   {
    "title_zh": "三晉石刻大全·大同市渾源縣卷續編",
@@ -13522,7 +14075,8 @@
    "site": "北嶽恒山",
    "category": "五嶽",
    "admin": "",
-   "place": "北嶽恒山"
+   "place": "北嶽恒山",
+   "locality": "北嶽恒山"
   },
   {
    "title_zh": "湖南地方文獻與摩崖石刻研究",
@@ -13546,7 +14100,8 @@
    "site": "南嶽衡山",
    "category": "五嶽",
    "admin": "",
-   "place": "南嶽衡山"
+   "place": "南嶽衡山",
+   "locality": "南嶽衡山"
   },
   {
    "title_zh": "湖南兩宋摩崖石刻考釋",
@@ -13572,7 +14127,8 @@
    "site": "南嶽衡山",
    "category": "五嶽",
    "admin": "",
-   "place": "南嶽衡山"
+   "place": "南嶽衡山",
+   "locality": "南嶽衡山"
   },
   {
    "title_zh": "南岳衡山摩崖石刻精粹集",
@@ -13596,7 +14152,8 @@
    "site": "南嶽衡山",
    "category": "五嶽",
    "admin": "",
-   "place": "南嶽衡山"
+   "place": "南嶽衡山",
+   "locality": "南嶽衡山"
   },
   {
    "title_zh": "南岳衡山博物館藏南岳摩崖石刻拓片（搶救性傳拓檔案，未刊）",
@@ -13620,7 +14177,8 @@
    "site": "南嶽衡山",
    "category": "五嶽",
    "admin": "",
-   "place": "南嶽衡山"
+   "place": "南嶽衡山",
+   "locality": "南嶽衡山"
   },
   {
    "title_zh": "泰山石刻",
@@ -13646,7 +14204,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "泰山石刻大全（增訂本）",
@@ -13672,7 +14231,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "中國佛教石經・山東省 第四卷：泰山—經石峪",
@@ -13698,7 +14258,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "Buddhist Stone Sutras in China: Shandong Province, vol. 4 (中國佛教石經・山東省 第四卷) [Harrassowitz co-edition]",
@@ -13724,7 +14285,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "岱廟碑刻研究",
@@ -13750,7 +14312,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "岱廟碑刻",
@@ -13774,7 +14337,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "中華瑰寶・泰山碑刻經典",
@@ -13798,7 +14362,8 @@
    "site": "泰山",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山"
+   "place": "泰山",
+   "locality": "泰山"
   },
   {
    "title_zh": "泰山石經",
@@ -13824,7 +14389,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "泰山經石峪金剛經（中國石刻書法精粹）",
@@ -13850,7 +14416,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "泰山經石峪刻經",
@@ -13874,7 +14441,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "最善拓本：泰山經石峪《金剛經》",
@@ -13900,7 +14468,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "集泰山經石峪摩崖石刻",
@@ -13924,7 +14493,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "泰山經石峪金剛經墨拓",
@@ -13948,7 +14518,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "泰山經石峪摩崖刻經拓本及縮印本匯考",
@@ -13972,7 +14543,8 @@
    "site": "泰山經石峪",
    "category": "五嶽",
    "admin": "",
-   "place": "泰山經石峪"
+   "place": "泰山經石峪",
+   "locality": "泰山經石峪"
   },
   {
    "title_zh": "華山碑石",
@@ -13998,7 +14570,8 @@
    "site": "華山",
    "category": "五嶽",
    "admin": "",
-   "place": "華山"
+   "place": "華山",
+   "locality": "華山"
   },
   {
    "title_zh": "渭華翠色——陝西渭南名碑拓本圖鑑",
@@ -14022,7 +14595,8 @@
    "site": "華山",
    "category": "五嶽",
    "admin": "",
-   "place": "華山"
+   "place": "華山",
+   "locality": "華山"
   },
   {
    "title_zh": "華山摩崖石刻資料彙編 (擬;2023–2024專項調查成果，尚未出版)",
@@ -14046,7 +14620,8 @@
    "site": "華山",
    "category": "五嶽",
    "admin": "",
-   "place": "華山"
+   "place": "華山",
+   "locality": "華山"
   },
   {
    "title_zh": "峨眉山石刻選注",
@@ -14070,7 +14645,8 @@
    "site": "Emeishan",
    "category": "佛教名山",
    "admin": "",
-   "place": "Emeishan"
+   "place": "Emeishan",
+   "locality": "Emeishan"
   },
   {
    "title_zh": "峨眉山志",
@@ -14096,7 +14672,8 @@
    "site": "Emeishan",
    "category": "佛教名山",
    "admin": "",
-   "place": "Emeishan"
+   "place": "Emeishan",
+   "locality": "Emeishan"
   },
   {
    "title_zh": "樂山大佛（凌雲山）摩崖造像群 — 四川省文物考古研究院調查資料",
@@ -14120,7 +14697,8 @@
    "site": "Emeishan",
    "category": "佛教名山",
    "admin": "",
-   "place": "Emeishan"
+   "place": "Emeishan",
+   "locality": "Emeishan"
   },
   {
    "title_zh": "普陀洛迦山志",
@@ -14146,7 +14724,8 @@
    "site": "Putuoshan",
    "category": "佛教名山",
    "admin": "",
-   "place": "Putuoshan"
+   "place": "Putuoshan",
+   "locality": "Putuoshan"
   },
   {
    "title_zh": "印痕——普陀「文保」實錄（普陀政協文史資料 第六輯）",
@@ -14170,7 +14749,8 @@
    "site": "Putuoshan",
    "category": "佛教名山",
    "admin": "",
-   "place": "Putuoshan"
+   "place": "Putuoshan",
+   "locality": "Putuoshan"
   },
   {
    "title_zh": "五台山碑刻",
@@ -14196,7 +14776,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "五台山碑文",
@@ -14220,7 +14801,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "五臺山碑文匾額楹聯詩賦選",
@@ -14246,7 +14828,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "五臺山碑文選注",
@@ -14272,7 +14855,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "佛教聖地五臺山：碑拓集萃",
@@ -14296,7 +14880,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "五臺山佛教：繁峙金石篇",
@@ -14320,7 +14905,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "繁峙碑文集",
@@ -14344,7 +14930,8 @@
    "site": "五台山",
    "category": "佛教名山",
    "admin": "",
-   "place": "五台山"
+   "place": "五台山",
+   "locality": "五台山"
   },
   {
    "title_zh": "崂山碑碣與刻石",
@@ -14368,7 +14955,8 @@
    "site": "嶗山",
    "category": "道教名山",
    "admin": "",
-   "place": "嶗山"
+   "place": "嶗山",
+   "locality": "嶗山"
   },
   {
    "title_zh": "崂山摩崖集萃",
@@ -14392,7 +14980,8 @@
    "site": "嶗山",
    "category": "道教名山",
    "admin": "",
-   "place": "嶗山"
+   "place": "嶗山",
+   "locality": "嶗山"
   },
   {
    "title_zh": "崂山碑記輯注",
@@ -14416,7 +15005,8 @@
    "site": "嶗山",
    "category": "道教名山",
    "admin": "",
-   "place": "嶗山"
+   "place": "嶗山",
+   "locality": "嶗山"
   },
   {
    "title_zh": "崂山道教題刻研究",
@@ -14442,7 +15032,8 @@
    "site": "嶗山",
    "category": "道教名山",
    "admin": "",
-   "place": "嶗山"
+   "place": "嶗山",
+   "locality": "嶗山"
   },
   {
    "title_zh": "武當山金石碑刻選錄",
@@ -14468,7 +15059,8 @@
    "site": "武當山",
    "category": "道教名山",
    "admin": "",
-   "place": "武當山"
+   "place": "武當山",
+   "locality": "武當山"
   },
   {
    "title_zh": "武當山碑刻鑑賞",
@@ -14492,7 +15084,8 @@
    "site": "武當山",
    "category": "道教名山",
    "admin": "",
-   "place": "武當山"
+   "place": "武當山",
+   "locality": "武當山"
   },
   {
    "title_zh": "句容碑刻錄",
@@ -14516,7 +15109,8 @@
    "site": "茅山",
    "category": "道教名山",
    "admin": "",
-   "place": "茅山"
+   "place": "茅山",
+   "locality": "茅山"
   },
   {
    "title_zh": "茅山道院歷代碑銘錄",
@@ -14540,7 +15134,8 @@
    "site": "茅山",
    "category": "道教名山",
    "admin": "",
-   "place": "茅山"
+   "place": "茅山",
+   "locality": "茅山"
   },
   {
    "title_zh": "江南道教碑記資料集",
@@ -14564,7 +15159,8 @@
    "site": "茅山",
    "category": "道教名山",
    "admin": "",
-   "place": "茅山"
+   "place": "茅山",
+   "locality": "茅山"
   },
   {
    "title_zh": "金壇碑刻集（金壇文史資料 第三十二輯）",
@@ -14588,7 +15184,8 @@
    "site": "茅山",
    "category": "道教名山",
    "admin": "",
-   "place": "茅山"
+   "place": "茅山",
+   "locality": "茅山"
   },
   {
    "title_zh": "巴蜀道教碑文集成",
@@ -14612,7 +15209,8 @@
    "site": "青城山",
    "category": "道教名山",
    "admin": "",
-   "place": "青城山"
+   "place": "青城山",
+   "locality": "青城山"
   },
   {
    "title_zh": "都江堰金石錄",
@@ -14636,7 +15234,8 @@
    "site": "青城山",
    "category": "道教名山",
    "admin": "",
-   "place": "青城山"
+   "place": "青城山",
+   "locality": "青城山"
   },
   {
    "title_zh": "四川省志·青城山志",
@@ -14660,7 +15259,8 @@
    "site": "青城山",
    "category": "道教名山",
    "admin": "",
-   "place": "青城山"
+   "place": "青城山",
+   "locality": "青城山"
   },
   {
    "title_zh": "江西道教碑刻輯錄",
@@ -14686,7 +15286,8 @@
    "site": "龍虎山",
    "category": "道教名山",
    "admin": "",
-   "place": "龍虎山"
+   "place": "龍虎山",
+   "locality": "龍虎山"
   },
   {
    "title_zh": "龍虎山大上清宮遺址 (考古發掘 — 正式報告未刊)",
@@ -14710,7 +15311,8 @@
    "site": "龍虎山",
    "category": "道教名山",
    "admin": "",
-   "place": "龍虎山"
+   "place": "龍虎山",
+   "locality": "龍虎山"
   },
   {
    "title_zh": "老碑刻",
@@ -14734,7 +15336,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "浙江省第三次全國文物普查新發現叢書·摩崖石刻",
@@ -14758,7 +15361,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "浙南摩崖石刻研究",
@@ -14784,7 +15388,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "台州墓誌集錄",
@@ -14808,7 +15413,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "臨海墓誌集錄",
@@ -14832,7 +15438,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "黃巖金石志",
@@ -14856,7 +15463,8 @@
    "site": "天台山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "天台山"
+   "place": "天台山",
+   "locality": "天台山"
   },
   {
    "title_zh": "廬山歷代石刻",
@@ -14880,7 +15488,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "廬山詩文金石廣存",
@@ -14906,7 +15515,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "廬山名勝石刻",
@@ -14930,7 +15540,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "廬山金石考",
@@ -14954,7 +15565,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "白鹿洞書院碑刻摩崖選集",
@@ -14978,7 +15590,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "白鹿洞書院碑記集",
@@ -15004,7 +15617,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "白鹿洞書院摩崖石刻賞析",
@@ -15028,7 +15642,8 @@
    "site": "廬山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "廬山"
+   "place": "廬山",
+   "locality": "廬山"
   },
   {
    "title_zh": "福建摩崖石刻精品",
@@ -15054,7 +15669,8 @@
    "site": "武夷山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "武夷山"
+   "place": "武夷山",
+   "locality": "武夷山"
   },
   {
    "title_zh": "武夷山摩崖石刻與武夷文化研究",
@@ -15080,7 +15696,8 @@
    "site": "武夷山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "武夷山"
+   "place": "武夷山",
+   "locality": "武夷山"
   },
   {
    "title_zh": "武夷山摩崖石刻",
@@ -15106,7 +15723,8 @@
    "site": "武夷山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "武夷山"
+   "place": "武夷山",
+   "locality": "武夷山"
   },
   {
    "title_zh": "武夷山摩崖石刻圖錄",
@@ -15132,7 +15750,8 @@
    "site": "武夷山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "武夷山"
+   "place": "武夷山",
+   "locality": "武夷山"
   },
   {
    "title_zh": "摩崖薈萃",
@@ -15156,7 +15775,8 @@
    "site": "武夷山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "武夷山"
+   "place": "武夷山",
+   "locality": "武夷山"
   },
   {
    "title_zh": "溫州歷代碑刻集",
@@ -15182,7 +15802,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "溫州歷代碑刻二集",
@@ -15206,7 +15827,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "溫州訪碑錄",
@@ -15230,7 +15852,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "雁蕩山摩崖碑刻",
@@ -15254,7 +15877,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "雁蕩山摩崖石刻",
@@ -15278,7 +15902,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "樂清歷代碑誌選",
@@ -15302,7 +15927,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "溫州金石集萃",
@@ -15326,7 +15952,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "處州摩崖石刻研究",
@@ -15350,7 +15977,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "摩崖石刻：浙江省第三次全國文物普查新發現叢書",
@@ -15374,7 +16002,8 @@
    "site": "雁蕩山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "雁蕩山"
+   "place": "雁蕩山",
+   "locality": "雁蕩山"
   },
   {
    "title_zh": "黃山摩崖石刻",
@@ -15400,7 +16029,8 @@
    "site": "黃山",
    "category": "風景文化名山",
    "admin": "",
-   "place": "黃山"
+   "place": "黃山",
+   "locality": "黃山"
   },
   {
    "title_zh": "大足石刻內容總錄",
@@ -15426,7 +16056,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "大足石刻全集（全11卷共19册）",
@@ -15452,7 +16083,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "大足石刻銘文錄",
@@ -15478,7 +16110,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "大足石刻全集·第一卷 北山佛灣石窟第1–100號考古報告",
@@ -15504,7 +16137,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "大足石刻全集·第五卷 石篆山、石門山、南山石窟考古報告",
@@ -15530,7 +16164,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "大足石刻雕塑全集（全4册）",
@@ -15556,7 +16191,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "中國石窟雕塑全集·第七卷·大足",
@@ -15580,7 +16216,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "近代大足石刻史料彙編",
@@ -15604,7 +16241,8 @@
    "site": "大足石刻",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "大足石刻"
+   "place": "大足石刻",
+   "locality": "大足石刻"
   },
   {
    "title_zh": "敦煌莫高窟供養人題記",
@@ -15628,7 +16266,8 @@
    "site": "莫高窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "莫高窟"
+   "place": "莫高窟",
+   "locality": "莫高窟"
   },
   {
    "title_zh": "敦煌莫高窟題記彙編",
@@ -15654,7 +16293,8 @@
    "site": "莫高窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "莫高窟"
+   "place": "莫高窟",
+   "locality": "莫高窟"
   },
   {
    "title_zh": "敦煌莫高窟內容總錄",
@@ -15680,7 +16320,8 @@
    "site": "莫高窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "莫高窟"
+   "place": "莫高窟",
+   "locality": "莫高窟"
   },
   {
    "title_zh": "敦煌莫高窟北區石窟 (全三卷)",
@@ -15704,7 +16345,8 @@
    "site": "莫高窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "莫高窟"
+   "place": "莫高窟",
+   "locality": "莫高窟"
   },
   {
    "title_zh": "敦煌莫高窟碑文錄及有關問題（一）（二）",
@@ -15728,7 +16370,8 @@
    "site": "莫高窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "莫高窟"
+   "place": "莫高窟",
+   "locality": "莫高窟"
   },
   {
    "title_zh": "雲岡石窟名稱和銘文碑記",
@@ -15752,7 +16395,8 @@
    "site": "雲岡石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "雲岡石窟"
+   "place": "雲岡石窟",
+   "locality": "雲岡石窟"
   },
   {
    "title_zh": "雲岡石窟編年史",
@@ -15776,7 +16420,8 @@
    "site": "雲岡石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "雲岡石窟"
+   "place": "雲岡石窟",
+   "locality": "雲岡石窟"
   },
   {
    "title_zh": "雲岡石窟全集（全二十卷）",
@@ -15800,7 +16445,8 @@
    "site": "雲岡石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "雲岡石窟"
+   "place": "雲岡石窟",
+   "locality": "雲岡石窟"
   },
   {
    "title_zh": "雲岡石窟（雲岡金石錄／題記著錄部分）水野清一・長廣敏雄",
@@ -15826,7 +16472,8 @@
    "site": "雲岡石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "雲岡石窟"
+   "place": "雲岡石窟",
+   "locality": "雲岡石窟"
   },
   {
    "title_zh": "鞏縣石窟寺 (巩县石窟寺)",
@@ -15850,7 +16497,8 @@
    "site": "鞏縣",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "鞏縣"
+   "place": "鞏縣",
+   "locality": "鞏縣"
   },
   {
    "title_zh": "中國石窟·鞏縣石窟寺 (中国石窟·巩县石窟寺)",
@@ -15876,7 +16524,8 @@
    "site": "鞏縣",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "鞏縣"
+   "place": "鞏縣",
+   "locality": "鞏縣"
   },
   {
    "title_zh": "鞏縣石窟——流失海外石刻造像研究 (巩县石窟——流失海外石刻造像研究)",
@@ -15902,7 +16551,8 @@
    "site": "鞏縣",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "鞏縣"
+   "place": "鞏縣",
+   "locality": "鞏縣"
   },
   {
    "title_zh": "石窟寺造像題記精粹 (石窟寺造像题记精粹)",
@@ -15928,7 +16578,8 @@
    "site": "鞏縣",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "鞏縣"
+   "place": "鞏縣",
+   "locality": "鞏縣"
   },
   {
    "title_zh": "漢魏六朝碑刻集釋 (汉魏六朝碑刻集释)",
@@ -15952,7 +16603,8 @@
    "site": "鞏縣",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "鞏縣"
+   "place": "鞏縣",
+   "locality": "鞏縣"
   },
   {
    "title_zh": "北響堂石窟刻經洞——南區1、2、3號窟考古報告",
@@ -15978,7 +16630,8 @@
    "site": "響堂山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "響堂山"
+   "place": "響堂山",
+   "locality": "響堂山"
   },
   {
    "title_zh": "響堂山：石窟（上下冊 / 全二冊）",
@@ -16004,7 +16657,8 @@
    "site": "響堂山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "響堂山"
+   "place": "響堂山",
+   "locality": "響堂山"
   },
   {
    "title_zh": "響堂山石窟：河北河南省境における北齊時代の石窟寺院",
@@ -16028,7 +16682,8 @@
    "site": "響堂山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "響堂山"
+   "place": "響堂山",
+   "locality": "響堂山"
   },
   {
    "title_zh": "天水金石文獻輯錄校注",
@@ -16052,7 +16707,8 @@
    "site": "麥積山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "麥積山"
+   "place": "麥積山",
+   "locality": "麥積山"
   },
   {
    "title_zh": "中國石窟·天水麥積山",
@@ -16078,7 +16734,8 @@
    "site": "麥積山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "麥積山"
+   "place": "麥積山",
+   "locality": "麥積山"
   },
   {
    "title_zh": "麥積山石窟志",
@@ -16104,7 +16761,8 @@
    "site": "麥積山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "麥積山"
+   "place": "麥積山",
+   "locality": "麥積山"
   },
   {
    "title_zh": "石窟藝術研究 (集刊)",
@@ -16128,7 +16786,8 @@
    "site": "麥積山",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "麥積山"
+   "place": "麥積山",
+   "locality": "麥積山"
   },
   {
    "title_zh": "北京圖書館藏龍門石窟造像題記拓本全編",
@@ -16154,7 +16813,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門石窟石刻集成",
@@ -16178,7 +16838,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門造像題記",
@@ -16202,7 +16863,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門石窟紋飾拓片集",
@@ -16226,7 +16888,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門二十品",
@@ -16250,7 +16913,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門石窟造像選萃",
@@ -16274,7 +16938,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "龍門石窟雕刻萃編",
@@ -16298,7 +16963,8 @@
    "site": "龍門石窟",
    "category": "石窟 grottoes",
    "admin": "",
-   "place": "龍門石窟"
+   "place": "龍門石窟",
+   "locality": "龍門石窟"
   },
   {
    "title_zh": "房山石經題記整理與研究 (全3冊：題記卷、研究卷、圖錄卷)",
@@ -16324,7 +16990,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "房山石經題記彙編",
@@ -16348,7 +17015,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "房山碑刻通志",
@@ -16374,7 +17042,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "雲居寺貞石錄",
@@ -16398,7 +17067,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "房山石經 (全30冊)",
@@ -16424,7 +17094,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "房山雲居寺石經 (隋唐刻經 / 遼金刻經)",
@@ -16448,7 +17119,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "新編補正房山石經題記彙編",
@@ -16474,7 +17146,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "房山明咒集 (五冊)",
@@ -16500,7 +17173,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "佛家養生：《房山石經》養生文獻彙編",
@@ -16526,7 +17200,8 @@
    "site": "房山雲居寺石經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "房山雲居寺石經"
+   "place": "房山雲居寺石經",
+   "locality": "房山雲居寺石經"
   },
   {
    "title_zh": "中國佛教石經",
@@ -16552,7 +17227,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国佛教石经",
@@ -16576,7 +17252,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中國佛教石經",
@@ -16602,7 +17279,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中國佛教石經",
@@ -16628,7 +17306,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中國佛教石經",
@@ -16655,7 +17334,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国石刻书法精粹",
@@ -16681,7 +17361,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国石刻书法精粹",
@@ -16707,7 +17388,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国石刻书法精粹",
@@ -16733,7 +17415,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国石刻书法精粹",
@@ -16759,7 +17442,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "中国石刻书法精粹",
@@ -16785,7 +17469,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "鄒城碑刻（全三冊）",
@@ -16809,7 +17494,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "北朝摩崖刻經全集（待核 / needs-verification）",
@@ -16833,7 +17519,8 @@
    "site": "鄒城四山摩崖刻經",
    "category": "刻經 sutra-sites",
    "admin": "",
-   "place": "鄒城四山摩崖刻經"
+   "place": "鄒城四山摩崖刻經",
+   "locality": "鄒城四山摩崖刻經"
   },
   {
    "title_zh": "曲阜儒家碑刻文獻集成（全三冊）",
@@ -16859,7 +17546,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜儒家碑刻文獻輯錄（第一—五輯）",
@@ -16883,7 +17571,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "石頭上的儒家文獻：曲阜碑文錄（上下冊）",
@@ -16907,7 +17596,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜碑刻：漢魏碑刻陳列館藏北齊、隋、唐、宋、元卷",
@@ -16931,7 +17621,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "孔孟之鄉石刻碑文選",
@@ -16955,7 +17646,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜碑目集錄",
@@ -16979,7 +17671,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜碑刻視域下的孔子與歷代中國",
@@ -17003,7 +17696,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜漢魏碑刻",
@@ -17027,7 +17721,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "曲阜碑刻精選",
@@ -17051,7 +17746,8 @@
    "site": "曲阜孔廟碑刻",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "曲阜孔廟碑刻"
+   "place": "曲阜孔廟碑刻",
+   "locality": "曲阜孔廟碑刻"
   },
   {
    "title_zh": "湖湘碑刻（一）",
@@ -17075,7 +17771,8 @@
    "site": "浯溪摩崖",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "浯溪摩崖"
+   "place": "浯溪摩崖",
+   "locality": "浯溪摩崖"
   },
   {
    "title_zh": "湖湘碑刻（二）浯溪卷",
@@ -17099,7 +17796,8 @@
    "site": "浯溪摩崖",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "浯溪摩崖"
+   "place": "浯溪摩崖",
+   "locality": "浯溪摩崖"
   },
   {
    "title_zh": "浯溪摩崖石刻",
@@ -17125,7 +17823,8 @@
    "site": "浯溪摩崖",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "浯溪摩崖"
+   "place": "浯溪摩崖",
+   "locality": "浯溪摩崖"
   },
   {
    "title_zh": "永州石刻拾萃",
@@ -17149,7 +17848,8 @@
    "site": "浯溪摩崖",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "浯溪摩崖"
+   "place": "浯溪摩崖",
+   "locality": "浯溪摩崖"
   },
   {
    "title_zh": "焦山碑刻",
@@ -17173,7 +17873,8 @@
    "site": "焦山碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "焦山碑林"
+   "place": "焦山碑林",
+   "locality": "焦山碑林"
   },
   {
    "title_zh": "焦山碑林典藏精品圖錄",
@@ -17199,7 +17900,8 @@
    "site": "焦山碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "焦山碑林"
+   "place": "焦山碑林",
+   "locality": "焦山碑林"
   },
   {
    "title_zh": "澄鑒堂石刻",
@@ -17225,7 +17927,8 @@
    "site": "焦山碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "焦山碑林"
+   "place": "焦山碑林",
+   "locality": "焦山碑林"
   },
   {
    "title_zh": "焦山碑林",
@@ -17251,7 +17954,8 @@
    "site": "焦山碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "焦山碑林"
+   "place": "焦山碑林",
+   "locality": "焦山碑林"
   },
   {
    "title_zh": "焦山碑林（英譯本）The stone and stele calligraphy: Jiaoshan Hill",
@@ -17277,7 +17981,8 @@
    "site": "焦山碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "焦山碑林"
+   "place": "焦山碑林",
+   "locality": "焦山碑林"
   },
   {
    "title_zh": "西安碑林全集·碑刻碑帖卷（全6册）",
@@ -17303,7 +18008,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "西安碑林全集·經幢卷",
@@ -17329,7 +18035,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "西安碑林博物館藏碑刻總目提要",
@@ -17355,7 +18062,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "西安碑林博物館新藏墓志彙編",
@@ -17381,7 +18089,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "西安碑林博物館新藏墓志續編",
@@ -17407,7 +18116,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "開成石經",
@@ -17433,7 +18143,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "西安碑林名碑精粹",
@@ -17459,7 +18170,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "陝西出土蒙元時期墓志",
@@ -17485,7 +18197,8 @@
    "site": "西安碑林",
    "category": "碑林 stele-forests",
    "admin": "",
-   "place": "西安碑林"
+   "place": "西安碑林",
+   "locality": "西安碑林"
   },
   {
    "title_zh": "廣東碑刻集",
@@ -17509,7 +18222,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "廣東文化遺產：石刻卷",
@@ -17533,7 +18247,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "廣州碑刻集",
@@ -17557,7 +18272,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "藥洲石刻",
@@ -17583,7 +18299,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "肇慶星湖石刻",
@@ -17609,7 +18326,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "肇慶星湖石刻全錄",
@@ -17633,7 +18351,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "肇慶七星岩摩崖石刻薈萃",
@@ -17657,7 +18376,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "廣府金石錄",
@@ -17683,7 +18403,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "粵東金石略補注",
@@ -17707,7 +18428,8 @@
    "site": "廣州九曜石",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "廣州九曜石"
+   "place": "廣州九曜石",
+   "locality": "廣州九曜石"
   },
   {
    "title_zh": "桂林石刻",
@@ -17731,7 +18453,8 @@
    "site": "桂林石刻",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "桂林石刻"
+   "place": "桂林石刻",
+   "locality": "桂林石刻"
   },
   {
    "title_zh": "桂林石刻拓片全集·摩崖造像卷",
@@ -17757,7 +18480,8 @@
    "site": "桂林石刻",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "桂林石刻"
+   "place": "桂林石刻",
+   "locality": "桂林石刻"
   },
   {
    "title_zh": "中國西南地區歷代石刻匯編·廣西桂林卷 (第9–13冊)",
@@ -17783,7 +18507,8 @@
    "site": "桂林石刻",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "桂林石刻"
+   "place": "桂林石刻",
+   "locality": "桂林石刻"
   },
   {
    "title_zh": "桂林石刻：史實與人事考略",
@@ -17809,7 +18534,8 @@
    "site": "桂林石刻",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "桂林石刻"
+   "place": "桂林石刻",
+   "locality": "桂林石刻"
   },
   {
    "title_zh": "桂林石刻探微",
@@ -17833,7 +18559,8 @@
    "site": "桂林石刻",
    "category": "摩崖 cliff-clusters",
    "admin": "",
-   "place": "桂林石刻"
+   "place": "桂林石刻",
+   "locality": "桂林石刻"
   },
   {
    "title_zh": "遼代石刻文編",
@@ -17857,7 +18584,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "national"
+   "place": "national",
+   "locality": ""
   },
   {
    "title_zh": "杭州花港摩崖萃編",
@@ -17881,7 +18609,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "浙江"
+   "place": "浙江",
+   "locality": "杭州花港"
   },
   {
    "title_zh": "徽州文物圖錄",
@@ -17905,7 +18634,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "安徽"
+   "place": "安徽",
+   "locality": "徽州"
   },
   {
    "title_zh": "武當山碑刻",
@@ -17929,7 +18659,8 @@
    "site": "武當山",
    "category": "道教名山",
    "admin": "",
-   "place": "武當山"
+   "place": "武當山",
+   "locality": "武當山"
   },
   {
    "title_zh": "麥積區金石校注",
@@ -17955,7 +18686,8 @@
    "site": "",
    "category": "",
    "admin": "",
-   "place": "甘肅"
+   "place": "甘肅",
+   "locality": "麥積"
   }
  ]
 }
