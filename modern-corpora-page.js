@@ -131,8 +131,10 @@
     if (h.vault) b.push('<span class="mc-hold vault" title="already in vault">vault</span>');
     if (r.web && !b.length) {
       var ev = r.evidence ? String(r.evidence).match(/https?:\/\/[^\s)]+/) : null;
-      b.push(ev ? '<a class="mc-hold web" target="_blank" rel="noopener" href="' + esc(ev[0]) + '" title="web fan-out source (not library-verified)">web ↗</a>'
-                : '<span class="mc-hold web" title="web fan-out source (not library-verified)">web</span>');
+      var lbl = r.web_verified ? "web ✓" : "web";
+      var ttl = r.web_verified ? "verified against an online source ↗" : "web fan-out (not yet verified) ↗";
+      b.push(ev ? '<a class="mc-hold web' + (r.web_verified ? " ok" : "") + '" target="_blank" rel="noopener" href="' + esc(ev[0]) + '" title="' + ttl + '">' + lbl + ' ↗</a>'
+                : '<span class="mc-hold web" title="' + ttl + '">' + lbl + '</span>');
     }
     return b.join("");
   }
