@@ -102,8 +102,9 @@
   // ── table ────────────────────────────────────────────────────────────────────
   var sortKey = "title", sortDir = "asc";
   var COLS = [
-    { label: "Corpus 書名", key: "title" },
-    { label: "Author / editor", key: "author" },
+    { label: "Title 書名", key: "title" },
+    { label: "Author 編者", key: "author" },
+    { label: "Description", key: null },
     { label: "Year", key: "year", num: true },
     { label: "Publisher", key: "publisher" },
     { label: "Place", key: "place" },
@@ -123,11 +124,27 @@
     if (p !== 0) return sortDir === "desc" ? -p : p;
     return fold(a.title_zh || "").localeCompare(fold(b.title_zh || ""));
   }
+  function catLink(r, lib) {
+    var has = !!(r.isbn && r.isbn[0]), q = has ? r.isbn[0] : (r.title_zh || "");
+    if (lib === "sbb") return "https://stabikat.de/Search/Results?lookfor=" + encodeURIComponent(q) + "&type=" + (has ? "ISN" : "AllFields");
+    if (lib === "k10") return "https://opac.k10plus.de/DB=2.1/CMD?ACT=SRCHA&IKT=" + (has ? "7" : "1016") + "&TRM=" + encodeURIComponent(q);
+    if (lib === "harvard") return "https://hollis.harvard.edu/primo-explore/search?query=any,contains," + encodeURIComponent(q) + "&tab=everything&search_scope=everything&vid=HVD2&mode=basic";
+    return "#";
+  }
+  function compactYear(r) {
+    var y = String(r.year || ""); if (!y) return "—";
+    var m = y.match(/(c\.\s*)?\d{4}\s*[–\-\/]\s*(\d{4}|今|present|ongoing)|(c\.\s*)?\d{4}|\d{3,4}0s|\d{1,2}(th|st|nd|rd)/);
+    return m ? m[0].replace(/\s+/g, "") : y;
+  }
   function holds(r) {
     var h = r.holdings || {}, b = [];
-    if (h.harvard) b.push('<span class="mc-hold harvard" title="Harvard-Yenching">Harvard</span>');
-    if (h.sbb) b.push('<span class="mc-hold sbb" title="Staatsbibliothek zu Berlin">SBB</span>');
-    if (h.k10plus) b.push('<span class="mc-hold k10" title="K10plus union catalog">K10+</span>');
+    function lib(cls, lbl, key, ttl) {
+      return '<a class="mc-hold ' + cls + '" target="_blank" rel="noopener" href="' + esc(catLink(r, key)) +
+        '" title="' + ttl + ' — search catalogue ↗">' + lbl + " ↗</a>";
+    }
+    if (h.harvard) b.push(lib("harvard", "Harvard", "harvard", "Harvard-Yenching (HOLLIS)"));
+    if (h.sbb) b.push(lib("sbb", "SBB", "sbb", "Staatsbibliothek zu Berlin (StaBiKat)"));
+    if (h.k10plus) b.push(lib("k10", "K10+", "k10", "K10plus union catalogue"));
     if (h.vault) b.push('<span class="mc-hold vault" title="already in vault">vault</span>');
     if (r.web && !b.length) {
       var ev = r.evidence ? String(r.evidence).match(/https?:\/\/[^\s)]+/) : null;
@@ -144,12 +161,14 @@
       : (r.section === "province" && !r.province) ? (r.region || "") + "地區"
       : (r.place || "—");
     var sub = (r.locality && r.locality !== place) ? r.locality : (r.admin || "");
+    var desc = r.scope || "";
     return '<tr>' +
-      '<td><div class="ct-name">' + (r.gapfill ? '<span class="mc-plus" title="gap-fill addition">✚ </span>' : "") + esc(r.title_zh || "?") + "</div>" +
-        (r.title_pinyin ? '<div class="ct-city">' + esc(r.title_pinyin) + "</div>" : "") +
-        (r.scope ? '<div class="ct-city" title="' + esc(r.scope) + '">' + esc(r.scope.length > 60 ? r.scope.slice(0, 58) + "…" : r.scope) + "</div>" : "") + "</td>" +
+      '<td><div class="ct-name">' + (r.gapfill ? '<span class="mc-plus" title="gap-fill addition">✚ </span>' : "") +
+        '<a href="corpus.html?id=' + encodeURIComponent(r.id) + '">' + esc(r.title_zh || "?") + "</a></div>" +
+        (r.title_pinyin ? '<div class="ct-city">' + esc(r.title_pinyin) + "</div>" : "") + "</td>" +
       "<td>" + (r.author ? esc(cleanAuthor(r.author)) : '<span class="ct-city">—</span>') + "</td>" +
-      '<td class="num">' + (r.year ? esc(r.year) : "—") + "</td>" +
+      '<td class="mc-desc">' + (desc ? '<span title="' + esc(desc) + '">' + esc(desc.length > 70 ? desc.slice(0, 68) + "…" : desc) + "</span>" : '<span class="ct-city">—</span>') + "</td>" +
+      '<td class="num mc-year" title="' + esc(r.year || "") + '">' + (r.year ? esc(compactYear(r)) : "—") + "</td>" +
       "<td>" + (r.publisher ? '<span class="ct-zh">' + esc(r.publisher.replace(/\s*\([^)]*\)/g, "")) + "</span>" : '<span class="ct-city">—</span>') + "</td>" +
       '<td class="mc-place">' + esc(place) + (sub ? '<div class="ct-city">' + esc(sub) + "</div>" : "") + "</td>" +
       "<td>" + (holds(r) || '<span class="ct-city">—</span>') + "</td></tr>";

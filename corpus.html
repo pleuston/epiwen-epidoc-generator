@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiwen · Modern Corpus</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="auth.js"></script>
+    <style>
+      .cd-main { max-width: 900px; margin: 0 auto; padding: 1.2rem 1.5rem 4rem; }
+      .cd-back { display: inline-block; font-size: .83rem; color: var(--accent); text-decoration: none; margin-bottom: 1rem; }
+      .cd-back:hover { text-decoration: underline; }
+      .cd-main h1 { font-size: 1.6rem; margin: .1rem 0 .1rem; }
+      .cd-sub { color: var(--muted); font-size: .95rem; margin: 0 0 .2rem; }
+      .cd-tags { margin: .5rem 0 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+      .cd-tag { display: inline-block; padding: .08rem .5rem; border-radius: 3px; font-size: .74rem; background: #eef0f2; color: var(--muted); }
+      .cd-tag.web { background: #e3f0e3; color: #2e6b2e; }
+      .cd-main h3 { font-size: .9rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 1.6rem 0 .5rem; border-bottom: 1px solid var(--line); padding-bottom: .25rem; }
+      .cd-facts { display: grid; grid-template-columns: max-content 1fr; gap: .35rem .9rem; font-size: .92rem; margin: 0; }
+      .cd-facts dt { color: var(--muted); }
+      .cd-facts dd { margin: 0; }
+      .cd-facts code { font-size: .9em; background: var(--field-bg, #f3f3f3); padding: .05em .35em; border-radius: 3px; }
+      .cd-hold { display: flex; flex-wrap: wrap; gap: .5rem; }
+      .cd-hold a, .cd-hold span { display: inline-block; padding: .12rem .55rem; border-radius: 4px; font-size: .82rem; text-decoration: none; }
+      .cd-hold a:hover { text-decoration: underline; }
+      .cd-hold .harvard { background: #f3e0e0; color: #8a2f2f; }
+      .cd-hold .sbb { background: #e6ecf5; color: #2f4f86; }
+      .cd-hold .k10 { background: #eef0f2; color: var(--muted); }
+      .cd-hold .vault { background: #e3f0e3; color: #2e6b2e; }
+      .cd-hold .web { background: #e3f0e3; color: #2e6b2e; }
+      .cd-note { font-size: .82rem; color: var(--muted); }
+      .cd-note a { color: var(--accent); word-break: break-all; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="index.html" class="brand-home">Epiwen</a></div>
+        <nav class="sitenav">
+          <div class="nav-group">
+            <button class="nav-group-btn">Explore</button>
+            <div class="nav-group-dropdown">
+              <a href="map.html" class="sitenav-link">Map</a>
+              <a href="graph.html" class="sitenav-link">Graph</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <button class="nav-group-btn">Catalogs</button>
+            <div class="nav-group-dropdown">
+              <a href="sites.html" class="sitenav-link">Sites</a>
+              <a href="catalog.html" class="sitenav-link">Objects</a>
+              <a href="catalog.html?tab=inscriptions" class="sitenav-link">Inscriptions</a>
+              <a href="catalog.html?tab=rubbings" class="sitenav-link">Rubbings</a>
+              <a href="glyphs.html" class="sitenav-link">Glyphs</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <button class="nav-group-btn">Authorities</button>
+            <div class="nav-group-dropdown">
+              <a href="vocabularies.html" class="sitenav-link">Vocabularies</a>
+              <a href="persons.html" class="sitenav-link">Persons</a>
+              <a href="institutions.html" class="sitenav-link">Institutions</a>
+              <a href="time.html" class="sitenav-link">Time</a>
+              <a href="places.html" class="sitenav-link">Places</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <button class="nav-group-btn">References</button>
+            <div class="nav-group-dropdown">
+              <a href="bibliography.html" class="sitenav-link">Bibliography</a>
+              <a href="premodern-sources.html" class="sitenav-link">Premodern Sources</a>
+              <a href="modern-corpora.html" class="sitenav-link active">Modern Corpora</a>
+            </div>
+          </div>
+          <span class="nav-pipe">|</span>
+          <div class="nav-group">
+            <button class="nav-group-btn">Documentation</button>
+            <div class="nav-group-dropdown">
+              <a href="about.html" class="sitenav-link">About</a>
+              <a href="ontology.html" class="sitenav-link">Ontology</a>
+              <a href="project-wiki.html" class="sitenav-link">Project Wiki</a>
+              <a href="issues.html" class="sitenav-link">Issues</a>
+              <a href="logs.html" class="sitenav-link">Logs</a>
+            </div>
+          </div>
+        </nav>
+      <div class="topbar-end"><a href="bookmarks.html" class="topbar-icon" title="Bookmarks">🔖</a><button onclick="EpiAuth.signOut()" class="btn small">Sign out</button></div>
+    </header>
+
+    <main class="cd-main">
+      <a href="modern-corpora.html" id="cd-back" class="cd-back">← All modern corpora</a>
+      <div id="cd-content"><div class="catalog-loading">Loading…</div></div>
+    </main>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="variants.js"></script>
+    <script src="corpus-detail.js"></script>
+    <script src="nav.js"></script>
+  </body>
+</html>
