@@ -150,7 +150,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1833774779.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "道家金石略",
@@ -457,7 +458,8 @@
     "https://www.gbv.de/dms/spk/sbb/toc/185232323X.pdf",
     "https://www.gbv.de/dms/spk/sbb/toc/1852323213.pdf",
     "https://www.gbv.de/dms/spk/sbb/toc/1852323264.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "唐代墓誌彙編",
@@ -763,7 +765,8 @@
     "https://www.gbv.de/dms/spk/sbb/toc/1909027650.pdf",
     "https://www.gbv.de/dms/spk/sbb/toc/1909027642.pdf",
     "https://www.gbv.de/dms/spk/sbb/toc/1909027634.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "秦晉豫新出墓誌蒐佚",
@@ -802,7 +805,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1833774795.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "遼代石刻文編 / 遼代石刻文續編",
@@ -1884,7 +1888,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1684634628.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "北京東嶽廟與北京泰山信仰碑刻輯錄",
@@ -3510,7 +3515,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1967974985.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "辽南碑刻",
@@ -5783,7 +5789,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/176750912X.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "臨海墓志集錄",
@@ -9127,7 +9134,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1876953047.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "連州碑刻集",
@@ -9413,7 +9421,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1833365615.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "玉林石刻調查與研究",
@@ -11797,7 +11806,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1695587634.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "鴛鴦七志齋藏石",
@@ -17253,7 +17263,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1814955828.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "龍門石窟石刻集成",
@@ -17506,7 +17517,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/180897963X.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "雲居寺貞石錄",
@@ -18021,7 +18033,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1856780333.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "曲阜儒家碑刻文獻輯錄（第一—五輯）",
@@ -18314,7 +18327,8 @@
    ],
    "sbb_online": [
     "https://www.gbv.de/dms/spk/sbb/toc/1806729830.pdf"
-   ]
+   ],
+   "sbb_toc": true
   },
   {
    "title_zh": "永州石刻拾萃",

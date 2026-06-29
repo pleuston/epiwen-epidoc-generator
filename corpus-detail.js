@@ -77,7 +77,15 @@
       "<h1>" + esc(r.title_zh || "?") + "</h1>" +
       (sub.length ? '<p class="cd-sub">' + sub.join(" · ") + "</p>" : "") +
       '<div class="cd-tags">' + tags + "</div>" +
-      "<h3>Work</h3>" + facts + desc + holdings + evidence;
+      "<h3>Work</h3>" + facts + desc + holdings + evidence + (r.sbb_toc ? '<div id="cd-toc"></div>' : "");
+  }
+
+  function loadToc(r) {
+    fetch("corpora-toc/" + encodeURIComponent(r.id) + ".txt").then(function (x) { return x.ok ? x.text() : null; }).then(function (t) {
+      if (!t) return; var box = el("cd-toc"); if (!box) return;
+      box.innerHTML = "<h3>Table of contents</h3>" +
+        '<details class="cd-toc"><summary>From the SBB digitised scan · OCR (PaddleOCR PP-OCRv6) — may contain errors</summary><pre>' + esc(t) + "</pre></details>";
+    }).catch(function () {});
   }
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -86,7 +94,7 @@
       var r = ((d && d.corpora) || []).filter(function (x) { return x.id === ID; })[0];
       if (!r) { el("cd-content").innerHTML = '<p class="catalog-loading">Corpus “' + esc(ID) + '” not found.</p>'; return; }
       document.title = "Epiwen · " + (r.title_zh || "Corpus");
-      render(r);
+      render(r); if (r.sbb_toc) loadToc(r);
     }).catch(function () { el("cd-content").innerHTML = '<p class="catalog-loading">Could not load modern-corpora.json.</p>'; });
   });
 })();
