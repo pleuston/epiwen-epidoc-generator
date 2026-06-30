@@ -501,7 +501,8 @@
    "ks_page": 22,
    "ks_date": "",
    "vault_page": "Lu Zengxiang 陸增祥 《八瓊室金石補正》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-1,6"
   },
   {
    "id": "wp-liu-shengmu-92",
@@ -1476,7 +1477,8 @@
     "text": "道光二十二年",
     "when": "1842",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "4\"@836959-1,18"
   },
   {
    "id": "ks-1-26-19345-19499",
@@ -3929,7 +3931,8 @@
    "ks_page": 102,
    "ks_date": "",
    "vault_page": "Wu Shifen 吳式芬《金石彙目分編》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-1,28"
   },
   {
    "id": "ks-t-x-105",
@@ -4132,7 +4135,8 @@
    "ks_page": 100,
    "ks_date": "",
    "vault_page": "Liang Tingnan 梁廷枬《金石稱例》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,40"
   },
   {
    "id": "ks-t-x-106",
@@ -4195,7 +4199,8 @@
     "text": "同治十年",
     "when": "1871",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "4\"@836959-1,5"
   },
   {
    "id": "toc-x-1",
@@ -5668,7 +5673,8 @@
    "ks_page": 220,
    "ks_date": "",
    "vault_page": "Zhu Feng 朱楓《雍州金石記》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-1,23"
   },
   {
    "id": "ks-2-20-14683-14753",
@@ -19134,7 +19140,8 @@
    "ks_page": 194,
    "ks_date": "1933",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,6"
   },
   {
    "id": "wp-x-397",
@@ -20390,7 +20397,8 @@
    "ks_page": 229,
    "ks_date": "",
    "vault_page": "Zhang Fengzao 張鳳藻《增廣金石韻府》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,34"
   },
   {
    "id": "ks-t-x-228",
@@ -20430,7 +20438,8 @@
    "ks_page": 228,
    "ks_date": "1980",
    "vault_page": "Fang Ruo 方若《增補校碑隨筆》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,33"
   },
   {
    "id": "ks-3-35-381-453",
@@ -21004,7 +21013,8 @@
     "太谷縣志",
     "《太谷縣志》(墓誌)",
     "太谷墓志"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,31"
   },
   {
    "id": "ks-3-31-21-23",
@@ -21607,7 +21617,8 @@
    "ks_page": 19,
    "ks_date": "1934",
    "vault_page": "徐乃昌《安徽通志金石古物考稿》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,11"
   },
   {
    "id": "ks-3-31-41-53",
@@ -25183,7 +25194,8 @@
    ],
    "vault_page": "Wang Zuo 王佐《彙堂摘奇》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "一般類"
+   "skslxb_category": "一般類",
+   "sbb_callno": "4\"@836959-3,1"
   },
   {
    "id": "ks-3-15-119-143",
@@ -27600,7 +27612,8 @@
    "ks_page": 230,
    "ks_date": "",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-2,15"
   },
   {
    "id": "wp-x-532",
@@ -32176,6 +32189,10 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "aliases": [
+    "《龍脊石題刻》",
+    "涪州石魚题刻"
+   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -33010,7 +33027,8 @@
    "ks_page": 84,
    "ks_date": "1874",
    "vault_page": "Zheng Qiao 鄭樵《金",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,8"
   },
   {
    "id": "wp-x-616",
@@ -34065,7 +34083,8 @@
    "ks_page": 76,
    "ks_date": "",
    "vault_page": "Zhao Wanli 趙萬里《漢魏南北朝墓誌集釋》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,3"
   },
   {
    "id": "ks-t-x-76",
@@ -46805,11 +46824,6 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": [
-    "涪州石魚題刻一卷龍脊石題刻一卷",
-    "《涪州石魚題刻》",
-    "涪州石魚题刻"
-   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -46889,7 +46903,8 @@
     "text": "1910",
     "when": "1910",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-chen-jieqi-10",
@@ -46927,7 +46942,8 @@
    ],
    "vault_page": "Chen Jieqi 陳介祺《傳古別録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-guowei-195",
@@ -46969,7 +46985,8 @@
     "text": "民國五年",
     "when": "1916",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-836",
@@ -47012,7 +47029,8 @@
     "text": "康熙五十九年",
     "when": "1720",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-833",
@@ -47050,7 +47068,8 @@
    ],
    "vault_page": "畢星海《六書通摭遺》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "字書類"
+   "skslxb_category": "字書類",
+   "sbb_callno": "5 B 81572-8"
   },
   {
    "id": "wp-luo-zhenyu-109",
@@ -47088,7 +47107,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《六朝墓誌菁英二編》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "toc-x-21",
@@ -47115,7 +47135,8 @@
    "ks_page": null,
    "ks_date": null,
    "vault_page": "",
-   "source": "石刻史料新編 (目錄)"
+   "source": "石刻史料新編 (目錄)",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wan-jing-191",
@@ -47149,7 +47170,8 @@
    "aliases": [],
    "vault_page": "Wan Jing 萬經《分隸偶存》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "toc-x-19",
@@ -47176,7 +47198,8 @@
    "ks_page": null,
    "ks_date": null,
    "vault_page": "",
-   "source": "石刻史料新編 (目錄)"
+   "source": "石刻史料新編 (目錄)",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-gu-tinglong-36",
@@ -47219,7 +47242,8 @@
     "text": "1936",
     "when": "1936",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-110",
@@ -47257,7 +47281,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《古器物識小録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-386",
@@ -47294,7 +47319,8 @@
    ],
    "vault_page": "《古文苑》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-guowei-196",
@@ -47337,7 +47363,8 @@
     "text": "民國四年",
     "when": "1915",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-sun-yirang-181",
@@ -47374,7 +47401,8 @@
    ],
    "vault_page": "Sun Yirang 孫詒讓《古籀拾遺》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "toc-x-23",
@@ -47401,7 +47429,8 @@
    "ks_page": null,
    "ks_date": null,
    "vault_page": "",
-   "source": "石刻史料新編 (目錄)"
+   "source": "石刻史料新編 (目錄)",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-sun-yirang-182",
@@ -47442,7 +47471,8 @@
     "text": "1929",
     "when": "1929",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-sun-yirang-183",
@@ -47485,7 +47515,8 @@
     "text": "1905",
     "when": "1905",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wu-dacheng-222",
@@ -47523,7 +47554,8 @@
    ],
    "vault_page": "Wu Dacheng 吳大澂《吳愙齋尺牘》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-shilin-103",
@@ -47560,7 +47592,8 @@
    ],
    "vault_page": "Luo Shilin 羅士琳《周無專鼎銘攷》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhou-xigui-301",
@@ -47597,7 +47630,8 @@
    ],
    "vault_page": "Zhou Xigui 周錫珪《唐碑帖跋》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-113",
@@ -47635,7 +47669,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《唐風樓秦漢瓦當文字》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-shizhen-207",
@@ -47673,7 +47708,8 @@
    ],
    "vault_page": "Wang Shizhen 王世貞《墨刻跋》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhu-changwen-305",
@@ -47711,7 +47747,8 @@
    ],
    "vault_page": "Zhu Changwen 朱長文《墨池編》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yang-shoujing-255",
@@ -47754,7 +47791,8 @@
     "text": "1907",
     "when": "1907",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-guowei-197",
@@ -47791,7 +47829,8 @@
    ],
    "vault_page": "Wang Guowei 王國維《宋代金文著録表》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-835",
@@ -47829,7 +47868,8 @@
    ],
    "vault_page": "釋達受《寶素室金石書畫編年録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "傳記類"
+   "skslxb_category": "傳記類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-sun-chengze-175",
@@ -47867,7 +47907,8 @@
    ],
    "vault_page": "Sun Chengze 孫承澤《庚子銷夏記》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-ji-fotuo-63",
@@ -47905,7 +47946,8 @@
    ],
    "vault_page": "Ji Fotuo 姬佛陀《廣倉專録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-lin-yiguang-83",
@@ -47941,7 +47983,8 @@
    ],
    "vault_page": "Lin Yiguang 林義光《文源》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "字書類"
+   "skslxb_category": "字書類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-119",
@@ -47979,7 +48022,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《海外吉金録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-120",
@@ -48017,7 +48061,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《海外貞珉録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhang-tingji-280",
@@ -48055,7 +48100,8 @@
    ],
    "vault_page": "Zhang Tingji 張廷濟《清儀閣金石題識》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572-7"
   },
   {
    "id": "wp-zhang-tingji-281",
@@ -48093,7 +48139,8 @@
    ],
    "vault_page": "Zhang Tingji 張廷濟《清儀閣雜詠》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-lin-ji-81",
@@ -48136,7 +48183,8 @@
     "text": "1833",
     "when": "1833",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhu-baidu-304",
@@ -48179,7 +48227,8 @@
     "text": "1889",
     "when": "1889",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yang-shoujing-258",
@@ -48217,7 +48266,8 @@
    ],
    "vault_page": "Yang Shoujing 楊守敬《激素飛清閣平碑記》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-song-jingyu-174",
@@ -48255,7 +48305,8 @@
    ],
    "vault_page": "Song Jingyu 宋經畬《甎文考略》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-124",
@@ -48293,7 +48344,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《石交録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "通考類"
+   "skslxb_category": "通考類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhu-feng-308",
@@ -48332,7 +48384,8 @@
    ],
    "vault_page": "Zhu Feng 朱楓《秦漢瓦圖記》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-bi-yuan-4",
@@ -48370,7 +48423,8 @@
    ],
    "vault_page": "Bi Yuan 畢沅《秦漢瓦當圖》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-cheng-dun-19",
@@ -48414,7 +48468,8 @@
     "text": "乾隆五十二年",
     "when": "1787",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-chen-jieqi-12",
@@ -48452,7 +48507,8 @@
    ],
    "vault_page": "Chen Jieqi 陳介祺《簠齋尺牘》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "toc-x-20",
@@ -48479,7 +48535,8 @@
    "ks_page": null,
    "ks_date": null,
    "vault_page": "",
-   "source": "石刻史料新編 (目錄)"
+   "source": "石刻史料新編 (目錄)",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhang-lun-277",
@@ -48516,7 +48573,8 @@
    ],
    "vault_page": "Zhang Lun 張掄《紹興内府古器評》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-sun-xingyan-180",
@@ -48558,7 +48616,8 @@
     "text": "光緒十一年",
     "when": "1885",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572-2"
   },
   {
    "id": "wp-ji-fotuo-64",
@@ -48601,7 +48660,8 @@
     "text": "1921",
     "when": "1921",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-guo-shangxian-44",
@@ -48639,7 +48699,8 @@
    ],
    "vault_page": "Guo Shangxian 郭尚先《芳堅館題跋》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-shu-208",
@@ -48677,7 +48738,8 @@
    ],
    "vault_page": "Wang Shu 王澍《虛舟題跋》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-bin-liang-5",
@@ -48715,7 +48777,8 @@
    ],
    "vault_page": "Bin Liang 斌良《袌沖齋石刻》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-guowei-198",
@@ -48757,7 +48820,8 @@
     "text": "民國十六年",
     "when": "1927",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-834",
@@ -48800,7 +48864,8 @@
     "text": "光緒十一年",
     "when": "1885",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wu-dacheng-223",
@@ -48837,7 +48902,8 @@
    ],
    "vault_page": "Wu Dacheng 吳大澂《説文古籀補》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "字書類"
+   "skslxb_category": "字書類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-ding-foyan-23",
@@ -48874,7 +48940,8 @@
    ],
    "vault_page": "Ding Foyan 丁佛言《説文古籀補補》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "字書類"
+   "skslxb_category": "字書類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yu-yue-269",
@@ -48911,7 +48978,8 @@
    ],
    "vault_page": "Yu Yue 兪樾《讀隸輯詞》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-130",
@@ -48949,7 +49017,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《貞松堂集古遺文》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wu-rongguang-231",
@@ -48991,7 +49060,8 @@
     "text": "光緒三十一年",
     "when": "1905",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "toc-x-22",
@@ -49018,7 +49088,8 @@
    "ks_page": null,
    "ks_date": null,
    "vault_page": "",
-   "source": "石刻史料新編 (目錄)"
+   "source": "石刻史料新編 (目錄)",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-131",
@@ -49056,7 +49127,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《遼居稾》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-746",
@@ -49094,7 +49166,8 @@
    ],
    "vault_page": "《遼陵石刻集録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yang-shoujing-259",
@@ -49137,7 +49210,8 @@
     "text": "1916",
     "when": "1916",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-xie-kun-243",
@@ -49175,7 +49249,8 @@
    ],
    "vault_page": "Xie Kun 謝堃《金玉瑣碎》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-lai-jun-68",
@@ -49212,7 +49287,8 @@
    ],
    "vault_page": "Lai Jun 來濬《金石備攷》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-zhu-jun-311",
@@ -49240,7 +49316,8 @@
    "aliases": [],
    "vault_page": "Zhu Jun 褚峻 《金石圖》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-mo-shengsun-143",
@@ -49277,7 +49354,8 @@
    ],
    "vault_page": "Mo Shengsun 莫繩孫《金石影》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-134",
@@ -49315,7 +49393,8 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《金石書録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-mo-youzhi-144",
@@ -49353,7 +49432,8 @@
    ],
    "vault_page": "Mo Youzhi 莫友芝《金石筆識》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "題跋類"
+   "skslxb_category": "題跋類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-832",
@@ -49392,7 +49472,8 @@
    ],
    "vault_page": "田士懿《金石箸述名家考略》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "傳記類"
+   "skslxb_category": "傳記類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-774",
@@ -49431,7 +49512,8 @@
    ],
    "vault_page": "《金石經眼録》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "圖象類"
+   "skslxb_category": "圖象類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-feng-daosheng-32",
@@ -49468,7 +49550,8 @@
    ],
    "vault_page": "Feng Daosheng 豐道生《金石遺文》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "文字類"
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-x-831",
@@ -49506,7 +49589,8 @@
    ],
    "vault_page": "朱雲《金石韻府》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "字書類"
+   "skslxb_category": "字書類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-luo-zhenyu-136",
@@ -49549,7 +49633,8 @@
     "text": "1927",
     "when": "1927",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-rong-geng-160",
@@ -49587,7 +49672,8 @@
    ],
    "vault_page": "Rong Geng 容庚《頌齋文稿》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yu-yue-270",
@@ -49624,7 +49710,8 @@
    ],
    "vault_page": "Yu Yue 兪樾《駢隸》",
    "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "雜著類"
+   "skslxb_category": "雜著類",
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yang-shoujing-260",
@@ -49670,7 +49757,8 @@
     "text": "1909",
     "when": "1909",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-wang-guowei-199",
@@ -49712,7 +49800,8 @@
     "text": "民國十六年",
     "when": "1927",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "5 B 81572"
   },
   {
    "id": "wp-yang-shoujing-254",
