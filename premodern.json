@@ -1,8 +1,8 @@
 {
  "generated": "2026-06-27",
  "count": 1454,
- "in_skslxb": 1440,
- "with_locator": 936,
+ "in_skslxb": 1442,
+ "with_locator": 938,
  "merged_workxml": 1044,
  "source": "K&S/SKSLXB (kuhn-stahl-dryrun) + vault work pages, merged with edep_sino works.xml",
  "note": "Premodern Chinese epigraphy works (金石學). SKSLXB locator where resolved else series. Curated author→person links, editions, relations from edep_sino works.xml. Not limited to SKSLXB. No paratexts.",
@@ -20498,6 +20498,44 @@
    "sbb_callno": "4\"@836959-3,34"
   },
   {
+   "id": "wp-x-413",
+   "title_zh": "國立北平圖書館藏碑目",
+   "title_pinyin": "",
+   "author_zh": "",
+   "author_pinyin": "",
+   "author_id": "",
+   "work_id": "work-000647",
+   "dynasty": "",
+   "juan": null,
+   "in_skslxb": true,
+   "skslxb_series": 3,
+   "skslxb_locator": "3.36",
+   "catalogue": {},
+   "editions": [
+    {
+     "edition": "《國立北平圖書館藏碑目》(墓誌類) — 石刻史料新編 第三輯 (新文豐, 1986)",
+     "date": "1986",
+     "publisher": "新文豐出版公司",
+     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
+    },
+    {
+     "edition": "石刻史料新編 第三輯 (新文豐, 1986)",
+     "date": "",
+     "publisher": "",
+     "in_collection": ""
+    }
+   ],
+   "relations": [],
+   "aliases": [
+    "《國立北平圖書館藏碑目》(墓誌類)",
+    "《国立北平图书馆藏碑目》(墓志类)",
+    "《國立北平圖書館藏碑目》"
+   ],
+   "vault_page": "《國立北平圖書館藏碑目》(墓誌類)",
+   "source": "石刻史料新編 (OCR 總目 第三輯)",
+   "sbb_callno": "4\"@836959-3,36"
+  },
+  {
    "id": "ks-3-28-393-428",
    "title_zh": "圝城金石篇",
    "title_pinyin": "",
@@ -33427,9 +33465,6 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": [
-    "《龍脊石題刻》"
-   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -38827,6 +38862,29 @@
    "ks_date": "1842",
    "vault_page": "",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "sbb_callno": "4\"@836959-3,1"
+  },
+  {
+   "id": "wp-wu-rongguang-229",
+   "title_zh": "筠清館金石",
+   "title_pinyin": "",
+   "author_zh": "吳榮光",
+   "author_pinyin": "Wu Rongguang",
+   "author_id": "",
+   "work_id": "",
+   "dynasty": "",
+   "juan": null,
+   "in_skslxb": true,
+   "skslxb_series": 3,
+   "skslxb_locator": "3.1:387-527",
+   "catalogue": {},
+   "editions": [],
+   "relations": [],
+   "aliases": [
+    "《筠清館金石》"
+   ],
+   "vault_page": "Wu Rongguang 吳榮光《筠清館金石》",
+   "source": "石刻史料新編 (K&S OCR ~typo)",
    "sbb_callno": "4\"@836959-3,1"
   },
   {
@@ -50277,6 +50335,11 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "aliases": [
+    "涪州石魚題刻一卷龍脊石題刻一卷",
+    "《涪州石魚題刻》",
+    "涪州石魚题刻"
+   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -53509,43 +53572,6 @@
    "source": "vault epigraphy work page"
   },
   {
-   "id": "wp-x-413",
-   "title_zh": "國立北平圖書館藏碑目",
-   "title_pinyin": "",
-   "author_zh": "",
-   "author_pinyin": "",
-   "author_id": "",
-   "work_id": "work-000647",
-   "dynasty": "",
-   "juan": null,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [
-    {
-     "edition": "《國立北平圖書館藏碑目》(墓誌類) — 石刻史料新編 第三輯 (新文豐, 1986)",
-     "date": "1986",
-     "publisher": "新文豐出版公司",
-     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
-    },
-    {
-     "edition": "石刻史料新編 第三輯 (新文豐, 1986)",
-     "date": "",
-     "publisher": "",
-     "in_collection": ""
-    }
-   ],
-   "relations": [],
-   "aliases": [
-    "《國立北平圖書館藏碑目》(墓誌類)",
-    "《国立北平图书馆藏碑目》(墓志类)",
-    "《國立北平圖書館藏碑目》"
-   ],
-   "vault_page": "《國立北平圖書館藏碑目》(墓誌類)",
-   "source": "vault epigraphy work page"
-  },
-  {
    "id": "wp-huang-yi-60",
    "title_zh": "小蓬萊閣金石目",
    "title_pinyin": "",
@@ -53689,28 +53715,6 @@
     "石經考異"
    ],
    "vault_page": "Hang Shijun 杭世駿《石經考異》",
-   "source": "vault epigraphy work page"
-  },
-  {
-   "id": "wp-wu-rongguang-229",
-   "title_zh": "筠清館金石",
-   "title_pinyin": "",
-   "author_zh": "吳榮光",
-   "author_pinyin": "Wu Rongguang",
-   "author_id": "",
-   "work_id": "",
-   "dynasty": "",
-   "juan": null,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [],
-   "relations": [],
-   "aliases": [
-    "《筠清館金石》"
-   ],
-   "vault_page": "Wu Rongguang 吳榮光《筠清館金石》",
    "source": "vault epigraphy work page"
   },
   {
