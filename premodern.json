@@ -1,7 +1,7 @@
 {
  "generated": "2026-06-27",
  "count": 1454,
- "in_skslxb": 1428,
+ "in_skslxb": 1432,
  "with_locator": 928,
  "merged_workxml": 1044,
  "source": "K&S/SKSLXB (kuhn-stahl-dryrun) + vault work pages, merged with edep_sino works.xml",
@@ -529,15 +529,8 @@
    "relations": [],
    "ks_page": null,
    "ks_date": null,
-   "vault_page": "Duanfang 端方《匋齋藏石記》",
-   "source": "石刻史料新編 (目錄)",
-   "aliases": [
-    "匋齋藏石記",
-    "《匋齋藏石記》",
-    "《陶齋藏石記》",
-    "Taozhai cangshi ji"
-   ],
-   "sbb_callno": "4\"@836959-1,11"
+   "vault_page": "",
+   "source": "石刻史料新編 (目錄)"
   },
   {
    "id": "toc-x-3",
@@ -5215,8 +5208,14 @@
    "relations": [],
    "ks_page": 183,
    "ks_date": "",
-   "vault_page": "",
+   "vault_page": "Duanfang 端方《匋齋藏石記》",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "aliases": [
+    "匋齋藏石記",
+    "《匋齋藏石記》",
+    "《匋齋臧石記》",
+    "Taozhai cangshi ji"
+   ],
    "sbb_callno": "4\"@836959-1,11"
   },
   {
@@ -10197,6 +10196,49 @@
    "vault_page": "Wu Yun 吳雲《漢東海",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
    "sbb_callno": "4\"@836959-2,9"
+  },
+  {
+   "id": "wp-qian-yong-158",
+   "title_zh": "漢碑大觀",
+   "title_pinyin": "Hanbi daguan",
+   "author_zh": "錢泳",
+   "author_pinyin": "Qian Yong",
+   "author_id": "person-qian-yong",
+   "work_id": "work-000288",
+   "dynasty": "Qing 清",
+   "juan": 4,
+   "in_skslxb": true,
+   "skslxb_series": 2,
+   "skslxb_locator": "",
+   "catalogue": {},
+   "editions": [
+    {
+     "edition": "《漢碑大觀》 — 石刻史料新編 第二輯 (新文豐, 1979)",
+     "date": "1979",
+     "publisher": "新文豐出版公司",
+     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
+    },
+    {
+     "edition": "石刻史料新編 第二輯 (新文豐, 1979)",
+     "date": "",
+     "publisher": "",
+     "in_collection": ""
+    }
+   ],
+   "relations": [],
+   "aliases": [
+    "《漢碑大觀》",
+    "Hanbi daguan",
+    "Han stele grand view"
+   ],
+   "vault_page": "Qian Yong 錢泳《漢碑大觀》",
+   "source": "石刻史料新編 (目錄) / vault",
+   "skslxb_category": "一般類",
+   "compiled": {
+    "text": "1789",
+    "when": "1789",
+    "cert": "medium"
+   }
   },
   {
    "id": "ks-2-8-6223-6377",
@@ -19513,6 +19555,11 @@
    "ks_date": "1819",
    "vault_page": "《咸寧縣志》(金石)",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "aliases": [
+    "咸寧縣志",
+    "《咸寧縣志》(金石)",
+    "咸宁县志金石"
+   ],
    "sbb_callno": "4\"@836959-3,31"
   },
   {
@@ -19585,10 +19632,7 @@
    "aliases": [
     "《咸甯縣志》",
     "咸甯縣志",
-    "《咸宁县志》",
-    "咸寧金石志",
-    "咸寧金石志一卷",
-    "咸宁县志金石"
+    "《咸宁县志》"
    ],
    "vault_page": "《咸甯縣志》",
    "source": "石刻史料新編 (目錄) / vault",
@@ -33281,6 +33325,9 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "aliases": [
+    "《龍脊石題刻》"
+   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -33969,7 +34016,8 @@
     "《温州府志》",
     "温州府志",
     "溫州府志",
-    "温州府志 (李琬修)"
+    "温州府志 (李琬修)",
+    "溫州碑碣志"
    ],
    "vault_page": "《温州府志》",
    "source": "石刻史料新編 (目錄) / vault",
@@ -34504,12 +34552,8 @@
    "relations": [],
    "ks_page": 191,
    "ks_date": "1756",
-   "vault_page": "《溫州府志》(金石)",
+   "vault_page": "",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": [
-    "溫州府志",
-    "《溫州府志》(金石)"
-   ],
    "sbb_callno": "4\"@836959-3,10"
   },
   {
@@ -50001,11 +50045,6 @@
    "ks_date": "",
    "vault_page": "Qian Baotang 錢保塘《涪州石魚題刻一卷龍脊石題刻",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": [
-    "涪州石魚題刻一卷龍脊石題刻一卷",
-    "《涪州石魚題刻》",
-    "涪州石魚题刻"
-   ],
    "sbb_callno": "4\"@836959-3,15"
   },
   {
@@ -50043,6 +50082,50 @@
     "《龍門縣志》(金石)"
    ],
    "sbb_callno": "4\"@836959-3,21"
+  },
+  {
+   "id": "wp-yang-shoujing-254",
+   "title_zh": "丁戊金石跋",
+   "title_pinyin": "Dingwu jinshi ba",
+   "author_zh": "楊守敬",
+   "author_pinyin": "Yang Shoujing",
+   "author_id": "person-yang-shoujing",
+   "work_id": "work-000445",
+   "dynasty": "Qing 清",
+   "juan": null,
+   "in_skslxb": true,
+   "skslxb_series": 4,
+   "skslxb_locator": "",
+   "catalogue": {},
+   "editions": [
+    {
+     "edition": "《丁戊金石跋》 — 石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "2006",
+     "publisher": "新文豐出版公司",
+     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
+    },
+    {
+     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "",
+     "publisher": "",
+     "in_collection": ""
+    }
+   ],
+   "relations": [],
+   "aliases": [
+    "《丁戊金石跋》",
+    "《丁戊金石跋》一卷",
+    "Dingwu jinshi ba"
+   ],
+   "vault_page": "Yang Shoujing 楊守敬《丁戊金石跋》",
+   "source": "石刻史料新編 (目錄) / vault",
+   "skslxb_category": "題跋類",
+   "compiled": {
+    "text": "1907",
+    "when": "1907",
+    "cert": "medium"
+   },
+   "sbb_callno": "5 B 81572-7"
   },
   {
    "id": "wp-wu-shijian-232",
@@ -50362,6 +50445,44 @@
    "relations": [],
    "aliases": [],
    "vault_page": "Wan Jing 萬經《分隸偶存》",
+   "source": "石刻史料新編 (目錄) / vault",
+   "skslxb_category": "文字類",
+   "sbb_callno": "5 B 81572-1"
+  },
+  {
+   "id": "wp-zhou-hongzu-299",
+   "title_zh": "古今書刻",
+   "title_pinyin": "",
+   "author_zh": "周弘祖",
+   "author_pinyin": "Zhou Hongzu",
+   "author_id": "person-zhou-hongzu",
+   "work_id": "work-000528",
+   "dynasty": "Ming 明",
+   "juan": null,
+   "in_skslxb": true,
+   "skslxb_series": 4,
+   "skslxb_locator": "",
+   "catalogue": {},
+   "editions": [
+    {
+     "edition": "《古今書刻》 — 石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "2006",
+     "publisher": "新文豐出版公司",
+     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
+    },
+    {
+     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "",
+     "publisher": "",
+     "in_collection": ""
+    }
+   ],
+   "relations": [],
+   "aliases": [
+    "《古今書刻》",
+    "古今書刻"
+   ],
+   "vault_page": "Zhou Hongzu 周弘祖《古今書刻》",
    "source": "石刻史料新編 (目錄) / vault",
    "skslxb_category": "文字類",
    "sbb_callno": "5 B 81572-1"
@@ -51072,6 +51193,50 @@
    "source": "石刻史料新編 (目錄) / vault",
    "skslxb_category": "傳記類",
    "sbb_callno": "5 B 81572-10"
+  },
+  {
+   "id": "wp-yang-shoujing-256",
+   "title_zh": "己庚金石跋",
+   "title_pinyin": "Jigeng jinshi ba",
+   "author_zh": "楊守敬",
+   "author_pinyin": "Yang Shoujing",
+   "author_id": "person-yang-shoujing",
+   "work_id": "work-000447",
+   "dynasty": "Qing 清",
+   "juan": null,
+   "in_skslxb": true,
+   "skslxb_series": 4,
+   "skslxb_locator": "",
+   "catalogue": {},
+   "editions": [
+    {
+     "edition": "《己庚金石跋》 — 石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "2006",
+     "publisher": "新文豐出版公司",
+     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
+    },
+    {
+     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
+     "date": "",
+     "publisher": "",
+     "in_collection": ""
+    }
+   ],
+   "relations": [],
+   "aliases": [
+    "《己庚金石跋》",
+    "《己庚金石跋》一卷",
+    "Jigeng jinshi ba"
+   ],
+   "vault_page": "Yang Shoujing 楊守敬《己庚金石跋》",
+   "source": "石刻史料新編 (目錄) / vault",
+   "skslxb_category": "題跋類",
+   "compiled": {
+    "text": "1907",
+    "when": "1907",
+    "cert": "medium"
+   },
+   "sbb_callno": "5 B 81572-7"
   },
   {
    "id": "wp-sun-chengze-175",
@@ -53028,48 +53193,6 @@
    "sbb_callno": "5 B 81572-6"
   },
   {
-   "id": "wp-yang-shoujing-254",
-   "title_zh": "丁戊金石跋",
-   "title_pinyin": "Dingwu jinshi ba",
-   "author_zh": "楊守敬",
-   "author_pinyin": "Yang Shoujing",
-   "author_id": "person-yang-shoujing",
-   "work_id": "work-000445",
-   "dynasty": "",
-   "juan": null,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [
-    {
-     "edition": "《丁戊金石跋》 — 石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "2006",
-     "publisher": "新文豐出版公司",
-     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
-    },
-    {
-     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "",
-     "publisher": "",
-     "in_collection": ""
-    }
-   ],
-   "relations": [],
-   "aliases": [
-    "《丁戊金石跋》",
-    "《丁戊金石跋》一卷",
-    "Dingwu jinshi ba"
-   ],
-   "vault_page": "Yang Shoujing 楊守敬《丁戊金石跋》",
-   "source": "vault epigraphy work page",
-   "compiled": {
-    "text": "1907",
-    "when": "1907",
-    "cert": "medium"
-   }
-  },
-  {
    "id": "wp-ma-heng-140",
    "title_zh": "中國金石學概要",
    "title_pinyin": "",
@@ -53131,42 +53254,6 @@
     "黃虞稷《千頃堂書目》"
    ],
    "vault_page": "Huang Yuji 黃虞稷《千頃堂書目》",
-   "source": "vault epigraphy work page"
-  },
-  {
-   "id": "wp-zhou-hongzu-299",
-   "title_zh": "古今書刻",
-   "title_pinyin": "",
-   "author_zh": "周弘祖",
-   "author_pinyin": "Zhou Hongzu",
-   "author_id": "person-zhou-hongzu",
-   "work_id": "work-000528",
-   "dynasty": "",
-   "juan": null,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [
-    {
-     "edition": "《古今書刻》 — 石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "2006",
-     "publisher": "新文豐出版公司",
-     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
-    },
-    {
-     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "",
-     "publisher": "",
-     "in_collection": ""
-    }
-   ],
-   "relations": [],
-   "aliases": [
-    "《古今書刻》",
-    "古今書刻"
-   ],
-   "vault_page": "Zhou Hongzu 周弘祖《古今書刻》",
    "source": "vault epigraphy work page"
   },
   {
@@ -53291,48 +53378,6 @@
    "source": "vault epigraphy work page"
   },
   {
-   "id": "wp-yang-shoujing-256",
-   "title_zh": "己庚金石跋",
-   "title_pinyin": "Jigeng jinshi ba",
-   "author_zh": "楊守敬",
-   "author_pinyin": "Yang Shoujing",
-   "author_id": "person-yang-shoujing",
-   "work_id": "work-000447",
-   "dynasty": "",
-   "juan": null,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [
-    {
-     "edition": "《己庚金石跋》 — 石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "2006",
-     "publisher": "新文豐出版公司",
-     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
-    },
-    {
-     "edition": "石刻史料新編 第四輯 (新文豐, 2006)",
-     "date": "",
-     "publisher": "",
-     "in_collection": ""
-    }
-   ],
-   "relations": [],
-   "aliases": [
-    "《己庚金石跋》",
-    "《己庚金石跋》一卷",
-    "Jigeng jinshi ba"
-   ],
-   "vault_page": "Yang Shoujing 楊守敬《己庚金石跋》",
-   "source": "vault epigraphy work page",
-   "compiled": {
-    "text": "1907",
-    "when": "1907",
-    "cert": "medium"
-   }
-  },
-  {
    "id": "wp-yang-shen-252",
    "title_zh": "水經注所載碑目",
    "title_pinyin": "",
@@ -53435,48 +53480,6 @@
    ],
    "vault_page": "Luo Zhenyu 羅振玉《漢熹平石經殘字集錄續拾》",
    "source": "vault epigraphy work page"
-  },
-  {
-   "id": "wp-qian-yong-158",
-   "title_zh": "漢碑大觀",
-   "title_pinyin": "Hanbi daguan",
-   "author_zh": "錢泳",
-   "author_pinyin": "Qian Yong",
-   "author_id": "person-qian-yong",
-   "work_id": "work-000288",
-   "dynasty": "",
-   "juan": 4,
-   "in_skslxb": false,
-   "skslxb_series": null,
-   "skslxb_locator": "",
-   "catalogue": {},
-   "editions": [
-    {
-     "edition": "《漢碑大觀》 — 石刻史料新編 第二輯 (新文豐, 1979)",
-     "date": "1979",
-     "publisher": "新文豐出版公司",
-     "in_collection": "《石刻史料新編》 (新文豐, 1977–2006)"
-    },
-    {
-     "edition": "石刻史料新編 第二輯 (新文豐, 1979)",
-     "date": "",
-     "publisher": "",
-     "in_collection": ""
-    }
-   ],
-   "relations": [],
-   "aliases": [
-    "《漢碑大觀》",
-    "Hanbi daguan",
-    "Han stele grand view"
-   ],
-   "vault_page": "Qian Yong 錢泳《漢碑大觀》",
-   "source": "vault epigraphy work page",
-   "compiled": {
-    "text": "1789",
-    "when": "1789",
-    "cert": "medium"
-   }
   },
   {
    "id": "wp-lou-ji-99",
