@@ -1,8 +1,8 @@
 {
  "generated": "2026-06-27",
- "count": 1453,
- "in_skslxb": 1427,
- "with_locator": 896,
+ "count": 1454,
+ "in_skslxb": 1428,
+ "with_locator": 928,
  "merged_workxml": 1044,
  "source": "K&S/SKSLXB (kuhn-stahl-dryrun) + vault work pages, merged with edep_sino works.xml",
  "note": "Premodern Chinese epigraphy works (金石學). SKSLXB locator where resolved else series. Curated author→person links, editions, relations from edep_sino works.xml. Not limited to SKSLXB. No paratexts.",
@@ -1044,7 +1044,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.27:20101-20189",
    "catalogue": {},
    "editions": [
     {
@@ -1067,7 +1067,7 @@
     "Huanyu fangbei lu jiaokan ji"
    ],
    "vault_page": "Liu Shengmu 劉聲木《寰宇訪碑録校勘記》",
-   "source": "石刻史料新編 (目錄) / vault",
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
    "skslxb_category": "目録題跋類",
    "sbb_callno": "4\"@836959-1,27"
   },
@@ -3838,7 +3838,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.12:9369-9436",
    "skslxb_pages": "",
    "skslxb_category": "一般類",
    "period_covered": null,
@@ -3864,12 +3864,13 @@
    "ks_page": 102,
    "ks_date": "1554",
    "vault_page": "Yang Shen 楊慎《金石古文》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "compiled": {
     "text": "光緒八年",
     "when": "1882",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "4\"@836959-1,12"
   },
   {
    "id": "ks-1-9-6595-6745",
@@ -4915,7 +4916,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.25:19303-19344",
    "skslxb_pages": "",
    "skslxb_category": "目録題跋類",
    "period_covered": null,
@@ -4941,7 +4942,8 @@
    "ks_page": 185,
    "ks_date": "",
    "vault_page": "Yan Kejun 嚴可均《鐵橋金石跋》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-1,25"
   },
   {
    "id": "ks-t-x-137",
@@ -4955,7 +4957,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.17:12621-12851",
    "skslxb_pages": "",
    "skslxb_category": "地方類",
    "period_covered": null,
@@ -4981,12 +4983,13 @@
    "ks_page": 137,
    "ks_date": "",
    "vault_page": "Feng Dengfu 馮登府《閩中金石志》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "compiled": {
     "text": "民國十五年",
     "when": "1926",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "4\"@836959-1,17"
   },
   {
    "id": "ks-1-17-12853-13083",
@@ -5296,7 +5299,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.21:15923-16353",
    "catalogue": {},
    "editions": [
     {
@@ -5319,8 +5322,9 @@
     "Longyou jinshi lu"
    ],
    "vault_page": "Zhang Wei 張維《隴右金石録》",
-   "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "地方類"
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
+   "skslxb_category": "地方類",
+   "sbb_callno": "4\"@836959-1,21"
   },
   {
    "id": "ks-1-10-7087-7202",
@@ -5499,7 +5503,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 1,
-   "skslxb_locator": "",
+   "skslxb_locator": "1.24:17923-18007",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -5512,7 +5516,8 @@
    "ks_page": 89,
    "ks_date": "1069",
    "vault_page": "Ouyang Xiu 歐陽修《集",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-1,24"
   },
   {
    "id": "ks-1-24-17819-17922",
@@ -6988,7 +6993,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 2,
-   "skslxb_locator": "",
+   "skslxb_locator": "2.1:1-58",
    "catalogue": {},
    "editions": [
     {
@@ -7012,8 +7017,9 @@
     "Hsiao-t'ang chi-ku-lu"
    ],
    "vault_page": "Wang Qiu 王俅《嘯堂集古録》",
-   "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "一般類"
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
+   "skslxb_category": "一般類",
+   "sbb_callno": "4\"@836959-2,1"
   },
   {
    "id": "wp-zou-bosen-315",
@@ -11600,7 +11606,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 2,
-   "skslxb_locator": "",
+   "skslxb_locator": "2.10:7513-7738",
    "catalogue": {},
    "editions": [
     {
@@ -11635,13 +11641,14 @@
     "Jingnan cuigu bian"
    ],
    "vault_page": "Zhou Maoqi and Liu Han 周懋琦·劉瀚《荊南萃古編》",
-   "source": "石刻史料新編 (目錄) / vault",
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
    "skslxb_category": "地方類",
    "compiled": {
     "text": "光緒二十年",
     "when": "1894",
     "cert": "medium"
-   }
+   },
+   "sbb_callno": "4\"@836959-2,10"
   },
   {
    "id": "ks-2-20-14935-15005",
@@ -11878,7 +11885,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 2,
-   "skslxb_locator": "",
+   "skslxb_locator": "2.10:7489-7500",
    "skslxb_pages": "",
    "skslxb_category": "地方類",
    "period_covered": null,
@@ -11904,7 +11911,8 @@
    "ks_page": 225,
    "ks_date": "",
    "vault_page": "Gu Xieguang 顧燮光《袁州石刻記》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-2,10"
   },
   {
    "id": "ks-t-x-29",
@@ -13246,7 +13254,7 @@
    "juan": 1,
    "in_skslxb": true,
    "skslxb_series": 2,
-   "skslxb_locator": "",
+   "skslxb_locator": "2.18:13627-13688",
    "skslxb_pages": "",
    "skslxb_category": "考證目録題跋類",
    "period_covered": null,
@@ -13272,7 +13280,8 @@
    "ks_page": 185,
    "ks_date": "",
    "vault_page": "Yang Bin 楊賓《鐵函齋書跋》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-2,18"
   },
   {
    "id": "ks-2-18-13251-13271",
@@ -19033,7 +19042,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.1:9-77",
    "catalogue": {},
    "editions": [
     {
@@ -19055,8 +19064,9 @@
     "《名迹录》"
    ],
    "vault_page": "Zhu Gui 朱珪《名蹟録》",
-   "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "一般類"
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
+   "skslxb_category": "一般類",
+   "sbb_callno": "4\"@836959-3,1"
   },
   {
    "id": "ks-3-37-251-262",
@@ -19503,11 +19513,6 @@
    "ks_date": "1819",
    "vault_page": "《咸寧縣志》(金石)",
    "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": [
-    "咸寧縣志",
-    "《咸寧縣志》(金石)",
-    "咸宁县志金石"
-   ],
    "sbb_callno": "4\"@836959-3,31"
   },
   {
@@ -19580,7 +19585,10 @@
    "aliases": [
     "《咸甯縣志》",
     "咸甯縣志",
-    "《咸宁县志》"
+    "《咸宁县志》",
+    "咸寧金石志",
+    "咸寧金石志一卷",
+    "咸宁县志金石"
    ],
    "vault_page": "《咸甯縣志》",
    "source": "石刻史料新編 (目錄) / vault",
@@ -20351,7 +20359,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.34:593-615",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -20377,7 +20385,8 @@
    "ks_page": 69,
    "ks_date": "",
    "vault_page": "Wu Qian 吳騫《國山碑考》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,34"
   },
   {
    "id": "wp-x-413",
@@ -21906,7 +21915,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.22:677-685",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -21919,13 +21928,14 @@
    "ks_page": 19,
    "ks_date": "1878",
    "vault_page": "《定安縣志》(金石)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "aliases": [
     "定安縣志",
     "《定安縣志》(金石)",
     "定安金石記",
     "定安金石记"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,22"
   },
   {
    "id": "ks-3-16-285-290",
@@ -23210,7 +23220,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.5:349-354",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -23223,7 +23233,8 @@
    "ks_page": 25,
    "ks_date": "1921",
    "vault_page": "《寶山縣續志》(金石)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,5"
   },
   {
    "id": "wp-x-452",
@@ -26807,7 +26818,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.27:287-300",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -26833,7 +26844,8 @@
    "ks_page": 215,
    "ks_date": "1758",
    "vault_page": "Yu Shizhan 于始瞻《掖縣碑墓志》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,27"
   },
   {
    "id": "wp-yu-shizhan-267",
@@ -29912,7 +29924,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.12:587-589",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -29925,7 +29937,8 @@
    "ks_page": 117,
    "ks_date": "1870",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,12"
   },
   {
    "id": "ks-t-x-116",
@@ -30606,7 +30619,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.7:501-504",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -30619,7 +30632,8 @@
    "ks_page": 67,
    "ks_date": "1673",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,7"
   },
   {
    "id": "wp-x-567",
@@ -32422,7 +32436,7 @@
    "juan": 1,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "3.25:635-661",
+   "skslxb_locator": "3.25:573-633",
    "catalogue": {},
    "editions": [
     {
@@ -35298,7 +35312,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.40:393-429",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -35324,7 +35338,8 @@
    "ks_page": 76,
    "ks_date": "",
    "vault_page": "Wu Hao 吳鎬《漢魏六朝志墓金石例》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,40"
   },
   {
    "id": "ks-t-x-76",
@@ -35379,7 +35394,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.35:79-85",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -35405,7 +35420,8 @@
    "ks_page": 76,
    "ks_date": "",
    "vault_page": "Chen Zhu 陳洙《漢魏碑考》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,35"
   },
   {
    "id": "ks-3-14-1-118",
@@ -35799,7 +35815,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.15:597-602",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -35812,11 +35828,12 @@
    "ks_page": 128,
    "ks_date": "1938",
    "vault_page": "《瀘縣志》(金石)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "aliases": [
     "瀘縣志",
     "《瀘縣志》(金石)"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,15"
   },
   {
    "id": "ks-3-8-221-225",
@@ -36449,7 +36466,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.34:525-538",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -36462,12 +36479,13 @@
    "ks_page": 236,
    "ks_date": "1929",
    "vault_page": "《珠河縣志》(金石)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "aliases": [
     "珠河縣志",
     "《珠河縣志》(金石)",
     "《珠河县志》(金石)"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,34"
   },
   {
    "id": "wp-x-645",
@@ -37139,7 +37157,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.34:549-559",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -37152,8 +37170,9 @@
    "ks_page": 216,
    "ks_date": "",
    "vault_page": "Zhang Shao 張紹《瘞鶴銘辨》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
-   "aliases": []
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "aliases": [],
+   "sbb_callno": "4\"@836959-3,34"
   },
   {
    "id": "ks-t-x-216",
@@ -37167,7 +37186,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.34:567-592",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -37193,7 +37212,8 @@
    "ks_page": 216,
    "ks_date": "",
    "vault_page": "Wang Shihong 汪士鋐《瘞鶴銘考》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,34"
   },
   {
    "id": "ks-3-37-449-479",
@@ -38719,7 +38739,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.2:303-310",
    "catalogue": {},
    "editions": [
     {
@@ -38741,8 +38761,9 @@
     "《簠斋传古别录》"
    ],
    "vault_page": "Chen Jieqi 陳介祺《簠齋傳古別録》",
-   "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "一般類"
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
+   "skslxb_category": "一般類",
+   "sbb_callno": "4\"@836959-3,2"
   },
   {
    "id": "ks-3-15-49-51",
@@ -41745,7 +41766,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.10:495-498",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -41758,7 +41779,8 @@
    "ks_page": 192,
    "ks_date": "1919",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,10"
   },
   {
    "id": "wp-x-711",
@@ -41797,6 +41819,31 @@
    "vault_page": "《蕪湖縣志》",
    "source": "石刻史料新編 (目錄) / vault",
    "skslxb_category": "地方類"
+  },
+  {
+   "id": "gap-3-25-635-661",
+   "title_zh": "蕭儒林",
+   "title_pinyin": "",
+   "author_zh": "",
+   "author_pinyin": "",
+   "author_id": "",
+   "work_id": "",
+   "dynasty": "",
+   "juan": 2,
+   "in_skslxb": true,
+   "skslxb_series": 3,
+   "skslxb_locator": "3.25:635-661",
+   "skslxb_pages": "635-661",
+   "skslxb_category": "",
+   "period_covered": "Qin–Ming",
+   "author_dates": null,
+   "catalogue": {},
+   "editions": [],
+   "relations": [],
+   "vault_page": "",
+   "aliases": [],
+   "source": "石刻史料新編 (K&S OCR gap-fill)",
+   "sbb_callno": "4\"@836959-3,25"
   },
   {
    "id": "wp-x-712",
@@ -43872,7 +43919,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.12:423-429",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -43885,7 +43932,8 @@
    "ks_page": 69,
    "ks_date": "1871",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,12"
   },
   {
    "id": "ks-3-23-1-20",
@@ -44543,7 +44591,7 @@
    "juan": 1,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.4:497-533",
    "catalogue": {},
    "editions": [
     {
@@ -44567,8 +44615,9 @@
     "Luo Zhenyu Liao Qingling dihou aice shike jilu"
    ],
    "vault_page": "Luo Zhenyu 羅振玉《遼慶陵帝后哀册石刻輯録》",
-   "source": "石刻史料新編 (目錄) / vault",
-   "skslxb_category": "一般類"
+   "source": "石刻史料新編 (目錄) / vault +romanized-locator",
+   "skslxb_category": "一般類",
+   "sbb_callno": "4\"@836959-3,4"
   },
   {
    "id": "ks-t-x-121",
@@ -45926,7 +45975,7 @@
    "juan": 27,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.39:493-505",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -45952,7 +46001,8 @@
    "ks_page": 106,
    "ks_date": "",
    "vault_page": "Ye Yibao 葉奕苞《金石小箋》",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,39"
   },
   {
    "id": "ks-3-1-79-130",
@@ -47844,7 +47894,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.23:47-104",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -47857,11 +47907,12 @@
    "ks_page": 226,
    "ks_date": "1894",
    "vault_page": "《雲南通志》(金石·王文詔)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "aliases": [
     "雲南通志",
     "《雲南通志》(金石·王文詔)"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,23"
   },
   {
    "id": "ks-3-23-105-139",
@@ -48020,7 +48071,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.7:27-41",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -48033,7 +48084,8 @@
    "ks_page": 227,
    "ks_date": "1836",
    "vault_page": "",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編"
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
+   "sbb_callno": "4\"@836959-3,7"
   },
   {
    "id": "ks-t-x-227",
@@ -48974,7 +49026,7 @@
    "juan": 1,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "3.26:403-405",
+   "skslxb_locator": "3.26:399-402",
    "catalogue": {},
    "editions": [
     {
@@ -49217,7 +49269,7 @@
    "juan": null,
    "in_skslxb": true,
    "skslxb_series": 3,
-   "skslxb_locator": "",
+   "skslxb_locator": "3.23:21-23",
    "skslxb_pages": "",
    "skslxb_category": "",
    "period_covered": null,
@@ -49230,11 +49282,12 @@
    "ks_page": 222,
    "ks_date": "1894",
    "vault_page": "《鬱林縣志》(金石)",
-   "source": "Kuhn & Stahl 1991 / 石刻史料新編",
+   "source": "Kuhn & Stahl 1991 / 石刻史料新編 +romanized-locator",
    "aliases": [
     "鬱林縣志",
     "《鬱林縣志》(金石)"
-   ]
+   ],
+   "sbb_callno": "4\"@836959-3,23"
   },
   {
    "id": "ks-3-35-209-225",
