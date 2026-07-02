@@ -94,10 +94,38 @@
                titleEn: siteEn || name, titleZh: siteZh, when: "", dateText: "", parts: [], rawXml: xmlText };
     }
 
+    // EpiDoc-CN profile files (the three-level model, epidoc-cn.js): the taxonomy
+    // registry is data for the editors, not a catalog row; TEI sites and object
+    // files are typed so "Edit" routes to the right editor. All three carry
+    // _cnKind; sites/objects list in the Objects tab alongside their inscriptions.
+    var cnKind = window.EpiDocCN ? EpiDocCN.detect(doc) : null;
+    if (cnKind === "taxonomy") {
+      return { name: name, recordType: "taxonomy", surrogateOf: "", _cnKind: cnKind,
+               titleEn: "EpiDoc-CN taxonomies", titleZh: "控制詞表", when: "", dateText: "", parts: [], rawXml: xmlText };
+    }
+    if (cnKind === "site" || cnKind === "objectfile") {
+      var cnEn = "", cnZh = "";
+      qns(doc, "title").forEach(function (t) {
+        if (!t.parentNode || t.parentNode.localName !== "titleStmt") return;
+        var lg = t.getAttribute("xml:lang") || "";
+        if (lg.indexOf("zh") === 0) { if (!cnZh) cnZh = t.textContent.trim(); }
+        else if (!cnEn) cnEn = t.textContent.trim();
+      });
+      var cnDateEl = qns(doc, "origDate")[0] || null;
+      return { name: name, recordType: "object", surrogateOf: "", _cnKind: cnKind,
+               titleEn: cnEn || name, titleZh: cnZh,
+               objectType: cnKind === "site" ? "site 地點" : "object 器物",
+               region: txt(qns(doc, "region")[0] || null),
+               when: cnDateEl ? (cnDateEl.getAttribute("when") || cnDateEl.getAttribute("notBefore") || "") : "",
+               dateText: txt(cnDateEl), summary: txt(qns(doc, "summary")[0] || null),
+               parts: [], rawXml: xmlText };
+    }
+
     // Record type (object vs rubbing)
     var msDescEl   = doc.getElementsByTagNameNS(NS, "msDesc")[0];
     var msDescType = msDescEl ? (msDescEl.getAttribute("type") || "") : "";
     var recordType = msDescType === "rubbing" ? "rubbing" : "object";
+    var _cnKind = cnKind;                    // "inscription" for new-model msDesc files
 
     // For rubbings: what inscription does this reproduce?
     var relItemEls  = qns(doc, "relatedItem");
@@ -116,7 +144,9 @@
       return t.parentNode && t.parentNode.localName === "titleStmt";
     });
     var titleEn = txt(stmtTitles.find(function (t) { return t.getAttribute("xml:lang") === "en"; }));
-    var titleZh = txt(stmtTitles.find(function (t) { return t.getAttribute("xml:lang") === "zh-Hant"; }));
+    var titleZh = txt(stmtTitles.find(function (t) {
+      return (t.getAttribute("xml:lang") || "").indexOf("zh") === 0;   // zh-Hant (legacy) or zh (EpiDoc-CN)
+    }));
     var editor  = txt(first(doc, "editor"));
 
     // Holding
@@ -248,7 +278,7 @@
     });
 
     return {
-      name: name, recordType: recordType, surrogateOf: surrogateOf,
+      name: name, recordType: recordType, surrogateOf: surrogateOf, _cnKind: _cnKind,
       images: images, sourceUrl: sourceUrl, provider: provider, manifest: manifest,
       editor: editor, titleEn: titleEn, titleZh: titleZh,
       country: country, countryRef: countryRef, region: region, settlement: settlement,
@@ -528,7 +558,23 @@
   function canDeleteInPlace(rec) { return !!recordLocation(rec); }
 
   function openInEditor(rec) {
+    // EpiDoc-CN files route to their tier's editor with the raw XML (the editors
+    // parse it losslessly via epidoc-cn.js); legacy records keep the flat state.
+    if (rec._cnKind === "objectfile") {
+      sessionStorage.setItem("epiwen_preload_object", JSON.stringify({
+        rawXml: rec.rawXml, filename: rec.name,
+        _writeTarget: writeTargetFor(rec), _canDelete: canDeleteInPlace(rec) }));
+      window.location.href = "object-editor.html";
+      return;
+    }
+    if (rec._cnKind === "site") {
+      sessionStorage.setItem("epiwen_preload_site_tei", JSON.stringify({
+        rawXml: rec.rawXml, filename: rec.name, _writeTarget: writeTargetFor(rec) }));
+      window.location.href = "site-editor.html";
+      return;
+    }
     var state = recToState(rec);
+    state.rawXml       = rec.rawXml || "";     // new-model inscriptions parse this directly
     state._writeTarget = writeTargetFor(rec);
     state._canDelete   = canDeleteInPlace(rec);
     sessionStorage.setItem("epiwen_preload", JSON.stringify(state));

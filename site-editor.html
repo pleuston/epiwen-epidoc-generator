@@ -100,9 +100,14 @@
           <div class="catalog-head">
             <h2 id="editor-heading">Site record</h2>
             <div class="catalog-head-actions">
+              <button class="btn small" id="btn-mode-tei" type="button"
+                title="Switch to the EpiDoc-CN TEI place model">TEI mode</button>
               <a href="sites.html" class="btn small">← Back</a>
             </div>
           </div>
+
+          <!-- ── EpiDoc-CN TEI place form (rendered by site-app.js in TEI mode) ── -->
+          <div id="tei-site-form" style="display:none;padding:.5rem 0"></div>
 
           <div id="site-form" style="padding:.5rem 0">
 
@@ -214,6 +219,9 @@
     </footer>
 
     <div id="toast" role="status" aria-live="polite"></div>
+    <script src="data.js"></script>
+    <script src="collections.js"></script>
+    <script src="epidoc-cn.js"></script>
     <script src="github.js"></script>
     <script src="site-app.js"></script>
     <script src="modal.js"></script>
