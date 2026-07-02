@@ -579,6 +579,12 @@
     "locator": "1.19:14145-14323"
    },
    {
+    "id": "wp-luo-zhenyu-126",
+    "title_zh": "芒洛冢墓遺文續編",
+    "author_zh": "羅振玉",
+    "locator": "1.19:14055-14106"
+   },
+   {
     "id": "ks-1-19-14055-14106",
     "title_zh": "芒洛冢墓邀文續編",
     "author_zh": "",
@@ -1247,6 +1253,12 @@
     "locator": "2.6:4471-4480"
    },
    {
+    "id": "wp-ye-feng-263",
+    "title_zh": "崇陽石刻集記",
+    "author_zh": "葉封",
+    "locator": "2.14:10179-10245"
+   },
+   {
     "id": "wp-gan-pengyun-35",
     "title_zh": "崇雅堂碑録",
     "author_zh": "甘鵬雲",
@@ -1653,6 +1665,12 @@
     "title_zh": "獨笑齋金石文考",
     "author_zh": "",
     "locator": "2.16:11677-11815"
+   },
+   {
+    "id": "wp-fan-bin-30",
+    "title_zh": "畿輔待訪碑目",
+    "author_zh": "樊彬",
+    "locator": "2.20:14801-14811"
    },
    {
     "id": "ks-2-20-14801-14811",
@@ -3781,6 +3799,12 @@
     "locator": "3.30:301-562"
    },
    {
+    "id": "wp-hu-mi-51",
+    "title_zh": "山西金石記",
+    "author_zh": "胡謐",
+    "locator": "3.30:301-562"
+   },
+   {
     "id": "ks-3-22-419-587",
     "title_zh": "山金石志",
     "author_zh": "",
@@ -5293,6 +5317,12 @@
     "locator": "3.15:495-500"
    },
    {
+    "id": "wp-luo-zhenchang-104",
+    "title_zh": "洹洛訪古游記",
+    "author_zh": "羅振常",
+    "locator": "3.29:589-593"
+   },
+   {
     "id": "ks-3-17-81-83",
     "title_zh": "浦城金石志",
     "author_zh": "",
@@ -5662,6 +5692,12 @@
     "id": "ks-3-35-204-207",
     "title_zh": "漢烹平石經殘字集錄續拾",
     "author_zh": "",
+    "locator": "3.35:204-207"
+   },
+   {
+    "id": "wp-luo-zhenyu-123",
+    "title_zh": "漢熹平石經殘字集錄續拾",
+    "author_zh": "羅振玉",
     "locator": "3.35:204-207"
    },
    {
@@ -6073,6 +6109,12 @@
     "locator": "3.12:173-205"
    },
    {
+    "id": "wp-x-662",
+    "title_zh": "直隸絳州志",
+    "author_zh": "",
+    "locator": "3.31:437-440"
+   },
+   {
     "id": "ks-3-39-431-462",
     "title_zh": "石刻鋪敘",
     "author_zh": "",
@@ -6250,6 +6292,12 @@
     "id": "ks-3-1-387-527",
     "title_zh": "筠消館金石",
     "author_zh": "",
+    "locator": "3.1:387-527"
+   },
+   {
+    "id": "wp-wu-rongguang-229",
+    "title_zh": "筠清館金石",
+    "author_zh": "吳榮光",
     "locator": "3.1:387-527"
    },
    {
@@ -7633,6 +7681,12 @@
     "locator": "3.17:43-46"
    },
    {
+    "id": "wp-han-jiahui-47",
+    "title_zh": "閿鄉金石志",
+    "author_zh": "韓嘉會",
+    "locator": "3.29"
+   },
+   {
     "id": "ks-3-29-513-526",
     "title_zh": "陜縣金石志",
     "author_zh": "",
@@ -7649,6 +7703,12 @@
     "title_zh": "陳簠齋丈筆記",
     "author_zh": "",
     "locator": "3.35:363-369"
+   },
+   {
+    "id": "wp-chen-jieqi-13",
+    "title_zh": "陳簠齋文筆記",
+    "author_zh": "陳介祺",
+    "locator": "3.35"
    },
    {
     "id": "ks-3-26-427-508",
