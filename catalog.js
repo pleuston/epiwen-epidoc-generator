@@ -121,7 +121,7 @@
           if (u) cnManifest = u[0];
         }
       });
-      return { name: name, recordType: "object", surrogateOf: "", _cnKind: cnKind,
+      return { name: name, recordType: cnKind === "site" ? "site" : "object", surrogateOf: "", _cnKind: cnKind,
                titleEn: cnEn || name, titleZh: cnZh,
                objectType: cnKind === "site" ? "site 地點" : "object 器物",
                region: txt(qns(doc, "region")[0] || null),
@@ -131,11 +131,14 @@
                parts: [], rawXml: xmlText };
     }
 
-    // Record type (object vs rubbing)
+    // Record type (object vs rubbing vs EpiDoc-CN inscription)
     var msDescEl   = doc.getElementsByTagNameNS(NS, "msDesc")[0];
     var msDescType = msDescEl ? (msDescEl.getAttribute("type") || "") : "";
-    var recordType = msDescType === "rubbing" ? "rubbing" : "object";
     var _cnKind = cnKind;                    // "inscription" for new-model msDesc files
+    var recordType = msDescType === "rubbing" ? "rubbing"
+      : (cnKind === "inscription" ? "inscription" : "object");
+    var bearer = (cnKind === "inscription" && msDescEl)   // the object file it is inscribed on
+      ? (msDescEl.getAttribute("corresp") || "").split(/\s+/)[0].split("#")[0] : "";
 
     // For rubbings: what inscription does this reproduce?
     var relItemEls  = qns(doc, "relatedItem");
@@ -288,7 +291,7 @@
     });
 
     return {
-      name: name, recordType: recordType, surrogateOf: surrogateOf, _cnKind: _cnKind,
+      name: name, recordType: recordType, surrogateOf: surrogateOf, _cnKind: _cnKind, bearer: bearer,
       images: images, sourceUrl: sourceUrl, provider: provider, manifest: manifest,
       editor: editor, titleEn: titleEn, titleZh: titleZh,
       country: country, countryRef: countryRef, region: region, settlement: settlement,
@@ -327,7 +330,7 @@
                  cbeta: "", taisho: "", editionText: "", translationText: "" };
       }),
       rawXml: "", _lazy: true, _path: r.file || r.name,
-      shared: !!r.shared
+      shared: !!r.shared, _cnKind: r.cn_kind || "", bearer: r.bearer || ""
     };
   }
 
@@ -1379,20 +1382,21 @@
         '</div>';
     }
 
+    var bearerFile = rec.bearer || rec.name;    // new-model: the object bearer; legacy: the object record itself
     info.innerHTML =
       sourceBadge(rec) +
       titleHtml +
       '<span class="catalog-date">' + esc(label) +
-      ' · inscribed on <a href="catalog.html?tab=objects&amp;file=' + encodeURIComponent(rec.name) +
-      '" class="catalog-obj-link"><code class="catalog-filename">' + esc(rec.name) + '</code></a>' +
+      ' · inscribed on <a href="catalog.html?tab=objects&amp;file=' + encodeURIComponent(bearerFile) +
+      '" class="catalog-obj-link"><code class="catalog-filename">' + esc(bearerFile) + '</code></a>' +
       (rec.dateText ? ' · ' + esc(rec.dateText) : '') +
       '</span>';
     var objLink = info.querySelector(".catalog-obj-link");
     if (objLink) {
       objLink.addEventListener("click", function (e) {
         e.preventDefault(); e.stopPropagation();
-        history.pushState({ tab: "objects", file: rec.name }, "", objLink.href);
-        renderByTab("objects", rec.name);
+        history.pushState({ tab: "objects", file: bearerFile }, "", objLink.href);
+        renderByTab("objects", bearerFile);
       });
     }
 
@@ -1534,9 +1538,10 @@
     // Update "+ New" add button
     var addBtn = document.getElementById("btn-add-new");
     if (addBtn) {
-      if (tab === "objects")       { addBtn.href = "editor.html";  addBtn.style.display = ""; }
-      else if (tab === "rubbings") { addBtn.href = "rubbing.html"; addBtn.style.display = ""; }
-      else                         { addBtn.style.display = "none"; }
+      if (tab === "objects")           { addBtn.href = "object-editor.html"; addBtn.style.display = ""; }
+      else if (tab === "inscriptions") { addBtn.href = "editor.html";        addBtn.style.display = ""; }
+      else if (tab === "rubbings")     { addBtn.href = "rubbing.html";       addBtn.style.display = ""; }
+      else                             { addBtn.style.display = "none"; }
     }
 
     // Reset search and preview when switching tabs
@@ -1643,7 +1648,14 @@
     var list = document.getElementById("catalog-list");
     list.innerHTML = "";
 
-    var inscribable = allRecords.filter(function (r) { return r.recordType === "object"; });
+    // EpiDoc-CN inscription files are each one inscription (recordType
+    // "inscription"); legacy object records carry their inscriptions as
+    // textparts. EpiDoc-CN OBJECT bearers are excluded — their texts are the
+    // separate inscription files, so counting their msItems would double-list.
+    var inscribable = allRecords.filter(function (r) {
+      return r.recordType === "inscription" ||
+             (r.recordType === "object" && r._cnKind !== "objectfile");
+    });
     var totalParts = inscribable.reduce(function (n, r) { return n + r.parts.length; }, 0);
     var base = applyFilters(inscribable);
     var items = [];

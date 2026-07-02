@@ -530,6 +530,7 @@
     // EpiDoc-CN profile files (three-level model): list like catalog.js's cn
     // branch — objects tab, zh titles, manifest from note type="iiif-manifest".
     var cnKind = window.EpiDocCN ? EpiDocCN.detect(doc) : null;
+    base.cn_kind = cnKind || "";
     if (cnKind === "taxonomy") { base.record_type = "taxonomy"; return base; }
     if (cnKind === "site" || cnKind === "objectfile") {
       _iq(doc, "title").forEach(function (t) {
@@ -548,11 +549,16 @@
         if (u) base.manifest = u[0];
         return true;
       });
+      // sites belong to the Sites browser (site-index.json), not the catalog tabs
+      base.record_type = cnKind === "site" ? "site" : "object";
       return base;
     }
 
     var msDesc = _ifirst(doc, "msDesc");
-    base.record_type = (msDesc && msDesc.getAttribute("type") === "rubbing") ? "rubbing" : "object";
+    base.record_type = (msDesc && msDesc.getAttribute("type") === "rubbing") ? "rubbing"
+      : (cnKind === "inscription" ? "inscription" : "object");   // EpiDoc-CN inscriptions are their own kind
+    if (cnKind === "inscription" && msDesc)                      // the object file it is inscribed on
+      base.bearer = (msDesc.getAttribute("corresp") || "").split(/\s+/)[0].split("#")[0];
 
     _iq(doc, "relatedItem").some(function (rel) {
       if (rel.getAttribute("type") !== "surrogateOf") return false;
