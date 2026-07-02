@@ -64,7 +64,7 @@
       if (n.nodeType === 8) continue;                    // comments dropped
       s += n.nodeType === 3 ? escText(n.nodeValue) : serializeNode(n);
     }
-    return s.replace(/^[ \t]+|[ \t]+$/g, "").replace(/^\n+|\n+$/g, "");
+    return s.replace(/^\s+|\s+$/g, "");     // full end-trim: "\n  <ab/>" and "  <ab/>" must round-trip alike
   }
   /* whole element as raw XML (for _x buckets) */
   function outer(el) { return serializeNode(el); }
@@ -692,7 +692,10 @@
     st.history = msDesc ? parseHistory(firstKid(msDesc, "history")) : null;
 
     st.witnesses = [];
-    var lw = desc(rootEl, "listWit")[0];
+    // ONLY the sourceDesc-level witness list (E-WIT rubbings); an edition div may
+    // carry its own inline <listWit> of text witnesses, which must stay there.
+    var srcDesc = msDesc ? msDesc.parentNode : desc(rootEl, "sourceDesc")[0];
+    var lw = srcDesc ? firstKid(srcDesc, "listWit") : null;
     if (lw) kids(lw, "witness").forEach(function (w) { st.witnesses.push(parseWitness(w)); });
 
     st.languages = desc(rootEl, "langUsage").length
@@ -711,13 +714,17 @@
       var ty = attr(d, "type");
       if (ty === "edition") {
         st.edition.lang = xmlLang(d) || "lzh";
-        var ab = firstKid(d, "ab");
-        var ptr = ab ? firstKid(ab, "ptr") : null;
-        if (ptr && attr(ptr, "type") === "transcription") {
+        // delegated form: the div holds ONLY <ab><ptr type="transcription"/></ab>
+        var dKids = kids(d), ab = firstKid(d, "ab");
+        var abKids = ab ? kids(ab) : [];
+        var ptr = abKids.length === 1 && ln(abKids[0]) === "ptr" ? abKids[0] : null;
+        if (dKids.length === 1 && ptr && attr(ptr, "type") === "transcription" && !txt(ab)) {
           st.edition.mode = "ptr"; st.edition.ptrTarget = attr(ptr, "target");
         } else {
+          // inline form: the WHOLE div content verbatim (ab with the transcription,
+          // optionally preceded by a listWit of text witnesses)
           st.edition.mode = "inline";
-          st.edition.inlineText = ab ? inner(ab) : inner(d);
+          st.edition.inlineText = inner(d);
         }
       } else if (ty === "bibliography") {
         var lb = firstKid(d, "listBibl");
@@ -768,8 +775,12 @@
 
     var editionDiv;
     if (st.edition && st.edition.mode === "inline") {
+      // inlineText is the div's whole content (e.g. optional <listWit> + <ab>…</ab>);
+      // bare text without any <ab> wrapper is wrapped for TEI validity.
+      var edInner = String(st.edition.inlineText || "");
+      if (edInner && edInner.indexOf("<ab") === -1) edInner = "<ab>" + edInner + "</ab>";
       editionDiv = NK("div", { type: "edition", "xml:lang": st.edition.lang || "lzh" },
-        NK("ab", null, RAW(st.edition.inlineText)));
+        RAW(edInner || "<ab/>"));
     } else {
       editionDiv = NK("div", { type: "edition", "xml:lang": (st.edition && st.edition.lang) || "lzh" },
         NK("ab", null, N("ptr", { type: "transcription", target: st.edition ? st.edition.ptrTarget : "" })));
@@ -789,7 +800,8 @@
     var TEI = NK("TEI", { xmlns: TEI_NS, "xml:id": st.fileId },
       NK("teiHeader", null, fileDesc, encodingNode(st), profileDesc),
       NK("text", { next: st.textNext, prev: st.textPrev },
-        NK("body", null, editionDiv, biblDiv, (st._bodyX || []).map(RAW))));
+        // canonical EpiDoc order: edition → translation/commentary (_bodyX) → bibliography
+        NK("body", null, editionDiv, (st._bodyX || []).map(RAW), biblDiv)));
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ser(TEI, 0) + "\n";
   }
 

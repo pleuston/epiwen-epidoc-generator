@@ -499,7 +499,7 @@
         input(function () { return state.edition.ptrTarget; }, function (v) { state.edition.ptrTarget = v; },
           "sutras:docs/Shuiniushan/SNS_1.xml", true)));
     } else {
-      FORM.appendChild(labelled("Transcription (XML: lb/gap allowed)", "錄文",
+      FORM.appendChild(labelled("Edition content (XML: <ab> with lb/app/supplied…; optional <listWit>)", "錄文",
         area(function () { return state.edition.inlineText; }, function (v) { state.edition.inlineText = v; }, "", true)));
     }
     FORM.appendChild(rowOf(
