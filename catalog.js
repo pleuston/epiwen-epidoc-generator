@@ -99,9 +99,12 @@
     // files are typed so "Edit" routes to the right editor. All three carry
     // _cnKind; sites/objects list in the Objects tab alongside their inscriptions.
     var cnKind = window.EpiDocCN ? EpiDocCN.detect(doc) : null;
-    if (cnKind === "taxonomy") {
-      return { name: name, recordType: "taxonomy", surrogateOf: "", _cnKind: cnKind,
-               titleEn: "EpiDoc-CN taxonomies", titleZh: "控制詞表", when: "", dateText: "", parts: [], rawXml: xmlText };
+    if (cnKind === "taxonomy" || cnKind === "sitedesc") {
+      // neither is a catalog row: the taxonomy registry is editor data; a
+      // site-description doc is a site's prose (shown in the Sites detail pane).
+      return { name: name, recordType: cnKind, surrogateOf: "", _cnKind: cnKind,
+               titleEn: cnKind === "sitedesc" ? "Site description" : "EpiDoc-CN taxonomies",
+               titleZh: "", when: "", dateText: "", parts: [], rawXml: xmlText };
     }
     if (cnKind === "site" || cnKind === "objectfile") {
       var cnEn = "", cnZh = "";

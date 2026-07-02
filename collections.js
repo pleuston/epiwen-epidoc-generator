@@ -532,6 +532,7 @@
     var cnKind = window.EpiDocCN ? EpiDocCN.detect(doc) : null;
     base.cn_kind = cnKind || "";
     if (cnKind === "taxonomy") { base.record_type = "taxonomy"; return base; }
+    if (cnKind === "sitedesc") { base.record_type = "sitedesc"; return base; }   // site prose, not a catalog row
     if (cnKind === "site" || cnKind === "objectfile") {
       _iq(doc, "title").forEach(function (t) {
         if (!t.parentNode || t.parentNode.localName !== "titleStmt") return;

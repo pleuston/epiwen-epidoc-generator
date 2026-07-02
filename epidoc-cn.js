@@ -165,6 +165,11 @@
     if (desc(rootEl, "listPlace").length) return "site";
     if (desc(rootEl, "listObject").length) return "objectfile";
     if (desc(rootEl, "msDesc").length) return "inscription";
+    // a site-DESCRIPTION document: prose body, place metadata carried in the
+    // teiHeader (profileDesc/settingDesc/place). Rendered as a site's prose;
+    // not itself a catalog row.
+    if (desc(rootEl, "settingDesc").length &&
+        desc(desc(rootEl, "settingDesc")[0], "place").length) return "sitedesc";
     return null;
   }
 
