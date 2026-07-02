@@ -326,7 +326,8 @@
                  sutra: p.sutra || "", sutraEn: p.sutra_en || "", lang: p.lang || "",
                  cbeta: "", taisho: "", editionText: "", translationText: "" };
       }),
-      rawXml: "", _lazy: true, _path: r.file || r.name
+      rawXml: "", _lazy: true, _path: r.file || r.name,
+      shared: !!r.shared
     };
   }
 
@@ -357,6 +358,9 @@
   function sourceBadge(rec) {
     if (!rec || rec.source !== "private") return "";
     var label = rec.collectionTitle || rec.collection || "private";
+    if (rec.shared)                       // shared public corpus — loads for everyone
+      return '<span class="catalog-badge-private" ' +
+        'title="Shared public corpus — visible to everyone">🌐 ' + esc(label) + '</span>';
     return '<span class="catalog-badge-private" ' +
       'title="Private collection — only visible with your token">🔒 ' +
       esc(label) + '</span>';
@@ -640,8 +644,11 @@
       return rec._repoDir
         ? { owner: DC.owner, repo: DC.repo, branch: DC.branch, path: rec._repoDir + rec.name }
         : null;
-    if (rec.collection && SH && rec.collection === SH.id)
-      return { owner: SH.owner, repo: SH.repo, branch: SH.branch, path: "collections/" + SH.id + "/" + file };
+    var shp = rec.collection && EpiCollections.sharedPkg ? EpiCollections.sharedPkg(rec.collection) : null;
+    if (shp || (rec.collection && SH && rec.collection === SH.id)) {
+      var s = shp || SH;
+      return { owner: s.owner, repo: s.repo, branch: s.branch, path: "collections/" + s.id + "/" + file };
+    }
     if (rec.collection) {
       var c = EpiCollections.getConfig();
       return { owner: c.owner, repo: c.repo, branch: c.branch, path: "collections/" + rec.collection + "/" + file };

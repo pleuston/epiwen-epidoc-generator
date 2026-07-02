@@ -42,12 +42,20 @@
   var DEFAULT_CORPUS = { owner: "pleuston", repo: "epiwen", branch: "main",
                          id: "corpus", title: "Workshop corpus" };
 
-  // SHARED = the default-ON public corpus: rubbings + holding-institution
-  // authorities, in the PUBLIC repo epiwen-public. Person/place authorities and
-  // bibliography stay in the always-on core; the Stone Sutras corpus (sites +
-  // inscriptions) is an opt-in toggle in epiwen-data, not the default.
+  // SHARED = the default-ON public corpora in the PUBLIC repo epiwen-public:
+  // rubbings + the EpiDoc-CN corpus (sites · objects · inscriptions). Loaded for
+  // everyone — no token required, no enable toggle (one shared on/off switch
+  // covers both). Person/place authorities and bibliography stay in the
+  // always-on core; the Stone Sutras corpus is an opt-in toggle in epiwen-data.
   var SHARED = { owner: "pleuston", repo: "epiwen-public", branch: "main",
                  id: "rubbings", title: "Public corpus (rubbings)" };
+  var SHARED_CN = { owner: "pleuston", repo: "epiwen-public", branch: "main",
+                    id: "epidoc-cn", title: "EpiDoc-CN corpus (sites · objects · inscriptions)" };
+  var SHARED_PKGS = [SHARED, SHARED_CN];
+  function sharedPkg(id) {
+    for (var i = 0; i < SHARED_PKGS.length; i++) if (SHARED_PKGS[i].id === id) return SHARED_PKGS[i];
+    return null;
+  }
 
   var _changeHandlers = [];
 
@@ -154,6 +162,18 @@
   // anonymous traffic and get throttled.
   function ctxFetchNoAuth(ctx, path) {
     return fetch(ctxApiUrl(ctx, path), { headers: headers(true) }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.text();
+    });
+  }
+  // PUBLIC repos are fetched via the raw CDN — no API rate limit (anonymous API
+  // allows only 60 req/h, which a corpus of records exhausts immediately), no
+  // token needed. Only for public contexts (SHARED_PKGS / the app repo); the
+  // private collections repo keeps the authenticated Contents API per CLAUDE.md.
+  function ctxFetchPublic(ctx, path) {
+    var url = "https://raw.githubusercontent.com/" + ctx.owner + "/" + ctx.repo + "/" +
+              encodeURIComponent(ctx.branch) + "/" + path;
+    return fetch(url).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
       return r.text();
     });
@@ -279,9 +299,24 @@
 
   /* Load every .xml record in the shared collection. Always attempted (no
      enable toggle); 404 (not created yet) yields an empty, non-error result. */
-  function loadShared() {
-    if (!token() || !sharedEnabled()) return Promise.resolve({ records: [], errors: [] });
-    return fetch(ctxApiUrl(SHARED, "collections/" + SHARED.id), { headers: headers(false) })
+  function loadSharedPkg(pkg) {
+    // Index-first over the raw CDN: ONE request per package instead of one API
+    // call per record; the full XML loads lazily on preview/edit (fetchRecordXml,
+    // also raw). Falls back to an API directory walk for packages without index.
+    return ctxFetchPublic(pkg, "collections/" + pkg.id + "/records-index.json")
+      .then(function (t) { return JSON.parse(t); })
+      .then(function (index) {
+        if (!Array.isArray(index)) throw new Error("no index");
+        var recs = index.map(function (e) {
+          e._lazy = true; e.collection = pkg.id; e.collectionTitle = pkg.title; e.shared = true;
+          return e;
+        });
+        return { records: recs, errors: [] };
+      })
+      .catch(function () { return loadSharedPkgWalk(pkg); });
+  }
+  function loadSharedPkgWalk(pkg) {
+    return fetch(ctxApiUrl(pkg, "collections/" + pkg.id), { headers: headers(false) })
       .then(function (r) {
         if (r.status === 404) return { records: [], errors: [] };
         if (!r.ok) throw new Error("HTTP " + r.status);
@@ -291,22 +326,33 @@
             return e.type === "file" && /\.xml$/i.test(e.name);
           });
           return Promise.all(xmlFiles.map(function (f) {
-            return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + encodeURIComponent(f.name))
+            return ctxFetchPublic(pkg, "collections/" + pkg.id + "/" + encodeURIComponent(f.name))
               .then(function (xml) {
-                return { name: f.name, xml: xml, collection: SHARED.id,
-                         collectionTitle: SHARED.title, shared: true };
+                return { name: f.name, xml: xml, collection: pkg.id,
+                         collectionTitle: pkg.title, shared: true };
               })
               .catch(function () { return null; });
           })).then(function (arr) { return { records: arr.filter(Boolean), errors: [] }; });
         });
       })
-      .catch(function (e) { return { records: [], errors: [{ id: SHARED.id, message: e.message }] }; });
+      .catch(function (e) { return { records: [], errors: [{ id: pkg.id, message: e.message }] }; });
+  }
+  function loadShared() {
+    // Public repo — works without a token (headers() adds auth only when present),
+    // so the shared corpora load for guests too. One toggle covers all of them.
+    if (!sharedEnabled()) return Promise.resolve({ records: [], errors: [] });
+    return Promise.all(SHARED_PKGS.map(loadSharedPkg)).then(function (parts) {
+      return {
+        records: [].concat.apply([], parts.map(function (p) { return p.records; })),
+        errors:  [].concat.apply([], parts.map(function (p) { return p.errors; }))
+      };
+    });
   }
 
   /* The shared collection's optional <kind>-index.json (authority / biblio). */
   function loadSharedIndex(kind) {
     if (!sharedEnabled()) return Promise.resolve([]);   // public corpus — loads for guests too
-    return ctxFetchNoAuth(SHARED, "collections/" + SHARED.id + "/" + kind + "-index.json")
+    return ctxFetchPublic(SHARED, "collections/" + SHARED.id + "/" + kind + "-index.json")
       .then(function (txt) {
         var arr; try { arr = JSON.parse(txt); } catch (e) { return []; }
         if (!Array.isArray(arr)) return [];
@@ -320,7 +366,7 @@
 
   /* Fetch an arbitrary file (e.g. _inscription_index.json) from the shared corpus. */
   function fetchSharedFile(relpath) {
-    return ctxFetchRaw(SHARED, "collections/" + SHARED.id + "/" + relpath);
+    return ctxFetchPublic(SHARED, "collections/" + SHARED.id + "/" + relpath);
   }
 
   /* Delete a file from any repo (GET its sha, then DELETE). Needs a token with
@@ -479,6 +525,30 @@
       return base;
     }
 
+    // EpiDoc-CN profile files (three-level model): list like catalog.js's cn
+    // branch — objects tab, zh titles, manifest from note type="iiif-manifest".
+    var cnKind = window.EpiDocCN ? EpiDocCN.detect(doc) : null;
+    if (cnKind === "taxonomy") { base.record_type = "taxonomy"; return base; }
+    if (cnKind === "site" || cnKind === "objectfile") {
+      _iq(doc, "title").forEach(function (t) {
+        if (!t.parentNode || t.parentNode.localName !== "titleStmt") return;
+        var lang = t.getAttribute("xml:lang") || "";
+        if (lang.indexOf("zh") === 0) { if (!base.title_zh) base.title_zh = _itxt(t); }
+        else if (!base.title_en || base.title_en === filename) base.title_en = _itxt(t);
+      });
+      var cnOd = _ifirst(doc, "origDate");
+      base.when = cnOd ? (cnOd.getAttribute("when") || cnOd.getAttribute("notBefore") || "") : "";
+      base.date_text = _itxt(cnOd);
+      base.region = _itxt(_ifirst(doc, "region"));
+      _iq(doc, "note").some(function (nEl) {
+        if (nEl.getAttribute("type") !== "iiif-manifest") return false;
+        var u = _itxt(nEl).match(/https?:\/\/\S+/);
+        if (u) base.manifest = u[0];
+        return true;
+      });
+      return base;
+    }
+
     var msDesc = _ifirst(doc, "msDesc");
     base.record_type = (msDesc && msDesc.getAttribute("type") === "rubbing") ? "rubbing" : "object";
 
@@ -495,7 +565,7 @@
       if (!p || p.localName !== "titleStmt") return;
       var lang = t.getAttribute("xml:lang") || "";
       if (lang === "en" && !base.title_en) base.title_en = _itxt(t);
-      else if (lang === "zh-Hant" && !base.title_zh) base.title_zh = _itxt(t);
+      else if (lang.indexOf("zh") === 0 && !base.title_zh) base.title_zh = _itxt(t);
     });
     base.editor     = _itxt(_ifirst(doc, "editor"));
     base.region     = _itxt(_ifirst(doc, "region"));
@@ -706,7 +776,10 @@
 
   // Fetch a record XML from inside a package (for private detail panes).
   function fetchRecordXml(pkg, relPath) {
-    return fetchFileRaw("collections/" + encodeURIComponent(pkg) + "/" + relPath.replace(/^\/+/, ""));
+    var rel = relPath.replace(/^\/+/, "");
+    var sh = sharedPkg(pkg);                 // shared public corpora: raw CDN, no API quota
+    if (sh) return ctxFetchPublic(sh, "collections/" + sh.id + "/" + rel);
+    return fetchFileRaw("collections/" + encodeURIComponent(pkg) + "/" + rel);
   }
 
   // ── Prominent collections bar (load/unload toggles) ──────────────────────────
@@ -731,9 +804,11 @@
     function render(packages, msg) {
       var enabled = getEnabled();
       // Always-on, non-removable chip for the shared collection.
-      var sharedChip = '<span class="col-chip shared on" ' +
-        'title="Shared collection — auto-loaded for everyone with access to the data backend">' +
-        '<span>🌐 ' + esc(SHARED.title) + '</span></span>';
+      var sharedChip = SHARED_PKGS.map(function (p) {
+        return '<span class="col-chip shared on" ' +
+          'title="Shared public corpus — auto-loaded for everyone, no sign-in needed">' +
+          '<span>🌐 ' + esc(p.title) + '</span></span>';
+      }).join("");
       var chips = packages.map(function (p) {
         var on = enabled.indexOf(p.id) !== -1;
         return '<label class="col-chip' + (on ? " on" : "") + '">' +
@@ -1060,9 +1135,10 @@
       }).join("");
       panel.innerHTML =
         '<div class="col-menu-head">Corpora</div>' +
-        '<label class="col-menu-item shared' + (sharedOn ? " on" : "") + '" title="On by default — shared with everyone who has backend access. Untick to hide it.">' +
+        '<label class="col-menu-item shared' + (sharedOn ? " on" : "") + '" title="On by default — public, loads for everyone without sign-in. Untick to hide.">' +
           '<input type="checkbox" class="col-shared-cb"' + (sharedOn ? " checked" : "") + '>' +
-          '<span>🌐 ' + esc(SHARED.title) + '</span><span class="col-menu-always">default</span></label>' +
+          '<span>🌐 ' + SHARED_PKGS.map(function (p) { return esc(p.title); }).join(" + ") +
+          '</span><span class="col-menu-always">default</span></label>' +
         (items || '<div class="col-menu-empty">No private collections yet.</div>') +
         '<div class="col-menu-sep"></div>' +
         '<button class="col-menu-action col-add" type="button">＋ Add collection…</button>' +
@@ -1131,6 +1207,8 @@
     deleteFile:        deleteFile,
     DEFAULT_CORPUS:    DEFAULT_CORPUS,
     SHARED:            SHARED,
+    SHARED_PKGS:       SHARED_PKGS,
+    sharedPkg:         sharedPkg,
     loadIndex:       loadIndex,
     fetchRecordXml:  fetchRecordXml,
     mountBar:        mountBar,
