@@ -112,12 +112,22 @@
         else if (!cnEn) cnEn = t.textContent.trim();
       });
       var cnDateEl = qns(doc, "origDate")[0] || null;
+      // IIIF manifest note (e.g. ASCDC imports) → drives the inline strip viewer
+      // + "Open in IIIF viewer" exactly like rubbing records.
+      var cnManifest = "";
+      qns(doc, "note").forEach(function (nEl) {
+        if (nEl.getAttribute("type") === "iiif-manifest" && !cnManifest) {
+          var u = (nEl.textContent || "").trim().match(/https?:\/\/\S+/);
+          if (u) cnManifest = u[0];
+        }
+      });
       return { name: name, recordType: "object", surrogateOf: "", _cnKind: cnKind,
                titleEn: cnEn || name, titleZh: cnZh,
                objectType: cnKind === "site" ? "site 地點" : "object 器物",
                region: txt(qns(doc, "region")[0] || null),
                when: cnDateEl ? (cnDateEl.getAttribute("when") || cnDateEl.getAttribute("notBefore") || "") : "",
                dateText: txt(cnDateEl), summary: txt(qns(doc, "summary")[0] || null),
+               manifest: cnManifest, images: [],
                parts: [], rawXml: xmlText };
     }
 
@@ -1078,6 +1088,16 @@
     if (Array.isArray(l)) return l.map(iiifLabel).join(" ");
     return Object.keys(l).map(function (k) { return [].concat(l[k]).join(" "); }).join(" ").trim();
   }
+  // ASCDC (buddhism.ascdc.sinica.edu.tw) manifests reference an INTERNAL image
+  // server (http://parser/parser/IIIF/<imageId>/…) that is not publicly routed;
+  // the public equivalent per image is buddhism/img/Thumbnail/<imageId>.jpg.
+  // Rewrite those so the strip viewer / OSD get loadable URLs.
+  var ASCDC_PARSER = /^https?:\/\/parser\/parser\/IIIF\/([^/]+)/;
+  function ascdcPublicImage(u) {
+    var m = ASCDC_PARSER.exec(u || "");
+    return m ? "https://buddhism.ascdc.sinica.edu.tw/buddhism/img/Thumbnail/" +
+               encodeURIComponent(m[1]) + ".jpg" : "";
+  }
   function parseManifestPages(m) {
     var canvases = m.items ||
       (m.sequences && m.sequences[0] && m.sequences[0].canvases) || [];
@@ -1101,6 +1121,8 @@
         var t = Array.isArray(cv.thumbnail) ? cv.thumbnail[0] : cv.thumbnail;
         thumb = (t && (t.id || t["@id"])) || "";
       }
+      var pub = ascdcPublicImage(service) || ascdcPublicImage(full);
+      if (pub) { service = ""; full = pub; if (!thumb || ASCDC_PARSER.test(thumb)) thumb = pub; }
       return { label: iiifLabel(cv.label), service: service, full: full, thumb: thumb };
     }).filter(function (p) { return p.service || p.full; });
   }

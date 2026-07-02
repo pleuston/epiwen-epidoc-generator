@@ -72,7 +72,51 @@
           setTimeout(function () { saveBtn.textContent = "★ Save to bookmarks"; }, 1800);
         });
         // Lay windows out side by side in a mosaic so comparisons are immediate.
-        var windows = manifests.map(function (m) { return { manifestId: m }; });
+        // Some providers ship manifests whose image services point at hosts that
+        // are not publicly routed (ASCDC: http://parser/parser/IIIF/<id>/… — the
+        // public per-image equivalent is buddhism/img/Thumbnail/<id>.jpg). For
+        // those, pre-fetch the manifest, rewrite every image resource to its
+        // public static URL (dropping the dead service), and hand Mirador a
+        // blob: URL of the patched JSON instead.
+        var ASCDC_PARSER = /^https?:\/\/parser\/parser\/IIIF\/([^/]+)/;
+        function ascdcPublic(u) {
+          var m = ASCDC_PARSER.exec(u || "");
+          return m ? "https://buddhism.ascdc.sinica.edu.tw/buddhism/img/Thumbnail/" +
+                     encodeURIComponent(m[1]) + ".jpg" : "";
+        }
+        function patchManifest(m) {
+          var touched = false;
+          var canvases = (m.sequences && m.sequences[0] && m.sequences[0].canvases) || m.items || [];
+          canvases.forEach(function (cv) {
+            (cv.images || []).forEach(function (img) {           // IIIF v2
+              var res = img.resource || {};
+              var pub = ascdcPublic(res["@id"]) ||
+                        ascdcPublic(res.service && (res.service["@id"] || res.service.id));
+              if (pub) {
+                res["@id"] = pub; delete res.service;
+                res.format = "image/jpeg"; touched = true;
+              }
+            });
+            if (cv.thumbnail) {
+              var t = Array.isArray(cv.thumbnail) ? cv.thumbnail[0] : cv.thumbnail;
+              var pubT = t && ascdcPublic(t["@id"] || t.id);
+              if (pubT) { t["@id"] = pubT; delete t.service; touched = true; }
+            }
+          });
+          return touched;
+        }
+        function resolveManifest(url) {
+          return fetch(url).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status);
+            return r.json();
+          }).then(function (m) {
+            if (!patchManifest(m)) return url;                    // untouched → let Mirador fetch it
+            var blob = new Blob([JSON.stringify(m)], { type: "application/json" });
+            return URL.createObjectURL(blob);
+          }).catch(function () { return url; });                  // opaque / CORS-blocked → unchanged
+        }
+        Promise.all(manifests.map(resolveManifest)).then(function (resolved) {
+        var windows = resolved.map(function (m) { return { manifestId: m }; });
         var s = document.createElement("script");
         s.src = "https://unpkg.com/mirador@3.4.3/dist/mirador.min.js";
         s.onload = function () {
@@ -92,6 +136,7 @@
           document.getElementById("loading").textContent = "Could not load Mirador from the CDN.";
         };
         document.body.appendChild(s);
+        });
       })();
     </script>
   </body>
