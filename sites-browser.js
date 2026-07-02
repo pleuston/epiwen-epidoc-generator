@@ -163,7 +163,7 @@
         renderSections(children, kids);
       } else {
         kids.slice()
-          .sort(function (a, b) { return (a.title_en || a.id).localeCompare(b.title_en || b.id); })
+          .sort(kidSort)
           .forEach(function (k) { children.appendChild(renderObject(k)); });
       }
     }
@@ -221,17 +221,37 @@
     });
   }
 
-  // an object node (cave / wall) + its bracketed inscription sigla
+  // document order (seq) where the index provides it, else alphabetical
+  function kidSort(a, b) {
+    if (a.seq != null && b.seq != null) return a.seq - b.seq;
+    return (a.title_en || a.id).localeCompare(b.title_en || b.id);
+  }
+
+  // an object node (bearer / cave / wall / subsite) — expandable when it has
+  // children of its own (EpiDoc-CN: ◆ object → its inscriptions).
   function renderObject(obj) {
     var wrap = document.createElement("div");
+    var kids = (byParent[obj.id] || []).slice().sort(kidSort);
     var row = detailRow(obj);
-    row.appendChild(leafCaret());
+    var car = kids.length ? caret(false) : leafCaret();
+    row.appendChild(car);
+    var icon = obj.kind === "object" ? "◆ " : obj.kind === "inscription" ? "· " : "";
     var lab = document.createElement("span");
-    lab.innerHTML = label(obj) +
+    lab.innerHTML = esc(icon) + label(obj) +
       (obj.cave ? "" : '<span class="tree-id">' + esc(obj.id) + "</span>") +
       (obj.has_description ? '<span class="badge-desc">desc</span>' : "");
     row.appendChild(lab);
     wrap.appendChild(row);
+    if (kids.length) {
+      var box = document.createElement("div");
+      box.className = "tree-children";
+      kids.forEach(function (k) { box.appendChild(renderObject(k)); });
+      wrap.appendChild(box);
+      car.addEventListener("click", function (e) {
+        e.stopPropagation();
+        box.classList.toggle("open"); car.classList.toggle("open");
+      });
+    }
     return wrap;
   }
 
@@ -255,20 +275,29 @@
     editLink.onclick = function () {
       var c = cache[id] || {};
       var xml = c.siteXml || "";
-      // TEI place files (EpiDoc-CN model) route to the site editor's TEI mode,
-      // with the shared package as write target so Save round-trips.
-      if (xml && window.EpiDocCN && EpiDocCN.detect(xml) === "site") {
-        var sh = window.EpiCollections && EpiCollections.sharedPkg && rec.collection
-          ? EpiCollections.sharedPkg(rec.collection) : null;
+      // EpiDoc-CN files route to their tier's editor with the shared package as
+      // write target so Save round-trips; legacy sites keep the c:object form.
+      var kind = xml && window.EpiDocCN ? EpiDocCN.detect(xml) : null;
+      var sh = window.EpiCollections && EpiCollections.sharedPkg && rec.collection
+        ? EpiCollections.sharedPkg(rec.collection) : null;
+      var target = sh ? { owner: sh.owner, repo: sh.repo, branch: sh.branch,
+                          path: "collections/" + sh.id + "/" } : null;
+      if (kind === "site") {
         sessionStorage.setItem("epiwen_preload_site_tei", JSON.stringify({
-          rawXml: xml, filename: rec.catalog_file || (id + "_site.xml"),
-          _writeTarget: sh ? { owner: sh.owner, repo: sh.repo, branch: sh.branch,
-                               path: "collections/" + sh.id + "/" } : null
-        }));
+          rawXml: xml, filename: rec.catalog_file || (id + "_site.xml"), _writeTarget: target }));
+        window.location.href = "site-editor.html";
+      } else if (kind === "objectfile") {
+        sessionStorage.setItem("epiwen_preload_object", JSON.stringify({
+          rawXml: xml, filename: rec.catalog_file, _writeTarget: target }));
+        window.location.href = "object-editor.html";
+      } else if (kind === "inscription") {
+        sessionStorage.setItem("epiwen_preload", JSON.stringify({
+          rawXml: xml, filename: rec.catalog_file, _writeTarget: target }));
+        window.location.href = "editor.html";
       } else {
         sessionStorage.setItem("epiwen_preload_site", JSON.stringify({ id: id, xml: xml }));
+        window.location.href = "site-editor.html";
       }
-      window.location.href = "site-editor.html";
     };
 
     el("site-detail").innerHTML = '<div class="catalog-loading">Loading…</div>';
